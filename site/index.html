@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Market Research Feed</title>
+    <style>
+      :root {
+        --bg: #f5f7fb;
+        --card: #ffffff;
+        --text: #11203a;
+        --muted: #4c5a74;
+        --line: #d9dfeb;
+        --accent: #0f62fe;
+      }
+      body {
+        margin: 0;
+        font-family: "Segoe UI", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+        background: linear-gradient(160deg, #f5f7fb, #edf2ff);
+        color: var(--text);
+      }
+      main {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 32px 16px 56px;
+      }
+      h1 {
+        margin: 0 0 8px;
+      }
+      .meta {
+        color: var(--muted);
+        margin-bottom: 24px;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 16px;
+        margin-bottom: 14px;
+      }
+      .card h3 {
+        margin: 0 0 8px;
+        font-size: 18px;
+      }
+      .card p {
+        margin: 8px 0;
+        color: var(--muted);
+        white-space: pre-line;
+      }
+      .source {
+        font-size: 13px;
+        color: var(--muted);
+      }
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Security / IT / Finance News</h1>
+      <div id="meta" class="meta">Loading...</div>
+      <div id="news"></div>
+    </main>
+
+    <script>
+      const meta = document.getElementById("meta");
+      const news = document.getElementById("news");
+
+      fetch("../data/news.json")
+        .then((r) => r.json())
+        .then((payload) => {
+          const articles = payload.articles || [];
+          const generatedAt = payload.generated_at
+            ? new Date(payload.generated_at).toLocaleString()
+            : "N/A";
+
+          meta.textContent = `Updated: ${generatedAt} / Articles: ${articles.length}`;
+
+          if (!articles.length) {
+            news.innerHTML = "<p>No articles yet.</p>";
+            return;
+          }
+
+          news.innerHTML = articles
+            .map(
+              (n) => `
+                <article class="card">
+                  <h3><a href="${n.link}" target="_blank" rel="noopener noreferrer">${n.title}</a></h3>
+                  <p>${n.summary || ""}</p>
+                  <div class="source">${n.source || ""} ${n.published ? `| ${n.published}` : ""}</div>
+                </article>
+              `
+            )
+            .join("");
+        })
+        .catch(() => {
+          meta.textContent = "Failed to load data/news.json";
+        });
+    </script>
+  </body>
+</html>
