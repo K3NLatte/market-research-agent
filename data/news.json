@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-03-10T18:37:57.114887+00:00",
+  "generated_at": "2026-03-11T01:17:27.908831+00:00",
   "count": 40,
   "articles": [
+    {
+      "title": "Microsoft Patch Tuesday, March 2026 Edition",
+      "link": "https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/",
+      "raw_summary": "Microsoft Corp. today pushed security updates to fix at least 77 vulnerabilities in its Windows operating systems and other software. There are no pressing \"zero-day\" flaws this month (compared to February's five zero-day treat), but as usual some patches may deserve more rapid attention from organizations using Windows. Here are a few highlights from this month's Patch Tuesday.",
+      "source": "Krebs on Security",
+      "published": "Wed, 11 Mar 2026 00:32:51 +0000",
+      "summary": "Microsoft Patch Tuesday, March 2026 Edition\nMicrosoft Corp. today pushed security updates to fix at least 77 vulnerabilities in its Windows operating systems and other software. There are no pressing \"zero-day\" flaws this month (compared to February's five zero-day treat), but as usual some patches "
+    },
     {
       "title": "How AI Assistants are Moving the Security Goalposts",
       "link": "https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/",
@@ -33,14 +41,6 @@
       "source": "Krebs on Security",
       "published": "Wed, 11 Feb 2026 16:08:11 +0000",
       "summary": "Kimwolf Botnet Swamps Anonymity Network I2P\nFor the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P us"
-    },
-    {
-      "title": "Patch Tuesday, February 2026 Edition",
-      "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
-      "raw_summary": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
-      "source": "Krebs on Security",
-      "published": "Tue, 10 Feb 2026 21:49:53 +0000",
-      "summary": "Patch Tuesday, February 2026 Edition\nMicrosoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild."
     },
     {
       "title": "How to Stop AI Data Leaks: A Webinar Guide to Auditing Modern Agentic Workflows",
@@ -83,244 +83,244 @@
       "summary": "The Zero-Day Scramble is Avoidable: A Guide to Attack Surface Reduction\nYou can't control when the next critical vulnerability drops. You can control how much of your environment is exposed when it does. The problem is that most teams have more internet-facing exposure than they realise. Intruder's "
     },
     {
-      "title": "Billion-Parameter Theories",
-      "link": "https://www.worldgov.org/complexity.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.worldgov.org/complexity.html\">https://www.worldgov.org/complexity.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47326555\">https://news.ycombinator.com/item?id=47326555</a></p>\n<p>Points: 20</p>\n<p># Comments: 6</p>",
+      "title": "Universal vaccine against respiratory infections and allergens",
+      "link": "https://med.stanford.edu/news/all-news/2026/02/universal-vaccine.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://med.stanford.edu/news/all-news/2026/02/universal-vaccine.html\">https://med.stanford.edu/news/all-news/2026/02/universal-vaccine.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47329608\">https://news.ycombinator.com/item?id=47329608</a></p>\n<p>Points: 79</p>\n<p># Comments: 17</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 10 Mar 2026 17:49:53 +0000",
-      "summary": "Billion-Parameter Theories\n<p>Article URL: <a href=\"https://www.worldgov.org/complexity.html\">https://www.worldgov.org/complexity.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47326555\">https://news.ycombinator.com/item?id=47326555</a></p>\n<p>Points: 20</p>\n<p># Comment"
+      "published": "Tue, 10 Mar 2026 22:33:48 +0000",
+      "summary": "Universal vaccine against respiratory infections and allergens\n<p>Article URL: <a href=\"https://med.stanford.edu/news/all-news/2026/02/universal-vaccine.html\">https://med.stanford.edu/news/all-news/2026/02/universal-vaccine.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id="
     },
     {
-      "title": "Show HN: RunAnwhere – Faster AI Inference on Apple Silicon",
-      "link": "https://github.com/RunanywhereAI/rcli",
-      "raw_summary": "<p>Hi HN, we're Sanchit and Shubham (YC W26). We built a fast inference engine for Apple Silicon. LLMs, speech-to-text, text-to-speech – MetalRT beats llama.cpp, Apple's MLX, Ollama, and sherpa-onnx on every modality we tested. Custom Metal shaders, no framework overhead.<p>Also, we've open-sourced RCLI, the fastest end-to-end voice AI pipeline on Apple Silicon. Mic to spoken response, entirely on-device. No cloud, no API keys.<p>To get started:<p><pre><code>  brew tap RunanywhereAI/rcli https://github.com/RunanywhereAI/RCLI.git\n  brew install rcli\n  rcli setup   # downloads ~1 GB of models\n  rcli         # interactive mode with push-to-talk\n</code></pre>\nOr:<p><pre><code>  curl -fsSL https://raw.githubusercontent.com/RunanywhereAI/RCLI/main/install.sh | bash\n</code></pre>\nThe numbers (M4 Max, 64 GB, reproducible via `rcli bench`):<p>LLM decode – 1.67x faster than llama.cpp, 1.19x faster than Apple MLX (same model files):\n- Qwen3-0.6B: 658 tok/s (vs mlx-lm 552, llama.cpp 295)\n- Qwen3-4B: 186 tok/s (vs mlx-lm 170, llama.cpp 87)\n- LFM2.5-1.2B: 570 tok/s (vs mlx-lm 509, llama.cpp 372)\n- Time-to-first-token: 6.6 ms<p>STT – 70 seconds of audio transcribed in *101 ms*. That's 714x real-time. 4.6x faster than mlx-whisper.<p>TTS – 178 ms synthesis. 2.8x faster than mlx-audio and sherpa-onnx.<p>We built this because demoing on-device AI is easy but shipping it is brutal. Voice is the hardest test: you're chaining STT, LLM, and TTS sequentially, and if any stage is slow, the user feels it. Most teams fall back to cloud APIs not because local models are bad, but because local inference infrastructure is.<p>The thing that's hard to solve is latency compounding. In a voice pipeline, you're stacking three models in sequence. If each adds 200ms, you're at 600ms before the user hears a word, and that feels broken. You can't optimize one stage and call it done. Every stage needs to be fast, on one device, with no network round-trip to hide behind.<p>We went straight to Metal. Custom GPU compute shaders, all memory pre-allocated at init (zero allocations during inference), and one unified engine for all three modalities instead of stitching separate runtimes together.<p>MetalRT is the first engine to handle all three modalities natively on Apple Silicon. Full methodology:<p>LLM benchmarks: <a href=\"https://www.runanywhere.ai/blog/metalrt-fastest-llm-decode-engine-apple-silicon\">https://www.runanywhere.ai/blog/metalrt-fastest-llm-decode-e...</a><p>Speech benchmarks: <a href=\"https://www.runanywhere.ai/blog/metalrt-speech-fastest-stt-tts-apple-silicon\">https://www.runanywhere.ai/blog/metalrt-speech-fastest-stt-t...</a><p>How: Most inference engines add layers between you and the GPU: graph schedulers, runtime dispatchers, memory managers. MetalRT skips all of it. Custom Metal compute shaders for quantized matmul, attention, and activation - compiled ahead of time, dispatched directly.<p>Voice Pipeline optimizations details: <a href=\"https://www.runanywhere.ai/blog/fastvoice-on-device-voice-ai-pipeline-apple-silicon\">https://www.runanywhere.ai/blog/fastvoice-on-device-voice-ai...</a>\nRAG optimizations: <a href=\"https://www.runanywhere.ai/blog/fastvoice-rag-on-device-retrieval-augmented-voice-ai\">https://www.runanywhere.ai/blog/fastvoice-rag-on-device-retr...</a><p>RCLI is the open-source voice pipeline (MIT) built on MetalRT: three concurrent threads with lock-free ring buffers, double-buffered TTS, 38 macOS actions by voice, local RAG (~4 ms over 5K+ chunks), 20 hot-swappable models, and a full-screen TUI with per-op latency readouts. Falls back to llama.cpp when MetalRT isn't installed.<p>Source: <a href=\"https://github.com/RunanywhereAI/RCLI\" rel=\"nofollow\">https://github.com/RunanywhereAI/RCLI</a> (MIT)<p>Demo: <a href=\"https://www.youtube.com/watch?v=eTYwkgNoaKg\" rel=\"nofollow\">https://www.youtube.com/watch?v=eTYwkgNoaKg</a><p>What would you build if on-device AI were genuinely as fast as cloud?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47326101\">https://news.ycombinator.com/item?id=47326101</a></p>\n<p>Points: 86</p>\n<p># Comments: 23</p>",
+      "title": "U+237C ⍼ Is Azimuth",
+      "link": "https://ionathan.ch/2026/02/16/angzarr.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://ionathan.ch/2026/02/16/angzarr.html\">https://ionathan.ch/2026/02/16/angzarr.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47329605\">https://news.ycombinator.com/item?id=47329605</a></p>\n<p>Points: 106</p>\n<p># Comments: 9</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 10 Mar 2026 17:14:52 +0000",
-      "summary": "Show HN: RunAnwhere – Faster AI Inference on Apple Silicon\n<p>Hi HN, we're Sanchit and Shubham (YC W26). We built a fast inference engine for Apple Silicon. LLMs, speech-to-text, text-to-speech – MetalRT beats llama.cpp, Apple's MLX, Ollama, and sherpa-onnx on every modality we tested. Custom Metal "
+      "published": "Tue, 10 Mar 2026 22:33:45 +0000",
+      "summary": "U+237C ⍼ Is Azimuth\n<p>Article URL: <a href=\"https://ionathan.ch/2026/02/16/angzarr.html\">https://ionathan.ch/2026/02/16/angzarr.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47329605\">https://news.ycombinator.com/item?id=47329605</a></p>\n<p>Points: 106</p>\n<p># Comment"
     },
     {
-      "title": "Defeat as Method",
-      "link": "https://www.cabinetmagazine.org/issues/71/khosravi.php",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.cabinetmagazine.org/issues/71/khosravi.php\">https://www.cabinetmagazine.org/issues/71/khosravi.php</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47326025\">https://news.ycombinator.com/item?id=47326025</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
+      "title": "Cloudflare Crawl Endpoint",
+      "link": "https://developers.cloudflare.com/changelog/post/2026-03-10-br-crawl-endpoint/",
+      "raw_summary": "<p>Article URL: <a href=\"https://developers.cloudflare.com/changelog/post/2026-03-10-br-crawl-endpoint/\">https://developers.cloudflare.com/changelog/post/2026-03-10-br-crawl-endpoint/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47329557\">https://news.ycombinator.com/item?id=47329557</a></p>\n<p>Points: 93</p>\n<p># Comments: 46</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 10 Mar 2026 17:07:27 +0000",
-      "summary": "Defeat as Method\n<p>Article URL: <a href=\"https://www.cabinetmagazine.org/issues/71/khosravi.php\">https://www.cabinetmagazine.org/issues/71/khosravi.php</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47326025\">https://news.ycombinator.com/item?id=47326025</a></p>\n<p>Points: 6"
+      "published": "Tue, 10 Mar 2026 22:27:15 +0000",
+      "summary": "Cloudflare Crawl Endpoint\n<p>Article URL: <a href=\"https://developers.cloudflare.com/changelog/post/2026-03-10-br-crawl-endpoint/\">https://developers.cloudflare.com/changelog/post/2026-03-10-br-crawl-endpoint/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47329557\">https://n"
     },
     {
-      "title": "I built a programming language using Claude Code",
-      "link": "https://ankursethi.com/blog/programming-language-claude-code/",
-      "raw_summary": "<p>Article URL: <a href=\"https://ankursethi.com/blog/programming-language-claude-code/\">https://ankursethi.com/blog/programming-language-claude-code/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47325595\">https://news.ycombinator.com/item?id=47325595</a></p>\n<p>Points: 43</p>\n<p># Comments: 53</p>",
+      "title": "RISC-V Is Sloooow",
+      "link": "https://marcin.juszkiewicz.com.pl/2026/03/10/risc-v-is-sloooow/",
+      "raw_summary": "<p>Article URL: <a href=\"https://marcin.juszkiewicz.com.pl/2026/03/10/risc-v-is-sloooow/\">https://marcin.juszkiewicz.com.pl/2026/03/10/risc-v-is-sloooow/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47328214\">https://news.ycombinator.com/item?id=47328214</a></p>\n<p>Points: 156</p>\n<p># Comments: 140</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 10 Mar 2026 16:37:29 +0000",
-      "summary": "I built a programming language using Claude Code\n<p>Article URL: <a href=\"https://ankursethi.com/blog/programming-language-claude-code/\">https://ankursethi.com/blog/programming-language-claude-code/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47325595\">https://news.ycombin"
+      "published": "Tue, 10 Mar 2026 20:11:54 +0000",
+      "summary": "RISC-V Is Sloooow\n<p>Article URL: <a href=\"https://marcin.juszkiewicz.com.pl/2026/03/10/risc-v-is-sloooow/\">https://marcin.juszkiewicz.com.pl/2026/03/10/risc-v-is-sloooow/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47328214\">https://news.ycombinator.com/item?id=47328214</"
     },
     {
-      "title": "Show HN: A modern React onboarding tour library",
-      "link": "https://github.com/btahir/react-tourlight",
-      "raw_summary": "<p>react-tourlight is the modern React tour library. Zero dependencies, WCAG 2.1 AA accessible, under 5 kB gzipped. The one that works with React 19.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47325273\">https://news.ycombinator.com/item?id=47325273</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "title": "Tell HN: Apple development certificate server seems down?",
+      "link": "https://news.ycombinator.com/item?id=47328034",
+      "raw_summary": "<p>I don't see anything on <a href=\"https://developer.apple.com/system-status/\" rel=\"nofollow\">https://developer.apple.com/system-status/</a>, but I haven't been able to install apps for development on my own devices starting at 11AM PDT.<p>Other people on Reddit seem to be hitting this too [0]. Anyone knows anything about it?<p>[0]: <a href=\"https://www.reddit.com/r/iOSProgramming/comments/1rq4uxl\" rel=\"nofollow\">https://www.reddit.com/r/iOSProgramming/comments/1rq4uxl</a><p>Edit: Now getting intermittent 502s from <a href=\"https://ppq.apple.com/\" rel=\"nofollow\">https://ppq.apple.com/</a>. Something is definitely going on.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47328034\">https://news.ycombinator.com/item?id=47328034</a></p>\n<p>Points: 52</p>\n<p># Comments: 22</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 10 Mar 2026 16:17:27 +0000",
-      "summary": "Show HN: A modern React onboarding tour library\n<p>react-tourlight is the modern React tour library. Zero dependencies, WCAG 2.1 AA accessible, under 5 kB gzipped. The one that works with React 19.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47325273\">https://news.ycomb"
+      "published": "Tue, 10 Mar 2026 19:56:52 +0000",
+      "summary": "Tell HN: Apple development certificate server seems down?\n<p>I don't see anything on <a href=\"https://developer.apple.com/system-status/\" rel=\"nofollow\">https://developer.apple.com/system-status/</a>, but I haven't been able to install apps for development on my own devices starting at 11AM PDT.<p>O"
     },
     {
-      "title": "Mandiant’s founder just raised $190M for his autonomous AI agent security startup",
-      "link": "https://techcrunch.com/2026/03/10/mandiants-founder-just-raised-190m-for-his-autonomous-ai-agent-security-startup/",
-      "raw_summary": "Mandia, who sold his previous company Mandiant to Google for $5.4 billion in 2022, has launched an agentic security startup.",
+      "title": "In a vote of confidence for Meta’s Threads, Kalshi adds sharing feature",
+      "link": "https://techcrunch.com/2026/03/10/in-a-vote-of-confidence-for-metas-threads-kalshi-adds-sharing-feature/",
+      "raw_summary": "Kalshi now offers a share option that will automatically embed the relevant prediction market chart into a Threads post.",
       "source": "TechCrunch",
-      "published": "Tue, 10 Mar 2026 18:21:07 +0000",
-      "summary": "Mandiant’s founder just raised $190M for his autonomous AI agent security startup\nMandia, who sold his previous company Mandiant to Google for $5.4 billion in 2022, has launched an agentic security startup."
+      "published": "Tue, 10 Mar 2026 23:01:47 +0000",
+      "summary": "In a vote of confidence for Meta’s Threads, Kalshi adds sharing feature\nKalshi now offers a share option that will automatically embed the relevant prediction market chart into a Threads post."
     },
     {
-      "title": "ChatGPT can now create interactive visuals to help you understand math and science concepts",
-      "link": "https://techcrunch.com/2026/03/10/chatgpt-can-now-create-interactive-visuals-to-help-you-understand-math-and-science-concepts/",
-      "raw_summary": "On Tuesday, OpenAI introduced dynamic visual explanations, a new ChatGPT feature that allows users to see how formulas, variables, and mathematical relationships change in real time.  Instead of just reading an explanation or looking at a static diagram, users can now interact directly with interactive visuals. For example, when exploring the Pythagorean theorem, you can [&#8230;]",
+      "title": "Google and Tesla think we’re managing the electrical grid all wrong",
+      "link": "https://techcrunch.com/2026/03/10/google-and-tesla-think-were-managing-the-electrical-grid-all-wrong/",
+      "raw_summary": "The duo have teamed up with other companies to launch Utilize, which seeks to change how the grid is used and regulated.",
       "source": "TechCrunch",
-      "published": "Tue, 10 Mar 2026 17:51:25 +0000",
-      "summary": "ChatGPT can now create interactive visuals to help you understand math and science concepts\nOn Tuesday, OpenAI introduced dynamic visual explanations, a new ChatGPT feature that allows users to see how formulas, variables, and mathematical relationships change in real time.  Instead of just reading "
+      "published": "Tue, 10 Mar 2026 20:42:44 +0000",
+      "summary": "Google and Tesla think we’re managing the electrical grid all wrong\nThe duo have teamed up with other companies to launch Utilize, which seeks to change how the grid is used and regulated."
     },
     {
-      "title": "U.S. military contractor likely built iPhone hacking tools used by Russian spies in Ukraine",
-      "link": "https://techcrunch.com/2026/03/10/us-military-contractor-likely-built-iphone-hacking-tools-used-by-russian-spies-in-ukraine/",
-      "raw_summary": "Google found a series of hacking tools they said were used by a Russian espionage group and a cybercriminal group in China. Sources from a U.S. government defense contractor said some of those hacking tools were theirs.",
+      "title": "Amazon launches its healthcare AI assistant on its website and app",
+      "link": "https://techcrunch.com/2026/03/10/amazon-launches-its-healthcare-ai-assistant-on-its-website-and-app/",
+      "raw_summary": "Health AI can answer questions, explain health records, manage prescription renewals, book appointments, and more.",
       "source": "TechCrunch",
-      "published": "Tue, 10 Mar 2026 17:44:22 +0000",
-      "summary": "U.S. military contractor likely built iPhone hacking tools used by Russian spies in Ukraine\nGoogle found a series of hacking tools they said were used by a Russian espionage group and a cybercriminal group in China. Sources from a U.S. government defense contractor said some of those hacking tools w"
+      "published": "Tue, 10 Mar 2026 20:10:06 +0000",
+      "summary": "Amazon launches its healthcare AI assistant on its website and app\nHealth AI can answer questions, explain health records, manage prescription renewals, book appointments, and more."
     },
     {
-      "title": "‘Pokémon Pokopia’ is even better than ‘Animal Crossing: New Horizons’",
-      "link": "https://techcrunch.com/2026/03/10/pokemon-pokopia-is-even-better-than-animal-crossing-new-horizons/",
-      "raw_summary": "While \"Animal Crossing\" is pure escapism, \"Pokopia\" gives you the sensation of actually rehabilitating a broken world.",
+      "title": "DOGE employee stole Social Security data and put it on a thumb drive, report says",
+      "link": "https://techcrunch.com/2026/03/10/doge-employee-stole-social-security-data-and-put-it-on-a-thumb-drive-report-says/",
+      "raw_summary": "A whistleblower is accusing a former DOGE member of stealing a large number of Americans’ personal data while he was working at the Social Security Administration, with the plan of using it at his new job.",
       "source": "TechCrunch",
-      "published": "Tue, 10 Mar 2026 16:00:15 +0000",
-      "summary": "‘Pokémon Pokopia’ is even better than ‘Animal Crossing: New Horizons’\nWhile \"Animal Crossing\" is pure escapism, \"Pokopia\" gives you the sensation of actually rehabilitating a broken world."
+      "published": "Tue, 10 Mar 2026 20:09:51 +0000",
+      "summary": "DOGE employee stole Social Security data and put it on a thumb drive, report says\nA whistleblower is accusing a former DOGE member of stealing a large number of Americans’ personal data while he was working at the Social Security Administration, with the plan of using it at his new job."
     },
     {
-      "title": "AgentMail raises $6M to build an email service for AI agents",
-      "link": "https://techcrunch.com/2026/03/10/agentmail-raises-6m-to-build-an-email-service-for-ai-agents/",
-      "raw_summary": "AgentMail provides an API platform that lets you give AI agents their own email inboxes, with support for two-way conversations, parsing, threading, labeling, searching, and replying.",
+      "title": "‘Pokémon Pokopia’ is a game about rehabilitating a broken world — and I love it",
+      "link": "https://techcrunch.com/2026/03/10/pokemon-pokopia-review-animal-crossing-ditto-nintendo-switch/",
+      "raw_summary": "The latest Pokémon game is a cozy life simulator like \"Animal Crossing\" or \"Minecraft,\" but in a way that feels more grounded to our actual world.",
       "source": "TechCrunch",
-      "published": "Tue, 10 Mar 2026 16:00:00 +0000",
-      "summary": "AgentMail raises $6M to build an email service for AI agents\nAgentMail provides an API platform that lets you give AI agents their own email inboxes, with support for two-way conversations, parsing, threading, labeling, searching, and replying."
+      "published": "Tue, 10 Mar 2026 19:48:14 +0000",
+      "summary": "‘Pokémon Pokopia’ is a game about rehabilitating a broken world — and I love it\nThe latest Pokémon game is a cozy life simulator like \"Animal Crossing\" or \"Minecraft,\" but in a way that feels more grounded to our actual world."
     },
     {
-      "title": "Gemini burrows deeper into Google Workspace with revamped document creation and editing",
-      "link": "https://arstechnica.com/ai/2026/03/gemini-burrows-deeper-into-google-workspace-with-revamped-document-creation-and-editing/",
-      "raw_summary": "Gemini can now pull context from your files, emails, and more to create and edit documents.",
+      "title": "Reentry of NASA satellite will exceed the agency's risk guidelines",
+      "link": "https://arstechnica.com/space/2026/03/nasa-approved-a-safety-waiver-for-this-weeks-reentry-of-van-allen-probe/",
+      "raw_summary": "\"Due to late-stage design changes, the potential risk of uncontrolled reentry increased.\"",
       "source": "Ars Technica - All content",
-      "published": "Tue, 10 Mar 2026 16:01:52 +0000",
-      "summary": "Gemini burrows deeper into Google Workspace with revamped document creation and editing\nGemini can now pull context from your files, emails, and more to create and edit documents."
+      "published": "Tue, 10 Mar 2026 23:01:36 +0000",
+      "summary": "Reentry of NASA satellite will exceed the agency's risk guidelines\n\"Due to late-stage design changes, the potential risk of uncontrolled reentry increased.\""
     },
     {
-      "title": "Ig Nobels ceremony moves to Europe over security concerns",
-      "link": "https://arstechnica.com/science/2026/03/ig-nobels-ceremony-moves-to-europe-over-security-concerns/",
-      "raw_summary": "Marc Abraham: “During the past year, it has become unsafe for our guests to visit the country.\"",
+      "title": "FDA contradicts Trump admin, declines to approve generic drug for autism",
+      "link": "https://arstechnica.com/health/2026/03/fda-contradicts-trump-admin-declines-to-approve-generic-drug-for-autism/",
+      "raw_summary": "In the end, the FDA only approved the drug for a rare genetic condition with clearer data.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 10 Mar 2026 14:05:51 +0000",
-      "summary": "Ig Nobels ceremony moves to Europe over security concerns\nMarc Abraham: “During the past year, it has become unsafe for our guests to visit the country.\""
+      "published": "Tue, 10 Mar 2026 22:12:35 +0000",
+      "summary": "FDA contradicts Trump admin, declines to approve generic drug for autism\nIn the end, the FDA only approved the drug for a rare genetic condition with clearer data."
     },
     {
-      "title": "These new winter tires have studs that retract as it warms up",
-      "link": "https://arstechnica.com/cars/2026/03/these-new-winter-tires-have-studs-that-retract-as-it-warms-up/",
-      "raw_summary": "Clever polymer science and a little robotic precision created the Hakkapeliitta 01.",
+      "title": "AI can rewrite open source code—but can it rewrite the license, too?",
+      "link": "https://arstechnica.com/ai/2026/03/ai-can-rewrite-open-source-code-but-can-it-rewrite-the-license-too/",
+      "raw_summary": "Is it clean \"reverse engineering\" or just an LLM-filtered \"derivative work\"?",
       "source": "Ars Technica - All content",
-      "published": "Tue, 10 Mar 2026 13:28:10 +0000",
-      "summary": "These new winter tires have studs that retract as it warms up\nClever polymer science and a little robotic precision created the Hakkapeliitta 01."
+      "published": "Tue, 10 Mar 2026 19:36:05 +0000",
+      "summary": "AI can rewrite open source code—but can it rewrite the license, too?\nIs it clean \"reverse engineering\" or just an LLM-filtered \"derivative work\"?"
     },
     {
-      "title": "After outages, Amazon to make senior engineers sign off on AI-assisted changes",
-      "link": "https://arstechnica.com/ai/2026/03/after-outages-amazon-to-make-senior-engineers-sign-off-on-ai-assisted-changes/",
-      "raw_summary": "AWS has suffered at least two incidents linked to the use of AI coding assistants.",
+      "title": "Meta acquires Moltbook, the AI agent social network",
+      "link": "https://arstechnica.com/ai/2026/03/meta-acquires-moltbook-the-ai-agent-social-network/",
+      "raw_summary": "The viral social network project was created with OpenClaw.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 10 Mar 2026 13:16:45 +0000",
-      "summary": "After outages, Amazon to make senior engineers sign off on AI-assisted changes\nAWS has suffered at least two incidents linked to the use of AI coding assistants."
+      "published": "Tue, 10 Mar 2026 19:02:55 +0000",
+      "summary": "Meta acquires Moltbook, the AI agent social network\nThe viral social network project was created with OpenClaw."
     },
     {
-      "title": "Apple MacBook Neo review: Can a Mac get by with an iPhone’s processor inside?",
-      "link": "https://arstechnica.com/gadgets/2026/03/apple-macbook-neo-review-can-a-mac-get-by-with-an-iphones-processor-inside/",
-      "raw_summary": "8GB of RAM is a bummer, but this $599 laptop cuts most of the right corners.",
+      "title": "After complaints, Google will make it easier to disable gen AI search in Photos",
+      "link": "https://arstechnica.com/ai/2026/03/google-backtracks-on-ai-search-in-photos-adds-toggle-for-fast-classic-search/",
+      "raw_summary": "One toggle for \"fast classic search.\"",
       "source": "Ars Technica - All content",
-      "published": "Tue, 10 Mar 2026 13:00:02 +0000",
-      "summary": "Apple MacBook Neo review: Can a Mac get by with an iPhone’s processor inside?\n8GB of RAM is a bummer, but this $599 laptop cuts most of the right corners."
+      "published": "Tue, 10 Mar 2026 18:37:12 +0000",
+      "summary": "After complaints, Google will make it easier to disable gen AI search in Photos\nOne toggle for \"fast classic search.\""
     },
     {
-      "title": "Europe looks to shield consumers from high energy prices",
-      "link": "https://www.ft.com/content/27c31572-a73f-46ee-a6ed-82a406b39c84",
-      "raw_summary": "France and Italy are monitoring petrol prices for evidence of price gouging",
+      "title": "Trump administration’s mixed messaging sparks wild swings in oil markets",
+      "link": "https://www.ft.com/content/26f34fbf-226e-4957-beda-a9dbd2e0477a",
+      "raw_summary": "Confusion over US naval escorts in Strait of Hormuz exposes lack of clarity over war aims",
       "source": "World",
-      "published": "Tue, 10 Mar 2026 18:16:37 GMT",
-      "summary": "Europe looks to shield consumers from high energy prices\nFrance and Italy are monitoring petrol prices for evidence of price gouging"
+      "published": "Wed, 11 Mar 2026 00:30:17 GMT",
+      "summary": "Trump administration’s mixed messaging sparks wild swings in oil markets\nConfusion over US naval escorts in Strait of Hormuz exposes lack of clarity over war aims"
     },
     {
-      "title": "There is no easy exit to Trump’s war",
-      "link": "https://www.ft.com/content/b9c7ff46-a3bc-4b64-b8e6-b88a08d7d022",
-      "raw_summary": "The US and Israeli attacks on Iran will leave the Middle East in greater turmoil",
+      "title": "Net zero will cost less than fossil fuel price rise, UK climate adviser says",
+      "link": "https://www.ft.com/content/d1632ddc-2189-44ab-9b1c-72164354ee18",
+      "raw_summary": "Climate Change Committee report comes after days of turbulence in global energy markets",
       "source": "World",
-      "published": "Tue, 10 Mar 2026 18:02:51 GMT",
-      "summary": "There is no easy exit to Trump’s war\nThe US and Israeli attacks on Iran will leave the Middle East in greater turmoil"
+      "published": "Wed, 11 Mar 2026 00:01:08 GMT",
+      "summary": "Net zero will cost less than fossil fuel price rise, UK climate adviser says\nClimate Change Committee report comes after days of turbulence in global energy markets"
     },
     {
-      "title": "The ‘number station’ sending mystery messages to Iran",
-      "link": "https://www.ft.com/content/86c4a4ca-ca06-4fc8-90fe-4f46357b804f",
-      "raw_summary": "Radio station is broadcasting apparent coded messages in Farsi, echoing the cold war",
+      "title": "UK government does not know what it spends on consultants, say MPs",
+      "link": "https://www.ft.com/content/f7fffc8e-1b5b-4466-9e73-f870e6fdb1ac",
+      "raw_summary": "Public accounts committee finds lack of accurate data prevents setting of ‘meaningful targets’",
       "source": "World",
-      "published": "Tue, 10 Mar 2026 17:13:03 GMT",
-      "summary": "The ‘number station’ sending mystery messages to Iran\nRadio station is broadcasting apparent coded messages in Farsi, echoing the cold war"
+      "published": "Wed, 11 Mar 2026 00:01:08 GMT",
+      "summary": "UK government does not know what it spends on consultants, say MPs\nPublic accounts committee finds lack of accurate data prevents setting of ‘meaningful targets’"
     },
     {
-      "title": "Nigel Farage U-turns on his Iran war position",
-      "link": "https://www.ft.com/content/fc83a7b6-8b50-456c-ad7a-7f0f72a8bc4e",
-      "raw_summary": "Reform leader said last week that ‘the gloves need to come off’ but now calls for caution over the UK’s involvement",
+      "title": "US destroys 16 minelayers near Strait of Hormuz, Centcom says",
+      "link": "https://www.ft.com/content/ad111a3e-ee44-4614-8be1-bef695cdc51b",
+      "raw_summary": "Oil price swings as traders parse mixed messages on US naval escorts in crucial waterway",
       "source": "World",
-      "published": "Tue, 10 Mar 2026 17:04:40 GMT",
-      "summary": "Nigel Farage U-turns on his Iran war position\nReform leader said last week that ‘the gloves need to come off’ but now calls for caution over the UK’s involvement"
+      "published": "Tue, 10 Mar 2026 23:55:56 GMT",
+      "summary": "US destroys 16 minelayers near Strait of Hormuz, Centcom says\nOil price swings as traders parse mixed messages on US naval escorts in crucial waterway"
     },
     {
-      "title": "Women Without Men — Shahrnush Parsipur’s powerful tale of misogyny and escape in Iran",
-      "link": "https://www.ft.com/content/493c6245-bb4e-49c2-b726-46feb2f160a1",
-      "raw_summary": "The Booker-longlisted novel follows the interwoven stories of five characters in search of new, sometimes surreal, destinies",
+      "title": "Microsoft backs Anthropic in legal fight with the Pentagon",
+      "link": "https://www.ft.com/content/4efa382a-3c77-4515-bb0f-ab5f0450037e",
+      "raw_summary": "Software giant throws its weight behind the AI start-up’s lawsuit challenging its designation as a supply chain risk",
       "source": "World",
-      "published": "Tue, 10 Mar 2026 17:00:04 GMT",
-      "summary": "Women Without Men — Shahrnush Parsipur’s powerful tale of misogyny and escape in Iran\nThe Booker-longlisted novel follows the interwoven stories of five characters in search of new, sometimes surreal, destinies"
+      "published": "Tue, 10 Mar 2026 23:27:08 GMT",
+      "summary": "Microsoft backs Anthropic in legal fight with the Pentagon\nSoftware giant throws its weight behind the AI start-up’s lawsuit challenging its designation as a supply chain risk"
     },
     {
-      "title": "Stocks Whipsawed by Oil Volatility Amid Iran War: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-09/oil-drops-as-trump-signals-iran-conflict-near-end-markets-wrap",
-      "raw_summary": "A fresh bout of volatility whipsawed stocks as traders parsed conflicting signals about the outlook for oil supplies as the war in Iran rattles global energy markets.",
+      "title": "Vanda Insights on Oil Markets, IEA Report",
+      "link": "https://www.bloomberg.com/news/videos/2026-03-11/vanda-insights-on-oil-markets-iea-report-video",
+      "raw_summary": "Vandana Hari, Founder of Vanda Insights, discusses her outlook on the oil markets following a report saying the International Energy Agency is proposing the largest release of reserves in history to tackle elevated prices. She speaks with Haidi Stroud-Watts and Avril Hong on Bloomberg: The Asia Trade. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Mon, 09 Mar 2026 22:24:49 GMT",
-      "summary": "Stocks Whipsawed by Oil Volatility Amid Iran War: Markets Wrap\nA fresh bout of volatility whipsawed stocks as traders parsed conflicting signals about the outlook for oil supplies as the war in Iran rattles global energy markets."
+      "published": "Wed, 11 Mar 2026 01:05:48 GMT",
+      "summary": "Vanda Insights on Oil Markets, IEA Report\nVandana Hari, Founder of Vanda Insights, discusses her outlook on the oil markets following a report saying the International Energy Agency is proposing the largest release of reserves in history to tackle elevated prices. She speaks with Haidi Stroud-Watts "
     },
     {
-      "title": "Gold Rises With Dollar Weakness as Traders Weigh Rate Outlook",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-09/gold-steadies-after-trump-signals-iran-war-may-be-nearing-end",
-      "raw_summary": "Gold advanced as the dollar pushed lower, with traders assessing the outlook for monetary easing following a slide in oil prices.",
+      "title": "HK Family Offices Plan More Crypto, Private Markets Exposure",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-10/hk-family-offices-plan-more-crypto-private-markets-exposure",
+      "raw_summary": "Many Hong Kong-based family offices are planning to add exposure to private equity and digital assets over the next three years, according to a report commissioned by local authorities.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 09 Mar 2026 22:20:41 GMT",
-      "summary": "Gold Rises With Dollar Weakness as Traders Weigh Rate Outlook\nGold advanced as the dollar pushed lower, with traders assessing the outlook for monetary easing following a slide in oil prices."
+      "published": "Tue, 10 Mar 2026 11:01:15 GMT",
+      "summary": "HK Family Offices Plan More Crypto, Private Markets Exposure\nMany Hong Kong-based family offices are planning to add exposure to private equity and digital assets over the next three years, according to a report commissioned by local authorities."
     },
     {
-      "title": "Oil Pares Losses on Report US Didn’t Escort Crude Tanker",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-10/oil-falls-15-as-global-leaders-race-to-blunt-supply-shock",
-      "raw_summary": "Oil prices quickly pared losses after Bloomberg News reported that there was no US escort of oil tanker through the Strait of Hormuz.",
+      "title": "Haleon CEO: China and India are Key Markets",
+      "link": "https://www.bloomberg.com/news/videos/2026-03-11/haleon-ceo-china-and-india-are-key-markets-video",
+      "raw_summary": "Brian McNamara, CEO at consumer health company Haleon, discusses the company's business strategy as it sees China and growth markets like India as key priorities to expand its product portfolio. He speaks with Haidi Stroud-Watts and Avril Hong on Bloomberg: The Asia Trade. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Tue, 10 Mar 2026 17:15:25 GMT",
-      "summary": "Oil Pares Losses on Report US Didn’t Escort Crude Tanker\nOil prices quickly pared losses after Bloomberg News reported that there was no US escort of oil tanker through the Strait of Hormuz."
+      "published": "Wed, 11 Mar 2026 01:03:28 GMT",
+      "summary": "Haleon CEO: China and India are Key Markets\nBrian McNamara, CEO at consumer health company Haleon, discusses the company's business strategy as it sees China and growth markets like India as key priorities to expand its product portfolio. He speaks with Haidi Stroud-Watts and Avril Hong on Bloomberg"
     },
     {
-      "title": "US Didn’t Escort a Tanker Through Hormuz, Despite Wright’s Post",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-10/us-escorted-an-oil-tanker-through-the-strait-of-hormuz-wright",
-      "raw_summary": "Energy Secretary Chris Wright’s office appeared to delete a social media post saying erroneously that the US Navy escorted a tanker through the Strait of Hormuz, adding to confusion in a volatile oil market.",
+      "title": "Oil Swings on Report IEA Proposing Largest Ever Reserves Release",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-10/latest-oil-market-news-and-analysis-for-march-11",
+      "raw_summary": "Oil gave up earlier gains and fluctuated after a Wall Street Journal report that the IEA is proposing the largest release of reserves in its history to tackle elevated prices triggered by the Iran war.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 10 Mar 2026 17:20:36 GMT",
-      "summary": "US Didn’t Escort a Tanker Through Hormuz, Despite Wright’s Post\nEnergy Secretary Chris Wright’s office appeared to delete a social media post saying erroneously that the US Navy escorted a tanker through the Strait of Hormuz, adding to confusion in a volatile oil market."
+      "published": "Tue, 10 Mar 2026 22:12:34 GMT",
+      "summary": "Oil Swings on Report IEA Proposing Largest Ever Reserves Release\nOil gave up earlier gains and fluctuated after a Wall Street Journal report that the IEA is proposing the largest release of reserves in its history to tackle elevated prices triggered by the Iran war."
     },
     {
-      "title": "Nigeria Halts Gasoline Import Permits in a Win for Dangote",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-10/nigeria-halts-gasoline-import-permits-in-a-win-for-dangote",
-      "raw_summary": "Nigeria halted the issuance of import licenses for gasoline, a major win for billionaire Aliko Dangote, who controls Africa’s largest refinery and has long called for the move.",
+      "title": "Oil Falls on Report That IEA Plans Largest Ever Stockpile Release",
+      "link": "https://www.bloomberg.com/news/live-blog/2026-03-11/iran-latest",
+      "raw_summary": "",
       "source": "Bloomberg Markets",
-      "published": "Tue, 10 Mar 2026 15:43:34 GMT",
-      "summary": "Nigeria Halts Gasoline Import Permits in a Win for Dangote\nNigeria halted the issuance of import licenses for gasoline, a major win for billionaire Aliko Dangote, who controls Africa’s largest refinery and has long called for the move."
+      "published": "Wed, 11 Mar 2026 00:50:19 GMT",
+      "summary": "Oil Falls on Report That IEA Plans Largest Ever Stockpile Release\n"
     },
     {
-      "title": "Circle could rally 60% more on stablecoin adoption, AI agentic finance, Bernstein says",
-      "link": "https://www.coindesk.com/markets/2026/03/10/circle-could-rally-60-more-on-stablecoin-adoption-ai-agentic-finance-bernstein-says",
+      "title": "DeFi lending platform Aave sees a rare $27 million liquidations after a price glitch",
+      "link": "https://www.coindesk.com/business/2026/03/10/defi-lending-platform-aave-sees-a-rare-usd27-million-liquidations-after-a-price-glitch",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 10 Mar 2026 18:32:25 +0000",
-      "summary": "Circle could rally 60% more on stablecoin adoption, AI agentic finance, Bernstein says\n"
+      "published": "Tue, 10 Mar 2026 22:15:41 +0000",
+      "summary": "DeFi lending platform Aave sees a rare $27 million liquidations after a price glitch\n"
     },
     {
-      "title": "U.S. SEC chief Atkins said bond with sister agency CFTC to include joint meetings, exams",
-      "link": "https://www.coindesk.com/policy/2026/03/10/u-s-sec-chief-atkins-said-bond-with-sister-agency-cftc-to-include-joint-meetings-exams",
+      "title": "Stablecoin boom could eat into traditional banks' profits, warn Jefferies analysts",
+      "link": "https://www.coindesk.com/business/2026/03/10/stablecoin-boom-could-eat-into-traditional-banks-profits-warn-jefferies-analysts",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 10 Mar 2026 17:30:00 +0000",
-      "summary": "U.S. SEC chief Atkins said bond with sister agency CFTC to include joint meetings, exams\n"
+      "published": "Tue, 10 Mar 2026 20:46:17 +0000",
+      "summary": "Stablecoin boom could eat into traditional banks' profits, warn Jefferies analysts\n"
     },
     {
-      "title": "Why banks are moving beyond single-provider stablecoin payment rails",
-      "link": "https://www.coindesk.com/coindesk-news/2026/03/10/why-banks-are-moving-beyond-single-provider-stablecoin-payment-rails",
+      "title": "Investment firm Multicoin bets 'Internet Labor Markets' will drive crypto’s next wave of adoption",
+      "link": "https://www.coindesk.com/business/2026/03/10/investment-firm-multicoin-bets-internet-labor-markets-will-drive-crypto-s-next-wave-of-adoption",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 10 Mar 2026 17:01:18 +0000",
-      "summary": "Why banks are moving beyond single-provider stablecoin payment rails\n"
+      "published": "Tue, 10 Mar 2026 19:14:00 +0000",
+      "summary": "Investment firm Multicoin bets 'Internet Labor Markets' will drive crypto’s next wave of adoption\n"
     },
     {
-      "title": "Why crypto's privacy problem is a total dealbreaker for mainstream users",
-      "link": "https://www.coindesk.com/opinion/2026/03/10/why-crypto-s-privacy-problem-is-a-total-dealbreaker-for-mainstream-users",
+      "title": "Senators try to unlock stalled crypto Clarity Act with compromise on stablecoin yield",
+      "link": "https://www.coindesk.com/policy/2026/03/10/senators-try-to-unlock-stalled-crypto-clarity-act-with-compromise-on-stablecoin-yield",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 10 Mar 2026 16:30:00 +0000",
-      "summary": "Why crypto's privacy problem is a total dealbreaker for mainstream users\n"
+      "published": "Tue, 10 Mar 2026 19:00:12 +0000",
+      "summary": "Senators try to unlock stalled crypto Clarity Act with compromise on stablecoin yield\n"
     },
     {
-      "title": "Crypto shouldn’t “die on the hill” of stablecoin yield, Rick Edelman says",
-      "link": "https://www.coindesk.com/markets/2026/03/10/crypto-shouldn-t-die-on-the-hill-of-stablecoin-yield-rick-edelman-says",
+      "title": "Polymarket and Palantir team to protect integrity of sports betting as prediction markets face key moment",
+      "link": "https://www.coindesk.com/markets/2026/03/10/polymarket-and-palantir-team-up-to-protect-the-integrity-of-sports-betting-as-prediction-platforms-face-a-make-or-break-moment",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 10 Mar 2026 16:26:43 +0000",
-      "summary": "Crypto shouldn’t “die on the hill” of stablecoin yield, Rick Edelman says\n"
+      "published": "Tue, 10 Mar 2026 18:38:13 +0000",
+      "summary": "Polymarket and Palantir team to protect integrity of sports betting as prediction markets face key moment\n"
     }
   ]
 }
