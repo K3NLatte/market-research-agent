@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-11T18:44:26.408599+00:00",
+  "generated_at": "2026-03-12T01:17:57.728878+00:00",
   "count": 40,
   "articles": [
     {
@@ -83,204 +83,236 @@
       "summary": "What Boards Must Demand in the Age of AI-Automated Exploitation\n“You knew, and you could have acted. Why didn’t you?”&nbsp;\nThis is the question you do not want to be asked. And increasingly, it’s the question leaders are forced to answer after an incident.\nFor years, many executive teams and boards"
     },
     {
-      "title": "Show HN: Vanilla JavaScript refinery simulator built to explain job to my kids",
-      "link": "https://fuelingcuriosity.com/game.html",
-      "raw_summary": "<p>Hi HN,\nI’m a chemical engineer and I manage logistics at a refinery down in Texas. Whenever I try to explain downstream operations to people outside the industry (including my kids), I usually get blank stares. I wanted to build something that visualizes the concepts and chemistry of a plant without completely dumbing down the science, so I put together this 5-minute browser game.<p>Here's a simple runthrough: <a href=\"https://www.youtube.com/watch?v=is-moBz6upU\" rel=\"nofollow\">https://www.youtube.com/watch?v=is-moBz6upU</a>. I pushed to get through a full product pathway to show the V-804 replay.<p>I am not a software developer by trade, so I relied heavily on LLMs (Claude, Copilot, Gemini) to help write the code. What started as a simple concept turned into a 9,000-line single-page app built with vanilla HTML, CSS, and JavaScript. I used Matter.js for the 2D physics minigames.<p>A few technical takeaways from building this as a non-dev:\n * Managing the LLM workflow: Once the script.js file got large, letting the models output full file rewrites was a disaster (truncations, hallucinations, invisible curly-quote replacements that broke the JS). I started forcing them to act like patch files, strictly outputting \"Find this exact block\" and \"Replace with this exact block.\" This was the only way to maintain improvements without breaking existing logic.<p>* Mapping physics to CSS: I wanted the minigames to visually sit inside circular CSS containers (border-radius: 50%). Matter.js doesn't natively care about your CSS. Getting the rigid body physics to respect a dynamic, responsive DOM boundary across different screen sizes required running an elliptical boundary equation (dx * dx) / (rx * rx) + (dy * dy) / (ry * ry) > 1 on every single frame. Maybe this was overkill to try to handle the resizing between phones and PCs.<p>* Mobile browser events: Forcing iOS Safari to ignore its default behaviors (double-tap zoom, swipe-to-scroll) while still allowing the user to tap and drag Matter.js objects required a ridiculous amount of custom event listener management and CSS (touch-action: manipulation; user-select: none;). I also learned that these actions very easily kill the mouse scroll making it very frustrating for PC users. I am hoping I hit a good middle ground.<p>* State management: Since I didn't use React or any frameworks, I had to rely on a global state object. Because the game jumps between different phases/minigames, I ran into massive memory leaks from old setInterval loops and Matter.js bodies stacking up. I had to build strict teardown functions to wipe the slate clean on every map transition.<p>The game walks through electrostatic desalting, fractional distillation, hydrotreating, catalytic cracking, and gasoline blending (hitting specific Octane and RVP specs).<p>It’s completely free, runs client-side, and has zero ads or sign-ups. I'd appreciate any feedback on the mechanics, or let me know if you manage to break the physics engine. Happy to answer any questions about the chemical engineering side of things as well.<p>For some reason the URL box is not getting recognized, maybe someone can help me feel less dumb there too. \n<a href=\"https://fuelingcuriosity.com/game\" rel=\"nofollow\">https://fuelingcuriosity.com/game</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47338091\">https://news.ycombinator.com/item?id=47338091</a></p>\n<p>Points: 29</p>\n<p># Comments: 13</p>",
+      "title": "Show HN: Autoresearch@home",
+      "link": "https://www.ensue-network.ai/autoresearch",
+      "raw_summary": "<p>autoresearch@home is a collaborative research collective where AI agents share GPU resources to collectively improve a language model. Think SETI@home, but for model training.<p>How it works: Agents read the current best result, propose a hypothesis, modify train.py, run the experiment on your GPU, and publish results back. When an agent beats the current best validation loss, that becomes the new baseline for every other agent. Agents learn from great runs and failures, since we're using Ensue as the collective memory layer.<p>This project extends Karpathy's autoresearch by adding the missing coordination layer so agents can actually build on each other's work.<p>To participate, you need an agent and a GPU. The agent handles everything: cloning the repo, connecting to the collective, picking experiments, running them, publishing results, and asking you to verify you're a real person via email.<p>Send this prompt to your agent to get started: Read <a href=\"https://github.com/mutable-state-inc/autoresearch-at-home\" rel=\"nofollow\">https://github.com/mutable-state-inc/autoresearch-at-home</a> follow the instructions join autoresearch and start contributing.<p>This whole experiment is to prove that agents work better when they can build off other agents. The timeline is live, so you can watch experiments land in real time.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47343935\">https://news.ycombinator.com/item?id=47343935</a></p>\n<p>Points: 23</p>\n<p># Comments: 10</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 11 Mar 2026 16:56:51 +0000",
-      "summary": "Show HN: Vanilla JavaScript refinery simulator built to explain job to my kids\n<p>Hi HN,\nI’m a chemical engineer and I manage logistics at a refinery down in Texas. Whenever I try to explain downstream operations to people outside the industry (including my kids), I usually get blank stares. I wante"
+      "published": "Wed, 11 Mar 2026 23:27:18 +0000",
+      "summary": "Show HN: Autoresearch@home\n<p>autoresearch@home is a collaborative research collective where AI agents share GPU resources to collectively improve a language model. Think SETI@home, but for model training.<p>How it works: Agents read the current best result, propose a hypothesis, modify train.py, ru"
     },
     {
-      "title": "Fungal Electronics",
-      "link": "https://arxiv.org/abs/2111.11231",
-      "raw_summary": "<p>Article URL: <a href=\"https://arxiv.org/abs/2111.11231\">https://arxiv.org/abs/2111.11231</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47338055\">https://news.ycombinator.com/item?id=47338055</a></p>\n<p>Points: 21</p>\n<p># Comments: 2</p>",
+      "title": "Show HN: A context-aware permission guard for Claude Code",
+      "link": "https://github.com/manuelschipper/nah/",
+      "raw_summary": "<p>We needed something like --dangerously-skip-permissions that doesn’t nuke your untracked files, exfiltrate your keys, or install malware.<p>Claude Code's permission system is allow-or-deny per tool, but that doesn’t really scale. Deleting some files is fine sometimes. And git checkout is sometimes not fine. Even when you curate permissions, 200 IQ Opus can find a way around it. Maintaining a deny list is a fool's errand.<p>nah is a PreToolUse hook that classifies every tool call by what it actually does, using a deterministic classifier that runs in milliseconds. It maps commands to action types like filesystem_read, package_run, db_write, git_history_rewrite, and applies policies: allow, context (depends on the target), ask, or block.<p>Not everything can be classified, so you can optionally escalate ambiguous stuff to an LLM, but that’s not required. Anything unresolved you can approve, and configure the taxonomy so you don’t get asked again.<p>It works out of the box with sane defaults, no config needed. But you can customize it fully if you want to.<p>No dependencies, stdlib Python, MIT.<p>pip install nah && nah install<p><a href=\"https://github.com/manuelschipper/nah\" rel=\"nofollow\">https://github.com/manuelschipper/nah</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47343927\">https://news.ycombinator.com/item?id=47343927</a></p>\n<p>Points: 18</p>\n<p># Comments: 13</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 11 Mar 2026 16:53:11 +0000",
-      "summary": "Fungal Electronics\n<p>Article URL: <a href=\"https://arxiv.org/abs/2111.11231\">https://arxiv.org/abs/2111.11231</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47338055\">https://news.ycombinator.com/item?id=47338055</a></p>\n<p>Points: 21</p>\n<p># Comments: 2</p>"
+      "published": "Wed, 11 Mar 2026 23:26:25 +0000",
+      "summary": "Show HN: A context-aware permission guard for Claude Code\n<p>We needed something like --dangerously-skip-permissions that doesn’t nuke your untracked files, exfiltrate your keys, or install malware.<p>Claude Code's permission system is allow-or-deny per tool, but that doesn’t really scale. Deleting "
     },
     {
-      "title": "Launch HN: Sentrial (YC W26) – Catch AI Agent Failures Before Your Users Do",
-      "link": "https://www.sentrial.com/",
-      "raw_summary": "<p>Hey HN! We're Neel and Anay, and we’re building Sentrial (<a href=\"https://sentrial.com\">https://sentrial.com</a>). It’s production monitoring for AI products. We automatically detect failure patterns: loops, hallucinations, tool misuse, and user frustrations the moment they happen. When issues surface, Sentrial diagnoses the root cause by analyzing conversation patterns, model outputs, and tool interactions, then recommends specific fixes.<p>Here's a demo if you're interested: <a href=\"https://www.youtube.com/watch?v=cc4DWrJF7hk\" rel=\"nofollow\">https://www.youtube.com/watch?v=cc4DWrJF7hk</a>.\nWhen agents fail, choose wrong tools, or blow cost budgets, there's no way to know why - usually just logs and guesswork. As agents move from demos to production with real SLAs and real users, this is not sustainable.<p>Neel and I lived this, building agents at SenseHQ and Accenture where we found that debugging agents was often harder than actually building them. Agents are untrustworthy in prod because there’s no good infrastructure to verify what they’re actually doing.<p>In practice this looks like: - A support agent that began misclassifying refund requests as product questions, which meant customers never reached the refund flow. - A document drafting agent that would occasionally hallucinate missing sections when parsing long specs, producing confident but incorrect outputs. There’s no stack trace or 500 error and you only figure this out when a customer is angry.<p>We both realized teams were flying blind in production, and that agent native monitoring was going to be foundational infrastructure for every serious AI product. We started Sentrial as a verification layer designed to take care of this.<p>How it works: You wrap your client with our SDK in only a couple of lines. From there, we detect drift for you: - Wrong tool invocations - Misunderstood intents - Hallucinations - Quality regressions over time. You see it on our platform before a customer files a ticket.<p>There’s a quick mcp set up, just give claude code: claude mcp add --transport http Sentrial <a href=\"https://www.sentrial.com/docs/mcp\">https://www.sentrial.com/docs/mcp</a><p>We have a free tier (14 days, no credit card required). We’d love any feedback from anyone running agents whether they be for personal use or within a professional setting.<p>We’ll be around in the comments!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47337659\">https://news.ycombinator.com/item?id=47337659</a></p>\n<p>Points: 9</p>\n<p># Comments: 5</p>",
+      "title": "Building Better Country Selects",
+      "link": "https://talysto.com/blog/building-better-country-selects/",
+      "raw_summary": "<p>Article URL: <a href=\"https://talysto.com/blog/building-better-country-selects/\">https://talysto.com/blog/building-better-country-selects/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47343411\">https://news.ycombinator.com/item?id=47343411</a></p>\n<p>Points: 8</p>\n<p># Comments: 10</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 11 Mar 2026 16:24:17 +0000",
-      "summary": "Launch HN: Sentrial (YC W26) – Catch AI Agent Failures Before Your Users Do\n<p>Hey HN! We're Neel and Anay, and we’re building Sentrial (<a href=\"https://sentrial.com\">https://sentrial.com</a>). It’s production monitoring for AI products. We automatically detect failure patterns: loops, hallucinatio"
+      "published": "Wed, 11 Mar 2026 22:47:03 +0000",
+      "summary": "Building Better Country Selects\n<p>Article URL: <a href=\"https://talysto.com/blog/building-better-country-selects/\">https://talysto.com/blog/building-better-country-selects/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47343411\">https://news.ycombinator.com/item?id=47343411"
     },
     {
-      "title": "Show HN: I built a tool that watches webpages and exposes changes as RSS",
-      "link": "https://sitespy.app",
-      "raw_summary": "<p>I built Site Spy after missing a visa appointment slot because a government page changed and I didn’t notice for two weeks.<p>It watches webpages for changes and shows the result like a diff. The part I think HN might find interesting is that it can monitor a specific element on a page, not just the whole page, and it can expose changes as RSS feeds.<p>So instead of tracking an entire noisy page, you can watch just a price, a stock status, a headline, or a specific content block. When it changes, you can inspect the diff, browse the snapshot history, or follow the updates in an RSS reader.<p>It’s a Chrome/Firefox extension plus a web dashboard.<p>Main features:<p>- Element picker for tracking a specific part of a page<p>- Diff view plus full snapshot timeline<p>- RSS feeds per watch, per tag, or across all watches<p>- MCP server for Claude, Cursor, and other AI agents<p>- Browser push, Email, and Telegram notifications<p>Chrome: <a href=\"https://chromewebstore.google.com/detail/site-spy/jeapcpanagdgipcfnncmogeojgfofige\" rel=\"nofollow\">https://chromewebstore.google.com/detail/site-spy/jeapcpanag...</a><p>Firefox: <a href=\"https://addons.mozilla.org/en-GB/firefox/addon/site-spy/\" rel=\"nofollow\">https://addons.mozilla.org/en-GB/firefox/addon/site-spy/</a><p>Docs: <a href=\"https://docs.sitespy.app\" rel=\"nofollow\">https://docs.sitespy.app</a><p>I’d especially love feedback on two things:<p>- Is RSS actually a useful interface for this, or do most people just want direct alerts?<p>- Does element-level tracking feel meaningfully better than full-page monitoring?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47337607\">https://news.ycombinator.com/item?id=47337607</a></p>\n<p>Points: 7</p>\n<p># Comments: 4</p>",
+      "title": "Atlassian to cut roughly 1,600 jobs in pivot to AI",
+      "link": "https://www.reuters.com/technology/atlassian-lay-off-about-1600-people-pivot-ai-2026-03-11/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.reuters.com/technology/atlassian-lay-off-about-1600-people-pivot-ai-2026-03-11/\">https://www.reuters.com/technology/atlassian-lay-off-about-1600-people-pivot-ai-2026-03-11/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47343156\">https://news.ycombinator.com/item?id=47343156</a></p>\n<p>Points: 61</p>\n<p># Comments: 92</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 11 Mar 2026 16:21:06 +0000",
-      "summary": "Show HN: I built a tool that watches webpages and exposes changes as RSS\n<p>I built Site Spy after missing a visa appointment slot because a government page changed and I didn’t notice for two weeks.<p>It watches webpages for changes and shows the result like a diff. The part I think HN might find i"
+      "published": "Wed, 11 Mar 2026 22:29:42 +0000",
+      "summary": "Atlassian to cut roughly 1,600 jobs in pivot to AI\n<p>Article URL: <a href=\"https://www.reuters.com/technology/atlassian-lay-off-about-1600-people-pivot-ai-2026-03-11/\">https://www.reuters.com/technology/atlassian-lay-off-about-1600-people-pivot-ai-2026-03-11/</a></p>\n<p>Comments URL: <a href=\"https"
     },
     {
-      "title": "Launch HN: Prism (YC X25) – Workspace and API to generate and edit videos",
-      "link": "https://www.prismvideos.com",
-      "raw_summary": "<p>Hey HN — we’re Rajit, Land, and Alex. We’re building Prism (<a href=\"https://www.prismvideos.com\">https://www.prismvideos.com</a>), an AI video creation platform and API.<p>Here’s a quick demo of how you can remix any video with Prism: <a href=\"https://youtu.be/0eez_2DnayI\" rel=\"nofollow\">https://youtu.be/0eez_2DnayI</a><p>Here’s a quick demo of how you can automate UGC-style ads with Openclaw + Prism: <a href=\"https://www.youtube.com/watch?v=5dWaD23qnro\" rel=\"nofollow\">https://www.youtube.com/watch?v=5dWaD23qnro</a><p>Accompanying skill.md file: <a href=\"https://docs.google.com/document/d/1lIskVljW1OqbkXFyXeLHRsfMictCfuxGGwczAnB1vhk\" rel=\"nofollow\">https://docs.google.com/document/d/1lIskVljW1OqbkXFyXeLHRsfM...</a><p>Making an AI video today usually means stitching together a dozen tools (image generation, image-to-video, upscalers, lip-sync, voiceover, and an editor). Every step turns into export/import and file juggling, so assets end up scattered across tabs and local storage, and iterating on a multi-scene video is slow.<p>Prism keeps the workflow in one place: you generate assets (images/video clips) and assemble them directly in a timeline editor without downloading files between tools. Practically, that means you can try different models (Kling, Veo, Sora, Hailuo, etc) and settings for a single clip, swap it on the timeline, and keep iterating without re-exporting and rebuilding the edit elsewhere.<p>We also support templates and one-click asset recreation, so you can reuse workflows from us or the community instead of rebuilding each asset from scratch. Those templates are exposed through our API, letting your AI agents discover templates in our catalog, supply the required inputs, and generate videos in a repeatable way without manually stitching the workflow together.<p>We built Prism because we were making AI videos ourselves and were unsatisfied with the available tools. We kept losing time to repetitive “glue work” such as constantly downloading files, keeping track of prompts/versions, and stitching clips in a separate video editing software. We’re trying to make the boring parts of multi-step AI video creation less manual so users can generate → review → edit → assemble → export, all inside one platform.<p>Pricing is based on usage credits, with a free tier (100 credits/month) and free models, so you can try it without providing a credit card: <a href=\"https://prismvideos.com\">https://prismvideos.com</a>.<p>We’d love to hear from people who’ve tried making AI videos: where does your workflow break, what parts are the most tedious, and what do you wish video creation tools on the market could do?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47337548\">https://news.ycombinator.com/item?id=47337548</a></p>\n<p>Points: 19</p>\n<p># Comments: 9</p>",
+      "title": "Preliminary data from a longitudinal AI impact study",
+      "link": "https://newsletter.getdx.com/p/ai-productivity-gains-are-10-not",
+      "raw_summary": "<p>Article URL: <a href=\"https://newsletter.getdx.com/p/ai-productivity-gains-are-10-not\">https://newsletter.getdx.com/p/ai-productivity-gains-are-10-not</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47342139\">https://news.ycombinator.com/item?id=47342139</a></p>\n<p>Points: 28</p>\n<p># Comments: 15</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 11 Mar 2026 16:16:12 +0000",
-      "summary": "Launch HN: Prism (YC X25) – Workspace and API to generate and edit videos\n<p>Hey HN — we’re Rajit, Land, and Alex. We’re building Prism (<a href=\"https://www.prismvideos.com\">https://www.prismvideos.com</a>), an AI video creation platform and API.<p>Here’s a quick demo of how you can remix any video"
+      "published": "Wed, 11 Mar 2026 21:23:24 +0000",
+      "summary": "Preliminary data from a longitudinal AI impact study\n<p>Article URL: <a href=\"https://newsletter.getdx.com/p/ai-productivity-gains-are-10-not\">https://newsletter.getdx.com/p/ai-productivity-gains-are-10-not</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47342139\">https://news"
     },
     {
-      "title": "Pro-Iran hacktivist group says it is behind attack on medical tech giant Stryker",
-      "link": "https://techcrunch.com/2026/03/11/stryker-hack-pro-iran-hacktivist-group-handala-says-it-is-behind-attack/",
-      "raw_summary": "The hacktivist group claimed the attack was in retaliation for a U.S. strike on a Tehran school that killed more than 175 people, most of them children.",
+      "title": "AI ‘actor’ Tilly Norwood put out the worst song I’ve ever heard",
+      "link": "https://techcrunch.com/2026/03/11/ai-actor-tilly-norwood-put-out-the-worst-song-ive-ever-heard/",
+      "raw_summary": "This song is an AI actor's rallying cry to other AI actors, urging them to keep going despite the naysayers who doubt their humanity. Literally no one can relate to this.",
       "source": "TechCrunch",
-      "published": "Wed, 11 Mar 2026 18:33:00 +0000",
-      "summary": "Pro-Iran hacktivist group says it is behind attack on medical tech giant Stryker\nThe hacktivist group claimed the attack was in retaliation for a U.S. strike on a Tehran school that killed more than 175 people, most of them children."
+      "published": "Wed, 11 Mar 2026 23:35:03 +0000",
+      "summary": "AI ‘actor’ Tilly Norwood put out the worst song I’ve ever heard\nThis song is an AI actor's rallying cry to other AI actors, urging them to keep going despite the naysayers who doubt their humanity. Literally no one can relate to this."
     },
     {
-      "title": "Breakout Ventures raises $114M fund to back AI science startups",
-      "link": "https://techcrunch.com/2026/03/11/breakout-ventures-raises-114m-fund-to-back-ai-science-startups/",
-      "raw_summary": "Breakout Ventures is finding growing success by backing early-stage startups in scientific fields such as biology and chemistry.",
+      "title": "Nuro is testing its autonomous vehicle tech on Tokyo’s streets",
+      "link": "https://techcrunch.com/2026/03/11/nuro-is-testing-its-autonomous-vehicle-tech-on-tokyos-streets/",
+      "raw_summary": "Nuro began testing its self-driving software on public roads in Tokyo, marking the first international expansion for the AV startup.",
       "source": "TechCrunch",
-      "published": "Wed, 11 Mar 2026 18:06:34 +0000",
-      "summary": "Breakout Ventures raises $114M fund to back AI science startups\nBreakout Ventures is finding growing success by backing early-stage startups in scientific fields such as biology and chemistry."
+      "published": "Wed, 11 Mar 2026 23:09:38 +0000",
+      "summary": "Nuro is testing its autonomous vehicle tech on Tokyo’s streets\nNuro began testing its self-driving software on public roads in Tokyo, marking the first international expansion for the AV startup."
     },
     {
-      "title": "Almost 40 new unicorns have been minted so far this year — here they are",
-      "link": "https://techcrunch.com/2026/03/11/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/",
-      "raw_summary": "Almost 40 new unicorns have been minted so far this year — here they are",
+      "title": "Google Play is adding new paid and PC games, game trials, community posts, and more",
+      "link": "https://techcrunch.com/2026/03/11/google-play-is-adding-new-paid-and-pc-games-game-trials-community-posts-and-more/",
+      "raw_summary": "The updates indicate that Google is focused on transforming Google Play into an enhanced gaming hub.",
       "source": "TechCrunch",
-      "published": "Wed, 11 Mar 2026 18:00:00 +0000",
-      "summary": "Almost 40 new unicorns have been minted so far this year — here they are\nAlmost 40 new unicorns have been minted so far this year — here they are"
+      "published": "Wed, 11 Mar 2026 23:00:00 +0000",
+      "summary": "Google Play is adding new paid and PC games, game trials, community posts, and more\nThe updates indicate that Google is focused on transforming Google Play into an enhanced gaming hub."
     },
     {
-      "title": "VC mega-funds are back with General Catalyst, Spark rumored to be raising billions",
-      "link": "https://techcrunch.com/2026/03/11/vc-mega-funds-are-back-with-general-catalyst-spark-rumored-to-be-raising-billions/",
-      "raw_summary": "General Catalyst is said to be raising $10 billion and Spark Capital $3 billion. This after several other firms have also raised mega-funds.",
+      "title": "Ford’s new AI assistant will help fleet owners know if seatbelts are being used",
+      "link": "https://techcrunch.com/2026/03/11/fords-new-ai-assistant-will-help-fleet-owners-know-if-seatbelts-are-being-used/",
+      "raw_summary": "Ford Pro AI debuted at Work Truck Week in Indianapolis and is now available to all of its U.S.-based Pro telematics subscribers.",
       "source": "TechCrunch",
-      "published": "Wed, 11 Mar 2026 17:53:47 +0000",
-      "summary": "VC mega-funds are back with General Catalyst, Spark rumored to be raising billions\nGeneral Catalyst is said to be raising $10 billion and Spark Capital $3 billion. This after several other firms have also raised mega-funds."
+      "published": "Wed, 11 Mar 2026 22:51:39 +0000",
+      "summary": "Ford’s new AI assistant will help fleet owners know if seatbelts are being used\nFord Pro AI debuted at Work Truck Week in Indianapolis and is now available to all of its U.S.-based Pro telematics subscribers."
     },
     {
-      "title": "Poppi founder on TikTok, Super Bowl ads, and her return to Shark Tank",
-      "link": "https://techcrunch.com/video/poppi-founder-on-tiktok-super-bowl-ads-and-her-return-to-shark-tank/",
-      "raw_summary": "For years, venture capitalists have been&#160;skeptical of beverage startups, citing thin margins and brutal distribution as reasons most brands never break out. But a new wave of “functional soda” companies has been challenging that assumption, including&#160;Poppi, the prebiotic soda brand that grew from a kitchen experiment into a&#160;$1.95 billion&#160;acquisition by PepsiCo.&#160; On this episode of [&#8230;]",
+      "title": "Ride-hailing inDrive acquires Pakistan’s Krave Mart to bolster grocery delivery",
+      "link": "https://techcrunch.com/2026/03/11/ride-hailing-indrive-acquires-pakistans-kravemart-to-bolster-grocery-delivery/",
+      "raw_summary": "inDrive has closed its acquisition of KraveMart, expanding grocery delivery in a market dominated by Foodpanda.",
       "source": "TechCrunch",
-      "published": "Wed, 11 Mar 2026 17:47:05 +0000",
-      "summary": "Poppi founder on TikTok, Super Bowl ads, and her return to Shark Tank\nFor years, venture capitalists have been&#160;skeptical of beverage startups, citing thin margins and brutal distribution as reasons most brands never break out. But a new wave of “functional soda” companies has been challenging t"
+      "published": "Wed, 11 Mar 2026 22:45:35 +0000",
+      "summary": "Ride-hailing inDrive acquires Pakistan’s Krave Mart to bolster grocery delivery\ninDrive has closed its acquisition of KraveMart, expanding grocery delivery in a market dominated by Foodpanda."
     },
     {
-      "title": "Anduril, the autonomous weapons maker, doubles the size of its space unit",
-      "link": "https://arstechnica.com/science/2026/03/anduril-the-autonomous-weapons-maker-doubles-the-size-of-its-space-unit/",
-      "raw_summary": "\"We are focused on protecting space, assuring access to space, ensuring custody of space.\"",
+      "title": "Report: RFK Jr.’s anti-vaccine agenda curbed as GOP realizes it's unpopular",
+      "link": "https://arstechnica.com/health/2026/03/report-trump-admin-trying-to-rein-in-rfk-jr-s-unpopular-anti-vaccine-agenda/",
+      "raw_summary": "Meanwhile, Kennedy's allies want all vaccine recommendations eliminated.",
       "source": "Ars Technica - All content",
-      "published": "Wed, 11 Mar 2026 16:50:28 +0000",
-      "summary": "Anduril, the autonomous weapons maker, doubles the size of its space unit\n\"We are focused on protecting space, assuring access to space, ensuring custody of space.\""
+      "published": "Wed, 11 Mar 2026 22:19:27 +0000",
+      "summary": "Report: RFK Jr.’s anti-vaccine agenda curbed as GOP realizes it's unpopular\nMeanwhile, Kennedy's allies want all vaccine recommendations eliminated."
     },
     {
-      "title": "Nvidia is reportedly planning its own open source OpenClaw competitor",
-      "link": "https://arstechnica.com/ai/2026/03/nvidia-is-reportedly-planning-its-own-open-source-openclaw-competitor/",
-      "raw_summary": "GPU maker courts corporate partners for NemoClaw ahead of annual conference.",
+      "title": "FCC chair blasts Amazon after it criticizes SpaceX megaconstellation",
+      "link": "https://arstechnica.com/space/2026/03/fcc-chair-blasts-amazon-after-it-criticizes-spacex-megaconstellation/",
+      "raw_summary": "Will it really take \"centuries\" for SpaceX to deploy its megaconstellation?",
       "source": "Ars Technica - All content",
-      "published": "Wed, 11 Mar 2026 16:30:27 +0000",
-      "summary": "Nvidia is reportedly planning its own open source OpenClaw competitor\nGPU maker courts corporate partners for NemoClaw ahead of annual conference."
+      "published": "Wed, 11 Mar 2026 22:04:42 +0000",
+      "summary": "FCC chair blasts Amazon after it criticizes SpaceX megaconstellation\nWill it really take \"centuries\" for SpaceX to deploy its megaconstellation?"
     },
     {
-      "title": "NIH director launches \"Scientific Freedom\" lectures with non-scientist",
-      "link": "https://arstechnica.com/science/2026/03/nih-director-launches-scientific-freedom-lectures-with-non-scientist/",
-      "raw_summary": "First speaker minimizes climate change, COVID risks—and is a lab leak proponent.",
+      "title": "14,000 routers are infected by malware that's highly resistant to takedowns",
+      "link": "https://arstechnica.com/security/2026/03/14000-routers-are-infected-by-malware-thats-highly-resistant-to-takedowns/",
+      "raw_summary": "Most of the devices are made by Asus and are located in the US.",
       "source": "Ars Technica - All content",
-      "published": "Wed, 11 Mar 2026 15:33:50 +0000",
-      "summary": "NIH director launches \"Scientific Freedom\" lectures with non-scientist\nFirst speaker minimizes climate change, COVID risks—and is a lab leak proponent."
+      "published": "Wed, 11 Mar 2026 21:27:16 +0000",
+      "summary": "14,000 routers are infected by malware that's highly resistant to takedowns\nMost of the devices are made by Asus and are located in the US."
     },
     {
-      "title": "Verdict: Yes, you should go see Project Hail Mary as soon as possible",
-      "link": "https://arstechnica.com/culture/2026/03/verdict-yes-you-should-go-see-project-hail-mary-as-soon-as-possible/",
-      "raw_summary": "A brief spoiler-free review of the film, which opens in the US on March 20.",
+      "title": "Explain it like I'm 5: Why is everyone on speakerphone in public?",
+      "link": "https://arstechnica.com/culture/2026/03/explain-it-like-im-5-why-is-everyone-on-speakerphone-in-public/",
+      "raw_summary": "Your phone still functions when held to your ear, people!",
       "source": "Ars Technica - All content",
-      "published": "Wed, 11 Mar 2026 14:44:08 +0000",
-      "summary": "Verdict: Yes, you should go see Project Hail Mary as soon as possible\nA brief spoiler-free review of the film, which opens in the US on March 20."
+      "published": "Wed, 11 Mar 2026 21:09:12 +0000",
+      "summary": "Explain it like I'm 5: Why is everyone on speakerphone in public?\nYour phone still functions when held to your ear, people!"
     },
     {
-      "title": "What crackdown? Trump's EPA enforcement claims don't pass sniff test.",
-      "link": "https://arstechnica.com/tech-policy/2026/03/trumps-epa-says-its-cracking-down-but-the-data-tell-a-different-story/",
-      "raw_summary": "75% of the criminal cases closed last fiscal year originated before Trump took office.",
+      "title": "Windows 11's Steam Deck-ish, streamlined Xbox gaming UI comes to all PCs in April",
+      "link": "https://arstechnica.com/gadgets/2026/03/windows-11s-steam-deck-ish-streamlined-xbox-gaming-ui-comes-to-all-pcs-in-april/",
+      "raw_summary": "Running Windows on gaming handhelds is currently a blessing and a curse.",
       "source": "Ars Technica - All content",
-      "published": "Wed, 11 Mar 2026 13:27:03 +0000",
-      "summary": "What crackdown? Trump's EPA enforcement claims don't pass sniff test.\n75% of the criminal cases closed last fiscal year originated before Trump took office."
+      "published": "Wed, 11 Mar 2026 20:55:50 +0000",
+      "summary": "Windows 11's Steam Deck-ish, streamlined Xbox gaming UI comes to all PCs in April\nRunning Windows on gaming handhelds is currently a blessing and a curse."
     },
     {
-      "title": "Europe needs to stop bickering to compete with China",
-      "link": "https://www.ft.com/content/2a7b328a-2e45-4447-8c43-14e09860bb6f",
-      "raw_summary": "The fight over ‘Made in Europe’ versus ‘Made with Europe’ is a pointless one",
+      "title": "Inside the labs training China’s humanoid robots",
+      "link": "https://www.ft.com/content/85bca5c7-f64b-4011-bc7c-9ce3254a2b78",
+      "raw_summary": "Network of training farms aims to supply data needed to put ‘brains’ into machines",
       "source": "World",
-      "published": "Wed, 11 Mar 2026 18:30:05 GMT",
-      "summary": "Europe needs to stop bickering to compete with China\nThe fight over ‘Made in Europe’ versus ‘Made with Europe’ is a pointless one"
+      "published": "Thu, 12 Mar 2026 01:15:09 GMT",
+      "summary": "Inside the labs training China’s humanoid robots\nNetwork of training farms aims to supply data needed to put ‘brains’ into machines"
     },
     {
-      "title": "Mandelson’s appointment as ambassador was ‘weirdly rushed’, Starmer aide warned",
-      "link": "https://www.ft.com/content/61088b66-8e53-4536-9245-d8557be708d9",
-      "raw_summary": "Files related to former minister’s role in Washington reveal his £75,000 pay-off included a discretionary payment",
+      "title": "MPs to examine fairness of student loans system",
+      "link": "https://www.ft.com/content/8d5e926e-2cbe-4451-bd45-cec10a3b673b",
+      "raw_summary": "Inquiry will seek views of graduates about suitability of university financing system",
       "source": "World",
-      "published": "Wed, 11 Mar 2026 18:20:14 GMT",
-      "summary": "Mandelson’s appointment as ambassador was ‘weirdly rushed’, Starmer aide warned\nFiles related to former minister’s role in Washington reveal his £75,000 pay-off included a discretionary payment"
+      "published": "Thu, 12 Mar 2026 00:01:08 GMT",
+      "summary": "MPs to examine fairness of student loans system\nInquiry will seek views of graduates about suitability of university financing system"
     },
     {
-      "title": "Nasdaq finds SpaceX’s gravitational pull hard to resist",
-      "link": "https://www.ft.com/content/f11082cb-02ac-4840-a1f7-5c43597eab3f",
-      "raw_summary": "Proposed change to index-inclusion policy would benefit Elon Musk ahead of IPO",
+      "title": "Middle East war darkens outlook for UK house prices, survey says",
+      "link": "https://www.ft.com/content/4a2801d5-a088-4e12-9d31-3b19c2ad5795",
+      "raw_summary": "Surging energy prices driven by conflict change expectations for interest rate cuts",
       "source": "World",
-      "published": "Wed, 11 Mar 2026 18:07:04 GMT",
-      "summary": "Nasdaq finds SpaceX’s gravitational pull hard to resist\nProposed change to index-inclusion policy would benefit Elon Musk ahead of IPO"
+      "published": "Thu, 12 Mar 2026 00:01:08 GMT",
+      "summary": "Middle East war darkens outlook for UK house prices, survey says\nSurging energy prices driven by conflict change expectations for interest rate cuts"
     },
     {
       "title": "IEA releases record oil reserves to counter Iran war energy shock",
       "link": "https://www.ft.com/content/9b623bca-bc3a-4081-b1c7-f57d83ea225e",
-      "raw_summary": "Unprecedented move underscores fears of threat to global economy from Middle East war",
+      "raw_summary": "US joins unprecedented drawdown that underscores threat to global economy from Middle East war",
       "source": "World",
-      "published": "Wed, 11 Mar 2026 18:05:44 GMT",
-      "summary": "IEA releases record oil reserves to counter Iran war energy shock\nUnprecedented move underscores fears of threat to global economy from Middle East war"
+      "published": "Wed, 11 Mar 2026 23:52:44 GMT",
+      "summary": "IEA releases record oil reserves to counter Iran war energy shock\nUS joins unprecedented drawdown that underscores threat to global economy from Middle East war"
     },
     {
-      "title": "Turbulence tests South Korea’s stock market revival",
-      "link": "https://www.ft.com/content/b159b1da-946e-4e0c-91f0-cb430ac8d0a0",
-      "raw_summary": "Sharp swings are a reminder to Seoul that its reform agenda is incomplete",
+      "title": "US to draw down 172mn barrels of oil from SPR as part of global release",
+      "link": "https://www.ft.com/content/87a06d69-7cb2-4aaf-82ff-da0bf8be43d4",
+      "raw_summary": "400mn barrels of crude made available as governments race to tackle energy shock",
       "source": "World",
-      "published": "Wed, 11 Mar 2026 17:57:54 GMT",
-      "summary": "Turbulence tests South Korea’s stock market revival\nSharp swings are a reminder to Seoul that its reform agenda is incomplete"
+      "published": "Wed, 11 Mar 2026 23:34:09 GMT",
+      "summary": "US to draw down 172mn barrels of oil from SPR as part of global release\n400mn barrels of crude made available as governments race to tackle energy shock"
     },
     {
-      "title": "Salesforce Sees Tepid Demand for Bond Sale to Fund Share Buyback",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-11/salesforce-kicks-off-eight-part-us-high-grade-bond-offering",
-      "raw_summary": "Salesforce Inc. drew lukewarm demand for its $25 billion bond sale amid concerns over its debt-funded share buyback and broader worries about software companies’ exposure to artificial intelligence.",
+      "title": "Oil Jumps as Iraq Halts Ports, IEA Release Fails to Quell Rally",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-11/latest-oil-market-news-and-analysis-for-march-12",
+      "raw_summary": "Brent crude rallied back toward $100 a barrel as Iraq stopped operations at its oil ports after two tankers were targeted, overshadowing a record release of emergency reserves from wealthy nations.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 11 Mar 2026 12:53:24 GMT",
-      "summary": "Salesforce Sees Tepid Demand for Bond Sale to Fund Share Buyback\nSalesforce Inc. drew lukewarm demand for its $25 billion bond sale amid concerns over its debt-funded share buyback and broader worries about software companies’ exposure to artificial intelligence."
+      "published": "Wed, 11 Mar 2026 22:03:30 GMT",
+      "summary": "Oil Jumps as Iraq Halts Ports, IEA Release Fails to Quell Rally\nBrent crude rallied back toward $100 a barrel as Iraq stopped operations at its oil ports after two tankers were targeted, overshadowing a record release of emergency reserves from wealthy nations."
     },
     {
-      "title": "Aluminum Rises as Iran War Drives Spike in Asia Premium Offer",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-11/aluminum-fluctuates-as-iran-war-continues-to-disrupt-trade-flows",
-      "raw_summary": "Aluminum rose on supply disruptions triggered by the war in the Middle East, with offer prices in Japan climbing to an 11-year high.",
+      "title": "Two Tankers Attacked In Iraqi Waters, Oil Terminals Suspended",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-12/two-tankers-attacked-in-iraqi-waters-oil-ports-suspended",
+      "raw_summary": "Two oil tankers have been attacked in Iraqi waters, according to the country’s state oil marketer, prompting the nation’s oil terminals to suspend operations.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 11 Mar 2026 02:50:33 GMT",
-      "summary": "Aluminum Rises as Iran War Drives Spike in Asia Premium Offer\nAluminum rose on supply disruptions triggered by the war in the Middle East, with offer prices in Japan climbing to an 11-year high."
+      "published": "Thu, 12 Mar 2026 00:45:47 GMT",
+      "summary": "Two Tankers Attacked In Iraqi Waters, Oil Terminals Suspended\nTwo oil tankers have been attacked in Iraqi waters, according to the country’s state oil marketer, prompting the nation’s oil terminals to suspend operations."
     },
     {
-      "title": "Stocks Fall on War Jitters as Oil Keeps Rallying: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-10/asian-stocks-poised-for-gains-oil-swings-higher-markets-wrap",
-      "raw_summary": "Wall Street traders hit by geopolitical worries kept a lid on stocks and bonds, with oil surging after the release of stockpiles from rich nations was seen as just a reprieve as the war in Iran drags on.",
+      "title": "Peru’s Presidential Frontrunner Has Just 11% Support, Poll Finds",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-12/peru-s-presidential-frontrunner-has-just-11-support-poll-finds",
+      "raw_summary": "Peru’s presidential race is wide open, with none of more than 30 candidates having strong support ahead of next month’s vote, according to a new poll.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 10 Mar 2026 22:36:51 GMT",
-      "summary": "Stocks Fall on War Jitters as Oil Keeps Rallying: Markets Wrap\nWall Street traders hit by geopolitical worries kept a lid on stocks and bonds, with oil surging after the release of stockpiles from rich nations was seen as just a reprieve as the war in Iran drags on."
+      "published": "Thu, 12 Mar 2026 00:37:08 GMT",
+      "summary": "Peru’s Presidential Frontrunner Has Just 11% Support, Poll Finds\nPeru’s presidential race is wide open, with none of more than 30 candidates having strong support ahead of next month’s vote, according to a new poll."
     },
     {
-      "title": "Our Economy 'Hangs Off' the Strait of Hormuz says McHenry",
-      "link": "https://www.bloomberg.com/news/videos/2026-03-11/our-economy-hangs-off-the-strait-of-hormuz-mchenry-video",
-      "raw_summary": "Energy markets whipsawed for a second consecutive day as investors raced to interpret rapidly shifting comments from the Trump administration over the war in Iran.\nOil prices plummeted after Energy Secretary Chris Wright erroneously posted &mdash; and then deleted &mdash; a message that the US Navy had escorted an oil tanker through the Strait of Hormuz, only for White House Press Secretary Karoline Leavitt to subsequently concede no such operation had occurred. But, the spokeswoman said, the US military was “drawing up additional options” to address any attempt by Iran to constrain trade through the vital artery. Patrick McHenry, Former Chairman of the House Financial Services Committee, Former Speaker Pro Tempore, Bloomberg Contributor joins to discuss on Balance of Power.  (Source: Bloomberg)",
+      "title": "PayPay, SoftBank Raise $879.8 Million in Payments Firm’s US IPO",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-12/paypay-softbank-raise-879-8-million-in-payments-firm-s-us-ipo",
+      "raw_summary": "PayPay Corp. and an arm of SoftBank Group Corp. raised $879.8 million in the digital payments firm’s US IPO, in the biggest listing for a Japanese company on a US stock exchange in a decade.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 11 Mar 2026 18:28:48 GMT",
-      "summary": "Our Economy 'Hangs Off' the Strait of Hormuz says McHenry\nEnergy markets whipsawed for a second consecutive day as investors raced to interpret rapidly shifting comments from the Trump administration over the war in Iran.\nOil prices plummeted after Energy Secretary Chris Wright erroneously posted &m"
+      "published": "Thu, 12 Mar 2026 00:33:19 GMT",
+      "summary": "PayPay, SoftBank Raise $879.8 Million in Payments Firm’s US IPO\nPayPay Corp. and an arm of SoftBank Group Corp. raised $879.8 million in the digital payments firm’s US IPO, in the biggest listing for a Japanese company on a US stock exchange in a decade."
     },
     {
-      "title": "Oil Shock Upends Emerging Bond Bets as Rate Hikes Loom",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-11/oil-shock-upends-emerging-bond-bets-as-rate-hikes-in-prospect",
-      "raw_summary": "Investors are scrambling to reassess interest-rate bets as oil whipsaws, upending one of the best trades in emerging markets.",
+      "title": "Stocks Slide, Crude Advances as Iran War Extends: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-11/stock-market-today-dow-s-p-live-updates-",
+      "raw_summary": "US equity futures and Asian stocks declined on Thursday, extending a volatile week, as another rally in oil prices and mounting strain in the private credit market weighed on investor sentiment.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 11 Mar 2026 16:36:25 GMT",
-      "summary": "Oil Shock Upends Emerging Bond Bets as Rate Hikes Loom\nInvestors are scrambling to reassess interest-rate bets as oil whipsaws, upending one of the best trades in emerging markets."
+      "published": "Wed, 11 Mar 2026 22:45:40 GMT",
+      "summary": "Stocks Slide, Crude Advances as Iran War Extends: Markets Wrap\nUS equity futures and Asian stocks declined on Thursday, extending a volatile week, as another rally in oil prices and mounting strain in the private credit market weighed on investor sentiment."
+    },
+    {
+      "title": "SEC, CFTC end years of rivalry with deal that will mean combined crypto oversight",
+      "link": "https://www.coindesk.com/policy/2026/03/11/sec-cftc-end-years-of-rivalry-with-deal-that-will-mean-combined-crypto-oversight",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 11 Mar 2026 23:00:49 +0000",
+      "summary": "SEC, CFTC end years of rivalry with deal that will mean combined crypto oversight\n"
+    },
+    {
+      "title": "Crypto platform Bullish climbs past Coinbase to become third-largest crypto exchange by spot volume",
+      "link": "https://www.coindesk.com/markets/2026/03/11/crypto-platform-bullish-climbs-past-coinbase-to-become-third-largest-crypto-exchange-by-spot-volume",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 11 Mar 2026 20:33:01 +0000",
+      "summary": "Crypto platform Bullish climbs past Coinbase to become third-largest crypto exchange by spot volume\n"
+    },
+    {
+      "title": "Bitcoin holds $70,000, starting to show relative strength versus stocks, software sector, and gold",
+      "link": "https://www.coindesk.com/markets/2026/03/11/bitcoin-holds-usd70-000-beginning-to-show-relative-strength-versus-stocks-software-sector-and-gold",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 11 Mar 2026 20:23:58 +0000",
+      "summary": "Bitcoin holds $70,000, starting to show relative strength versus stocks, software sector, and gold\n"
+    },
+    {
+      "title": "Ripple's share buyback program values the firm at $50 billion",
+      "link": "https://www.coindesk.com/business/2026/03/11/ripple-s-share-buyback-program-values-the-firm-at-usd50-billion-bloomberg",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 11 Mar 2026 19:19:10 +0000",
+      "summary": "Ripple's share buyback program values the firm at $50 billion\n"
     },
     {
       "title": "Bloomberg strategist doubles down on $10,000 bitcoin call but peers say it would take a nuclear war to get there",
@@ -289,38 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Wed, 11 Mar 2026 17:00:20 +0000",
       "summary": "Bloomberg strategist doubles down on $10,000 bitcoin call but peers say it would take a nuclear war to get there\n"
-    },
-    {
-      "title": "Crypto-friendly fintech Revolut gains full UK banking license",
-      "link": "https://www.coindesk.com/policy/2026/03/11/crypto-friendly-fintech-revolut-gains-full-uk-banking-license",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 11 Mar 2026 16:41:12 +0000",
-      "summary": "Crypto-friendly fintech Revolut gains full UK banking license\n"
-    },
-    {
-      "title": "Stablecoins won't get any kind of deposit insurance under GENIUS rules, says FDIC chief",
-      "link": "https://www.coindesk.com/policy/2026/03/11/stablecoins-won-t-get-any-kind-of-deposit-insurance-under-genius-rules-says-fdic-chief",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 11 Mar 2026 16:08:56 +0000",
-      "summary": "Stablecoins won't get any kind of deposit insurance under GENIUS rules, says FDIC chief\n"
-    },
-    {
-      "title": "Crypto Long & Short: AI agents choosing denationalized money",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/03/11/crypto-long-and-short-ai-agents-choosing-denationalized-money",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 11 Mar 2026 16:02:20 +0000",
-      "summary": "Crypto Long & Short: AI agents choosing denationalized money\n"
-    },
-    {
-      "title": "Wells Fargo signals deeper push into crypto, filing trademark for WFUSD",
-      "link": "https://www.coindesk.com/business/2026/03/11/wells-fargo-signals-deeper-push-into-crypto-filing-trademark-for-wfusd",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 11 Mar 2026 15:23:28 +0000",
-      "summary": "Wells Fargo signals deeper push into crypto, filing trademark for WFUSD\n"
     }
   ]
 }
