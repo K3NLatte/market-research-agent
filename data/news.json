@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-13T18:31:34.695344+00:00",
+  "generated_at": "2026-03-14T01:19:48.194024+00:00",
   "count": 40,
   "articles": [
     {
@@ -83,204 +83,228 @@
       "summary": "Investigating a New Click-Fix Variant\nDisclaimer: This report has been prepared by the Threat Research Center to enhance cybersecurity awareness and support the strengthening of defense capabilities. It is based on independent research and observations of the current threat landscape available at th"
     },
     {
-      "title": "Your Phone Is an Entire Computer",
-      "link": "https://medhir.com/blog/your-phone-is-an-entire-computer",
-      "raw_summary": "<p>Article URL: <a href=\"https://medhir.com/blog/your-phone-is-an-entire-computer\">https://medhir.com/blog/your-phone-is-an-entire-computer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47367568\">https://news.ycombinator.com/item?id=47367568</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "title": "Our Experience with I-Ready",
+      "link": "https://moultano.wordpress.com/2026/03/12/our-experience-with-i-ready/",
+      "raw_summary": "<p>Article URL: <a href=\"https://moultano.wordpress.com/2026/03/12/our-experience-with-i-ready/\">https://moultano.wordpress.com/2026/03/12/our-experience-with-i-ready/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47371922\">https://news.ycombinator.com/item?id=47371922</a></p>\n<p>Points: 5</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 13 Mar 2026 18:02:32 +0000",
-      "summary": "Your Phone Is an Entire Computer\n<p>Article URL: <a href=\"https://medhir.com/blog/your-phone-is-an-entire-computer\">https://medhir.com/blog/your-phone-is-an-entire-computer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47367568\">https://news.ycombinator.com/item?id=47367568<"
+      "published": "Sat, 14 Mar 2026 00:29:50 +0000",
+      "summary": "Our Experience with I-Ready\n<p>Article URL: <a href=\"https://moultano.wordpress.com/2026/03/12/our-experience-with-i-ready/\">https://moultano.wordpress.com/2026/03/12/our-experience-with-i-ready/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47371922\">https://news.ycombinato"
     },
     {
-      "title": "Show HN: Context Gateway – Compress agent context before it hits the LLM",
-      "link": "https://github.com/Compresr-ai/Context-Gateway",
-      "raw_summary": "<p>We built an open-source proxy that sits between coding agents (Claude Code, OpenClaw, etc.) and the LLM, compressing tool outputs before they enter the context window.<p>Demo: <a href=\"https://www.youtube.com/watch?v=-vFZ6MPrwjw#t=9s\" rel=\"nofollow\">https://www.youtube.com/watch?v=-vFZ6MPrwjw#t=9s</a>.<p>Motivation: Agents are terrible at managing context. A single file read or grep can dump thousands of tokens into the window, most of it noise. This isn't just expensive — it actively degrades quality. Long-context benchmarks consistently show steep accuracy drops as context grows (OpenAI's GPT-5.4 eval goes from 97.2% at 32k to 36.6% at 1M <a href=\"https://openai.com/index/introducing-gpt-5-4/\" rel=\"nofollow\">https://openai.com/index/introducing-gpt-5-4/</a>).<p>Our solution uses small language models (SLMs): we look at model internals and train classifiers to detect which parts of the context carry the most signal. When a tool returns output, we compress it conditioned on the intent of the tool call—so if the agent called grep looking for error handling patterns, the SLM keeps the relevant matches and strips the rest.<p>If the model later needs something we removed, it calls expand() to fetch the original output. We also do background compaction at 85% window capacity and lazy-load tool descriptions so the model only sees tools relevant to the current step.<p>The proxy also gives you spending caps, a dashboard for tracking running and past sessions, and Slack pings when an agent is sitting there waiting on you.<p>Repo is here: <a href=\"https://github.com/Compresr-ai/Context-Gateway\" rel=\"nofollow\">https://github.com/Compresr-ai/Context-Gateway</a>. You can try it with:<p><pre><code>  curl -fsSL https://compresr.ai/api/install | sh\n</code></pre>\nHappy to go deep on any of it: the compression model, how the lazy tool loading works, or anything else about the gateway. Try it out and let us know how you like it!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47367526\">https://news.ycombinator.com/item?id=47367526</a></p>\n<p>Points: 6</p>\n<p># Comments: 2</p>",
+      "title": "I beg you to follow Crocker's Rules, even if you will be rude to me",
+      "link": "https://lr0.org/blog/p/crocker/",
+      "raw_summary": "<p>Article URL: <a href=\"https://lr0.org/blog/p/crocker/\">https://lr0.org/blog/p/crocker/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47371275\">https://news.ycombinator.com/item?id=47371275</a></p>\n<p>Points: 20</p>\n<p># Comments: 32</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 13 Mar 2026 17:58:22 +0000",
-      "summary": "Show HN: Context Gateway – Compress agent context before it hits the LLM\n<p>We built an open-source proxy that sits between coding agents (Claude Code, OpenClaw, etc.) and the LLM, compressing tool outputs before they enter the context window.<p>Demo: <a href=\"https://www.youtube.com/watch?v=-vFZ6MP"
+      "published": "Fri, 13 Mar 2026 23:14:37 +0000",
+      "summary": "I beg you to follow Crocker's Rules, even if you will be rude to me\n<p>Article URL: <a href=\"https://lr0.org/blog/p/crocker/\">https://lr0.org/blog/p/crocker/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47371275\">https://news.ycombinator.com/item?id=47371275</a></p>\n<p>Poin"
     },
     {
-      "title": "The Accidental Room (2018)",
-      "link": "https://99percentinvisible.org/episode/the-accidental-room/",
-      "raw_summary": "<p>Article URL: <a href=\"https://99percentinvisible.org/episode/the-accidental-room/\">https://99percentinvisible.org/episode/the-accidental-room/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47367443\">https://news.ycombinator.com/item?id=47367443</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "title": "I Found 39 Algolia Admin Keys Exposed Across Open Source Documentation Sites",
+      "link": "https://benzimmermann.dev/blog/algolia-docsearch-admin-keys",
+      "raw_summary": "<p>Article URL: <a href=\"https://benzimmermann.dev/blog/algolia-docsearch-admin-keys\">https://benzimmermann.dev/blog/algolia-docsearch-admin-keys</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47371064\">https://news.ycombinator.com/item?id=47371064</a></p>\n<p>Points: 64</p>\n<p># Comments: 18</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 13 Mar 2026 17:49:54 +0000",
-      "summary": "The Accidental Room (2018)\n<p>Article URL: <a href=\"https://99percentinvisible.org/episode/the-accidental-room/\">https://99percentinvisible.org/episode/the-accidental-room/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47367443\">https://news.ycombinator.com/item?id=47367443<"
+      "published": "Fri, 13 Mar 2026 22:52:05 +0000",
+      "summary": "I Found 39 Algolia Admin Keys Exposed Across Open Source Documentation Sites\n<p>Article URL: <a href=\"https://benzimmermann.dev/blog/algolia-docsearch-admin-keys\">https://benzimmermann.dev/blog/algolia-docsearch-admin-keys</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=473710"
     },
     {
-      "title": "Why the militaries are scrambling to create their own Starlink",
-      "link": "https://www.newscientist.com/article/2517766-why-the-worlds-militaries-are-scrambling-to-create-their-own-starlink/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.newscientist.com/article/2517766-why-the-worlds-militaries-are-scrambling-to-create-their-own-starlink/\">https://www.newscientist.com/article/2517766-why-the-worlds-militaries-are-scrambling-to-create-their-own-starlink/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47367220\">https://news.ycombinator.com/item?id=47367220</a></p>\n<p>Points: 25</p>\n<p># Comments: 12</p>",
+      "title": "Human Rights Watch says drone strikes in Haiti have killed nearly 1,250 people",
+      "link": "https://haitiantimes.com/2026/03/11/hrw-condemns-haiti-drone-strikes-killing-children/",
+      "raw_summary": "<p>Article URL: <a href=\"https://haitiantimes.com/2026/03/11/hrw-condemns-haiti-drone-strikes-killing-children/\">https://haitiantimes.com/2026/03/11/hrw-condemns-haiti-drone-strikes-killing-children/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47370822\">https://news.ycombinator.com/item?id=47370822</a></p>\n<p>Points: 111</p>\n<p># Comments: 49</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 13 Mar 2026 17:27:12 +0000",
-      "summary": "Why the militaries are scrambling to create their own Starlink\n<p>Article URL: <a href=\"https://www.newscientist.com/article/2517766-why-the-worlds-militaries-are-scrambling-to-create-their-own-starlink/\">https://www.newscientist.com/article/2517766-why-the-worlds-militaries-are-scrambling-to-create"
+      "published": "Fri, 13 Mar 2026 22:28:04 +0000",
+      "summary": "Human Rights Watch says drone strikes in Haiti have killed nearly 1,250 people\n<p>Article URL: <a href=\"https://haitiantimes.com/2026/03/11/hrw-condemns-haiti-drone-strikes-killing-children/\">https://haitiantimes.com/2026/03/11/hrw-condemns-haiti-drone-strikes-killing-children/</a></p>\n<p>Comments U"
     },
     {
-      "title": "Revealed: Face of 75,000-year-old female Neanderthal from cave",
-      "link": "https://www.cam.ac.uk/stories/shanidar-z-face-revealed",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.cam.ac.uk/stories/shanidar-z-face-revealed\">https://www.cam.ac.uk/stories/shanidar-z-face-revealed</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47366931\">https://news.ycombinator.com/item?id=47366931</a></p>\n<p>Points: 21</p>\n<p># Comments: 8</p>",
+      "title": "Stanford researchers report first recording of a blue whale's heart rate (2019)",
+      "link": "https://news.stanford.edu/stories/2019/11/first-ever-recording-blue-whales-heart-rate",
+      "raw_summary": "<p>Article URL: <a href=\"https://news.stanford.edu/stories/2019/11/first-ever-recording-blue-whales-heart-rate\">https://news.stanford.edu/stories/2019/11/first-ever-recording-blue-whales-heart-rate</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47368430\">https://news.ycombinator.com/item?id=47368430</a></p>\n<p>Points: 47</p>\n<p># Comments: 34</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 13 Mar 2026 17:02:34 +0000",
-      "summary": "Revealed: Face of 75,000-year-old female Neanderthal from cave\n<p>Article URL: <a href=\"https://www.cam.ac.uk/stories/shanidar-z-face-revealed\">https://www.cam.ac.uk/stories/shanidar-z-face-revealed</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47366931\">https://news.ycombin"
+      "published": "Fri, 13 Mar 2026 19:15:06 +0000",
+      "summary": "Stanford researchers report first recording of a blue whale's heart rate (2019)\n<p>Article URL: <a href=\"https://news.stanford.edu/stories/2019/11/first-ever-recording-blue-whales-heart-rate\">https://news.stanford.edu/stories/2019/11/first-ever-recording-blue-whales-heart-rate</a></p>\n<p>Comments UR"
     },
     {
-      "title": "The wild six weeks for NanoClaw’s creator that led to a deal with Docker",
-      "link": "https://techcrunch.com/2026/03/13/the-wild-six-weeks-for-nanoclaws-creator-that-led-to-a-deal-with-docker/",
-      "raw_summary": "Gavriel Cohen is living an open source developer's dream as his project has achieved acclaim and a partnership with Docker in a matter of weeks.",
+      "title": "‘Not built right the first time’ — Musk’s xAI is starting over again, again",
+      "link": "https://techcrunch.com/2026/03/13/not-built-right-the-first-time-musks-xai-is-starting-over-again-again/",
+      "raw_summary": "The AI lab is revamping its effort to build an AI coding tool, with two new executives joining from Cursor.",
       "source": "TechCrunch",
-      "published": "Fri, 13 Mar 2026 17:09:59 +0000",
-      "summary": "The wild six weeks for NanoClaw’s creator that led to a deal with Docker\nGavriel Cohen is living an open source developer's dream as his project has achieved acclaim and a partnership with Docker in a matter of weeks."
+      "published": "Sat, 14 Mar 2026 00:12:22 +0000",
+      "summary": "‘Not built right the first time’ — Musk’s xAI is starting over again, again\nThe AI lab is revamping its effort to build an AI coding tool, with two new executives joining from Cursor."
     },
     {
-      "title": "Spotify will let you edit your Taste Profile to control your recommendations",
-      "link": "https://techcrunch.com/2026/03/13/spotify-will-let-you-edit-your-taste-profile-to-control-your-recommendations/",
-      "raw_summary": "When you edit your Taste Profile, you'll impact your personalized playlists like Discover Weekly, recommendations, and Wrapped.",
+      "title": "Lawyer behind AI psychosis cases warns of mass casualty risks",
+      "link": "https://techcrunch.com/2026/03/13/lawyer-behind-ai-psychosis-cases-warns-of-mass-casualty-risks/",
+      "raw_summary": "AI chatbots have been linked to suicides for years. Now one lawyer says they are showing up in mass casualty cases too, and the technology is moving faster than the safeguards.",
       "source": "TechCrunch",
-      "published": "Fri, 13 Mar 2026 17:04:12 +0000",
-      "summary": "Spotify will let you edit your Taste Profile to control your recommendations\nWhen you edit your Taste Profile, you'll impact your personalized playlists like Discover Weekly, recommendations, and Wrapped."
+      "published": "Sat, 14 Mar 2026 00:01:02 +0000",
+      "summary": "Lawyer behind AI psychosis cases warns of mass casualty risks\nAI chatbots have been linked to suicides for years. Now one lawyer says they are showing up in mass casualty cases too, and the technology is moving faster than the safeguards."
     },
     {
-      "title": "The $32B acquisition that one VC is calling the ‘Deal of the Decade’",
-      "link": "https://techcrunch.com/video/the-32b-acquisition-that-one-vc-is-calling-the-deal-of-the-decade/",
-      "raw_summary": "According to Index Ventures Partner Shardul Shah, cybersecurity startup Wiz sits “at the center of three tailwinds: AI, cloud, and security spend.” Those tailwinds powered what just became the largest venture-backed acquisition in history — Google&#8217;s $32 billion deal, finalized after a declined 2024 offer, antitrust review on both sides of the Atlantic, and an [&#8230;]",
+      "title": "Digg lays off staff and shuts down app as company retools",
+      "link": "https://techcrunch.com/2026/03/13/digg-lays-off-staff-and-shuts-down-app-as-company-retools/",
+      "raw_summary": "Digg laid off a significant number of staff and shut down its app, but says it's not giving up on the startup.",
       "source": "TechCrunch",
-      "published": "Fri, 13 Mar 2026 16:20:23 +0000",
-      "summary": "The $32B acquisition that one VC is calling the ‘Deal of the Decade’\nAccording to Index Ventures Partner Shardul Shah, cybersecurity startup Wiz sits “at the center of three tailwinds: AI, cloud, and security spend.” Those tailwinds powered what just became the largest venture-backed acquisition in "
+      "published": "Fri, 13 Mar 2026 21:51:17 +0000",
+      "summary": "Digg lays off staff and shuts down app as company retools\nDigg laid off a significant number of staff and shut down its app, but says it's not giving up on the startup."
     },
     {
-      "title": "Apple drops commission rates in China without a fuss",
-      "link": "https://techcrunch.com/2026/03/13/apple-drops-commission-rates-in-china-25-percent/",
-      "raw_summary": "Apple dropped its App Store commission rates to 25% in China, and commissions on auto-renewed subscriptions down to 12%.",
+      "title": "Nyne, founded by a father-son duo, gives AI agents the human context they’re missing",
+      "link": "https://techcrunch.com/2026/03/13/nyne-founded-by-a-father-son-duo-gives-ai-agents-the-human-context-theyre-missing/",
+      "raw_summary": "The data infrastructure startup raised $5.3 million in seed funding led by Wischoff Ventures and South Park Commons.",
       "source": "TechCrunch",
-      "published": "Fri, 13 Mar 2026 15:12:14 +0000",
-      "summary": "Apple drops commission rates in China without a fuss\nApple dropped its App Store commission rates to 25% in China, and commissions on auto-renewed subscriptions down to 12%."
+      "published": "Fri, 13 Mar 2026 21:37:01 +0000",
+      "summary": "Nyne, founded by a father-son duo, gives AI agents the human context they’re missing\nThe data infrastructure startup raised $5.3 million in seed funding led by Wischoff Ventures and South Park Commons."
     },
     {
-      "title": "The FBI is investigating malware hidden inside games hosted on Steam",
-      "link": "https://techcrunch.com/2026/03/13/valve-steam-malware-games-fbi/",
-      "raw_summary": "The FBI believes a series of video games published on Steam in the last two years were embedded with malware by the same hacker.",
+      "title": "Facebook makes it easier for creators to report impersonators",
+      "link": "https://techcrunch.com/2026/03/13/facebook-makes-it-easier-for-creators-to-report-impersonators/",
+      "raw_summary": "Facebook is making it easier for creators to report impersonators while tightening rules around reposts and other unoriginal content.",
       "source": "TechCrunch",
-      "published": "Fri, 13 Mar 2026 14:55:06 +0000",
-      "summary": "The FBI is investigating malware hidden inside games hosted on Steam\nThe FBI believes a series of video games published on Steam in the last two years were embedded with malware by the same hacker."
+      "published": "Fri, 13 Mar 2026 20:48:43 +0000",
+      "summary": "Facebook makes it easier for creators to report impersonators\nFacebook is making it easier for creators to report impersonators while tightening rules around reposts and other unoriginal content."
     },
     {
-      "title": "Subscribers to Amazon Prime Video with ads lose 4K support on April 10",
-      "link": "https://arstechnica.com/gadgets/2026/03/amazon-will-increase-ad-free-prime-video-prices-by-2-per-month-on-april-10/",
-      "raw_summary": "Amazon says its service requires \"significant investment.\"",
+      "title": "Woman sneezes out maggots after fly larvae get trapped in her deviated septum",
+      "link": "https://arstechnica.com/health/2026/03/woman-sneezes-out-maggots-after-fly-larvae-get-trapped-in-her-deviated-septum/",
+      "raw_summary": "She made a full recovery, despite the maggots.",
       "source": "Ars Technica - All content",
-      "published": "Fri, 13 Mar 2026 17:16:58 +0000",
-      "summary": "Subscribers to Amazon Prime Video with ads lose 4K support on April 10\nAmazon says its service requires \"significant investment.\""
+      "published": "Fri, 13 Mar 2026 22:38:10 +0000",
+      "summary": "Woman sneezes out maggots after fly larvae get trapped in her deviated septum\nShe made a full recovery, despite the maggots."
     },
     {
-      "title": "M5 MacBook Air review: Still the best MacBook for almost everybody",
-      "link": "https://arstechnica.com/gadgets/2026/03/m5-macbook-air-review-still-the-best-macbook-for-almost-everybody/",
-      "raw_summary": "The M5 MacBook Air is a minor upgrade, but minor upgrades add up over time.",
+      "title": "Slay the Spire 2 is a bit too familiar for its own good",
+      "link": "https://arstechnica.com/gaming/2026/03/slay-the-spire-2-is-a-bit-too-familiar-for-its-own-good/",
+      "raw_summary": "Early Access impressions: New characters shine, but it feels like we've done this before.",
       "source": "Ars Technica - All content",
-      "published": "Fri, 13 Mar 2026 16:31:29 +0000",
-      "summary": "M5 MacBook Air review: Still the best MacBook for almost everybody\nThe M5 MacBook Air is a minor upgrade, but minor upgrades add up over time."
+      "published": "Fri, 13 Mar 2026 22:26:06 +0000",
+      "summary": "Slay the Spire 2 is a bit too familiar for its own good\nEarly Access impressions: New characters shine, but it feels like we've done this before."
     },
     {
-      "title": "Magnetars drag spacetime to power superluminous supernovae",
-      "link": "https://arstechnica.com/science/2026/03/magnetars-drag-spacetime-to-power-superluminous-supernovae/",
-      "raw_summary": "Frame-dragging may explain an odd pattern seen in the brightest supernovae.",
+      "title": "Figuring out why AIs get flummoxed by some games",
+      "link": "https://arstechnica.com/ai/2026/03/figuring-out-why-ais-get-flummoxed-by-some-games/",
+      "raw_summary": "When winning depends on intuiting a mathematical function, AIs come up short.",
       "source": "Ars Technica - All content",
-      "published": "Fri, 13 Mar 2026 15:59:40 +0000",
-      "summary": "Magnetars drag spacetime to power superluminous supernovae\nFrame-dragging may explain an odd pattern seen in the brightest supernovae."
+      "published": "Fri, 13 Mar 2026 21:47:34 +0000",
+      "summary": "Figuring out why AIs get flummoxed by some games\nWhen winning depends on intuiting a mathematical function, AIs come up short."
     },
     {
-      "title": "Measles vaccinations rose 291% among New Mexico adults during outbreak",
-      "link": "https://arstechnica.com/health/2026/03/signs-of-hope-as-measles-spread-new-mexico-vaccinations-surged-55/",
-      "raw_summary": "Despite anti-vaccine rhetoric, New Mexico residents embraced lifesaving shots.",
+      "title": "Google Fiber will be sold to private equity firm and merge with cable company",
+      "link": "https://arstechnica.com/tech-policy/2026/03/google-fiber-will-be-sold-to-private-equity-firm-and-merge-with-cable-company/",
+      "raw_summary": "GFiber and Astound to merge with Alphabet selling majority stake to Stonepeak.",
       "source": "Ars Technica - All content",
-      "published": "Fri, 13 Mar 2026 15:44:20 +0000",
-      "summary": "Measles vaccinations rose 291% among New Mexico adults during outbreak\nDespite anti-vaccine rhetoric, New Mexico residents embraced lifesaving shots."
+      "published": "Fri, 13 Mar 2026 20:57:54 +0000",
+      "summary": "Google Fiber will be sold to private equity firm and merge with cable company\nGFiber and Astound to merge with Alphabet selling majority stake to Stonepeak."
     },
     {
-      "title": "Microsoft is working to eliminate PC gaming's \"compiling shaders\" wait times",
-      "link": "https://arstechnica.com/gaming/2026/03/microsoft-is-working-to-eliminate-pc-gamings-compiling-shaders-wait-times/",
-      "raw_summary": "Advanced Shader Delivery uses precompiled shaders for \"console-like load times\" across PC hardware.",
+      "title": "Supply-chain attack using invisible code hits GitHub and other repositories",
+      "link": "https://arstechnica.com/security/2026/03/supply-chain-attack-using-invisible-code-hits-github-and-other-repositories/",
+      "raw_summary": "Unicode that's invisible to the human eye was largely abandoned—until attackers took notice.",
       "source": "Ars Technica - All content",
-      "published": "Fri, 13 Mar 2026 15:31:38 +0000",
-      "summary": "Microsoft is working to eliminate PC gaming's \"compiling shaders\" wait times\nAdvanced Shader Delivery uses precompiled shaders for \"console-like load times\" across PC hardware."
+      "published": "Fri, 13 Mar 2026 20:18:08 +0000",
+      "summary": "Supply-chain attack using invisible code hits GitHub and other repositories\nUnicode that's invisible to the human eye was largely abandoned—until attackers took notice."
     },
     {
-      "title": "More young people to be offered state-funded jobs in push to solve ‘Neet’ problem",
-      "link": "https://www.ft.com/content/5ca5b77c-0d2e-4d47-ab4b-3a1c76b7302f",
-      "raw_summary": "Work and pensions secretary Pat McFadden will also signal fresh effort to reform welfare benefits",
+      "title": "Brazil blocks visit of Trump official to see jailed Bolsonaro",
+      "link": "https://www.ft.com/content/21200555-302e-417d-976e-7cf4ae21876d",
+      "raw_summary": "US accused of ‘undue interference’ in country’s affairs as bilateral relations take turn for the worse",
       "source": "World",
-      "published": "Fri, 13 Mar 2026 17:58:41 GMT",
-      "summary": "More young people to be offered state-funded jobs in push to solve ‘Neet’ problem\nWork and pensions secretary Pat McFadden will also signal fresh effort to reform welfare benefits"
+      "published": "Sat, 14 Mar 2026 00:14:16 GMT",
+      "summary": "Brazil blocks visit of Trump official to see jailed Bolsonaro\nUS accused of ‘undue interference’ in country’s affairs as bilateral relations take turn for the worse"
     },
     {
-      "title": "Dire Strait",
-      "link": "https://www.ft.com/content/51c7b025-bb2d-433d-bebe-7692b2fe925f",
-      "raw_summary": "The longer the Gulf remains closed to global shipping, the bigger the shock for the global economy will be",
+      "title": "Trump says US has ‘obliterated’ military assets on Iran’s Kharg Island",
+      "link": "https://www.ft.com/content/d1b23f3e-a976-4ff1-a653-4155e7a8695e",
+      "raw_summary": "President warns he would attack oil infrastructure if Tehran impeded more shipments through the Strait of Hormuz",
       "source": "World",
-      "published": "Fri, 13 Mar 2026 17:51:39 GMT",
-      "summary": "Dire Strait\nThe longer the Gulf remains closed to global shipping, the bigger the shock for the global economy will be"
+      "published": "Fri, 13 Mar 2026 23:53:33 GMT",
+      "summary": "Trump says US has ‘obliterated’ military assets on Iran’s Kharg Island\nPresident warns he would attack oil infrastructure if Tehran impeded more shipments through the Strait of Hormuz"
     },
     {
-      "title": "Dubai financial district rattled by Iranian drones",
-      "link": "https://www.ft.com/content/2dddfaa2-a163-4e59-a6ef-7d9d6e334023",
-      "raw_summary": "Towers in Dubai International Financial Centre suffer damage but most drones and missiles are intercepted",
+      "title": "Musk’s $134bn claim against OpenAI rests on ‘numbers out of the air’, judge says",
+      "link": "https://www.ft.com/content/cef962a0-f6f2-4f05-ba66-5795aa05104d",
+      "raw_summary": "California court questions billionaire’s expert witness but declines to exclude the testimony from April trial",
       "source": "World",
-      "published": "Fri, 13 Mar 2026 17:44:45 GMT",
-      "summary": "Dubai financial district rattled by Iranian drones\nTowers in Dubai International Financial Centre suffer damage but most drones and missiles are intercepted"
+      "published": "Fri, 13 Mar 2026 23:36:41 GMT",
+      "summary": "Musk’s $134bn claim against OpenAI rests on ‘numbers out of the air’, judge says\nCalifornia court questions billionaire’s expert witness but declines to exclude the testimony from April trial"
     },
     {
-      "title": "France and Italy open talks with Iran in hope of securing safe Hormuz passage",
-      "link": "https://www.ft.com/content/96b8e0a4-9ecb-4e07-a96d-7debcfe3bfa6",
-      "raw_summary": "Europeans look for ways to restart energy shipments as Iran’s new supreme leader vows to keep strait shut",
+      "title": "Middle East war day 14 as it happened: Washington eases some Russian oil sanctions, Donald Trump says US ‘obliterated’ military assets on Iran’s Kharg Island",
+      "link": "https://www.ft.com/content/d213e507-905e-440b-987e-66bfc1acdffe",
+      "raw_summary": "President warns he would attack oil infrastructure if Tehran impeded more shipments through the Strait of Hormuz",
       "source": "World",
-      "published": "Fri, 13 Mar 2026 17:33:41 GMT",
-      "summary": "France and Italy open talks with Iran in hope of securing safe Hormuz passage\nEuropeans look for ways to restart energy shipments as Iran’s new supreme leader vows to keep strait shut"
+      "published": "Fri, 13 Mar 2026 23:32:35 GMT",
+      "summary": "Middle East war day 14 as it happened: Washington eases some Russian oil sanctions, Donald Trump says US ‘obliterated’ military assets on Iran’s Kharg Island\nPresident warns he would attack oil infrastructure if Tehran impeded more shipments through the Strait of Hormuz"
     },
     {
-      "title": "Companies House suspends online filing after glitch put personal data at risk",
-      "link": "https://www.ft.com/content/afddb9c3-bf48-4d49-91a2-61ae8acc44b8",
-      "raw_summary": "Bug on UK’s official corporate register allowed potential fraudsters to change personal details and upload accounts",
+      "title": "Wall Street warns Iran war will trigger prolonged energy crisis",
+      "link": "https://www.ft.com/content/e5d1f192-c9f1-448f-9aa4-528d6e867cd2",
+      "raw_summary": "US launches strike on Iran’s Kharg Island supply hub as banks forecast oil could push well above $100",
       "source": "World",
-      "published": "Fri, 13 Mar 2026 17:18:10 GMT",
-      "summary": "Companies House suspends online filing after glitch put personal data at risk\nBug on UK’s official corporate register allowed potential fraudsters to change personal details and upload accounts"
+      "published": "Fri, 13 Mar 2026 23:32:10 GMT",
+      "summary": "Wall Street warns Iran war will trigger prolonged energy crisis\nUS launches strike on Iran’s Kharg Island supply hub as banks forecast oil could push well above $100"
     },
     {
-      "title": "Oil’s Crisis Deepens as Traders Fret on Longer Hormuz Blockage",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-13/oil-s-crisis-deepens-as-traders-fret-on-longer-hormuz-blockage",
-      "raw_summary": "The worst supply disruption in the history of the oil market is showing no signs of abating anytime soon, offering the global economy little respite from crude prices that have surged 40% since the Iran war began.",
+      "title": "Wall Street Week | Soft US Jobs, Swedish Defense Spending, Private Credit Woes",
+      "link": "https://www.bloomberg.com/news/videos/2026-03-13/wall-street-week-yellow-alert-on-private-credit-video",
+      "raw_summary": "This week, Steven Rattner of Willett Advisors explains why the US labor market is softening and what tariffs, AI and stagflation risk could mean next. And as Europe prepares to spend more on defense, Sweden is emerging as an unlikely but crucial player in the continent’s push. Plus, private credit’s advantages are becoming vulnerabilities as some investors try to get their money out. Later, Nepal’s Gen Z protests toppled a government, and now the country’s voters are trying to turn that uprising into lasting change.\n (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Fri, 13 Mar 2026 18:22:50 GMT",
-      "summary": "Oil’s Crisis Deepens as Traders Fret on Longer Hormuz Blockage\nThe worst supply disruption in the history of the oil market is showing no signs of abating anytime soon, offering the global economy little respite from crude prices that have surged 40% since the Iran war began."
+      "published": "Fri, 13 Mar 2026 23:14:02 GMT",
+      "summary": "Wall Street Week | Soft US Jobs, Swedish Defense Spending, Private Credit Woes\nThis week, Steven Rattner of Willett Advisors explains why the US labor market is softening and what tariffs, AI and stagflation risk could mean next. And as Europe prepares to spend more on defense, Sweden is emerging as"
     },
     {
-      "title": "Busting the Myth of Treasuries as a Haven: Nir Kaissar",
-      "link": "https://www.bloomberg.com/news/videos/2026-03-13/busting-the-myth-of-treasuries-as-a-haven-nir-kaissar-video",
-      "raw_summary": "Nir Kaissar, Bloomberg Opinion columnist and founder of Unison Advisors, joins Emily Graffeo and Matt Miller on \"Bloomberg Real Yield.\" They discuss the safe haven status of Treasuries.  (Source: Bloomberg)",
+      "title": "Fuel Shortages From War Begin to Threaten Global Food Supply",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-14/fuel-shortages-from-war-begin-to-threaten-global-food-supply",
+      "raw_summary": "Food crops are becoming increasingly vulnerable to the energy supply crunch caused by war in the Middle East, with farmers across Asia and Europe facing a scarcity of fuel needed to operate essential machinery.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 13 Mar 2026 18:22:11 GMT",
-      "summary": "Busting the Myth of Treasuries as a Haven: Nir Kaissar\nNir Kaissar, Bloomberg Opinion columnist and founder of Unison Advisors, joins Emily Graffeo and Matt Miller on \"Bloomberg Real Yield.\" They discuss the safe haven status of Treasuries.  (Source: Bloomberg)"
+      "published": "Sat, 14 Mar 2026 00:00:00 GMT",
+      "summary": "Fuel Shortages From War Begin to Threaten Global Food Supply\nFood crops are becoming increasingly vulnerable to the energy supply crunch caused by war in the Middle East, with farmers across Asia and Europe facing a scarcity of fuel needed to operate essential machinery."
     },
     {
-      "title": "Fed Rate Cuts Will Return: Misra",
-      "link": "https://www.bloomberg.com/news/videos/2026-03-13/fed-rate-cuts-will-return-misra-video",
-      "raw_summary": "Traders are now fully pricing in the next quarter-point rate reduction in mid-2027, and a growing chorus of Wall Street economists have also pushed their calls for the next cut further out the calendar. Priya Misra, portfolio manager JPMorgan asset management Core Plus Bond ETF, speaks with Emily Graffeo and Matt Miller on \"Bloomberg Real Yield.\" \n (Source: Bloomberg)",
+      "title": "US Hits Military Targets on Iran’s Kharg Island as War Escalates",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-13/us-intensifies-strikes-rhetoric-in-iran-war-as-oil-rises",
+      "raw_summary": "President Donald Trump said the US bombed military targets on a critical Iranian outpost in the Persian Gulf and threatened additional strikes targeting oil infrastructure if Tehran continued to block energy flows, in the latest escalation of the two-week conflict that has upended the region.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 13 Mar 2026 18:18:24 GMT",
-      "summary": "Fed Rate Cuts Will Return: Misra\nTraders are now fully pricing in the next quarter-point rate reduction in mid-2027, and a growing chorus of Wall Street economists have also pushed their calls for the next cut further out the calendar. Priya Misra, portfolio manager JPMorgan asset management Core Pl"
+      "published": "Fri, 13 Mar 2026 16:16:03 GMT",
+      "summary": "US Hits Military Targets on Iran’s Kharg Island as War Escalates\nPresident Donald Trump said the US bombed military targets on a critical Iranian outpost in the Persian Gulf and threatened additional strikes targeting oil infrastructure if Tehran continued to block energy flows, in the latest escala"
     },
     {
-      "title": "Stocks Fall and Brent Tops $100 as War Heats Up: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-12/asian-stocks-bonds-to-echo-us-drop-as-crude-rises-markets-wrap",
-      "raw_summary": "Volatility gripped Wall Street, with stocks falling and Brent topping $100 as the war in Iran showed no signs of easing. An advance in bonds waned as higher energy prices fueled inflation angst.",
+      "title": "Blue Owl Private Credit BDC Urges Rejecting Boaz Weinstein Offer",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-13/blue-owl-fund-urges-shareholders-to-reject-tender-from-saba-cox",
+      "raw_summary": "A Blue Owl Capital Inc. private credit fund is urging investors to reject a share purchase offer led by Boaz Weinstein’s Saba Capital Management, saying the price is too low.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 12 Mar 2026 22:27:20 GMT",
-      "summary": "Stocks Fall and Brent Tops $100 as War Heats Up: Markets Wrap\nVolatility gripped Wall Street, with stocks falling and Brent topping $100 as the war in Iran showed no signs of easing. An advance in bonds waned as higher energy prices fueled inflation angst."
+      "published": "Fri, 13 Mar 2026 21:49:40 GMT",
+      "summary": "Blue Owl Private Credit BDC Urges Rejecting Boaz Weinstein Offer\nA Blue Owl Capital Inc. private credit fund is urging investors to reject a share purchase offer led by Boaz Weinstein’s Saba Capital Management, saying the price is too low."
     },
     {
-      "title": "Eni Sees Path to Exporting Venezuelan Gas in Post-Maduro Opening",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-13/eni-sees-path-to-exporting-venezuelan-gas-in-post-maduro-opening",
-      "raw_summary": "Italian energy company Eni SpA sees potential to export Venezuelan gas in a fresh sign of the Caribbean country’s gradual return to international markets under a US-supported interim administration.",
+      "title": "Private Credit Infecting Public Markets, Boaz Weinstein Says",
+      "link": "https://www.bloomberg.com/news/videos/2026-03-13/private-credit-infecting-public-markets-boaz-weinstein-video",
+      "raw_summary": "While sitting for a \"Bloomberg Money Stuff\" podcast episode taping, Saba Capital Management CIO Boaz Weinstein speaks about private credit \"infecting\" public markets. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Fri, 13 Mar 2026 18:13:51 GMT",
-      "summary": "Eni Sees Path to Exporting Venezuelan Gas in Post-Maduro Opening\nItalian energy company Eni SpA sees potential to export Venezuelan gas in a fresh sign of the Caribbean country’s gradual return to international markets under a US-supported interim administration."
+      "published": "Fri, 13 Mar 2026 21:50:59 GMT",
+      "summary": "Private Credit Infecting Public Markets, Boaz Weinstein Says\nWhile sitting for a \"Bloomberg Money Stuff\" podcast episode taping, Saba Capital Management CIO Boaz Weinstein speaks about private credit \"infecting\" public markets. (Source: Bloomberg)"
+    },
+    {
+      "title": "A huge gap between network use and token value is the most important thing happening in XRP right now",
+      "link": "https://www.coindesk.com/markets/2026/03/13/dnp-xrp-ledger-activity-is-hitting-records-but-why-are-xrp-prices-down-62-from-peak",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Fri, 13 Mar 2026 23:30:00 +0000",
+      "summary": "A huge gap between network use and token value is the most important thing happening in XRP right now\n"
+    },
+    {
+      "title": "Court closes Custodia fight with Federal Reserve just as Fed opens master-account door",
+      "link": "https://www.coindesk.com/policy/2026/03/13/court-closes-custodia-fight-with-federal-reserve-just-as-fed-opens-master-account-door",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Fri, 13 Mar 2026 21:04:03 +0000",
+      "summary": "Court closes Custodia fight with Federal Reserve just as Fed opens master-account door\n"
+    },
+    {
+      "title": "Circle overtakes BlackRock in tokenized Treasuries as market hits record $11 billion",
+      "link": "https://www.coindesk.com/markets/2026/03/13/circle-overtakes-blackrock-in-tokenized-treasuries-as-market-hits-record-usd11-billion",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Fri, 13 Mar 2026 19:41:14 +0000",
+      "summary": "Circle overtakes BlackRock in tokenized Treasuries as market hits record $11 billion\n"
     },
     {
       "title": "Arthur Hayes: Strong Revenue and Real Trading Could Send HYPE to $150",
@@ -297,30 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Fri, 13 Mar 2026 16:30:53 +0000",
       "summary": "Bitcoin quickly drops 3.5% as fresh Iran escalation short-circuits crypto rally\n"
-    },
-    {
-      "title": "One mysterious investor made $2.5 million profit in hours by betting big on the latest Trump gala news",
-      "link": "https://www.coindesk.com/markets/2026/03/13/one-mysterious-investor-made-usd2-5-million-profit-in-hours-by-betting-big-on-the-latest-trump-gala-news",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 13 Mar 2026 16:16:36 +0000",
-      "summary": "One mysterious investor made $2.5 million profit in hours by betting big on the latest Trump gala news\n"
-    },
-    {
-      "title": "MoonPay introduces Ledger-secured AI crypto agents to address wallet key risks",
-      "link": "https://www.coindesk.com/tech/2026/03/13/moonpay-introduces-ledger-secured-ai-crypto-agents-to-address-wallet-key-risks",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 13 Mar 2026 16:00:00 +0000",
-      "summary": "MoonPay introduces Ledger-secured AI crypto agents to address wallet key risks\n"
-    },
-    {
-      "title": "Ethereum Foundation publishes new mandate defining its role, core principles",
-      "link": "https://www.coindesk.com/tech/2026/03/13/ethereum-foundation-publishes-new-mandate-defining-its-role-core-principles",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 13 Mar 2026 15:47:48 +0000",
-      "summary": "Ethereum Foundation publishes new mandate defining its role, core principles\n"
     }
   ]
 }
