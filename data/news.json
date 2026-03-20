@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T12:40:21.059624+00:00",
+  "generated_at": "2026-03-20T18:37:25.079315+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,22 @@
       "summary": "Who is the Kimwolf Botmaster “Dort”?\nIn early January 2026, KrebsOnSecurity revealed how a security researcher disclosed a vulnerability that was used to assemble Kimwolf, the world's largest and most disruptive botnet. Since then, the person in control of Kimwolf -- who goes by the handle \"Dort\" --"
     },
     {
+      "title": "Trivy Security Scanner GitHub Actions Breached, 75 Tags Hijacked to Steal CI/CD Secrets",
+      "link": "https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html",
+      "raw_summary": "Trivy, a popular open-source vulnerability scanner maintained by Aqua Security, was compromised a second time within the span of a month to deliver malware that stole sensitive CI/CD secrets.\nThe latest incident impacted GitHub Actions \"aquasecurity/trivy-action\" and \"aquasecurity/setup-trivy,\" which are used to scan Docker container images for vulnerabilities and set up GitHub Actions workflow",
+      "source": "The Hacker News",
+      "published": "Fri, 20 Mar 2026 23:17:00 +0530",
+      "summary": "Trivy Security Scanner GitHub Actions Breached, 75 Tags Hijacked to Steal CI/CD Secrets\nTrivy, a popular open-source vulnerability scanner maintained by Aqua Security, was compromised a second time within the span of a month to deliver malware that stole sensitive CI/CD secrets.\nThe latest incident "
+    },
+    {
+      "title": "Critical Langflow Flaw CVE-2026-33017 Triggers Attacks within 20 Hours of Disclosure",
+      "link": "https://thehackernews.com/2026/03/critical-langflow-flaw-cve-2026-33017.html",
+      "raw_summary": "A critical security flaw impacting Langflow has come under active exploitation within 20 hours of public disclosure, highlighting the speed at which threat actors weaponize newly published vulnerabilities.\nThe security defect, tracked as CVE-2026-33017 (CVSS score: 9.3), is a case of missing authentication combined with code injection that could result in remote code execution.\n\"The POST /api/v1",
+      "source": "The Hacker News",
+      "published": "Fri, 20 Mar 2026 20:45:00 +0530",
+      "summary": "Critical Langflow Flaw CVE-2026-33017 Triggers Attacks within 20 Hours of Disclosure\nA critical security flaw impacting Langflow has come under active exploitation within 20 hours of public disclosure, highlighting the speed at which threat actors weaponize newly published vulnerabilities.\nThe secur"
+    },
+    {
       "title": "Google Adds 24-Hour Wait for Unverified App Sideloading to Reduce Malware and Scams",
       "link": "https://thehackernews.com/2026/03/google-adds-24-hour-wait-for-unverified.html",
       "raw_summary": "Google on Thursday announced a new \"advanced flow\" for Android sideloading that requires a mandatory 24-hour wait period to install apps from unverified developers in an attempt to balance openness with safety.\nThe new changes come against the backdrop of a developer verification mandate the tech giant announced last year that requires all Android apps to be registered by verified developers to",
@@ -59,268 +75,252 @@
       "summary": "The Importance of Behavioral Analytics in AI-Enabled Cyber Attacks\nArtificial Intelligence (AI) is changing how individuals and organizations conduct many activities, including how cybercriminals carry out phishing attacks and iterate on malware. Now, cybercriminals are using AI to generate personal"
     },
     {
-      "title": "DoJ Disrupts 3 Million-Device IoT Botnets Behind Record 31.4 Tbps Global DDoS Attacks",
-      "link": "https://thehackernews.com/2026/03/doj-disrupts-3-million-device-iot.html",
-      "raw_summary": "The U.S. Department of Justice (DoJ) on Thursday announced the disruption of command-and-control (C2) infrastructure used by several Internet of Things (IoT) botnets like AISURU, Kimwolf, JackSkid, and Mossad as part of a court-authorized law enforcement operation.\nThe effort also saw authorities from Canada and Germany targeting the operators behind these botnets, with a number of private",
+      "title": "Magento PolyShell Flaw Enables Unauthenticated Uploads, RCE and Account Takeover",
+      "link": "https://thehackernews.com/2026/03/magento-polyshell-flaw-enables.html",
+      "raw_summary": "Sansec is warning of a critical security flaw in Magento's REST API that could allow unauthenticated attackers to upload arbitrary executables and achieve code execution and account takeover.\nThe vulnerability has been codenamed PolyShell by Sansec owing to the fact that the attack hinges on disguising malicious code as an image. There is no evidence that the shortcoming has been exploited in",
       "source": "The Hacker News",
-      "published": "Fri, 20 Mar 2026 11:55:00 +0530",
-      "summary": "DoJ Disrupts 3 Million-Device IoT Botnets Behind Record 31.4 Tbps Global DDoS Attacks\nThe U.S. Department of Justice (DoJ) on Thursday announced the disruption of command-and-control (C2) infrastructure used by several Internet of Things (IoT) botnets like AISURU, Kimwolf, JackSkid, and Mossad as pa"
+      "published": "Fri, 20 Mar 2026 15:00:00 +0530",
+      "summary": "Magento PolyShell Flaw Enables Unauthenticated Uploads, RCE and Account Takeover\nSansec is warning of a critical security flaw in Magento's REST API that could allow unauthenticated attackers to upload arbitrary executables and achieve code execution and account takeover.\nThe vulnerability has been "
     },
     {
-      "title": "Apple Warns Older iPhones Vulnerable to Coruna, DarkSword Exploit Kit Attacks",
-      "link": "https://thehackernews.com/2026/03/apple-warns-older-iphones-vulnerable-to.html",
-      "raw_summary": "Apple is urging users who are still running an outdated version of iOS to update their iPhones to secure against web-based attacks carried out via powerful exploit kits like Coruna and DarkSword.\nThese attacks employ malicious web content to target out-of-date versions of iOS, triggering an infection chain that leads to the theft of sensitive data.\n\"For example, if you're using an older",
-      "source": "The Hacker News",
-      "published": "Fri, 20 Mar 2026 10:46:00 +0530",
-      "summary": "Apple Warns Older iPhones Vulnerable to Coruna, DarkSword Exploit Kit Attacks\nApple is urging users who are still running an outdated version of iOS to update their iPhones to secure against web-based attacks carried out via powerful exploit kits like Coruna and DarkSword.\nThese attacks employ malic"
-    },
-    {
-      "title": "Speagle Malware Hijacks Cobra DocGuard to Steal Data via Compromised Servers",
-      "link": "https://thehackernews.com/2026/03/speagle-malware-hijacks-cobra-docguard.html",
-      "raw_summary": "Cybersecurity researchers have flagged a new malware dubbed Speagle that hijacks the functionality and infrastructure of a legitimate program called Cobra DocGuard.\n\"Speagle is designed to surreptitiously harvest sensitive information from infected computers and transmit it to a Cobra DocGuard server that has been compromised by the attackers, masking the data exfiltration process as legitimate",
-      "source": "The Hacker News",
-      "published": "Fri, 20 Mar 2026 00:46:00 +0530",
-      "summary": "Speagle Malware Hijacks Cobra DocGuard to Steal Data via Compromised Servers\nCybersecurity researchers have flagged a new malware dubbed Speagle that hijacks the functionality and infrastructure of a legitimate program called Cobra DocGuard.\n\"Speagle is designed to surreptitiously harvest sensitive "
-    },
-    {
-      "title": "Entso-E final report on Iberian 2025 blackout",
-      "link": "https://www.entsoe.eu/publications/blackout/28-april-2025-iberian-blackout/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.entsoe.eu/publications/blackout/28-april-2025-iberian-blackout/\">https://www.entsoe.eu/publications/blackout/28-april-2025-iberian-blackout/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47452955\">https://news.ycombinator.com/item?id=47452955</a></p>\n<p>Points: 30</p>\n<p># Comments: 1</p>",
+      "title": "Delve – Fake Compliance as a Service",
+      "link": "https://substack.com/home/post/p-191342187",
+      "raw_summary": "<p>Article URL: <a href=\"https://substack.com/home/post/p-191342187\">https://substack.com/home/post/p-191342187</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47458310\">https://news.ycombinator.com/item?id=47458310</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 20 Mar 2026 11:03:27 +0000",
-      "summary": "Entso-E final report on Iberian 2025 blackout\n<p>Article URL: <a href=\"https://www.entsoe.eu/publications/blackout/28-april-2025-iberian-blackout/\">https://www.entsoe.eu/publications/blackout/28-april-2025-iberian-blackout/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47452"
+      "published": "Fri, 20 Mar 2026 18:03:45 +0000",
+      "summary": "Delve – Fake Compliance as a Service\n<p>Article URL: <a href=\"https://substack.com/home/post/p-191342187\">https://substack.com/home/post/p-191342187</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47458310\">https://news.ycombinator.com/item?id=47458310</a></p>\n<p>Points: 5</p>"
     },
     {
-      "title": "3M's PFAS exit killed the supply chain for two-phase immersion cooling in DCs",
-      "link": "https://thecoolingreport.com/intel.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://thecoolingreport.com/intel.html\">https://thecoolingreport.com/intel.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47452828\">https://news.ycombinator.com/item?id=47452828</a></p>\n<p>Points: 35</p>\n<p># Comments: 20</p>",
+      "title": "Launch HN: Sitefire (YC W26) – Automating actions to improve AI visibility",
+      "link": "https://news.ycombinator.com/item?id=47457472",
+      "raw_summary": "<p>Hi HN! We're Vincent and Jochen from sitefire (<a href=\"https://sitefire.ai\">https://sitefire.ai</a>). Our platform makes it easy for brands to improve their visibility in AI search.<p>We’ve been working together for years and have backgrounds in RL/optimization at Stanford and software engineering. We came to this idea after speaking with marketing teams who were seeing declining traffic due to Google’s AI Overviews and didn’t know what to do.<p>This space can feel esoteric. Many case studies, few actual studies. Constant battle against myths (e.g. you need a llms.txt vs. you don't need a llms.txt) and \"GEO hacks\". We try to be more data-driven. And we try to be more bold and build a system that not only monitors, but actually improves traffic from AI search.<p>While Google performs a single search, AI search engines expand the user prompt into 3-10 fan-out queries. The sourced pages are ranked using a classified algorithm similar to Reciprocal Rank Fusion (RFF). Finally, the LLMs skim the pages and decide what snippets to cite. Our goal is making sure brands have the right content that makes it through this funnel.<p>Here is how sitefire works:<p>- The user defines a set of prompts they want to monitor. These are synthetic prompts - we generate them based on SEO keywords and their monthly search volume.<p>- We submit these prompts to ChatGPT, Gemini, Google AI Mode, etc. on a daily basis and capture the answers. We extract fan-out queries, sourced pages, citations, and brand mentions.<p>- For each topic, our agents analyze which web pages are sourced and cited the most, and why. They also consider similar pages that you already have.<p>- Based on the diagnosis, our content agents draft improvements or create new pages, and push them directly to the client’s CMS.<p>- We integrate with the client’s network logs and Google Analytics to monitor the increase in AI bot requests and human referrals to their page.<p>This system is continuously updated, so it always shows which content works, and how to adapt the existing sitemap. For one client that used sitefire to optimize their blog, the AI-optimized articles increased their AI bot requests from ~200/day to ~570/day within ten days.<p>A risk we recognize is that AI-generated content is filling brands’ websites with slop. Whilst it’s still early days and we don’t claim to have figured everything out yet, our intention is to mitigate this by focusing the content on specific, unique information: real product capabilities, real pricing, honest comparisons. The clients still review every page before it goes live, so they can ensure the content is true to their brand.<p>Some clients use our platform themselves. For others we act more like an agency, automating steps as we go. The goal is for sitefire to run mostly on its own, with clients approving changes via Slack, Claude or their CMS.<p>Here's a video demo: <a href=\"https://screen.studio/share/fw7VQQak\" rel=\"nofollow\">https://screen.studio/share/fw7VQQak</a><p>If you'd like to try what we've built so far, sign up at <a href=\"https://sitefire.ai\">https://sitefire.ai</a>.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47457472\">https://news.ycombinator.com/item?id=47457472</a></p>\n<p>Points: 17</p>\n<p># Comments: 16</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 20 Mar 2026 10:46:15 +0000",
-      "summary": "3M's PFAS exit killed the supply chain for two-phase immersion cooling in DCs\n<p>Article URL: <a href=\"https://thecoolingreport.com/intel.html\">https://thecoolingreport.com/intel.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47452828\">https://news.ycombinator.com/item?i"
+      "published": "Fri, 20 Mar 2026 17:05:38 +0000",
+      "summary": "Launch HN: Sitefire (YC W26) – Automating actions to improve AI visibility\n<p>Hi HN! We're Vincent and Jochen from sitefire (<a href=\"https://sitefire.ai\">https://sitefire.ai</a>). Our platform makes it easy for brands to improve their visibility in AI search.<p>We’ve been working together for years"
     },
     {
-      "title": "Show HN: Sonar – A tiny CLI to see and kill whatever's running on localhost",
-      "link": "https://github.com/RasKrebs/sonar",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/RasKrebs/sonar\">https://github.com/RasKrebs/sonar</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47452515\">https://news.ycombinator.com/item?id=47452515</a></p>\n<p>Points: 9</p>\n<p># Comments: 6</p>",
+      "title": "MacBook M5 Pro and Qwen3.5 = Local AI Security System",
+      "link": "https://www.sharpai.org/benchmark/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.sharpai.org/benchmark/\">https://www.sharpai.org/benchmark/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47457107\">https://news.ycombinator.com/item?id=47457107</a></p>\n<p>Points: 74</p>\n<p># Comments: 89</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 20 Mar 2026 09:59:56 +0000",
-      "summary": "Show HN: Sonar – A tiny CLI to see and kill whatever's running on localhost\n<p>Article URL: <a href=\"https://github.com/RasKrebs/sonar\">https://github.com/RasKrebs/sonar</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47452515\">https://news.ycombinator.com/item?id=47452515</a>"
+      "published": "Fri, 20 Mar 2026 16:41:42 +0000",
+      "summary": "MacBook M5 Pro and Qwen3.5 = Local AI Security System\n<p>Article URL: <a href=\"https://www.sharpai.org/benchmark/\">https://www.sharpai.org/benchmark/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47457107\">https://news.ycombinator.com/item?id=47457107</a></p>\n<p>Points: 74</"
     },
     {
-      "title": "Cursor Composer 2 is just Kimi K2.5 with RL",
-      "link": "https://twitter.com/fynnso/status/2034706304875602030",
-      "raw_summary": "<p>Article URL: <a href=\"https://twitter.com/fynnso/status/2034706304875602030\">https://twitter.com/fynnso/status/2034706304875602030</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47452404\">https://news.ycombinator.com/item?id=47452404</a></p>\n<p>Points: 123</p>\n<p># Comments: 58</p>",
+      "title": "90% of crypto's Illinois primary spending failed to achieve its objective",
+      "link": "https://www.mollywhite.net/micro/entry/202603172318",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.mollywhite.net/micro/entry/202603172318\">https://www.mollywhite.net/micro/entry/202603172318</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47456987\">https://news.ycombinator.com/item?id=47456987</a></p>\n<p>Points: 45</p>\n<p># Comments: 33</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 20 Mar 2026 09:41:51 +0000",
-      "summary": "Cursor Composer 2 is just Kimi K2.5 with RL\n<p>Article URL: <a href=\"https://twitter.com/fynnso/status/2034706304875602030\">https://twitter.com/fynnso/status/2034706304875602030</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47452404\">https://news.ycombinator.com/item?id=4745"
+      "published": "Fri, 20 Mar 2026 16:34:04 +0000",
+      "summary": "90% of crypto's Illinois primary spending failed to achieve its objective\n<p>Article URL: <a href=\"https://www.mollywhite.net/micro/entry/202603172318\">https://www.mollywhite.net/micro/entry/202603172318</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47456987\">https://news.yc"
     },
     {
-      "title": "The Soul of a Pedicab Driver",
-      "link": "https://www.sheldonbrown.com/pedicab.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.sheldonbrown.com/pedicab.html\">https://www.sheldonbrown.com/pedicab.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47452399\">https://news.ycombinator.com/item?id=47452399</a></p>\n<p>Points: 39</p>\n<p># Comments: 8</p>",
+      "title": "Oregon school cell phone ban: 'Engaged students, joyful teachers'",
+      "link": "https://portlandtribune.com/2026/03/18/oregon-school-cell-phone-ban-engaged-students-joyful-teachers/",
+      "raw_summary": "<p>Article URL: <a href=\"https://portlandtribune.com/2026/03/18/oregon-school-cell-phone-ban-engaged-students-joyful-teachers/\">https://portlandtribune.com/2026/03/18/oregon-school-cell-phone-ban-engaged-students-joyful-teachers/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47456153\">https://news.ycombinator.com/item?id=47456153</a></p>\n<p>Points: 211</p>\n<p># Comments: 142</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 20 Mar 2026 09:40:56 +0000",
-      "summary": "The Soul of a Pedicab Driver\n<p>Article URL: <a href=\"https://www.sheldonbrown.com/pedicab.html\">https://www.sheldonbrown.com/pedicab.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47452399\">https://news.ycombinator.com/item?id=47452399</a></p>\n<p>Points: 39</p>\n<p># Com"
+      "published": "Fri, 20 Mar 2026 15:39:19 +0000",
+      "summary": "Oregon school cell phone ban: 'Engaged students, joyful teachers'\n<p>Article URL: <a href=\"https://portlandtribune.com/2026/03/18/oregon-school-cell-phone-ban-engaged-students-joyful-teachers/\">https://portlandtribune.com/2026/03/18/oregon-school-cell-phone-ban-engaged-students-joyful-teachers/</a><"
     },
     {
-      "title": "The best AI investment might be in energy tech",
-      "link": "https://techcrunch.com/2026/03/20/the-best-ai-investment-might-be-in-energy-tech/",
-      "raw_summary": "Power has become one of the biggest bottlenecks in rolling out new AI data centers. That's creating an opening for investors.",
+      "title": "Why scientists can’t get a laugh",
+      "link": "https://techcrunch.com/2026/03/20/why-scientists-cant-get-a-laugh/",
+      "raw_summary": "Humor is hard to pull off in front of a cold audience, full stop.",
       "source": "TechCrunch",
-      "published": "Fri, 20 Mar 2026 12:00:00 +0000",
-      "summary": "The best AI investment might be in energy tech\nPower has become one of the biggest bottlenecks in rolling out new AI data centers. That's creating an opening for investors."
+      "published": "Fri, 20 Mar 2026 17:39:06 +0000",
+      "summary": "Why scientists can’t get a laugh\nHumor is hard to pull off in front of a cold audience, full stop."
     },
     {
-      "title": "These AI notetaking devices can help you record and transcribe your meetings",
-      "link": "https://techcrunch.com/2026/03/20/ai-notetaker-hardware-devices-pins-pendants-record-transcribe/",
-      "raw_summary": "These physical notetakers transcribe audio and give users summaries and action items of meetings using AI. Some even offer live translation.",
+      "title": "A French Navy officer accidentally leaked the location of an aircraft carrier by logging his run on Strava",
+      "link": "https://techcrunch.com/2026/03/20/a-french-navy-officer-accidentally-leaked-the-location-of-an-aircraft-carrier-by-logging-his-run-on-strava/",
+      "raw_summary": "A French naval officer went on a run around the deck of the Charles de Gaulle aircraft carrier, inadvertently leaking the warship's location when he uploaded the workout to Strava.",
       "source": "TechCrunch",
-      "published": "Fri, 20 Mar 2026 11:31:38 +0000",
-      "summary": "These AI notetaking devices can help you record and transcribe your meetings\nThese physical notetakers transcribe audio and give users summaries and action items of meetings using AI. Some even offer live translation."
+      "published": "Fri, 20 Mar 2026 17:21:18 +0000",
+      "summary": "A French Navy officer accidentally leaked the location of an aircraft carrier by logging his run on Strava\nA French naval officer went on a run around the deck of the Charles de Gaulle aircraft carrier, inadvertently leaking the warship's location when he uploaded the workout to Strava."
     },
     {
-      "title": "Amazon acquires Rivr, maker of a stair-climbing delivery robot",
-      "link": "https://techcrunch.com/2026/03/19/amazon-acquires-rivr-maker-of-a-stair-climbing-delivery-robot/",
-      "raw_summary": "Amazon and Jeff Bezos had previously invested in the startup. The deal signals the e-commerce giant's interest in doorstep delivery.",
+      "title": "WordPress.com now lets AI agents write and publish posts, and more",
+      "link": "https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts-and-more/",
+      "raw_summary": "New AI agents on WordPress.com could lower barriers to publishing while increasing machine-generated content across the web.",
       "source": "TechCrunch",
-      "published": "Thu, 19 Mar 2026 23:28:37 +0000",
-      "summary": "Amazon acquires Rivr, maker of a stair-climbing delivery robot\nAmazon and Jeff Bezos had previously invested in the startup. The deal signals the e-commerce giant's interest in doorstep delivery."
+      "published": "Fri, 20 Mar 2026 16:43:09 +0000",
+      "summary": "WordPress.com now lets AI agents write and publish posts, and more\nNew AI agents on WordPress.com could lower barriers to publishing while increasing machine-generated content across the web."
     },
     {
-      "title": "Jeff Bezos reportedly wants $100 billion to buy and transform old manufacturing firms with AI",
-      "link": "https://techcrunch.com/2026/03/19/jeff-bezos-reportedly-wants-100-billion-to-buy-and-transform-old-manufacturing-firms-with-ai/",
-      "raw_summary": "The Amazon magnate has a new project centered around acquiring industrial firms and revamping them with AI technology.",
+      "title": "Jeff Bezos’ Blue Origin enters the space data center game",
+      "link": "https://techcrunch.com/2026/03/20/jeff-bezos-blue-origin-enters-the-space-data-center-game/",
+      "raw_summary": "\"Project Sunrise\" would include more than 50,000 satellites performing high-energy compute on orbit.",
       "source": "TechCrunch",
-      "published": "Thu, 19 Mar 2026 22:09:24 +0000",
-      "summary": "Jeff Bezos reportedly wants $100 billion to buy and transform old manufacturing firms with AI\nThe Amazon magnate has a new project centered around acquiring industrial firms and revamping them with AI technology."
+      "published": "Fri, 20 Mar 2026 16:27:43 +0000",
+      "summary": "Jeff Bezos’ Blue Origin enters the space data center game\n\"Project Sunrise\" would include more than 50,000 satellites performing high-energy compute on orbit."
     },
     {
-      "title": "Employees had to restrain a dancing humanoid robot after it went wild at a California restaurant",
-      "link": "https://techcrunch.com/2026/03/19/restaurant-dancing-robot-went-wild-hot-pot-cupertino-haidilao-agibot/",
-      "raw_summary": "A dancing robot in a Haidilao hot pot restaurant boogied down a little too hard.",
+      "title": "US accuses Iran’s government of operating hacktivist group that hacked Stryker",
+      "link": "https://techcrunch.com/2026/03/20/u-s-accuses-irans-government-of-operating-hacktivist-group-that-hacked-stryker/",
+      "raw_summary": "The U.S. Justice Department said an Iranian security ministry operates the fake activist persona known as Handala, which claimed responsibility for the destructive hack targeting medical tech giant Stryker.",
       "source": "TechCrunch",
-      "published": "Thu, 19 Mar 2026 21:13:50 +0000",
-      "summary": "Employees had to restrain a dancing humanoid robot after it went wild at a California restaurant\nA dancing robot in a Haidilao hot pot restaurant boogied down a little too hard."
+      "published": "Fri, 20 Mar 2026 16:18:57 +0000",
+      "summary": "US accuses Iran’s government of operating hacktivist group that hacked Stryker\nThe U.S. Justice Department said an Iranian security ministry operates the fake activist persona known as Handala, which claimed responsibility for the destructive hack targeting medical tech giant Stryker."
     },
     {
-      "title": "Rocket Report: Canada makes a major move, US Space Force says actually, let's be hasty",
-      "link": "https://arstechnica.com/space/2026/03/rocket-report-canada-makes-a-major-move-us-space-force-says-actually-lets-be-hasty/",
-      "raw_summary": "\"Our security, our prosperity, and our sovereignty will increasingly extend beyond our atmosphere.\"",
+      "title": "Perseverance’s radar revealed ancient subsurface river delta on Mars",
+      "link": "https://arstechnica.com/science/2026/03/perseverances-radar-revealed-ancient-subsurface-river-delta-on-mars/",
+      "raw_summary": "There may be a river delta hidden under the obvious delta in a Martian crater.",
       "source": "Ars Technica - All content",
-      "published": "Fri, 20 Mar 2026 11:45:25 +0000",
-      "summary": "Rocket Report: Canada makes a major move, US Space Force says actually, let's be hasty\n\"Our security, our prosperity, and our sovereignty will increasingly extend beyond our atmosphere.\""
+      "published": "Fri, 20 Mar 2026 17:18:49 +0000",
+      "summary": "Perseverance’s radar revealed ancient subsurface river delta on Mars\nThere may be a river delta hidden under the obvious delta in a Martian crater."
     },
     {
-      "title": "Project Hail Mary is in theaters—but do the linguistics work?",
-      "link": "https://arstechnica.com/culture/2026/03/project-hail-mary-is-in-theaters-but-do-the-linguistics-work/",
-      "raw_summary": "Ars speaks with a linguist about the ease with which Grace and Rocky communicate.",
+      "title": "NASA is blowing stuff up to study the explosive potential of methalox rockets",
+      "link": "https://arstechnica.com/space/2026/03/nasa-is-blowing-stuff-up-to-study-the-explosive-potential-of-methalox-rockets/",
+      "raw_summary": "\"We put fuel in a rocket, blow it up in a remote location, and measure how big the boom is.\"",
       "source": "Ars Technica - All content",
-      "published": "Fri, 20 Mar 2026 11:00:06 +0000",
-      "summary": "Project Hail Mary is in theaters—but do the linguistics work?\nArs speaks with a linguist about the ease with which Grace and Rocky communicate."
+      "published": "Fri, 20 Mar 2026 17:18:02 +0000",
+      "summary": "NASA is blowing stuff up to study the explosive potential of methalox rockets\n\"We put fuel in a rocket, blow it up in a remote location, and measure how big the boom is.\""
     },
     {
-      "title": "RFK Jr. has destroyed over a quarter of health dept's expert panels",
-      "link": "https://arstechnica.com/health/2026/03/rfk-jr-s-war-on-scientific-expertise-destroyed-27-of-agencys-advisor-panels/",
-      "raw_summary": "Under Kennedy, the health dept. has wiped out 75 advisory boards, corrupted others.",
+      "title": "Amazon is reportedly developing an AI-centric smartphone",
+      "link": "https://arstechnica.com/gadgets/2026/03/amazon-is-reportedly-developing-an-ai-centric-smartphone/",
+      "raw_summary": "Amazon's second smartphone could forego an app store.",
       "source": "Ars Technica - All content",
-      "published": "Thu, 19 Mar 2026 22:34:06 +0000",
-      "summary": "RFK Jr. has destroyed over a quarter of health dept's expert panels\nUnder Kennedy, the health dept. has wiped out 75 advisory boards, corrupted others."
+      "published": "Fri, 20 Mar 2026 16:38:06 +0000",
+      "summary": "Amazon is reportedly developing an AI-centric smartphone\nAmazon's second smartphone could forego an app store."
     },
     {
-      "title": "Cloud service providers ask EU regulator to reinstate VMware partner program",
-      "link": "https://arstechnica.com/information-technology/2026/03/cloud-service-providers-ask-eu-regulator-to-reinstate-vmware-partner-program/",
-      "raw_summary": "Broadcom says the group is misrepresenting market \"realities.\"",
+      "title": "Major SteamOS update adds support for Steam Machine, even more third-party hardware",
+      "link": "https://arstechnica.com/gadgets/2026/03/major-steamos-update-adds-support-for-steam-machine-even-more-third-party-hardware/",
+      "raw_summary": "Both AMD- and Intel-based hardware is getting better support in SteamOS 3.8.",
       "source": "Ars Technica - All content",
-      "published": "Thu, 19 Mar 2026 21:29:53 +0000",
-      "summary": "Cloud service providers ask EU regulator to reinstate VMware partner program\nBroadcom says the group is misrepresenting market \"realities.\""
+      "published": "Fri, 20 Mar 2026 15:36:57 +0000",
+      "summary": "Major SteamOS update adds support for Steam Machine, even more third-party hardware\nBoth AMD- and Intel-based hardware is getting better support in SteamOS 3.8."
     },
     {
-      "title": "Millions of iPhones can be hacked with a new tool found in the wild",
-      "link": "https://arstechnica.com/security/2026/03/hundreds-of-millions-of-iphones-can-be-hacked-with-a-new-tool-found-in-the-wild/",
-      "raw_summary": "DarkSword, a powerful iPhone-hacking technique, has been discovered in use by Russian hackers.",
+      "title": "Monte Verde site gets a new date, but the big picture doesn't change",
+      "link": "https://arstechnica.com/science/2026/03/an-early-indigenous-site-may-not-be-early-but-it-doesnt-really-matter/",
+      "raw_summary": "Stop trying to make \"Clovis First\" happen; it's not going to happen.",
       "source": "Ars Technica - All content",
-      "published": "Thu, 19 Mar 2026 20:11:36 +0000",
-      "summary": "Millions of iPhones can be hacked with a new tool found in the wild\nDarkSword, a powerful iPhone-hacking technique, has been discovered in use by Russian hackers."
+      "published": "Fri, 20 Mar 2026 15:01:15 +0000",
+      "summary": "Monte Verde site gets a new date, but the big picture doesn't change\nStop trying to make \"Clovis First\" happen; it's not going to happen."
     },
     {
-      "title": "Can a surge of new arrivals rescue Hong Kong’s property sales market?",
-      "link": "https://www.ft.com/content/6ff44292-9a89-4fc1-a42a-96f3f99cb6eb",
-      "raw_summary": "A surge of residents, many of them mainlanders, have settled in the city since 2023, driving rents to record levels. Hopes are riding high for a sales market bounceback",
+      "title": "UK borrowing costs hit highest level since 2008 as economic hit from war mounts",
+      "link": "https://www.ft.com/content/1e77f7ce-1c93-4852-9970-297636a7d9cf",
+      "raw_summary": "Ten-year gilt yield jumps to 5% as fears over inflation shock intensify",
       "source": "World",
-      "published": "Fri, 20 Mar 2026 12:00:11 GMT",
-      "summary": "Can a surge of new arrivals rescue Hong Kong’s property sales market?\nA surge of residents, many of them mainlanders, have settled in the city since 2023, driving rents to record levels. Hopes are riding high for a sales market bounceback"
+      "published": "Fri, 20 Mar 2026 18:20:41 GMT",
+      "summary": "UK borrowing costs hit highest level since 2008 as economic hit from war mounts\nTen-year gilt yield jumps to 5% as fears over inflation shock intensify"
     },
     {
-      "title": "Mistral CEO: AI companies should pay a content levy in Europe",
-      "link": "https://www.ft.com/content/d63d6291-687f-4e05-8b23-4d545d78c64a",
-      "raw_summary": "A revenue-based charge would protect the livelihoods of copyright holders and bring legal certainty",
+      "title": "Russia offered to curb its support for Iran if US halted aid to Ukraine",
+      "link": "https://www.ft.com/content/67252cf2-c008-462d-8af6-2638f461854f",
+      "raw_summary": "US rejected deal on intelligence-sharing proposed by Vladimir Putin’s envoy last week",
       "source": "World",
-      "published": "Fri, 20 Mar 2026 12:00:11 GMT",
-      "summary": "Mistral CEO: AI companies should pay a content levy in Europe\nA revenue-based charge would protect the livelihoods of copyright holders and bring legal certainty"
+      "published": "Fri, 20 Mar 2026 18:04:36 GMT",
+      "summary": "Russia offered to curb its support for Iran if US halted aid to Ukraine\nUS rejected deal on intelligence-sharing proposed by Vladimir Putin’s envoy last week"
     },
     {
-      "title": "Is it time for me to buy equities again?",
-      "link": "https://www.ft.com/content/c239e097-c15a-456f-bbeb-44486db0c722",
-      "raw_summary": "Many price/earnings ratios have fallen back to long-run averages",
+      "title": "IRA victims withdraw civil case against Gerry Adams",
+      "link": "https://www.ft.com/content/3b0bfea3-282f-451a-bb6f-b5411b70ae5f",
+      "raw_summary": "Three survivors feared huge legal bill after judge questioned whether the case amounted to an ‘abuse of process’",
       "source": "World",
-      "published": "Fri, 20 Mar 2026 12:00:11 GMT",
-      "summary": "Is it time for me to buy equities again?\nMany price/earnings ratios have fallen back to long-run averages"
+      "published": "Fri, 20 Mar 2026 18:00:39 GMT",
+      "summary": "IRA victims withdraw civil case against Gerry Adams\nThree survivors feared huge legal bill after judge questioned whether the case amounted to an ‘abuse of process’"
     },
     {
-      "title": "Six shows to see during Art Basel Hong Kong 2026",
-      "link": "https://www.ft.com/content/a63dc39c-99f6-40a8-bed3-76dad93639b0",
-      "raw_summary": "From exquisite horse paintings to Lee Bul’s failed utopias, here are the local artistic highlights away from HKCEC",
+      "title": "A bet on Bill Ackman’s new listing is complex",
+      "link": "https://www.ft.com/content/b891f54f-6a81-4872-b772-79f60283d495",
+      "raw_summary": "The hedge fund manager is seeking to extend his Pershing Square portfolio in multiple vehicles",
       "source": "World",
-      "published": "Fri, 20 Mar 2026 12:00:11 GMT",
-      "summary": "Six shows to see during Art Basel Hong Kong 2026\nFrom exquisite horse paintings to Lee Bul’s failed utopias, here are the local artistic highlights away from HKCEC"
+      "published": "Fri, 20 Mar 2026 18:00:03 GMT",
+      "summary": "A bet on Bill Ackman’s new listing is complex\nThe hedge fund manager is seeking to extend his Pershing Square portfolio in multiple vehicles"
     },
     {
-      "title": "India’s central bank battles to protect rupee from Iran war fallout",
-      "link": "https://www.ft.com/content/56162e25-17dd-4db7-ba76-98fca2700923",
-      "raw_summary": "RBI burns through more than $20bn of foreign exchange reserves this month trying to defend currency, say bankers",
+      "title": "Iran war will scar the global economy",
+      "link": "https://www.ft.com/content/2897893a-2b0b-417f-9a11-3e2ab3ae8ab4",
+      "raw_summary": "Scenarios that markets and policymakers hoped to avoid are now materialising",
       "source": "World",
-      "published": "Fri, 20 Mar 2026 11:48:58 GMT",
-      "summary": "India’s central bank battles to protect rupee from Iran war fallout\nRBI burns through more than $20bn of foreign exchange reserves this month trying to defend currency, say bankers"
+      "published": "Fri, 20 Mar 2026 17:48:38 GMT",
+      "summary": "Iran war will scar the global economy\nScenarios that markets and policymakers hoped to avoid are now materialising"
     },
     {
-      "title": "Unilever Looks to Offload $33 Billion Food Arm to McCormick",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-20/unilever-confirms-talks-on-mccormick-offer-for-food-business",
-      "raw_summary": "Unilever Plc is in talks to sell its food business to McCormick &amp; Co., in what would be the biggest overhaul of the owner of Hellmann’s mayonnaise since it was founded almost a century ago.",
+      "title": "Iran Unwilling to Talk About Hormuz as Regime Digs In",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-20/iran-unwilling-to-talk-about-opening-hormuz-while-under-attack",
+      "raw_summary": "Iranian officials have become reluctant to even discuss reopening the Strait of Hormuz as they focus on surviving the US-Israeli onslaught, according to a person involved in direct, high-level contacts with Tehran.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 20 Mar 2026 07:16:48 GMT",
-      "summary": "Unilever Looks to Offload $33 Billion Food Arm to McCormick\nUnilever Plc is in talks to sell its food business to McCormick &amp; Co., in what would be the biggest overhaul of the owner of Hellmann’s mayonnaise since it was founded almost a century ago."
+      "published": "Fri, 20 Mar 2026 17:06:34 GMT",
+      "summary": "Iran Unwilling to Talk About Hormuz as Regime Digs In\nIranian officials have become reluctant to even discuss reopening the Strait of Hormuz as they focus on surviving the US-Israeli onslaught, according to a person involved in direct, high-level contacts with Tehran."
     },
     {
-      "title": "Bonds, Stocks Decline as Iran Sustains Attacks: Markets Wrap",
+      "title": "Consumers Are Paying the Price for the “Strategic Trap” of War in Iran",
+      "link": "https://www.bloomberg.com/news/videos/2026-03-20/consumers-are-paying-the-price-for-the-strategic-trap-of-war-in-iran",
+      "raw_summary": "The longer the war in Iran goes on, the more damage is being done to the region's energy infrastructure &mdash; and consumers are already feeling the pressure with rising energy costs.\n\nGregory Brew, a senior analyst at Eurasia Group, joins Joe Weisenthal and Tracy Alloway on the Odd Lots podcast to discuss why the Trump administration may have walked into a \"strategic trap\" and whether there may be any relief for consumers at gas pumps in the near future. (Source: Bloomberg)",
+      "source": "Bloomberg Markets",
+      "published": "Fri, 20 Mar 2026 18:14:29 GMT",
+      "summary": "Consumers Are Paying the Price for the “Strategic Trap” of War in Iran\nThe longer the war in Iran goes on, the more damage is being done to the region's energy infrastructure &mdash; and consumers are already feeling the pressure with rising energy costs.\n\nGregory Brew, a senior analyst at Eurasia G"
+    },
+    {
+      "title": "Inflation Hit is Coming: Kathy Jones",
+      "link": "https://www.bloomberg.com/news/videos/2026-03-20/inflation-hit-is-coming-kathy-jones-video",
+      "raw_summary": "Kathy Jones, chief fixed income strategist at the Schwab Center for Financial Research, joins Scarlet Fu on \"Bloomberg Real Yield.\" US Treasuries sank and bond traders increased their bets on a Federal Reserve interest-rate hike by October to 50% as concern mounts that a protracted war in the Middle East could stoke global inflation. (Source: Bloomberg)",
+      "source": "Bloomberg Markets",
+      "published": "Fri, 20 Mar 2026 18:06:12 GMT",
+      "summary": "Inflation Hit is Coming: Kathy Jones\nKathy Jones, chief fixed income strategist at the Schwab Center for Financial Research, joins Scarlet Fu on \"Bloomberg Real Yield.\" US Treasuries sank and bond traders increased their bets on a Federal Reserve interest-rate hike by October to 50% as concern mount"
+    },
+    {
+      "title": "Clients Comfortable with All-In Yield: Zach Griffiths",
+      "link": "https://www.bloomberg.com/news/videos/2026-03-20/clients-comfortable-with-all-in-yield-zach-griffiths-video",
+      "raw_summary": "Zachary Griffiths, head of US IG & Macro Strategy Creditsights, joins Scarlet Fu on \"Bloomberg Real Yield.\" Credit investors are scoring some of the highest new issue concessions in years. That’s because companies that seize the occasional window for bond offerings are competing to entice buyers who want to be compensated for a growing list of risks. (Source: Bloomberg)",
+      "source": "Bloomberg Markets",
+      "published": "Fri, 20 Mar 2026 18:05:19 GMT",
+      "summary": "Clients Comfortable with All-In Yield: Zach Griffiths\nZachary Griffiths, head of US IG & Macro Strategy Creditsights, joins Scarlet Fu on \"Bloomberg Real Yield.\" Credit investors are scoring some of the highest new issue concessions in years. That’s because companies that seize the occasional window"
+    },
+    {
+      "title": "Stocks and Bonds Fall as No End of War in Sight: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-03-19/stock-market-today-dow-s-p-live-updates-",
-      "raw_summary": "Turmoil in the Middle East sparked fresh losses across stocks and bond markets. The dollar strengthened. The UK 10-year yield hit the highest level since 2008.",
+      "raw_summary": "Turmoil in the Middle East sparked fresh losses across stocks and bonds amid worries about the spillover effects of elevated energy costs to inflation and economic growth, with hostilities showing no signs of a letup.",
       "source": "Bloomberg Markets",
       "published": "Thu, 19 Mar 2026 22:24:21 GMT",
-      "summary": "Bonds, Stocks Decline as Iran Sustains Attacks: Markets Wrap\nTurmoil in the Middle East sparked fresh losses across stocks and bond markets. The dollar strengthened. The UK 10-year yield hit the highest level since 2008."
+      "summary": "Stocks and Bonds Fall as No End of War in Sight: Markets Wrap\nTurmoil in the Middle East sparked fresh losses across stocks and bonds amid worries about the spillover effects of elevated energy costs to inflation and economic growth, with hostilities showing no signs of a letup."
     },
     {
-      "title": "Ecolab to Buy Data Center Cooling Firm CoolIT for $4.75 Billion",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-20/ecolab-to-buy-data-center-cooling-firm-coolit-for-4-75-billion",
-      "raw_summary": "Ecolab Inc. has agreed to buy CoolIT Systems Inc., a company that develops cooling technology for AI data centers, in a $4.75 billion all-cash deal.",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 20 Mar 2026 12:32:23 GMT",
-      "summary": "Ecolab to Buy Data Center Cooling Firm CoolIT for $4.75 Billion\nEcolab Inc. has agreed to buy CoolIT Systems Inc., a company that develops cooling technology for AI data centers, in a $4.75 billion all-cash deal."
-    },
-    {
-      "title": "BOE’s Messaging Is Under Fire as Hawkish Pivot Fuels Bond Rout",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-20/boe-s-messaging-is-under-fire-as-hawkish-pivot-fuels-bond-rout",
-      "raw_summary": "The Bank of England’s revamp of its communication policy to include the views of individual rate setters is getting criticized by market analysts on concerns it helped fuel a selloff in UK bonds.",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 20 Mar 2026 12:22:03 GMT",
-      "summary": "BOE’s Messaging Is Under Fire as Hawkish Pivot Fuels Bond Rout\nThe Bank of England’s revamp of its communication policy to include the views of individual rate setters is getting criticized by market analysts on concerns it helped fuel a selloff in UK bonds."
-    },
-    {
-      "title": "Industrial Metals Steady as US, Israel Try to Reassure on War",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-20/copper-and-aluminum-rise-as-us-israel-try-to-reassure-on-war",
-      "raw_summary": "Copper and other industrial metals traded in a narrow range as the US and Israel tried to ease concerns about the deepening conflict in the Middle East,",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 20 Mar 2026 02:27:41 GMT",
-      "summary": "Industrial Metals Steady as US, Israel Try to Reassure on War\nCopper and other industrial metals traded in a narrow range as the US and Israel tried to ease concerns about the deepening conflict in the Middle East,"
-    },
-    {
-      "title": "Bitcoin holds steady, with one analyst seeing the upside emerging",
-      "link": "https://www.coindesk.com/daybook-us/2026/03/20/bitcoin-holds-steady-with-one-analyst-seeing-the-upside-emerging",
+      "title": "Nasdaq winning SEC approval to move stocks onchain shows how Wall Street is taking charge of crypto tech",
+      "link": "https://www.coindesk.com/business/2026/03/19/nasdaq-winning-sec-approval-to-move-stocks-onchain-shows-how-wall-street-is-taking-charge-of-crypto-tech",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 20 Mar 2026 11:41:48 +0000",
-      "summary": "Bitcoin holds steady, with one analyst seeing the upside emerging\n"
+      "published": "Fri, 20 Mar 2026 17:04:22 +0000",
+      "summary": "Nasdaq winning SEC approval to move stocks onchain shows how Wall Street is taking charge of crypto tech\n"
     },
     {
-      "title": "Crypto market steadies as derivatives signal caution, macro pressure builds",
-      "link": "https://www.coindesk.com/markets/2026/03/20/crypto-market-steadies-as-derivatives-signal-caution-macro-pressure-builds",
+      "title": "Bitcoin's latest fear unlocked as rate hike bets rise and bond markets crumble",
+      "link": "https://www.coindesk.com/markets/2026/03/20/bitcoin-s-latest-fear-unlocked-as-rate-hikes-bets-rise-and-bond-markets-crumble",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 20 Mar 2026 10:49:32 +0000",
-      "summary": "Crypto market steadies as derivatives signal caution, macro pressure builds\n"
+      "published": "Fri, 20 Mar 2026 14:51:48 +0000",
+      "summary": "Bitcoin's latest fear unlocked as rate hike bets rise and bond markets crumble\n"
     },
     {
-      "title": "Ripple data reveals stablecoins are becoming the go-to tool for corporate treasury",
-      "link": "https://www.coindesk.com/markets/2026/03/20/ripple-s-survey-shows-banks-fintechs-and-corporates-are-all-in-on-digital-assets-prioritizing-stablecoins-and-custody",
+      "title": "Why CoinDesk PitchFest matters heading into Miami",
+      "link": "https://www.coindesk.com/opinion/2026/03/20/why-coindesk-pitchfest-matters-heading-into-miami",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 20 Mar 2026 08:48:22 +0000",
-      "summary": "Ripple data reveals stablecoins are becoming the go-to tool for corporate treasury\n"
+      "published": "Fri, 20 Mar 2026 14:30:00 +0000",
+      "summary": "Why CoinDesk PitchFest matters heading into Miami\n"
     },
     {
-      "title": "Bitcoin’s price action looks dangerously similar to the pattern that sent it crashing to $60,000",
-      "link": "https://www.coindesk.com/markets/2026/03/20/bitcoin-s-price-action-looks-dangerously-similar-to-the-pattern-that-sent-it-crashing-to-usd60-000",
+      "title": "Crypto wallet maker Ledger taps former Circle exec as CFO to help lead IPO push",
+      "link": "https://www.coindesk.com/business/2026/03/20/crypto-wallet-maker-ledger-taps-a-former-circle-exec-as-cfo-to-help-lead-its-push-into-the-public-markets",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 20 Mar 2026 07:14:42 +0000",
-      "summary": "Bitcoin’s price action looks dangerously similar to the pattern that sent it crashing to $60,000\n"
+      "published": "Fri, 20 Mar 2026 13:57:14 +0000",
+      "summary": "Crypto wallet maker Ledger taps former Circle exec as CFO to help lead IPO push\n"
     },
     {
-      "title": "Bitcoin jumps to $70,800 as oil retreats; ether and XRP lag",
-      "link": "https://www.coindesk.com/markets/2026/03/20/bitcoin-jumps-to-usd70-800-as-oil-retreats-ether-and-xrp-lag",
+      "title": "Kalshi valuation doubles to $22 billion in latest funding round: Bloomberg",
+      "link": "https://www.coindesk.com/business/2026/03/20/kalshi-valuation-doubles-to-usd22-billion-in-latest-funding-round-bloomberg",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 20 Mar 2026 05:43:42 +0000",
-      "summary": "Bitcoin jumps to $70,800 as oil retreats; ether and XRP lag\n"
+      "published": "Fri, 20 Mar 2026 13:25:59 +0000",
+      "summary": "Kalshi valuation doubles to $22 billion in latest funding round: Bloomberg\n"
     }
   ]
 }
