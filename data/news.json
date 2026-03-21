@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T01:17:28.741366+00:00",
+  "generated_at": "2026-03-21T06:33:45.621254+00:00",
   "count": 40,
   "articles": [
     {
@@ -83,9 +83,33 @@
       "summary": "Magento PolyShell Flaw Enables Unauthenticated Uploads, RCE and Account Takeover\nSansec is warning of a critical security flaw in Magento's REST API that could allow unauthenticated attackers to upload arbitrary executables and achieve code execution and account takeover.\nThe vulnerability has been "
     },
     {
+      "title": "FFmpeg 101 (2024)",
+      "link": "https://blogs.igalia.com/llepage/ffmpeg-101/",
+      "raw_summary": "<p>Article URL: <a href=\"https://blogs.igalia.com/llepage/ffmpeg-101/\">https://blogs.igalia.com/llepage/ffmpeg-101/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47463547\">https://news.ycombinator.com/item?id=47463547</a></p>\n<p>Points: 22</p>\n<p># Comments: 0</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Sat, 21 Mar 2026 02:47:13 +0000",
+      "summary": "FFmpeg 101 (2024)\n<p>Article URL: <a href=\"https://blogs.igalia.com/llepage/ffmpeg-101/\">https://blogs.igalia.com/llepage/ffmpeg-101/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47463547\">https://news.ycombinator.com/item?id=47463547</a></p>\n<p>Points: 22</p>\n<p># Comments"
+    },
+    {
+      "title": "purl: a curl-esque CLI for making HTTP requests that require payment",
+      "link": "https://www.purl.dev/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.purl.dev/\">https://www.purl.dev/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47463354\">https://news.ycombinator.com/item?id=47463354</a></p>\n<p>Points: 17</p>\n<p># Comments: 2</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Sat, 21 Mar 2026 02:09:08 +0000",
+      "summary": "purl: a curl-esque CLI for making HTTP requests that require payment\n<p>Article URL: <a href=\"https://www.purl.dev/\">https://www.purl.dev/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47463354\">https://news.ycombinator.com/item?id=47463354</a></p>\n<p>Points: 17</p>\n<p># Com"
+    },
+    {
+      "title": "Traces of Evil",
+      "link": "https://www.tracesofevil.com/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.tracesofevil.com/\">https://www.tracesofevil.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47462915\">https://news.ycombinator.com/item?id=47462915</a></p>\n<p>Points: 14</p>\n<p># Comments: 1</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Sat, 21 Mar 2026 00:54:27 +0000",
+      "summary": "Traces of Evil\n<p>Article URL: <a href=\"https://www.tracesofevil.com/\">https://www.tracesofevil.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47462915\">https://news.ycombinator.com/item?id=47462915</a></p>\n<p>Points: 14</p>\n<p># Comments: 1</p>"
+    },
+    {
       "title": "Linux Applications Programming by Example: The Fundamental APIs (2nd Edition)",
       "link": "https://github.com/arnoldrobbins/LinuxByExample-2e",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/arnoldrobbins/LinuxByExample-2e\">https://github.com/arnoldrobbins/LinuxByExample-2e</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47462483\">https://news.ycombinator.com/item?id=47462483</a></p>\n<p>Points: 17</p>\n<p># Comments: 3</p>",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/arnoldrobbins/LinuxByExample-2e\">https://github.com/arnoldrobbins/LinuxByExample-2e</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47462483\">https://news.ycombinator.com/item?id=47462483</a></p>\n<p>Points: 60</p>\n<p># Comments: 8</p>",
       "source": "Hacker News: Front Page",
       "published": "Fri, 20 Mar 2026 23:57:22 +0000",
       "summary": "Linux Applications Programming by Example: The Fundamental APIs (2nd Edition)\n<p>Article URL: <a href=\"https://github.com/arnoldrobbins/LinuxByExample-2e\">https://github.com/arnoldrobbins/LinuxByExample-2e</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47462483\">https://news."
@@ -93,34 +117,18 @@
     {
       "title": "Show HN: Red Grid Link – peer-to-peer team tracking over Bluetooth, no servers",
       "link": "https://github.com/RedGridTactical/RedGridLink",
-      "raw_summary": "<p>I go on a lot of backcountry trips where I barely get cell service. If my group splits, nobody knows knows where anyone is until you regroup at camp or at your destination. You can buy Garmin radios or try to set up an ATAK, but ATAK is Android-only and assumes you have a TAK Server running somewhere to make use of all of the functionality. Cool tools themselves, but expensive to set up correctly. I just wanted two iPhones to share their location directly over Bluetooth when cell coverage was lacking.<p>Red Grid Link does that. Start a session, and anyone nearby running the app shows up on your offline map. When they walk out of range their marker stays as a \"ghost\" that slowly fades.<p>The hard part was making sync reliable over BLE. The connections drop all the time. Someone turns a corner, walks behind a vehicle, whatever. I built a CRDT sync layer (LWW Register + G-Counter) so there's never merge conflicts. Each update is just under 200 bytes (from what I have tested so far). When a user/teammate disappears the app does exponential backoff from 2 to 30 seconds before giving up and marking them as a ghost.<p>Everything is encrypted (AES-256-GCM, ECDH P-256 key exchange per peer pair). Sessions can require a PIN or QR code to join. It also offers offline topo maps with MGRS grid coordinates, same system as in my other app, Red Grid MGRS.<p>The app is free, and I'm looking for some honest feedback from other real-world users. Let me know if you have any questions!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47461529\">https://news.ycombinator.com/item?id=47461529</a></p>\n<p>Points: 15</p>\n<p># Comments: 10</p>",
+      "raw_summary": "<p>I go on a lot of backcountry trips where I barely get cell service. If my group splits, nobody knows knows where anyone is until you regroup at camp or at your destination. You can buy Garmin radios or try to set up an ATAK, but ATAK is Android-only and assumes you have a TAK Server running somewhere to make use of all of the functionality. Cool tools themselves, but expensive to set up correctly. I just wanted two iPhones to share their location directly over Bluetooth when cell coverage was lacking.<p>Red Grid Link does that. Start a session, and anyone nearby running the app shows up on your offline map. When they walk out of range their marker stays as a \"ghost\" that slowly fades.<p>The hard part was making sync reliable over BLE. The connections drop all the time. Someone turns a corner, walks behind a vehicle, whatever. I built a CRDT sync layer (LWW Register + G-Counter) so there's never merge conflicts. Each update is just under 200 bytes (from what I have tested so far). When a user/teammate disappears the app does exponential backoff from 2 to 30 seconds before giving up and marking them as a ghost.<p>Everything is encrypted (AES-256-GCM, ECDH P-256 key exchange per peer pair). Sessions can require a PIN or QR code to join. It also offers offline topo maps with MGRS grid coordinates, same system as in my other app, Red Grid MGRS.<p>The app is free, and I'm looking for some honest feedback from other real-world users. Let me know if you have any questions!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47461529\">https://news.ycombinator.com/item?id=47461529</a></p>\n<p>Points: 35</p>\n<p># Comments: 13</p>",
       "source": "Hacker News: Front Page",
       "published": "Fri, 20 Mar 2026 22:25:51 +0000",
       "summary": "Show HN: Red Grid Link – peer-to-peer team tracking over Bluetooth, no servers\n<p>I go on a lot of backcountry trips where I barely get cell service. If my group splits, nobody knows knows where anyone is until you regroup at camp or at your destination. You can buy Garmin radios or try to set up an"
     },
     {
-      "title": "Ghostling",
-      "link": "https://github.com/ghostty-org/ghostling",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/ghostty-org/ghostling\">https://github.com/ghostty-org/ghostling</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47461378\">https://news.ycombinator.com/item?id=47461378</a></p>\n<p>Points: 64</p>\n<p># Comments: 9</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Fri, 20 Mar 2026 22:11:37 +0000",
-      "summary": "Ghostling\n<p>Article URL: <a href=\"https://github.com/ghostty-org/ghostling\">https://github.com/ghostty-org/ghostling</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47461378\">https://news.ycombinator.com/item?id=47461378</a></p>\n<p>Points: 64</p>\n<p># Comments: 9</p>"
-    },
-    {
-      "title": "Show HN: We built a terminal-only Bluesky / AT Proto client written in Fortran",
-      "link": "https://github.com/FormerLab/fortransky",
-      "raw_summary": "<p>Yes, that Fortran.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47461321\">https://news.ycombinator.com/item?id=47461321</a></p>\n<p>Points: 37</p>\n<p># Comments: 27</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Fri, 20 Mar 2026 22:06:51 +0000",
-      "summary": "Show HN: We built a terminal-only Bluesky / AT Proto client written in Fortran\n<p>Yes, that Fortran.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47461321\">https://news.ycombinator.com/item?id=47461321</a></p>\n<p>Points: 37</p>\n<p># Comments: 27</p>"
-    },
-    {
-      "title": "We rewrote our Rust WASM Parser in TypeScript – and it got 3x Faster",
-      "link": "https://www.openui.com/blog/rust-wasm-parser",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.openui.com/blog/rust-wasm-parser\">https://www.openui.com/blog/rust-wasm-parser</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47461094\">https://news.ycombinator.com/item?id=47461094</a></p>\n<p>Points: 89</p>\n<p># Comments: 51</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Fri, 20 Mar 2026 21:48:06 +0000",
-      "summary": "We rewrote our Rust WASM Parser in TypeScript – and it got 3x Faster\n<p>Article URL: <a href=\"https://www.openui.com/blog/rust-wasm-parser\">https://www.openui.com/blog/rust-wasm-parser</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47461094\">https://news.ycombinator.com/item?"
+      "title": "New court filing reveals Pentagon told Anthropic the two sides were nearly aligned — a week after Trump declared the relationship kaput",
+      "link": "https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/",
+      "raw_summary": "Anthropic submitted two sworn declarations to a California federal court late Friday afternoon, pushing back on the Pentagon's assertion that the AI company poses an \"unacceptable risk to national security\" and arguing that the government's case relies on technical misunderstandings and claims that were never actually raised during the months of negotiations.",
+      "source": "TechCrunch",
+      "published": "Sat, 21 Mar 2026 01:40:28 +0000",
+      "summary": "New court filing reveals Pentagon told Anthropic the two sides were nearly aligned — a week after Trump declared the relationship kaput\nAnthropic submitted two sworn declarations to a California federal court late Friday afternoon, pushing back on the Pentagon's assertion that the AI company poses a"
     },
     {
       "title": "Elon Musk misled Twitter investors while trying to get out of acquisition, jury says",
@@ -153,14 +161,6 @@
       "source": "TechCrunch",
       "published": "Fri, 20 Mar 2026 19:15:55 +0000",
       "summary": "Amid legal turmoil, Kalshi is temporarily banned in Nevada\nIt's the latest escalation in a regulatory battle over the future of prediction markets."
-    },
-    {
-      "title": "Pinterest CEO calls on governments to ban social media for users under 16",
-      "link": "https://techcrunch.com/2026/03/20/pinterest-ceo-calls-on-governments-to-ban-social-media-for-users-under-16/",
-      "raw_summary": "Pinterest’s chief compares social media to tobacco and alcohol, saying children need similar protections.",
-      "source": "TechCrunch",
-      "published": "Fri, 20 Mar 2026 19:01:54 +0000",
-      "summary": "Pinterest CEO calls on governments to ban social media for users under 16\nPinterest’s chief compares social media to tobacco and alcohol, saying children need similar protections."
     },
     {
       "title": "Jury finds Musk owes damages to Twitter investors for his tweets",
@@ -203,44 +203,76 @@
       "summary": "Writer denies it, but publisher pulls horror novel after multiple allegations of AI use\nOne of the first controversies of its kind."
     },
     {
-      "title": "Taiwan concerned by depletion of US missile stocks during Iran war",
-      "link": "https://www.ft.com/content/b52df43d-9eed-477c-9c01-d19ca2233cbd",
-      "raw_summary": "Some weapons used in Gulf would be crucial in early phases of any conflict with China",
+      "title": "Iran lets grain ships through Hormuz to shore up food supply",
+      "link": "https://www.ft.com/content/ff30a226-33cc-45fd-9614-1bf34767732d",
+      "raw_summary": "Agriculture has been a ‘pain point’ for Tehran after it imposes de facto blockade of waterway in response to US-Israeli war",
       "source": "World",
-      "published": "Sat, 21 Mar 2026 01:00:04 GMT",
-      "summary": "Taiwan concerned by depletion of US missile stocks during Iran war\nSome weapons used in Gulf would be crucial in early phases of any conflict with China"
+      "published": "Sat, 21 Mar 2026 05:00:41 GMT",
+      "summary": "Iran lets grain ships through Hormuz to shore up food supply\nAgriculture has been a ‘pain point’ for Tehran after it imposes de facto blockade of waterway in response to US-Israeli war"
     },
     {
-      "title": "Amazon-backed nuclear reactor group X-energy files for IPO",
-      "link": "https://www.ft.com/content/22d28650-5536-4446-92ba-b094f56d13fa",
-      "raw_summary": "Start-up aims to capitalise on rising interest in atomic power due to growing power demand from AI",
+      "title": "Energy crisis upends Rachel Reeves’ growth plan amid hints of recession",
+      "link": "https://www.ft.com/content/b018297a-9736-4a07-9b3c-0c06abdfbbe4",
+      "raw_summary": "Chancellor had vowed to cut cost of living but Treasury now foresees ‘very difficult Budget’ later this year",
       "source": "World",
-      "published": "Sat, 21 Mar 2026 00:22:45 GMT",
-      "summary": "Amazon-backed nuclear reactor group X-energy files for IPO\nStart-up aims to capitalise on rising interest in atomic power due to growing power demand from AI"
+      "published": "Sat, 21 Mar 2026 05:00:41 GMT",
+      "summary": "Energy crisis upends Rachel Reeves’ growth plan amid hints of recession\nChancellor had vowed to cut cost of living but Treasury now foresees ‘very difficult Budget’ later this year"
     },
     {
-      "title": "Trump considers ‘winding down’ US military operations against Iran",
-      "link": "https://www.ft.com/content/5c38c404-9f3b-4108-be97-019d043cddd0",
-      "raw_summary": "President says US ‘very close’ to meeting military objectives, though Pentagon orders more troops to Middle East",
+      "title": "Iran launches 10mn rial banknote as war triggers dash for cash",
+      "link": "https://www.ft.com/content/f84e45ec-8be0-4a7d-a0fb-1fc2faa621bd",
+      "raw_summary": "Iranians queue to get hold of highest-ever denomination bills as US-Israeli strikes fuel demand for hard currency",
       "source": "World",
-      "published": "Fri, 20 Mar 2026 23:40:35 GMT",
-      "summary": "Trump considers ‘winding down’ US military operations against Iran\nPresident says US ‘very close’ to meeting military objectives, though Pentagon orders more troops to Middle East"
+      "published": "Sat, 21 Mar 2026 05:00:41 GMT",
+      "summary": "Iran launches 10mn rial banknote as war triggers dash for cash\nIranians queue to get hold of highest-ever denomination bills as US-Israeli strikes fuel demand for hard currency"
     },
     {
-      "title": "Musk defrauded Twitter investors during buyout, jury finds",
-      "link": "https://www.ft.com/content/88161509-efe4-4b7b-8465-d66645b445d0",
-      "raw_summary": "Panel members conclude the billionaire misled shareholders in tweets posted during the $44bn takeover",
+      "title": "Iran war raises the risk of a bond market shock",
+      "link": "https://www.ft.com/content/46962f7d-5ee9-4813-a53c-2961a82bf82d",
+      "raw_summary": "Wild swings in UK gilts point to strains that will hurt government finances and jack up borrowing costs for us all",
       "source": "World",
+      "published": "Sat, 21 Mar 2026 05:00:41 GMT",
+      "summary": "Iran war raises the risk of a bond market shock\nWild swings in UK gilts point to strains that will hurt government finances and jack up borrowing costs for us all"
+    },
+    {
+      "title": "Uber fights to stay in the robotaxi race",
+      "link": "https://www.ft.com/content/34239099-540b-48e9-bef8-0ad10f8ff4f6",
+      "raw_summary": "Ride-hailing company must make up lost ground on driverless vehicles, or risk being left in the rear-view mirror",
+      "source": "World",
+      "published": "Sat, 21 Mar 2026 05:00:41 GMT",
+      "summary": "Uber fights to stay in the robotaxi race\nRide-hailing company must make up lost ground on driverless vehicles, or risk being left in the rear-view mirror"
+    },
+    {
+      "title": "Zombie Ship Posing as LNG Carrier Appears to Transit Hormuz",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-21/zombie-ship-posing-as-lng-carrier-appears-to-transit-hormuz",
+      "raw_summary": "A ship that appears to be taking on the identity of a scrapped gas carrier exited the Strait of Hormuz on Friday, showing how strategies to get through the waterway are evolving as the Middle East war progresses.",
+      "source": "Bloomberg Markets",
+      "published": "Sat, 21 Mar 2026 04:31:20 GMT",
+      "summary": "Zombie Ship Posing as LNG Carrier Appears to Transit Hormuz\nA ship that appears to be taking on the identity of a scrapped gas carrier exited the Strait of Hormuz on Friday, showing how strategies to get through the waterway are evolving as the Middle East war progresses."
+    },
+    {
+      "title": "The Anti-War Democrat Courting MAGA Voters",
+      "link": "https://www.bloomberg.com/news/videos/2026-03-21/the-anti-war-democrat-courting-maga-voters-video",
+      "raw_summary": "\"Spending $2 billion a day in Iran is an extraordinary waste of resources.\"\n\nCalifornia Representative Ro Khanna tells Mishal Husain that Donald Trump is facing growing pressure over the Iran war, including from his own supporters. (Source: Bloomberg)",
+      "source": "Bloomberg Markets",
+      "published": "Sat, 21 Mar 2026 02:24:16 GMT",
+      "summary": "The Anti-War Democrat Courting MAGA Voters\n\"Spending $2 billion a day in Iran is an extraordinary waste of resources.\"\n\nCalifornia Representative Ro Khanna tells Mishal Husain that Donald Trump is facing growing pressure over the Iran war, including from his own supporters. (Source: Bloomberg)"
+    },
+    {
+      "title": "US Allows Sale of Stranded Iran Oil to Cap Fuel-Price Rises",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-20/us-treasury-allows-sale-of-some-iranian-oil-stranded-on-vessels",
+      "raw_summary": "The US has allowed the sale of Iranian oil and petrochemical products that have been loaded onto tankers, its latest effort to counter rising oil prices due to the Middle East war.",
+      "source": "Bloomberg Markets",
       "published": "Fri, 20 Mar 2026 23:16:03 GMT",
-      "summary": "Musk defrauded Twitter investors during buyout, jury finds\nPanel members conclude the billionaire misled shareholders in tweets posted during the $44bn takeover"
+      "summary": "US Allows Sale of Stranded Iran Oil to Cap Fuel-Price Rises\nThe US has allowed the sale of Iranian oil and petrochemical products that have been loaded onto tankers, its latest effort to counter rising oil prices due to the Middle East war."
     },
     {
-      "title": "Can Europe break free from US tech dominance? Submit your questions",
-      "link": "https://www.ft.com/content/18aed4ff-365d-43a4-bbff-e9156f9b3ea3",
-      "raw_summary": "Take part in a live Q&amp;A with FT Innovation Editor John Thornhill and EU correspondent Barbara Moens, on Thursday March 26 at 1pm GMT",
-      "source": "World",
-      "published": "Fri, 20 Mar 2026 22:40:22 GMT",
-      "summary": "Can Europe break free from US tech dominance? Submit your questions\nTake part in a live Q&amp;A with FT Innovation Editor John Thornhill and EU correspondent Barbara Moens, on Thursday March 26 at 1pm GMT"
+      "title": "First US Oil Barrels From Emergency Release to Hit Market",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-20/first-us-oil-barrels-from-emergency-release-to-hit-market",
+      "raw_summary": "The first oil from US President Donald Trump’s planned 172 million-barrel emergency release is set to start flowing soon, the latest move in the administration’s battle to keep fuel prices in check.",
+      "source": "Bloomberg Markets",
+      "published": "Fri, 20 Mar 2026 22:58:41 GMT",
+      "summary": "First US Oil Barrels From Emergency Release to Hit Market\nThe first oil from US President Donald Trump’s planned 172 million-barrel emergency release is set to start flowing soon, the latest move in the administration’s battle to keep fuel prices in check."
     },
     {
       "title": "Iran Says Ready to Let Japan Vessels Use Hormuz, Kyodo Reports",
@@ -249,38 +281,6 @@
       "source": "Bloomberg Markets",
       "published": "Sat, 21 Mar 2026 00:43:56 GMT",
       "summary": "Iran Says Ready to Let Japan Vessels Use Hormuz, Kyodo Reports\nIranian Foreign Minister Abbas Araghchi said the nation is prepared to allow Japanese-related vessels to pass through the Strait of Hormuz after consultations between the countries’ officials, according to Kyodo News."
-    },
-    {
-      "title": "US Allows Sale of Stranded Iranian Oil to Cap Energy Price Hikes",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-20/us-treasury-allows-sale-of-some-iranian-oil-stranded-on-vessels",
-      "raw_summary": "The US Department of Treasury issued a general license allowing the sale of Iranian oil and petrochemical products loaded onto vessels on or before 12:01 am New York time Friday, marking the Trump administration’s latest effort to counter rising oil prices due to the Iran war.",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 20 Mar 2026 23:16:03 GMT",
-      "summary": "US Allows Sale of Stranded Iranian Oil to Cap Energy Price Hikes\nThe US Department of Treasury issued a general license allowing the sale of Iranian oil and petrochemical products loaded onto vessels on or before 12:01 am New York time Friday, marking the Trump administration’s latest effort to coun"
-    },
-    {
-      "title": "Wall Street Week | Fed on Iran War, AI Expectations",
-      "link": "https://www.bloomberg.com/news/videos/2026-03-20/wall-street-week-fed-on-iran-war-ai-expectations-video",
-      "raw_summary": "This week, the Fed holds rate steady, anticipating greater uncertainty and higher prices amid the war in Iran. And AI is advancing fast, but real-world limits mean it may transform industries more gradually and less dramatically than many expect today. Plus, are US tariffs on Canada causing long-term economic harm, or are they resetting the relationship between two closely linked economies? Later, efforts to limit teen social media use are gaining momentum worldwide, but uneven enforcement is raising questions about their real impact.\n (Source: Bloomberg)",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 20 Mar 2026 23:13:44 GMT",
-      "summary": "Wall Street Week | Fed on Iran War, AI Expectations\nThis week, the Fed holds rate steady, anticipating greater uncertainty and higher prices amid the war in Iran. And AI is advancing fast, but real-world limits mean it may transform industries more gradually and less dramatically than many expect to"
-    },
-    {
-      "title": "Blackstone Private Credit Fund Has First Monthly Loss Since 2022",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-20/blackstone-private-credit-fund-has-first-monthly-loss-since-2022",
-      "raw_summary": "Blackstone Inc.’s flagship private credit fund posted its first monthly loss in more than three years, one of the clearest signs yet of weakening performance in the $1.8 trillion market.",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 20 Mar 2026 23:06:28 GMT",
-      "summary": "Blackstone Private Credit Fund Has First Monthly Loss Since 2022\nBlackstone Inc.’s flagship private credit fund posted its first monthly loss in more than three years, one of the clearest signs yet of weakening performance in the $1.8 trillion market."
-    },
-    {
-      "title": "Netflix Grows Live Event Strategy With BTS Comeback Spectacular",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-20/netflix-grows-live-event-strategy-with-bts-comeback-spectacular",
-      "raw_summary": "Netflix Inc. is turning the heart of Seoul into a global stage as K-pop megastars BTS return to performance with a livestream comeback show that is expected to draw millions of viewers worldwide as part of a new drive by the US entertainment powerhouse to show live events that can “pull people together”.",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 20 Mar 2026 23:00:00 GMT",
-      "summary": "Netflix Grows Live Event Strategy With BTS Comeback Spectacular\nNetflix Inc. is turning the heart of Seoul into a global stage as K-pop megastars BTS return to performance with a livestream comeback show that is expected to draw millions of viewers worldwide as part of a new drive by the US entertai"
     },
     {
       "title": "Sam Bankman-Fried's past political cash gives AI PAC fuel for bashing NY candidate Bores",
