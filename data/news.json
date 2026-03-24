@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23T18:42:34.682399+00:00",
+  "generated_at": "2026-03-24T01:21:11.691310+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,14 @@
       "summary": "How AI Assistants are Moving the Security Goalposts\nAI-based assistants or \"agents\" -- autonomous programs that have access to the user's computer, files, online services and can automate virtually any task -- are growing in popularity with developers and IT workers. But as so many eyebrow-raising h"
     },
     {
+      "title": "North Korean Hackers Abuse VS Code Auto-Run Tasks to Deploy StoatWaffle Malware",
+      "link": "https://thehackernews.com/2026/03/north-korean-hackers-abuse-vs-code-auto.html",
+      "raw_summary": "The North Korean threat actors behind the Contagious Interview campaign, also tracked as WaterPlum, have been attributed to a malware family tracked as StoatWaffle that's distributed via malicious Microsoft Visual Studio Code (VS Code) projects.\nThe use of VS Code \"tasks.json\" to distribute malware is a relatively new tactic adopted by the threat actor since December 2025, with the attacks",
+      "source": "The Hacker News",
+      "published": "Mon, 23 Mar 2026 23:39:00 +0530",
+      "summary": "North Korean Hackers Abuse VS Code Auto-Run Tasks to Deploy StoatWaffle Malware\nThe North Korean threat actors behind the Contagious Interview campaign, also tracked as WaterPlum, have been attributed to a malware family tracked as StoatWaffle that's distributed via malicious Microsoft Visual Studio"
+    },
+    {
       "title": "⚡ Weekly Recap: CI/CD Backdoor, FBI Buys Location Data, WhatsApp Ditches Numbers & More",
       "link": "https://thehackernews.com/2026/03/weekly-recap-cicd-backdoor-fbi-buys.html",
       "raw_summary": "Another week, another reminder that the internet is still a mess. Systems people thought were secure are being broken in simple ways, showing many still ignore basic advisories.\nThis edition covers a mix of issues: supply chain attacks hitting CI/CD setups, long-abused IoT devices being shut down, and exploits moving quickly from disclosure to real attacks. There are also new malware tricks",
@@ -75,212 +83,236 @@
       "summary": "Trivy Hack Spreads Infostealer via Docker, Triggers Worm and Kubernetes Wiper\nCybersecurity researchers have uncovered malicious artifacts distributed via Docker Hub following the Trivy supply chain attack, highlighting the widening blast radius across developer environments.\nThe last known clean re"
     },
     {
-      "title": "Hackers Exploit CVE-2025-32975 (CVSS 10.0) to Hijack Unpatched Quest KACE SMA Systems",
-      "link": "https://thehackernews.com/2026/03/hackers-exploit-cve-2025-32975-cvss-100.html",
-      "raw_summary": "Threat actors are suspected to be exploiting a maximum-severity security flaw impacting Quest KACE Systems Management Appliance (SMA), according to Arctic Wolf.\nThe cybersecurity company said it observed malicious activity starting the week of March 9, 2026, in customer environments that's consistent with the exploitation of CVE-2025-32975 on unpatched SMA systems exposed to the internet. It's",
-      "source": "The Hacker News",
-      "published": "Mon, 23 Mar 2026 11:45:00 +0530",
-      "summary": "Hackers Exploit CVE-2025-32975 (CVSS 10.0) to Hijack Unpatched Quest KACE SMA Systems\nThreat actors are suspected to be exploiting a maximum-severity security flaw impacting Quest KACE Systems Management Appliance (SMA), according to Arctic Wolf.\nThe cybersecurity company said it observed malicious "
-    },
-    {
-      "title": "Is it a pint?",
-      "link": "https://isitapint.com/",
-      "raw_summary": "<p>Article URL: <a href=\"https://isitapint.com/\">https://isitapint.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47491496\">https://news.ycombinator.com/item?id=47491496</a></p>\n<p>Points: 104</p>\n<p># Comments: 95</p>",
+      "title": "AI boom risks widening wealth divide, says BlackRock's Larry Fink",
+      "link": "https://www.theguardian.com/technology/2026/mar/23/ai-boom-risks-widening-wealth-divide-blackrock-larry-fink",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.theguardian.com/technology/2026/mar/23/ai-boom-risks-widening-wealth-divide-blackrock-larry-fink\">https://www.theguardian.com/technology/2026/mar/23/ai-boom-risks-widening-wealth-divide-blackrock-larry-fink</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47496583\">https://news.ycombinator.com/item?id=47496583</a></p>\n<p>Points: 22</p>\n<p># Comments: 5</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 23 Mar 2026 16:13:40 +0000",
-      "summary": "Is it a pint?\n<p>Article URL: <a href=\"https://isitapint.com/\">https://isitapint.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47491496\">https://news.ycombinator.com/item?id=47491496</a></p>\n<p>Points: 104</p>\n<p># Comments: 95</p>"
+      "published": "Mon, 23 Mar 2026 23:32:17 +0000",
+      "summary": "AI boom risks widening wealth divide, says BlackRock's Larry Fink\n<p>Article URL: <a href=\"https://www.theguardian.com/technology/2026/mar/23/ai-boom-risks-widening-wealth-divide-blackrock-larry-fink\">https://www.theguardian.com/technology/2026/mar/23/ai-boom-risks-widening-wealth-divide-blackrock-l"
     },
     {
-      "title": "Show HN: Threadprocs – executables sharing one address space (0-copy pointers)",
-      "link": "https://github.com/jer-irl/threadprocs",
-      "raw_summary": "<p>This project launches multiple independent programs into a single shared virtual address space, while still behaving like separate processes (independent binaries, globals, and lifetimes).  When threadprocs share their address space, pointers are valid across them with no code changes for well-behaved Linux binaries.<p>Unlike threads, each threadproc is a standalone and semi-isolated process.  Unlike dlopen-based plugin systems, threadprocs run traditional executables with a `main()` function.  Unlike POSIX processes, pointers remain valid across threadprocs because they share the same address space.<p>This means that idiomatic pointer-based data structures like `std::string` or `std::unordered_map` can be passed between threadprocs and accessed directly (with the usual data race considerations).<p>This accomplishes a programming model somewhere between pthreads and multi-process shared memory IPC.<p>The implementation relies on directing ASLR and virtual address layout at load time and implementing a user-space analogue of `exec()`, as well as careful manipulation of threadproc file descriptors, signals, etc.  It is implemented entirely in unprivileged user space code: <<a href=\"https://github.com/jer-irl/threadprocs/blob/main/docs/02-implementation.md\" rel=\"nofollow\">https://github.com/jer-irl/threadprocs/blob/main/docs/02-imp...</a>>.<p>There is a simple demo demonstrating “cross-threadproc” memory dereferencing at <<a href=\"https://github.com/jer-irl/threadprocs/tree/main?tab=readme-ov-file#demo\" rel=\"nofollow\">https://github.com/jer-irl/threadprocs/tree/main?tab=readme-...</a>>, including a high-level diagram.<p>This is relevant to systems of multiple processes with shared memory (often ring buffers or flat tables).  These designs often require serialization or copying, and tend away from idiomatic C++ or Rust data structures.  Pointer-based data structures cannot be passed directly.<p>There are significant limitations and edge cases, and it’s not clear this is a practical model, but the project explores a way to relax traditional process memory boundaries while still structuring a system as independently launched components.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47491414\">https://news.ycombinator.com/item?id=47491414</a></p>\n<p>Points: 37</p>\n<p># Comments: 27</p>",
+      "title": "Pentagon Adopts New Limits for Journalists After Court Loss",
+      "link": "https://www.nytimes.com/2026/03/23/business/media/pentagon-closes-journalists-work-area.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.nytimes.com/2026/03/23/business/media/pentagon-closes-journalists-work-area.html\">https://www.nytimes.com/2026/03/23/business/media/pentagon-closes-journalists-work-area.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47496305\">https://news.ycombinator.com/item?id=47496305</a></p>\n<p>Points: 37</p>\n<p># Comments: 10</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 23 Mar 2026 16:08:01 +0000",
-      "summary": "Show HN: Threadprocs – executables sharing one address space (0-copy pointers)\n<p>This project launches multiple independent programs into a single shared virtual address space, while still behaving like separate processes (independent binaries, globals, and lifetimes).  When threadprocs share their"
+      "published": "Mon, 23 Mar 2026 23:02:01 +0000",
+      "summary": "Pentagon Adopts New Limits for Journalists After Court Loss\n<p>Article URL: <a href=\"https://www.nytimes.com/2026/03/23/business/media/pentagon-closes-journalists-work-area.html\">https://www.nytimes.com/2026/03/23/business/media/pentagon-closes-journalists-work-area.html</a></p>\n<p>Comments URL: <a "
     },
     {
-      "title": "Cyber.mil serving file downloads using TLS certificate which expired 3 days ago",
-      "link": "https://www.cyber.mil/stigs/downloads",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.cyber.mil/stigs/downloads\">https://www.cyber.mil/stigs/downloads</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47490816\">https://news.ycombinator.com/item?id=47490816</a></p>\n<p>Points: 99</p>\n<p># Comments: 97</p>",
+      "title": "Study: Workers who fall for 'corporate bullshit' may be worse at their jobs",
+      "link": "https://www.theguardian.com/business/2026/mar/23/corporate-speak-study",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.theguardian.com/business/2026/mar/23/corporate-speak-study\">https://www.theguardian.com/business/2026/mar/23/corporate-speak-study</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47496232\">https://news.ycombinator.com/item?id=47496232</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 23 Mar 2026 15:25:04 +0000",
-      "summary": "Cyber.mil serving file downloads using TLS certificate which expired 3 days ago\n<p>Article URL: <a href=\"https://www.cyber.mil/stigs/downloads\">https://www.cyber.mil/stigs/downloads</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47490816\">https://news.ycombinator.com/item?id="
+      "published": "Mon, 23 Mar 2026 22:53:44 +0000",
+      "summary": "Study: Workers who fall for 'corporate bullshit' may be worse at their jobs\n<p>Article URL: <a href=\"https://www.theguardian.com/business/2026/mar/23/corporate-speak-study\">https://www.theguardian.com/business/2026/mar/23/corporate-speak-study</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinat"
     },
     {
-      "title": "If DSPy is so great, why isn't anyone using it?",
-      "link": "https://skylarbpayne.com/posts/dspy-engineering-patterns/",
-      "raw_summary": "<p>Article URL: <a href=\"https://skylarbpayne.com/posts/dspy-engineering-patterns/\">https://skylarbpayne.com/posts/dspy-engineering-patterns/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47490365\">https://news.ycombinator.com/item?id=47490365</a></p>\n<p>Points: 153</p>\n<p># Comments: 97</p>",
+      "title": "Windows 3.1 tiled background .bmp archive",
+      "link": "https://github.com/andreasjansson/win-3.1-backgrounds",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/andreasjansson/win-3.1-backgrounds\">https://github.com/andreasjansson/win-3.1-backgrounds</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47496221\">https://news.ycombinator.com/item?id=47496221</a></p>\n<p>Points: 115</p>\n<p># Comments: 31</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 23 Mar 2026 14:52:52 +0000",
-      "summary": "If DSPy is so great, why isn't anyone using it?\n<p>Article URL: <a href=\"https://skylarbpayne.com/posts/dspy-engineering-patterns/\">https://skylarbpayne.com/posts/dspy-engineering-patterns/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47490365\">https://news.ycombinator.com/"
+      "published": "Mon, 23 Mar 2026 22:52:35 +0000",
+      "summary": "Windows 3.1 tiled background .bmp archive\n<p>Article URL: <a href=\"https://github.com/andreasjansson/win-3.1-backgrounds\">https://github.com/andreasjansson/win-3.1-backgrounds</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47496221\">https://news.ycombinator.com/item?id=474962"
     },
     {
-      "title": "iPhone 17 Pro Demonstrated Running a 400B LLM",
-      "link": "https://twitter.com/anemll/status/2035901335984611412",
-      "raw_summary": "<p><a href=\"https://xcancel.com/anemll/status/2035901335984611412\" rel=\"nofollow\">https://xcancel.com/anemll/status/2035901335984611412</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47490070\">https://news.ycombinator.com/item?id=47490070</a></p>\n<p>Points: 259</p>\n<p># Comments: 152</p>",
+      "title": "IRIX 3dfx Voodoo driver and glide2x IRIX port",
+      "link": "https://sdz-mods.com/index.php/2026/03/23/irix-3dfx-voodoo-driver-glide2x-irix-port/",
+      "raw_summary": "<p>Article URL: <a href=\"https://sdz-mods.com/index.php/2026/03/23/irix-3dfx-voodoo-driver-glide2x-irix-port/\">https://sdz-mods.com/index.php/2026/03/23/irix-3dfx-voodoo-driver-glide2x-irix-port/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47496089\">https://news.ycombinator.com/item?id=47496089</a></p>\n<p>Points: 23</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 23 Mar 2026 14:30:10 +0000",
-      "summary": "iPhone 17 Pro Demonstrated Running a 400B LLM\n<p><a href=\"https://xcancel.com/anemll/status/2035901335984611412\" rel=\"nofollow\">https://xcancel.com/anemll/status/2035901335984611412</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47490070\">https://news.ycombinator.com/i"
+      "published": "Mon, 23 Mar 2026 22:37:15 +0000",
+      "summary": "IRIX 3dfx Voodoo driver and glide2x IRIX port\n<p>Article URL: <a href=\"https://sdz-mods.com/index.php/2026/03/23/irix-3dfx-voodoo-driver-glide2x-irix-port/\">https://sdz-mods.com/index.php/2026/03/23/irix-3dfx-voodoo-driver-glide2x-irix-port/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator"
     },
     {
-      "title": "Bipartisan bill seeks to ban sports betting on Kalshi and Polymarket",
-      "link": "https://techcrunch.com/2026/03/23/bipartisan-bill-seeks-to-ban-sports-betting-on-kalshi-and-polymarket/",
-      "raw_summary": "Since FanDuel and DraftKings are subject to state-by-state gambling laws, rather than federal law, they would not be impacted by the bill.",
+      "title": "Emil Michael, now a senior Pentagon official, says he’ll never forgive Uber investors who ousted him and Kalanick",
+      "link": "https://techcrunch.com/2026/03/23/emil-michael-now-a-senior-pentagon-official-says-hell-never-forgive-uber-investors-who-ousted-him-and-kalanick/",
+      "raw_summary": "When asked whether he was still \"salty\" about about being shown the door at Uber, alongside co-founder Travis Kalanick, Michael didn't equivocate. \"I'll never forget that, nor forgive,\" he said.",
       "source": "TechCrunch",
-      "published": "Mon, 23 Mar 2026 18:31:53 +0000",
-      "summary": "Bipartisan bill seeks to ban sports betting on Kalshi and Polymarket\nSince FanDuel and DraftKings are subject to state-by-state gambling laws, rather than federal law, they would not be impacted by the bill."
+      "published": "Mon, 23 Mar 2026 23:49:10 +0000",
+      "summary": "Emil Michael, now a senior Pentagon official, says he’ll never forgive Uber investors who ousted him and Kalanick\nWhen asked whether he was still \"salty\" about about being shown the door at Uber, alongside co-founder Travis Kalanick, Michael didn't equivocate. \"I'll never forget that, nor forgive,\" "
     },
     {
-      "title": "Vibe-coding startup Lovable is on the hunt for acquisitions",
-      "link": "https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/",
-      "raw_summary": "Lovable's founder said the fast-growing vibe coding startup is looking for startups and teams to join its company.",
+      "title": "Bengaluru food delivery startup Swish raises $38M, its third round in 18 months",
+      "link": "https://techcrunch.com/2026/03/23/bengaluru-food-startup-swish-raises-38m-in-its-third-round-in-18-months/",
+      "raw_summary": "Swish has more than doubled its valuation in a year as its full-stack, hyperlocal model positions ultra-fast food delivery as a high-frequency habit.",
       "source": "TechCrunch",
-      "published": "Mon, 23 Mar 2026 18:22:04 +0000",
-      "summary": "Vibe-coding startup Lovable is on the hunt for acquisitions\nLovable's founder said the fast-growing vibe coding startup is looking for startups and teams to join its company."
+      "published": "Mon, 23 Mar 2026 23:30:00 +0000",
+      "summary": "Bengaluru food delivery startup Swish raises $38M, its third round in 18 months\nSwish has more than doubled its valuation in a year as its full-stack, hyperlocal model positions ultra-fast food delivery as a high-frequency habit."
     },
     {
-      "title": "Apple sets June date for WWDC 2026, teasing “AI advancements”",
-      "link": "https://techcrunch.com/2026/03/23/apple-wwdc-june-8-12-ai-advancements-siri-developers-conference/",
-      "raw_summary": "Apple will host its next Worldwide Developers Conference the week of June 8. The company is expected to announce major updates to Siri with advanced AI capabilities.",
+      "title": "Despite bitter rivalry, Kalshi, Polymarket CEOs back $35M predictions markets VC fund",
+      "link": "https://techcrunch.com/2026/03/23/despite-bitter-rivalry-kalshi-polymarket-ceos-back-35m-predictions-markets-vc-fund/",
+      "raw_summary": "As prediction markets explode, the new firm called 5(c) Capital, will back startups supporting the burgeoning category.",
       "source": "TechCrunch",
-      "published": "Mon, 23 Mar 2026 18:00:45 +0000",
-      "summary": "Apple sets June date for WWDC 2026, teasing “AI advancements”\nApple will host its next Worldwide Developers Conference the week of June 8. The company is expected to announce major updates to Siri with advanced AI capabilities."
+      "published": "Mon, 23 Mar 2026 22:57:53 +0000",
+      "summary": "Despite bitter rivalry, Kalshi, Polymarket CEOs back $35M predictions markets VC fund\nAs prediction markets explode, the new firm called 5(c) Capital, will back startups supporting the burgeoning category."
     },
     {
-      "title": "DoorDash introduces relief payments for drivers as the Iran-US war drives up gas prices",
-      "link": "https://techcrunch.com/2026/03/23/doordash-introduces-relief-payments-for-drivers-as-the-iran-us-war-drives-up-gas-prices/",
-      "raw_summary": "Gas is one of the largest expenses for delivery drivers. With prices continuing to surge, DoorDash is offering a lifeline to Dashers with a new relief program.",
+      "title": "Air Street becomes one of the largest solo VCs in Europe with $232M fund",
+      "link": "https://techcrunch.com/2026/03/23/air-street-becomes-one-of-the-largest-solo-vcs-in-europe-with-232m-fund/",
+      "raw_summary": "London’s Air Street Capital has raised a large Fund III with eyes locked on backing early-stage European and North American AI companies.",
       "source": "TechCrunch",
-      "published": "Mon, 23 Mar 2026 17:48:50 +0000",
-      "summary": "DoorDash introduces relief payments for drivers as the Iran-US war drives up gas prices\nGas is one of the largest expenses for delivery drivers. With prices continuing to surge, DoorDash is offering a lifeline to Dashers with a new relief program."
+      "published": "Mon, 23 Mar 2026 22:36:39 +0000",
+      "summary": "Air Street becomes one of the largest solo VCs in Europe with $232M fund\nLondon’s Air Street Capital has raised a large Fund III with eyes locked on backing early-stage European and North American AI companies."
     },
     {
-      "title": "Leonid Radvinsky, the owner of  OnlyFans, has passed away",
-      "link": "https://techcrunch.com/2026/03/23/leonid-radvinsky-the-owner-of-onlyfans-has-passed-away/",
-      "raw_summary": "OnlyFans owner Leonid Radvinsky has passed away at the age of 43 after a battle with cancer.",
+      "title": "Apple Maps may be about to get ads",
+      "link": "https://techcrunch.com/2026/03/23/apple-maps-may-be-about-to-get-ads/",
+      "raw_summary": "Apple Maps may soon serve ads in top results when users search on terms like \"restaurants.\"",
       "source": "TechCrunch",
-      "published": "Mon, 23 Mar 2026 16:32:17 +0000",
-      "summary": "Leonid Radvinsky, the owner of  OnlyFans, has passed away\nOnlyFans owner Leonid Radvinsky has passed away at the age of 43 after a battle with cancer."
+      "published": "Mon, 23 Mar 2026 22:33:03 +0000",
+      "summary": "Apple Maps may be about to get ads\nApple Maps may soon serve ads in top results when users search on terms like \"restaurants.\""
     },
     {
-      "title": "Long fingernails vs. touchscreens: This nail polish could help",
-      "link": "https://arstechnica.com/science/2026/03/long-fingernails-vs-touchscreens-this-nail-polish-could-help/",
-      "raw_summary": "Undergraduate's prototype conductive nail polish could turn long fingernails into touchscreen styluses.",
+      "title": "A mission NASA might kill is still returning fascinating science from Jupiter",
+      "link": "https://arstechnica.com/space/2026/03/a-mission-nasa-might-kill-is-still-returning-fascinating-science-from-jupiter/",
+      "raw_summary": "\"We can’t quite afford to support everything that we have done in the past.\"",
       "source": "Ars Technica - All content",
-      "published": "Mon, 23 Mar 2026 17:59:46 +0000",
-      "summary": "Long fingernails vs. touchscreens: This nail polish could help\nUndergraduate's prototype conductive nail polish could turn long fingernails into touchscreen styluses."
+      "published": "Mon, 23 Mar 2026 22:49:31 +0000",
+      "summary": "A mission NASA might kill is still returning fascinating science from Jupiter\n\"We can’t quite afford to support everything that we have done in the past.\""
     },
     {
-      "title": "Republicans in Congress add $250 annual federal EV tax to transport bill",
-      "link": "https://arstechnica.com/cars/2026/03/republicans-in-congress-add-250-annual-federal-ev-tax-to-transport-bill/",
-      "raw_summary": "Five principles should determine how you fund transport, says Consumer Reports.",
+      "title": "Trump's MAHA pick for surgeon general flounders amid GOP doubts",
+      "link": "https://arstechnica.com/health/2026/03/trumps-maha-pick-for-surgeon-general-flounders-amid-gop-doubts/",
+      "raw_summary": "She stalled over MAHA woo-woo, anti-vaccine views, and lacking medical background.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 23 Mar 2026 17:29:29 +0000",
-      "summary": "Republicans in Congress add $250 annual federal EV tax to transport bill\nFive principles should determine how you fund transport, says Consumer Reports."
+      "published": "Mon, 23 Mar 2026 21:43:21 +0000",
+      "summary": "Trump's MAHA pick for surgeon general flounders amid GOP doubts\nShe stalled over MAHA woo-woo, anti-vaccine views, and lacking medical background."
     },
     {
-      "title": "As teens await sentencing for nudifying girls, parents aim to sue school",
-      "link": "https://arstechnica.com/tech-policy/2026/03/as-teens-await-sentencing-for-nudifying-girls-parents-aim-to-sue-school/",
-      "raw_summary": "Teens will be sentenced Wednesday after admitting to creating AI CSAM.",
+      "title": "Nvidia CEO tries to explain why DLSS 5 isn’t just “AI slop”",
+      "link": "https://arstechnica.com/gaming/2026/03/nvidia-ceo-tries-to-explain-why-dlss-5-isnt-just-ai-slop/",
+      "raw_summary": "If game makers don’t like it, “they could decide not to use it, you know?\"",
       "source": "Ars Technica - All content",
-      "published": "Mon, 23 Mar 2026 17:19:49 +0000",
-      "summary": "As teens await sentencing for nudifying girls, parents aim to sue school\nTeens will be sentenced Wednesday after admitting to creating AI CSAM."
+      "published": "Mon, 23 Mar 2026 21:19:51 +0000",
+      "summary": "Nvidia CEO tries to explain why DLSS 5 isn’t just “AI slop”\nIf game makers don’t like it, “they could decide not to use it, you know?\""
     },
     {
-      "title": "A bit of good news: It's possible to turn around a groundwater crisis",
-      "link": "https://arstechnica.com/science/2026/03/a-bit-of-good-news-its-possible-to-turn-around-a-groundwater-crisis/",
-      "raw_summary": "Analyzing dozens of cases around the world yields some practical lessons.",
+      "title": "After hackers hit an Iowa company, cars around the country failed to start",
+      "link": "https://arstechnica.com/security/2026/03/after-hack-some-ignition-interlock-users-couldnt-start-their-own-cars/",
+      "raw_summary": "If you don't calibrate your interlock in time, your vehicle is dead.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 23 Mar 2026 16:05:51 +0000",
-      "summary": "A bit of good news: It's possible to turn around a groundwater crisis\nAnalyzing dozens of cases around the world yields some practical lessons."
+      "published": "Mon, 23 Mar 2026 21:10:14 +0000",
+      "summary": "After hackers hit an Iowa company, cars around the country failed to start\nIf you don't calibrate your interlock in time, your vehicle is dead."
     },
     {
-      "title": "AI is beginning to change the business of law",
-      "link": "https://arstechnica.com/ai/2026/03/ai-is-beginning-to-change-the-business-of-law/",
-      "raw_summary": "Attorneys are finding uses for AI apart from generating fake case quotations.",
+      "title": "LG Display starts mass-producing LTPO-like 1 Hz LCD displays for laptops",
+      "link": "https://arstechnica.com/gadgets/2026/03/lg-display-starts-mass-producing-ltpo-like-1-hz-lcd-displays-for-laptops/",
+      "raw_summary": "Dell XPS laptops will be the first to use the display tech that reaches up to 120 Hz.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 23 Mar 2026 13:45:13 +0000",
-      "summary": "AI is beginning to change the business of law\nAttorneys are finding uses for AI apart from generating fake case quotations."
+      "published": "Mon, 23 Mar 2026 20:29:09 +0000",
+      "summary": "LG Display starts mass-producing LTPO-like 1 Hz LCD displays for laptops\nDell XPS laptops will be the first to use the display tech that reaches up to 120 Hz."
     },
     {
-      "title": "US to pay Total $1bn to switch from wind to oil and gas development",
-      "link": "https://www.ft.com/content/ae51ca5e-b45d-4a31-952b-e7c611b0e5b6",
-      "raw_summary": "Deal comes as Donald Trump faces pressure to limit energy price increases triggered by Iran war",
+      "title": "SoftBank tests its own borrowing limits with $30bn bet on OpenAI",
+      "link": "https://www.ft.com/content/021d360f-23eb-469e-8894-14ac93fb7718",
+      "raw_summary": "Masayoshi Son faces investor nerves with massive spending on AI investments",
       "source": "World",
-      "published": "Mon, 23 Mar 2026 17:49:13 GMT",
-      "summary": "US to pay Total $1bn to switch from wind to oil and gas development\nDeal comes as Donald Trump faces pressure to limit energy price increases triggered by Iran war"
+      "published": "Tue, 24 Mar 2026 01:15:03 GMT",
+      "summary": "SoftBank tests its own borrowing limits with $30bn bet on OpenAI\nMasayoshi Son faces investor nerves with massive spending on AI investments"
     },
     {
-      "title": "Anti-terror police investigate antisemitic arson attack on London charity",
-      "link": "https://www.ft.com/content/041820ee-3bce-4234-8ad5-be43f9b310b4",
-      "raw_summary": "Investigators studying claim of responsibility in name of Iran-linked group",
+      "title": "EU and Australia clinch trade and security pacts",
+      "link": "https://www.ft.com/content/4a71ddd6-bb5c-439c-9a10-ce3ad1d4377f",
+      "raw_summary": "Both sides are looking to reduce their dependence on the US and China",
       "source": "World",
-      "published": "Mon, 23 Mar 2026 17:48:28 GMT",
-      "summary": "Anti-terror police investigate antisemitic arson attack on London charity\nInvestigators studying claim of responsibility in name of Iran-linked group"
+      "published": "Tue, 24 Mar 2026 00:15:03 GMT",
+      "summary": "EU and Australia clinch trade and security pacts\nBoth sides are looking to reduce their dependence on the US and China"
     },
     {
-      "title": "Markets rebound after Trump postpones attack on Iranian energy",
-      "link": "https://www.ft.com/content/95d42d92-cedf-4849-a669-a53d2179b257",
-      "raw_summary": "Stocks reverse losses and oil tumbles after US president says there have been ‘constructive’ talks with Tehran",
+      "title": "Companies will have to pay UK supplier invoices within 60 days or face fines",
+      "link": "https://www.ft.com/content/287c16a3-d324-4a03-881f-cb1da8ddf540",
+      "raw_summary": "CBI praises legislation aimed at protecting small businesses for striking ‘the right balance’",
       "source": "World",
-      "published": "Mon, 23 Mar 2026 17:45:04 GMT",
-      "summary": "Markets rebound after Trump postpones attack on Iranian energy\nStocks reverse losses and oil tumbles after US president says there have been ‘constructive’ talks with Tehran"
+      "published": "Tue, 24 Mar 2026 00:01:03 GMT",
+      "summary": "Companies will have to pay UK supplier invoices within 60 days or face fines\nCBI praises legislation aimed at protecting small businesses for striking ‘the right balance’"
     },
     {
-      "title": "Giorgia Meloni loses justice referendum",
-      "link": "https://www.ft.com/content/427b2a76-f382-4c48-9453-79ba3db5b1ab",
-      "raw_summary": "Italians reject premier’s push to overhaul judiciary that has often clashed with government",
+      "title": "Gilead buys autoimmune biotech Ouro Medicines for $2.2bn",
+      "link": "https://www.ft.com/content/81528c31-c735-41b7-b042-81a811a76877",
+      "raw_summary": "California-based drugmaker takes advantage of surging share price to strike takeovers",
       "source": "World",
-      "published": "Mon, 23 Mar 2026 17:36:35 GMT",
-      "summary": "Giorgia Meloni loses justice referendum\nItalians reject premier’s push to overhaul judiciary that has often clashed with government"
+      "published": "Mon, 23 Mar 2026 23:24:37 GMT",
+      "summary": "Gilead buys autoimmune biotech Ouro Medicines for $2.2bn\nCalifornia-based drugmaker takes advantage of surging share price to strike takeovers"
     },
     {
-      "title": "Musk verdict suggests US shareholders are stepping into the regulatory void",
-      "link": "https://www.ft.com/content/e8391ea8-144d-46ac-af34-6e2b56e34a09",
-      "raw_summary": "The ruling against him may suggest the judicial system is leaning into its expanded role in securities law enforcement",
+      "title": "Iran contradicts Trump and says no direct talks to end war",
+      "link": "https://www.ft.com/content/f9f0980b-385d-4ad2-b242-3b89666282a5",
+      "raw_summary": "US president postpones possible attacks on Iranian energy infrastructure after hailing ‘productive’ talks with Tehran",
       "source": "World",
-      "published": "Mon, 23 Mar 2026 17:22:07 GMT",
-      "summary": "Musk verdict suggests US shareholders are stepping into the regulatory void\nThe ruling against him may suggest the judicial system is leaning into its expanded role in securities law enforcement"
+      "published": "Mon, 23 Mar 2026 23:16:00 GMT",
+      "summary": "Iran contradicts Trump and says no direct talks to end war\nUS president postpones possible attacks on Iranian energy infrastructure after hailing ‘productive’ talks with Tehran"
     },
     {
-      "title": "Test Your ETF Knowledge In Our IQ Test",
-      "link": "https://www.bloomberg.com/news/videos/2026-03-23/test-your-etf-knowledge-in-our-iq-test-video",
-      "raw_summary": "Bloomberg's Joel Weber puts Katie Greifeld, Scarlet Fu, and Eric Balchunas to the test on \"Bloomberg ETF IQ\" in this week's edition of \"IQ Test.\" (Source: Bloomberg)",
+      "title": "New Zealand Fuel Shock Response Capped by Pre-Election Debt Fear",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-24/new-zealand-fuel-shock-response-capped-by-pre-election-debt-fear",
+      "raw_summary": "New Zealand’s response to the impact of rising fuel costs on households is being limited to low and middle-income working families, leaving beneficiaries and pensioners to fend for themselves as the specter of rising debt and inflation looms over the government.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 23 Mar 2026 18:36:33 GMT",
-      "summary": "Test Your ETF Knowledge In Our IQ Test\nBloomberg's Joel Weber puts Katie Greifeld, Scarlet Fu, and Eric Balchunas to the test on \"Bloomberg ETF IQ\" in this week's edition of \"IQ Test.\" (Source: Bloomberg)"
+      "published": "Tue, 24 Mar 2026 01:04:06 GMT",
+      "summary": "New Zealand Fuel Shock Response Capped by Pre-Election Debt Fear\nNew Zealand’s response to the impact of rising fuel costs on households is being limited to low and middle-income working families, leaving beneficiaries and pensioners to fend for themselves as the specter of rising debt and inflation"
     },
     {
-      "title": "'Congress Always Chickens Out' on Problem Solving, Says Jane Harman",
-      "link": "https://www.bloomberg.com/news/videos/2026-03-23/-congress-always-chickens-out-says-jane-harman-video",
-      "raw_summary": "Jane Harman, former Democratic representative from California who served as ranking member of the House Intelligence Committee, said that Congress has shown it is not interested in stepping up in an active role in negotiations around the war with Iran or in working together to problem solve a deal on DHS funding.  (Source: Bloomberg)",
+      "title": "China Vanke’s Outlook Further Strained by GLP’s Bond Distress",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-24/china-vanke-s-outlook-further-strained-by-glp-s-bond-distress",
+      "raw_summary": "China Vanke Co.’s stake in a logistics firm that’s facing mounting investor concerns is adding to the strain on the distressed developer, just as another wave of looming debt maturities stokes default risks again.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 23 Mar 2026 18:34:55 GMT",
-      "summary": "'Congress Always Chickens Out' on Problem Solving, Says Jane Harman\nJane Harman, former Democratic representative from California who served as ranking member of the House Intelligence Committee, said that Congress has shown it is not interested in stepping up in an active role in negotiations aroun"
+      "published": "Tue, 24 Mar 2026 01:01:20 GMT",
+      "summary": "China Vanke’s Outlook Further Strained by GLP’s Bond Distress\nChina Vanke Co.’s stake in a logistics firm that’s facing mounting investor concerns is adding to the strain on the distressed developer, just as another wave of looming debt maturities stokes default risks again."
     },
     {
-      "title": "Young Investors Learning Lessons Earlier: Dan Egan",
-      "link": "https://www.bloomberg.com/news/videos/2026-03-23/young-investors-learning-lessons-earlier-dan-egan-video",
-      "raw_summary": "Dan Egan, vice president of behavioral finance & investing at Betterment, joins Katie Greifeld, Scarlet Fu, and Eric Balchunas on \"Bloomberg ETF IQ.\" They discuss investor sentiment amid financial anxiety. (Source: Bloomberg)",
+      "title": "Bain Sees Optimism for Asian Private Equity Though Threat Looms",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-24/bain-sees-optimism-for-asian-private-equity-though-threat-looms",
+      "raw_summary": "Confidence is building around Asia-Pacific private equity as exit values increase and investors’ net cash flow turns positive, though war in the Middle East threatens the recovery, according to global consultancy Bain &amp; Co.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 23 Mar 2026 18:29:50 GMT",
-      "summary": "Young Investors Learning Lessons Earlier: Dan Egan\nDan Egan, vice president of behavioral finance & investing at Betterment, joins Katie Greifeld, Scarlet Fu, and Eric Balchunas on \"Bloomberg ETF IQ.\" They discuss investor sentiment amid financial anxiety. (Source: Bloomberg)"
+      "published": "Tue, 24 Mar 2026 01:00:00 GMT",
+      "summary": "Bain Sees Optimism for Asian Private Equity Though Threat Looms\nConfidence is building around Asia-Pacific private equity as exit values increase and investors’ net cash flow turns positive, though war in the Middle East threatens the recovery, according to global consultancy Bain &amp; Co."
     },
     {
-      "title": "NYC Subway Project’s $1 Billion Contract Hinges on Frozen Funds",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-23/nyc-subway-project-s-1-billion-contract-hinges-on-frozen-funds",
-      "raw_summary": "New York City’s transit agency is set to approve a $1 billion excavation contract as part of its Second Avenue subway expansion &mdash; but the deal might be stalled if federal funds for the project are not released.",
+      "title": "Sinopec to Prioritize China’s Fuel Supply as Pressures Mount",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-23/sinopec-to-ensure-china-s-fuel-supply-and-cut-chemicals-losses",
+      "raw_summary": "China’s biggest oil refiner said it will prioritize ensuring domestic fuel supplies as it braces for a prolonged conflict in the Middle East.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 23 Mar 2026 18:27:34 GMT",
-      "summary": "NYC Subway Project’s $1 Billion Contract Hinges on Frozen Funds\nNew York City’s transit agency is set to approve a $1 billion excavation contract as part of its Second Avenue subway expansion &mdash; but the deal might be stalled if federal funds for the project are not released."
+      "published": "Mon, 23 Mar 2026 10:00:04 GMT",
+      "summary": "Sinopec to Prioritize China’s Fuel Supply as Pressures Mount\nChina’s biggest oil refiner said it will prioritize ensuring domestic fuel supplies as it braces for a prolonged conflict in the Middle East."
     },
     {
-      "title": "Trump Says Strait of Hormuz Could Be 'Jointly Controlled' Between US, Iran",
-      "link": "https://www.bloomberg.com/news/videos/2026-03-23/trump-says-strait-of-hormuz-could-be-jointly-controlled-video",
-      "raw_summary": "Anja Manuel, Aspen Strategy Group Executive Director and former US diplomat, about the latest developments in the war with Iran and US-China relations said it probably will take weeks before oil tankers might be able to navigate the Strait of Hormuz and any military operation to clear the waterway would be difficult (Source: Bloomberg)",
+      "title": "Duke Kunshan University’s Quelch on China",
+      "link": "https://www.bloomberg.com/news/videos/2026-03-24/duke-kunshan-university-s-quelch-on-china-video",
+      "raw_summary": "John Quelch, Executive Vice Chancellor at Duke Kunshan University, discusses how China is repeating its message of stability and non-interference, as the war in the Iran continues. He speaks with Stephen Engle at the China Development Forum in Beijing.  (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Mon, 23 Mar 2026 18:22:39 GMT",
-      "summary": "Trump Says Strait of Hormuz Could Be 'Jointly Controlled' Between US, Iran\nAnja Manuel, Aspen Strategy Group Executive Director and former US diplomat, about the latest developments in the war with Iran and US-China relations said it probably will take weeks before oil tankers might be able to navig"
+      "published": "Tue, 24 Mar 2026 00:55:09 GMT",
+      "summary": "Duke Kunshan University’s Quelch on China\nJohn Quelch, Executive Vice Chancellor at Duke Kunshan University, discusses how China is repeating its message of stability and non-interference, as the war in the Iran continues. He speaks with Stephen Engle at the China Development Forum in Beijing.  (Sou"
+    },
+    {
+      "title": "Stablecoin yield in crypto Clarity Act won't allow rewards on balances, latest text says",
+      "link": "https://www.coindesk.com/policy/2026/03/23/stablecoin-yield-in-crypto-clarity-act-won-t-allow-rewards-on-balances-latest-text-says",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Mon, 23 Mar 2026 22:43:06 +0000",
+      "summary": "Stablecoin yield in crypto Clarity Act won't allow rewards on balances, latest text says\n"
+    },
+    {
+      "title": "Bitcoin holds above $70,000, but future direction hinges on Iran-U.S. 'talks'",
+      "link": "https://www.coindesk.com/markets/2026/03/23/bitcoin-holds-above-usd70-000-but-future-direction-hinges-on-iran-u-s-talks",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Mon, 23 Mar 2026 21:14:08 +0000",
+      "summary": "Bitcoin holds above $70,000, but future direction hinges on Iran-U.S. 'talks'\n"
+    },
+    {
+      "title": "Solana Foundation targets institutions with new privacy framework",
+      "link": "https://www.coindesk.com/tech/2026/03/23/solana-foundation-targets-institutions-with-new-privacy-framework",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Mon, 23 Mar 2026 20:00:42 +0000",
+      "summary": "Solana Foundation targets institutions with new privacy framework\n"
+    },
+    {
+      "title": "Prediction market boom spurs new VC fund backed by Polymarket, Kalshi CEOs",
+      "link": "https://www.coindesk.com/markets/2026/03/23/prediction-market-boom-spurs-new-vc-fund-backed-by-polymarket-kalshi-ceos",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Mon, 23 Mar 2026 19:39:34 +0000",
+      "summary": "Prediction market boom spurs new VC fund backed by Polymarket, Kalshi CEOs\n"
     },
     {
       "title": "BlackRock is betting billions that tokenized funds will do for Wall Street what the internet did to mail",
@@ -289,38 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Mon, 23 Mar 2026 16:12:09 +0000",
       "summary": "BlackRock is betting billions that tokenized funds will do for Wall Street what the internet did to mail\n"
-    },
-    {
-      "title": "Strategy tops up capital-raising plans, bringing potential bitcoin buying power back to $42 billion",
-      "link": "https://www.coindesk.com/markets/2026/03/23/strategy-tops-up-capital-raising-plans-bringing-potential-bitcoin-buying-power-back-to-usd42-billion",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 23 Mar 2026 14:58:25 +0000",
-      "summary": "Strategy tops up capital-raising plans, bringing potential bitcoin buying power back to $42 billion\n"
-    },
-    {
-      "title": "Pharmaceutical firm pivots to stablecoins, holds nearly 9% of SKY's supply",
-      "link": "https://www.coindesk.com/business/2026/03/23/pharmaceutical-firm-pivots-to-stablecoins-holds-nearly-9-of-sky-s-supply",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 23 Mar 2026 14:25:29 +0000",
-      "summary": "Pharmaceutical firm pivots to stablecoins, holds nearly 9% of SKY's supply\n"
-    },
-    {
-      "title": "Backpack launches BP token on Solana with 25% airdrop, no insider allocation",
-      "link": "https://www.coindesk.com/business/2026/03/23/backpack-launches-bp-token-on-solana-with-25-airdrop-no-insider-allocation",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 23 Mar 2026 13:52:21 +0000",
-      "summary": "Backpack launches BP token on Solana with 25% airdrop, no insider allocation\n"
-    },
-    {
-      "title": "CoinDesk 20 performance update: Bitcoin Cash (BCH) gains 2.3%, leading index higher",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/03/23/coindesk-20-performance-update-bitcoin-cash-bch-gains-2-3-leading-index-higher",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 23 Mar 2026 13:13:25 +0000",
-      "summary": "CoinDesk 20 performance update: Bitcoin Cash (BCH) gains 2.3%, leading index higher\n"
     }
   ]
 }
