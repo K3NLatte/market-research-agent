@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T01:44:50.316079+00:00",
+  "generated_at": "2026-03-26T06:59:34.894108+00:00",
   "count": 40,
   "articles": [
     {
@@ -83,17 +83,25 @@
       "summary": "Device Code Phishing Hits 340+ Microsoft 365 Orgs Across Five Countries via OAuth Abuse\nCybersecurity researchers are calling attention to an active device code phishing campaign that's targeting Microsoft 365 identities across more than 340 organizations in the U.S., Canada, Australia, New Zealand,"
     },
     {
-      "title": "False claims in a widely-cited paper. No corrections. No consequences",
-      "link": "https://statmodeling.stat.columbia.edu/2026/03/24/false-claims-in-a-published-no-corrections-no-consequences-welcome-to-the-business-school/?unapproved=2412259&moderation-hash=80fae7fdc82aee50eb3cb14cd8c0b080#comment-2412259",
-      "raw_summary": "<p>Article URL: <a href=\"https://statmodeling.stat.columbia.edu/2026/03/24/false-claims-in-a-published-no-corrections-no-consequences-welcome-to-the-business-school/?unapproved=2412259&amp;moderation-hash=80fae7fdc82aee50eb3cb14cd8c0b080#comment-2412259\">https://statmodeling.stat.columbia.edu/2026/03/24/false-claims-in-a-published-no-corrections-no-consequences-welcome-to-the-business-school/?unapproved=2412259&amp;moderation-hash=80fae7fdc82aee50eb3cb14cd8c0b080#comment-2412259</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47525378\">https://news.ycombinator.com/item?id=47525378</a></p>\n<p>Points: 5</p>\n<p># Comments: 1</p>",
+      "title": "Show HN: Robust LLM Extractor for Websites in TypeScript",
+      "link": "https://github.com/lightfeed/extractor",
+      "raw_summary": "<p>We've been building data pipelines that scrape websites and extract structured data for a while now. If you've done this, you know the drill: you write CSS selectors, the site changes its layout, everything breaks at 2am, and you spend your morning rewriting parsers.<p>LLMs seemed like the obvious fix — just throw the HTML at GPT and ask for JSON. Except in practice, it's more painful than that:<p>- Raw HTML is full of nav bars, footers, and tracking junk that eats your token budget. A typical product page is 80% noise.\n- LLMs return malformed JSON more often than you'd expect, especially with nested arrays and complex schemas. One bad bracket and your pipeline crashes.\n- Relative URLs, markdown-escaped links, tracking parameters — the \"small\" URL issues compound fast when you're processing thousands of pages.\n- You end up writing the same boilerplate: HTML cleanup → markdown conversion → LLM call → JSON parsing → error recovery → schema validation. Over and over.<p>We got tired of rebuilding this stack for every project, so we extracted it into a library.<p>Lightfeed Extractor is a TypeScript library that handles the full pipeline from raw HTML to validated, structured data:<p>- Converts HTML to LLM-ready markdown with main content extraction (strips nav, headers, footers), optional image inclusion, and URL cleaning\n- Works with any LangChain-compatible LLM (OpenAI, Gemini, Claude, Ollama, etc.)\n- Uses Zod schemas for type-safe extraction with real validation\n- Recovers partial data from malformed LLM output instead of failing entirely — if 19 out of 20 products parsed correctly, you get those 19\n- Built-in browser automation via Playwright (local, serverless, or remote) with anti-bot patches\n- Pairs with our browser agent (@lightfeed/browser-agent) for AI-driven page navigation before extraction<p>We use this ourselves in production at Lightfeed, and it's been solid enough that we decided to open-source it.<p>GitHub: <a href=\"https://github.com/lightfeed/extractor\" rel=\"nofollow\">https://github.com/lightfeed/extractor</a> npm: npm install @lightfeed/extractor Apache 2.0 licensed.<p>Happy to answer questions or hear feedback.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47526486\">https://news.ycombinator.com/item?id=47526486</a></p>\n<p>Points: 24</p>\n<p># Comments: 12</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Thu, 26 Mar 2026 03:55:52 +0000",
+      "summary": "Show HN: Robust LLM Extractor for Websites in TypeScript\n<p>We've been building data pipelines that scrape websites and extract structured data for a while now. If you've done this, you know the drill: you write CSS selectors, the site changes its layout, everything breaks at 2am, and you spend your"
+    },
+    {
+      "title": "False claims in a widely-cited paper",
+      "link": "https://statmodeling.stat.columbia.edu/2026/03/24/false-claims-in-a-published-no-corrections-no-consequences-welcome-to-the-business-school/",
+      "raw_summary": "<p>Article URL: <a href=\"https://statmodeling.stat.columbia.edu/2026/03/24/false-claims-in-a-published-no-corrections-no-consequences-welcome-to-the-business-school/\">https://statmodeling.stat.columbia.edu/2026/03/24/false-claims-in-a-published-no-corrections-no-consequences-welcome-to-the-business-school/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47525378\">https://news.ycombinator.com/item?id=47525378</a></p>\n<p>Points: 236</p>\n<p># Comments: 86</p>",
       "source": "Hacker News: Front Page",
       "published": "Thu, 26 Mar 2026 00:46:31 +0000",
-      "summary": "False claims in a widely-cited paper. No corrections. No consequences\n<p>Article URL: <a href=\"https://statmodeling.stat.columbia.edu/2026/03/24/false-claims-in-a-published-no-corrections-no-consequences-welcome-to-the-business-school/?unapproved=2412259&amp;moderation-hash=80fae7fdc82aee50eb3cb14cd"
+      "summary": "False claims in a widely-cited paper\n<p>Article URL: <a href=\"https://statmodeling.stat.columbia.edu/2026/03/24/false-claims-in-a-published-no-corrections-no-consequences-welcome-to-the-business-school/\">https://statmodeling.stat.columbia.edu/2026/03/24/false-claims-in-a-published-no-corrections-no-"
     },
     {
       "title": "Woman who never stopped updating her lost dog's chip reunites with him after 11y",
       "link": "https://www.cbc.ca/radio/asithappens/11-year-dog-reunion-9.7140780",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.cbc.ca/radio/asithappens/11-year-dog-reunion-9.7140780\">https://www.cbc.ca/radio/asithappens/11-year-dog-reunion-9.7140780</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47524719\">https://news.ycombinator.com/item?id=47524719</a></p>\n<p>Points: 58</p>\n<p># Comments: 14</p>",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.cbc.ca/radio/asithappens/11-year-dog-reunion-9.7140780\">https://www.cbc.ca/radio/asithappens/11-year-dog-reunion-9.7140780</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47524719\">https://news.ycombinator.com/item?id=47524719</a></p>\n<p>Points: 158</p>\n<p># Comments: 91</p>",
       "source": "Hacker News: Front Page",
       "published": "Wed, 25 Mar 2026 23:30:55 +0000",
       "summary": "Woman who never stopped updating her lost dog's chip reunites with him after 11y\n<p>Article URL: <a href=\"https://www.cbc.ca/radio/asithappens/11-year-dog-reunion-9.7140780\">https://www.cbc.ca/radio/asithappens/11-year-dog-reunion-9.7140780</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator."
@@ -101,26 +109,26 @@
     {
       "title": "Show HN: A plain-text cognitive architecture for Claude Code",
       "link": "https://lab.puga.com.br/cog/",
-      "raw_summary": "<p>Article URL: <a href=\"https://lab.puga.com.br/cog/\">https://lab.puga.com.br/cog/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47524704\">https://news.ycombinator.com/item?id=47524704</a></p>\n<p>Points: 18</p>\n<p># Comments: 10</p>",
+      "raw_summary": "<p>Article URL: <a href=\"https://lab.puga.com.br/cog/\">https://lab.puga.com.br/cog/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47524704\">https://news.ycombinator.com/item?id=47524704</a></p>\n<p>Points: 75</p>\n<p># Comments: 21</p>",
       "source": "Hacker News: Front Page",
       "published": "Wed, 25 Mar 2026 23:29:13 +0000",
-      "summary": "Show HN: A plain-text cognitive architecture for Claude Code\n<p>Article URL: <a href=\"https://lab.puga.com.br/cog/\">https://lab.puga.com.br/cog/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47524704\">https://news.ycombinator.com/item?id=47524704</a></p>\n<p>Points: 18</p>\n<p"
+      "summary": "Show HN: A plain-text cognitive architecture for Claude Code\n<p>Article URL: <a href=\"https://lab.puga.com.br/cog/\">https://lab.puga.com.br/cog/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47524704\">https://news.ycombinator.com/item?id=47524704</a></p>\n<p>Points: 75</p>\n<p"
     },
     {
-      "title": "Running Tesla Model 3's computer on my desk using parts from crashed cars",
-      "link": "https://bugs.xdavidhu.me/tesla/2026/03/23/running-tesla-model-3s-computer-on-my-desk-using-parts-from-crashed-cars/",
-      "raw_summary": "<p>Article URL: <a href=\"https://bugs.xdavidhu.me/tesla/2026/03/23/running-tesla-model-3s-computer-on-my-desk-using-parts-from-crashed-cars/\">https://bugs.xdavidhu.me/tesla/2026/03/23/running-tesla-model-3s-computer-on-my-desk-using-parts-from-crashed-cars/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47523330\">https://news.ycombinator.com/item?id=47523330</a></p>\n<p>Points: 322</p>\n<p># Comments: 109</p>",
+      "title": "\"Disregard That\" Attacks",
+      "link": "https://calpaterson.com/disregard.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://calpaterson.com/disregard.html\">https://calpaterson.com/disregard.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47524519\">https://news.ycombinator.com/item?id=47524519</a></p>\n<p>Points: 56</p>\n<p># Comments: 32</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 25 Mar 2026 21:11:57 +0000",
-      "summary": "Running Tesla Model 3's computer on my desk using parts from crashed cars\n<p>Article URL: <a href=\"https://bugs.xdavidhu.me/tesla/2026/03/23/running-tesla-model-3s-computer-on-my-desk-using-parts-from-crashed-cars/\">https://bugs.xdavidhu.me/tesla/2026/03/23/running-tesla-model-3s-computer-on-my-desk"
+      "published": "Wed, 25 Mar 2026 23:11:34 +0000",
+      "summary": "\"Disregard That\" Attacks\n<p>Article URL: <a href=\"https://calpaterson.com/disregard.html\">https://calpaterson.com/disregard.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47524519\">https://news.ycombinator.com/item?id=47524519</a></p>\n<p>Points: 56</p>\n<p># Comments: 32<"
     },
     {
-      "title": "Health NZ staff told to stop using ChatGPT to write clinical notes",
-      "link": "https://www.rnz.co.nz/news/national/590645/health-nz-staff-told-to-stop-using-chatgpt-to-write-clinical-notes",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.rnz.co.nz/news/national/590645/health-nz-staff-told-to-stop-using-chatgpt-to-write-clinical-notes\">https://www.rnz.co.nz/news/national/590645/health-nz-staff-told-to-stop-using-chatgpt-to-write-clinical-notes</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47523169\">https://news.ycombinator.com/item?id=47523169</a></p>\n<p>Points: 82</p>\n<p># Comments: 27</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Wed, 25 Mar 2026 20:58:43 +0000",
-      "summary": "Health NZ staff told to stop using ChatGPT to write clinical notes\n<p>Article URL: <a href=\"https://www.rnz.co.nz/news/national/590645/health-nz-staff-told-to-stop-using-chatgpt-to-write-clinical-notes\">https://www.rnz.co.nz/news/national/590645/health-nz-staff-told-to-stop-using-chatgpt-to-write-cl"
+      "title": "The least surprising chapter of the Manus story is what’s happening right now",
+      "link": "https://techcrunch.com/2026/03/25/the-least-surprising-chapter-of-the-manus-story-is-whats-happening-right-now/",
+      "raw_summary": "Did anyone think there would not be a reckoning over this tie-up?",
+      "source": "TechCrunch",
+      "published": "Thu, 26 Mar 2026 02:46:48 +0000",
+      "summary": "The least surprising chapter of the Manus story is what’s happening right now\nDid anyone think there would not be a reckoning over this tie-up?"
     },
     {
       "title": "Mercor competitor Deccan AI raises $25M, sources experts from India",
@@ -153,14 +161,6 @@
       "source": "TechCrunch",
       "published": "Wed, 25 Mar 2026 21:19:57 +0000",
       "summary": "Convicted spyware chief hints that Greece’s government was behind dozens of phone hacks\nThe spyware founder's comments are the most direct suggestion yet from anyone inside Intellexa that the Mitsotakis government authorized the hacking of dozens of phones belonging to senior Greek government minist"
-    },
-    {
-      "title": "Who’s driving Waymo’s self-driving cars? Sometimes, the police.",
-      "link": "https://techcrunch.com/2026/03/25/waymo-robotaxi-roadside-assistance-emergency-first-responders/",
-      "raw_summary": "First responders have had to take control of Waymo vehicles and move them during emergency situations, including in at least two active crime scenes, TechCrunch found.",
-      "source": "TechCrunch",
-      "published": "Wed, 25 Mar 2026 20:57:21 +0000",
-      "summary": "Who’s driving Waymo’s self-driving cars? Sometimes, the police.\nFirst responders have had to take control of Waymo vehicles and move them during emergency situations, including in at least two active crime scenes, TechCrunch found."
     },
     {
       "title": "BRINC's new police drone uses Starlink, carries Narcan, chases vehicles at 60mph",
@@ -203,84 +203,108 @@
       "summary": "Meta, YouTube must pay $3M to woman who got hooked on apps as a child\nMeta emerges as the biggest loser as second child safety trial verdict hits."
     },
     {
-      "title": "The rise of China’s hottest new commodity: AI tokens",
-      "link": "https://www.ft.com/content/2567877b-9acc-4cf3-a9e5-5f46c1abd13e",
-      "raw_summary": "Chinese AI models made by groups such as DeepSeek and MiniMax have overtaken US rivals in token consumption",
+      "title": "The peace trade",
+      "link": "https://www.ft.com/content/d7931f07-59b2-49e0-982d-5552240add2a",
+      "raw_summary": "What’s in store for the markets postwar",
       "source": "World",
-      "published": "Thu, 26 Mar 2026 01:15:07 GMT",
-      "summary": "The rise of China’s hottest new commodity: AI tokens\nChinese AI models made by groups such as DeepSeek and MiniMax have overtaken US rivals in token consumption"
+      "published": "Thu, 26 Mar 2026 06:30:10 GMT",
+      "summary": "The peace trade\nWhat’s in store for the markets postwar"
     },
     {
-      "title": "Oil volatile as Iran lays out own terms to end conflict",
+      "title": "EU parliament to back US trade deal with safeguards on Trump tariffs",
+      "link": "https://www.ft.com/content/7904bf1b-936e-4743-b72f-d092363d41b4",
+      "raw_summary": "Also in this newsletter: Giorgia Meloni’s reshuffle, and new deportation rules",
+      "source": "World",
+      "published": "Thu, 26 Mar 2026 06:00:10 GMT",
+      "summary": "EU parliament to back US trade deal with safeguards on Trump tariffs\nAlso in this newsletter: Giorgia Meloni’s reshuffle, and new deportation rules"
+    },
+    {
+      "title": "Israel strikes Iran while Gulf countries intercept drones",
       "link": "https://www.ft.com/content/1d92ecc5-f810-41f3-9dc1-465acbdd9a5b",
-      "raw_summary": "Tehran rejects reports of US talks, while White House says ‘elements of truth’ to Washington offering peace plan",
+      "raw_summary": "‘Glimmer of hope’ over US-Iran talks, China says, as Trump insists negotiations ongoing",
       "source": "World",
-      "published": "Wed, 25 Mar 2026 23:30:24 GMT",
-      "summary": "Oil volatile as Iran lays out own terms to end conflict\nTehran rejects reports of US talks, while White House says ‘elements of truth’ to Washington offering peace plan"
+      "published": "Thu, 26 Mar 2026 05:50:13 GMT",
+      "summary": "Israel strikes Iran while Gulf countries intercept drones\n‘Glimmer of hope’ over US-Iran talks, China says, as Trump insists negotiations ongoing"
     },
     {
-      "title": "FirstFT: Russia shipping drones to Iran, says western intelligence",
+      "title": "FirstFT: Russia sending drones to Iran, says western intelligence",
       "link": "https://www.ft.com/content/f74d68b8-7527-4c6d-907b-903f0b88d78f",
-      "raw_summary": "Also in today’s newsletter: Meta and Google held liable in social media addiction case and China restricts Manus co-founders from leaving country",
+      "raw_summary": "Also in today’s newsletter: Ferrari flies supercars to Gulf and SpaceX boosts IPO ambitions",
       "source": "World",
-      "published": "Wed, 25 Mar 2026 22:35:26 GMT",
-      "summary": "FirstFT: Russia shipping drones to Iran, says western intelligence\nAlso in today’s newsletter: Meta and Google held liable in social media addiction case and China restricts Manus co-founders from leaving country"
+      "published": "Thu, 26 Mar 2026 05:31:18 GMT",
+      "summary": "FirstFT: Russia sending drones to Iran, says western intelligence\nAlso in today’s newsletter: Ferrari flies supercars to Gulf and SpaceX boosts IPO ambitions"
     },
     {
-      "title": "SpaceX boosts IPO ambition with plans to raise $75bn",
-      "link": "https://www.ft.com/content/37a14f36-77f6-413e-a4d5-b05cefbddfb1",
-      "raw_summary": "Elon Musk’s rocket company told investors it hopes to go public with a $1.75tn valuation",
+      "title": "European Central Bank hopes to look through energy price shock",
+      "link": "https://www.ft.com/content/16f13378-7a2f-4026-9d59-39a3da438569",
+      "raw_summary": "Read the March forecast from the FT’s Monetary Policy Radar team",
       "source": "World",
-      "published": "Wed, 25 Mar 2026 22:17:57 GMT",
-      "summary": "SpaceX boosts IPO ambition with plans to raise $75bn\nElon Musk’s rocket company told investors it hopes to go public with a $1.75tn valuation"
+      "published": "Thu, 26 Mar 2026 05:30:09 GMT",
+      "summary": "European Central Bank hopes to look through energy price shock\nRead the March forecast from the FT’s Monetary Policy Radar team"
     },
     {
-      "title": "Meta and Google liable for harm to children’s mental health in landmark US case",
-      "link": "https://www.ft.com/content/d3d80bd4-d2b1-4522-9752-4071df5b4c0a",
-      "raw_summary": "Jury awards at least $3mn in damages with Instagram owner to pay the majority",
-      "source": "World",
-      "published": "Wed, 25 Mar 2026 22:05:57 GMT",
-      "summary": "Meta and Google liable for harm to children’s mental health in landmark US case\nJury awards at least $3mn in damages with Instagram owner to pay the majority"
-    },
-    {
-      "title": "Oil Gains as US, Iran Spar Over Talks and New Hormuz Curbs Loom",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-25/latest-oil-market-news-and-analysis-for-march-26",
-      "raw_summary": "Oil climbed as the US and Iran offered conflicting comments on efforts to end the war that’s shuttered the Strait of Hormuz, choked off swathes of crude production, and stoked concerns of a global energy crisis.",
-      "source": "Bloomberg Markets",
-      "published": "Wed, 25 Mar 2026 22:03:46 GMT",
-      "summary": "Oil Gains as US, Iran Spar Over Talks and New Hormuz Curbs Loom\nOil climbed as the US and Iran offered conflicting comments on efforts to end the war that’s shuttered the Strait of Hormuz, choked off swathes of crude production, and stoked concerns of a global energy crisis."
-    },
-    {
-      "title": "BlackRock’s Kapito Warns Investors Are Mispricing Iran Risks",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-26/blackrock-s-kapito-warns-investors-are-mispricing-iran-war-risks",
-      "raw_summary": "BlackRock Inc. President Rob Kapito said investors may be underestimating the risks stemming from the Iran war, which are likely to weigh on growth and drive inflation higher even if the conflict ends soon.",
-      "source": "Bloomberg Markets",
-      "published": "Thu, 26 Mar 2026 00:32:46 GMT",
-      "summary": "BlackRock’s Kapito Warns Investors Are Mispricing Iran Risks\nBlackRock Inc. President Rob Kapito said investors may be underestimating the risks stemming from the Iran war, which are likely to weigh on growth and drive inflation higher even if the conflict ends soon."
-    },
-    {
-      "title": "US Says Talks Ongoing as Iran Rejects Trump Outreach",
-      "link": "https://www.bloomberg.com/news/videos/2026-03-26/us-says-talks-ongoing-as-iran-rejects-trump-outreach-video",
-      "raw_summary": "The White House has insisted that peace talks with Iran are ongoing, even as Tehran publicly rejected US overtures and issued fresh conditions of its own. Laura Davison has the latest. (Source: Bloomberg)",
-      "source": "Bloomberg Markets",
-      "published": "Thu, 26 Mar 2026 01:02:56 GMT",
-      "summary": "US Says Talks Ongoing as Iran Rejects Trump Outreach\nThe White House has insisted that peace talks with Iran are ongoing, even as Tehran publicly rejected US overtures and issued fresh conditions of its own. Laura Davison has the latest. (Source: Bloomberg)"
-    },
-    {
-      "title": "Fed Chair Nominee Warsh May Need Five Years to Really Shrink the Central Bank’s Balance Sheet",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-26/fed-nominee-warsh-may-need-five-years-to-really-shrink-the-balance-sheet",
-      "raw_summary": "Federal Reserve Chair nominee Kevin Warsh wants to significantly shrink the US central bank’s $6.6 trillion balance sheet. He’ll probably need more than one term to do it, according to a top financial economist.",
-      "source": "Bloomberg Markets",
-      "published": "Thu, 26 Mar 2026 01:00:00 GMT",
-      "summary": "Fed Chair Nominee Warsh May Need Five Years to Really Shrink the Central Bank’s Balance Sheet\nFederal Reserve Chair nominee Kevin Warsh wants to significantly shrink the US central bank’s $6.6 trillion balance sheet. He’ll probably need more than one term to do it, according to a top financial econo"
-    },
-    {
-      "title": "Oil Edges Up, Stocks Drift With Iran in Focus: Markets Wrap",
+      "title": "Stocks Fall, Oil Gains With Focus on US-Iran Talks: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-03-25/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "Crude oil edged higher and equities consolidated on Thursday as conflicting headlines kept investors cautious on the outlook for the US-Iran ceasefire talks.",
+      "raw_summary": "Stocks and bonds both edged lower and oil climbed as persistent Middle-East tensions and conflicting signals from the US and Iran about their ceasefire talks sapped risk sentiment.",
       "source": "Bloomberg Markets",
       "published": "Wed, 25 Mar 2026 22:08:17 GMT",
-      "summary": "Oil Edges Up, Stocks Drift With Iran in Focus: Markets Wrap\nCrude oil edged higher and equities consolidated on Thursday as conflicting headlines kept investors cautious on the outlook for the US-Iran ceasefire talks."
+      "summary": "Stocks Fall, Oil Gains With Focus on US-Iran Talks: Markets Wrap\nStocks and bonds both edged lower and oil climbed as persistent Middle-East tensions and conflicting signals from the US and Iran about their ceasefire talks sapped risk sentiment."
+    },
+    {
+      "title": "FTSE 100 Futures, Pound Fall on US-Iran Talks Uncertainty",
+      "link": "https://www.bloomberg.com/news/live-blog/2026-03-26/ftse-100-live-gilts-pound-what-s-moving-uk-markets-right-now-markets-today-mn73z23a",
+      "raw_summary": "",
+      "source": "Bloomberg Markets",
+      "published": "Thu, 26 Mar 2026 06:45:40 GMT",
+      "summary": "FTSE 100 Futures, Pound Fall on US-Iran Talks Uncertainty\n"
+    },
+    {
+      "title": "Gold Declines as US and Iran Offer Divergent Routes to End War",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-25/gold-steadies-as-investors-weigh-outlook-for-us-iran-peace-talks",
+      "raw_summary": "Gold retreated after a modest two-day recovery, as conflicting statements from the US and Iran raised doubts about prospects for a resolution to the war in the Middle East.",
+      "source": "Bloomberg Markets",
+      "published": "Wed, 25 Mar 2026 22:28:25 GMT",
+      "summary": "Gold Declines as US and Iran Offer Divergent Routes to End War\nGold retreated after a modest two-day recovery, as conflicting statements from the US and Iran raised doubts about prospects for a resolution to the war in the Middle East."
+    },
+    {
+      "title": "Clash Over US-Iran Peace Talks Leaves War’s End Unclear",
+      "link": "https://www.bloomberg.com/news/live-blog/2026-03-26/live-iran-war-trump-latest-news-updates-analysis-oil-markets",
+      "raw_summary": "Smoke rises from Kuwait international airport after a drone strike on fuel storage in Kuwait City on March 25. AP Photo",
+      "source": "Bloomberg Markets",
+      "published": "Thu, 26 Mar 2026 06:37:19 GMT",
+      "summary": "Clash Over US-Iran Peace Talks Leaves War’s End Unclear\nSmoke rises from Kuwait international airport after a drone strike on fuel storage in Kuwait City on March 25. AP Photo"
+    },
+    {
+      "title": "Google Breakthrough Spurs Chip Selloff Despite Analyst Doubt",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-26/memory-stock-boom-seen-resilient-to-threat-from-new-google-tech",
+      "raw_summary": "Shares of computer memory and storage makers slumped on concerns over demand after Google researchers touted a new compression technique. But it may be a hiccup rather than an existential threat.",
+      "source": "Bloomberg Markets",
+      "published": "Thu, 26 Mar 2026 02:29:26 GMT",
+      "summary": "Google Breakthrough Spurs Chip Selloff Despite Analyst Doubt\nShares of computer memory and storage makers slumped on concerns over demand after Google researchers touted a new compression technique. But it may be a hiccup rather than an existential threat."
+    },
+    {
+      "title": "Some bitcoin indicators are still going the wrong way, challenging the bullish $70,000 holdout story",
+      "link": "https://www.coindesk.com/markets/2026/03/26/some-bitcoin-indicators-are-still-going-the-wrong-way-challenging-the-bullish-usd70-000-holdout-story",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Thu, 26 Mar 2026 06:12:12 +0000",
+      "summary": "Some bitcoin indicators are still going the wrong way, challenging the bullish $70,000 holdout story\n"
+    },
+    {
+      "title": "Bhutan moves another 500 bitcoin to exchanges as 2026 outflows top $150 million",
+      "link": "https://www.coindesk.com/markets/2026/03/26/bhutan-moves-another-500-bitcoin-to-exchanges-as-2026-outflows-top-usd150-million",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Thu, 26 Mar 2026 05:08:39 +0000",
+      "summary": "Bhutan moves another 500 bitcoin to exchanges as 2026 outflows top $150 million\n"
+    },
+    {
+      "title": "XRP volatility hits cycle lows as $1.40 support comes into focus",
+      "link": "https://www.coindesk.com/markets/2026/03/26/xrp-volatility-hits-cycle-lows-as-usd1-40-support-comes-into-focus",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Thu, 26 Mar 2026 04:45:27 +0000",
+      "summary": "XRP volatility hits cycle lows as $1.40 support comes into focus\n"
     },
     {
       "title": "Market structure bill compromise draws wide-ranging reaction from fractured crypto crowd",
@@ -297,30 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Wed, 25 Mar 2026 20:54:45 +0000",
       "summary": "Elon Musk's X hires crypto-savvy design lead as X Money payments push inches closer\n"
-    },
-    {
-      "title": "BitGo teams with ZKsync to build tokenized deposit infrastructure to bring banks onchain",
-      "link": "https://www.coindesk.com/business/2026/03/25/bitgo-teams-with-zksync-to-build-tokenized-deposit-infrastructure-to-bring-banks-onchain",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 25 Mar 2026 20:00:00 +0000",
-      "summary": "BitGo teams with ZKsync to build tokenized deposit infrastructure to bring banks onchain\n"
-    },
-    {
-      "title": "Crypto Long & Short: Prediction Markets Don’t Just Forecast Power - They Reshape It",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/03/25/crypto-long-and-short-prediction-markets-don-t-just-forecast-power-they-reshape-it",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 25 Mar 2026 18:36:03 +0000",
-      "summary": "Crypto Long & Short: Prediction Markets Don’t Just Forecast Power - They Reshape It\n"
-    },
-    {
-      "title": "AI agents to help investigators unearth crypto criminals, according to new TRM program",
-      "link": "https://www.coindesk.com/policy/2026/03/25/ai-agents-to-help-investigators-unearth-crypto-criminals-according-to-new-trm-program",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 25 Mar 2026 18:24:17 +0000",
-      "summary": "AI agents to help investigators unearth crypto criminals, according to new TRM program\n"
     }
   ]
 }
