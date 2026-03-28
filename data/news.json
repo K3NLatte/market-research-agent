@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-28T06:49:50.498607+00:00",
+  "generated_at": "2026-03-28T12:36:59.490607+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "How AI Assistants are Moving the Security Goalposts\nAI-based assistants or \"agents\" -- autonomous programs that have access to the user's computer, files, online services and can automate virtually any task -- are growing in popularity with developers and IT workers. But as so many eyebrow-raising h"
     },
     {
+      "title": "Citrix NetScaler Under Active Recon for CVE-2026-3055 (CVSS 9.3) Memory Overread Bug",
+      "link": "https://thehackernews.com/2026/03/citrix-netscaler-under-active-recon-for.html",
+      "raw_summary": "A recently disclosed critical security flaw impacting Citrix NetScaler ADC and NetScaler Gateway is witnessing active reconnaissance activity, according to Defused Cyber and watchTowr.\nThe vulnerability, CVE-2026-3055 (CVSS score: 9.3), refers to a case of insufficient input validation leading to memory overread, which an attacker could exploit to leak potentially sensitive information.\nPer",
+      "source": "The Hacker News",
+      "published": "Sat, 28 Mar 2026 14:41:00 +0530",
+      "summary": "Citrix NetScaler Under Active Recon for CVE-2026-3055 (CVSS 9.3) Memory Overread Bug\nA recently disclosed critical security flaw impacting Citrix NetScaler ADC and NetScaler Gateway is witnessing active reconnaissance activity, according to Defused Cyber and watchTowr.\nThe vulnerability, CVE-2026-30"
+    },
+    {
+      "title": "CISA Adds CVE-2025-53521 to KEV After Active F5 BIG-IP APM Exploitation",
+      "link": "https://thehackernews.com/2026/03/cisa-adds-cve-2025-53521-to-kev-after.html",
+      "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical security flaw impacting F5 BIG-IP Access Policy Manager (APM) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\nThe vulnerability in question is CVE-2025-53521 (CVSS v4 score: 9.3), which could allow a threat actor to achieve remote code execution.\n\"When a",
+      "source": "The Hacker News",
+      "published": "Sat, 28 Mar 2026 12:37:00 +0530",
+      "summary": "CISA Adds CVE-2025-53521 to KEV After Active F5 BIG-IP APM Exploitation\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical security flaw impacting F5 BIG-IP Access Policy Manager (APM) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of a"
+    },
+    {
+      "title": "TA446 Deploys DarkSword iOS Exploit Kit in Targeted Spear-Phishing Campaign",
+      "link": "https://thehackernews.com/2026/03/ta446-deploys-leaked-darksword-ios.html",
+      "raw_summary": "Proofpoint has disclosed details of a targeted email campaign in which threat actors with ties to Russia are leveraging the recently disclosed DarkSword exploit kit to target iOS devices.\nThe activity has been attributed with high confidence to the Russian state-sponsored threat group known as TA446, which is also tracked by the broader cybersecurity community under the monikers Callisto,",
+      "source": "The Hacker News",
+      "published": "Sat, 28 Mar 2026 12:37:00 +0530",
+      "summary": "TA446 Deploys DarkSword iOS Exploit Kit in Targeted Spear-Phishing Campaign\nProofpoint has disclosed details of a targeted email campaign in which threat actors with ties to Russia are leveraging the recently disclosed DarkSword exploit kit to target iOS devices.\nThe activity has been attributed wit"
+    },
+    {
       "title": "Apple Sends Lock Screen Alerts to Outdated iPhones Over Active Web-Based Exploits",
       "link": "https://thehackernews.com/2026/03/apple-sends-lock-screen-alerts-to.html",
       "raw_summary": "Apple is now sending Lock Screen notifications to iPhones and iPads running older versions of iOS and iPadOS to alert users of web-based attacks and urge them to install the update.\nThe development was first reported by MacRumors.\n\"Apple is aware of attacks targeting out-of-date iOS software, including the version on your iPhone. Install this critical update to protect your iPhone,\" the",
@@ -59,68 +83,52 @@
       "summary": "TeamPCP Pushes Malicious Telnyx Versions to PyPI, Hides Stealer in WAV Files\nTeamPCP, the threat actor behind the supply chain attack targeting Trivy, KICS, and litellm, has now compromised the telnyx Python package by pushing two malicious versions to steal sensitive data.\nThe two versions, 4.87.1 "
     },
     {
-      "title": "Open VSX Bug Let Malicious VS Code Extensions Bypass Pre-Publish Security Checks",
-      "link": "https://thehackernews.com/2026/03/open-vsx-bug-let-malicious-vs-code.html",
-      "raw_summary": "Cybersecurity researchers have disclosed details of a now-patched bug impacting Open VSX's pre-publish scanning pipeline to cause the tool to allow a malicious Microsoft Visual Studio Code (VS Code) extension to pass the vetting process and go live in the registry.\n\"The pipeline had a single boolean return value that meant both 'no scanners are configured' and 'all scanners failed to run,'\" Koi",
-      "source": "The Hacker News",
-      "published": "Fri, 27 Mar 2026 19:27:00 +0530",
-      "summary": "Open VSX Bug Let Malicious VS Code Extensions Bypass Pre-Publish Security Checks\nCybersecurity researchers have disclosed details of a now-patched bug impacting Open VSX's pre-publish scanning pipeline to cause the tool to allow a malicious Microsoft Visual Studio Code (VS Code) extension to pass th"
-    },
-    {
-      "title": "AitM Phishing Targets TikTok Business Accounts Using Cloudflare Turnstile Evasion",
-      "link": "https://thehackernews.com/2026/03/aitm-phishing-targets-tiktok-business.html",
-      "raw_summary": "Threat actors are using adversary-in-the-middle (AitM) phishing pages to seize control of TikTok for Business accounts in a new campaign, according to a report from Push Security.\nBusiness accounts associated with social media platforms are a lucrative target, as they can be weaponized by bad actors for malvertising and distributing malware.\n\"TikTok has been historically abused to distribute",
-      "source": "The Hacker News",
-      "published": "Fri, 27 Mar 2026 17:33:00 +0530",
-      "summary": "AitM Phishing Targets TikTok Business Accounts Using Cloudflare Turnstile Evasion\nThreat actors are using adversary-in-the-middle (AitM) phishing pages to seize control of TikTok for Business accounts in a new campaign, according to a report from Push Security.\nBusiness accounts associated with soci"
-    },
-    {
-      "title": "We Are At War",
-      "link": "https://thehackernews.com/2026/03/we-are-at-war.html",
-      "raw_summary": "Rising geopolitical tensions are reflected (or in some cases preceded) by cyber operations, while technology itself has become politicized. Let’s admit it: we are in the middle of it.&nbsp;\nIntroduction: One tech power to rule them all is a thing of the past&nbsp;\nThe relative safety, peace and prosperity that much of the world has enjoyed since 1945 was not accidental. It emerged from the ashes",
-      "source": "The Hacker News",
-      "published": "Fri, 27 Mar 2026 16:30:00 +0530",
-      "summary": "We Are At War\nRising geopolitical tensions are reflected (or in some cases preceded) by cyber operations, while technology itself has become politicized. Let’s admit it: we are in the middle of it.&nbsp;\nIntroduction: One tech power to rule them all is a thing of the past&nbsp;\nThe relative safety, "
-    },
-    {
-      "title": "AMD's Ryzen 9 9950X3D2 Dual Edition crams 208MB of cache into a single chip",
-      "link": "https://arstechnica.com/gadgets/2026/03/amds-ryzen-9-9950x3d2-dual-edition-crams-208mb-of-cache-into-a-single-chip/",
-      "raw_summary": "<p>Article URL: <a href=\"https://arstechnica.com/gadgets/2026/03/amds-ryzen-9-9950x3d2-dual-edition-crams-208mb-of-cache-into-a-single-chip/\">https://arstechnica.com/gadgets/2026/03/amds-ryzen-9-9950x3d2-dual-edition-crams-208mb-of-cache-into-a-single-chip/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47550878\">https://news.ycombinator.com/item?id=47550878</a></p>\n<p>Points: 108</p>\n<p># Comments: 53</p>",
+      "title": "I put all 8,642 Spanish laws in Git – every reform is a commit",
+      "link": "https://github.com/EnriqueLop/legalize-es",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/EnriqueLop/legalize-es\">https://github.com/EnriqueLop/legalize-es</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47553798\">https://news.ycombinator.com/item?id=47553798</a></p>\n<p>Points: 45</p>\n<p># Comments: 9</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 28 Mar 2026 02:17:04 +0000",
-      "summary": "AMD's Ryzen 9 9950X3D2 Dual Edition crams 208MB of cache into a single chip\n<p>Article URL: <a href=\"https://arstechnica.com/gadgets/2026/03/amds-ryzen-9-9950x3d2-dual-edition-crams-208mb-of-cache-into-a-single-chip/\">https://arstechnica.com/gadgets/2026/03/amds-ryzen-9-9950x3d2-dual-edition-crams-2"
+      "published": "Sat, 28 Mar 2026 12:01:27 +0000",
+      "summary": "I put all 8,642 Spanish laws in Git – every reform is a commit\n<p>Article URL: <a href=\"https://github.com/EnriqueLop/legalize-es\">https://github.com/EnriqueLop/legalize-es</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47553798\">https://news.ycombinator.com/item?id=47553798<"
     },
     {
-      "title": "Go hard on agents, not on your filesystem",
-      "link": "https://jai.scs.stanford.edu/",
-      "raw_summary": "<p>Article URL: <a href=\"https://jai.scs.stanford.edu/\">https://jai.scs.stanford.edu/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47550282\">https://news.ycombinator.com/item?id=47550282</a></p>\n<p>Points: 228</p>\n<p># Comments: 127</p>",
+      "title": "Toma (YC W24) is hiring a Senior/Staff Eng to build AI automotive coworkers",
+      "link": "https://www.ycombinator.com/companies/toma/jobs/2lrQI7S-sr-staff-software-engineer",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/toma/jobs/2lrQI7S-sr-staff-software-engineer\">https://www.ycombinator.com/companies/toma/jobs/2lrQI7S-sr-staff-software-engineer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47553796\">https://news.ycombinator.com/item?id=47553796</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 28 Mar 2026 00:39:54 +0000",
-      "summary": "Go hard on agents, not on your filesystem\n<p>Article URL: <a href=\"https://jai.scs.stanford.edu/\">https://jai.scs.stanford.edu/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47550282\">https://news.ycombinator.com/item?id=47550282</a></p>\n<p>Points: 228</p>\n<p># Comments: 127"
+      "published": "Sat, 28 Mar 2026 12:01:07 +0000",
+      "summary": "Toma (YC W24) is hiring a Senior/Staff Eng to build AI automotive coworkers\n<p>Article URL: <a href=\"https://www.ycombinator.com/companies/toma/jobs/2lrQI7S-sr-staff-software-engineer\">https://www.ycombinator.com/companies/toma/jobs/2lrQI7S-sr-staff-software-engineer</a></p>\n<p>Comments URL: <a href"
     },
     {
-      "title": "Show HN: Twitch Roulette – Find live streamers who need views the most",
-      "link": "https://twitchroulette.net/",
-      "raw_summary": "<p>Hey HN, I re-launched an old site I remembered back in the day that someone made called twitchroulette.net with a lot of new features and stats and I would love for people to check it out. The idea is you can easily browse the less browsed parts of twitch and find cool and new streamers to say hi to, and maybe make some new friends.<p>I also added some real time stats and breakdowns per channel and I think some of the things they show are pretty interesting. Check it out!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47549160\">https://news.ycombinator.com/item?id=47549160</a></p>\n<p>Points: 94</p>\n<p># Comments: 45</p>",
+      "title": "I Built an Open-World Engine for the N64 [video]",
+      "link": "https://www.youtube.com/watch?v=lXxmIw9axWw",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.youtube.com/watch?v=lXxmIw9axWw\">https://www.youtube.com/watch?v=lXxmIw9axWw</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47553717\">https://news.ycombinator.com/item?id=47553717</a></p>\n<p>Points: 14</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 27 Mar 2026 22:22:20 +0000",
-      "summary": "Show HN: Twitch Roulette – Find live streamers who need views the most\n<p>Hey HN, I re-launched an old site I remembered back in the day that someone made called twitchroulette.net with a lot of new features and stats and I would love for people to check it out. The idea is you can easily browse the"
+      "published": "Sat, 28 Mar 2026 11:49:28 +0000",
+      "summary": "I Built an Open-World Engine for the N64 [video]\n<p>Article URL: <a href=\"https://www.youtube.com/watch?v=lXxmIw9axWw\">https://www.youtube.com/watch?v=lXxmIw9axWw</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47553717\">https://news.ycombinator.com/item?id=47553717</a></p>\n<p"
     },
     {
-      "title": "Velxio 2.0 – Emulate Arduino, ESP32, and Raspberry Pi 3 in the Browser",
-      "link": "https://github.com/davidmonterocrespo24/velxio",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/davidmonterocrespo24/velxio\">https://github.com/davidmonterocrespo24/velxio</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47548013\">https://news.ycombinator.com/item?id=47548013</a></p>\n<p>Points: 124</p>\n<p># Comments: 41</p>",
+      "title": "No one is happy with NASA's new idea for private space stations",
+      "link": "https://arstechnica.com/space/2026/03/what-happens-next-with-nasas-plan-to-replace-the-iss-source-it-could-get-ugly/",
+      "raw_summary": "<p>Article URL: <a href=\"https://arstechnica.com/space/2026/03/what-happens-next-with-nasas-plan-to-replace-the-iss-source-it-could-get-ugly/\">https://arstechnica.com/space/2026/03/what-happens-next-with-nasas-plan-to-replace-the-iss-source-it-could-get-ugly/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47553516\">https://news.ycombinator.com/item?id=47553516</a></p>\n<p>Points: 16</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 27 Mar 2026 20:44:33 +0000",
-      "summary": "Velxio 2.0 – Emulate Arduino, ESP32, and Raspberry Pi 3 in the Browser\n<p>Article URL: <a href=\"https://github.com/davidmonterocrespo24/velxio\">https://github.com/davidmonterocrespo24/velxio</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47548013\">https://news.ycombinator.com"
+      "published": "Sat, 28 Mar 2026 11:13:23 +0000",
+      "summary": "No one is happy with NASA's new idea for private space stations\n<p>Article URL: <a href=\"https://arstechnica.com/space/2026/03/what-happens-next-with-nasas-plan-to-replace-the-iss-source-it-could-get-ugly/\">https://arstechnica.com/space/2026/03/what-happens-next-with-nasas-plan-to-replace-the-iss-so"
     },
     {
-      "title": "Colorado House passes bill to limit surveillance pricing and wage setting",
-      "link": "https://coloradonewsline.com/briefs/surveillance-pricing-wage-setting/",
-      "raw_summary": "<p>Article URL: <a href=\"https://coloradonewsline.com/briefs/surveillance-pricing-wage-setting/\">https://coloradonewsline.com/briefs/surveillance-pricing-wage-setting/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47547602\">https://news.ycombinator.com/item?id=47547602</a></p>\n<p>Points: 98</p>\n<p># Comments: 22</p>",
+      "title": "Britain today generating 90%+ of electricity from renewables",
+      "link": "https://grid.iamkate.com/",
+      "raw_summary": "<p>Article URL: <a href=\"https://grid.iamkate.com/\">https://grid.iamkate.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47553484\">https://news.ycombinator.com/item?id=47553484</a></p>\n<p>Points: 12</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 27 Mar 2026 20:10:42 +0000",
-      "summary": "Colorado House passes bill to limit surveillance pricing and wage setting\n<p>Article URL: <a href=\"https://coloradonewsline.com/briefs/surveillance-pricing-wage-setting/\">https://coloradonewsline.com/briefs/surveillance-pricing-wage-setting/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator"
+      "published": "Sat, 28 Mar 2026 11:06:44 +0000",
+      "summary": "Britain today generating 90%+ of electricity from renewables\n<p>Article URL: <a href=\"https://grid.iamkate.com/\">https://grid.iamkate.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47553484\">https://news.ycombinator.com/item?id=47553484</a></p>\n<p>Points: 12</p>\n<p># Com"
+    },
+    {
+      "title": "From Moon hotels to cattle herding: 8 startups investors chased at YC Demo Day",
+      "link": "https://techcrunch.com/2026/03/28/from-moon-hotels-to-cattle-herding-8-startups-investors-chased-at-yc-demo-day/",
+      "raw_summary": "We polled nearly a dozen VCs to find out which W26 startups are the sought after in the batch.",
+      "source": "TechCrunch",
+      "published": "Sat, 28 Mar 2026 12:00:00 +0000",
+      "summary": "From Moon hotels to cattle herding: 8 startups investors chased at YC Demo Day\nWe polled nearly a dozen VCs to find out which W26 startups are the sought after in the batch."
     },
     {
       "title": "Whoop has LeBron – now it wants your mom",
@@ -155,12 +163,20 @@
       "summary": "Memory chip giant SK hynix could help end ‘RAMmageddon’ with blockbuster US IPO\nSK hynix’s potential U.S. listing could raise $10-$14 billion to help it build more capacity, encourage others to follow, and end the 'RAMmageddon' memory shortage."
     },
     {
-      "title": "Waymo’s skyrocketing ridership in one chart",
-      "link": "https://techcrunch.com/2026/03/27/waymo-skyrocketing-ridership-in-one-chart/",
-      "raw_summary": "Waymo's weekly paid robotaxi trips have increased tenfold in less than two years.",
-      "source": "TechCrunch",
-      "published": "Fri, 27 Mar 2026 19:11:10 +0000",
-      "summary": "Waymo’s skyrocketing ridership in one chart\nWaymo's weekly paid robotaxi trips have increased tenfold in less than two years."
+      "title": "Getting formal about quantum mechanics' lack of causality",
+      "link": "https://arstechnica.com/science/2026/03/getting-formal-about-quantum-mechanics-lack-of-causality/",
+      "raw_summary": "A quantum experiment shows that we can formally test if the order of events matters.",
+      "source": "Ars Technica - All content",
+      "published": "Sat, 28 Mar 2026 12:00:31 +0000",
+      "summary": "Getting formal about quantum mechanics' lack of causality\nA quantum experiment shows that we can formally test if the order of events matters."
+    },
+    {
+      "title": "How new fishing tech can reduce bycatch of turtles and other creatures",
+      "link": "https://arstechnica.com/science/2026/03/how-new-fishing-tech-can-reduce-bycatch-of-turtles-and-other-creatures/",
+      "raw_summary": "Specially equipped nets can help save some species, while allowing fisherman to still catch others.",
+      "source": "Ars Technica - All content",
+      "published": "Sat, 28 Mar 2026 11:15:35 +0000",
+      "summary": "How new fishing tech can reduce bycatch of turtles and other creatures\nSpecially equipped nets can help save some species, while allowing fisherman to still catch others."
     },
     {
       "title": "Playing Wolfenstein 3D with one hand in 2026",
@@ -187,100 +203,92 @@
       "summary": "Outbreak linked to raw cheese grows; 9 cases total, one with kidney failure\nRaw Farm denies link to illnesses while patients keep identifying its products."
     },
     {
-      "title": "Judge irate as defendant joins by Zoom while driving—then lies about it",
-      "link": "https://arstechnica.com/tech-policy/2026/03/judge-irate-as-defendant-joins-by-zoom-while-driving-then-lies-about-it/",
-      "raw_summary": "\"Let me see the driver!\"",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 27 Mar 2026 21:10:25 +0000",
-      "summary": "Judge irate as defendant joins by Zoom while driving—then lies about it\n\"Let me see the driver!\""
+      "title": "How long can Iran keep firing missiles?",
+      "link": "https://www.ft.com/content/6a394410-c590-4b38-9fe4-87efed9f20a0",
+      "raw_summary": "Five analysts assess Tehran’s capacity to sustain barrages against Israel and Gulf states",
+      "source": "World",
+      "published": "Sat, 28 Mar 2026 11:00:01 GMT",
+      "summary": "How long can Iran keep firing missiles?\nFive analysts assess Tehran’s capacity to sustain barrages against Israel and Gulf states"
     },
     {
-      "title": "AV1’s open, royalty-free promise in question as Dolby sues Snapchat over codec",
-      "link": "https://arstechnica.com/gadgets/2026/03/av1s-open-royalty-free-promise-in-question-as-dolby-sues-snapchat-over-codec/",
-      "raw_summary": "Big Tech declaring AV1 royalty-free “doesn't mean that it is.\"",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 27 Mar 2026 20:31:21 +0000",
-      "summary": "AV1’s open, royalty-free promise in question as Dolby sues Snapchat over codec\nBig Tech declaring AV1 royalty-free “doesn't mean that it is.\""
+      "title": "Houthi missile attack signals ‘serious’ escalation in Iran war",
+      "link": "https://www.ft.com/content/e77d9ac6-d9dd-415e-a4a7-f54d3060239a",
+      "raw_summary": "Rebels’ participation puts vital maritime routes at greater risk",
+      "source": "World",
+      "published": "Sat, 28 Mar 2026 10:47:20 GMT",
+      "summary": "Houthi missile attack signals ‘serious’ escalation in Iran war\nRebels’ participation puts vital maritime routes at greater risk"
     },
     {
-      "title": "Iranian strike wounds US troops at air base in Saudi Arabia",
+      "title": "Chart of the Week: The oil shock hurts poorer economies hardest",
+      "link": "https://www.ft.com/content/c8c4969c-1407-49d3-b3fb-0eb9bf452908",
+      "raw_summary": "Developing economies are more dependent on energy",
+      "source": "World",
+      "published": "Sat, 28 Mar 2026 09:30:01 GMT",
+      "summary": "Chart of the Week: The oil shock hurts poorer economies hardest\nDeveloping economies are more dependent on energy"
+    },
+    {
+      "title": "Why the World Cup is heading to YouTube",
+      "link": "https://www.ft.com/content/61181ef6-fcc9-4097-91a9-557e7bd70599",
+      "raw_summary": "Also in today’s newsletter: NBA expansion, an Indian Premier League sale and more",
+      "source": "World",
+      "published": "Sat, 28 Mar 2026 09:00:01 GMT",
+      "summary": "Why the World Cup is heading to YouTube\nAlso in today’s newsletter: NBA expansion, an Indian Premier League sale and more"
+    },
+    {
+      "title": "Iranian strike wounds US troops at Saudi air base",
       "link": "https://www.ft.com/content/99a5df0f-1c77-46db-abf1-543a4fe05862",
-      "raw_summary": "Israel says missile fired from Yemen after Houthis warn other countries ‘fingers are on the trigger’",
+      "raw_summary": "Yemen’s Houthi rebels carry out their first attack on Israel since the war began",
       "source": "World",
       "published": "Sat, 28 Mar 2026 06:02:24 GMT",
-      "summary": "Iranian strike wounds US troops at air base in Saudi Arabia\nIsrael says missile fired from Yemen after Houthis warn other countries ‘fingers are on the trigger’"
+      "summary": "Iranian strike wounds US troops at Saudi air base\nYemen’s Houthi rebels carry out their first attack on Israel since the war began"
     },
     {
-      "title": "How Pakistan put itself in the middle of US-Iran peace talks",
-      "link": "https://www.ft.com/content/5f946eff-3e9c-4feb-ab6b-60e15cc3e183",
-      "raw_summary": "Islamabad seeks to capitalise on warming ties with both Trump and Tehran but has much to lose if efforts fail",
-      "source": "World",
-      "published": "Sat, 28 Mar 2026 05:05:12 GMT",
-      "summary": "How Pakistan put itself in the middle of US-Iran peace talks\nIslamabad seeks to capitalise on warming ties with both Trump and Tehran but has much to lose if efforts fail"
-    },
-    {
-      "title": "Egypt imposes emergency measures to save fuel",
-      "link": "https://www.ft.com/content/b72476fc-762d-44b2-9d94-ec1887373ca6",
-      "raw_summary": "Prime minister says country’s natural gas imports bill has tripled since start of Iran war",
-      "source": "World",
-      "published": "Sat, 28 Mar 2026 05:00:40 GMT",
-      "summary": "Egypt imposes emergency measures to save fuel\nPrime minister says country’s natural gas imports bill has tripled since start of Iran war"
-    },
-    {
-      "title": "UK stocks are handling 2026 much better than the UK economy",
-      "link": "https://www.ft.com/content/3c34d50c-6f4f-4bb3-b96b-728b3cb1881b",
-      "raw_summary": "The UK relies on energy imports, which are surging in price, but many FTSE 100 companies have benefited from the volatility",
-      "source": "World",
-      "published": "Sat, 28 Mar 2026 05:00:40 GMT",
-      "summary": "UK stocks are handling 2026 much better than the UK economy\nThe UK relies on energy imports, which are surging in price, but many FTSE 100 companies have benefited from the volatility"
-    },
-    {
-      "title": "Reform UK’s billionaire donor backs disputed Chagos settlement",
-      "link": "https://www.ft.com/content/52b60bcc-c787-413c-a1d8-b6164919affd",
-      "raw_summary": "Christopher Harborne is among financiers prepared to support a proposed permanent community on the Île du Coin island",
-      "source": "World",
-      "published": "Sat, 28 Mar 2026 05:00:40 GMT",
-      "summary": "Reform UK’s billionaire donor backs disputed Chagos settlement\nChristopher Harborne is among financiers prepared to support a proposed permanent community on the Île du Coin island"
-    },
-    {
-      "title": "Australia Resumes Operations at Cyclone-Hit Commodity Port",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-28/australia-resumes-some-operations-at-cyclone-hit-key-port",
-      "raw_summary": "A major export port handling iron ore, liquefied natural gas and other bulk commodities on Australia’s west coast has reopened after cyclone damage had forced a shutdown.",
+      "title": "The Iran War Is Testing US Alliances and Alarming Farmers",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-03-28/the-iran-war-is-testing-us-alliances-and-alarming-farmers",
+      "raw_summary": "The effects of the conflict are widespread.",
       "source": "Bloomberg Markets",
-      "published": "Sat, 28 Mar 2026 02:24:04 GMT",
-      "summary": "Australia Resumes Operations at Cyclone-Hit Commodity Port\nA major export port handling iron ore, liquefied natural gas and other bulk commodities on Australia’s west coast has reopened after cyclone damage had forced a shutdown."
+      "published": "Sat, 28 Mar 2026 12:00:01 GMT",
+      "summary": "The Iran War Is Testing US Alliances and Alarming Farmers\nThe effects of the conflict are widespread."
     },
     {
-      "title": "China Urges Private Grain Firms to Tap Whole‑Grain Policy Push",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-28/china-urges-private-grain-firms-to-tap-whole-grain-policy-push",
-      "raw_summary": "China is directing private grain processors to expand and upgrade whole‑grain production, part of a broader drive to strengthen food security and modernize its agricultural supply chain.",
+      "title": "India Plans 100 Airports, 200 Helipads to Boost Connectivity",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-28/india-plans-100-airports-200-helipads-to-boost-connectivity",
+      "raw_summary": "India plans to build 100 new airports and 200 helipads in smaller towns and cities in coming years as the government seeks to boost regional connectivity, trade and tourism.",
       "source": "Bloomberg Markets",
-      "published": "Sat, 28 Mar 2026 04:07:04 GMT",
-      "summary": "China Urges Private Grain Firms to Tap Whole‑Grain Policy Push\nChina is directing private grain processors to expand and upgrade whole‑grain production, part of a broader drive to strengthen food security and modernize its agricultural supply chain."
+      "published": "Sat, 28 Mar 2026 10:50:39 GMT",
+      "summary": "India Plans 100 Airports, 200 Helipads to Boost Connectivity\nIndia plans to build 100 new airports and 200 helipads in smaller towns and cities in coming years as the government seeks to boost regional connectivity, trade and tourism."
     },
     {
-      "title": "China Calls on US Firms to Tap Rural Revitalization Drive",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-28/china-calls-on-us-firms-to-tap-rural-revitalization-drive",
-      "raw_summary": "US companies in China should seize opportunities from the Beijing’s rural revitalization drive and align their strengths with the needs of agricultural and rural development, Vice Agriculture Minister Zhang Zhili said.",
+      "title": "New $1 Billion Airport Near Delhi to Test India’s Buildout Boom",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-28/new-1-billion-airport-near-delhi-to-test-india-s-buildout-boom",
+      "raw_summary": "Realtors in Jewar are ecstatic. A construction frenzy sparked by an airport project has swept through this otherwise monotonous farming town near New Delhi.",
       "source": "Bloomberg Markets",
-      "published": "Sat, 28 Mar 2026 04:02:37 GMT",
-      "summary": "China Calls on US Firms to Tap Rural Revitalization Drive\nUS companies in China should seize opportunities from the Beijing’s rural revitalization drive and align their strengths with the needs of agricultural and rural development, Vice Agriculture Minister Zhang Zhili said."
+      "published": "Sat, 28 Mar 2026 00:00:00 GMT",
+      "summary": "New $1 Billion Airport Near Delhi to Test India’s Buildout Boom\nRealtors in Jewar are ecstatic. A construction frenzy sparked by an airport project has swept through this otherwise monotonous farming town near New Delhi."
     },
     {
-      "title": "Mongolian PM Quits to End ‘Political Deadlock’ in Parliament",
-      "link": "https://www.bloomberg.com/news/articles/2026-03-28/mongolian-pm-quits-to-end-political-deadlock-in-parliament",
-      "raw_summary": "Mongolia’s prime minister resigned on Friday to try to find a way out of the political deadlock that has gripped parliament.",
+      "title": "Another Two India-Bound LPG Tankers Exit Gulf Through Hormuz",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-28/another-two-india-bound-lpg-tankers-exit-gulf-through-hormuz",
+      "raw_summary": "Two more India-bound tankers carrying liquefied petroleum gas have exited the Persian Gulf via the Strait of Hormuz, adding to the trickle of vessels making it through the narrow waterway.",
       "source": "Bloomberg Markets",
-      "published": "Sat, 28 Mar 2026 03:45:08 GMT",
-      "summary": "Mongolian PM Quits to End ‘Political Deadlock’ in Parliament\nMongolia’s prime minister resigned on Friday to try to find a way out of the political deadlock that has gripped parliament."
+      "published": "Sat, 28 Mar 2026 10:37:32 GMT",
+      "summary": "Another Two India-Bound LPG Tankers Exit Gulf Through Hormuz\nTwo more India-bound tankers carrying liquefied petroleum gas have exited the Persian Gulf via the Strait of Hormuz, adding to the trickle of vessels making it through the narrow waterway."
     },
     {
-      "title": "Putin Is 'Messianic' About Expanding Power, Burns Says",
-      "link": "https://www.bloomberg.com/news/videos/2026-03-28/putin-is-messianic-about-expanding-power-burns-says-video",
-      "raw_summary": "Former US Ambassador to China Nicholas Burns breaks down the global stakes of the Iran conflict, the war in Ukraine, and tensions with China. Burns discusses the way Iran could reshape geopolitical power, why Russia may be gaining strategic advantages, and what’s at risk if US alliances continue to weaken. He also explains why America’s relationships with its allies remain its greatest competitive edge against China. (Source: Bloomberg)",
+      "title": "Iran War Leaves Global Economic Leaders Searching for Answers",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-28/war-forces-global-elite-to-stare-into-abyss-of-perpetual-shocks",
+      "raw_summary": "The Iran war is forcing soul-searching within the global economic elite on how to respond to a series of shocks that show no signs of abating.",
       "source": "Bloomberg Markets",
-      "published": "Sat, 28 Mar 2026 02:03:43 GMT",
-      "summary": "Putin Is 'Messianic' About Expanding Power, Burns Says\nFormer US Ambassador to China Nicholas Burns breaks down the global stakes of the Iran conflict, the war in Ukraine, and tensions with China. Burns discusses the way Iran could reshape geopolitical power, why Russia may be gaining strategic adva"
+      "published": "Sat, 28 Mar 2026 10:18:12 GMT",
+      "summary": "Iran War Leaves Global Economic Leaders Searching for Answers\nThe Iran war is forcing soul-searching within the global economic elite on how to respond to a series of shocks that show no signs of abating."
+    },
+    {
+      "title": "Watch out Bitcoin devs. Google says post-quantum migration needs to happen by 2029.",
+      "link": "https://www.coindesk.com/tech/2026/03/28/watch-out-bitcoin-devs-google-says-post-quantum-migration-needs-to-happen-by-2029",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Sat, 28 Mar 2026 12:00:00 +0000",
+      "summary": "Watch out Bitcoin devs. Google says post-quantum migration needs to happen by 2029.\n"
     },
     {
       "title": "Ripple turns to AI to stress-test the XRP Ledger as institutional use cases scale",
@@ -313,14 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Fri, 27 Mar 2026 16:30:00 +0000",
       "summary": "Why Mastercard paid double for stablecoin infrastructure it could have built\n"
-    },
-    {
-      "title": "Crypto stocks battered as Nasdaq enters correction in $17 trillion market rout",
-      "link": "https://www.coindesk.com/markets/2026/03/27/crypto-stocks-battered-as-nasdaq-enters-correction-in-usd17-trillion-market-rout",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 27 Mar 2026 16:00:04 +0000",
-      "summary": "Crypto stocks battered as Nasdaq enters correction in $17 trillion market rout\n"
     }
   ]
 }
