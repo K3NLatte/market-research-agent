@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-06T07:20:12.038445+00:00",
+  "generated_at": "2026-04-06T12:53:25.950235+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,12 +43,28 @@
       "summary": "Microsoft Patch Tuesday, March 2026 Edition\nMicrosoft Corp. today pushed security updates to fix at least 77 vulnerabilities in its Windows operating systems and other software. There are no pressing \"zero-day\" flaws this month (compared to February's five zero-day treat), but as usual some patches "
     },
     {
+      "title": "How LiteLLM Turned Developer Machines Into Credential Vaults for Attackers",
+      "link": "https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html",
+      "raw_summary": "The&nbsp;most active piece of enterprise infrastructure in the company is the developer workstation. That&nbsp;laptop is where credentials are created, tested, cached, copied, and reused across services, bots, build tools, and now local AI&nbsp;agents.\nIn&nbsp;March 2026, the TeamPCP threat&nbsp;actor proved just how&nbsp;valuable developer&nbsp;machines are. Their&nbsp;supply chain attack on",
+      "source": "The Hacker News",
+      "published": "Mon, 06 Apr 2026 17:15:00 +0530",
+      "summary": "How LiteLLM Turned Developer Machines Into Credential Vaults for Attackers\nThe&nbsp;most active piece of enterprise infrastructure in the company is the developer workstation. That&nbsp;laptop is where credentials are created, tested, cached, copied, and reused across services, bots, build tools, an"
+    },
+    {
+      "title": "Qilin and Warlock Ransomware Use Vulnerable Drivers to Disable 300+ EDR Tools",
+      "link": "https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html",
+      "raw_summary": "Threat actors associated&nbsp;with Qilin&nbsp;and Warlock ransomware operations&nbsp;have been&nbsp;observed using the bring your own vulnerable driver&nbsp;(BYOVD) technique to silence security tools running on compromised hosts, according to findings from Cisco Talos and Trend&nbsp;Micro.\nQilin attacks analyzed by Talos&nbsp;have been&nbsp;found to deploy a malicious DLL named \"msimg32.dll,\"",
+      "source": "The Hacker News",
+      "published": "Mon, 06 Apr 2026 15:37:00 +0530",
+      "summary": "Qilin and Warlock Ransomware Use Vulnerable Drivers to Disable 300+ EDR Tools\nThreat actors associated&nbsp;with Qilin&nbsp;and Warlock ransomware operations&nbsp;have been&nbsp;observed using the bring your own vulnerable driver&nbsp;(BYOVD) technique to silence security tools running on compromise"
+    },
+    {
       "title": "BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks",
       "link": "https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html",
-      "raw_summary": "Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identity of the main threat actors associated with the now-defunct REvil (aka Sodinokibi) ransomware-as-a-service (RaaS) operation.\nThe threat actor, who went by the alias UNKN, functioned as a representative of the group, advertising the ransomware in June 2019 on the XSS cybercrime forum. He&nbsp;",
+      "raw_summary": "Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identities of two of the key figures associated with the now-defunct REvil (aka Sodinokibi) ransomware-as-a-service (RaaS) operation.\nOne of the threat actors, who went by the alias UNKN, functioned as a representative of the group, advertising the ransomware in June 2019 on the XSS cybercrime forum",
       "source": "The Hacker News",
       "published": "Mon, 06 Apr 2026 12:29:00 +0530",
-      "summary": "BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks\nGermany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identity of the main threat actors associated with the now-defunct REvil (aka Sodinokibi) ransomware-as-a-service (RaaS) operation.\nThe "
+      "summary": "BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks\nGermany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identities of two of the key figures associated with the now-defunct REvil (aka Sodinokibi) ransomware-as-a-service (RaaS) operation.\nOn"
     },
     {
       "title": "$285 Million Drift Hack Traced to Six-Month DPRK Social Engineering Operation",
@@ -67,60 +83,44 @@
       "summary": "36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants\nCybersecurity researchers have discovered 36 malicious packages in the npm registry that are disguised as Strapi CMS plugins but come with different payloads to facilitate Redis and PostgreSQL exploitation, deploy re"
     },
     {
-      "title": "Fortinet Patches Actively Exploited CVE-2026-35616 in FortiClient EMS",
-      "link": "https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html",
-      "raw_summary": "Fortinet has released out-of-band patches for a critical security flaw impacting FortiClient EMS that it said has been exploited in the&nbsp;wild.\nThe&nbsp;vulnerability, tracked&nbsp;as CVE-2026-35616 (CVSS score: 9.1), has been described as a pre-authentication API access bypass leading to privilege escalation.\n\"An improper access control vulnerability [CWE-284] in FortiClient EMS may allow an",
-      "source": "The Hacker News",
-      "published": "Sun, 05 Apr 2026 10:02:00 +0530",
-      "summary": "Fortinet Patches Actively Exploited CVE-2026-35616 in FortiClient EMS\nFortinet has released out-of-band patches for a critical security flaw impacting FortiClient EMS that it said has been exploited in the&nbsp;wild.\nThe&nbsp;vulnerability, tracked&nbsp;as CVE-2026-35616 (CVSS score: 9.1), has been "
-    },
-    {
-      "title": "China-Linked TA416 Targets European Governments with PlugX and OAuth-Based Phishing",
-      "link": "https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html",
-      "raw_summary": "A China-aligned threat actor has set its sights on European government and diplomatic organizations since mid-2025,&nbsp;following a two-year&nbsp;period of minimal targeting in the&nbsp;region.\nThe campaign has been attributed&nbsp;to TA416, a cluster of activity that overlaps with DarkPeony, RedDelta, Red Lich, SmugX, UNC6384, and Vertigo&nbsp;Panda.\n\"This TA416 activity included multiple",
-      "source": "The Hacker News",
-      "published": "Fri, 03 Apr 2026 23:04:00 +0530",
-      "summary": "China-Linked TA416 Targets European Governments with PlugX and OAuth-Based Phishing\nA China-aligned threat actor has set its sights on European government and diplomatic organizations since mid-2025,&nbsp;following a two-year&nbsp;period of minimal targeting in the&nbsp;region.\nThe campaign has been"
-    },
-    {
-      "title": "SideX – A Tauri-based port of Visual Studio Code",
-      "link": "https://github.com/Sidenai/sidex",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/Sidenai/sidex\">https://github.com/Sidenai/sidex</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47657699\">https://news.ycombinator.com/item?id=47657699</a></p>\n<p>Points: 28</p>\n<p># Comments: 9</p>",
+      "title": "Ask HN: How do systems (or people) detect when a text is written by an LLM",
+      "link": "https://news.ycombinator.com/item?id=47659807",
+      "raw_summary": "<p>Hello guys, just curious about how can people or systems (computers) detect when a text was written by an LLM. My question is mainly focused to if there is some API or similar to detect if a text was written by an LLM. Thanks!!!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47659807\">https://news.ycombinator.com/item?id=47659807</a></p>\n<p>Points: 8</p>\n<p># Comments: 6</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 06 Apr 2026 06:49:42 +0000",
-      "summary": "SideX – A Tauri-based port of Visual Studio Code\n<p>Article URL: <a href=\"https://github.com/Sidenai/sidex\">https://github.com/Sidenai/sidex</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47657699\">https://news.ycombinator.com/item?id=47657699</a></p>\n<p>Points: 28</p>\n<p># C"
+      "published": "Mon, 06 Apr 2026 12:03:00 +0000",
+      "summary": "Ask HN: How do systems (or people) detect when a text is written by an LLM\n<p>Hello guys, just curious about how can people or systems (computers) detect when a text was written by an LLM. My question is mainly focused to if there is some API or similar to detect if a text was written by an LLM. Tha"
     },
     {
-      "title": "Winners of the 2026 Kokuyo Design Awards",
-      "link": "https://spoon-tamago.com/winners-of-the-2026-kokuyo-design-awards/",
-      "raw_summary": "<p>Article URL: <a href=\"https://spoon-tamago.com/winners-of-the-2026-kokuyo-design-awards/\">https://spoon-tamago.com/winners-of-the-2026-kokuyo-design-awards/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47656682\">https://news.ycombinator.com/item?id=47656682</a></p>\n<p>Points: 38</p>\n<p># Comments: 4</p>",
+      "title": "Tiny Corp's Exabox",
+      "link": "https://twitter.com/__tinygrad__/status/2040944508402360592",
+      "raw_summary": "<p>Article URL: <a href=\"https://twitter.com/__tinygrad__/status/2040944508402360592\">https://twitter.com/__tinygrad__/status/2040944508402360592</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47659609\">https://news.ycombinator.com/item?id=47659609</a></p>\n<p>Points: 19</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 06 Apr 2026 03:32:23 +0000",
-      "summary": "Winners of the 2026 Kokuyo Design Awards\n<p>Article URL: <a href=\"https://spoon-tamago.com/winners-of-the-2026-kokuyo-design-awards/\">https://spoon-tamago.com/winners-of-the-2026-kokuyo-design-awards/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47656682\">https://news.ycomb"
+      "published": "Mon, 06 Apr 2026 11:39:03 +0000",
+      "summary": "Tiny Corp's Exabox\n<p>Article URL: <a href=\"https://twitter.com/__tinygrad__/status/2040944508402360592\">https://twitter.com/__tinygrad__/status/2040944508402360592</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47659609\">https://news.ycombinator.com/item?id=47659609</a></p>\n"
     },
     {
-      "title": "Media scraper Gallery-dl is moving to Codeberg after receiving a DMCA notice",
-      "link": "https://github.com/mikf/gallery-dl/discussions/9304",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/mikf/gallery-dl/discussions/9304\">https://github.com/mikf/gallery-dl/discussions/9304</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47656659\">https://news.ycombinator.com/item?id=47656659</a></p>\n<p>Points: 115</p>\n<p># Comments: 30</p>",
+      "title": "The Intelligence Failure in Iran",
+      "link": "https://www.theatlantic.com/national-security/2026/04/iran-war-intelligence-failure-trump/686694/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.theatlantic.com/national-security/2026/04/iran-war-intelligence-failure-trump/686694/\">https://www.theatlantic.com/national-security/2026/04/iran-war-intelligence-failure-trump/686694/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47659461\">https://news.ycombinator.com/item?id=47659461</a></p>\n<p>Points: 32</p>\n<p># Comments: 19</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 06 Apr 2026 03:28:04 +0000",
-      "summary": "Media scraper Gallery-dl is moving to Codeberg after receiving a DMCA notice\n<p>Article URL: <a href=\"https://github.com/mikf/gallery-dl/discussions/9304\">https://github.com/mikf/gallery-dl/discussions/9304</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47656659\">https://news"
+      "published": "Mon, 06 Apr 2026 11:21:35 +0000",
+      "summary": "The Intelligence Failure in Iran\n<p>Article URL: <a href=\"https://www.theatlantic.com/national-security/2026/04/iran-war-intelligence-failure-trump/686694/\">https://www.theatlantic.com/national-security/2026/04/iran-war-intelligence-failure-trump/686694/</a></p>\n<p>Comments URL: <a href=\"https://new"
     },
     {
-      "title": "An open-source 240-antenna array to bounce signals off the Moon",
-      "link": "https://moonrf.com/",
-      "raw_summary": "<p>Article URL: <a href=\"https://moonrf.com/\">https://moonrf.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47656622\">https://news.ycombinator.com/item?id=47656622</a></p>\n<p>Points: 60</p>\n<p># Comments: 12</p>",
+      "title": "Is Germany's gold safe in New York ?",
+      "link": "https://www.dw.com/en/is-germanys-gold-safe-in-new-york/video-75766873",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.dw.com/en/is-germanys-gold-safe-in-new-york/video-75766873\">https://www.dw.com/en/is-germanys-gold-safe-in-new-york/video-75766873</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47659252\">https://news.ycombinator.com/item?id=47659252</a></p>\n<p>Points: 127</p>\n<p># Comments: 119</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 06 Apr 2026 03:22:42 +0000",
-      "summary": "An open-source 240-antenna array to bounce signals off the Moon\n<p>Article URL: <a href=\"https://moonrf.com/\">https://moonrf.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47656622\">https://news.ycombinator.com/item?id=47656622</a></p>\n<p>Points: 60</p>\n<p># Comments: 12"
+      "published": "Mon, 06 Apr 2026 10:54:11 +0000",
+      "summary": "Is Germany's gold safe in New York ?\n<p>Article URL: <a href=\"https://www.dw.com/en/is-germanys-gold-safe-in-new-york/video-75766873\">https://www.dw.com/en/is-germanys-gold-safe-in-new-york/video-75766873</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47659252\">https://news.y"
     },
     {
-      "title": "The 1987 game “The Last Ninja” was 40 kilobytes",
-      "link": "https://twitter.com/exQUIZitely/status/2040777977521398151",
-      "raw_summary": "<p>Article URL: <a href=\"https://twitter.com/exQUIZitely/status/2040777977521398151\">https://twitter.com/exQUIZitely/status/2040777977521398151</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47656501\">https://news.ycombinator.com/item?id=47656501</a></p>\n<p>Points: 62</p>\n<p># Comments: 20</p>",
+      "title": "Age Verification as Mass Surveillance Infrastructure",
+      "link": "https://tboteproject.com/surveillancefindings/",
+      "raw_summary": "<p>Article URL: <a href=\"https://tboteproject.com/surveillancefindings/\">https://tboteproject.com/surveillancefindings/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47659109\">https://news.ycombinator.com/item?id=47659109</a></p>\n<p>Points: 236</p>\n<p># Comments: 68</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 06 Apr 2026 03:03:22 +0000",
-      "summary": "The 1987 game “The Last Ninja” was 40 kilobytes\n<p>Article URL: <a href=\"https://twitter.com/exQUIZitely/status/2040777977521398151\">https://twitter.com/exQUIZitely/status/2040777977521398151</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47656501\">https://news.ycombinator.co"
+      "published": "Mon, 06 Apr 2026 10:33:02 +0000",
+      "summary": "Age Verification as Mass Surveillance Infrastructure\n<p>Article URL: <a href=\"https://tboteproject.com/surveillancefindings/\">https://tboteproject.com/surveillancefindings/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47659109\">https://news.ycombinator.com/item?id=47659109<"
     },
     {
       "title": "The Xiaomi 17 Ultra has some impressive add-ons that make snapping photos really fun",
@@ -203,124 +203,124 @@
       "summary": "Ice Age dice show early Native Americans may have understood probability\nIce Age hunter-gatherer \"were intentionally relying on random outcomes in repeatable, rule-based ways.\""
     },
     {
-      "title": "US employment: more sludge",
-      "link": "https://www.ft.com/content/65d2617f-ebee-488f-9407-aacab8f38e5e",
-      "raw_summary": "Plus, guns and butter redux",
+      "title": "Neurocrine bets nearly $3bn on deal for insatiable hunger treatment",
+      "link": "https://www.ft.com/content/6642c09c-12df-4724-8ed4-a28c32b9b2b7",
+      "raw_summary": "Soleno Therapeutics makes first commercialised drug for extreme hunger caused by Prader-Willi syndrome",
       "source": "World",
-      "published": "Mon, 06 Apr 2026 05:30:08 GMT",
-      "summary": "US employment: more sludge\nPlus, guns and butter redux"
+      "published": "Mon, 06 Apr 2026 12:04:13 GMT",
+      "summary": "Neurocrine bets nearly $3bn on deal for insatiable hunger treatment\nSoleno Therapeutics makes first commercialised drug for extreme hunger caused by Prader-Willi syndrome"
     },
     {
-      "title": "Trump vows to destroy Iran’s power plants and bridges unless it reopens strait",
-      "link": "https://www.ft.com/content/50943619-f694-4f49-bacf-6191b9096215",
-      "raw_summary": "As war enters sixth week, the price of Brent crude rises slightly above $110 a barrel",
+      "title": "Saudi Arabia charges record premium for its oil",
+      "link": "https://www.ft.com/content/04f5d454-28cd-4b26-b3b3-16ca94b9fb82",
+      "raw_summary": "World’s biggest crude exporter to ask Asian customers for around $20 a barrel on top of benchmark prices",
       "source": "World",
-      "published": "Mon, 06 Apr 2026 05:03:44 GMT",
-      "summary": "Trump vows to destroy Iran’s power plants and bridges unless it reopens strait\nAs war enters sixth week, the price of Brent crude rises slightly above $110 a barrel"
+      "published": "Mon, 06 Apr 2026 11:45:34 GMT",
+      "summary": "Saudi Arabia charges record premium for its oil\nWorld’s biggest crude exporter to ask Asian customers for around $20 a barrel on top of benchmark prices"
     },
     {
-      "title": "FirstFT: EU warns of excessive energy support measures",
-      "link": "https://www.ft.com/content/e4a05f7b-0728-423a-bad1-4d08c7fdcb1e",
-      "raw_summary": "Also in today’s newsletter: Private equity buyouts and Ukrainian drone campaign",
+      "title": "Sales of used EVs surge in US as petrol prices pass $4 a gallon",
+      "link": "https://www.ft.com/content/5436f549-52da-4d6d-85ba-955203f5c2f2",
+      "raw_summary": "Americans are buying second-hand electric vehicles even as the market for new vehicles slumps",
       "source": "World",
-      "published": "Mon, 06 Apr 2026 04:32:41 GMT",
-      "summary": "FirstFT: EU warns of excessive energy support measures\nAlso in today’s newsletter: Private equity buyouts and Ukrainian drone campaign"
+      "published": "Mon, 06 Apr 2026 11:20:30 GMT",
+      "summary": "Sales of used EVs surge in US as petrol prices pass $4 a gallon\nAmericans are buying second-hand electric vehicles even as the market for new vehicles slumps"
     },
     {
-      "title": "Have markets already tightened the screw enough?",
-      "link": "https://www.ft.com/content/d81ef16e-2d05-4536-9580-4bb1af91b705",
-      "raw_summary": "March’s hawkish communications in Europe have had the effect of tightening monetary policy",
+      "title": "Britain needs a plan to invest in defence",
+      "link": "https://www.ft.com/content/469a267e-7ea9-41b8-a180-0b99969ce0e9",
+      "raw_summary": "Repeated delays are worrying partners and risk losing key technologies",
       "source": "World",
-      "published": "Mon, 06 Apr 2026 04:30:05 GMT",
-      "summary": "Have markets already tightened the screw enough?\nMarch’s hawkish communications in Europe have had the effect of tightening monetary policy"
+      "published": "Mon, 06 Apr 2026 11:20:30 GMT",
+      "summary": "Britain needs a plan to invest in defence\nRepeated delays are worrying partners and risk losing key technologies"
     },
     {
-      "title": "Bank of England divided over how to tackle energy-induced inflation",
-      "link": "https://www.ft.com/content/93040200-0a51-40d0-b7b7-355fd592331d",
-      "raw_summary": "After a rare unanimous vote to hold interest rates in March, conflicting approaches are likely at this month’s MPC meeting",
+      "title": "US stock futures rise on reports of Middle East ceasefire proposal",
+      "link": "https://www.ft.com/content/43f8ea8a-d8a9-444c-82c5-8a0358c948ed",
+      "raw_summary": "Proposal for 45-day ceasefire reported to have been shared by Pakistan, Egypt and Turkey ahead of Trump deadline",
       "source": "World",
-      "published": "Mon, 06 Apr 2026 04:00:40 GMT",
-      "summary": "Bank of England divided over how to tackle energy-induced inflation\nAfter a rare unanimous vote to hold interest rates in March, conflicting approaches are likely at this month’s MPC meeting"
+      "published": "Mon, 06 Apr 2026 10:45:57 GMT",
+      "summary": "US stock futures rise on reports of Middle East ceasefire proposal\nProposal for 45-day ceasefire reported to have been shared by Pakistan, Egypt and Turkey ahead of Trump deadline"
     },
     {
-      "title": "Gold Pares Losses After Report on Talks About Iran War Ceasefire",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-05/gold-falls-as-trump-threatens-escalation-of-us-attacks-on-iran",
-      "raw_summary": "Gold clawed back some losses after a report about a diplomatic push for a ceasefire to the war in Iran, even as President Donald Trump ramped up his threats of escalation to the conflict that’s roiled global markets.",
-      "source": "Bloomberg Markets",
-      "published": "Sun, 05 Apr 2026 22:14:55 GMT",
-      "summary": "Gold Pares Losses After Report on Talks About Iran War Ceasefire\nGold clawed back some losses after a report about a diplomatic push for a ceasefire to the war in Iran, even as President Donald Trump ramped up his threats of escalation to the conflict that’s roiled global markets."
-    },
-    {
-      "title": "New Trump Deadline Looms as Ceasefire Push Keeps Markets on Edge",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-06/new-trump-deadline-looms-as-ceasefire-push-keeps-markets-on-edge",
-      "raw_summary": "US allies are reportedly pressing for a last-minute deal with Iran, as President Donald Trump extended his deadline to Tuesday for Tehran to reopen the Strait of Hormuz, keeping markets on edge over whether a breakthrough can be reached.",
-      "source": "Bloomberg Markets",
-      "published": "Mon, 06 Apr 2026 07:02:52 GMT",
-      "summary": "New Trump Deadline Looms as Ceasefire Push Keeps Markets on Edge\nUS allies are reportedly pressing for a last-minute deal with Iran, as President Donald Trump extended his deadline to Tuesday for Tehran to reopen the Strait of Hormuz, keeping markets on edge over whether a breakthrough can be reache"
-    },
-    {
-      "title": "Major Fertilizer Buyer India Issues Tender as War Hits Supply",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-06/major-fertilizer-buyer-india-issues-tender-as-war-hits-supply",
-      "raw_summary": "India, the world’s largest urea importer, is seeking to buy about 2.5 million tons of the key crop nutrient ahead of the monsoon sowing season as the Middle East conflict disrupts domestic production, tightening availability.",
-      "source": "Bloomberg Markets",
-      "published": "Mon, 06 Apr 2026 06:42:13 GMT",
-      "summary": "Major Fertilizer Buyer India Issues Tender as War Hits Supply\nIndia, the world’s largest urea importer, is seeking to buy about 2.5 million tons of the key crop nutrient ahead of the monsoon sowing season as the Middle East conflict disrupts domestic production, tightening availability."
-    },
-    {
-      "title": "Saudis Raise Asia Oil to Record Premium as War Upends Market",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-06/saudis-raise-oil-price-to-record-premium-as-war-riles-markets",
-      "raw_summary": "Saudi Arabia has raised the price of its main oil grade to Asia to a record high premium, as a widening conflict in the Persian Gulf and Iran’s near-closure of the Strait of Hormuz convulse energy markets.",
-      "source": "Bloomberg Markets",
-      "published": "Mon, 06 Apr 2026 05:55:07 GMT",
-      "summary": "Saudis Raise Asia Oil to Record Premium as War Upends Market\nSaudi Arabia has raised the price of its main oil grade to Asia to a record high premium, as a widening conflict in the Persian Gulf and Iran’s near-closure of the Strait of Hormuz convulse energy markets."
-    },
-    {
-      "title": "Oil Swings as Traders Gauge Report of Push for Iran Ceasefire",
+      "title": "Oil Swings With Focus on Push for Iran Truce and Trump Deadline",
       "link": "https://www.bloomberg.com/news/articles/2026-04-05/latest-oil-market-news-and-analysis-for-april-6",
-      "raw_summary": "Oil fluctuated as traders tracked a reported push for a ceasefire in the Middle East, a fresh ultimatum from President Donald Trump on Iran if the Strait of Hormuz were not reopened, and record Saudi crude pricing.",
+      "raw_summary": "Oil switched from gains to losses, as traders weighed a reported push for a ceasefire in the Middle East against a fresh ultimatum from US President Donald Trump for Iran to reopen the Strait of Hormuz.",
       "source": "Bloomberg Markets",
       "published": "Sun, 05 Apr 2026 22:02:56 GMT",
-      "summary": "Oil Swings as Traders Gauge Report of Push for Iran Ceasefire\nOil fluctuated as traders tracked a reported push for a ceasefire in the Middle East, a fresh ultimatum from President Donald Trump on Iran if the Strait of Hormuz were not reopened, and record Saudi crude pricing."
+      "summary": "Oil Swings With Focus on Push for Iran Truce and Trump Deadline\nOil switched from gains to losses, as traders weighed a reported push for a ceasefire in the Middle East against a fresh ultimatum from US President Donald Trump for Iran to reopen the Strait of Hormuz."
     },
     {
-      "title": "Circle future-proofs Arc blockchain against quantum threats",
-      "link": "https://www.coindesk.com/markets/2026/04/06/stablecoin-issuer-circle-s-arc-blockchain-to-debut-with-quantum-era-features",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 06 Apr 2026 07:17:26 +0000",
-      "summary": "Circle future-proofs Arc blockchain against quantum threats\n"
+      "title": "Risk-On Equities Investors Choose Panic Buying Over Panic Selling",
+      "link": "https://www.bloomberg.com/news/videos/2026-04-06/risk-on-investors-choose-panic-buying-over-panic-selling-video",
+      "raw_summary": "Matt Miskin, co-chief investment strategist at Manulife John Hancock Investments, says investors are looking to the dips to add to equities here as he examines market sentiment surrounding the Iran war. (Source: Bloomberg)",
+      "source": "Bloomberg Markets",
+      "published": "Mon, 06 Apr 2026 12:42:27 GMT",
+      "summary": "Risk-On Equities Investors Choose Panic Buying Over Panic Selling\nMatt Miskin, co-chief investment strategist at Manulife John Hancock Investments, says investors are looking to the dips to add to equities here as he examines market sentiment surrounding the Iran war. (Source: Bloomberg)"
     },
     {
-      "title": "XRP drifts higher to $1.33, but range-bound trade still dominates",
-      "link": "https://www.coindesk.com/markets/2026/04/06/xrp-drifts-higher-to-usd1-33-but-range-bound-trade-still-dominates",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 06 Apr 2026 05:52:13 +0000",
-      "summary": "XRP drifts higher to $1.33, but range-bound trade still dominates\n"
+      "title": "US Stock Futures Rise as Dip Buyers Return Amid Ceasefire Hopes",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-06/us-stock-futures-rise-as-dip-buyers-return-amid-ceasefire-hopes",
+      "raw_summary": "US equity futures edged higher and crude oil slipped as investors focused on signs of a potential diplomatic push toward a ceasefire in the Iran war.",
+      "source": "Bloomberg Markets",
+      "published": "Mon, 06 Apr 2026 12:39:07 GMT",
+      "summary": "US Stock Futures Rise as Dip Buyers Return Amid Ceasefire Hopes\nUS equity futures edged higher and crude oil slipped as investors focused on signs of a potential diplomatic push toward a ceasefire in the Iran war."
     },
     {
-      "title": "Bitcoin reclaims $69,000 as ceasefire talks surface and crypto shorts get squeezed",
-      "link": "https://www.coindesk.com/markets/2026/04/06/bitcoin-reclaims-usd69-000-as-ceasefire-talks-surface-and-crypto-shorts-get-squeezed",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 06 Apr 2026 05:11:38 +0000",
-      "summary": "Bitcoin reclaims $69,000 as ceasefire talks surface and crypto shorts get squeezed\n"
+      "title": "US Stock Futures Waver on Report of Ceasefire Push: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-05/trading-open-shadowed-by-trump-escalation-threats-markets-wrap",
+      "raw_summary": "US stock futures fluctuated and crude oil dipped as investors focused their attention on a report of a push to secure a potential ceasefire in the war in Iran.",
+      "source": "Bloomberg Markets",
+      "published": "Sun, 05 Apr 2026 20:00:39 GMT",
+      "summary": "US Stock Futures Waver on Report of Ceasefire Push: Markets Wrap\nUS stock futures fluctuated and crude oil dipped as investors focused their attention on a report of a push to secure a potential ceasefire in the war in Iran."
     },
     {
-      "title": "Bitcoin meltdown to $10,000 remains likely unless prices reclaim $75,000, analyst says",
-      "link": "https://www.coindesk.com/markets/2026/04/06/bitcoin-meltdown-to-usd10-000-remains-likely-unless-prices-reclaim-usd75-000-analyst-says",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 06 Apr 2026 04:20:57 +0000",
-      "summary": "Bitcoin meltdown to $10,000 remains likely unless prices reclaim $75,000, analyst says\n"
+      "title": "Rupee Holds Gain After Biggest Surge in 12 Years on RBI Moves",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-06/rupee-extends-rally-after-biggest-surge-in-12-years-on-rbi-moves",
+      "raw_summary": "The Indian rupee edged up, extending its biggest rally in 12 years after the central bank doubled down on curbing speculation against the local currency.",
+      "source": "Bloomberg Markets",
+      "published": "Mon, 06 Apr 2026 04:43:22 GMT",
+      "summary": "Rupee Holds Gain After Biggest Surge in 12 Years on RBI Moves\nThe Indian rupee edged up, extending its biggest rally in 12 years after the central bank doubled down on curbing speculation against the local currency."
     },
     {
-      "title": "A simple explainer on what quantum computing actually is, and why it is terrifying for bitcoin",
-      "link": "https://www.coindesk.com/tech/2026/04/05/a-simple-explainer-on-what-quantum-computing-actually-is-and-why-it-is-terrifying-for-bitcoin",
+      "title": "Strategy added another 4,871 bitcoin for $330 million, with holdings nearing 767,000 BTC",
+      "link": "https://www.coindesk.com/markets/2026/04/06/strategy-buys-another-4-871-bitcoin-for-usd330-million-as-holdings-near-767-000-btc",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 05 Apr 2026 20:03:22 +0000",
-      "summary": "A simple explainer on what quantum computing actually is, and why it is terrifying for bitcoin\n"
+      "published": "Mon, 06 Apr 2026 12:17:05 +0000",
+      "summary": "Strategy added another 4,871 bitcoin for $330 million, with holdings nearing 767,000 BTC\n"
+    },
+    {
+      "title": "Bitcoin has room to rally, but there's a catch",
+      "link": "https://www.coindesk.com/daybook-us/2026/04/06/bitcoin-has-room-to-rally-but-there-s-a-catch",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Mon, 06 Apr 2026 11:21:46 +0000",
+      "summary": "Bitcoin has room to rally, but there's a catch\n"
+    },
+    {
+      "title": "Bitcoin rallies on report of Iran ceasefire talks, Algorand extends gains",
+      "link": "https://www.coindesk.com/markets/2026/04/06/bitcoin-rallies-on-report-of-iran-ceasefire-talks-algorand-extends-gains",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Mon, 06 Apr 2026 10:30:00 +0000",
+      "summary": "Bitcoin rallies on report of Iran ceasefire talks, Algorand extends gains\n"
+    },
+    {
+      "title": "IMF warns tokenization could bring crypto risks into global financial markets",
+      "link": "https://www.coindesk.com/markets/2026/04/06/imf-warns-tokenization-could-bring-crypto-risks-into-global-financial-markets",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Mon, 06 Apr 2026 09:17:49 +0000",
+      "summary": "IMF warns tokenization could bring crypto risks into global financial markets\n"
+    },
+    {
+      "title": "Inflation takes center stage: Crypto Week Ahead",
+      "link": "https://www.coindesk.com/markets/2026/04/06/inflation-takes-center-stage-crypto-week-ahead",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Mon, 06 Apr 2026 08:28:00 +0000",
+      "summary": "Inflation takes center stage: Crypto Week Ahead\n"
     }
   ]
 }
