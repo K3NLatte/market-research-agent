@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T01:44:57.861757+00:00",
+  "generated_at": "2026-04-18T06:58:26.686609+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,14 @@
       "summary": "Feds Disrupt IoT Botnets Behind Huge DDoS Attacks\nThe U.S. Justice Department joined authorities in Canada and Germany in dismantling the online infrastructure behind four highly disruptive botnets that compromised more than three million hacked Internet of Things (IoT) devices, such as routers and "
     },
     {
+      "title": "Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet",
+      "link": "https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html",
+      "raw_summary": "Threat actors are exploiting security flaws in TBK DVR and end‑of‑life (EoL) TP-Link Wi-Fi routers to deploy Mirai-botnet variants on compromised devices, according to findings from Fortinet FortiGuard Labs and Palo Alto Networks Unit 42.\nThe attack targeting TBK DVR devices has been found to exploit CVE-2024-3721 (CVSS score: 6.3), a medium-severity command injection vulnerability affecting",
+      "source": "The Hacker News",
+      "published": "Sat, 18 Apr 2026 11:31:00 +0530",
+      "summary": "Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet\nThreat actors are exploiting security flaws in TBK DVR and end‑of‑life (EoL) TP-Link Wi-Fi routers to deploy Mirai-botnet variants on compromised devices, according to findings from Fortinet FortiGuard Labs and Palo Al"
+    },
+    {
       "title": "Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched",
       "link": "https://thehackernews.com/2026/04/three-microsoft-defender-zero-days.html",
       "raw_summary": "Huntress is warning that threat actors are exploiting three recently disclosed security flaws in Microsoft Defender to gain elevated privileges in compromised systems.\nThe activity involves&nbsp;the exploitation of three vulnerabilities that are codenamed BlueHammer (requires GitHub sign-in), RedSun, and UnDefend, all of which were released as zero-days by a researcher known as Chaotic Eclipse (",
@@ -75,25 +83,25 @@
       "summary": "Operation PowerOFF Seizes 53 DDoS Domains, Exposes 3 Million Criminal Accounts\nAn international law enforcement operation has taken down 53 domains and arrested four people in connection with commercial distributed denial-of-service (DDoS) operations that were used by more than 75,000 cybercriminals"
     },
     {
-      "title": "Apache ActiveMQ CVE-2026-34197 Added to CISA KEV Amid Active Exploitation",
-      "link": "https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html",
-      "raw_summary": "A recently disclosed high-severity security flaw in Apache ActiveMQ&nbsp;Classic has come under active exploitation in the wild, per the U.S. Cybersecurity and Infrastructure Security Agency&nbsp;(CISA).\nTo that end, the agency&nbsp;has added the vulnerability, tracked&nbsp;as CVE-2026-34197 (CVSS score: 8.8), to its Known Exploited Vulnerabilities&nbsp;(KEV) catalog, requiring Federal Civilian",
-      "source": "The Hacker News",
-      "published": "Fri, 17 Apr 2026 08:52:00 +0530",
-      "summary": "Apache ActiveMQ CVE-2026-34197 Added to CISA KEV Amid Active Exploitation\nA recently disclosed high-severity security flaw in Apache ActiveMQ&nbsp;Classic has come under active exploitation in the wild, per the U.S. Cybersecurity and Infrastructure Security Agency&nbsp;(CISA).\nTo that end, the agenc"
+      "title": "Show HN: I made a calculator that works over disjoint sets of intervals",
+      "link": "https://victorpoughon.github.io/interval-calculator/",
+      "raw_summary": "<p>I've been studying interval arithmetic for the past few weeks and it's a really interesting field because while there is a ton of super interesting research published over the past decades, it has never really gotten the recognition that it deserves, IMO.<p>One reason for this is that standard interval arithmetic has really poor handling of division by intervals containing zero. If you compute 1 / [-1, 2] in regular interval arithmetic, you get either [-∞, +∞], or you have to say that the operation is undefined. Both solutions are virtually useless. The real answer of course is [-∞, -1] U [0.5, +∞]: i.e. a union of two disjoint intervals.<p>This is useful because you can confidently exclude a non empty set of the real numbers ([-1, 0.5]) from the set of possible values that you can get by dividing 1 by a number between -1 and 2.<p>But this definition of interval division yields a value that is not an interval. This is a problem if you want to define a closed arithmetic system, where you can build and evaluate arbitrary expression over interval values.<p>(This behavior extends to any non continuous function like tan() for example, which is implemented in my project - not without difficulties!)<p>Well the obvious solution is to define your arithmetic over disjoint unions of intervals. This is the subject of a 2017 paper called \"Interval Unions\" by by Schichl, H., Domes, F., Montanher, T. and Kofler, K..<p>This open-source project I made implements interval union arithmetic in TypeScript in the form of a simple interactive calculator, so you can try it out for yourself! The underlying TypeScript library is dependency free and implements interval union arithmetic over IEEE 754 double precision floats (JS native number type) with outward rounding. This guarantees accuracy of interval results in the presence of rounding issue inherent to floating point.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47812341\">https://news.ycombinator.com/item?id=47812341</a></p>\n<p>Points: 89</p>\n<p># Comments: 8</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Sat, 18 Apr 2026 01:15:43 +0000",
+      "summary": "Show HN: I made a calculator that works over disjoint sets of intervals\n<p>I've been studying interval arithmetic for the past few weeks and it's a really interesting field because while there is a ton of super interesting research published over the past decades, it has never really gotten the reco"
     },
     {
-      "title": "How to Host a Blog on a Subdirectory Instead of a Subdomain",
-      "link": "https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/\">https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47811442\">https://news.ycombinator.com/item?id=47811442</a></p>\n<p>Points: 14</p>\n<p># Comments: 11</p>",
+      "title": "Casus Belli Engineering",
+      "link": "https://marcosmagueta.com/blog/casus-belli-engineering/",
+      "raw_summary": "<p>Article URL: <a href=\"https://marcosmagueta.com/blog/casus-belli-engineering/\">https://marcosmagueta.com/blog/casus-belli-engineering/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47812331\">https://news.ycombinator.com/item?id=47812331</a></p>\n<p>Points: 27</p>\n<p># Comments: 5</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 17 Apr 2026 22:53:18 +0000",
-      "summary": "How to Host a Blog on a Subdirectory Instead of a Subdomain\n<p>Article URL: <a href=\"https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/\">https://www.davidma.org/blog/2025-11-14-host-your-blog-on-a-subdirectory/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/ite"
+      "published": "Sat, 18 Apr 2026 01:14:02 +0000",
+      "summary": "Casus Belli Engineering\n<p>Article URL: <a href=\"https://marcosmagueta.com/blog/casus-belli-engineering/\">https://marcosmagueta.com/blog/casus-belli-engineering/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47812331\">https://news.ycombinator.com/item?id=47812331</a></p>\n<p>"
     },
     {
       "title": "Landmark ancient-genome study shows surprise acceleration of human evolution",
       "link": "https://www.nature.com/articles/d41586-026-01204-5",
-      "raw_summary": "<p>Related: <i>Ancient DNA reveals pervasive directional selection across West Eurasia [pdf]</i> - <a href=\"https://news.ycombinator.com/item?id=47791282\">https://news.ycombinator.com/item?id=47791282</a> (64 comments)<p><a href=\"https://x.com/doctorveera/status/2044679999450664967\" rel=\"nofollow\">https://x.com/doctorveera/status/2044679999450664967</a> (<a href=\"https://xcancel.com/doctorveera/status/2044679999450664967\" rel=\"nofollow\">https://xcancel.com/doctorveera/status/2044679999450664967</a>)</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47811283\">https://news.ycombinator.com/item?id=47811283</a></p>\n<p>Points: 48</p>\n<p># Comments: 24</p>",
+      "raw_summary": "<p>Related: <i>Ancient DNA reveals pervasive directional selection across West Eurasia [pdf]</i> - <a href=\"https://news.ycombinator.com/item?id=47791282\">https://news.ycombinator.com/item?id=47791282</a> (64 comments)<p><a href=\"https://x.com/doctorveera/status/2044679999450664967\" rel=\"nofollow\">https://x.com/doctorveera/status/2044679999450664967</a> (<a href=\"https://xcancel.com/doctorveera/status/2044679999450664967\" rel=\"nofollow\">https://xcancel.com/doctorveera/status/2044679999450664967</a>)</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47811283\">https://news.ycombinator.com/item?id=47811283</a></p>\n<p>Points: 67</p>\n<p># Comments: 61</p>",
       "source": "Hacker News: Front Page",
       "published": "Fri, 17 Apr 2026 22:30:28 +0000",
       "summary": "Landmark ancient-genome study shows surprise acceleration of human evolution\n<p>Related: <i>Ancient DNA reveals pervasive directional selection across West Eurasia [pdf]</i> - <a href=\"https://news.ycombinator.com/item?id=47791282\">https://news.ycombinator.com/item?id=47791282</a> (64 comments)<p><a"
@@ -101,7 +109,7 @@
     {
       "title": "A simplified model of Fil-C",
       "link": "https://www.corsix.org/content/simplified-model-of-fil-c",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.corsix.org/content/simplified-model-of-fil-c\">https://www.corsix.org/content/simplified-model-of-fil-c</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47810872\">https://news.ycombinator.com/item?id=47810872</a></p>\n<p>Points: 106</p>\n<p># Comments: 53</p>",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.corsix.org/content/simplified-model-of-fil-c\">https://www.corsix.org/content/simplified-model-of-fil-c</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47810872\">https://news.ycombinator.com/item?id=47810872</a></p>\n<p>Points: 155</p>\n<p># Comments: 78</p>",
       "source": "Hacker News: Front Page",
       "published": "Fri, 17 Apr 2026 21:38:20 +0000",
       "summary": "A simplified model of Fil-C\n<p>Article URL: <a href=\"https://www.corsix.org/content/simplified-model-of-fil-c\">https://www.corsix.org/content/simplified-model-of-fil-c</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47810872\">https://news.ycombinator.com/item?id=47810872</a></"
@@ -115,12 +123,12 @@
       "summary": "Arc Prize Foundation (YC W26) Is Hiring a Platform Engineer for ARC-AGI-4\n<p>Article URL: <a href=\"https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead\">https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-bench"
     },
     {
-      "title": "Even \"cat readme.txt\" is not safe",
-      "link": "https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not",
-      "raw_summary": "<p>Article URL: <a href=\"https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not\">https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47809190\">https://news.ycombinator.com/item?id=47809190</a></p>\n<p>Points: 81</p>\n<p># Comments: 41</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Fri, 17 Apr 2026 18:43:32 +0000",
-      "summary": "Even \"cat readme.txt\" is not safe\n<p>Article URL: <a href=\"https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not\">https://blog.calif.io/p/mad-bugs-even-cat-readmetxt-is-not</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47809190\">https://news.ycombinator.com/item?id=4780"
+      "title": "Once close enough for an acquisition, Stripe and Airwallex are now going after each other",
+      "link": "https://techcrunch.com/2026/04/17/once-close-enough-for-an-acquisition-stripe-and-airwallex-are-now-going-after-each-other/",
+      "raw_summary": "For most of its life, Airwallex and Stripe have mostly operated in different geographies, selling to different buyers. That's changing.",
+      "source": "TechCrunch",
+      "published": "Sat, 18 Apr 2026 05:20:11 +0000",
+      "summary": "Once close enough for an acquisition, Stripe and Airwallex are now going after each other\nFor most of its life, Airwallex and Stripe have mostly operated in different geographies, selling to different buyers. That's changing."
     },
     {
       "title": "Sam Altman’s project World looks to scale its human verification empire. First stop: Tinder.",
@@ -153,14 +161,6 @@
       "source": "TechCrunch",
       "published": "Fri, 17 Apr 2026 19:17:26 +0000",
       "summary": "Sources: Cursor in talks to raise $2B+ at $50B valuation as enterprise growth surges\nReturning backers a16z and Thrive are expected to lead the round."
-    },
-    {
-      "title": "‘Tokenmaxxing’ is making developers less productive than they think",
-      "link": "https://techcrunch.com/2026/04/17/tokenmaxxing-is-making-developers-less-productive-than-they-think/",
-      "raw_summary": "There's a lot more code — but it's a lot more expensive and requires a lot more rewriting.",
-      "source": "TechCrunch",
-      "published": "Fri, 17 Apr 2026 18:42:45 +0000",
-      "summary": "‘Tokenmaxxing’ is making developers less productive than they think\nThere's a lot more code — but it's a lot more expensive and requires a lot more rewriting."
     },
     {
       "title": "US-sanctioned currency exchange says $15 million heist done by \"unfriendly states\"",
@@ -203,84 +203,100 @@
       "summary": "Satellite and drone images reveal big delays in US data center construction\nData centers face construction delays and energy bottleneck as resistance grows."
     },
     {
-      "title": "US extends waiver allowing countries to buy Russian oil",
-      "link": "https://www.ft.com/content/cdb6aaee-3cec-4456-8106-5c9279d02392",
-      "raw_summary": "US stocks head for their best month in six years on hopes of an end to the war",
+      "title": "Boom in UK ‘staycations’ as war puts holidaymakers off overseas travel",
+      "link": "https://www.ft.com/content/bb3a8410-bc2b-4f62-86c1-0fefc181f164",
+      "raw_summary": "Rise in domestic tourism could provide relief for rural hospitality businesses struggling with higher costs",
       "source": "World",
-      "published": "Sat, 18 Apr 2026 00:31:24 GMT",
-      "summary": "US extends waiver allowing countries to buy Russian oil\nUS stocks head for their best month in six years on hopes of an end to the war"
+      "published": "Sat, 18 Apr 2026 04:00:48 GMT",
+      "summary": "Boom in UK ‘staycations’ as war puts holidaymakers off overseas travel\nRise in domestic tourism could provide relief for rural hospitality businesses struggling with higher costs"
     },
     {
-      "title": "Inflation expectations are only crumbs of comfort for now",
-      "link": "https://www.ft.com/content/afd27624-caf2-40ee-8075-6aeddaf850d2",
-      "raw_summary": "Iran war’s impact has been larger on short-term expectations but 2022 serves as a cautionary tale",
+      "title": "London’s riverside properties tell conflicting stories about UK market",
+      "link": "https://www.ft.com/content/13d6ad20-f0b1-4e23-9c45-7c493592b45c",
+      "raw_summary": "Struggles to sell even in popular areas are a timely reminder of the challenges created by high interest rates",
       "source": "World",
-      "published": "Fri, 17 Apr 2026 22:59:34 GMT",
-      "summary": "Inflation expectations are only crumbs of comfort for now\nIran war’s impact has been larger on short-term expectations but 2022 serves as a cautionary tale"
+      "published": "Sat, 18 Apr 2026 04:00:48 GMT",
+      "summary": "London’s riverside properties tell conflicting stories about UK market\nStruggles to sell even in popular areas are a timely reminder of the challenges created by high interest rates"
     },
     {
-      "title": "Blue Owl co-founders no longer pledging shares for personal loans",
-      "link": "https://www.ft.com/content/a90dce4c-764c-4b72-8411-685479f46eed",
-      "raw_summary": "Doug Ostrover and Marc Lipschultz had committed firm equity worth more than $1.1bn last year as collateral",
+      "title": "Pope Leo XIV: the pontiff at war with the White House",
+      "link": "https://www.ft.com/content/8997f6b2-99b8-41db-b22e-67898ef87c25",
+      "raw_summary": "The Chicago-born pope has offered an alternative vision of Catholicism — and American power",
       "source": "World",
-      "published": "Fri, 17 Apr 2026 22:24:55 GMT",
-      "summary": "Blue Owl co-founders no longer pledging shares for personal loans\nDoug Ostrover and Marc Lipschultz had committed firm equity worth more than $1.1bn last year as collateral"
+      "published": "Sat, 18 Apr 2026 04:00:40 GMT",
+      "summary": "Pope Leo XIV: the pontiff at war with the White House\nThe Chicago-born pope has offered an alternative vision of Catholicism — and American power"
     },
     {
-      "title": "Anthropic CEO met White House chief of staff as US seeks access to Mythos model",
-      "link": "https://www.ft.com/content/c9f5b690-a10e-4c66-9245-017f8bfbc7b4",
-      "raw_summary": "Dario Amodei met with Susie Wiles despite lawsuits over whether AI lab is a national security threat",
+      "title": "Asha Bhosle, Bollywood singer, 1933-2026",
+      "link": "https://www.ft.com/content/e163d617-bbe8-4086-8ea0-a3a9d2ae05b6",
+      "raw_summary": "Her voice soothed, seduced and helped define the Indian nation over an eight-decade career",
       "source": "World",
-      "published": "Fri, 17 Apr 2026 22:10:14 GMT",
-      "summary": "Anthropic CEO met White House chief of staff as US seeks access to Mythos model\nDario Amodei met with Susie Wiles despite lawsuits over whether AI lab is a national security threat"
+      "published": "Sat, 18 Apr 2026 04:00:40 GMT",
+      "summary": "Asha Bhosle, Bollywood singer, 1933-2026\nHer voice soothed, seduced and helped define the Indian nation over an eight-decade career"
     },
     {
-      "title": "Months-old start-up Recursive raises $500mn for self-teaching AI",
-      "link": "https://www.ft.com/content/a92bf04b-bbac-400f-9554-5b1c70957ad4",
-      "raw_summary": "Group founded by former engineers at DeepMind and OpenAI secures $4bn valuation in deal with Google’s venture arm and Nvidia",
+      "title": "The return of Londonophobia",
+      "link": "https://www.ft.com/content/ba3b3ed8-4f6f-486e-aa8c-fbec8a87ffd6",
+      "raw_summary": "Reflections on an ancient prejudice",
       "source": "World",
-      "published": "Fri, 17 Apr 2026 21:10:31 GMT",
-      "summary": "Months-old start-up Recursive raises $500mn for self-teaching AI\nGroup founded by former engineers at DeepMind and OpenAI secures $4bn valuation in deal with Google’s venture arm and Nvidia"
+      "published": "Sat, 18 Apr 2026 04:00:40 GMT",
+      "summary": "The return of Londonophobia\nReflections on an ancient prejudice"
     },
     {
-      "title": "Australian Minister Says Fuel Reserves Up, More Shipments on Way",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-18/australian-minister-says-fuel-reserves-up-more-shipments-on-way",
-      "raw_summary": "Australia’s fuel reserves rose in the past week and more is on the way, Energy Minister Chris Bowen said, easing concern of shortages in the import-reliant country.",
+      "title": "Lufthansa’s 100th Birthday Bash Leaves Little Cause for Cheers",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-18/lufthansa-s-100th-birthday-bash-leaves-little-cause-for-cheers",
+      "raw_summary": "Deutsche Lufthansa AG’s 100th anniversary bash this week had all the elements of a picture-perfect party. The sun was out, flight attendants in polished vintage uniforms greeted guests, and Chief Executive Officer Carsten Spohr beamed on stage with German Chancellor Friedrich Merz.",
       "source": "Bloomberg Markets",
-      "published": "Sat, 18 Apr 2026 01:20:53 GMT",
-      "summary": "Australian Minister Says Fuel Reserves Up, More Shipments on Way\nAustralia’s fuel reserves rose in the past week and more is on the way, Energy Minister Chris Bowen said, easing concern of shortages in the import-reliant country."
+      "published": "Sat, 18 Apr 2026 06:00:00 GMT",
+      "summary": "Lufthansa’s 100th Birthday Bash Leaves Little Cause for Cheers\nDeutsche Lufthansa AG’s 100th anniversary bash this week had all the elements of a picture-perfect party. The sun was out, flight attendants in polished vintage uniforms greeted guests, and Chief Executive Officer Carsten Spohr beamed on"
     },
     {
-      "title": "LNG Ships Move Toward Hormuz After Iran Says Strait Is Open",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-17/empty-lng-tankers-attempt-hormuz-crossing-into-persian-gulf",
-      "raw_summary": "Several liquefied natural gas tankers appear to be nearing the Strait of Hormuz, raising hopes that flows of the super-chilled fuel through the waterway may resume after Iran said the strait was open.",
+      "title": "Bangladesh Continues Talks with IMF on Key Reforms Tied to Loan",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-18/bangladesh-continues-talks-with-imf-on-key-reforms-tied-to-loan",
+      "raw_summary": "Bangladesh said it will continue negotiating with the International Monetary Fund on key reforms the IMF has set as conditions for the balance of a $5.5 billion loan, with Finance Minister Amir Khosru Mahmud Chowdhury holding meetings in Washington with the global lender’s officials.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 17 Apr 2026 13:45:06 GMT",
-      "summary": "LNG Ships Move Toward Hormuz After Iran Says Strait Is Open\nSeveral liquefied natural gas tankers appear to be nearing the Strait of Hormuz, raising hopes that flows of the super-chilled fuel through the waterway may resume after Iran said the strait was open."
+      "published": "Sat, 18 Apr 2026 05:46:30 GMT",
+      "summary": "Bangladesh Continues Talks with IMF on Key Reforms Tied to Loan\nBangladesh said it will continue negotiating with the International Monetary Fund on key reforms the IMF has set as conditions for the balance of a $5.5 billion loan, with Finance Minister Amir Khosru Mahmud Chowdhury holding meetings i"
     },
     {
-      "title": "Fermi Shares Plunge After Announcing Departure of CEO",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-18/fermi-shares-plunge-after-announcing-departure-of-ceo",
-      "raw_summary": "Fermi shares fell as much as 31% in post-market trading after the developer behind a massive planned AI campus in Texas announced the immediate departure of co-founder and Chief Executive Officer Toby Neugebauer.",
+      "title": "Greek, Indian Tankers U-Turn Before Hormuz Amid Reopening Doubt",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-18/greek-indian-tankers-u-turn-before-hormuz-amid-reopening-doubt",
+      "raw_summary": "Several oil tankers have u-turned in the Persian Gulf after appearing to try to transit the Strait of Hormuz, as shipowners and oil traders remain in a state of disarray as they try to figure out whether Iran would stick to its promise to keep the chokepoint open for all.",
       "source": "Bloomberg Markets",
-      "published": "Sat, 18 Apr 2026 00:14:32 GMT",
-      "summary": "Fermi Shares Plunge After Announcing Departure of CEO\nFermi shares fell as much as 31% in post-market trading after the developer behind a massive planned AI campus in Texas announced the immediate departure of co-founder and Chief Executive Officer Toby Neugebauer."
+      "published": "Sat, 18 Apr 2026 05:12:54 GMT",
+      "summary": "Greek, Indian Tankers U-Turn Before Hormuz Amid Reopening Doubt\nSeveral oil tankers have u-turned in the Persian Gulf after appearing to try to transit the Strait of Hormuz, as shipowners and oil traders remain in a state of disarray as they try to figure out whether Iran would stick to its promise "
     },
     {
-      "title": "Wall Street Week | Paulson on Iran War, Energy Market Disruptions, Copper Supply Strain, Tax Debate",
-      "link": "https://www.bloomberg.com/news/videos/2026-04-17/wall-street-week-copper-supply-strain-us-tax-debate-video",
-      "raw_summary": "This week, Former Treasury Secretary Hank Paulson warns the biggest economic risk from the Iran war may come from global shocks spilling into US markets.  Plus, How rising demand for copper is outpacing supply, exposing gaps in US production and increasing reliance on imports. Later, are the wealthiest Americans paying their fair share, or does the tax system allow too much income to go untaxed? (Source: Bloomberg)",
+      "title": "Blaze Erupts at Russia’s Baltic Port After Ukraine Drone Attack",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-18/russia-said-fire-broke-out-at-baltic-port-after-drone-attack",
+      "raw_summary": "Russia said a fire broke out in the Port of Vysotsk area on the Baltic Sea after overnight Ukrainian drone attacks, while a strike on Ukraine’s northern region left 380,000 users without power.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 17 Apr 2026 23:15:17 GMT",
-      "summary": "Wall Street Week | Paulson on Iran War, Energy Market Disruptions, Copper Supply Strain, Tax Debate\nThis week, Former Treasury Secretary Hank Paulson warns the biggest economic risk from the Iran war may come from global shocks spilling into US markets.  Plus, How rising demand for copper is outpaci"
+      "published": "Sat, 18 Apr 2026 05:06:20 GMT",
+      "summary": "Blaze Erupts at Russia’s Baltic Port After Ukraine Drone Attack\nRussia said a fire broke out in the Port of Vysotsk area on the Baltic Sea after overnight Ukrainian drone attacks, while a strike on Ukraine’s northern region left 380,000 users without power."
     },
     {
-      "title": "Geothermal Power Firm Fervo Energy Files for IPO",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-17/geothermal-power-firm-fervo-files-for-initial-public-offering",
-      "raw_summary": "Fervo Energy Co. filed for an initial public offering, disclosing wider losses as it plans to start generating power from its first geothermal project in Utah later this year.",
+      "title": "UK Bears Scars to Economy, Trump Ties Even as War Risks Subside",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-18/uk-bears-scars-to-economy-trump-ties-even-as-war-risks-subside",
+      "raw_summary": "The UK economy and London’s relationship with Washington have taken significant blows that are likely to reverberate for months.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 17 Apr 2026 22:09:27 GMT",
-      "summary": "Geothermal Power Firm Fervo Energy Files for IPO\nFervo Energy Co. filed for an initial public offering, disclosing wider losses as it plans to start generating power from its first geothermal project in Utah later this year."
+      "published": "Sat, 18 Apr 2026 05:00:00 GMT",
+      "summary": "UK Bears Scars to Economy, Trump Ties Even as War Risks Subside\nThe UK economy and London’s relationship with Washington have taken significant blows that are likely to reverberate for months."
+    },
+    {
+      "title": "XRP leads majors with 8% weekly outperformance, what next after breakout",
+      "link": "https://www.coindesk.com/markets/2026/04/18/xrp-leads-majors-with-8-weekly-outperformance-what-next-after-breakout",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Sat, 18 Apr 2026 04:54:49 +0000",
+      "summary": "XRP leads majors with 8% weekly outperformance, what next after breakout\n"
+    },
+    {
+      "title": "How a quantum computer can be used to actually steal your bitcoin in '9 minutes'",
+      "link": "https://www.coindesk.com/tech/2026/04/18/how-a-quantum-computer-can-be-used-to-actually-steal-your-bitcoin-in-9-minutes",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Sat, 18 Apr 2026 03:51:35 +0000",
+      "summary": "How a quantum computer can be used to actually steal your bitcoin in '9 minutes'\n"
     },
     {
       "title": "Strategy proposes semi-monthly dividends on its popular STRC preferred stock",
@@ -305,22 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Fri, 17 Apr 2026 16:01:15 +0000",
       "summary": "Beaten-down digital asset treasury names lead crypto stock surge as bitcoin hits $78,000\n"
-    },
-    {
-      "title": "Don’t get AI agents and stablecoin transfers? Enroll in CoinDesk University",
-      "link": "https://www.coindesk.com/opinion/2026/04/17/don-t-get-ai-agents-and-stablecoin-transfers-enroll-in-coindesk-university",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 17 Apr 2026 15:29:03 +0000",
-      "summary": "Don’t get AI agents and stablecoin transfers? Enroll in CoinDesk University\n"
-    },
-    {
-      "title": "Back in the black: Strategy surges 8% as bitcoin's rise to $77,000 puts holdings in profit",
-      "link": "https://www.coindesk.com/markets/2026/04/17/strategy-back-in-profit-as-bitcoin-hits-two-and-a-half-month-high-above-usd76-300",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 17 Apr 2026 13:38:00 +0000",
-      "summary": "Back in the black: Strategy surges 8% as bitcoin's rise to $77,000 puts holdings in profit\n"
     }
   ]
 }
