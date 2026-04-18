@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T06:58:26.686609+00:00",
+  "generated_at": "2026-04-18T12:42:43.808298+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,22 @@
       "summary": "Feds Disrupt IoT Botnets Behind Huge DDoS Attacks\nThe U.S. Justice Department joined authorities in Canada and Germany in dismantling the online infrastructure behind four highly disruptive botnets that compromised more than three million hacked Internet of Things (IoT) devices, such as routers and "
     },
     {
+      "title": "[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data",
+      "link": "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
+      "raw_summary": "In 2024, compromised service accounts and forgotten API keys were behind 68% of cloud breaches. Not&nbsp;phishing. Not&nbsp;weak passwords. Unmanaged non-human identities that nobody was&nbsp;watching.\nFor every employee in your org, there are 40 to 50 automated credentials: service accounts, API tokens, AI agent connections,&nbsp;and OAuth grants. When&nbsp;projects end or employees leave, most",
+      "source": "The Hacker News",
+      "published": "Sat, 18 Apr 2026 13:37:00 +0530",
+      "summary": "[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data\nIn 2024, compromised service accounts and forgotten API keys were behind 68% of cloud breaches. Not&nbsp;phishing. Not&nbsp;weak passwords. Unmanaged non-human identities that nobody was&nbsp;watching.\nFor every employee in"
+    },
+    {
+      "title": "$13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims",
+      "link": "https://thehackernews.com/2026/04/1374m-hack-shuts-down-sanctioned-grinex.html",
+      "raw_summary": "Grinex, a Kyrgyzstan-incorporated cryptocurrency exchange sanctioned by the U.K. and the U.S. last year, said it's suspending operations after it blamed Western intelligence agencies for a $13.74 million hack.\nThe exchange said it fell victim to what it described as a large-scale cyber attack that bore hallmarks of foreign intelligence agency involvement. This attack led to the theft of over 1",
+      "source": "The Hacker News",
+      "published": "Sat, 18 Apr 2026 13:29:00 +0530",
+      "summary": "$13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims\nGrinex, a Kyrgyzstan-incorporated cryptocurrency exchange sanctioned by the U.K. and the U.S. last year, said it's suspending operations after it blamed Western intelligence agencies for a $13.74 million hack.\nThe exchange "
+    },
+    {
       "title": "Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet",
       "link": "https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html",
       "raw_summary": "Threat actors are exploiting security flaws in TBK DVR and end‑of‑life (EoL) TP-Link Wi-Fi routers to deploy Mirai-botnet variants on compromised devices, according to findings from Fortinet FortiGuard Labs and Palo Alto Networks Unit 42.\nThe attack targeting TBK DVR devices has been found to exploit CVE-2024-3721 (CVSS score: 6.3), a medium-severity command injection vulnerability affecting",
@@ -67,60 +83,44 @@
       "summary": "Google Blocks 8.3B Policy-Violating Ads in 2025, Launches Android 17 Privacy Overhaul\nGoogle this week announced a new set of Play policy updates to strengthen user privacy and protect businesses against fraud, even as it revealed it blocked or removed over 8.3 billion ads globally and suspended 24."
     },
     {
-      "title": "NIST Limits CVE Enrichment After 263% Surge in Vulnerability Submissions",
-      "link": "https://thehackernews.com/2026/04/nist-limits-cve-enrichment-after-263.html",
-      "raw_summary": "The National Institute of Standards and Technology (NIST) has announced changes to the way it handles cybersecurity vulnerabilities and exposures (CVEs) listed in its National Vulnerability Database (NVD), stating it will only enrich those that fulfil certain conditions owing to an explosion in CVE submissions.\n\"CVEs that do not meet those criteria will still be listed in the NVD but will not",
-      "source": "The Hacker News",
-      "published": "Fri, 17 Apr 2026 12:44:00 +0530",
-      "summary": "NIST Limits CVE Enrichment After 263% Surge in Vulnerability Submissions\nThe National Institute of Standards and Technology (NIST) has announced changes to the way it handles cybersecurity vulnerabilities and exposures (CVEs) listed in its National Vulnerability Database (NVD), stating it will only "
-    },
-    {
-      "title": "Operation PowerOFF Seizes 53 DDoS Domains, Exposes 3 Million Criminal Accounts",
-      "link": "https://thehackernews.com/2026/04/operation-poweroff-seizes-53-ddos.html",
-      "raw_summary": "An international law enforcement operation has taken down 53 domains and arrested four people in connection with commercial distributed denial-of-service (DDoS) operations that were used by more than 75,000 cybercriminals.\nThe ongoing effort, dubbed Operation PowerOFF, disrupted access to the DDoS-for-hire services, took down the technical infrastructure supporting them, and obtained access to",
-      "source": "The Hacker News",
-      "published": "Fri, 17 Apr 2026 11:16:00 +0530",
-      "summary": "Operation PowerOFF Seizes 53 DDoS Domains, Exposes 3 Million Criminal Accounts\nAn international law enforcement operation has taken down 53 domains and arrested four people in connection with commercial distributed denial-of-service (DDoS) operations that were used by more than 75,000 cybercriminals"
-    },
-    {
-      "title": "Show HN: I made a calculator that works over disjoint sets of intervals",
-      "link": "https://victorpoughon.github.io/interval-calculator/",
-      "raw_summary": "<p>I've been studying interval arithmetic for the past few weeks and it's a really interesting field because while there is a ton of super interesting research published over the past decades, it has never really gotten the recognition that it deserves, IMO.<p>One reason for this is that standard interval arithmetic has really poor handling of division by intervals containing zero. If you compute 1 / [-1, 2] in regular interval arithmetic, you get either [-∞, +∞], or you have to say that the operation is undefined. Both solutions are virtually useless. The real answer of course is [-∞, -1] U [0.5, +∞]: i.e. a union of two disjoint intervals.<p>This is useful because you can confidently exclude a non empty set of the real numbers ([-1, 0.5]) from the set of possible values that you can get by dividing 1 by a number between -1 and 2.<p>But this definition of interval division yields a value that is not an interval. This is a problem if you want to define a closed arithmetic system, where you can build and evaluate arbitrary expression over interval values.<p>(This behavior extends to any non continuous function like tan() for example, which is implemented in my project - not without difficulties!)<p>Well the obvious solution is to define your arithmetic over disjoint unions of intervals. This is the subject of a 2017 paper called \"Interval Unions\" by by Schichl, H., Domes, F., Montanher, T. and Kofler, K..<p>This open-source project I made implements interval union arithmetic in TypeScript in the form of a simple interactive calculator, so you can try it out for yourself! The underlying TypeScript library is dependency free and implements interval union arithmetic over IEEE 754 double precision floats (JS native number type) with outward rounding. This guarantees accuracy of interval results in the presence of rounding issue inherent to floating point.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47812341\">https://news.ycombinator.com/item?id=47812341</a></p>\n<p>Points: 89</p>\n<p># Comments: 8</p>",
+      "title": "The quiet disappearance of the free-range childhood",
+      "link": "https://bigthink.com/mind-behavior/the-quiet-disappearance-of-the-free-range-childhood/",
+      "raw_summary": "<p>Article URL: <a href=\"https://bigthink.com/mind-behavior/the-quiet-disappearance-of-the-free-range-childhood/\">https://bigthink.com/mind-behavior/the-quiet-disappearance-of-the-free-range-childhood/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47815127\">https://news.ycombinator.com/item?id=47815127</a></p>\n<p>Points: 18</p>\n<p># Comments: 6</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 18 Apr 2026 01:15:43 +0000",
-      "summary": "Show HN: I made a calculator that works over disjoint sets of intervals\n<p>I've been studying interval arithmetic for the past few weeks and it's a really interesting field because while there is a ton of super interesting research published over the past decades, it has never really gotten the reco"
+      "published": "Sat, 18 Apr 2026 11:43:57 +0000",
+      "summary": "The quiet disappearance of the free-range childhood\n<p>Article URL: <a href=\"https://bigthink.com/mind-behavior/the-quiet-disappearance-of-the-free-range-childhood/\">https://bigthink.com/mind-behavior/the-quiet-disappearance-of-the-free-range-childhood/</a></p>\n<p>Comments URL: <a href=\"https://news"
     },
     {
-      "title": "Casus Belli Engineering",
-      "link": "https://marcosmagueta.com/blog/casus-belli-engineering/",
-      "raw_summary": "<p>Article URL: <a href=\"https://marcosmagueta.com/blog/casus-belli-engineering/\">https://marcosmagueta.com/blog/casus-belli-engineering/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47812331\">https://news.ycombinator.com/item?id=47812331</a></p>\n<p>Points: 27</p>\n<p># Comments: 5</p>",
+      "title": "State of Kdenlive",
+      "link": "https://kdenlive.org/news/2026/state-2026/",
+      "raw_summary": "<p>Article URL: <a href=\"https://kdenlive.org/news/2026/state-2026/\">https://kdenlive.org/news/2026/state-2026/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47815118\">https://news.ycombinator.com/item?id=47815118</a></p>\n<p>Points: 19</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 18 Apr 2026 01:14:02 +0000",
-      "summary": "Casus Belli Engineering\n<p>Article URL: <a href=\"https://marcosmagueta.com/blog/casus-belli-engineering/\">https://marcosmagueta.com/blog/casus-belli-engineering/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47812331\">https://news.ycombinator.com/item?id=47812331</a></p>\n<p>"
+      "published": "Sat, 18 Apr 2026 11:42:37 +0000",
+      "summary": "State of Kdenlive\n<p>Article URL: <a href=\"https://kdenlive.org/news/2026/state-2026/\">https://kdenlive.org/news/2026/state-2026/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47815118\">https://news.ycombinator.com/item?id=47815118</a></p>\n<p>Points: 19</p>\n<p># Comments: 4<"
     },
     {
-      "title": "Landmark ancient-genome study shows surprise acceleration of human evolution",
-      "link": "https://www.nature.com/articles/d41586-026-01204-5",
-      "raw_summary": "<p>Related: <i>Ancient DNA reveals pervasive directional selection across West Eurasia [pdf]</i> - <a href=\"https://news.ycombinator.com/item?id=47791282\">https://news.ycombinator.com/item?id=47791282</a> (64 comments)<p><a href=\"https://x.com/doctorveera/status/2044679999450664967\" rel=\"nofollow\">https://x.com/doctorveera/status/2044679999450664967</a> (<a href=\"https://xcancel.com/doctorveera/status/2044679999450664967\" rel=\"nofollow\">https://xcancel.com/doctorveera/status/2044679999450664967</a>)</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47811283\">https://news.ycombinator.com/item?id=47811283</a></p>\n<p>Points: 67</p>\n<p># Comments: 61</p>",
+      "title": "Claude Code Opus 4.7 keeps checking on malware",
+      "link": "https://news.ycombinator.com/item?id=47814832",
+      "raw_summary": "<p>So during development, at every task I start, I see a line like this:<p>`Own bug file — not malware.`<p>It seems that it's obsessively checking if it's working on malware production.<p>In another situation where I was working on a parser of a HTML document with JS, it refused because it believed that I was bypassing security measurements.<p>I believe AI has to be supportive in the work that I'm doing. When it's obsessively checking me if I am doing anything wrong or abusing the system, I have the feeling it is controlling me. I understand that we do have guardrails and I also understand that it's very important that people do not abuse this new tech for bad stuff.<p>I pay $200 per month for a max subscription. They already know who I am. Claude knows I work in scraper tech, and it also knows that our clients are the companies we scrape.<p>Now with Opus 4.7, I've had a situation that it refused to continue because I asked to automate the cookie creation with a Chrome extension.<p>In a situation where someone is abusing the system, let's say create malware or hacking stuff with bad intentions. I can imagine there will be some signal system or algorithm that can form an opinion about the intentions that someone has. But now that the AI is limiting me in my work, I feel a little bit disrupted. Who the hell does this system think he is to limit me?<p>Am I going to accept this in the future? That a system will tell me that I cannot continue because I don't have sufficient rights or beliefs that I'm doing anything wrong.<p>I can work fine on the local AI on my Blackwell GPU. But of course, I want to use the latest tech, the latest AI and the best models available. Is this the beginning of a split? Where good people and naughty people make different choices? Am I the bad guy now?<p>Last year I passed 40. I grew up reading, talking about Kevin Mitnick. I was a member of a local computer club. Hacking stuff as a 14-year-old kid who did not have intentions to break anything but to outsmart systems. Is that area gone now? Is the newer generation going to accept that they have to please the AI?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47814832\">https://news.ycombinator.com/item?id=47814832</a></p>\n<p>Points: 34</p>\n<p># Comments: 32</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 17 Apr 2026 22:30:28 +0000",
-      "summary": "Landmark ancient-genome study shows surprise acceleration of human evolution\n<p>Related: <i>Ancient DNA reveals pervasive directional selection across West Eurasia [pdf]</i> - <a href=\"https://news.ycombinator.com/item?id=47791282\">https://news.ycombinator.com/item?id=47791282</a> (64 comments)<p><a"
+      "published": "Sat, 18 Apr 2026 10:46:17 +0000",
+      "summary": "Claude Code Opus 4.7 keeps checking on malware\n<p>So during development, at every task I start, I see a line like this:<p>`Own bug file — not malware.`<p>It seems that it's obsessively checking if it's working on malware production.<p>In another situation where I was working on a parser of a HTML do"
     },
     {
-      "title": "A simplified model of Fil-C",
-      "link": "https://www.corsix.org/content/simplified-model-of-fil-c",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.corsix.org/content/simplified-model-of-fil-c\">https://www.corsix.org/content/simplified-model-of-fil-c</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47810872\">https://news.ycombinator.com/item?id=47810872</a></p>\n<p>Points: 155</p>\n<p># Comments: 78</p>",
+      "title": "Category Theory Illustrated – Orders",
+      "link": "https://abuseofnotation.github.io/category-theory-illustrated/04_order/",
+      "raw_summary": "<p>Article URL: <a href=\"https://abuseofnotation.github.io/category-theory-illustrated/04_order/\">https://abuseofnotation.github.io/category-theory-illustrated/04_order/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47813668\">https://news.ycombinator.com/item?id=47813668</a></p>\n<p>Points: 127</p>\n<p># Comments: 35</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 17 Apr 2026 21:38:20 +0000",
-      "summary": "A simplified model of Fil-C\n<p>Article URL: <a href=\"https://www.corsix.org/content/simplified-model-of-fil-c\">https://www.corsix.org/content/simplified-model-of-fil-c</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47810872\">https://news.ycombinator.com/item?id=47810872</a></"
+      "published": "Sat, 18 Apr 2026 06:40:47 +0000",
+      "summary": "Category Theory Illustrated – Orders\n<p>Article URL: <a href=\"https://abuseofnotation.github.io/category-theory-illustrated/04_order/\">https://abuseofnotation.github.io/category-theory-illustrated/04_order/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47813668\">https://news"
     },
     {
-      "title": "Arc Prize Foundation (YC W26) Is Hiring a Platform Engineer for ARC-AGI-4",
-      "link": "https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead\">https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47810507\">https://news.ycombinator.com/item?id=47810507</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
+      "title": "Amiga Graphics",
+      "link": "https://amiga.lychesis.net/",
+      "raw_summary": "<p>Article URL: <a href=\"https://amiga.lychesis.net/\">https://amiga.lychesis.net/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47813566\">https://news.ycombinator.com/item?id=47813566</a></p>\n<p>Points: 134</p>\n<p># Comments: 21</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 17 Apr 2026 21:00:08 +0000",
-      "summary": "Arc Prize Foundation (YC W26) Is Hiring a Platform Engineer for ARC-AGI-4\n<p>Article URL: <a href=\"https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead\">https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-bench"
+      "published": "Sat, 18 Apr 2026 06:20:04 +0000",
+      "summary": "Amiga Graphics\n<p>Article URL: <a href=\"https://amiga.lychesis.net/\">https://amiga.lychesis.net/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47813566\">https://news.ycombinator.com/item?id=47813566</a></p>\n<p>Points: 134</p>\n<p># Comments: 21</p>"
     },
     {
       "title": "Once close enough for an acquisition, Stripe and Airwallex are now going after each other",
@@ -163,6 +163,14 @@
       "summary": "Sources: Cursor in talks to raise $2B+ at $50B valuation as enterprise growth surges\nReturning backers a16z and Thrive are expected to lead the round."
     },
     {
+      "title": "Great white sharks are overheating",
+      "link": "https://arstechnica.com/science/2026/04/great-white-sharks-are-overheating/",
+      "raw_summary": "The sharks might also be the most physiologically vulnerable to warming waters.",
+      "source": "Ars Technica - All content",
+      "published": "Sat, 18 Apr 2026 11:07:59 +0000",
+      "summary": "Great white sharks are overheating\nThe sharks might also be the most physiologically vulnerable to warming waters."
+    },
+    {
       "title": "US-sanctioned currency exchange says $15 million heist done by \"unfriendly states\"",
       "link": "https://arstechnica.com/security/2026/04/russia-friendly-exchange-says-western-special-service-behind-15-million-cyberattack/",
       "raw_summary": "Grinex says needed hacking resources \"available exclusively to ... unfriendly states.\"",
@@ -195,92 +203,100 @@
       "summary": "$25,000 buys plenty of used EVs: Here are some options\nIs $20,000–$25,000 a sweet spot for secondhand electric cars? We think so."
     },
     {
-      "title": "Satellite and drone images reveal big delays in US data center construction",
-      "link": "https://arstechnica.com/ai/2026/04/construction-delays-hit-40-of-us-data-centers-planned-for-2026/",
-      "raw_summary": "Data centers face construction delays and energy bottleneck as resistance grows.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 17 Apr 2026 18:08:25 +0000",
-      "summary": "Satellite and drone images reveal big delays in US data center construction\nData centers face construction delays and energy bottleneck as resistance grows."
-    },
-    {
-      "title": "Boom in UK ‘staycations’ as war puts holidaymakers off overseas travel",
-      "link": "https://www.ft.com/content/bb3a8410-bc2b-4f62-86c1-0fefc181f164",
-      "raw_summary": "Rise in domestic tourism could provide relief for rural hospitality businesses struggling with higher costs",
+      "title": "Counterterror police investigate fourth incident claimed by Iran-linked group",
+      "link": "https://www.ft.com/content/b29e18db-372b-41a4-9cfe-bf9311ff95aa",
+      "raw_summary": "Previously unknown organisation has claimed responsibility for attacks on Jewish targets and Iranian dissidents across Europe",
       "source": "World",
-      "published": "Sat, 18 Apr 2026 04:00:48 GMT",
-      "summary": "Boom in UK ‘staycations’ as war puts holidaymakers off overseas travel\nRise in domestic tourism could provide relief for rural hospitality businesses struggling with higher costs"
+      "published": "Sat, 18 Apr 2026 12:17:30 GMT",
+      "summary": "Counterterror police investigate fourth incident claimed by Iran-linked group\nPreviously unknown organisation has claimed responsibility for attacks on Jewish targets and Iranian dissidents across Europe"
     },
     {
-      "title": "London’s riverside properties tell conflicting stories about UK market",
-      "link": "https://www.ft.com/content/13d6ad20-f0b1-4e23-9c45-7c493592b45c",
-      "raw_summary": "Struggles to sell even in popular areas are a timely reminder of the challenges created by high interest rates",
+      "title": "Iran claims ‘strict control’ of Strait of Hormuz and says it will not be fully reopened",
+      "link": "https://www.ft.com/content/b45b0ebe-7f8c-40f3-a804-303aba404e22",
+      "raw_summary": "Tehran says Donald Trump ‘raised seven claims in one hour and all seven were false’",
       "source": "World",
-      "published": "Sat, 18 Apr 2026 04:00:48 GMT",
-      "summary": "London’s riverside properties tell conflicting stories about UK market\nStruggles to sell even in popular areas are a timely reminder of the challenges created by high interest rates"
+      "published": "Sat, 18 Apr 2026 12:06:04 GMT",
+      "summary": "Iran claims ‘strict control’ of Strait of Hormuz and says it will not be fully reopened\nTehran says Donald Trump ‘raised seven claims in one hour and all seven were false’"
     },
     {
-      "title": "Pope Leo XIV: the pontiff at war with the White House",
-      "link": "https://www.ft.com/content/8997f6b2-99b8-41db-b22e-67898ef87c25",
-      "raw_summary": "The Chicago-born pope has offered an alternative vision of Catholicism — and American power",
+      "title": "Economic pain from Iran war will hit poor countries hardest, officials say",
+      "link": "https://www.ft.com/content/4e163a6e-c151-47da-9e3a-35ce5cd0dd06",
+      "raw_summary": "IMF/World Bank spring meetings hear warnings that some developing countries may require additional lending",
       "source": "World",
-      "published": "Sat, 18 Apr 2026 04:00:40 GMT",
-      "summary": "Pope Leo XIV: the pontiff at war with the White House\nThe Chicago-born pope has offered an alternative vision of Catholicism — and American power"
+      "published": "Sat, 18 Apr 2026 11:00:09 GMT",
+      "summary": "Economic pain from Iran war will hit poor countries hardest, officials say\nIMF/World Bank spring meetings hear warnings that some developing countries may require additional lending"
     },
     {
-      "title": "Asha Bhosle, Bollywood singer, 1933-2026",
-      "link": "https://www.ft.com/content/e163d617-bbe8-4086-8ea0-a3a9d2ae05b6",
-      "raw_summary": "Her voice soothed, seduced and helped define the Indian nation over an eight-decade career",
+      "title": "Trump family’s World Liberty crypto venture faces investor backlash",
+      "link": "https://www.ft.com/content/ac47ca32-e526-4a5a-bb30-5b3efebe8e0d",
+      "raw_summary": "WLFI has fallen after the disclosure of a loan linked to the token and criticism from one of its biggest backers",
       "source": "World",
-      "published": "Sat, 18 Apr 2026 04:00:40 GMT",
-      "summary": "Asha Bhosle, Bollywood singer, 1933-2026\nHer voice soothed, seduced and helped define the Indian nation over an eight-decade career"
+      "published": "Sat, 18 Apr 2026 11:00:09 GMT",
+      "summary": "Trump family’s World Liberty crypto venture faces investor backlash\nWLFI has fallen after the disclosure of a loan linked to the token and criticism from one of its biggest backers"
     },
     {
-      "title": "The return of Londonophobia",
-      "link": "https://www.ft.com/content/ba3b3ed8-4f6f-486e-aa8c-fbec8a87ffd6",
-      "raw_summary": "Reflections on an ancient prejudice",
+      "title": "The battles ahead for Hungary’s new prime minister",
+      "link": "https://www.ft.com/content/ed5bf3a2-78ed-42d8-8b86-f7f5b3a55ee9",
+      "raw_summary": "New government must establish rule of law to secure trust of citizens — and billions in development aid",
       "source": "World",
-      "published": "Sat, 18 Apr 2026 04:00:40 GMT",
-      "summary": "The return of Londonophobia\nReflections on an ancient prejudice"
+      "published": "Sat, 18 Apr 2026 10:00:09 GMT",
+      "summary": "The battles ahead for Hungary’s new prime minister\nNew government must establish rule of law to secure trust of citizens — and billions in development aid"
     },
     {
-      "title": "Lufthansa’s 100th Birthday Bash Leaves Little Cause for Cheers",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-18/lufthansa-s-100th-birthday-bash-leaves-little-cause-for-cheers",
-      "raw_summary": "Deutsche Lufthansa AG’s 100th anniversary bash this week had all the elements of a picture-perfect party. The sun was out, flight attendants in polished vintage uniforms greeted guests, and Chief Executive Officer Carsten Spohr beamed on stage with German Chancellor Friedrich Merz.",
+      "title": "Stocks Jump in Face of Uncertainty Over Strait of Hormuz",
+      "link": "https://www.bloomberg.com/news/videos/2026-04-18/stocks-jump-in-face-of-uncertainty-over-strait-of-hormuz-video",
+      "raw_summary": "A ceasefire between Israel and Hezbollah in Lebanon and news that Iran allegedly decided to reopen the Strait of Hormuz to commercial shipping sent risky assets surging anew on Friday. This surge extended a rally that pushed the S&amp;P 500 to a fresh record and fueling its biggest monthly advance since 2020. Bloomberg TV Anchor Dani Burger and Bloomberg Intelligence Senior Commodity Strategist Mike McGlone join David Gura and Christina Ruffini on Bloomberg This Weekend to discuss. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Sat, 18 Apr 2026 06:00:00 GMT",
-      "summary": "Lufthansa’s 100th Birthday Bash Leaves Little Cause for Cheers\nDeutsche Lufthansa AG’s 100th anniversary bash this week had all the elements of a picture-perfect party. The sun was out, flight attendants in polished vintage uniforms greeted guests, and Chief Executive Officer Carsten Spohr beamed on"
+      "published": "Sat, 18 Apr 2026 12:26:06 GMT",
+      "summary": "Stocks Jump in Face of Uncertainty Over Strait of Hormuz\nA ceasefire between Israel and Hezbollah in Lebanon and news that Iran allegedly decided to reopen the Strait of Hormuz to commercial shipping sent risky assets surging anew on Friday. This surge extended a rally that pushed the S&amp;P 500 to"
     },
     {
-      "title": "Bangladesh Continues Talks with IMF on Key Reforms Tied to Loan",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-18/bangladesh-continues-talks-with-imf-on-key-reforms-tied-to-loan",
-      "raw_summary": "Bangladesh said it will continue negotiating with the International Monetary Fund on key reforms the IMF has set as conditions for the balance of a $5.5 billion loan, with Finance Minister Amir Khosru Mahmud Chowdhury holding meetings in Washington with the global lender’s officials.",
+      "title": "Hormuz Chaos, Lebanon Clashes Undermine Trump Peace Deal Hopes",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-18/chaos-erupts-in-hormuz-after-trump-claimed-iran-deal-is-imminent-mo48sbi2",
+      "raw_summary": "Iran on Saturday reimposed restrictions on vessel traffic through the Strait of Hormuz and Israel attacked targets in Lebanon, undermining expectations of an imminent peace deal touted by US President Donald Trump.",
       "source": "Bloomberg Markets",
-      "published": "Sat, 18 Apr 2026 05:46:30 GMT",
-      "summary": "Bangladesh Continues Talks with IMF on Key Reforms Tied to Loan\nBangladesh said it will continue negotiating with the International Monetary Fund on key reforms the IMF has set as conditions for the balance of a $5.5 billion loan, with Finance Minister Amir Khosru Mahmud Chowdhury holding meetings i"
+      "published": "Sat, 18 Apr 2026 11:15:56 GMT",
+      "summary": "Hormuz Chaos, Lebanon Clashes Undermine Trump Peace Deal Hopes\nIran on Saturday reimposed restrictions on vessel traffic through the Strait of Hormuz and Israel attacked targets in Lebanon, undermining expectations of an imminent peace deal touted by US President Donald Trump."
     },
     {
-      "title": "Greek, Indian Tankers U-Turn Before Hormuz Amid Reopening Doubt",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-18/greek-indian-tankers-u-turn-before-hormuz-amid-reopening-doubt",
-      "raw_summary": "Several oil tankers have u-turned in the Persian Gulf after appearing to try to transit the Strait of Hormuz, as shipowners and oil traders remain in a state of disarray as they try to figure out whether Iran would stick to its promise to keep the chokepoint open for all.",
+      "title": "Hank Paulson on Iran War, Inflation, and Market Risk",
+      "link": "https://www.bloomberg.com/news/videos/2026-04-18/hank-paulson-on-iran-war-inflation-and-market-risk-video",
+      "raw_summary": "The war in Iran is putting pressure on global energy markets, but its broader economic impact could be even farther-reaching. Former US Treasury Secretary Hank Paulson says the conflict is likely to push inflation higher, keep interest rates elevated, and strain industries from airlines to agriculture. At the same time, Paulson highlights rising sovereign debt and a fragile US-China relationship as key vulnerabilities, arguing that while the US economy remains resilient, the longer-term risks are mounting. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Sat, 18 Apr 2026 05:12:54 GMT",
-      "summary": "Greek, Indian Tankers U-Turn Before Hormuz Amid Reopening Doubt\nSeveral oil tankers have u-turned in the Persian Gulf after appearing to try to transit the Strait of Hormuz, as shipowners and oil traders remain in a state of disarray as they try to figure out whether Iran would stick to its promise "
+      "published": "Sat, 18 Apr 2026 12:04:16 GMT",
+      "summary": "Hank Paulson on Iran War, Inflation, and Market Risk\nThe war in Iran is putting pressure on global energy markets, but its broader economic impact could be even farther-reaching. Former US Treasury Secretary Hank Paulson says the conflict is likely to push inflation higher, keep interest rates eleva"
     },
     {
-      "title": "Blaze Erupts at Russia’s Baltic Port After Ukraine Drone Attack",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-18/russia-said-fire-broke-out-at-baltic-port-after-drone-attack",
-      "raw_summary": "Russia said a fire broke out in the Port of Vysotsk area on the Baltic Sea after overnight Ukrainian drone attacks, while a strike on Ukraine’s northern region left 380,000 users without power.",
+      "title": "Hank Paulson Says the US Will Weather Iran War Fallout Better Than Anyone Else",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-04-18/hank-paulson-says-the-us-will-weather-iran-war-fallout-better-than-anyone-else",
+      "raw_summary": "The former Treasury Secretary says the US will weather fallout from the war better than anyone",
       "source": "Bloomberg Markets",
-      "published": "Sat, 18 Apr 2026 05:06:20 GMT",
-      "summary": "Blaze Erupts at Russia’s Baltic Port After Ukraine Drone Attack\nRussia said a fire broke out in the Port of Vysotsk area on the Baltic Sea after overnight Ukrainian drone attacks, while a strike on Ukraine’s northern region left 380,000 users without power."
+      "published": "Sat, 18 Apr 2026 12:00:00 GMT",
+      "summary": "Hank Paulson Says the US Will Weather Iran War Fallout Better Than Anyone Else\nThe former Treasury Secretary says the US will weather fallout from the war better than anyone"
     },
     {
-      "title": "UK Bears Scars to Economy, Trump Ties Even as War Risks Subside",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-18/uk-bears-scars-to-economy-trump-ties-even-as-war-risks-subside",
-      "raw_summary": "The UK economy and London’s relationship with Washington have taken significant blows that are likely to reverberate for months.",
+      "title": "Iran Says Strait of Hormuz is Shut Amid Reports of Gunfire",
+      "link": "https://www.bloomberg.com/news/videos/2026-04-18/strait-of-hormuz-shut-amid-reports-of-gunfire-video",
+      "raw_summary": "Iran broadcast to ships in the Strait of Hormuz that the vital oil and gas channel is closed to maritime traffic again, with owners reporting gunfire in the waterway less than 24 hours after the nation’s foreign minister declared it open. Bloomberg News White House Correspondent Jeff Mason, Jerusalem Reporter Dan Williams and The Associated Press' International Correspondent Philip Crowther join David Gura and Christina Ruffini on Bloomberg This Weekend to discuss. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Sat, 18 Apr 2026 05:00:00 GMT",
-      "summary": "UK Bears Scars to Economy, Trump Ties Even as War Risks Subside\nThe UK economy and London’s relationship with Washington have taken significant blows that are likely to reverberate for months."
+      "published": "Sat, 18 Apr 2026 11:47:13 GMT",
+      "summary": "Iran Says Strait of Hormuz is Shut Amid Reports of Gunfire\nIran broadcast to ships in the Strait of Hormuz that the vital oil and gas channel is closed to maritime traffic again, with owners reporting gunfire in the waterway less than 24 hours after the nation’s foreign minister declared it open. Bl"
+    },
+    {
+      "title": "Former UK Prime Minister sees economy on 'very negative trajectory,' indicates support for bitcoin",
+      "link": "https://www.coindesk.com/markets/2026/04/18/former-uk-prime-minister-sees-economy-on-very-negative-trajectory-indicates-support-for-bitcoin",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Sat, 18 Apr 2026 12:00:00 +0000",
+      "summary": "Former UK Prime Minister sees economy on 'very negative trajectory,' indicates support for bitcoin\n"
+    },
+    {
+      "title": "Bitcoin falls back to $76,000 as Iran shuts Hormuz again",
+      "link": "https://www.coindesk.com/markets/2026/04/18/bearish-bets-lose-usd593-million-as-bitcoin-jumps-with-iran-fully-opening-hormuz",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Sat, 18 Apr 2026 05:04:12 +0000",
+      "summary": "Bitcoin falls back to $76,000 as Iran shuts Hormuz again\n"
     },
     {
       "title": "XRP leads majors with 8% weekly outperformance, what next after breakout",
@@ -305,22 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Fri, 17 Apr 2026 20:32:55 +0000",
       "summary": "Strategy proposes semi-monthly dividends on its popular STRC preferred stock\n"
-    },
-    {
-      "title": "Sam Altman’s World project launches major upgrade to fight deepfakes and bots",
-      "link": "https://www.coindesk.com/tech/2026/04/17/sam-altman-s-world-project-launches-major-upgrade-to-fight-deepfakes-and-bots",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 17 Apr 2026 17:50:27 +0000",
-      "summary": "Sam Altman’s World project launches major upgrade to fight deepfakes and bots\n"
-    },
-    {
-      "title": "Beaten-down digital asset treasury names lead crypto stock surge as bitcoin hits $78,000",
-      "link": "https://www.coindesk.com/markets/2026/04/17/beaten-down-digital-asset-treasury-names-lead-crypto-stock-surge-as-bitcoin-hits-usd78-000",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 17 Apr 2026 16:01:15 +0000",
-      "summary": "Beaten-down digital asset treasury names lead crypto stock surge as bitcoin hits $78,000\n"
     }
   ]
 }
