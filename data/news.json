@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T18:37:42.785166+00:00",
+  "generated_at": "2026-04-20T01:58:36.428220+00:00",
   "count": 40,
   "articles": [
     {
@@ -83,44 +83,76 @@
       "summary": "Google Blocks 8.3B Policy-Violating Ads in 2025, Launches Android 17 Privacy Overhaul\nGoogle this week announced a new set of Play policy updates to strengthen user privacy and protect businesses against fraud, even as it revealed it blocked or removed over 8.3 billion ads globally and suspended 24."
     },
     {
-      "title": "Show HN: Faceoff – A terminal UI for following NHL games",
-      "link": "https://www.vincentgregoire.com/faceoff/",
-      "raw_summary": "<p>Faceoff is a TUI app written in Python to follow live NHL games and browse standings and stats. I got the inspiration from Playball, a similar TUI app for MLB games that was featured on HN.<p>The app was mostly vibe-coded with Claude Code, but not one-shot. I added features and fixed bugs by using it, as I spent way too much time in the terminal over the last few months.<p>Try it out with `uvx faceoff` (requires uv).</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47826104\">https://news.ycombinator.com/item?id=47826104</a></p>\n<p>Points: 15</p>\n<p># Comments: 3</p>",
+      "title": "Show HN: TRELLIS.2 image-to-3D running on Mac Silicon – no Nvidia GPU needed",
+      "link": "https://github.com/shivampkumar/trellis-mac",
+      "raw_summary": "<p>I ported Microsoft's TRELLIS.2 (4B parameter image-to-3D model) to run on Apple Silicon via PyTorch MPS. The original requires CUDA with flash_attn, nvdiffrast, and custom sparse convolution kernels:  none of which work on Mac.<p>I replaced the CUDA-specific ops with pure-PyTorch alternatives: a gather-scatter sparse 3D convolution, SDPA attention for sparse transformers, and a Python-based mesh extraction replacing CUDA hashmap operations. Total changes are a few hundred lines across 9 files.<p>Generates ~400K vertex meshes from single photos in about 3.5 minutes on M4 Pro (24GB). Not as fast as H100 (where it takes seconds), but it works offline with no cloud dependency.<p><a href=\"https://github.com/shivampkumar/trellis-mac\" rel=\"nofollow\">https://github.com/shivampkumar/trellis-mac</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47828896\">https://news.ycombinator.com/item?id=47828896</a></p>\n<p>Points: 33</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 19 Apr 2026 17:44:44 +0000",
-      "summary": "Show HN: Faceoff – A terminal UI for following NHL games\n<p>Faceoff is a TUI app written in Python to follow live NHL games and browse standings and stats. I got the inspiration from Playball, a similar TUI app for MLB games that was featured on HN.<p>The app was mostly vibe-coded with Claude Code, "
+      "published": "Mon, 20 Apr 2026 00:07:16 +0000",
+      "summary": "Show HN: TRELLIS.2 image-to-3D running on Mac Silicon – no Nvidia GPU needed\n<p>I ported Microsoft's TRELLIS.2 (4B parameter image-to-3D model) to run on Apple Silicon via PyTorch MPS. The original requires CUDA with flash_attn, nvdiffrast, and custom sparse convolution kernels:  none of which work "
     },
     {
-      "title": "Turtle WoW classic server announces shutdown after Blizzard wins injunction",
-      "link": "https://www.pcgamer.com/games/world-of-warcraft/turtle-wow-classic-server-announces-shutdown-after-blizzard-wins-injunction/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.pcgamer.com/games/world-of-warcraft/turtle-wow-classic-server-announces-shutdown-after-blizzard-wins-injunction/\">https://www.pcgamer.com/games/world-of-warcraft/turtle-wow-classic-server-announces-shutdown-after-blizzard-wins-injunction/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47825160\">https://news.ycombinator.com/item?id=47825160</a></p>\n<p>Points: 74</p>\n<p># Comments: 51</p>",
+      "title": "Swiss AI Initiative (2023)",
+      "link": "https://www.swiss-ai.org",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.swiss-ai.org\">https://www.swiss-ai.org</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47828444\">https://news.ycombinator.com/item?id=47828444</a></p>\n<p>Points: 13</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 19 Apr 2026 15:48:40 +0000",
-      "summary": "Turtle WoW classic server announces shutdown after Blizzard wins injunction\n<p>Article URL: <a href=\"https://www.pcgamer.com/games/world-of-warcraft/turtle-wow-classic-server-announces-shutdown-after-blizzard-wins-injunction/\">https://www.pcgamer.com/games/world-of-warcraft/turtle-wow-classic-server"
+      "published": "Sun, 19 Apr 2026 22:58:35 +0000",
+      "summary": "Swiss AI Initiative (2023)\n<p>Article URL: <a href=\"https://www.swiss-ai.org\">https://www.swiss-ai.org</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47828444\">https://news.ycombinator.com/item?id=47828444</a></p>\n<p>Points: 13</p>\n<p># Comments: 3</p>"
     },
     {
-      "title": "Vercel Says Internal Systems Hit in Breach",
-      "link": "https://decipher.sc/2026/04/19/vercel-says-internal-systems-hit-in-breach/",
-      "raw_summary": "<p>Article URL: <a href=\"https://decipher.sc/2026/04/19/vercel-says-internal-systems-hit-in-breach/\">https://decipher.sc/2026/04/19/vercel-says-internal-systems-hit-in-breach/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47824976\">https://news.ycombinator.com/item?id=47824976</a></p>\n<p>Points: 263</p>\n<p># Comments: 46</p>",
+      "title": "Got an Old Kindle? It Might Not Work Anymore",
+      "link": "https://www.nytimes.com/wirecutter/reviews/older-kindle-support-ending/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.nytimes.com/wirecutter/reviews/older-kindle-support-ending/\">https://www.nytimes.com/wirecutter/reviews/older-kindle-support-ending/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47828427\">https://news.ycombinator.com/item?id=47828427</a></p>\n<p>Points: 46</p>\n<p># Comments: 31</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 19 Apr 2026 15:23:39 +0000",
-      "summary": "Vercel Says Internal Systems Hit in Breach\n<p>Article URL: <a href=\"https://decipher.sc/2026/04/19/vercel-says-internal-systems-hit-in-breach/\">https://decipher.sc/2026/04/19/vercel-says-internal-systems-hit-in-breach/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47824976\">"
+      "published": "Sun, 19 Apr 2026 22:56:32 +0000",
+      "summary": "Got an Old Kindle? It Might Not Work Anymore\n<p>Article URL: <a href=\"https://www.nytimes.com/wirecutter/reviews/older-kindle-support-ending/\">https://www.nytimes.com/wirecutter/reviews/older-kindle-support-ending/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47828427\">http"
     },
     {
-      "title": "Notion leaks email addresses of all editors of any public page",
-      "link": "https://twitter.com/weezerOSINT/status/2045849358462222720",
-      "raw_summary": "<p>Article URL: <a href=\"https://twitter.com/weezerOSINT/status/2045849358462222720\">https://twitter.com/weezerOSINT/status/2045849358462222720</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47824945\">https://news.ycombinator.com/item?id=47824945</a></p>\n<p>Points: 164</p>\n<p># Comments: 42</p>",
+      "title": "2,100 Swiss municipalities showing which provider handles their official email",
+      "link": "https://mxmap.ch/",
+      "raw_summary": "<p>Related ongoing thread: <i>Swiss authorities want to reduce dependency on Microsoft</i> - <a href=\"https://news.ycombinator.com/item?id=47827383\">https://news.ycombinator.com/item?id=47827383</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47828420\">https://news.ycombinator.com/item?id=47828420</a></p>\n<p>Points: 63</p>\n<p># Comments: 18</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 19 Apr 2026 15:20:01 +0000",
-      "summary": "Notion leaks email addresses of all editors of any public page\n<p>Article URL: <a href=\"https://twitter.com/weezerOSINT/status/2045849358462222720\">https://twitter.com/weezerOSINT/status/2045849358462222720</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47824945\">https://news"
+      "published": "Sun, 19 Apr 2026 22:55:47 +0000",
+      "summary": "2,100 Swiss municipalities showing which provider handles their official email\n<p>Related ongoing thread: <i>Swiss authorities want to reduce dependency on Microsoft</i> - <a href=\"https://news.ycombinator.com/item?id=47827383\">https://news.ycombinator.com/item?id=47827383</a></p>\n<hr />\n<p>Comments"
     },
     {
-      "title": "Notes from the SF Peptide Scene",
-      "link": "https://12gramsofcarbon.com/p/notes-from-the-sf-peptide-scene",
-      "raw_summary": "<p>Article URL: <a href=\"https://12gramsofcarbon.com/p/notes-from-the-sf-peptide-scene\">https://12gramsofcarbon.com/p/notes-from-the-sf-peptide-scene</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47824681\">https://news.ycombinator.com/item?id=47824681</a></p>\n<p>Points: 90</p>\n<p># Comments: 68</p>",
+      "title": "Ex-CEO, ex-CFO of bankrupt AI company charged with fraud",
+      "link": "https://www.reuters.com/legal/government/ex-ceo-ex-cfo-bankrupt-ai-company-charged-with-fraud-2026-04-17/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.reuters.com/legal/government/ex-ceo-ex-cfo-bankrupt-ai-company-charged-with-fraud-2026-04-17/\">https://www.reuters.com/legal/government/ex-ceo-ex-cfo-bankrupt-ai-company-charged-with-fraud-2026-04-17/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47828225\">https://news.ycombinator.com/item?id=47828225</a></p>\n<p>Points: 97</p>\n<p># Comments: 41</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 19 Apr 2026 14:43:07 +0000",
-      "summary": "Notes from the SF Peptide Scene\n<p>Article URL: <a href=\"https://12gramsofcarbon.com/p/notes-from-the-sf-peptide-scene\">https://12gramsofcarbon.com/p/notes-from-the-sf-peptide-scene</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47824681\">https://news.ycombinator.com/item?id="
+      "published": "Sun, 19 Apr 2026 22:30:19 +0000",
+      "summary": "Ex-CEO, ex-CFO of bankrupt AI company charged with fraud\n<p>Article URL: <a href=\"https://www.reuters.com/legal/government/ex-ceo-ex-cfo-bankrupt-ai-company-charged-with-fraud-2026-04-17/\">https://www.reuters.com/legal/government/ex-ceo-ex-cfo-bankrupt-ai-company-charged-with-fraud-2026-04-17/</a></"
+    },
+    {
+      "title": "OpenAI’s existential questions",
+      "link": "https://techcrunch.com/2026/04/19/openais-existential-questions/",
+      "raw_summary": "On the latest episode of Equity, we discuss OpenAI's latest acquisitions and whether they address \"two big existential problems\" for the company.",
+      "source": "TechCrunch",
+      "published": "Sun, 19 Apr 2026 21:24:06 +0000",
+      "summary": "OpenAI’s existential questions\nOn the latest episode of Equity, we discuss OpenAI's latest acquisitions and whether they address \"two big existential problems\" for the company."
+    },
+    {
+      "title": "The 12-month window",
+      "link": "https://techcrunch.com/2026/04/19/the-12-month-window/",
+      "raw_summary": "A lot of AI startups exist partly because the foundation models haven't expanded into their category yet. As many jokingly acknowledge, that won't last forever.",
+      "source": "TechCrunch",
+      "published": "Sun, 19 Apr 2026 19:30:00 +0000",
+      "summary": "The 12-month window\nA lot of AI startups exist partly because the foundation models haven't expanded into their category yet. As many jokingly acknowledge, that won't last forever."
+    },
+    {
+      "title": "Blue Origin’s New Glenn put a customer satellite in the wrong orbit during its third launch",
+      "link": "https://techcrunch.com/2026/04/19/blue-origins-new-glenn-put-a-customer-satellite-in-the-wrong-orbit-during-its-third-launch/",
+      "raw_summary": "The first major failure of Blue Origin's new heavy-launch system could create delays to its ambition to help NASA and the Trump administration return to the Moon.",
+      "source": "TechCrunch",
+      "published": "Sun, 19 Apr 2026 19:02:09 +0000",
+      "summary": "Blue Origin’s New Glenn put a customer satellite in the wrong orbit during its third launch\nThe first major failure of Blue Origin's new heavy-launch system could create delays to its ambition to help NASA and the Trump administration return to the Moon."
+    },
+    {
+      "title": "Robots beat human records at Beijing half-marathon",
+      "link": "https://techcrunch.com/2026/04/19/robots-beat-human-records-at-beijing-half-marathon/",
+      "raw_summary": "The winning time is a massive improvement over last year’s race, when the fastest robot finished in two hours and 40 minutes.",
+      "source": "TechCrunch",
+      "published": "Sun, 19 Apr 2026 18:44:00 +0000",
+      "summary": "Robots beat human records at Beijing half-marathon\nThe winning time is a massive improvement over last year’s race, when the fastest robot finished in two hours and 40 minutes."
     },
     {
       "title": "Palantir posts mini-manifesto denouncing inclusivity and ‘regressive’ cultures",
@@ -131,36 +163,12 @@
       "summary": "Palantir posts mini-manifesto denouncing inclusivity and ‘regressive’ cultures\nPalantir's ideological bent has come under more scrutiny as it's worked with ICE and positioned itself as a defender of \"the West.\""
     },
     {
-      "title": "TechCrunch Mobility: Uber enters its assetmaxxing era",
-      "link": "https://techcrunch.com/2026/04/19/techcrunch-mobility-uber-enters-its-assetmaxxing-era/",
-      "raw_summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part.",
-      "source": "TechCrunch",
-      "published": "Sun, 19 Apr 2026 16:01:00 +0000",
-      "summary": "TechCrunch Mobility: Uber enters its assetmaxxing era\nWelcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part."
-    },
-    {
-      "title": "Cracks are starting to form on fusion energy’s funding boom",
-      "link": "https://techcrunch.com/2026/04/19/cracks-are-starting-to-form-on-fusion-energys-funding-boom/",
-      "raw_summary": "Fusion startups and investors risk deepening fissures if some key disagreements aren't settled amicably.",
-      "source": "TechCrunch",
-      "published": "Sun, 19 Apr 2026 12:51:10 +0000",
-      "summary": "Cracks are starting to form on fusion energy’s funding boom\nFusion startups and investors risk deepening fissures if some key disagreements aren't settled amicably."
-    },
-    {
-      "title": "Blue Origin successfully re-uses a New Glenn rocket for the first time ever",
-      "link": "https://techcrunch.com/2026/04/19/blue-origin-successfully-re-uses-a-new-glenn-rocket-for-the-first-time-ever/",
-      "raw_summary": "It's a major milestone for the company's new mega-rocket system, putting it in position to challenge SpaceX's dominance of the global launch market.",
-      "source": "TechCrunch",
-      "published": "Sun, 19 Apr 2026 11:45:38 +0000",
-      "summary": "Blue Origin successfully re-uses a New Glenn rocket for the first time ever\nIt's a major milestone for the company's new mega-rocket system, putting it in position to challenge SpaceX's dominance of the global launch market."
-    },
-    {
-      "title": "Tesla brings its robotaxi service to Dallas and Houston",
-      "link": "https://techcrunch.com/2026/04/18/tesla-brings-its-robotaxi-service-to-dallas-and-houston/",
-      "raw_summary": "The company now offers robotaxi service in three cities, all of them in Texas, after launching in Austin last year and starting to offer rides without safety drivers in January 2026.",
-      "source": "TechCrunch",
-      "published": "Sat, 18 Apr 2026 21:37:15 +0000",
-      "summary": "Tesla brings its robotaxi service to Dallas and Houston\nThe company now offers robotaxi service in three cities, all of them in Texas, after launching in Austin last year and starting to offer rides without safety drivers in January 2026."
+      "title": "Blue Origin's rocket reuse achievement marred by upper stage failure",
+      "link": "https://arstechnica.com/space/2026/04/errant-upper-stage-spoils-blue-origins-success-in-reusing-new-glenn-booster/",
+      "raw_summary": "Blue Origin's reused first stage hit its targets, but New Glenn's upper stage did not.",
+      "source": "Ars Technica - All content",
+      "published": "Sun, 19 Apr 2026 18:19:19 +0000",
+      "summary": "Blue Origin's rocket reuse achievement marred by upper stage failure\nBlue Origin's reused first stage hit its targets, but New Glenn's upper stage did not."
     },
     {
       "title": "I’ve fired one of America’s most powerful lasers—here’s what a shot day looks like",
@@ -195,92 +203,100 @@
       "summary": "Man with @ihackedthegovernment Instagram account tells judge, “I made a mistake\"\nProbation for man who used stolen logins and posted private info on social media."
     },
     {
-      "title": "Trump picks qualified, normal health leader to head CDC; experts still cautious",
-      "link": "https://arstechnica.com/health/2026/04/trump-picks-qualified-normal-health-leader-to-head-cdc-experts-still-cautious/",
-      "raw_summary": "She's well qualified but will need to navigate RFK Jr.'s anti-vaccine agenda.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 17 Apr 2026 19:19:47 +0000",
-      "summary": "Trump picks qualified, normal health leader to head CDC; experts still cautious\nShe's well qualified but will need to navigate RFK Jr.'s anti-vaccine agenda."
-    },
-    {
-      "title": "Starmer set for tough week of questions on Mandelson scandal",
-      "link": "https://www.ft.com/content/3c6fbda6-273b-42c2-816a-bc3bdba7c117",
-      "raw_summary": "Plus, Middle East ceasefire deadlines, Trump attends press dinner and Fed nominee Kevin Warsh faces Senate committee",
+      "title": "China does have one powerful lever to boost consumption",
+      "link": "https://www.ft.com/content/d078c7e6-9489-40f1-9ce1-1bf1bb495edf",
+      "raw_summary": "A permanent cut in the payroll tax could benefit workers and the world",
       "source": "World",
-      "published": "Sun, 19 Apr 2026 17:15:08 GMT",
-      "summary": "Starmer set for tough week of questions on Mandelson scandal\nPlus, Middle East ceasefire deadlines, Trump attends press dinner and Fed nominee Kevin Warsh faces Senate committee"
+      "published": "Mon, 20 Apr 2026 01:00:03 GMT",
+      "summary": "China does have one powerful lever to boost consumption\nA permanent cut in the payroll tax could benefit workers and the world"
     },
     {
-      "title": "Impact of Iran war will hurt US even after conflict ends, economists warn",
-      "link": "https://www.ft.com/content/80436d72-25e1-4a97-be09-3327c2d0af9a",
-      "raw_summary": "Wave of inflation will persist as higher fuel prices feed through into businesses",
+      "title": "Foreign carmakers turn to Chinese technology to remain relevant",
+      "link": "https://www.ft.com/content/b17b605a-ac5d-4456-928b-7c19ea6c05b9",
+      "raw_summary": "Western executives hope ‘in China for China’ strategy will halt sales decline in world’s largest car market",
       "source": "World",
-      "published": "Sun, 19 Apr 2026 17:00:07 GMT",
-      "summary": "Impact of Iran war will hurt US even after conflict ends, economists warn\nWave of inflation will persist as higher fuel prices feed through into businesses"
+      "published": "Sun, 19 Apr 2026 23:01:03 GMT",
+      "summary": "Foreign carmakers turn to Chinese technology to remain relevant\nWestern executives hope ‘in China for China’ strategy will halt sales decline in world’s largest car market"
     },
     {
-      "title": "Trump to send US officials to Pakistan for fresh peace talks with Iran",
+      "title": "Property asking prices rise in April despite higher UK mortgage rates",
+      "link": "https://www.ft.com/content/58403b84-6881-4852-b0e8-c2e726f00171",
+      "raw_summary": "Increase indicates resilience in housing market even as Iran war led to surge in energy costs",
+      "source": "World",
+      "published": "Sun, 19 Apr 2026 23:01:03 GMT",
+      "summary": "Property asking prices rise in April despite higher UK mortgage rates\nIncrease indicates resilience in housing market even as Iran war led to surge in energy costs"
+    },
+    {
+      "title": "US navy seizes Iranian ship after it breaches blockade, says Trump",
       "link": "https://www.ft.com/content/0e51cdea-99df-4913-8c71-03396c4a6faf",
-      "raw_summary": "President threatens to resume bombing campaign if Tehran does not agree to a deal",
+      "raw_summary": "Oil price jumps as Washington and Tehran give conflicting accounts of whether new peace talks are set to begin",
       "source": "World",
-      "published": "Sun, 19 Apr 2026 15:11:07 GMT",
-      "summary": "Trump to send US officials to Pakistan for fresh peace talks with Iran\nPresident threatens to resume bombing campaign if Tehran does not agree to a deal"
+      "published": "Sun, 19 Apr 2026 22:08:48 GMT",
+      "summary": "US navy seizes Iranian ship after it breaches blockade, says Trump\nOil price jumps as Washington and Tehran give conflicting accounts of whether new peace talks are set to begin"
     },
     {
-      "title": "Is London ready for the Green Party?",
-      "link": "https://www.ft.com/content/4e9cf4ff-c3f8-4049-a897-5957501f97b8",
-      "raw_summary": "Zack Polanski’s leftwing populists are aiming to eat into Labour’s heartlands",
+      "title": "FirstFT: US navy seizes Iranian ship that defied blockade, says Trump",
+      "link": "https://www.ft.com/content/d9c18992-da9d-4659-9c1c-697ee3e4a5ce",
+      "raw_summary": "Also in today’s newsletter: pro-Russia ex-president on course to win Bulgaria’s elections, and Brussels pushes remote working to ease energy crisis",
       "source": "World",
-      "published": "Sun, 19 Apr 2026 15:00:09 GMT",
-      "summary": "Is London ready for the Green Party?\nZack Polanski’s leftwing populists are aiming to eat into Labour’s heartlands"
+      "published": "Sun, 19 Apr 2026 22:01:02 GMT",
+      "summary": "FirstFT: US navy seizes Iranian ship that defied blockade, says Trump\nAlso in today’s newsletter: pro-Russia ex-president on course to win Bulgaria’s elections, and Brussels pushes remote working to ease energy crisis"
     },
     {
-      "title": "Iran focus of probe into London arson attacks, counterterror police say",
-      "link": "https://www.ft.com/content/ffbaf2da-dcda-47a0-80ca-6355075d96ab",
-      "raw_summary": "Officers threaten to use anti-espionage National Security Act against anyone involved in the incidents",
-      "source": "World",
-      "published": "Sun, 19 Apr 2026 14:57:35 GMT",
-      "summary": "Iran focus of probe into London arson attacks, counterterror police say\nOfficers threaten to use anti-espionage National Security Act against anyone involved in the incidents"
-    },
-    {
-      "title": "Bank Debate Interview: Umar Farooq and Shahmir Khaliq",
-      "link": "https://www.bloomberg.com/news/videos/2026-04-19/bank-debate-interview-umar-farooq-and-shahmir-khaliq-video",
-      "raw_summary": "Global Co-Head of JP Morgan Payments, Umar Farooq and Head of Services at Citi, Shahmir Khaliq, spoke with Bloomberg's Emily Mason in a bank debate interview. (Source: Bloomberg)",
+      "title": "Oil Jumps on Renewed Iran Tensions, Dollar Gains: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-19/us-futures-fall-oil-jumps-as-iran-tensions-worsen-markets-wrap",
+      "raw_summary": "Oil jumped and the dollar strengthened as a relief rally driven by hopes of easing strains in the Middle East unraveled, giving way to renewed caution after a weekend flare-up in US-Iran tensions.",
       "source": "Bloomberg Markets",
-      "published": "Sun, 19 Apr 2026 18:19:10 GMT",
-      "summary": "Bank Debate Interview: Umar Farooq and Shahmir Khaliq\nGlobal Co-Head of JP Morgan Payments, Umar Farooq and Head of Services at Citi, Shahmir Khaliq, spoke with Bloomberg's Emily Mason in a bank debate interview. (Source: Bloomberg)"
+      "published": "Sun, 19 Apr 2026 22:12:31 GMT",
+      "summary": "Oil Jumps on Renewed Iran Tensions, Dollar Gains: Markets Wrap\nOil jumped and the dollar strengthened as a relief rally driven by hopes of easing strains in the Middle East unraveled, giving way to renewed caution after a weekend flare-up in US-Iran tensions."
     },
     {
-      "title": "After Long Avoiding Politics, Commodity Traders Cozy Up to Trump",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-19/after-long-avoiding-politics-commodity-traders-cosy-up-to-trump",
-      "raw_summary": "For decades, the world’s biggest commodity traders have sought to remain outside of politics, doing deals with anyone who has natural resources to buy or sell. Now, Donald Trump is changing the rules of the game.",
+      "title": "Copper Drops From Two-Month High as US-Iran Tensions Escalate",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-20/copper-drops-from-two-month-high-as-us-iran-tensions-escalate",
+      "raw_summary": "Copper fell from its highest close since early February, as ceasefire talks between Washington and Tehran were thrown into uncertainty after the US seized an Iranian ship in the Strait of Hormuz.",
       "source": "Bloomberg Markets",
-      "published": "Sun, 19 Apr 2026 18:08:23 GMT",
-      "summary": "After Long Avoiding Politics, Commodity Traders Cozy Up to Trump\nFor decades, the world’s biggest commodity traders have sought to remain outside of politics, doing deals with anyone who has natural resources to buy or sell. Now, Donald Trump is changing the rules of the game."
+      "published": "Mon, 20 Apr 2026 01:37:07 GMT",
+      "summary": "Copper Drops From Two-Month High as US-Iran Tensions Escalate\nCopper fell from its highest close since early February, as ceasefire talks between Washington and Tehran were thrown into uncertainty after the US seized an Iranian ship in the Strait of Hormuz."
     },
     {
-      "title": "Pointed News Quiz | Investigations, Business Leaders, Cons",
-      "link": "https://www.bloomberg.com/news/videos/2026-04-19/pointed-news-quiz-video",
-      "raw_summary": "Bloomberg Tech Co-Host Ed Ludlow joins David Gura, Christina Ruffini, and Lisa Mateo on “Bloomberg This Weekend” to play Pointed! Wager your points, leverage your bets and answer wisely. A new quiz is available to play each week on Bloomberg.com (Source: Bloomberg)",
+      "title": "AI’s Token Economy Revolution Creates New China Tech Winners",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-20/ai-s-token-economy-revolution-creates-new-china-tech-winners",
+      "raw_summary": "China’s cheap artificial intelligence models are rapidly attracting global users and creating new winners in the nation’s stock market.",
       "source": "Bloomberg Markets",
-      "published": "Sun, 19 Apr 2026 16:35:38 GMT",
-      "summary": "Pointed News Quiz | Investigations, Business Leaders, Cons\nBloomberg Tech Co-Host Ed Ludlow joins David Gura, Christina Ruffini, and Lisa Mateo on “Bloomberg This Weekend” to play Pointed! Wager your points, leverage your bets and answer wisely. A new quiz is available to play each week on Bloomberg"
+      "published": "Mon, 20 Apr 2026 01:28:06 GMT",
+      "summary": "AI’s Token Economy Revolution Creates New China Tech Winners\nChina’s cheap artificial intelligence models are rapidly attracting global users and creating new winners in the nation’s stock market."
     },
     {
-      "title": "Fmr. Secretary of Defense Esper: \"It's Gonna Be Hard To Get a Deal Done\"",
-      "link": "https://www.bloomberg.com/news/videos/2026-04-19/fmr-sod-esper-it-s-gonna-be-hard-to-get-a-deal-done-video",
-      "raw_summary": "Former Defense Secretary Mark Esper joins David Gura and Christina Ruffini on Bloomberg This Weekend to discuss recent statements from former President Trump, who declared he is ready to \"knock out\" power plants and bridges. (Source: Bloomberg)",
+      "title": "Hong Kong Exchange Tightens Rules to Avoid Auditor Shopping",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-20/hong-kong-exchange-tightens-rules-to-avoid-auditor-shopping",
+      "raw_summary": "Hong Kong listed companies must now obtain shareholder approval to change auditors, part of a regulatory push to bolster corporate governance and transparency in the $7.5 trillion market.",
       "source": "Bloomberg Markets",
-      "published": "Sun, 19 Apr 2026 15:02:10 GMT",
-      "summary": "Fmr. Secretary of Defense Esper: \"It's Gonna Be Hard To Get a Deal Done\"\nFormer Defense Secretary Mark Esper joins David Gura and Christina Ruffini on Bloomberg This Weekend to discuss recent statements from former President Trump, who declared he is ready to \"knock out\" power plants and bridges. (S"
+      "published": "Mon, 20 Apr 2026 01:13:24 GMT",
+      "summary": "Hong Kong Exchange Tightens Rules to Avoid Auditor Shopping\nHong Kong listed companies must now obtain shareholder approval to change auditors, part of a regulatory push to bolster corporate governance and transparency in the $7.5 trillion market."
     },
     {
-      "title": "US Officials Head to Pakistan Again Amid Hormuz Standoff",
-      "link": "https://www.bloomberg.com/news/videos/2026-04-19/us-officials-head-to-pakistan-again-amid-hormuz-standoff-video",
-      "raw_summary": "US President Donald Trump said he’ll send representatives to Pakistan for talks to end the Iran war on Monday evening, while again threatening to strike civilian infrastructure if Tehran doesn’t agree to a deal. Axios White House Reporter Marc Caputo and Atlantic Staff Writer Nancy Youssef join David Gura and Christina Ruffini on Bloomberg This Weekend to discuss. (Source: Bloomberg)",
+      "title": "China Revives Coal-to-Gas Projects as Energy Security Frays",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-20/china-revives-coal-to-gas-projects-as-energy-security-frays",
+      "raw_summary": "A high-profile Chinese coal-to-gas venture that lay dormant for over a decade is set to launch this year, part of a wave of investments that will allow Beijing to mitigate threats to fuel supply at a time of heightened geopolitical tensions.",
       "source": "Bloomberg Markets",
-      "published": "Sun, 19 Apr 2026 16:07:21 GMT",
-      "summary": "US Officials Head to Pakistan Again Amid Hormuz Standoff\nUS President Donald Trump said he’ll send representatives to Pakistan for talks to end the Iran war on Monday evening, while again threatening to strike civilian infrastructure if Tehran doesn’t agree to a deal. Axios White House Reporter Marc"
+      "published": "Mon, 20 Apr 2026 01:03:07 GMT",
+      "summary": "China Revives Coal-to-Gas Projects as Energy Security Frays\nA high-profile Chinese coal-to-gas venture that lay dormant for over a decade is set to launch this year, part of a wave of investments that will allow Beijing to mitigate threats to fuel supply at a time of heightened geopolitical tensions"
+    },
+    {
+      "title": "Hack at Vercel sends crypto developers scrambling to lock down API keys",
+      "link": "https://www.coindesk.com/tech/2026/04/20/hack-at-vercel-sends-crypto-developers-scrambling-to-lock-down-api-keys",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Mon, 20 Apr 2026 01:47:28 +0000",
+      "summary": "Hack at Vercel sends crypto developers scrambling to lock down API keys\n"
+    },
+    {
+      "title": "The $292 million Kelp exploit: how it happened, and what it means for DeFi",
+      "link": "https://www.coindesk.com/business/2026/04/19/the-usd292-million-kelp-exploit-how-it-happened-and-what-it-means-for-defi",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Sun, 19 Apr 2026 22:27:17 +0000",
+      "summary": "The $292 million Kelp exploit: how it happened, and what it means for DeFi\n"
     },
     {
       "title": "Previewing Consensus' Policy Summit: State of Crypto",
@@ -305,22 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Sun, 19 Apr 2026 17:49:03 +0000",
       "summary": "'DeFi is dead': crypto community scrambles after this year's biggest hack exposes contagion risks\n"
-    },
-    {
-      "title": "Stablecoins can help businesses turn costs into revenue, Paxos Labs cofounder says",
-      "link": "https://www.coindesk.com/business/2026/04/19/stablecoins-can-help-businesses-turn-costs-into-revenue-paxos-labs-cofounder-says",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 19 Apr 2026 16:00:00 +0000",
-      "summary": "Stablecoins can help businesses turn costs into revenue, Paxos Labs cofounder says\n"
-    },
-    {
-      "title": "Aave sees $6 billion deposit drop as Kelp hack exposes structural risk for DeFi lender",
-      "link": "https://www.coindesk.com/tech/2026/04/19/aave-records-usd6-billion-tvl-drop-as-kelp-hack-exposes-structural-risk-at-defi-lender",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 19 Apr 2026 14:56:27 +0000",
-      "summary": "Aave sees $6 billion deposit drop as Kelp hack exposes structural risk for DeFi lender\n"
     }
   ]
 }
