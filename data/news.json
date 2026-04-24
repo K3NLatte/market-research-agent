@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T07:51:11.437527+00:00",
+  "generated_at": "2026-04-24T13:04:28.672142+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,84 +43,92 @@
       "summary": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran\nA financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly secured cloud services and wipes data on infected systems that use Iran's time zone or have Farsi "
     },
     {
-      "title": "UNC6692 Impersonates IT Helpdesk via Microsoft Teams to Deploy SNOW Malware",
+      "title": "Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine",
+      "link": "https://thehackernews.com/2026/04/bridging-ai-agent-authority-gap.html",
+      "raw_summary": "The AI Agent Authority Gap - From Ungoverned to Delegation\nAs discussed in our previous article, AI agents are exposing a structural gap in enterprise security, but the problem is often framed too narrowly.\nThe issue is not simply that agents are new actors. It is that agents are delegated actors. They do not emerge with independent authority. They are triggered, invoked, provisioned, or",
+      "source": "The Hacker News",
+      "published": "Fri, 24 Apr 2026 17:19:00 +0530",
+      "summary": "Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine\nThe AI Agent Authority Gap - From Ungoverned to Delegation\nAs discussed in our previous article, AI agents are exposing a structural gap in enterprise security, but the problem is often framed too narrowly.\nThe issu"
+    },
+    {
+      "title": "26 FakeWallet Apps Found on Apple App Store Targeting Crypto Seed Phrases",
+      "link": "https://thehackernews.com/2026/04/26-fakewallet-apps-found-on-apple-app.html",
+      "raw_summary": "Cybersecurity researchers have discovered a set of malicious apps on the Apple App Store that impersonate popular cryptocurrency wallets in an attempt to steal recovery phrases and private keys since at least fall 2025.\n\"Once launched, these apps redirect users to browser pages designed to look similar to the App Store and distribute trojanized versions of legitimate wallets,\" Kaspersky",
+      "source": "The Hacker News",
+      "published": "Fri, 24 Apr 2026 17:18:00 +0530",
+      "summary": "26 FakeWallet Apps Found on Apple App Store Targeting Crypto Seed Phrases\nCybersecurity researchers have discovered a set of malicious apps on the Apple App Store that impersonate popular cryptocurrency wallets in an attempt to steal recovery phrases and private keys since at least fall 2025.\n\"Once "
+    },
+    {
+      "title": "Tropic Trooper Uses Trojanized SumatraPDF and GitHub to Deploy AdaptixC2",
+      "link": "https://thehackernews.com/2026/04/tropic-trooper-uses-trojanized.html",
+      "raw_summary": "Chinese-speaking individuals are the target of a new campaign that uses a trojanized version of SumatraPDF reader to deploy the AdaptixC2 Beacon post-exploitation agent and ultimately facilitate the abuse of Microsoft Visual Studio Code (VS Code) tunnels for remote access.\nZscaler ThreatLabz, which discovered the campaign last month, has attributed it with high confidence to Tropic Trooper (aka",
+      "source": "The Hacker News",
+      "published": "Fri, 24 Apr 2026 14:59:00 +0530",
+      "summary": "Tropic Trooper Uses Trojanized SumatraPDF and GitHub to Deploy AdaptixC2\nChinese-speaking individuals are the target of a new campaign that uses a trojanized version of SumatraPDF reader to deploy the AdaptixC2 Beacon post-exploitation agent and ultimately facilitate the abuse of Microsoft Visual St"
+    },
+    {
+      "title": "LMDeploy CVE-2026-33626 Flaw Exploited Within 13 Hours of Disclosure",
+      "link": "https://thehackernews.com/2026/04/lmdeploy-cve-2026-33626-flaw-exploited.html",
+      "raw_summary": "A high-severity security flaw in LMDeploy, an open-source toolkit for compressing, deploying, and serving LLMs, has come under active exploitation in the wild less than 13 hours after its public disclosure.\nThe vulnerability, tracked as CVE-2026-33626 (CVSS score: 7.5), relates to a Server-Side Request Forgery (SSRF) vulnerability that could be exploited to access sensitive data.\n\"A server-side",
+      "source": "The Hacker News",
+      "published": "Fri, 24 Apr 2026 12:54:00 +0530",
+      "summary": "LMDeploy CVE-2026-33626 Flaw Exploited Within 13 Hours of Disclosure\nA high-severity security flaw in LMDeploy, an open-source toolkit for compressing, deploying, and serving LLMs, has come under active exploitation in the wild less than 13 hours after its public disclosure.\nThe vulnerability, track"
+    },
+    {
+      "title": "UNC6692 Impersonates IT Help Desk via Microsoft Teams to Deploy SNOW Malware",
       "link": "https://thehackernews.com/2026/04/unc6692-impersonates-it-helpdesk-via.html",
-      "raw_summary": "A previously undocumented threat activity cluster known as UNC6692 has been observed leveraging social engineering tactics via Microsoft Teams to deploy a custom malware suite on compromised hosts.\n\"As with many other intrusions in recent years, UNC6692 relied heavily on impersonating IT helpdesk employees, convincing their victim to accept a Microsoft Teams chat invitation from an account",
+      "raw_summary": "A previously undocumented threat activity cluster known as UNC6692 has been observed leveraging social engineering tactics via Microsoft Teams to deploy a custom malware suite on compromised hosts.\n\"As with many other intrusions in recent years, UNC6692 relied heavily on impersonating IT help desk employees, convincing their victim to accept a Microsoft Teams chat invitation from an account",
       "source": "The Hacker News",
       "published": "Thu, 23 Apr 2026 23:46:00 +0530",
-      "summary": "UNC6692 Impersonates IT Helpdesk via Microsoft Teams to Deploy SNOW Malware\nA previously undocumented threat activity cluster known as UNC6692 has been observed leveraging social engineering tactics via Microsoft Teams to deploy a custom malware suite on compromised hosts.\n\"As with many other intrus"
+      "summary": "UNC6692 Impersonates IT Help Desk via Microsoft Teams to Deploy SNOW Malware\nA previously undocumented threat activity cluster known as UNC6692 has been observed leveraging social engineering tactics via Microsoft Teams to deploy a custom malware suite on compromised hosts.\n\"As with many other intru"
     },
     {
-      "title": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign",
-      "link": "https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html",
-      "raw_summary": "Bitwarden CLI has been compromised as part of the newly discovered and ongoing Checkmarx supply chain campaign, according to new findings from JFrog and Socket.\n\"The affected package version appears to be @bitwarden/cli@2026.4.0, and the malicious code was published in 'bw1.js,' a file included in the package contents,\" the application security company said.\n\"The attack appears to have leveraged",
-      "source": "The Hacker News",
-      "published": "Thu, 23 Apr 2026 19:12:00 +0530",
-      "summary": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign\nBitwarden CLI has been compromised as part of the newly discovered and ongoing Checkmarx supply chain campaign, according to new findings from JFrog and Socket.\n\"The affected package version appears to be @bitwarden/cli@2026.4.0, a"
-    },
-    {
-      "title": "ThreatsDay Bulletin: $290M DeFi Hack, macOS LotL Abuse, ProxySmart SIM Farms +25 New Stories",
-      "link": "https://thehackernews.com/2026/04/threatsday-bulletin-290m-defi-hack.html",
-      "raw_summary": "You scroll past one incident and see another that feels familiar, like it should have been fixed years ago, but it still works with small changes. Same bugs. Same mistakes.\nThe supply chain is messy. Packages you did not check are stealing data, adding backdoors, and spreading. Attacking the systems behind apps is easier than breaking the apps themselves. The exploits are simple but still work",
-      "source": "The Hacker News",
-      "published": "Thu, 23 Apr 2026 18:47:00 +0530",
-      "summary": "ThreatsDay Bulletin: $290M DeFi Hack, macOS LotL Abuse, ProxySmart SIM Farms +25 New Stories\nYou scroll past one incident and see another that feels familiar, like it should have been fixed years ago, but it still works with small changes. Same bugs. Same mistakes.\nThe supply chain is messy. Package"
-    },
-    {
-      "title": "[Webinar] Mythos Reality Check: Beating Automated Exploitation at AI Speed",
-      "link": "https://thehackernews.com/2026/04/webinar-mythos-reality-check-beating.html",
-      "raw_summary": "Imagine a world where hackers don't sleep, don't take breaks, and find weak spots in your systems instantly.\nWell, that world is already here.\nThanks to AI, attackers are now launching automated, large-scale exploits faster than ever before. The time you have to fix a vulnerability before it gets attacked is shrinking to zero. We call this the Collapsing Exploit Window, and it means your",
-      "source": "The Hacker News",
-      "published": "Thu, 23 Apr 2026 17:33:00 +0530",
-      "summary": "[Webinar] Mythos Reality Check: Beating Automated Exploitation at AI Speed\nImagine a world where hackers don't sleep, don't take breaks, and find weak spots in your systems instantly.\nWell, that world is already here.\nThanks to AI, attackers are now launching automated, large-scale exploits faster t"
-    },
-    {
-      "title": "Project Glasswing Proved AI Can Find the Bugs. Who's Going to Fix Them?",
-      "link": "https://thehackernews.com/2026/04/project-glasswing-proved-ai-can-find.html",
-      "raw_summary": "Last week, Anthropic announced Project Glasswing, an AI model so effective at discovering software vulnerabilities that they took the extraordinary step of postponing its public release. Instead, the company has given access to Apple, Microsoft, Google, Amazon, and a coalition of others to find and patch bugs before adversaries can.\nMythos Preview, the model that led to Project Glasswing, found",
-      "source": "The Hacker News",
-      "published": "Thu, 23 Apr 2026 17:00:00 +0530",
-      "summary": "Project Glasswing Proved AI Can Find the Bugs. Who's Going to Fix Them?\nLast week, Anthropic announced Project Glasswing, an AI model so effective at discovering software vulnerabilities that they took the extraordinary step of postponing its public release. Instead, the company has given access to "
-    },
-    {
-      "title": "Composition Shouldn't be this Hard",
-      "link": "https://www.cambra.dev/blog/announcement/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.cambra.dev/blog/announcement/\">https://www.cambra.dev/blog/announcement/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47886773\">https://news.ycombinator.com/item?id=47886773</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
+      "title": "The operating cost of adult and gambling startups",
+      "link": "https://orchidfiles.com/stigma-is-a-tax-on-every-operational-decision/",
+      "raw_summary": "<p>Article URL: <a href=\"https://orchidfiles.com/stigma-is-a-tax-on-every-operational-decision/\">https://orchidfiles.com/stigma-is-a-tax-on-every-operational-decision/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47889279\">https://news.ycombinator.com/item?id=47889279</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 24 Apr 2026 07:22:31 +0000",
-      "summary": "Composition Shouldn't be this Hard\n<p>Article URL: <a href=\"https://www.cambra.dev/blog/announcement/\">https://www.cambra.dev/blog/announcement/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47886773\">https://news.ycombinator.com/item?id=47886773</a></p>\n<p>Points: 6</p>\n<p>"
+      "published": "Fri, 24 Apr 2026 12:27:18 +0000",
+      "summary": "The operating cost of adult and gambling startups\n<p>Article URL: <a href=\"https://orchidfiles.com/stigma-is-a-tax-on-every-operational-decision/\">https://orchidfiles.com/stigma-is-a-tax-on-every-operational-decision/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47889279\">h"
     },
     {
-      "title": "Why Not Venus?",
-      "link": "https://mceglowski.substack.com/p/why-not-venus",
-      "raw_summary": "<p>Article URL: <a href=\"https://mceglowski.substack.com/p/why-not-venus\">https://mceglowski.substack.com/p/why-not-venus</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47885739\">https://news.ycombinator.com/item?id=47885739</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "title": "Aspartame is not that bad?",
+      "link": "https://dynomight.net/aspartame/",
+      "raw_summary": "<p>Article URL: <a href=\"https://dynomight.net/aspartame/\">https://dynomight.net/aspartame/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47889030\">https://news.ycombinator.com/item?id=47889030</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 24 Apr 2026 05:01:10 +0000",
-      "summary": "Why Not Venus?\n<p>Article URL: <a href=\"https://mceglowski.substack.com/p/why-not-venus\">https://mceglowski.substack.com/p/why-not-venus</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47885739\">https://news.ycombinator.com/item?id=47885739</a></p>\n<p>Points: 4</p>\n<p># Commen"
+      "published": "Fri, 24 Apr 2026 11:58:39 +0000",
+      "summary": "Aspartame is not that bad?\n<p>Article URL: <a href=\"https://dynomight.net/aspartame/\">https://dynomight.net/aspartame/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47889030\">https://news.ycombinator.com/item?id=47889030</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>"
     },
     {
-      "title": "Familiarity is the enemy: On why Enterprise systems have failed for 60 years",
-      "link": "https://felixbarbalet.com/familiarity-is-the-enemy/",
-      "raw_summary": "<p>Article URL: <a href=\"https://felixbarbalet.com/familiarity-is-the-enemy/\">https://felixbarbalet.com/familiarity-is-the-enemy/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47885668\">https://news.ycombinator.com/item?id=47885668</a></p>\n<p>Points: 26</p>\n<p># Comments: 9</p>",
+      "title": "UK Biobank leak: Health details of 500 000 people are offered for sale",
+      "link": "https://www.bmj.com/content/393/bmj.s781",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.bmj.com/content/393/bmj.s781\">https://www.bmj.com/content/393/bmj.s781</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47888557\">https://news.ycombinator.com/item?id=47888557</a></p>\n<p>Points: 87</p>\n<p># Comments: 30</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 24 Apr 2026 04:48:54 +0000",
-      "summary": "Familiarity is the enemy: On why Enterprise systems have failed for 60 years\n<p>Article URL: <a href=\"https://felixbarbalet.com/familiarity-is-the-enemy/\">https://felixbarbalet.com/familiarity-is-the-enemy/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47885668\">https://news"
+      "published": "Fri, 24 Apr 2026 11:09:36 +0000",
+      "summary": "UK Biobank leak: Health details of 500 000 people are offered for sale\n<p>Article URL: <a href=\"https://www.bmj.com/content/393/bmj.s781\">https://www.bmj.com/content/393/bmj.s781</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47888557\">https://news.ycombinator.com/item?id=478"
     },
     {
-      "title": "Ubuntu 26.04",
-      "link": "https://lwn.net/Articles/1069399/",
-      "raw_summary": "<p>Article URL: <a href=\"https://lwn.net/Articles/1069399/\">https://lwn.net/Articles/1069399/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47885596\">https://news.ycombinator.com/item?id=47885596</a></p>\n<p>Points: 160</p>\n<p># Comments: 78</p>",
+      "title": "Hear your agent suffer through your code",
+      "link": "https://github.com/AndrewVos/endless-toil",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/AndrewVos/endless-toil\">https://github.com/AndrewVos/endless-toil</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47888465\">https://news.ycombinator.com/item?id=47888465</a></p>\n<p>Points: 32</p>\n<p># Comments: 9</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 24 Apr 2026 04:38:37 +0000",
-      "summary": "Ubuntu 26.04\n<p>Article URL: <a href=\"https://lwn.net/Articles/1069399/\">https://lwn.net/Articles/1069399/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47885596\">https://news.ycombinator.com/item?id=47885596</a></p>\n<p>Points: 160</p>\n<p># Comments: 78</p>"
+      "published": "Fri, 24 Apr 2026 10:58:45 +0000",
+      "summary": "Hear your agent suffer through your code\n<p>Article URL: <a href=\"https://github.com/AndrewVos/endless-toil\">https://github.com/AndrewVos/endless-toil</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47888465\">https://news.ycombinator.com/item?id=47888465</a></p>\n<p>Points: 32<"
     },
     {
-      "title": "Habitual coffee intake shapes the microbiome, modifies physiology and cognition",
-      "link": "https://www.nature.com/articles/s41467-026-71264-8",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.nature.com/articles/s41467-026-71264-8\">https://www.nature.com/articles/s41467-026-71264-8</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47885377\">https://news.ycombinator.com/item?id=47885377</a></p>\n<p>Points: 119</p>\n<p># Comments: 48</p>",
+      "title": "How to be anti-social – a guide to incoherent and isolating social experiences",
+      "link": "https://nate.leaflet.pub/3mk4xkaxobc2p",
+      "raw_summary": "<p>Article URL: <a href=\"https://nate.leaflet.pub/3mk4xkaxobc2p\">https://nate.leaflet.pub/3mk4xkaxobc2p</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47888372\">https://news.ycombinator.com/item?id=47888372</a></p>\n<p>Points: 69</p>\n<p># Comments: 51</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 24 Apr 2026 04:04:42 +0000",
-      "summary": "Habitual coffee intake shapes the microbiome, modifies physiology and cognition\n<p>Article URL: <a href=\"https://www.nature.com/articles/s41467-026-71264-8\">https://www.nature.com/articles/s41467-026-71264-8</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47885377\">https://new"
+      "published": "Fri, 24 Apr 2026 10:48:14 +0000",
+      "summary": "How to be anti-social – a guide to incoherent and isolating social experiences\n<p>Article URL: <a href=\"https://nate.leaflet.pub/3mk4xkaxobc2p\">https://nate.leaflet.pub/3mk4xkaxobc2p</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47888372\">https://news.ycombinator.com/item?id"
+    },
+    {
+      "title": "In another wild turn for AI chips, Meta signs deal for millions of Amazon AI CPUs",
+      "link": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
+      "raw_summary": "Meta has commandeered a big chunk of Amazon's homegrown CPUs (not GPUs) for AI agentic workloads, signaling that a new kind of chip race has begun.",
+      "source": "TechCrunch",
+      "published": "Fri, 24 Apr 2026 12:00:00 +0000",
+      "summary": "In another wild turn for AI chips, Meta signs deal for millions of Amazon AI CPUs\nMeta has commandeered a big chunk of Amazon's homegrown CPUs (not GPUs) for AI agentic workloads, signaling that a new kind of chip race has begun."
     },
     {
       "title": "Porsche is adding an all-electric Cayenne coupe to its lineup",
@@ -155,12 +163,12 @@
       "summary": "Redwood Materials loses COO amid layoffs, restructuring\nFormer Tesla executive Chris Lister is retiring, and at least three other VPs have left Redwood around the recent restructuring, TechCrunch has learned."
     },
     {
-      "title": "These are the countries moving to ban social media for children",
-      "link": "https://techcrunch.com/2026/04/23/social-media-ban-children-countries-list/",
-      "raw_summary": "Australia was the first country to issue a ban in late 2025, aiming to reduce the pressures and risks that young users may face on social media, including cyberbullying, social media addiction, and exposure to predators.",
-      "source": "TechCrunch",
-      "published": "Thu, 23 Apr 2026 21:33:51 +0000",
-      "summary": "These are the countries moving to ban social media for children\nAustralia was the first country to issue a ban in late 2025, aiming to reduce the pressures and risks that young users may face on social media, including cyberbullying, social media addiction, and exposure to predators."
+      "title": "Rocket Report: Artemis III rocket getting ready; SpaceX is now an AI company",
+      "link": "https://arstechnica.com/space/2026/04/rocket-report-some-canadians-dont-want-a-spaceport-falcon-hits-600-landings/",
+      "raw_summary": "\"If it doesn’t rely on a solid, there’s no reason why we can’t launch.\"",
+      "source": "Ars Technica - All content",
+      "published": "Fri, 24 Apr 2026 11:00:36 +0000",
+      "summary": "Rocket Report: Artemis III rocket getting ready; SpaceX is now an AI company\n\"If it doesn’t rely on a solid, there’s no reason why we can’t launch.\""
     },
     {
       "title": "Visitors to this private space station won't be wearing shorts and T-shirts",
@@ -195,132 +203,124 @@
       "summary": "We still don't have a more precise value for \"Big G\"\nSuch experiments bring \"order to the universe, whether or not the number agrees with the expected value.”"
     },
     {
-      "title": "In a first, a ransomware family is confirmed to be quantum-safe",
-      "link": "https://arstechnica.com/security/2026/04/now-even-ransomware-is-using-post-quantum-cryptography/",
-      "raw_summary": "Technically speaking, there's no practical benefit to use PQC. So why is it being used?",
-      "source": "Ars Technica - All content",
-      "published": "Thu, 23 Apr 2026 20:41:23 +0000",
-      "summary": "In a first, a ransomware family is confirmed to be quantum-safe\nTechnically speaking, there's no practical benefit to use PQC. So why is it being used?"
-    },
-    {
-      "title": "British retail sales rose 0.7% in March as motorists stocked up on petrol",
-      "link": "https://www.ft.com/content/a634ba5d-dd73-4f87-acf9-aaa1142a2645",
-      "raw_summary": "Better than expected figure underlines impact of Middle East conflict",
+      "title": "Big Four’s shrinkage at the top presages weakness at the bottom line",
+      "link": "https://www.ft.com/content/33857eed-4e7b-4786-8412-f30a7557c411",
+      "raw_summary": "Professional service firms appear to be braced for flatlining growth",
       "source": "World",
-      "published": "Fri, 24 Apr 2026 06:50:17 GMT",
-      "summary": "British retail sales rose 0.7% in March as motorists stocked up on petrol\nBetter than expected figure underlines impact of Middle East conflict"
+      "published": "Fri, 24 Apr 2026 12:06:25 GMT",
+      "summary": "Big Four’s shrinkage at the top presages weakness at the bottom line\nProfessional service firms appear to be braced for flatlining growth"
     },
     {
-      "title": "The dollar swap puzzle",
-      "link": "https://www.ft.com/content/e1475a20-727a-42f7-8b3c-7500a5a05402",
-      "raw_summary": "Plus, where’s the love for clean energy?",
+      "title": "Mandelson row is a cold shower for civil service relations",
+      "link": "https://www.ft.com/content/6be55885-bc5f-4010-ad6e-73c89a154c1b",
+      "raw_summary": "The fallout from an ambassadorial appointment like no other threatens even worse procedural ‘sludge’ in Whitehall",
       "source": "World",
-      "published": "Fri, 24 Apr 2026 05:30:01 GMT",
-      "summary": "The dollar swap puzzle\nPlus, where’s the love for clean energy?"
+      "published": "Fri, 24 Apr 2026 12:00:10 GMT",
+      "summary": "Mandelson row is a cold shower for civil service relations\nThe fallout from an ambassadorial appointment like no other threatens even worse procedural ‘sludge’ in Whitehall"
     },
     {
-      "title": "Strategy’s teetering financial tower",
-      "link": "https://www.ft.com/content/ea814e1f-b595-4a7c-a518-2d02e2b409e4",
-      "raw_summary": "A bitcoin price reprieve can’t erase the company’s contradictions",
+      "title": "Why do I have so much in UK equities?",
+      "link": "https://www.ft.com/content/4d0d1363-ea1d-40d4-941c-93186b73989d",
+      "raw_summary": "British pension schemes will soon be forced to support my portfolio",
       "source": "World",
-      "published": "Fri, 24 Apr 2026 05:00:03 GMT",
-      "summary": "Strategy’s teetering financial tower\nA bitcoin price reprieve can’t erase the company’s contradictions"
+      "published": "Fri, 24 Apr 2026 11:58:43 GMT",
+      "summary": "Why do I have so much in UK equities?\nBritish pension schemes will soon be forced to support my portfolio"
     },
     {
-      "title": "EU must be ‘very patient’ with Hungary’s Magyar, says Tusk",
-      "link": "https://www.ft.com/content/630861b3-40a6-453e-afe1-c6b9c78b2cba",
-      "raw_summary": "Also in this newsletter: EU capitals fight over bloc’s seven-year budget",
+      "title": "The Mandelson Starmer saga stumbles on",
+      "link": "https://www.ft.com/content/f4bc5b15-3c99-431b-a03d-14a1caedddd9",
+      "raw_summary": "Plus: Electricity prices, deportation plans, and dodgy degrees",
       "source": "World",
-      "published": "Fri, 24 Apr 2026 05:00:03 GMT",
-      "summary": "EU must be ‘very patient’ with Hungary’s Magyar, says Tusk\nAlso in this newsletter: EU capitals fight over bloc’s seven-year budget"
+      "published": "Fri, 24 Apr 2026 11:57:08 GMT",
+      "summary": "The Mandelson Starmer saga stumbles on\nPlus: Electricity prices, deportation plans, and dodgy degrees"
     },
     {
-      "title": "FirstFT: Poland’s Tusk casts doubt on US defence pledge to Europe",
-      "link": "https://www.ft.com/content/9d588852-5c05-4815-a7cb-1d42c6ccca7f",
-      "raw_summary": "Also in today’s newsletter: MPS weighs Generali stake sale and accountancy firms end job-for-life model",
+      "title": "How quickly can Gulf oil start gushing again?",
+      "link": "https://www.ft.com/content/8f5ab7ed-ea8b-4568-acaa-100eec753959",
+      "raw_summary": "Schrodinger’s Strait",
       "source": "World",
-      "published": "Fri, 24 Apr 2026 04:30:12 GMT",
-      "summary": "FirstFT: Poland’s Tusk casts doubt on US defence pledge to Europe\nAlso in today’s newsletter: MPS weighs Generali stake sale and accountancy firms end job-for-life model"
+      "published": "Fri, 24 Apr 2026 11:25:44 GMT",
+      "summary": "How quickly can Gulf oil start gushing again?\nSchrodinger’s Strait"
     },
     {
-      "title": "Chip Stocks Rally as Hormuz Stalemate Lifts Oil: Markets Wrap",
+      "title": "One by One, Europe’s Safest Government Bonds Fall From Grace",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-24/europe-s-safest-government-bonds-fall-from-grace-one-by-one",
+      "raw_summary": "The traditional hierarchy of debt in Europe is facing its latest shake-up as worsening public finances in Belgium threaten to turn some of the region’s once-safest bonds into a risky bet.",
+      "source": "Bloomberg Markets",
+      "published": "Fri, 24 Apr 2026 08:07:04 GMT",
+      "summary": "One by One, Europe’s Safest Government Bonds Fall From Grace\nThe traditional hierarchy of debt in Europe is facing its latest shake-up as worsening public finances in Belgium threaten to turn some of the region’s once-safest bonds into a risky bet."
+    },
+    {
+      "title": "Yara Raises Deliveries as Iran War Jolts Fertilizer Market",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-24/yara-boosts-profit-as-iran-war-sends-fertilizer-prices-soaring",
+      "raw_summary": "Fertilizer giant Yara International ASA boosted shipments in the first quarter as the Iran war effectively halted transit through the Strait of Hormuz, hurting global trade of crop nutrients and pushing up prices.",
+      "source": "Bloomberg Markets",
+      "published": "Fri, 24 Apr 2026 08:23:05 GMT",
+      "summary": "Yara Raises Deliveries as Iran War Jolts Fertilizer Market\nFertilizer giant Yara International ASA boosted shipments in the first quarter as the Iran war effectively halted transit through the Strait of Hormuz, hurting global trade of crop nutrients and pushing up prices."
+    },
+    {
+      "title": "Cava Gets Lone Sell Rating After Fast-Casual Chain’s 123% Rally",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-24/cava-gets-lone-sell-rating-after-fast-casual-chain-s-123-rally",
+      "raw_summary": "A rally that’s more than doubled shares of Mediterranean fast-casual chain Cava Group Inc. in five months has gone too far, according to its new lone bear on Wall Street.",
+      "source": "Bloomberg Markets",
+      "published": "Fri, 24 Apr 2026 12:45:41 GMT",
+      "summary": "Cava Gets Lone Sell Rating After Fast-Casual Chain’s 123% Rally\nA rally that’s more than doubled shares of Mediterranean fast-casual chain Cava Group Inc. in five months has gone too far, according to its new lone bear on Wall Street."
+    },
+    {
+      "title": "Stocks Climb on Iran Talks Optimism, Tech Results: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-04-23/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "Chipmakers are the standout performers on a day when other stock sectors are under pressure as the standoff between the US and Iran over oil shipments from the Middle East shows no sign of easing.",
+      "raw_summary": "US stocks rose on optimism that America and Iran are moving toward talks after days of deadlock. Blowout results from Intel Corp. drove a rally in tech shares.",
       "source": "Bloomberg Markets",
       "published": "Thu, 23 Apr 2026 22:15:09 GMT",
-      "summary": "Chip Stocks Rally as Hormuz Stalemate Lifts Oil: Markets Wrap\nChipmakers are the standout performers on a day when other stock sectors are under pressure as the standoff between the US and Iran over oil shipments from the Middle East shows no sign of easing."
+      "summary": "Stocks Climb on Iran Talks Optimism, Tech Results: Markets Wrap\nUS stocks rose on optimism that America and Iran are moving toward talks after days of deadlock. Blowout results from Intel Corp. drove a rally in tech shares."
     },
     {
-      "title": "Iran War to Keep Gas Market Tight for Two More Years, IEA Says",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-24/iran-war-to-keep-gas-market-tight-for-two-more-years-iea-says",
-      "raw_summary": "The global natural gas market is set to remain tight well beyond this year, as the ongoing conflict in the Middle East and damage to regional infrastructure continue to disrupt supply, according to the International Energy Agency.",
+      "title": "Fund at Center of Avis Squeeze Added to Stake Before Rout",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-24/hedge-fund-at-center-of-avis-squeeze-added-to-stake-before-rout",
+      "raw_summary": "Avis Budget Group Inc.’s second-biggest shareholder Pentwater Capital Management LP boosted its stake in the car rental company just before the stock’s nearly 70% rout.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 24 Apr 2026 07:35:45 GMT",
-      "summary": "Iran War to Keep Gas Market Tight for Two More Years, IEA Says\nThe global natural gas market is set to remain tight well beyond this year, as the ongoing conflict in the Middle East and damage to regional infrastructure continue to disrupt supply, according to the International Energy Agency."
+      "published": "Fri, 24 Apr 2026 11:37:20 GMT",
+      "summary": "Fund at Center of Avis Squeeze Added to Stake Before Rout\nAvis Budget Group Inc.’s second-biggest shareholder Pentwater Capital Management LP boosted its stake in the car rental company just before the stock’s nearly 70% rout."
     },
     {
-      "title": "Goldman Says Persian Gulf Oil Supply 57% Below Pre-War Level",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-24/goldman-says-persian-gulf-oil-supply-is-57-below-pre-war-levels",
-      "raw_summary": "Oil output from Persian Gulf nations has been running 14.5 million barrels a day below pre-war levels this month, according to Goldman Sachs Group Inc., which estimated any resumption would take months.",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 24 Apr 2026 06:26:22 GMT",
-      "summary": "Goldman Says Persian Gulf Oil Supply 57% Below Pre-War Level\nOil output from Persian Gulf nations has been running 14.5 million barrels a day below pre-war levels this month, according to Goldman Sachs Group Inc., which estimated any resumption would take months."
-    },
-    {
-      "title": "Why Markets Are Resilient Despite the Iran War",
-      "link": "https://www.bloomberg.com/news/videos/2026-04-24/why-markets-are-resilient-despite-the-iran-war-video",
-      "raw_summary": "Stocks are climbing back toward record highs, even as the Iran war continues and oil prices stay elevated. So why aren’t markets reacting?\n\n (Source: Bloomberg)",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 24 Apr 2026 07:27:22 GMT",
-      "summary": "Why Markets Are Resilient Despite the Iran War\nStocks are climbing back toward record highs, even as the Iran war continues and oil prices stay elevated. So why aren’t markets reacting?\n\n (Source: Bloomberg)"
-    },
-    {
-      "title": "Al Kishi: Don’t Be Alarmed By Currency Swap Discussions",
-      "link": "https://www.bloomberg.com/news/videos/2026-04-24/al-kishi-don-t-be-alarmed-by-currency-swap-discussions-video",
-      "raw_summary": "The UAE & US have discussed a currency swap line as a financial backstop due to the impact of the war. But Deutsche Bank’s MEA CEO says despite the uncertainty, the banking environment across the Gulf remains resilient. Jamal Al Kishi spoke to Bloomberg’s Horizons Middle East and Africa anchor Joumanna Bercetche on activity in the region. (Source: Bloomberg)",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 24 Apr 2026 07:26:47 GMT",
-      "summary": "Al Kishi: Don’t Be Alarmed By Currency Swap Discussions\nThe UAE & US have discussed a currency swap line as a financial backstop due to the impact of the war. But Deutsche Bank’s MEA CEO says despite the uncertainty, the banking environment across the Gulf remains resilient. Jamal Al Kishi spoke to "
-    },
-    {
-      "title": "Morgan Stanley is positioning itself as the reserve manager for the stablecoin industry",
-      "link": "https://www.coindesk.com/markets/2026/04/24/morgan-stanley-is-positioning-itself-as-the-reserve-manager-for-the-stablecoin-industry",
+      "title": "Bitcoin, dollar move in near-perfect opposition. It hasn't been this extreme in almost 4 years.",
+      "link": "https://www.coindesk.com/daybook-us/2026/04/24/bitcoin-dollar-move-in-near-perfect-opposition-it-hasn-t-been-this-extreme-in-almost-4-years",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 24 Apr 2026 06:39:39 +0000",
-      "summary": "Morgan Stanley is positioning itself as the reserve manager for the stablecoin industry\n"
+      "published": "Fri, 24 Apr 2026 11:17:56 +0000",
+      "summary": "Bitcoin, dollar move in near-perfect opposition. It hasn't been this extreme in almost 4 years.\n"
     },
     {
-      "title": "Bitcoin ETFs just pulled $2 billion in 8 days while short-term holders quietly started selling",
-      "link": "https://www.coindesk.com/markets/2026/04/24/bitcoin-etfs-just-pulled-usd2-billion-in-8-days-while-short-term-holders-quietly-started-selling",
+      "title": "Bitcoin stalls below at $77,500 as volatility cools, traders unwind leverage",
+      "link": "https://www.coindesk.com/markets/2026/04/24/bitcoin-stalls-below-at-usd77-500-as-volatility-cools-traders-unwind-leverage",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 24 Apr 2026 06:07:38 +0000",
-      "summary": "Bitcoin ETFs just pulled $2 billion in 8 days while short-term holders quietly started selling\n"
+      "published": "Fri, 24 Apr 2026 10:40:26 +0000",
+      "summary": "Bitcoin stalls below at $77,500 as volatility cools, traders unwind leverage\n"
     },
     {
-      "title": "Bitcoin rally is stalling as Japanese inflation adds to Iran war–driven market jitters",
-      "link": "https://www.coindesk.com/markets/2026/04/24/bitcoin-rally-is-stalling-as-japan-macro-adds-to-iran-war-driven-market-jitters",
+      "title": "Michael Saylor says the bitcoin winter is over. Some experts agree, with caveats.",
+      "link": "https://www.coindesk.com/markets/2026/04/23/michael-saylor-says-the-bitcoin-winter-is-over-some-experts-agree-with-caveats",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 24 Apr 2026 05:01:29 +0000",
-      "summary": "Bitcoin rally is stalling as Japanese inflation adds to Iran war–driven market jitters\n"
+      "published": "Fri, 24 Apr 2026 10:03:36 +0000",
+      "summary": "Michael Saylor says the bitcoin winter is over. Some experts agree, with caveats.\n"
     },
     {
-      "title": "Wisconsin joins prediction market fight, suing Kalshi, Coinbase, Polymarket, Robinhood and Crypto.com",
-      "link": "https://www.coindesk.com/policy/2026/04/24/wisconsin-joins-prediction-market-fight-suing-kalshi-coinbase-polymarket-robinhood-and-crypto-com",
+      "title": "India pushes e-rupee through welfare pilots as BRICS digital currency plan takes shape",
+      "link": "https://www.coindesk.com/policy/2026/04/24/india-pushes-digital-rupee-through-welfare-pilots-as-brics-cbdc-plan-takes-shape",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 24 Apr 2026 04:47:21 +0000",
-      "summary": "Wisconsin joins prediction market fight, suing Kalshi, Coinbase, Polymarket, Robinhood and Crypto.com\n"
+      "published": "Fri, 24 Apr 2026 09:25:07 +0000",
+      "summary": "India pushes e-rupee through welfare pilots as BRICS digital currency plan takes shape\n"
     },
     {
-      "title": "U.S. arrests Army green beret for $400,000 Polymarket bets on Venezuela raid he was in",
-      "link": "https://www.coindesk.com/policy/2026/04/23/u-s-arrests-soldier-for-polymarket-bets-on-nicolas-maduro-raid-he-participated-in",
+      "title": "U.S. government sits on $26.5 billion gain from Intel stake, as shares surge 22%",
+      "link": "https://www.coindesk.com/markets/2026/04/24/u-s-government-sits-on-usd26-5-billion-gain-from-intel-stake-as-shares-surge-22",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 23 Apr 2026 22:11:37 +0000",
-      "summary": "U.S. arrests Army green beret for $400,000 Polymarket bets on Venezuela raid he was in\n"
+      "published": "Fri, 24 Apr 2026 09:05:15 +0000",
+      "summary": "U.S. government sits on $26.5 billion gain from Intel stake, as shares surge 22%\n"
     }
   ]
 }
