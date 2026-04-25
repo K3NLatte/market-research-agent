@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T12:44:13.185964+00:00",
+  "generated_at": "2026-04-25T18:39:02.862640+00:00",
   "count": 40,
   "articles": [
     {
@@ -83,84 +83,84 @@
       "summary": "Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine\nThe AI Agent Authority Gap - From Ungoverned to Delegation\nAs discussed in our previous article, AI agents are exposing a structural gap in enterprise security, but the problem is often framed too narrowly.\nThe issu"
     },
     {
-      "title": "A web-based RDP client built with Go WebAssembly and grdp",
-      "link": "https://github.com/nakagami/grdpwasm",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/nakagami/grdpwasm\">https://github.com/nakagami/grdpwasm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47900440\">https://news.ycombinator.com/item?id=47900440</a></p>\n<p>Points: 9</p>\n<p># Comments: 3</p>",
+      "title": "Hokusai and Tesselations",
+      "link": "https://dl.ndl.go.jp/pid/1899550/1/11/",
+      "raw_summary": "<p>Article URL: <a href=\"https://dl.ndl.go.jp/pid/1899550/1/11/\">https://dl.ndl.go.jp/pid/1899550/1/11/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47902993\">https://news.ycombinator.com/item?id=47902993</a></p>\n<p>Points: 9</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 25 Apr 2026 10:59:29 +0000",
-      "summary": "A web-based RDP client built with Go WebAssembly and grdp\n<p>Article URL: <a href=\"https://github.com/nakagami/grdpwasm\">https://github.com/nakagami/grdpwasm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47900440\">https://news.ycombinator.com/item?id=47900440</a></p>\n<p>Poin"
+      "published": "Sat, 25 Apr 2026 17:21:22 +0000",
+      "summary": "Hokusai and Tesselations\n<p>Article URL: <a href=\"https://dl.ndl.go.jp/pid/1899550/1/11/\">https://dl.ndl.go.jp/pid/1899550/1/11/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47902993\">https://news.ycombinator.com/item?id=47902993</a></p>\n<p>Points: 9</p>\n<p># Comments: 3</p"
     },
     {
-      "title": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
-      "link": "https://github.com/nex-crm/wuphf",
-      "raw_summary": "<p>I shipped a wiki layer for AI agents that uses markdown + git as the source of truth, with a bleve (BM25) + SQLite index on top. No vector or graph db yet.<p>It runs locally in ~/.wuphf/wiki/ and you can git clone it out if you want to take your knowledge with you.<p>The shape is the one Karpathy has been circling for a while: an LLM-native knowledge substrate that agents both read from and write into, so context compounds across sessions rather than getting re-pasted every morning. Most implementations of that idea land on Postgres, pgvector, Neo4j, Kafka, and a dashboard.<p>I wanted to go back to the basics and see how far markdown + git could go before I added anything heavier.<p>What it does:\n-> Each agent gets a private notebook at agents/{slug}/notebook/.md, plus access to a shared team wiki at team/.<p>-> Draft-to-wiki promotion flow. Notebook entries are reviewed (agent or human) and promoted to the canonical wiki with a back-link. A small state machine drives expiry and auto-archive.<p>-> Per-entity fact log: append-only JSONL at team/entities/{kind}-{slug}.facts.jsonl. A synthesis worker rebuilds the entity brief every N facts. Commits land under a distinct \"Pam the Archivist\" git identity so provenance is visible in git log.<p>-> [[Wikilinks]] with broken-link detection rendered in red.<p>-> Daily lint cron for contradictions, stale entries, and broken wikilinks.<p>-> /lookup slash command plus an MCP tool for cited retrieval. A heuristic classifier routes short lookups to BM25 and narrative queries to a cited-answer loop.<p>Substrate choices:\nMarkdown for durability. The wiki outlives the runtime, and a user can walk away with every byte. Bleve for BM25. SQLite for structured metadata (facts, entities, edges, redirects, and supersedes). No vectors yet. The current benchmark (500 artifacts, 50 queries) clears 85% recall@20 on BM25 alone, which is the internal ship gate. sqlite-vec is the pre-committed fallback if a query class drops below that.<p>Canonical IDs are first-class. Fact IDs are deterministic and include sentence offset. Canonical slugs are assigned once, merged via redirect stubs, and never renamed. A rebuild is logically identical, not byte-identical.<p>Known limits:\n-> Recall tuning is ongoing. 85% on the benchmark is not a universal guarantee.<p>-> Synthesis quality is bounded by agent observation quality. Garbage facts in, garbage briefs out. The lint pass helps. It is not a judgment engine.<p>-> Single-office scope today. No cross-office federation.<p>Demo. 5-minute terminal walkthrough that records five facts, fires synthesis, shells out to the user's LLM CLI, and commits the result under Pam's identity: <a href=\"https://asciinema.org/a/vUvjJsB5vtUQQ4Eb\" rel=\"nofollow\">https://asciinema.org/a/vUvjJsB5vtUQQ4Eb</a><p>Script lives at ./scripts/demo-entity-synthesis.sh.<p>Context. The wiki ships as part of WUPHF, an open source collaborative office for AI agents like Claude Code, Codex, OpenClaw, and local LLMs via OpenCode. MIT, self-hosted, bring-your-own keys. You do not have to use the full office to use the wiki layer. If you already have an agent setup, point WUPHF at it and the wiki attaches.<p>Source: <a href=\"https://github.com/nex-crm/wuphf\" rel=\"nofollow\">https://github.com/nex-crm/wuphf</a><p>Install: npx wuphf@latest<p>Happy to go deep on the substrate tradeoffs, the promotion-flow state machine, the BM25-first retrieval bet, or the canonical-ID stability rules. Also happy to take \"why not an Obsidian vault with a plugin\" as a fair question.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47899844\">https://news.ycombinator.com/item?id=47899844</a></p>\n<p>Points: 103</p>\n<p># Comments: 45</p>",
+      "title": "Framework Laptop 13 Pro: Major Upgrades and Linux Front and Center",
+      "link": "https://boilingsteam.com/framework-laptop-13-pro-announced/",
+      "raw_summary": "<p>Article URL: <a href=\"https://boilingsteam.com/framework-laptop-13-pro-announced/\">https://boilingsteam.com/framework-laptop-13-pro-announced/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47902816\">https://news.ycombinator.com/item?id=47902816</a></p>\n<p>Points: 46</p>\n<p># Comments: 8</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 25 Apr 2026 08:53:53 +0000",
-      "summary": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)\n<p>I shipped a wiki layer for AI agents that uses markdown + git as the source of truth, with a bleve (BM25) + SQLite index on top. No vector or graph db yet.<p>It runs locally in ~/.wuphf/wiki/ and you can git clone it out i"
+      "published": "Sat, 25 Apr 2026 16:54:28 +0000",
+      "summary": "Framework Laptop 13 Pro: Major Upgrades and Linux Front and Center\n<p>Article URL: <a href=\"https://boilingsteam.com/framework-laptop-13-pro-announced/\">https://boilingsteam.com/framework-laptop-13-pro-announced/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47902816\">https:"
     },
     {
-      "title": "Escrow Security for iCloud Keychain",
-      "link": "https://support.apple.com/guide/security/escrow-security-for-icloud-keychain-sec3e341e75d/web",
-      "raw_summary": "<p>Article URL: <a href=\"https://support.apple.com/guide/security/escrow-security-for-icloud-keychain-sec3e341e75d/web\">https://support.apple.com/guide/security/escrow-security-for-icloud-keychain-sec3e341e75d/web</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47899334\">https://news.ycombinator.com/item?id=47899334</a></p>\n<p>Points: 21</p>\n<p># Comments: 4</p>",
+      "title": "Niri 26.04 was just released (scrollable-tiling Wayland compositor)",
+      "link": "https://github.com/niri-wm/niri/releases/tag/v26.04",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/niri-wm/niri/releases/tag/v26.04\">https://github.com/niri-wm/niri/releases/tag/v26.04</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47902416\">https://news.ycombinator.com/item?id=47902416</a></p>\n<p>Points: 128</p>\n<p># Comments: 33</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 25 Apr 2026 06:56:23 +0000",
-      "summary": "Escrow Security for iCloud Keychain\n<p>Article URL: <a href=\"https://support.apple.com/guide/security/escrow-security-for-icloud-keychain-sec3e341e75d/web\">https://support.apple.com/guide/security/escrow-security-for-icloud-keychain-sec3e341e75d/web</a></p>\n<p>Comments URL: <a href=\"https://news.yco"
+      "published": "Sat, 25 Apr 2026 15:59:15 +0000",
+      "summary": "Niri 26.04 was just released (scrollable-tiling Wayland compositor)\n<p>Article URL: <a href=\"https://github.com/niri-wm/niri/releases/tag/v26.04\">https://github.com/niri-wm/niri/releases/tag/v26.04</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47902416\">https://news.ycombina"
     },
     {
-      "title": "New 10 GbE USB adapters are cooler, smaller, cheaper",
-      "link": "https://www.jeffgeerling.com/blog/2026/new-10-gbe-usb-adapters-cooler-smaller-cheaper/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.jeffgeerling.com/blog/2026/new-10-gbe-usb-adapters-cooler-smaller-cheaper/\">https://www.jeffgeerling.com/blog/2026/new-10-gbe-usb-adapters-cooler-smaller-cheaper/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47899053\">https://news.ycombinator.com/item?id=47899053</a></p>\n<p>Points: 267</p>\n<p># Comments: 125</p>",
+      "title": "GPT 5.5 biosafety bounty",
+      "link": "https://openai.com/index/gpt-5-5-bio-bug-bounty/",
+      "raw_summary": "<p>Article URL: <a href=\"https://openai.com/index/gpt-5-5-bio-bug-bounty/\">https://openai.com/index/gpt-5-5-bio-bug-bounty/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47901734\">https://news.ycombinator.com/item?id=47901734</a></p>\n<p>Points: 70</p>\n<p># Comments: 62</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 25 Apr 2026 05:56:12 +0000",
-      "summary": "New 10 GbE USB adapters are cooler, smaller, cheaper\n<p>Article URL: <a href=\"https://www.jeffgeerling.com/blog/2026/new-10-gbe-usb-adapters-cooler-smaller-cheaper/\">https://www.jeffgeerling.com/blog/2026/new-10-gbe-usb-adapters-cooler-smaller-cheaper/</a></p>\n<p>Comments URL: <a href=\"https://news."
+      "published": "Sat, 25 Apr 2026 14:17:31 +0000",
+      "summary": "GPT 5.5 biosafety bounty\n<p>Article URL: <a href=\"https://openai.com/index/gpt-5-5-bio-bug-bounty/\">https://openai.com/index/gpt-5-5-bio-bug-bounty/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47901734\">https://news.ycombinator.com/item?id=47901734</a></p>\n<p>Points: 70</p"
     },
     {
-      "title": "Turbo Vision 2.0 – a modern port",
-      "link": "https://github.com/magiblot/tvision",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/magiblot/tvision\">https://github.com/magiblot/tvision</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47898597\">https://news.ycombinator.com/item?id=47898597</a></p>\n<p>Points: 147</p>\n<p># Comments: 40</p>",
+      "title": "A Collection of Chronic Medical Conditions Common in Autistic and ADHD Adults [pdf] (2023)",
+      "link": "https://allbrainsbelong.org/wp-content/uploads/2023/08/CLINICIAN-GUIDE-Everything-is-Connected-to-Everything-Project-All-Brains-Belong-VT-8.15.23.pdf",
+      "raw_summary": "<p>Article URL: <a href=\"https://allbrainsbelong.org/wp-content/uploads/2023/08/CLINICIAN-GUIDE-Everything-is-Connected-to-Everything-Project-All-Brains-Belong-VT-8.15.23.pdf\">https://allbrainsbelong.org/wp-content/uploads/2023/08/CLINICIAN-GUIDE-Everything-is-Connected-to-Everything-Project-All-Brains-Belong-VT-8.15.23.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47901469\">https://news.ycombinator.com/item?id=47901469</a></p>\n<p>Points: 44</p>\n<p># Comments: 24</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 25 Apr 2026 04:18:01 +0000",
-      "summary": "Turbo Vision 2.0 – a modern port\n<p>Article URL: <a href=\"https://github.com/magiblot/tvision\">https://github.com/magiblot/tvision</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47898597\">https://news.ycombinator.com/item?id=47898597</a></p>\n<p>Points: 147</p>\n<p># Comments: "
+      "published": "Sat, 25 Apr 2026 13:34:46 +0000",
+      "summary": "A Collection of Chronic Medical Conditions Common in Autistic and ADHD Adults [pdf] (2023)\n<p>Article URL: <a href=\"https://allbrainsbelong.org/wp-content/uploads/2023/08/CLINICIAN-GUIDE-Everything-is-Connected-to-Everything-Project-All-Brains-Belong-VT-8.15.23.pdf\">https://allbrainsbelong.org/wp-co"
     },
     {
-      "title": "Lachy Groom to back India startup Pronto at a $200M valuation, sources say",
-      "link": "https://techcrunch.com/2026/04/24/lachy-groom-to-back-pronto-as-indias-house-help-startup-scales-fast-sources-say/",
-      "raw_summary": "This round, should it occur, would double the house-help startup's valuation in a matter of weeks.",
+      "title": "OpenAI CEO apologizes to Tumbler Ridge community",
+      "link": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
+      "raw_summary": "In a letter to the residents of Tumbler Ridge, Canada, OpenAI CEO Sam Altman said he is “deeply sorry” that his company failed to alert law enforcement about the suspect in a recent mass shooting.",
       "source": "TechCrunch",
-      "published": "Sat, 25 Apr 2026 03:30:00 +0000",
-      "summary": "Lachy Groom to back India startup Pronto at a $200M valuation, sources say\nThis round, should it occur, would double the house-help startup's valuation in a matter of weeks."
+      "published": "Sat, 25 Apr 2026 17:17:56 +0000",
+      "summary": "OpenAI CEO apologizes to Tumbler Ridge community\nIn a letter to the residents of Tumbler Ridge, Canada, OpenAI CEO Sam Altman said he is “deeply sorry” that his company failed to alert law enforcement about the suspect in a recent mass shooting."
     },
     {
-      "title": "Steve Ballmer blasts founder he backed who pleaded guilty to fraud: ‘I was duped and feel silly’",
-      "link": "https://techcrunch.com/2026/04/24/steve-ballmer-blasts-founder-he-backed-who-pleaded-guilty-to-fraud-i-was-duped-and-feel-silly/",
-      "raw_summary": "Steve Ballmer wrote a fiery letter in the sentencing of disgraced founder Joseph Sanberg documenting all the harm that's befalling him as an investor.",
+      "title": "The climate tech IPO window could finally be cracking open",
+      "link": "https://techcrunch.com/2026/04/25/the-climate-tech-ipo-window-could-finally-be-cracking-open/",
+      "raw_summary": "Nuclear startup X-energy went public, geothermal startup Fervo is about to. Could this be the moment that climate tech investors have been waiting for?",
       "source": "TechCrunch",
-      "published": "Fri, 24 Apr 2026 23:32:11 +0000",
-      "summary": "Steve Ballmer blasts founder he backed who pleaded guilty to fraud: ‘I was duped and feel silly’\nSteve Ballmer wrote a fiery letter in the sentencing of disgraced founder Joseph Sanberg documenting all the harm that's befalling him as an investor."
+      "published": "Sat, 25 Apr 2026 16:33:00 +0000",
+      "summary": "The climate tech IPO window could finally be cracking open\nNuclear startup X-energy went public, geothermal startup Fervo is about to. Could this be the moment that climate tech investors have been waiting for?"
     },
     {
-      "title": "Palantir is reportedly helping the IRS investigate financial crimes",
-      "link": "https://techcrunch.com/2026/04/24/palantir-is-reportedly-helping-the-irs-investigate-financial-crimes/",
-      "raw_summary": "The IRS has used Palantir's software since at least 2018, The Intercept reports.",
+      "title": "Why Cohere is merging with Aleph Alpha",
+      "link": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/",
+      "raw_summary": "Canadian AI startup Cohere is taking over Germany-based Aleph Alpha with support from Lidl’s owner, Schwarz Group. With the blessing of their governments, the companies intend to offer a sovereign alternative to enterprises in an AI landscape dominated by American players.",
       "source": "TechCrunch",
-      "published": "Fri, 24 Apr 2026 21:53:44 +0000",
-      "summary": "Palantir is reportedly helping the IRS investigate financial crimes\nThe IRS has used Palantir's software since at least 2018, The Intercept reports."
+      "published": "Sat, 25 Apr 2026 16:00:00 +0000",
+      "summary": "Why Cohere is merging with Aleph Alpha\nCanadian AI startup Cohere is taking over Germany-based Aleph Alpha with support from Lidl’s owner, Schwarz Group. With the blessing of their governments, the companies intend to offer a sovereign alternative to enterprises in an AI landscape dominated by Ameri"
     },
     {
-      "title": "Cohere acquires, merges with Germany-based startup to create a ‘transatlantic AI powerhouse’",
-      "link": "https://techcrunch.com/2026/04/24/cohere-acquires-merges-with-german-based-startup-to-create-a-transatlantic-ai-powerhouse/",
-      "raw_summary": "Cohere, the Canada-based AI company that makes AI tools for businesses in regulated industries, announced Friday it would merge with Aleph Alpha, a German company that also builds AI systems for businesses and governments.",
+      "title": "Why Tokyo is the most important tech destination of 2026",
+      "link": "https://techcrunch.com/2026/04/25/why-tokyo-is-the-most-important-tech-destination-of-2026/",
+      "raw_summary": "SusHi Tech Tokyo 2026 has four tightly defined technology domains, each backed by live demonstrations, dedicated exhibit floors, and sessions featuring the people actually building and funding these technologies globally.",
       "source": "TechCrunch",
-      "published": "Fri, 24 Apr 2026 21:35:30 +0000",
-      "summary": "Cohere acquires, merges with Germany-based startup to create a ‘transatlantic AI powerhouse’\nCohere, the Canada-based AI company that makes AI tools for businesses in regulated industries, announced Friday it would merge with Aleph Alpha, a German company that also builds AI systems for businesses a"
+      "published": "Sat, 25 Apr 2026 15:03:00 +0000",
+      "summary": "Why Tokyo is the most important tech destination of 2026\nSusHi Tech Tokyo 2026 has four tightly defined technology domains, each backed by live demonstrations, dedicated exhibit floors, and sessions featuring the people actually building and funding these technologies globally."
     },
     {
-      "title": "Two college kids raise a $5.1 million pre-seed to build an AI social network in iMessage",
-      "link": "https://techcrunch.com/2026/04/24/two-college-kids-raise-a-5-1-million-pre-seed-to-build-an-ai-social-network-in-imessage/",
-      "raw_summary": "Series, a social networking app that's grown popular on college campuses, announced a $5.1 million pre-seed round from some big names in tech.",
+      "title": "Apps to distract you from the endless cycle of doomscrolling",
+      "link": "https://techcrunch.com/2026/04/25/apps-to-distract-you-from-the-endless-cycle-of-doomscrolling/",
+      "raw_summary": "It's hard to break the cycle of doomscrolling, but there are plenty of apps that can help you spend more time on content that’s engaging and productive.",
       "source": "TechCrunch",
-      "published": "Fri, 24 Apr 2026 21:05:59 +0000",
-      "summary": "Two college kids raise a $5.1 million pre-seed to build an AI social network in iMessage\nSeries, a social networking app that's grown popular on college campuses, announced a $5.1 million pre-seed round from some big names in tech."
+      "published": "Sat, 25 Apr 2026 15:00:07 +0000",
+      "summary": "Apps to distract you from the endless cycle of doomscrolling\nIt's hard to break the cycle of doomscrolling, but there are plenty of apps that can help you spend more time on content that’s engaging and productive."
     },
     {
       "title": "Artemis II broke Fred Haise's distance record, but he is happy to pass it on",
@@ -203,6 +203,22 @@
       "summary": "Europe—not US—first to authorize Moderna's combo mRNA flu-COVID vaccine\nAmid RFK Jr.'s anti-vaccine agenda, Moderna withdrew its FDA application last year."
     },
     {
+      "title": "Trump cancels trip by US negotiators for peace talks with Iran",
+      "link": "https://www.ft.com/content/c3be45f6-0e2d-4683-bd10-e0ba726ffade",
+      "raw_summary": "President said he was no longer sending Steve Witkoff and Jared Kushner to Pakistan",
+      "source": "World",
+      "published": "Sat, 25 Apr 2026 17:13:51 GMT",
+      "summary": "Trump cancels trip by US negotiators for peace talks with Iran\nPresident said he was no longer sending Steve Witkoff and Jared Kushner to Pakistan"
+    },
+    {
+      "title": "Co-ordinated attacks threaten Mali’s Russian-backed regime",
+      "link": "https://www.ft.com/content/fabb00f4-7997-49e2-a30b-41fb7caa6d59",
+      "raw_summary": "Military government battles to contain assaults launched by jihadist and secessionist militants",
+      "source": "World",
+      "published": "Sat, 25 Apr 2026 16:44:14 GMT",
+      "summary": "Co-ordinated attacks threaten Mali’s Russian-backed regime\nMilitary government battles to contain assaults launched by jihadist and secessionist militants"
+    },
+    {
       "title": "Companies with Mythos access urge joint defence of infrastructure",
       "link": "https://www.ft.com/content/e96bc361-d222-4190-80fe-e357fa86ef4d",
       "raw_summary": "Cyber security chiefs warn rollout of new tool will need close co-ordination between governments and businesses",
@@ -227,100 +243,84 @@
       "summary": "EV ownership at ‘tipping point’ in many parts of the world, experts say\nData shows momentum shift under way in Europe and emerging markets"
     },
     {
-      "title": "Defence stocks give back gains as investors buy rumour but sell war",
-      "link": "https://www.ft.com/content/1c9c4694-2ed3-4aac-8f64-2cbc5fb0e7cc",
-      "raw_summary": "Production bottlenecks and uncertainty over US munitions funding weigh on stock prices for weapons makers",
-      "source": "World",
-      "published": "Sat, 25 Apr 2026 10:00:09 GMT",
-      "summary": "Defence stocks give back gains as investors buy rumour but sell war\nProduction bottlenecks and uncertainty over US munitions funding weigh on stock prices for weapons makers"
-    },
-    {
-      "title": "Power is draining away from Starmer’s Downing Street",
-      "link": "https://www.ft.com/content/82b60c91-4015-4136-8c63-685af833f8c1",
-      "raw_summary": "Loyalty has worn thin because of the PM’s lack of interest in making the difficult decisions his job requires",
-      "source": "World",
-      "published": "Sat, 25 Apr 2026 04:00:40 GMT",
-      "summary": "Power is draining away from Starmer’s Downing Street\nLoyalty has worn thin because of the PM’s lack of interest in making the difficult decisions his job requires"
-    },
-    {
-      "title": "Decoding Muskism: Beyond the Billionaire",
-      "link": "https://www.bloomberg.com/news/videos/2026-04-25/decoding-muskism-beyond-the-billionaire-video",
-      "raw_summary": "The world's richest man may soon also be the world's first trillionaire as Elon Musk's SpaceX targets an IPO with a valuation of around $1.5 Trillion in what would be the largest IPO ever. Muskism: A Guide for the Perplexed authors Ben Tarnoff and Quinn Slobodian join David Gura and Christina Ruffini on Bloomberg This Weekend to discuss \"Muskism,\" referring to the ideology and worldview that shaped Musk. They say it is \"an operating system for the 21st century.\" (Source: Bloomberg)",
+      "title": "Bloomberg This Weekend 04/25/2026",
+      "link": "https://www.bloomberg.com/news/videos/2026-04-25/bloomberg-this-weekend-04-25-2026-video",
+      "raw_summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by “Muskism: A Guide for the Perplexed” Co-Authors Ben Tarnoff and Quinn Slobodian, Former US Fifth Fleet Commander for the US Navy Vice Admiral Kevin Donegan , S&amp;P Global Vice Chairman Daniel Yergin, Representative Michael McCaul, Jetr Global Sports + Entertainment Vice President David Francis and Jetr Global Sports + Entertainment Founder and CEO Travis Murphy. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Sat, 25 Apr 2026 12:39:03 GMT",
-      "summary": "Decoding Muskism: Beyond the Billionaire\nThe world's richest man may soon also be the world's first trillionaire as Elon Musk's SpaceX targets an IPO with a valuation of around $1.5 Trillion in what would be the largest IPO ever. Muskism: A Guide for the Perplexed authors Ben Tarnoff and Quinn Slobo"
+      "published": "Sat, 25 Apr 2026 16:27:31 GMT",
+      "summary": "Bloomberg This Weekend 04/25/2026\nThe news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by “Muskism: A Guide for the Perplexed” Co-Authors Ben Tarnoff and Q"
     },
     {
-      "title": "DOJ Drops Powell Probe, Smoothing Path for Kevin Warsh",
-      "link": "https://www.bloomberg.com/news/videos/2026-04-25/doj-drops-powell-probe-smoothing-path-for-kevin-warsh-video",
-      "raw_summary": "The Justice Department said it would end its criminal investigation of Federal Reserve Chair Jerome Powell, an attempt to clear the obstacle that has stalled Kevin Warsh's confirmation as his possible successor. Bloomberg News Justice Department Reporter Chris Strohm and Reporter Enda Curran join David Gura and Christina Ruffini on Bloomberg This Weekend to discuss. (Source: Bloomberg)",
+      "title": "EU Leaders Convene in Cyprus Amid Iran War",
+      "link": "https://www.bloomberg.com/news/videos/2026-04-25/eu-leaders-convene-in-cyprus-amid-iran-war-video",
+      "raw_summary": "European countries need to step up strategically in the Middle East, strike deals with partners across the region and try to bring an end to the Iran war, Cyprus’ foreign minister said Friday. Bloomberg News Chief Europe Correspondent Oliver Crook joins David Gura and Christina Ruffini on Bloomberg This Weekend to discuss. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Sat, 25 Apr 2026 12:30:22 GMT",
-      "summary": "DOJ Drops Powell Probe, Smoothing Path for Kevin Warsh\nThe Justice Department said it would end its criminal investigation of Federal Reserve Chair Jerome Powell, an attempt to clear the obstacle that has stalled Kevin Warsh's confirmation as his possible successor. Bloomberg News Justice Department"
+      "published": "Sat, 25 Apr 2026 16:05:43 GMT",
+      "summary": "EU Leaders Convene in Cyprus Amid Iran War\nEuropean countries need to step up strategically in the Middle East, strike deals with partners across the region and try to bring an end to the Iran war, Cyprus’ foreign minister said Friday. Bloomberg News Chief Europe Correspondent Oliver Crook joins Dav"
     },
     {
-      "title": "Bitcoin’s Stealth Rally Has Traders Setting Sights on $80,000",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-25/bitcoin-s-stealth-rally-has-traders-setting-sights-on-80-000",
-      "raw_summary": "Bitcoin is approaching $80,000 for the first time since January &mdash; a stealth recovery built not on euphoria but on short covering and the relentless accumulation by one company: Strategy Inc.",
+      "title": "Billion-Barrel Hormuz Oil Shock Is About to Crash Demand",
+      "link": "https://www.bloomberg.com/news/videos/2026-04-25/billion-barrel-hormuz-oil-shock-is-about-to-crash-demand-video",
+      "raw_summary": "The Strait of Hormuz oil shock has yet to crash demand as the rich world borrows from its stocks and pays up to secure supply. Traders are now sounding the alarm that a harsh adjustment is coming. Bloomberg News Washington Bureau Chief Peggy Collins and White House Correspondent Jeff Mason join David Gura and Christina Ruffini on Bloomberg This Weekend for a wide-ranging conversation on the latest in politics. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Sat, 25 Apr 2026 12:30:00 GMT",
-      "summary": "Bitcoin’s Stealth Rally Has Traders Setting Sights on $80,000\nBitcoin is approaching $80,000 for the first time since January &mdash; a stealth recovery built not on euphoria but on short covering and the relentless accumulation by one company: Strategy Inc."
+      "published": "Sat, 25 Apr 2026 16:00:39 GMT",
+      "summary": "Billion-Barrel Hormuz Oil Shock Is About to Crash Demand\nThe Strait of Hormuz oil shock has yet to crash demand as the rich world borrows from its stocks and pays up to secure supply. Traders are now sounding the alarm that a harsh adjustment is coming. Bloomberg News Washington Bureau Chief Peggy C"
     },
     {
-      "title": "White House Sends Team to Pakistan as Iran Balks at Talks",
-      "link": "https://www.bloomberg.com/news/videos/2026-04-25/trump-sends-team-to-pakistan-as-iran-balks-at-talks-video",
-      "raw_summary": "President Donald Trump has sent envoys to Pakistan with the intention of meeting with Iranian officials, while Tehran sounded a pessimistic tone on the prospects for talks to end the eight-week war roiling the global economy. Bloomberg News Deputy UAE Bureau Chief Abeer Abu Omar, Washington Correspondent Josh Wingrove and Senior Reporter Dan Strumpf join David Gura and Christina Ruffini on Bloomberg This Weekend to discuss. (Source: Bloomberg)",
+      "title": "BTW | FIFA World Cup, Chili, Pokémon",
+      "link": "https://www.bloomberg.com/news/videos/2026-04-25/btw-fifa-world-cup-chili-pokemon-video",
+      "raw_summary": "Bloomberg This Weekend = BTW = By The Way: Lisa Mateo, Christina Ruffini and David Gura dive into the headlines you may have missed on Bloomberg This Weekend. Watch more here: Watch the show LIVE every Saturday and Sunday morning. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Sat, 25 Apr 2026 12:24:28 GMT",
-      "summary": "White House Sends Team to Pakistan as Iran Balks at Talks\nPresident Donald Trump has sent envoys to Pakistan with the intention of meeting with Iranian officials, while Tehran sounded a pessimistic tone on the prospects for talks to end the eight-week war roiling the global economy. Bloomberg News D"
+      "published": "Sat, 25 Apr 2026 15:45:50 GMT",
+      "summary": "BTW | FIFA World Cup, Chili, Pokémon\nBloomberg This Weekend = BTW = By The Way: Lisa Mateo, Christina Ruffini and David Gura dive into the headlines you may have missed on Bloomberg This Weekend. Watch more here: Watch the show LIVE every Saturday and Sunday morning. (Source: Bloomberg)"
     },
     {
-      "title": "What the Fed Can Do About Anthropic’s Latest System",
-      "link": "https://www.bloomberg.com/news/videos/2026-04-25/what-the-fed-can-do-about-anthropic-s-latest-system-video",
-      "raw_summary": "Anthropic says its newest AI system can detect serious cybersecurity risks, but the new technology is so powerful that the company is holding back public release. The nearly autonomous system can detect banking software vulnerabilities and spawn sub-agents that operate without human oversight at unprecedented speed. Treasury Secretary Scott Bessent and Fed Chair Jay Powell took the unusual step of calling in major bank leaders to discuss the risks raised by the new model. Experts weigh in on whether regulation and open-source tools can keep the financial system safe. (Source: Bloomberg)",
+      "title": "Triumphal Arch: How Trump is Leaving His Mark on DC",
+      "link": "https://www.bloomberg.com/news/videos/2026-04-25/triumphal-arch-how-trump-is-leaving-his-mark-on-dc-video",
+      "raw_summary": "Twice the size of the Lincoln Memorial, taller than almost all structures in Washington DC, and the winged figure atop rising some 60 feet high, the equivalent of a six-story building: President Donald Trump’s proposed “Triumphal Arch.” Bloomberg CityLab writer Kriston Capps joins Christina Ruffini in Washington DC to discuss the impact Trump is having on the architecture of the nation's capital. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Sat, 25 Apr 2026 12:03:45 GMT",
-      "summary": "What the Fed Can Do About Anthropic’s Latest System\nAnthropic says its newest AI system can detect serious cybersecurity risks, but the new technology is so powerful that the company is holding back public release. The nearly autonomous system can detect banking software vulnerabilities and spawn su"
+      "published": "Sat, 25 Apr 2026 15:34:47 GMT",
+      "summary": "Triumphal Arch: How Trump is Leaving His Mark on DC\nTwice the size of the Lincoln Memorial, taller than almost all structures in Washington DC, and the winged figure atop rising some 60 feet high, the equivalent of a six-story building: President Donald Trump’s proposed “Triumphal Arch.” Bloomberg C"
     },
     {
-      "title": "Clock is ticking for bitcoin to prevent quantum threat as it could drain 6.9 million BTC including Satoshi’s",
-      "link": "https://www.coindesk.com/tech/2026/04/25/clock-is-ticking-for-bitcoin-to-prevent-quantum-threat-as-it-could-drain-6-9-million-btc-including-satoshi-s",
+      "title": "BlackRock’s bitcoin ETF just hit a massive milestone that proves crypto is now a mainstream bet",
+      "link": "https://www.coindesk.com/markets/2026/04/25/blackrock-s-bitcoin-etf-just-hit-a-massive-milestone-that-proves-crypto-is-now-a-mainstream-bet",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sat, 25 Apr 2026 10:00:00 +0000",
-      "summary": "Clock is ticking for bitcoin to prevent quantum threat as it could drain 6.9 million BTC including Satoshi’s\n"
+      "published": "Sat, 25 Apr 2026 18:29:20 +0000",
+      "summary": "BlackRock’s bitcoin ETF just hit a massive milestone that proves crypto is now a mainstream bet\n"
     },
     {
-      "title": "Ripple-linked XRP stalls near $1.44 as 'triangle squeeze' nears breakout",
-      "link": "https://www.coindesk.com/markets/2026/04/25/ripple-linked-xrp-stalls-near-usd1-44-as-triangle-squeeze-nears-breakout",
+      "title": "How Anthropic’s Mythos model is forcing the crypto industry to rethink everything about security",
+      "link": "https://www.coindesk.com/tech/2026/04/25/how-anthropic-s-mythos-model-is-forcing-the-crypto-industry-to-rethink-everything-about-security",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sat, 25 Apr 2026 05:33:20 +0000",
-      "summary": "Ripple-linked XRP stalls near $1.44 as 'triangle squeeze' nears breakout\n"
+      "published": "Sat, 25 Apr 2026 17:00:00 +0000",
+      "summary": "How Anthropic’s Mythos model is forcing the crypto industry to rethink everything about security\n"
     },
     {
-      "title": "U.S. CFTC adds New York to string of states its suing to stop prediction market pushback",
-      "link": "https://www.coindesk.com/policy/2026/04/24/u-s-cftc-adds-new-york-to-string-of-states-its-suing-to-stop-prediction-market-pushback",
+      "title": "Bitcoin falls after Trump reportedly canceled Steve Witkoff and Jared Kushner's Iran-talks trip",
+      "link": "https://www.coindesk.com/markets/2026/04/25/bitcoin-falls-after-trump-reportedly-canceled-steve-witkoff-and-jared-kushner-s-iran-talks-trip",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 24 Apr 2026 22:09:13 +0000",
-      "summary": "U.S. CFTC adds New York to string of states its suing to stop prediction market pushback\n"
+      "published": "Sat, 25 Apr 2026 16:20:02 +0000",
+      "summary": "Bitcoin falls after Trump reportedly canceled Steve Witkoff and Jared Kushner's Iran-talks trip\n"
     },
     {
-      "title": "Bitcoin is on track for its best month in a year. $5 billion USDT growth fuels the rebound",
-      "link": "https://www.coindesk.com/markets/2026/04/24/bitcoin-is-on-track-for-its-best-month-in-a-year-usd5-billion-usdt-growth-fuels-the-rebound",
+      "title": "Mike Tyson, Tether CEO, Cathie Wood among speakers at Trump's 'most exclusive' crypto conference",
+      "link": "https://www.coindesk.com/policy/2026/04/25/mike-tyson-tether-ceo-cathie-wood-among-speakers-at-trump-s-most-exclusive-crypto-conference",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 24 Apr 2026 21:04:46 +0000",
-      "summary": "Bitcoin is on track for its best month in a year. $5 billion USDT growth fuels the rebound\n"
+      "published": "Sat, 25 Apr 2026 15:24:31 +0000",
+      "summary": "Mike Tyson, Tether CEO, Cathie Wood among speakers at Trump's 'most exclusive' crypto conference\n"
     },
     {
-      "title": "Tether's $344 million USDT freeze linked to U.S. 'Economic Fury' against Iran regime",
-      "link": "https://www.coindesk.com/policy/2026/04/24/tether-s-usd344-million-usdt-freeze-linked-to-u-s-economic-fury-against-iran-regime",
+      "title": "Bitcoin at $40,000 would be 'near-unprecedented' statistical outcome, analyst says",
+      "link": "https://www.coindesk.com/markets/2026/04/25/bitcoin-at-usd40-000-would-be-near-unprecedented-statistical-outcome-analyst-says",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 24 Apr 2026 19:50:07 +0000",
-      "summary": "Tether's $344 million USDT freeze linked to U.S. 'Economic Fury' against Iran regime\n"
+      "published": "Sat, 25 Apr 2026 15:00:00 +0000",
+      "summary": "Bitcoin at $40,000 would be 'near-unprecedented' statistical outcome, analyst says\n"
     }
   ]
 }
