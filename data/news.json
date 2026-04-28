@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T02:09:32.064247+00:00",
+  "generated_at": "2026-04-28T08:10:35.850062+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,22 @@
       "summary": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran\nA financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly secured cloud services and wipes data on infected systems that use Iran's time zone or have Farsi "
     },
     {
+      "title": "Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover",
+      "link": "https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html",
+      "raw_summary": "An administrative role meant for artificial intelligence (AI) agents within Microsoft Entra ID could enable privilege escalation and identity takeover attacks, according to new findings from Silverfort.\nAgent ID Administrator is a privileged built-in role introduced by Microsoft as part of its agent identity platform to handle all aspects of an AI agent's identity lifecycle operations in a",
+      "source": "The Hacker News",
+      "published": "Tue, 28 Apr 2026 12:07:00 +0530",
+      "summary": "Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover\nAn administrative role meant for artificial intelligence (AI) agents within Microsoft Entra ID could enable privilege escalation and identity takeover attacks, according to new findings from Silverfort.\nAgent ID Administrat"
+    },
+    {
+      "title": "Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202",
+      "link": "https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html",
+      "raw_summary": "Microsoft on Monday revised its advisory for a now-patched, high-severity security flaw impacting Windows Shell to acknowledge that it has been actively exploited in the wild.\nThe vulnerability in question is CVE-2026-32202 (CVSS score: 4.3), a spoofing vulnerability that could allow an attacker to access sensitive information. It was addressed as part of its Patch Tuesday update for this",
+      "source": "The Hacker News",
+      "published": "Tue, 28 Apr 2026 11:20:00 +0530",
+      "summary": "Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202\nMicrosoft on Monday revised its advisory for a now-patched, high-severity security flaw impacting Windows Shell to acknowledge that it has been actively exploited in the wild.\nThe vulnerability in question is CVE-2026-32202 (CVSS"
+    },
+    {
       "title": "Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack",
       "link": "https://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html",
       "raw_summary": "Checkmarx has disclosed that its ongoing investigation tied to the supply chain security incident has revealed that a cybercriminal group published data related to the company on the dark web.\n\"Based on current evidence, we believe this data originated from Checkmarx's GitHub repository, and that access to that repository was facilitated through the initial supply chain attack of March 23, 2026,",
@@ -67,60 +83,60 @@
       "summary": "Mythos Changed the Math on Vulnerability Discovery. Most Teams Aren't Ready for the Remediation Side\nAnthropic’s Claude Mythos Preview has dominated security discussions since its April 7 announcement. Early reporting describes a powerful cybersecurity-focused AI system capable of identifying vulner"
     },
     {
-      "title": "PhantomCore Exploits TrueConf Vulnerabilities to Breach Russian Networks",
-      "link": "https://thehackernews.com/2026/04/phantomcore-exploits-trueconf.html",
-      "raw_summary": "A pro-Ukrainian hacktivist group called PhantomCore has been attributed to attacks actively targeting servers running TrueConf video conferencing software in Russia since September 2025.\nThat's according to a report published by Positive Technologies, which found the threat actors to be leveraging an exploit chain comprising three vulnerabilities to execute commands remotely on susceptible",
-      "source": "The Hacker News",
-      "published": "Mon, 27 Apr 2026 17:24:00 +0530",
-      "summary": "PhantomCore Exploits TrueConf Vulnerabilities to Breach Russian Networks\nA pro-Ukrainian hacktivist group called PhantomCore has been attributed to attacks actively targeting servers running TrueConf video conferencing software in Russia since September 2025.\nThat's according to a report published b"
-    },
-    {
-      "title": "Researchers Uncover 73 Fake VS Code Extensions Delivering GlassWorm v2 Malware",
-      "link": "https://thehackernews.com/2026/04/researchers-uncover-73-fake-vs-code.html",
-      "raw_summary": "Cybersecurity researchers have flagged dozens of Microsoft Visual Studio Code (VS Code) extensions on the Open VSX repository that are linked to a persistent information-stealing campaign dubbed GlassWorm.\nThe cluster of 73 extensions has been identified as cloned versions of their legitimate counterparts. Of these, six have been confirmed to be malicious, with the remaining acting as seemingly",
-      "source": "The Hacker News",
-      "published": "Mon, 27 Apr 2026 16:53:00 +0530",
-      "summary": "Researchers Uncover 73 Fake VS Code Extensions Delivering GlassWorm v2 Malware\nCybersecurity researchers have flagged dozens of Microsoft Visual Studio Code (VS Code) extensions on the Open VSX repository that are linked to a persistent information-stealing campaign dubbed GlassWorm.\nThe cluster of "
-    },
-    {
-      "title": "I quit drinking for a year",
-      "link": "https://dynomight.net/drinking/",
-      "raw_summary": "<p>Article URL: <a href=\"https://dynomight.net/drinking/\">https://dynomight.net/drinking/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47929454\">https://news.ycombinator.com/item?id=47929454</a></p>\n<p>Points: 17</p>\n<p># Comments: 10</p>",
+      "title": "Scraping 241 UK council planning portals – 2.6M decisions so far",
+      "link": "https://news.ycombinator.com/item?id=47931470",
+      "raw_summary": "<p>I've been scraping 241 UK council planning portals – 2.6M decisions so far<p>UK planning data is technically public. In practice it's locked behind 400+ different council portals, some still running bespoke ASP.NET that looks like it dates from 2004, some behind AWS WAF, all with subtly different schemas. I've spent four months scraping them. I'm now at 241 councils and 2.6 million decisions across England, Scotland and Wales.<p>The scraping problem<p>Most UK councils run one of a handful of portal systems, Idox being the most common. In theory this makes things easy. In practice every council has configured theirs differently, some block non-browser requests via TLS fingerprinting, some have rate limits that will get you banned inside 10 minutes, and a handful are running the aforementioned bespoke ASP.NET.<p>I ended up writing several scrapers: a standard requests-based one, a Playwright-based one for councils that block anything that doesn't look like a real browser, and a curl_cffi one for TLS fingerprinting. Some councils I still can't get. Liverpool's portal sits behind AWS WAF with a JavaScript challenge. I have a working Playwright-based scraper that solves the challenge once and reuses cookies, but the WAF rate-limits the IP after about 10 requests and then blocks me for a day. So I have 60k Liverpool decisions from an old scrape and no easy way to add more.<p>What I found<p>The approval rate stuff is what most people come for. Nationally it's around 88%, but it varies wildly by ward within a council, not just between councils.<p>The more interesting finding came from the time-to-decision data. Across 119 English and Welsh councils, 36.5% of home extension applications missed the statutory 8-week target in 2025, up from 27.9% in 2019. Guildford is the worst at scale: 66% of decisions over target, averaging 13.3 weeks.<p>What it is now<p>A postcode checker (free) and paid PDF reports (£19/£79). Zero paying customers so far, which is fine. I've been heads down on data quality and coverage.<p>Site is planninglens.co.uk if you want to poke around. AMA on the scraping side – that's where the interesting problems are.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47931470\">https://news.ycombinator.com/item?id=47931470</a></p>\n<p>Points: 21</p>\n<p># Comments: 18</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 28 Apr 2026 01:26:03 +0000",
-      "summary": "I quit drinking for a year\n<p>Article URL: <a href=\"https://dynomight.net/drinking/\">https://dynomight.net/drinking/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47929454\">https://news.ycombinator.com/item?id=47929454</a></p>\n<p>Points: 17</p>\n<p># Comments: 10</p>"
+      "published": "Tue, 28 Apr 2026 07:34:03 +0000",
+      "summary": "Scraping 241 UK council planning portals – 2.6M decisions so far\n<p>I've been scraping 241 UK council planning portals – 2.6M decisions so far<p>UK planning data is technically public. In practice it's locked behind 400+ different council portals, some still running bespoke ASP.NET that looks like i"
     },
     {
-      "title": "Show HN: AgentSwift – Open-source iOS builder agent",
-      "link": "https://github.com/hpennington/agentswift",
-      "raw_summary": "<p>I'm working on a coding agent for building iOS apps. It's built on openspec and xcodebuildmcp. It's free and open source.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47929375\">https://news.ycombinator.com/item?id=47929375</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>",
+      "title": "GTFOBins",
+      "link": "https://gtfobins.org/",
+      "raw_summary": "<p>Article URL: <a href=\"https://gtfobins.org/\">https://gtfobins.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47931035\">https://news.ycombinator.com/item?id=47931035</a></p>\n<p>Points: 88</p>\n<p># Comments: 32</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 28 Apr 2026 01:14:31 +0000",
-      "summary": "Show HN: AgentSwift – Open-source iOS builder agent\n<p>I'm working on a coding agent for building iOS apps. It's built on openspec and xcodebuildmcp. It's free and open source.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47929375\">https://news.ycombinator.com/item?id=47"
+      "published": "Tue, 28 Apr 2026 06:27:39 +0000",
+      "summary": "GTFOBins\n<p>Article URL: <a href=\"https://gtfobins.org/\">https://gtfobins.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47931035\">https://news.ycombinator.com/item?id=47931035</a></p>\n<p>Points: 88</p>\n<p># Comments: 32</p>"
     },
     {
-      "title": "Show HN: 49Agents – Infinite canvas IDE for AI agents",
-      "link": "https://github.com/49Agents/49Agents",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/49Agents/49Agents\">https://github.com/49Agents/49Agents</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47929077\">https://news.ycombinator.com/item?id=47929077</a></p>\n<p>Points: 13</p>\n<p># Comments: 6</p>",
+      "title": "WASM is not quite a stack machine",
+      "link": "https://purplesyringa.moe/blog/wasm-is-not-quite-a-stack-machine/",
+      "raw_summary": "<p>Article URL: <a href=\"https://purplesyringa.moe/blog/wasm-is-not-quite-a-stack-machine/\">https://purplesyringa.moe/blog/wasm-is-not-quite-a-stack-machine/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47930493\">https://news.ycombinator.com/item?id=47930493</a></p>\n<p>Points: 8</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 28 Apr 2026 00:36:24 +0000",
-      "summary": "Show HN: 49Agents – Infinite canvas IDE for AI agents\n<p>Article URL: <a href=\"https://github.com/49Agents/49Agents\">https://github.com/49Agents/49Agents</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47929077\">https://news.ycombinator.com/item?id=47929077</a></p>\n<p>Points: "
+      "published": "Tue, 28 Apr 2026 04:34:29 +0000",
+      "summary": "WASM is not quite a stack machine\n<p>Article URL: <a href=\"https://purplesyringa.moe/blog/wasm-is-not-quite-a-stack-machine/\">https://purplesyringa.moe/blog/wasm-is-not-quite-a-stack-machine/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47930493\">https://news.ycombinator.co"
     },
     {
-      "title": "Ted Nyman – High Performance Git",
+      "title": "LingBot-Map: Streaming 3D reconstruction with geometric context transformer",
+      "link": "https://technology.robbyant.com/lingbot-map",
+      "raw_summary": "<p>Article URL: <a href=\"https://technology.robbyant.com/lingbot-map\">https://technology.robbyant.com/lingbot-map</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47930170\">https://news.ycombinator.com/item?id=47930170</a></p>\n<p>Points: 23</p>\n<p># Comments: 2</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Tue, 28 Apr 2026 03:27:40 +0000",
+      "summary": "LingBot-Map: Streaming 3D reconstruction with geometric context transformer\n<p>Article URL: <a href=\"https://technology.robbyant.com/lingbot-map\">https://technology.robbyant.com/lingbot-map</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47930170\">https://news.ycombinator.com/"
+    },
+    {
+      "title": "High Performance Git",
       "link": "https://gitperf.com/",
-      "raw_summary": "<p>Article URL: <a href=\"https://gitperf.com/\">https://gitperf.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47929035\">https://news.ycombinator.com/item?id=47929035</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "raw_summary": "<p>Article URL: <a href=\"https://gitperf.com/\">https://gitperf.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47929035\">https://news.ycombinator.com/item?id=47929035</a></p>\n<p>Points: 110</p>\n<p># Comments: 15</p>",
       "source": "Hacker News: Front Page",
       "published": "Tue, 28 Apr 2026 00:32:04 +0000",
-      "summary": "Ted Nyman – High Performance Git\n<p>Article URL: <a href=\"https://gitperf.com/\">https://gitperf.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47929035\">https://news.ycombinator.com/item?id=47929035</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>"
+      "summary": "High Performance Git\n<p>Article URL: <a href=\"https://gitperf.com/\">https://gitperf.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47929035\">https://news.ycombinator.com/item?id=47929035</a></p>\n<p>Points: 110</p>\n<p># Comments: 15</p>"
     },
     {
-      "title": "Integrated by Design",
-      "link": "https://vivianvoss.net/blog/integrated-by-design-launch",
-      "raw_summary": "<p>Article URL: <a href=\"https://vivianvoss.net/blog/integrated-by-design-launch\">https://vivianvoss.net/blog/integrated-by-design-launch</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47928554\">https://news.ycombinator.com/item?id=47928554</a></p>\n<p>Points: 63</p>\n<p># Comments: 20</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Mon, 27 Apr 2026 23:14:26 +0000",
-      "summary": "Integrated by Design\n<p>Article URL: <a href=\"https://vivianvoss.net/blog/integrated-by-design-launch\">https://vivianvoss.net/blog/integrated-by-design-launch</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47928554\">https://news.ycombinator.com/item?id=47928554</a></p>\n<p>Poi"
+      "title": "Drizzle on top: a new high-end dog food brand is coming for the 1%",
+      "link": "https://techcrunch.com/2026/04/27/drizzle-on-top-a-new-high-end-dog-food-brand-is-coming-for-the-1/",
+      "raw_summary": "Golden Child is launching with two \"five-star\" products: a fresh frozen meal system and, more intriguingly, a \"drizzle.\" It has also raised $37 million in funding.",
+      "source": "TechCrunch",
+      "published": "Tue, 28 Apr 2026 05:02:04 +0000",
+      "summary": "Drizzle on top: a new high-end dog food brand is coming for the 1%\nGolden Child is launching with two \"five-star\" products: a fresh frozen meal system and, more intriguingly, a \"drizzle.\" It has also raised $37 million in funding."
+    },
+    {
+      "title": "India’s Snabbit closes $56M round as investor interest in on-demand home services heats up",
+      "link": "https://techcrunch.com/2026/04/27/indias-snabbit-closes-56m-round-as-investor-interest-heats-up-in-on-demand-home-services/",
+      "raw_summary": "Snabbit now processes over 40,000 daily jobs and has cut costs sharply as it expands across cities and services.",
+      "source": "TechCrunch",
+      "published": "Tue, 28 Apr 2026 03:30:00 +0000",
+      "summary": "India’s Snabbit closes $56M round as investor interest in on-demand home services heats up\nSnabbit now processes over 40,000 daily jobs and has cut costs sharply as it expands across cities and services."
     },
     {
       "title": "Letterboxd, the social platform for film buffs, reportedly looking for new owner",
@@ -145,22 +161,6 @@
       "source": "TechCrunch",
       "published": "Mon, 27 Apr 2026 17:40:38 +0000",
       "summary": "OpenAI ends Microsoft legal peril over its $50B Amazon deal\nOpenAI has won major concessions from its largest shareholder, Microsoft, that will allow it to sell products on AWS, while Microsoft gets more cash in a revenue-share agreement."
-    },
-    {
-      "title": "DeepMind’s David Silver just raised $1.1B to build an AI that learns without human data",
-      "link": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
-      "raw_summary": "Ineffable Intelligence, a British AI lab founded a mere few months ago by former DeepMind researcher David Silver, has raised $1.1 billion in funding at a valuation of $5.1 billion.",
-      "source": "TechCrunch",
-      "published": "Mon, 27 Apr 2026 17:24:21 +0000",
-      "summary": "DeepMind’s David Silver just raised $1.1B to build an AI that learns without human data\nIneffable Intelligence, a British AI lab founded a mere few months ago by former DeepMind researcher David Silver, has raised $1.1 billion in funding at a valuation of $5.1 billion."
-    },
-    {
-      "title": "Hacker who allegedly carried out cyberattacks for China is extradited to US",
-      "link": "https://techcrunch.com/2026/04/27/hacker-who-allegedly-carried-out-cyberattacks-for-china-is-extradited-to-u-s/",
-      "raw_summary": "Xu Zewei is accused of participating in a Chinese government hacking group that broke into thousands of U.S. organizations and stole COVID-19-related research.",
-      "source": "TechCrunch",
-      "published": "Mon, 27 Apr 2026 17:07:06 +0000",
-      "summary": "Hacker who allegedly carried out cyberattacks for China is extradited to US\nXu Zewei is accused of participating in a Chinese government hacking group that broke into thousands of U.S. organizations and stole COVID-19-related research."
     },
     {
       "title": "Put it in pencil: NASA's Artemis III mission will launch no earlier than late 2027",
@@ -203,124 +203,124 @@
       "summary": "EU tells Google to open up AI on Android; Google says that's \"unwarranted intervention\"\nGemini gets preferential treatment on Android, but maybe not for long (in Europe)."
     },
     {
-      "title": "Reliance’s profit growth dented by global oil upheaval",
-      "link": "https://www.ft.com/content/12fd48db-41e3-4c4c-8490-5f64f6518b62",
-      "raw_summary": "Also in this newsletter, questions arise over future growth in the Indian Premier League",
+      "title": "BP profits hit 3-year high as Iran war delivers windfall",
+      "link": "https://www.ft.com/content/189a9248-d724-4128-b53a-b7afb33bcac4",
+      "raw_summary": "Oil major’s quarterly profit beats analysts’ expectations on back of ‘exceptional’ trading performance",
       "source": "World",
-      "published": "Tue, 28 Apr 2026 01:30:05 GMT",
-      "summary": "Reliance’s profit growth dented by global oil upheaval\nAlso in this newsletter, questions arise over future growth in the Indian Premier League"
+      "published": "Tue, 28 Apr 2026 07:59:32 GMT",
+      "summary": "BP profits hit 3-year high as Iran war delivers windfall\nOil major’s quarterly profit beats analysts’ expectations on back of ‘exceptional’ trading performance"
     },
     {
-      "title": "China blocks Meta’s $2bn purchase of AI group Manus",
-      "link": "https://www.ft.com/content/1e4c269a-5258-406c-a308-e55c3d5d640f",
-      "raw_summary": "Regulators had reviewed whether deal violated Beijing’s investment rules",
+      "title": "Bank of Japan holds rates with hawkish guidance",
+      "link": "https://www.ft.com/content/daa29d4c-3303-47c8-8fa4-d14cca4b2f2a",
+      "raw_summary": "New forecasts and projections show that rate-setters are more worried about inflation than growth",
       "source": "World",
-      "published": "Tue, 28 Apr 2026 00:50:13 GMT",
-      "summary": "China blocks Meta’s $2bn purchase of AI group Manus\nRegulators had reviewed whether deal violated Beijing’s investment rules"
+      "published": "Tue, 28 Apr 2026 07:44:14 GMT",
+      "summary": "Bank of Japan holds rates with hawkish guidance\nNew forecasts and projections show that rate-setters are more worried about inflation than growth"
     },
     {
-      "title": "Mexico arrests potential successor to drug kingpin ‘El Mencho’",
-      "link": "https://www.ft.com/content/4fa85f44-e8e5-4d0b-9d6a-f75ad3cdb3fa",
-      "raw_summary": "Navy captures Audías Flores Silva, one of the contenders to lead the powerful Jalisco New Generation Cartel",
+      "title": "Oil price hits $110 on Iran talks uncertainty",
+      "link": "https://www.ft.com/content/0244cd6d-b0da-435c-9c84-7ff4f37ec9ec",
+      "raw_summary": "Brent crude at highest level in three weeks",
       "source": "World",
-      "published": "Tue, 28 Apr 2026 00:46:31 GMT",
-      "summary": "Mexico arrests potential successor to drug kingpin ‘El Mencho’\nNavy captures Audías Flores Silva, one of the contenders to lead the powerful Jalisco New Generation Cartel"
+      "published": "Tue, 28 Apr 2026 06:48:41 GMT",
+      "summary": "Oil price hits $110 on Iran talks uncertainty\nBrent crude at highest level in three weeks"
     },
     {
-      "title": "Rivian CEO’s $403mn pay package dwarfs those of top US car bosses",
-      "link": "https://www.ft.com/content/aabef226-0a42-4cde-9cc1-687e0f4a9d3a",
-      "raw_summary": "Founder of electric-truck maker earns about 13 times more than next best-paid American auto executive",
+      "title": "Taliban accuse Pakistan of strikes on Afghan university",
+      "link": "https://www.ft.com/content/c5c8c84c-deaf-46ae-a76b-c8dbbd517336",
+      "raw_summary": "Attacks that killed 4 people and injured dozens were first since peace talks in China this month",
       "source": "World",
-      "published": "Tue, 28 Apr 2026 00:27:50 GMT",
-      "summary": "Rivian CEO’s $403mn pay package dwarfs those of top US car bosses\nFounder of electric-truck maker earns about 13 times more than next best-paid American auto executive"
+      "published": "Tue, 28 Apr 2026 05:36:41 GMT",
+      "summary": "Taliban accuse Pakistan of strikes on Afghan university\nAttacks that killed 4 people and injured dozens were first since peace talks in China this month"
     },
     {
-      "title": "Honda and the power of (broken) dreams",
-      "link": "https://www.ft.com/content/2d089b2f-8bf2-4600-b235-0ef7f601ff19",
-      "raw_summary": "A brilliant and adventurist beacon for Japanese industry in the past is now stumbling",
+      "title": "Wall Street is getting twitchy on oil prices",
+      "link": "https://www.ft.com/content/016fc404-becc-4f80-a4b5-3257cf01d1d5",
+      "raw_summary": "Plus, dollar dreams and reality",
       "source": "World",
-      "published": "Mon, 27 Apr 2026 23:01:03 GMT",
-      "summary": "Honda and the power of (broken) dreams\nA brilliant and adventurist beacon for Japanese industry in the past is now stumbling"
+      "published": "Tue, 28 Apr 2026 05:30:07 GMT",
+      "summary": "Wall Street is getting twitchy on oil prices\nPlus, dollar dreams and reality"
     },
     {
-      "title": "Asian Shares Hold Near Eight-Week High Before BOJ: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-27/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "Asian stocks held near a two-month high as traders awaited the next catalyst in the Middle East, a slew of central bank decisions and earnings from major technology companies.",
+      "title": "Oil Back Above $110 as World Awaits US Response to Iran Proposal",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-27/latest-oil-market-news-and-analysis-for-april-28",
+      "raw_summary": "Oil rose to a three-week high above $110 a barrel in London as traders awaited the US response to a proposal from Tehran to end the war and reopen the crucial Strait of Hormuz.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 27 Apr 2026 22:06:03 GMT",
-      "summary": "Asian Shares Hold Near Eight-Week High Before BOJ: Markets Wrap\nAsian stocks held near a two-month high as traders awaited the next catalyst in the Middle East, a slew of central bank decisions and earnings from major technology companies."
+      "published": "Mon, 27 Apr 2026 22:07:23 GMT",
+      "summary": "Oil Back Above $110 as World Awaits US Response to Iran Proposal\nOil rose to a three-week high above $110 a barrel in London as traders awaited the US response to a proposal from Tehran to end the war and reopen the crucial Strait of Hormuz."
     },
     {
-      "title": "Hongqiao Prices $1.5 Billion Convertible Sale Near Low End",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-27/china-hongqiao-seeks-1-5-billion-from-convertible-bonds",
-      "raw_summary": "China Hongqiao Group Ltd. priced its 10.2 billion-yuan ($1.5 billion) sale of bonds that can be converted into stock at HK$43.90, near the low end of the marketed range.",
+      "title": "Euro-Zone Banks Tighten Firms’ Credit Standards Most Since 2023",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-28/euro-zone-banks-tighten-firms-credit-standards-most-since-2023",
+      "raw_summary": "Euro-zone banks tightened corporate credit standards by the most in more than two years at the start of 2026, as geopolitical events including the Iran war added to an already prevailing trend.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 27 Apr 2026 09:23:20 GMT",
-      "summary": "Hongqiao Prices $1.5 Billion Convertible Sale Near Low End\nChina Hongqiao Group Ltd. priced its 10.2 billion-yuan ($1.5 billion) sale of bonds that can be converted into stock at HK$43.90, near the low end of the marketed range."
+      "published": "Tue, 28 Apr 2026 08:00:34 GMT",
+      "summary": "Euro-Zone Banks Tighten Firms’ Credit Standards Most Since 2023\nEuro-zone banks tightened corporate credit standards by the most in more than two years at the start of 2026, as geopolitical events including the Iran war added to an already prevailing trend."
     },
     {
-      "title": "First LNG Shipment Since War Began Appears to Exit Hormuz",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-28/first-lng-shipment-since-iran-war-began-appears-to-exit-hormuz",
-      "raw_summary": "The first liquefied natural gas shipment since the war in the Middle East began two months ago appears to have traversed the Strait of Hormuz to exit the Persian Gulf.",
+      "title": "ECB Says Consumer Inflation Expectations Rose Sharply in March",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-28/ecb-says-consumer-inflation-expectations-rose-sharply-in-march",
+      "raw_summary": "Inflation expectations among euro-area consumers jumped across the board in March, a worrying sign for European Central Bank as it assesses the knock-on effects of the Iran war.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 28 Apr 2026 00:46:37 GMT",
-      "summary": "First LNG Shipment Since War Began Appears to Exit Hormuz\nThe first liquefied natural gas shipment since the war in the Middle East began two months ago appears to have traversed the Strait of Hormuz to exit the Persian Gulf."
+      "published": "Tue, 28 Apr 2026 08:00:00 GMT",
+      "summary": "ECB Says Consumer Inflation Expectations Rose Sharply in March\nInflation expectations among euro-area consumers jumped across the board in March, a worrying sign for European Central Bank as it assesses the knock-on effects of the Iran war."
     },
     {
-      "title": "CATL Prices $5 Billion HK Share Placement at Low End of Range",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-27/catl-prices-5-billion-hk-share-placement-at-low-end-of-range",
-      "raw_summary": "Contemporary Amperex Technology Co. Ltd. has priced its $5 billion Hong Kong share placement at the bottom of the marketed range.",
+      "title": "Trump to Address Iran Proposal ‘Soon’ as Oil Rises Further",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-28/trump-to-address-iran-proposal-very-soon-as-oil-rises-further",
+      "raw_summary": "US President Donald Trump convened his national security team to discuss Iran’s proposal to end a war now in its third month and which has left thousands dead across the Middle East, as well as disrupted energy supplies.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 27 Apr 2026 23:07:12 GMT",
-      "summary": "CATL Prices $5 Billion HK Share Placement at Low End of Range\nContemporary Amperex Technology Co. Ltd. has priced its $5 billion Hong Kong share placement at the bottom of the marketed range."
+      "published": "Tue, 28 Apr 2026 06:16:48 GMT",
+      "summary": "Trump to Address Iran Proposal ‘Soon’ as Oil Rises Further\nUS President Donald Trump convened his national security team to discuss Iran’s proposal to end a war now in its third month and which has left thousands dead across the Middle East, as well as disrupted energy supplies."
     },
     {
-      "title": "Samsung SDI Posts Smaller-Than-Expected Loss, Sending Shares Up",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-28/samsung-sdi-posts-smaller-than-expected-loss-sending-shares-up",
-      "raw_summary": "South Korean battery maker Samsung SDI Co. reported a smaller-than-expected first-quarter loss, helping its shares extend a blistering rally, as demand for energy storage systems and electric cars in Europe helped cushion the impact of dwindling EV support in the US.",
+      "title": "China Forces Meta to Unwind AI Deal as BOJ Turns More Hawkish | Insight with Haslinda Amin 4/28/2026",
+      "link": "https://www.bloomberg.com/news/videos/2026-04-28/insight-with-haslinda-amin-4-28-2026-video",
+      "raw_summary": "Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent leaders spanning the worlds of business, finance, politics and culture. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Tue, 28 Apr 2026 01:33:22 GMT",
-      "summary": "Samsung SDI Posts Smaller-Than-Expected Loss, Sending Shares Up\nSouth Korean battery maker Samsung SDI Co. reported a smaller-than-expected first-quarter loss, helping its shares extend a blistering rally, as demand for energy storage systems and electric cars in Europe helped cushion the impact of "
+      "published": "Tue, 28 Apr 2026 07:20:53 GMT",
+      "summary": "China Forces Meta to Unwind AI Deal as BOJ Turns More Hawkish | Insight with Haslinda Amin 4/28/2026\nInsight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent "
     },
     {
-      "title": "Industry leaders are pouring hundreds of millions into a rescue plan for Aave users after massive crypto hack",
-      "link": "https://www.coindesk.com/tech/2026/04/27/industry-leaders-are-pouring-hundreds-of-millions-into-a-rescue-plan-for-aave-users-after-massive-crypto-hack",
+      "title": "Ondo Finance adds proxy voting for holders of its $700 million tokenized equities",
+      "link": "https://www.coindesk.com/tech/2026/04/28/ondo-finance-adds-proxy-voting-for-holders-of-its-usd700-million-tokenized-equities",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 27 Apr 2026 21:40:04 +0000",
-      "summary": "Industry leaders are pouring hundreds of millions into a rescue plan for Aave users after massive crypto hack\n"
+      "published": "Tue, 28 Apr 2026 07:29:34 +0000",
+      "summary": "Ondo Finance adds proxy voting for holders of its $700 million tokenized equities\n"
     },
     {
-      "title": "Bitcoin rally shows signs of fatigue as key indicators turn bearish",
-      "link": "https://www.coindesk.com/markets/2026/04/27/bitcoin-rally-shows-signs-of-fatigue-as-key-indicators-turn-bearish",
+      "title": "Three Bank of Japan members call for a rate hike; yen rises while bitcoin falls",
+      "link": "https://www.coindesk.com/markets/2026/04/28/three-bank-of-japan-members-call-for-a-rate-hike-yen-rises-while-bitcoin-falls",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 27 Apr 2026 21:00:00 +0000",
-      "summary": "Bitcoin rally shows signs of fatigue as key indicators turn bearish\n"
+      "published": "Tue, 28 Apr 2026 06:40:07 +0000",
+      "summary": "Three Bank of Japan members call for a rate hike; yen rises while bitcoin falls\n"
     },
     {
-      "title": "Western Union eyeing stablecoin launch to settle global transactions without SWIFT, CEO says",
-      "link": "https://www.coindesk.com/business/2026/04/27/western-union-eyeing-stablecoin-launch-to-settle-global-transactions-without-swift-ceo-says",
+      "title": "What next as XRP drops 3% under $1.40 on strong selling",
+      "link": "https://www.coindesk.com/markets/2026/04/28/what-next-as-xrp-drops-3-under-usd1-40-on-strong-selling",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 27 Apr 2026 20:35:56 +0000",
-      "summary": "Western Union eyeing stablecoin launch to settle global transactions without SWIFT, CEO says\n"
+      "published": "Tue, 28 Apr 2026 05:35:10 +0000",
+      "summary": "What next as XRP drops 3% under $1.40 on strong selling\n"
     },
     {
-      "title": "MARA Holdings targets bitcoin quantum threat and network resilience with new foundation",
-      "link": "https://www.coindesk.com/markets/2026/04/27/mara-holdings-targets-bitcoin-quantum-threat-and-network-resilience-with-new-foundation",
+      "title": "Bitcoin loses $77,000, ether, solana slide as Hormuz standoff lifts oil to 3-week high",
+      "link": "https://www.coindesk.com/markets/2026/04/28/bitcoin-loses-usd77-000-ether-solana-slide-as-hormuz-standoff-lifts-oil-to-3-week-high",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 27 Apr 2026 17:49:27 +0000",
-      "summary": "MARA Holdings targets bitcoin quantum threat and network resilience with new foundation\n"
+      "published": "Tue, 28 Apr 2026 05:23:25 +0000",
+      "summary": "Bitcoin loses $77,000, ether, solana slide as Hormuz standoff lifts oil to 3-week high\n"
     },
     {
-      "title": "Bitcoin pulls back to $76,600 as rising oil price and Iran risks stall the rally",
-      "link": "https://www.coindesk.com/markets/2026/04/27/bitcoin-pulls-back-to-usd76-600-as-rising-oil-price-and-iran-risks-stall-the-rally",
+      "title": "Bitcoin pressured by Fed uncertainty, oil, and AI slowdown",
+      "link": "https://www.coindesk.com/markets/2026/04/28/the-uncertainty-of-the-fed-oil-and-a-possible-ai-slowdown-are-all-weighing-heavy-on-btc",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 27 Apr 2026 17:17:25 +0000",
-      "summary": "Bitcoin pulls back to $76,600 as rising oil price and Iran risks stall the rally\n"
+      "published": "Tue, 28 Apr 2026 04:42:11 +0000",
+      "summary": "Bitcoin pressured by Fed uncertainty, oil, and AI slowdown\n"
     }
   ]
 }
