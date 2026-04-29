@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-29T08:03:48.635546+00:00",
+  "generated_at": "2026-04-29T13:27:39.587498+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran\nA financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly secured cloud services and wipes data on infected systems that use Iran's time zone or have Farsi "
     },
     {
+      "title": "Webinar: How to Automate Exposure Validation to Match the Speed of AI Attacks",
+      "link": "https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html",
+      "raw_summary": "In February 2026, researchers uncovered a shift that completely changed the game: threat actors are now using custom AI setups to automate attacks directly into the kill chain.\nWe aren't just talking about AI writing better phishing emails anymore. We’re talking about autonomous agents mapping Active Directory and seizing Domain Admin credentials in minutes.\nThe problem? Most defensive workflows",
+      "source": "The Hacker News",
+      "published": "Wed, 29 Apr 2026 17:32:00 +0530",
+      "summary": "Webinar: How to Automate Exposure Validation to Match the Speed of AI Attacks\nIn February 2026, researchers uncovered a shift that completely changed the game: threat actors are now using custom AI setups to automate attacks directly into the kill chain.\nWe aren't just talking about AI writing bette"
+    },
+    {
+      "title": "What to Look for in an Exposure Management Platform (And What Most of Them Get Wrong)",
+      "link": "https://thehackernews.com/2026/04/what-to-look-for-in-exposure-management.html",
+      "raw_summary": "Every security team has a version of the same story. The quarter ends with hundreds of vulnerabilities closed. The dashboards are bursting with green. Then someone in a leadership meeting asks: \"So, are we actually safer now?\"\nCrickets.\nThe room goes quiet because an honest answer requires context – which is something that patch counts and CVSS scores were never designed to provide. Exposure",
+      "source": "The Hacker News",
+      "published": "Wed, 29 Apr 2026 17:00:00 +0530",
+      "summary": "What to Look for in an Exposure Management Platform (And What Most of Them Get Wrong)\nEvery security team has a version of the same story. The quarter ends with hundreds of vulnerabilities closed. The dashboards are bursting with green. Then someone in a leadership meeting asks: \"So, are we actually"
+    },
+    {
+      "title": "Critical cPanel Authentication Vulnerability Identified — Update Your Server Immediately",
+      "link": "https://thehackernews.com/2026/04/critical-cpanel-authentication.html",
+      "raw_summary": "cPanel has released security updates to address a security issue impacting various authentication paths that could allow an attacker to obtain access to the control panel software.\nThe problem affects all currently supported versions, according to an alert released by cPanel on Tuesday. The issue has been addressed in the following versions -\n\n11.110.0.97\n11.118.0.63\n11.126.0.54\n11.132.0.29",
+      "source": "The Hacker News",
+      "published": "Wed, 29 Apr 2026 15:07:00 +0530",
+      "summary": "Critical cPanel Authentication Vulnerability Identified — Update Your Server Immediately\ncPanel has released security updates to address a security issue impacting various authentication paths that could allow an attacker to obtain access to the control panel software.\nThe problem affects all curren"
+    },
+    {
+      "title": "CISA Adds Actively Exploited ConnectWise and Windows Flaws to KEV",
+      "link": "https://thehackernews.com/2026/04/cisa-adds-actively-exploited.html",
+      "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two security flaws impacting ConnectWise ScreenConnect and Microsoft Windows to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation.\nThe vulnerabilities are listed below -\n\nCVE-2024-1708 (CVSS score: 8.4) - A path traversal vulnerability in&nbsp; ConnectWise ScreenConnect",
+      "source": "The Hacker News",
+      "published": "Wed, 29 Apr 2026 14:16:00 +0530",
+      "summary": "CISA Adds Actively Exploited ConnectWise and Windows Flaws to KEV\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two security flaws impacting ConnectWise ScreenConnect and Microsoft Windows to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of "
+    },
+    {
       "title": "LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours of Disclosure",
       "link": "https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html",
       "raw_summary": "In yet another instance of threat actors quickly jumping on the exploitation bandwagon, a newly disclosed critical security flaw in BerriAI's LiteLLM Python package has come under active exploitation in the wild within 36 hours of the bug becoming public knowledge.\nThe vulnerability, tracked as CVE-2026-42208 (CVSS score: 9.3), is an SQL injection that could be exploited to modify the underlying",
@@ -51,116 +83,108 @@
       "summary": "LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours of Disclosure\nIn yet another instance of threat actors quickly jumping on the exploitation bandwagon, a newly disclosed critical security flaw in BerriAI's LiteLLM Python package has come under active exploitation in the wild within 36 h"
     },
     {
-      "title": "Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push",
-      "link": "https://thehackernews.com/2026/04/researchers-discover-critical-github.html",
-      "raw_summary": "Cybersecurity researchers have disclosed details of a critical security vulnerability impacting GitHub.com and GitHub Enterprise Server that could allow an authenticated user to obtain remote code execution with a single \"git push\" command.\nThe flaw, tracked as CVE-2026-3854 (CVSS score: 8.7), is a case of command injection that could allow an attacker with push access to a repository to achieve",
-      "source": "The Hacker News",
-      "published": "Tue, 28 Apr 2026 23:49:00 +0530",
-      "summary": "Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push\nCybersecurity researchers have disclosed details of a critical security vulnerability impacting GitHub.com and GitHub Enterprise Server that could allow an authenticated user to obtain remote code execution w"
-    },
-    {
-      "title": "Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign",
-      "link": "https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html",
-      "raw_summary": "A cybercrime group of Brazilian origin has resurfaced after more than three years to orchestrate a campaign that targets Minecraft players with a new stealer called LofyStealer (aka GrabBot).\n\"The malware disguises itself as a Minecraft hack called 'Slinky,'\" Brazil-based cybersecurity company ZenoX said in a technical report. \"It uses the official game icon to induce voluntary execution,",
-      "source": "The Hacker News",
-      "published": "Tue, 28 Apr 2026 23:09:00 +0530",
-      "summary": "Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign\nA cybercrime group of Brazilian origin has resurfaced after more than three years to orchestrate a campaign that targets Minecraft players with a new stealer called LofyStealer (aka GrabBot).\n\"The malware disguises i"
-    },
-    {
-      "title": "VECT 2.0 Ransomware Irreversibly Destroys Files Over 131KB on Windows, Linux, ESXi",
-      "link": "https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html",
-      "raw_summary": "Threat hunters are warning that the cybercriminal operation known as VECT 2.0 acts more like a wiper than a ransomware due to a critical flaw in its encryption implementation across Windows, Linux, and ESXi variants that renders recovery impossible even for the threat actors.\nThe fact that VECT's locker permanently destroys large files rather than encrypting them means even victims who opt to",
-      "source": "The Hacker News",
-      "published": "Tue, 28 Apr 2026 19:31:00 +0530",
-      "summary": "VECT 2.0 Ransomware Irreversibly Destroys Files Over 131KB on Windows, Linux, ESXi\nThreat hunters are warning that the cybercriminal operation known as VECT 2.0 acts more like a wiper than a ransomware due to a critical flaw in its encryption implementation across Windows, Linux, and ESXi variants t"
-    },
-    {
-      "title": "Why Secure Data Movement Is the Zero Trust Bottleneck Nobody Talks About",
-      "link": "https://thehackernews.com/2026/04/why-secure-data-movement-is-zero-trust.html",
-      "raw_summary": "Every security program is betting on the same assumption: once a system is connected, the problem is solved. Open a ticket, stand up a gateway, push the data through. Done.\nThat assumption is wrong. It is also a major reason Zero Trust programs stall.\nNew research my team just published puts numbers on it. The Cyber360: Defending the Digital Battlespace report, based on a survey of 500 security",
-      "source": "The Hacker News",
-      "published": "Tue, 28 Apr 2026 17:28:00 +0530",
-      "summary": "Why Secure Data Movement Is the Zero Trust Bottleneck Nobody Talks About\nEvery security program is betting on the same assumption: once a system is connected, the problem is solved. Open a ticket, stand up a gateway, push the data through. Done.\nThat assumption is wrong. It is also a major reason Ze"
-    },
-    {
-      "title": "Wire to Replace Signal as Standard in the Bundestag",
-      "link": "https://www.heise.de/en/news/Digital-Sovereignty-Wire-to-Replace-Signal-as-Standard-in-the-Bundestag-11275755.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.heise.de/en/news/Digital-Sovereignty-Wire-to-Replace-Signal-as-Standard-in-the-Bundestag-11275755.html\">https://www.heise.de/en/news/Digital-Sovereignty-Wire-to-Replace-Signal-as-Standard-in-the-Bundestag-11275755.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47945192\">https://news.ycombinator.com/item?id=47945192</a></p>\n<p>Points: 10</p>\n<p># Comments: 2</p>",
+      "title": "Notepad++ Code Editor Comes to Mac After 20-Year Wait",
+      "link": "https://www.macrumors.com/2026/04/29/notepad-plus-plus-editor-comes-to-mac/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.macrumors.com/2026/04/29/notepad-plus-plus-editor-comes-to-mac/\">https://www.macrumors.com/2026/04/29/notepad-plus-plus-editor-comes-to-mac/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47947740\">https://news.ycombinator.com/item?id=47947740</a></p>\n<p>Points: 9</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 29 Apr 2026 07:31:00 +0000",
-      "summary": "Wire to Replace Signal as Standard in the Bundestag\n<p>Article URL: <a href=\"https://www.heise.de/en/news/Digital-Sovereignty-Wire-to-Replace-Signal-as-Standard-in-the-Bundestag-11275755.html\">https://www.heise.de/en/news/Digital-Sovereignty-Wire-to-Replace-Signal-as-Standard-in-the-Bundestag-112757"
+      "published": "Wed, 29 Apr 2026 12:59:30 +0000",
+      "summary": "Notepad++ Code Editor Comes to Mac After 20-Year Wait\n<p>Article URL: <a href=\"https://www.macrumors.com/2026/04/29/notepad-plus-plus-editor-comes-to-mac/\">https://www.macrumors.com/2026/04/29/notepad-plus-plus-editor-comes-to-mac/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?"
     },
     {
-      "title": "Low-Compilation-Cost Register Allocation in LLVM-Based Binary Translation",
-      "link": "https://dl.acm.org/doi/abs/10.1145/3767295.3803591",
-      "raw_summary": "<p>Article URL: <a href=\"https://dl.acm.org/doi/abs/10.1145/3767295.3803591\">https://dl.acm.org/doi/abs/10.1145/3767295.3803591</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47944931\">https://news.ycombinator.com/item?id=47944931</a></p>\n<p>Points: 10</p>\n<p># Comments: 0</p>",
+      "title": "Letting AI play my game – building an agentic test harness to help play-testing",
+      "link": "https://blog.jeffschomay.com/letting-ai-play-my-game",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.jeffschomay.com/letting-ai-play-my-game\">https://blog.jeffschomay.com/letting-ai-play-my-game</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47947525\">https://news.ycombinator.com/item?id=47947525</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 29 Apr 2026 06:47:53 +0000",
-      "summary": "Low-Compilation-Cost Register Allocation in LLVM-Based Binary Translation\n<p>Article URL: <a href=\"https://dl.acm.org/doi/abs/10.1145/3767295.3803591\">https://dl.acm.org/doi/abs/10.1145/3767295.3803591</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47944931\">https://news.ycom"
+      "published": "Wed, 29 Apr 2026 12:43:12 +0000",
+      "summary": "Letting AI play my game – building an agentic test harness to help play-testing\n<p>Article URL: <a href=\"https://blog.jeffschomay.com/letting-ai-play-my-game\">https://blog.jeffschomay.com/letting-ai-play-my-game</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47947525\">https:/"
     },
     {
-      "title": "Germany Overtakes US in Ammunition Production Capacity",
-      "link": "https://www.newsweek.com/germany-overtakes-us-in-ammunition-production-capacity-11886409",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.newsweek.com/germany-overtakes-us-in-ammunition-production-capacity-11886409\">https://www.newsweek.com/germany-overtakes-us-in-ammunition-production-capacity-11886409</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47944924\">https://news.ycombinator.com/item?id=47944924</a></p>\n<p>Points: 49</p>\n<p># Comments: 22</p>",
+      "title": "He asked AI to count carbs 27000 times. It couldn't give the same answer twice",
+      "link": "https://www.diabettech.com/i-asked-ai-to-count-my-carbs-27000-times-it-couldnt-give-me-the-same-answer-twice/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.diabettech.com/i-asked-ai-to-count-my-carbs-27000-times-it-couldnt-give-me-the-same-answer-twice/\">https://www.diabettech.com/i-asked-ai-to-count-my-carbs-27000-times-it-couldnt-give-me-the-same-answer-twice/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47947490\">https://news.ycombinator.com/item?id=47947490</a></p>\n<p>Points: 106</p>\n<p># Comments: 121</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 29 Apr 2026 06:46:42 +0000",
-      "summary": "Germany Overtakes US in Ammunition Production Capacity\n<p>Article URL: <a href=\"https://www.newsweek.com/germany-overtakes-us-in-ammunition-production-capacity-11886409\">https://www.newsweek.com/germany-overtakes-us-in-ammunition-production-capacity-11886409</a></p>\n<p>Comments URL: <a href=\"https:/"
+      "published": "Wed, 29 Apr 2026 12:38:50 +0000",
+      "summary": "He asked AI to count carbs 27000 times. It couldn't give the same answer twice\n<p>Article URL: <a href=\"https://www.diabettech.com/i-asked-ai-to-count-my-carbs-27000-times-it-couldnt-give-me-the-same-answer-twice/\">https://www.diabettech.com/i-asked-ai-to-count-my-carbs-27000-times-it-couldnt-give-m"
     },
     {
-      "title": "HardenedBSD Is Now Officially on Radicle",
-      "link": "https://hardenedbsd.org/article/shawn-webb/2026-04-26/hardenedbsd-officially-radicle",
-      "raw_summary": "<p>Article URL: <a href=\"https://hardenedbsd.org/article/shawn-webb/2026-04-26/hardenedbsd-officially-radicle\">https://hardenedbsd.org/article/shawn-webb/2026-04-26/hardenedbsd-officially-radicle</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47944864\">https://news.ycombinator.com/item?id=47944864</a></p>\n<p>Points: 21</p>\n<p># Comments: 3</p>",
+      "title": "Show HN: Adblock-rust Manager – Firefox extension to enable the Brave ad blocker",
+      "link": "https://github.com/electricant/adblock-rust-manager",
+      "raw_summary": "<p>Firefox 149 ships adblock-rust (Brave's Rust engine, MPL-2.0) completely disabled with no UI. It's controlled by two about:config prefs with no WebExtension API, so you can't touch them programmatically from a standard extension.<p>This extension gives it a UI: ETP toggle (via browser.privacy API, instant), filter list manager with clipboard helpers for the manual about:config steps, and 8 preset lists. You can also add your own if you so desire.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47947369\">https://news.ycombinator.com/item?id=47947369</a></p>\n<p>Points: 5</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 29 Apr 2026 06:38:44 +0000",
-      "summary": "HardenedBSD Is Now Officially on Radicle\n<p>Article URL: <a href=\"https://hardenedbsd.org/article/shawn-webb/2026-04-26/hardenedbsd-officially-radicle\">https://hardenedbsd.org/article/shawn-webb/2026-04-26/hardenedbsd-officially-radicle</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/"
+      "published": "Wed, 29 Apr 2026 12:24:53 +0000",
+      "summary": "Show HN: Adblock-rust Manager – Firefox extension to enable the Brave ad blocker\n<p>Firefox 149 ships adblock-rust (Brave's Rust engine, MPL-2.0) completely disabled with no UI. It's controlled by two about:config prefs with no WebExtension API, so you can't touch them programmatically from a standa"
     },
     {
-      "title": "Bugs Rust won't catch",
-      "link": "https://corrode.dev/blog/bugs-rust-wont-catch/",
-      "raw_summary": "<p>Article URL: <a href=\"https://corrode.dev/blog/bugs-rust-wont-catch/\">https://corrode.dev/blog/bugs-rust-wont-catch/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47943499\">https://news.ycombinator.com/item?id=47943499</a></p>\n<p>Points: 204</p>\n<p># Comments: 74</p>",
+      "title": "Coffee with a splash of physics: how to make the most out of your brew",
+      "link": "https://physicsworld.com/a/coffee-with-a-splash-of-physics-how-to-make-the-most-out-of-your-brew/",
+      "raw_summary": "<p>Article URL: <a href=\"https://physicsworld.com/a/coffee-with-a-splash-of-physics-how-to-make-the-most-out-of-your-brew/\">https://physicsworld.com/a/coffee-with-a-splash-of-physics-how-to-make-the-most-out-of-your-brew/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47947318\">https://news.ycombinator.com/item?id=47947318</a></p>\n<p>Points: 19</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 29 Apr 2026 02:19:11 +0000",
-      "summary": "Bugs Rust won't catch\n<p>Article URL: <a href=\"https://corrode.dev/blog/bugs-rust-wont-catch/\">https://corrode.dev/blog/bugs-rust-wont-catch/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47943499\">https://news.ycombinator.com/item?id=47943499</a></p>\n<p>Points: 204</p>\n<p>#"
+      "published": "Wed, 29 Apr 2026 12:18:59 +0000",
+      "summary": "Coffee with a splash of physics: how to make the most out of your brew\n<p>Article URL: <a href=\"https://physicsworld.com/a/coffee-with-a-splash-of-physics-how-to-make-the-most-out-of-your-brew/\">https://physicsworld.com/a/coffee-with-a-splash-of-physics-how-to-make-the-most-out-of-your-brew/</a></p>"
     },
     {
-      "title": "How one venture firm is investing in an increasingly fragmented world",
-      "link": "https://techcrunch.com/2026/04/28/how-one-venture-firm-is-navigating-an-increasingly-fragmented-world/",
-      "raw_summary": "Geopolitical turmoil has made venture investing challenging, leading Kompas VC to carve out a niche in startups focused on the physical world.",
+      "title": "Sri Lanka discloses another missing payment, days after hackers stole $2.5M from its finance ministry",
+      "link": "https://techcrunch.com/2026/04/29/sri-lanka-discloses-another-missing-payment-days-after-hackers-stole-2-5m-from-its-finance-ministry/",
+      "raw_summary": "The government of Sri Lanka has lost more than $3 million in two recent, separate cybersecurity incidents as the country continues to recover from its 2022 debt crisis.",
       "source": "TechCrunch",
-      "published": "Wed, 29 Apr 2026 03:00:00 +0000",
-      "summary": "How one venture firm is investing in an increasingly fragmented world\nGeopolitical turmoil has made venture investing challenging, leading Kompas VC to carve out a niche in startups focused on the physical world."
+      "published": "Wed, 29 Apr 2026 13:23:57 +0000",
+      "summary": "Sri Lanka discloses another missing payment, days after hackers stole $2.5M from its finance ministry\nThe government of Sri Lanka has lost more than $3 million in two recent, separate cybersecurity incidents as the country continues to recover from its 2022 debt crisis."
     },
     {
-      "title": "At his OpenAI trial, Musk relitigates an old friendship",
-      "link": "https://techcrunch.com/2026/04/28/at-his-openai-trial-musk-relitigates-an-old-friendship/",
-      "raw_summary": "It's a story Musk has told before -- in interviews and to author Walter Isaacson for his bestselling biography of Musk -- but Tuesday was the first time he said it under oath.",
+      "title": "Firestorm Labs raises $82M to take drone factories into the field",
+      "link": "https://techcrunch.com/2026/04/29/firestorm-labs-raises-82m-to-take-drone-factories-into-the-field/",
+      "raw_summary": "A defense startup just raised $82 million to put drone factories inside shipping containers and bring manufacturing to the front lines.",
       "source": "TechCrunch",
-      "published": "Wed, 29 Apr 2026 00:40:16 +0000",
-      "summary": "At his OpenAI trial, Musk relitigates an old friendship\nIt's a story Musk has told before -- in interviews and to author Walter Isaacson for his bestselling biography of Musk -- but Tuesday was the first time he said it under oath."
+      "published": "Wed, 29 Apr 2026 13:10:57 +0000",
+      "summary": "Firestorm Labs raises $82M to take drone factories into the field\nA defense startup just raised $82 million to put drone factories inside shipping containers and bring manufacturing to the front lines."
     },
     {
-      "title": "Amazon is already offering new OpenAI products on AWS",
-      "link": "https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/",
-      "raw_summary": "A day after OpenAI got Microsoft to agree to end exclusive rights, AWS announced a slate of OpenAI model offerings, including a new agent service.",
+      "title": "BMW i Ventures has a new $300M fund and AI is riding shotgun",
+      "link": "https://techcrunch.com/2026/04/29/bmw-i-ventures-has-a-new-300m-fund-and-ai-is-riding-shotgun/",
+      "raw_summary": "BMW i Ventures is interested in startups working on agentic AI and physical AI, as well as industrial software, advanced materials, and manufacturing and supply chain technologies.",
       "source": "TechCrunch",
-      "published": "Tue, 28 Apr 2026 19:48:02 +0000",
-      "summary": "Amazon is already offering new OpenAI products on AWS\nA day after OpenAI got Microsoft to agree to end exclusive rights, AWS announced a slate of OpenAI model offerings, including a new agent service."
+      "published": "Wed, 29 Apr 2026 13:10:00 +0000",
+      "summary": "BMW i Ventures has a new $300M fund and AI is riding shotgun\nBMW i Ventures is interested in startups working on agentic AI and physical AI, as well as industrial software, advanced materials, and manufacturing and supply chain technologies."
     },
     {
-      "title": "Amazon launches an AI-powered audio Q&A experience on product pages",
-      "link": "https://techcrunch.com/2026/04/28/amazon-launches-an-ai-powered-audio-qa-experience-on-product-pages/",
-      "raw_summary": "Amazon's new \"Join the chat\" feature lets you ask questions about products and receive AI-powered audio responses.",
+      "title": "Meet Shapes, the app bringing humans and AI into the same group chats",
+      "link": "https://techcrunch.com/2026/04/29/meet-shapes-the-app-bringing-humans-and-ai-into-the-same-group-chats/",
+      "raw_summary": "Think Discord chats, but with AI characters in addition to humans.",
       "source": "TechCrunch",
-      "published": "Tue, 28 Apr 2026 18:49:54 +0000",
-      "summary": "Amazon launches an AI-powered audio Q&A experience on product pages\nAmazon's new \"Join the chat\" feature lets you ask questions about products and receive AI-powered audio responses."
+      "published": "Wed, 29 Apr 2026 13:00:00 +0000",
+      "summary": "Meet Shapes, the app bringing humans and AI into the same group chats\nThink Discord chats, but with AI characters in addition to humans."
     },
     {
-      "title": "Match Group invests $100M in Sniffies, a cruising app for gay men",
-      "link": "https://techcrunch.com/2026/04/28/match-group-invests-100-million-in-sniffies-a-cruising-app-for-gay-men/",
-      "raw_summary": "The app is Match Group's newest attempt to get mobile users excited about online romance again.",
+      "title": "Google Translate now lets you practice pronunciation",
+      "link": "https://techcrunch.com/2026/04/29/google-translate-now-lets-you-practice-pronunciation/",
+      "raw_summary": "The feature is rolling out in the U.S. and India with support for English, Spanish, and Hindi.",
       "source": "TechCrunch",
-      "published": "Tue, 28 Apr 2026 18:16:54 +0000",
-      "summary": "Match Group invests $100M in Sniffies, a cruising app for gay men\nThe app is Match Group's newest attempt to get mobile users excited about online romance again."
+      "published": "Wed, 29 Apr 2026 12:34:29 +0000",
+      "summary": "Google Translate now lets you practice pronunciation\nThe feature is rolling out in the U.S. and India with support for English, Spanish, and Hindi."
+    },
+    {
+      "title": "School-shooting lawsuits accuse OpenAI of hiding violent ChatGPT users",
+      "link": "https://arstechnica.com/tech-policy/2026/04/school-shooting-lawsuits-accuse-openai-of-hiding-violent-chatgpt-users/",
+      "raw_summary": "Lawsuits: OpenAI didn't report ChatGPT user to cops to protect Altman, IPO.",
+      "source": "Ars Technica - All content",
+      "published": "Wed, 29 Apr 2026 12:00:41 +0000",
+      "summary": "School-shooting lawsuits accuse OpenAI of hiding violent ChatGPT users\nLawsuits: OpenAI didn't report ChatGPT user to cops to protect Altman, IPO."
+    },
+    {
+      "title": "Check your gravity with NASA's Artemis II zero-g indicator",
+      "link": "https://arstechnica.com/space/2026/04/check-your-gravity-with-nasas-artemis-ii-zero-g-indicator/",
+      "raw_summary": "On sale through the NASA exchange.",
+      "source": "Ars Technica - All content",
+      "published": "Wed, 29 Apr 2026 11:30:59 +0000",
+      "summary": "Check your gravity with NASA's Artemis II zero-g indicator\nOn sale through the NASA exchange."
+    },
+    {
+      "title": "Why a recent supply-chain attack singled out security firms Checkmarx and Bitwarden",
+      "link": "https://arstechnica.com/information-technology/2026/04/why-a-recent-supply-chain-attack-singled-out-security-firms-checkmarx-and-bitwarden/",
+      "raw_summary": "Security firms find themselves especially exposed.",
+      "source": "Ars Technica - All content",
+      "published": "Wed, 29 Apr 2026 11:00:24 +0000",
+      "summary": "Why a recent supply-chain attack singled out security firms Checkmarx and Bitwarden\nSecurity firms find themselves especially exposed."
     },
     {
       "title": "Anti-Trump Instagram pic of seashells now enough to indict ex-FBI directors",
@@ -179,148 +203,124 @@
       "summary": "Flesh-eating bacteria devour man's arm and leg in just three days\nWhen doctors saw him, his limbs were discolored and crackling."
     },
     {
-      "title": "FCC orders review of ABC licenses after Kimmel joke offends Trump and first lady",
-      "link": "https://arstechnica.com/tech-policy/2026/04/fcc-orders-review-of-abc-licenses-after-kimmel-joke-offends-trump-and-first-lady/",
-      "raw_summary": "Kimmel joke calling Melania an \"expectant widow\" followed quickly by FCC order.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 28 Apr 2026 19:57:13 +0000",
-      "summary": "FCC orders review of ABC licenses after Kimmel joke offends Trump and first lady\nKimmel joke calling Melania an \"expectant widow\" followed quickly by FCC order."
-    },
-    {
-      "title": "Drone pilot makes US rescind no-fly zones around unmarked, moving ICE vehicles",
-      "link": "https://arstechnica.com/gadgets/2026/04/no-fly-zones-around-moving-ice-vehicles-this-drone-pilot-fought-back-and-won/",
-      "raw_summary": "Civil liberty concerns spur FAA to revise drone no-fly zones near ICE vehicles.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 28 Apr 2026 19:37:09 +0000",
-      "summary": "Drone pilot makes US rescind no-fly zones around unmarked, moving ICE vehicles\nCivil liberty concerns spur FAA to revise drone no-fly zones near ICE vehicles."
-    },
-    {
-      "title": "Humanoid robots start sorting luggage in Tokyo airport test amid labor shortage",
-      "link": "https://arstechnica.com/ai/2026/04/japan-airlines-tests-having-robots-instead-of-humans-handle-travelers-luggage/",
-      "raw_summary": "Humanoid robots could load cargo and clean aircraft cabins at Haneda Airport.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 28 Apr 2026 18:01:36 +0000",
-      "summary": "Humanoid robots start sorting luggage in Tokyo airport test amid labor shortage\nHumanoid robots could load cargo and clean aircraft cabins at Haneda Airport."
-    },
-    {
-      "title": "Emerging market stocks hit record high as Asian chipmakers surge",
-      "link": "https://www.ft.com/content/5a003a35-a48b-4e46-a2d3-b99ae41d0e46",
-      "raw_summary": "Rally for TSMC, Samsung and SK Hynix powers EM stock index’s rebound from Iran war losses",
+      "title": "German and Spanish inflation rises less than expected in April",
+      "link": "https://www.ft.com/content/cd9bb4c2-7597-4b7f-9d61-378c755493b0",
+      "raw_summary": "Softer price pressures in large Eurozone economies strengthen case for ECB to hold interest rates",
       "source": "World",
-      "published": "Wed, 29 Apr 2026 07:26:23 GMT",
-      "summary": "Emerging market stocks hit record high as Asian chipmakers surge\nRally for TSMC, Samsung and SK Hynix powers EM stock index’s rebound from Iran war losses"
+      "published": "Wed, 29 Apr 2026 13:22:52 GMT",
+      "summary": "German and Spanish inflation rises less than expected in April\nSofter price pressures in large Eurozone economies strengthen case for ECB to hold interest rates"
     },
     {
-      "title": "Opec without the UAE",
-      "link": "https://www.ft.com/content/09a255dc-b34f-4d42-a23a-696dc3a24448",
-      "raw_summary": "Plus, gilts hit rough water",
+      "title": "University of Sussex wins High Court battle on free speech",
+      "link": "https://www.ft.com/content/c43d31fe-7387-4080-9c5c-6f5c5890be16",
+      "raw_summary": "Judge overturns £585,000 fine as it finds regulator’s decision tainted by bias",
       "source": "World",
-      "published": "Wed, 29 Apr 2026 05:30:04 GMT",
-      "summary": "Opec without the UAE\nPlus, gilts hit rough water"
+      "published": "Wed, 29 Apr 2026 13:16:36 GMT",
+      "summary": "University of Sussex wins High Court battle on free speech\nJudge overturns £585,000 fine as it finds regulator’s decision tainted by bias"
     },
     {
-      "title": "EU to take Hungary to court over Orbán-era retail tax",
-      "link": "https://www.ft.com/content/5e951c47-a272-4838-82d8-af8cea86af59",
-      "raw_summary": "Also in this newsletter: US returns stolen Italian artworks in bid to repair relationship",
+      "title": "UAE’s Opec exit will drive down oil prices, warns Moscow",
+      "link": "https://www.ft.com/content/76d81f7d-8d41-492f-9e6d-c0fbb3318164",
+      "raw_summary": "Russia and Kazakhstan confirm their intention to remain within Opec+",
       "source": "World",
-      "published": "Wed, 29 Apr 2026 05:00:04 GMT",
-      "summary": "EU to take Hungary to court over Orbán-era retail tax\nAlso in this newsletter: US returns stolen Italian artworks in bid to repair relationship"
+      "published": "Wed, 29 Apr 2026 13:08:02 GMT",
+      "summary": "UAE’s Opec exit will drive down oil prices, warns Moscow\nRussia and Kazakhstan confirm their intention to remain within Opec+"
     },
     {
-      "title": "China’s Mao-era regulator in a stand-off with Meta over AI",
-      "link": "https://www.ft.com/content/a71a1ecf-a238-4827-800b-ee486f07d409",
-      "raw_summary": "National Development Reform Commission is becoming Beijing’s chief enforcer",
+      "title": "Chinese wind turbine maker accuses UK of ‘politicisation’ over product ban",
+      "link": "https://www.ft.com/content/3e07f0e2-b255-48ee-9f02-298805f9cbf6",
+      "raw_summary": "Ming Yang warns setback will not stop company’s expansion plans in Europe",
       "source": "World",
-      "published": "Wed, 29 Apr 2026 05:00:04 GMT",
-      "summary": "China’s Mao-era regulator in a stand-off with Meta over AI\nNational Development Reform Commission is becoming Beijing’s chief enforcer"
+      "published": "Wed, 29 Apr 2026 12:52:24 GMT",
+      "summary": "Chinese wind turbine maker accuses UK of ‘politicisation’ over product ban\nMing Yang warns setback will not stop company’s expansion plans in Europe"
     },
     {
-      "title": "FirstFT: Ex-FBI chief James Comey charged with threatening Trump’s life",
-      "link": "https://www.ft.com/content/f3c0674f-0fb0-4d08-8f30-0ae2acf6e797",
-      "raw_summary": "Also in today’s newsletter: talks over frozen Hungary funds, and emerging market stocks soar",
+      "title": "Farage admits accepting £5mn from crypto billionaire for ‘safety’",
+      "link": "https://www.ft.com/content/5da2fdb2-bbe6-4874-82bd-4a872d4fb924",
+      "raw_summary": "Reform UK leader had not previously disclosed large personal gift from Christopher Harborne",
       "source": "World",
-      "published": "Wed, 29 Apr 2026 04:41:10 GMT",
-      "summary": "FirstFT: Ex-FBI chief James Comey charged with threatening Trump’s life\nAlso in today’s newsletter: talks over frozen Hungary funds, and emerging market stocks soar"
+      "published": "Wed, 29 Apr 2026 12:34:33 GMT",
+      "summary": "Farage admits accepting £5mn from crypto billionaire for ‘safety’\nReform UK leader had not previously disclosed large personal gift from Christopher Harborne"
     },
     {
-      "title": "Haleon’s Sales Dragged Down by a Weak Cold and Flu Season",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-29/haleon-s-first-quarter-sales-dragged-down-by-weak-cold-season",
-      "raw_summary": "Haleon Plc’s first quarter was weaker than expected, hurt by lackluster demand for its over-the-counter cold and flu medicines.",
+      "title": "US Core Capital Goods Orders Rise by Most in Nearly Six Years",
+      "link": "https://www.bloomberg.com/news/videos/2026-04-29/us-core-capital-goods-orders-rise-sharply-in-march-video",
+      "raw_summary": "US orders for business equipment saw a sharp rise in March as the value of core capital goods orders jumped 3.3% after an upwardly revised 1.6% advance in February, the most since mid-2020. Michael McKee has a look at today’s economic data on Bloomberg Television. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Wed, 29 Apr 2026 06:27:24 GMT",
-      "summary": "Haleon’s Sales Dragged Down by a Weak Cold and Flu Season\nHaleon Plc’s first quarter was weaker than expected, hurt by lackluster demand for its over-the-counter cold and flu medicines."
+      "published": "Wed, 29 Apr 2026 13:18:18 GMT",
+      "summary": "US Core Capital Goods Orders Rise by Most in Nearly Six Years\nUS orders for business equipment saw a sharp rise in March as the value of core capital goods orders jumped 3.3% after an upwardly revised 1.6% advance in February, the most since mid-2020. Michael McKee has a look at today’s economic dat"
     },
     {
-      "title": "Airbus Suffers Earnings Drop in First Quarter",
-      "link": "https://www.bloomberg.com/news/videos/2026-04-29/airbus-suffers-earnings-drop-in-first-quarter-video",
-      "raw_summary": "Airbus SE’s adjusted earnings before interest and tax and revenue both fell short of analyst estimates in the first quarter, dragged down by a steep earnings drop at the main aircraft making subsidiary. The company said it’s confident it can achieve its full-year aircraft delivery and earnings targets. Bloomberg’s Benedikt Kammel reports.",
+      "title": "Bank Groups Eye Changes to Fed’s Relaxed Capital Plans",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-28/bank-groups-eye-changes-to-fed-s-relaxed-capital-proposals",
+      "raw_summary": "Bank groups said that although the Federal Reserve’s eased capital plans are a major improvement over previous versions, the recent proposals still need changes to help avoid risk assessments they say may hinder banks’ ability to boost lending.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 29 Apr 2026 08:01:28 GMT",
-      "summary": "Airbus Suffers Earnings Drop in First Quarter\nAirbus SE’s adjusted earnings before interest and tax and revenue both fell short of analyst estimates in the first quarter, dragged down by a steep earnings drop at the main aircraft making subsidiary. The company said it’s confident it can achieve its "
+      "published": "Tue, 28 Apr 2026 22:36:37 GMT",
+      "summary": "Bank Groups Eye Changes to Fed’s Relaxed Capital Plans\nBank groups said that although the Federal Reserve’s eased capital plans are a major improvement over previous versions, the recent proposals still need changes to help avoid risk assessments they say may hinder banks’ ability to boost lending."
     },
     {
-      "title": "GSK’s Overhaul Undermined by Decline From Older Medicines",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-29/gsk-profit-beats-estimates-on-hiv-cancer-medicines",
-      "raw_summary": "GSK Plc’s older respiratory medicines showed lackluster sales in the first quarter, leaving HIV and cancer drugs to drive profit growth.",
+      "title": "US Core Capital Goods Orders Jump by Most Since 2020",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-29/us-core-capital-goods-orders-surged-in-march-by-most-since-2020",
+      "raw_summary": "US orders for business equipment increased in March by the most since mid-2020, extending a yearlong stretch of solid capital investment fueled by spending on artificial intelligence.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 29 Apr 2026 06:12:49 GMT",
-      "summary": "GSK’s Overhaul Undermined by Decline From Older Medicines\nGSK Plc’s older respiratory medicines showed lackluster sales in the first quarter, leaving HIV and cancer drugs to drive profit growth."
+      "published": "Wed, 29 Apr 2026 12:33:21 GMT",
+      "summary": "US Core Capital Goods Orders Jump by Most Since 2020\nUS orders for business equipment increased in March by the most since mid-2020, extending a yearlong stretch of solid capital investment fueled by spending on artificial intelligence."
     },
     {
-      "title": "Large-cap Earnings Overshadow Iran Stalemate: 3-Minutes MLIV",
-      "link": "https://www.bloomberg.com/news/videos/2026-04-29/large-cap-earnings-overshadow-iran-stalemate-mliv-video",
-      "raw_summary": "Anna Edwards, Guy Johnson, Tom Mackenzie and Adam Linton break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\"  (Source: Bloomberg)",
+      "title": "EQT Is Said to Prepare Improved Takeover Offer for UK’s Intertek",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-29/eqt-is-said-to-prepare-improved-takeover-offer-for-uk-s-intertek",
+      "raw_summary": "EQT AB is preparing to make another improved offer for Intertek Group Plc, people familiar with the matter said, after seeing two bids rejected by the British product testing company.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 29 Apr 2026 07:59:41 GMT",
-      "summary": "Large-cap Earnings Overshadow Iran Stalemate: 3-Minutes MLIV\nAnna Edwards, Guy Johnson, Tom Mackenzie and Adam Linton break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\"  (Source: Bloomberg)"
+      "published": "Wed, 29 Apr 2026 12:56:17 GMT",
+      "summary": "EQT Is Said to Prepare Improved Takeover Offer for UK’s Intertek\nEQT AB is preparing to make another improved offer for Intertek Group Plc, people familiar with the matter said, after seeing two bids rejected by the British product testing company."
     },
     {
-      "title": "Deutsche Bank Flags Commercial Property as Risk After Hit",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-29/deutsche-bank-takes-hit-on-commercial-property-flags-it-as-risk",
-      "raw_summary": "Deutsche Bank AG suffered a dent in its exposure to commercial real estate and highlighted that the asset continues to be a problem for it.",
+      "title": "Trump’s $1.5 Trillion Defense Budget Faces GOP Pushback",
+      "link": "https://www.bloomberg.com/news/videos/2026-04-29/trump-s-1-5-trillion-defense-budget-faces-gop-pushback-video",
+      "raw_summary": "President Donald Trump proposed a 44% raise for the Pentagon in his $1.5 trillion defense budget, a number that’s already facing pushback from members of both political parties, including key congressional Republicans. Tyler Kendall reports on Bloomberg Television. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Wed, 29 Apr 2026 07:10:55 GMT",
-      "summary": "Deutsche Bank Flags Commercial Property as Risk After Hit\nDeutsche Bank AG suffered a dent in its exposure to commercial real estate and highlighted that the asset continues to be a problem for it."
+      "published": "Wed, 29 Apr 2026 12:55:16 GMT",
+      "summary": "Trump’s $1.5 Trillion Defense Budget Faces GOP Pushback\nPresident Donald Trump proposed a 44% raise for the Pentagon in his $1.5 trillion defense budget, a number that’s already facing pushback from members of both political parties, including key congressional Republicans. Tyler Kendall reports on "
     },
     {
-      "title": "Canada proposes ban on crypto ATMs as fraud cases mount",
-      "link": "https://www.coindesk.com/markets/2026/04/29/canada-proposes-ban-on-bitcoin-atms-as-fraud-cases-mount",
+      "title": "CoinDesk 20 performance update: Litecoin (LTC) gains 2.4%, leading index higher",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/04/29/coindesk-20-performance-update-litecoin-ltc-gains-2-4-leading-index-higher",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 29 Apr 2026 05:14:33 +0000",
-      "summary": "Canada proposes ban on crypto ATMs as fraud cases mount\n"
+      "published": "Wed, 29 Apr 2026 13:19:10 +0000",
+      "summary": "CoinDesk 20 performance update: Litecoin (LTC) gains 2.4%, leading index higher\n"
     },
     {
-      "title": "XRP falls to $1.38 after breaking below $1.40 on rising selling pressure",
-      "link": "https://www.coindesk.com/markets/2026/04/29/xrp-falls-to-usd1-38-after-breaking-below-usd1-40-on-rising-selling-pressure",
+      "title": "DeFi shaken by $292 million hack, but showing resilience, Standard Chartered says",
+      "link": "https://www.coindesk.com/business/2026/04/29/defi-shaken-by-usd292-million-hack-but-showing-resilience-standard-chartered-says",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 29 Apr 2026 04:52:22 +0000",
-      "summary": "XRP falls to $1.38 after breaking below $1.40 on rising selling pressure\n"
+      "published": "Wed, 29 Apr 2026 12:55:30 +0000",
+      "summary": "DeFi shaken by $292 million hack, but showing resilience, Standard Chartered says\n"
     },
     {
-      "title": "Bitcoin rises to $77,000 ahead of Fed decision as Trump preps for lengthy Hormuz block",
-      "link": "https://www.coindesk.com/markets/2026/04/29/bitcoin-rises-to-usd77-000-ahead-of-fed-decision-as-trump-preps-for-lengthy-hormuz-block",
+      "title": "Securitize, Computershare open path for $70 trillion U.S. stocks to move onchain",
+      "link": "https://www.coindesk.com/business/2026/04/29/securitize-computershare-open-path-for-usd70-trillion-u-s-stocks-to-move-onchain",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 29 Apr 2026 04:27:13 +0000",
-      "summary": "Bitcoin rises to $77,000 ahead of Fed decision as Trump preps for lengthy Hormuz block\n"
+      "published": "Wed, 29 Apr 2026 12:45:43 +0000",
+      "summary": "Securitize, Computershare open path for $70 trillion U.S. stocks to move onchain\n"
     },
     {
-      "title": "Institutional money is coming for bitcoin, but Adam Back says it moves slower than you think",
-      "link": "https://www.coindesk.com/business/2026/04/29/institutional-money-is-coming-for-bitcoin-but-adam-back-says-it-moves-slower-than-you-think",
+      "title": "GSR says Crypto Core3 ETF is simple gateway for mainstream investors",
+      "link": "https://www.coindesk.com/coindesk-news/2026/04/29/gsr-says-crypto-core3-etf-is-simple-gateway-for-mainstream-investors",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 29 Apr 2026 04:00:00 +0000",
-      "summary": "Institutional money is coming for bitcoin, but Adam Back says it moves slower than you think\n"
+      "published": "Wed, 29 Apr 2026 12:43:44 +0000",
+      "summary": "GSR says Crypto Core3 ETF is simple gateway for mainstream investors\n"
     },
     {
-      "title": "Robinhood stock falls 8% after big earnings miss due to weak crypto trading revenue",
-      "link": "https://www.coindesk.com/markets/2026/04/28/robinhood-stock-shrugs-off-a-47-crash-in-crypto-revenue-thanks-to-a-massive-surge-in-event-betting",
+      "title": "Galaxy Digital leads $20 million investment in Fence to overhaul back end of $6 trillion credit market",
+      "link": "https://www.coindesk.com/business/2026/04/28/galaxy-digital-leads-usd20-million-investment-in-fence-to-overhaul-back-end-of-usd6-trillion-credit-market",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 28 Apr 2026 20:28:00 +0000",
-      "summary": "Robinhood stock falls 8% after big earnings miss due to weak crypto trading revenue\n"
+      "published": "Wed, 29 Apr 2026 12:17:12 +0000",
+      "summary": "Galaxy Digital leads $20 million investment in Fence to overhaul back end of $6 trillion credit market\n"
     }
   ]
 }
