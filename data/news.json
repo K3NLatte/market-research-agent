@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T08:07:25.114802+00:00",
+  "generated_at": "2026-04-30T13:24:53.639830+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran\nA financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly secured cloud services and wipes data on infected systems that use Iran's time zone or have Farsi "
     },
     {
+      "title": "New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials",
+      "link": "https://thehackernews.com/2026/04/new-python-backdoor-uses-tunneling.html",
+      "raw_summary": "Cybersecurity researchers have disclosed details of a stealthy Python-based backdoor framework called DEEP#DOOR that comes with capabilities to establish persistent access and harvest a wide range of sensitive information from compromised hosts.\n\"The intrusion chain begins with execution of a batch script ('install_obf.bat') that disables Windows security controls, dynamically extracts an",
+      "source": "The Hacker News",
+      "published": "Thu, 30 Apr 2026 18:06:00 +0530",
+      "summary": "New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials\nCybersecurity researchers have disclosed details of a stealthy Python-based backdoor framework called DEEP#DOOR that comes with capabilities to establish persistent access and harvest a wide range of sensitive informat"
+    },
+    {
+      "title": "EtherRAT Distribution Spoofing Administrative Tools via GitHub Facades",
+      "link": "https://thehackernews.com/2026/04/etherrat-distribution-spoofing.html",
+      "raw_summary": "Intro\nA sophisticated, high-resilience malicious campaign was identified by Atos Threat Research Center (TRC) in March 2026. This operation specifically targets the high-privilege professional accounts of enterprise administrators, DevOps engineers, and security analysts by impersonating administrative utilities they rely on for daily operations. By integrating&nbsp;Search Engine Order (SEO)",
+      "source": "The Hacker News",
+      "published": "Thu, 30 Apr 2026 17:00:00 +0530",
+      "summary": "EtherRAT Distribution Spoofing Administrative Tools via GitHub Facades\nIntro\nA sophisticated, high-resilience malicious campaign was identified by Atos Threat Research Center (TRC) in March 2026. This operation specifically targets the high-privilege professional accounts of enterprise administrator"
+    },
+    {
+      "title": "New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions",
+      "link": "https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html",
+      "raw_summary": "Cybersecurity researchers have disclosed details of a Linux local privilege escalation (LPE) flaw that could allow an unprivileged local user to obtain root.\nThe high-severity vulnerability tracked as CVE-2026-31431 (CVSS score: 7.8) has been codenamed Copy Fail by Xint.io and Theori.\n\"An unprivileged local user can write four controlled bytes into the page cache of any readable file on a Linux",
+      "source": "The Hacker News",
+      "published": "Thu, 30 Apr 2026 14:54:00 +0530",
+      "summary": "New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions\nCybersecurity researchers have disclosed details of a Linux local privilege escalation (LPE) flaw that could allow an unprivileged local user to obtain root.\nThe high-severity vulnerability tracked as CVE-2026-31431 (CVSS"
+    },
+    {
       "title": "Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution",
       "link": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html",
       "raw_summary": "Google has addressed a maximum severity security flaw in Gemini CLI -- the \"@google/gemini-cli\" npm package and the \"google-github-actions/run-gemini-cli\" GitHub Actions workflow -- that could have allowed attackers to execute arbitrary commands on host systems.\n\"The vulnerability allowed an unprivileged external attacker to force their own malicious content to load as Gemini configuration,\"",
@@ -53,74 +77,82 @@
     {
       "title": "SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack",
       "link": "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
-      "raw_summary": "Cybersecurity researchers are sounding the alarm about a new supply chain attack campaign targeting SAP-related npm Packages with credential-stealing malware.\nAccording to reports from Aikido Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz, the campaign – calling itself the mini Shai-Hulud – has affected the following packages associated with SAP's JavaScript and cloud application",
+      "raw_summary": "Cybersecurity researchers are sounding the alarm about a new supply chain attack campaign targeting SAP-related npm Packages with credential-stealing malware.\nAccording to reports from Aikido Security, Onapsis, OX Security,&nbsp;SafeDep, Socket, StepSecurity, and Google-owned Wiz, the campaign – calling itself the mini Shai-Hulud – has affected the following packages associated with SAP's",
       "source": "The Hacker News",
       "published": "Wed, 29 Apr 2026 21:56:00 +0530",
-      "summary": "SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack\nCybersecurity researchers are sounding the alarm about a new supply chain attack campaign targeting SAP-related npm Packages with credential-stealing malware.\nAccording to reports from Aikido Security, SafeDep, Socket, S"
+      "summary": "SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack\nCybersecurity researchers are sounding the alarm about a new supply chain attack campaign targeting SAP-related npm Packages with credential-stealing malware.\nAccording to reports from Aikido Security, Onapsis, OX Securi"
     },
     {
-      "title": "New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs",
-      "link": "https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html",
-      "raw_summary": "Cybersecurity researchers have discovered malicious code in an npm package after a malicious package as a dependency to the project by Anthropic's Claude Opus large language model (LLM).\nThe package in question is \"@validate-sdk/v2,\" which is listed on npm as a utility software development kit (SDK) for hashing, validation, encoding/decoding, and secure random generation. However, its real",
-      "source": "The Hacker News",
-      "published": "Wed, 29 Apr 2026 20:13:00 +0530",
-      "summary": "New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs\nCybersecurity researchers have discovered malicious code in an npm package after a malicious package as a dependency to the project by Anthropic's Claude Opus large language model (LLM).\nThe package in question is \"@validate"
-    },
-    {
-      "title": "Webinar: How to Automate Exposure Validation to Match the Speed of AI Attacks",
-      "link": "https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html",
-      "raw_summary": "In February 2026, researchers uncovered a shift that completely changed the game: threat actors are now using custom AI setups to automate attacks directly into the kill chain.\nWe aren't just talking about AI writing better phishing emails anymore. We’re talking about autonomous agents mapping Active Directory and seizing Domain Admin credentials in minutes.\nThe problem? Most defensive workflows",
-      "source": "The Hacker News",
-      "published": "Wed, 29 Apr 2026 17:32:00 +0530",
-      "summary": "Webinar: How to Automate Exposure Validation to Match the Speed of AI Attacks\nIn February 2026, researchers uncovered a shift that completely changed the game: threat actors are now using custom AI setups to automate attacks directly into the kill chain.\nWe aren't just talking about AI writing bette"
-    },
-    {
-      "title": "What to Look for in an Exposure Management Platform (And What Most of Them Get Wrong)",
-      "link": "https://thehackernews.com/2026/04/what-to-look-for-in-exposure-management.html",
-      "raw_summary": "Every security team has a version of the same story. The quarter ends with hundreds of vulnerabilities closed. The dashboards are bursting with green. Then someone in a leadership meeting asks: \"So, are we actually safer now?\"\nCrickets.\nThe room goes quiet because an honest answer requires context – which is something that patch counts and CVSS scores were never designed to provide. Exposure",
-      "source": "The Hacker News",
-      "published": "Wed, 29 Apr 2026 17:00:00 +0530",
-      "summary": "What to Look for in an Exposure Management Platform (And What Most of Them Get Wrong)\nEvery security team has a version of the same story. The quarter ends with hundreds of vulnerabilities closed. The dashboards are bursting with green. Then someone in a leadership meeting asks: \"So, are we actually"
-    },
-    {
-      "title": "Scott Aaronson on quantum: \"Will you heed my warnings NOW?\"",
-      "link": "https://scottaaronson.blog/?p=9718",
-      "raw_summary": "<p>Article URL: <a href=\"https://scottaaronson.blog/?p=9718\">https://scottaaronson.blog/?p=9718</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47958942\">https://news.ycombinator.com/item?id=47958942</a></p>\n<p>Points: 41</p>\n<p># Comments: 27</p>",
+      "title": "U.S. Debt Tops 100% of GDP",
+      "link": "https://www.wsj.com/economy/u-s-debt-tops-100-of-gdp-81c013d7",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.wsj.com/economy/u-s-debt-tops-100-of-gdp-81c013d7\">https://www.wsj.com/economy/u-s-debt-tops-100-of-gdp-81c013d7</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47961804\">https://news.ycombinator.com/item?id=47961804</a></p>\n<p>Points: 14</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 30 Apr 2026 06:30:30 +0000",
-      "summary": "Scott Aaronson on quantum: \"Will you heed my warnings NOW?\"\n<p>Article URL: <a href=\"https://scottaaronson.blog/?p=9718\">https://scottaaronson.blog/?p=9718</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47958942\">https://news.ycombinator.com/item?id=47958942</a></p>\n<p>Points"
+      "published": "Thu, 30 Apr 2026 13:04:09 +0000",
+      "summary": "U.S. Debt Tops 100% of GDP\n<p>Article URL: <a href=\"https://www.wsj.com/economy/u-s-debt-tops-100-of-gdp-81c013d7\">https://www.wsj.com/economy/u-s-debt-tops-100-of-gdp-81c013d7</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47961804\">https://news.ycombinator.com/item?id=47961"
     },
     {
-      "title": "Monad Tutorials Timeline",
-      "link": "https://wiki.haskell.org/Monad_tutorials_timeline",
-      "raw_summary": "<p>Article URL: <a href=\"https://wiki.haskell.org/Monad_tutorials_timeline\">https://wiki.haskell.org/Monad_tutorials_timeline</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47958106\">https://news.ycombinator.com/item?id=47958106</a></p>\n<p>Points: 25</p>\n<p># Comments: 3</p>",
+      "title": "I aggregated 28 US Government auction sites into one search",
+      "link": "https://bidprowl.com",
+      "raw_summary": "<p>Article URL: <a href=\"https://bidprowl.com\">https://bidprowl.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47961378\">https://news.ycombinator.com/item?id=47961378</a></p>\n<p>Points: 30</p>\n<p># Comments: 9</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 30 Apr 2026 04:28:07 +0000",
-      "summary": "Monad Tutorials Timeline\n<p>Article URL: <a href=\"https://wiki.haskell.org/Monad_tutorials_timeline\">https://wiki.haskell.org/Monad_tutorials_timeline</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47958106\">https://news.ycombinator.com/item?id=47958106</a></p>\n<p>Points: 25<"
+      "published": "Thu, 30 Apr 2026 12:24:53 +0000",
+      "summary": "I aggregated 28 US Government auction sites into one search\n<p>Article URL: <a href=\"https://bidprowl.com\">https://bidprowl.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47961378\">https://news.ycombinator.com/item?id=47961378</a></p>\n<p>Points: 30</p>\n<p># Comments: 9</p"
     },
     {
-      "title": "Lessons from Building an OTel Normalizer for GenAI",
-      "link": "https://www.groundcover.com/blog/otel-normalizer-genai-part-1",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.groundcover.com/blog/otel-normalizer-genai-part-1\">https://www.groundcover.com/blog/otel-normalizer-genai-part-1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47958081\">https://news.ycombinator.com/item?id=47958081</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "title": "Belgium stops decommissioning nuclear power plants",
+      "link": "https://dpa-international.com/general-news/urn:newsml:dpa.com:20090101:260430-930-14717/",
+      "raw_summary": "<p>Article URL: <a href=\"https://dpa-international.com/general-news/urn:newsml:dpa.com:20090101:260430-930-14717/\">https://dpa-international.com/general-news/urn:newsml:dpa.com:20090101:260430-930-14717/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47961319\">https://news.ycombinator.com/item?id=47961319</a></p>\n<p>Points: 114</p>\n<p># Comments: 36</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 30 Apr 2026 04:23:40 +0000",
-      "summary": "Lessons from Building an OTel Normalizer for GenAI\n<p>Article URL: <a href=\"https://www.groundcover.com/blog/otel-normalizer-genai-part-1\">https://www.groundcover.com/blog/otel-normalizer-genai-part-1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47958081\">https://news.ycomb"
+      "published": "Thu, 30 Apr 2026 12:17:14 +0000",
+      "summary": "Belgium stops decommissioning nuclear power plants\n<p>Article URL: <a href=\"https://dpa-international.com/general-news/urn:newsml:dpa.com:20090101:260430-930-14717/\">https://dpa-international.com/general-news/urn:newsml:dpa.com:20090101:260430-930-14717/</a></p>\n<p>Comments URL: <a href=\"https://new"
     },
     {
-      "title": "Biology is a Burrito: A text- and visual-based journey through a living cell",
-      "link": "https://burrito.bio/essays/biology-is-a-burrito",
-      "raw_summary": "<p>Article URL: <a href=\"https://burrito.bio/essays/biology-is-a-burrito\">https://burrito.bio/essays/biology-is-a-burrito</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47957714\">https://news.ycombinator.com/item?id=47957714</a></p>\n<p>Points: 77</p>\n<p># Comments: 11</p>",
+      "title": "GCC 16 has been released",
+      "link": "https://gcc.gnu.org/gcc-16/changes.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://gcc.gnu.org/gcc-16/changes.html\">https://gcc.gnu.org/gcc-16/changes.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47961004\">https://news.ycombinator.com/item?id=47961004</a></p>\n<p>Points: 84</p>\n<p># Comments: 5</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 30 Apr 2026 03:24:41 +0000",
-      "summary": "Biology is a Burrito: A text- and visual-based journey through a living cell\n<p>Article URL: <a href=\"https://burrito.bio/essays/biology-is-a-burrito\">https://burrito.bio/essays/biology-is-a-burrito</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47957714\">https://news.ycombin"
+      "published": "Thu, 30 Apr 2026 11:40:13 +0000",
+      "summary": "GCC 16 has been released\n<p>Article URL: <a href=\"https://gcc.gnu.org/gcc-16/changes.html\">https://gcc.gnu.org/gcc-16/changes.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47961004\">https://news.ycombinator.com/item?id=47961004</a></p>\n<p>Points: 84</p>\n<p># Comments: 5"
     },
     {
-      "title": "Where the goblins came from",
-      "link": "https://openai.com/index/where-the-goblins-came-from/",
-      "raw_summary": "<p>Article URL: <a href=\"https://openai.com/index/where-the-goblins-came-from/\">https://openai.com/index/where-the-goblins-came-from/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47957688\">https://news.ycombinator.com/item?id=47957688</a></p>\n<p>Points: 490</p>\n<p># Comments: 250</p>",
+      "title": "For the first time in history, more Americans are moving to EU than vice versa",
+      "link": "https://twitter.com/benbawan/status/2049303326999609846",
+      "raw_summary": "<p>Article URL: <a href=\"https://twitter.com/benbawan/status/2049303326999609846\">https://twitter.com/benbawan/status/2049303326999609846</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47960953\">https://news.ycombinator.com/item?id=47960953</a></p>\n<p>Points: 47</p>\n<p># Comments: 39</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 30 Apr 2026 03:21:04 +0000",
-      "summary": "Where the goblins came from\n<p>Article URL: <a href=\"https://openai.com/index/where-the-goblins-came-from/\">https://openai.com/index/where-the-goblins-came-from/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47957688\">https://news.ycombinator.com/item?id=47957688</a></p>\n<p>"
+      "published": "Thu, 30 Apr 2026 11:31:27 +0000",
+      "summary": "For the first time in history, more Americans are moving to EU than vice versa\n<p>Article URL: <a href=\"https://twitter.com/benbawan/status/2049303326999609846\">https://twitter.com/benbawan/status/2049303326999609846</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47960953\">ht"
+    },
+    {
+      "title": "Spotify introduces verified artist badges to help distinguish humans from AI",
+      "link": "https://techcrunch.com/2026/04/30/spotify-introduces-verified-artist-badges-to-help-distinguish-humans-from-ai/",
+      "raw_summary": "As AI-generated artists and tracks flood music streaming platforms, Spotify is rolling out a new “Verified by Spotify” badge to help listeners more easily identify authentic human artists. To receive the badge, artists must meet certain criteria. Spotify looks for an identifiable artist presence both on and off platform, like concert dates, merch, and linked [&#8230;]",
+      "source": "TechCrunch",
+      "published": "Thu, 30 Apr 2026 13:00:00 +0000",
+      "summary": "Spotify introduces verified artist badges to help distinguish humans from AI\nAs AI-generated artists and tracks flood music streaming platforms, Spotify is rolling out a new “Verified by Spotify” badge to help listeners more easily identify authentic human artists. To receive the badge, artists must"
+    },
+    {
+      "title": "Netflix wants you to watch ‘Clips,’ its TikTok-like vertical video feed",
+      "link": "https://techcrunch.com/2026/04/30/netflix-wants-you-to-watch-clips-its-tiktok-like-vertical-video-feed/",
+      "raw_summary": "Netflix is redesigning its mobile app and introducing Clips, a vertical video feed intended to help users discover new content by sharing highlights from original Netflix programming.",
+      "source": "TechCrunch",
+      "published": "Thu, 30 Apr 2026 13:00:00 +0000",
+      "summary": "Netflix wants you to watch ‘Clips,’ its TikTok-like vertical video feed\nNetflix is redesigning its mobile app and introducing Clips, a vertical video feed intended to help users discover new content by sharing highlights from original Netflix programming."
+    },
+    {
+      "title": "Meta says its business AI now facilitates 10 million conversations a week",
+      "link": "https://techcrunch.com/2026/04/30/meta-says-its-business-ai-now-facilitates-10-million-conversations-a-week/",
+      "raw_summary": "Meta said over 8 billion advertisers have used at least one of its gen AI tools",
+      "source": "TechCrunch",
+      "published": "Thu, 30 Apr 2026 12:08:45 +0000",
+      "summary": "Meta says its business AI now facilitates 10 million conversations a week\nMeta said over 8 billion advertisers have used at least one of its gen AI tools"
+    },
+    {
+      "title": "Instagram cracks down on content aggregators",
+      "link": "https://techcrunch.com/2026/04/30/instagram-restricts-reach-of-content-aggregators-in-new-crackdown/",
+      "raw_summary": "The update targets content aggregators that don't post original content and instead simply re-upload others' posts.",
+      "source": "TechCrunch",
+      "published": "Thu, 30 Apr 2026 12:00:00 +0000",
+      "summary": "Instagram cracks down on content aggregators\nThe update targets content aggregators that don't post original content and instead simply re-upload others' posts."
     },
     {
       "title": "SoftBank is creating a robotics company that builds data centers — and already eyeing a $100B IPO",
@@ -131,36 +163,28 @@
       "summary": "SoftBank is creating a robotics company that builds data centers — and already eyeing a $100B IPO\nYou need infrastructure to build AI a and robots, but apparently you also need AI and robots to build infrastructure."
     },
     {
-      "title": "Amazon, Meta join fight to end Google Pay, PhonePe dominance in India",
-      "link": "https://techcrunch.com/2026/04/29/amazon-meta-join-fight-to-end-google-pay-phonepe-dominance-in-india/",
-      "raw_summary": "PhonePe and Google Pay command 80% of India's UPI instant payments network. Rivals are set to meet with regulators to lobby for restrictions.",
-      "source": "TechCrunch",
-      "published": "Thu, 30 Apr 2026 01:00:00 +0000",
-      "summary": "Amazon, Meta join fight to end Google Pay, PhonePe dominance in India\nPhonePe and Google Pay command 80% of India's UPI instant payments network. Rivals are set to meet with regulators to lobby for restrictions."
+      "title": "More than half of all \"long shot\" bets on Polymarket pay off",
+      "link": "https://arstechnica.com/tech-policy/2026/04/more-than-half-of-all-long-shot-bets-on-polymarket-pay-off/",
+      "raw_summary": "Sensitive information and the prediction markets can be a winning combination.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 30 Apr 2026 13:16:04 +0000",
+      "summary": "More than half of all \"long shot\" bets on Polymarket pay off\nSensitive information and the prediction markets can be a winning combination."
     },
     {
-      "title": "Amazon’s cloud business is surging — and so is its capital spending",
-      "link": "https://techcrunch.com/2026/04/29/amazons-cloud-business-is-surging-and-so-is-its-capital-spending/",
-      "raw_summary": "The e-commerce giant is making more money than expected from AWS but it's also spending a lot, and will continue to do so in the near term, its chief executive said.",
-      "source": "TechCrunch",
-      "published": "Thu, 30 Apr 2026 00:14:23 +0000",
-      "summary": "Amazon’s cloud business is surging — and so is its capital spending\nThe e-commerce giant is making more money than expected from AWS but it's also spending a lot, and will continue to do so in the near term, its chief executive said."
+      "title": "Florida Republicans reject plan to weaken childhood vaccine requirements",
+      "link": "https://arstechnica.com/health/2026/04/gop-led-florida-house-junks-desantis-plan-to-ease-vaccine-mandates/",
+      "raw_summary": "DeSantis had called for a special session to take up the proposed changes.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 30 Apr 2026 11:15:43 +0000",
+      "summary": "Florida Republicans reject plan to weaken childhood vaccine requirements\nDeSantis had called for a special session to take up the proposed changes."
     },
     {
-      "title": "Sources: Anthropic could raise a new $50B round at a valuation of $900B",
-      "link": "https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/",
-      "raw_summary": "The maker of Claude has received multiple pre-emptive offers at valuations in the $850 billion to $900 billion range, according to sources familiar with the matter.",
-      "source": "TechCrunch",
-      "published": "Thu, 30 Apr 2026 00:07:15 +0000",
-      "summary": "Sources: Anthropic could raise a new $50B round at a valuation of $900B\nThe maker of Claude has received multiple pre-emptive offers at valuations in the $850 billion to $900 billion range, according to sources familiar with the matter."
-    },
-    {
-      "title": "On the stand, Elon Musk can’t escape his own tweets",
-      "link": "https://techcrunch.com/2026/04/29/on-the-stand-elon-musk-cant-escape-his-own-tweets/",
-      "raw_summary": "Elon Musk took the stand for the second day for his attempt to legally dismantle OpenAI.",
-      "source": "TechCrunch",
-      "published": "Wed, 29 Apr 2026 23:58:36 +0000",
-      "summary": "On the stand, Elon Musk can’t escape his own tweets\nElon Musk took the stand for the second day for his attempt to legally dismantle OpenAI."
+      "title": "The hidden cost of Google's AI defaults and the illusion of choice",
+      "link": "https://arstechnica.com/ai/2026/04/googles-privacy-maze-how-gemini-traps-you-and-your-data/",
+      "raw_summary": "Google says it respects user privacy in AI, but the reality is not so black and white.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 30 Apr 2026 11:00:31 +0000",
+      "summary": "The hidden cost of Google's AI defaults and the illusion of choice\nGoogle says it respects user privacy in AI, but the reality is not so black and white."
     },
     {
       "title": "ABC can beat Trump FCC's license threat if owner Disney is willing to fight",
@@ -179,148 +203,124 @@
       "summary": "OpenAI Codex system prompt includes explicit directive to \"never talk about goblins\"\nDirections also include system instructions to act like \"you have a vivid inner life.\""
     },
     {
-      "title": "Howdy's dated $3/month ad-free streaming service said to have 1M subscribers",
-      "link": "https://arstechnica.com/gadgets/2026/04/howdys-dated-3-month-ad-free-streaming-service-said-to-have-1m-subscribers/",
-      "raw_summary": "Most are keeping their subscriptions after signing up, too, research firm says.",
-      "source": "Ars Technica - All content",
-      "published": "Wed, 29 Apr 2026 18:02:20 +0000",
-      "summary": "Howdy's dated $3/month ad-free streaming service said to have 1M subscribers\nMost are keeping their subscriptions after signing up, too, research firm says."
-    },
-    {
-      "title": "New Sam Bankman-Fried trial would be huge waste of court’s time, judge says",
-      "link": "https://arstechnica.com/tech-policy/2026/04/new-sam-bankman-fried-trial-would-be-huge-waste-of-courts-time-judge-says/",
-      "raw_summary": "FTX fraudster came out as Republican, then tried to claim Biden's DOJ targeted him.",
-      "source": "Ars Technica - All content",
-      "published": "Wed, 29 Apr 2026 17:52:52 +0000",
-      "summary": "New Sam Bankman-Fried trial would be huge waste of court’s time, judge says\nFTX fraudster came out as Republican, then tried to claim Biden's DOJ targeted him."
-    },
-    {
-      "title": "Drone strikes on data centers spook Big Tech, halting Middle East projects",
-      "link": "https://arstechnica.com/ai/2026/04/data-center-developer-pauses-middle-east-projects-after-war-damage/",
-      "raw_summary": "Uninsurable war damage is forcing tech companies to rethink Middle East plans.",
-      "source": "Ars Technica - All content",
-      "published": "Wed, 29 Apr 2026 17:27:53 +0000",
-      "summary": "Drone strikes on data centers spook Big Tech, halting Middle East projects\nUninsurable war damage is forcing tech companies to rethink Middle East plans."
-    },
-    {
-      "title": "Australian Bondi shooting inquiry calls for review of counterterrorism",
-      "link": "https://www.ft.com/content/ae83f4f1-277c-47b2-8214-606c938b8920",
-      "raw_summary": "Risk of further antisemitic attacks increased because of Iran war, interim report warns",
+      "title": "ECB holds interest rates at 2% as inflation rises",
+      "link": "https://www.ft.com/content/18f763d6-76da-43f3-8744-94c8d9ecae04",
+      "raw_summary": "Policymakers warn risks to economy from energy shock driven by Middle East conflict have ‘intensified’",
       "source": "World",
-      "published": "Thu, 30 Apr 2026 08:00:39 GMT",
-      "summary": "Australian Bondi shooting inquiry calls for review of counterterrorism\nRisk of further antisemitic attacks increased because of Iran war, interim report warns"
+      "published": "Thu, 30 Apr 2026 13:04:45 GMT",
+      "summary": "ECB holds interest rates at 2% as inflation rises\nPolicymakers warn risks to economy from energy shock driven by Middle East conflict have ‘intensified’"
     },
     {
-      "title": "Oil surges past $125 as fears of prolonged supply disruption grow",
-      "link": "https://www.ft.com/content/ce575380-eccc-447c-a64e-493957d9b037",
-      "raw_summary": "Brent crude sets new conflict high as blockade of Strait of Hormuz continues",
+      "title": "New era begins at Fed as Powell vows to be ‘low profile’ governor",
+      "link": "https://www.ft.com/content/47ee4a2b-21c7-41f1-a2f7-6729e6a3ee49",
+      "raw_summary": "Also in today’s newsletter, political violence in the US isn’t just rising — it’s broadening",
       "source": "World",
-      "published": "Thu, 30 Apr 2026 08:00:35 GMT",
-      "summary": "Oil surges past $125 as fears of prolonged supply disruption grow\nBrent crude sets new conflict high as blockade of Strait of Hormuz continues"
+      "published": "Thu, 30 Apr 2026 13:00:06 GMT",
+      "summary": "New era begins at Fed as Powell vows to be ‘low profile’ governor\nAlso in today’s newsletter, political violence in the US isn’t just rising — it’s broadening"
     },
     {
-      "title": "DCC rejects £5bn takeover bid from KKR and Energy Capital",
-      "link": "https://www.ft.com/content/98eaa63b-72a5-4451-93e1-d819f096aca4",
-      "raw_summary": "FTSE 100 energy group says bid ‘fundamentally undervalues’ its business",
+      "title": "Golders Green stabbing suspect was previously referred to Prevent",
+      "link": "https://www.ft.com/content/c88daf02-eb64-4d41-9cf1-1f1d0055d6d3",
+      "raw_summary": "Two Jewish men injured in knife attacks in north London",
       "source": "World",
-      "published": "Thu, 30 Apr 2026 07:47:48 GMT",
-      "summary": "DCC rejects £5bn takeover bid from KKR and Energy Capital\nFTSE 100 energy group says bid ‘fundamentally undervalues’ its business"
+      "published": "Thu, 30 Apr 2026 12:48:12 GMT",
+      "summary": "Golders Green stabbing suspect was previously referred to Prevent\nTwo Jewish men injured in knife attacks in north London"
     },
     {
-      "title": "Google outpaces rivals as Big Tech’s AI spending plans rise to $725bn",
-      "link": "https://www.ft.com/content/2138e81c-4d86-46f4-8ca0-287f8b737cdf",
-      "raw_summary": "Meta stock drops on capex increase while Alphabet’s cloud business grows faster than rivals Amazon and Microsoft",
+      "title": "ECB holds rates amid supply shock",
+      "link": "https://www.ft.com/content/c9df2eba-d7ef-43de-9db9-c37a3c90564f",
+      "raw_summary": "Central bank believes it ‘remains well positioned to navigate the current uncertainty’",
       "source": "World",
-      "published": "Thu, 30 Apr 2026 07:41:56 GMT",
-      "summary": "Google outpaces rivals as Big Tech’s AI spending plans rise to $725bn\nMeta stock drops on capex increase while Alphabet’s cloud business grows faster than rivals Amazon and Microsoft"
+      "published": "Thu, 30 Apr 2026 12:40:46 GMT",
+      "summary": "ECB holds rates amid supply shock\nCentral bank believes it ‘remains well positioned to navigate the current uncertainty’"
     },
     {
-      "title": "Apple’s new chief and China’s chilling move on Manus",
-      "link": "https://www.ft.com/content/7a3ff7d2-0cf5-469e-8aba-d971cf311774",
-      "raw_summary": "The inside story on the Asia tech trends that matter, from Nikkei Asia and the Financial Times",
+      "title": "How the Trump-Xi threats of trade war softened into a quieter rivalry",
+      "link": "https://www.ft.com/content/27bb8e7b-c4f3-4c83-9952-dd140f6ba794",
+      "raw_summary": "The forthcoming US-China leaders’ summit will be much less fraught than the last one",
       "source": "World",
-      "published": "Thu, 30 Apr 2026 07:21:09 GMT",
-      "summary": "Apple’s new chief and China’s chilling move on Manus\nThe inside story on the Asia tech trends that matter, from Nikkei Asia and the Financial Times"
+      "published": "Thu, 30 Apr 2026 12:34:21 GMT",
+      "summary": "How the Trump-Xi threats of trade war softened into a quieter rivalry\nThe forthcoming US-China leaders’ summit will be much less fraught than the last one"
     },
     {
-      "title": "Dovish BOE Pushback Could Undermine Pound: 3-Minutes MLIV",
-      "link": "https://www.bloomberg.com/news/videos/2026-04-30/dovish-boe-pushback-could-undermine-pound-mliv-video",
-      "raw_summary": "Anna Edwards, Guy Johnson, Tom Mackenzie and Adam Linton break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\"  (Source: Bloomberg)",
+      "title": "Junk Issuers in Europe Cut Costs by Switching to Fixed Rates",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-30/junk-issuers-in-europe-cut-costs-by-switching-to-fixed-rate-debt",
+      "raw_summary": "High-risk borrowers in Europe are taking advantage of cheaper fixed-rate bonds to refinance floating-rate debt, cutting costs and buying protection against the risk of interest rate hikes.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 30 Apr 2026 08:03:17 GMT",
-      "summary": "Dovish BOE Pushback Could Undermine Pound: 3-Minutes MLIV\nAnna Edwards, Guy Johnson, Tom Mackenzie and Adam Linton break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\"  (Source: Bloomberg)"
+      "published": "Thu, 30 Apr 2026 09:35:45 GMT",
+      "summary": "Junk Issuers in Europe Cut Costs by Switching to Fixed Rates\nHigh-risk borrowers in Europe are taking advantage of cheaper fixed-rate bonds to refinance floating-rate debt, cutting costs and buying protection against the risk of interest rate hikes."
     },
     {
-      "title": "BlackRock's Rob Goldstein on the Next Megatrends in Finance",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-30/blackrock-coo-rob-goldstein-blk-on-the-next-megatrends-in-finance",
-      "raw_summary": "<p>Explaining the tech that powers the world's biggest asset manager.</p>",
+      "title": "Yen Jump Spurs Speculation of Intervention After ‘Final’ Warning",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-30/japan-s-katayama-warns-nearing-timing-to-take-bold-fx-steps",
+      "raw_summary": "The yen surged as much as 3%, its biggest intraday gain in almost two years, as traders speculated Japan intervened in the foreign-exchange market, hours after officials delivered a “final” warning to investors against selling the currency.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 30 Apr 2026 08:00:18 GMT",
-      "summary": "BlackRock's Rob Goldstein on the Next Megatrends in Finance\n<p>Explaining the tech that powers the world's biggest asset manager.</p>"
+      "published": "Thu, 30 Apr 2026 08:07:38 GMT",
+      "summary": "Yen Jump Spurs Speculation of Intervention After ‘Final’ Warning\nThe yen surged as much as 3%, its biggest intraday gain in almost two years, as traders speculated Japan intervened in the foreign-exchange market, hours after officials delivered a “final” warning to investors against selling the curr"
     },
     {
-      "title": "How NFL Legend Steve Young Built a $10 Billion Fund",
-      "link": "https://www.bloomberg.com/news/videos/2026-04-30/nfl-icon-steve-young-built-a-10-billion-fund-video",
-      "raw_summary": "Alex Rodriguez and Jason Kelly sit down with three-time Super Bowl champion Steve Young to discuss the challenges faced and lessons learned on his journey from the NFL to managing a $10 billion fund. (Source: Bloomberg)",
-      "source": "Bloomberg Markets",
-      "published": "Thu, 30 Apr 2026 08:00:05 GMT",
-      "summary": "How NFL Legend Steve Young Built a $10 Billion Fund\nAlex Rodriguez and Jason Kelly sit down with three-time Super Bowl champion Steve Young to discuss the challenges faced and lessons learned on his journey from the NFL to managing a $10 billion fund. (Source: Bloomberg)"
-    },
-    {
-      "title": "Odd Lots: Rob Goldstein on Finance’s Next Megatrends (Podcast)",
-      "link": "https://www.bloomberg.com/news/audio/2026-04-30/odd-lots-rob-goldstein-on-finance-s-next-megatrends-podcast",
-      "raw_summary": "The last few decades have been marked by a number of megatrends in finance including the extraordinary growth of asset managers, the rising importance of technology, and the ascent of private markets. BlackRock, the world’s biggest asset manager, is emblematic of all these developments. On this episode, we talk to BlackRock COO Rob Goldstein about the company’s early technological history, the development of its famous risk management technology Aladdin, and how BlackRock is navigating being bot",
-      "source": "Bloomberg Markets",
-      "published": "Thu, 30 Apr 2026 08:00:00 GMT",
-      "summary": "Odd Lots: Rob Goldstein on Finance’s Next Megatrends (Podcast)\nThe last few decades have been marked by a number of megatrends in finance including the extraordinary growth of asset managers, the rising importance of technology, and the ascent of private markets. BlackRock, the world’s biggest asset"
-    },
-    {
-      "title": "Oil Hits Four-Year High on Report US Mulls Iran Military Options",
+      "title": "Oil Sinks From Four-Year High as War Fears Vie With Economic Hit",
       "link": "https://www.bloomberg.com/news/articles/2026-04-29/latest-oil-market-news-and-analysis-for-april-30",
-      "raw_summary": "Brent oil rallied to a four-year high after Axios reported that US President Donald Trump will receive a briefing on new military options for action in Iran, signaling the potential for fresh escalation in the Middle East.",
+      "raw_summary": "Brent crude fell after hitting a four-year high in a session marked by thin trading volumes, as the front futures contract headed for expiry.",
       "source": "Bloomberg Markets",
       "published": "Wed, 29 Apr 2026 22:11:51 GMT",
-      "summary": "Oil Hits Four-Year High on Report US Mulls Iran Military Options\nBrent oil rallied to a four-year high after Axios reported that US President Donald Trump will receive a briefing on new military options for action in Iran, signaling the potential for fresh escalation in the Middle East."
+      "summary": "Oil Sinks From Four-Year High as War Fears Vie With Economic Hit\nBrent crude fell after hitting a four-year high in a session marked by thin trading volumes, as the front futures contract headed for expiry."
     },
     {
-      "title": "Trump-backed World Liberty Financial races toward 62 billion token unlock with near-unanimous vote",
-      "link": "https://www.coindesk.com/markets/2026/04/30/wlfi-races-toward-62-billion-token-unlock-with-near-unanimous-vote",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 30 Apr 2026 07:49:21 +0000",
-      "summary": "Trump-backed World Liberty Financial races toward 62 billion token unlock with near-unanimous vote\n"
+      "title": "UK Bonds Rally as BOE Decision Prompts Paring of Rate-Hike Bets",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-30/uk-two-year-bonds-extend-gains-as-boe-governor-bailey-speaks",
+      "raw_summary": "UK bonds extended a rally as traders pared bets on Bank of England interest-rate hikes, after officials left policy unchanged and Governor Andrew Bailey said it was in a “reasonable place.”",
+      "source": "Bloomberg Markets",
+      "published": "Thu, 30 Apr 2026 12:06:45 GMT",
+      "summary": "UK Bonds Rally as BOE Decision Prompts Paring of Rate-Hike Bets\nUK bonds extended a rally as traders pared bets on Bank of England interest-rate hikes, after officials left policy unchanged and Governor Andrew Bailey said it was in a “reasonable place.”"
     },
     {
-      "title": "Ouch. The U.S. 30-year Treasury yield just hit 5% and bitcoin may pay the price",
-      "link": "https://www.coindesk.com/markets/2026/04/30/ouch-the-u-s-30-year-treasury-yield-just-hit-5-and-bitcoin-may-pay-the-price",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 30 Apr 2026 06:31:57 +0000",
-      "summary": "Ouch. The U.S. 30-year Treasury yield just hit 5% and bitcoin may pay the price\n"
+      "title": "Lagarde Says ECB Debated Options Including Rate Hike",
+      "link": "https://www.bloomberg.com/news/live-blog/2026-04-30/ecb-interest-rate-decision-euro-lagarde-press-conference-live-updates",
+      "raw_summary": "The European Central Bank headquarters in Frankfurt. Photographer: KIRILL KUDRYAVTSEV/AFP",
+      "source": "Bloomberg Markets",
+      "published": "Thu, 30 Apr 2026 10:57:57 GMT",
+      "summary": "Lagarde Says ECB Debated Options Including Rate Hike\nThe European Central Bank headquarters in Frankfurt. Photographer: KIRILL KUDRYAVTSEV/AFP"
     },
     {
-      "title": "Bitcoin slides toward $75,000, ETH, SOL, XRP drop as oil hits four-year high",
-      "link": "https://www.coindesk.com/markets/2026/04/30/bitcoin-slides-toward-usd75-000-eth-sol-xrp-drop-as-oil-hits-four-year-high",
+      "title": "MARA Holdings to buy Long Ridge Energy in $1.5 billion AI data center push",
+      "link": "https://www.coindesk.com/business/2026/04/30/mara-holdings-to-buy-long-ridge-energy-in-usd1-5-billion-ai-data-center-push",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 30 Apr 2026 06:02:31 +0000",
-      "summary": "Bitcoin slides toward $75,000, ETH, SOL, XRP drop as oil hits four-year high\n"
+      "published": "Thu, 30 Apr 2026 12:44:43 +0000",
+      "summary": "MARA Holdings to buy Long Ridge Energy in $1.5 billion AI data center push\n"
     },
     {
-      "title": "Hyperliquid’s HYPE token could be its prediction market weapon, Arthur Hayes says",
-      "link": "https://www.coindesk.com/markets/2026/04/30/hyperliquid-s-hype-token-could-be-its-prediction-market-weapon-arthur-hayes-says",
+      "title": "Germany’s AllUnity expands EURAU to Solana as euro stablecoins gain traction",
+      "link": "https://www.coindesk.com/business/2026/04/30/germany-s-allunity-expands-eurau-to-solana-as-euro-stablecoins-gain-traction",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 30 Apr 2026 04:54:23 +0000",
-      "summary": "Hyperliquid’s HYPE token could be its prediction market weapon, Arthur Hayes says\n"
+      "published": "Thu, 30 Apr 2026 11:58:32 +0000",
+      "summary": "Germany’s AllUnity expands EURAU to Solana as euro stablecoins gain traction\n"
     },
     {
-      "title": "Jack Mallers' Twenty One Capital surges after majority holder Tether proposes 3-way merger",
-      "link": "https://www.coindesk.com/markets/2026/04/29/jack-mallers-twenty-one-capital-surges-after-majority-holder-tether-proposes-3-way-merger",
+      "title": "The Green Beret was just the start: New data suggests military insider trading crisis on Polymarket",
+      "link": "https://www.coindesk.com/markets/2026/04/30/polymarket-s-military-markets-show-signs-of-insider-edge-report-suggests",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 29 Apr 2026 22:12:53 +0000",
-      "summary": "Jack Mallers' Twenty One Capital surges after majority holder Tether proposes 3-way merger\n"
+      "published": "Thu, 30 Apr 2026 11:57:29 +0000",
+      "summary": "The Green Beret was just the start: New data suggests military insider trading crisis on Polymarket\n"
+    },
+    {
+      "title": "Seasonal trends favor bulls even as bitcoin ends April in a defensive mood",
+      "link": "https://www.coindesk.com/daybook-us/2026/04/30/seasonal-trends-favor-bulls-even-as-bitcoin-ends-april-in-a-defensive-mood",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Thu, 30 Apr 2026 11:15:12 +0000",
+      "summary": "Seasonal trends favor bulls even as bitcoin ends April in a defensive mood\n"
+    },
+    {
+      "title": "Bitcoin faces $80,000 resistance as derivatives shows signs of risk aversion",
+      "link": "https://www.coindesk.com/markets/2026/04/30/bitcoin-faces-usd80-000-resistance-as-derivatives-shows-signs-of-risk-aversion",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Thu, 30 Apr 2026 11:01:26 +0000",
+      "summary": "Bitcoin faces $80,000 resistance as derivatives shows signs of risk aversion\n"
     }
   ]
 }
