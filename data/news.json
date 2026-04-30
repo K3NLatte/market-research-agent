@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-04-30T13:24:53.639830+00:00",
+  "generated_at": "2026-04-30T19:08:26.619491+00:00",
   "count": 40,
   "articles": [
+    {
+      "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
+      "link": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
+      "raw_summary": "A Brazilian tech firm that specializes in protecting networks from distributed denial-of-service (DDoS) attacks has been enabling a botnet responsible for an extended campaign of massive DDoS attacks against other network operators in Brazil, KrebsOnSecurity has learned. The firm's chief executive says the malicious activity resulted from a security breach and was likely the work of a competitor trying to tarnish his company's public image.",
+      "source": "Krebs on Security",
+      "published": "Thu, 30 Apr 2026 14:04:26 +0000",
+      "summary": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs\nA Brazilian tech firm that specializes in protecting networks from distributed denial-of-service (DDoS) attacks has been enabling a botnet responsible for an extended campaign of massive DDoS attacks against other network operators in Brazil, KrebsOnSe"
+    },
     {
       "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
       "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
@@ -35,12 +43,20 @@
       "summary": "Germany Doxes “UNKN,” Head of RU Ransomware Gangs REvil, GandCrab\nAn elusive hacker who went by the handle \"UNKN\" and ran the early Russian ransomware groups GandCrab and REvil now has a name and a face. Authorities in Germany say 31-year-old Russian Daniil Maksimovich Shchukin headed both cybercrim"
     },
     {
-      "title": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran",
-      "link": "https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/",
-      "raw_summary": "A financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly secured cloud services and wipes data on infected systems that use Iran's time zone or have Farsi set as the default language.",
-      "source": "Krebs on Security",
-      "published": "Mon, 23 Mar 2026 15:43:04 +0000",
-      "summary": "‘CanisterWorm’ Springs Wiper Attack Targeting Iran\nA financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly secured cloud services and wipes data on infected systems that use Iran's time zone or have Farsi "
+      "title": "PyTorch Lightning and Intercom-client Hit in Supply Chain Attacks to Steal Credentials",
+      "link": "https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html",
+      "raw_summary": "In yet another software supply chain attack, threat actors have managed to compromise the popular Python package Lightning to push two malicious versions to conduct credential theft.\nAccording to Aikido Security, OX Security, Socket, and StepSecurity, the two malicious versions are versions 2.6.2 and 2.6.3, both of which were published on April 30, 2026. The campaign is assessed to be an",
+      "source": "The Hacker News",
+      "published": "Thu, 30 Apr 2026 22:01:00 +0530",
+      "summary": "PyTorch Lightning and Intercom-client Hit in Supply Chain Attacks to Steal Credentials\nIn yet another software supply chain attack, threat actors have managed to compromise the popular Python package Lightning to push two malicious versions to conduct credential theft.\nAccording to Aikido Security, "
+    },
+    {
+      "title": "ThreatsDay Bulletin: SMS Blaster Busts, OpenEMR Flaws, 600K Roblox Hacks and 25 More Stories",
+      "link": "https://thehackernews.com/2026/04/threatsday-bulletin-sms-blaster-busts.html",
+      "raw_summary": "The internet is noisy this week. We are seeing some wild new tactics, like people using fake cell towers to send scam texts, while some developers are accidentally downloading tools that peek into their private files during a simple install. It is definitely a busy time to be online.\nSecurity is always a moving target. Millions of servers are currently sitting online without any passwords, and",
+      "source": "The Hacker News",
+      "published": "Thu, 30 Apr 2026 19:25:00 +0530",
+      "summary": "ThreatsDay Bulletin: SMS Blaster Busts, OpenEMR Flaws, 600K Roblox Hacks and 25 More Stories\nThe internet is noisy this week. We are seeing some wild new tactics, like people using fake cell towers to send scam texts, while some developers are accidentally downloading tools that peek into their priv"
     },
     {
       "title": "New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials",
@@ -67,108 +83,116 @@
       "summary": "New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions\nCybersecurity researchers have disclosed details of a Linux local privilege escalation (LPE) flaw that could allow an unprivileged local user to obtain root.\nThe high-severity vulnerability tracked as CVE-2026-31431 (CVSS"
     },
     {
-      "title": "Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution",
-      "link": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html",
-      "raw_summary": "Google has addressed a maximum severity security flaw in Gemini CLI -- the \"@google/gemini-cli\" npm package and the \"google-github-actions/run-gemini-cli\" GitHub Actions workflow -- that could have allowed attackers to execute arbitrary commands on host systems.\n\"The vulnerability allowed an unprivileged external attacker to force their own malicious content to load as Gemini configuration,\"",
-      "source": "The Hacker News",
-      "published": "Thu, 30 Apr 2026 12:37:00 +0530",
-      "summary": "Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution\nGoogle has addressed a maximum severity security flaw in Gemini CLI -- the \"@google/gemini-cli\" npm package and the \"google-github-actions/run-gemini-cli\" GitHub Actions workflow -- that could have allowed attackers to exe"
-    },
-    {
-      "title": "SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack",
-      "link": "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
-      "raw_summary": "Cybersecurity researchers are sounding the alarm about a new supply chain attack campaign targeting SAP-related npm Packages with credential-stealing malware.\nAccording to reports from Aikido Security, Onapsis, OX Security,&nbsp;SafeDep, Socket, StepSecurity, and Google-owned Wiz, the campaign – calling itself the mini Shai-Hulud – has affected the following packages associated with SAP's",
-      "source": "The Hacker News",
-      "published": "Wed, 29 Apr 2026 21:56:00 +0530",
-      "summary": "SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack\nCybersecurity researchers are sounding the alarm about a new supply chain attack campaign targeting SAP-related npm Packages with credential-stealing malware.\nAccording to reports from Aikido Security, Onapsis, OX Securi"
-    },
-    {
-      "title": "U.S. Debt Tops 100% of GDP",
-      "link": "https://www.wsj.com/economy/u-s-debt-tops-100-of-gdp-81c013d7",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.wsj.com/economy/u-s-debt-tops-100-of-gdp-81c013d7\">https://www.wsj.com/economy/u-s-debt-tops-100-of-gdp-81c013d7</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47961804\">https://news.ycombinator.com/item?id=47961804</a></p>\n<p>Points: 14</p>\n<p># Comments: 2</p>",
+      "title": "Recovering files from beyond the grave using PhotoRec",
+      "link": "https://lost-number.bearblog.dev/recovering-files-from-beyond-the-grave-using-photorec/",
+      "raw_summary": "<p>Article URL: <a href=\"https://lost-number.bearblog.dev/recovering-files-from-beyond-the-grave-using-photorec/\">https://lost-number.bearblog.dev/recovering-files-from-beyond-the-grave-using-photorec/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47965835\">https://news.ycombinator.com/item?id=47965835</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 30 Apr 2026 13:04:09 +0000",
-      "summary": "U.S. Debt Tops 100% of GDP\n<p>Article URL: <a href=\"https://www.wsj.com/economy/u-s-debt-tops-100-of-gdp-81c013d7\">https://www.wsj.com/economy/u-s-debt-tops-100-of-gdp-81c013d7</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47961804\">https://news.ycombinator.com/item?id=47961"
+      "published": "Thu, 30 Apr 2026 17:42:11 +0000",
+      "summary": "Recovering files from beyond the grave using PhotoRec\n<p>Article URL: <a href=\"https://lost-number.bearblog.dev/recovering-files-from-beyond-the-grave-using-photorec/\">https://lost-number.bearblog.dev/recovering-files-from-beyond-the-grave-using-photorec/</a></p>\n<p>Comments URL: <a href=\"https://ne"
     },
     {
-      "title": "I aggregated 28 US Government auction sites into one search",
-      "link": "https://bidprowl.com",
-      "raw_summary": "<p>Article URL: <a href=\"https://bidprowl.com\">https://bidprowl.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47961378\">https://news.ycombinator.com/item?id=47961378</a></p>\n<p>Points: 30</p>\n<p># Comments: 9</p>",
+      "title": "I built a Game Boy emulator in F#",
+      "link": "https://nickkossolapov.github.io/fame-boy/building-a-game-boy-emulator-in-fsharp/",
+      "raw_summary": "<p>Article URL: <a href=\"https://nickkossolapov.github.io/fame-boy/building-a-game-boy-emulator-in-fsharp/\">https://nickkossolapov.github.io/fame-boy/building-a-game-boy-emulator-in-fsharp/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47965503\">https://news.ycombinator.com/item?id=47965503</a></p>\n<p>Points: 68</p>\n<p># Comments: 14</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 30 Apr 2026 12:24:53 +0000",
-      "summary": "I aggregated 28 US Government auction sites into one search\n<p>Article URL: <a href=\"https://bidprowl.com\">https://bidprowl.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47961378\">https://news.ycombinator.com/item?id=47961378</a></p>\n<p>Points: 30</p>\n<p># Comments: 9</p"
+      "published": "Thu, 30 Apr 2026 17:14:21 +0000",
+      "summary": "I built a Game Boy emulator in F#\n<p>Article URL: <a href=\"https://nickkossolapov.github.io/fame-boy/building-a-game-boy-emulator-in-fsharp/\">https://nickkossolapov.github.io/fame-boy/building-a-game-boy-emulator-in-fsharp/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47965"
     },
     {
-      "title": "Belgium stops decommissioning nuclear power plants",
-      "link": "https://dpa-international.com/general-news/urn:newsml:dpa.com:20090101:260430-930-14717/",
-      "raw_summary": "<p>Article URL: <a href=\"https://dpa-international.com/general-news/urn:newsml:dpa.com:20090101:260430-930-14717/\">https://dpa-international.com/general-news/urn:newsml:dpa.com:20090101:260430-930-14717/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47961319\">https://news.ycombinator.com/item?id=47961319</a></p>\n<p>Points: 114</p>\n<p># Comments: 36</p>",
+      "title": "Kubereboot/Kured: Kubernetes Reboot Daemon",
+      "link": "https://github.com/kubereboot/kured",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/kubereboot/kured\">https://github.com/kubereboot/kured</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47965227\">https://news.ycombinator.com/item?id=47965227</a></p>\n<p>Points: 9</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 30 Apr 2026 12:17:14 +0000",
-      "summary": "Belgium stops decommissioning nuclear power plants\n<p>Article URL: <a href=\"https://dpa-international.com/general-news/urn:newsml:dpa.com:20090101:260430-930-14717/\">https://dpa-international.com/general-news/urn:newsml:dpa.com:20090101:260430-930-14717/</a></p>\n<p>Comments URL: <a href=\"https://new"
+      "published": "Thu, 30 Apr 2026 16:53:44 +0000",
+      "summary": "Kubereboot/Kured: Kubernetes Reboot Daemon\n<p>Article URL: <a href=\"https://github.com/kubereboot/kured\">https://github.com/kubereboot/kured</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47965227\">https://news.ycombinator.com/item?id=47965227</a></p>\n<p>Points: 9</p>\n<p># Co"
     },
     {
-      "title": "GCC 16 has been released",
-      "link": "https://gcc.gnu.org/gcc-16/changes.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://gcc.gnu.org/gcc-16/changes.html\">https://gcc.gnu.org/gcc-16/changes.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47961004\">https://news.ycombinator.com/item?id=47961004</a></p>\n<p>Points: 84</p>\n<p># Comments: 5</p>",
+      "title": "Show HN: TRiP – a complete transformer engine in C built from scratch just by me",
+      "link": "https://github.com/carlovalenti/TRiP",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/carlovalenti/TRiP\">https://github.com/carlovalenti/TRiP</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47965161\">https://news.ycombinator.com/item?id=47965161</a></p>\n<p>Points: 15</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 30 Apr 2026 11:40:13 +0000",
-      "summary": "GCC 16 has been released\n<p>Article URL: <a href=\"https://gcc.gnu.org/gcc-16/changes.html\">https://gcc.gnu.org/gcc-16/changes.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47961004\">https://news.ycombinator.com/item?id=47961004</a></p>\n<p>Points: 84</p>\n<p># Comments: 5"
+      "published": "Thu, 30 Apr 2026 16:48:17 +0000",
+      "summary": "Show HN: TRiP – a complete transformer engine in C built from scratch just by me\n<p>Article URL: <a href=\"https://github.com/carlovalenti/TRiP\">https://github.com/carlovalenti/TRiP</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47965161\">https://news.ycombinator.com/item?id=4"
     },
     {
-      "title": "For the first time in history, more Americans are moving to EU than vice versa",
-      "link": "https://twitter.com/benbawan/status/2049303326999609846",
-      "raw_summary": "<p>Article URL: <a href=\"https://twitter.com/benbawan/status/2049303326999609846\">https://twitter.com/benbawan/status/2049303326999609846</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47960953\">https://news.ycombinator.com/item?id=47960953</a></p>\n<p>Points: 47</p>\n<p># Comments: 39</p>",
+      "title": "CopyFail Was Not Disclosed to Distros",
+      "link": "https://www.openwall.com/lists/oss-security/2026/04/30/10",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.openwall.com/lists/oss-security/2026/04/30/10\">https://www.openwall.com/lists/oss-security/2026/04/30/10</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47965108\">https://news.ycombinator.com/item?id=47965108</a></p>\n<p>Points: 103</p>\n<p># Comments: 51</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 30 Apr 2026 11:31:27 +0000",
-      "summary": "For the first time in history, more Americans are moving to EU than vice versa\n<p>Article URL: <a href=\"https://twitter.com/benbawan/status/2049303326999609846\">https://twitter.com/benbawan/status/2049303326999609846</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47960953\">ht"
+      "published": "Thu, 30 Apr 2026 16:43:47 +0000",
+      "summary": "CopyFail Was Not Disclosed to Distros\n<p>Article URL: <a href=\"https://www.openwall.com/lists/oss-security/2026/04/30/10\">https://www.openwall.com/lists/oss-security/2026/04/30/10</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47965108\">https://news.ycombinator.com/item?id=47"
     },
     {
-      "title": "Spotify introduces verified artist badges to help distinguish humans from AI",
-      "link": "https://techcrunch.com/2026/04/30/spotify-introduces-verified-artist-badges-to-help-distinguish-humans-from-ai/",
-      "raw_summary": "As AI-generated artists and tracks flood music streaming platforms, Spotify is rolling out a new “Verified by Spotify” badge to help listeners more easily identify authentic human artists. To receive the badge, artists must meet certain criteria. Spotify looks for an identifiable artist presence both on and off platform, like concert dates, merch, and linked [&#8230;]",
+      "title": "EV startup Faraday Future paid $7.5M to company tied to founder Jia Yueting",
+      "link": "https://techcrunch.com/2026/04/30/ev-startup-faraday-future-paid-7-5m-to-company-tied-to-founder-jia-yueting/",
+      "raw_summary": "The perpetually-struggling EV company made the payments while being investigated by the SEC. That four-year-long probe was ultimately closed in March.",
       "source": "TechCrunch",
-      "published": "Thu, 30 Apr 2026 13:00:00 +0000",
-      "summary": "Spotify introduces verified artist badges to help distinguish humans from AI\nAs AI-generated artists and tracks flood music streaming platforms, Spotify is rolling out a new “Verified by Spotify” badge to help listeners more easily identify authentic human artists. To receive the badge, artists must"
+      "published": "Thu, 30 Apr 2026 18:56:59 +0000",
+      "summary": "EV startup Faraday Future paid $7.5M to company tied to founder Jia Yueting\nThe perpetually-struggling EV company made the payments while being investigated by the SEC. That four-year-long probe was ultimately closed in March."
     },
     {
-      "title": "Netflix wants you to watch ‘Clips,’ its TikTok-like vertical video feed",
-      "link": "https://techcrunch.com/2026/04/30/netflix-wants-you-to-watch-clips-its-tiktok-like-vertical-video-feed/",
-      "raw_summary": "Netflix is redesigning its mobile app and introducing Clips, a vertical video feed intended to help users discover new content by sharing highlights from original Netflix programming.",
+      "title": "OpenAI announces new advanced security for ChatGPT accounts, including a partnership with Yubico",
+      "link": "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/",
+      "raw_summary": "OpenAI is launching additional opt-in protections for ChatGPT accounts. The new security initiative includes a new partnership with security key provider Yubico.",
       "source": "TechCrunch",
-      "published": "Thu, 30 Apr 2026 13:00:00 +0000",
-      "summary": "Netflix wants you to watch ‘Clips,’ its TikTok-like vertical video feed\nNetflix is redesigning its mobile app and introducing Clips, a vertical video feed intended to help users discover new content by sharing highlights from original Netflix programming."
+      "published": "Thu, 30 Apr 2026 18:20:03 +0000",
+      "summary": "OpenAI announces new advanced security for ChatGPT accounts, including a partnership with Yubico\nOpenAI is launching additional opt-in protections for ChatGPT accounts. The new security initiative includes a new partnership with security key provider Yubico."
     },
     {
-      "title": "Meta says its business AI now facilitates 10 million conversations a week",
-      "link": "https://techcrunch.com/2026/04/30/meta-says-its-business-ai-now-facilitates-10-million-conversations-a-week/",
-      "raw_summary": "Meta said over 8 billion advertisers have used at least one of its gen AI tools",
+      "title": "Elon Musk testifies that xAI trained Grok on OpenAI models",
+      "link": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/",
+      "raw_summary": "\"Distillation\" is a hot topic as frontier labs try to prevent smaller competitors from copying their models.",
       "source": "TechCrunch",
-      "published": "Thu, 30 Apr 2026 12:08:45 +0000",
-      "summary": "Meta says its business AI now facilitates 10 million conversations a week\nMeta said over 8 billion advertisers have used at least one of its gen AI tools"
+      "published": "Thu, 30 Apr 2026 18:03:57 +0000",
+      "summary": "Elon Musk testifies that xAI trained Grok on OpenAI models\n\"Distillation\" is a hot topic as frontier labs try to prevent smaller competitors from copying their models."
     },
     {
-      "title": "Instagram cracks down on content aggregators",
-      "link": "https://techcrunch.com/2026/04/30/instagram-restricts-reach-of-content-aggregators-in-new-crackdown/",
-      "raw_summary": "The update targets content aggregators that don't post original content and instead simply re-upload others' posts.",
+      "title": "FDA approval, fundraising, and the reality of building in healthcare according to BioticsAI founder",
+      "link": "https://techcrunch.com/2026/04/30/fda-approval-fundraising-and-the-reality-of-building-in-healthcare-according-to-bioticsai-founder/",
+      "raw_summary": "BioticsAI CEO Robhy Bustami joined Isabelle Johannessen on Build Mode to discuss how the company has navigated a highly regulated space and kept the team motivated while cutting through all the red tape.",
       "source": "TechCrunch",
-      "published": "Thu, 30 Apr 2026 12:00:00 +0000",
-      "summary": "Instagram cracks down on content aggregators\nThe update targets content aggregators that don't post original content and instead simply re-upload others' posts."
+      "published": "Thu, 30 Apr 2026 17:53:53 +0000",
+      "summary": "FDA approval, fundraising, and the reality of building in healthcare according to BioticsAI founder\nBioticsAI CEO Robhy Bustami joined Isabelle Johannessen on Build Mode to discuss how the company has navigated a highly regulated space and kept the team motivated while cutting through all the red ta"
     },
     {
-      "title": "SoftBank is creating a robotics company that builds data centers — and already eyeing a $100B IPO",
-      "link": "https://techcrunch.com/2026/04/29/softbank-is-creating-a-robotics-company-that-builds-data-centers-and-already-eyeing-a-100b-ipo/",
-      "raw_summary": "You need infrastructure to build AI a and robots, but apparently you also need AI and robots to build infrastructure.",
+      "title": "Google’s Gemini AI assistant is hitting the road in millions of vehicles",
+      "link": "https://techcrunch.com/2026/04/30/googles-gemini-ai-assistant-is-hitting-the-road-in-millions-of-vehicles/",
+      "raw_summary": "The move signals Google’s push to bring more advanced, conversational AI into the driving experience.",
       "source": "TechCrunch",
-      "published": "Thu, 30 Apr 2026 03:58:22 +0000",
-      "summary": "SoftBank is creating a robotics company that builds data centers — and already eyeing a $100B IPO\nYou need infrastructure to build AI a and robots, but apparently you also need AI and robots to build infrastructure."
+      "published": "Thu, 30 Apr 2026 17:46:54 +0000",
+      "summary": "Google’s Gemini AI assistant is hitting the road in millions of vehicles\nThe move signals Google’s push to bring more advanced, conversational AI into the driving experience."
     },
     {
-      "title": "More than half of all \"long shot\" bets on Polymarket pay off",
+      "title": "RFK Jr. appeals ruling that wiped out his vaccine advisory panel",
+      "link": "https://arstechnica.com/health/2026/04/rfk-jr-appeals-ruling-that-wiped-out-his-vaccine-advisory-panel/",
+      "raw_summary": "There was uncertainty about whether Kennedy would fight or simply try an end run.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 30 Apr 2026 16:20:45 +0000",
+      "summary": "RFK Jr. appeals ruling that wiped out his vaccine advisory panel\nThere was uncertainty about whether Kennedy would fight or simply try an end run."
+    },
+    {
+      "title": "In motorsport, there's nowhere to hide as AI becomes new CFD tool",
+      "link": "https://arstechnica.com/cars/2026/04/in-motorsport-theres-nowhere-to-hide-as-ai-becomes-new-cfd-tool/",
+      "raw_summary": "AI finds value in motorsport, multiplying limited computational fluid dynamics resources.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 30 Apr 2026 15:37:41 +0000",
+      "summary": "In motorsport, there's nowhere to hide as AI becomes new CFD tool\nAI finds value in motorsport, multiplying limited computational fluid dynamics resources."
+    },
+    {
+      "title": "Microsoft open-sources \"the earliest DOS source code discovered to date\"",
+      "link": "https://arstechnica.com/gadgets/2026/04/microsoft-open-sources-the-earliest-dos-source-code-discovered-to-date/",
+      "raw_summary": "Old 86-DOS source code dates back to the time before Microsoft bought it.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 30 Apr 2026 14:20:29 +0000",
+      "summary": "Microsoft open-sources \"the earliest DOS source code discovered to date\"\nOld 86-DOS source code dates back to the time before Microsoft bought it."
+    },
+    {
+      "title": "More than half of all  Polymarket \"long shot\" bets on military action pay off",
       "link": "https://arstechnica.com/tech-policy/2026/04/more-than-half-of-all-long-shot-bets-on-polymarket-pay-off/",
       "raw_summary": "Sensitive information and the prediction markets can be a winning combination.",
       "source": "Ars Technica - All content",
       "published": "Thu, 30 Apr 2026 13:16:04 +0000",
-      "summary": "More than half of all \"long shot\" bets on Polymarket pay off\nSensitive information and the prediction markets can be a winning combination."
+      "summary": "More than half of all  Polymarket \"long shot\" bets on military action pay off\nSensitive information and the prediction markets can be a winning combination."
     },
     {
       "title": "Florida Republicans reject plan to weaken childhood vaccine requirements",
@@ -179,148 +203,124 @@
       "summary": "Florida Republicans reject plan to weaken childhood vaccine requirements\nDeSantis had called for a special session to take up the proposed changes."
     },
     {
-      "title": "The hidden cost of Google's AI defaults and the illusion of choice",
-      "link": "https://arstechnica.com/ai/2026/04/googles-privacy-maze-how-gemini-traps-you-and-your-data/",
-      "raw_summary": "Google says it respects user privacy in AI, but the reality is not so black and white.",
-      "source": "Ars Technica - All content",
-      "published": "Thu, 30 Apr 2026 11:00:31 +0000",
-      "summary": "The hidden cost of Google's AI defaults and the illusion of choice\nGoogle says it respects user privacy in AI, but the reality is not so black and white."
-    },
-    {
-      "title": "ABC can beat Trump FCC's license threat if owner Disney is willing to fight",
-      "link": "https://arstechnica.com/tech-policy/2026/04/abc-can-beat-trump-fccs-license-threat-if-owner-disney-is-willing-to-fight/",
-      "raw_summary": "Broadcast license renewals are \"all but automatic\" due to 1996 change in US law.",
-      "source": "Ars Technica - All content",
-      "published": "Wed, 29 Apr 2026 19:14:44 +0000",
-      "summary": "ABC can beat Trump FCC's license threat if owner Disney is willing to fight\nBroadcast license renewals are \"all but automatic\" due to 1996 change in US law."
-    },
-    {
-      "title": "OpenAI Codex system prompt includes explicit directive to \"never talk about goblins\"",
-      "link": "https://arstechnica.com/ai/2026/04/openai-codex-system-prompt-includes-explicit-directive-to-never-talk-about-goblins/",
-      "raw_summary": "Directions also include system instructions to act like \"you have a vivid inner life.\"",
-      "source": "Ars Technica - All content",
-      "published": "Wed, 29 Apr 2026 19:00:58 +0000",
-      "summary": "OpenAI Codex system prompt includes explicit directive to \"never talk about goblins\"\nDirections also include system instructions to act like \"you have a vivid inner life.\""
-    },
-    {
-      "title": "ECB holds interest rates at 2% as inflation rises",
-      "link": "https://www.ft.com/content/18f763d6-76da-43f3-8744-94c8d9ecae04",
-      "raw_summary": "Policymakers warn risks to economy from energy shock driven by Middle East conflict have ‘intensified’",
+      "title": "‘Dad, is it safe for me to get the bus?’ Stabbings solidify anxiety among London’s Jews",
+      "link": "https://www.ft.com/content/153944a5-a185-412f-9930-6f2d994246da",
+      "raw_summary": "Apprehension in Golders Green, a main centre for the UK’s 300,000-strong Jewish community, was widespread",
       "source": "World",
-      "published": "Thu, 30 Apr 2026 13:04:45 GMT",
-      "summary": "ECB holds interest rates at 2% as inflation rises\nPolicymakers warn risks to economy from energy shock driven by Middle East conflict have ‘intensified’"
+      "published": "Thu, 30 Apr 2026 18:18:14 GMT",
+      "summary": "‘Dad, is it safe for me to get the bus?’ Stabbings solidify anxiety among London’s Jews\nApprehension in Golders Green, a main centre for the UK’s 300,000-strong Jewish community, was widespread"
     },
     {
-      "title": "New era begins at Fed as Powell vows to be ‘low profile’ governor",
-      "link": "https://www.ft.com/content/47ee4a2b-21c7-41f1-a2f7-6729e6a3ee49",
-      "raw_summary": "Also in today’s newsletter, political violence in the US isn’t just rising — it’s broadening",
-      "source": "World",
-      "published": "Thu, 30 Apr 2026 13:00:06 GMT",
-      "summary": "New era begins at Fed as Powell vows to be ‘low profile’ governor\nAlso in today’s newsletter, political violence in the US isn’t just rising — it’s broadening"
-    },
-    {
-      "title": "Golders Green stabbing suspect was previously referred to Prevent",
+      "title": "UK terror threat level raised to ‘severe’ after Golders Green attack",
       "link": "https://www.ft.com/content/c88daf02-eb64-4d41-9cf1-1f1d0055d6d3",
-      "raw_summary": "Two Jewish men injured in knife attacks in north London",
+      "raw_summary": "Police confirm man arrested over the stabbing was previously referred to the government’s counter-extremism programme",
       "source": "World",
-      "published": "Thu, 30 Apr 2026 12:48:12 GMT",
-      "summary": "Golders Green stabbing suspect was previously referred to Prevent\nTwo Jewish men injured in knife attacks in north London"
+      "published": "Thu, 30 Apr 2026 17:47:03 GMT",
+      "summary": "UK terror threat level raised to ‘severe’ after Golders Green attack\nPolice confirm man arrested over the stabbing was previously referred to the government’s counter-extremism programme"
     },
     {
-      "title": "ECB holds rates amid supply shock",
-      "link": "https://www.ft.com/content/c9df2eba-d7ef-43de-9db9-c37a3c90564f",
-      "raw_summary": "Central bank believes it ‘remains well positioned to navigate the current uncertainty’",
+      "title": "Ministers explore High Court shake-up in efficiency drive",
+      "link": "https://www.ft.com/content/029feacc-6c07-4031-b077-5f114e91f011",
+      "raw_summary": "Proposals to revamp 150-year-old Chancery Division come after criticism that organisation can be hard to follow",
       "source": "World",
-      "published": "Thu, 30 Apr 2026 12:40:46 GMT",
-      "summary": "ECB holds rates amid supply shock\nCentral bank believes it ‘remains well positioned to navigate the current uncertainty’"
+      "published": "Thu, 30 Apr 2026 17:46:17 GMT",
+      "summary": "Ministers explore High Court shake-up in efficiency drive\nProposals to revamp 150-year-old Chancery Division come after criticism that organisation can be hard to follow"
     },
     {
-      "title": "How the Trump-Xi threats of trade war softened into a quieter rivalry",
-      "link": "https://www.ft.com/content/27bb8e7b-c4f3-4c83-9952-dd140f6ba794",
-      "raw_summary": "The forthcoming US-China leaders’ summit will be much less fraught than the last one",
+      "title": "ECB and BoE warn of rate rises as they grapple with Middle East shock",
+      "link": "https://www.ft.com/content/c78b853e-177b-4a67-9507-05e1a404c05a",
+      "raw_summary": "Policymakers indicate they may need to raise borrowing costs if energy price surge triggers persistent inflation",
       "source": "World",
-      "published": "Thu, 30 Apr 2026 12:34:21 GMT",
-      "summary": "How the Trump-Xi threats of trade war softened into a quieter rivalry\nThe forthcoming US-China leaders’ summit will be much less fraught than the last one"
+      "published": "Thu, 30 Apr 2026 17:38:36 GMT",
+      "summary": "ECB and BoE warn of rate rises as they grapple with Middle East shock\nPolicymakers indicate they may need to raise borrowing costs if energy price surge triggers persistent inflation"
     },
     {
-      "title": "Junk Issuers in Europe Cut Costs by Switching to Fixed Rates",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-30/junk-issuers-in-europe-cut-costs-by-switching-to-fixed-rate-debt",
-      "raw_summary": "High-risk borrowers in Europe are taking advantage of cheaper fixed-rate bonds to refinance floating-rate debt, cutting costs and buying protection against the risk of interest rate hikes.",
+      "title": "BoE cannot shield households from Iran energy crisis, Bailey says",
+      "link": "https://www.ft.com/content/b6df75b7-4cf2-464a-a829-d8b39852bfd6",
+      "raw_summary": "Central bank can wait for now but its modelling points to higher interest rates this year, analysts say",
+      "source": "World",
+      "published": "Thu, 30 Apr 2026 17:23:12 GMT",
+      "summary": "BoE cannot shield households from Iran energy crisis, Bailey says\nCentral bank can wait for now but its modelling points to higher interest rates this year, analysts say"
+    },
+    {
+      "title": "Blue Owl Scrutiny to Ramp Up as Shares Near ‘Doomsday’ Level",
+      "link": "https://www.bloomberg.com/news/videos/2026-04-30/blue-owl-scrutiny-to-ramp-up-video",
+      "raw_summary": "Blue Owl Capital Inc., whose battered stock has served as a proxy for concerns over the health of the $1.8 trillion private credit industry, will face fresh scrutiny from investors and Wall Street analysts with the release of its first-quarter earnings.  Bloomberg's David Havens joins to discuss. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Thu, 30 Apr 2026 09:35:45 GMT",
-      "summary": "Junk Issuers in Europe Cut Costs by Switching to Fixed Rates\nHigh-risk borrowers in Europe are taking advantage of cheaper fixed-rate bonds to refinance floating-rate debt, cutting costs and buying protection against the risk of interest rate hikes."
+      "published": "Thu, 30 Apr 2026 19:04:12 GMT",
+      "summary": "Blue Owl Scrutiny to Ramp Up as Shares Near ‘Doomsday’ Level\nBlue Owl Capital Inc., whose battered stock has served as a proxy for concerns over the health of the $1.8 trillion private credit industry, will face fresh scrutiny from investors and Wall Street analysts with the release of its first-qua"
     },
     {
-      "title": "Yen Jump Spurs Speculation of Intervention After ‘Final’ Warning",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-30/japan-s-katayama-warns-nearing-timing-to-take-bold-fx-steps",
-      "raw_summary": "The yen surged as much as 3%, its biggest intraday gain in almost two years, as traders speculated Japan intervened in the foreign-exchange market, hours after officials delivered a “final” warning to investors against selling the currency.",
+      "title": "S&amp;P 500 Hits Record, Set for Best Month Since 2020: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-29/stock-market-today-dow-s-p-live-updates",
+      "raw_summary": "Signs of strength in the world’s largest economy fueled investor optimism about the outlook for Corporate America’s earnings, driving stocks toward their best month since late 2020.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 30 Apr 2026 08:07:38 GMT",
-      "summary": "Yen Jump Spurs Speculation of Intervention After ‘Final’ Warning\nThe yen surged as much as 3%, its biggest intraday gain in almost two years, as traders speculated Japan intervened in the foreign-exchange market, hours after officials delivered a “final” warning to investors against selling the curr"
+      "published": "Wed, 29 Apr 2026 22:04:06 GMT",
+      "summary": "S&amp;P 500 Hits Record, Set for Best Month Since 2020: Markets Wrap\nSigns of strength in the world’s largest economy fueled investor optimism about the outlook for Corporate America’s earnings, driving stocks toward their best month since late 2020."
     },
     {
-      "title": "Oil Sinks From Four-Year High as War Fears Vie With Economic Hit",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-29/latest-oil-market-news-and-analysis-for-april-30",
-      "raw_summary": "Brent crude fell after hitting a four-year high in a session marked by thin trading volumes, as the front futures contract headed for expiry.",
+      "title": "NY Pied-à-Terre Tax Needs Significant Rates to Earn $500 Million",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-30/ny-pied-a-terre-tax-needs-significant-rates-to-earn-500-million",
+      "raw_summary": "Luxury second homes in New York will have to be taxed at a “significant” amount to generate the $500 million of revenue the city is counting on to help close a gaping budget hole, according to a new study from New York City Comptroller Mark Levine’s office.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 29 Apr 2026 22:11:51 GMT",
-      "summary": "Oil Sinks From Four-Year High as War Fears Vie With Economic Hit\nBrent crude fell after hitting a four-year high in a session marked by thin trading volumes, as the front futures contract headed for expiry."
+      "published": "Thu, 30 Apr 2026 18:50:36 GMT",
+      "summary": "NY Pied-à-Terre Tax Needs Significant Rates to Earn $500 Million\nLuxury second homes in New York will have to be taxed at a “significant” amount to generate the $500 million of revenue the city is counting on to help close a gaping budget hole, according to a new study from New York City Comptroller"
     },
     {
-      "title": "UK Bonds Rally as BOE Decision Prompts Paring of Rate-Hike Bets",
-      "link": "https://www.bloomberg.com/news/articles/2026-04-30/uk-two-year-bonds-extend-gains-as-boe-governor-bailey-speaks",
-      "raw_summary": "UK bonds extended a rally as traders pared bets on Bank of England interest-rate hikes, after officials left policy unchanged and Governor Andrew Bailey said it was in a “reasonable place.”",
+      "title": "Iran’s New Leader Pledges to Guard Nuclear and Missile Tech",
+      "link": "https://www.bloomberg.com/news/videos/2026-04-30/iran-s-new-leader-pledges-to-guard-nuclear-missile-tech-video",
+      "raw_summary": "Iran’s new supreme leader gave a rare statement on Thursday, vowing not to give up the country’s nuclear or missile technologies and signaling Tehran would keep control of the Strait of Hormuz. Natasha Hall, Associate Fellow at Chatham House joins to discuss on Balance of Power. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Thu, 30 Apr 2026 12:06:45 GMT",
-      "summary": "UK Bonds Rally as BOE Decision Prompts Paring of Rate-Hike Bets\nUK bonds extended a rally as traders pared bets on Bank of England interest-rate hikes, after officials left policy unchanged and Governor Andrew Bailey said it was in a “reasonable place.”"
+      "published": "Thu, 30 Apr 2026 18:44:00 GMT",
+      "summary": "Iran’s New Leader Pledges to Guard Nuclear and Missile Tech\nIran’s new supreme leader gave a rare statement on Thursday, vowing not to give up the country’s nuclear or missile technologies and signaling Tehran would keep control of the Strait of Hormuz. Natasha Hall, Associate Fellow at Chatham Hous"
     },
     {
-      "title": "Lagarde Says ECB Debated Options Including Rate Hike",
-      "link": "https://www.bloomberg.com/news/live-blog/2026-04-30/ecb-interest-rate-decision-euro-lagarde-press-conference-live-updates",
-      "raw_summary": "The European Central Bank headquarters in Frankfurt. Photographer: KIRILL KUDRYAVTSEV/AFP",
+      "title": "US Senate Bans Members, Staff From Trading on Prediction Markets",
+      "link": "https://www.bloomberg.com/news/articles/2026-04-30/us-senate-bans-members-staff-from-trading-on-prediction-markets",
+      "raw_summary": "The US Senate voted unanimously Thursday to ban its members and staff from trading on fast-growing prediction markets, highlighting concerns about insider trading on the platforms after a US soldier was accused of using classified information to profit from trades.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 30 Apr 2026 10:57:57 GMT",
-      "summary": "Lagarde Says ECB Debated Options Including Rate Hike\nThe European Central Bank headquarters in Frankfurt. Photographer: KIRILL KUDRYAVTSEV/AFP"
+      "published": "Thu, 30 Apr 2026 18:43:21 GMT",
+      "summary": "US Senate Bans Members, Staff From Trading on Prediction Markets\nThe US Senate voted unanimously Thursday to ban its members and staff from trading on fast-growing prediction markets, highlighting concerns about insider trading on the platforms after a US soldier was accused of using classified info"
     },
     {
-      "title": "MARA Holdings to buy Long Ridge Energy in $1.5 billion AI data center push",
-      "link": "https://www.coindesk.com/business/2026/04/30/mara-holdings-to-buy-long-ridge-energy-in-usd1-5-billion-ai-data-center-push",
+      "title": "Senator Warren questions Commerce Secretary Lutnick on Tether loan to family",
+      "link": "https://www.coindesk.com/policy/2026/04/30/senator-warren-questions-commerce-secretary-lutnick-on-tether-loan-to-family",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 30 Apr 2026 12:44:43 +0000",
-      "summary": "MARA Holdings to buy Long Ridge Energy in $1.5 billion AI data center push\n"
+      "published": "Thu, 30 Apr 2026 17:06:21 +0000",
+      "summary": "Senator Warren questions Commerce Secretary Lutnick on Tether loan to family\n"
     },
     {
-      "title": "Germany’s AllUnity expands EURAU to Solana as euro stablecoins gain traction",
-      "link": "https://www.coindesk.com/business/2026/04/30/germany-s-allunity-expands-eurau-to-solana-as-euro-stablecoins-gain-traction",
+      "title": "A Polymarket-linked bet on the weather in France forecasts a major data issue",
+      "link": "https://www.coindesk.com/opinion/2026/04/30/a-polymarket-linked-bet-on-the-weather-in-france-forecasts-a-major-data-issue",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 30 Apr 2026 11:58:32 +0000",
-      "summary": "Germany’s AllUnity expands EURAU to Solana as euro stablecoins gain traction\n"
+      "published": "Thu, 30 Apr 2026 15:27:33 +0000",
+      "summary": "A Polymarket-linked bet on the weather in France forecasts a major data issue\n"
     },
     {
-      "title": "The Green Beret was just the start: New data suggests military insider trading crisis on Polymarket",
-      "link": "https://www.coindesk.com/markets/2026/04/30/polymarket-s-military-markets-show-signs-of-insider-edge-report-suggests",
+      "title": "Gemini eyes prediction market challenge to Kalshi, Polymarket, secures derivatives license; shares surge",
+      "link": "https://www.coindesk.com/policy/2026/04/30/gemini-eyes-prediction-market-challenge-to-kalshi-polymarket-secures-derivatives-license-shares-surge",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 30 Apr 2026 11:57:29 +0000",
-      "summary": "The Green Beret was just the start: New data suggests military insider trading crisis on Polymarket\n"
+      "published": "Thu, 30 Apr 2026 15:22:39 +0000",
+      "summary": "Gemini eyes prediction market challenge to Kalshi, Polymarket, secures derivatives license; shares surge\n"
     },
     {
-      "title": "Seasonal trends favor bulls even as bitcoin ends April in a defensive mood",
-      "link": "https://www.coindesk.com/daybook-us/2026/04/30/seasonal-trends-favor-bulls-even-as-bitcoin-ends-april-in-a-defensive-mood",
+      "title": "Polymarket taps Chainalysis to bring Wall Street-level oversight to crypto prediction markets",
+      "link": "https://www.coindesk.com/business/2026/04/30/polymarket-taps-chainalysis-to-bring-wall-street-level-oversight-to-crypto-prediction-markets",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 30 Apr 2026 11:15:12 +0000",
-      "summary": "Seasonal trends favor bulls even as bitcoin ends April in a defensive mood\n"
+      "published": "Thu, 30 Apr 2026 15:05:09 +0000",
+      "summary": "Polymarket taps Chainalysis to bring Wall Street-level oversight to crypto prediction markets\n"
     },
     {
-      "title": "Bitcoin faces $80,000 resistance as derivatives shows signs of risk aversion",
-      "link": "https://www.coindesk.com/markets/2026/04/30/bitcoin-faces-usd80-000-resistance-as-derivatives-shows-signs-of-risk-aversion",
+      "title": "Crypto for Advisors: Breaking down the Sui blockchain",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/04/29/crypto-for-advisors-breaking-down-the-sui-blockchain",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 30 Apr 2026 11:01:26 +0000",
-      "summary": "Bitcoin faces $80,000 resistance as derivatives shows signs of risk aversion\n"
+      "published": "Thu, 30 Apr 2026 15:00:00 +0000",
+      "summary": "Crypto for Advisors: Breaking down the Sui blockchain\n"
     }
   ]
 }
