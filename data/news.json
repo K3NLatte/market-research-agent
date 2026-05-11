@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T14:32:09.848107+00:00",
+  "generated_at": "2026-05-11T19:29:04.990939+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "Russia Hacked Routers to Steal Microsoft Office Tokens\nHackers linked to Russia's military intelligence units are using known flaws in older Internet routers to mass harvest authentication tokens from Microsoft Office users, security experts warned today. The spying campaign allowed state-backed Rus"
     },
     {
+      "title": "TeamPCP Compromises Checkmarx Jenkins AST Plugin Weeks After KICS Supply Chain Attack",
+      "link": "https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html",
+      "raw_summary": "Checkmarx has confirmed that a modified version of the Jenkins AST plugin was published to the Jenkins Marketplace.\n\"If you are using Checkmarx Jenkins AST plugin, you need to ensure that you are using the version 2.0.13-829.vc72453fa_1c16 that was published on December 17, 2025 or previously,\" the cybersecurity company said in a statement over the weekend.\nAs of writing, Checkmarx has released",
+      "source": "The Hacker News",
+      "published": "Tue, 12 May 2026 00:00:00 +0530",
+      "summary": "TeamPCP Compromises Checkmarx Jenkins AST Plugin Weeks After KICS Supply Chain Attack\nCheckmarx has confirmed that a modified version of the Jenkins AST plugin was published to the Jenkins Marketplace.\n\"If you are using Checkmarx Jenkins AST plugin, you need to ensure that you are using the version "
+    },
+    {
+      "title": "cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor",
+      "link": "https://thehackernews.com/2026/05/cpanel-cve-2026-41940-under-active.html",
+      "raw_summary": "A threat actor named Mr_Rot13 has been attributed to the exploitation of a recently disclosed critical cPanel flaw to deploy a backdoor codenamed Filemanager on compromised environments.\nThe attack exploits CVE-2026-41940, a vulnerability impacting cPanel and WebHost Manager (WHM) that could result in an authentication bypass and allow remote attackers to gain elevated control of the control",
+      "source": "The Hacker News",
+      "published": "Mon, 11 May 2026 23:24:00 +0530",
+      "summary": "cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor\nA threat actor named Mr_Rot13 has been attributed to the exploitation of a recently disclosed critical cPanel flaw to deploy a backdoor codenamed Filemanager on compromised environments.\nThe attack exploits CVE-2026-41940"
+    },
+    {
+      "title": "Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation",
+      "link": "https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html",
+      "raw_summary": "Google on Monday disclosed that it identified an unknown threat actor using a zero-day exploit that it said was likely developed with an artificial intelligence (AI) system, marking the first time the technology has been put to use in the wild in a malicious context for vulnerability discovery and exploit generation.\nThe activity is said to be the work of cybercrime threat actors who appear to",
+      "source": "The Hacker News",
+      "published": "Mon, 11 May 2026 21:15:00 +0530",
+      "summary": "Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation\nGoogle on Monday disclosed that it identified an unknown threat actor using a zero-day exploit that it said was likely developed with an artificial intelligence (AI) system, marking the first time the technology has bee"
+    },
+    {
       "title": "⚡ Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More",
       "link": "https://thehackernews.com/2026/05/weekly-recap-linux-rootkit-macos-crypto.html",
       "raw_summary": "Rough Monday.\nSomebody poisoned a trusted download again, somebody else turned cloud servers into public housing, and a few crews are still getting into boxes with bugs that should’ve died years ago — the same old holes, same lazy access paths, same “how the hell is this still open” feeling. One report this week basically reads like a guy tripped over root access by accident and decided to stay",
@@ -59,268 +83,244 @@
       "summary": "Your Purple Team Isn't Purple — It's Just Red and Blue in the Same Room\nDefending a network at 2 am looks a lot like this: an analyst copy-pasting a hash from a PDF into a SIEM query. A red team script is being rewritten by hand so the blue team can use it. A patch waiting on a change-approval windo"
     },
     {
-      "title": "Fake OpenAI Privacy Filter Repo Hits #1 on Hugging Face, Draws 244K Downloads",
-      "link": "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html",
-      "raw_summary": "A malicious Hugging Face repository managed to take a spot in the platform's trending list by impersonating OpenAI's Privacy Filter open-weight model to deliver a Rust-based information stealer to Windows users.\nThe project, named Open-OSS/privacy-filter, masqueraded as its legitimate counterpart, released by OpenAI late last month (openai/privacy-filter), including copying the entire",
-      "source": "The Hacker News",
-      "published": "Mon, 11 May 2026 12:35:00 +0530",
-      "summary": "Fake OpenAI Privacy Filter Repo Hits #1 on Hugging Face, Draws 244K Downloads\nA malicious Hugging Face repository managed to take a spot in the platform's trending list by impersonating OpenAI's Privacy Filter open-weight model to deliver a Rust-based information stealer to Windows users.\nThe projec"
-    },
-    {
-      "title": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak",
-      "link": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
-      "raw_summary": "Cybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, could allow a remote, unauthenticated attacker to leak its entire process memory.\nThe out-of-bounds read flaw, which likely impacts over 300,000 servers globally, is tracked as CVE-2026-7482 (CVSS score: 9.1). It has been codenamed&nbsp;Bleeding Llama by Cyera.\nOllama is a",
-      "source": "The Hacker News",
-      "published": "Sun, 10 May 2026 18:11:00 +0530",
-      "summary": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak\nCybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, could allow a remote, unauthenticated attacker to leak its entire process memory.\nThe out-of-bounds read fla"
-    },
-    {
-      "title": "cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now",
-      "link": "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html",
-      "raw_summary": "cPanel has released updates to address three vulnerabilities in cPanel and Web Host Manager (WHM) that could be exploited to achieve privilege escalation, code execution, and denial-of-service.\nThe list of vulnerabilities is as follows -\n\nCVE-2026-29201 (CVSS score: 4.3) - An insufficient input validation of the feature file name in the \"feature::LOADFEATUREFILE\" adminbin call that could result",
-      "source": "The Hacker News",
-      "published": "Sat, 09 May 2026 12:46:00 +0530",
-      "summary": "cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now\ncPanel has released updates to address three vulnerabilities in cPanel and Web Host Manager (WHM) that could be exploited to achieve privilege escalation, code execution, and denial-of-service.\nThe list of vulnerabilities is as foll"
-    },
-    {
-      "title": "Out with the JavaScript, in with the HTML",
-      "link": "https://blog.jim-nielsen.com/2026/out-with-js-in-with-html/",
-      "raw_summary": "<p>Article URL: <a href=\"https://blog.jim-nielsen.com/2026/out-with-js-in-with-html/\">https://blog.jim-nielsen.com/2026/out-with-js-in-with-html/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48095352\">https://news.ycombinator.com/item?id=48095352</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "title": "Can Someone Please Explain Whether Cloudflare Blackmailed Canonical?",
+      "link": "https://www.flyingpenguin.com/can-someone-please-explain-whether-cloudflare-blackmailed-canonical/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.flyingpenguin.com/can-someone-please-explain-whether-cloudflare-blackmailed-canonical/\">https://www.flyingpenguin.com/can-someone-please-explain-whether-cloudflare-blackmailed-canonical/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48098537\">https://news.ycombinator.com/item?id=48098537</a></p>\n<p>Points: 78</p>\n<p># Comments: 28</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 11 May 2026 14:19:56 +0000",
-      "summary": "Out with the JavaScript, in with the HTML\n<p>Article URL: <a href=\"https://blog.jim-nielsen.com/2026/out-with-js-in-with-html/\">https://blog.jim-nielsen.com/2026/out-with-js-in-with-html/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48095352\">https://news.ycombinator.com/it"
+      "published": "Mon, 11 May 2026 18:12:38 +0000",
+      "summary": "Can Someone Please Explain Whether Cloudflare Blackmailed Canonical?\n<p>Article URL: <a href=\"https://www.flyingpenguin.com/can-someone-please-explain-whether-cloudflare-blackmailed-canonical/\">https://www.flyingpenguin.com/can-someone-please-explain-whether-cloudflare-blackmailed-canonical/</a></p>"
     },
     {
-      "title": "Checkmate in Iran",
-      "link": "https://www.theatlantic.com/international/2026/05/iran-war-trump-losing/687094/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.theatlantic.com/international/2026/05/iran-war-trump-losing/687094/\">https://www.theatlantic.com/international/2026/05/iran-war-trump-losing/687094/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48095034\">https://news.ycombinator.com/item?id=48095034</a></p>\n<p>Points: 10</p>\n<p># Comments: 0</p>",
+      "title": "Bild AI (YC W25) Is Hiring Founding Product Engineers",
+      "link": "https://bild.ai/jobs",
+      "raw_summary": "<p>Article URL: <a href=\"https://bild.ai/jobs\">https://bild.ai/jobs</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48098122\">https://news.ycombinator.com/item?id=48098122</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 11 May 2026 13:53:27 +0000",
-      "summary": "Checkmate in Iran\n<p>Article URL: <a href=\"https://www.theatlantic.com/international/2026/05/iran-war-trump-losing/687094/\">https://www.theatlantic.com/international/2026/05/iran-war-trump-losing/687094/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48095034\">https://news.yc"
+      "published": "Mon, 11 May 2026 17:43:12 +0000",
+      "summary": "Bild AI (YC W25) Is Hiring Founding Product Engineers\n<p>Article URL: <a href=\"https://bild.ai/jobs\">https://bild.ai/jobs</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48098122\">https://news.ycombinator.com/item?id=48098122</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>"
     },
     {
-      "title": "I keep tripping over \"true, false, true\"",
-      "link": "https://allthingssmitty.com/2026/05/11/i-keep-tripping-over-true-false-true/",
-      "raw_summary": "<p>Article URL: <a href=\"https://allthingssmitty.com/2026/05/11/i-keep-tripping-over-true-false-true/\">https://allthingssmitty.com/2026/05/11/i-keep-tripping-over-true-false-true/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48094237\">https://news.ycombinator.com/item?id=48094237</a></p>\n<p>Points: 19</p>\n<p># Comments: 28</p>",
+      "title": "Microsoft Israel chief leaves amid ethical controversy",
+      "link": "https://en.globes.co.il/en/article-microsoft-israel-chief-leaves-amid-ethical-controversy-1001542602",
+      "raw_summary": "<p>Article URL: <a href=\"https://en.globes.co.il/en/article-microsoft-israel-chief-leaves-amid-ethical-controversy-1001542602\">https://en.globes.co.il/en/article-microsoft-israel-chief-leaves-amid-ethical-controversy-1001542602</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48097796\">https://news.ycombinator.com/item?id=48097796</a></p>\n<p>Points: 75</p>\n<p># Comments: 60</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 11 May 2026 12:42:25 +0000",
-      "summary": "I keep tripping over \"true, false, true\"\n<p>Article URL: <a href=\"https://allthingssmitty.com/2026/05/11/i-keep-tripping-over-true-false-true/\">https://allthingssmitty.com/2026/05/11/i-keep-tripping-over-true-false-true/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48094237"
+      "published": "Mon, 11 May 2026 17:18:11 +0000",
+      "summary": "Microsoft Israel chief leaves amid ethical controversy\n<p>Article URL: <a href=\"https://en.globes.co.il/en/article-microsoft-israel-chief-leaves-amid-ethical-controversy-1001542602\">https://en.globes.co.il/en/article-microsoft-israel-chief-leaves-amid-ethical-controversy-1001542602</a></p>\n<p>Commen"
     },
     {
-      "title": "European Money Pours into Palantir",
-      "link": "https://english.elpais.com/economy-and-business/branded/2026-04-11/european-money-pours-into-palantir-over-100-asset-managers-and-banks-boost-their-investments-in-the-controversial-tech-company.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://english.elpais.com/economy-and-business/branded/2026-04-11/european-money-pours-into-palantir-over-100-asset-managers-and-banks-boost-their-investments-in-the-controversial-tech-company.html\">https://english.elpais.com/economy-and-business/branded/2026-04-11/european-money-pours-into-palantir-over-100-asset-managers-and-banks-boost-their-investments-in-the-controversial-tech-company.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48093626\">https://news.ycombinator.com/item?id=48093626</a></p>\n<p>Points: 41</p>\n<p># Comments: 4</p>",
+      "title": "Interfaze: A new model architecture built for high accuracy at scale",
+      "link": "https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale",
+      "raw_summary": "<p>Article URL: <a href=\"https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale\">https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48097078\">https://news.ycombinator.com/item?id=48097078</a></p>\n<p>Points: 39</p>\n<p># Comments: 6</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 11 May 2026 11:27:08 +0000",
-      "summary": "European Money Pours into Palantir\n<p>Article URL: <a href=\"https://english.elpais.com/economy-and-business/branded/2026-04-11/european-money-pours-into-palantir-over-100-asset-managers-and-banks-boost-their-investments-in-the-controversial-tech-company.html\">https://english.elpais.com/economy-and-b"
+      "published": "Mon, 11 May 2026 16:22:31 +0000",
+      "summary": "Interfaze: A new model architecture built for high accuracy at scale\n<p>Article URL: <a href=\"https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale\">https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale</a></p>\n<p>Commen"
     },
     {
-      "title": "Ratty – A terminal emulator with inline 3D graphics",
-      "link": "https://ratty-term.org/",
-      "raw_summary": "<p>Article URL: <a href=\"https://ratty-term.org/\">https://ratty-term.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48093100\">https://news.ycombinator.com/item?id=48093100</a></p>\n<p>Points: 282</p>\n<p># Comments: 86</p>",
+      "title": "Show HN: TikTok but for Scientific Papers",
+      "link": "https://andreaturchet.github.io/website/index.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://andreaturchet.github.io/website/index.html\">https://andreaturchet.github.io/website/index.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48096842\">https://news.ycombinator.com/item?id=48096842</a></p>\n<p>Points: 58</p>\n<p># Comments: 35</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 11 May 2026 10:13:04 +0000",
-      "summary": "Ratty – A terminal emulator with inline 3D graphics\n<p>Article URL: <a href=\"https://ratty-term.org/\">https://ratty-term.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48093100\">https://news.ycombinator.com/item?id=48093100</a></p>\n<p>Points: 282</p>\n<p># Comments: 86</p"
+      "published": "Mon, 11 May 2026 16:05:50 +0000",
+      "summary": "Show HN: TikTok but for Scientific Papers\n<p>Article URL: <a href=\"https://andreaturchet.github.io/website/index.html\">https://andreaturchet.github.io/website/index.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48096842\">https://news.ycombinator.com/item?id=48096842</a>"
+    },
+    {
+      "title": "Daniel Ek-backed defense tech Helsing to raise $1.2B at $18B valuation",
+      "link": "https://techcrunch.com/2026/05/11/daniel-ek-backed-defense-tech-helsing-to-raise-1-2b-at-18b-valuation/",
+      "raw_summary": "Five-year old European military drone startup Helsing is close to raising another monster round.",
+      "source": "TechCrunch",
+      "published": "Mon, 11 May 2026 17:38:32 +0000",
+      "summary": "Daniel Ek-backed defense tech Helsing to raise $1.2B at $18B valuation\nFive-year old European military drone startup Helsing is close to raising another monster round."
+    },
+    {
+      "title": "Bravo is creating unscripted microdramas for the Peacock app",
+      "link": "https://techcrunch.com/2026/05/11/bravo-is-creating-unscripted-microdramas-for-the-peacock-app/",
+      "raw_summary": "As microdrama apps like ReelShort and DramaBox quietly rake in billions, Peacock announced on Monday that is launching two unscripted Bravo microdramas, which will stream in the Peacock app.",
+      "source": "TechCrunch",
+      "published": "Mon, 11 May 2026 17:14:01 +0000",
+      "summary": "Bravo is creating unscripted microdramas for the Peacock app\nAs microdrama apps like ReelShort and DramaBox quietly rake in billions, Peacock announced on Monday that is launching two unscripted Bravo microdramas, which will stream in the Peacock app."
+    },
+    {
+      "title": "Digg tries again, this time as an AI news aggregator",
+      "link": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
+      "raw_summary": "Digg returns (again) as another place to read AI news.",
+      "source": "TechCrunch",
+      "published": "Mon, 11 May 2026 17:02:35 +0000",
+      "summary": "Digg tries again, this time as an AI news aggregator\nDigg returns (again) as another place to read AI news."
+    },
+    {
+      "title": "‘Too early’ to talk IPO, Redwood Materials’ incoming CFO says",
+      "link": "https://techcrunch.com/2026/05/11/too-early-to-talk-ipo-for-redwood-materials-incoming-cfo-says/",
+      "raw_summary": "The battery-recycling and energy-storage company has hired former Tesla finance chief Deepak Ahuja, reuniting him with former Tesla CTO JB Straubel.",
+      "source": "TechCrunch",
+      "published": "Mon, 11 May 2026 16:00:00 +0000",
+      "summary": "‘Too early’ to talk IPO, Redwood Materials’ incoming CFO says\nThe battery-recycling and energy-storage company has hired former Tesla finance chief Deepak Ahuja, reuniting him with former Tesla CTO JB Straubel."
     },
     {
       "title": "NYT’s Wordle to become a TV game show",
       "link": "https://techcrunch.com/2026/05/11/nyts-wordle-to-become-a-tv-game-show/",
-      "raw_summary": "The popular mobile puzzle game will become a TV game show next year.",
+      "raw_summary": "This will be the first time that The Times has collaborated with a TV broadcaster for an entertainment-based program, representing yet another pivot in the media company's attempt to build a sustainable digital subscription business as print revenue continues to decline.",
       "source": "TechCrunch",
       "published": "Mon, 11 May 2026 14:23:25 +0000",
-      "summary": "NYT’s Wordle to become a TV game show\nThe popular mobile puzzle game will become a TV game show next year."
+      "summary": "NYT’s Wordle to become a TV game show\nThis will be the first time that The Times has collaborated with a TV broadcaster for an entertainment-based program, representing yet another pivot in the media company's attempt to build a sustainable digital subscription business as print revenue continues to"
     },
     {
-      "title": "TikTok launches an ad-free subscription plan in the UK",
-      "link": "https://techcrunch.com/2026/05/11/tiktok-launches-an-ad-free-subscription-plan-in-the-uk/",
-      "raw_summary": "Users who sign up for the plan won’t see ads on TikTok, and their data won’t be used for advertising purposes.",
-      "source": "TechCrunch",
-      "published": "Mon, 11 May 2026 14:05:47 +0000",
-      "summary": "TikTok launches an ad-free subscription plan in the UK\nUsers who sign up for the plan won’t see ads on TikTok, and their data won’t be used for advertising purposes."
-    },
-    {
-      "title": "There aren’t enough rockets for space data centers. Cowboy Space raised $275 million to build them.",
-      "link": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
-      "raw_summary": "Cowboy Space Corporation wants to put data centers in orbit. First, it has to build the rockets to get them there.",
-      "source": "TechCrunch",
-      "published": "Mon, 11 May 2026 13:00:00 +0000",
-      "summary": "There aren’t enough rockets for space data centers. Cowboy Space raised $275 million to build them.\nCowboy Space Corporation wants to put data centers in orbit. First, it has to build the rockets to get them there."
-    },
-    {
-      "title": "Discord launches Nitro Rewards, giving subscribers access to the base tier of Xbox Game Pass for no extra cost",
-      "link": "https://techcrunch.com/2026/05/11/discord-launches-nitro-rewards-giving-subscribers-access-to-the-base-tier-of-xbox-game-pass-for-no-extra-cost/",
-      "raw_summary": "Discord's Nitro Rewards program will give Nitro subscribers access to Xbox Game Pass, and discounts from Logitech, SteelSeries, and other gaming brands.",
-      "source": "TechCrunch",
-      "published": "Mon, 11 May 2026 13:00:00 +0000",
-      "summary": "Discord launches Nitro Rewards, giving subscribers access to the base tier of Xbox Game Pass for no extra cost\nDiscord's Nitro Rewards program will give Nitro subscribers access to Xbox Game Pass, and discounts from Logitech, SteelSeries, and other gaming brands."
-    },
-    {
-      "title": "Venmo’s biggest makeover in years comes at a very interesting time",
-      "link": "https://techcrunch.com/2026/05/11/venmos-biggest-makeover-in-years-comes-at-a-very-interesting-time/",
-      "raw_summary": "The timing is notable. PayPal, which owns Venmo, is restructuring to spin Venmo off as a standalone business unit — a move widely seen as laying the groundwork for a potential sale. Stripe has reportedly expressed interest in buying PayPal outright.",
-      "source": "TechCrunch",
-      "published": "Mon, 11 May 2026 12:00:00 +0000",
-      "summary": "Venmo’s biggest makeover in years comes at a very interesting time\nThe timing is notable. PayPal, which owns Venmo, is restructuring to spin Venmo off as a standalone business unit — a move widely seen as laying the groundwork for a potential sale. Stripe has reportedly expressed interest in buying "
-    },
-    {
-      "title": "A promising Indian launch startup nears its first orbital test flight",
-      "link": "https://arstechnica.com/space/2026/05/with-skyroot-at-the-head-of-the-class-indias-private-space-industry-seeks-to-take-off/",
-      "raw_summary": "\"We wanted to get to an orbital launch vehicle in a few years.\"",
+      "title": "Passengers from hantavirus ship arrive in US; 3 people in biocontainment",
+      "link": "https://arstechnica.com/health/2026/05/passengers-from-hantavirus-ship-arrive-in-us-3-people-in-biocontainment/",
+      "raw_summary": "A US passenger tested \"mildly positive,\" but WHO is calling it \"inconclusive\" for now.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 11 May 2026 13:53:24 +0000",
-      "summary": "A promising Indian launch startup nears its first orbital test flight\n\"We wanted to get to an orbital launch vehicle in a few years.\""
+      "published": "Mon, 11 May 2026 18:12:43 +0000",
+      "summary": "Passengers from hantavirus ship arrive in US; 3 people in biocontainment\nA US passenger tested \"mildly positive,\" but WHO is calling it \"inconclusive\" for now."
     },
     {
-      "title": "Sony's failed war against Internet piracy may doom other copyright lawsuits",
-      "link": "https://arstechnica.com/tech-policy/2026/05/sonys-failed-war-against-internet-piracy-may-doom-other-copyright-lawsuits/",
-      "raw_summary": "Cable firm Cox's Supreme Court win may help all tech providers, not just ISPs.",
+      "title": "Starlink shuts down its GPS-style cheat code. Researchers may unlock it anyway.",
+      "link": "https://arstechnica.com/gadgets/2026/05/starlink-blocks-access-to-its-gps-alternative-ahead-of-spacex-ipo/",
+      "raw_summary": "Shutdown of Starlink location feature won’t dampen interest in GPS alternatives.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 11 May 2026 11:00:33 +0000",
-      "summary": "Sony's failed war against Internet piracy may doom other copyright lawsuits\nCable firm Cox's Supreme Court win may help all tech providers, not just ISPs."
+      "published": "Mon, 11 May 2026 17:55:34 +0000",
+      "summary": "Starlink shuts down its GPS-style cheat code. Researchers may unlock it anyway.\nShutdown of Starlink location feature won’t dampen interest in GPS alternatives."
     },
     {
-      "title": "Do you take after your dad’s RNA?",
-      "link": "https://arstechnica.com/science/2026/05/do-you-take-after-your-dads-rna/",
-      "raw_summary": "Evidence is growing that sperm carries marks of a father’s life experiences, influencing traits in offspring.",
+      "title": "iOS, macOS, and iPadOS 26.5 updates arrive with encrypted RCS messaging and more",
+      "link": "https://arstechnica.com/gadgets/2026/05/ios-macos-and-ipados-26-5-updates-arrive-with-encrypted-rcs-messaging-and-more/",
+      "raw_summary": "Probably the last big updates we'll see before the next versions appear at WWDC.",
       "source": "Ars Technica - All content",
-      "published": "Sun, 10 May 2026 11:15:44 +0000",
-      "summary": "Do you take after your dad’s RNA?\nEvidence is growing that sperm carries marks of a father’s life experiences, influencing traits in offspring."
+      "published": "Mon, 11 May 2026 17:20:39 +0000",
+      "summary": "iOS, macOS, and iPadOS 26.5 updates arrive with encrypted RCS messaging and more\nProbably the last big updates we'll see before the next versions appear at WWDC."
     },
     {
-      "title": "Huge landslide created a 500-meter-high tsunami in a major tourist area",
-      "link": "https://arstechnica.com/science/2026/05/how-a-melting-glacier-led-to-a-500-meter-high-tsunami/",
-      "raw_summary": "Fortunately, it happened early in the morning, so nobody was around.",
+      "title": "Samsung made a “mockery” of Dua Lipa by putting her picture on TV boxes, lawsuit says",
+      "link": "https://arstechnica.com/gadgets/2026/05/singer-dua-lipa-sues-samsung-for-15-million-for-using-her-image-on-tv-boxes/",
+      "raw_summary": "Lipa says her picture contributed to Samsung's \"enormous revenue.\"",
       "source": "Ars Technica - All content",
-      "published": "Sun, 10 May 2026 11:00:53 +0000",
-      "summary": "Huge landslide created a 500-meter-high tsunami in a major tourist area\nFortunately, it happened early in the morning, so nobody was around."
+      "published": "Mon, 11 May 2026 17:15:16 +0000",
+      "summary": "Samsung made a “mockery” of Dua Lipa by putting her picture on TV boxes, lawsuit says\nLipa says her picture contributed to Samsung's \"enormous revenue.\""
     },
     {
-      "title": "The new Wild West of AI kids’ toys",
-      "link": "https://arstechnica.com/ai/2026/05/the-new-wild-west-of-ai-kids-toys/",
-      "raw_summary": "These connected companions could disrupt everything from make-believe to bedtime stories. No wonder some lawmakers want them banned.",
+      "title": "Pirates are already playing Forza Horizon 6 days before its launch",
+      "link": "https://arstechnica.com/gaming/2026/05/pirates-are-already-playing-forza-horizon-6-days-before-its-launch/",
+      "raw_summary": "Crackers take advantage of unencrypted files that briefly appeared on Steam.",
       "source": "Ars Technica - All content",
-      "published": "Sat, 09 May 2026 11:00:51 +0000",
-      "summary": "The new Wild West of AI kids’ toys\nThese connected companions could disrupt everything from make-believe to bedtime stories. No wonder some lawmakers want them banned."
+      "published": "Mon, 11 May 2026 15:29:16 +0000",
+      "summary": "Pirates are already playing Forza Horizon 6 days before its launch\nCrackers take advantage of unencrypted files that briefly appeared on Steam."
     },
     {
-      "title": "Fomo is a poor motivation for EU tech policy",
-      "link": "https://www.ft.com/content/417b6566-3b90-43e1-b78c-799030a9c39c",
-      "raw_summary": "Europe’s large public sectors are a powerful tool to build a market for native tech",
+      "title": "Starmer battles to stay in Number 10 as scores of Labour MPs urge him to quit",
+      "link": "https://www.ft.com/content/9c4c7a97-c564-4a7f-9866-1182a84e7812",
+      "raw_summary": "Flurry of low-level government resignations comes as pressure builds on prime minister to set out exit timetable",
       "source": "World",
-      "published": "Mon, 11 May 2026 14:24:57 GMT",
-      "summary": "Fomo is a poor motivation for EU tech policy\nEurope’s large public sectors are a powerful tool to build a market for native tech"
+      "published": "Mon, 11 May 2026 18:11:27 GMT",
+      "summary": "Starmer battles to stay in Number 10 as scores of Labour MPs urge him to quit\nFlurry of low-level government resignations comes as pressure builds on prime minister to set out exit timetable"
     },
     {
-      "title": "UK government bonds weaken as Starmer fights for premiership",
+      "title": "UK gilts weaken as first government resignations threaten Starmer’s premiership",
       "link": "https://www.ft.com/content/9a6675ac-7d78-4d59-b6b8-51d3f5c80ee6",
-      "raw_summary": "Prime minister says he will stand in any leadership challenge triggered by disastrous election results",
+      "raw_summary": "Prime minister says in crucial speech that he will stand in any leadership challenge triggered by disastrous election results",
       "source": "World",
-      "published": "Mon, 11 May 2026 14:22:20 GMT",
-      "summary": "UK government bonds weaken as Starmer fights for premiership\nPrime minister says he will stand in any leadership challenge triggered by disastrous election results"
+      "published": "Mon, 11 May 2026 17:56:35 GMT",
+      "summary": "UK gilts weaken as first government resignations threaten Starmer’s premiership\nPrime minister says in crucial speech that he will stand in any leadership challenge triggered by disastrous election results"
     },
     {
-      "title": "EU weighs adding carbon costs to outbound flights",
-      "link": "https://www.ft.com/content/3f4a62da-820b-4e40-ad7c-0d10b8efbc30",
-      "raw_summary": "Proposal likely to trigger backlash from airline industry and the US",
+      "title": "Trump says Iran’s response to peace proposal ‘unacceptable’",
+      "link": "https://www.ft.com/content/f66186e7-8e14-466d-b4de-114ee70c3e62",
+      "raw_summary": "Oil prices climb again as Washington and Tehran fail to agree terms to end war and reopen Strait of Hormuz",
       "source": "World",
-      "published": "Mon, 11 May 2026 14:16:35 GMT",
-      "summary": "EU weighs adding carbon costs to outbound flights\nProposal likely to trigger backlash from airline industry and the US"
+      "published": "Mon, 11 May 2026 17:53:31 GMT",
+      "summary": "Trump says Iran’s response to peace proposal ‘unacceptable’\nOil prices climb again as Washington and Tehran fail to agree terms to end war and reopen Strait of Hormuz"
     },
     {
-      "title": "The best exhibitions to see in London this weekend",
-      "link": "https://www.ft.com/content/ef0f6d42-4759-4ce8-8e40-acd83f0c64f1",
-      "raw_summary": "The FT’s critics recommend the most compelling 2026 shows, from Henry Moore and Cecily Brown to Tracey Emin to Zurbarán",
+      "title": "UK to take full ownership of British Steel",
+      "link": "https://www.ft.com/content/75a3d295-1b42-48a1-8951-cea86aa290dd",
+      "raw_summary": "Government has been locked in talks with Chinese group Jingye over lossmaking business",
       "source": "World",
-      "published": "Mon, 11 May 2026 14:14:03 GMT",
-      "summary": "The best exhibitions to see in London this weekend\nThe FT’s critics recommend the most compelling 2026 shows, from Henry Moore and Cecily Brown to Tracey Emin to Zurbarán"
+      "published": "Mon, 11 May 2026 17:47:08 GMT",
+      "summary": "UK to take full ownership of British Steel\nGovernment has been locked in talks with Chinese group Jingye over lossmaking business"
     },
     {
-      "title": "Two cruise ship evacuees test positive for hantavirus",
-      "link": "https://www.ft.com/content/6793c1a0-9b84-43ba-a639-1e4706900d8a",
-      "raw_summary": "Virus detected in passengers from US and France hours after being removed from MV Hondius",
+      "title": "PM vows to put Britain at ‘heart of Europe’",
+      "link": "https://www.ft.com/content/db2b2bc8-febd-4e22-91ef-9d8cf9319b26",
+      "raw_summary": "But critics say prime minister is being too timid in his post-Brexit reset of relations with the EU",
       "source": "World",
-      "published": "Mon, 11 May 2026 13:10:53 GMT",
-      "summary": "Two cruise ship evacuees test positive for hantavirus\nVirus detected in passengers from US and France hours after being removed from MV Hondius"
+      "published": "Mon, 11 May 2026 17:44:02 GMT",
+      "summary": "PM vows to put Britain at ‘heart of Europe’\nBut critics say prime minister is being too timid in his post-Brexit reset of relations with the EU"
     },
     {
-      "title": "Oil Climbs as Hormuz Stays Shut After Trump Rebuffs Iran’s Offer",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-10/latest-oil-market-news-and-analysis-for-may-11",
-      "raw_summary": "Oil rose after US President Donald Trump rejected Iran’s response to his latest peace proposal, prolonging the effective closure of the crucial Strait of Hormuz.",
+      "title": "Fervo Energy Boosts IPO Target to $1.8 Billion",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-11/bill-gates-backed-fervo-energy-boosts-ipo-target-to-1-8-billion",
+      "raw_summary": "Fervo Energy Co., a geothermal energy developer, is seeking to raise as much as $1.82 billion in a US initial public offering, raising its target from $1.33 billion.",
       "source": "Bloomberg Markets",
-      "published": "Sun, 10 May 2026 22:02:33 GMT",
-      "summary": "Oil Climbs as Hormuz Stays Shut After Trump Rebuffs Iran’s Offer\nOil rose after US President Donald Trump rejected Iran’s response to his latest peace proposal, prolonging the effective closure of the crucial Strait of Hormuz."
+      "published": "Mon, 11 May 2026 13:05:02 GMT",
+      "summary": "Fervo Energy Boosts IPO Target to $1.8 Billion\nFervo Energy Co., a geothermal energy developer, is seeking to raise as much as $1.82 billion in a US initial public offering, raising its target from $1.33 billion."
     },
     {
-      "title": "Barrick Pledges Up to $3 Billion in Buybacks Ahead of IPO",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-11/barrick-says-gold-miner-to-buy-back-up-to-3-billion-of-shares",
-      "raw_summary": "Barrick Mining Corp. said it will repurchase as much as $3 billion of its shares as the world’s third-largest gold producer woos investors before spinning off its North American assets later this year.",
+      "title": "Mosaic Cuts Phosphate Output in Hit to Agriculture and Mining",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-11/fertilizer-maker-mosaic-loses-out-as-iran-conflict-roils-inputs",
+      "raw_summary": "Fertilizer producer Mosaic Co. is temporarily taking nearly two million tons of US phosphate production off the market, underscoring the severity of the Iran conflict’s disruptions to a key agricultural and mining input.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 11 May 2026 10:07:18 GMT",
-      "summary": "Barrick Pledges Up to $3 Billion in Buybacks Ahead of IPO\nBarrick Mining Corp. said it will repurchase as much as $3 billion of its shares as the world’s third-largest gold producer woos investors before spinning off its North American assets later this year."
+      "published": "Mon, 11 May 2026 13:52:38 GMT",
+      "summary": "Mosaic Cuts Phosphate Output in Hit to Agriculture and Mining\nFertilizer producer Mosaic Co. is temporarily taking nearly two million tons of US phosphate production off the market, underscoring the severity of the Iran conflict’s disruptions to a key agricultural and mining input."
     },
     {
-      "title": "Gold Gains as Traders Assess Latest Setbacks in US-Iran Talks",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-10/gold-falls-as-trump-rejection-of-iran-offer-fans-inflation-fears",
-      "raw_summary": "Gold advanced as traders assessed the latest setbacks surrounding US-Iran peace talks and its impact on reopening the Strait of Hormuz.",
+      "title": "High Fees Frustrating, Investors Deserve Choices: Corgi CEO",
+      "link": "https://www.bloomberg.com/news/videos/2026-05-11/high-fees-frustrating-investors-deserve-choices-laqua-video",
+      "raw_summary": "Nicolas Laqua, CEO of Corgi, joins Katie Greifeld, Scarlet Fu, and Eric Balchunas on \"Bloomberg ETF IQ.\" Corgi recently launched 34 new ETFs as it looks to draw attention in the industry.  (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Sun, 10 May 2026 22:45:37 GMT",
-      "summary": "Gold Gains as Traders Assess Latest Setbacks in US-Iran Talks\nGold advanced as traders assessed the latest setbacks surrounding US-Iran peace talks and its impact on reopening the Strait of Hormuz."
+      "published": "Mon, 11 May 2026 19:10:06 GMT",
+      "summary": "High Fees Frustrating, Investors Deserve Choices: Corgi CEO\nNicolas Laqua, CEO of Corgi, joins Katie Greifeld, Scarlet Fu, and Eric Balchunas on \"Bloomberg ETF IQ.\" Corgi recently launched 34 new ETFs as it looks to draw attention in the industry.  (Source: Bloomberg)"
     },
     {
-      "title": "Brazil’s Massive Bank Scandal Threatens a Top Bolsonaro Ally",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-10/brazil-s-sprawling-bank-scandal-threatens-a-top-bolsonaro-ally",
-      "raw_summary": "In Brazil’s rough-and-tumble Congress, Senator Ciro Nogueira rose to near-untouchable status for his skill in kingmaking and cutting deals while fending off corruption allegations that have dogged his long career. Now fresh accusations are threatening to sink him.",
+      "title": "Raymond James De on How Traders Use ETFs",
+      "link": "https://www.bloomberg.com/news/videos/2026-05-11/raymand-james-de-on-how-traders-use-etfs-video",
+      "raw_summary": "Mayuranki De, vice president of ETF trade strategy at Raymond James, joins Katie Greifeld, Scarlet Fu, and Eric Balchunas on \"Bloomberg ETF IQ.\" (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Sun, 10 May 2026 20:00:00 GMT",
-      "summary": "Brazil’s Massive Bank Scandal Threatens a Top Bolsonaro Ally\nIn Brazil’s rough-and-tumble Congress, Senator Ciro Nogueira rose to near-untouchable status for his skill in kingmaking and cutting deals while fending off corruption allegations that have dogged his long career. Now fresh accusations are"
+      "published": "Mon, 11 May 2026 18:40:47 GMT",
+      "summary": "Raymond James De on How Traders Use ETFs\nMayuranki De, vice president of ETF trade strategy at Raymond James, joins Katie Greifeld, Scarlet Fu, and Eric Balchunas on \"Bloomberg ETF IQ.\" (Source: Bloomberg)"
     },
     {
-      "title": "Inside KKR’s High-Stakes Credit Bet",
-      "link": "https://www.bloomberg.com/news/videos/2026-05-11/inside-kkr-s-high-stakes-credit-bet-video",
-      "raw_summary": "KKR just made a bold $300M move to rescue a struggling private credit fund hit by rising bad loans and falling value. With dividend cuts, a junk rating, and growing pressure on the sector, Bloomberg Credit Editor Bruce Douglas explains what’s going wrong, and whether KKR’s intervention is confidence or damage control. (Source: Bloomberg)",
+      "title": "Low-Cost Airlines ‘Ripe’ For Mergers, Deutsche Bank Analyst Says",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-11/low-cost-airlines-ripe-for-mergers-deutsche-bank-analyst-says",
+      "raw_summary": "The US airline industry is primed for a new round of mergers as low-cost carriers are squeezed by the oil-price spike, according to Deutsche Bank analyst Michael Linenberg.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 11 May 2026 14:12:01 GMT",
-      "summary": "Inside KKR’s High-Stakes Credit Bet\nKKR just made a bold $300M move to rescue a struggling private credit fund hit by rising bad loans and falling value. With dividend cuts, a junk rating, and growing pressure on the sector, Bloomberg Credit Editor Bruce Douglas explains what’s going wrong, and whet"
+      "published": "Mon, 11 May 2026 19:04:51 GMT",
+      "summary": "Low-Cost Airlines ‘Ripe’ For Mergers, Deutsche Bank Analyst Says\nThe US airline industry is primed for a new round of mergers as low-cost carriers are squeezed by the oil-price spike, according to Deutsche Bank analyst Michael Linenberg."
     },
     {
-      "title": "The biggest consensus overhaul in Solana history is officially live for testing",
-      "link": "https://www.coindesk.com/tech/2026/05/11/the-biggest-consensus-overhaul-in-solana-history-is-officially-live-for-testing",
+      "title": "Kraken parent Payward seeks fresh funding at $20 billion valuation ahead of planned IPO",
+      "link": "https://www.coindesk.com/business/2026/05/08/kraken-parent-payward-seeks-fresh-funding-at-usd20-billion-valuation-ahead-of-potential-ipo",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 11 May 2026 14:18:58 +0000",
-      "summary": "The biggest consensus overhaul in Solana history is officially live for testing\n"
+      "published": "Mon, 11 May 2026 18:42:27 +0000",
+      "summary": "Kraken parent Payward seeks fresh funding at $20 billion valuation ahead of planned IPO\n"
     },
     {
-      "title": "Ripple raises $200 million from Neuberger Berman to expand its Ripple Prime platform",
-      "link": "https://www.coindesk.com/business/2026/05/11/ripple-raises-usd200-million-from-neuberger-berman-to-expand-its-ripple-prime-platform",
+      "title": "Anchorage is stepping back from Robinhood and Kraken-backed stablecoin group",
+      "link": "https://www.coindesk.com/business/2026/05/11/anchorage-is-stepping-back-from-robinhood-and-kraken-backed-stablecoin-group",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 11 May 2026 13:47:38 +0000",
-      "summary": "Ripple raises $200 million from Neuberger Berman to expand its Ripple Prime platform\n"
+      "published": "Mon, 11 May 2026 16:30:09 +0000",
+      "summary": "Anchorage is stepping back from Robinhood and Kraken-backed stablecoin group\n"
     },
     {
-      "title": "CoinDesk 20 performance update: SUI surges 25% over weekend",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/05/11/coindesk-20-performance-update-sui-surges-25-over-weekend",
+      "title": "Why the TradFi takeover of crypto might not be the death blow analysts expect",
+      "link": "https://www.coindesk.com/business/2026/05/11/why-the-tradfi-takeover-of-crypto-might-not-be-the-death-blow-analysts-expect",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 11 May 2026 13:17:36 +0000",
-      "summary": "CoinDesk 20 performance update: SUI surges 25% over weekend\n"
+      "published": "Mon, 11 May 2026 16:29:48 +0000",
+      "summary": "Why the TradFi takeover of crypto might not be the death blow analysts expect\n"
     },
     {
-      "title": "Tom Lee's Bitmine slows down ether purchases after already buying 1 million tokens this year",
-      "link": "https://www.coindesk.com/business/2026/05/11/tom-lee-s-bitmine-slows-down-ether-purchases-after-already-buying-1-million-tokens-this-year",
+      "title": "Banking groups escalate fight over stablecoin yield ahead of Senate vote",
+      "link": "https://www.coindesk.com/policy/2026/05/11/banking-groups-escalate-fight-over-stablecoin-yield-ahead-of-senate-vote",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 11 May 2026 12:56:58 +0000",
-      "summary": "Tom Lee's Bitmine slows down ether purchases after already buying 1 million tokens this year\n"
+      "published": "Mon, 11 May 2026 14:43:29 +0000",
+      "summary": "Banking groups escalate fight over stablecoin yield ahead of Senate vote\n"
     },
     {
-      "title": "Strategy buys 535 bitcoin for $43 million days after signaling potential BTC sales",
-      "link": "https://www.coindesk.com/markets/2026/05/11/strategy-buys-535-bitcoin-for-usd43-million-days-after-signaling-potential-btc-sales",
+      "title": "Corpay taps BVNK to bring stablecoin wallets to corporate payments",
+      "link": "https://www.coindesk.com/business/2026/05/11/corpay-taps-bvnk-to-bring-stablecoin-wallets-to-corporate-payments",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 11 May 2026 12:17:04 +0000",
-      "summary": "Strategy buys 535 bitcoin for $43 million days after signaling potential BTC sales\n"
+      "published": "Mon, 11 May 2026 14:34:29 +0000",
+      "summary": "Corpay taps BVNK to bring stablecoin wallets to corporate payments\n"
     }
   ]
 }
