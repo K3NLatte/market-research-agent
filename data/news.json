@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T02:28:47.395243+00:00",
+  "generated_at": "2026-05-13T08:35:42.959703+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,14 @@
       "summary": "Patch Tuesday, April 2026 Edition\nMicrosoft today pushed software updates to fix a staggering 167 security vulnerabilities in its Windows operating systems and related software, including a SharePoint Server zero-day and a publicly disclosed weakness in Windows Defender dubbed \"BlueHammer.\" Separate"
     },
     {
+      "title": "Android Adds Intrusion Logging for Sophisticated Spyware Forensics",
+      "link": "https://thehackernews.com/2026/05/android-adds-intrusion-logging-for.html",
+      "raw_summary": "Google on Tuesday unveiled a new opt-in Android feature called Intrusion Logging for storing forensic logs to better analyze sophisticated spyware attacks.\nIntrusion Logging, available as part of Advanced Protection Mode, enables \"persistent and privacy-preserving forensics logging to allow for investigation of devices in the event of a suspected compromise,\" the company said.\nThe feature, it",
+      "source": "The Hacker News",
+      "published": "Wed, 13 May 2026 12:25:42 +0530",
+      "summary": "Android Adds Intrusion Logging for Sophisticated Spyware Forensics\nGoogle on Tuesday unveiled a new opt-in Android feature called Intrusion Logging for storing forensic logs to better analyze sophisticated spyware attacks.\nIntrusion Logging, available as part of Advanced Protection Mode, enables \"pe"
+    },
+    {
       "title": "New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution",
       "link": "https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html",
       "raw_summary": "Exim has released security updates to address a severe security issue affecting certain configurations that could enable memory corruption and potential code execution.\nExim is an open-source Mail Transfer Agent (MTA) designed for Unix-like systems to receive, route, and deliver email.\nThe vulnerability, tracked as CVE-2026-45185, aka Dead.Letter, has been described as a use-after-free",
@@ -53,7 +61,7 @@
     {
       "title": "RubyGems Suspends New Signups After Hundreds of Malicious Packages Are Uploaded",
       "link": "https://thehackernews.com/2026/05/rubygems-suspends-new-signups-after.html",
-      "raw_summary": "RubyGems, the standard package manager for the Ruby programming language, has temporarily paused account sign ups following what has been described as a \"major malicious attack.\"\n\"We're dealing with a major malicious attack on Ruby Gems right now,\" Maciej Mensfeld, senior product manager for software supply chain security at Mend.io, said in a post on X. \"Signups are paused for the time being.",
+      "raw_summary": "RubyGems, the standard package manager for the Ruby programming language, has temporarily paused account sign ups following what has been described as a \"major malicious attack.\"\n\"We're dealing with a major malicious attack on RubyGems right now,\" Maciej Mensfeld, senior product manager for software supply chain security at Mend.io, said in a post on X. \"Signups are paused for the time being.",
       "source": "The Hacker News",
       "published": "Tue, 12 May 2026 20:17:00 +0530",
       "summary": "RubyGems Suspends New Signups After Hundreds of Malicious Packages Are Uploaded\nRubyGems, the standard package manager for the Ruby programming language, has temporarily paused account sign ups following what has been described as a \"major malicious attack.\"\n\"We're dealing with a major malicious att"
@@ -75,52 +83,44 @@
       "summary": "Webinar: What the Riskiest SOC Alerts Go Unanswered - and How Radiant Security Can Help\nWhy do the Riskiest SOC Alerts Go Unanswered?\nSecurity operations teams are drowning in alerts. But the real problem isn't always alert volume; it's the blind spots. The most dangerous alerts are the ones no one "
     },
     {
-      "title": "Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI & More Packages",
-      "link": "https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html",
-      "raw_summary": "TeamPCP, the threat actor behind the recentsupply chain attack spree, has been linked to the compromise of the npm and PyPI packages from TanStack, UiPath, Mistral AI, OpenSearch, and Guardrails AI as part of a fresh Mini Shai-Hulud campaign.\nThe affected npm packages have been modified to include an obfuscated JavaScript file (\"router_init.js\") that's designed to profile the execution",
-      "source": "The Hacker News",
-      "published": "Tue, 12 May 2026 17:16:00 +0530",
-      "summary": "Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI & More Packages\nTeamPCP, the threat actor behind the recentsupply chain attack spree, has been linked to the compromise of the npm and PyPI packages from TanStack, UiPath, Mistral AI, OpenSearch, and Guardrails AI as part of a fres"
+      "title": "European governments: 3.000 tracking sites, 1.000 phpMyAdmins, and 99% poorly",
+      "link": "https://internetcleanup.foundation/2026/05/european-governments-3000-tracking-sites-1000-phpmyadmins-and-99pct-poorly-encrypted-email-introducing-securitybaseline-eu/",
+      "raw_summary": "<p>Article URL: <a href=\"https://internetcleanup.foundation/2026/05/european-governments-3000-tracking-sites-1000-phpmyadmins-and-99pct-poorly-encrypted-email-introducing-securitybaseline-eu/\">https://internetcleanup.foundation/2026/05/european-governments-3000-tracking-sites-1000-phpmyadmins-and-99pct-poorly-encrypted-email-introducing-securitybaseline-eu/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48118763\">https://news.ycombinator.com/item?id=48118763</a></p>\n<p>Points: 69</p>\n<p># Comments: 22</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Wed, 13 May 2026 07:11:17 +0000",
+      "summary": "European governments: 3.000 tracking sites, 1.000 phpMyAdmins, and 99% poorly\n<p>Article URL: <a href=\"https://internetcleanup.foundation/2026/05/european-governments-3000-tracking-sites-1000-phpmyadmins-and-99pct-poorly-encrypted-email-introducing-securitybaseline-eu/\">https://internetcleanup.found"
+    },
+    {
+      "title": "Deterministic Fully-Static Whole-Binary Translation Without Heuristics",
+      "link": "https://arxiv.org/abs/2605.08419",
+      "raw_summary": "<p>Article URL: <a href=\"https://arxiv.org/abs/2605.08419\">https://arxiv.org/abs/2605.08419</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48117810\">https://news.ycombinator.com/item?id=48117810</a></p>\n<p>Points: 145</p>\n<p># Comments: 33</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Wed, 13 May 2026 04:25:03 +0000",
+      "summary": "Deterministic Fully-Static Whole-Binary Translation Without Heuristics\n<p>Article URL: <a href=\"https://arxiv.org/abs/2605.08419\">https://arxiv.org/abs/2605.08419</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48117810\">https://news.ycombinator.com/item?id=48117810</a></p>\n<p"
     },
     {
       "title": "Starship V3",
       "link": "https://www.spacex.com/updates#starship-v3",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.spacex.com/updates#starship-v3\">https://www.spacex.com/updates#starship-v3</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48116781\">https://news.ycombinator.com/item?id=48116781</a></p>\n<p>Points: 18</p>\n<p># Comments: 2</p>",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.spacex.com/updates#starship-v3\">https://www.spacex.com/updates#starship-v3</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48116781\">https://news.ycombinator.com/item?id=48116781</a></p>\n<p>Points: 207</p>\n<p># Comments: 272</p>",
       "source": "Hacker News: Front Page",
       "published": "Wed, 13 May 2026 01:29:31 +0000",
-      "summary": "Starship V3\n<p>Article URL: <a href=\"https://www.spacex.com/updates#starship-v3\">https://www.spacex.com/updates#starship-v3</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48116781\">https://news.ycombinator.com/item?id=48116781</a></p>\n<p>Points: 18</p>\n<p># Comments: 2</p>"
+      "summary": "Starship V3\n<p>Article URL: <a href=\"https://www.spacex.com/updates#starship-v3\">https://www.spacex.com/updates#starship-v3</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48116781\">https://news.ycombinator.com/item?id=48116781</a></p>\n<p>Points: 207</p>\n<p># Comments: 272</p>"
     },
     {
       "title": "My graduation cap runs Rust",
       "link": "https://ericswpark.com/blog/2026/2026-05-12-my-graduation-cap-runs-rust/",
-      "raw_summary": "<p>Article URL: <a href=\"https://ericswpark.com/blog/2026/2026-05-12-my-graduation-cap-runs-rust/\">https://ericswpark.com/blog/2026/2026-05-12-my-graduation-cap-runs-rust/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48116207\">https://news.ycombinator.com/item?id=48116207</a></p>\n<p>Points: 61</p>\n<p># Comments: 14</p>",
+      "raw_summary": "<p>Article URL: <a href=\"https://ericswpark.com/blog/2026/2026-05-12-my-graduation-cap-runs-rust/\">https://ericswpark.com/blog/2026/2026-05-12-my-graduation-cap-runs-rust/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48116207\">https://news.ycombinator.com/item?id=48116207</a></p>\n<p>Points: 145</p>\n<p># Comments: 43</p>",
       "source": "Hacker News: Front Page",
       "published": "Wed, 13 May 2026 00:04:21 +0000",
       "summary": "My graduation cap runs Rust\n<p>Article URL: <a href=\"https://ericswpark.com/blog/2026/2026-05-12-my-graduation-cap-runs-rust/\">https://ericswpark.com/blog/2026/2026-05-12-my-graduation-cap-runs-rust/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48116207\">https://news.ycombi"
     },
     {
-      "title": "You Don't Look Like a Gamer: On Toxicity, Gatekeeping, & Women Who Share Gaming",
-      "link": "https://gardinerbryant.com/you-dont-look-like-a-gamer/",
-      "raw_summary": "<p>Article URL: <a href=\"https://gardinerbryant.com/you-dont-look-like-a-gamer/\">https://gardinerbryant.com/you-dont-look-like-a-gamer/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48116142\">https://news.ycombinator.com/item?id=48116142</a></p>\n<p>Points: 5</p>\n<p># Comments: 1</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Tue, 12 May 2026 23:56:25 +0000",
-      "summary": "You Don't Look Like a Gamer: On Toxicity, Gatekeeping, & Women Who Share Gaming\n<p>Article URL: <a href=\"https://gardinerbryant.com/you-dont-look-like-a-gamer/\">https://gardinerbryant.com/you-dont-look-like-a-gamer/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48116142\">htt"
-    },
-    {
       "title": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug",
       "link": "https://blog.cloudflare.com/quic-death-spiral-fix/",
-      "raw_summary": "<p>Article URL: <a href=\"https://blog.cloudflare.com/quic-death-spiral-fix/\">https://blog.cloudflare.com/quic-death-spiral-fix/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48116064\">https://news.ycombinator.com/item?id=48116064</a></p>\n<p>Points: 15</p>\n<p># Comments: 1</p>",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.cloudflare.com/quic-death-spiral-fix/\">https://blog.cloudflare.com/quic-death-spiral-fix/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48116064\">https://news.ycombinator.com/item?id=48116064</a></p>\n<p>Points: 83</p>\n<p># Comments: 5</p>",
       "source": "Hacker News: Front Page",
       "published": "Tue, 12 May 2026 23:46:28 +0000",
       "summary": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug\n<p>Article URL: <a href=\"https://blog.cloudflare.com/quic-death-spiral-fix/\">https://blog.cloudflare.com/quic-death-spiral-fix/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48116064\">https://news.ycom"
-    },
-    {
-      "title": "Kraftwerk's radical 1976 track",
-      "link": "https://www.bbc.com/culture/article/20260511-kraftwerks-radical-1976-track-radioactivity-became-an-anti-nuclear-anthem",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.bbc.com/culture/article/20260511-kraftwerks-radical-1976-track-radioactivity-became-an-anti-nuclear-anthem\">https://www.bbc.com/culture/article/20260511-kraftwerks-radical-1976-track-radioactivity-became-an-anti-nuclear-anthem</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48115823\">https://news.ycombinator.com/item?id=48115823</a></p>\n<p>Points: 67</p>\n<p># Comments: 24</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Tue, 12 May 2026 23:13:01 +0000",
-      "summary": "Kraftwerk's radical 1976 track\n<p>Article URL: <a href=\"https://www.bbc.com/culture/article/20260511-kraftwerks-radical-1976-track-radioactivity-became-an-anti-nuclear-anthem\">https://www.bbc.com/culture/article/20260511-kraftwerks-radical-1976-track-radioactivity-became-an-anti-nuclear-anthem</a></"
     },
     {
       "title": "Medicare’s new payment model is built for AI, and most of the tech world has no idea",
@@ -203,84 +203,108 @@
       "summary": "Microsoft will lean on your CPU to speed up Windows 11's apps and animations\n\"All modern operating systems do this, including macOS and Linux.\""
     },
     {
-      "title": "Trump’s plan to discuss Taiwan arms sales with Xi rattles Asian allies",
-      "link": "https://www.ft.com/content/156bf437-b5a8-40de-98c5-1ffe47d88b70",
-      "raw_summary": "Negotiations with Beijing on weapons exports to Taipei would break long US precedent",
+      "title": "IEA warns of further price spikes as global oil inventories fall at record pace",
+      "link": "https://www.ft.com/content/c5ac196f-d141-4710-ab54-4c50216ab900",
+      "raw_summary": "Iran war has cut into oil consumption but not enough to halt ‘rapid’ draw on inventories",
       "source": "World",
-      "published": "Wed, 13 May 2026 02:01:14 GMT",
-      "summary": "Trump’s plan to discuss Taiwan arms sales with Xi rattles Asian allies\nNegotiations with Beijing on weapons exports to Taipei would break long US precedent"
+      "published": "Wed, 13 May 2026 08:00:02 GMT",
+      "summary": "IEA warns of further price spikes as global oil inventories fall at record pace\nIran war has cut into oil consumption but not enough to halt ‘rapid’ draw on inventories"
     },
     {
-      "title": "1MDB financier Jho Low asks Trump for a pardon",
-      "link": "https://www.ft.com/content/86010fcd-8161-49dd-a267-1e08eb919911",
-      "raw_summary": "Alleged mastermind behind multibillion-dollar scandal appears in US filing that lists pardon requests",
+      "title": "Defence tech start-up Anduril doubles valuation to over $60bn",
+      "link": "https://www.ft.com/content/000673dd-1832-438d-b5e7-b3ec17944b17",
+      "raw_summary": "Peter Thiel-backed company raises $5bn as the US administration turns to smaller players for latest military kit",
       "source": "World",
-      "published": "Wed, 13 May 2026 01:28:50 GMT",
-      "summary": "1MDB financier Jho Low asks Trump for a pardon\nAlleged mastermind behind multibillion-dollar scandal appears in US filing that lists pardon requests"
+      "published": "Wed, 13 May 2026 07:00:09 GMT",
+      "summary": "Defence tech start-up Anduril doubles valuation to over $60bn\nPeter Thiel-backed company raises $5bn as the US administration turns to smaller players for latest military kit"
     },
     {
-      "title": "FirstFT: China’s tech giants miss out on AI stock market rally",
-      "link": "https://www.ft.com/content/6571c130-dc4f-4448-a732-007a888e1605",
-      "raw_summary": "Also in today’s newsletter: US Treasury secretary meets Japanese PM, and Sam Altman testifies in OpenAI trial",
+      "title": "Starmer holds talks with Streeting as he clings to power",
+      "link": "https://www.ft.com/content/4fd36a51-0244-45da-b07b-4d3f3b587c0d",
+      "raw_summary": "Prime minister met potential leadership rival ahead of King’s Speech",
       "source": "World",
-      "published": "Tue, 12 May 2026 21:44:14 GMT",
-      "summary": "FirstFT: China’s tech giants miss out on AI stock market rally\nAlso in today’s newsletter: US Treasury secretary meets Japanese PM, and Sam Altman testifies in OpenAI trial"
+      "published": "Wed, 13 May 2026 06:33:27 GMT",
+      "summary": "Starmer holds talks with Streeting as he clings to power\nPrime minister met potential leadership rival ahead of King’s Speech"
     },
     {
-      "title": "Starmer clings to power after four ministers resign",
-      "link": "https://www.ft.com/content/87c4bea0-421f-4cdc-b5b5-98221a9142f5",
-      "raw_summary": "PM due to hold crunch meeting with health secretary Wes Streeting after challenging rivals to launch leadership bids",
+      "title": "India more than doubles tariffs on gold imports",
+      "link": "https://www.ft.com/content/99e57544-97a6-4a39-aa2f-13dce681038b",
+      "raw_summary": "Government wants to curb non-essential imports to protect the rupee",
       "source": "World",
-      "published": "Tue, 12 May 2026 21:43:12 GMT",
-      "summary": "Starmer clings to power after four ministers resign\nPM due to hold crunch meeting with health secretary Wes Streeting after challenging rivals to launch leadership bids"
+      "published": "Wed, 13 May 2026 06:14:14 GMT",
+      "summary": "India more than doubles tariffs on gold imports\nGovernment wants to curb non-essential imports to protect the rupee"
     },
     {
-      "title": "Resignation of US food and drug regulator head adds to health agency vacancies",
-      "link": "https://www.ft.com/content/34f532f1-b05c-47f8-8db5-bc980da824d9",
-      "raw_summary": "Lawyer Kyle Diamantas appointed FDA’s acting leader as concerns mount over hantavirus outbreak",
+      "title": "Disinflation disappears",
+      "link": "https://www.ft.com/content/2e3f38a8-4415-4349-845f-c67425178863",
+      "raw_summary": "Plus, UK gilts",
       "source": "World",
-      "published": "Tue, 12 May 2026 21:41:23 GMT",
-      "summary": "Resignation of US food and drug regulator head adds to health agency vacancies\nLawyer Kyle Diamantas appointed FDA’s acting leader as concerns mount over hantavirus outbreak"
+      "published": "Wed, 13 May 2026 05:30:09 GMT",
+      "summary": "Disinflation disappears\nPlus, UK gilts"
     },
     {
-      "title": "Indonesia Vows ‘Smart Interventions’ as Rupiah Hits Record Low",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-13/idr-usd-indonesia-pledges-smart-interventions-as-rupiah-at-record-low",
-      "raw_summary": "Indonesia’s central bank has pledged “smart interventions” in the foreign-exchange markets to support the rupiah as the currency fell to a record low.",
+      "title": "China AI Stocks Surge as Huang’s Visit Boosts Nvidia Supply Bets",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-13/china-ai-stocks-surge-as-huang-s-visit-boosts-h200-supply-bets",
+      "raw_summary": "Shares of Chinese AI model developers surged, reflecting bets that Jensen Huang joining President Donald Trump’s trip to Beijing may help widen access to Nvidia Corp.’s advanced chips.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 13 May 2026 00:22:56 GMT",
-      "summary": "Indonesia Vows ‘Smart Interventions’ as Rupiah Hits Record Low\nIndonesia’s central bank has pledged “smart interventions” in the foreign-exchange markets to support the rupiah as the currency fell to a record low."
+      "published": "Wed, 13 May 2026 07:48:19 GMT",
+      "summary": "China AI Stocks Surge as Huang’s Visit Boosts Nvidia Supply Bets\nShares of Chinese AI model developers surged, reflecting bets that Jensen Huang joining President Donald Trump’s trip to Beijing may help widen access to Nvidia Corp.’s advanced chips."
     },
     {
-      "title": "Korea Benchmark Bond Yield Tops 4% as Rate-Hike Bets Grow",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-12/korea-benchmark-bond-yield-tops-4-as-rate-hike-bets-grow",
-      "raw_summary": "South Korea’s 10-year bond yield rose above 4% for the first time since late 2023, as an oil shock tied to the Iran conflict leads traders to expect bigger interest rate hikes.",
+      "title": "French Jobless Rate Jumps Above 8% for First Time Since 2021",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-13/french-unemployment-jumps-above-8-for-first-time-in-five-years",
+      "raw_summary": "French unemployment unexpectedly rose to the highest level in five years, adding to signs the euro area’s second largest economy was already on a weak footing when the Iran war began.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 12 May 2026 09:51:54 GMT",
-      "summary": "Korea Benchmark Bond Yield Tops 4% as Rate-Hike Bets Grow\nSouth Korea’s 10-year bond yield rose above 4% for the first time since late 2023, as an oil shock tied to the Iran conflict leads traders to expect bigger interest rate hikes."
+      "published": "Wed, 13 May 2026 05:30:00 GMT",
+      "summary": "French Jobless Rate Jumps Above 8% for First Time Since 2021\nFrench unemployment unexpectedly rose to the highest level in five years, adding to signs the euro area’s second largest economy was already on a weak footing when the Iran war began."
     },
     {
-      "title": "Japan’s 20-Year Bond Yield Rises to 1997 High on Inflation Woes",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-13/japan-s-20-year-bond-yield-rises-to-1997-high-on-inflation-woes",
-      "raw_summary": "Japan’s 20-year government bond yield breached its January peak to touch the highest level since 1997, as elevated energy prices add to inflation pressure.",
+      "title": "Forint Drops After Hungarian Central Bank Cuts Rate on FX Swaps",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-13/forint-drops-after-hungarian-central-bank-cuts-rate-on-fx-swaps",
+      "raw_summary": "The forint weakened after the Hungarian central bank unexpectedly lowered the interest rate on its foreign-currency swaps following one of the biggest emerging-market currency rallies this year.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 13 May 2026 01:46:28 GMT",
-      "summary": "Japan’s 20-Year Bond Yield Rises to 1997 High on Inflation Woes\nJapan’s 20-year government bond yield breached its January peak to touch the highest level since 1997, as elevated energy prices add to inflation pressure."
+      "published": "Wed, 13 May 2026 08:20:22 GMT",
+      "summary": "Forint Drops After Hungarian Central Bank Cuts Rate on FX Swaps\nThe forint weakened after the Hungarian central bank unexpectedly lowered the interest rate on its foreign-currency swaps following one of the biggest emerging-market currency rallies this year."
     },
     {
-      "title": "Philippine Bonds Face Extended Slump on Large Rate Hike Bets",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-13/philippine-bonds-face-extended-slump-on-large-rate-hike-bets",
-      "raw_summary": "Philippine sovereign bonds are extending a selloff as traders price in the prospect of a 50-basis-point rate hike, the largest since 2023.",
+      "title": "Korean Stocks Rebound as Retail Traders Counter Foreign Selling",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-13/korean-stocks-drop-as-foreign-investors-dump-hot-chip-shares",
+      "raw_summary": "South Korean stocks rapidly erased their early losses to finish higher on Wednesday, as local retail investors bought into a wave of selling by foreign funds.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 13 May 2026 00:00:42 GMT",
-      "summary": "Philippine Bonds Face Extended Slump on Large Rate Hike Bets\nPhilippine sovereign bonds are extending a selloff as traders price in the prospect of a 50-basis-point rate hike, the largest since 2023."
+      "published": "Wed, 13 May 2026 01:10:07 GMT",
+      "summary": "Korean Stocks Rebound as Retail Traders Counter Foreign Selling\nSouth Korean stocks rapidly erased their early losses to finish higher on Wednesday, as local retail investors bought into a wave of selling by foreign funds."
     },
     {
-      "title": "New BHP CEO Brandon Craig Says Miner Open to Deals for Growth",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-13/new-bhp-ceo-brandon-craig-says-miner-open-to-deals-for-growth",
-      "raw_summary": "BHP Group’s incoming Chief Executive Officer Brandon Craig has not ruled out dealmaking as a key part of the mining giant’s growth strategy.",
+      "title": "India Books More Fertilizer Than Sought as DAP Prices Rising",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-12/india-books-phosphate-fertilizer-at-40-above-pre-war-prices",
+      "raw_summary": "India, the world’s top buyer of diammonium phosphate, has contracted larger-than-expected volumes of the crop nutrient, a sign of stockpiling as the conflict in the Middle East disrupts supplies and drives global benchmarks higher.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 13 May 2026 02:02:30 GMT",
-      "summary": "New BHP CEO Brandon Craig Says Miner Open to Deals for Growth\nBHP Group’s incoming Chief Executive Officer Brandon Craig has not ruled out dealmaking as a key part of the mining giant’s growth strategy."
+      "published": "Tue, 12 May 2026 18:03:15 GMT",
+      "summary": "India Books More Fertilizer Than Sought as DAP Prices Rising\nIndia, the world’s top buyer of diammonium phosphate, has contracted larger-than-expected volumes of the crop nutrient, a sign of stockpiling as the conflict in the Middle East disrupts supplies and drives global benchmarks higher."
+    },
+    {
+      "title": "XRP tops bitcoin, ether volumes on major South Korean exchanges",
+      "link": "https://www.coindesk.com/markets/2026/05/13/xrp-tops-bitcoin-ether-volumes-on-major-south-korean-exchanges",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 13 May 2026 06:30:11 +0000",
+      "summary": "XRP tops bitcoin, ether volumes on major South Korean exchanges\n"
+    },
+    {
+      "title": "Bitcoin back above $81,000 after hot CPI print, BNB, DOGE lead majors gains",
+      "link": "https://www.coindesk.com/markets/2026/05/13/bitcoin-back-above-usd81-000-after-hot-cpi-print-bnb-doge-lead-majors-gains",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 13 May 2026 04:42:37 +0000",
+      "summary": "Bitcoin back above $81,000 after hot CPI print, BNB, DOGE lead majors gains\n"
+    },
+    {
+      "title": "Nevada regulators push back after prediction market conference blames them for move",
+      "link": "https://www.coindesk.com/policy/2026/05/13/nevada-gaming-regulator-says-prediction-market-conferences-are-welcome-in-las-vegas",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 13 May 2026 04:04:34 +0000",
+      "summary": "Nevada regulators push back after prediction market conference blames them for move\n"
     },
     {
       "title": "JPMorgan files to launch new tokenized fund as Wall Street tokenization race heats up",
@@ -297,30 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Tue, 12 May 2026 17:31:53 +0000",
       "summary": "The Ethereum Foundation unveils new 'Clear Signing' standard to stop users from approving malicious crypto transactions\n"
-    },
-    {
-      "title": "Senate confirms Kevin Warsh to Fed board ahead of expected Chair vote",
-      "link": "https://www.coindesk.com/policy/2026/05/12/senate-confirms-kevin-warsh-to-fed-board-ahead-of-expected-chair-vote",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 12 May 2026 17:29:09 +0000",
-      "summary": "Senate confirms Kevin Warsh to Fed board ahead of expected Chair vote\n"
-    },
-    {
-      "title": "Stablecoin yield infrastructure project raises $13.5M in round led by Sky Ecosystem",
-      "link": "https://www.coindesk.com/business/2026/05/12/stablecoin-yield-infrastructure-project-raises-usd13-5m-in-round-led-by-sky-ecosystem",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 12 May 2026 16:35:02 +0000",
-      "summary": "Stablecoin yield infrastructure project raises $13.5M in round led by Sky Ecosystem\n"
-    },
-    {
-      "title": "Privacy emerges as crypto’s next 'killer app,' with Arc, Canton and Tempo topping $1 billion in funding",
-      "link": "https://www.coindesk.com/business/2026/05/12/privacy-emerges-as-crypto-s-next-killer-app-with-arc-canton-and-tempo-topping-usd1-billion-in-funding",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 12 May 2026 16:33:42 +0000",
-      "summary": "Privacy emerges as crypto’s next 'killer app,' with Arc, Canton and Tempo topping $1 billion in funding\n"
     }
   ]
 }
