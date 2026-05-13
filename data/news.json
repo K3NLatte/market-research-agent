@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-05-12T19:29:43.629615+00:00",
+  "generated_at": "2026-05-13T02:28:47.395243+00:00",
   "count": 40,
   "articles": [
+    {
+      "title": "Patch Tuesday, May 2026 Edition",
+      "link": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
+      "raw_summary": "Artificial intelligence platforms may be just as susceptible to social engineering as human beings, but they are proving remarkably good at finding security vulnerabilities in human-made computer code. That reality is on full display this month with some of the more widely-used software makers -- including Apple, Google, Microsoft, Mozilla and Oracle -- fixing near record volumes of security bugs, and/or quickening the tempo of their patch releases.",
+      "source": "Krebs on Security",
+      "published": "Tue, 12 May 2026 21:46:45 +0000",
+      "summary": "Patch Tuesday, May 2026 Edition\nArtificial intelligence platforms may be just as susceptible to social engineering as human beings, but they are proving remarkably good at finding security vulnerabilities in human-made computer code. That reality is on full display this month with some of the more w"
+    },
     {
       "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
       "link": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
@@ -33,14 +41,6 @@
       "source": "Krebs on Security",
       "published": "Tue, 14 Apr 2026 21:47:59 +0000",
       "summary": "Patch Tuesday, April 2026 Edition\nMicrosoft today pushed software updates to fix a staggering 167 security vulnerabilities in its Windows operating systems and related software, including a SharePoint Server zero-day and a publicly disclosed weakness in Windows Defender dubbed \"BlueHammer.\" Separate"
-    },
-    {
-      "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
-      "link": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
-      "raw_summary": "Hackers linked to Russia's military intelligence units are using known flaws in older Internet routers to mass harvest authentication tokens from Microsoft Office users, security experts warned today. The spying campaign allowed state-backed Russian hackers to quietly siphon authentication tokens from users on more than 18,000 networks without deploying any malicious software or code.",
-      "source": "Krebs on Security",
-      "published": "Tue, 07 Apr 2026 17:02:44 +0000",
-      "summary": "Russia Hacked Routers to Steal Microsoft Office Tokens\nHackers linked to Russia's military intelligence units are using known flaws in older Internet routers to mass harvest authentication tokens from Microsoft Office users, security experts warned today. The spying campaign allowed state-backed Rus"
     },
     {
       "title": "New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution",
@@ -83,52 +83,60 @@
       "summary": "Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI & More Packages\nTeamPCP, the threat actor behind the recentsupply chain attack spree, has been linked to the compromise of the npm and PyPI packages from TanStack, UiPath, Mistral AI, OpenSearch, and Guardrails AI as part of a fres"
     },
     {
-      "title": "CERT is releasing six CVEs for serious security vulnerabilities in dnsmasq",
-      "link": "https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html\">https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48112042\">https://news.ycombinator.com/item?id=48112042</a></p>\n<p>Points: 66</p>\n<p># Comments: 8</p>",
+      "title": "Starship V3",
+      "link": "https://www.spacex.com/updates#starship-v3",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.spacex.com/updates#starship-v3\">https://www.spacex.com/updates#starship-v3</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48116781\">https://news.ycombinator.com/item?id=48116781</a></p>\n<p>Points: 18</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 12 May 2026 18:12:28 +0000",
-      "summary": "CERT is releasing six CVEs for serious security vulnerabilities in dnsmasq\n<p>Article URL: <a href=\"https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html\">https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html</a></p>\n<p>Comments URL: <a href=\"https://new"
+      "published": "Wed, 13 May 2026 01:29:31 +0000",
+      "summary": "Starship V3\n<p>Article URL: <a href=\"https://www.spacex.com/updates#starship-v3\">https://www.spacex.com/updates#starship-v3</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48116781\">https://news.ycombinator.com/item?id=48116781</a></p>\n<p>Points: 18</p>\n<p># Comments: 2</p>"
     },
     {
-      "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
-      "link": "https://github.com/cactus-compute/needle",
-      "raw_summary": "<p>Hey HN, Henry here from Cactus. We open-sourced Needle, a 26M parameter function-calling (tool use) model. It runs at 6000 tok/s prefill and 1200 tok/s decode on consumer devices.<p>We were always frustrated by the little effort made towards building agentic models that run on budget phones, so we conducted investigations that led to an observation: agentic experiences are built upon tool calling, and massive models are overkill for it. Tool calling is fundamentally retrieval-and-assembly (match query to tool name, extract argument values, emit JSON), not reasoning. Cross-attention is the right primitive for this, and FFN parameters are wasted at this scale.<p>Simple Attention Networks: the entire model is just attention and gating, no MLPs anywhere. Needle is an experimental run for single-shot function calling for consumer devices (phones, watches, glasses...).<p>Training:\n- Pretrained on 200B tokens across 16 TPU v6e (27 hours)\n- Post-trained on 2B tokens of synthesized function-calling data (45 minutes)\n- Dataset synthesized via Gemini with 15 tool categories (timers, messaging, navigation, smart home, etc.)<p>You can test it right now and finetune on your Mac/PC: <a href=\"https://github.com/cactus-compute/needle\" rel=\"nofollow\">https://github.com/cactus-compute/needle</a><p>The full writeup on the architecture is here: <a href=\"https://github.com/cactus-compute/needle/blob/main/docs/simple_attention_networks.md\" rel=\"nofollow\">https://github.com/cactus-compute/needle/blob/main/docs/simp...</a><p>We found that the \"no FFN\" finding generalizes beyond function calling to any task where the model has access to external structured knowledge (RAG, tool use, retrieval-augmented generation). The model doesn't need to memorize facts in FFN weights if the facts are provided in the input. Experimental results to published.<p>While it beats FunctionGemma-270M, Qwen-0.6B, Granite-350M, LFM2.5-350M on single-shot function calling, those models have more scope/capacity and excel in conversational settings. We encourage you to test on your own tools via the playground and finetune accordingly.<p>This is part of our broader work on Cactus (<a href=\"https://github.com/cactus-compute/cactus\" rel=\"nofollow\">https://github.com/cactus-compute/cactus</a>), an inference engine built from scratch for mobile, wearables and custom hardware. We wrote about Cactus here previously: <a href=\"https://news.ycombinator.com/item?id=44524544\">https://news.ycombinator.com/item?id=44524544</a><p>Everything is MIT licensed. Weights: <a href=\"https://huggingface.co/Cactus-Compute/needle\" rel=\"nofollow\">https://huggingface.co/Cactus-Compute/needle</a>\nGitHub: <a href=\"https://github.com/cactus-compute/needle\" rel=\"nofollow\">https://github.com/cactus-compute/needle</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48111896\">https://news.ycombinator.com/item?id=48111896</a></p>\n<p>Points: 14</p>\n<p># Comments: 2</p>",
+      "title": "My graduation cap runs Rust",
+      "link": "https://ericswpark.com/blog/2026/2026-05-12-my-graduation-cap-runs-rust/",
+      "raw_summary": "<p>Article URL: <a href=\"https://ericswpark.com/blog/2026/2026-05-12-my-graduation-cap-runs-rust/\">https://ericswpark.com/blog/2026/2026-05-12-my-graduation-cap-runs-rust/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48116207\">https://news.ycombinator.com/item?id=48116207</a></p>\n<p>Points: 61</p>\n<p># Comments: 14</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 12 May 2026 18:03:11 +0000",
-      "summary": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model\n<p>Hey HN, Henry here from Cactus. We open-sourced Needle, a 26M parameter function-calling (tool use) model. It runs at 6000 tok/s prefill and 1200 tok/s decode on consumer devices.<p>We were always frustrated by the little effort m"
+      "published": "Wed, 13 May 2026 00:04:21 +0000",
+      "summary": "My graduation cap runs Rust\n<p>Article URL: <a href=\"https://ericswpark.com/blog/2026/2026-05-12-my-graduation-cap-runs-rust/\">https://ericswpark.com/blog/2026/2026-05-12-my-graduation-cap-runs-rust/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48116207\">https://news.ycombi"
     },
     {
-      "title": "Quack: The DuckDB Client-Server Protocol",
-      "link": "https://duckdb.org/2026/05/12/quack-remote-protocol",
-      "raw_summary": "<p>Article URL: <a href=\"https://duckdb.org/2026/05/12/quack-remote-protocol\">https://duckdb.org/2026/05/12/quack-remote-protocol</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48111765\">https://news.ycombinator.com/item?id=48111765</a></p>\n<p>Points: 16</p>\n<p># Comments: 0</p>",
+      "title": "You Don't Look Like a Gamer: On Toxicity, Gatekeeping, & Women Who Share Gaming",
+      "link": "https://gardinerbryant.com/you-dont-look-like-a-gamer/",
+      "raw_summary": "<p>Article URL: <a href=\"https://gardinerbryant.com/you-dont-look-like-a-gamer/\">https://gardinerbryant.com/you-dont-look-like-a-gamer/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48116142\">https://news.ycombinator.com/item?id=48116142</a></p>\n<p>Points: 5</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 12 May 2026 17:54:12 +0000",
-      "summary": "Quack: The DuckDB Client-Server Protocol\n<p>Article URL: <a href=\"https://duckdb.org/2026/05/12/quack-remote-protocol\">https://duckdb.org/2026/05/12/quack-remote-protocol</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48111765\">https://news.ycombinator.com/item?id=48111765</a"
+      "published": "Tue, 12 May 2026 23:56:25 +0000",
+      "summary": "You Don't Look Like a Gamer: On Toxicity, Gatekeeping, & Women Who Share Gaming\n<p>Article URL: <a href=\"https://gardinerbryant.com/you-dont-look-like-a-gamer/\">https://gardinerbryant.com/you-dont-look-like-a-gamer/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48116142\">htt"
     },
     {
-      "title": "Dead.Letter (CVE-2026-45185) – How XBOW found an unauthenticated RCE on Exim",
-      "link": "https://xbow.com/blog/dead-letter-cve-2026-45185-xbow-found-rce-exim",
-      "raw_summary": "<p>Article URL: <a href=\"https://xbow.com/blog/dead-letter-cve-2026-45185-xbow-found-rce-exim\">https://xbow.com/blog/dead-letter-cve-2026-45185-xbow-found-rce-exim</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48111748\">https://news.ycombinator.com/item?id=48111748</a></p>\n<p>Points: 26</p>\n<p># Comments: 12</p>",
+      "title": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug",
+      "link": "https://blog.cloudflare.com/quic-death-spiral-fix/",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.cloudflare.com/quic-death-spiral-fix/\">https://blog.cloudflare.com/quic-death-spiral-fix/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48116064\">https://news.ycombinator.com/item?id=48116064</a></p>\n<p>Points: 15</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 12 May 2026 17:52:34 +0000",
-      "summary": "Dead.Letter (CVE-2026-45185) – How XBOW found an unauthenticated RCE on Exim\n<p>Article URL: <a href=\"https://xbow.com/blog/dead-letter-cve-2026-45185-xbow-found-rce-exim\">https://xbow.com/blog/dead-letter-cve-2026-45185-xbow-found-rce-exim</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator."
+      "published": "Tue, 12 May 2026 23:46:28 +0000",
+      "summary": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug\n<p>Article URL: <a href=\"https://blog.cloudflare.com/quic-death-spiral-fix/\">https://blog.cloudflare.com/quic-death-spiral-fix/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48116064\">https://news.ycom"
     },
     {
-      "title": "Reimagining the mouse pointer for the AI era",
-      "link": "https://deepmind.google/blog/ai-pointer/",
-      "raw_summary": "<p>Article URL: <a href=\"https://deepmind.google/blog/ai-pointer/\">https://deepmind.google/blog/ai-pointer/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48111581\">https://news.ycombinator.com/item?id=48111581</a></p>\n<p>Points: 44</p>\n<p># Comments: 33</p>",
+      "title": "Kraftwerk's radical 1976 track",
+      "link": "https://www.bbc.com/culture/article/20260511-kraftwerks-radical-1976-track-radioactivity-became-an-anti-nuclear-anthem",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.bbc.com/culture/article/20260511-kraftwerks-radical-1976-track-radioactivity-became-an-anti-nuclear-anthem\">https://www.bbc.com/culture/article/20260511-kraftwerks-radical-1976-track-radioactivity-became-an-anti-nuclear-anthem</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48115823\">https://news.ycombinator.com/item?id=48115823</a></p>\n<p>Points: 67</p>\n<p># Comments: 24</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 12 May 2026 17:40:13 +0000",
-      "summary": "Reimagining the mouse pointer for the AI era\n<p>Article URL: <a href=\"https://deepmind.google/blog/ai-pointer/\">https://deepmind.google/blog/ai-pointer/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48111581\">https://news.ycombinator.com/item?id=48111581</a></p>\n<p>Points: 4"
+      "published": "Tue, 12 May 2026 23:13:01 +0000",
+      "summary": "Kraftwerk's radical 1976 track\n<p>Article URL: <a href=\"https://www.bbc.com/culture/article/20260511-kraftwerks-radical-1976-track-radioactivity-became-an-anti-nuclear-anthem\">https://www.bbc.com/culture/article/20260511-kraftwerks-radical-1976-track-radioactivity-became-an-anti-nuclear-anthem</a></"
     },
     {
-      "title": "Kevin Hartz’s A* just closed its third fund with $450 million",
+      "title": "Medicare’s new payment model is built for AI, and most of the tech world has no idea",
+      "link": "https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/",
+      "raw_summary": "There is no governmental mechanism to pay for an AI agent that monitors a patient between visits, calls to check in, coordinates a housing referral, or makes sure someone picks up their medication. ACCESS creates that mechanism for the first time.",
+      "source": "TechCrunch",
+      "published": "Wed, 13 May 2026 00:26:48 +0000",
+      "summary": "Medicare’s new payment model is built for AI, and most of the tech world has no idea\nThere is no governmental mechanism to pay for an AI agent that monitors a patient between visits, calls to check in, coordinates a housing referral, or makes sure someone picks up their medication. ACCESS creates th"
+    },
+    {
+      "title": "Kevin Hartz’s A* just closed its third fund with $450M",
       "link": "https://techcrunch.com/2026/05/12/kevin-hartzs-a-just-closed-its-third-fund-with-450-million/",
-      "raw_summary": "Early-stage venture firm A* Capital just took the wraps off its $450 million Fund III.",
+      "raw_summary": "The firm takes a generalist approach, backing companies across categories such as AI applications, fintech, healthcare, and security. The average check size for this fund will be between $3 million and $5 million, with the aim to back at least 30 startups.",
       "source": "TechCrunch",
       "published": "Tue, 12 May 2026 18:45:05 +0000",
-      "summary": "Kevin Hartz’s A* just closed its third fund with $450 million\nEarly-stage venture firm A* Capital just took the wraps off its $450 million Fund III."
+      "summary": "Kevin Hartz’s A* just closed its third fund with $450M\nThe firm takes a generalist approach, backing companies across categories such as AI applications, fintech, healthcare, and security. The average check size for this fund will be between $3 million and $5 million, with the aim to back at least 3"
     },
     {
       "title": "Former Tesla exec and Heron Power CEO Drew Baglino has founded a heat pump startup",
@@ -141,26 +149,42 @@
     {
       "title": "Musk mulled handing OpenAI to his children, Altman testifies",
       "link": "https://techcrunch.com/2026/05/12/musk-mulled-handing-openai-to-his-children-altman-testifies/",
-      "raw_summary": "OpenAI's CEO recalls a \"particularly hair-raising\" conversation with the SpaceX founder.",
+      "raw_summary": "Altman said that Musk's focus on controlling the initial for-profit gave him pause because OpenAI was dedicated to keeping advanced AI out of the hands of a single person, and Altman, with his experience running the prominent startup accelerator Y Combinator, knew \"founders who had control usually did not give it up.\"",
       "source": "TechCrunch",
       "published": "Tue, 12 May 2026 18:05:15 +0000",
-      "summary": "Musk mulled handing OpenAI to his children, Altman testifies\nOpenAI's CEO recalls a \"particularly hair-raising\" conversation with the SpaceX founder."
+      "summary": "Musk mulled handing OpenAI to his children, Altman testifies\nAltman said that Musk's focus on controlling the initial for-profit gave him pause because OpenAI was dedicated to keeping advanced AI out of the hands of a single person, and Altman, with his experience running the prominent startup accel"
     },
     {
       "title": "Anthropic warns investors against secondary platforms offering access to its shares",
       "link": "https://techcrunch.com/2026/05/12/anthropic-warns-investors-against-secondary-platforms-offering-access-to-its-shares/",
-      "raw_summary": "The company named Open Doors Partners, Unicorns Exchange, Pachamama Capital, Lionheart Ventures, Hiive, Forge Global, Sydecar and Upmarket as companies that are not authorized to provide access to buy or sell its shares.",
+      "raw_summary": "\"Any sale or transfer of Anthropic stock, or any interest in Anthropic stock, offered by these firms is void and will not be recognized on our books and records,\" the company's support page reads.",
       "source": "TechCrunch",
       "published": "Tue, 12 May 2026 17:36:34 +0000",
-      "summary": "Anthropic warns investors against secondary platforms offering access to its shares\nThe company named Open Doors Partners, Unicorns Exchange, Pachamama Capital, Lionheart Ventures, Hiive, Forge Global, Sydecar and Upmarket as companies that are not authorized to provide access to buy or sell its sha"
+      "summary": "Anthropic warns investors against secondary platforms offering access to its shares\n\"Any sale or transfer of Anthropic stock, or any interest in Anthropic stock, offered by these firms is void and will not be recognized on our books and records,\" the company's support page reads."
     },
     {
-      "title": "Potholes cost cities millions: This company is using AI and trucks to fix them",
-      "link": "https://techcrunch.com/2026/05/12/potholes-cost-cities-millions-samsara-using-ai-trucks-fix/",
-      "raw_summary": "Fleet management company Samsara has developed an AI model to detect different kinds of potholes and gauge how fast they're deteriorating.",
-      "source": "TechCrunch",
-      "published": "Tue, 12 May 2026 17:33:29 +0000",
-      "summary": "Potholes cost cities millions: This company is using AI and trucks to fix them\nFleet management company Samsara has developed an AI model to detect different kinds of potholes and gauge how fast they're deteriorating."
+      "title": "The newest AI boom pitch: Host a mini data center at your home",
+      "link": "https://arstechnica.com/ai/2026/05/the-newest-ai-boom-pitch-host-a-mini-data-center-at-your-home/",
+      "raw_summary": "The plan aims to speed up AI compute deployment while compensating residents.",
+      "source": "Ars Technica - All content",
+      "published": "Tue, 12 May 2026 21:59:03 +0000",
+      "summary": "The newest AI boom pitch: Host a mini data center at your home\nThe plan aims to speed up AI compute deployment while compensating residents."
+    },
+    {
+      "title": "FDA chief resigns after Trump admin forced approval of fruity e-cigs",
+      "link": "https://arstechnica.com/health/2026/05/fda-chief-resigns-after-trump-admin-forced-approval-of-fruity-e-cigs/",
+      "raw_summary": "Makary reportedly spent his year bucking Trump admin and making industry enemies.",
+      "source": "Ars Technica - All content",
+      "published": "Tue, 12 May 2026 21:26:47 +0000",
+      "summary": "FDA chief resigns after Trump admin forced approval of fruity e-cigs\nMakary reportedly spent his year bucking Trump admin and making industry enemies."
+    },
+    {
+      "title": "Twin brothers wipe 96 gov't databases minutes after being fired",
+      "link": "https://arstechnica.com/tech-policy/2026/05/drop-database-what-not-to-do-after-losing-an-it-job/",
+      "raw_summary": "A case study in why credentials are revoked before firings.",
+      "source": "Ars Technica - All content",
+      "published": "Tue, 12 May 2026 19:12:07 +0000",
+      "summary": "Twin brothers wipe 96 gov't databases minutes after being fired\nA case study in why credentials are revoked before firings."
     },
     {
       "title": "“Will I be OK?” Teen died after ChatGPT pushed deadly mix of drugs, lawsuit says",
@@ -179,108 +203,92 @@
       "summary": "Microsoft will lean on your CPU to speed up Windows 11's apps and animations\n\"All modern operating systems do this, including macOS and Linux.\""
     },
     {
-      "title": "eBay rejects GameStop's $56B offer: \"Your proposal is neither credible nor attractive\"",
-      "link": "https://arstechnica.com/tech-policy/2026/05/ebay-rejects-gamestops-56b-offer-your-proposal-is-neither-credible-nor-attractive/",
-      "raw_summary": "eBay board doubts GameStop's ability to buy and operate the much larger firm.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 12 May 2026 17:18:04 +0000",
-      "summary": "eBay rejects GameStop's $56B offer: \"Your proposal is neither credible nor attractive\"\neBay board doubts GameStop's ability to buy and operate the much larger firm."
-    },
-    {
-      "title": "Google's Android-powered laptops are called Googlebooks, and they're coming this year",
-      "link": "https://arstechnica.com/gadgets/2026/05/googles-android-powered-laptops-are-called-googlebooks-and-theyre-coming-this-year/",
-      "raw_summary": "Google has revealed its vision for the AI laptop of tomorrow.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 12 May 2026 17:00:49 +0000",
-      "summary": "Google's Android-powered laptops are called Googlebooks, and they're coming this year\nGoogle has revealed its vision for the AI laptop of tomorrow."
-    },
-    {
-      "title": "Android is getting a big AI overhaul in 2026",
-      "link": "https://arstechnica.com/gadgets/2026/05/google-says-android-is-getting-a-big-ai-overhaul-in-2026/",
-      "raw_summary": "Google has big plans for Android in 2026, and most of it is AI.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 12 May 2026 17:00:41 +0000",
-      "summary": "Android is getting a big AI overhaul in 2026\nGoogle has big plans for Android in 2026, and most of it is AI."
-    },
-    {
-      "title": "Scottish Mortgage defends $1.25tn SpaceX valuation ahead of IPO",
-      "link": "https://www.ft.com/content/6892af95-3172-4312-a3ca-e49b57620918",
-      "raw_summary": "UK investment trust’s valuation means its holding in Elon Musk’s company is worth £3bn",
+      "title": "Trump’s plan to discuss Taiwan arms sales with Xi rattles Asian allies",
+      "link": "https://www.ft.com/content/156bf437-b5a8-40de-98c5-1ffe47d88b70",
+      "raw_summary": "Negotiations with Beijing on weapons exports to Taipei would break long US precedent",
       "source": "World",
-      "published": "Tue, 12 May 2026 19:24:28 GMT",
-      "summary": "Scottish Mortgage defends $1.25tn SpaceX valuation ahead of IPO\nUK investment trust’s valuation means its holding in Elon Musk’s company is worth £3bn"
+      "published": "Wed, 13 May 2026 02:01:14 GMT",
+      "summary": "Trump’s plan to discuss Taiwan arms sales with Xi rattles Asian allies\nNegotiations with Beijing on weapons exports to Taipei would break long US precedent"
     },
     {
-      "title": "Musk made ‘hair-raising’ demands for control of OpenAI, Altman testifies",
-      "link": "https://www.ft.com/content/e3341337-a598-49f3-9593-f2f326e048ae",
-      "raw_summary": "Start-up’s CEO takes the stand in legal battle with billionaire",
+      "title": "1MDB financier Jho Low asks Trump for a pardon",
+      "link": "https://www.ft.com/content/86010fcd-8161-49dd-a267-1e08eb919911",
+      "raw_summary": "Alleged mastermind behind multibillion-dollar scandal appears in US filing that lists pardon requests",
       "source": "World",
-      "published": "Tue, 12 May 2026 19:13:09 GMT",
-      "summary": "Musk made ‘hair-raising’ demands for control of OpenAI, Altman testifies\nStart-up’s CEO takes the stand in legal battle with billionaire"
+      "published": "Wed, 13 May 2026 01:28:50 GMT",
+      "summary": "1MDB financier Jho Low asks Trump for a pardon\nAlleged mastermind behind multibillion-dollar scandal appears in US filing that lists pardon requests"
     },
     {
-      "title": "Starmer survives perilous day in Number 10 as rivals hold back",
-      "link": "https://www.ft.com/content/771723fe-cb96-4ab8-a216-3e57f2590b41",
-      "raw_summary": "Prime minister tells colleagues he is ‘getting on with governing’ while four ministers quit and call for change",
+      "title": "FirstFT: China’s tech giants miss out on AI stock market rally",
+      "link": "https://www.ft.com/content/6571c130-dc4f-4448-a732-007a888e1605",
+      "raw_summary": "Also in today’s newsletter: US Treasury secretary meets Japanese PM, and Sam Altman testifies in OpenAI trial",
       "source": "World",
-      "published": "Tue, 12 May 2026 19:06:01 GMT",
-      "summary": "Starmer survives perilous day in Number 10 as rivals hold back\nPrime minister tells colleagues he is ‘getting on with governing’ while four ministers quit and call for change"
+      "published": "Tue, 12 May 2026 21:44:14 GMT",
+      "summary": "FirstFT: China’s tech giants miss out on AI stock market rally\nAlso in today’s newsletter: US Treasury secretary meets Japanese PM, and Sam Altman testifies in OpenAI trial"
     },
     {
-      "title": "US inflation jumps to 3.8% as Trump’s Iran war sends petrol prices soaring",
-      "link": "https://www.ft.com/content/ce609605-8f82-42d7-8364-5ca5fbfb02cb",
-      "raw_summary": "April figure marks highest level in three years as effects of conflict reverberate through world’s biggest economy",
+      "title": "Starmer clings to power after four ministers resign",
+      "link": "https://www.ft.com/content/87c4bea0-421f-4cdc-b5b5-98221a9142f5",
+      "raw_summary": "PM due to hold crunch meeting with health secretary Wes Streeting after challenging rivals to launch leadership bids",
       "source": "World",
-      "published": "Tue, 12 May 2026 18:45:44 GMT",
-      "summary": "US inflation jumps to 3.8% as Trump’s Iran war sends petrol prices soaring\nApril figure marks highest level in three years as effects of conflict reverberate through world’s biggest economy"
+      "published": "Tue, 12 May 2026 21:43:12 GMT",
+      "summary": "Starmer clings to power after four ministers resign\nPM due to hold crunch meeting with health secretary Wes Streeting after challenging rivals to launch leadership bids"
     },
     {
-      "title": "Reeves and Miliband among contenders for chancellor if Starmer ousted",
-      "link": "https://www.ft.com/content/dda9a79c-2b5c-486b-a011-52324f4b2c6f",
-      "raw_summary": "Some in City fear a more leftwing officeholder could herald greater spending and a possible relaxation of ‘ironclad’ fiscal rules",
+      "title": "Resignation of US food and drug regulator head adds to health agency vacancies",
+      "link": "https://www.ft.com/content/34f532f1-b05c-47f8-8db5-bc980da824d9",
+      "raw_summary": "Lawyer Kyle Diamantas appointed FDA’s acting leader as concerns mount over hantavirus outbreak",
       "source": "World",
-      "published": "Tue, 12 May 2026 17:46:06 GMT",
-      "summary": "Reeves and Miliband among contenders for chancellor if Starmer ousted\nSome in City fear a more leftwing officeholder could herald greater spending and a possible relaxation of ‘ironclad’ fiscal rules"
+      "published": "Tue, 12 May 2026 21:41:23 GMT",
+      "summary": "Resignation of US food and drug regulator head adds to health agency vacancies\nLawyer Kyle Diamantas appointed FDA’s acting leader as concerns mount over hantavirus outbreak"
     },
     {
-      "title": "US Soy Growers Want China Commitments as Season Slips Away",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-12/us-soy-growers-want-commitments-from-china-as-season-slips-away",
-      "raw_summary": "As US President Donald Trump travels to Beijing for a summit this week with his Chinese counterpart Xi Jinping, American soybean farmers are in a now-familiar spot: Fields are getting planted when demand from their biggest customer is uncertain.",
+      "title": "Indonesia Vows ‘Smart Interventions’ as Rupiah Hits Record Low",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-13/idr-usd-indonesia-pledges-smart-interventions-as-rupiah-at-record-low",
+      "raw_summary": "Indonesia’s central bank has pledged “smart interventions” in the foreign-exchange markets to support the rupiah as the currency fell to a record low.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 12 May 2026 15:30:59 GMT",
-      "summary": "US Soy Growers Want China Commitments as Season Slips Away\nAs US President Donald Trump travels to Beijing for a summit this week with his Chinese counterpart Xi Jinping, American soybean farmers are in a now-familiar spot: Fields are getting planted when demand from their biggest customer is uncert"
+      "published": "Wed, 13 May 2026 00:22:56 GMT",
+      "summary": "Indonesia Vows ‘Smart Interventions’ as Rupiah Hits Record Low\nIndonesia’s central bank has pledged “smart interventions” in the foreign-exchange markets to support the rupiah as the currency fell to a record low."
     },
     {
-      "title": "Brazil Meat Left Out of EU Suppliers List in Risk to Trade",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-12/brazil-meat-left-out-of-europe-suppliers-list-in-risk-to-trade",
-      "raw_summary": "Brazil is absent from a list of countries authorized to supply animal products to the European Union, presenting a trade risk to the world’s largest beef and chicken exporter.",
+      "title": "Korea Benchmark Bond Yield Tops 4% as Rate-Hike Bets Grow",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-12/korea-benchmark-bond-yield-tops-4-as-rate-hike-bets-grow",
+      "raw_summary": "South Korea’s 10-year bond yield rose above 4% for the first time since late 2023, as an oil shock tied to the Iran conflict leads traders to expect bigger interest rate hikes.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 12 May 2026 17:28:52 GMT",
-      "summary": "Brazil Meat Left Out of EU Suppliers List in Risk to Trade\nBrazil is absent from a list of countries authorized to supply animal products to the European Union, presenting a trade risk to the world’s largest beef and chicken exporter."
+      "published": "Tue, 12 May 2026 09:51:54 GMT",
+      "summary": "Korea Benchmark Bond Yield Tops 4% as Rate-Hike Bets Grow\nSouth Korea’s 10-year bond yield rose above 4% for the first time since late 2023, as an oil shock tied to the Iran conflict leads traders to expect bigger interest rate hikes."
     },
     {
-      "title": "Chip Stocks Sink as Inflation Woes Boost US Yields: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-11/asia-stocks-to-gain-oil-rises-on-us-iran-deadlock-markets-wrap",
-      "raw_summary": "A selloff in high-flying chipmakers drove stocks lower, with the market also falling alongside bonds after inflation data showed the impacts of energy disruptions stemming from the war in Iran.",
+      "title": "Japan’s 20-Year Bond Yield Rises to 1997 High on Inflation Woes",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-13/japan-s-20-year-bond-yield-rises-to-1997-high-on-inflation-woes",
+      "raw_summary": "Japan’s 20-year government bond yield breached its January peak to touch the highest level since 1997, as elevated energy prices add to inflation pressure.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 11 May 2026 22:04:02 GMT",
-      "summary": "Chip Stocks Sink as Inflation Woes Boost US Yields: Markets Wrap\nA selloff in high-flying chipmakers drove stocks lower, with the market also falling alongside bonds after inflation data showed the impacts of energy disruptions stemming from the war in Iran."
+      "published": "Wed, 13 May 2026 01:46:28 GMT",
+      "summary": "Japan’s 20-Year Bond Yield Rises to 1997 High on Inflation Woes\nJapan’s 20-year government bond yield breached its January peak to touch the highest level since 1997, as elevated energy prices add to inflation pressure."
     },
     {
-      "title": "US Power Prices Climb 61% Faster Than Inflation as Demand Surges",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-12/us-power-prices-climb-61-faster-than-inflation-as-demand-surges",
-      "raw_summary": "Consumer prices climbed last month by the most in three years, but prices for electricity surged even more, highlighting an intensifying battle between utilities, consumers and power grids.",
+      "title": "Philippine Bonds Face Extended Slump on Large Rate Hike Bets",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-13/philippine-bonds-face-extended-slump-on-large-rate-hike-bets",
+      "raw_summary": "Philippine sovereign bonds are extending a selloff as traders price in the prospect of a 50-basis-point rate hike, the largest since 2023.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 12 May 2026 18:21:32 GMT",
-      "summary": "US Power Prices Climb 61% Faster Than Inflation as Demand Surges\nConsumer prices climbed last month by the most in three years, but prices for electricity surged even more, highlighting an intensifying battle between utilities, consumers and power grids."
+      "published": "Wed, 13 May 2026 00:00:42 GMT",
+      "summary": "Philippine Bonds Face Extended Slump on Large Rate Hike Bets\nPhilippine sovereign bonds are extending a selloff as traders price in the prospect of a 50-basis-point rate hike, the largest since 2023."
     },
     {
-      "title": "US LNG Pioneer Charif Souki Vows He Will Never Go Public Again",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-12/us-lng-pioneer-charif-souki-vows-he-will-never-go-public-again",
-      "raw_summary": "Natural gas entrepreneur Charif Souki’s latest venture will remain closely held after his previous two companies pursued public offerings.",
+      "title": "New BHP CEO Brandon Craig Says Miner Open to Deals for Growth",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-13/new-bhp-ceo-brandon-craig-says-miner-open-to-deals-for-growth",
+      "raw_summary": "BHP Group’s incoming Chief Executive Officer Brandon Craig has not ruled out dealmaking as a key part of the mining giant’s growth strategy.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 12 May 2026 18:11:08 GMT",
-      "summary": "US LNG Pioneer Charif Souki Vows He Will Never Go Public Again\nNatural gas entrepreneur Charif Souki’s latest venture will remain closely held after his previous two companies pursued public offerings."
+      "published": "Wed, 13 May 2026 02:02:30 GMT",
+      "summary": "New BHP CEO Brandon Craig Says Miner Open to Deals for Growth\nBHP Group’s incoming Chief Executive Officer Brandon Craig has not ruled out dealmaking as a key part of the mining giant’s growth strategy."
+    },
+    {
+      "title": "JPMorgan files to launch new tokenized fund as Wall Street tokenization race heats up",
+      "link": "https://www.coindesk.com/business/2026/05/12/jpmorgan-files-to-launch-new-tokenized-fund-as-wall-street-tokenization-race-heats-up",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Tue, 12 May 2026 21:18:10 +0000",
+      "summary": "JPMorgan files to launch new tokenized fund as Wall Street tokenization race heats up\n"
     },
     {
       "title": "The Ethereum Foundation unveils new 'Clear Signing' standard to stop users from approving malicious crypto transactions",
@@ -313,14 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Tue, 12 May 2026 16:33:42 +0000",
       "summary": "Privacy emerges as crypto’s next 'killer app,' with Arc, Canton and Tempo topping $1 billion in funding\n"
-    },
-    {
-      "title": "U.S. CFTC in talks with every major pro sports league on policing prediction markets",
-      "link": "https://www.coindesk.com/policy/2026/05/12/the-cftc-is-in-talks-with-every-major-pro-sports-league-to-crack-down-on-insider-trading",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 12 May 2026 15:38:56 +0000",
-      "summary": "U.S. CFTC in talks with every major pro sports league on policing prediction markets\n"
     }
   ]
 }
