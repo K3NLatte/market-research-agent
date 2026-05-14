@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T13:51:09.347086+00:00",
+  "generated_at": "2026-05-14T19:29:12.934325+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "Patch Tuesday, April 2026 Edition\nMicrosoft today pushed software updates to fix a staggering 167 security vulnerabilities in its Windows operating systems and related software, including a SharePoint Server zero-day and a publicly disclosed weakness in Windows Defender dubbed \"BlueHammer.\" Separate"
     },
     {
+      "title": "Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access",
+      "link": "https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html",
+      "raw_summary": "Cisco has released updates to address a maximum-severity authentication bypass flaw in Catalyst SD-WAN Controller that it said has been exploited in limited attacks.\nThe vulnerability, tracked as CVE-2026-20182, carries a CVSS score of 10.0.\n\"A vulnerability in the peering authentication in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, and Cisco Catalyst SD-WAN Manager, formerly",
+      "source": "The Hacker News",
+      "published": "Thu, 14 May 2026 23:15:20 +0530",
+      "summary": "Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access\nCisco has released updates to address a maximum-severity authentication bypass flaw in Catalyst SD-WAN Controller that it said has been exploited in limited attacks.\nThe vulnerability, tracked as CVE-2026-20182, car"
+    },
+    {
+      "title": "Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets",
+      "link": "https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html",
+      "raw_summary": "Cybersecurity researchers are sounding the alarm about what has been described as \"malicious activity\" in newly published versions of node-ipc.\nAccording to Socket and StepSecurity, three different versions of the npm package have been confirmed as malicious -\n\nnode-ipc@9.1.6\nnode-ipc@9.2.3\nnode-ipc@12.0.1\n\n\"Early analysis indicates that node-ipc@9.1.6, node-ipc@9.2.3, and node-ipc@12.0.1",
+      "source": "The Hacker News",
+      "published": "Thu, 14 May 2026 22:52:43 +0530",
+      "summary": "Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets\nCybersecurity researchers are sounding the alarm about what has been described as \"malicious activity\" in newly published versions of node-ipc.\nAccording to Socket and StepSecurity, three different versions of the npm package "
+    },
+    {
+      "title": "ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories",
+      "link": "https://thehackernews.com/2026/05/threatsday-bulletin-pan-os-rce-mythos.html",
+      "raw_summary": "Everything is still on fire.\nThis week feels dumb in the worst way — bad links, weak checks, fake help desks, shady forum posts, and people turning supply chain attacks into some cursed little game for clout and cash. Half of it feels new. Half of it feels like crap we should have fixed years ago.\nThe mess keeps getting louder: users get tricked, boxes get popped, tools meant for normal work",
+      "source": "The Hacker News",
+      "published": "Thu, 14 May 2026 21:37:46 +0530",
+      "summary": "ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories\nEverything is still on fire.\nThis week feels dumb in the worst way — bad links, weak checks, fake help desks, shady forum posts, and people turning supply chain attacks into some cursed little game for clout and "
+    },
+    {
+      "title": "Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike",
+      "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html",
+      "raw_summary": "The Belarus-aligned threat group known as Ghostwriter has been attributed to a fresh set of attacks targeting governmental organizations in Ukraine.\nActive since at least 2016, Ghostwriter has been linked to both cyber espionage and influence operations targeting neighboring countries, particularly Ukraine. It's also tracked under the monikers FrostyNeighbor, PUSHCHA, Storm-0257, TA445, UAC‑0057",
+      "source": "The Hacker News",
+      "published": "Thu, 14 May 2026 19:30:37 +0530",
+      "summary": "Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike\nThe Belarus-aligned threat group known as Ghostwriter has been attributed to a fresh set of attacks targeting governmental organizations in Ukraine.\nActive since at least 2016, Ghostwriter has been linked to both cyb"
+    },
+    {
       "title": "PraisonAI CVE-2026-44338 Auth Bypass Targeted Within Hours of Disclosure",
       "link": "https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html",
       "raw_summary": "Threat actors have been observed attempting to exploit a recently disclosed security vulnerability in PraisonAI, an open-source multi-agent orchestration framework, within four hours of public disclosure.\nThe vulnerability in question is CVE-2026-44338 (CVSS score: 7.3), a case of missing authentication that exposes sensitive endpoints to anyone, potentially allowing an attacker to invoke the",
@@ -51,276 +83,244 @@
       "summary": "PraisonAI CVE-2026-44338 Auth Bypass Targeted Within Hours of Disclosure\nThreat actors have been observed attempting to exploit a recently disclosed security vulnerability in PraisonAI, an open-source multi-agent orchestration framework, within four hours of public disclosure.\nThe vulnerability in q"
     },
     {
-      "title": "How AI Hallucinations Are Creating Real Security Risks",
-      "link": "https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html",
-      "raw_summary": "AI hallucinations are introducing serious security risks into critical infrastructure decision-making by exploiting human trust through highly confident yet incorrect outputs. When an AI model lacks certainty, it doesn’t have a mechanism to recognize that. Instead, it generates the most probable response based on patterns in its training data, even if that response is inaccurate. These outputs",
-      "source": "The Hacker News",
-      "published": "Thu, 14 May 2026 17:00:00 +0530",
-      "summary": "How AI Hallucinations Are Creating Real Security Risks\nAI hallucinations are introducing serious security risks into critical infrastructure decision-making by exploiting human trust through highly confident yet incorrect outputs. When an AI model lacks certainty, it doesn’t have a mechanism to reco"
-    },
-    {
-      "title": "Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation",
-      "link": "https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html",
-      "raw_summary": "An anonymous cybersecurity researcher who disclosed three Microsoft Defender vulnerabilities has returned with two more zero-days involving a BitLocker bypass and a privilege escalation impacting Windows Collaborative Translation Framework (CTFMON).\nThe security defects have been codenamed YellowKey and GreenPlasma, respectively, by the researcher, who goes by the online aliases Chaotic Eclipse",
-      "source": "The Hacker News",
-      "published": "Thu, 14 May 2026 14:55:50 +0530",
-      "summary": "Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation\nAn anonymous cybersecurity researcher who disclosed three Microsoft Defender vulnerabilities has returned with two more zero-days involving a BitLocker bypass and a privilege escalation impacting Windows Collaborative Transl"
-    },
-    {
-      "title": "New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption",
-      "link": "https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html",
-      "raw_summary": "Details have emerged about a new variant of the recent Dirty Frag Linux local privilege escalation (LPE) vulnerability that allows local attackers to gain root access, making it the third such bug to be identified in the kernel within a span of two weeks.\nCodenamed Fragnesia, the security vulnerability is tracked as CVE-2026-46300 (CVSS score: 7.8) and is rooted in the Linux kernel's XFRM",
-      "source": "The Hacker News",
-      "published": "Thu, 14 May 2026 12:36:15 +0530",
-      "summary": "New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption\nDetails have emerged about a new variant of the recent Dirty Frag Linux local privilege escalation (LPE) vulnerability that allows local attackers to gain root access, making it the third such bug to be identified in the ker"
-    },
-    {
-      "title": "18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE",
-      "link": "https://thehackernews.com/2026/05/18-year-old-nginx-rewrite-module-flaw.html",
-      "raw_summary": "Cybersecurity researchers have disclosed multiple security vulnerabilities impacting NGINX Plus and NGINX Open, including a critical flaw that remained undetected for 18 years.\nThe vulnerability, discovered by depthfirst, is a heap buffer overflow issue impacting ngx_http_rewrite_module (CVE-2026-42945, CVSS v4 score: 9.2) that could allow an attacker to achieve remote code execution or cause a",
-      "source": "The Hacker News",
-      "published": "Thu, 14 May 2026 11:30:09 +0530",
-      "summary": "18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE\nCybersecurity researchers have disclosed multiple security vulnerabilities impacting NGINX Plus and NGINX Open, including a critical flaw that remained undetected for 18 years.\nThe vulnerability, discovered by depthfirst, is a heap bu"
-    },
-    {
-      "title": "USDA Projects Smallest US Wheat Harvest Since 1972 Due to Plains Drought",
-      "link": "https://www.agweb.com/news/usda-projects-smallest-us-wheat-harvest-1972-due-plains-drought",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.agweb.com/news/usda-projects-smallest-us-wheat-harvest-1972-due-plains-drought\">https://www.agweb.com/news/usda-projects-smallest-us-wheat-harvest-1972-due-plains-drought</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48134993\">https://news.ycombinator.com/item?id=48134993</a></p>\n<p>Points: 35</p>\n<p># Comments: 11</p>",
+      "title": "The Power of a Free Popsicle (2018)",
+      "link": "https://www.gsb.stanford.edu/insights/power-free-popsicle",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.gsb.stanford.edu/insights/power-free-popsicle\">https://www.gsb.stanford.edu/insights/power-free-popsicle</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48139316\">https://news.ycombinator.com/item?id=48139316</a></p>\n<p>Points: 11</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 14 May 2026 13:17:57 +0000",
-      "summary": "USDA Projects Smallest US Wheat Harvest Since 1972 Due to Plains Drought\n<p>Article URL: <a href=\"https://www.agweb.com/news/usda-projects-smallest-us-wheat-harvest-1972-due-plains-drought\">https://www.agweb.com/news/usda-projects-smallest-us-wheat-harvest-1972-due-plains-drought</a></p>\n<p>Comments"
+      "published": "Thu, 14 May 2026 18:33:47 +0000",
+      "summary": "The Power of a Free Popsicle (2018)\n<p>Article URL: <a href=\"https://www.gsb.stanford.edu/insights/power-free-popsicle\">https://www.gsb.stanford.edu/insights/power-free-popsicle</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48139316\">https://news.ycombinator.com/item?id=4813"
     },
     {
-      "title": "The Whole Anthropic Kerfuffle",
-      "link": "https://twitter.com/josevalim/status/2054887621336174799",
-      "raw_summary": "<p>Article URL: <a href=\"https://twitter.com/josevalim/status/2054887621336174799\">https://twitter.com/josevalim/status/2054887621336174799</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48134869\">https://news.ycombinator.com/item?id=48134869</a></p>\n<p>Points: 29</p>\n<p># Comments: 13</p>",
+      "title": "Understanding the Linux Kernel: The Linux Kernel Startup",
+      "link": "https://internals-for-interns.com/posts/linux-kernel-startup/",
+      "raw_summary": "<p>Article URL: <a href=\"https://internals-for-interns.com/posts/linux-kernel-startup/\">https://internals-for-interns.com/posts/linux-kernel-startup/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48139220\">https://news.ycombinator.com/item?id=48139220</a></p>\n<p>Points: 13</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 14 May 2026 13:08:00 +0000",
-      "summary": "The Whole Anthropic Kerfuffle\n<p>Article URL: <a href=\"https://twitter.com/josevalim/status/2054887621336174799\">https://twitter.com/josevalim/status/2054887621336174799</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48134869\">https://news.ycombinator.com/item?id=48134869</a>"
+      "published": "Thu, 14 May 2026 18:25:10 +0000",
+      "summary": "Understanding the Linux Kernel: The Linux Kernel Startup\n<p>Article URL: <a href=\"https://internals-for-interns.com/posts/linux-kernel-startup/\">https://internals-for-interns.com/posts/linux-kernel-startup/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48139220\">https://news"
     },
     {
-      "title": "Claude Account Suspended Seconds After Purchase?",
-      "link": "https://news.ycombinator.com/item?id=48134808",
-      "raw_summary": "<p>I literally created a new account, pressed submit on the credit card dialog, the purchase goes through and i get logged out. I try to log in, and it says I'm banned. I check my mail box and I see an email with an invoice and another that I'm in violation of the ToS, submitted within the same minute LOL.<p>Is this some kind of joke? :O</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48134808\">https://news.ycombinator.com/item?id=48134808</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
+      "title": "First public macOS kernel memory corruption exploit on Apple M5",
+      "link": "https://blog.calif.io/p/first-public-kernel-memory-corruption",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.calif.io/p/first-public-kernel-memory-corruption\">https://blog.calif.io/p/first-public-kernel-memory-corruption</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48139219\">https://news.ycombinator.com/item?id=48139219</a></p>\n<p>Points: 22</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 14 May 2026 13:01:52 +0000",
-      "summary": "Claude Account Suspended Seconds After Purchase?\n<p>I literally created a new account, pressed submit on the credit card dialog, the purchase goes through and i get logged out. I try to log in, and it says I'm banned. I check my mail box and I see an email with an invoice and another that I'm in vio"
+      "published": "Thu, 14 May 2026 18:25:09 +0000",
+      "summary": "First public macOS kernel memory corruption exploit on Apple M5\n<p>Article URL: <a href=\"https://blog.calif.io/p/first-public-kernel-memory-corruption\">https://blog.calif.io/p/first-public-kernel-memory-corruption</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48139219\">https"
     },
     {
-      "title": "Computer Hobby Movement in Canada",
-      "link": "https://museum.eecs.yorku.ca/exhibits/show/hobby_canada/hobby_canada",
-      "raw_summary": "<p>Article URL: <a href=\"https://museum.eecs.yorku.ca/exhibits/show/hobby_canada/hobby_canada\">https://museum.eecs.yorku.ca/exhibits/show/hobby_canada/hobby_canada</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48134743\">https://news.ycombinator.com/item?id=48134743</a></p>\n<p>Points: 14</p>\n<p># Comments: 0</p>",
+      "title": "God Damn AI is making me dumb",
+      "link": "https://jpain.io/god-damn-ai-is-making-me-dumb/",
+      "raw_summary": "<p>Article URL: <a href=\"https://jpain.io/god-damn-ai-is-making-me-dumb/\">https://jpain.io/god-damn-ai-is-making-me-dumb/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48139148\">https://news.ycombinator.com/item?id=48139148</a></p>\n<p>Points: 144</p>\n<p># Comments: 86</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 14 May 2026 12:57:27 +0000",
-      "summary": "Computer Hobby Movement in Canada\n<p>Article URL: <a href=\"https://museum.eecs.yorku.ca/exhibits/show/hobby_canada/hobby_canada\">https://museum.eecs.yorku.ca/exhibits/show/hobby_canada/hobby_canada</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48134743\">https://news.ycombina"
+      "published": "Thu, 14 May 2026 18:19:28 +0000",
+      "summary": "God Damn AI is making me dumb\n<p>Article URL: <a href=\"https://jpain.io/god-damn-ai-is-making-me-dumb/\">https://jpain.io/god-damn-ai-is-making-me-dumb/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48139148\">https://news.ycombinator.com/item?id=48139148</a></p>\n<p>Points: 14"
     },
     {
-      "title": "Sam Altman's Business Dealings Under GOP Scrutiny Ahead of OpenAI's IPO",
-      "link": "https://www.wsj.com/tech/ai/sam-altmans-business-dealings-under-gop-scrutiny-ahead-of-openais-ipo-52c1cc4d",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.wsj.com/tech/ai/sam-altmans-business-dealings-under-gop-scrutiny-ahead-of-openais-ipo-52c1cc4d\">https://www.wsj.com/tech/ai/sam-altmans-business-dealings-under-gop-scrutiny-ahead-of-openais-ipo-52c1cc4d</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48134429\">https://news.ycombinator.com/item?id=48134429</a></p>\n<p>Points: 17</p>\n<p># Comments: 4</p>",
+      "title": "You Don't Align an AI, You Align with It",
+      "link": "https://danieltan.weblog.lol/2026/05/you-dont-align-an-ai-you-align-with-it",
+      "raw_summary": "<p>Article URL: <a href=\"https://danieltan.weblog.lol/2026/05/you-dont-align-an-ai-you-align-with-it\">https://danieltan.weblog.lol/2026/05/you-dont-align-an-ai-you-align-with-it</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48139144\">https://news.ycombinator.com/item?id=48139144</a></p>\n<p>Points: 11</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 14 May 2026 12:27:29 +0000",
-      "summary": "Sam Altman's Business Dealings Under GOP Scrutiny Ahead of OpenAI's IPO\n<p>Article URL: <a href=\"https://www.wsj.com/tech/ai/sam-altmans-business-dealings-under-gop-scrutiny-ahead-of-openais-ipo-52c1cc4d\">https://www.wsj.com/tech/ai/sam-altmans-business-dealings-under-gop-scrutiny-ahead-of-openais-i"
+      "published": "Thu, 14 May 2026 18:19:13 +0000",
+      "summary": "You Don't Align an AI, You Align with It\n<p>Article URL: <a href=\"https://danieltan.weblog.lol/2026/05/you-dont-align-an-ai-you-align-with-it\">https://danieltan.weblog.lol/2026/05/you-dont-align-an-ai-you-align-with-it</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48139144\">"
     },
     {
-      "title": "Uber to open 2 campuses in India to support product development, operations",
-      "link": "https://techcrunch.com/2026/05/14/uber-to-open-2-campuses-in-india-to-support-product-development-operations/",
-      "raw_summary": "Uber plans to open two new engineering campuses with a capacity of nearly 10,000 people in India by the end of 2027.",
+      "title": "OpenAI is reportedly preparing legal action against Apple; it wouldn’t be the first partner to feel burned",
+      "link": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
+      "raw_summary": "According to Bloomberg, OpenAI has enlisted an outside law firm to work through its options.",
       "source": "TechCrunch",
-      "published": "Thu, 14 May 2026 13:43:27 +0000",
-      "summary": "Uber to open 2 campuses in India to support product development, operations\nUber plans to open two new engineering campuses with a capacity of nearly 10,000 people in India by the end of 2027."
+      "published": "Thu, 14 May 2026 19:12:03 +0000",
+      "summary": "OpenAI is reportedly preparing legal action against Apple; it wouldn’t be the first partner to feel burned\nAccording to Bloomberg, OpenAI has enlisted an outside law firm to work through its options."
     },
     {
-      "title": "Who decides what AI tells you? Campbell Brown, once Meta’s news chief, has thoughts",
-      "link": "https://techcrunch.com/2026/05/13/who-decides-what-ai-tells-you-campbell-brown-once-metas-news-chief-has-thoughts/",
-      "raw_summary": "\"The conversation is sort of happening in Silicon Valley around one thing, and a totally different conversation is happening among consumers.\"",
+      "title": "Clawdmeter turns your Claude Code usage stats into a tiny desktop dashboard",
+      "link": "https://techcrunch.com/2026/05/14/clawdmeter-turns-your-claude-code-usage-stats-into-a-tiny-desktop-dashboard/",
+      "raw_summary": "A new open source gadget called Clawdmeter turns Claude Code usage stats into a tiny desktop dashboard for AI coding power users.",
       "source": "TechCrunch",
-      "published": "Thu, 14 May 2026 06:05:31 +0000",
-      "summary": "Who decides what AI tells you? Campbell Brown, once Meta’s news chief, has thoughts\n\"The conversation is sort of happening in Silicon Valley around one thing, and a totally different conversation is happening among consumers.\""
+      "published": "Thu, 14 May 2026 19:05:01 +0000",
+      "summary": "Clawdmeter turns your Claude Code usage stats into a tiny desktop dashboard\nA new open source gadget called Clawdmeter turns Claude Code usage stats into a tiny desktop dashboard for AI coding power users."
     },
     {
-      "title": "Clio’s $500M milestone arrives just as Anthropic ups the ante",
-      "link": "https://techcrunch.com/2026/05/13/clios-500m-milestone-arrives-just-as-anthropic-ups-the-ante/",
-      "raw_summary": "Legal tech startups, including Clio, which just hit $500 million in ARR, are seeing massive customer adoption.",
+      "title": "YouTube viewers watch 2 billion hours of Shorts on TVs each month",
+      "link": "https://techcrunch.com/2026/05/14/youtube-viewers-watch-2-billion-hours-of-shorts-on-tvs-each-month/",
+      "raw_summary": "Short-form video is built for mobile, so it may seem counterintuitive, but it's true: YouTube Shorts are becoming quite popular on the big screen.",
       "source": "TechCrunch",
-      "published": "Thu, 14 May 2026 05:24:39 +0000",
-      "summary": "Clio’s $500M milestone arrives just as Anthropic ups the ante\nLegal tech startups, including Clio, which just hit $500 million in ARR, are seeing massive customer adoption."
+      "published": "Thu, 14 May 2026 18:56:43 +0000",
+      "summary": "YouTube viewers watch 2 billion hours of Shorts on TVs each month\nShort-form video is built for mobile, so it may seem counterintuitive, but it's true: YouTube Shorts are becoming quite popular on the big screen."
     },
     {
-      "title": "Notion just turned its workspace into a hub for AI agents",
-      "link": "https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/",
-      "raw_summary": "Notion’s new developer platform lets teams connect AI agents, external data sources, and custom code directly into their workspace as the company pushes deeper into agentic productivity software.",
+      "title": "Cerebras raises $5.5B, then stock pops $108%, in the first huge tech IPO of 2026",
+      "link": "https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/",
+      "raw_summary": "A year ago, it looked like this day would never happen for Cerebras.",
       "source": "TechCrunch",
-      "published": "Wed, 13 May 2026 21:45:09 +0000",
-      "summary": "Notion just turned its workspace into a hub for AI agents\nNotion’s new developer platform lets teams connect AI agents, external data sources, and custom code directly into their workspace as the company pushes deeper into agentic productivity software."
+      "published": "Thu, 14 May 2026 16:30:02 +0000",
+      "summary": "Cerebras raises $5.5B, then stock pops $108%, in the first huge tech IPO of 2026\nA year ago, it looked like this day would never happen for Cerebras."
     },
     {
-      "title": "Musk’s xAI is running nearly 50 gas turbines unchecked at its Mississippi data center",
-      "link": "https://techcrunch.com/2026/05/13/musks-xai-is-running-nearly-50-gas-turbines-unchecked-at-its-mississippi-data-center/",
-      "raw_summary": "Gas turbines at xAI's Colossus 2 data center have drawn a lawsuit over the company's use of \"mobile\" gas turbines as power plants.",
+      "title": "OpenAI says hackers stole some data after latest code security issue",
+      "link": "https://techcrunch.com/2026/05/14/openai-says-hackers-stole-some-data-after-latest-code-security-issue/",
+      "raw_summary": "OpenAI said the damage was limited to the employees’ devices, and did not affect user data nor its production systems, and none of its intellectual property was stolen.",
       "source": "TechCrunch",
-      "published": "Wed, 13 May 2026 19:49:42 +0000",
-      "summary": "Musk’s xAI is running nearly 50 gas turbines unchecked at its Mississippi data center\nGas turbines at xAI's Colossus 2 data center have drawn a lawsuit over the company's use of \"mobile\" gas turbines as power plants."
+      "published": "Thu, 14 May 2026 16:25:20 +0000",
+      "summary": "OpenAI says hackers stole some data after latest code security issue\nOpenAI said the damage was limited to the employees’ devices, and did not affect user data nor its production systems, and none of its intellectual property was stolen."
     },
     {
-      "title": "Desperate Trump taps \"Tim Apple,\" Jensen Huang, Elon Musk to attend Xi summit",
-      "link": "https://arstechnica.com/tech-policy/2026/05/desperate-trump-taps-tim-apple-jensen-huang-elon-musk-to-attend-xi-summit/",
-      "raw_summary": "Xi meeting may force Trump to pivot on semiconductor tariffs and Taiwan.",
+      "title": "AMD promises to bring improved, hardware-backed FSR 4 upscaling to older Radeon GPUs",
+      "link": "https://arstechnica.com/gadgets/2026/05/amd-promises-to-bring-improved-hardware-backed-fsr-4-upscaling-to-older-radeon-gpus/",
+      "raw_summary": "FSR 4.1 running on RDNA3 or RDNA2 GPUs may take a bigger performance hit.",
       "source": "Ars Technica - All content",
-      "published": "Thu, 14 May 2026 11:00:58 +0000",
-      "summary": "Desperate Trump taps \"Tim Apple,\" Jensen Huang, Elon Musk to attend Xi summit\nXi meeting may force Trump to pivot on semiconductor tariffs and Taiwan."
+      "published": "Thu, 14 May 2026 18:55:54 +0000",
+      "summary": "AMD promises to bring improved, hardware-backed FSR 4 upscaling to older Radeon GPUs\nFSR 4.1 running on RDNA3 or RDNA2 GPUs may take a bigger performance hit."
     },
     {
-      "title": "Solar drone with jumbo jet wingspan broke a flight record—then it crashed",
-      "link": "https://arstechnica.com/gadgets/2026/05/solar-drone-with-jumbo-jet-wingspan-broke-a-flight-record-then-it-crashed/",
-      "raw_summary": "The final flight and complex legacy of a pioneering solar-powered aircraft.",
+      "title": "Judge probes whether Musk settlement with Trump admin is tainted by corruption",
+      "link": "https://arstechnica.com/tech-policy/2026/05/judge-probes-whether-musk-settlement-with-trump-admin-is-tainted-by-corruption/",
+      "raw_summary": "Trump admin wants to let Musk pay $1.5M fine to settle $150 million Twitter suit.",
       "source": "Ars Technica - All content",
-      "published": "Wed, 13 May 2026 21:48:27 +0000",
-      "summary": "Solar drone with jumbo jet wingspan broke a flight record—then it crashed\nThe final flight and complex legacy of a pioneering solar-powered aircraft."
+      "published": "Thu, 14 May 2026 18:45:01 +0000",
+      "summary": "Judge probes whether Musk settlement with Trump admin is tainted by corruption\nTrump admin wants to let Musk pay $1.5M fine to settle $150 million Twitter suit."
     },
     {
-      "title": "FCC angers small carriers by helping AT&T and Starlink buy EchoStar spectrum",
-      "link": "https://arstechnica.com/tech-policy/2026/05/fcc-angers-small-carriers-by-helping-att-and-starlink-buy-echostar-spectrum/",
-      "raw_summary": "Approval is no surprise after FCC chair pressured EchoStar to sell licenses.",
+      "title": "Zero-day exploit completely defeats default Windows 11 BitLocker protections",
+      "link": "https://arstechnica.com/security/2026/05/zero-day-exploit-completely-defeats-default-windows-11-bitlocker-protections/",
+      "raw_summary": "It's not entirely clear how the exploit works. Microsoft says it's investigating.",
       "source": "Ars Technica - All content",
-      "published": "Wed, 13 May 2026 20:44:38 +0000",
-      "summary": "FCC angers small carriers by helping AT&T and Starlink buy EchoStar spectrum\nApproval is no surprise after FCC chair pressured EchoStar to sell licenses."
+      "published": "Thu, 14 May 2026 18:32:01 +0000",
+      "summary": "Zero-day exploit completely defeats default Windows 11 BitLocker protections\nIt's not entirely clear how the exploit works. Microsoft says it's investigating."
     },
     {
-      "title": "Protein in Homo erectus teeth suggests Denisovans gave us some of their DNA",
-      "link": "https://arstechnica.com/science/2026/05/protein-in-homo-erectus-teeth-suggests-denisovans-gave-us-some-of-their-dna/",
-      "raw_summary": "Distinct form of tooth protein in <i>Homo erectus</i> shows up in Denisovans&#8212;and us.",
+      "title": "Your doctor’s AI notetaker may be making things up, Ontario audit finds",
+      "link": "https://arstechnica.com/health/2026/05/your-doctors-ai-notetaker-may-be-making-things-up-ontario-audit-finds/",
+      "raw_summary": "Made-up therapy referrals, incorrect prescriptions among the common mistakes.",
       "source": "Ars Technica - All content",
-      "published": "Wed, 13 May 2026 20:27:54 +0000",
-      "summary": "Protein in Homo erectus teeth suggests Denisovans gave us some of their DNA\nDistinct form of tooth protein in <i>Homo erectus</i> shows up in Denisovans&#8212;and us."
+      "published": "Thu, 14 May 2026 17:28:43 +0000",
+      "summary": "Your doctor’s AI notetaker may be making things up, Ontario audit finds\nMade-up therapy referrals, incorrect prescriptions among the common mistakes."
     },
     {
-      "title": "Foiled plot tried to sneak 49 lbs of cocaine into Australia via Xerox printers",
-      "link": "https://arstechnica.com/tech-policy/2026/05/foiled-plot-tried-to-sneak-49-lbs-of-cocaine-into-australia-via-xerox-printers/",
-      "raw_summary": "The drugs had an estimated worth of over $9 million USD.",
+      "title": "Vaporware or not? Aptera assembles its first five validation models.",
+      "link": "https://arstechnica.com/cars/2026/05/vaporware-or-not-aptera-assembles-its-first-five-validation-models/",
+      "raw_summary": "The three-wheel, two-seat EV has been in development since 2006.",
       "source": "Ars Technica - All content",
-      "published": "Wed, 13 May 2026 20:06:09 +0000",
-      "summary": "Foiled plot tried to sneak 49 lbs of cocaine into Australia via Xerox printers\nThe drugs had an estimated worth of over $9 million USD."
+      "published": "Thu, 14 May 2026 17:06:23 +0000",
+      "summary": "Vaporware or not? Aptera assembles its first five validation models.\nThe three-wheel, two-seat EV has been in development since 2006."
     },
     {
-      "title": "US Senate confirms Warsh as Fed chair",
-      "link": "https://www.ft.com/content/afb57ddb-ace0-44b6-a083-d4c4232a9b2d",
-      "raw_summary": "Also in today’s newsletter, the importance of independent voters ahead of this year’s midterm elections",
+      "title": "US authorities prepare to end Adani fraud cases",
+      "link": "https://www.ft.com/content/4d9bfc38-9f14-42a5-8962-6f6ce83f3eb0",
+      "raw_summary": "Indian tycoon had lobbied Trump administration and pledged billions of dollars of investment in America",
       "source": "World",
-      "published": "Thu, 14 May 2026 13:00:08 GMT",
-      "summary": "US Senate confirms Warsh as Fed chair\nAlso in today’s newsletter, the importance of independent voters ahead of this year’s midterm elections"
+      "published": "Thu, 14 May 2026 18:23:13 GMT",
+      "summary": "US authorities prepare to end Adani fraud cases\nIndian tycoon had lobbied Trump administration and pledged billions of dollars of investment in America"
     },
     {
-      "title": "The confident performer with a mixed record of reform",
-      "link": "https://www.ft.com/content/211a8f21-afd5-41c7-bb1d-afcbdabcf030",
-      "raw_summary": "The health secretary’s ambition to succeed Keir Starmer was well known, but his time overseeing the NHS has proved trickier than expected",
+      "title": "Burnham says he will try to become MP for Makerfield",
+      "link": "https://www.ft.com/content/04368fd7-05c4-441e-b40a-a76aacbc0e9e",
+      "raw_summary": "Move raises the possibility of a tight by-election against Nigel Farage’s Reform UK",
       "source": "World",
-      "published": "Thu, 14 May 2026 12:42:50 GMT",
-      "summary": "The confident performer with a mixed record of reform\nThe health secretary’s ambition to succeed Keir Starmer was well known, but his time overseeing the NHS has proved trickier than expected"
+      "published": "Thu, 14 May 2026 18:16:20 GMT",
+      "summary": "Burnham says he will try to become MP for Makerfield\nMove raises the possibility of a tight by-election against Nigel Farage’s Reform UK"
     },
     {
-      "title": "UK first-quarter growth ‘probably part illusion’, analysts warn",
-      "link": "https://www.ft.com/content/d53546c2-37e9-46d0-8fe9-c9120d0aac6e",
-      "raw_summary": "Budget-related uncertainty has made it harder to estimate GDP, top statistician says",
+      "title": "Cuba runs out of diesel and fuel oil",
+      "link": "https://www.ft.com/content/bc369299-2048-4d28-b5aa-c3227c9fb0b7",
+      "raw_summary": "Protests erupt as energy minister admits island has ‘absolutely no’ supplies or reserves",
       "source": "World",
-      "published": "Thu, 14 May 2026 12:29:38 GMT",
-      "summary": "UK first-quarter growth ‘probably part illusion’, analysts warn\nBudget-related uncertainty has made it harder to estimate GDP, top statistician says"
+      "published": "Thu, 14 May 2026 18:09:14 GMT",
+      "summary": "Cuba runs out of diesel and fuel oil\nProtests erupt as energy minister admits island has ‘absolutely no’ supplies or reserves"
     },
     {
-      "title": "Wes Streeting resigns from government",
-      "link": "https://www.ft.com/content/e8383d83-abb0-4879-b421-92ed7c4a70e7",
-      "raw_summary": "Health secretary says he has ‘lost confidence’ in Starmer but stops short of launching leadership challenge",
+      "title": "Why Labour cannot ignore the gilt market",
+      "link": "https://www.ft.com/content/1db8726d-e3a6-4c70-88d9-f981621093ad",
+      "raw_summary": "Leadership hopefuls should not get into a trial of strength with bond investors",
       "source": "World",
-      "published": "Thu, 14 May 2026 12:21:05 GMT",
-      "summary": "Wes Streeting resigns from government\nHealth secretary says he has ‘lost confidence’ in Starmer but stops short of launching leadership challenge"
+      "published": "Thu, 14 May 2026 17:58:06 GMT",
+      "summary": "Why Labour cannot ignore the gilt market\nLeadership hopefuls should not get into a trial of strength with bond investors"
     },
     {
-      "title": "China warns UK over nationalisation of British Steel",
-      "link": "https://www.ft.com/content/8761aa1d-2258-4888-b40d-c22a024bda05",
-      "raw_summary": "Beijing says it will take ‘strong measures’ to protect rights of owner Jingye",
+      "title": "AI chipmaker Cerebras surges more than 100% in Wall Street debut",
+      "link": "https://www.ft.com/content/4848fbef-d9af-46ee-b6ef-ad344a7a3814",
+      "raw_summary": "Trading pop underscores strong demand for shares in companies linked to AI boom",
       "source": "World",
-      "published": "Thu, 14 May 2026 12:18:42 GMT",
-      "summary": "China warns UK over nationalisation of British Steel\nBeijing says it will take ‘strong measures’ to protect rights of owner Jingye"
+      "published": "Thu, 14 May 2026 17:51:51 GMT",
+      "summary": "AI chipmaker Cerebras surges more than 100% in Wall Street debut\nTrading pop underscores strong demand for shares in companies linked to AI boom"
     },
     {
-      "title": "Stocks Rise After Retail Sales Data as Cisco Soars: Markets Wrap",
+      "title": "Oil Steady After Trump-Xi Talks as Iran War Remains in Limbo",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-13/latest-oil-market-news-and-analysis-for-may-14",
+      "raw_summary": "Oil steadied following a meeting between US President Donald Trump and Chinese leader Xi Jinping where discussions included the war in Iran and closer oil ties between the two nations.",
+      "source": "Bloomberg Markets",
+      "published": "Wed, 13 May 2026 22:08:52 GMT",
+      "summary": "Oil Steady After Trump-Xi Talks as Iran War Remains in Limbo\nOil steadied following a meeting between US President Donald Trump and Chinese leader Xi Jinping where discussions included the war in Iran and closer oil ties between the two nations."
+    },
+    {
+      "title": "Dollar’s Link to Oil Most Positive Ever Amid Iran Conflict",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-14/dollar-s-link-to-oil-most-positive-ever-as-iran-crisis-drags-on",
+      "raw_summary": "Eleven weeks into a Middle Eastern conflict that has shuttered a critical shipping channel and sent energy prices soaring, the US dollar’s linkage to oil prices is more positive than ever before.",
+      "source": "Bloomberg Markets",
+      "published": "Thu, 14 May 2026 15:33:34 GMT",
+      "summary": "Dollar’s Link to Oil Most Positive Ever Amid Iran Conflict\nEleven weeks into a Middle Eastern conflict that has shuttered a critical shipping channel and sent energy prices soaring, the US dollar’s linkage to oil prices is more positive than ever before."
+    },
+    {
+      "title": "S&amp;P 500 Tops 7,500 as AI Fuels Record-Breaking Run: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-05-13/asian-stocks-to-climb-as-wall-street-hits-new-high-markets-wrap",
       "raw_summary": "A revival of the artificial-intelligence trade kept fueling momentum in stocks, with the market also rising after retail sales showed signs of consumer strength despite a war-driven surge in energy costs.",
       "source": "Bloomberg Markets",
       "published": "Wed, 13 May 2026 22:07:17 GMT",
-      "summary": "Stocks Rise After Retail Sales Data as Cisco Soars: Markets Wrap\nA revival of the artificial-intelligence trade kept fueling momentum in stocks, with the market also rising after retail sales showed signs of consumer strength despite a war-driven surge in energy costs."
+      "summary": "S&amp;P 500 Tops 7,500 as AI Fuels Record-Breaking Run: Markets Wrap\nA revival of the artificial-intelligence trade kept fueling momentum in stocks, with the market also rising after retail sales showed signs of consumer strength despite a war-driven surge in energy costs."
     },
     {
-      "title": "US Stocks Extend Record Climb as Cisco, AI IPO Boost Sentiment",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-14/us-stock-futures-gain-as-ai-trade-drives-tech-rally-cisco-soars",
-      "raw_summary": "US equities rose as the artificial intelligence trade continued to drive gains across technology shares, powered by upbeat earnings from Cisco Systems Inc. and an AI IPO.",
+      "title": "Schonfeld-Backed Perbak Closing Hedge Fund After ‘Too-Short’ Run",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-14/schonfeld-backed-perbak-closing-hedge-fund-after-too-short-run",
+      "raw_summary": "Perbak Capital Partners, a UK-based hedge fund backed by Schonfeld Strategic Advisors, is winding down after determining its assets haven’t grown enough to maintain a “significant financial buffer” to protect the business.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 14 May 2026 12:03:05 GMT",
-      "summary": "US Stocks Extend Record Climb as Cisco, AI IPO Boost Sentiment\nUS equities rose as the artificial intelligence trade continued to drive gains across technology shares, powered by upbeat earnings from Cisco Systems Inc. and an AI IPO."
+      "published": "Thu, 14 May 2026 19:08:17 GMT",
+      "summary": "Schonfeld-Backed Perbak Closing Hedge Fund After ‘Too-Short’ Run\nPerbak Capital Partners, a UK-based hedge fund backed by Schonfeld Strategic Advisors, is winding down after determining its assets haven’t grown enough to maintain a “significant financial buffer” to protect the business."
     },
     {
-      "title": "Buybacks, Revamps, Deals: Firms Dig Deep to Fix Problem Private Credit Funds",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-14/private-credit-crisis-has-kkr-apollo-blackrock-tackling-problem-funds",
-      "raw_summary": "The troubled private credit funds, by most any measure, are a sliver of the assets of investing giants KKR &amp; Co., BlackRock Inc. and Apollo Global Management Inc.",
+      "title": "Foreign Buyers Snap Up Nearly Half of Trump’s Emergency Oil",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-14/foreign-buyers-snap-up-nearly-half-of-trump-s-emergency-oil",
+      "raw_summary": "Nearly half of the crude oil released from the US Strategic Petroleum Reserve is being exported, a fresh sign of how severely global supplies have tightened amid the Iran war.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 14 May 2026 13:35:57 GMT",
-      "summary": "Buybacks, Revamps, Deals: Firms Dig Deep to Fix Problem Private Credit Funds\nThe troubled private credit funds, by most any measure, are a sliver of the assets of investing giants KKR &amp; Co., BlackRock Inc. and Apollo Global Management Inc."
+      "published": "Thu, 14 May 2026 19:03:09 GMT",
+      "summary": "Foreign Buyers Snap Up Nearly Half of Trump’s Emergency Oil\nNearly half of the crude oil released from the US Strategic Petroleum Reserve is being exported, a fresh sign of how severely global supplies have tightened amid the Iran war."
     },
     {
-      "title": "Jumia Cuts Jobs Amid AI Shift",
-      "link": "https://www.bloomberg.com/news/videos/2026-05-14/jumia-cuts-jobs-amid-ai-shift-video",
-      "raw_summary": "Jumia plans to cut 10% of its workforce as AI rolls out across jobs within the African e-commence giant. CEO Francis Dufay spoke to Bloomberg's Jennifer Zabasajja from Abidjan. (Source: Bloomberg)",
-      "source": "Bloomberg Markets",
-      "published": "Thu, 14 May 2026 13:35:28 GMT",
-      "summary": "Jumia Cuts Jobs Amid AI Shift\nJumia plans to cut 10% of its workforce as AI rolls out across jobs within the African e-commence giant. CEO Francis Dufay spoke to Bloomberg's Jennifer Zabasajja from Abidjan. (Source: Bloomberg)"
-    },
-    {
-      "title": "Amazon’s AI Success Sends Stock Racing Toward $3 Trillion Club",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-14/amazon-s-ai-success-sends-stock-racing-toward-3-trillion-club",
-      "raw_summary": "Investors are growing increasingly optimistic about Amazon.com Inc.’s position in artificial intelligence, lighting a fire under the stock and sending the company’s market capitalization soaring toward the rarefied $3 trillion level.",
-      "source": "Bloomberg Markets",
-      "published": "Thu, 14 May 2026 11:16:35 GMT",
-      "summary": "Amazon’s AI Success Sends Stock Racing Toward $3 Trillion Club\nInvestors are growing increasingly optimistic about Amazon.com Inc.’s position in artificial intelligence, lighting a fire under the stock and sending the company’s market capitalization soaring toward the rarefied $3 trillion level."
-    },
-    {
-      "title": "Why bitcoin’s recent climb to $80,000 might just be a temporary liquidity squeeze",
-      "link": "https://www.coindesk.com/markets/2026/05/14/why-bitcoin-s-recent-climb-to-usd80-000-might-just-be-a-temporary-liquidity-squeeze",
+      "title": "Bitcoin hits $82,000, Coinbase leads crypto stock gains as Clarity Act advances",
+      "link": "https://www.coindesk.com/markets/2026/05/14/bitcoin-hits-usd82-000-coinbase-leads-crypto-stock-gains-as-clarity-act-advances",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 14 May 2026 13:44:23 +0000",
-      "summary": "Why bitcoin’s recent climb to $80,000 might just be a temporary liquidity squeeze\n"
+      "published": "Thu, 14 May 2026 17:51:00 +0000",
+      "summary": "Bitcoin hits $82,000, Coinbase leads crypto stock gains as Clarity Act advances\n"
     },
     {
-      "title": "CoinDesk 20 performance update: Bittensor (TAO) rises 1.7%, leading index higher",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/05/14/coindesk-20-performance-update-bittensor-tao-rises-1-7-leading-index-higher",
+      "title": "Cerebras shares skyrocket 100% after $5.5B IPO amid AI stock frenzy",
+      "link": "https://www.coindesk.com/markets/2026/05/14/cerebras-shares-skyrocket-100-after-usd5-5b-ipo-amid-ai-stock-frenzy",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 14 May 2026 13:27:19 +0000",
-      "summary": "CoinDesk 20 performance update: Bittensor (TAO) rises 1.7%, leading index higher\n"
+      "published": "Thu, 14 May 2026 17:12:17 +0000",
+      "summary": "Cerebras shares skyrocket 100% after $5.5B IPO amid AI stock frenzy\n"
     },
     {
-      "title": "Turnkey raises $12.5 million in round backed by Circle Ventures and Sequoia Capital",
-      "link": "https://www.coindesk.com/business/2026/05/06/turnkey-raises-usd12-5-million-in-round-backed-by-circle-ventures-and-sequoia-capital",
+      "title": "Clarity Act clears U.S. Senate committee, on its way to a final test in Congress",
+      "link": "https://www.coindesk.com/policy/2026/05/14/clarity-act-clears-u-s-senate-committee-on-its-way-to-a-final-test-in-congress",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 14 May 2026 13:00:00 +0000",
-      "summary": "Turnkey raises $12.5 million in round backed by Circle Ventures and Sequoia Capital\n"
+      "published": "Thu, 14 May 2026 17:08:07 +0000",
+      "summary": "Clarity Act clears U.S. Senate committee, on its way to a final test in Congress\n"
     },
     {
-      "title": "Stablecoin-powered neobank Fasset raises $51 million to expand across emerging markets",
-      "link": "https://www.coindesk.com/business/2026/05/14/stablecoin-powered-neobank-fasset-raises-usd51-million-to-expand-across-emerging-markets",
+      "title": "CME dives further into $85 trillion digital assets market with Nasdaq CME Crypto Index futures",
+      "link": "https://www.coindesk.com/markets/2026/05/14/cme-dives-further-into-usd85-trillion-digital-assets-market-with-nasdaq-cme-crypto-index-futures",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 14 May 2026 13:00:00 +0000",
-      "summary": "Stablecoin-powered neobank Fasset raises $51 million to expand across emerging markets\n"
+      "published": "Thu, 14 May 2026 16:25:45 +0000",
+      "summary": "CME dives further into $85 trillion digital assets market with Nasdaq CME Crypto Index futures\n"
     },
     {
-      "title": "BlackRock, Janus Henderson tokenized funds get instant redemptions with new $1 billion facility",
-      "link": "https://www.coindesk.com/business/2026/05/14/blackrock-janus-henderson-tokenized-funds-get-instant-redemptions-with-new-usd1-billion-facility",
+      "title": "U.S. senators lament failure to win bipartisan support, yet, on crypto Clarity Act",
+      "link": "https://www.coindesk.com/policy/2026/05/14/u-s-senators-lament-failure-to-win-bipartisan-support-yet-on-crypto-clarity-act",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 14 May 2026 13:00:00 +0000",
-      "summary": "BlackRock, Janus Henderson tokenized funds get instant redemptions with new $1 billion facility\n"
+      "published": "Thu, 14 May 2026 15:57:34 +0000",
+      "summary": "U.S. senators lament failure to win bipartisan support, yet, on crypto Clarity Act\n"
     }
   ]
 }
