@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T08:29:09.117185+00:00",
+  "generated_at": "2026-05-14T13:51:09.347086+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "Patch Tuesday, April 2026 Edition\nMicrosoft today pushed software updates to fix a staggering 167 security vulnerabilities in its Windows operating systems and related software, including a SharePoint Server zero-day and a publicly disclosed weakness in Windows Defender dubbed \"BlueHammer.\" Separate"
     },
     {
+      "title": "PraisonAI CVE-2026-44338 Auth Bypass Targeted Within Hours of Disclosure",
+      "link": "https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html",
+      "raw_summary": "Threat actors have been observed attempting to exploit a recently disclosed security vulnerability in PraisonAI, an open-source multi-agent orchestration framework, within four hours of public disclosure.\nThe vulnerability in question is CVE-2026-44338 (CVSS score: 7.3), a case of missing authentication that exposes sensitive endpoints to anyone, potentially allowing an attacker to invoke the",
+      "source": "The Hacker News",
+      "published": "Thu, 14 May 2026 17:10:14 +0530",
+      "summary": "PraisonAI CVE-2026-44338 Auth Bypass Targeted Within Hours of Disclosure\nThreat actors have been observed attempting to exploit a recently disclosed security vulnerability in PraisonAI, an open-source multi-agent orchestration framework, within four hours of public disclosure.\nThe vulnerability in q"
+    },
+    {
+      "title": "How AI Hallucinations Are Creating Real Security Risks",
+      "link": "https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html",
+      "raw_summary": "AI hallucinations are introducing serious security risks into critical infrastructure decision-making by exploiting human trust through highly confident yet incorrect outputs. When an AI model lacks certainty, it doesn’t have a mechanism to recognize that. Instead, it generates the most probable response based on patterns in its training data, even if that response is inaccurate. These outputs",
+      "source": "The Hacker News",
+      "published": "Thu, 14 May 2026 17:00:00 +0530",
+      "summary": "How AI Hallucinations Are Creating Real Security Risks\nAI hallucinations are introducing serious security risks into critical infrastructure decision-making by exploiting human trust through highly confident yet incorrect outputs. When an AI model lacks certainty, it doesn’t have a mechanism to reco"
+    },
+    {
+      "title": "Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation",
+      "link": "https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html",
+      "raw_summary": "An anonymous cybersecurity researcher who disclosed three Microsoft Defender vulnerabilities has returned with two more zero-days involving a BitLocker bypass and a privilege escalation impacting Windows Collaborative Translation Framework (CTFMON).\nThe security defects have been codenamed YellowKey and GreenPlasma, respectively, by the researcher, who goes by the online aliases Chaotic Eclipse",
+      "source": "The Hacker News",
+      "published": "Thu, 14 May 2026 14:55:50 +0530",
+      "summary": "Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation\nAn anonymous cybersecurity researcher who disclosed three Microsoft Defender vulnerabilities has returned with two more zero-days involving a BitLocker bypass and a privilege escalation impacting Windows Collaborative Transl"
+    },
+    {
       "title": "New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption",
       "link": "https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html",
       "raw_summary": "Details have emerged about a new variant of the recent Dirty Frag Linux local privilege escalation (LPE) vulnerability that allows local attackers to gain root access, making it the third such bug to be identified in the kernel within a span of two weeks.\nCodenamed Fragnesia, the security vulnerability is tracked as CVE-2026-46300 (CVSS score: 7.8) and is rooted in the Linux kernel's XFRM",
@@ -59,68 +83,52 @@
       "summary": "18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE\nCybersecurity researchers have disclosed multiple security vulnerabilities impacting NGINX Plus and NGINX Open, including a critical flaw that remained undetected for 18 years.\nThe vulnerability, discovered by depthfirst, is a heap bu"
     },
     {
-      "title": "Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday",
-      "link": "https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html",
-      "raw_summary": "Microsoft has unveiled a new multi-model artificial intelligence (AI)-driven system called MDASH to facilitate vulnerability discovery and remediation at scale, adding that it's being tested by some customers as part of a limited private preview.\nMDASH, short for multi-model agentic scanning harness, is designed as a model-agnostic system that uses bespoke AI agents for different vulnerability",
-      "source": "The Hacker News",
-      "published": "Wed, 13 May 2026 19:16:02 +0530",
-      "summary": "Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday\nMicrosoft has unveiled a new multi-model artificial intelligence (AI)-driven system called MDASH to facilitate vulnerability discovery and remediation at scale, adding that it's being tested by some customers as part of a limi"
-    },
-    {
-      "title": "Azerbaijani Energy Firm Hit by Repeated Microsoft Exchange Exploitation",
-      "link": "https://thehackernews.com/2026/05/azerbaijani-energy-firm-hit-by-repeated.html",
-      "raw_summary": "A threat actor with affiliations to China has been linked to a \"multi-wave intrusion\" targeting an unnamed Azerbaijani oil and gas company between late December 2025 and late February 2026, marking an expansion of its targeting.\nThe activity has been attributed by Bitdefender with moderate-to-high confidence to a hacking group known as FamousSparrow (aka UAT-9244), which shares some level of",
-      "source": "The Hacker News",
-      "published": "Wed, 13 May 2026 18:30:00 +0530",
-      "summary": "Azerbaijani Energy Firm Hit by Repeated Microsoft Exchange Exploitation\nA threat actor with affiliations to China has been linked to a \"multi-wave intrusion\" targeting an unnamed Azerbaijani oil and gas company between late December 2025 and late February 2026, marking an expansion of its targeting."
-    },
-    {
-      "title": "[Webinar] How Modern Attack Paths Cross Code, Pipelines, and Cloud",
-      "link": "https://thehackernews.com/2026/05/webinar-why-your-appsec-tools-miss.html",
-      "raw_summary": "TL;DR: Stop chasing thousands of \"toast\" alerts. Join experts from Wiz to learn how hackers connect tiny flaws to build a \"Lethal Chain\" to your data—and how to break it. Register for the Strategic Briefing Here.\nMost security tools work like a smoke alarm that goes off every time you burn a piece of toast. You get so many alerts that you eventually start to ignore them.\nThe real danger? While",
-      "source": "The Hacker News",
-      "published": "Wed, 13 May 2026 17:22:43 +0530",
-      "summary": "[Webinar] How Modern Attack Paths Cross Code, Pipelines, and Cloud\nTL;DR: Stop chasing thousands of \"toast\" alerts. Join experts from Wiz to learn how hackers connect tiny flaws to build a \"Lethal Chain\" to your data—and how to break it. Register for the Strategic Briefing Here.\nMost security tools "
-    },
-    {
-      "title": "What the Hell Was Going on with Cigarette Ads in the 70s?",
-      "link": "https://tohippo.com/what-the-hell-was-going-on-with-cigarette-ads-in-the-70s/",
-      "raw_summary": "<p>Article URL: <a href=\"https://tohippo.com/what-the-hell-was-going-on-with-cigarette-ads-in-the-70s/\">https://tohippo.com/what-the-hell-was-going-on-with-cigarette-ads-in-the-70s/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48132159\">https://news.ycombinator.com/item?id=48132159</a></p>\n<p>Points: 4</p>\n<p># Comments: 4</p>",
+      "title": "USDA Projects Smallest US Wheat Harvest Since 1972 Due to Plains Drought",
+      "link": "https://www.agweb.com/news/usda-projects-smallest-us-wheat-harvest-1972-due-plains-drought",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.agweb.com/news/usda-projects-smallest-us-wheat-harvest-1972-due-plains-drought\">https://www.agweb.com/news/usda-projects-smallest-us-wheat-harvest-1972-due-plains-drought</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48134993\">https://news.ycombinator.com/item?id=48134993</a></p>\n<p>Points: 35</p>\n<p># Comments: 11</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 14 May 2026 07:25:59 +0000",
-      "summary": "What the Hell Was Going on with Cigarette Ads in the 70s?\n<p>Article URL: <a href=\"https://tohippo.com/what-the-hell-was-going-on-with-cigarette-ads-in-the-70s/\">https://tohippo.com/what-the-hell-was-going-on-with-cigarette-ads-in-the-70s/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.c"
+      "published": "Thu, 14 May 2026 13:17:57 +0000",
+      "summary": "USDA Projects Smallest US Wheat Harvest Since 1972 Due to Plains Drought\n<p>Article URL: <a href=\"https://www.agweb.com/news/usda-projects-smallest-us-wheat-harvest-1972-due-plains-drought\">https://www.agweb.com/news/usda-projects-smallest-us-wheat-harvest-1972-due-plains-drought</a></p>\n<p>Comments"
     },
     {
-      "title": "Classic 7 is a Windows 10 LTSC mod to look 1:1 to Windows 7",
-      "link": "https://classic7.lol/",
-      "raw_summary": "<p>Article URL: <a href=\"https://classic7.lol/\">https://classic7.lol/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48132030\">https://news.ycombinator.com/item?id=48132030</a></p>\n<p>Points: 9</p>\n<p># Comments: 5</p>",
+      "title": "The Whole Anthropic Kerfuffle",
+      "link": "https://twitter.com/josevalim/status/2054887621336174799",
+      "raw_summary": "<p>Article URL: <a href=\"https://twitter.com/josevalim/status/2054887621336174799\">https://twitter.com/josevalim/status/2054887621336174799</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48134869\">https://news.ycombinator.com/item?id=48134869</a></p>\n<p>Points: 29</p>\n<p># Comments: 13</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 14 May 2026 07:03:18 +0000",
-      "summary": "Classic 7 is a Windows 10 LTSC mod to look 1:1 to Windows 7\n<p>Article URL: <a href=\"https://classic7.lol/\">https://classic7.lol/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48132030\">https://news.ycombinator.com/item?id=48132030</a></p>\n<p>Points: 9</p>\n<p># Comments: 5</"
+      "published": "Thu, 14 May 2026 13:08:00 +0000",
+      "summary": "The Whole Anthropic Kerfuffle\n<p>Article URL: <a href=\"https://twitter.com/josevalim/status/2054887621336174799\">https://twitter.com/josevalim/status/2054887621336174799</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48134869\">https://news.ycombinator.com/item?id=48134869</a>"
     },
     {
-      "title": "Claude for Small Business",
-      "link": "https://www.anthropic.com/news/claude-for-small-business",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.anthropic.com/news/claude-for-small-business\">https://www.anthropic.com/news/claude-for-small-business</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48130950\">https://news.ycombinator.com/item?id=48130950</a></p>\n<p>Points: 201</p>\n<p># Comments: 126</p>",
+      "title": "Claude Account Suspended Seconds After Purchase?",
+      "link": "https://news.ycombinator.com/item?id=48134808",
+      "raw_summary": "<p>I literally created a new account, pressed submit on the credit card dialog, the purchase goes through and i get logged out. I try to log in, and it says I'm banned. I check my mail box and I see an email with an invoice and another that I'm in violation of the ToS, submitted within the same minute LOL.<p>Is this some kind of joke? :O</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48134808\">https://news.ycombinator.com/item?id=48134808</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 14 May 2026 03:59:35 +0000",
-      "summary": "Claude for Small Business\n<p>Article URL: <a href=\"https://www.anthropic.com/news/claude-for-small-business\">https://www.anthropic.com/news/claude-for-small-business</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48130950\">https://news.ycombinator.com/item?id=48130950</a></p>"
+      "published": "Thu, 14 May 2026 13:01:52 +0000",
+      "summary": "Claude Account Suspended Seconds After Purchase?\n<p>I literally created a new account, pressed submit on the credit card dialog, the purchase goes through and i get logged out. I try to log in, and it says I'm banned. I check my mail box and I see an email with an invoice and another that I'm in vio"
     },
     {
-      "title": "Arena AI Model ELO History",
-      "link": "https://mayerwin.github.io/AI-Arena-History/",
-      "raw_summary": "<p>Hi HN,<p>I built a live tracker to visualize the lifecycle and performance changes of flagship AI models.<p>We've all experienced the phenomenon where a flagship model feels amazing at launch, but weeks later, it suddenly feels a bit off. I wanted to see if this was just a feeling or a measurable reality, so I built a dashboard to track historical ELO ratings from Arena AI.<p>Instead of a massive spaghetti chart of every single model variant, the logic plots exactly ONE continuous curve per major AI lab. \nIt dynamically tracks their highest-rated flagship model over time, which makes both the sudden generational jumps and the slow performance decays much easier to see. \nIt took quite a lot of iterations to get the chart to look nice on mobile as well. Optional dark mode included.<p>However, I have a specific data blindspot that I'm hoping this community might have insights on.<p>Arena AI largely relies on testing API endpoints. But as we know, consumer chat UIs often layer on heavy system prompts, safety wrappers, or silently switch to heavily quantized models under high load to save compute. API benchmarks don't fully capture this \"nerfing\" that everyday web users experience.<p>Does anyone know of any historical ELO or evaluation datasets that specifically scrape or test outputs from the consumer web UIs rather than raw APIs?<p>I'd love to integrate that data for a more accurate picture of the consumer experience. The project is open-source (repo link in the footer), so I'd appreciate any feedback, or pointers to datasets!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48130711\">https://news.ycombinator.com/item?id=48130711</a></p>\n<p>Points: 54</p>\n<p># Comments: 29</p>",
+      "title": "Computer Hobby Movement in Canada",
+      "link": "https://museum.eecs.yorku.ca/exhibits/show/hobby_canada/hobby_canada",
+      "raw_summary": "<p>Article URL: <a href=\"https://museum.eecs.yorku.ca/exhibits/show/hobby_canada/hobby_canada\">https://museum.eecs.yorku.ca/exhibits/show/hobby_canada/hobby_canada</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48134743\">https://news.ycombinator.com/item?id=48134743</a></p>\n<p>Points: 14</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 14 May 2026 03:19:05 +0000",
-      "summary": "Arena AI Model ELO History\n<p>Hi HN,<p>I built a live tracker to visualize the lifecycle and performance changes of flagship AI models.<p>We've all experienced the phenomenon where a flagship model feels amazing at launch, but weeks later, it suddenly feels a bit off. I wanted to see if this was jus"
+      "published": "Thu, 14 May 2026 12:57:27 +0000",
+      "summary": "Computer Hobby Movement in Canada\n<p>Article URL: <a href=\"https://museum.eecs.yorku.ca/exhibits/show/hobby_canada/hobby_canada\">https://museum.eecs.yorku.ca/exhibits/show/hobby_canada/hobby_canada</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48134743\">https://news.ycombina"
     },
     {
-      "title": "A Claude Code and Codex Skill for Deliberate Skill Development",
-      "link": "https://github.com/DrCatHicks/learning-opportunities",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/DrCatHicks/learning-opportunities\">https://github.com/DrCatHicks/learning-opportunities</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48130679\">https://news.ycombinator.com/item?id=48130679</a></p>\n<p>Points: 33</p>\n<p># Comments: 8</p>",
+      "title": "Sam Altman's Business Dealings Under GOP Scrutiny Ahead of OpenAI's IPO",
+      "link": "https://www.wsj.com/tech/ai/sam-altmans-business-dealings-under-gop-scrutiny-ahead-of-openais-ipo-52c1cc4d",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.wsj.com/tech/ai/sam-altmans-business-dealings-under-gop-scrutiny-ahead-of-openais-ipo-52c1cc4d\">https://www.wsj.com/tech/ai/sam-altmans-business-dealings-under-gop-scrutiny-ahead-of-openais-ipo-52c1cc4d</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48134429\">https://news.ycombinator.com/item?id=48134429</a></p>\n<p>Points: 17</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 14 May 2026 03:13:31 +0000",
-      "summary": "A Claude Code and Codex Skill for Deliberate Skill Development\n<p>Article URL: <a href=\"https://github.com/DrCatHicks/learning-opportunities\">https://github.com/DrCatHicks/learning-opportunities</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48130679\">https://news.ycombinator"
+      "published": "Thu, 14 May 2026 12:27:29 +0000",
+      "summary": "Sam Altman's Business Dealings Under GOP Scrutiny Ahead of OpenAI's IPO\n<p>Article URL: <a href=\"https://www.wsj.com/tech/ai/sam-altmans-business-dealings-under-gop-scrutiny-ahead-of-openais-ipo-52c1cc4d\">https://www.wsj.com/tech/ai/sam-altmans-business-dealings-under-gop-scrutiny-ahead-of-openais-i"
+    },
+    {
+      "title": "Uber to open 2 campuses in India to support product development, operations",
+      "link": "https://techcrunch.com/2026/05/14/uber-to-open-2-campuses-in-india-to-support-product-development-operations/",
+      "raw_summary": "Uber plans to open two new engineering campuses with a capacity of nearly 10,000 people in India by the end of 2027.",
+      "source": "TechCrunch",
+      "published": "Thu, 14 May 2026 13:43:27 +0000",
+      "summary": "Uber to open 2 campuses in India to support product development, operations\nUber plans to open two new engineering campuses with a capacity of nearly 10,000 people in India by the end of 2027."
     },
     {
       "title": "Who decides what AI tells you? Campbell Brown, once Meta’s news chief, has thoughts",
@@ -155,12 +163,12 @@
       "summary": "Musk’s xAI is running nearly 50 gas turbines unchecked at its Mississippi data center\nGas turbines at xAI's Colossus 2 data center have drawn a lawsuit over the company's use of \"mobile\" gas turbines as power plants."
     },
     {
-      "title": "Anthropic’s Cat Wu says that, in the future, AI will anticipate your needs before you know what they are",
-      "link": "https://techcrunch.com/2026/05/13/anthropics-cat-wu-says-that-in-the-future-ai-will-anticipate-your-needs-before-you-know-what-they-are/",
-      "raw_summary": "The head of product for Claude Code and Cowork says that the next big step for AI is proactivity.",
-      "source": "TechCrunch",
-      "published": "Wed, 13 May 2026 19:28:06 +0000",
-      "summary": "Anthropic’s Cat Wu says that, in the future, AI will anticipate your needs before you know what they are\nThe head of product for Claude Code and Cowork says that the next big step for AI is proactivity."
+      "title": "Desperate Trump taps \"Tim Apple,\" Jensen Huang, Elon Musk to attend Xi summit",
+      "link": "https://arstechnica.com/tech-policy/2026/05/desperate-trump-taps-tim-apple-jensen-huang-elon-musk-to-attend-xi-summit/",
+      "raw_summary": "Xi meeting may force Trump to pivot on semiconductor tariffs and Taiwan.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 14 May 2026 11:00:58 +0000",
+      "summary": "Desperate Trump taps \"Tim Apple,\" Jensen Huang, Elon Musk to attend Xi summit\nXi meeting may force Trump to pivot on semiconductor tariffs and Taiwan."
     },
     {
       "title": "Solar drone with jumbo jet wingspan broke a flight record—then it crashed",
@@ -195,132 +203,124 @@
       "summary": "Foiled plot tried to sneak 49 lbs of cocaine into Australia via Xerox printers\nThe drugs had an estimated worth of over $9 million USD."
     },
     {
-      "title": "AI invades Princeton, where 30% of students cheat—but peers won't snitch",
-      "link": "https://arstechnica.com/tech-policy/2026/05/ai-driven-cheating-widespread-even-at-elite-schools-like-princeton/",
-      "raw_summary": "Old \"honor code\" systems are under strain.",
-      "source": "Ars Technica - All content",
-      "published": "Wed, 13 May 2026 19:47:24 +0000",
-      "summary": "AI invades Princeton, where 30% of students cheat—but peers won't snitch\nOld \"honor code\" systems are under strain."
-    },
-    {
-      "title": "Russia pummels Ukraine with missiles and drones as ceasefire collapses",
-      "link": "https://www.ft.com/content/813e84b3-65af-4182-a015-8c93ab806045",
-      "raw_summary": "Bombardment by over 1,400 drones and missiles is one of war’s largest aerial attacks",
+      "title": "US Senate confirms Warsh as Fed chair",
+      "link": "https://www.ft.com/content/afb57ddb-ace0-44b6-a083-d4c4232a9b2d",
+      "raw_summary": "Also in today’s newsletter, the importance of independent voters ahead of this year’s midterm elections",
       "source": "World",
-      "published": "Thu, 14 May 2026 07:18:10 GMT",
-      "summary": "Russia pummels Ukraine with missiles and drones as ceasefire collapses\nBombardment by over 1,400 drones and missiles is one of war’s largest aerial attacks"
+      "published": "Thu, 14 May 2026 13:00:08 GMT",
+      "summary": "US Senate confirms Warsh as Fed chair\nAlso in today’s newsletter, the importance of independent voters ahead of this year’s midterm elections"
     },
     {
-      "title": "UK first-quarter GDP gives BoE no urgency to cut rates",
-      "link": "https://www.ft.com/content/f691fcb4-a784-4de5-84b8-fadffa58cb4f",
-      "raw_summary": "Stronger headline growth and deflator figures suggest rate setters’ main concern should be price growth not activity",
+      "title": "The confident performer with a mixed record of reform",
+      "link": "https://www.ft.com/content/211a8f21-afd5-41c7-bb1d-afcbdabcf030",
+      "raw_summary": "The health secretary’s ambition to succeed Keir Starmer was well known, but his time overseeing the NHS has proved trickier than expected",
       "source": "World",
-      "published": "Thu, 14 May 2026 06:56:00 GMT",
-      "summary": "UK first-quarter GDP gives BoE no urgency to cut rates\nStronger headline growth and deflator figures suggest rate setters’ main concern should be price growth not activity"
+      "published": "Thu, 14 May 2026 12:42:50 GMT",
+      "summary": "The confident performer with a mixed record of reform\nThe health secretary’s ambition to succeed Keir Starmer was well known, but his time overseeing the NHS has proved trickier than expected"
     },
     {
-      "title": "UK economy grew 0.6% in first quarter despite Middle East energy crisis",
-      "link": "https://www.ft.com/content/c27cc9ec-efe5-4227-9f34-edadea11003b",
-      "raw_summary": "Expansion picks up after a lacklustre second half last year",
+      "title": "UK first-quarter growth ‘probably part illusion’, analysts warn",
+      "link": "https://www.ft.com/content/d53546c2-37e9-46d0-8fe9-c9120d0aac6e",
+      "raw_summary": "Budget-related uncertainty has made it harder to estimate GDP, top statistician says",
       "source": "World",
-      "published": "Thu, 14 May 2026 06:53:41 GMT",
-      "summary": "UK economy grew 0.6% in first quarter despite Middle East energy crisis\nExpansion picks up after a lacklustre second half last year"
+      "published": "Thu, 14 May 2026 12:29:38 GMT",
+      "summary": "UK first-quarter growth ‘probably part illusion’, analysts warn\nBudget-related uncertainty has made it harder to estimate GDP, top statistician says"
     },
     {
-      "title": "Swap lines are geopolitical infrastructure",
-      "link": "https://www.ft.com/content/615dc4c4-70c4-40e9-b927-2e2324c1f8a3",
-      "raw_summary": "The Great Game 3.0",
+      "title": "Wes Streeting resigns from government",
+      "link": "https://www.ft.com/content/e8383d83-abb0-4879-b421-92ed7c4a70e7",
+      "raw_summary": "Health secretary says he has ‘lost confidence’ in Starmer but stops short of launching leadership challenge",
       "source": "World",
-      "published": "Thu, 14 May 2026 06:40:32 GMT",
-      "summary": "Swap lines are geopolitical infrastructure\nThe Great Game 3.0"
+      "published": "Thu, 14 May 2026 12:21:05 GMT",
+      "summary": "Wes Streeting resigns from government\nHealth secretary says he has ‘lost confidence’ in Starmer but stops short of launching leadership challenge"
     },
     {
-      "title": "Xi tells Nvidia, Tesla and Apple CEOs that China will ‘open wider’",
-      "link": "https://www.ft.com/content/013a9dd3-8835-4a0e-839e-ca8ed539233d",
-      "raw_summary": "US business leaders praise ‘great importance’ of Chinese market on visit to Beijing alongside Donald Trump",
+      "title": "China warns UK over nationalisation of British Steel",
+      "link": "https://www.ft.com/content/8761aa1d-2258-4888-b40d-c22a024bda05",
+      "raw_summary": "Beijing says it will take ‘strong measures’ to protect rights of owner Jingye",
       "source": "World",
-      "published": "Thu, 14 May 2026 06:20:31 GMT",
-      "summary": "Xi tells Nvidia, Tesla and Apple CEOs that China will ‘open wider’\nUS business leaders praise ‘great importance’ of Chinese market on visit to Beijing alongside Donald Trump"
+      "published": "Thu, 14 May 2026 12:18:42 GMT",
+      "summary": "China warns UK over nationalisation of British Steel\nBeijing says it will take ‘strong measures’ to protect rights of owner Jingye"
     },
     {
-      "title": "Burberry’s Cautious Outlook Disappoints After Sales Boost",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-14/burberry-s-turnaround-boosted-by-strong-demand-for-scarves",
-      "raw_summary": "Burberry Group Plc disappointed investors after the British luxury brand issued a cautious outlook for this fiscal year and warned geopolitical and economic uncertainty may hurt shopper confidence.",
+      "title": "Stocks Rise After Retail Sales Data as Cisco Soars: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-13/asian-stocks-to-climb-as-wall-street-hits-new-high-markets-wrap",
+      "raw_summary": "A revival of the artificial-intelligence trade kept fueling momentum in stocks, with the market also rising after retail sales showed signs of consumer strength despite a war-driven surge in energy costs.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 14 May 2026 06:14:13 GMT",
-      "summary": "Burberry’s Cautious Outlook Disappoints After Sales Boost\nBurberry Group Plc disappointed investors after the British luxury brand issued a cautious outlook for this fiscal year and warned geopolitical and economic uncertainty may hurt shopper confidence."
+      "published": "Wed, 13 May 2026 22:07:17 GMT",
+      "summary": "Stocks Rise After Retail Sales Data as Cisco Soars: Markets Wrap\nA revival of the artificial-intelligence trade kept fueling momentum in stocks, with the market also rising after retail sales showed signs of consumer strength despite a war-driven surge in energy costs."
     },
     {
-      "title": "Turkey Tears Up Inflation Target In Face of Energy Price Shocks",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-14/turkey-lifts-year-end-inflation-target-to-24-citing-iran-war",
-      "raw_summary": "Turkey’s central bank presented a bigger than expected revision to its year-end inflation target and suspended the use of a forecast range, citing major uncertainty precipitated by the US-Israeli war on Iran.",
+      "title": "US Stocks Extend Record Climb as Cisco, AI IPO Boost Sentiment",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-14/us-stock-futures-gain-as-ai-trade-drives-tech-rally-cisco-soars",
+      "raw_summary": "US equities rose as the artificial intelligence trade continued to drive gains across technology shares, powered by upbeat earnings from Cisco Systems Inc. and an AI IPO.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 14 May 2026 07:58:44 GMT",
-      "summary": "Turkey Tears Up Inflation Target In Face of Energy Price Shocks\nTurkey’s central bank presented a bigger than expected revision to its year-end inflation target and suspended the use of a forecast range, citing major uncertainty precipitated by the US-Israeli war on Iran."
+      "published": "Thu, 14 May 2026 12:03:05 GMT",
+      "summary": "US Stocks Extend Record Climb as Cisco, AI IPO Boost Sentiment\nUS equities rose as the artificial intelligence trade continued to drive gains across technology shares, powered by upbeat earnings from Cisco Systems Inc. and an AI IPO."
     },
     {
-      "title": "Britain’s Political Crisis Spooks Crucial Overseas Bond Buyers",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-14/britain-s-political-crisis-spooks-crucial-overseas-bond-buyers",
-      "raw_summary": "The UK’s latest political crisis threatens to trigger a fresh exodus from its volatile bond market as investors at home and abroad weigh up whether to put their money elsewhere.",
+      "title": "Buybacks, Revamps, Deals: Firms Dig Deep to Fix Problem Private Credit Funds",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-14/private-credit-crisis-has-kkr-apollo-blackrock-tackling-problem-funds",
+      "raw_summary": "The troubled private credit funds, by most any measure, are a sliver of the assets of investing giants KKR &amp; Co., BlackRock Inc. and Apollo Global Management Inc.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 14 May 2026 08:09:17 GMT",
-      "summary": "Britain’s Political Crisis Spooks Crucial Overseas Bond Buyers\nThe UK’s latest political crisis threatens to trigger a fresh exodus from its volatile bond market as investors at home and abroad weigh up whether to put their money elsewhere."
+      "published": "Thu, 14 May 2026 13:35:57 GMT",
+      "summary": "Buybacks, Revamps, Deals: Firms Dig Deep to Fix Problem Private Credit Funds\nThe troubled private credit funds, by most any measure, are a sliver of the assets of investing giants KKR &amp; Co., BlackRock Inc. and Apollo Global Management Inc."
     },
     {
-      "title": "Martin Wolf on the 'Terrifying' Superpower That the US Wields",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-14/martin-wolf-on-the-terrifying-superpower-that-the-us-wields",
-      "raw_summary": "<p>The economic commentator on the roots of today's chaotic moment.</p>",
+      "title": "Jumia Cuts Jobs Amid AI Shift",
+      "link": "https://www.bloomberg.com/news/videos/2026-05-14/jumia-cuts-jobs-amid-ai-shift-video",
+      "raw_summary": "Jumia plans to cut 10% of its workforce as AI rolls out across jobs within the African e-commence giant. CEO Francis Dufay spoke to Bloomberg's Jennifer Zabasajja from Abidjan. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Thu, 14 May 2026 08:00:10 GMT",
-      "summary": "Martin Wolf on the 'Terrifying' Superpower That the US Wields\n<p>The economic commentator on the roots of today's chaotic moment.</p>"
+      "published": "Thu, 14 May 2026 13:35:28 GMT",
+      "summary": "Jumia Cuts Jobs Amid AI Shift\nJumia plans to cut 10% of its workforce as AI rolls out across jobs within the African e-commence giant. CEO Francis Dufay spoke to Bloomberg's Jennifer Zabasajja from Abidjan. (Source: Bloomberg)"
     },
     {
-      "title": "Alan Waxman Is a Sports Superinvestor",
-      "link": "https://www.bloomberg.com/news/videos/2026-05-14/alan-waxman-is-a-sports-superinvestor-video",
-      "raw_summary": "Alex Rodriguez and Jason Kelly talk with Sixth Street’s Alan Waxman about taking a stake in the New England Patriots, international growth in the NBA and why a historic NWSL expansion fee paid off. (Source: Bloomberg)",
+      "title": "Amazon’s AI Success Sends Stock Racing Toward $3 Trillion Club",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-14/amazon-s-ai-success-sends-stock-racing-toward-3-trillion-club",
+      "raw_summary": "Investors are growing increasingly optimistic about Amazon.com Inc.’s position in artificial intelligence, lighting a fire under the stock and sending the company’s market capitalization soaring toward the rarefied $3 trillion level.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 14 May 2026 08:00:06 GMT",
-      "summary": "Alan Waxman Is a Sports Superinvestor\nAlex Rodriguez and Jason Kelly talk with Sixth Street’s Alan Waxman about taking a stake in the New England Patriots, international growth in the NBA and why a historic NWSL expansion fee paid off. (Source: Bloomberg)"
+      "published": "Thu, 14 May 2026 11:16:35 GMT",
+      "summary": "Amazon’s AI Success Sends Stock Racing Toward $3 Trillion Club\nInvestors are growing increasingly optimistic about Amazon.com Inc.’s position in artificial intelligence, lighting a fire under the stock and sending the company’s market capitalization soaring toward the rarefied $3 trillion level."
     },
     {
-      "title": "Bitcoin investors yanked $635 million from spot ETFs in a day. Here's what it means for price",
-      "link": "https://www.coindesk.com/markets/2026/05/14/bitcoin-investors-yanked-usd635-million-from-spot-etfs-in-a-day-here-s-what-it-means-for-price",
+      "title": "Why bitcoin’s recent climb to $80,000 might just be a temporary liquidity squeeze",
+      "link": "https://www.coindesk.com/markets/2026/05/14/why-bitcoin-s-recent-climb-to-usd80-000-might-just-be-a-temporary-liquidity-squeeze",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 14 May 2026 06:08:19 +0000",
-      "summary": "Bitcoin investors yanked $635 million from spot ETFs in a day. Here's what it means for price\n"
+      "published": "Thu, 14 May 2026 13:44:23 +0000",
+      "summary": "Why bitcoin’s recent climb to $80,000 might just be a temporary liquidity squeeze\n"
     },
     {
-      "title": "Claude helps recover $395,000 in bitcoin trapped on a computer for years",
-      "link": "https://www.coindesk.com/tech/2026/05/14/claude-helps-recover-usd395-000-in-bitcoin-trapped-on-a-computer-for-years",
+      "title": "CoinDesk 20 performance update: Bittensor (TAO) rises 1.7%, leading index higher",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/05/14/coindesk-20-performance-update-bittensor-tao-rises-1-7-leading-index-higher",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 14 May 2026 05:34:15 +0000",
-      "summary": "Claude helps recover $395,000 in bitcoin trapped on a computer for years\n"
+      "published": "Thu, 14 May 2026 13:27:19 +0000",
+      "summary": "CoinDesk 20 performance update: Bittensor (TAO) rises 1.7%, leading index higher\n"
     },
     {
-      "title": "TRUMP token down 5% as namesake handset begins shipping next week",
-      "link": "https://www.coindesk.com/markets/2026/05/14/trump-token-down-5-as-namesake-handset-begins-shipping-next-week",
+      "title": "Turnkey raises $12.5 million in round backed by Circle Ventures and Sequoia Capital",
+      "link": "https://www.coindesk.com/business/2026/05/06/turnkey-raises-usd12-5-million-in-round-backed-by-circle-ventures-and-sequoia-capital",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 14 May 2026 04:52:40 +0000",
-      "summary": "TRUMP token down 5% as namesake handset begins shipping next week\n"
+      "published": "Thu, 14 May 2026 13:00:00 +0000",
+      "summary": "Turnkey raises $12.5 million in round backed by Circle Ventures and Sequoia Capital\n"
     },
     {
-      "title": "Solana drops 5%, bitcoin below $80,000 as Xi warns Trump on Taiwan conflict",
-      "link": "https://www.coindesk.com/markets/2026/05/14/solana-drops-5-bitcoin-below-usd80-000-as-xi-warns-trump-on-taiwan-conflict",
+      "title": "Stablecoin-powered neobank Fasset raises $51 million to expand across emerging markets",
+      "link": "https://www.coindesk.com/business/2026/05/14/stablecoin-powered-neobank-fasset-raises-usd51-million-to-expand-across-emerging-markets",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 14 May 2026 04:43:44 +0000",
-      "summary": "Solana drops 5%, bitcoin below $80,000 as Xi warns Trump on Taiwan conflict\n"
+      "published": "Thu, 14 May 2026 13:00:00 +0000",
+      "summary": "Stablecoin-powered neobank Fasset raises $51 million to expand across emerging markets\n"
     },
     {
-      "title": "Ethereum app builder Consensys has delayed its potential IPO until fall",
-      "link": "https://www.coindesk.com/business/2026/05/13/ethereum-app-builder-consensys-has-delayed-its-potential-ipo-until-fall",
+      "title": "BlackRock, Janus Henderson tokenized funds get instant redemptions with new $1 billion facility",
+      "link": "https://www.coindesk.com/business/2026/05/14/blackrock-janus-henderson-tokenized-funds-get-instant-redemptions-with-new-usd1-billion-facility",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 13 May 2026 19:01:56 +0000",
-      "summary": "Ethereum app builder Consensys has delayed its potential IPO until fall\n"
+      "published": "Thu, 14 May 2026 13:00:00 +0000",
+      "summary": "BlackRock, Janus Henderson tokenized funds get instant redemptions with new $1 billion facility\n"
     }
   ]
 }
