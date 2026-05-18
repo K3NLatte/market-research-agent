@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T09:43:29.391195+00:00",
+  "generated_at": "2026-05-18T14:57:04.941743+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,84 +43,108 @@
       "summary": "Patch Tuesday, April 2026 Edition\nMicrosoft today pushed software updates to fix a staggering 167 security vulnerabilities in its Windows operating systems and related software, including a SharePoint Server zero-day and a publicly disclosed weakness in Windows Defender dubbed \"BlueHammer.\" Separate"
     },
     {
-      "title": "Pre-Stuxnet Fast16 Malware Tampered with Nuclear Weapons Simulations",
-      "link": "https://thehackernews.com/2026/05/pre-stuxnet-fast16-malware-tampered.html",
-      "raw_summary": "A new analysis of the Lua-based fast16 malware has confirmed that it was a cyber sabotage tool designed to tamper with nuclear weapons testing simulations.\nAccording to Broadcom-owned Symantec and Carbon Black teams, the pre-Stuxnet tool was engineered to corrupt uranium-compression simulations that are central to nuclear weapon design.\n\"Fast16's hook engine is selectively interested in",
+      "title": "How to Reduce Phishing Exposure Before It Turns into Business Disruption",
+      "link": "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html",
+      "raw_summary": "What happens when a phishing email looks clean enough to pass through security, but dangerous enough to expose the business after one click? That is the gap many SOCs still struggle with: the attacks that leave teams unsure what was exposed, who else was targeted, and how far the risk has spread.\nEarly phishing detection closes that gap. It helps teams move from uncertainty to evidence faster,",
       "source": "The Hacker News",
-      "published": "Mon, 18 May 2026 12:16:37 +0530",
-      "summary": "Pre-Stuxnet Fast16 Malware Tampered with Nuclear Weapons Simulations\nA new analysis of the Lua-based fast16 malware has confirmed that it was a cyber sabotage tool designed to tamper with nuclear weapons testing simulations.\nAccording to Broadcom-owned Symantec and Carbon Black teams, the pre-Stuxne"
+      "published": "Mon, 18 May 2026 18:30:00 +0530",
+      "summary": "How to Reduce Phishing Exposure Before It Turns into Business Disruption\nWhat happens when a phishing email looks clean enough to pass through security, but dangerous enough to expose the business after one click? That is the gap many SOCs still struggle with: the attacks that leave teams unsure wha"
+    },
+    {
+      "title": "Developer Workstations Are Now Part of the Software Supply Chain",
+      "link": "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
+      "raw_summary": "Supply chain attackers are not only trying to slip malicious code into trusted software. They are trying to steal the access that makes trusted software possible. Recently, three separate campaigns hit npm, PyPI, and Docker Hub in a 48-hour window, and all three targeted secrets from developer environments and CI/CD pipelines, including API keys, cloud credentials, SSH keys, and tokens. This is",
+      "source": "The Hacker News",
+      "published": "Mon, 18 May 2026 16:53:41 +0530",
+      "summary": "Developer Workstations Are Now Part of the Software Supply Chain\nSupply chain attackers are not only trying to slip malicious code into trusted software. They are trying to steal the access that makes trusted software possible. Recently, three separate campaigns hit npm, PyPI, and Docker Hub in a 48"
+    },
+    {
+      "title": "Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws",
+      "link": "https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html",
+      "raw_summary": "Ivanti, Fortinet, n8n, SAP, and VMware have released security fixes for various vulnerabilities that could be exploited by bad actors to bypass authentication and execute arbitrary code.\nTopping the list is a critical flaw impacting Ivanti Xtraction (CVE-2026-8043, CVSS score: 9.6) that could be exploited to achieve information disclosure or client-side attacks.\n\"External control of a file name",
+      "source": "The Hacker News",
+      "published": "Mon, 18 May 2026 16:24:05 +0530",
+      "summary": "Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws\nIvanti, Fortinet, n8n, SAP, and VMware have released security fixes for various vulnerabilities that could be exploited by bad actors to bypass authentication and execute arbitrary code.\nTopping the list is a cri"
     },
     {
       "title": "MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems",
       "link": "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
       "raw_summary": "Chaotic Eclipse, the security researcher behind the recently disclosed Windows flaws, YellowKey and GreenPlasma, has released a proof-of-concept (PoC) for a Windows privilege escalation zero-day flaw that grants attackers SYSTEM privileges on fully patched Windows systems.\nCodenamed MiniPlasma, the vulnerability impacts \"cldflt.sys,\" which refers to the Windows Cloud Files Mini Filter Driver,",
       "source": "The Hacker News",
-      "published": "Mon, 18 May 2026 10:29:21 +0530",
+      "published": "Mon, 18 May 2026 14:27:34 +0530",
       "summary": "MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems\nChaotic Eclipse, the security researcher behind the recently disclosed Windows flaws, YellowKey and GreenPlasma, has released a proof-of-concept (PoC) for a Windows privilege escalation zero-day flaw that grants at"
     },
     {
-      "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
-      "link": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
-      "raw_summary": "A newly disclosed security flaw impacting NGINX Plus and NGINX Open has come under active exploitation in the wild, days after its public disclosure, according to VulnCheck.\nThe vulnerability, tracked as CVE-2026-42945 (CVSS score: 9.2), is a heap buffer overflow in ngx_http_rewrite_module affecting NGINX versions 0.6.27 through 1.30.0. According to AI-native security company depthfirst, the",
+      "title": "Four Malicious npm Packages Deliver Infostealers and Phantom Bot DDoS Malware",
+      "link": "https://thehackernews.com/2026/05/four-malicious-npm-packages-deliver.html",
+      "raw_summary": "Cybersecurity researchers have discovered four new npm packages containing information-stealing malware, one of which is a clone of the Shai-Hulud worm open-sourced by TeamPCP.\nThe list of identified packages is below -\n\nchalk-tempalte (825 Downloads)\n@deadcode09284814/axios-util (284 Downloads)\naxois-utils (963 Downloads)\ncolor-style-utils (934 Downloads)\n\n\"One of the packages (chalk-tempalte)",
       "source": "The Hacker News",
-      "published": "Sun, 17 May 2026 17:27:53 +0530",
-      "summary": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE\nA newly disclosed security flaw impacting NGINX Plus and NGINX Open has come under active exploitation in the wild, days after its public disclosure, according to VulnCheck.\nThe vulnerability, tracked as CVE-2026-429"
+      "published": "Mon, 18 May 2026 14:27:26 +0530",
+      "summary": "Four Malicious npm Packages Deliver Infostealers and Phantom Bot DDoS Malware\nCybersecurity researchers have discovered four new npm packages containing information-stealing malware, one of which is a clone of the Shai-Hulud worm open-sourced by TeamPCP.\nThe list of identified packages is below -\n\nc"
     },
     {
-      "title": "Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt",
-      "link": "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
-      "raw_summary": "Grafana has disclosed that an \"unauthorized party\" obtained a token that granted them the ability to access the company's GitHub environment and download its codebase.\n\n\n  \"Our investigation has determined that no customer data or personal information was accessed during this incident, and we have found no evidence of impact to customer systems or operations,\" Grafana\n  said\n  in a series of",
-      "source": "The Hacker News",
-      "published": "Sun, 17 May 2026 12:43:33 +0530",
-      "summary": "Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt\nGrafana has disclosed that an \"unauthorized party\" obtained a token that granted them the ability to access the company's GitHub environment and download its codebase.\n\n\n  \"Our investigation has determined that no customer da"
-    },
-    {
-      "title": "Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming",
-      "link": "https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html",
-      "raw_summary": "A critical security vulnerability impacting the\n  Funnel Builder\n  plugin for WordPress has come under active exploitation in the wild to\n  inject malicious JavaScript code\n  into WooCommerce checkout pages with the goal of stealing payment data.\n\n\n\n  Details of the activity were\n  published\n  by Sansec this week. The vulnerability currently does not have an official CVE identifier. It",
-      "source": "The Hacker News",
-      "published": "Sat, 16 May 2026 20:50:48 +0530",
-      "summary": "Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming\nA critical security vulnerability impacting the\n  Funnel Builder\n  plugin for WordPress has come under active exploitation in the wild to\n  inject malicious JavaScript code\n  into WooCommerce checkout pages with the "
-    },
-    {
-      "title": "Colombian singer Shakira acquitted of tax fraud in Spain",
-      "link": "https://www.reuters.com/world/americas/colombian-singer-shakira-acquitted-tax-fraud-spain-2026-05-18/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.reuters.com/world/americas/colombian-singer-shakira-acquitted-tax-fraud-spain-2026-05-18/\">https://www.reuters.com/world/americas/colombian-singer-shakira-acquitted-tax-fraud-spain-2026-05-18/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48177039\">https://news.ycombinator.com/item?id=48177039</a></p>\n<p>Points: 9</p>\n<p># Comments: 1</p>",
+      "title": "Actually, Democracy Dies in H.R.",
+      "link": "https://www.nytimes.com/2026/05/18/world/americas/actually-democracy-dies-in-hr.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.nytimes.com/2026/05/18/world/americas/actually-democracy-dies-in-hr.html\">https://www.nytimes.com/2026/05/18/world/americas/actually-democracy-dies-in-hr.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48180091\">https://news.ycombinator.com/item?id=48180091</a></p>\n<p>Points: 11</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 18 May 2026 09:00:39 +0000",
-      "summary": "Colombian singer Shakira acquitted of tax fraud in Spain\n<p>Article URL: <a href=\"https://www.reuters.com/world/americas/colombian-singer-shakira-acquitted-tax-fraud-spain-2026-05-18/\">https://www.reuters.com/world/americas/colombian-singer-shakira-acquitted-tax-fraud-spain-2026-05-18/</a></p>\n<p>Co"
+      "published": "Mon, 18 May 2026 14:04:26 +0000",
+      "summary": "Actually, Democracy Dies in H.R.\n<p>Article URL: <a href=\"https://www.nytimes.com/2026/05/18/world/americas/actually-democracy-dies-in-hr.html\">https://www.nytimes.com/2026/05/18/world/americas/actually-democracy-dies-in-hr.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id="
     },
     {
-      "title": "Nobody Pushed Back: Why Engineers Stay Silent Until It's Too Late",
-      "link": "https://howtocenterdiv.com/beyond-the-div/nobody-pushed-back",
-      "raw_summary": "<p>Article URL: <a href=\"https://howtocenterdiv.com/beyond-the-div/nobody-pushed-back\">https://howtocenterdiv.com/beyond-the-div/nobody-pushed-back</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48176902\">https://news.ycombinator.com/item?id=48176902</a></p>\n<p>Points: 16</p>\n<p># Comments: 3</p>",
+      "title": "Show HN: Files.md – Open-source alternative to Obsidian",
+      "link": "https://github.com/zakirullin/files.md",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/zakirullin/files.md\">https://github.com/zakirullin/files.md</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48179677\">https://news.ycombinator.com/item?id=48179677</a></p>\n<p>Points: 64</p>\n<p># Comments: 23</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 18 May 2026 08:41:16 +0000",
-      "summary": "Nobody Pushed Back: Why Engineers Stay Silent Until It's Too Late\n<p>Article URL: <a href=\"https://howtocenterdiv.com/beyond-the-div/nobody-pushed-back\">https://howtocenterdiv.com/beyond-the-div/nobody-pushed-back</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48176902\">https"
+      "published": "Mon, 18 May 2026 13:33:33 +0000",
+      "summary": "Show HN: Files.md – Open-source alternative to Obsidian\n<p>Article URL: <a href=\"https://github.com/zakirullin/files.md\">https://github.com/zakirullin/files.md</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48179677\">https://news.ycombinator.com/item?id=48179677</a></p>\n<p>Po"
     },
     {
-      "title": "Why is Google Maps back to showing old satellite images of Altadena?",
-      "link": "https://www.reddit.com/r/pasadena/s/94BHlkE84r",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.reddit.com/r/pasadena/s/94BHlkE84r\">https://www.reddit.com/r/pasadena/s/94BHlkE84r</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48176762\">https://news.ycombinator.com/item?id=48176762</a></p>\n<p>Points: 14</p>\n<p># Comments: 2</p>",
+      "title": "'We mould trees to grow into the shape of chairs'",
+      "link": "https://www.bbc.co.uk/news/articles/cvg0yy3gp71o",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.bbc.co.uk/news/articles/cvg0yy3gp71o\">https://www.bbc.co.uk/news/articles/cvg0yy3gp71o</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48179183\">https://news.ycombinator.com/item?id=48179183</a></p>\n<p>Points: 55</p>\n<p># Comments: 20</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 18 May 2026 08:19:21 +0000",
-      "summary": "Why is Google Maps back to showing old satellite images of Altadena?\n<p>Article URL: <a href=\"https://www.reddit.com/r/pasadena/s/94BHlkE84r\">https://www.reddit.com/r/pasadena/s/94BHlkE84r</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48176762\">https://news.ycombinator.com/i"
+      "published": "Mon, 18 May 2026 13:01:18 +0000",
+      "summary": "'We mould trees to grow into the shape of chairs'\n<p>Article URL: <a href=\"https://www.bbc.co.uk/news/articles/cvg0yy3gp71o\">https://www.bbc.co.uk/news/articles/cvg0yy3gp71o</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48179183\">https://news.ycombinator.com/item?id=48179183"
     },
     {
-      "title": "Which country voted the best at Eurovision?",
-      "link": "https://lalitm.com/post/which-country-voted-best-at-eurovision/",
-      "raw_summary": "<p>Article URL: <a href=\"https://lalitm.com/post/which-country-voted-best-at-eurovision/\">https://lalitm.com/post/which-country-voted-best-at-eurovision/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48175307\">https://news.ycombinator.com/item?id=48175307</a></p>\n<p>Points: 15</p>\n<p># Comments: 7</p>",
+      "title": "Enough with the AI FOMO, go slow-mo, says Domo CDO",
+      "link": "https://www.theregister.com/ai-ml/2026/05/17/enough-with-the-ai-fomo-go-slow-mo-says-domo-cdo/5240840",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.theregister.com/ai-ml/2026/05/17/enough-with-the-ai-fomo-go-slow-mo-says-domo-cdo/5240840\">https://www.theregister.com/ai-ml/2026/05/17/enough-with-the-ai-fomo-go-slow-mo-says-domo-cdo/5240840</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48179029\">https://news.ycombinator.com/item?id=48179029</a></p>\n<p>Points: 65</p>\n<p># Comments: 27</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 18 May 2026 03:39:07 +0000",
-      "summary": "Which country voted the best at Eurovision?\n<p>Article URL: <a href=\"https://lalitm.com/post/which-country-voted-best-at-eurovision/\">https://lalitm.com/post/which-country-voted-best-at-eurovision/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48175307\">https://news.ycombina"
+      "published": "Mon, 18 May 2026 12:49:54 +0000",
+      "summary": "Enough with the AI FOMO, go slow-mo, says Domo CDO\n<p>Article URL: <a href=\"https://www.theregister.com/ai-ml/2026/05/17/enough-with-the-ai-fomo-go-slow-mo-says-domo-cdo/5240840\">https://www.theregister.com/ai-ml/2026/05/17/enough-with-the-ai-fomo-go-slow-mo-says-domo-cdo/5240840</a></p>\n<p>Comments"
     },
     {
-      "title": "It is time to give up the dualism introduced by the debate on consciousness",
-      "link": "https://www.noemamag.com/there-is-no-hard-problem-of-consciousness/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.noemamag.com/there-is-no-hard-problem-of-consciousness/\">https://www.noemamag.com/there-is-no-hard-problem-of-consciousness/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48175140\">https://news.ycombinator.com/item?id=48175140</a></p>\n<p>Points: 75</p>\n<p># Comments: 192</p>",
+      "title": "AI eats the world (Spring 26) [pdf]",
+      "link": "https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spring-AI.pdf",
+      "raw_summary": "<p>Article URL: <a href=\"https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spring-AI.pdf\">https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spring-AI.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48179021\">https://news.ycombinator.com/item?id=48179021</a></p>\n<p>Points: 93</p>\n<p># Comments: 47</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 18 May 2026 02:59:34 +0000",
-      "summary": "It is time to give up the dualism introduced by the debate on consciousness\n<p>Article URL: <a href=\"https://www.noemamag.com/there-is-no-hard-problem-of-consciousness/\">https://www.noemamag.com/there-is-no-hard-problem-of-consciousness/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com"
+      "published": "Mon, 18 May 2026 12:49:28 +0000",
+      "summary": "AI eats the world (Spring 26) [pdf]\n<p>Article URL: <a href=\"https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spring-AI.pdf\">https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spri"
+    },
+    {
+      "title": "Amazon’s new Alexa+ powered feature can generate podcast episodes",
+      "link": "https://techcrunch.com/2026/05/18/amazons-new-alexa-powered-feature-can-generate-podcast-episodes/",
+      "raw_summary": "Amazon’s Alexa+ can now generate custom AI podcasts on demand, as the company expands its assistant into a personalized AI content platform.",
+      "source": "TechCrunch",
+      "published": "Mon, 18 May 2026 14:56:47 +0000",
+      "summary": "Amazon’s new Alexa+ powered feature can generate podcast episodes\nAmazon’s Alexa+ can now generate custom AI podcasts on demand, as the company expands its assistant into a personalized AI content platform."
+    },
+    {
+      "title": "Open source tool maker Grafana Labs says hackers stole its code, refuses to pay ransom",
+      "link": "https://techcrunch.com/2026/05/18/open-source-tool-maker-grafana-labs-says-hackers-stole-its-code-refuses-to-pay-ransom/",
+      "raw_summary": "The open source project said hackers stole its codebase and threatened to publish its source code if the company did not pay.",
+      "source": "TechCrunch",
+      "published": "Mon, 18 May 2026 13:42:19 +0000",
+      "summary": "Open source tool maker Grafana Labs says hackers stole its code, refuses to pay ransom\nThe open source project said hackers stole its codebase and threatened to publish its source code if the company did not pay."
+    },
+    {
+      "title": "South Korea’s LetinAR is building optics behind AI glasses",
+      "link": "https://techcrunch.com/2026/05/18/south-koreas-letinar-is-building-the-optics-behind-ai-glasses/",
+      "raw_summary": "A lens the size of a thumbnail — and the South Korean startup that makes it could become the optical backbone of the AI glasses era.",
+      "source": "TechCrunch",
+      "published": "Mon, 18 May 2026 11:00:00 +0000",
+      "summary": "South Korea’s LetinAR is building optics behind AI glasses\nA lens the size of a thumbnail — and the South Korean startup that makes it could become the optical backbone of the AI glasses era."
     },
     {
       "title": "Apple’s Siri revamp could include auto-deleting chats",
@@ -139,28 +163,36 @@
       "summary": "Why trust is a big question at the Elon Musk-OpenAI trial\nA big theme in the trial’s final days was whether OpenAI CEO Sam Altman is trustworthy."
     },
     {
-      "title": "If you’re giving a commencement speech in 2026, maybe don’t mention AI",
-      "link": "https://techcrunch.com/2026/05/17/if-youre-giving-a-commencement-speech-in-2026-maybe-dont-mention-ai/",
-      "raw_summary": "It's tough to get graduating students excited about a future shaped by artificial intelligence.",
-      "source": "TechCrunch",
-      "published": "Sun, 17 May 2026 16:32:04 +0000",
-      "summary": "If you’re giving a commencement speech in 2026, maybe don’t mention AI\nIt's tough to get graduating students excited about a future shaped by artificial intelligence."
+      "title": "BMW sends off the 6th-gen M3 CS with a manual gearbox, rear-wheel drive",
+      "link": "https://arstechnica.com/cars/2026/05/bmw-sends-off-the-6th-gen-m3-cs-with-a-manual-gearbox-rear-wheel-drive/",
+      "raw_summary": "The 2027 M3 CS Handschalter is lighter and comes with three pedals instead of two.",
+      "source": "Ars Technica - All content",
+      "published": "Mon, 18 May 2026 14:33:34 +0000",
+      "summary": "BMW sends off the 6th-gen M3 CS with a manual gearbox, rear-wheel drive\nThe 2027 M3 CS Handschalter is lighter and comes with three pedals instead of two."
     },
     {
-      "title": "TechCrunch Mobility: The AI skills arms race is coming for automotive",
-      "link": "https://techcrunch.com/2026/05/17/techcrunch-mobility-the-ai-skills-arms-race-is-coming-for-automotive/",
-      "raw_summary": "Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation.",
-      "source": "TechCrunch",
-      "published": "Sun, 17 May 2026 16:05:00 +0000",
-      "summary": "TechCrunch Mobility: The AI skills arms race is coming for automotive\nWelcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation."
+      "title": "Did Artemis II break through? Registrations at Space Camp double afterward.",
+      "link": "https://arstechnica.com/space/2026/05/did-artemis-ii-break-through-registrations-at-space-camp-double-afterward/",
+      "raw_summary": "Isaacman's $25 million donation leads to impressive new facilities.",
+      "source": "Ars Technica - All content",
+      "published": "Mon, 18 May 2026 13:49:37 +0000",
+      "summary": "Did Artemis II break through? Registrations at Space Camp double afterward.\nIsaacman's $25 million donation leads to impressive new facilities."
     },
     {
-      "title": "For Eclipse, the $2.5B Cerebras win is just the start of realizing its  physical-world thesis",
-      "link": "https://techcrunch.com/2026/05/17/for-eclipse-the-2-5b-cerebras-win-is-just-the-start-of-realizing-its-physical-world-thesis/",
-      "raw_summary": "Investing in the real world was lonely for Lior Susan 10 years ago. Now his firm finds itself at the center of the tech world's action.",
-      "source": "TechCrunch",
-      "published": "Sun, 17 May 2026 15:00:00 +0000",
-      "summary": "For Eclipse, the $2.5B Cerebras win is just the start of realizing its  physical-world thesis\nInvesting in the real world was lonely for Lior Susan 10 years ago. Now his firm finds itself at the center of the tech world's action."
+      "title": "Bug bounty businesses bombarded with AI slop",
+      "link": "https://arstechnica.com/ai/2026/05/bug-bounty-businesses-bombarded-with-ai-slop/",
+      "raw_summary": "\"Never-ending\" AI slop strains corporate hacking reward schemes.",
+      "source": "Ars Technica - All content",
+      "published": "Mon, 18 May 2026 13:23:34 +0000",
+      "summary": "Bug bounty businesses bombarded with AI slop\n\"Never-ending\" AI slop strains corporate hacking reward schemes."
+    },
+    {
+      "title": "The US space enterprise is desperately waiting for Starship—will it finally deliver?",
+      "link": "https://arstechnica.com/space/2026/05/the-us-space-enterprise-is-desperately-waiting-for-starship-will-it-finally-deliver/",
+      "raw_summary": "\"This is such a wild ride. The highs are high. The lows are low.\"",
+      "source": "Ars Technica - All content",
+      "published": "Mon, 18 May 2026 11:00:20 +0000",
+      "summary": "The US space enterprise is desperately waiting for Starship—will it finally deliver?\n\"This is such a wild ride. The highs are high. The lows are low.\""
     },
     {
       "title": "A revolutionary cancer treatment could transform autoimmune disease",
@@ -171,156 +203,124 @@
       "summary": "A revolutionary cancer treatment could transform autoimmune disease\nResearchers are testing CAR T cell therapy as a way to reset the immune system."
     },
     {
-      "title": "The US is betting on AI to catch insider trading in prediction markets",
-      "link": "https://arstechnica.com/tech-policy/2026/05/the-us-is-betting-on-ai-to-catch-insider-trading-in-prediction-markets/",
-      "raw_summary": "The Commodity Futures Trading Commission wants us to know it's taking this very seriously.",
-      "source": "Ars Technica - All content",
-      "published": "Sat, 16 May 2026 11:00:01 +0000",
-      "summary": "The US is betting on AI to catch insider trading in prediction markets\nThe Commodity Futures Trading Commission wants us to know it's taking this very seriously."
-    },
-    {
-      "title": "Russia pressures university students to become wartime drone pilots",
-      "link": "https://arstechnica.com/gadgets/2026/05/russia-pressures-university-students-to-become-wartime-drone-pilots/",
-      "raw_summary": "Universities promise no frontline duty and perks if students enlist in military.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 15 May 2026 22:19:12 +0000",
-      "summary": "Russia pressures university students to become wartime drone pilots\nUniversities promise no frontline duty and perks if students enlist in military."
-    },
-    {
-      "title": "Anthropic’s $1.5B copyright settlement is getting messy as judge delays approval",
-      "link": "https://arstechnica.com/tech-policy/2026/05/authors-fight-for-higher-payouts-from-anthropics-1-5b-copyright-settlement/",
-      "raw_summary": "Lawyers accused of rushing historic settlement to seize $320 million in fees.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 15 May 2026 21:51:24 +0000",
-      "summary": "Anthropic’s $1.5B copyright settlement is getting messy as judge delays approval\nLawyers accused of rushing historic settlement to seize $320 million in fees."
-    },
-    {
-      "title": "US hantavirus case was false positive; outbreak cases drop from 11 to 10",
-      "link": "https://arstechnica.com/health/2026/05/us-hantavirus-case-was-false-positive-outbreak-cases-drop-from-11-to-10/",
-      "raw_summary": "WHO announced today that the operation to safely transfer passengers is complete.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 15 May 2026 21:31:53 +0000",
-      "summary": "US hantavirus case was false positive; outbreak cases drop from 11 to 10\nWHO announced today that the operation to safely transfer passengers is complete."
-    },
-    {
-      "title": "What version of Manchesterism is Andy Burnham offering?",
-      "link": "https://www.ft.com/content/66aa99a3-5978-458c-93a9-3a916440a841",
-      "raw_summary": "His success as a business-friendly metro mayor sits uneasily with his Labour positioning",
+      "title": "NextEra strikes megadeal with Dominion to create $400bn US utility",
+      "link": "https://www.ft.com/content/a17f615a-cf05-4079-92a8-a8ab6370ae98",
+      "raw_summary": "Tie-up would create power behemoth at a time of booming demand for electricity for AI data centres",
       "source": "World",
-      "published": "Mon, 18 May 2026 08:33:16 GMT",
-      "summary": "What version of Manchesterism is Andy Burnham offering?\nHis success as a business-friendly metro mayor sits uneasily with his Labour positioning"
+      "published": "Mon, 18 May 2026 12:59:02 GMT",
+      "summary": "NextEra strikes megadeal with Dominion to create $400bn US utility\nTie-up would create power behemoth at a time of booming demand for electricity for AI data centres"
     },
     {
-      "title": "Japan’s Takaichi calls for extra budget as Iran energy crisis bites",
-      "link": "https://www.ft.com/content/865ef75d-9499-4822-a9aa-1ab4199253c0",
-      "raw_summary": "Prime minister’s U-turn follows weeks of denials and raises concerns that further bond issuance will be needed",
+      "title": "US strikes kill ‘more than 20’ Isis militants in Nigeria",
+      "link": "https://www.ft.com/content/39c5e4d0-e9a8-4c76-977c-baa4319b5818",
+      "raw_summary": "Attack comes shortly after killing of group’s second-in-command as Washington steps up West Africa military action",
       "source": "World",
-      "published": "Mon, 18 May 2026 06:50:58 GMT",
-      "summary": "Japan’s Takaichi calls for extra budget as Iran energy crisis bites\nPrime minister’s U-turn follows weeks of denials and raises concerns that further bond issuance will be needed"
+      "published": "Mon, 18 May 2026 12:49:49 GMT",
+      "summary": "US strikes kill ‘more than 20’ Isis militants in Nigeria\nAttack comes shortly after killing of group’s second-in-command as Washington steps up West Africa military action"
     },
     {
-      "title": "Bonds bad",
-      "link": "https://www.ft.com/content/73039afd-a0b4-4ce7-9875-40b1fb312073",
-      "raw_summary": "Plus, stocks bad",
+      "title": "Farage’s accounts challenge claim he paid for £1.4mn house with TV fee",
+      "link": "https://www.ft.com/content/88ce53de-8994-47b1-86ec-4c49b6b9cb50",
+      "raw_summary": "Reform UK leader has said he did not use £5mn gift from crypto billionaire to buy Surrey property",
       "source": "World",
-      "published": "Mon, 18 May 2026 05:30:02 GMT",
-      "summary": "Bonds bad\nPlus, stocks bad"
+      "published": "Mon, 18 May 2026 12:21:31 GMT",
+      "summary": "Farage’s accounts challenge claim he paid for £1.4mn house with TV fee\nReform UK leader has said he did not use £5mn gift from crypto billionaire to buy Surrey property"
     },
     {
-      "title": "Fears of Samsung strike ease after court ruling",
-      "link": "https://www.ft.com/content/8e708b02-96cf-44be-8ac0-d1b6022bff11",
-      "raw_summary": "Shares rise after injunction restricts unions’ ability to halt production at South Korean chipmaker",
+      "title": "The UK must embrace its libraries in the age of AI",
+      "link": "https://www.ft.com/content/fea28150-fef4-460d-a83a-3e77fa4a2a56",
+      "raw_summary": "As stewards of vast quantities of data, the sector could play a critical role in fuelling the digital economy",
       "source": "World",
-      "published": "Mon, 18 May 2026 05:13:35 GMT",
-      "summary": "Fears of Samsung strike ease after court ruling\nShares rise after injunction restricts unions’ ability to halt production at South Korean chipmaker"
+      "published": "Mon, 18 May 2026 11:39:30 GMT",
+      "summary": "The UK must embrace its libraries in the age of AI\nAs stewards of vast quantities of data, the sector could play a critical role in fuelling the digital economy"
     },
     {
-      "title": "EU races to find deal compromise as Trump tariff deadline looms",
-      "link": "https://www.ft.com/content/d92d63a4-460d-416a-ae72-5e87a20a77c0",
-      "raw_summary": "Also in this newsletter: European and Gulf leaders discuss Iran war fallout",
+      "title": "Submit your questions: Is Trump’s economic agenda working?",
+      "link": "https://www.ft.com/content/9c93862c-4fec-4277-93f9-1f37e3a58b51",
+      "raw_summary": "Take part in a live Ask an Expert Q&amp;A with the FT’s senior US columnists Edward Luce and Rana Foroohar on Thursday May 21 at 1pm BST",
       "source": "World",
-      "published": "Mon, 18 May 2026 05:00:03 GMT",
-      "summary": "EU races to find deal compromise as Trump tariff deadline looms\nAlso in this newsletter: European and Gulf leaders discuss Iran war fallout"
+      "published": "Mon, 18 May 2026 11:35:59 GMT",
+      "summary": "Submit your questions: Is Trump’s economic agenda working?\nTake part in a live Ask an Expert Q&amp;A with the FT’s senior US columnists Edward Luce and Rana Foroohar on Thursday May 21 at 1pm BST"
     },
     {
-      "title": "NextEra Said to Discuss Deal Valuing Dominion at $66 Billion",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-17/nextera-said-to-discuss-paying-about-76-per-share-for-dominion",
-      "raw_summary": "NextEra Energy Inc. is discussing a mostly stock deal for Dominion Energy Inc. that would value the company at about $76 per share, or around $66 billion, making it by far the largest power deal on record, according to people familiar with the matter.",
+      "title": "Stocks Waver as Doubts Over US-Iran Deal Lift Oil: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-17/oil-climbs-as-iran-war-shows-no-sign-of-ending-markets-wrap",
+      "raw_summary": "Wall Street’s rebound attempt failed, with stocks wavering as oil rose after doubts resurfaced about an imminent US-Iran deal that would revive energy flows through the key Strait of Hormuz.",
       "source": "Bloomberg Markets",
-      "published": "Sun, 17 May 2026 20:46:58 GMT",
-      "summary": "NextEra Said to Discuss Deal Valuing Dominion at $66 Billion\nNextEra Energy Inc. is discussing a mostly stock deal for Dominion Energy Inc. that would value the company at about $76 per share, or around $66 billion, making it by far the largest power deal on record, according to people familiar with"
+      "published": "Sun, 17 May 2026 22:18:10 GMT",
+      "summary": "Stocks Waver as Doubts Over US-Iran Deal Lift Oil: Markets Wrap\nWall Street’s rebound attempt failed, with stocks wavering as oil rose after doubts resurfaced about an imminent US-Iran deal that would revive energy flows through the key Strait of Hormuz."
     },
     {
-      "title": "Iran Conflict Has Raised the Floor for Bond Yields, JPMorgan Says",
-      "link": "https://www.bloomberg.com/news/videos/2026-05-18/conflict-has-raised-the-floor-for-bond-yields-jpmorgan-video",
-      "raw_summary": "Kim Crawford, global fixed income portfolio manager at JPMorgan Asset Management, and Laura Cooper, global investment strategist and macro credit head at Nuveen, discuss the selloff in global bond markets as a fragile ceasefire between the US and Iran extends past 40 days and a deal to reopen the Strait of Hormuz remains elusive. They speak on Bloomberg Television. (Source: Bloomberg)",
+      "title": "Gold Gains as Yields Push Lower on Renewed US-Iran Deal Hopes",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-17/gold-holds-decline-as-hormuz-quagmire-keeps-inflation-fear-high",
+      "raw_summary": "Gold advanced as bond yields pushed lower on renewed hopes for a breakthrough in the standoff between the US and Iran over the Strait of Hormuz.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 18 May 2026 09:39:02 GMT",
-      "summary": "Iran Conflict Has Raised the Floor for Bond Yields, JPMorgan Says\nKim Crawford, global fixed income portfolio manager at JPMorgan Asset Management, and Laura Cooper, global investment strategist and macro credit head at Nuveen, discuss the selloff in global bond markets as a fragile ceasefire betwee"
+      "published": "Sun, 17 May 2026 22:38:43 GMT",
+      "summary": "Gold Gains as Yields Push Lower on Renewed US-Iran Deal Hopes\nGold advanced as bond yields pushed lower on renewed hopes for a breakthrough in the standoff between the US and Iran over the Strait of Hormuz."
     },
     {
-      "title": "Indonesia Joins Global Market Rout, Rupiah Hits Record Low",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-18/indonesian-rupiah-falls-to-record-low-on-oil-as-markets-reopen",
-      "raw_summary": "The Indonesian rupiah fell to a record low, while stocks dropped and bond yields climbed as trading resumed after a two-day holiday, with local markets swept up in a global selloff fueled by inflation fears.",
+      "title": "LIRR Strike Jams Roads, Prompts Long Commutes as Talks Continue",
+      "link": "https://www.bloomberg.com/news/videos/2026-05-18/lirr-strike-jams-roads-prompts-long-commutes-video",
+      "raw_summary": "Long Island workers making their way into New York City grappled with long commutes Monday as the region’s rail road entered its third strike day.\n\n (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Mon, 18 May 2026 02:07:58 GMT",
-      "summary": "Indonesia Joins Global Market Rout, Rupiah Hits Record Low\nThe Indonesian rupiah fell to a record low, while stocks dropped and bond yields climbed as trading resumed after a two-day holiday, with local markets swept up in a global selloff fueled by inflation fears."
+      "published": "Mon, 18 May 2026 14:39:04 GMT",
+      "summary": "LIRR Strike Jams Roads, Prompts Long Commutes as Talks Continue\nLong Island workers making their way into New York City grappled with long commutes Monday as the region’s rail road entered its third strike day.\n\n (Source: Bloomberg)"
     },
     {
-      "title": "Treasuries Fluctuate as 30-Year Yield Hovers Near 2023 Level",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-18/us-long-bond-yield-hits-highest-since-2023-on-inflation-concern",
-      "raw_summary": "Treasuries fluctuated in early US trading as a selloff in global bond markets eased and investors watched for any signs of progress in the talks between the US and Iran.",
+      "title": "Pakistan Sends Troops, Fighters to Saudi Arabia, Reuters Reports",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-18/pakistan-sends-troops-fighters-to-saudi-arabia-reuters-reports",
+      "raw_summary": "Pakistan has deployed around 8,000 troops, fighter jets and an air defense system to Saudi Arabia under a mutual defense agreement, Reuters reported Monday citing officials it didn’t name.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 18 May 2026 01:29:08 GMT",
-      "summary": "Treasuries Fluctuate as 30-Year Yield Hovers Near 2023 Level\nTreasuries fluctuated in early US trading as a selloff in global bond markets eased and investors watched for any signs of progress in the talks between the US and Iran."
+      "published": "Mon, 18 May 2026 14:33:11 GMT",
+      "summary": "Pakistan Sends Troops, Fighters to Saudi Arabia, Reuters Reports\nPakistan has deployed around 8,000 troops, fighter jets and an air defense system to Saudi Arabia under a mutual defense agreement, Reuters reported Monday citing officials it didn’t name."
     },
     {
-      "title": "Tanker Tally at Iran’s Kharg Island Hits Post-Blockade Peak",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-18/tanker-tally-at-iran-s-kharg-island-hits-post-blockade-peak",
-      "raw_summary": "Some 23 tankers have been spotted around Iran’s principal oil-export hub, the largest cluster to have gathered at the island since the US Navy began a blockade on the country’s ports a month ago, interdicting and seizing ships.",
+      "title": "S&amp;P’s Mobility Unit to Sell $2 Billion of Notes Ahead of Spinoff",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-18/s-p-s-mobility-unit-to-sell-2-billion-of-notes-ahead-of-spinoff",
+      "raw_summary": "S&amp;P Global Inc. said on Monday that its Mobility Global unit will sell $2 billion of notes ahead of a planned spinoff of the business.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 18 May 2026 09:19:08 GMT",
-      "summary": "Tanker Tally at Iran’s Kharg Island Hits Post-Blockade Peak\nSome 23 tankers have been spotted around Iran’s principal oil-export hub, the largest cluster to have gathered at the island since the US Navy began a blockade on the country’s ports a month ago, interdicting and seizing ships."
+      "published": "Mon, 18 May 2026 14:26:50 GMT",
+      "summary": "S&amp;P’s Mobility Unit to Sell $2 Billion of Notes Ahead of Spinoff\nS&amp;P Global Inc. said on Monday that its Mobility Global unit will sell $2 billion of notes ahead of a planned spinoff of the business."
     },
     {
-      "title": "Crypto security is turning into an AI arms race as agents may overwhelm compliance teams",
-      "link": "https://www.coindesk.com/tech/2026/05/18/crypto-security-is-turning-into-an-ai-arms-race-as-agents-may-overwhelm-compliance-teams",
+      "title": "Live markets: Bitcoin gives up all of May's gains, slipping below $77,000",
+      "link": "https://www.coindesk.com/markets/2026/05/18/live-markets-crypto-adds-to-last-week-s-declines-with-bitcoin-slipping-below-usd77-000",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 18 May 2026 07:13:08 +0000",
-      "summary": "Crypto security is turning into an AI arms race as agents may overwhelm compliance teams\n"
+      "published": "Mon, 18 May 2026 14:26:44 +0000",
+      "summary": "Live markets: Bitcoin gives up all of May's gains, slipping below $77,000\n"
     },
     {
-      "title": "Aave restores ether borrowing limits after $230 million exploit",
-      "link": "https://www.coindesk.com/markets/2026/05/18/aave-restores-weth-collateral-limits-as-rseth-crisis-enters-recovery-phase",
+      "title": "Vitalik Buterin says AI 'formal verification' could actually make crypto much more secure",
+      "link": "https://www.coindesk.com/tech/2026/05/18/vitalik-buterin-says-ai-formal-verification-could-actually-make-crypto-much-more-secure",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 18 May 2026 07:05:20 +0000",
-      "summary": "Aave restores ether borrowing limits after $230 million exploit\n"
+      "published": "Mon, 18 May 2026 14:19:58 +0000",
+      "summary": "Vitalik Buterin says AI 'formal verification' could actually make crypto much more secure\n"
     },
     {
-      "title": "Bitcoin Depot, North America's largest bitcoin ATM operator, files for bankruptcy",
-      "link": "https://www.coindesk.com/markets/2026/05/18/bitcoin-depot-once-north-america-s-largest-bitcoin-atm-operator-files-for-bankruptcy",
+      "title": "Kraken parent Payward's Q1 revenue climbs despite crypto market slump",
+      "link": "https://www.coindesk.com/business/2026/05/18/kraken-parent-payward-s-q1-revenue-climbs-despite-crypto-market-slump",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 18 May 2026 06:55:50 +0000",
-      "summary": "Bitcoin Depot, North America's largest bitcoin ATM operator, files for bankruptcy\n"
+      "published": "Mon, 18 May 2026 13:41:24 +0000",
+      "summary": "Kraken parent Payward's Q1 revenue climbs despite crypto market slump\n"
     },
     {
-      "title": "Iran may be turning the Strait of Hormuz into a bitcoin-based insurance market, local reports say",
-      "link": "https://www.coindesk.com/markets/2026/05/18/iran-may-be-turning-the-strait-of-hormuz-into-a-bitcoin-insurance-market-local-reports-say",
+      "title": "XRP slips 2% as profit-taking knocks token back below $1.40",
+      "link": "https://www.coindesk.com/markets/2026/05/18/xrp-slips-2-as-profit-taking-knocks-token-back-below-usd1-40",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 18 May 2026 06:47:37 +0000",
-      "summary": "Iran may be turning the Strait of Hormuz into a bitcoin-based insurance market, local reports say\n"
+      "published": "Mon, 18 May 2026 13:35:00 +0000",
+      "summary": "XRP slips 2% as profit-taking knocks token back below $1.40\n"
     },
     {
-      "title": "Crypto traders betting on a rally lose $563 million in liquidations. Ether and bitcoin suffer the most",
-      "link": "https://www.coindesk.com/markets/2026/05/18/crypto-traders-betting-on-a-rally-lose-usd563-million-in-liquidations-ether-and-bitcoin-suffer-the-most",
+      "title": "CoinDesk 20 performance update: Bitcoin Cash (BCH) drops 13% as all assets decline",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/05/18/coindesk-20-performance-update-bitcoin-cash-bch-drops-13-as-all-assets-decline",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 18 May 2026 05:47:13 +0000",
-      "summary": "Crypto traders betting on a rally lose $563 million in liquidations. Ether and bitcoin suffer the most\n"
+      "published": "Mon, 18 May 2026 13:16:38 +0000",
+      "summary": "CoinDesk 20 performance update: Bitcoin Cash (BCH) drops 13% as all assets decline\n"
     }
   ]
 }
