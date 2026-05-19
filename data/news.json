@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T02:34:58.392991+00:00",
+  "generated_at": "2026-05-19T09:29:01.211871+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty\nA 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks"
     },
     {
+      "title": "Compromised Nx Console 18.95.0 Targeted VS Code Developers with Credential Stealer",
+      "link": "https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html",
+      "raw_summary": "Cybersecurity researchers have flagged a compromised version of the Nx Console extension that was published to the Microsoft Visual Studio Code (VS Code) Marketplace.\n\nThe extension in question is rwl.angular-console (version 18.95.0), a popular user interface and plugin for code editors like VS Code, Cursor, and JetBrains. The VS Code extension has more than 2.2 million installations. The Open",
+      "source": "The Hacker News",
+      "published": "Tue, 19 May 2026 13:19:23 +0530",
+      "summary": "Compromised Nx Console 18.95.0 Targeted VS Code Developers with Credential Stealer\nCybersecurity researchers have flagged a compromised version of the Nx Console extension that was published to the Microsoft Visual Studio Code (VS Code) Marketplace.\n\nThe extension in question is rwl.angular-console "
+    },
+    {
+      "title": "Popular GitHub Action Tags Redirected to Imposter Commit to Steal CI/CD Credentials",
+      "link": "https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html",
+      "raw_summary": "In yet another software supply chain attack, threat actors have compromised the popular GitHub Actions workflow, actions-cool/issues-helper, to run malicious code that harvests sensitive credentials and exfiltrates them to an attacker-controlled server.\n\n\"Every existing tag in the repository has been moved to point to an imposter commit that does not appear in the action's normal commit history,",
+      "source": "The Hacker News",
+      "published": "Tue, 19 May 2026 10:58:06 +0530",
+      "summary": "Popular GitHub Action Tags Redirected to Imposter Commit to Steal CI/CD Credentials\nIn yet another software supply chain attack, threat actors have compromised the popular GitHub Actions workflow, actions-cool/issues-helper, to run malicious code that harvests sensitive credentials and exfiltrates t"
+    },
+    {
+      "title": "Mini Shai-Hulud Pushes Malicious AntV npm Packages via Compromised Maintainer Account",
+      "link": "https://thehackernews.com/2026/05/mini-shai-hulud-pushes-malicious-antv.html",
+      "raw_summary": "Cybersecurity researchers have discovered a fresh software supply chain attack campaign that has compromised various npm packages associated with the @antv ecosystem as part of the ongoing Mini Shai-Hulud attack wave.\n\n\"The attack affects packages tied to the npm maintainer account atool, including echarts-for-react, a widely used React wrapper for Apache ECharts with roughly 1.1 million weekly",
+      "source": "The Hacker News",
+      "published": "Tue, 19 May 2026 10:24:17 +0530",
+      "summary": "Mini Shai-Hulud Pushes Malicious AntV npm Packages via Compromised Maintainer Account\nCybersecurity researchers have discovered a fresh software supply chain attack campaign that has compromised various npm packages associated with the @antv ecosystem as part of the ongoing Mini Shai-Hulud attack wa"
+    },
+    {
       "title": "INTERPOL Operation Ramz Disrupts MENA Cybercrime Networks with 201 Arrests",
       "link": "https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html",
       "raw_summary": "INTERPOL has coordinated a first-of-its-kind cybercrime crackdown across the Middle East and North Africa (MENA) that led to 201 arrests and the identification of an additional 382 suspects.\nThe initiative involved the efforts of 13 countries from the region between October 2025 and February 2026, aiming to investigate and neutralize malicious infrastructure, arrest perpetrators behind these",
@@ -59,68 +83,52 @@
       "summary": "⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More\nMonday opens with a trust problem. A mail server flaw is under active use. A network control system was targeted. Trusted packages were poisoned. A fake model page pushed a stealer. Then came the familiar ransom claim: th"
     },
     {
-      "title": "How to Reduce Phishing Exposure Before It Turns into Business Disruption",
-      "link": "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html",
-      "raw_summary": "What happens when a phishing email looks clean enough to pass through security, but dangerous enough to expose the business after one click? That is the gap many SOCs still struggle with: the attacks that leave teams unsure what was exposed, who else was targeted, and how far the risk has spread.\nEarly phishing detection closes that gap. It helps teams move from uncertainty to evidence faster,",
-      "source": "The Hacker News",
-      "published": "Mon, 18 May 2026 18:30:00 +0530",
-      "summary": "How to Reduce Phishing Exposure Before It Turns into Business Disruption\nWhat happens when a phishing email looks clean enough to pass through security, but dangerous enough to expose the business after one click? That is the gap many SOCs still struggle with: the attacks that leave teams unsure wha"
-    },
-    {
-      "title": "Developer Workstations Are Now Part of the Software Supply Chain",
-      "link": "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
-      "raw_summary": "Supply chain attackers are not only trying to slip malicious code into trusted software. They are trying to steal the access that makes trusted software possible. Recently, three separate campaigns hit npm, PyPI, and Docker Hub in a 48-hour window, and all three targeted secrets from developer environments and CI/CD pipelines, including API keys, cloud credentials, SSH keys, and tokens. This is",
-      "source": "The Hacker News",
-      "published": "Mon, 18 May 2026 16:53:41 +0530",
-      "summary": "Developer Workstations Are Now Part of the Software Supply Chain\nSupply chain attackers are not only trying to slip malicious code into trusted software. They are trying to steal the access that makes trusted software possible. Recently, three separate campaigns hit npm, PyPI, and Docker Hub in a 48"
-    },
-    {
-      "title": "Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws",
-      "link": "https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html",
-      "raw_summary": "Ivanti, Fortinet, n8n, SAP, and VMware have released security fixes for various vulnerabilities that could be exploited by bad actors to bypass authentication and execute arbitrary code.\nTopping the list is a critical flaw impacting Ivanti Xtraction (CVE-2026-8043, CVSS score: 9.6) that could be exploited to achieve information disclosure or client-side attacks.\n\"External control of a file name",
-      "source": "The Hacker News",
-      "published": "Mon, 18 May 2026 16:24:05 +0530",
-      "summary": "Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws\nIvanti, Fortinet, n8n, SAP, and VMware have released security fixes for various vulnerabilities that could be exploited by bad actors to bypass authentication and execute arbitrary code.\nTopping the list is a cri"
-    },
-    {
-      "title": "Anthropic co-founder to present AI encyclical alongside Pope Leo XIV",
-      "link": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html\">https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48187201\">https://news.ycombinator.com/item?id=48187201</a></p>\n<p>Points: 112</p>\n<p># Comments: 68</p>",
+      "title": "Mini Shai-Hulud Strikes Again: 314 npm Packages Compromised",
+      "link": "https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/",
+      "raw_summary": "<p>Article URL: <a href=\"https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/\">https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48189368\">https://news.ycombinator.com/item?id=48189368</a></p>\n<p>Points: 81</p>\n<p># Comments: 30</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 18 May 2026 23:18:10 +0000",
-      "summary": "Anthropic co-founder to present AI encyclical alongside Pope Leo XIV\n<p>Article URL: <a href=\"https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html\">https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html"
+      "published": "Tue, 19 May 2026 05:04:49 +0000",
+      "summary": "Mini Shai-Hulud Strikes Again: 314 npm Packages Compromised\n<p>Article URL: <a href=\"https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/\">https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinat"
     },
     {
-      "title": "Click (2016)",
-      "link": "https://clickclickclick.click/",
-      "raw_summary": "<p>Article URL: <a href=\"https://clickclickclick.click/\">https://clickclickclick.click/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48187054\">https://news.ycombinator.com/item?id=48187054</a></p>\n<p>Points: 207</p>\n<p># Comments: 43</p>",
+      "title": "Mug Shots: A Small Town Noir (2014)",
+      "link": "https://theappendix.net/issues/2014/4/mug-shots-a-small-town-noir",
+      "raw_summary": "<p>Article URL: <a href=\"https://theappendix.net/issues/2014/4/mug-shots-a-small-town-noir\">https://theappendix.net/issues/2014/4/mug-shots-a-small-town-noir</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48189233\">https://news.ycombinator.com/item?id=48189233</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 18 May 2026 23:03:02 +0000",
-      "summary": "Click (2016)\n<p>Article URL: <a href=\"https://clickclickclick.click/\">https://clickclickclick.click/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48187054\">https://news.ycombinator.com/item?id=48187054</a></p>\n<p>Points: 207</p>\n<p># Comments: 43</p>"
+      "published": "Tue, 19 May 2026 04:39:31 +0000",
+      "summary": "Mug Shots: A Small Town Noir (2014)\n<p>Article URL: <a href=\"https://theappendix.net/issues/2014/4/mug-shots-a-small-town-noir\">https://theappendix.net/issues/2014/4/mug-shots-a-small-town-noir</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48189233\">https://news.ycombinator."
     },
     {
-      "title": "Alignment pretraining: AI discourse creates self-fulfilling (mis)alignment",
-      "link": "https://arxiv.org/abs/2601.10160",
-      "raw_summary": "<p>Article URL: <a href=\"https://arxiv.org/abs/2601.10160\">https://arxiv.org/abs/2601.10160</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48185938\">https://news.ycombinator.com/item?id=48185938</a></p>\n<p>Points: 23</p>\n<p># Comments: 10</p>",
+      "title": "PyTorch Landscape",
+      "link": "https://pytorch.landscape2.io",
+      "raw_summary": "<p>Article URL: <a href=\"https://pytorch.landscape2.io\">https://pytorch.landscape2.io</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48189178\">https://news.ycombinator.com/item?id=48189178</a></p>\n<p>Points: 41</p>\n<p># Comments: 7</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 18 May 2026 21:29:13 +0000",
-      "summary": "Alignment pretraining: AI discourse creates self-fulfilling (mis)alignment\n<p>Article URL: <a href=\"https://arxiv.org/abs/2601.10160\">https://arxiv.org/abs/2601.10160</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48185938\">https://news.ycombinator.com/item?id=48185938</a></p"
+      "published": "Tue, 19 May 2026 04:29:39 +0000",
+      "summary": "PyTorch Landscape\n<p>Article URL: <a href=\"https://pytorch.landscape2.io\">https://pytorch.landscape2.io</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48189178\">https://news.ycombinator.com/item?id=48189178</a></p>\n<p>Points: 41</p>\n<p># Comments: 7</p>"
     },
     {
-      "title": "Shutterstock to pay $35M over hard-to-cancel subscriptions",
-      "link": "https://www.ftc.gov/news-events/news/press-releases/2026/05/shutterstock-pay-35-million-settle-ftc-allegations-over-illegal-subscription-cancellation-practices",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.ftc.gov/news-events/news/press-releases/2026/05/shutterstock-pay-35-million-settle-ftc-allegations-over-illegal-subscription-cancellation-practices\">https://www.ftc.gov/news-events/news/press-releases/2026/05/shutterstock-pay-35-million-settle-ftc-allegations-over-illegal-subscription-cancellation-practices</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48184635\">https://news.ycombinator.com/item?id=48184635</a></p>\n<p>Points: 136</p>\n<p># Comments: 61</p>",
+      "title": "Show HN: Hsrs – Type-Safe Haskell Bindings Generator for Rust",
+      "link": "https://github.com/harmont-dev/hsrs",
+      "raw_summary": "<p>Hey everyone! I've been working on hsrs, a type-safe Haskell Bindings Generator for Rust.<p>I couldn't really find any bindings generator that would create type-safe, rich bindings for Haskell from Rust. Naturally, both languages have rich type systems, so I was amazed that no awesome bindings generator already existed, hence I decided to write my own. hsrs feels very similar to pyo3 and napi-rs, and if you've used those, hsrs will feel right at home.<p>What's unique about hsrs as opposed to hs-bindgen is that it has type-safe bindings for rich types, like Result, Maybe, etc. while also generating Haskell bindings. The repo contains a minimal example, and more details are available in the haskell discourse: <a href=\"https://discourse.haskell.org/t/ann-hsrs-ergonomic-haskell-bindings-for-rust/14129\" rel=\"nofollow\">https://discourse.haskell.org/t/ann-hsrs-ergonomic-haskell-b...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48189044\">https://news.ycombinator.com/item?id=48189044</a></p>\n<p>Points: 26</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 18 May 2026 19:50:09 +0000",
-      "summary": "Shutterstock to pay $35M over hard-to-cancel subscriptions\n<p>Article URL: <a href=\"https://www.ftc.gov/news-events/news/press-releases/2026/05/shutterstock-pay-35-million-settle-ftc-allegations-over-illegal-subscription-cancellation-practices\">https://www.ftc.gov/news-events/news/press-releases/202"
+      "published": "Tue, 19 May 2026 04:06:09 +0000",
+      "summary": "Show HN: Hsrs – Type-Safe Haskell Bindings Generator for Rust\n<p>Hey everyone! I've been working on hsrs, a type-safe Haskell Bindings Generator for Rust.<p>I couldn't really find any bindings generator that would create type-safe, rich bindings for Haskell from Rust. Naturally, both languages have "
     },
     {
-      "title": "The FBI Wants to Buy Nationwide Access to License Plate Readers",
-      "link": "https://www.404media.co/the-fbi-wants-to-buy-nationwide-access-to-license-plate-readers/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.404media.co/the-fbi-wants-to-buy-nationwide-access-to-license-plate-readers/\">https://www.404media.co/the-fbi-wants-to-buy-nationwide-access-to-license-plate-readers/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48184350\">https://news.ycombinator.com/item?id=48184350</a></p>\n<p>Points: 230</p>\n<p># Comments: 92</p>",
+      "title": "LLMCap – A proxy that hard-stops LLM API calls when you hit a dollar cap",
+      "link": "https://www.llmcap.io/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.llmcap.io/\">https://www.llmcap.io/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48188996\">https://news.ycombinator.com/item?id=48188996</a></p>\n<p>Points: 18</p>\n<p># Comments: 12</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 18 May 2026 19:28:59 +0000",
-      "summary": "The FBI Wants to Buy Nationwide Access to License Plate Readers\n<p>Article URL: <a href=\"https://www.404media.co/the-fbi-wants-to-buy-nationwide-access-to-license-plate-readers/\">https://www.404media.co/the-fbi-wants-to-buy-nationwide-access-to-license-plate-readers/</a></p>\n<p>Comments URL: <a href"
+      "published": "Tue, 19 May 2026 03:56:57 +0000",
+      "summary": "LLMCap – A proxy that hard-stops LLM API calls when you hit a dollar cap\n<p>Article URL: <a href=\"https://www.llmcap.io/\">https://www.llmcap.io/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48188996\">https://news.ycombinator.com/item?id=48188996</a></p>\n<p>Points: 18</p>\n<p"
+    },
+    {
+      "title": "Theo Baker spent four years investigating Stanford. Before he leaves, here’s what he found.",
+      "link": "https://techcrunch.com/2026/05/18/theo-baker-spent-four-years-investigating-stanford-before-he-leaves-heres-what-he-found/",
+      "raw_summary": "\"There's a common refrain among [young] people in this world that it's easier to raise money for a startup right now than to get an internship. Which is remarkable, right?\"",
+      "source": "TechCrunch",
+      "published": "Tue, 19 May 2026 05:50:49 +0000",
+      "summary": "Theo Baker spent four years investigating Stanford. Before he leaves, here’s what he found.\n\"There's a common refrain among [young] people in this world that it's easier to raise money for a startup right now than to get an internship. Which is remarkable, right?\""
     },
     {
       "title": "OSHA probing worker death at SpaceX’s Starbase site",
@@ -153,14 +161,6 @@
       "source": "TechCrunch",
       "published": "Mon, 18 May 2026 17:34:43 +0000",
       "summary": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI\nElon Musk's claim that he was mistreated by his OpenAI co-founders failed after nine California jurors decided in a unanimous verdict that his lawsuits had been filed too late."
-    },
-    {
-      "title": "NYC Health + Hospitals says hackers stole medical data and fingerprints during breach affecting at least 1.8 million people",
-      "link": "https://techcrunch.com/2026/05/18/nyc-health-and-hospitals-says-hackers-stole-medical-data-and-fingerprints-during-breach-affecting-at-least-1-8-million-people/",
-      "raw_summary": "The New York public healthcare system said hackers stole personal and medical data, and scans of biometrics — including fingerprints — in one of the largest recorded breaches of 2026.",
-      "source": "TechCrunch",
-      "published": "Mon, 18 May 2026 16:32:33 +0000",
-      "summary": "NYC Health + Hospitals says hackers stole medical data and fingerprints during breach affecting at least 1.8 million people\nThe New York public healthcare system said hackers stole personal and medical data, and scans of biometrics — including fingerprints — in one of the largest recorded breaches o"
     },
     {
       "title": "Ebola outbreak: WHO declares emergency, US restricts travel, American infected",
@@ -203,124 +203,124 @@
       "summary": "Elon Musk took too long to sue OpenAI, jury unanimously agrees\nMusk plans to appeal after judge immediately affirmed the jury's decision."
     },
     {
-      "title": "Google and Blackstone to create AI cloud group",
-      "link": "https://www.ft.com/content/5730b605-8fb2-4973-a188-b4a587ce3580",
-      "raw_summary": "Search giant and world’s largest private capital group set to bring 500MW of data centre capacity online next year",
+      "title": "German government launches Uniper privatisation four years after rescue",
+      "link": "https://www.ft.com/content/1c892dee-f962-424e-bcbf-9f1438d919c1",
+      "raw_summary": "Berlin to reduce stake in gas importer from 99% to 25% following nationalisation triggered by Ukraine war",
       "source": "World",
-      "published": "Tue, 19 May 2026 00:40:54 GMT",
-      "summary": "Google and Blackstone to create AI cloud group\nSearch giant and world’s largest private capital group set to bring 500MW of data centre capacity online next year"
+      "published": "Tue, 19 May 2026 09:08:16 GMT",
+      "summary": "German government launches Uniper privatisation four years after rescue\nBerlin to reduce stake in gas importer from 99% to 25% following nationalisation triggered by Ukraine war"
     },
     {
-      "title": "Electric ships and trucks to buoy battery boom, says China lithium boss",
-      "link": "https://www.ft.com/content/e2fb0537-eb5c-4080-af58-42d6c009c455",
-      "raw_summary": "Tianqi says demand forecasts underestimate rapid rise of battery-powered industrial equipment",
+      "title": "Japan and Korea deepen energy ties as Iran war crisis escalates",
+      "link": "https://www.ft.com/content/d4a3e223-fbc9-4a77-a7ed-482220fafe62",
+      "raw_summary": "Sanae Takaichi and Lee Jae Myung have proven pragmatic in office as they pursue warmer ties",
       "source": "World",
-      "published": "Tue, 19 May 2026 00:37:57 GMT",
-      "summary": "Electric ships and trucks to buoy battery boom, says China lithium boss\nTianqi says demand forecasts underestimate rapid rise of battery-powered industrial equipment"
+      "published": "Tue, 19 May 2026 09:01:48 GMT",
+      "summary": "Japan and Korea deepen energy ties as Iran war crisis escalates\nSanae Takaichi and Lee Jae Myung have proven pragmatic in office as they pursue warmer ties"
     },
     {
-      "title": "SpaceX IPO set to hand $20bn stake to one hedge fund",
-      "link": "https://www.ft.com/content/f0838802-a923-43eb-9ea1-331cf6b5f038",
-      "raw_summary": "D1 Capital is among the Wall Street firms in line for big rewards if the rocket maker successfully lists next month",
+      "title": "UK job vacancies tumble to five-year low as Middle East conflict hits hiring",
+      "link": "https://www.ft.com/content/75399348-b288-4be9-a621-fb69f9c4d885",
+      "raw_summary": "Economic fallout from Iran war rattles employers, figures suggest",
       "source": "World",
-      "published": "Mon, 18 May 2026 23:50:12 GMT",
-      "summary": "SpaceX IPO set to hand $20bn stake to one hedge fund\nD1 Capital is among the Wall Street firms in line for big rewards if the rocket maker successfully lists next month"
+      "published": "Tue, 19 May 2026 08:40:45 GMT",
+      "summary": "UK job vacancies tumble to five-year low as Middle East conflict hits hiring\nEconomic fallout from Iran war rattles employers, figures suggest"
     },
     {
-      "title": "US drops fraud charges against Asia’s richest person",
-      "link": "https://www.ft.com/content/434fe893-570f-4449-9806-008807feb0a2",
-      "raw_summary": "Conglomerate owned by Asia’s richest person had earlier agreed to pay $275mn to settle separate US sanctions violation probe",
+      "title": "Energy price cap to rise less than initially forecast",
+      "link": "https://www.ft.com/content/0f65ce8a-512a-47c8-9ff1-54c9e609d6d4",
+      "raw_summary": "Analysts at Cornwall Insight predict a 13% increase for July to September",
       "source": "World",
-      "published": "Mon, 18 May 2026 22:52:39 GMT",
-      "summary": "US drops fraud charges against Asia’s richest person\nConglomerate owned by Asia’s richest person had earlier agreed to pay $275mn to settle separate US sanctions violation probe"
+      "published": "Tue, 19 May 2026 08:40:44 GMT",
+      "summary": "Energy price cap to rise less than initially forecast\nAnalysts at Cornwall Insight predict a 13% increase for July to September"
     },
     {
-      "title": "Trump administration creates $1.8bn fund for victims of government ‘lawfare’",
-      "link": "https://www.ft.com/content/9a0d6eee-8c63-4299-97ea-f9cccbad5566",
-      "raw_summary": "Settlement deal comes after US president and family drop $10bn IRS lawsuit over tax returns leak",
+      "title": "The Labour Party’s attitude to Brexit is like the country’s view of church",
+      "link": "https://www.ft.com/content/88834deb-9830-42a7-be68-49a6130e78d4",
+      "raw_summary": "Andy Burnham and Keir Starmer are less passionate about rejoining",
       "source": "World",
-      "published": "Mon, 18 May 2026 22:45:44 GMT",
-      "summary": "Trump administration creates $1.8bn fund for victims of government ‘lawfare’\nSettlement deal comes after US president and family drop $10bn IRS lawsuit over tax returns leak"
+      "published": "Tue, 19 May 2026 08:30:09 GMT",
+      "summary": "The Labour Party’s attitude to Brexit is like the country’s view of church\nAndy Burnham and Keir Starmer are less passionate about rejoining"
+    },
+    {
+      "title": "Stocks Slip as US-Iran Deadlock Rolls On: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-18/oil-slips-as-trump-spurs-optimism-over-iran-deal-markets-wrap",
+      "raw_summary": "A retreat in technology shares pulled stocks lower in the US and Asia. Oil fell modestly and Treasuries slipped as traders waited for signs of progress toward a peace deal in the Middle East.",
+      "source": "Bloomberg Markets",
+      "published": "Mon, 18 May 2026 22:10:23 GMT",
+      "summary": "Stocks Slip as US-Iran Deadlock Rolls On: Markets Wrap\nA retreat in technology shares pulled stocks lower in the US and Asia. Oil fell modestly and Treasuries slipped as traders waited for signs of progress toward a peace deal in the Middle East."
+    },
+    {
+      "title": "Singapore Stocks Reclaim Record High on Haven Demand in Iran War",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-19/singapore-stocks-reclaim-record-high-on-haven-demand-in-iran-war",
+      "raw_summary": "Singapore stocks climbed to a record as investors sought defensive havens during volatility sparked by the Iran war.",
+      "source": "Bloomberg Markets",
+      "published": "Tue, 19 May 2026 06:37:10 GMT",
+      "summary": "Singapore Stocks Reclaim Record High on Haven Demand in Iran War\nSingapore stocks climbed to a record as investors sought defensive havens during volatility sparked by the Iran war."
     },
     {
       "title": "Oil Declines After Trump Says He Called Off Strike on Iran",
       "link": "https://www.bloomberg.com/news/articles/2026-05-18/latest-oil-market-news-and-analysis-for-may-19",
-      "raw_summary": "Oil fell after President Donald Trump said he’d called off a strike on Iran planned for Tuesday following an appeal by Persian Gulf allies.",
+      "raw_summary": "Oil fell after President Donald Trump said he’d called off a strike on Iran following an appeal by Persian Gulf allies.",
       "source": "Bloomberg Markets",
       "published": "Mon, 18 May 2026 22:01:59 GMT",
-      "summary": "Oil Declines After Trump Says He Called Off Strike on Iran\nOil fell after President Donald Trump said he’d called off a strike on Iran planned for Tuesday following an appeal by Persian Gulf allies."
+      "summary": "Oil Declines After Trump Says He Called Off Strike on Iran\nOil fell after President Donald Trump said he’d called off a strike on Iran following an appeal by Persian Gulf allies."
     },
     {
-      "title": "US Long Bond Yields Near Highest Level Since 2023",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-18/us-long-bond-yield-hits-highest-since-2023-on-inflation-concern",
-      "raw_summary": "Yields on 30-year US Treasuries hovered near the highest levels in almost three years as investors tried to balance their worries over inflation with optimism that the US and Iran will eventually make progress toward a deal to end hostilities.",
+      "title": "Thailand Rolls Back Welcome Mat for Most Foreign Tourists",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-19/thailand-rolls-back-welcome-mat-for-most-foreign-tourists",
+      "raw_summary": "Thailand is rolling back some of its tourism friendly visa policies as the government seeks to crack down on crime and illegal employment involving foreign nationals, risking another setback for an industry that remains central to the economy.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 18 May 2026 01:29:08 GMT",
-      "summary": "US Long Bond Yields Near Highest Level Since 2023\nYields on 30-year US Treasuries hovered near the highest levels in almost three years as investors tried to balance their worries over inflation with optimism that the US and Iran will eventually make progress toward a deal to end hostilities."
+      "published": "Tue, 19 May 2026 09:09:08 GMT",
+      "summary": "Thailand Rolls Back Welcome Mat for Most Foreign Tourists\nThailand is rolling back some of its tourism friendly visa policies as the government seeks to crack down on crime and illegal employment involving foreign nationals, risking another setback for an industry that remains central to the economy"
     },
     {
-      "title": "Korean Stocks Drop 5% as Chip Slump Fuels Overheating Concerns",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-19/korea-s-world-beating-market-rally-hinges-on-a-handful-of-stocks",
-      "raw_summary": "Supercharged gains in a handful of companies and weak market breadth are stoking concerns that the world’s hottest stock market is overheating in some pockets.",
+      "title": "EQT CEO Says New Tech Fund Will Help Europe’s Scale-Up Problem",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-19/eqt-ceo-says-new-tech-fund-will-help-europe-s-scale-up-problem",
+      "raw_summary": "A new fund targeting Europe’s most promising startups will help the region create more global champions, according to the head of private equity group EQT AB.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 19 May 2026 00:37:46 GMT",
-      "summary": "Korean Stocks Drop 5% as Chip Slump Fuels Overheating Concerns\nSupercharged gains in a handful of companies and weak market breadth are stoking concerns that the world’s hottest stock market is overheating in some pockets."
+      "published": "Tue, 19 May 2026 08:58:37 GMT",
+      "summary": "EQT CEO Says New Tech Fund Will Help Europe’s Scale-Up Problem\nA new fund targeting Europe’s most promising startups will help the region create more global champions, according to the head of private equity group EQT AB."
     },
     {
-      "title": "Stocks Drop as Iran Optimism Fades, Oil Declines: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-18/oil-slips-as-trump-spurs-optimism-over-iran-deal-markets-wrap",
-      "raw_summary": "Equities declined as concerns around Iran lingered even after President Donald Trump said he was holding off on fresh strikes on the Middle East country. Oil fell.",
-      "source": "Bloomberg Markets",
-      "published": "Mon, 18 May 2026 22:10:23 GMT",
-      "summary": "Stocks Drop as Iran Optimism Fades, Oil Declines: Markets Wrap\nEquities declined as concerns around Iran lingered even after President Donald Trump said he was holding off on fresh strikes on the Middle East country. Oil fell."
-    },
-    {
-      "title": "Australia Treasurer Defends Investment Tax Changes",
-      "link": "https://www.bloomberg.com/news/videos/2026-05-19/australia-treasurer-defends-investment-tax-changes-video",
-      "raw_summary": "Australia's Treasurer Jim Chalmers has defended the proposed tax changes, arguing that they increase fairness for investors and will still tax capital gains at rates lower than other overseas markets. (Source: Bloomberg)",
-      "source": "Bloomberg Markets",
-      "published": "Tue, 19 May 2026 00:59:01 GMT",
-      "summary": "Australia Treasurer Defends Investment Tax Changes\nAustralia's Treasurer Jim Chalmers has defended the proposed tax changes, arguing that they increase fairness for investors and will still tax capital gains at rates lower than other overseas markets. (Source: Bloomberg)"
-    },
-    {
-      "title": "SEC to propose tokenized stock framework as Wall Street efforts deepen: Bloomberg",
-      "link": "https://www.coindesk.com/policy/2026/05/18/sec-to-propose-tokenized-stock-framework-as-wall-street-efforts-deepen-bloomberg",
+      "title": "Echo Protocol suffers $76 million exploit in eBTC minting attack on Monad",
+      "link": "https://www.coindesk.com/business/2026/05/19/echo-protocol-suffers-usd76-million-exploit-in-ebtc-minting-attack-on-monad",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 18 May 2026 22:20:27 +0000",
-      "summary": "SEC to propose tokenized stock framework as Wall Street efforts deepen: Bloomberg\n"
+      "published": "Tue, 19 May 2026 08:42:15 +0000",
+      "summary": "Echo Protocol suffers $76 million exploit in eBTC minting attack on Monad\n"
     },
     {
-      "title": "Minnesotan banks and credit unions set to provide crypto custody August 1",
-      "link": "https://www.coindesk.com/policy/2026/05/18/minnesotan-banks-and-credit-unions-set-to-provide-crypto-custody-august-1",
+      "title": "A DeFi exchange becomes the first to offer equity perpetuals powered by Nasdaq data",
+      "link": "https://www.coindesk.com/markets/2026/05/19/a-defi-exchange-becomes-the-first-to-offer-equity-perpetuals-powered-by-nasdaq-data",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 18 May 2026 21:07:08 +0000",
-      "summary": "Minnesotan banks and credit unions set to provide crypto custody August 1\n"
+      "published": "Tue, 19 May 2026 08:28:30 +0000",
+      "summary": "A DeFi exchange becomes the first to offer equity perpetuals powered by Nasdaq data\n"
     },
     {
-      "title": "Hyperliquid's USDC deal could supercharge HYPE, pressure Circle, Coinbase margins, analysts say",
-      "link": "https://www.coindesk.com/markets/2026/05/18/hyperliquid-s-usdc-deal-could-supercharge-hype-pressure-circle-coinbase-margins-analysts-say",
+      "title": "XRP and Solana funds attract inflows as bitcoin outflows hit nearly $1 billion",
+      "link": "https://www.coindesk.com/markets/2026/05/19/xrp-and-solana-attract-fresh-inflows-as-bitcoin-fund-outflows-hit-nearly-usd1-billion",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 18 May 2026 20:18:37 +0000",
-      "summary": "Hyperliquid's USDC deal could supercharge HYPE, pressure Circle, Coinbase margins, analysts say\n"
+      "published": "Tue, 19 May 2026 08:25:17 +0000",
+      "summary": "XRP and Solana funds attract inflows as bitcoin outflows hit nearly $1 billion\n"
     },
     {
-      "title": "Revolut wants to take Dogecoin mainstream with its new physical payment card",
-      "link": "https://www.coindesk.com/markets/2026/05/18/revolut-wants-to-take-dogecoin-mainstream-with-its-new-physical-payment-card",
+      "title": "Bitcoin has shed $5,000 within days. ETF flows, derivatives say the selloff could worsen",
+      "link": "https://www.coindesk.com/markets/2026/05/19/bitcoin-has-shed-usd5-000-within-days-the-data-says-this-selloff-could-worsen",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 18 May 2026 18:30:15 +0000",
-      "summary": "Revolut wants to take Dogecoin mainstream with its new physical payment card\n"
+      "published": "Tue, 19 May 2026 06:08:22 +0000",
+      "summary": "Bitcoin has shed $5,000 within days. ETF flows, derivatives say the selloff could worsen\n"
     },
     {
-      "title": "Solana is shedding its memecoin reputation as big banks move billions into its ecosystem",
-      "link": "https://www.coindesk.com/markets/2026/05/18/solana-is-shedding-its-memecoin-reputation-as-big-banks-move-billions-into-its-ecosystem",
+      "title": "World Liberty Financial treasury company AI Financial warns that it may not survive the year in SEC filing",
+      "link": "https://www.coindesk.com/markets/2026/05/19/world-liberty-financial-wlfi-treasury-company-ai-financial-warns-in-sec-filing-that-it-may-not-survive-the-year",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 18 May 2026 17:35:27 +0000",
-      "summary": "Solana is shedding its memecoin reputation as big banks move billions into its ecosystem\n"
+      "published": "Tue, 19 May 2026 05:35:32 +0000",
+      "summary": "World Liberty Financial treasury company AI Financial warns that it may not survive the year in SEC filing\n"
     }
   ]
 }
