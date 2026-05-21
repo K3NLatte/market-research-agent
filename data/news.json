@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T08:59:45.736975+00:00",
+  "generated_at": "2026-05-21T14:46:50.449848+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty\nA 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message phishing attacks"
     },
     {
+      "title": "ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories",
+      "link": "https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html",
+      "raw_summary": "This week starts small.\n\nA token leaks. A bad package slips in. A login trick works. An old tool shows up again. At first, it feels like the usual mess. Then you see the pattern: attackers are not always breaking in. They are using the parts we already trust.\n\nThat is what makes it worrying. The danger is in normal things now - updates, apps, cloud buttons, support chats, trusted accounts. AI",
+      "source": "The Hacker News",
+      "published": "Thu, 21 May 2026 17:22:14 +0530",
+      "summary": "ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories\nThis week starts small.\n\nA token leaks. A bad package slips in. A login trick works. An old tool shows up again. At first, it feels like the usual mess. Then you see the pattern: attackers are not always b"
+    },
+    {
+      "title": "Microsoft Warns of Two Actively Exploited Defender Vulnerabilities",
+      "link": "https://thehackernews.com/2026/05/microsoft-warns-of-two-actively.html",
+      "raw_summary": "Microsoft has disclosed that a privilege escalation and a denial-of-service flaw in Defender has come under active exploitation in the wild.\n\nThe former, tracked as CVE-2026-41091, is rated 7.8 on the CVSS scoring system. Successful exploitation of the flaw could allow an attacker to gain SYSTEM privileges.\n\n\"Improper link resolution before file access ('link following') in Microsoft Defender",
+      "source": "The Hacker News",
+      "published": "Thu, 21 May 2026 16:25:57 +0530",
+      "summary": "Microsoft Warns of Two Actively Exploited Defender Vulnerabilities\nMicrosoft has disclosed that a privilege escalation and a denial-of-service flaw in Defender has come under active exploitation in the wild.\n\nThe former, tracked as CVE-2026-41091, is rated 7.8 on the CVSS scoring system. Successful "
+    },
+    {
+      "title": "When Identity is the Attack Path",
+      "link": "https://thehackernews.com/2026/05/when-identity-is-attack-path.html",
+      "raw_summary": "Consider a cached access key on a single Windows machine. It got there the way most cached credentials do - a user logged in, and the key stored itself automatically. Standard AWS behavior. No one misconfigured anything or violated a policy. Yet that single key, which was easily accessible to a minor-league attacker, could have opened a path to some 98% of entities in the company's cloud",
+      "source": "The Hacker News",
+      "published": "Thu, 21 May 2026 16:00:00 +0530",
+      "summary": "When Identity is the Attack Path\nConsider a cached access key on a single Windows machine. It got there the way most cached credentials do - a user logged in, and the key stored itself automatically. Standard AWS behavior. No one misconfigured anything or violated a policy. Yet that single key, whic"
+    },
+    {
       "title": "9-Year-Old Linux Kernel Flaw Enables Root Command Execution on Major Distros",
       "link": "https://thehackernews.com/2026/05/9-year-old-linux-kernel-flaw-enables.html",
       "raw_summary": "Cybersecurity researchers have disclosed details of a vulnerability in the Linux kernel that remained undetected for nine years.\n\nThe vulnerability, tracked as CVE-2026-46333 (CVSS score: 5.5), is a case of improper privilege management that could permit an unprivileged local user to disclose sensitive files and execute arbitrary commands as root on default installations of several major",
@@ -59,108 +83,92 @@
       "summary": "GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension\nGitHub on Wednesday officially confirmed that the breach of its internal repositories was the result of a compromise of an employee device involving a poisoned version of the Nx Console Microsoft Visual Studio Code (VS "
     },
     {
-      "title": "Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks",
-      "link": "https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html",
-      "raw_summary": "Drupal has released security updates for a \"highly critical\" security vulnerability in Drupal Core that could be exploited by attackers to achieve remote code execution, privilege escalation, or information disclosure.\nThe vulnerability, now tracked as CVE-2026-9082, carries a CVSS score of 6.5 out of 10.0, per CVE.org. Drupal said the vulnerability resides in a database abstraction API that is",
-      "source": "The Hacker News",
-      "published": "Thu, 21 May 2026 09:14:11 +0530",
-      "summary": "Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks\nDrupal has released security updates for a \"highly critical\" security vulnerability in Drupal Core that could be exploited by attackers to achieve remote code execution, privilege escalation, or information disclosure.\nThe vuln"
-    },
-    {
-      "title": "Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development",
-      "link": "https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html",
-      "raw_summary": "Microsoft has unveiled two new open-source tools called RAMPART and Clarity to assist developers in better testing the security of artificial intelligence (AI) agents.\n\nRAMPART, short for Risk Assessment and Measurement Platform for Agentic Red Teaming, functions as a Pytest-native safety and security testing framework for writing and running safety and security tests for AI agents, covering",
-      "source": "The Hacker News",
-      "published": "Wed, 20 May 2026 22:36:54 +0530",
-      "summary": "Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development\nMicrosoft has unveiled two new open-source tools called RAMPART and Clarity to assist developers in better testing the security of artificial intelligence (AI) agents.\n\nRAMPART, short for Risk Assessment and Measuremen"
-    },
-    {
-      "title": "Microsoft Takes Down Malware-Signing Service Behind Ransomware Attacks",
-      "link": "https://thehackernews.com/2026/05/microsoft-takes-down-malware-signing.html",
-      "raw_summary": "Microsoft on Tuesday said it disrupted a malware-signing-as-a-service (MSaaS) operation that weaponized the company's Artifact Signing system to deliver malicious code and conduct ransomware and other attacks, compromising thousands of machines and networks across the world.\n\nThe tech giant attributed the activity to a threat actor it calls Fox Tempest, which it said offered the MSaaS scheme",
-      "source": "The Hacker News",
-      "published": "Wed, 20 May 2026 20:06:44 +0530",
-      "summary": "Microsoft Takes Down Malware-Signing Service Behind Ransomware Attacks\nMicrosoft on Tuesday said it disrupted a malware-signing-as-a-service (MSaaS) operation that weaponized the company's Artifact Signing system to deliver malicious code and conduct ransomware and other attacks, compromising thousa"
-    },
-    {
-      "title": "Typewise (YC S22) Is Hiring an AI Growth Engineer (Zurich or Remote)",
-      "link": "https://www.ycombinator.com/companies/typewise/jobs/HmCzfBK-ai-growth-engineer",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/typewise/jobs/HmCzfBK-ai-growth-engineer\">https://www.ycombinator.com/companies/typewise/jobs/HmCzfBK-ai-growth-engineer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48219340\">https://news.ycombinator.com/item?id=48219340</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
+      "title": "Google's Antigravity Bait and Switch",
+      "link": "https://www.0xsid.com/blog/antigravity-bait-n-switch",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.0xsid.com/blog/antigravity-bait-n-switch\">https://www.0xsid.com/blog/antigravity-bait-n-switch</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48222529\">https://news.ycombinator.com/item?id=48222529</a></p>\n<p>Points: 50</p>\n<p># Comments: 19</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 21 May 2026 08:01:53 +0000",
-      "summary": "Typewise (YC S22) Is Hiring an AI Growth Engineer (Zurich or Remote)\n<p>Article URL: <a href=\"https://www.ycombinator.com/companies/typewise/jobs/HmCzfBK-ai-growth-engineer\">https://www.ycombinator.com/companies/typewise/jobs/HmCzfBK-ai-growth-engineer</a></p>\n<p>Comments URL: <a href=\"https://news."
+      "published": "Thu, 21 May 2026 13:50:59 +0000",
+      "summary": "Google's Antigravity Bait and Switch\n<p>Article URL: <a href=\"https://www.0xsid.com/blog/antigravity-bait-n-switch\">https://www.0xsid.com/blog/antigravity-bait-n-switch</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48222529\">https://news.ycombinator.com/item?id=48222529</a><"
     },
     {
-      "title": "Vivaldi 8.0",
-      "link": "https://vivaldi.com/blog/vivaldi-on-desktop-8-0/",
-      "raw_summary": "<p>Article URL: <a href=\"https://vivaldi.com/blog/vivaldi-on-desktop-8-0/\">https://vivaldi.com/blog/vivaldi-on-desktop-8-0/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48219060\">https://news.ycombinator.com/item?id=48219060</a></p>\n<p>Points: 82</p>\n<p># Comments: 33</p>",
+      "title": "AI is just unauthorised plagiarism at a bigger scale",
+      "link": "https://axelk.ee/ai-is-just-unauthorised-plagiarism-at-a-bigger-scale/",
+      "raw_summary": "<p>Article URL: <a href=\"https://axelk.ee/ai-is-just-unauthorised-plagiarism-at-a-bigger-scale/\">https://axelk.ee/ai-is-just-unauthorised-plagiarism-at-a-bigger-scale/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48222383\">https://news.ycombinator.com/item?id=48222383</a></p>\n<p>Points: 225</p>\n<p># Comments: 104</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 21 May 2026 07:21:55 +0000",
-      "summary": "Vivaldi 8.0\n<p>Article URL: <a href=\"https://vivaldi.com/blog/vivaldi-on-desktop-8-0/\">https://vivaldi.com/blog/vivaldi-on-desktop-8-0/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48219060\">https://news.ycombinator.com/item?id=48219060</a></p>\n<p>Points: 82</p>\n<p># Commen"
+      "published": "Thu, 21 May 2026 13:38:12 +0000",
+      "summary": "AI is just unauthorised plagiarism at a bigger scale\n<p>Article URL: <a href=\"https://axelk.ee/ai-is-just-unauthorised-plagiarism-at-a-bigger-scale/\">https://axelk.ee/ai-is-just-unauthorised-plagiarism-at-a-bigger-scale/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48222383"
     },
     {
-      "title": "Haskell Foundation 2026 Update",
-      "link": "https://discourse.haskell.org/t/haskell-foundation-2026-update/14136",
-      "raw_summary": "<p>Article URL: <a href=\"https://discourse.haskell.org/t/haskell-foundation-2026-update/14136\">https://discourse.haskell.org/t/haskell-foundation-2026-update/14136</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48216983\">https://news.ycombinator.com/item?id=48216983</a></p>\n<p>Points: 108</p>\n<p># Comments: 29</p>",
+      "title": "Hating AI Is Good",
+      "link": "https://www.thehandbasket.co/p/hating-ai-is-good-actually",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.thehandbasket.co/p/hating-ai-is-good-actually\">https://www.thehandbasket.co/p/hating-ai-is-good-actually</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48222366\">https://news.ycombinator.com/item?id=48222366</a></p>\n<p>Points: 193</p>\n<p># Comments: 194</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 21 May 2026 02:13:23 +0000",
-      "summary": "Haskell Foundation 2026 Update\n<p>Article URL: <a href=\"https://discourse.haskell.org/t/haskell-foundation-2026-update/14136\">https://discourse.haskell.org/t/haskell-foundation-2026-update/14136</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48216983\">https://news.ycombinator"
+      "published": "Thu, 21 May 2026 13:36:06 +0000",
+      "summary": "Hating AI Is Good\n<p>Article URL: <a href=\"https://www.thehandbasket.co/p/hating-ai-is-good-actually\">https://www.thehandbasket.co/p/hating-ai-is-good-actually</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48222366\">https://news.ycombinator.com/item?id=48222366</a></p>\n<p>Po"
     },
     {
-      "title": "What is a Demand Coop",
-      "link": "https://cahootzcoops.com/blog/what-is-a-demand-coop",
-      "raw_summary": "<p>Article URL: <a href=\"https://cahootzcoops.com/blog/what-is-a-demand-coop\">https://cahootzcoops.com/blog/what-is-a-demand-coop</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48216619\">https://news.ycombinator.com/item?id=48216619</a></p>\n<p>Points: 59</p>\n<p># Comments: 55</p>",
+      "title": "US employers spend more than $1.5B a year to fight labor unions, report finds",
+      "link": "https://www.theguardian.com/us-news/2026/may/20/how-much-companies-spend-fight-unions",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.theguardian.com/us-news/2026/may/20/how-much-companies-spend-fight-unions\">https://www.theguardian.com/us-news/2026/may/20/how-much-companies-spend-fight-unions</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48222241\">https://news.ycombinator.com/item?id=48222241</a></p>\n<p>Points: 67</p>\n<p># Comments: 20</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 21 May 2026 01:20:52 +0000",
-      "summary": "What is a Demand Coop\n<p>Article URL: <a href=\"https://cahootzcoops.com/blog/what-is-a-demand-coop\">https://cahootzcoops.com/blog/what-is-a-demand-coop</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48216619\">https://news.ycombinator.com/item?id=48216619</a></p>\n<p>Points: 59"
+      "published": "Thu, 21 May 2026 13:25:41 +0000",
+      "summary": "US employers spend more than $1.5B a year to fight labor unions, report finds\n<p>Article URL: <a href=\"https://www.theguardian.com/us-news/2026/may/20/how-much-companies-spend-fight-unions\">https://www.theguardian.com/us-news/2026/may/20/how-much-companies-spend-fight-unions</a></p>\n<p>Comments URL:"
     },
     {
-      "title": "Intuit to lay off over 3k employees to refocus on AI",
-      "link": "https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/",
-      "raw_summary": "<p>Article URL: <a href=\"https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/\">https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48216278\">https://news.ycombinator.com/item?id=48216278</a></p>\n<p>Points: 182</p>\n<p># Comments: 133</p>",
+      "title": "Magic the Gathering format: Fun 40",
+      "link": "https://fabiensanglard.net/mtg/fun//index.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://fabiensanglard.net/mtg/fun//index.html\">https://fabiensanglard.net/mtg/fun//index.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48222105\">https://news.ycombinator.com/item?id=48222105</a></p>\n<p>Points: 21</p>\n<p># Comments: 16</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 21 May 2026 00:36:01 +0000",
-      "summary": "Intuit to lay off over 3k employees to refocus on AI\n<p>Article URL: <a href=\"https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/\">https://techcrunch.com/2026/05/20/intuit-to-lay-off-over-3000-employees-to-refocus-on-ai/</a></p>\n<p>Comments URL: <a href=\"https:/"
+      "published": "Thu, 21 May 2026 13:13:36 +0000",
+      "summary": "Magic the Gathering format: Fun 40\n<p>Article URL: <a href=\"https://fabiensanglard.net/mtg/fun//index.html\">https://fabiensanglard.net/mtg/fun//index.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48222105\">https://news.ycombinator.com/item?id=48222105</a></p>\n<p>Points:"
     },
     {
-      "title": "Truecaller gets into the eSIM business to diversify its revenue streams",
-      "link": "https://techcrunch.com/2026/05/20/truecaller-gets-into-the-esim-business-to-diversify-its-revenue-streams/",
-      "raw_summary": "The company said its plans will range from 1 GB over 7 days to 20 GB over 30 days. Initially, the launch will make the eSIM product available in 29 countries.",
+      "title": "Waymo pauses Atlanta service as its robotaxis keep driving into floods",
+      "link": "https://techcrunch.com/2026/05/21/waymo-pauses-atlanta-service-as-its-robotaxis-keep-driving-into-floods/",
+      "raw_summary": "Waymo's robotaxi service is now suspended in both Atlanta and San Antonio, as the company works to stop its vehicles from driving into flooded roads.",
       "source": "TechCrunch",
-      "published": "Thu, 21 May 2026 06:00:00 +0000",
-      "summary": "Truecaller gets into the eSIM business to diversify its revenue streams\nThe company said its plans will range from 1 GB over 7 days to 20 GB over 30 days. Initially, the launch will make the eSIM product available in 29 countries."
+      "published": "Thu, 21 May 2026 14:27:46 +0000",
+      "summary": "Waymo pauses Atlanta service as its robotaxis keep driving into floods\nWaymo's robotaxi service is now suspended in both Atlanta and San Antonio, as the company works to stop its vehicles from driving into flooded roads."
     },
     {
-      "title": "General Catalyst just led a $63M bet on India’s travel payments market",
-      "link": "https://techcrunch.com/2026/05/20/indian-travel-fintech-scapia-more-than-doubles-valuation-to-over-500m-in-a-year/",
-      "raw_summary": "Scapia, an Indian startup that combines travel booking with co-branded credit cards and mobile payments, said the deal doubles its valuation.",
+      "title": "The Path, founded by Tony Robbins and Calm alums, hopes to offer safer AI therapy",
+      "link": "https://techcrunch.com/2026/05/21/the-path-founded-by-tony-robbins-and-calm-alums-wants-to-offer-safer-ai-therapy/",
+      "raw_summary": "The Path says its AI model has scored 95 on the mental health safety AI benchmark, Vera-MH. This compares to a top score of 65 for the consumer bots.",
       "source": "TechCrunch",
-      "published": "Thu, 21 May 2026 05:52:38 +0000",
-      "summary": "General Catalyst just led a $63M bet on India’s travel payments market\nScapia, an Indian startup that combines travel booking with co-branded credit cards and mobile payments, said the deal doubles its valuation."
+      "published": "Thu, 21 May 2026 14:00:00 +0000",
+      "summary": "The Path, founded by Tony Robbins and Calm alums, hopes to offer safer AI therapy\nThe Path says its AI model has scored 95 on the mental health safety AI benchmark, Vera-MH. This compares to a top score of 65 for the consumer bots."
     },
     {
-      "title": "Imperagen raises £5 million to use quantum physics, AI on enzyme engineering",
-      "link": "https://techcrunch.com/2026/05/20/imperagen-raises-5-million-to-redefine-enzyme-engineering/",
-      "raw_summary": "Biotech company Imperagen announced on Thursday a £5 million ($6.7 million) seed round led by PXN Ventures, with participation from IQ Capital and Northern Gritstone.",
+      "title": "Hark raises $700M Series A for its secretive “universal” AI interface",
+      "link": "https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/",
+      "raw_summary": "Brett Adcock's new AI startup is now valued at $6 billion by its investors.",
       "source": "TechCrunch",
-      "published": "Thu, 21 May 2026 04:00:00 +0000",
-      "summary": "Imperagen raises £5 million to use quantum physics, AI on enzyme engineering\nBiotech company Imperagen announced on Thursday a £5 million ($6.7 million) seed round led by PXN Ventures, with participation from IQ Capital and Northern Gritstone."
+      "published": "Thu, 21 May 2026 14:00:00 +0000",
+      "summary": "Hark raises $700M Series A for its secretive “universal” AI interface\nBrett Adcock's new AI startup is now valued at $6 billion by its investors."
     },
     {
-      "title": "Jensen Huang says he’s found a ‘brand new’ $200B market for Nvidia",
-      "link": "https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/",
-      "raw_summary": "The next big thing for Nvidia will be CPUs for AI agents, $200 billion worth, CEO Jensen Huang predicts.",
+      "title": "Maka Kids is redefining kids’ screen time with a streaming app optimized for well-being, not engagement",
+      "link": "https://techcrunch.com/2026/05/21/maka-kids-is-redefining-kids-screen-time-with-a-streaming-app-optimized-for-well-being-not-engagement/",
+      "raw_summary": "Maka Kids is building a streaming app for children ages zero to six featuring content designed for healthy development. The startup has now raised $3 million in seed funding to scale its platform.",
       "source": "TechCrunch",
-      "published": "Thu, 21 May 2026 00:28:31 +0000",
-      "summary": "Jensen Huang says he’s found a ‘brand new’ $200B market for Nvidia\nThe next big thing for Nvidia will be CPUs for AI agents, $200 billion worth, CEO Jensen Huang predicts."
+      "published": "Thu, 21 May 2026 14:00:00 +0000",
+      "summary": "Maka Kids is redefining kids’ screen time with a streaming app optimized for well-being, not engagement\nMaka Kids is building a streaming app for children ages zero to six featuring content designed for healthy development. The startup has now raised $3 million in seed funding to scale its platform."
     },
     {
-      "title": "Anthropic says it’s about to have its first profitable quarter",
-      "link": "https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/",
-      "raw_summary": "Anthropic has told its investors that it will more than double revenue to around $10.9 billion in its second quarter.",
+      "title": "Google is pitching an AI agent ecosystem to consumers who may not buy it",
+      "link": "https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/",
+      "raw_summary": "The AI agents are coming. A lot of them.",
       "source": "TechCrunch",
-      "published": "Thu, 21 May 2026 00:21:21 +0000",
-      "summary": "Anthropic says it’s about to have its first profitable quarter\nAnthropic has told its investors that it will more than double revenue to around $10.9 billion in its second quarter."
+      "published": "Thu, 21 May 2026 13:52:23 +0000",
+      "summary": "Google is pitching an AI agent ecosystem to consumers who may not buy it\nThe AI agents are coming. A lot of them."
+    },
+    {
+      "title": "These clever active beam headlights are finally coming to America",
+      "link": "https://arstechnica.com/cars/2026/05/these-clever-active-beam-headlights-are-finally-coming-to-america/",
+      "raw_summary": "The 2027 Audi Q9's digital matrix lights satisfy new NHTSA rules on minimizing glare.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 21 May 2026 13:00:09 +0000",
+      "summary": "These clever active beam headlights are finally coming to America\nThe 2027 Audi Q9's digital matrix lights satisfy new NHTSA rules on minimizing glare."
     },
     {
       "title": "Famously secret about its finances, SpaceX opens its books for the first time",
@@ -195,132 +203,124 @@
       "summary": "Masters of the Universe final trailer brings the '80s nostalgia\n\"You are he who will restore peace to Eternia.\""
     },
     {
-      "title": "Leaving the V8 in the past: The all-electric Mercedes-AMG GT 4-Door",
-      "link": "https://arstechnica.com/cars/2026/05/leaving-the-v8-in-the-past-the-all-electric-mercedes-amg-gt-4-door/",
-      "raw_summary": "The 0–60 time is impressive, the miles/kWh number even more so.",
-      "source": "Ars Technica - All content",
-      "published": "Wed, 20 May 2026 19:53:34 +0000",
-      "summary": "Leaving the V8 in the past: The all-electric Mercedes-AMG GT 4-Door\nThe 0–60 time is impressive, the miles/kWh number even more so."
+      "title": "Nvidia fails to dazzle investors despite lifting dividends",
+      "link": "https://www.ft.com/content/a7aa26d1-1bad-407f-8bff-4ae491cb8ce0",
+      "raw_summary": "Shares in world’s most valuable company steady after announcing better than expected revenue and forecasts",
+      "source": "World",
+      "published": "Thu, 21 May 2026 14:09:18 GMT",
+      "summary": "Nvidia fails to dazzle investors despite lifting dividends\nShares in world’s most valuable company steady after announcing better than expected revenue and forecasts"
+    },
+    {
+      "title": "The Supreme Court turns its back on 60 years of Black enfranchisement",
+      "link": "https://www.ft.com/content/ba9dc280-6b1f-4c2f-ba5e-f7e31d36c05f",
+      "raw_summary": "Its decision in Louisiana vs Callais ignores the law and overturns precedent",
+      "source": "World",
+      "published": "Thu, 21 May 2026 14:00:06 GMT",
+      "summary": "The Supreme Court turns its back on 60 years of Black enfranchisement\nIts decision in Louisiana vs Callais ignores the law and overturns precedent"
+    },
+    {
+      "title": "Closing tax loophole for oil groups will fund cost of living package, says Reeves",
+      "link": "https://www.ft.com/content/af3b8719-e9be-4228-9bf9-921f77ad2448",
+      "raw_summary": "Chancellor sets out sweeping package of measures aimed at helping businesses and families",
+      "source": "World",
+      "published": "Thu, 21 May 2026 13:25:47 GMT",
+      "summary": "Closing tax loophole for oil groups will fund cost of living package, says Reeves\nChancellor sets out sweeping package of measures aimed at helping businesses and families"
+    },
+    {
+      "title": "Beijing holds up proposed visit by Pentagon’s top policy official",
+      "link": "https://www.ft.com/content/3ca18f04-a2d7-47a8-a1f7-47a9f26eba5e",
+      "raw_summary": "Also in today’s newsletter, how will Donald Trump deploy his $1.8bn ‘slush fund’?",
+      "source": "World",
+      "published": "Thu, 21 May 2026 13:00:06 GMT",
+      "summary": "Beijing holds up proposed visit by Pentagon’s top policy official\nAlso in today’s newsletter, how will Donald Trump deploy his $1.8bn ‘slush fund’?"
     },
     {
       "title": "Streeting floats ‘wealth tax’ in bid to woo Labour left",
       "link": "https://www.ft.com/content/3991ada8-d363-4e93-b18f-5ba9c274f026",
       "raw_summary": "Leadership hopeful says equalising capital gains tax rates with income tax could raise £12bn a year",
       "source": "World",
-      "published": "Thu, 21 May 2026 07:36:36 GMT",
+      "published": "Thu, 21 May 2026 12:33:11 GMT",
       "summary": "Streeting floats ‘wealth tax’ in bid to woo Labour left\nLeadership hopeful says equalising capital gains tax rates with income tax could raise £12bn a year"
     },
     {
-      "title": "What’s next for Trump’s economy? Submit your questions",
-      "link": "https://www.ft.com/content/9c93862c-4fec-4277-93f9-1f37e3a58b51",
-      "raw_summary": "Take part in a live Ask an Expert Q&amp;A with the FT’s senior US columnists Edward Luce and Rana Foroohar today at 1pm BST",
-      "source": "World",
-      "published": "Thu, 21 May 2026 07:05:48 GMT",
-      "summary": "What’s next for Trump’s economy? Submit your questions\nTake part in a live Ask an Expert Q&amp;A with the FT’s senior US columnists Edward Luce and Rana Foroohar today at 1pm BST"
-    },
-    {
-      "title": "EMs don’t panic like they used to",
-      "link": "https://www.ft.com/content/9a175e16-6e47-451b-ac94-ee9c0402656c",
-      "raw_summary": "There’s been convergence with DMs",
-      "source": "World",
-      "published": "Thu, 21 May 2026 05:30:09 GMT",
-      "summary": "EMs don’t panic like they used to\nThere’s been convergence with DMs"
-    },
-    {
-      "title": "Dimon praises China for being ‘more consistent’",
-      "link": "https://www.ft.com/content/34e0e31c-7f3d-411d-8c28-f491576eb473",
-      "raw_summary": "JPMorgan chief says US is ‘still a safe haven’ even though it ‘surprised people recently’",
-      "source": "World",
-      "published": "Thu, 21 May 2026 05:13:47 GMT",
-      "summary": "Dimon praises China for being ‘more consistent’\nJPMorgan chief says US is ‘still a safe haven’ even though it ‘surprised people recently’"
-    },
-    {
-      "title": "Germany breaks cover on its EU enlargement overhaul push",
-      "link": "https://www.ft.com/content/1fca05bc-7927-4bdb-a883-dc280792115b",
-      "raw_summary": "Also in this newsletter: Europe’s trade friction with Trump endures",
-      "source": "World",
-      "published": "Thu, 21 May 2026 05:00:10 GMT",
-      "summary": "Germany breaks cover on its EU enlargement overhaul push\nAlso in this newsletter: Europe’s trade friction with Trump endures"
-    },
-    {
-      "title": "German Weapons Maker Rheinmetall Selling First Bond in 16 Years",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-21/german-weapons-maker-rheinmetall-selling-first-bond-in-16-years",
-      "raw_summary": "Rheinmetall AG has begun selling €500 million ($580 million) of new debt in its first public bond offering since 2010.",
+      "title": "Euro-Zone Growth Is Buckling Under Weight of War Impact",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-21/euro-zone-growth-is-buckling-under-weight-of-war-impact-eu-says",
+      "raw_summary": "The euro area will slow markedly while suffering the fastest inflation since 2023 as it succumbs to the energy-cost surge from the Iran war, according to the European Commission.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 21 May 2026 08:45:53 GMT",
-      "summary": "German Weapons Maker Rheinmetall Selling First Bond in 16 Years\nRheinmetall AG has begun selling €500 million ($580 million) of new debt in its first public bond offering since 2010."
+      "published": "Thu, 21 May 2026 09:30:00 GMT",
+      "summary": "Euro-Zone Growth Is Buckling Under Weight of War Impact\nThe euro area will slow markedly while suffering the fastest inflation since 2023 as it succumbs to the energy-cost surge from the Iran war, according to the European Commission."
     },
     {
-      "title": "Nvidia slips after earnings, SpaceX & OpenAI IPOs in focus | The Asia Trade 5/21/2026",
-      "link": "https://www.bloomberg.com/news/videos/2026-05-21/nvidia-slips-after-earnings-spacex-openai-ipos-in-focus-the-asia-trade-5-21-2026",
-      "raw_summary": "\"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Tokyo and Sydney with Shery Ahn and Haidi Stroud-Watts, getting insight and analysis from newsmakers and industry leaders on the biggest stories shaping global markets. (Source: Bloomberg)",
-      "source": "Bloomberg Markets",
-      "published": "Thu, 21 May 2026 08:44:21 GMT",
-      "summary": "Nvidia slips after earnings, SpaceX & OpenAI IPOs in focus | The Asia Trade 5/21/2026\n\"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg TV is live from Tokyo and Sydney with Shery Ahn and Haidi Stroud-Watts, getting insight a"
-    },
-    {
-      "title": "Copper Retreats as US and Iran Trade Threats on Peace Deal",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-21/base-metals-drift-as-us-and-iran-trade-threats-on-peace-deal",
-      "raw_summary": "Copper slumped as traders awaited the next developments in the Middle East, with the potential for renewed hostilities pushing up oil prices and hurting sentiment in equities markets.",
-      "source": "Bloomberg Markets",
-      "published": "Thu, 21 May 2026 04:05:02 GMT",
-      "summary": "Copper Retreats as US and Iran Trade Threats on Peace Deal\nCopper slumped as traders awaited the next developments in the Middle East, with the potential for renewed hostilities pushing up oil prices and hurting sentiment in equities markets."
-    },
-    {
-      "title": "Over 1,000 China Exporters Flag Yuan’s Gains in Earnings Reports",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-20/mounting-exporter-strain-risks-complicating-china-s-yuan-policy",
-      "raw_summary": "The yuan’s continued strength is exerting pressure on Chinese exporters on a scale rarely seen in recent years, complicating Beijing’s efforts to manage the pace of currency gains.",
-      "source": "Bloomberg Markets",
-      "published": "Wed, 20 May 2026 23:00:00 GMT",
-      "summary": "Over 1,000 China Exporters Flag Yuan’s Gains in Earnings Reports\nThe yuan’s continued strength is exerting pressure on Chinese exporters on a scale rarely seen in recent years, complicating Beijing’s efforts to manage the pace of currency gains."
-    },
-    {
-      "title": "US Stocks Stall as Hormuz Deadlock Drags On: Markets Wrap",
+      "title": "Stocks Fall as US-Iran Standoff Boosts Oil, Yields: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-05-20/asian-stocks-to-rise-as-nvidia-whipsaws-on-results-markets-wrap",
-      "raw_summary": "A rebound in US equities stalled while oil moved higher and bond yields wavered as traders once again waited to see whether hopes of a peace deal in the Middle East would translate into tangible progress.",
+      "raw_summary": "A standoff between the US and Iran over key issues lifted oil prices, dragging down stocks and bonds on concern that a prolonged closure of the Strait of Hormuz could worsen energy disruptions and fuel inflation.",
       "source": "Bloomberg Markets",
       "published": "Wed, 20 May 2026 22:04:51 GMT",
-      "summary": "US Stocks Stall as Hormuz Deadlock Drags On: Markets Wrap\nA rebound in US equities stalled while oil moved higher and bond yields wavered as traders once again waited to see whether hopes of a peace deal in the Middle East would translate into tangible progress."
+      "summary": "Stocks Fall as US-Iran Standoff Boosts Oil, Yields: Markets Wrap\nA standoff between the US and Iran over key issues lifted oil prices, dragging down stocks and bonds on concern that a prolonged closure of the Strait of Hormuz could worsen energy disruptions and fuel inflation."
     },
     {
-      "title": "Binance launches SpaceX pre-IPO perps amid $2 trillion valuation bets",
-      "link": "https://www.coindesk.com/markets/2026/05/21/binance-launches-spacex-pre-ipo-perps",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 21 May 2026 07:03:20 +0000",
-      "summary": "Binance launches SpaceX pre-IPO perps amid $2 trillion valuation bets\n"
+      "title": "Iran’s Ambassador to France Discusses Hormuz and Gulf Relations",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-21/iran-s-ambassador-to-france-discusses-hormuz-and-gulf-relations",
+      "raw_summary": "Iranian Ambassador Mohammad Amin-Nejad sat down in Paris with Bloomberg News for an hour-long interview at his official residence.",
+      "source": "Bloomberg Markets",
+      "published": "Thu, 21 May 2026 14:15:49 GMT",
+      "summary": "Iran’s Ambassador to France Discusses Hormuz and Gulf Relations\nIranian Ambassador Mohammad Amin-Nejad sat down in Paris with Bloomberg News for an hour-long interview at his official residence."
     },
     {
-      "title": "Don't call us just a WLFI treasury company, says AI Financial",
-      "link": "https://www.coindesk.com/markets/2026/05/21/don-t-call-us-just-a-wlfi-treasury-company-says-ai-financial",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 21 May 2026 05:20:35 +0000",
-      "summary": "Don't call us just a WLFI treasury company, says AI Financial\n"
+      "title": "How Bond Yield Surge Will Impact Economies, Markets",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-21/bond-yield-spike-what-it-means-for-economies-and-markets",
+      "raw_summary": "A prolonged period of elevated long-term bond yields is ramping up borrowing costs around the world. That’s because investors are demanding more and more compensation for holding government debt after the war in Iran ignited fresh inflation fears and concerns also swirl about the level of public debt and central bank interest rates.",
+      "source": "Bloomberg Markets",
+      "published": "Thu, 21 May 2026 14:14:20 GMT",
+      "summary": "How Bond Yield Surge Will Impact Economies, Markets\nA prolonged period of elevated long-term bond yields is ramping up borrowing costs around the world. That’s because investors are demanding more and more compensation for holding government debt after the war in Iran ignited fresh inflation fears a"
     },
     {
-      "title": "Here's why bitcoin turned lower from the 200-day average",
-      "link": "https://www.coindesk.com/markets/2026/05/21/bitcoin-s-rebound-has-a-buyer-problem-as-etf-coinbase-and-korea-demand-fade",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 21 May 2026 04:52:32 +0000",
-      "summary": "Here's why bitcoin turned lower from the 200-day average\n"
+      "title": "Airbus, Air France Culpable for AF447 Crash, French Court Rules",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-21/airbus-air-france-culpable-for-af447-crash-french-court-rules",
+      "raw_summary": "Airbus SE and Air France were found guilty of involuntary manslaughter in the deadly crash of a passenger jet en route from Brazil to Paris 17 years ago after a French appeals court overturned a previous ruling.",
+      "source": "Bloomberg Markets",
+      "published": "Thu, 21 May 2026 14:12:14 GMT",
+      "summary": "Airbus, Air France Culpable for AF447 Crash, French Court Rules\nAirbus SE and Air France were found guilty of involuntary manslaughter in the deadly crash of a passenger jet en route from Brazil to Paris 17 years ago after a French appeals court overturned a previous ruling."
     },
     {
-      "title": "Polymarket moves to list parlays while SEC seeks public input on prediction market ETFs",
-      "link": "https://www.coindesk.com/policy/2026/05/20/polymarket-moves-to-list-parlays-while-sec-seeks-public-input-on-prediction-market-etfs",
+      "title": "MoonPay expands into tokenized assets and DeFi markets with new platform for banks",
+      "link": "https://www.coindesk.com/business/2026/05/21/moonpay-expands-into-tokenized-assets-and-defi-markets-with-new-platform-for-banks",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 20 May 2026 22:55:53 +0000",
-      "summary": "Polymarket moves to list parlays while SEC seeks public input on prediction market ETFs\n"
+      "published": "Thu, 21 May 2026 14:42:16 +0000",
+      "summary": "MoonPay expands into tokenized assets and DeFi markets with new platform for banks\n"
     },
     {
-      "title": "Bitcoin miners tied to AI rise as Nvidia posts big earnings beat and strong outlook",
-      "link": "https://www.coindesk.com/markets/2026/05/20/bitcoin-miners-rise-as-nvidia-posts-blowout-earnings-and-strong-outlook",
+      "title": "Peer-to-peer trading startup Variational raises $50 million for real-world perps in funding round led by Dragonfly",
+      "link": "https://www.coindesk.com/business/2026/05/21/peer-to-peer-trading-startup-variational-raises-usd50-million-for-real-world-perps-in-funding-round-led-by-dragonfly",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 20 May 2026 22:22:52 +0000",
-      "summary": "Bitcoin miners tied to AI rise as Nvidia posts big earnings beat and strong outlook\n"
+      "published": "Thu, 21 May 2026 13:57:00 +0000",
+      "summary": "Peer-to-peer trading startup Variational raises $50 million for real-world perps in funding round led by Dragonfly\n"
+    },
+    {
+      "title": "Live markets: Bitcoin's flat action continues as SpaceX IPO, Nvidia earnings capture news cycle",
+      "link": "https://www.coindesk.com/markets/2026/05/21/live-markets-bitcoin-s-flat-action-continues-as-spacex-ipo-nvidia-earnings-capture-news-cycle",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Thu, 21 May 2026 13:51:11 +0000",
+      "summary": "Live markets: Bitcoin's flat action continues as SpaceX IPO, Nvidia earnings capture news cycle\n"
+    },
+    {
+      "title": "Blockchain.com files with SEC for U.S. IPO",
+      "link": "https://www.coindesk.com/business/2026/05/21/blockchain-com-files-confidential-paperwork-with-sec-for-u-s-ipo",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Thu, 21 May 2026 13:50:27 +0000",
+      "summary": "Blockchain.com files with SEC for U.S. IPO\n"
+    },
+    {
+      "title": "Bitcoin's long-term holder supply approaches record high, breaking multi-year downtrend",
+      "link": "https://www.coindesk.com/markets/2026/05/21/bitcoin-s-long-term-holder-supply-approaches-record-high-breaking-multi-year-downtrend",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Thu, 21 May 2026 13:23:00 +0000",
+      "summary": "Bitcoin's long-term holder supply approaches record high, breaking multi-year downtrend\n"
     }
   ]
 }
