@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T08:50:59.972594+00:00",
+  "generated_at": "2026-05-22T14:22:34.840835+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs\nA Brazilian tech firm that specializes in protecting networks from distributed denial-of-service (DDoS) attacks has been enabling a botnet responsible for an extended campaign of massive DDoS attacks against other network operators in Brazil, KrebsOnSe"
     },
     {
+      "title": "Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows",
+      "link": "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html",
+      "raw_summary": "Cybersecurity researchers have disclosed details of a new automated campaign called Megalodon that has pushed 5,718 malicious commits to 5,561 GitHub repositories within a six-hour window.\n\n\"Using throwaway accounts and forged author identities (build-bot, auto-ci, ci-bot, pipeline-bot), the attacker injected GitHub Actions workflows containing base64-encoded bash payloads that exfiltrate CI",
+      "source": "The Hacker News",
+      "published": "Fri, 22 May 2026 17:25:24 +0530",
+      "summary": "Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows\nCybersecurity researchers have disclosed details of a new automated campaign called Megalodon that has pushed 5,718 malicious commits to 5,561 GitHub repositories within a six-hour window.\n\n\"Using throwaway accounts and forge"
+    },
+    {
+      "title": "Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective",
+      "link": "https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html",
+      "raw_summary": "1 Introduction\n\nThis article provides a technical analysis of how many Windows kernel mode drivers can be interacted with from user mode without the hardware they were developed for. This work was motivated by driver-oriented vulnerability research and the need to evaluate the exploitability of individual findings, which frequently affect code whose reachability is hardware-gated. The",
+      "source": "The Hacker News",
+      "published": "Fri, 22 May 2026 17:08:12 +0530",
+      "summary": "Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective\n1 Introduction\n\nThis article provides a technical analysis of how many Windows kernel mode drivers can be interacted with from user mode without the hardware they were developed for. This work was motivated by driver-orie"
+    },
+    {
+      "title": "Kimwolf DDoS Botnet Operator Arrested in Canada Over DDoS-for-Hire Attacks",
+      "link": "https://thehackernews.com/2026/05/kimwolf-ddos-botnet-operator-arrested.html",
+      "raw_summary": "The U.S. Department of Justice (DoJ) on Thursday announced the arrest of a Canadian man in connection with allegedly operating a distributed denial-of-service (DDoS) botnet known as Kimwolf.\n\nIn tandem, Jacob Butler (aka Dort), 23, Ottawa, Canada, has been charged with offenses related to the development and operation of the botnet. Kimwolf is assessed to be a variant of AISURU.\n\n\"Kimwolf",
+      "source": "The Hacker News",
+      "published": "Fri, 22 May 2026 14:20:18 +0530",
+      "summary": "Kimwolf DDoS Botnet Operator Arrested in Canada Over DDoS-for-Hire Attacks\nThe U.S. Department of Justice (DoJ) on Thursday announced the arrest of a Canadian man in connection with allegedly operating a distributed denial-of-service (DDoS) botnet known as Kimwolf.\n\nIn tandem, Jacob Butler (aka Dort"
+    },
+    {
       "title": "CISA Adds Exploited Langflow and Trend Micro Apex One Vulnerabilities to KEV",
       "link": "https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html",
       "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Langflow and Trend Micro Apex One to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities in question are listed below -\n\n\n  CVE-2025-34291 (CVSS score: 9.4) - An origin validation error vulnerability in Langflow that could",
@@ -59,68 +83,60 @@
       "summary": "Cisco Patches CVSS 10.0 Secure Workload REST API Flaw Enabling Data Access\nCisco has rolled out updates for a maximum-severity security flaw impacting Secure Workload that could allow an unauthenticated, remote attacker to access sensitive data.\n\nTracked as CVE-2026-20223 (CVSS score: 10.0), the vul"
     },
     {
-      "title": "Showboat Linux Malware Hits Middle East Telecom with SOCKS5 Proxy Backdoor",
-      "link": "https://thehackernews.com/2026/05/showboat-linux-malware-hits-middle-east.html",
-      "raw_summary": "Cybersecurity researchers have disclosed details of a new Linux malware dubbed Showboat that has been put to use in a campaign targeting a telecommunications provider in the Middle East since at least mid-2022.\n\n\"Showboat is a modular post-exploitation framework designed for Linux systems, capable of spawning a remote shell, transferring files, and functioning as a SOCKS5 proxy,\" Lumen",
-      "source": "The Hacker News",
-      "published": "Thu, 21 May 2026 19:47:09 +0530",
-      "summary": "Showboat Linux Malware Hits Middle East Telecom with SOCKS5 Proxy Backdoor\nCybersecurity researchers have disclosed details of a new Linux malware dubbed Showboat that has been put to use in a campaign targeting a telecommunications provider in the Middle East since at least mid-2022.\n\n\"Showboat is "
-    },
-    {
-      "title": "ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories",
-      "link": "https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html",
-      "raw_summary": "This week starts small.\n\nA token leaks. A bad package slips in. A login trick works. An old tool shows up again. At first, it feels like the usual mess. Then you see the pattern: attackers are not always breaking in. They are using the parts we already trust.\n\nThat is what makes it worrying. The danger is in normal things now - updates, apps, cloud buttons, support chats, trusted accounts. AI",
-      "source": "The Hacker News",
-      "published": "Thu, 21 May 2026 17:22:14 +0530",
-      "summary": "ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories\nThis week starts small.\n\nA token leaks. A bad package slips in. A login trick works. An old tool shows up again. At first, it feels like the usual mess. Then you see the pattern: attackers are not always b"
-    },
-    {
-      "title": "Microsoft Warns of Two Actively Exploited Defender Vulnerabilities",
-      "link": "https://thehackernews.com/2026/05/microsoft-warns-of-two-actively.html",
-      "raw_summary": "Microsoft has disclosed that a privilege escalation and a denial-of-service flaw in Defender has come under active exploitation in the wild.\n\nThe former, tracked as CVE-2026-41091, is rated 7.8 on the CVSS scoring system. Successful exploitation of the flaw could allow an attacker to gain SYSTEM privileges.\n\n\"Improper link resolution before file access ('link following') in Microsoft Defender",
-      "source": "The Hacker News",
-      "published": "Thu, 21 May 2026 16:25:57 +0530",
-      "summary": "Microsoft Warns of Two Actively Exploited Defender Vulnerabilities\nMicrosoft has disclosed that a privilege escalation and a denial-of-service flaw in Defender has come under active exploitation in the wild.\n\nThe former, tracked as CVE-2026-41091, is rated 7.8 on the CVSS scoring system. Successful "
-    },
-    {
-      "title": "We should get rid of average CPU utilization",
-      "link": "https://www.theocharis.dev/blog/why-we-should-get-rid-of-average-cpu-utilization/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.theocharis.dev/blog/why-we-should-get-rid-of-average-cpu-utilization/\">https://www.theocharis.dev/blog/why-we-should-get-rid-of-average-cpu-utilization/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48233289\">https://news.ycombinator.com/item?id=48233289</a></p>\n<p>Points: 4</p>\n<p># Comments: 2</p>",
+      "title": "The AI Elephant in the Room",
+      "link": "https://www.joshwcomeau.com/email/wham-launch-005-elephant-2-p/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.joshwcomeau.com/email/wham-launch-005-elephant-2-p/\">https://www.joshwcomeau.com/email/wham-launch-005-elephant-2-p/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48235526\">https://news.ycombinator.com/item?id=48235526</a></p>\n<p>Points: 54</p>\n<p># Comments: 32</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 22 May 2026 08:15:42 +0000",
-      "summary": "We should get rid of average CPU utilization\n<p>Article URL: <a href=\"https://www.theocharis.dev/blog/why-we-should-get-rid-of-average-cpu-utilization/\">https://www.theocharis.dev/blog/why-we-should-get-rid-of-average-cpu-utilization/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/it"
+      "published": "Fri, 22 May 2026 13:22:42 +0000",
+      "summary": "The AI Elephant in the Room\n<p>Article URL: <a href=\"https://www.joshwcomeau.com/email/wham-launch-005-elephant-2-p/\">https://www.joshwcomeau.com/email/wham-launch-005-elephant-2-p/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48235526\">https://news.ycombinator.com/item?id="
     },
     {
-      "title": "Deepfakes Tore a High School Apart",
-      "link": "https://www.404media.co/radnor-high-school-pennsylvania-ai-deepfakes-child-sexual-abuse-material/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.404media.co/radnor-high-school-pennsylvania-ai-deepfakes-child-sexual-abuse-material/\">https://www.404media.co/radnor-high-school-pennsylvania-ai-deepfakes-child-sexual-abuse-material/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48233177\">https://news.ycombinator.com/item?id=48233177</a></p>\n<p>Points: 27</p>\n<p># Comments: 11</p>",
+      "title": "Alberta to hold referendum on whether to remain in Canada",
+      "link": "https://www.bbc.com/news/articles/cvgze8n5dxko",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.bbc.com/news/articles/cvgze8n5dxko\">https://www.bbc.com/news/articles/cvgze8n5dxko</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48235489\">https://news.ycombinator.com/item?id=48235489</a></p>\n<p>Points: 11</p>\n<p># Comments: 5</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 22 May 2026 07:52:15 +0000",
-      "summary": "Deepfakes Tore a High School Apart\n<p>Article URL: <a href=\"https://www.404media.co/radnor-high-school-pennsylvania-ai-deepfakes-child-sexual-abuse-material/\">https://www.404media.co/radnor-high-school-pennsylvania-ai-deepfakes-child-sexual-abuse-material/</a></p>\n<p>Comments URL: <a href=\"https://n"
+      "published": "Fri, 22 May 2026 13:18:51 +0000",
+      "summary": "Alberta to hold referendum on whether to remain in Canada\n<p>Article URL: <a href=\"https://www.bbc.com/news/articles/cvgze8n5dxko\">https://www.bbc.com/news/articles/cvgze8n5dxko</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48235489\">https://news.ycombinator.com/item?id=4823"
     },
     {
-      "title": "CODA: Rewriting Transformer Blocks as GEMM-Epilogue Programs",
-      "link": "https://arxiv.org/abs/2605.19269",
-      "raw_summary": "<p>Article URL: <a href=\"https://arxiv.org/abs/2605.19269\">https://arxiv.org/abs/2605.19269</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48232118\">https://news.ycombinator.com/item?id=48232118</a></p>\n<p>Points: 54</p>\n<p># Comments: 4</p>",
+      "title": "Sam Altman Won in Court Against Elon Musk. But, We All Lost",
+      "link": "https://www.newyorker.com/news/letter-from-silicon-valley/sam-altman-won-in-court-against-elon-musk-but-really-we-all-lost",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.newyorker.com/news/letter-from-silicon-valley/sam-altman-won-in-court-against-elon-musk-but-really-we-all-lost\">https://www.newyorker.com/news/letter-from-silicon-valley/sam-altman-won-in-court-against-elon-musk-but-really-we-all-lost</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48235361\">https://news.ycombinator.com/item?id=48235361</a></p>\n<p>Points: 42</p>\n<p># Comments: 9</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 22 May 2026 04:54:33 +0000",
-      "summary": "CODA: Rewriting Transformer Blocks as GEMM-Epilogue Programs\n<p>Article URL: <a href=\"https://arxiv.org/abs/2605.19269\">https://arxiv.org/abs/2605.19269</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48232118\">https://news.ycombinator.com/item?id=48232118</a></p>\n<p>Points: 5"
+      "published": "Fri, 22 May 2026 13:07:16 +0000",
+      "summary": "Sam Altman Won in Court Against Elon Musk. But, We All Lost\n<p>Article URL: <a href=\"https://www.newyorker.com/news/letter-from-silicon-valley/sam-altman-won-in-court-against-elon-musk-but-really-we-all-lost\">https://www.newyorker.com/news/letter-from-silicon-valley/sam-altman-won-in-court-against-e"
     },
     {
-      "title": "Slumber a TUI HTTP Client",
-      "link": "https://slumber.lucaspickering.me",
-      "raw_summary": "<p>Article URL: <a href=\"https://slumber.lucaspickering.me\">https://slumber.lucaspickering.me</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48231938\">https://news.ycombinator.com/item?id=48231938</a></p>\n<p>Points: 56</p>\n<p># Comments: 25</p>",
+      "title": "Valve removes free game from Steam after players discover it contains malware",
+      "link": "https://www.pcguide.com/news/valve-removes-free-horror-game-from-steam-after-players-discover-it-contains-malware-that-steals-your-data/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.pcguide.com/news/valve-removes-free-horror-game-from-steam-after-players-discover-it-contains-malware-that-steals-your-data/\">https://www.pcguide.com/news/valve-removes-free-horror-game-from-steam-after-players-discover-it-contains-malware-that-steals-your-data/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48235033\">https://news.ycombinator.com/item?id=48235033</a></p>\n<p>Points: 60</p>\n<p># Comments: 41</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 22 May 2026 04:29:23 +0000",
-      "summary": "Slumber a TUI HTTP Client\n<p>Article URL: <a href=\"https://slumber.lucaspickering.me\">https://slumber.lucaspickering.me</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48231938\">https://news.ycombinator.com/item?id=48231938</a></p>\n<p>Points: 56</p>\n<p># Comments: 25</p>"
+      "published": "Fri, 22 May 2026 12:36:37 +0000",
+      "summary": "Valve removes free game from Steam after players discover it contains malware\n<p>Article URL: <a href=\"https://www.pcguide.com/news/valve-removes-free-horror-game-from-steam-after-players-discover-it-contains-malware-that-steals-your-data/\">https://www.pcguide.com/news/valve-removes-free-horror-game"
     },
     {
-      "title": "Cleve Moler has died",
-      "link": "https://www.mathworks.com/company/aboutus/founders/clevemoler.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.mathworks.com/company/aboutus/founders/clevemoler.html\">https://www.mathworks.com/company/aboutus/founders/clevemoler.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48231319\">https://news.ycombinator.com/item?id=48231319</a></p>\n<p>Points: 84</p>\n<p># Comments: 6</p>",
+      "title": "Circle Medical (YC S15) Is Hiring a Mobile Engineer",
+      "link": "https://www.ycombinator.com/companies/circle-medical/jobs/onMKAG9-mobile-engineer-android",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/circle-medical/jobs/onMKAG9-mobile-engineer-android\">https://www.ycombinator.com/companies/circle-medical/jobs/onMKAG9-mobile-engineer-android</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48234688\">https://news.ycombinator.com/item?id=48234688</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 22 May 2026 02:35:54 +0000",
-      "summary": "Cleve Moler has died\n<p>Article URL: <a href=\"https://www.mathworks.com/company/aboutus/founders/clevemoler.html\">https://www.mathworks.com/company/aboutus/founders/clevemoler.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48231319\">https://news.ycombinator.com/item?id=4"
+      "published": "Fri, 22 May 2026 12:01:07 +0000",
+      "summary": "Circle Medical (YC S15) Is Hiring a Mobile Engineer\n<p>Article URL: <a href=\"https://www.ycombinator.com/companies/circle-medical/jobs/onMKAG9-mobile-engineer-android\">https://www.ycombinator.com/companies/circle-medical/jobs/onMKAG9-mobile-engineer-android</a></p>\n<p>Comments URL: <a href=\"https://"
+    },
+    {
+      "title": "Smart ring maker Oura files to go public",
+      "link": "https://techcrunch.com/2026/05/22/smart-ring-maker-oura-files-to-go-public/",
+      "raw_summary": "The Finnish company said in September that it has sold 5.5 million smart rings to date.",
+      "source": "TechCrunch",
+      "published": "Fri, 22 May 2026 14:03:35 +0000",
+      "summary": "Smart ring maker Oura files to go public\nThe Finnish company said in September that it has sold 5.5 million smart rings to date."
+    },
+    {
+      "title": "Audio generation app Huxe, founded by former NotebookLM developers, shuts down",
+      "link": "https://techcrunch.com/2026/05/22/audio-generation-app-huxe-founded-by-former-notebooklm-developers-shuts-down/",
+      "raw_summary": "Huxe said that it has pulled its app from App Store and Play Store, and that it will stop working later this month",
+      "source": "TechCrunch",
+      "published": "Fri, 22 May 2026 13:48:03 +0000",
+      "summary": "Audio generation app Huxe, founded by former NotebookLM developers, shuts down\nHuxe said that it has pulled its app from App Store and Play Store, and that it will stop working later this month"
     },
     {
       "title": "Finnish phone-maker HMD bundles Indian AI chatbot onto new smartphone in push to reach local market",
@@ -147,180 +163,164 @@
       "summary": "SpaceX scrubs first Starship V3 launch just before liftoff\nSpaceX fueled the third-generation rocket booster and ship and was just moments away from liftoff, before calling a scrub. It's expected to try again Friday."
     },
     {
-      "title": "Who will benefit most from SpaceX IPO? Mostly Elon — and a few from his inner circle",
-      "link": "https://techcrunch.com/2026/05/21/who-will-benefit-most-from-spacex-ipo-mostly-elon-and-a-few-from-his-inner-circle/",
-      "raw_summary": "Elon Musk has the largest stake in SpaceX by billions of shares. The other biggest shareholders also have longstanding and deep ties to Musk.",
-      "source": "TechCrunch",
-      "published": "Thu, 21 May 2026 21:39:03 +0000",
-      "summary": "Who will benefit most from SpaceX IPO? Mostly Elon — and a few from his inner circle\nElon Musk has the largest stake in SpaceX by billions of shares. The other biggest shareholders also have longstanding and deep ties to Musk."
-    },
-    {
-      "title": "Waymo halts freeway rides after robotaxis struggle in construction zones",
-      "link": "https://techcrunch.com/2026/05/21/waymo-halts-freeway-rides-after-robotaxis-struggle-in-construction-zones/",
-      "raw_summary": "The service suspension comes as Waymo has also paused operations in Atlanta and San Antonio after its robotaxis drove into flooded streets.",
-      "source": "TechCrunch",
-      "published": "Thu, 21 May 2026 21:13:23 +0000",
-      "summary": "Waymo halts freeway rides after robotaxis struggle in construction zones\nThe service suspension comes as Waymo has also paused operations in Atlanta and San Antonio after its robotaxis drove into flooded streets."
-    },
-    {
-      "title": "Ground system issue scrubs first launch of SpaceX's Starship V3 rocket",
-      "link": "https://arstechnica.com/space/2026/05/ground-system-issue-scrubs-first-launch-of-spacexs-starship-v3-rocket/",
-      "raw_summary": "Engineers could make another attempt to launch Starship as soon as Friday evening.",
+      "title": "AI put \"synthetic quotes\" in his book. But this author wants to keep using it.",
+      "link": "https://arstechnica.com/ai/2026/05/ai-put-synthetic-quotes-in-his-book-but-this-author-wants-to-keep-using-it/",
+      "raw_summary": "Steven Rosenbaum explains how inaccurate quotes got into his book <em>The Future of Truth</em>.",
       "source": "Ars Technica - All content",
-      "published": "Fri, 22 May 2026 02:05:37 +0000",
-      "summary": "Ground system issue scrubs first launch of SpaceX's Starship V3 rocket\nEngineers could make another attempt to launch Starship as soon as Friday evening."
+      "published": "Fri, 22 May 2026 14:05:56 +0000",
+      "summary": "AI put \"synthetic quotes\" in his book. But this author wants to keep using it.\nSteven Rosenbaum explains how inaccurate quotes got into his book <em>The Future of Truth</em>."
     },
     {
-      "title": "IoT gadget maker AcuRite shares reasoning for killing customers’ favorite app",
-      "link": "https://arstechnica.com/gadgets/2026/05/iot-gadget-maker-acurite-shares-reasoning-for-killing-customers-favorite-app/",
-      "raw_summary": "\"The move to AcuRite NOW has not been as smooth as some customers expected ...\"",
+      "title": "First vaccines, now mammograms? RFK Jr.’s latest firings have doctors outraged.",
+      "link": "https://arstechnica.com/health/2026/05/doctors-outraged-after-rfk-jr-fires-leaders-of-key-preventive-medicine-panel/",
+      "raw_summary": "Doctors are angry and alarmed that preventive care could go the way of vaccines.",
       "source": "Ars Technica - All content",
-      "published": "Thu, 21 May 2026 22:26:34 +0000",
-      "summary": "IoT gadget maker AcuRite shares reasoning for killing customers’ favorite app\n\"The move to AcuRite NOW has not been as smooth as some customers expected ...\""
+      "published": "Fri, 22 May 2026 11:30:38 +0000",
+      "summary": "First vaccines, now mammograms? RFK Jr.’s latest firings have doctors outraged.\nDoctors are angry and alarmed that preventive care could go the way of vaccines."
     },
     {
-      "title": "As Grok flounders, SpaceX bets future on beating Big Tech at AI",
-      "link": "https://arstechnica.com/ai/2026/05/as-grok-flounders-spacex-bets-future-on-beating-big-tech-at-ai/",
-      "raw_summary": "SpaceX IPO filing pitches orbital data centers as Grok lags rival AI services.",
+      "title": "Rocket Report: Starship launch delayed, German launch company may aid Canada",
+      "link": "https://arstechnica.com/space/2026/05/rocket-report-starship-launch-delayed-german-launch-company-may-aid-canada/",
+      "raw_summary": "All eyes on South Texas for the latest Starship test flight.",
       "source": "Ars Technica - All content",
-      "published": "Thu, 21 May 2026 21:51:26 +0000",
-      "summary": "As Grok flounders, SpaceX bets future on beating Big Tech at AI\nSpaceX IPO filing pitches orbital data centers as Grok lags rival AI services."
+      "published": "Fri, 22 May 2026 11:20:43 +0000",
+      "summary": "Rocket Report: Starship launch delayed, German launch company may aid Canada\nAll eyes on South Texas for the latest Starship test flight."
     },
     {
-      "title": "AT&T sues California in attempt to shut off old phone network",
-      "link": "https://arstechnica.com/tech-policy/2026/05/att-sues-california-in-attempt-to-shut-off-old-phone-network/",
-      "raw_summary": "AT&#038;T asks a court and the FCC to block California phone requirements.",
+      "title": "The $58,000 TV bill: When DirecTV sued O.J. Simpson for piracy",
+      "link": "https://arstechnica.com/tech-policy/2026/05/the-58000-tv-bill-when-directv-sued-o-j-simpson-for-piracy/",
+      "raw_summary": "In 2001, the FBI raided O.J.'s house and found smartcards, bootloaders.",
       "source": "Ars Technica - All content",
-      "published": "Thu, 21 May 2026 21:10:01 +0000",
-      "summary": "AT&T sues California in attempt to shut off old phone network\nAT&#038;T asks a court and the FCC to block California phone requirements."
+      "published": "Fri, 22 May 2026 11:00:43 +0000",
+      "summary": "The $58,000 TV bill: When DirecTV sued O.J. Simpson for piracy\nIn 2001, the FBI raided O.J.'s house and found smartcards, bootloaders."
     },
     {
-      "title": "JWST maps the weather on a hot gas giant 700 light-years away",
-      "link": "https://arstechnica.com/science/2026/05/jwst-maps-the-weather-on-a-hot-gas-giant-700-light-years-away/",
-      "raw_summary": "The differences seen here could be throwing off how we study planetary atmospheres.",
+      "title": "A hacker group is poisoning open source code at an unprecedented scale",
+      "link": "https://arstechnica.com/information-technology/2026/05/a-hacker-group-is-poisoning-open-source-code-at-an-unprecedented-scale/",
+      "raw_summary": "GitHub is just the latest victim of TeamPCP, a gang that has carried out a spree of software supply chain attacks.",
       "source": "Ars Technica - All content",
-      "published": "Thu, 21 May 2026 19:26:03 +0000",
-      "summary": "JWST maps the weather on a hot gas giant 700 light-years away\nThe differences seen here could be throwing off how we study planetary atmospheres."
+      "published": "Fri, 22 May 2026 10:30:14 +0000",
+      "summary": "A hacker group is poisoning open source code at an unprecedented scale\nGitHub is just the latest victim of TeamPCP, a gang that has carried out a spree of software supply chain attacks."
     },
     {
-      "title": "UK borrowing rises and retail sales slide in April",
-      "link": "https://www.ft.com/content/234ad397-0d1c-4d0a-9875-7df73562e540",
-      "raw_summary": "Strains on economy and public finances come as ruling Labour Party engulfed in leadership crisis",
+      "title": "US parks dozens of military aircraft at Israel’s Ben Gurion airport",
+      "link": "https://www.ft.com/content/37629c1d-601e-41d3-9aff-27c5327c1c81",
+      "raw_summary": "Satellite images show at least 50 military tanker planes parked at the airfield in May",
       "source": "World",
-      "published": "Fri, 22 May 2026 08:38:14 GMT",
-      "summary": "UK borrowing rises and retail sales slide in April\nStrains on economy and public finances come as ruling Labour Party engulfed in leadership crisis"
+      "published": "Fri, 22 May 2026 13:06:34 GMT",
+      "summary": "US parks dozens of military aircraft at Israel’s Ben Gurion airport\nSatellite images show at least 50 military tanker planes parked at the airfield in May"
     },
     {
-      "title": "Andy Burnham’s contradictory vision of Greater Manchester",
-      "link": "https://www.ft.com/content/e720f54d-c27d-4e15-a1e7-d3873d453905",
-      "raw_summary": "Adaptability has fuelled his popularity, but others critique politician’s shape-shifting and weak policy grip",
+      "title": "Trump’s death grip on a shrinking party",
+      "link": "https://www.ft.com/content/20510912-875a-48e0-89f5-5cf52453b0cd",
+      "raw_summary": "The fate of the president’s Republican critics shows that today’s GOP is a personality cult — nothing more",
       "source": "World",
-      "published": "Fri, 22 May 2026 08:30:02 GMT",
-      "summary": "Andy Burnham’s contradictory vision of Greater Manchester\nAdaptability has fuelled his popularity, but others critique politician’s shape-shifting and weak policy grip"
+      "published": "Fri, 22 May 2026 13:00:02 GMT",
+      "summary": "Trump’s death grip on a shrinking party\nThe fate of the president’s Republican critics shows that today’s GOP is a personality cult — nothing more"
     },
     {
-      "title": "Japanese inflation unexpectedly slows in April",
-      "link": "https://www.ft.com/content/b1d1cbab-1457-4df1-ad74-95036634eb6c",
-      "raw_summary": "Government energy subsidies help headline rate slow to 1.4%",
+      "title": "China cracks down on illegal cross-border securities trading",
+      "link": "https://www.ft.com/content/c6b15d3a-a4b6-42c4-8804-84d5efe4b81f",
+      "raw_summary": "Regulator penalises brokerages in effort to close loophole that allowed retail traders to get around capital controls",
       "source": "World",
-      "published": "Fri, 22 May 2026 08:28:41 GMT",
-      "summary": "Japanese inflation unexpectedly slows in April\nGovernment energy subsidies help headline rate slow to 1.4%"
+      "published": "Fri, 22 May 2026 12:39:08 GMT",
+      "summary": "China cracks down on illegal cross-border securities trading\nRegulator penalises brokerages in effort to close loophole that allowed retail traders to get around capital controls"
     },
     {
-      "title": "Starbucks grapples with backlash in South Korea after ‘Tank Day’ marketing mis-step",
-      "link": "https://www.ft.com/content/bc1aedcc-e917-4a34-8691-905c8f3d3e19",
-      "raw_summary": "Promotion offered discounts on May 18, the anniversary of the 1980 Gwangju massacre",
+      "title": "France seeks to join UK-German long-range missile plan",
+      "link": "https://www.ft.com/content/c4238437-b064-451a-9900-4c56cf1977d7",
+      "raw_summary": "Paris warms to joint project aimed at closing conventional capability gap with Russia",
       "source": "World",
-      "published": "Fri, 22 May 2026 08:13:05 GMT",
-      "summary": "Starbucks grapples with backlash in South Korea after ‘Tank Day’ marketing mis-step\nPromotion offered discounts on May 18, the anniversary of the 1980 Gwangju massacre"
+      "published": "Fri, 22 May 2026 12:39:08 GMT",
+      "summary": "France seeks to join UK-German long-range missile plan\nParis warms to joint project aimed at closing conventional capability gap with Russia"
     },
     {
-      "title": "Rachel Reeves would like you to order off the kids’ menu",
-      "link": "https://www.ft.com/content/074bbce7-7527-4b38-b836-b336e5c5622a",
-      "raw_summary": "A VATcident waiting to happen",
+      "title": "Andy Burnham says land in the UK is ‘undertaxed’",
+      "link": "https://www.ft.com/content/a7435acf-d4f9-46b0-815d-69cbf8130fa7",
+      "raw_summary": "Potential Labour leadership contender points to ‘big case’ for reforming property levies",
       "source": "World",
-      "published": "Fri, 22 May 2026 08:00:01 GMT",
-      "summary": "Rachel Reeves would like you to order off the kids’ menu\nA VATcident waiting to happen"
+      "published": "Fri, 22 May 2026 12:08:11 GMT",
+      "summary": "Andy Burnham says land in the UK is ‘undertaxed’\nPotential Labour leadership contender points to ‘big case’ for reforming property levies"
     },
     {
-      "title": "German Business Outlook Improves for First Time Since War",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-22/germany-s-exporters-helped-drive-first-quarter-growth-spurt",
-      "raw_summary": "Germany’s business outlook improved for the first time since fighting broke out in the Middle East, demonstrating some resilience to the war for Europe’s biggest economy.",
+      "title": "Chrysler Reverses Luxury Strategy, Turns to $30k Models",
+      "link": "https://www.bloomberg.com/news/videos/2026-05-22/chrysler-reverses-luxury-strategy-turns-to-30k-models-video",
+      "raw_summary": "Stellantis is making a dramatic U-turn, bringing back affordable Chrysler SUVs, reviving Dodge muscle cars, and expanding Ram with new SUVs and pickups. As inflation crushes car buyers, the automaker is abandoning its luxury-first strategy to win back mainstream America. Bloomberg's Auto Reporter Gabrielle Coppola joined Bloomberg Open Interest to talk about the pivot and what's ahead for the carmaker. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Fri, 22 May 2026 06:19:10 GMT",
-      "summary": "German Business Outlook Improves for First Time Since War\nGermany’s business outlook improved for the first time since fighting broke out in the Middle East, demonstrating some resilience to the war for Europe’s biggest economy."
+      "published": "Fri, 22 May 2026 14:17:20 GMT",
+      "summary": "Chrysler Reverses Luxury Strategy, Turns to $30k Models\nStellantis is making a dramatic U-turn, bringing back affordable Chrysler SUVs, reviving Dodge muscle cars, and expanding Ram with new SUVs and pickups. As inflation crushes car buyers, the automaker is abandoning its luxury-first strategy to w"
     },
     {
-      "title": "Turkey Stocks Start Bouncing Back After Court Blow to Opposition",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-22/turkey-prepares-for-market-impact-after-court-blow-to-opposition",
-      "raw_summary": "The pressure on Turkish stocks eased following a selloff sparked by a Turkish court decision on Thursday to remove the leadership of the country’s main opposition party.",
+      "title": "S&amp;P 500 Is Set for Longest Weekly Rally Since 2023: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-21/asian-stocks-to-rise-on-optimism-over-iran-talks-markets-wrap",
+      "raw_summary": "Hopes for a deal between the US and Iran that will turn a fragile ceasefire into lasting peace fueled Wall Street optimism, driving stocks toward their longest streak of weekly gains since December 2023.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 22 May 2026 05:32:08 GMT",
-      "summary": "Turkey Stocks Start Bouncing Back After Court Blow to Opposition\nThe pressure on Turkish stocks eased following a selloff sparked by a Turkish court decision on Thursday to remove the leadership of the country’s main opposition party."
+      "published": "Thu, 21 May 2026 22:06:58 GMT",
+      "summary": "S&amp;P 500 Is Set for Longest Weekly Rally Since 2023: Markets Wrap\nHopes for a deal between the US and Iran that will turn a fragile ceasefire into lasting peace fueled Wall Street optimism, driving stocks toward their longest streak of weekly gains since December 2023."
     },
     {
-      "title": "Mol Shares Drop After Petrochemicals Plant Explosion in Hungary",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-22/mol-shares-drop-after-petrochemicals-plant-explosion-in-hungary",
-      "raw_summary": "Shares in Mol Nyrt., Hungary’s biggest energy group, dropped after an explosion at its petrochemicals plant in eastern Hungary killed one person and seriously injured several others.",
+      "title": "APEC Is Important Part of Trade Agenda, US Diplomat Says",
+      "link": "https://www.bloomberg.com/news/videos/2026-05-22/apec-is-important-part-of-trade-agenda-us-diplomat-says-video",
+      "raw_summary": "The US State Department’s point man for APEC says the group of 21 countries is an important customer for American goods and services - including energy. Bloomberg’s Chief North Asia Correspondent Stephen Engle spoke with Casey Mace, the US senior official to APEC, on the sidelines of the APEC trade ministers meeting in China.  (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Fri, 22 May 2026 08:22:05 GMT",
-      "summary": "Mol Shares Drop After Petrochemicals Plant Explosion in Hungary\nShares in Mol Nyrt., Hungary’s biggest energy group, dropped after an explosion at its petrochemicals plant in eastern Hungary killed one person and seriously injured several others."
+      "published": "Fri, 22 May 2026 14:12:15 GMT",
+      "summary": "APEC Is Important Part of Trade Agenda, US Diplomat Says\nThe US State Department’s point man for APEC says the group of 21 countries is an important customer for American goods and services - including energy. Bloomberg’s Chief North Asia Correspondent Stephen Engle spoke with Casey Mace, the US sen"
     },
     {
-      "title": "'The Assassin' Fahmi Quadir on How to Survive as a Short-Seller | Odd Lots",
-      "link": "https://www.bloomberg.com/news/videos/2026-05-22/fahmi-quadir-on-how-to-survive-as-a-short-seller-video",
-      "raw_summary": "A short-seller is a gumshoe who roots out a particular story about a specific company and brings it to light. In this way, a short-seller is similar to an investigative journalist. Fahmi Quadir, the founder and CIO of Safkhet Capital, is known as \"the Assassin.\" Her notoriety proceeds her: Among her most well-known bets include short-selling Wirecard AG and Valeant. In today's conversation with Qaudir &mdash; recorded at our live show in London at Wilton's Music Hall &mdash;  she dishes on what life is like for a short-seller, especially one as famous as her. In her mind, short-selling is only getting harder; it's a corner of finance that is facing an existential crisis and one whose value is questioned in what she calls a \"golden age of fraud.\" She also tells us, that for the first time ever, she is going long with a focus on Korea that has nothing to do with the AI boom. (Source: Bloomberg)",
+      "title": "Flight Firm CAE Says Defense Deals, Cost Cutting to Drive Profit Surge",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-21/flight-firm-cae-says-defense-deals-cost-cutting-to-drive-profit-surge",
+      "raw_summary": "Shares of CAE Inc. slipped the most since August after the flight simulator firm unveiled a plan to increase operating income by 30% or more by 2030 under a strategy that includes a greater focus on defense clients.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 22 May 2026 08:08:43 GMT",
-      "summary": "'The Assassin' Fahmi Quadir on How to Survive as a Short-Seller | Odd Lots\nA short-seller is a gumshoe who roots out a particular story about a specific company and brings it to light. In this way, a short-seller is similar to an investigative journalist. Fahmi Quadir, the founder and CIO of Safkhet"
+      "published": "Thu, 21 May 2026 20:40:32 GMT",
+      "summary": "Flight Firm CAE Says Defense Deals, Cost Cutting to Drive Profit Surge\nShares of CAE Inc. slipped the most since August after the flight simulator firm unveiled a plan to increase operating income by 30% or more by 2030 under a strategy that includes a greater focus on defense clients."
     },
     {
-      "title": "Philippines’ BSP Flags Bold Rate Move to Stay Ahead of Inflation",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-22/philippine-central-bank-chief-open-to-off-cycle-rate-hike-media",
-      "raw_summary": "Philippine central bank Governor Eli Remolona said monetary authorities will have to react aggressively to avoid falling behind the curve in taming price pressures spurred by the Iran war.",
+      "title": "GameStop Board Asks Shareholders to Increase Share Count",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-22/gamestop-board-asks-shareholders-to-increase-share-count",
+      "raw_summary": "GameStop Corp. is asking shareholders to approve a massive increase in its authorized share count as the video-game retailer pursues an acquisition of eBay Inc.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 22 May 2026 00:17:39 GMT",
-      "summary": "Philippines’ BSP Flags Bold Rate Move to Stay Ahead of Inflation\nPhilippine central bank Governor Eli Remolona said monetary authorities will have to react aggressively to avoid falling behind the curve in taming price pressures spurred by the Iran war."
+      "published": "Fri, 22 May 2026 14:10:38 GMT",
+      "summary": "GameStop Board Asks Shareholders to Increase Share Count\nGameStop Corp. is asking shareholders to approve a massive increase in its authorized share count as the video-game retailer pursues an acquisition of eBay Inc."
     },
     {
-      "title": "Polymarket aims for prediction market approval in Japan by 2030",
-      "link": "https://www.coindesk.com/policy/2026/05/22/polymarket-aims-for-prediction-market-approval-in-japan-by-2030",
+      "title": "IREN co-founder says AI’s biggest bottleneck is infrastructure, not chips",
+      "link": "https://www.coindesk.com/markets/2026/05/22/iren-co-founder-says-ai-s-biggest-bottleneck-is-infrastructure-not-chips",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 22 May 2026 08:34:13 +0000",
-      "summary": "Polymarket aims for prediction market approval in Japan by 2030\n"
+      "published": "Fri, 22 May 2026 13:20:22 +0000",
+      "summary": "IREN co-founder says AI’s biggest bottleneck is infrastructure, not chips\n"
     },
     {
-      "title": "Bitcoin implied volatility drops to 7 month low despite macro risks",
-      "link": "https://www.coindesk.com/markets/2026/05/22/bitcoin-implied-volatility-drops-to-7-month-low-despite-macro-risks",
+      "title": "CoinDesk 20 performance update: NEAR surges 19.4% as index trades flat",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/05/22/coindesk-20-performance-update-near-surges-19-4-as-index-trades-flat",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 22 May 2026 08:24:46 +0000",
-      "summary": "Bitcoin implied volatility drops to 7 month low despite macro risks\n"
+      "published": "Fri, 22 May 2026 13:14:46 +0000",
+      "summary": "CoinDesk 20 performance update: NEAR surges 19.4% as index trades flat\n"
     },
     {
-      "title": "XRP ETFs attract inflows amid wallet surge. bitcoin, ether funds struggle.",
-      "link": "https://www.coindesk.com/markets/2026/05/22/xrp-funds-sees-fresh-inflows-and-wallet-spike-as-bitcoin-ether-funds-bleed",
+      "title": "Trump Media moves another $205 million in bitcoin as losses on crypto bet swell to $455 million",
+      "link": "https://www.coindesk.com/markets/2026/05/22/trump-media-moves-another-usd205m-in-bitcoin-as-losses-on-crypto-bet-swell-to-usd455m",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 22 May 2026 06:36:18 +0000",
-      "summary": "XRP ETFs attract inflows amid wallet surge. bitcoin, ether funds struggle.\n"
+      "published": "Fri, 22 May 2026 13:08:41 +0000",
+      "summary": "Trump Media moves another $205 million in bitcoin as losses on crypto bet swell to $455 million\n"
     },
     {
-      "title": "Bitcoin trades near $77,700 as analysts eye $75,000 support after liquidation wave",
-      "link": "https://www.coindesk.com/markets/2026/05/22/bitcoin-trades-near-usd77-700-as-analysts-eye-usd75-000-support-after-liquidation-wave",
+      "title": "Tom Lee says trillions in tech IPO supply won't crash the S&P 500",
+      "link": "https://www.coindesk.com/markets/2026/05/22/tom-lee-says-trillions-in-tech-ipo-supply-won-t-crash-the-s-and-p-500",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 22 May 2026 05:38:22 +0000",
-      "summary": "Bitcoin trades near $77,700 as analysts eye $75,000 support after liquidation wave\n"
+      "published": "Fri, 22 May 2026 12:57:37 +0000",
+      "summary": "Tom Lee says trillions in tech IPO supply won't crash the S&P 500\n"
     },
     {
-      "title": "India cracks down on prediction markets: Polymarket goes dark, Kalshi could be next",
-      "link": "https://www.coindesk.com/markets/2026/05/22/india-cracks-down-on-prediction-markets-polymarket-goes-dark-kalshi-could-be-next",
+      "title": "OKX and ICE are bringing 'never-expiring' oil futures to 120 million crypto users",
+      "link": "https://www.coindesk.com/business/2026/05/22/okx-and-ice-are-bringing-never-expiring-oil-futures-to-120-million-crypto-users",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 22 May 2026 05:14:46 +0000",
-      "summary": "India cracks down on prediction markets: Polymarket goes dark, Kalshi could be next\n"
+      "published": "Fri, 22 May 2026 12:48:04 +0000",
+      "summary": "OKX and ICE are bringing 'never-expiring' oil futures to 120 million crypto users\n"
     }
   ]
 }
