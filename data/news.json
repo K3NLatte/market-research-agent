@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T02:14:51.435093+00:00",
+  "generated_at": "2026-05-23T08:07:41.576357+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,9 +43,25 @@
       "summary": "Canvas Breach Disrupts Schools & Colleges Nationwide\nAn ongoing data extortion attack targeting the widely-used education technology platform Canvas disrupted classes and coursework at school districts and universities across the United States today, after a cybercrime group defaced the service's lo"
     },
     {
+      "title": "LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root",
+      "link": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
+      "raw_summary": "A maximum-severity security vulnerability impacting LiteSpeed User-End cPanel Plugin has come under active exploitation in the wild.\n\nThe flaw, tracked as CVE-2026-48172 (CVSS score: 10.0), relates to an instance of incorrect privilege assignment that an attacker could abuse to run arbitrary scripts with elevated permissions.\n\n\"Any cPanel user (including an attacker or a compromised account) may",
+      "source": "The Hacker News",
+      "published": "Sat, 23 May 2026 13:05:13 +0530",
+      "summary": "LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root\nA maximum-severity security vulnerability impacting LiteSpeed User-End cPanel Plugin has come under active exploitation in the wild.\n\nThe flaw, tracked as CVE-2026-48172 (CVSS score: 10.0), relates to an instance of incorrect pr"
+    },
+    {
+      "title": "Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV",
+      "link": "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
+      "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a recently patched critical security flaw impacting Drupal Core to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation.\n\nThe vulnerability in question is CVE-2026-9082 (CVSS score: 6.5), an SQL injection vulnerability affecting all supported versions of Drupal Core.\n\n\"Drupal Core",
+      "source": "The Hacker News",
+      "published": "Sat, 23 May 2026 12:53:48 +0530",
+      "summary": "Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a recently patched critical security flaw impacting Drupal Core to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitatio"
+    },
+    {
       "title": "First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups",
       "link": "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
-      "raw_summary": "Authorities in Europe and North America have announced the dismantling of a criminal virtual private network (VPN) service used by criminal actors to obscure the origins of ransomware attacks, data theft, scanning, and denial-of-service attacks.\n\nThe disruption of First VPN Service was led by France and the Netherlands, with several other nations supporting the investigation since December",
+      "raw_summary": "Authorities in Europe and North America have announced the dismantling of a criminal virtual private network (VPN) service used by criminal actors to obscure the origins of ransomware attacks, data theft, scanning, and denial-of-service attacks.\n\nCodenamed Operation Saffron, the  disruption  of First VPN Service was led by France and the Netherlands, with several other nations supporting the",
       "source": "The Hacker News",
       "published": "Fri, 22 May 2026 23:05:02 +0530",
       "summary": "First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups\nAuthorities in Europe and North America have announced the dismantling of a criminal virtual private network (VPN) service used by criminal actors to obscure the origins of ransomware attacks, data theft, scanning, and denial-o"
@@ -53,10 +69,10 @@
     {
       "title": "Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware",
       "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
-      "raw_summary": "The Belarus-aligned threat actor known as Ghostwriter (aka UAC-0057 and UNC1151Ukraine's National Security and Defense Council) has been observed using lures related to Prometheus, a Ukrainian online learning platform, to target government organizations in the country.\n\nThe activity, per the Computer Emergency Response Team of Ukraine (CERT-UA), involves sending phishing emails to government",
+      "raw_summary": "The Belarus-aligned threat actor known as Ghostwriter (aka UAC-0057 and UNC1151) has been observed using lures related to Prometheus, a Ukrainian online learning platform, to target government organizations in the country.\n\nThe activity, per the Computer Emergency Response Team of Ukraine (CERT-UA), involves sending phishing emails to government entities using compromised accounts. It's been",
       "source": "The Hacker News",
       "published": "Fri, 22 May 2026 21:50:32 +0530",
-      "summary": "Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware\nThe Belarus-aligned threat actor known as Ghostwriter (aka UAC-0057 and UNC1151Ukraine's National Security and Defense Council) has been observed using lures related to Prometheus, a Ukrainian online learning platform, "
+      "summary": "Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware\nThe Belarus-aligned threat actor known as Ghostwriter (aka UAC-0057 and UNC1151) has been observed using lures related to Prometheus, a Ukrainian online learning platform, to target government organizations in the count"
     },
     {
       "title": "Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows",
@@ -67,41 +83,33 @@
       "summary": "Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows\nCybersecurity researchers have disclosed details of a new automated campaign called Megalodon that has pushed 5,718 malicious commits to 5,561 GitHub repositories within a six-hour window.\n\n\"Using throwaway accounts and forge"
     },
     {
-      "title": "Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective",
-      "link": "https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html",
-      "raw_summary": "1 Introduction\n\nThis article provides a technical analysis of how many Windows kernel mode drivers can be interacted with from user mode without the hardware they were developed for. This work was motivated by driver-oriented vulnerability research and the need to evaluate the exploitability of individual findings, which frequently affect code whose reachability is hardware-gated. The",
-      "source": "The Hacker News",
-      "published": "Fri, 22 May 2026 17:08:12 +0530",
-      "summary": "Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective\n1 Introduction\n\nThis article provides a technical analysis of how many Windows kernel mode drivers can be interacted with from user mode without the hardware they were developed for. This work was motivated by driver-orie"
+      "title": "Experience: We found a baby on the subway – now he's our 26-year-old son",
+      "link": "https://www.theguardian.com/lifeandstyle/2026/may/22/experience-found-baby-subway-now-26-year-old-son",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.theguardian.com/lifeandstyle/2026/may/22/experience-found-baby-subway-now-26-year-old-son\">https://www.theguardian.com/lifeandstyle/2026/may/22/experience-found-baby-subway-now-26-year-old-son</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48245571\">https://news.ycombinator.com/item?id=48245571</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Sat, 23 May 2026 07:34:33 +0000",
+      "summary": "Experience: We found a baby on the subway – now he's our 26-year-old son\n<p>Article URL: <a href=\"https://www.theguardian.com/lifeandstyle/2026/may/22/experience-found-baby-subway-now-26-year-old-son\">https://www.theguardian.com/lifeandstyle/2026/may/22/experience-found-baby-subway-now-26-year-old-s"
     },
     {
-      "title": "Kimwolf DDoS Botnet Operator Arrested in Canada Over DDoS-for-Hire Attacks",
-      "link": "https://thehackernews.com/2026/05/kimwolf-ddos-botnet-operator-arrested.html",
-      "raw_summary": "The U.S. Department of Justice (DoJ) on Thursday announced the arrest of a Canadian man in connection with allegedly operating a distributed denial-of-service (DDoS) botnet known as Kimwolf.\n\nIn tandem, Jacob Butler (aka Dort), 23, Ottawa, Canada, has been charged with offenses related to the development and operation of the botnet. Kimwolf is assessed to be a variant of AISURU.\n\n\"Kimwolf",
-      "source": "The Hacker News",
-      "published": "Fri, 22 May 2026 14:20:18 +0530",
-      "summary": "Kimwolf DDoS Botnet Operator Arrested in Canada Over DDoS-for-Hire Attacks\nThe U.S. Department of Justice (DoJ) on Thursday announced the arrest of a Canadian man in connection with allegedly operating a distributed denial-of-service (DDoS) botnet known as Kimwolf.\n\nIn tandem, Jacob Butler (aka Dort"
+      "title": "Spanish Court Declines to Fine NordVPN over LaLiga Piracy Blocking Order",
+      "link": "https://torrentfreak.com/spanish-court-declines-to-fine-nordvpn-over-laliga-piracy-blocking-order/",
+      "raw_summary": "<p>Article URL: <a href=\"https://torrentfreak.com/spanish-court-declines-to-fine-nordvpn-over-laliga-piracy-blocking-order/\">https://torrentfreak.com/spanish-court-declines-to-fine-nordvpn-over-laliga-piracy-blocking-order/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48245362\">https://news.ycombinator.com/item?id=48245362</a></p>\n<p>Points: 16</p>\n<p># Comments: 2</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Sat, 23 May 2026 06:54:49 +0000",
+      "summary": "Spanish Court Declines to Fine NordVPN over LaLiga Piracy Blocking Order\n<p>Article URL: <a href=\"https://torrentfreak.com/spanish-court-declines-to-fine-nordvpn-over-laliga-piracy-blocking-order/\">https://torrentfreak.com/spanish-court-declines-to-fine-nordvpn-over-laliga-piracy-blocking-order/</a>"
     },
     {
       "title": "FBI director's Based Apparel site has been spotted hosting a 'ClickFix' attack",
       "link": "https://www.pcmag.com/news/kash-patels-apparel-site-is-trying-to-trick-visitors-into-installing-malware",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.pcmag.com/news/kash-patels-apparel-site-is-trying-to-trick-visitors-into-installing-malware\">https://www.pcmag.com/news/kash-patels-apparel-site-is-trying-to-trick-visitors-into-installing-malware</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48243293\">https://news.ycombinator.com/item?id=48243293</a></p>\n<p>Points: 41</p>\n<p># Comments: 11</p>",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.pcmag.com/news/kash-patels-apparel-site-is-trying-to-trick-visitors-into-installing-malware\">https://www.pcmag.com/news/kash-patels-apparel-site-is-trying-to-trick-visitors-into-installing-malware</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48243293\">https://news.ycombinator.com/item?id=48243293</a></p>\n<p>Points: 129</p>\n<p># Comments: 37</p>",
       "source": "Hacker News: Front Page",
       "published": "Sat, 23 May 2026 00:34:25 +0000",
       "summary": "FBI director's Based Apparel site has been spotted hosting a 'ClickFix' attack\n<p>Article URL: <a href=\"https://www.pcmag.com/news/kash-patels-apparel-site-is-trying-to-trick-visitors-into-installing-malware\">https://www.pcmag.com/news/kash-patels-apparel-site-is-trying-to-trick-visitors-into-instal"
     },
     {
-      "title": "SpaceX launches Starship v3 rocket",
-      "link": "https://www.nbcnews.com/now/video/spacex-successfully-launches-prototype-of-starship-rocket-263835205505",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.nbcnews.com/now/video/spacex-successfully-launches-prototype-of-starship-rocket-263835205505\">https://www.nbcnews.com/now/video/spacex-successfully-launches-prototype-of-starship-rocket-263835205505</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48242959\">https://news.ycombinator.com/item?id=48242959</a></p>\n<p>Points: 114</p>\n<p># Comments: 42</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Fri, 22 May 2026 23:41:55 +0000",
-      "summary": "SpaceX launches Starship v3 rocket\n<p>Article URL: <a href=\"https://www.nbcnews.com/now/video/spacex-successfully-launches-prototype-of-starship-rocket-263835205505\">https://www.nbcnews.com/now/video/spacex-successfully-launches-prototype-of-starship-rocket-263835205505</a></p>\n<p>Comments URL: <a h"
-    },
-    {
       "title": "Sleep research led to a new sleep apnea drug",
       "link": "https://temertymedicine.utoronto.ca/news/how-decades-sleep-research-led-new-sleep-apnea-drug",
-      "raw_summary": "<p>Article URL: <a href=\"https://temertymedicine.utoronto.ca/news/how-decades-sleep-research-led-new-sleep-apnea-drug\">https://temertymedicine.utoronto.ca/news/how-decades-sleep-research-led-new-sleep-apnea-drug</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48242278\">https://news.ycombinator.com/item?id=48242278</a></p>\n<p>Points: 63</p>\n<p># Comments: 40</p>",
+      "raw_summary": "<p>Article URL: <a href=\"https://temertymedicine.utoronto.ca/news/how-decades-sleep-research-led-new-sleep-apnea-drug\">https://temertymedicine.utoronto.ca/news/how-decades-sleep-research-led-new-sleep-apnea-drug</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48242278\">https://news.ycombinator.com/item?id=48242278</a></p>\n<p>Points: 142</p>\n<p># Comments: 90</p>",
       "source": "Hacker News: Front Page",
       "published": "Fri, 22 May 2026 22:05:39 +0000",
       "summary": "Sleep research led to a new sleep apnea drug\n<p>Article URL: <a href=\"https://temertymedicine.utoronto.ca/news/how-decades-sleep-research-led-new-sleep-apnea-drug\">https://temertymedicine.utoronto.ca/news/how-decades-sleep-research-led-new-sleep-apnea-drug</a></p>\n<p>Comments URL: <a href=\"https://n"
@@ -109,18 +117,18 @@
     {
       "title": "Shipping a laptop to a refugee camp in Uganda",
       "link": "https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda",
-      "raw_summary": "<p>Article URL: <a href=\"https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda\">https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48241997\">https://news.ycombinator.com/item?id=48241997</a></p>\n<p>Points: 197</p>\n<p># Comments: 52</p>",
+      "raw_summary": "<p>Article URL: <a href=\"https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda\">https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48241997\">https://news.ycombinator.com/item?id=48241997</a></p>\n<p>Points: 380</p>\n<p># Comments: 130</p>",
       "source": "Hacker News: Front Page",
       "published": "Fri, 22 May 2026 21:36:55 +0000",
       "summary": "Shipping a laptop to a refugee camp in Uganda\n<p>Article URL: <a href=\"https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda\">https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48241997\">https://n"
     },
     {
-      "title": "Models.dev: open-source database of AI model specs, pricing, and capabilities",
-      "link": "https://github.com/anomalyco/models.dev",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/anomalyco/models.dev\">https://github.com/anomalyco/models.dev</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48241172\">https://news.ycombinator.com/item?id=48241172</a></p>\n<p>Points: 105</p>\n<p># Comments: 14</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Fri, 22 May 2026 20:26:07 +0000",
-      "summary": "Models.dev: open-source database of AI model specs, pricing, and capabilities\n<p>Article URL: <a href=\"https://github.com/anomalyco/models.dev\">https://github.com/anomalyco/models.dev</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48241172\">https://news.ycombinator.com/item?i"
+      "title": "Peec, one of Berlin’s rising startups, more than doubled annualized revenue in months to $10M, sources say",
+      "link": "https://techcrunch.com/2026/05/23/peec-one-of-berlins-rising-startups-more-than-doubled-annualized-revenue-in-months-to-10m-sources-say/",
+      "raw_summary": "Peec, which helps brands track their presence in AI searches, offers proof of a key trend among European startups.",
+      "source": "TechCrunch",
+      "published": "Sat, 23 May 2026 07:01:00 +0000",
+      "summary": "Peec, one of Berlin’s rising startups, more than doubled annualized revenue in months to $10M, sources say\nPeec, which helps brands track their presence in AI searches, offers proof of a key trend among European startups."
     },
     {
       "title": "AI is being used to resurrect the voices of dead pilots",
@@ -153,14 +161,6 @@
       "source": "TechCrunch",
       "published": "Fri, 22 May 2026 21:02:36 +0000",
       "summary": "Google goes for the glitter with disco-ball icons: ‘Are y’all sure you still want this?’\nYou can now disco ball-ify your entire Pixel home screen, says Google."
-    },
-    {
-      "title": "How VCs and founders use inflated ‘ARR’ to crown AI startups",
-      "link": "https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/",
-      "raw_summary": "Some AI startups are stretching traditional revenue metrics when talking about progress publicly. And their investors are fully aware.",
-      "source": "TechCrunch",
-      "published": "Fri, 22 May 2026 20:40:48 +0000",
-      "summary": "How VCs and founders use inflated ‘ARR’ to crown AI startups\nSome AI startups are stretching traditional revenue metrics when talking about progress publicly. And their investors are fully aware."
     },
     {
       "title": "Four Russian satellites are now within striking distance of an ICEYE radarsat",
@@ -203,44 +203,68 @@
       "summary": "US scrambles to stop Internet users re-creating dead pilots’ voices\nWorkaround flouts law that bans NTSB disclosures of cockpit audio recordings."
     },
     {
-      "title": "SpaceX launches redesigned Starship in successful pre-IPO test",
-      "link": "https://www.ft.com/content/ae78c11f-9aef-4ae8-976d-a70db5b4aa91",
-      "raw_summary": "Elon Musk’s company demonstrates the technology at the heart of the biggest initial public offering in history",
+      "title": "Pakistan army chief travels to Tehran in push for US-Iran deal",
+      "link": "https://www.ft.com/content/4fd37931-1f30-43e7-92ed-3ae26c87a00f",
+      "raw_summary": "Asim Munir joins mediators including Qatar as effort to prevent resumption of full-scale war intensifies",
       "source": "World",
-      "published": "Sat, 23 May 2026 00:30:23 GMT",
-      "summary": "SpaceX launches redesigned Starship in successful pre-IPO test\nElon Musk’s company demonstrates the technology at the heart of the biggest initial public offering in history"
+      "published": "Sat, 23 May 2026 06:22:06 GMT",
+      "summary": "Pakistan army chief travels to Tehran in push for US-Iran deal\nAsim Munir joins mediators including Qatar as effort to prevent resumption of full-scale war intensifies"
     },
     {
-      "title": "Trump administration to make foreigners leave US to apply for green cards",
-      "link": "https://www.ft.com/content/5d4c3de6-07d9-436e-8822-2dbafd10774a",
-      "raw_summary": "Move to tighten permanent residency requirements could have significant implications for businesses",
+      "title": "Boards of Canada fuse esoteric knowledge and science on Inferno",
+      "link": "https://www.ft.com/content/af214775-519b-4c94-8db7-6b5207cc70bd",
+      "raw_summary": "The electronic duo’s first record in 13 years is thought-provoking, but its retro-futurist soundworld loses steam",
       "source": "World",
-      "published": "Fri, 22 May 2026 22:48:37 GMT",
-      "summary": "Trump administration to make foreigners leave US to apply for green cards\nMove to tighten permanent residency requirements could have significant implications for businesses"
+      "published": "Sat, 23 May 2026 05:00:05 GMT",
+      "summary": "Boards of Canada fuse esoteric knowledge and science on Inferno\nThe electronic duo’s first record in 13 years is thought-provoking, but its retro-futurist soundworld loses steam"
     },
     {
-      "title": "Bolivia rocked by protests as fuel shortages and rising costs bite",
-      "link": "https://www.ft.com/content/1943cc85-5c8a-44e5-8ae0-7eef25bf3f5d",
-      "raw_summary": "Government and armed forces say they will open ‘humanitarian corridors’ to deliver necessities through roadblocks",
+      "title": "Bond slump stirs vigilante fears",
+      "link": "https://www.ft.com/content/e16e6cdf-e824-4bc1-a199-e42746e602bb",
+      "raw_summary": "A sense is setting in among investment professionals that we have a serious problem here",
       "source": "World",
-      "published": "Fri, 22 May 2026 22:36:51 GMT",
-      "summary": "Bolivia rocked by protests as fuel shortages and rising costs bite\nGovernment and armed forces say they will open ‘humanitarian corridors’ to deliver necessities through roadblocks"
+      "published": "Sat, 23 May 2026 04:00:46 GMT",
+      "summary": "Bond slump stirs vigilante fears\nA sense is setting in among investment professionals that we have a serious problem here"
     },
     {
-      "title": "EU rejects UK push to create a single market for goods",
-      "link": "https://www.ft.com/content/b13e35d4-93b2-4c24-8a30-412733978093",
-      "raw_summary": "Brussels said it would only discuss the ‘reset’ package of measures at the bloc’s next summit with Britain",
+      "title": "As Burnham kicks off campaign, Starmer fights to stay in the game",
+      "link": "https://www.ft.com/content/f742162f-24d3-4e12-871f-396f7830ec5a",
+      "raw_summary": "Supporters say PM is ‘tough’ but few are prepared to state categorically that he would fight a leadership contest if Greater Manchester mayor wins Makerfield",
       "source": "World",
-      "published": "Fri, 22 May 2026 20:22:44 GMT",
-      "summary": "EU rejects UK push to create a single market for goods\nBrussels said it would only discuss the ‘reset’ package of measures at the bloc’s next summit with Britain"
+      "published": "Sat, 23 May 2026 04:00:46 GMT",
+      "summary": "As Burnham kicks off campaign, Starmer fights to stay in the game\nSupporters say PM is ‘tough’ but few are prepared to state categorically that he would fight a leadership contest if Greater Manchester mayor wins Makerfield"
     },
     {
-      "title": "Indian youth ‘cockroach’ protest goes viral",
-      "link": "https://www.ft.com/content/2bfed8a4-8ea0-4627-b7a8-e9ca46945239",
-      "raw_summary": "New online movement adopts mascot of household pest to express frustration over rising unemployment",
+      "title": "US crime and mortality is declining fast — what can the rest of us learn?",
+      "link": "https://www.ft.com/content/f4da6ec3-c56b-4b0b-b8a1-62ca7b0e6bed",
+      "raw_summary": "America is making progress in driving down violent deaths and those from some dangerous diseases",
       "source": "World",
-      "published": "Fri, 22 May 2026 20:00:09 GMT",
-      "summary": "Indian youth ‘cockroach’ protest goes viral\nNew online movement adopts mascot of household pest to express frustration over rising unemployment"
+      "published": "Sat, 23 May 2026 04:00:46 GMT",
+      "summary": "US crime and mortality is declining fast — what can the rest of us learn?\nAmerica is making progress in driving down violent deaths and those from some dangerous diseases"
+    },
+    {
+      "title": "Architect Norman Foster on Why the West Struggles to Build Big",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-23/architect-norman-foster-on-why-the-west-struggles-to-build-big",
+      "raw_summary": "<p>What it takes to make great engineering and design breakthroughs at scale.</p>",
+      "source": "Bloomberg Markets",
+      "published": "Sat, 23 May 2026 08:00:02 GMT",
+      "summary": "Architect Norman Foster on Why the West Struggles to Build Big\n<p>What it takes to make great engineering and design breakthroughs at scale.</p>"
+    },
+    {
+      "title": "Odd Lots: Norman Foster on the Struggle to Build Big (Podcast)",
+      "link": "https://www.bloomberg.com/news/audio/2026-05-23/odd-lots-norman-foster-on-the-struggle-to-build-big-podcast",
+      "raw_summary": "Not many people think of designing buildings as an exercise in economics, but the entire process is defined by constraints around resources (both physical and financial), and an iconic building can also have a huge impact on the wealth and development of the area around it. So how do you encourage private developers to consider the public good when designing new projects? And how are some countries able to encourage more landmark building projects than others? In this episode, we speak with Norm",
+      "source": "Bloomberg Markets",
+      "published": "Sat, 23 May 2026 08:00:00 GMT",
+      "summary": "Odd Lots: Norman Foster on the Struggle to Build Big (Podcast)\nNot many people think of designing buildings as an exercise in economics, but the entire process is defined by constraints around resources (both physical and financial), and an iconic building can also have a huge impact on the wealth a"
+    },
+    {
+      "title": "Deadliest China Coal Mine Blast Since 2009 Kills at Least 90",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-23/xi-urges-chinese-authorities-to-curb-accidents-after-mine-blast",
+      "raw_summary": "The death toll from a gas explosion at a coal mine in China’s Shanxi province has jumped to at least 90 people, making it the country’s deadliest such incident since 2009.",
+      "source": "Bloomberg Markets",
+      "published": "Sat, 23 May 2026 03:19:21 GMT",
+      "summary": "Deadliest China Coal Mine Blast Since 2009 Kills at Least 90\nThe death toll from a gas explosion at a coal mine in China’s Shanxi province has jumped to at least 90 people, making it the country’s deadliest such incident since 2009."
     },
     {
       "title": "India Raises Diesel, Gasoline Prices for Third Time in Eight Days",
@@ -251,36 +275,12 @@
       "summary": "India Raises Diesel, Gasoline Prices for Third Time in Eight Days\nIndia’s state-run refiners raised retail prices again of diesel and gasoline on Saturday to help processors cut losses on discounted sales and to control a spike in demand."
     },
     {
-      "title": "Abrego Garcia Wins Dismissal of US Human-Smuggling Case",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-22/abrego-garcia-wins-dismissal-of-us-human-smuggling-case",
-      "raw_summary": "A federal judge in Tennessee dismissed human-smuggling charges against Salvadoran migrant Kilmar Armando Abrego Garcia after concluding the US government brought the case in retaliation for his legal fight against being deported.",
+      "title": "Rubio to Meet India’s Modi With Energy, Trade Ties in Focus",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-23/rubio-to-meet-india-s-modi-with-energy-trade-ties-in-focus",
+      "raw_summary": "US Secretary of State Marco Rubio will meet Indian Prime Minister Narendra Modi on Saturday, with energy security high on the agenda as the South Asian nation grapples with soaring oil prices and supply disruptions stemming from the war in Iran.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 22 May 2026 23:16:50 GMT",
-      "summary": "Abrego Garcia Wins Dismissal of US Human-Smuggling Case\nA federal judge in Tennessee dismissed human-smuggling charges against Salvadoran migrant Kilmar Armando Abrego Garcia after concluding the US government brought the case in retaliation for his legal fight against being deported."
-    },
-    {
-      "title": "Cava CEO: Unique Cuisine Differentiates Us",
-      "link": "https://www.bloomberg.com/news/videos/2026-05-22/cava-ceo-unique-cuisine-differentiates-us-video",
-      "raw_summary": "Cava CEO Bret Schulman discusses the success of his restaurant and just what distinguishes them from the competition. He talks about the Mediterranean cuisine that distinguishes his brand. He speaks with Romaine Bostick on “The Close.” (Source: Bloomberg)",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 22 May 2026 22:22:28 GMT",
-      "summary": "Cava CEO: Unique Cuisine Differentiates Us\nCava CEO Bret Schulman discusses the success of his restaurant and just what distinguishes them from the competition. He talks about the Mediterranean cuisine that distinguishes his brand. He speaks with Romaine Bostick on “The Close.” (Source: Bloomberg)"
-    },
-    {
-      "title": "AEW CEO on WWE Challenger’s Biggest Test in New York",
-      "link": "https://www.bloomberg.com/news/videos/2026-05-22/aew-ceo-on-wwe-challenger-s-biggest-test-in-new-york-video",
-      "raw_summary": "All Elite Wrestling CEO Tony Khan discusses the future of AEW. He discusses his upcoming event, and how he plans to promote his league in the future. He speaks with Romaine Bostick on “The Close.” (Source: Bloomberg)",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 22 May 2026 22:12:26 GMT",
-      "summary": "AEW CEO on WWE Challenger’s Biggest Test in New York\nAll Elite Wrestling CEO Tony Khan discusses the future of AEW. He discusses his upcoming event, and how he plans to promote his league in the future. He speaks with Romaine Bostick on “The Close.” (Source: Bloomberg)"
-    },
-    {
-      "title": "Equatorial Leans Against Bidding on Copasa Privatization",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-22/equatorial-eqtl3-leans-against-bidding-on-copasa-csmg3-privatization",
-      "raw_summary": "Equatorial SA is unlikely to bid on a key stake in Copasa, the Brazilian water utility that’s being privatized by the government of Minas Gerais state, according to people familiar to the matter.",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 22 May 2026 22:10:16 GMT",
-      "summary": "Equatorial Leans Against Bidding on Copasa Privatization\nEquatorial SA is unlikely to bid on a key stake in Copasa, the Brazilian water utility that’s being privatized by the government of Minas Gerais state, according to people familiar to the matter."
+      "published": "Sat, 23 May 2026 06:49:42 GMT",
+      "summary": "Rubio to Meet India’s Modi With Energy, Trade Ties in Focus\nUS Secretary of State Marco Rubio will meet Indian Prime Minister Narendra Modi on Saturday, with energy security high on the agenda as the South Asian nation grapples with soaring oil prices and supply disruptions stemming from the war in "
     },
     {
       "title": "F2Pool founder who controls 11% of bitcoin's hashrate to lead first SpaceX mission to Mars",
