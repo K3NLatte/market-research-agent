@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-05-25T09:52:43.970048+00:00",
-  "count": 40,
+  "generated_at": "2026-05-25T14:38:37.915993+00:00",
+  "count": 39,
   "articles": [
+    {
+      "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
+      "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
+      "raw_summary": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecurity story about how their hosting companies had assumed control over the technical infrastructure of Stark Industries Solutions, an Internet service provider sanctioned last year by the EU as a frequent staging ground for cyber mischief from Russia's intelligence agencies.",
+      "source": "Krebs on Security",
+      "published": "Mon, 25 May 2026 13:21:49 +0000",
+      "summary": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks\nAuthorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside th"
+    },
     {
       "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
       "link": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
@@ -35,12 +43,28 @@
       "summary": "Patch Tuesday, May 2026 Edition\nArtificial intelligence platforms may be just as susceptible to social engineering as human beings, but they are proving remarkably good at finding security vulnerabilities in human-made computer code. That reality is on full display this month with some of the more w"
     },
     {
-      "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
-      "link": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
-      "raw_summary": "An ongoing data extortion attack targeting the widely-used education technology platform Canvas disrupted classes and coursework at school districts and universities across the United States today, after a cybercrime group defaced the service's login page with a ransom demand that threatened to leak data from 275 million students and faculty across nearly 9,000 educational institutions.",
-      "source": "Krebs on Security",
-      "published": "Fri, 08 May 2026 02:58:46 +0000",
-      "summary": "Canvas Breach Disrupts Schools & Colleges Nationwide\nAn ongoing data extortion attack targeting the widely-used education technology platform Canvas disrupted classes and coursework at school districts and universities across the United States today, after a cybercrime group defaced the service's lo"
+      "title": "Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks",
+      "link": "https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html",
+      "raw_summary": "Threat actors are exploiting a recently disclosed critical security flaw in Ghost CMS to inject malicious JavaScript code with an aim to fuel ClickFix attacks.\n\nAccording to QiAnXin XLab, the activity involves the exploitation of CVE-2026-26980 (CVSS score: 9.4), an SQL injection vulnerability in Ghost's Content API that could allow an unauthenticated attacker to read arbitrary data from the",
+      "source": "The Hacker News",
+      "published": "Mon, 25 May 2026 17:32:46 +0530",
+      "summary": "Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks\nThreat actors are exploiting a recently disclosed critical security flaw in Ghost CMS to inject malicious JavaScript code with an aim to fuel ClickFix attacks.\n\nAccording to QiAnXin XLab, the activity involves the exploitat"
+    },
+    {
+      "title": "The Alert Firehose Finally Meets Its Match",
+      "link": "https://thehackernews.com/2026/05/the-alert-firehose-finally-meets-its.html",
+      "raw_summary": "Ask a cybersecurity pro about Network Detection and Response (NDR) and you might still hear \"Noisy,\" \"Too much data.\" But ask the teams running NDR that includes agentic AI capabilities and you'll hear they're actually using it to catch threats earlier, triage faster, and chase fewer false positives. The old complaint lingers in part because reputations are sticky, and because NDR has evolved",
+      "source": "The Hacker News",
+      "published": "Mon, 25 May 2026 17:00:00 +0530",
+      "summary": "The Alert Firehose Finally Meets Its Match\nAsk a cybersecurity pro about Network Detection and Response (NDR) and you might still hear \"Noisy,\" \"Too much data.\" But ask the teams running NDR that includes agentic AI capabilities and you'll hear they're actually using it to catch threats earlier, tri"
+    },
+    {
+      "title": "Lazarus Deploys RemotePE Memory-Only RAT Against Financial and Crypto Firms",
+      "link": "https://thehackernews.com/2026/05/lazarus-deploys-remotepe-memory-only.html",
+      "raw_summary": "Cybersecurity researchers have shed light on a cross-platform malware called RemotePE that has been put to use by the North Korea-linked Lazarus Group in attacks targeting financial and cryptocurrency organizations.\n\nRemotePE, per NCC Group subsidiary Fox-IT, is part of a multi-stage attack chain that involves two loaders tracked as DPAPILoader and RemotePELoader.\n\n\"DPAPILoader decrypts and",
+      "source": "The Hacker News",
+      "published": "Mon, 25 May 2026 15:02:54 +0530",
+      "summary": "Lazarus Deploys RemotePE Memory-Only RAT Against Financial and Crypto Firms\nCybersecurity researchers have shed light on a cross-platform malware called RemotePE that has been put to use by the North Korea-linked Lazarus Group in attacks targeting financial and cryptocurrency organizations.\n\nRemoteP"
     },
     {
       "title": "TrapDoor Supply Chain Attack Spreads Credential-Stealing Malware via npm, PyPI, and CratesIO",
@@ -59,68 +83,52 @@
       "summary": "npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks\nGitHub has rolled out new controls for npm to improve the security of the software supply chain, giving maintainers the ability to explicitly approve a release prior to the packages becoming publicly available fo"
     },
     {
-      "title": "Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware",
-      "link": "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html",
-      "raw_summary": "A new \"coordinated\" supply chain attack campaign has impacted eight packages on Packagist including malicious code designed to run a Linux binary retrieved from a GitHub Releases URL.\n\n\"Although the affected packages were all Composer packages, the malicious code was not added to composer.json,\" Socket said. \"Instead, it was inserted into package.json, targeting projects that ship JavaScript",
-      "source": "The Hacker News",
-      "published": "Sat, 23 May 2026 21:37:51 +0530",
-      "summary": "Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware\nA new \"coordinated\" supply chain attack campaign has impacted eight packages on Packagist including malicious code designed to run a Linux binary retrieved from a GitHub Releases URL.\n\n\"Although the affected packages "
-    },
-    {
-      "title": "Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software",
-      "link": "https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html",
-      "raw_summary": "Anthropic on Friday disclosed that Project Glasswing has helped uncover more than 10,000 high- or critical-severity vulnerabilities across some of the most \"systemically\" important software across the world since the cybersecurity initiative went live last month.\n\n Project Glasswing  is a defensive effort launched by the artificial intelligence (AI) company to secure critical global software",
-      "source": "The Hacker News",
-      "published": "Sat, 23 May 2026 17:25:35 +0530",
-      "summary": "Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software\nAnthropic on Friday disclosed that Project Glasswing has helped uncover more than 10,000 high- or critical-severity vulnerabilities across some of the most \"systemically\" important software across the world since the cybersecu"
-    },
-    {
-      "title": "Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer",
-      "link": "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
-      "raw_summary": "Cybersecurity researchers have flagged a fresh software supply chain attack campaign that has targeted multiple PHP packages belonging to  Laravel-Lang to deliver a comprehensive credential-stealing framework.\n\nThe affected packages include -\n\n\n  laravel-lang/lang\n  laravel-lang/http-statuses\n  laravel-lang/attributes\n  laravel-lang/actions\n\n\"The timing and pattern of the newly published tags",
-      "source": "The Hacker News",
-      "published": "Sat, 23 May 2026 15:21:13 +0530",
-      "summary": "Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer\nCybersecurity researchers have flagged a fresh software supply chain attack campaign that has targeted multiple PHP packages belonging to  Laravel-Lang to deliver a comprehensive credential-stealing framework.\n\nThe af"
-    },
-    {
-      "title": "Show HN: Geomatic – a command-driven geometry studio enabled with autodiff",
-      "link": "https://www.tinyvolt.com/geomatic",
-      "raw_summary": "<p>All commands have the format `output = \\func inputs` or just `\\function inputs`. Points and scalars are built on the fly. Eg `\\line a b` to an empty canvas creates points `a` and `b`, and joins them with a line.<p>One can use broadcasting semantics similar to NumPy and PyTorch in a visual setting (imagine creating a list of circles where one dim corresponds to radius and another to the center). One can also use backpropagation, run gradient descent or visualize vector fields. Almost everything is reactive so changing a variable updates all of the downstream geometry. It also allows anyone to write and load their own visualization, which can be broadcasted and differentiated through.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48264635\">https://news.ycombinator.com/item?id=48264635</a></p>\n<p>Points: 8</p>\n<p># Comments: 4</p>",
+      "title": "Hive (YC S14) is hiring sr back-end developers (CA/US remote OK)",
+      "link": "https://jobs.ashbyhq.com/hive.co/538c47f9-d008-49b7-b0d4-583d9294a481",
+      "raw_summary": "<p>Article URL: <a href=\"https://jobs.ashbyhq.com/hive.co/538c47f9-d008-49b7-b0d4-583d9294a481\">https://jobs.ashbyhq.com/hive.co/538c47f9-d008-49b7-b0d4-583d9294a481</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48267324\">https://news.ycombinator.com/item?id=48267324</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 25 May 2026 08:25:00 +0000",
-      "summary": "Show HN: Geomatic – a command-driven geometry studio enabled with autodiff\n<p>All commands have the format `output = \\func inputs` or just `\\function inputs`. Points and scalars are built on the fly. Eg `\\line a b` to an empty canvas creates points `a` and `b`, and joins them with a line.<p>One can "
+      "published": "Mon, 25 May 2026 14:32:47 +0000",
+      "summary": "Hive (YC S14) is hiring sr back-end developers (CA/US remote OK)\n<p>Article URL: <a href=\"https://jobs.ashbyhq.com/hive.co/538c47f9-d008-49b7-b0d4-583d9294a481\">https://jobs.ashbyhq.com/hive.co/538c47f9-d008-49b7-b0d4-583d9294a481</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?i"
     },
     {
-      "title": "Why Do We Sleep Under Blankets, Even on the Hottest Nights? (2017)",
-      "link": "https://www.atlasobscura.com/articles/blankets-summer-hot",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.atlasobscura.com/articles/blankets-summer-hot\">https://www.atlasobscura.com/articles/blankets-summer-hot</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48263711\">https://news.ycombinator.com/item?id=48263711</a></p>\n<p>Points: 28</p>\n<p># Comments: 14</p>",
+      "title": "C extensions, portability, and alternative compilers",
+      "link": "https://lemon.rip/w/6-c-extensions-compilers/",
+      "raw_summary": "<p>Article URL: <a href=\"https://lemon.rip/w/6-c-extensions-compilers/\">https://lemon.rip/w/6-c-extensions-compilers/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48267126\">https://news.ycombinator.com/item?id=48267126</a></p>\n<p>Points: 10</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 25 May 2026 05:33:31 +0000",
-      "summary": "Why Do We Sleep Under Blankets, Even on the Hottest Nights? (2017)\n<p>Article URL: <a href=\"https://www.atlasobscura.com/articles/blankets-summer-hot\">https://www.atlasobscura.com/articles/blankets-summer-hot</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48263711\">https://ne"
+      "published": "Mon, 25 May 2026 14:15:19 +0000",
+      "summary": "C extensions, portability, and alternative compilers\n<p>Article URL: <a href=\"https://lemon.rip/w/6-c-extensions-compilers/\">https://lemon.rip/w/6-c-extensions-compilers/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48267126\">https://news.ycombinator.com/item?id=48267126</a"
     },
     {
-      "title": "Jira Is Turing-Complete",
-      "link": "https://seriot.ch/computation/jira.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://seriot.ch/computation/jira.html\">https://seriot.ch/computation/jira.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48263253\">https://news.ycombinator.com/item?id=48263253</a></p>\n<p>Points: 172</p>\n<p># Comments: 73</p>",
+      "title": "2026 HIPAA Security Rule Update",
+      "link": "https://medcurity.com/hipaa-security-rule-2026-update/",
+      "raw_summary": "<p>Article URL: <a href=\"https://medcurity.com/hipaa-security-rule-2026-update/\">https://medcurity.com/hipaa-security-rule-2026-update/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48266895\">https://news.ycombinator.com/item?id=48266895</a></p>\n<p>Points: 20</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 25 May 2026 03:54:14 +0000",
-      "summary": "Jira Is Turing-Complete\n<p>Article URL: <a href=\"https://seriot.ch/computation/jira.html\">https://seriot.ch/computation/jira.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48263253\">https://news.ycombinator.com/item?id=48263253</a></p>\n<p>Points: 172</p>\n<p># Comments: 7"
+      "published": "Mon, 25 May 2026 13:55:28 +0000",
+      "summary": "2026 HIPAA Security Rule Update\n<p>Article URL: <a href=\"https://medcurity.com/hipaa-security-rule-2026-update/\">https://medcurity.com/hipaa-security-rule-2026-update/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48266895\">https://news.ycombinator.com/item?id=48266895</a></"
     },
     {
-      "title": "The Eternal Sloptember",
-      "link": "https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html\">https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48263238\">https://news.ycombinator.com/item?id=48263238</a></p>\n<p>Points: 325</p>\n<p># Comments: 257</p>",
+      "title": "Pope Leo XIV says AI must serve humanity, not the powerful few",
+      "link": "https://religionnews.com/2026/05/25/in-his-first-encyclical-pope-leo-xiv-says-ai-must-serve-humanity-not-the-powerful-few/",
+      "raw_summary": "<p>Article URL: <a href=\"https://religionnews.com/2026/05/25/in-his-first-encyclical-pope-leo-xiv-says-ai-must-serve-humanity-not-the-powerful-few/\">https://religionnews.com/2026/05/25/in-his-first-encyclical-pope-leo-xiv-says-ai-must-serve-humanity-not-the-powerful-few/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48266485\">https://news.ycombinator.com/item?id=48266485</a></p>\n<p>Points: 108</p>\n<p># Comments: 35</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 25 May 2026 03:47:24 +0000",
-      "summary": "The Eternal Sloptember\n<p>Article URL: <a href=\"https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html\">https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48263238\">ht"
+      "published": "Mon, 25 May 2026 13:17:58 +0000",
+      "summary": "Pope Leo XIV says AI must serve humanity, not the powerful few\n<p>Article URL: <a href=\"https://religionnews.com/2026/05/25/in-his-first-encyclical-pope-leo-xiv-says-ai-must-serve-humanity-not-the-powerful-few/\">https://religionnews.com/2026/05/25/in-his-first-encyclical-pope-leo-xiv-says-ai-must-se"
     },
     {
-      "title": "A fundamental principle of aeronautical engineering has been overturned",
-      "link": "https://www.wired.com/story/a-fundamental-principle-of-aeronautical-engineering-has-been-overturned/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.wired.com/story/a-fundamental-principle-of-aeronautical-engineering-has-been-overturned/\">https://www.wired.com/story/a-fundamental-principle-of-aeronautical-engineering-has-been-overturned/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48260117\">https://news.ycombinator.com/item?id=48260117</a></p>\n<p>Points: 163</p>\n<p># Comments: 79</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Sun, 24 May 2026 19:10:26 +0000",
-      "summary": "A fundamental principle of aeronautical engineering has been overturned\n<p>Article URL: <a href=\"https://www.wired.com/story/a-fundamental-principle-of-aeronautical-engineering-has-been-overturned/\">https://www.wired.com/story/a-fundamental-principle-of-aeronautical-engineering-has-been-overturned/<"
+      "title": "Startup Battlefield 200 applications close in days: Apply before May 27",
+      "link": "https://techcrunch.com/2026/05/25/startup-battlefield-200-applications-close-in-days-apply-before-may-27/",
+      "raw_summary": "The deadline to apply or nominate for Startup Battlefield 200 is May 27. This is your shot at VC access, global visibility, TechCrunch coverage, and $100,000. Apply now.",
+      "source": "TechCrunch",
+      "published": "Mon, 25 May 2026 14:30:00 +0000",
+      "summary": "Startup Battlefield 200 applications close in days: Apply before May 27\nThe deadline to apply or nominate for Startup Battlefield 200 is May 27. This is your shot at VC access, global visibility, TechCrunch coverage, and $100,000. Apply now."
+    },
+    {
+      "title": "5 days left: Save up to $410 on TechCrunch Disrupt 2026 passes before prices increase",
+      "link": "https://techcrunch.com/2026/05/25/5-days-left-save-up-to-410-on-techcrunch-disrupt-2026-passes-before-prices-increase/",
+      "raw_summary": "Early Bird savings for TechCrunch Disrupt 2026 in San Francisco end May 29 at 11:59 p.m. PT. Register now to save up to $410 before prices increase.",
+      "source": "TechCrunch",
+      "published": "Mon, 25 May 2026 14:00:00 +0000",
+      "summary": "5 days left: Save up to $410 on TechCrunch Disrupt 2026 passes before prices increase\nEarly Bird savings for TechCrunch Disrupt 2026 in San Francisco end May 29 at 11:59 p.m. PT. Register now to save up to $410 before prices increase."
     },
     {
       "title": "Everyone is navigating AI security in real time — even Google",
@@ -147,20 +155,20 @@
       "summary": "6 kitchen gadgets that make adulting feel easier\nFrom a robot stirring your soup to a bread machine that kneads your dough, here are 6 gadgets that may make you feel like you’ve won adulthood."
     },
     {
-      "title": "TechCrunch Mobility: Robotaxi reality check",
-      "link": "https://techcrunch.com/2026/05/24/techcrunch-mobility-robotaxi-reality-check/",
-      "raw_summary": "Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation.",
-      "source": "TechCrunch",
-      "published": "Sun, 24 May 2026 16:05:00 +0000",
-      "summary": "TechCrunch Mobility: Robotaxi reality check\nWelcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation."
+      "title": "US's big bet on quantum computing may not be entirely legal",
+      "link": "https://arstechnica.com/tech-policy/2026/05/uss-big-bet-on-quantum-computing-may-not-be-entirely-legal/",
+      "raw_summary": "Deal also launched the first quantum foundry company, but is there a need for it?",
+      "source": "Ars Technica - All content",
+      "published": "Mon, 25 May 2026 12:00:15 +0000",
+      "summary": "US's big bet on quantum computing may not be entirely legal\nDeal also launched the first quantum foundry company, but is there a need for it?"
     },
     {
-      "title": "I tried Amazon’s Bee wearable and am both intrigued and slightly creeped out",
-      "link": "https://techcrunch.com/2026/05/24/i-tried-amazons-bee-wearable-and-am-both-intrigued-and-slightly-creeped-out/",
-      "raw_summary": "Like other AI wearables, Amazon's Bee offers an odd combination of convenience and privacy anxiety.",
-      "source": "TechCrunch",
-      "published": "Sun, 24 May 2026 15:00:00 +0000",
-      "summary": "I tried Amazon’s Bee wearable and am both intrigued and slightly creeped out\nLike other AI wearables, Amazon's Bee offers an odd combination of convenience and privacy anxiety."
+      "title": "I spent years forcing myself to finish The Witcher 3—don't repeat my mistake",
+      "link": "https://arstechnica.com/gaming/2026/05/the-witcher-3-is-a-good-game-but-that-doesnt-mean-you-have-to-like-it/",
+      "raw_summary": "Consensus and genre labels aren't reliable predictors of what you'll enjoy.",
+      "source": "Ars Technica - All content",
+      "published": "Mon, 25 May 2026 11:22:27 +0000",
+      "summary": "I spent years forcing myself to finish The Witcher 3—don't repeat my mistake\nConsensus and genre labels aren't reliable predictors of what you'll enjoy."
     },
     {
       "title": "Whatever the mirror test tells us, beluga whales pass it",
@@ -187,100 +195,108 @@
       "summary": "Two space shuttle-era spacewalkers enter Astronaut Hall of Fame\n\"Two astronauts whose careers embody excellence, leadership, and service.\""
     },
     {
-      "title": "China’s shark finning could lead to US seafood sanctions",
-      "link": "https://arstechnica.com/tech-policy/2026/05/chinas-shark-finning-could-lead-to-us-seafood-sanctions/",
-      "raw_summary": "A formal petition to the US government calls for sanctions on Chinese seafood imports.",
-      "source": "Ars Technica - All content",
-      "published": "Sat, 23 May 2026 11:00:25 +0000",
-      "summary": "China’s shark finning could lead to US seafood sanctions\nA formal petition to the US government calls for sanctions on Chinese seafood imports."
-    },
-    {
-      "title": "Four Russian satellites are now within striking distance of an ICEYE radarsat",
-      "link": "https://arstechnica.com/space/2026/05/a-satellite-company-supporting-ukraine-appears-to-be-in-russias-crosshairs/",
-      "raw_summary": "\"This capability is not common for satellites conducting typical missions.\"",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 22 May 2026 22:50:23 +0000",
-      "summary": "Four Russian satellites are now within striking distance of an ICEYE radarsat\n\"This capability is not common for satellites conducting typical missions.\""
-    },
-    {
-      "title": "FirstFT: Trump strikes more cautious tone on peace talks with Iran",
-      "link": "https://www.ft.com/content/66776a35-908c-4242-9468-19bf7feaa474",
-      "raw_summary": "Also in today’s newsletter: US consumers face spending squeeze, the biopic threatening to derail Flávio Bolsonaro’s presidential run",
+      "title": "Iran’s top negotiators travel to Qatar amid intensified efforts to secure deal",
+      "link": "https://www.ft.com/content/fa47c6bc-0910-4882-afa2-3e4aedb4ab6c",
+      "raw_summary": "Tehran’s parliamentary speaker and lead negotiator travelled to Doha as mediators seek to thrash out final details",
       "source": "World",
-      "published": "Mon, 25 May 2026 09:42:17 GMT",
-      "summary": "FirstFT: Trump strikes more cautious tone on peace talks with Iran\nAlso in today’s newsletter: US consumers face spending squeeze, the biopic threatening to derail Flávio Bolsonaro’s presidential run"
+      "published": "Mon, 25 May 2026 13:19:20 GMT",
+      "summary": "Iran’s top negotiators travel to Qatar amid intensified efforts to secure deal\nTehran’s parliamentary speaker and lead negotiator travelled to Doha as mediators seek to thrash out final details"
     },
     {
-      "title": "Pope Leo warns AI revolution driven by ‘idolatry of profit’",
+      "title": "Musk, SpaceX and the world’s most far-out IPO",
+      "link": "https://www.ft.com/content/285f8967-e5ee-4d8d-82fe-08d392004c9d",
+      "raw_summary": "His ambition is to privatise the heavens — and to become the world’s first trillionaire",
+      "source": "World",
+      "published": "Mon, 25 May 2026 13:00:07 GMT",
+      "summary": "Musk, SpaceX and the world’s most far-out IPO\nHis ambition is to privatise the heavens — and to become the world’s first trillionaire"
+    },
+    {
+      "title": "Peter Murrell pleads guilty to embezzling £400,000 from SNP",
+      "link": "https://www.ft.com/content/27959ef1-e121-4178-955c-22c42e00167e",
+      "raw_summary": "Former party chief executive and ex-husband of Nicola Sturgeon will be detained until sentencing on June 23",
+      "source": "World",
+      "published": "Mon, 25 May 2026 12:52:45 GMT",
+      "summary": "Peter Murrell pleads guilty to embezzling £400,000 from SNP\nFormer party chief executive and ex-husband of Nicola Sturgeon will be detained until sentencing on June 23"
+    },
+    {
+      "title": "Pope Leo says AI ‘needs to be disarmed’",
       "link": "https://www.ft.com/content/12313f08-991d-4079-9631-9ce7ae70c3e3",
-      "raw_summary": "Pontiff says it is ‘not permissible’ to entrust lethal decisions to artificial systems",
+      "raw_summary": "Pontiff warns of dangers of a technological revolution driven by ‘the idolatry of profit’",
       "source": "World",
-      "published": "Mon, 25 May 2026 09:30:05 GMT",
-      "summary": "Pope Leo warns AI revolution driven by ‘idolatry of profit’\nPontiff says it is ‘not permissible’ to entrust lethal decisions to artificial systems"
+      "published": "Mon, 25 May 2026 12:45:48 GMT",
+      "summary": "Pope Leo says AI ‘needs to be disarmed’\nPontiff warns of dangers of a technological revolution driven by ‘the idolatry of profit’"
     },
     {
-      "title": "Prize draw businesses have better luck than the average punter",
-      "link": "https://www.ft.com/content/72686908-c975-4a88-9f57-91f750053dac",
-      "raw_summary": "Lack of regulation has helped draw operators to thrive",
+      "title": "Iran is beating Trump at the art of the deal",
+      "link": "https://www.ft.com/content/24cd5d27-34f9-4286-bfdc-984843c25683",
+      "raw_summary": "The war could end with Tehran more confident, more hardline and with new resources to rebuild its nuclear programme",
       "source": "World",
-      "published": "Mon, 25 May 2026 09:00:05 GMT",
-      "summary": "Prize draw businesses have better luck than the average punter\nLack of regulation has helped draw operators to thrive"
+      "published": "Mon, 25 May 2026 11:39:16 GMT",
+      "summary": "Iran is beating Trump at the art of the deal\nThe war could end with Tehran more confident, more hardline and with new resources to rebuild its nuclear programme"
     },
     {
-      "title": "AI guardrails stripped from Meta and Google models in minutes",
-      "link": "https://www.ft.com/content/5630ed79-a263-41ed-9a1a-321617ae310e",
-      "raw_summary": "Software designed to remove safety protections creates systems that provide responses on biological weapons and malware",
-      "source": "World",
-      "published": "Mon, 25 May 2026 08:31:09 GMT",
-      "summary": "AI guardrails stripped from Meta and Google models in minutes\nSoftware designed to remove safety protections creates systems that provide responses on biological weapons and malware"
-    },
-    {
-      "title": "Rubio says Washington will find ‘another way’ if Iran talks fail",
-      "link": "https://www.ft.com/content/ee0042ee-b0c1-4639-a061-df13da46b451",
-      "raw_summary": "Price of oil falls on hopes of an agreement that could reopen the Strait of Hormuz",
-      "source": "World",
-      "published": "Mon, 25 May 2026 07:04:03 GMT",
-      "summary": "Rubio says Washington will find ‘another way’ if Iran talks fail\nPrice of oil falls on hopes of an agreement that could reopen the Strait of Hormuz"
-    },
-    {
-      "title": "Italy Tightens Grip on Payments Company Nexi With Stake Increase",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-25/italy-s-cassa-depositi-plans-to-raise-nexi-stake-up-to-29-9",
-      "raw_summary": "Italy’s state lender Cassa Depositi e Prestiti SpA is set to increase its stake in Nexi SpA, tightening its grip on the payment company considered strategic by Prime Minister Giorgia Meloni’s government.",
+      "title": "Czech Premier Urges Interest Rate Cut as Inflation Risks Grow",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-25/czech-premier-urges-interest-rate-cut-as-inflation-risks-grow",
+      "raw_summary": "The Czech Republic’s prime minister urged the central bank to cut interest rates, doubling down on his push for lower borrowing costs even as the country faces growing inflation risks from energy prices.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 25 May 2026 05:44:03 GMT",
-      "summary": "Italy Tightens Grip on Payments Company Nexi With Stake Increase\nItaly’s state lender Cassa Depositi e Prestiti SpA is set to increase its stake in Nexi SpA, tightening its grip on the payment company considered strategic by Prime Minister Giorgia Meloni’s government."
+      "published": "Mon, 25 May 2026 14:22:47 GMT",
+      "summary": "Czech Premier Urges Interest Rate Cut as Inflation Risks Grow\nThe Czech Republic’s prime minister urged the central bank to cut interest rates, doubling down on his push for lower borrowing costs even as the country faces growing inflation risks from energy prices."
     },
     {
-      "title": "SoftBank Taps Retail Market Again With $1.6 Billion Yen Bond",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-25/softbank-taps-retail-investors-with-1-6-billion-yen-bond-deal",
-      "raw_summary": "SoftBank Group Corp. plans to raise ¥260 billion ($1.6 billion) through another sale of subordinated bonds aimed mainly at individual investors, about two months after a similar retail offering.",
+      "title": "Top Bauxite Producer Guinea to Unveil Export Controls in June",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-25/top-bauxite-producer-guinea-to-unveil-export-controls-in-june",
+      "raw_summary": "Guinea, the world’s biggest bauxite producer, plans to announce reforms next month to control exports of the ore used in making aluminum as it bids to bolster prices.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 25 May 2026 05:56:45 GMT",
-      "summary": "SoftBank Taps Retail Market Again With $1.6 Billion Yen Bond\nSoftBank Group Corp. plans to raise ¥260 billion ($1.6 billion) through another sale of subordinated bonds aimed mainly at individual investors, about two months after a similar retail offering."
+      "published": "Mon, 25 May 2026 14:19:32 GMT",
+      "summary": "Top Bauxite Producer Guinea to Unveil Export Controls in June\nGuinea, the world’s biggest bauxite producer, plans to announce reforms next month to control exports of the ore used in making aluminum as it bids to bolster prices."
     },
     {
-      "title": "India Bond Investors Tap Soaring Swap Rates to Juice Returns",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-25/india-bond-investors-tap-soaring-swap-rates-to-juice-returns",
-      "raw_summary": "Multi-year high swap rates are driving some Indian debt fund managers into trades aimed at boosting fixed-income returns.",
+      "title": "Nigeria’s First Quarter GDP Eases on Slowdown in Oil Sector",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-25/nigeria-s-first-quarter-growth-eases-on-slowdown-in-oil-sector",
+      "raw_summary": "Nigeria’s economy grew at a slower-than-expected pace in the first quarter as growth in both its oil and non-oil sectors eased.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 25 May 2026 01:30:00 GMT",
-      "summary": "India Bond Investors Tap Soaring Swap Rates to Juice Returns\nMulti-year high swap rates are driving some Indian debt fund managers into trades aimed at boosting fixed-income returns."
+      "published": "Mon, 25 May 2026 13:35:33 GMT",
+      "summary": "Nigeria’s First Quarter GDP Eases on Slowdown in Oil Sector\nNigeria’s economy grew at a slower-than-expected pace in the first quarter as growth in both its oil and non-oil sectors eased."
     },
     {
-      "title": "Stocks Extend Gains as Crude Oil Drops on Iran: Markets Wrap",
+      "title": "Top Africa Bourse to Tighten Algo-Trading, Market-Access Rules",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-25/top-africa-bourse-to-tighten-algo-trading-market-access-rules",
+      "raw_summary": "Africa’s biggest stock-exchange operator is working to tighten oversight of how brokers and trading firms access the bourse to lessen the risk of rogue algorithms and trading errors that could disrupt the market.",
+      "source": "Bloomberg Markets",
+      "published": "Mon, 25 May 2026 13:30:25 GMT",
+      "summary": "Top Africa Bourse to Tighten Algo-Trading, Market-Access Rules\nAfrica’s biggest stock-exchange operator is working to tighten oversight of how brokers and trading firms access the bourse to lessen the risk of rogue algorithms and trading errors that could disrupt the market."
+    },
+    {
+      "title": "US Stock Futures Gain as Crude Oil Drops on Iran: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-05-24/oil-dollar-slide-on-optimism-over-us-iran-deal-markets-wrap",
       "raw_summary": "Global stocks rose to record highs as crude oil fell after officials signaled the US was nearing a deal with Iran to reopen the Strait of Hormuz and restore oil flows. The dollar weakened.",
       "source": "Bloomberg Markets",
       "published": "Sun, 24 May 2026 22:07:57 GMT",
-      "summary": "Stocks Extend Gains as Crude Oil Drops on Iran: Markets Wrap\nGlobal stocks rose to record highs as crude oil fell after officials signaled the US was nearing a deal with Iran to reopen the Strait of Hormuz and restore oil flows. The dollar weakened."
+      "summary": "US Stock Futures Gain as Crude Oil Drops on Iran: Markets Wrap\nGlobal stocks rose to record highs as crude oil fell after officials signaled the US was nearing a deal with Iran to reopen the Strait of Hormuz and restore oil flows. The dollar weakened."
     },
     {
-      "title": "Swiss Trader Had Lucrative Role Getting Iraqi Oil Through Hormuz",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-25/swiss-trader-had-lucrative-role-getting-iraqi-oil-through-hormuz",
-      "raw_summary": "A little-known Swiss trading company played a key role in the transit through the Strait of Hormuz of an oil supertanker whose stop-start journey captivated the oil market earlier this month, according to people familiar with the matter.",
-      "source": "Bloomberg Markets",
-      "published": "Mon, 25 May 2026 08:49:34 GMT",
-      "summary": "Swiss Trader Had Lucrative Role Getting Iraqi Oil Through Hormuz\nA little-known Swiss trading company played a key role in the transit through the Strait of Hormuz of an oil supertanker whose stop-start journey captivated the oil market earlier this month, according to people familiar with the matte"
+      "title": "PCE, jobless claims and housing data test Fed cut hopes: Crypto Week Ahead",
+      "link": "https://www.coindesk.com/markets/2026/05/25/pce-jobless-claims-and-housing-data-test-fed-cut-hopes-crypto-week-ahead",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Mon, 25 May 2026 12:53:49 +0000",
+      "summary": "PCE, jobless claims and housing data test Fed cut hopes: Crypto Week Ahead\n"
+    },
+    {
+      "title": "Prometheum bets Wall Street distribution is the missing link for tokenized securities",
+      "link": "https://www.coindesk.com/business/2026/05/25/prometheum-bets-wall-street-distribution-is-the-missing-link-for-tokenized-securities",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Mon, 25 May 2026 12:00:00 +0000",
+      "summary": "Prometheum bets Wall Street distribution is the missing link for tokenized securities\n"
+    },
+    {
+      "title": "HYPE funds attract millions as investors dump bitcoin and ether ETFs",
+      "link": "https://www.coindesk.com/markets/2026/05/25/hype-funds-attract-millions-as-investors-dump-bitcoin-and-ether-etfs",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Mon, 25 May 2026 10:28:47 +0000",
+      "summary": "HYPE funds attract millions as investors dump bitcoin and ether ETFs\n"
     },
     {
       "title": "Hyperliquid is emerging as a challenger to traditional exchanges and prediction markets, says FalconX",
@@ -297,30 +313,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Mon, 25 May 2026 07:11:57 +0000",
       "summary": "Bitcoin trades above $77,000 as oil's 5% slide pushes Asian equities higher\n"
-    },
-    {
-      "title": "Bitcoin options are coming to Nasdaq. Here's what it means for you.",
-      "link": "https://www.coindesk.com/markets/2026/05/25/bitcoin-options-are-coming-to-nadaq-here-s-what-it-means-for-you",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 25 May 2026 05:56:43 +0000",
-      "summary": "Bitcoin options are coming to Nasdaq. Here's what it means for you.\n"
-    },
-    {
-      "title": "Coinbase does not fear competition from Wall Street, says exchange executive",
-      "link": "https://www.coindesk.com/business/2026/05/24/coinbase-does-not-fear-competition-from-wall-street-says-exchange-executive",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 24 May 2026 20:00:00 +0000",
-      "summary": "Coinbase does not fear competition from Wall Street, says exchange executive\n"
-    },
-    {
-      "title": "Crypto and the Fed: State of Crypto",
-      "link": "https://www.coindesk.com/policy/2026/05/24/crypto-and-the-fed-state-of-crypto",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 24 May 2026 18:30:00 +0000",
-      "summary": "Crypto and the Fed: State of Crypto\n"
     }
   ]
 }
