@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T02:58:06.973774+00:00",
+  "generated_at": "2026-06-03T10:45:30.625329+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "CISA Admin Leaked AWS GovCloud Keys on Github\nUntil this past weekend, a contractor for the Cybersecurity &#038; Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA"
     },
     {
+      "title": "Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes",
+      "link": "https://thehackernews.com/2026/06/unpatched-windows-search-uri.html",
+      "raw_summary": "Cybersecurity researchers have disclosed details of an unpatched issue that could be exploited to disclose a user's NTLMv2 hash to the attacker.\n\nLike in the case of CVE-2026-33829, which impacted the Windows Snipping Tool's ms-screensketch: URI handler, the newly flagged issue resides in the search: URI handler, per Huntress.\n\nCVE-2026-33829 refers to a spoofing vulnerability that could expose",
+      "source": "The Hacker News",
+      "published": "Wed, 03 Jun 2026 15:48:52 +0530",
+      "summary": "Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes\nCybersecurity researchers have disclosed details of an unpatched issue that could be exploited to disclose a user's NTLMv2 hash to the attacker.\n\nLike in the case of CVE-2026-33829, which impacted the Windows Snipping Tool"
+    },
+    {
+      "title": "New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy & Cloudflare",
+      "link": "https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html",
+      "raw_summary": "Cybersecurity researchers have discovered a remote denial-of-service exploit that affects major web servers, including NGINX, Apache HTTPD, Microsoft IIS, Envoy, and Cloudflare Pingora.\n\nThe vulnerability has been codenamed HTTP/2 Bomb by Calif.\n\n\"The vulnerable behavior exists in each server's default HTTP/2 configuration,\" the company said, adding it was discovered by OpenAI Codex by chaining",
+      "source": "The Hacker News",
+      "published": "Wed, 03 Jun 2026 14:03:35 +0530",
+      "summary": "New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy & Cloudflare\nCybersecurity researchers have discovered a remote denial-of-service exploit that affects major web servers, including NGINX, Apache HTTPD, Microsoft IIS, Envoy, and Cloudflare Pingora.\n\nThe vulnerability has b"
+    },
+    {
+      "title": "Weedhack Attacks Minecraft Users, CountLoader Hits 86K, Miners Spread via Pirated Content",
+      "link": "https://thehackernews.com/2026/06/weedhack-attacks-minecraft-users.html",
+      "raw_summary": "Cybersecurity researchers have flagged a new campaign targeting Minecraft players via YouTube to spread malware capable of gaining control of victims' systems.\n\nThe Minecraft-focused malware-as-a-service (MaaS) campaign has been codenamed Weedhack by McAfee Labs, stating the activity has been active since January 2026 and impersonates Minecraft clients and mods to infect users. In all, 3820",
+      "source": "The Hacker News",
+      "published": "Wed, 03 Jun 2026 11:46:54 +0530",
+      "summary": "Weedhack Attacks Minecraft Users, CountLoader Hits 86K, Miners Spread via Pirated Content\nCybersecurity researchers have flagged a new campaign targeting Minecraft players via YouTube to spread malware capable of gaining control of victims' systems.\n\nThe Minecraft-focused malware-as-a-service (MaaS)"
+    },
+    {
       "title": "Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited",
       "link": "https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html",
       "raw_summary": "Google on Monday released patches for 124 security vulnerabilities impacting its Android operating system for the month of June 2026, including one high-severity flaw in the Framework component that has come under active exploitation.\n\nTracked as CVE-2025-48595 (CVSS score: 8.4), the security flaw has been described as a case of privilege escalation without requiring any user interaction. The",
@@ -59,68 +83,52 @@
       "summary": "Gamaredon Exploits WinRAR to Deliver GammaWorm and GammaSteel Against Ukraine\nThe Russian hacking group known as Gamaredon has been attributed to the continued exploitation of a WinRAR vulnerability to deliver multiple malware families aimed at data theft and propagation.\n\nPer Sekoia, the activity i"
     },
     {
-      "title": "Oracle WebLogic CVE-2024-21182 Added to KEV Catalog After Active Exploitation",
-      "link": "https://thehackernews.com/2026/06/oracle-weblogic-cve-2024-21182-added-to.html",
-      "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting Oracle WebLogic Server to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nThe vulnerability, CVE-2024-21182 (CVSS score: 7.5), allows an unauthenticated attacker with network access to take control of susceptible servers. It was",
-      "source": "The Hacker News",
-      "published": "Tue, 02 Jun 2026 23:44:42 +0530",
-      "summary": "Oracle WebLogic CVE-2024-21182 Added to KEV Catalog After Active Exploitation\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting Oracle WebLogic Server to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of act"
-    },
-    {
-      "title": "AI-Driven Exploitation is Destroying Vulnerability Management. Here’s How to Handle It.",
-      "link": "https://thehackernews.com/2026/06/ai-driven-exploitation-is-destroying.html",
-      "raw_summary": "AI-driven exploitation timelines are rapidly shrinking, and they are not going to stop shrinking. Vulnerabilities are being discovered, reproduced, and weaponized faster than ever in the history of enterprise security. As a result, the window between a vulnerability being disclosed and indiscriminate exploitation observed across the internet is now measured in hours, not days.\n\nThe industry's",
-      "source": "The Hacker News",
-      "published": "Tue, 02 Jun 2026 17:28:00 +0530",
-      "summary": "AI-Driven Exploitation is Destroying Vulnerability Management. Here’s How to Handle It.\nAI-driven exploitation timelines are rapidly shrinking, and they are not going to stop shrinking. Vulnerabilities are being discovered, reproduced, and weaponized faster than ever in the history of enterprise sec"
-    },
-    {
-      "title": "How Leading Organizations Are Turning EDR Into Operational Resilience",
-      "link": "https://thehackernews.com/2026/06/how-leading-organizations-are-turning.html",
-      "raw_summary": "Most organizations now recognize that endpoint protection alone is no longer sufficient.\n\nThat's why adoption of endpoint detection and response (EDR) has accelerated rapidly in recent years. Organizations understand that modern attacks move faster, evade traditional prevention controls, and require continuous visibility into suspicious activity across the environment.\n\nBut owning EDR",
-      "source": "The Hacker News",
-      "published": "Tue, 02 Jun 2026 16:00:00 +0530",
-      "summary": "How Leading Organizations Are Turning EDR Into Operational Resilience\nMost organizations now recognize that endpoint protection alone is no longer sufficient.\n\nThat's why adoption of endpoint detection and response (EDR) has accelerated rapidly in recent years. Organizations understand that modern a"
-    },
-    {
-      "title": "Roku LT Operating System open source distribution",
-      "link": "https://blog.roku.com/developer/roku-lt-os",
-      "raw_summary": "<p>Article URL: <a href=\"https://blog.roku.com/developer/roku-lt-os\">https://blog.roku.com/developer/roku-lt-os</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48378495\">https://news.ycombinator.com/item?id=48378495</a></p>\n<p>Points: 9</p>\n<p># Comments: 4</p>",
+      "title": "It is an amazing time for programmers",
+      "link": "https://46elks.com/blog/2026/05/29/an-amazing-time-for-programmers",
+      "raw_summary": "<p>Article URL: <a href=\"https://46elks.com/blog/2026/05/29/an-amazing-time-for-programmers\">https://46elks.com/blog/2026/05/29/an-amazing-time-for-programmers</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48381211\">https://news.ycombinator.com/item?id=48381211</a></p>\n<p>Points: 67</p>\n<p># Comments: 36</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 03 Jun 2026 01:13:38 +0000",
-      "summary": "Roku LT Operating System open source distribution\n<p>Article URL: <a href=\"https://blog.roku.com/developer/roku-lt-os\">https://blog.roku.com/developer/roku-lt-os</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48378495\">https://news.ycombinator.com/item?id=48378495</a></p>\n<p>"
+      "published": "Wed, 03 Jun 2026 08:00:14 +0000",
+      "summary": "It is an amazing time for programmers\n<p>Article URL: <a href=\"https://46elks.com/blog/2026/05/29/an-amazing-time-for-programmers\">https://46elks.com/blog/2026/05/29/an-amazing-time-for-programmers</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48381211\">https://news.ycombina"
     },
     {
-      "title": "More than 6 out of 10 people turn to AI for psychological support",
-      "link": "https://www.axa.com/en/press/press-releases/2026-mind-health-report",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.axa.com/en/press/press-releases/2026-mind-health-report\">https://www.axa.com/en/press/press-releases/2026-mind-health-report</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377854\">https://news.ycombinator.com/item?id=48377854</a></p>\n<p>Points: 60</p>\n<p># Comments: 55</p>",
+      "title": "Microsoft Doubles Down on Controversial Quantum Computing Claims",
+      "link": "https://www.science.org/content/article/doubling-down-controversial-claims-microsoft-accelerates-quantum-computing-plans",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.science.org/content/article/doubling-down-controversial-claims-microsoft-accelerates-quantum-computing-plans\">https://www.science.org/content/article/doubling-down-controversial-claims-microsoft-accelerates-quantum-computing-plans</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48380516\">https://news.ycombinator.com/item?id=48380516</a></p>\n<p>Points: 32</p>\n<p># Comments: 37</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 02 Jun 2026 23:55:04 +0000",
-      "summary": "More than 6 out of 10 people turn to AI for psychological support\n<p>Article URL: <a href=\"https://www.axa.com/en/press/press-releases/2026-mind-health-report\">https://www.axa.com/en/press/press-releases/2026-mind-health-report</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=4"
+      "published": "Wed, 03 Jun 2026 06:04:36 +0000",
+      "summary": "Microsoft Doubles Down on Controversial Quantum Computing Claims\n<p>Article URL: <a href=\"https://www.science.org/content/article/doubling-down-controversial-claims-microsoft-accelerates-quantum-computing-plans\">https://www.science.org/content/article/doubling-down-controversial-claims-microsoft-acc"
     },
     {
-      "title": "AI outperforms law professors in Stanford Law study",
-      "link": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/",
-      "raw_summary": "<p><a href=\"https://law.stanford.edu/wp-content/uploads/2026/06/salinas_et_al.pdf\" rel=\"nofollow\">https://law.stanford.edu/wp-content/uploads/2026/06/salinas_...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377761\">https://news.ycombinator.com/item?id=48377761</a></p>\n<p>Points: 107</p>\n<p># Comments: 107</p>",
+      "title": "Recovering Eric Graham's 1987 Amiga Juggler raytracer source code",
+      "link": "https://alphapixeldev.com/recovering-eric-grahams-1987-amiga-juggler-raytracer-source-code/",
+      "raw_summary": "<p>Article URL: <a href=\"https://alphapixeldev.com/recovering-eric-grahams-1987-amiga-juggler-raytracer-source-code/\">https://alphapixeldev.com/recovering-eric-grahams-1987-amiga-juggler-raytracer-source-code/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48380395\">https://news.ycombinator.com/item?id=48380395</a></p>\n<p>Points: 10</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 02 Jun 2026 23:43:12 +0000",
-      "summary": "AI outperforms law professors in Stanford Law study\n<p><a href=\"https://law.stanford.edu/wp-content/uploads/2026/06/salinas_et_al.pdf\" rel=\"nofollow\">https://law.stanford.edu/wp-content/uploads/2026/06/salinas_...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377761"
+      "published": "Wed, 03 Jun 2026 05:49:31 +0000",
+      "summary": "Recovering Eric Graham's 1987 Amiga Juggler raytracer source code\n<p>Article URL: <a href=\"https://alphapixeldev.com/recovering-eric-grahams-1987-amiga-juggler-raytracer-source-code/\">https://alphapixeldev.com/recovering-eric-grahams-1987-amiga-juggler-raytracer-source-code/</a></p>\n<p>Comments URL:"
     },
     {
-      "title": "Pluto.jl 1.0 release – reactive notebook for Julia",
-      "link": "https://discourse.julialang.org/t/pluto-1-0-release/137296",
-      "raw_summary": "<p>Article URL: <a href=\"https://discourse.julialang.org/t/pluto-1-0-release/137296\">https://discourse.julialang.org/t/pluto-1-0-release/137296</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377496\">https://news.ycombinator.com/item?id=48377496</a></p>\n<p>Points: 19</p>\n<p># Comments: 0</p>",
+      "title": "The Unreasonable Redundancy of Nature's Protein Folds",
+      "link": "https://research.ligo.bio/posts/unreasonable-redundancy-of-natural-protein-folds/",
+      "raw_summary": "<p>Article URL: <a href=\"https://research.ligo.bio/posts/unreasonable-redundancy-of-natural-protein-folds/\">https://research.ligo.bio/posts/unreasonable-redundancy-of-natural-protein-folds/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48379669\">https://news.ycombinator.com/item?id=48379669</a></p>\n<p>Points: 99</p>\n<p># Comments: 28</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 02 Jun 2026 23:09:09 +0000",
-      "summary": "Pluto.jl 1.0 release – reactive notebook for Julia\n<p>Article URL: <a href=\"https://discourse.julialang.org/t/pluto-1-0-release/137296\">https://discourse.julialang.org/t/pluto-1-0-release/137296</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377496\">https://news.ycombinator"
+      "published": "Wed, 03 Jun 2026 03:47:56 +0000",
+      "summary": "The Unreasonable Redundancy of Nature's Protein Folds\n<p>Article URL: <a href=\"https://research.ligo.bio/posts/unreasonable-redundancy-of-natural-protein-folds/\">https://research.ligo.bio/posts/unreasonable-redundancy-of-natural-protein-folds/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinat"
     },
     {
-      "title": "Use your Nvidia GPU's VRAM as swap space on Linux",
-      "link": "https://github.com/c0dejedi/nbd-vram",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/c0dejedi/nbd-vram\">https://github.com/c0dejedi/nbd-vram</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377404\">https://news.ycombinator.com/item?id=48377404</a></p>\n<p>Points: 151</p>\n<p># Comments: 44</p>",
+      "title": "U of T researchers demonstrate AI worm could target any online device",
+      "link": "https://www.utoronto.ca/news/u-t-researchers-demonstrate-ai-worm-could-target-any-online-device",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.utoronto.ca/news/u-t-researchers-demonstrate-ai-worm-could-target-any-online-device\">https://www.utoronto.ca/news/u-t-researchers-demonstrate-ai-worm-could-target-any-online-device</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48379664\">https://news.ycombinator.com/item?id=48379664</a></p>\n<p>Points: 44</p>\n<p># Comments: 11</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 02 Jun 2026 22:55:33 +0000",
-      "summary": "Use your Nvidia GPU's VRAM as swap space on Linux\n<p>Article URL: <a href=\"https://github.com/c0dejedi/nbd-vram\">https://github.com/c0dejedi/nbd-vram</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48377404\">https://news.ycombinator.com/item?id=48377404</a></p>\n<p>Points: 151<"
+      "published": "Wed, 03 Jun 2026 03:47:21 +0000",
+      "summary": "U of T researchers demonstrate AI worm could target any online device\n<p>Article URL: <a href=\"https://www.utoronto.ca/news/u-t-researchers-demonstrate-ai-worm-could-target-any-online-device\">https://www.utoronto.ca/news/u-t-researchers-demonstrate-ai-worm-could-target-any-online-device</a></p>\n<p>C"
+    },
+    {
+      "title": "The world’s largest privately owned laser just turned on",
+      "link": "https://techcrunch.com/2026/06/03/the-worlds-largest-privately-owned-laser-just-turned-on/",
+      "raw_summary": "Fusion startup Xcimer fired up the world's largest privately owned laser.",
+      "source": "TechCrunch",
+      "published": "Wed, 03 Jun 2026 10:00:00 +0000",
+      "summary": "The world’s largest privately owned laser just turned on\nFusion startup Xcimer fired up the world's largest privately owned laser."
     },
     {
       "title": "Squishmallows, dentures, and an ‘I Heart Hot Dads’ bag: Uber has found thousands of items left in robotaxis",
@@ -155,20 +163,20 @@
       "summary": "Uber caps employee AI spending after blowing through budget in 4 months\nUber's cutback has occurred after the company had reportedly encouraged staff to use AI as much as possible."
     },
     {
-      "title": "New Microsoft tool lets devs spin up AI behavior tests using text descriptions",
-      "link": "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/",
-      "raw_summary": "Microsoft on Tuesday took the wraps off Adaptive Spec-driven Scoring for Evaluation and Regression Testing, an open source framework for spinning up AI evaluations.",
-      "source": "TechCrunch",
-      "published": "Tue, 02 Jun 2026 19:02:21 +0000",
-      "summary": "New Microsoft tool lets devs spin up AI behavior tests using text descriptions\nMicrosoft on Tuesday took the wraps off Adaptive Spec-driven Scoring for Evaluation and Regression Testing, an open source framework for spinning up AI evaluations."
+      "title": "How long will it take to rebuild Blue Origin's launch pad? We asked some SpaceX vets.",
+      "link": "https://arstechnica.com/space/2026/06/how-long-will-it-take-to-rebuild-blue-origins-launch-pad-we-asked-some-spacex-vets/",
+      "raw_summary": "\"Everyone is in a place where it’s no fun to be there.\"",
+      "source": "Ars Technica - All content",
+      "published": "Wed, 03 Jun 2026 10:00:07 +0000",
+      "summary": "How long will it take to rebuild Blue Origin's launch pad? We asked some SpaceX vets.\n\"Everyone is in a place where it’s no fun to be there.\""
     },
     {
-      "title": "Male bowerbirds hope to dazzle females with bright human-made items",
+      "title": "Male bowerbirds prefer to dazzle females with bright human-made items",
       "link": "https://arstechnica.com/science/2026/06/male-bowerbirds-prefer-colorful-human-items-to-decorate-bowers/",
       "raw_summary": "\"It’s a reminder of how human activity is changing the natural world in unanticipated ways.”",
       "source": "Ars Technica - All content",
       "published": "Tue, 02 Jun 2026 23:05:31 +0000",
-      "summary": "Male bowerbirds hope to dazzle females with bright human-made items\n\"It’s a reminder of how human activity is changing the natural world in unanticipated ways.”"
+      "summary": "Male bowerbirds prefer to dazzle females with bright human-made items\n\"It’s a reminder of how human activity is changing the natural world in unanticipated ways.”"
     },
     {
       "title": "Microsoft plans Linux tools and an RTX Spark desktop for Windows developers",
@@ -195,132 +203,124 @@
       "summary": "Amazon-owned Ring should pay Americans for scanning their faces, lawsuit says\nLawsuit: Ring cameras scan guests and passersby and use AI to identify faces."
     },
     {
-      "title": "If I had a hammer... it might actually be a rhino tooth",
-      "link": "https://arstechnica.com/science/2026/06/experiments-reveal-that-neanderthals-used-rhino-teeth-as-hammers/",
-      "raw_summary": "Neanderthals had some wild stuff in their toolkits.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 02 Jun 2026 19:54:14 +0000",
-      "summary": "If I had a hammer... it might actually be a rhino tooth\nNeanderthals had some wild stuff in their toolkits."
-    },
-    {
-      "title": "US and Iran exchange renewed fire as tensions rise over stalled peace talks",
-      "link": "https://www.ft.com/content/54b8e0a6-beba-47a8-82a8-28cae47275f3",
-      "raw_summary": "Centcom says Tehran launched ‘several’ ballistic missiles at Kuwait and Bahrain",
+      "title": "FirstFT: US proposes tariffs on 60 countries after forced labour probe",
+      "link": "https://www.ft.com/content/24b0d5ab-4884-4da3-8e43-6e741df11e3f",
+      "raw_summary": "Also in today’s newsletter: CBS fires Scott Pelley and Kevin Warsh prepares to roll back Fed’s forward guidance",
       "source": "World",
-      "published": "Wed, 03 Jun 2026 01:03:36 GMT",
-      "summary": "US and Iran exchange renewed fire as tensions rise over stalled peace talks\nCentcom says Tehran launched ‘several’ ballistic missiles at Kuwait and Bahrain"
+      "published": "Wed, 03 Jun 2026 10:31:09 GMT",
+      "summary": "FirstFT: US proposes tariffs on 60 countries after forced labour probe\nAlso in today’s newsletter: CBS fires Scott Pelley and Kevin Warsh prepares to roll back Fed’s forward guidance"
     },
     {
-      "title": "Palantir should not have ‘significant role’ in UK public data systems, MPs say",
-      "link": "https://www.ft.com/content/dd351a10-5269-40d8-a8e1-9df34d13868e",
-      "raw_summary": "Technology committee calls on government to trigger break clause in flashpoint NHS contract",
+      "title": "Ukraine strikes St Petersburg as Putin’s forum gets under way",
+      "link": "https://www.ft.com/content/10463041-88a8-48f9-b337-34ffb01d5e9d",
+      "raw_summary": "Kyiv hits oil terminal after deadly Russian strikes on Ukrainian cities",
       "source": "World",
-      "published": "Tue, 02 Jun 2026 23:02:11 GMT",
-      "summary": "Palantir should not have ‘significant role’ in UK public data systems, MPs say\nTechnology committee calls on government to trigger break clause in flashpoint NHS contract"
+      "published": "Wed, 03 Jun 2026 10:29:25 GMT",
+      "summary": "Ukraine strikes St Petersburg as Putin’s forum gets under way\nKyiv hits oil terminal after deadly Russian strikes on Ukrainian cities"
     },
     {
-      "title": "Premier League clubs could face legal action over sponsorship deals with crypto firms",
-      "link": "https://www.ft.com/content/d0d7609c-8693-4c4b-adf5-631b58684a98",
-      "raw_summary": "UK regulator focuses on teams with partnerships with digital assets companies that are not authorised to operate in Britain",
+      "title": "Ex-David Cameron adviser Steve Hilton leads California governor primary",
+      "link": "https://www.ft.com/content/e3df0e9d-b77c-4de8-bdd0-d76bb59162a2",
+      "raw_summary": "Former Fox News host and Republican candidate expected to face Democrat Xavier Becerra in November",
       "source": "World",
-      "published": "Tue, 02 Jun 2026 23:01:48 GMT",
-      "summary": "Premier League clubs could face legal action over sponsorship deals with crypto firms\nUK regulator focuses on teams with partnerships with digital assets companies that are not authorised to operate in Britain"
+      "published": "Wed, 03 Jun 2026 10:08:22 GMT",
+      "summary": "Ex-David Cameron adviser Steve Hilton leads California governor primary\nFormer Fox News host and Republican candidate expected to face Democrat Xavier Becerra in November"
     },
     {
-      "title": "Minister condemns riots after UK rightwing leaders call for ‘rage’ over student killing",
-      "link": "https://www.ft.com/content/1f9cf0bb-8e11-4808-a66b-08326d09d324",
-      "raw_summary": "Home Secretary says violent scenes in Southampton ‘completely unacceptable’ after Nigel Farage urges probe into police handling of case",
+      "title": "How football’s ultimate underdog Haiti returned to the World Cup",
+      "link": "https://www.ft.com/content/6ffa29e7-5dba-4c37-b4cd-c937ca351028",
+      "raw_summary": "Men’s team’s first appearance at tournament for five decades offers rare moment of unity for Caribbean nation",
       "source": "World",
-      "published": "Tue, 02 Jun 2026 22:12:38 GMT",
-      "summary": "Minister condemns riots after UK rightwing leaders call for ‘rage’ over student killing\nHome Secretary says violent scenes in Southampton ‘completely unacceptable’ after Nigel Farage urges probe into police handling of case"
+      "published": "Wed, 03 Jun 2026 10:00:04 GMT",
+      "summary": "How football’s ultimate underdog Haiti returned to the World Cup\nMen’s team’s first appearance at tournament for five decades offers rare moment of unity for Caribbean nation"
     },
     {
-      "title": "Cliffwater’s flagship private credit fund redemption requests hit 17%",
-      "link": "https://www.ft.com/content/dfdfee64-d3fb-487a-9019-1926387b0ef1",
-      "raw_summary": "Fund with net assets of $31bn aimed at retail investors limits withdrawals in latest sign of exodus from sector",
+      "title": "Molly Alexander is putting the chic in antiques",
+      "link": "https://www.ft.com/content/1713f089-2f2d-4408-9981-8ecad193a970",
+      "raw_summary": "The soprano turned dealer is playing a new tune on Pimlico Road",
       "source": "World",
-      "published": "Tue, 02 Jun 2026 22:09:10 GMT",
-      "summary": "Cliffwater’s flagship private credit fund redemption requests hit 17%\nFund with net assets of $31bn aimed at retail investors limits withdrawals in latest sign of exodus from sector"
+      "published": "Wed, 03 Jun 2026 10:00:04 GMT",
+      "summary": "Molly Alexander is putting the chic in antiques\nThe soprano turned dealer is playing a new tune on Pimlico Road"
     },
     {
-      "title": "Wedbush's Ives on AI Rally, SpaceX IPO",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-03/wedbush-s-ives-on-ai-rally-spacex-ipo-video",
-      "raw_summary": "Dan Ives, Global Head of Technology Research at Wedbush Securities, discusses the revival of the AI trade and looks ahead to the listings of OpenAI, Anthropic and SpaceX. He speaks with Haidi Stroud-Watts and Paul Allen on Bloomberg: The Asia Trade.  (Source: Bloomberg)",
+      "title": "Korea, Taiwan Stock Rallies Fail to Wow Foreign Investors",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-06-03/korea-taiwan-stock-rallies-fail-to-wow-foreign-investors",
+      "raw_summary": "Cash is flowing into Japanese equities.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 03 Jun 2026 02:42:41 GMT",
-      "summary": "Wedbush's Ives on AI Rally, SpaceX IPO\nDan Ives, Global Head of Technology Research at Wedbush Securities, discusses the revival of the AI trade and looks ahead to the listings of OpenAI, Anthropic and SpaceX. He speaks with Haidi Stroud-Watts and Paul Allen on Bloomberg: The Asia Trade.  (Source: B"
+      "published": "Wed, 03 Jun 2026 10:44:52 GMT",
+      "summary": "Korea, Taiwan Stock Rallies Fail to Wow Foreign Investors\nCash is flowing into Japanese equities."
     },
     {
-      "title": "India IT Stocks Soar as Nvidia CEO Huang Calms AI Disruption Fears",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-06-03/infosys-tcs-lead-it-rebound-as-nvidia-s-jensen-huang-calms-ai-disruption-fears",
-      "raw_summary": "March-quarter IT earnings point to a gradual pickup in growth, Centrum says.",
+      "title": "Hedge Fund Targets Ferrari Owners in Private Credit Exotics Boom",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-03/hedge-fund-targets-ferrari-owners-in-private-credit-exotics-boom",
+      "raw_summary": "Private credit’s getting into the luxury car business.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 03 Jun 2026 02:40:32 GMT",
-      "summary": "India IT Stocks Soar as Nvidia CEO Huang Calms AI Disruption Fears\nMarch-quarter IT earnings point to a gradual pickup in growth, Centrum says."
+      "published": "Wed, 03 Jun 2026 10:30:02 GMT",
+      "summary": "Hedge Fund Targets Ferrari Owners in Private Credit Exotics Boom\nPrivate credit’s getting into the luxury car business."
     },
     {
-      "title": "AI Party to 'Continue Until 4AM': Dan Ives",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-03/ai-party-to-continue-until-4am-dan-ives-video",
-      "raw_summary": "Dan Ives, Wedbush Securities Global Head of Technology Research, describes the bull run in AI equities as a \"party\" that is set to continue until late in the night - projecting confidence in a long-term run of high equity prices. He speaks after Alphabet stocks slid following the announcement of a billion-dollar equity round to pay for AI infrastructure. (Source: Bloomberg)",
+      "title": "Lee’s Party on Track for Landslide in South Korea Local Election",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-03/south-korea-s-ruling-party-set-for-big-election-win-poll-shows",
+      "raw_summary": "South Korean President Lee Jae Myung’s party is on track for a resounding victory in key local elections that is likely to pile pressure on opposition conservatives as they struggle to reinvent their party after the debacle of their former leader’s martial law decree.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 03 Jun 2026 02:39:18 GMT",
-      "summary": "AI Party to 'Continue Until 4AM': Dan Ives\nDan Ives, Wedbush Securities Global Head of Technology Research, describes the bull run in AI equities as a \"party\" that is set to continue until late in the night - projecting confidence in a long-term run of high equity prices. He speaks after Alphabet st"
+      "published": "Wed, 03 Jun 2026 09:13:21 GMT",
+      "summary": "Lee’s Party on Track for Landslide in South Korea Local Election\nSouth Korean President Lee Jae Myung’s party is on track for a resounding victory in key local elections that is likely to pile pressure on opposition conservatives as they struggle to reinvent their party after the debacle of their fo"
     },
     {
-      "title": "Oasis Says Japan AGM Proposal Hurts Retail Investors",
-      "link": "https://www.bloomberg.com/news/articles/2026-05-28/oasis-says-japan-proposal-on-shareholders-hurts-retail-investors",
-      "raw_summary": "Japan’s plan to tighten the threshold for shareholder proposals would hurt retail investors while having little impact on institutional activist investors, said Seth Fischer, the founder of Oasis Management Co.",
+      "title": "Gold Slips as Uncertainty Clouds Negotiations to End US-Iran War",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-02/gold-edges-lower-as-robust-us-jobs-data-point-to-higher-rates",
+      "raw_summary": "Gold declined as renewed clashes in the Middle East cast doubt over negotiations between the US and Iran to end the war that’s upended energy flows and heightened inflation concerns.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 28 May 2026 03:00:14 GMT",
-      "summary": "Oasis Says Japan AGM Proposal Hurts Retail Investors\nJapan’s plan to tighten the threshold for shareholder proposals would hurt retail investors while having little impact on institutional activist investors, said Seth Fischer, the founder of Oasis Management Co."
+      "published": "Tue, 02 Jun 2026 23:28:36 GMT",
+      "summary": "Gold Slips as Uncertainty Clouds Negotiations to End US-Iran War\nGold declined as renewed clashes in the Middle East cast doubt over negotiations between the US and Iran to end the war that’s upended energy flows and heightened inflation concerns."
     },
     {
-      "title": "Oil Extends Advance as US-Iran Peace Talk Progress Stalls",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-02/latest-oil-market-news-and-analysis-for-june-3",
-      "raw_summary": "Oil rose for a third day on pessimism over the prospects of the US and Iran reaching a peace deal and as fresh fighting flared up in the Middle East.",
+      "title": "UK’s Ovo Energy to Make Payment for Failing Vulnerable Users",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-03/uk-s-ovo-energy-to-pay-15-million-for-failing-vulnerable-users",
+      "raw_summary": "UK energy supplier Ovo Energy Ltd. is set to pay £10.4 million ($14 million) after an investigation by the nation’s watchdog found its actions had put customers at risk.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 02 Jun 2026 22:01:46 GMT",
-      "summary": "Oil Extends Advance as US-Iran Peace Talk Progress Stalls\nOil rose for a third day on pessimism over the prospects of the US and Iran reaching a peace deal and as fresh fighting flared up in the Middle East."
+      "published": "Wed, 03 Jun 2026 08:14:57 GMT",
+      "summary": "UK’s Ovo Energy to Make Payment for Failing Vulnerable Users\nUK energy supplier Ovo Energy Ltd. is set to pay £10.4 million ($14 million) after an investigation by the nation’s watchdog found its actions had put customers at risk."
     },
     {
-      "title": "Bitcoin's slide to $67,000 is accelerating a shift into digital dollars",
-      "link": "https://www.coindesk.com/markets/2026/06/03/bitcoin-s-slide-to-usd67-000-is-accelerating-a-shift-into-digital-dollars",
+      "title": "Bitcoin steadies at $67,000, faces critical juncture after sliding 9.5% in seven days",
+      "link": "https://www.coindesk.com/markets/2026/06/03/bitcoin-steadies-at-usd67-000-faces-critical-juncture-after-sliding-9-5-in-seven-days",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 03 Jun 2026 02:44:12 +0000",
-      "summary": "Bitcoin's slide to $67,000 is accelerating a shift into digital dollars\n"
+      "published": "Wed, 03 Jun 2026 10:41:23 +0000",
+      "summary": "Bitcoin steadies at $67,000, faces critical juncture after sliding 9.5% in seven days\n"
     },
     {
-      "title": "Bitcoin’s compute power dwarfs top 100 supercomputers by 600k times, says Bittensor co-founder",
-      "link": "https://www.coindesk.com/tech/2026/06/02/bitcoin-s-compute-power-dwarfs-top-100-supercomputers-by-600-000x-says-bittensor-co-founder",
+      "title": "Privacy-focused Zcash blockchain has not produced a block for four hours",
+      "link": "https://www.coindesk.com/tech/2026/06/03/privacy-focused-zcash-blockchain-has-not-produced-a-block-for-four-hours",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 02 Jun 2026 23:25:44 +0000",
-      "summary": "Bitcoin’s compute power dwarfs top 100 supercomputers by 600k times, says Bittensor co-founder\n"
+      "published": "Wed, 03 Jun 2026 10:22:36 +0000",
+      "summary": "Privacy-focused Zcash blockchain has not produced a block for four hours\n"
     },
     {
-      "title": "UK House of Lords committee calls on Bank of England to reconsider proposed stablecoin restrictions",
-      "link": "https://www.coindesk.com/policy/2026/06/02/uk-house-of-lords-committee-calls-on-bank-of-england-to-reconsider-proposed-stablecoin-restrictions",
+      "title": "UK's financial watchdog cracks down on Premier League crypto partnerships",
+      "link": "https://www.coindesk.com/policy/2026/06/03/uk-s-financial-watchdog-cracks-down-on-premier-league-crypto-partnerships",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 02 Jun 2026 23:01:00 +0000",
-      "summary": "UK House of Lords committee calls on Bank of England to reconsider proposed stablecoin restrictions\n"
+      "published": "Wed, 03 Jun 2026 10:19:12 +0000",
+      "summary": "UK's financial watchdog cracks down on Premier League crypto partnerships\n"
     },
     {
-      "title": "U.S. sanctions Iranian crypto exchanges in ongoing war against the country",
-      "link": "https://www.coindesk.com/policy/2026/06/02/u-s-sanctions-iranian-crypto-exchanges-in-ongoing-war-against-country",
+      "title": "Trezor says your crypto is safe after Ledger audit exposes a hardware flaw",
+      "link": "https://www.coindesk.com/tech/2026/06/02/dnp-trezor-says-users-crypto-is-safe-after-ledger-researchers-uncover-chip-flaw",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 02 Jun 2026 21:49:30 +0000",
-      "summary": "U.S. sanctions Iranian crypto exchanges in ongoing war against the country\n"
+      "published": "Wed, 03 Jun 2026 10:04:32 +0000",
+      "summary": "Trezor says your crypto is safe after Ledger audit exposes a hardware flaw\n"
     },
     {
-      "title": "Coinbase backs Ethena ahead of savings product launch for exchange's 100 million users",
-      "link": "https://www.coindesk.com/business/2026/06/02/coinbase-backs-ethena-ahead-of-savings-product-launch-for-exchange-s-100-million-users",
+      "title": "DeFi won't win over big banks until it fixes its hacking problem, executives say",
+      "link": "https://www.coindesk.com/business/2026/06/02/defi-won-t-win-over-big-banks-until-it-fixes-its-hacking-problem-executives-say",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 02 Jun 2026 20:09:53 +0000",
-      "summary": "Coinbase backs Ethena ahead of savings product launch for exchange's 100 million users\n"
+      "published": "Wed, 03 Jun 2026 09:12:54 +0000",
+      "summary": "DeFi won't win over big banks until it fixes its hacking problem, executives say\n"
     }
   ]
 }
