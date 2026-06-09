@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T09:27:10.665920+00:00",
+  "generated_at": "2026-06-09T14:31:22.760177+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,84 +43,116 @@
       "summary": "CISA Admin Leaked AWS GovCloud Keys on Github\nUntil this past weekend, a contractor for the Cybersecurity &#038; Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA"
     },
     {
-      "title": "LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE",
-      "link": "https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html",
-      "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity flaw impacting BerriAI LiteLLM to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-42271 (CVSS score: 8.7), is a command injection vulnerability that could allow any authenticated user to run arbitrary commands on the",
+      "title": "WinRAR Flaw Exploited by Russia-Aligned Groups to Deploy Stealers in Ukraine",
+      "link": "https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html",
+      "raw_summary": "Two Russia-aligned cyber attack campaigns have continued to exploit a security flaw in WinRAR to target Ukrainian organisations, almost a year after patches for the vulnerability were released.\n\nThe activity has been attributed by Trend Micro to Earth Dahu (aka Gamaredon) and SHADOW-EARTH-066 (aka UAC-0226). It involves the exploitation of CVE-2025-8088, a path traversal flaw that allows an",
       "source": "The Hacker News",
-      "published": "Tue, 09 Jun 2026 11:56:14 +0530",
-      "summary": "LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity flaw impacting BerriAI LiteLLM to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitatio"
+      "published": "Tue, 09 Jun 2026 17:56:10 +0530",
+      "summary": "WinRAR Flaw Exploited by Russia-Aligned Groups to Deploy Stealers in Ukraine\nTwo Russia-aligned cyber attack campaigns have continued to exploit a security flaw in WinRAR to target Ukrainian organisations, almost a year after patches for the vulnerability were released.\n\nThe activity has been attrib"
     },
     {
-      "title": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public",
-      "link": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
-      "raw_summary": "Security researchers have published a detailed, working exploit for a Linux kernel use-after-free that lets an unprivileged local user escalate to root and break out of a container.\n\nThe flaw, CVE-2026-23111, sits in the kernel's nf_tables packet-filtering code and was patched upstream on February 5, 2026. Exodus Intelligence released its full technical walkthrough on June 8, and it is not even",
+      "title": "Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models",
+      "link": "https://thehackernews.com/2026/06/researchers-build-self-replicating-ai.html",
+      "raw_summary": "University of Toronto researchers have built and tested a proof-of-concept AI-driven computer worm that uses a locally hosted open-weight large language model to reason its way through a network, generate tailored attack strategies for each target it encounters, and replicate itself, all without human intervention and without touching a commercial AI service.\n\nThe preprint, posted to arXiv on",
       "source": "The Hacker News",
-      "published": "Tue, 09 Jun 2026 01:47:39 +0530",
-      "summary": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public\nSecurity researchers have published a detailed, working exploit for a Linux kernel use-after-free that lets an unprivileged local user escalate to root and break out of a container.\n\nThe flaw, CVE-2026-23111, sits in the "
+      "published": "Tue, 09 Jun 2026 17:29:03 +0530",
+      "summary": "Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models\nUniversity of Toronto researchers have built and tested a proof-of-concept AI-driven computer worm that uses a locally hosted open-weight large language model to reason its way through a network, generate "
     },
     {
-      "title": "Meta Blocks NSO Group's New WhatsApp Phishing Attack, Files Contempt Order",
-      "link": "https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html",
-      "raw_summary": "Meta on Monday said it detected and blocked spear-phishing attempts linked to Israeli spyware vendor NSO Group.\n\nIn addition, the tech giant said it's filing a federal court contempt order against the company for violating a permanent injunction that barred it from targeting WhatsApp and its users.\n\n\"They tried to trick people into clicking on malicious links to drive them to external websites",
+      "title": "Chrome V8 Zero-Day CVE-2026-11645 Exploited in the Wild - Patch Now",
+      "link": "https://thehackernews.com/2026/06/chrome-v8-zero-day-cve-2026-11645.html",
+      "raw_summary": "Google has released security updates to address 74 vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe high-severity vulnerability, tracked as CVE-2026-11645 (CVSS score: 8.8), has been described as an out-of-bounds memory access in V8, Chrome's JavaScript and WebAssembly engine.\n\n\"Out-of-bounds read and write in V8 in Google Chrome prior to 149.0.7827.103",
       "source": "The Hacker News",
-      "published": "Mon, 08 Jun 2026 22:38:44 +0530",
-      "summary": "Meta Blocks NSO Group's New WhatsApp Phishing Attack, Files Contempt Order\nMeta on Monday said it detected and blocked spear-phishing attempts linked to Israeli spyware vendor NSO Group.\n\nIn addition, the tech giant said it's filing a federal court contempt order against the company for violating a "
+      "published": "Tue, 09 Jun 2026 17:28:49 +0530",
+      "summary": "Chrome V8 Zero-Day CVE-2026-11645 Exploited in the Wild - Patch Now\nGoogle has released security updates to address 74 vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe high-severity vulnerability, tracked as CVE-2026-11645 (CVSS score: 8.8), has been described"
     },
     {
-      "title": "Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups",
-      "link": "https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html",
-      "raw_summary": "Check Point has warned of active exploitation of a critical vulnerability impacting Remote Access VPN and Mobile Access deployments that are configured to use the deprecated IKEv1 key exchange protocol.\n\nThe vulnerability, tracked as CVE-2026-50751 (CVSS score: 9.3), is a case of a logic flow weakness in certificate validation that allows an unauthenticated remote attacker to bypass user",
+      "title": "The Hidden Security Risk in Modern Networks: The Work Between Tools",
+      "link": "https://thehackernews.com/2026/06/the-hidden-security-risk-in-modern.html",
+      "raw_summary": "Organizations have more visibility than ever. Growing tech stacks provide greater coverage, and network security teams are increasingly adopting AI and automation to help with routine tasks and reduce manual effort.\n\nBut the same challenges persist. Outages still last hours, causing significant financial losses, operational disruption, and reputational impact. Threat response and mean time to",
       "source": "The Hacker News",
-      "published": "Mon, 08 Jun 2026 19:47:39 +0530",
-      "summary": "Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups\nCheck Point has warned of active exploitation of a critical vulnerability impacting Remote Access VPN and Mobile Access deployments that are configured to use the deprecated IKEv1 key exchange protocol.\n\nThe vulnerability, t"
+      "published": "Tue, 09 Jun 2026 17:00:00 +0530",
+      "summary": "The Hidden Security Risk in Modern Networks: The Work Between Tools\nOrganizations have more visibility than ever. Growing tech stacks provide greater coverage, and network security teams are increasingly adopting AI and automation to help with routine tasks and reduce manual effort.\n\nBut the same ch"
     },
     {
-      "title": "AI Phishing Is Crushing SOCs with Alert Volume: How to Reduce Tier 1 Overload",
-      "link": "https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html",
-      "raw_summary": "Phishing has always been a numbers game. AI has turned it into a volume machine.\n\nAttackers can now create convincing emails, fake login pages, and tailored lures in minutes. Every polished message adds another case for Tier 1 to review, another link to inspect, and another alert that cannot be dismissed at a glance.\n\nAs the queue grows, a credential theft attempt or malware delivery can easily",
+      "title": "New FROST Attack Lets Websites Track What Sites and Apps You Open via SSD Timing",
+      "link": "https://thehackernews.com/2026/06/new-frost-attack-lets-websites-track.html",
+      "raw_summary": "A malicious website can work out which sites you visit and which apps you open, using nothing but JavaScript and the timing of your SSD. The attack, called FROST, needs no native code, no extension, and no permission prompt.\n\nYou open the page, leave the tab sitting there, and it watches the drive for contention in the background.\n\nResearchers at Graz University of Technology built it and",
       "source": "The Hacker News",
-      "published": "Mon, 08 Jun 2026 18:49:13 +0530",
-      "summary": "AI Phishing Is Crushing SOCs with Alert Volume: How to Reduce Tier 1 Overload\nPhishing has always been a numbers game. AI has turned it into a volume machine.\n\nAttackers can now create convincing emails, fake login pages, and tailored lures in minutes. Every polished message adds another case for Ti"
+      "published": "Tue, 09 Jun 2026 15:20:41 +0530",
+      "summary": "New FROST Attack Lets Websites Track What Sites and Apps You Open via SSD Timing\nA malicious website can work out which sites you visit and which apps you open, using nothing but JavaScript and the timing of your SSD. The attack, called FROST, needs no native code, no extension, and no permission pr"
     },
     {
-      "title": "Forever Young: how one molecule can lock plants in a youthful state.(2025)",
-      "link": "https://omnia.sas.upenn.edu/story/biologist-scott-poethig-plants-never-age",
-      "raw_summary": "<p>Article URL: <a href=\"https://omnia.sas.upenn.edu/story/biologist-scott-poethig-plants-never-age\">https://omnia.sas.upenn.edu/story/biologist-scott-poethig-plants-never-age</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48458257\">https://news.ycombinator.com/item?id=48458257</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
+      "title": "WWDC 2026: Apple is Folding",
+      "link": "https://cupertinolens.com/2026/06/09/wwdc-2026-apple-is-folding/",
+      "raw_summary": "<p>Article URL: <a href=\"https://cupertinolens.com/2026/06/09/wwdc-2026-apple-is-folding/\">https://cupertinolens.com/2026/06/09/wwdc-2026-apple-is-folding/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48461226\">https://news.ycombinator.com/item?id=48461226</a></p>\n<p>Points: 28</p>\n<p># Comments: 15</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 09 Jun 2026 08:25:36 +0000",
-      "summary": "Forever Young: how one molecule can lock plants in a youthful state.(2025)\n<p>Article URL: <a href=\"https://omnia.sas.upenn.edu/story/biologist-scott-poethig-plants-never-age\">https://omnia.sas.upenn.edu/story/biologist-scott-poethig-plants-never-age</a></p>\n<p>Comments URL: <a href=\"https://news.yc"
+      "published": "Tue, 09 Jun 2026 13:56:38 +0000",
+      "summary": "WWDC 2026: Apple is Folding\n<p>Article URL: <a href=\"https://cupertinolens.com/2026/06/09/wwdc-2026-apple-is-folding/\">https://cupertinolens.com/2026/06/09/wwdc-2026-apple-is-folding/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48461226\">https://news.ycombinator.com/item?i"
     },
     {
-      "title": "Microsoft's open source tools were hacked to steal passwords of AI developers",
-      "link": "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/",
-      "raw_summary": "<p>Article URL: <a href=\"https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/\">https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48457830\">https://news.ycombinator.com/item?id=48457830</a></p>\n<p>Points: 103</p>\n<p># Comments: 28</p>",
+      "title": "Albania Is Not for Sale: Kushner's $4B Resort Triggers'Flamingo Revolution'",
+      "link": "https://www.yacnews.com/albania-is-not-for-sale-kushners-4-billion-resort-triggers-flamingo-revolution-asset-freeze-and-an-eu-warning/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.yacnews.com/albania-is-not-for-sale-kushners-4-billion-resort-triggers-flamingo-revolution-asset-freeze-and-an-eu-warning/\">https://www.yacnews.com/albania-is-not-for-sale-kushners-4-billion-resort-triggers-flamingo-revolution-asset-freeze-and-an-eu-warning/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48461012\">https://news.ycombinator.com/item?id=48461012</a></p>\n<p>Points: 60</p>\n<p># Comments: 11</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 09 Jun 2026 07:33:16 +0000",
-      "summary": "Microsoft's open source tools were hacked to steal passwords of AI developers\n<p>Article URL: <a href=\"https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/\">https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-"
+      "published": "Tue, 09 Jun 2026 13:39:31 +0000",
+      "summary": "Albania Is Not for Sale: Kushner's $4B Resort Triggers'Flamingo Revolution'\n<p>Article URL: <a href=\"https://www.yacnews.com/albania-is-not-for-sale-kushners-4-billion-resort-triggers-flamingo-revolution-asset-freeze-and-an-eu-warning/\">https://www.yacnews.com/albania-is-not-for-sale-kushners-4-bill"
     },
     {
-      "title": "Facebook is paying people overseas promoting Alberta separatism",
-      "link": "https://www.cbc.ca/news/canada/facebook-overseas-alberta-separtism-9.7223966",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.cbc.ca/news/canada/facebook-overseas-alberta-separtism-9.7223966\">https://www.cbc.ca/news/canada/facebook-overseas-alberta-separtism-9.7223966</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48457181\">https://news.ycombinator.com/item?id=48457181</a></p>\n<p>Points: 104</p>\n<p># Comments: 33</p>",
+      "title": "The better the autopilot the worse the pilot",
+      "link": "https://julienreszka.com/blog/the-better-the-autopilot-the-worse-the-pilot/",
+      "raw_summary": "<p>Article URL: <a href=\"https://julienreszka.com/blog/the-better-the-autopilot-the-worse-the-pilot/\">https://julienreszka.com/blog/the-better-the-autopilot-the-worse-the-pilot/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48460758\">https://news.ycombinator.com/item?id=48460758</a></p>\n<p>Points: 38</p>\n<p># Comments: 27</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 09 Jun 2026 06:14:20 +0000",
-      "summary": "Facebook is paying people overseas promoting Alberta separatism\n<p>Article URL: <a href=\"https://www.cbc.ca/news/canada/facebook-overseas-alberta-separtism-9.7223966\">https://www.cbc.ca/news/canada/facebook-overseas-alberta-separtism-9.7223966</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinat"
+      "published": "Tue, 09 Jun 2026 13:17:34 +0000",
+      "summary": "The better the autopilot the worse the pilot\n<p>Article URL: <a href=\"https://julienreszka.com/blog/the-better-the-autopilot-the-worse-the-pilot/\">https://julienreszka.com/blog/the-better-the-autopilot-the-worse-the-pilot/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=484607"
     },
     {
-      "title": "CRDTs merge concurrent edits. Why not concurrent creation?",
-      "link": "https://loro.dev/blog/mergeable-containers",
-      "raw_summary": "<p>Article URL: <a href=\"https://loro.dev/blog/mergeable-containers\">https://loro.dev/blog/mergeable-containers</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48456555\">https://news.ycombinator.com/item?id=48456555</a></p>\n<p>Points: 18</p>\n<p># Comments: 2</p>",
+      "title": "Emerge Career (YC S22) Is Hiring a Founding Growth Marketer",
+      "link": "https://www.ycombinator.com/companies/emerge-career/jobs/v0S1AEG-founding-growth-marketer",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/emerge-career/jobs/v0S1AEG-founding-growth-marketer\">https://www.ycombinator.com/companies/emerge-career/jobs/v0S1AEG-founding-growth-marketer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48459968\">https://news.ycombinator.com/item?id=48459968</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 09 Jun 2026 04:48:10 +0000",
-      "summary": "CRDTs merge concurrent edits. Why not concurrent creation?\n<p>Article URL: <a href=\"https://loro.dev/blog/mergeable-containers\">https://loro.dev/blog/mergeable-containers</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48456555\">https://news.ycombinator.com/item?id=48456555</a"
+      "published": "Tue, 09 Jun 2026 12:01:09 +0000",
+      "summary": "Emerge Career (YC S22) Is Hiring a Founding Growth Marketer\n<p>Article URL: <a href=\"https://www.ycombinator.com/companies/emerge-career/jobs/v0S1AEG-founding-growth-marketer\">https://www.ycombinator.com/companies/emerge-career/jobs/v0S1AEG-founding-growth-marketer</a></p>\n<p>Comments URL: <a href=\""
     },
     {
-      "title": "Porting the ThinkPad X61 to Coreboot",
-      "link": "https://blog.aheymans.xyz/post/thinkpad_x61/",
-      "raw_summary": "<p>Article URL: <a href=\"https://blog.aheymans.xyz/post/thinkpad_x61/\">https://blog.aheymans.xyz/post/thinkpad_x61/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48456245\">https://news.ycombinator.com/item?id=48456245</a></p>\n<p>Points: 67</p>\n<p># Comments: 21</p>",
+      "title": "Show HN: Gravity – interactive solar-system simulator, from Newton to Einstein",
+      "link": "https://qunabu.github.io/Gravity/",
+      "raw_summary": "<p>Just for fun and self education, I've built this over a weekend to teach myself why orbits exist, not just show planets going around. Something that was never clearly explain to me in school. \nIt opens with a guided tour that builds the idea up step by step: two bodies and the equal/opposite force, inertia (the Sun is removed and Earth just drifts straight), then \"an orbit is falling and continuously missing,\" cosmic velocities with a little rocket, Voyager 1 & 2's real gravity assists (the clock runs the actual 1977–1989 dates so the planets orbit into their grand-tour alignment and the slingshots line up), and it ends on Einstein — gravity as curved spacetime, the classic rubber-sheet well.\nWhat's real: every body uses its real radius/mass and J2000 orbital elements; positions come from solving Kepler's equation each  frame. You can toggle to an N-body mode (symplectic leapfrog) that shows live energy drift (~1e-6%) so you can see the integrator is honest. The only thing faked is scale — at true scale you can't see anything — so there's a toggle between true scale and a log-remapped \"visual\" scale, with physics always running in real AU.\nTech: TypeScript + Three.js + Vite, fully client-side, no backend, works offline (surface textures are generated procedurally from value-noise; only Earth uses a real image). Source: <a href=\"https://github.com/qunabu/Gravity\" rel=\"nofollow\">https://github.com/qunabu/Gravity</a><p>Happy to answer questions — and feedback on the physics or the explanations is very welcome. This project might be totally inaccurate in terms of real physics, this is how i do understand this on my own - i'm happy to confront this with reality</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48459837\">https://news.ycombinator.com/item?id=48459837</a></p>\n<p>Points: 31</p>\n<p># Comments: 12</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 09 Jun 2026 04:06:14 +0000",
-      "summary": "Porting the ThinkPad X61 to Coreboot\n<p>Article URL: <a href=\"https://blog.aheymans.xyz/post/thinkpad_x61/\">https://blog.aheymans.xyz/post/thinkpad_x61/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48456245\">https://news.ycombinator.com/item?id=48456245</a></p>\n<p>Points: 6"
+      "published": "Tue, 09 Jun 2026 11:46:40 +0000",
+      "summary": "Show HN: Gravity – interactive solar-system simulator, from Newton to Einstein\n<p>Just for fun and self education, I've built this over a weekend to teach myself why orbits exist, not just show planets going around. Something that was never clearly explain to me in school. \nIt opens with a guided to"
+    },
+    {
+      "title": "Apple’s App Store rolls out personalized recommendations",
+      "link": "https://techcrunch.com/2026/06/09/apples-app-store-rolls-out-personalized-recommendations/",
+      "raw_summary": "Apple will now recommend apps based on your downloads and behavior.",
+      "source": "TechCrunch",
+      "published": "Tue, 09 Jun 2026 14:30:17 +0000",
+      "summary": "Apple’s App Store rolls out personalized recommendations\nApple will now recommend apps based on your downloads and behavior."
+    },
+    {
+      "title": "Sandstone raises $30M to bring AI to in-house legal teams",
+      "link": "https://techcrunch.com/2026/06/09/sandstone-raises-30m-to-bring-ai-to-in-house-legal-teams/",
+      "raw_summary": "Sandstone's Series A was led by Lightspeed Partners, with participation from Sequoia.",
+      "source": "TechCrunch",
+      "published": "Tue, 09 Jun 2026 13:47:25 +0000",
+      "summary": "Sandstone raises $30M to bring AI to in-house legal teams\nSandstone's Series A was led by Lightspeed Partners, with participation from Sequoia."
+    },
+    {
+      "title": "Lovable says it has hit $500M in annualized revenue, with 1 million new projects a week",
+      "link": "https://techcrunch.com/2026/06/09/lovable-says-it-has-hit-500m-in-annualized-revenue-with-1-million-new-projects-a-week/",
+      "raw_summary": "Lovable says it has now surpassed $500 million in annualized run-rate revenue and its users are building businesses and replacing internal software.",
+      "source": "TechCrunch",
+      "published": "Tue, 09 Jun 2026 13:00:00 +0000",
+      "summary": "Lovable says it has hit $500M in annualized revenue, with 1 million new projects a week\nLovable says it has now surpassed $500 million in annualized run-rate revenue and its users are building businesses and replacing internal software."
+    },
+    {
+      "title": "How an e-scooter founder raised $5 million to build space data centers",
+      "link": "https://techcrunch.com/2026/06/09/how-an-e-scooter-founder-raised-5-million-to-build-space-data-centers/",
+      "raw_summary": "Orbital founder Euwyn Poon built 250,000 scooters at Spin. Now he wants to launch 10,000 space data centers.",
+      "source": "TechCrunch",
+      "published": "Tue, 09 Jun 2026 12:00:00 +0000",
+      "summary": "How an e-scooter founder raised $5 million to build space data centers\nOrbital founder Euwyn Poon built 250,000 scooters at Spin. Now he wants to launch 10,000 space data centers."
     },
     {
       "title": "Evotrex raises $30M to build the RV that doesn’t need a charging station",
@@ -131,36 +163,20 @@
       "summary": "Evotrex raises $30M to build the RV that doesn’t need a charging station\nThe startup is one of many entering the RV space, but it's banking on a hybrid power system that can go far beyond campsites."
     },
     {
-      "title": "Zepto’s IPO filing reveals fast growth, bigger losses, and a valuation question nobody’s answered yet",
-      "link": "https://techcrunch.com/2026/06/08/zeptos-ipo-filing-reveals-fast-growth-bigger-losses-and-a-valuation-question-nobodys-answered-yet/",
-      "raw_summary": "Zepto's advertising revenue jumped 151%, outpacing the company's 104% growth in operating revenue.",
-      "source": "TechCrunch",
-      "published": "Tue, 09 Jun 2026 05:07:17 +0000",
-      "summary": "Zepto’s IPO filing reveals fast growth, bigger losses, and a valuation question nobody’s answered yet\nZepto's advertising revenue jumped 151%, outpacing the company's 104% growth in operating revenue."
+      "title": "Apple says its AI is still private, even when it's running on Google's servers",
+      "link": "https://arstechnica.com/apple/2026/06/apple-says-its-ai-is-still-private-even-when-its-running-on-googles-servers/",
+      "raw_summary": "Some models run in Google's cloud, but without giving Google any kind of access.",
+      "source": "Ars Technica - All content",
+      "published": "Tue, 09 Jun 2026 13:05:49 +0000",
+      "summary": "Apple says its AI is still private, even when it's running on Google's servers\nSome models run in Google's cloud, but without giving Google any kind of access."
     },
     {
-      "title": "Why Apple’s slow-and-steady AI bet is starting to look pretty smart",
-      "link": "https://techcrunch.com/2026/06/08/why-apples-slow-and-steady-ai-bet-is-starting-to-look-pretty-smart/",
-      "raw_summary": "Can Apple's new AI glow up put to bed accusations that it's losing an all-important industry race?",
-      "source": "TechCrunch",
-      "published": "Tue, 09 Jun 2026 01:56:48 +0000",
-      "summary": "Why Apple’s slow-and-steady AI bet is starting to look pretty smart\nCan Apple's new AI glow up put to bed accusations that it's losing an all-important industry race?"
-    },
-    {
-      "title": "Mercor’s Brendan Foody calls out Sequoia, accusing it of ‘dual-pricing’ valuation tricks",
-      "link": "https://techcrunch.com/2026/06/08/mercors-brendan-foody-calls-out-sequoia-over-dual-pricing-valuation-tricks/",
-      "raw_summary": "Sequoia is just one of the top firms that sells same equity at two different prices.",
-      "source": "TechCrunch",
-      "published": "Tue, 09 Jun 2026 00:45:56 +0000",
-      "summary": "Mercor’s Brendan Foody calls out Sequoia, accusing it of ‘dual-pricing’ valuation tricks\nSequoia is just one of the top firms that sells same equity at two different prices."
-    },
-    {
-      "title": "As OpenAI files for IPO, Sam Altman’s eye-scanning company is doing layoffs, report says",
-      "link": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
-      "raw_summary": "Tools for Humanity, Sam Altman's identity verification company, is reportedly struggling to generate revenue and will downsize its staff.",
-      "source": "TechCrunch",
-      "published": "Mon, 08 Jun 2026 22:41:45 +0000",
-      "summary": "As OpenAI files for IPO, Sam Altman’s eye-scanning company is doing layoffs, report says\nTools for Humanity, Sam Altman's identity verification company, is reportedly struggling to generate revenue and will downsize its staff."
+      "title": "First Drive: The 2027 Rivian R2 entirely changes the EV game",
+      "link": "https://arstechnica.com/cars/2026/06/first-drive-the-2027-rivian-r2-entirely-changes-the-ev-game/",
+      "raw_summary": "Rivian's second EV is the sub-$60,000 R2, and it was worth the wait.",
+      "source": "Ars Technica - All content",
+      "published": "Tue, 09 Jun 2026 13:00:46 +0000",
+      "summary": "First Drive: The 2027 Rivian R2 entirely changes the EV game\nRivian's second EV is the sub-$60,000 R2, and it was worth the wait."
     },
     {
       "title": "FCC lifts looming deadline for Amazon Leo satellite broadband constellation",
@@ -187,140 +203,124 @@
       "summary": "macOS 27 requires Apple Silicon, as Apple draws down the Intel Mac era\nYou'll need an M1 or better to run the next release of macOS."
     },
     {
-      "title": "iOS 27 and iPadOS 27 don't drop support for any iPhones—and just a few iPads",
-      "link": "https://arstechnica.com/gadgets/2026/06/ios-27-and-ipados-27-dont-drop-support-for-any-iphones-and-just-a-few-ipads/",
-      "raw_summary": "This promises to be a solid release for aging iPhones.",
-      "source": "Ars Technica - All content",
-      "published": "Mon, 08 Jun 2026 20:55:58 +0000",
-      "summary": "iOS 27 and iPadOS 27 don't drop support for any iPhones—and just a few iPads\nThis promises to be a solid release for aging iPhones."
-    },
-    {
-      "title": "Meta alleges NSO violated spyware injunction with new WhatsApp attacks",
-      "link": "https://arstechnica.com/tech-policy/2026/06/meta-alleges-nso-violated-spyware-injunction-with-new-whatsapp-attacks/",
-      "raw_summary": "WhatsApp disrupted spear phishing attempts, asks court to hold NSO in contempt.",
-      "source": "Ars Technica - All content",
-      "published": "Mon, 08 Jun 2026 20:26:14 +0000",
-      "summary": "Meta alleges NSO violated spyware injunction with new WhatsApp attacks\nWhatsApp disrupted spear phishing attempts, asks court to hold NSO in contempt."
-    },
-    {
       "title": "GSK to buy US cancer biotech Nuvalent for $10.6bn",
       "link": "https://www.ft.com/content/c22fca23-2917-420b-9538-744a093d4b47",
       "raw_summary": "New chief Luke Miels makes his mark at GSK with one of UK drugmakers’ biggest deals",
       "source": "World",
-      "published": "Tue, 09 Jun 2026 08:31:19 GMT",
+      "published": "Tue, 09 Jun 2026 14:20:31 GMT",
       "summary": "GSK to buy US cancer biotech Nuvalent for $10.6bn\nNew chief Luke Miels makes his mark at GSK with one of UK drugmakers’ biggest deals"
     },
     {
-      "title": "Will Starmer fight or fold?",
-      "link": "https://www.ft.com/content/a3fdcb1a-901d-47ac-82c2-ed92f4eaf597",
-      "raw_summary": "No 10 tries to gauge support for PM as failing to secure backers would be embarrassing and suggest he can’t govern",
+      "title": "Lessons from Germany’s (entirely predictable) UN Security Council defeat",
+      "link": "https://www.ft.com/content/02125b2b-f560-47d5-8910-c1568aecf05e",
+      "raw_summary": "In a world of aggressive great powers, middle powers must learn to forge alliances",
       "source": "World",
-      "published": "Tue, 09 Jun 2026 08:30:05 GMT",
-      "summary": "Will Starmer fight or fold?\nNo 10 tries to gauge support for PM as failing to secure backers would be embarrassing and suggest he can’t govern"
+      "published": "Tue, 09 Jun 2026 14:14:42 GMT",
+      "summary": "Lessons from Germany’s (entirely predictable) UN Security Council defeat\nIn a world of aggressive great powers, middle powers must learn to forge alliances"
     },
     {
-      "title": "Indonesia unexpectedly raises interest rate to support rupiah",
-      "link": "https://www.ft.com/content/f8fb7ef5-03df-4c09-bca9-2bd4beda4e20",
-      "raw_summary": "Central bank’s off-cycle move follows rout in currency and stock market",
+      "title": "EU considers suspending rise in Russian oil price cap",
+      "link": "https://www.ft.com/content/a61e339d-7387-4f21-acb0-851732f2d6f5",
+      "raw_summary": "Limit on Russian crude was set to increase from $44 a barrel to $70 following supply disruption due to Middle East war",
       "source": "World",
-      "published": "Tue, 09 Jun 2026 08:28:08 GMT",
-      "summary": "Indonesia unexpectedly raises interest rate to support rupiah\nCentral bank’s off-cycle move follows rout in currency and stock market"
+      "published": "Tue, 09 Jun 2026 14:04:06 GMT",
+      "summary": "EU considers suspending rise in Russian oil price cap\nLimit on Russian crude was set to increase from $44 a barrel to $70 following supply disruption due to Middle East war"
     },
     {
-      "title": "Airbus plans German-led alliance to replace doomed fighter jet",
-      "link": "https://www.ft.com/content/b326330d-41fa-45df-ab3d-7826b16bf7c9",
-      "raw_summary": "Group of eight companies want to develop a sixth-generation fighter jet for Europe",
+      "title": "VodafoneThree bids for TalkTalk consumer business",
+      "link": "https://www.ft.com/content/0c4d4c67-c082-47e4-a65b-386a9307d45e",
+      "raw_summary": "Acquisition would help UK’s largest mobile operator fulfil ambition to double its broadband business",
       "source": "World",
-      "published": "Tue, 09 Jun 2026 08:20:58 GMT",
-      "summary": "Airbus plans German-led alliance to replace doomed fighter jet\nGroup of eight companies want to develop a sixth-generation fighter jet for Europe"
+      "published": "Tue, 09 Jun 2026 14:00:28 GMT",
+      "summary": "VodafoneThree bids for TalkTalk consumer business\nAcquisition would help UK’s largest mobile operator fulfil ambition to double its broadband business"
     },
     {
-      "title": "AI offers European drug gangs a tech boost",
-      "link": "https://www.ft.com/content/1b1333ca-55e6-4012-a92a-1797f0f6f2a1",
-      "raw_summary": "EU agency chief warns traffickers are tapping new technologies to develop and deliver illegal substances",
+      "title": "Trump and Netanyahu’s paths diverge",
+      "link": "https://www.ft.com/content/a4e66a4e-4545-4557-a0f4-981fea390862",
+      "raw_summary": "Also in today’s newsletter, president booed at Knicks-Spurs game and will Trump abandon Taiwan?",
       "source": "World",
-      "published": "Tue, 09 Jun 2026 08:00:33 GMT",
-      "summary": "AI offers European drug gangs a tech boost\nEU agency chief warns traffickers are tapping new technologies to develop and deliver illegal substances"
+      "published": "Tue, 09 Jun 2026 13:00:07 GMT",
+      "summary": "Trump and Netanyahu’s paths diverge\nAlso in today’s newsletter, president booed at Knicks-Spurs game and will Trump abandon Taiwan?"
     },
     {
-      "title": "German Industry Output Sees First Gain Since Iran War Began",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-09/german-industrial-output-rises-for-first-time-since-war-began",
-      "raw_summary": "German industrial production grew for the first time since war broke out in Iran, fueling hope that Europe’s largest economy is weathering the jump in energy costs.",
+      "title": "Oil Falls as China Slashes Imports and Tenuous Peace Holds",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-08/latest-oil-market-news-and-analysis-for-june-9",
+      "raw_summary": "Oil declined after new data shed light on demand destruction in China, providing much-needed relief for global oil supplies strained by the war in Iran.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 09 Jun 2026 06:08:48 GMT",
-      "summary": "German Industry Output Sees First Gain Since Iran War Began\nGerman industrial production grew for the first time since war broke out in Iran, fueling hope that Europe’s largest economy is weathering the jump in energy costs."
+      "published": "Mon, 08 Jun 2026 22:07:27 GMT",
+      "summary": "Oil Falls as China Slashes Imports and Tenuous Peace Holds\nOil declined after new data shed light on demand destruction in China, providing much-needed relief for global oil supplies strained by the war in Iran."
     },
     {
-      "title": "Bond Backed by French SME Loans Looks to Open a New Debt Market",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-09/bond-backed-by-french-sme-loans-looks-to-open-a-new-debt-market",
-      "raw_summary": "French state-backed lender Bpifrance SACA is selling a new type of bond backed by small company loans, looking to end a more than decade-long regulatory impasse over European Secured Notes.",
+      "title": "Three Charts That Sum Up the Big AI Debates Right Now",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-06-09/three-charts-that-sum-up-the-big-ai-debates-right-now",
+      "raw_summary": "Capital spend, ROI, and energy.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 09 Jun 2026 09:18:29 GMT",
-      "summary": "Bond Backed by French SME Loans Looks to Open a New Debt Market\nFrench state-backed lender Bpifrance SACA is selling a new type of bond backed by small company loans, looking to end a more than decade-long regulatory impasse over European Secured Notes."
+      "published": "Tue, 09 Jun 2026 14:15:57 GMT",
+      "summary": "Three Charts That Sum Up the Big AI Debates Right Now\nCapital spend, ROI, and energy."
     },
     {
-      "title": "Stocks Climb as AI-Led Rebound Enters Day Two: Markets Wrap",
+      "title": "South Africa Targets Key Mining Registry by End of March",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-09/south-africa-targets-key-mining-registry-by-end-of-march",
+      "raw_summary": "South Africa expects to fully launch a long-awaited database of mineral rights within 10 months, according to a senior official.",
+      "source": "Bloomberg Markets",
+      "published": "Tue, 09 Jun 2026 11:02:54 GMT",
+      "summary": "South Africa Targets Key Mining Registry by End of March\nSouth Africa expects to fully launch a long-awaited database of mineral rights within 10 months, according to a senior official."
+    },
+    {
+      "title": "New York Penn Station Rehab Eyes Billions in Federal Funding",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-08/new-york-s-penn-station-rehab-eyes-billions-in-federal-funding",
+      "raw_summary": "The entities transforming New York’s Penn Station are slated to learn how much federal money will be directed to the project in about six months, according to Peter Cipriano, chief executive officer of the Halmar-Skanska consortium, the renovation’s master developer.",
+      "source": "Bloomberg Markets",
+      "published": "Mon, 08 Jun 2026 20:40:28 GMT",
+      "summary": "New York Penn Station Rehab Eyes Billions in Federal Funding\nThe entities transforming New York’s Penn Station are slated to learn how much federal money will be directed to the project in about six months, according to Peter Cipriano, chief executive officer of the Halmar-Skanska consortium, the re"
+    },
+    {
+      "title": "Stocks Join Bonds Higher as Oil Falls Below $90: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-06-08/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "A recovery in the artificial-intelligence trade entered a second day in a cautiously risk-on session, with oil prices also falling as hostilities in the Middle East eased.",
+      "raw_summary": "A rebound on Wall Street powered ahead, with stocks joining bonds higher as oil fell amid hopes the US and Iran are getting closer to a deal to end the war that has rattled global markets.",
       "source": "Bloomberg Markets",
       "published": "Mon, 08 Jun 2026 22:11:30 GMT",
-      "summary": "Stocks Climb as AI-Led Rebound Enters Day Two: Markets Wrap\nA recovery in the artificial-intelligence trade entered a second day in a cautiously risk-on session, with oil prices also falling as hostilities in the Middle East eased."
+      "summary": "Stocks Join Bonds Higher as Oil Falls Below $90: Markets Wrap\nA rebound on Wall Street powered ahead, with stocks joining bonds higher as oil fell amid hopes the US and Iran are getting closer to a deal to end the war that has rattled global markets."
     },
     {
-      "title": "Uber-Backed Wayve Eyes Stake Sale on the UK’s New Private Market",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-09/uber-backed-wayve-eyes-stake-sale-on-the-uk-s-new-private-market",
-      "raw_summary": "Wayve Technologies Ltd., the UK-based autonomous driving software startup, is considering letting investors sell shares through the country’s new private securities market, according to people familiar with the matter, in what would be the first major endorsement of the novel system.",
-      "source": "Bloomberg Markets",
-      "published": "Tue, 09 Jun 2026 09:17:01 GMT",
-      "summary": "Uber-Backed Wayve Eyes Stake Sale on the UK’s New Private Market\nWayve Technologies Ltd., the UK-based autonomous driving software startup, is considering letting investors sell shares through the country’s new private securities market, according to people familiar with the matter, in what would be"
-    },
-    {
-      "title": "Indonesia Delivers Shock Rate Hike to Reverse Market Selloff",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-09/indonesia-delivers-off-cycle-rate-hike-to-temper-market-rout",
-      "raw_summary": "Indonesia’s central bank took aggressive action to reverse a market selloff and support its currency, hiking interest rates in a surprise decision to halt foreign outflows triggered by policy uncertainty under President Prabowo Subianto.",
-      "source": "Bloomberg Markets",
-      "published": "Tue, 09 Jun 2026 05:32:34 GMT",
-      "summary": "Indonesia Delivers Shock Rate Hike to Reverse Market Selloff\nIndonesia’s central bank took aggressive action to reverse a market selloff and support its currency, hiking interest rates in a surprise decision to halt foreign outflows triggered by policy uncertainty under President Prabowo Subianto."
-    },
-    {
-      "title": "Coinbase and Cardless unveil credit card backed by stablecoins",
-      "link": "https://www.coindesk.com/business/2026/06/09/coinbase-and-cardless-unveil-credit-card-backed-by-stablecoins",
+      "title": "A16z, Paradigm lead $175 million bet to move global credit markets onchain",
+      "link": "https://www.coindesk.com/business/2026/06/09/a16z-paradigm-lead-usd175-million-bet-to-move-global-credit-markets-onchain",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 09 Jun 2026 08:04:59 +0000",
-      "summary": "Coinbase and Cardless unveil credit card backed by stablecoins\n"
+      "published": "Tue, 09 Jun 2026 14:07:32 +0000",
+      "summary": "A16z, Paradigm lead $175 million bet to move global credit markets onchain\n"
     },
     {
-      "title": "Saylor blamed AI for bitcoin crash. Arca has one word for that: Nonsense",
-      "link": "https://www.coindesk.com/markets/2026/06/09/saylor-blamed-ai-for-bitcoin-crash-arca-has-one-word-for-that-nonsense",
+      "title": "CoinDesk 20 performance update: AAVE Drops 2.6% as all constituents trade lower",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/06/09/coindesk-20-performance-update-aave-drops-2-6-as-all-constituents-trade-lower",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 09 Jun 2026 05:35:39 +0000",
-      "summary": "Saylor blamed AI for bitcoin crash. Arca has one word for that: Nonsense\n"
+      "published": "Tue, 09 Jun 2026 13:16:44 +0000",
+      "summary": "CoinDesk 20 performance update: AAVE Drops 2.6% as all constituents trade lower\n"
     },
     {
-      "title": "Live updates: Bitcoin above $63,000 as some traders peg SpaceX's IPO as 'next catalyst'",
-      "link": "https://www.coindesk.com/business/2026/06/09/bitcoin-steady-above-usd63-000-bnb-sol-edge-higher-as-ai-stocks-rebound",
+      "title": "Bitcoin inflows slow sharply in 2026 as investors chase AI, Bernstein says",
+      "link": "https://www.coindesk.com/markets/2026/06/09/bitcoin-inflows-slow-sharply-in-2026-as-investors-chase-ai-bernstein-says",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 09 Jun 2026 05:17:13 +0000",
-      "summary": "Live updates: Bitcoin above $63,000 as some traders peg SpaceX's IPO as 'next catalyst'\n"
+      "published": "Tue, 09 Jun 2026 13:02:48 +0000",
+      "summary": "Bitcoin inflows slow sharply in 2026 as investors chase AI, Bernstein says\n"
     },
     {
-      "title": "Chinese mining CEO says Strategy can survive a $30,000 bitcoin without selling",
-      "link": "https://www.coindesk.com/markets/2026/06/08/chinese-mining-ceo-says-strategy-can-survive-a-usd30-000-bitcoin-without-selling",
+      "title": "BlackRock warns of energy shock as May CPI is set to show acceleration in inflation",
+      "link": "https://www.coindesk.com/markets/2026/06/09/blackrock-warns-of-energy-shock-as-may-cpi-is-set-to-show-acceleration-in-inflation",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 09 Jun 2026 04:55:20 +0000",
-      "summary": "Chinese mining CEO says Strategy can survive a $30,000 bitcoin without selling\n"
+      "published": "Tue, 09 Jun 2026 12:58:09 +0000",
+      "summary": "BlackRock warns of energy shock as May CPI is set to show acceleration in inflation\n"
     },
     {
-      "title": "Humanity Protocol token crashes more than 80% after a $32 million private-key hack",
-      "link": "https://www.coindesk.com/tech/2026/06/09/humanity-protocol-token-crashes-more-than-80-after-a-usd32-million-private-key-hack",
+      "title": "Live updates: bitcoin drifts back to $62,500, putting damper on hope for two straight up days",
+      "link": "https://www.coindesk.com/tech/2026/06/09/live-updates-bitcoin-drifts-back-to-usd62-500-putting-damper-on-hope-for-two-straight-up-days",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 09 Jun 2026 04:54:48 +0000",
-      "summary": "Humanity Protocol token crashes more than 80% after a $32 million private-key hack\n"
+      "published": "Tue, 09 Jun 2026 12:52:07 +0000",
+      "summary": "Live updates: bitcoin drifts back to $62,500, putting damper on hope for two straight up days\n"
     }
   ]
 }
