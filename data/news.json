@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T14:31:22.760177+00:00",
+  "generated_at": "2026-06-09T19:58:08.907776+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "CISA Admin Leaked AWS GovCloud Keys on Github\nUntil this past weekend, a contractor for the Cybersecurity &#038; Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA"
     },
     {
+      "title": "Meta to Use Off-Site Business Data for Feed and AI Personalization",
+      "link": "https://thehackernews.com/2026/06/meta-to-use-off-site-business-data-for.html",
+      "raw_summary": "Meta on Tuesday announced that it will use information shared by other businesses to personalize users' feed and responses from its artificial intelligence (AI) chatbot, expanding its scope beyond targeted ads.\n\n\"Businesses often share information about people's activity on their sites with us to make ads more relevant,\" Meta said in a statement.\n\n\"We already use this data - like games you play",
+      "source": "The Hacker News",
+      "published": "Tue, 09 Jun 2026 22:33:58 +0530",
+      "summary": "Meta to Use Off-Site Business Data for Feed and AI Personalization\nMeta on Tuesday announced that it will use information shared by other businesses to personalize users' feed and responses from its artificial intelligence (AI) chatbot, expanding its scope beyond targeted ads.\n\n\"Businesses often sha"
+    },
+    {
+      "title": "Veeam Backup & Replication RCE Flaw Lets Domain Users Run Remote Code",
+      "link": "https://thehackernews.com/2026/06/veeam-backup-replication-rce-flaw-lets.html",
+      "raw_summary": "Veeam has released security patches to address a critical flaw in its Backup &amp; Replication software that could result in remote code execution.\n\nTracked as CVE-2026-44963, the vulnerability carries a CVSS score of 9.4 out of a maximum of 10.0.\n\n\"A vulnerability allowing remote code execution (RCE) on the Backup Server by an authenticated domain user,\" Veeam said in a Tuesday advisory.\n\nIt",
+      "source": "The Hacker News",
+      "published": "Tue, 09 Jun 2026 22:09:47 +0530",
+      "summary": "Veeam Backup & Replication RCE Flaw Lets Domain Users Run Remote Code\nVeeam has released security patches to address a critical flaw in its Backup &amp; Replication software that could result in remote code execution.\n\nTracked as CVE-2026-44963, the vulnerability carries a CVSS score of 9.4 out of a"
+    },
+    {
+      "title": "Microsoft Restores Some GitHub Repos, Keeps Others Offline as Miasma Probe Continues",
+      "link": "https://thehackernews.com/2026/06/microsoft-restores-some-github-repos.html",
+      "raw_summary": "Microsoft on Monday confirmed that it temporarily removed some GitHub repositories in response to a recent security incident that led to 73 of its open-source projects being compromised to inject an information stealer into the code.\n\n\"Our priority is to protect customers and the broader ecosystem,\" a Microsoft spokesperson told The Hacker News via email. \"We temporarily removed some",
+      "source": "The Hacker News",
+      "published": "Tue, 09 Jun 2026 22:04:52 +0530",
+      "summary": "Microsoft Restores Some GitHub Repos, Keeps Others Offline as Miasma Probe Continues\nMicrosoft on Monday confirmed that it temporarily removed some GitHub repositories in response to a recent security incident that led to 73 of its open-source projects being compromised to inject an information stea"
+    },
+    {
       "title": "WinRAR Flaw Exploited by Russia-Aligned Groups to Deploy Stealers in Ukraine",
       "link": "https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html",
       "raw_summary": "Two Russia-aligned cyber attack campaigns have continued to exploit a security flaw in WinRAR to target Ukrainian organisations, almost a year after patches for the vulnerability were released.\n\nThe activity has been attributed by Trend Micro to Earth Dahu (aka Gamaredon) and SHADOW-EARTH-066 (aka UAC-0226). It involves the exploitation of CVE-2025-8088, a path traversal flaw that allows an",
@@ -59,268 +83,244 @@
       "summary": "Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models\nUniversity of Toronto researchers have built and tested a proof-of-concept AI-driven computer worm that uses a locally hosted open-weight large language model to reason its way through a network, generate "
     },
     {
-      "title": "Chrome V8 Zero-Day CVE-2026-11645 Exploited in the Wild - Patch Now",
-      "link": "https://thehackernews.com/2026/06/chrome-v8-zero-day-cve-2026-11645.html",
-      "raw_summary": "Google has released security updates to address 74 vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe high-severity vulnerability, tracked as CVE-2026-11645 (CVSS score: 8.8), has been described as an out-of-bounds memory access in V8, Chrome's JavaScript and WebAssembly engine.\n\n\"Out-of-bounds read and write in V8 in Google Chrome prior to 149.0.7827.103",
-      "source": "The Hacker News",
-      "published": "Tue, 09 Jun 2026 17:28:49 +0530",
-      "summary": "Chrome V8 Zero-Day CVE-2026-11645 Exploited in the Wild - Patch Now\nGoogle has released security updates to address 74 vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe high-severity vulnerability, tracked as CVE-2026-11645 (CVSS score: 8.8), has been described"
-    },
-    {
-      "title": "The Hidden Security Risk in Modern Networks: The Work Between Tools",
-      "link": "https://thehackernews.com/2026/06/the-hidden-security-risk-in-modern.html",
-      "raw_summary": "Organizations have more visibility than ever. Growing tech stacks provide greater coverage, and network security teams are increasingly adopting AI and automation to help with routine tasks and reduce manual effort.\n\nBut the same challenges persist. Outages still last hours, causing significant financial losses, operational disruption, and reputational impact. Threat response and mean time to",
-      "source": "The Hacker News",
-      "published": "Tue, 09 Jun 2026 17:00:00 +0530",
-      "summary": "The Hidden Security Risk in Modern Networks: The Work Between Tools\nOrganizations have more visibility than ever. Growing tech stacks provide greater coverage, and network security teams are increasingly adopting AI and automation to help with routine tasks and reduce manual effort.\n\nBut the same ch"
-    },
-    {
-      "title": "New FROST Attack Lets Websites Track What Sites and Apps You Open via SSD Timing",
-      "link": "https://thehackernews.com/2026/06/new-frost-attack-lets-websites-track.html",
-      "raw_summary": "A malicious website can work out which sites you visit and which apps you open, using nothing but JavaScript and the timing of your SSD. The attack, called FROST, needs no native code, no extension, and no permission prompt.\n\nYou open the page, leave the tab sitting there, and it watches the drive for contention in the background.\n\nResearchers at Graz University of Technology built it and",
-      "source": "The Hacker News",
-      "published": "Tue, 09 Jun 2026 15:20:41 +0530",
-      "summary": "New FROST Attack Lets Websites Track What Sites and Apps You Open via SSD Timing\nA malicious website can work out which sites you visit and which apps you open, using nothing but JavaScript and the timing of your SSD. The attack, called FROST, needs no native code, no extension, and no permission pr"
-    },
-    {
-      "title": "WWDC 2026: Apple is Folding",
-      "link": "https://cupertinolens.com/2026/06/09/wwdc-2026-apple-is-folding/",
-      "raw_summary": "<p>Article URL: <a href=\"https://cupertinolens.com/2026/06/09/wwdc-2026-apple-is-folding/\">https://cupertinolens.com/2026/06/09/wwdc-2026-apple-is-folding/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48461226\">https://news.ycombinator.com/item?id=48461226</a></p>\n<p>Points: 28</p>\n<p># Comments: 15</p>",
+      "title": "Ask HN: Are you still using your Vision Pro?",
+      "link": "https://news.ycombinator.com/item?id=48465702",
+      "raw_summary": "<p>Almost two years ago there was a thread on this (https://news.ycombinator.com/item?id=40872102).  I'm curious now that more time has passed what people think?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48465702\">https://news.ycombinator.com/item?id=48465702</a></p>\n<p>Points: 51</p>\n<p># Comments: 40</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 09 Jun 2026 13:56:38 +0000",
-      "summary": "WWDC 2026: Apple is Folding\n<p>Article URL: <a href=\"https://cupertinolens.com/2026/06/09/wwdc-2026-apple-is-folding/\">https://cupertinolens.com/2026/06/09/wwdc-2026-apple-is-folding/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48461226\">https://news.ycombinator.com/item?i"
+      "published": "Tue, 09 Jun 2026 18:47:52 +0000",
+      "summary": "Ask HN: Are you still using your Vision Pro?\n<p>Almost two years ago there was a thread on this (https://news.ycombinator.com/item?id=40872102).  I'm curious now that more time has passed what people think?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48465702\">https://n"
     },
     {
-      "title": "Albania Is Not for Sale: Kushner's $4B Resort Triggers'Flamingo Revolution'",
-      "link": "https://www.yacnews.com/albania-is-not-for-sale-kushners-4-billion-resort-triggers-flamingo-revolution-asset-freeze-and-an-eu-warning/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.yacnews.com/albania-is-not-for-sale-kushners-4-billion-resort-triggers-flamingo-revolution-asset-freeze-and-an-eu-warning/\">https://www.yacnews.com/albania-is-not-for-sale-kushners-4-billion-resort-triggers-flamingo-revolution-asset-freeze-and-an-eu-warning/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48461012\">https://news.ycombinator.com/item?id=48461012</a></p>\n<p>Points: 60</p>\n<p># Comments: 11</p>",
+      "title": "CEOs Who Think AI Replaces Their Employees Are Just Bad CEOs",
+      "link": "https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/\">https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48465675\">https://news.ycombinator.com/item?id=48465675</a></p>\n<p>Points: 19</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 09 Jun 2026 13:39:31 +0000",
-      "summary": "Albania Is Not for Sale: Kushner's $4B Resort Triggers'Flamingo Revolution'\n<p>Article URL: <a href=\"https://www.yacnews.com/albania-is-not-for-sale-kushners-4-billion-resort-triggers-flamingo-revolution-asset-freeze-and-an-eu-warning/\">https://www.yacnews.com/albania-is-not-for-sale-kushners-4-bill"
+      "published": "Tue, 09 Jun 2026 18:45:59 +0000",
+      "summary": "CEOs Who Think AI Replaces Their Employees Are Just Bad CEOs\n<p>Article URL: <a href=\"https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/\">https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/</a></p>\n<p>Commen"
     },
     {
-      "title": "The better the autopilot the worse the pilot",
-      "link": "https://julienreszka.com/blog/the-better-the-autopilot-the-worse-the-pilot/",
-      "raw_summary": "<p>Article URL: <a href=\"https://julienreszka.com/blog/the-better-the-autopilot-the-worse-the-pilot/\">https://julienreszka.com/blog/the-better-the-autopilot-the-worse-the-pilot/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48460758\">https://news.ycombinator.com/item?id=48460758</a></p>\n<p>Points: 38</p>\n<p># Comments: 27</p>",
+      "title": "The LD_DEBUG environment variable (2012)",
+      "link": "https://bnikolic.co.uk/blog/linux-ld-debug.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://bnikolic.co.uk/blog/linux-ld-debug.html\">https://bnikolic.co.uk/blog/linux-ld-debug.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48464330\">https://news.ycombinator.com/item?id=48464330</a></p>\n<p>Points: 23</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 09 Jun 2026 13:17:34 +0000",
-      "summary": "The better the autopilot the worse the pilot\n<p>Article URL: <a href=\"https://julienreszka.com/blog/the-better-the-autopilot-the-worse-the-pilot/\">https://julienreszka.com/blog/the-better-the-autopilot-the-worse-the-pilot/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=484607"
+      "published": "Tue, 09 Jun 2026 17:29:05 +0000",
+      "summary": "The LD_DEBUG environment variable (2012)\n<p>Article URL: <a href=\"https://bnikolic.co.uk/blog/linux-ld-debug.html\">https://bnikolic.co.uk/blog/linux-ld-debug.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48464330\">https://news.ycombinator.com/item?id=48464330</a></p>\n<p"
     },
     {
-      "title": "Emerge Career (YC S22) Is Hiring a Founding Growth Marketer",
-      "link": "https://www.ycombinator.com/companies/emerge-career/jobs/v0S1AEG-founding-growth-marketer",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/emerge-career/jobs/v0S1AEG-founding-growth-marketer\">https://www.ycombinator.com/companies/emerge-career/jobs/v0S1AEG-founding-growth-marketer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48459968\">https://news.ycombinator.com/item?id=48459968</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
+      "title": "What it feels like to work with Mythos",
+      "link": "https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos\">https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48464140\">https://news.ycombinator.com/item?id=48464140</a></p>\n<p>Points: 58</p>\n<p># Comments: 50</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 09 Jun 2026 12:01:09 +0000",
-      "summary": "Emerge Career (YC S22) Is Hiring a Founding Growth Marketer\n<p>Article URL: <a href=\"https://www.ycombinator.com/companies/emerge-career/jobs/v0S1AEG-founding-growth-marketer\">https://www.ycombinator.com/companies/emerge-career/jobs/v0S1AEG-founding-growth-marketer</a></p>\n<p>Comments URL: <a href=\""
+      "published": "Tue, 09 Jun 2026 17:17:21 +0000",
+      "summary": "What it feels like to work with Mythos\n<p>Article URL: <a href=\"https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos\">https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48464140\">https://ne"
     },
     {
-      "title": "Show HN: Gravity – interactive solar-system simulator, from Newton to Einstein",
-      "link": "https://qunabu.github.io/Gravity/",
-      "raw_summary": "<p>Just for fun and self education, I've built this over a weekend to teach myself why orbits exist, not just show planets going around. Something that was never clearly explain to me in school. \nIt opens with a guided tour that builds the idea up step by step: two bodies and the equal/opposite force, inertia (the Sun is removed and Earth just drifts straight), then \"an orbit is falling and continuously missing,\" cosmic velocities with a little rocket, Voyager 1 & 2's real gravity assists (the clock runs the actual 1977–1989 dates so the planets orbit into their grand-tour alignment and the slingshots line up), and it ends on Einstein — gravity as curved spacetime, the classic rubber-sheet well.\nWhat's real: every body uses its real radius/mass and J2000 orbital elements; positions come from solving Kepler's equation each  frame. You can toggle to an N-body mode (symplectic leapfrog) that shows live energy drift (~1e-6%) so you can see the integrator is honest. The only thing faked is scale — at true scale you can't see anything — so there's a toggle between true scale and a log-remapped \"visual\" scale, with physics always running in real AU.\nTech: TypeScript + Three.js + Vite, fully client-side, no backend, works offline (surface textures are generated procedurally from value-noise; only Earth uses a real image). Source: <a href=\"https://github.com/qunabu/Gravity\" rel=\"nofollow\">https://github.com/qunabu/Gravity</a><p>Happy to answer questions — and feedback on the physics or the explanations is very welcome. This project might be totally inaccurate in terms of real physics, this is how i do understand this on my own - i'm happy to confront this with reality</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48459837\">https://news.ycombinator.com/item?id=48459837</a></p>\n<p>Points: 31</p>\n<p># Comments: 12</p>",
+      "title": "Claude Fable 5",
+      "link": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "raw_summary": "<p>System Card [pdf]: <a href=\"https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf\" rel=\"nofollow\">https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c3...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48463808\">https://news.ycombinator.com/item?id=48463808</a></p>\n<p>Points: 1033</p>\n<p># Comments: 842</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 09 Jun 2026 11:46:40 +0000",
-      "summary": "Show HN: Gravity – interactive solar-system simulator, from Newton to Einstein\n<p>Just for fun and self education, I've built this over a weekend to teach myself why orbits exist, not just show planets going around. Something that was never clearly explain to me in school. \nIt opens with a guided to"
+      "published": "Tue, 09 Jun 2026 16:58:01 +0000",
+      "summary": "Claude Fable 5\n<p>System Card [pdf]: <a href=\"https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf\" rel=\"nofollow\">https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c3...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48463808\">https://new"
     },
     {
-      "title": "Apple’s App Store rolls out personalized recommendations",
-      "link": "https://techcrunch.com/2026/06/09/apples-app-store-rolls-out-personalized-recommendations/",
-      "raw_summary": "Apple will now recommend apps based on your downloads and behavior.",
+      "title": "Can tech companies learn to love cheaper AI models?",
+      "link": "https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/",
+      "raw_summary": "If those same AI workloads can be handled by cheaper models without affecting quality, it would mean a massive shift in the economics of AI.",
       "source": "TechCrunch",
-      "published": "Tue, 09 Jun 2026 14:30:17 +0000",
-      "summary": "Apple’s App Store rolls out personalized recommendations\nApple will now recommend apps based on your downloads and behavior."
+      "published": "Tue, 09 Jun 2026 18:56:09 +0000",
+      "summary": "Can tech companies learn to love cheaper AI models?\nIf those same AI workloads can be handled by cheaper models without affecting quality, it would mean a massive shift in the economics of AI."
     },
     {
-      "title": "Sandstone raises $30M to bring AI to in-house legal teams",
-      "link": "https://techcrunch.com/2026/06/09/sandstone-raises-30m-to-bring-ai-to-in-house-legal-teams/",
-      "raw_summary": "Sandstone's Series A was led by Lightspeed Partners, with participation from Sequoia.",
+      "title": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence, and more",
+      "link": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
+      "raw_summary": "Apple primarily made the case for an improved experience with its long-standing Siri assistant, which like most other announcements had a hefty helping of AI.",
       "source": "TechCrunch",
-      "published": "Tue, 09 Jun 2026 13:47:25 +0000",
-      "summary": "Sandstone raises $30M to bring AI to in-house legal teams\nSandstone's Series A was led by Lightspeed Partners, with participation from Sequoia."
+      "published": "Tue, 09 Jun 2026 18:04:24 +0000",
+      "summary": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence, and more\nApple primarily made the case for an improved experience with its long-standing Siri assistant, which like most other announcements had a hefty helping of AI."
     },
     {
-      "title": "Lovable says it has hit $500M in annualized revenue, with 1 million new projects a week",
-      "link": "https://techcrunch.com/2026/06/09/lovable-says-it-has-hit-500m-in-annualized-revenue-with-1-million-new-projects-a-week/",
-      "raw_summary": "Lovable says it has now surpassed $500 million in annualized run-rate revenue and its users are building businesses and replacing internal software.",
+      "title": "CISA gives US federal agencies three days to fix a VPN bug under attack by a ransomware gang",
+      "link": "https://techcrunch.com/2026/06/09/cisa-gives-us-federal-agencies-three-days-to-fix-a-vpn-bug-under-attack-by-a-ransomware-gang/",
+      "raw_summary": "Check Point said hackers broke into dozens of organizations by exploiting a VPN bug in several of its products used across the government.",
       "source": "TechCrunch",
-      "published": "Tue, 09 Jun 2026 13:00:00 +0000",
-      "summary": "Lovable says it has hit $500M in annualized revenue, with 1 million new projects a week\nLovable says it has now surpassed $500 million in annualized run-rate revenue and its users are building businesses and replacing internal software."
+      "published": "Tue, 09 Jun 2026 17:40:08 +0000",
+      "summary": "CISA gives US federal agencies three days to fix a VPN bug under attack by a ransomware gang\nCheck Point said hackers broke into dozens of organizations by exploiting a VPN bug in several of its products used across the government."
     },
     {
-      "title": "How an e-scooter founder raised $5 million to build space data centers",
-      "link": "https://techcrunch.com/2026/06/09/how-an-e-scooter-founder-raised-5-million-to-build-space-data-centers/",
-      "raw_summary": "Orbital founder Euwyn Poon built 250,000 scooters at Spin. Now he wants to launch 10,000 space data centers.",
+      "title": "Anthropic’s Claude Fable 5 is a version of Mythos the public can access today",
+      "link": "https://techcrunch.com/2026/06/09/anthropic-released-claude-fable-5-its-most-powerful-model-publicly-days-after-warning-ai-is-getting-too-dangerous/",
+      "raw_summary": "Anthropic is releasing Claude Fable 5, its first Mythos-class model available to the public. The model comes with guardrails that block responses in high-risk areas like cybersecurity and biology.",
       "source": "TechCrunch",
-      "published": "Tue, 09 Jun 2026 12:00:00 +0000",
-      "summary": "How an e-scooter founder raised $5 million to build space data centers\nOrbital founder Euwyn Poon built 250,000 scooters at Spin. Now he wants to launch 10,000 space data centers."
+      "published": "Tue, 09 Jun 2026 17:00:00 +0000",
+      "summary": "Anthropic’s Claude Fable 5 is a version of Mythos the public can access today\nAnthropic is releasing Claude Fable 5, its first Mythos-class model available to the public. The model comes with guardrails that block responses in high-risk areas like cybersecurity and biology."
     },
     {
-      "title": "Evotrex raises $30M to build the RV that doesn’t need a charging station",
-      "link": "https://techcrunch.com/2026/06/09/anker-backed-evotrex-raises-30m-to-build-its-off-grid-rv/",
-      "raw_summary": "The startup is one of many entering the RV space, but it's banking on a hybrid power system that can go far beyond campsites.",
+      "title": "Rivian starts deliveries of its all-important R2 SUV",
+      "link": "https://techcrunch.com/2026/06/09/rivian-starts-deliveries-of-its-all-important-r2-suv/",
+      "raw_summary": "Founder and CEO RJ Scaringe has called it \"maybe the most important thing we've launched to date.\"",
       "source": "TechCrunch",
-      "published": "Tue, 09 Jun 2026 09:00:00 +0000",
-      "summary": "Evotrex raises $30M to build the RV that doesn’t need a charging station\nThe startup is one of many entering the RV space, but it's banking on a hybrid power system that can go far beyond campsites."
+      "published": "Tue, 09 Jun 2026 16:46:08 +0000",
+      "summary": "Rivian starts deliveries of its all-important R2 SUV\nFounder and CEO RJ Scaringe has called it \"maybe the most important thing we've launched to date.\""
     },
     {
-      "title": "Apple says its AI is still private, even when it's running on Google's servers",
-      "link": "https://arstechnica.com/apple/2026/06/apple-says-its-ai-is-still-private-even-when-its-running-on-googles-servers/",
-      "raw_summary": "Some models run in Google's cloud, but without giving Google any kind of access.",
+      "title": "NASA assigns crew for Artemis III, sets aggressive timeline for flying it",
+      "link": "https://arstechnica.com/space/2026/06/nasa-assigns-crew-for-artemis-iii-sets-aggressive-timeline-for-flying-it/",
+      "raw_summary": "\"Artemis III will be an extraordinary demonstration of what is possible.\"",
       "source": "Ars Technica - All content",
-      "published": "Tue, 09 Jun 2026 13:05:49 +0000",
-      "summary": "Apple says its AI is still private, even when it's running on Google's servers\nSome models run in Google's cloud, but without giving Google any kind of access."
+      "published": "Tue, 09 Jun 2026 18:42:19 +0000",
+      "summary": "NASA assigns crew for Artemis III, sets aggressive timeline for flying it\n\"Artemis III will be an extraordinary demonstration of what is possible.\""
     },
     {
-      "title": "First Drive: The 2027 Rivian R2 entirely changes the EV game",
-      "link": "https://arstechnica.com/cars/2026/06/first-drive-the-2027-rivian-r2-entirely-changes-the-ev-game/",
-      "raw_summary": "Rivian's second EV is the sub-$60,000 R2, and it was worth the wait.",
+      "title": "Screwworms in US: Human risk is low—but they can burrow through your skull",
+      "link": "https://arstechnica.com/health/2026/06/screwworms-in-us-human-risk-is-low-but-they-can-burrow-through-your-skull/",
+      "raw_summary": "The chances are low, but not zero.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 09 Jun 2026 13:00:46 +0000",
-      "summary": "First Drive: The 2027 Rivian R2 entirely changes the EV game\nRivian's second EV is the sub-$60,000 R2, and it was worth the wait."
+      "published": "Tue, 09 Jun 2026 17:09:10 +0000",
+      "summary": "Screwworms in US: Human risk is low—but they can burrow through your skull\nThe chances are low, but not zero."
     },
     {
-      "title": "FCC lifts looming deadline for Amazon Leo satellite broadband constellation",
-      "link": "https://arstechnica.com/space/2026/06/fcc-lifts-looming-deadline-for-amazon-leo-satellite-broadband-constellation/",
-      "raw_summary": "The waiver \"serves the public interest by promoting a second large satellite broadband constellation.\"",
+      "title": "One day after discovery, Meta pulls facial recognition code from its smart glasses",
+      "link": "https://arstechnica.com/tech-policy/2026/06/one-day-after-discovery-meta-pulls-facial-recognition-code-from-its-smart-glasses/",
+      "raw_summary": "Meta won't say why or whether it's coming back.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 09 Jun 2026 00:59:40 +0000",
-      "summary": "FCC lifts looming deadline for Amazon Leo satellite broadband constellation\nThe waiver \"serves the public interest by promoting a second large satellite broadband constellation.\""
+      "published": "Tue, 09 Jun 2026 16:31:10 +0000",
+      "summary": "One day after discovery, Meta pulls facial recognition code from its smart glasses\nMeta won't say why or whether it's coming back."
     },
     {
-      "title": "Tests suggest Russian satellites can jam GPS on a continental scale",
-      "link": "https://arstechnica.com/space/2026/06/tests-suggest-russian-satellites-can-jam-gps-on-a-continental-scale/",
-      "raw_summary": "Mystery of GPS interference across Europe raises questions about Russian motives.",
+      "title": "Drone boat picked up downed US Army helicopter pilots—a first for sea rescues",
+      "link": "https://arstechnica.com/gadgets/2026/06/us-military-claims-first-drone-boat-rescue-of-downed-helicopter-crew/",
+      "raw_summary": "US Navy’s Task Force 59 achieved the drone rescue at sea near Strait of Hormuz.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 08 Jun 2026 21:56:28 +0000",
-      "summary": "Tests suggest Russian satellites can jam GPS on a continental scale\nMystery of GPS interference across Europe raises questions about Russian motives."
+      "published": "Tue, 09 Jun 2026 15:44:36 +0000",
+      "summary": "Drone boat picked up downed US Army helicopter pilots—a first for sea rescues\nUS Navy’s Task Force 59 achieved the drone rescue at sea near Strait of Hormuz."
     },
     {
-      "title": "macOS 27 requires Apple Silicon, as Apple draws down the Intel Mac era",
-      "link": "https://arstechnica.com/gadgets/2026/06/macos-27-requires-apple-silicon-as-apple-draws-down-the-intel-mac-era/",
-      "raw_summary": "You'll need an M1 or better to run the next release of macOS.",
+      "title": "High-severity vulnerability in Linux caused by a single faulty character",
+      "link": "https://arstechnica.com/security/2026/06/a-single-errant-character-in-the-linux-kernel-allows-attacker-to-gain-root/",
+      "raw_summary": "Use-after-free bug can be exploited to evade sandbox defenses.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 08 Jun 2026 21:03:56 +0000",
-      "summary": "macOS 27 requires Apple Silicon, as Apple draws down the Intel Mac era\nYou'll need an M1 or better to run the next release of macOS."
+      "published": "Tue, 09 Jun 2026 15:12:43 +0000",
+      "summary": "High-severity vulnerability in Linux caused by a single faulty character\nUse-after-free bug can be exploited to evade sandbox defenses."
     },
     {
-      "title": "GSK to buy US cancer biotech Nuvalent for $10.6bn",
-      "link": "https://www.ft.com/content/c22fca23-2917-420b-9538-744a093d4b47",
-      "raw_summary": "New chief Luke Miels makes his mark at GSK with one of UK drugmakers’ biggest deals",
+      "title": "Nasdaq slides in volatile trading as tech sell-off reignites",
+      "link": "https://www.ft.com/content/13d4845a-f278-489b-ab89-a2e9e6a79ede",
+      "raw_summary": "Heavy losses for AI-linked stocks overshadow gains across rest of market",
       "source": "World",
-      "published": "Tue, 09 Jun 2026 14:20:31 GMT",
-      "summary": "GSK to buy US cancer biotech Nuvalent for $10.6bn\nNew chief Luke Miels makes his mark at GSK with one of UK drugmakers’ biggest deals"
+      "published": "Tue, 09 Jun 2026 18:29:50 GMT",
+      "summary": "Nasdaq slides in volatile trading as tech sell-off reignites\nHeavy losses for AI-linked stocks overshadow gains across rest of market"
     },
     {
-      "title": "Lessons from Germany’s (entirely predictable) UN Security Council defeat",
-      "link": "https://www.ft.com/content/02125b2b-f560-47d5-8910-c1568aecf05e",
-      "raw_summary": "In a world of aggressive great powers, middle powers must learn to forge alliances",
+      "title": "Oil slides as US official says Hormuz transits are ‘meaningfully’ climbing",
+      "link": "https://www.ft.com/content/c7e5bbbd-65ed-4678-baee-a4b63123e0e5",
+      "raw_summary": "Energy secretary Chris Wright cautions that flows through the strait will take months to fully recover",
       "source": "World",
-      "published": "Tue, 09 Jun 2026 14:14:42 GMT",
-      "summary": "Lessons from Germany’s (entirely predictable) UN Security Council defeat\nIn a world of aggressive great powers, middle powers must learn to forge alliances"
+      "published": "Tue, 09 Jun 2026 18:17:01 GMT",
+      "summary": "Oil slides as US official says Hormuz transits are ‘meaningfully’ climbing\nEnergy secretary Chris Wright cautions that flows through the strait will take months to fully recover"
     },
     {
-      "title": "EU considers suspending rise in Russian oil price cap",
-      "link": "https://www.ft.com/content/a61e339d-7387-4f21-acb0-851732f2d6f5",
-      "raw_summary": "Limit on Russian crude was set to increase from $44 a barrel to $70 following supply disruption due to Middle East war",
+      "title": "The hard truths about England’s receding coastline",
+      "link": "https://www.ft.com/content/78067073-fa05-416e-80e9-065dcee17427",
+      "raw_summary": "The entire shoreline cannot be protected from erosion, but the state can mitigate future fallout",
       "source": "World",
-      "published": "Tue, 09 Jun 2026 14:04:06 GMT",
-      "summary": "EU considers suspending rise in Russian oil price cap\nLimit on Russian crude was set to increase from $44 a barrel to $70 following supply disruption due to Middle East war"
+      "published": "Tue, 09 Jun 2026 17:59:56 GMT",
+      "summary": "The hard truths about England’s receding coastline\nThe entire shoreline cannot be protected from erosion, but the state can mitigate future fallout"
     },
     {
-      "title": "VodafoneThree bids for TalkTalk consumer business",
-      "link": "https://www.ft.com/content/0c4d4c67-c082-47e4-a65b-386a9307d45e",
-      "raw_summary": "Acquisition would help UK’s largest mobile operator fulfil ambition to double its broadband business",
+      "title": "Trump vows to ‘respond’ after Iran ‘shot down’ a US helicopter",
+      "link": "https://www.ft.com/content/ceb10e74-9ff1-4cf6-82e0-70161c6f1f09",
+      "raw_summary": "American president said Tehran downed Apache aircraft over Strait of Hormuz amid fragile ceasefire",
       "source": "World",
-      "published": "Tue, 09 Jun 2026 14:00:28 GMT",
-      "summary": "VodafoneThree bids for TalkTalk consumer business\nAcquisition would help UK’s largest mobile operator fulfil ambition to double its broadband business"
+      "published": "Tue, 09 Jun 2026 17:46:19 GMT",
+      "summary": "Trump vows to ‘respond’ after Iran ‘shot down’ a US helicopter\nAmerican president said Tehran downed Apache aircraft over Strait of Hormuz amid fragile ceasefire"
     },
     {
-      "title": "Trump and Netanyahu’s paths diverge",
-      "link": "https://www.ft.com/content/a4e66a4e-4545-4557-a0f4-981fea390862",
-      "raw_summary": "Also in today’s newsletter, president booed at Knicks-Spurs game and will Trump abandon Taiwan?",
+      "title": "Starmer to tell ministers to quit if they back Burnham",
+      "link": "https://www.ft.com/content/56bae666-52f8-42ed-846c-abe65c94eb2d",
+      "raw_summary": "Supporters of Greater Manchester mayor say he already has enough MPs to launch a leadership challenge",
       "source": "World",
-      "published": "Tue, 09 Jun 2026 13:00:07 GMT",
-      "summary": "Trump and Netanyahu’s paths diverge\nAlso in today’s newsletter, president booed at Knicks-Spurs game and will Trump abandon Taiwan?"
+      "published": "Tue, 09 Jun 2026 17:17:34 GMT",
+      "summary": "Starmer to tell ministers to quit if they back Burnham\nSupporters of Greater Manchester mayor say he already has enough MPs to launch a leadership challenge"
     },
     {
-      "title": "Oil Falls as China Slashes Imports and Tenuous Peace Holds",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-08/latest-oil-market-news-and-analysis-for-june-9",
-      "raw_summary": "Oil declined after new data shed light on demand destruction in China, providing much-needed relief for global oil supplies strained by the war in Iran.",
+      "title": "Smucker Plans to Lower Coffee Prices Next Year as Costs Drop",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-09/smucker-profit-tops-expectations-buoyed-by-coffee-prices",
+      "raw_summary": "JM Smucker Co. said it planned to lower coffee prices next year as the cost comes down.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 08 Jun 2026 22:07:27 GMT",
-      "summary": "Oil Falls as China Slashes Imports and Tenuous Peace Holds\nOil declined after new data shed light on demand destruction in China, providing much-needed relief for global oil supplies strained by the war in Iran."
+      "published": "Tue, 09 Jun 2026 11:24:44 GMT",
+      "summary": "Smucker Plans to Lower Coffee Prices Next Year as Costs Drop\nJM Smucker Co. said it planned to lower coffee prices next year as the cost comes down."
     },
     {
-      "title": "Three Charts That Sum Up the Big AI Debates Right Now",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-06-09/three-charts-that-sum-up-the-big-ai-debates-right-now",
-      "raw_summary": "Capital spend, ROI, and energy.",
+      "title": "Treasuries Hold Oil-Driven Gains Despite Soft Auction Demand",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-09/treasuries-advance-before-auction-as-oil-prices-retreat-further",
+      "raw_summary": "Treasuries rose as falling oil prices overshadowed middling demand at the first of three longer-term US debt auctions this week.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 09 Jun 2026 14:15:57 GMT",
-      "summary": "Three Charts That Sum Up the Big AI Debates Right Now\nCapital spend, ROI, and energy."
+      "published": "Tue, 09 Jun 2026 16:31:43 GMT",
+      "summary": "Treasuries Hold Oil-Driven Gains Despite Soft Auction Demand\nTreasuries rose as falling oil prices overshadowed middling demand at the first of three longer-term US debt auctions this week."
     },
     {
-      "title": "South Africa Targets Key Mining Registry by End of March",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-09/south-africa-targets-key-mining-registry-by-end-of-march",
-      "raw_summary": "South Africa expects to fully launch a long-awaited database of mineral rights within 10 months, according to a senior official.",
+      "title": "Equity Market Rotation Discussed Amid Rising Fed & Interest Rate Concerns",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-09/equity-market-rotation-amid-rising-fed-concerns-video",
+      "raw_summary": "Baylor Lancaster-Samuel, Senior Vice President and Chief Investment Officer with Amerant Investments discusses the current phase of the equity market cycle. She discusses the recent rotation in equities over the past few weeks, driven by increasing attention to macroeconomic factors such as interest rates and Federal Reserve policies. She speaks with Romaine Bostick & Katie Greifeld on \"The Close.\" (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Tue, 09 Jun 2026 11:02:54 GMT",
-      "summary": "South Africa Targets Key Mining Registry by End of March\nSouth Africa expects to fully launch a long-awaited database of mineral rights within 10 months, according to a senior official."
+      "published": "Tue, 09 Jun 2026 19:24:31 GMT",
+      "summary": "Equity Market Rotation Discussed Amid Rising Fed & Interest Rate Concerns\nBaylor Lancaster-Samuel, Senior Vice President and Chief Investment Officer with Amerant Investments discusses the current phase of the equity market cycle. She discusses the recent rotation in equities over the past few weeks"
     },
     {
-      "title": "New York Penn Station Rehab Eyes Billions in Federal Funding",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-08/new-york-s-penn-station-rehab-eyes-billions-in-federal-funding",
-      "raw_summary": "The entities transforming New York’s Penn Station are slated to learn how much federal money will be directed to the project in about six months, according to Peter Cipriano, chief executive officer of the Halmar-Skanska consortium, the renovation’s master developer.",
-      "source": "Bloomberg Markets",
-      "published": "Mon, 08 Jun 2026 20:40:28 GMT",
-      "summary": "New York Penn Station Rehab Eyes Billions in Federal Funding\nThe entities transforming New York’s Penn Station are slated to learn how much federal money will be directed to the project in about six months, according to Peter Cipriano, chief executive officer of the Halmar-Skanska consortium, the re"
-    },
-    {
-      "title": "Stocks Join Bonds Higher as Oil Falls Below $90: Markets Wrap",
+      "title": "Stocks Fall as Tech Rout, War Jitters Roil Trading: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-06-08/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "A rebound on Wall Street powered ahead, with stocks joining bonds higher as oil fell amid hopes the US and Iran are getting closer to a deal to end the war that has rattled global markets.",
+      "raw_summary": "A fresh wave of selling swept through global equity markets as an escalation in the Middle East collided with mounting anxiety over technology stocks, rattling investors and derailing a rebound toward record highs.",
       "source": "Bloomberg Markets",
       "published": "Mon, 08 Jun 2026 22:11:30 GMT",
-      "summary": "Stocks Join Bonds Higher as Oil Falls Below $90: Markets Wrap\nA rebound on Wall Street powered ahead, with stocks joining bonds higher as oil fell amid hopes the US and Iran are getting closer to a deal to end the war that has rattled global markets."
+      "summary": "Stocks Fall as Tech Rout, War Jitters Roil Trading: Markets Wrap\nA fresh wave of selling swept through global equity markets as an escalation in the Middle East collided with mounting anxiety over technology stocks, rattling investors and derailing a rebound toward record highs."
     },
     {
-      "title": "A16z, Paradigm lead $175 million bet to move global credit markets onchain",
-      "link": "https://www.coindesk.com/business/2026/06/09/a16z-paradigm-lead-usd175-million-bet-to-move-global-credit-markets-onchain",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 09 Jun 2026 14:07:32 +0000",
-      "summary": "A16z, Paradigm lead $175 million bet to move global credit markets onchain\n"
+      "title": "NASA Picks Crew for 2027 Artemis Mission to Test Moon Landers",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-09/nasa-picks-crew-for-2027-artemis-mission-video",
+      "raw_summary": "NASA announced the four astronauts who will fly to space as soon as next year to test out moon landers built by SpaceX and Blue Origin &mdash; the next stage in the agency’s ambitious Artemis program to ultimately send humans back to the lunar surface. (Source: Bloomberg)",
+      "source": "Bloomberg Markets",
+      "published": "Tue, 09 Jun 2026 19:21:17 GMT",
+      "summary": "NASA Picks Crew for 2027 Artemis Mission to Test Moon Landers\nNASA announced the four astronauts who will fly to space as soon as next year to test out moon landers built by SpaceX and Blue Origin &mdash; the next stage in the agency’s ambitious Artemis program to ultimately send humans back to the "
     },
     {
-      "title": "CoinDesk 20 performance update: AAVE Drops 2.6% as all constituents trade lower",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/06/09/coindesk-20-performance-update-aave-drops-2-6-as-all-constituents-trade-lower",
+      "title": "Securitize CEO says tokenized stocks could unlock a $5 trillion crypto market",
+      "link": "https://www.coindesk.com/business/2026/06/09/securitize-ceo-says-tokenized-stocks-could-unlock-a-usd5-trillion-crypto-market",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 09 Jun 2026 13:16:44 +0000",
-      "summary": "CoinDesk 20 performance update: AAVE Drops 2.6% as all constituents trade lower\n"
+      "published": "Tue, 09 Jun 2026 19:49:28 +0000",
+      "summary": "Securitize CEO says tokenized stocks could unlock a $5 trillion crypto market\n"
     },
     {
-      "title": "Bitcoin inflows slow sharply in 2026 as investors chase AI, Bernstein says",
-      "link": "https://www.coindesk.com/markets/2026/06/09/bitcoin-inflows-slow-sharply-in-2026-as-investors-chase-ai-bernstein-says",
+      "title": "UK financial regulator moves to allow mutual funds 10% exposure to crypto ETNs",
+      "link": "https://www.coindesk.com/policy/2026/06/09/uk-financial-regulator-moves-to-allow-mutual-funds-10-exposure-to-crypto-etns",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 09 Jun 2026 13:02:48 +0000",
-      "summary": "Bitcoin inflows slow sharply in 2026 as investors chase AI, Bernstein says\n"
+      "published": "Tue, 09 Jun 2026 15:39:13 +0000",
+      "summary": "UK financial regulator moves to allow mutual funds 10% exposure to crypto ETNs\n"
     },
     {
-      "title": "BlackRock warns of energy shock as May CPI is set to show acceleration in inflation",
-      "link": "https://www.coindesk.com/markets/2026/06/09/blackrock-warns-of-energy-shock-as-may-cpi-is-set-to-show-acceleration-in-inflation",
+      "title": "5 corruption gaps Congress must close in the Clarity Act",
+      "link": "https://www.coindesk.com/opinion/2026/06/09/5-corruption-gaps-congress-must-close-in-the-clarity-act",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 09 Jun 2026 12:58:09 +0000",
-      "summary": "BlackRock warns of energy shock as May CPI is set to show acceleration in inflation\n"
+      "published": "Tue, 09 Jun 2026 15:30:00 +0000",
+      "summary": "5 corruption gaps Congress must close in the Clarity Act\n"
     },
     {
-      "title": "Live updates: bitcoin drifts back to $62,500, putting damper on hope for two straight up days",
-      "link": "https://www.coindesk.com/tech/2026/06/09/live-updates-bitcoin-drifts-back-to-usd62-500-putting-damper-on-hope-for-two-straight-up-days",
+      "title": "Trad.Fi, W3 target $650 million in onchain private credit using AI evaluation",
+      "link": "https://www.coindesk.com/business/2026/06/09/trad-fi-w3-target-usd650-million-in-onchain-private-credit-using-ai-evaluation",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 09 Jun 2026 12:52:07 +0000",
-      "summary": "Live updates: bitcoin drifts back to $62,500, putting damper on hope for two straight up days\n"
+      "published": "Tue, 09 Jun 2026 15:03:26 +0000",
+      "summary": "Trad.Fi, W3 target $650 million in onchain private credit using AI evaluation\n"
+    },
+    {
+      "title": "Ethena lands Janus Henderson backing as asset manager invests in ENA, eyes USDe distribution",
+      "link": "https://www.coindesk.com/business/2026/06/09/ethena-lands-janus-henderson-backing-as-asset-manager-invests-in-ena-eyes-usde-distribution",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Tue, 09 Jun 2026 14:54:59 +0000",
+      "summary": "Ethena lands Janus Henderson backing as asset manager invests in ENA, eyes USDe distribution\n"
     }
   ]
 }
