@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T14:57:47.043982+00:00",
+  "generated_at": "2026-06-10T20:16:11.196823+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak\nLawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity &#038; Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys an"
     },
     {
+      "title": "China-Linked JDY Botnet Expands to 1,500+ Devices for Cyber Reconnaissance",
+      "link": "https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html",
+      "raw_summary": "Cybersecurity researchers have warned of a \"resurgence and expansion\" of JDY, a covert network associated with China-nexus state-sponsored threat actors.\n\n\"The JDY botnet comprises over 1,500 SOHO [small office and home office] and IoT devices and operates as a centrally controlled, high-performance scanner used to discover, fingerprint, and continuously map exposed services at scale,\" Lumen's",
+      "source": "The Hacker News",
+      "published": "Wed, 10 Jun 2026 21:38:42 +0530",
+      "summary": "China-Linked JDY Botnet Expands to 1,500+ Devices for Cyber Reconnaissance\nCybersecurity researchers have warned of a \"resurgence and expansion\" of JDY, a covert network associated with China-nexus state-sponsored threat actors.\n\n\"The JDY botnet comprises over 1,500 SOHO [small office and home offic"
+    },
+    {
+      "title": "Ivanti, Fortinet, and SAP Release Patches for Multiple Critical Vulnerabilities",
+      "link": "https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html",
+      "raw_summary": "Fortinet, Ivanti, and SAP have released security updates to address multiple critical security vulnerabilities that could result in arbitrary code execution and information disclosure.\n\nThe security flaw patched by Fortinet relates to a command injection vulnerability in FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS WEB UI. It's tracked as CVE-2026-25089 (CVSS score: 9.1).\n\n\"An",
+      "source": "The Hacker News",
+      "published": "Wed, 10 Jun 2026 20:40:59 +0530",
+      "summary": "Ivanti, Fortinet, and SAP Release Patches for Multiple Critical Vulnerabilities\nFortinet, Ivanti, and SAP have released security updates to address multiple critical security vulnerabilities that could result in arbitrary code execution and information disclosure.\n\nThe security flaw patched by Forti"
+    },
+    {
+      "title": "Unpatched Langflow Flaw CVE-2026-5027 Exploited for Unauthenticated RCE",
+      "link": "https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html",
+      "raw_summary": "A high-severity unpatched security flaw in Langflow, an open-source low-code platform to build artificial intelligence (AI) applications, has come under active exploitation in the wild, according to findings from VulnCheck.\n\nThe vulnerability in question is CVE-2026-5027 (CVSS score: 8.8), a case of path traversal that could allow an attacker to write files to arbitrary locations.\n\n\"The 'POST /",
+      "source": "The Hacker News",
+      "published": "Wed, 10 Jun 2026 20:30:59 +0530",
+      "summary": "Unpatched Langflow Flaw CVE-2026-5027 Exploited for Unauthenticated RCE\nA high-severity unpatched security flaw in Langflow, an open-source low-code platform to build artificial intelligence (AI) applications, has come under active exploitation in the wild, according to findings from VulnCheck.\n\nThe"
+    },
+    {
+      "title": "CISA Adds Cisco, Chrome, and Arista Flaws to KEV Catalog Amid Active Exploitation",
+      "link": "https://thehackernews.com/2026/06/cisa-adds-cisco-chrome-and-arista-flaws.html",
+      "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.\n\nThe list of vulnerabilities is as follows -\n\n\n  CVE-2026-20245 (CVSS score: 7.8) - An improper encoding or escaping of output vulnerability in Cisco Catalyst SD-WAN Manager that could allow an",
+      "source": "The Hacker News",
+      "published": "Wed, 10 Jun 2026 20:14:29 +0530",
+      "summary": "CISA Adds Cisco, Chrome, and Arista Flaws to KEV Catalog Amid Active Exploitation\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.\n\nThe list of v"
+    },
+    {
       "title": "Your Automated Pentest Looks Clean. See What It Missed in This Expert Webinar",
       "link": "https://thehackernews.com/2026/06/your-automated-pentest-looks-clean-see.html",
       "raw_summary": "Your pentest report looks clean. That might be the problem.\n\nRun automated pentesting long enough, and the new findings start to dry up. By the third or fourth run, fewer issues appear. The report looks stable. Leadership reads \"stable\" as \"secure.\" It usually isn't. The work slows down. The risk does not.\n\nThat gap is what a The Hacker News webinar with Picus Security sets out to close.\n\nAutumn",
@@ -51,276 +83,244 @@
       "summary": "Your Automated Pentest Looks Clean. See What It Missed in This Expert Webinar\nYour pentest report looks clean. That might be the problem.\n\nRun automated pentesting long enough, and the new findings start to dry up. By the third or fourth run, fewer issues appear. The report looks stable. Leadership "
     },
     {
-      "title": "Microsoft Patches Record 206 Flaws, Including Three Zero-Days and Critical RCE Bugs",
-      "link": "https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html",
-      "raw_summary": "Microsoft on Tuesday released fixes for a record 206 security vulnerabilities impacting its software portfolio, including three flaws that have been publicly disclosed at the time of release.\n\nOf the 206 flaws, 39 are rated Critical, and 167 are rated Important in severity. This includes 63 privilege escalation, 56 remote code execution, 30 information disclosure, 27 spoofing, 20 security",
-      "source": "The Hacker News",
-      "published": "Wed, 10 Jun 2026 15:08:13 +0530",
-      "summary": "Microsoft Patches Record 206 Flaws, Including Three Zero-Days and Critical RCE Bugs\nMicrosoft on Tuesday released fixes for a record 206 security vulnerabilities impacting its software portfolio, including three flaws that have been publicly disclosed at the time of release.\n\nOf the 206 flaws, 39 ar"
-    },
-    {
-      "title": "Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards",
-      "link": "https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html",
-      "raw_summary": "On June 9, Anthropic released Claude Fable 5, the most capable model it has ever made, generally available. It also did something unusual: it shipped one model as two products, split not by capability but by a layer of safety classifiers.\n\nFable 5 goes to the public. Its twin, Claude Mythos 5, the same underlying model with the cyber safeguards lifted, stays locked to a vetted group of cyber",
-      "source": "The Hacker News",
-      "published": "Wed, 10 Jun 2026 13:07:59 +0530",
-      "summary": "Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards\nOn June 9, Anthropic released Claude Fable 5, the most capable model it has ever made, generally available. It also did something unusual: it shipped one model as two products, split not by capability but by a layer o"
-    },
-    {
-      "title": "ServiceNow Flaw Exploited to Gain Unauthorized Access to Customer Instances",
-      "link": "https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html",
-      "raw_summary": "ServiceNow has warned about a security incident in which unknown threat actors exploited a flaw to obtain deeper unauthorized access to susceptible instances.\n\n\"On June 5, 2026, ServiceNow applied a security update to hosted customer instances,\" the company revealed in an advisory that requires customer access. \"The update concerned a security issue that could allow an unauthenticated user, in",
-      "source": "The Hacker News",
-      "published": "Wed, 10 Jun 2026 12:32:08 +0530",
-      "summary": "ServiceNow Flaw Exploited to Gain Unauthorized Access to Customer Instances\nServiceNow has warned about a security incident in which unknown threat actors exploited a flaw to obtain deeper unauthorized access to susceptible instances.\n\n\"On June 5, 2026, ServiceNow applied a security update to hosted"
-    },
-    {
-      "title": "Microsoft Defender RoguePlanet Zero-Day Grants SYSTEM Access on Updated Windows",
-      "link": "https://thehackernews.com/2026/06/microsoft-defender-rogueplanet-zero-day.html",
-      "raw_summary": "The anonymous security researcher going by the name Chaotic Eclipse (aka Nightmare-Eclipse) has released a proof-of-concept (PoC) exploit for yet another Microsoft Defender zero-day named RoguePlanet.\n\n\"The exploit is a race condition, so it's a hit or miss,\" the researcher, who published the exploit under a new GitHub account, \"MSNightmare\" said. \"I have managed to get a 100% success rate on",
-      "source": "The Hacker News",
-      "published": "Wed, 10 Jun 2026 10:52:01 +0530",
-      "summary": "Microsoft Defender RoguePlanet Zero-Day Grants SYSTEM Access on Updated Windows\nThe anonymous security researcher going by the name Chaotic Eclipse (aka Nightmare-Eclipse) has released a proof-of-concept (PoC) exploit for yet another Microsoft Defender zero-day named RoguePlanet.\n\n\"The exploit is a "
-    },
-    {
-      "title": "Britain Became as Poor as Mississippi",
-      "link": "https://www.theatlantic.com/magazine/2026/07/uk-productivity-economy-reform-party/687303/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.theatlantic.com/magazine/2026/07/uk-productivity-economy-reform-party/687303/\">https://www.theatlantic.com/magazine/2026/07/uk-productivity-economy-reform-party/687303/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48476751\">https://news.ycombinator.com/item?id=48476751</a></p>\n<p>Points: 44</p>\n<p># Comments: 44</p>",
+      "title": "Farmer donates land for a park, city sells it for $10M as data center land",
+      "link": "https://www.tomshardware.com/tech-industry/farmer-donates-land-for-a-park-city-sells-it-for-data-center-development-usd10-gift-became-usd10m-for-city-government-with-usd30m-tax-expected-over-next-decade",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.tomshardware.com/tech-industry/farmer-donates-land-for-a-park-city-sells-it-for-data-center-development-usd10-gift-became-usd10m-for-city-government-with-usd30m-tax-expected-over-next-decade\">https://www.tomshardware.com/tech-industry/farmer-donates-land-for-a-park-city-sells-it-for-data-center-development-usd10-gift-became-usd10m-for-city-government-with-usd30m-tax-expected-over-next-decade</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48481126\">https://news.ycombinator.com/item?id=48481126</a></p>\n<p>Points: 21</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 10 Jun 2026 14:23:12 +0000",
-      "summary": "Britain Became as Poor as Mississippi\n<p>Article URL: <a href=\"https://www.theatlantic.com/magazine/2026/07/uk-productivity-economy-reform-party/687303/\">https://www.theatlantic.com/magazine/2026/07/uk-productivity-economy-reform-party/687303/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinat"
+      "published": "Wed, 10 Jun 2026 19:06:50 +0000",
+      "summary": "Farmer donates land for a park, city sells it for $10M as data center land\n<p>Article URL: <a href=\"https://www.tomshardware.com/tech-industry/farmer-donates-land-for-a-park-city-sells-it-for-data-center-development-usd10-gift-became-usd10m-for-city-government-with-usd30m-tax-expected-over-next-deca"
     },
     {
-      "title": "Notes on DeepSeek",
-      "link": "https://twitter.com/NikoMcCarty/status/2064686557400100884",
-      "raw_summary": "<p>Article URL: <a href=\"https://twitter.com/NikoMcCarty/status/2064686557400100884\">https://twitter.com/NikoMcCarty/status/2064686557400100884</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48476474\">https://news.ycombinator.com/item?id=48476474</a></p>\n<p>Points: 30</p>\n<p># Comments: 12</p>",
+      "title": "ΠFS",
+      "link": "https://github.com/philipl/pifs",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/philipl/pifs\">https://github.com/philipl/pifs</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48480978\">https://news.ycombinator.com/item?id=48480978</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 10 Jun 2026 14:03:40 +0000",
-      "summary": "Notes on DeepSeek\n<p>Article URL: <a href=\"https://twitter.com/NikoMcCarty/status/2064686557400100884\">https://twitter.com/NikoMcCarty/status/2064686557400100884</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48476474\">https://news.ycombinator.com/item?id=48476474</a></p>\n<p>"
+      "published": "Wed, 10 Jun 2026 18:54:54 +0000",
+      "summary": "ΠFS\n<p>Article URL: <a href=\"https://github.com/philipl/pifs\">https://github.com/philipl/pifs</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48480978\">https://news.ycombinator.com/item?id=48480978</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>"
     },
     {
-      "title": "PgDog is funded and coming to a database near you",
-      "link": "https://pgdog.dev/blog/our-funding-announcement",
-      "raw_summary": "<p>Article URL: <a href=\"https://pgdog.dev/blog/our-funding-announcement\">https://pgdog.dev/blog/our-funding-announcement</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48476466\">https://news.ycombinator.com/item?id=48476466</a></p>\n<p>Points: 50</p>\n<p># Comments: 28</p>",
+      "title": "Anthropic's Model Naming, Extrapolated",
+      "link": "https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated",
+      "raw_summary": "<p>Article URL: <a href=\"https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated\">https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48480852\">https://news.ycombinator.com/item?id=48480852</a></p>\n<p>Points: 64</p>\n<p># Comments: 16</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 10 Jun 2026 14:02:59 +0000",
-      "summary": "PgDog is funded and coming to a database near you\n<p>Article URL: <a href=\"https://pgdog.dev/blog/our-funding-announcement\">https://pgdog.dev/blog/our-funding-announcement</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48476466\">https://news.ycombinator.com/item?id=48476466</"
+      "published": "Wed, 10 Jun 2026 18:45:20 +0000",
+      "summary": "Anthropic's Model Naming, Extrapolated\n<p>Article URL: <a href=\"https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated\">https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48480852"
     },
     {
-      "title": "A €0.01 bank transfer could compromise a banking AI agent",
-      "link": "https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/",
-      "raw_summary": "<p>Article URL: <a href=\"https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/\">https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48476136\">https://news.ycombinator.com/item?id=48476136</a></p>\n<p>Points: 10</p>\n<p># Comments: 1</p>",
+      "title": "Policy on the AI Exponential",
+      "link": "https://darioamodei.com/post/policy-on-the-ai-exponential",
+      "raw_summary": "<p>Article URL: <a href=\"https://darioamodei.com/post/policy-on-the-ai-exponential\">https://darioamodei.com/post/policy-on-the-ai-exponential</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48480719\">https://news.ycombinator.com/item?id=48480719</a></p>\n<p>Points: 68</p>\n<p># Comments: 50</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 10 Jun 2026 13:39:11 +0000",
-      "summary": "A €0.01 bank transfer could compromise a banking AI agent\n<p>Article URL: <a href=\"https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/\">https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinat"
+      "published": "Wed, 10 Jun 2026 18:36:04 +0000",
+      "summary": "Policy on the AI Exponential\n<p>Article URL: <a href=\"https://darioamodei.com/post/policy-on-the-ai-exponential\">https://darioamodei.com/post/policy-on-the-ai-exponential</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48480719\">https://news.ycombinator.com/item?id=48480719</a"
     },
     {
-      "title": "ICE denies having a protester database. A letter to Congress sheds more light",
-      "link": "https://www.npr.org/2026/06/10/nx-s1-5843159/ice-protester-database-dhs",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.npr.org/2026/06/10/nx-s1-5843159/ice-protester-database-dhs\">https://www.npr.org/2026/06/10/nx-s1-5843159/ice-protester-database-dhs</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48476067\">https://news.ycombinator.com/item?id=48476067</a></p>\n<p>Points: 82</p>\n<p># Comments: 19</p>",
+      "title": "The Dynamo and the Computer: The Modern Productivity Paradox (1989) [pdf]",
+      "link": "https://www.almendron.com/tribuna/wp-content/uploads/2018/03/the-dynamo-and-the-computer-an-historical-perspective-on-the-modern-productivity-paradox.pdf",
+      "raw_summary": "<p><a href=\"https://gwern.net/doc/economics/automation/1989-david.pdf\" rel=\"nofollow\">https://gwern.net/doc/economics/automation/1989-david.pdf</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48479996\">https://news.ycombinator.com/item?id=48479996</a></p>\n<p>Points: 19</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 10 Jun 2026 13:34:14 +0000",
-      "summary": "ICE denies having a protester database. A letter to Congress sheds more light\n<p>Article URL: <a href=\"https://www.npr.org/2026/06/10/nx-s1-5843159/ice-protester-database-dhs\">https://www.npr.org/2026/06/10/nx-s1-5843159/ice-protester-database-dhs</a></p>\n<p>Comments URL: <a href=\"https://news.ycomb"
+      "published": "Wed, 10 Jun 2026 17:47:46 +0000",
+      "summary": "The Dynamo and the Computer: The Modern Productivity Paradox (1989) [pdf]\n<p><a href=\"https://gwern.net/doc/economics/automation/1989-david.pdf\" rel=\"nofollow\">https://gwern.net/doc/economics/automation/1989-david.pdf</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=4847"
     },
     {
-      "title": "The three hard-tech moonshots fueling SpaceX’s unbelievable IPO",
-      "link": "https://techcrunch.com/2026/06/10/the-three-hard-tech-moonshots-fueling-spacexs-unbelievable-ipo/",
-      "raw_summary": "Most of the value in SpaceX's IPO is effectively a call option on the company's ambitious space data center plans.",
+      "title": "North Koreans behind nearly half of US tech industry hacks, says CrowdStrike",
+      "link": "https://techcrunch.com/2026/06/10/north-koreans-behind-nearly-half-of-us-tech-industry-hacks-says-crowdstrike/",
+      "raw_summary": "North Koreans hackers posing as remote IT workers and recruiters remain a major threat to U.S., European, and Asian companies, accounting for about half of all attacks over the past 12 months.",
       "source": "TechCrunch",
-      "published": "Wed, 10 Jun 2026 14:48:01 +0000",
-      "summary": "The three hard-tech moonshots fueling SpaceX’s unbelievable IPO\nMost of the value in SpaceX's IPO is effectively a call option on the company's ambitious space data center plans."
+      "published": "Wed, 10 Jun 2026 19:57:04 +0000",
+      "summary": "North Koreans behind nearly half of US tech industry hacks, says CrowdStrike\nNorth Koreans hackers posing as remote IT workers and recruiters remain a major threat to U.S., European, and Asian companies, accounting for about half of all attacks over the past 12 months."
     },
     {
-      "title": "Pinterest bets on creators with Amazon Storefront integration",
-      "link": "https://techcrunch.com/2026/06/10/pinterest-bets-on-creators-with-amazon-storefront-integration/",
-      "raw_summary": "Pinterest is adding support for Amazon Storefronts, allowing creators to earn affiliate commissions more easily while showcasing their product recommendations in one place.",
+      "title": "Wing drone delivery might not be a novelty anymore",
+      "link": "https://techcrunch.com/2026/06/10/wing-drone-delivery-might-not-be-a-novelty-anymore/",
+      "raw_summary": "Wing is expanding into seven more U.S. cities through its partnership with Walmart.",
       "source": "TechCrunch",
-      "published": "Wed, 10 Jun 2026 14:34:45 +0000",
-      "summary": "Pinterest bets on creators with Amazon Storefront integration\nPinterest is adding support for Amazon Storefronts, allowing creators to earn affiliate commissions more easily while showcasing their product recommendations in one place."
+      "published": "Wed, 10 Jun 2026 19:52:09 +0000",
+      "summary": "Wing drone delivery might not be a novelty anymore\nWing is expanding into seven more U.S. cities through its partnership with Walmart."
     },
     {
-      "title": "Warner Music acquires AI attribution startup Sureel AI",
-      "link": "https://techcrunch.com/2026/06/10/warner-music-acquires-ai-attribution-startup-sureel-ai/",
-      "raw_summary": "Through the acquisition, WMG aims to better track when its artists' work is used in AI-generated content or for training AI models.",
+      "title": "Netflix expands revamped mobile app across Asia and doubles down on kids’ gaming",
+      "link": "https://techcrunch.com/2026/06/10/netflix-expands-revamped-mobile-app-across-asia-and-doubles-down-on-kids-gaming/",
+      "raw_summary": "The media giant is pushing to expand its mobile and gaming business.",
       "source": "TechCrunch",
-      "published": "Wed, 10 Jun 2026 14:31:30 +0000",
-      "summary": "Warner Music acquires AI attribution startup Sureel AI\nThrough the acquisition, WMG aims to better track when its artists' work is used in AI-generated content or for training AI models."
+      "published": "Wed, 10 Jun 2026 17:13:02 +0000",
+      "summary": "Netflix expands revamped mobile app across Asia and doubles down on kids’ gaming\nThe media giant is pushing to expand its mobile and gaming business."
     },
     {
-      "title": "ServiceNow tells customers a bug left some of their data exposed to the internet",
-      "link": "https://techcrunch.com/2026/06/10/servicenow-tells-customers-a-bug-left-some-of-their-data-exposed-to-the-internet/",
-      "raw_summary": "ServiceNow is used by thousands of enterprises to automate their internal processes, but says several customers had data accessed because of a security bug.",
+      "title": "‘AI-pilled’ firms spend $7,500 per employee each month on AI",
+      "link": "https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/",
+      "raw_summary": "The most AI-obsessed firms are spending roughly $7,500 monthly per employee on AI, per Ramp AI Index. That's not more than an engineer's salary — yet.",
       "source": "TechCrunch",
-      "published": "Wed, 10 Jun 2026 14:13:02 +0000",
-      "summary": "ServiceNow tells customers a bug left some of their data exposed to the internet\nServiceNow is used by thousands of enterprises to automate their internal processes, but says several customers had data accessed because of a security bug."
+      "published": "Wed, 10 Jun 2026 17:07:35 +0000",
+      "summary": "‘AI-pilled’ firms spend $7,500 per employee each month on AI\nThe most AI-obsessed firms are spending roughly $7,500 monthly per employee on AI, per Ramp AI Index. That's not more than an engineer's salary — yet."
     },
     {
-      "title": "Jedify raises $24M to help companies arm AI agents with context on their business",
-      "link": "https://techcrunch.com/2026/06/10/jedify-raises-24m-to-help-companies-arm-ai-agents-with-context-on-their-business/",
-      "raw_summary": "The funding round was led by Norwest, with participation S Capital VC, Cerca Partners, and Oceans Ventures. Snowflake Ventures also participated as a strategic investor.",
+      "title": "The Indian government got cold feet on Starlink just before SpaceX’s IPO",
+      "link": "https://techcrunch.com/2026/06/10/the-indian-government-got-cold-feet-on-starlink-just-before-spacexs-ipo/",
+      "raw_summary": "Problems with Starlink's India expansion could challenge SpaceX's IPO growth story.",
       "source": "TechCrunch",
-      "published": "Wed, 10 Jun 2026 13:33:09 +0000",
-      "summary": "Jedify raises $24M to help companies arm AI agents with context on their business\nThe funding round was led by Norwest, with participation S Capital VC, Cerca Partners, and Oceans Ventures. Snowflake Ventures also participated as a strategic investor."
+      "published": "Wed, 10 Jun 2026 16:43:11 +0000",
+      "summary": "The Indian government got cold feet on Starlink just before SpaceX’s IPO\nProblems with Starlink's India expansion could challenge SpaceX's IPO growth story."
     },
     {
-      "title": "Racist comments targeting politicians tripled since Meta relaxed its rules",
-      "link": "https://arstechnica.com/tech-policy/2026/06/racist-comments-targeting-politicians-tripled-since-meta-relaxed-its-rules/",
-      "raw_summary": "Violent threats against lawmakers have also surged on Facebook.",
+      "title": "Google's latest DiffusionGemma open AI model comes with a 4x speed boost",
+      "link": "https://arstechnica.com/google/2026/06/googles-latest-diffusiongemma-open-ai-model-comes-with-a-4x-speed-boost/",
+      "raw_summary": "Diffusion AI is most common in image generation, but it can make text outputs much faster.",
       "source": "Ars Technica - All content",
-      "published": "Wed, 10 Jun 2026 13:31:37 +0000",
-      "summary": "Racist comments targeting politicians tripled since Meta relaxed its rules\nViolent threats against lawmakers have also surged on Facebook."
+      "published": "Wed, 10 Jun 2026 19:29:21 +0000",
+      "summary": "Google's latest DiffusionGemma open AI model comes with a 4x speed boost\nDiffusion AI is most common in image generation, but it can make text outputs much faster."
     },
     {
-      "title": "GM Energy introduces V2G support and new energy storage battery chemistry",
-      "link": "https://arstechnica.com/cars/2026/06/gm-energy-introduces-v2g-support-and-new-energy-storage-battery-chemistry/",
-      "raw_summary": "There are more than a quarter of a million V2G-capable GM EVs on the roads already.",
+      "title": "We managed to glean some interesting details about the Artemis III mission",
+      "link": "https://arstechnica.com/space/2026/06/we-managed-to-glean-some-interesting-details-about-the-artemis-iii-mission/",
+      "raw_summary": "\"I was on the phone with Blue Origin leadership that night, all the next day, all through the weekend.\"",
       "source": "Ars Technica - All content",
-      "published": "Wed, 10 Jun 2026 13:13:33 +0000",
-      "summary": "GM Energy introduces V2G support and new energy storage battery chemistry\nThere are more than a quarter of a million V2G-capable GM EVs on the roads already."
+      "published": "Wed, 10 Jun 2026 17:31:13 +0000",
+      "summary": "We managed to glean some interesting details about the Artemis III mission\n\"I was on the phone with Blue Origin leadership that night, all the next day, all through the weekend.\""
     },
     {
-      "title": "Starlink charges $10 monthly hardware fee in move away from one-time purchases",
-      "link": "https://arstechnica.com/tech-policy/2026/06/starlink-takes-page-from-cable-firms-with-10-monthly-rental-fee-for-hardware/",
-      "raw_summary": "Starlink, SpaceX's top moneymaker, also raised service prices by $5 to $10.",
+      "title": "Nobody needs AI to search the Internet, court says in ruling against Google",
+      "link": "https://arstechnica.com/tech-policy/2026/06/nobody-needs-ai-to-search-the-internet-court-says-in-ruling-against-google/",
+      "raw_summary": "Google AI Overview court loss in Germany could spell doom for AI search industry.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 09 Jun 2026 21:05:39 +0000",
-      "summary": "Starlink charges $10 monthly hardware fee in move away from one-time purchases\nStarlink, SpaceX's top moneymaker, also raised service prices by $5 to $10."
+      "published": "Wed, 10 Jun 2026 17:19:31 +0000",
+      "summary": "Nobody needs AI to search the Internet, court says in ruling against Google\nGoogle AI Overview court loss in Germany could spell doom for AI search industry."
     },
     {
-      "title": "Locked in heated rivalry with researcher, Microsoft fixes 0-day they disclosed",
-      "link": "https://arstechnica.com/security/2026/06/locked-in-heated-rivalry-with-researcher-microsoft-fixes-0-day-they-disclosed/",
-      "raw_summary": "A separate zero-day also disclosed by Nightmare Eclipse appears to be patched as well.",
+      "title": "Cheap Iranian drone downed $25 million US Army helicopter—maybe by chance",
+      "link": "https://arstechnica.com/gadgets/2026/06/cheap-iranian-drone-downed-25-million-us-army-helicopter-maybe-by-chance/",
+      "raw_summary": "The US military struck Iran again after an Iranian drone’s lucky midair strike.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 09 Jun 2026 20:56:52 +0000",
-      "summary": "Locked in heated rivalry with researcher, Microsoft fixes 0-day they disclosed\nA separate zero-day also disclosed by Nightmare Eclipse appears to be patched as well."
+      "published": "Wed, 10 Jun 2026 17:04:47 +0000",
+      "summary": "Cheap Iranian drone downed $25 million US Army helicopter—maybe by chance\nThe US military struck Iran again after an Iranian drone’s lucky midair strike."
     },
     {
-      "title": "Three key vital signs make up the \"urban pulse\" of a city",
-      "link": "https://arstechnica.com/science/2026/06/study-how-to-take-the-urban-pulse-of-a-city/",
-      "raw_summary": "Cities are dynamic, not static grids, and urbanization is a \"spiky,\" cyclical, and asynchronous process.",
+      "title": "OB-GYNs release their own vaccine schedule, rejecting RFK Jr.'s meddling",
+      "link": "https://arstechnica.com/health/2026/06/bucking-rfk-jr-ob-gyns-release-vaccine-guidance-that-conflicts-with-cdc/",
+      "raw_summary": "Thirteen other medical groups have already endorsed the independent schedule.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 09 Jun 2026 20:35:22 +0000",
-      "summary": "Three key vital signs make up the \"urban pulse\" of a city\nCities are dynamic, not static grids, and urbanization is a \"spiky,\" cyclical, and asynchronous process."
+      "published": "Wed, 10 Jun 2026 16:52:36 +0000",
+      "summary": "OB-GYNs release their own vaccine schedule, rejecting RFK Jr.'s meddling\nThirteen other medical groups have already endorsed the independent schedule."
     },
     {
-      "title": "Social media platforms warned over role in fuelling Belfast riots",
-      "link": "https://www.ft.com/content/4b62b71c-949a-4600-b03c-813636cf9071",
-      "raw_summary": "Ofcom tells sites to take action over content that may incite violence as Northern Ireland braces for further unrest",
+      "title": "EU to protect industries from future carbon costs if they invest in the bloc",
+      "link": "https://www.ft.com/content/75c56b3f-e100-4e3e-8c42-5ec60ebca47b",
+      "raw_summary": "Brussels weighs scheme to provide free emission allowances beyond the existing 2039 schedule",
       "source": "World",
-      "published": "Wed, 10 Jun 2026 14:34:04 GMT",
-      "summary": "Social media platforms warned over role in fuelling Belfast riots\nOfcom tells sites to take action over content that may incite violence as Northern Ireland braces for further unrest"
+      "published": "Wed, 10 Jun 2026 19:13:00 GMT",
+      "summary": "EU to protect industries from future carbon costs if they invest in the bloc\nBrussels weighs scheme to provide free emission allowances beyond the existing 2039 schedule"
     },
     {
-      "title": "German start-up Neura raises $1.4bn in humanoid robot push",
-      "link": "https://www.ft.com/content/237f10c2-b2b2-490b-bec1-8864e0a22772",
-      "raw_summary": "Crypto group Tether, Amazon and Nvidia invest in fundraising deal that values company at about $7bn",
+      "title": "Trump warns US will soon hit Iran ‘hard’ again",
+      "link": "https://www.ft.com/content/a4ede6e5-4d5a-47e7-96bf-2bb2e6061775",
+      "raw_summary": "President’s remarks come after countries exchange fire following downing of American helicopter",
       "source": "World",
-      "published": "Wed, 10 Jun 2026 14:31:21 GMT",
-      "summary": "German start-up Neura raises $1.4bn in humanoid robot push\nCrypto group Tether, Amazon and Nvidia invest in fundraising deal that values company at about $7bn"
+      "published": "Wed, 10 Jun 2026 18:54:11 GMT",
+      "summary": "Trump warns US will soon hit Iran ‘hard’ again\nPresident’s remarks come after countries exchange fire following downing of American helicopter"
     },
     {
-      "title": "Apollo executive says private equity got ‘a little out of whack’",
-      "link": "https://www.ft.com/content/31f7dab8-532d-434a-8f97-f2a23ca8b488",
-      "raw_summary": "There will be a ‘price to pay’ for industry after exuberance of 2017-22, warns Scott Kleinman",
+      "title": "Oil tankers increase ‘dark’ transits through Strait of Hormuz",
+      "link": "https://www.ft.com/content/31450147-1b85-4ecf-a60d-0c0e3a298ae7",
+      "raw_summary": "Donald Trump says US launched ‘secret mission’ to help move crude through the waterway",
       "source": "World",
-      "published": "Wed, 10 Jun 2026 14:01:18 GMT",
-      "summary": "Apollo executive says private equity got ‘a little out of whack’\nThere will be a ‘price to pay’ for industry after exuberance of 2017-22, warns Scott Kleinman"
+      "published": "Wed, 10 Jun 2026 18:43:04 GMT",
+      "summary": "Oil tankers increase ‘dark’ transits through Strait of Hormuz\nDonald Trump says US launched ‘secret mission’ to help move crude through the waterway"
     },
     {
-      "title": "Is the UK enjoying a productivity rebound?",
-      "link": "https://www.ft.com/content/161a60ae-130d-42e1-a5c9-886d98f28d3d",
-      "raw_summary": "One way to find out would be to test if faster growth and lower unemployment are possible without inflation",
+      "title": "Trump suggests he may not renew trade deal with Mexico and Canada",
+      "link": "https://www.ft.com/content/e55a6ab9-d5dd-4a9f-bcb5-9bc0d23e08fb",
+      "raw_summary": "‘We don’t need anything that they have,’ US president says of 2020 trilateral agreement",
       "source": "World",
-      "published": "Wed, 10 Jun 2026 13:57:54 GMT",
-      "summary": "Is the UK enjoying a productivity rebound?\nOne way to find out would be to test if faster growth and lower unemployment are possible without inflation"
+      "published": "Wed, 10 Jun 2026 18:42:48 GMT",
+      "summary": "Trump suggests he may not renew trade deal with Mexico and Canada\n‘We don’t need anything that they have,’ US president says of 2020 trilateral agreement"
     },
     {
-      "title": "Higher US CPI inflation adds pressure for hawkish Fed pivot",
-      "link": "https://www.ft.com/content/6dadf620-2f11-46d6-81bb-3ab8933a4dcf",
-      "raw_summary": "Rising prices alongside a robust labour market point to a change in Fed communication",
+      "title": "‘Pure racism’: East Belfast reels from riots led by masked young men",
+      "link": "https://www.ft.com/content/bbdf1851-1255-4217-9544-e87c8044b5cb",
+      "raw_summary": "Torched homes are a painful throwback to the Troubles that Northern Ireland is seeking to leave behind",
       "source": "World",
-      "published": "Wed, 10 Jun 2026 13:55:53 GMT",
-      "summary": "Higher US CPI inflation adds pressure for hawkish Fed pivot\nRising prices alongside a robust labour market point to a change in Fed communication"
+      "published": "Wed, 10 Jun 2026 18:29:18 GMT",
+      "summary": "‘Pure racism’: East Belfast reels from riots led by masked young men\nTorched homes are a painful throwback to the Troubles that Northern Ireland is seeking to leave behind"
     },
     {
-      "title": "US Inflation Picks Up to Three-Year High",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-10/us-inflation-picks-up-to-three-year-high-video",
-      "raw_summary": "US inflation accelerated in May to the fastest pace in more than three years as the Iran war pushed up energy prices, outstripping Americans’ pay gains.\nTiffany Wilding, Economist: North America at PIMCO, reacts to the May CPI report. (Source: Bloomberg)",
-      "source": "Bloomberg Markets",
-      "published": "Wed, 10 Jun 2026 14:51:00 GMT",
-      "summary": "US Inflation Picks Up to Three-Year High\nUS inflation accelerated in May to the fastest pace in more than three years as the Iran war pushed up energy prices, outstripping Americans’ pay gains.\nTiffany Wilding, Economist: North America at PIMCO, reacts to the May CPI report. (Source: Bloomberg)"
-    },
-    {
-      "title": "Subprime Auto Dealer America’s Car-Mart Seeks Rescue Financing",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-10/subprime-auto-dealer-america-s-car-mart-seeks-rescue-financing",
-      "raw_summary": "America’s Car-Mart Inc., a used car seller and subprime lender, is working on an eleventh hour capital raise to stave off a potential bankruptcy filing after a cash crunch put the company on the verge of default, according to people familiar with the matter.",
-      "source": "Bloomberg Markets",
-      "published": "Wed, 10 Jun 2026 14:48:17 GMT",
-      "summary": "Subprime Auto Dealer America’s Car-Mart Seeks Rescue Financing\nAmerica’s Car-Mart Inc., a used car seller and subprime lender, is working on an eleventh hour capital raise to stave off a potential bankruptcy filing after a cash crunch put the company on the verge of default, according to people fami"
-    },
-    {
-      "title": "Stocks Fall as US-Iran Tensions Offset CPI Relief: Markets Wrap",
+      "title": "Tech Stocks Sink as Oil Jumps on US-Iran Jitters: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-06-09/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "A relatively tame inflation report brought a degree of relief to Wall Street, but failed to lift stocks amid heightened geopolitical tensions that are keeping energy costs elevated and threatening further price pressures.",
+      "raw_summary": "Wall Street was rattled by a renewed selloff in some of the world’s largest technology companies, with stocks also falling as a flare-up in geopolitical tensions lifted oil prices.",
       "source": "Bloomberg Markets",
       "published": "Tue, 09 Jun 2026 22:09:15 GMT",
-      "summary": "Stocks Fall as US-Iran Tensions Offset CPI Relief: Markets Wrap\nA relatively tame inflation report brought a degree of relief to Wall Street, but failed to lift stocks amid heightened geopolitical tensions that are keeping energy costs elevated and threatening further price pressures."
+      "summary": "Tech Stocks Sink as Oil Jumps on US-Iran Jitters: Markets Wrap\nWall Street was rattled by a renewed selloff in some of the world’s largest technology companies, with stocks also falling as a flare-up in geopolitical tensions lifted oil prices."
     },
     {
-      "title": "Blackstone's Brand on IPO Returns, Anthropic Partnership",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-10/brand-video",
-      "raw_summary": "\"The year of the IPO is definitely on,\" Martin Brand, head of Blackstone Capital Partners, says while speaking with Bloomberg's Dani Burger at the SuperReturn International Conference in Berlin. (Source: Bloomberg)",
+      "title": "Man Accused of $37 Billion LA Fire Is Innocent, His Lawyer Says",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-10/man-accused-of-igniting-massive-los-angeles-fire-goes-on-trial",
+      "raw_summary": "Jonathan Rinderknecht has been wrongly accused of starting the most destructive wildfire in Los Angeles history, his lawyer told a jury.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 10 Jun 2026 14:41:00 GMT",
-      "summary": "Blackstone's Brand on IPO Returns, Anthropic Partnership\n\"The year of the IPO is definitely on,\" Martin Brand, head of Blackstone Capital Partners, says while speaking with Bloomberg's Dani Burger at the SuperReturn International Conference in Berlin. (Source: Bloomberg)"
+      "published": "Wed, 10 Jun 2026 13:45:00 GMT",
+      "summary": "Man Accused of $37 Billion LA Fire Is Innocent, His Lawyer Says\nJonathan Rinderknecht has been wrongly accused of starting the most destructive wildfire in Los Angeles history, his lawyer told a jury."
     },
     {
-      "title": "MTN Finalizing Nigeria, Uganda Fintech Spinoffs; Adds Alipay",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-10/mtn-spins-off-nigeria-uganda-fintech-units-for-mastercard-minority-stakes",
-      "raw_summary": "MTN Group Ltd. is finalizing the spinoffs of its Nigerian and Ugandan financial-technology operations as part of a reorganization of its mobile-money unit to allow Mastercard Inc. and other strategic buyers to take minority stakes in its fintech businesses.",
+      "title": "Why Nike Keeps Stumbling",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-10/why-nike-keeps-stumbling-video",
+      "raw_summary": "The return of Elliott Hill to lead Nike was supposed to reinvigorate the brand. Instead, setbacks in running, product development and brand strategy have kept the swoosh from once again hitting its stride.\n (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Wed, 10 Jun 2026 11:27:18 GMT",
-      "summary": "MTN Finalizing Nigeria, Uganda Fintech Spinoffs; Adds Alipay\nMTN Group Ltd. is finalizing the spinoffs of its Nigerian and Ugandan financial-technology operations as part of a reorganization of its mobile-money unit to allow Mastercard Inc. and other strategic buyers to take minority stakes in its f"
+      "published": "Wed, 10 Jun 2026 20:00:06 GMT",
+      "summary": "Why Nike Keeps Stumbling\nThe return of Elliott Hill to lead Nike was supposed to reinvigorate the brand. Instead, setbacks in running, product development and brand strategy have kept the swoosh from once again hitting its stride.\n (Source: Bloomberg)"
     },
     {
-      "title": "Prediction markets get first U.S. rule proposal as CFTC pursues contract reviews",
-      "link": "https://www.coindesk.com/policy/2026/06/10/prediction-markets-get-first-u-s-rule-proposal-as-cftc-proposes-contract-reviews",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 10 Jun 2026 13:58:41 +0000",
-      "summary": "Prediction markets get first U.S. rule proposal as CFTC pursues contract reviews\n"
+      "title": "SpaceX Tells Investors It Has Lined Up Blue-Chip Credit Ratings",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-10/spacex-touts-investment-grade-ratings-for-75-billion-ipo",
+      "raw_summary": "Elon Musk’s SpaceX is telling investors it has lined up investment-grade ratings from three major bond graders, according to people with knowledge of the matter, which could help the company cut funding costs as it continues to raise financing after its initial public offering.",
+      "source": "Bloomberg Markets",
+      "published": "Wed, 10 Jun 2026 19:59:28 GMT",
+      "summary": "SpaceX Tells Investors It Has Lined Up Blue-Chip Credit Ratings\nElon Musk’s SpaceX is telling investors it has lined up investment-grade ratings from three major bond graders, according to people with knowledge of the matter, which could help the company cut funding costs as it continues to raise fi"
     },
     {
-      "title": "Michael Saylor gets into public debate over claims that Strategy's latest share sale was dilutive",
-      "link": "https://www.coindesk.com/markets/2026/06/10/michael-saylor-in-x-back-and-forth-over-claims-strategy-s-latest-share-sale-was-dilutive",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 10 Jun 2026 13:56:41 +0000",
-      "summary": "Michael Saylor gets into public debate over claims that Strategy's latest share sale was dilutive\n"
+      "title": "Chevron Among Drillers to Feed Key Argentina Shale NGL Venture",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-10/chevron-among-drillers-to-feed-key-argentina-shale-ngl-venture",
+      "raw_summary": "Chevron Corp. and two other major Argentine shale producers will sign contracts this week to supply a natural gas liquids project, a move that all but assures the $3 billion plan goes ahead, according to people familiar with the matter.",
+      "source": "Bloomberg Markets",
+      "published": "Wed, 10 Jun 2026 19:54:37 GMT",
+      "summary": "Chevron Among Drillers to Feed Key Argentina Shale NGL Venture\nChevron Corp. and two other major Argentine shale producers will sign contracts this week to supply a natural gas liquids project, a move that all but assures the $3 billion plan goes ahead, according to people familiar with the matter."
     },
     {
-      "title": "CoinDesk 20 performance update: Index drops 1.4% as all constituents decline",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/06/10/coindesk-20-performance-update-index-drops-1-4-as-all-constituents-decline",
+      "title": "Privacy returns to focus as Ethereum developers explore new token standards",
+      "link": "https://www.coindesk.com/tech/2026/06/10/privacy-returns-to-focus-as-ethereum-developers-explore-new-token-standards",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 10 Jun 2026 13:23:13 +0000",
-      "summary": "CoinDesk 20 performance update: Index drops 1.4% as all constituents decline\n"
+      "published": "Wed, 10 Jun 2026 18:14:58 +0000",
+      "summary": "Privacy returns to focus as Ethereum developers explore new token standards\n"
     },
     {
-      "title": "World Series of Poker adds Solana payments for tournament buy-ins",
-      "link": "https://www.coindesk.com/tech/2026/06/09/world-series-of-poker-adds-solana-payments-for-tournament-buy-ins",
+      "title": "BlackRock and Fidelity are quietly turning bitcoin ETFs into a two-firm market",
+      "link": "https://www.coindesk.com/markets/2026/06/10/blackrock-and-fidelity-are-quietly-turning-bitcoin-etfs-into-a-two-firm-market",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 10 Jun 2026 13:00:00 +0000",
-      "summary": "World Series of Poker adds Solana payments for tournament buy-ins\n"
+      "published": "Wed, 10 Jun 2026 18:09:23 +0000",
+      "summary": "BlackRock and Fidelity are quietly turning bitcoin ETFs into a two-firm market\n"
     },
     {
-      "title": "Bitcoin trims losses after core CPI rises less than feared 0.2% in May",
-      "link": "https://www.coindesk.com/markets/2026/06/10/u-s-inflation-meets-expectations-reinforcing-fed-s-higher-for-longer-stance",
+      "title": "Coinbase-backed Stand With Crypto calls on members to campaign against banks blocking digital asset transactions",
+      "link": "https://www.coindesk.com/business/2026/06/10/over-280-000-uk-crypto-holders-kick-off-campaign-against-banks-blocking-transactions",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 10 Jun 2026 12:42:24 +0000",
-      "summary": "Bitcoin trims losses after core CPI rises less than feared 0.2% in May\n"
+      "published": "Wed, 10 Jun 2026 17:53:09 +0000",
+      "summary": "Coinbase-backed Stand With Crypto calls on members to campaign against banks blocking digital asset transactions\n"
+    },
+    {
+      "title": "Crypto Long & Short: Who answers the 3am call when DeFi breaks?",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/06/10/crypto-long-and-short-who-answers-the-3am-call-when-defi-breaks",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 10 Jun 2026 16:20:10 +0000",
+      "summary": "Crypto Long & Short: Who answers the 3am call when DeFi breaks?\n"
+    },
+    {
+      "title": "Netomi CEO says $5 trillion AI customer experience market could boost stablecoin demand",
+      "link": "https://www.coindesk.com/business/2026/06/10/netomi-ceo-says-usd5-trillion-ai-customer-experience-market-could-boost-stablecoin-demand",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 10 Jun 2026 16:17:18 +0000",
+      "summary": "Netomi CEO says $5 trillion AI customer experience market could boost stablecoin demand\n"
     }
   ]
 }
