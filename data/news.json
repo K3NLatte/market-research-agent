@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T14:39:37.081446+00:00",
+  "generated_at": "2026-06-12T19:56:55.436521+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak\nLawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity &#038; Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys an"
     },
     {
+      "title": "400+ Arch Linux AUR Packages Hijacked to Install Rust Credential Stealer",
+      "link": "https://thehackernews.com/2026/06/400-arch-linux-aur-packages-hijacked-to.html",
+      "raw_summary": "Attackers took over more than 400 packages in the Arch User Repository (AUR) this week and rewrote their build scripts to install a credential stealer on any machine that built them.\n\nThe malware is a Rust binary built to harvest developer secrets. When it lands with root, it can also load an eBPF rootkit to hide itself. The AUR is Arch Linux's community package collection, and it is separate",
+      "source": "The Hacker News",
+      "published": "Sat, 13 Jun 2026 00:54:50 +0530",
+      "summary": "400+ Arch Linux AUR Packages Hijacked to Install Rust Credential Stealer\nAttackers took over more than 400 packages in the Arch User Repository (AUR) this week and rewrote their build scripts to install a credential stealer on any machine that built them.\n\nThe malware is a Rust binary built to harve"
+    },
+    {
+      "title": "Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing",
+      "link": "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html",
+      "raw_summary": "Google on Friday said it's pursuing legal action against a Chinese cybercrime network, accusing it of using its Gemini artificial intelligence (AI) agent to send phishing text messages targeting Americans.\n\nThe network is said to be behind the development and management of a phishing-as-a-service (PhaaS) software kit called Outsider, per the tech giant.\n\n\"The operation weaponized Gemini to help",
+      "source": "The Hacker News",
+      "published": "Sat, 13 Jun 2026 00:29:32 +0530",
+      "summary": "Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing\nGoogle on Friday said it's pursuing legal action against a Chinese cybercrime network, accusing it of using its Gemini artificial intelligence (AI) agent to send phishing text messages targeting Americans.\n\nThe network is sa"
+    },
+    {
+      "title": "China-Linked Hackers Backdoored Linux Login Software to Hide for Nearly a Decade",
+      "link": "https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html",
+      "raw_summary": "Instead of hiding on the laptops and servers defenders watch most closely, a China-nexus group spent close to a decade hidden inside the Linux login system itself.\n\nSygnia, which tracks the group as Velvet Ant, says it backdoored the PAM and OpenSSH components that decide who is allowed to sign in, planting its access where ordinary cleanup could not reach it. The network it targeted had no",
+      "source": "The Hacker News",
+      "published": "Fri, 12 Jun 2026 23:47:55 +0530",
+      "summary": "China-Linked Hackers Backdoored Linux Login Software to Hide for Nearly a Decade\nInstead of hiding on the laptops and servers defenders watch most closely, a China-nexus group spent close to a decade hidden inside the Linux login system itself.\n\nSygnia, which tracks the group as Velvet Ant, says it "
+    },
+    {
       "title": "Agentjacking Attack Tricks AI Coding Agents Into Running Malicious Code",
       "link": "https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html",
       "raw_summary": "Cybersecurity researchers have described what they say is a new class of attack that can trick artificial intelligence (AI) coding agents into running arbitrary code on developer machines.\n\nCalled Agentjacking by Tenet Security, the attack can be triggered by means of a fake error report crafted using Sentry, an open-source error-tracking and performance-monitoring platform.\n\n\"The attack",
@@ -59,268 +83,244 @@
       "summary": "Rethinking MDR as Attackers and Defenders Embrace AI\nFor most of the past decade, managed detection and response was the answer to a real problem. Security teams couldn't staff around the clock, couldn't hire enough analysts, and needed someone else to handle the alert queue. MDR stepped in. It work"
     },
     {
-      "title": "LangGraph Flaw Chain Exposes Self-Hosted AI Agents to Remote Code Execution",
-      "link": "https://thehackernews.com/2026/06/langgraph-flaw-chain-exposes-self.html",
-      "raw_summary": "Cybersecurity researchers have disclosed details of three now-patched security flaws impacting LangGraph, including a critical vulnerability chain that could result in remote code execution.\n\nLangGraph is an open-source framework created by LangChain to build complex, stateful, and multi-agent artificial intelligence (AI) agentic applications.\n\n\"An SQL injection in LangGraph's function could",
-      "source": "The Hacker News",
-      "published": "Fri, 12 Jun 2026 15:20:36 +0530",
-      "summary": "LangGraph Flaw Chain Exposes Self-Hosted AI Agents to Remote Code Execution\nCybersecurity researchers have disclosed details of three now-patched security flaws impacting LangGraph, including a critical vulnerability chain that could result in remote code execution.\n\nLangGraph is an open-source fram"
-    },
-    {
-      "title": "INTERPOL Operation Takes Down Sniper Dz Phishing Platform, Arrests Administrator",
-      "link": "https://thehackernews.com/2026/06/interpol-takes-down-sniper-dz-phishing.html",
-      "raw_summary": "An INTERPOL-led operation last month resulted in the disruption of Sniper Dz, a decade-long phishing-as-a-service (PhaaS) platform, Group-IB said Thursday.\n\nThe effort, codenamed Operation Ramz, took place between October 2025 and February 2026, and saw authorities from 13 countries in the Middle East and North Africa (MENA) region making 201 arrests.\n\nIncluded among them was Guedz, the primary",
-      "source": "The Hacker News",
-      "published": "Fri, 12 Jun 2026 14:22:55 +0530",
-      "summary": "INTERPOL Operation Takes Down Sniper Dz Phishing Platform, Arrests Administrator\nAn INTERPOL-led operation last month resulted in the disruption of Sniper Dz, a decade-long phishing-as-a-service (PhaaS) platform, Group-IB said Thursday.\n\nThe effort, codenamed Operation Ramz, took place between Octob"
-    },
-    {
-      "title": "Europol Disrupts AudiA6 Crypto Laundering Service Used by Ransomware Gangs",
-      "link": "https://thehackernews.com/2026/06/europol-disrupts-audia6-crypto.html",
-      "raw_summary": "Authorities in Europe have disrupted AudiA6, a cryptocurrency laundering service used by ransomware gangs and cybercriminal networks.\n\nEuropol, in a statement issued Thursday, said the dismantling of AudiA6 cut off a \"key financial pipeline used to wash hundreds of millions in illicit profits.\" The service is estimated to have been used to launder more than €336 million (~$389 million) since the",
-      "source": "The Hacker News",
-      "published": "Fri, 12 Jun 2026 12:08:41 +0530",
-      "summary": "Europol Disrupts AudiA6 Crypto Laundering Service Used by Ransomware Gangs\nAuthorities in Europe have disrupted AudiA6, a cryptocurrency laundering service used by ransomware gangs and cybercriminal networks.\n\nEuropol, in a statement issued Thursday, said the dismantling of AudiA6 cut off a \"key fin"
-    },
-    {
-      "title": "WASI 0.3.0 Released",
-      "link": "https://github.com/WebAssembly/WASI/releases/tag/v0.3.0",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/WebAssembly/WASI/releases/tag/v0.3.0\">https://github.com/WebAssembly/WASI/releases/tag/v0.3.0</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48504063\">https://news.ycombinator.com/item?id=48504063</a></p>\n<p>Points: 34</p>\n<p># Comments: 1</p>",
+      "title": "Cosmodial Sky Atlas",
+      "link": "https://killedbyapixel.github.io/Cosmodial/",
+      "raw_summary": "<p>Article URL: <a href=\"https://killedbyapixel.github.io/Cosmodial/\">https://killedbyapixel.github.io/Cosmodial/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48507571\">https://news.ycombinator.com/item?id=48507571</a></p>\n<p>Points: 13</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 12 Jun 2026 13:51:15 +0000",
-      "summary": "WASI 0.3.0 Released\n<p>Article URL: <a href=\"https://github.com/WebAssembly/WASI/releases/tag/v0.3.0\">https://github.com/WebAssembly/WASI/releases/tag/v0.3.0</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48504063\">https://news.ycombinator.com/item?id=48504063</a></p>\n<p>Poin"
+      "published": "Fri, 12 Jun 2026 18:20:17 +0000",
+      "summary": "Cosmodial Sky Atlas\n<p>Article URL: <a href=\"https://killedbyapixel.github.io/Cosmodial/\">https://killedbyapixel.github.io/Cosmodial/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48507571\">https://news.ycombinator.com/item?id=48507571</a></p>\n<p>Points: 13</p>\n<p># Comments"
     },
     {
-      "title": "The Unsung Hero of the Lord of the Rings",
-      "link": "https://www.theculturist.io/p/the-unsung-hero-of-the-lord-of-the",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.theculturist.io/p/the-unsung-hero-of-the-lord-of-the\">https://www.theculturist.io/p/the-unsung-hero-of-the-lord-of-the</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48503796\">https://news.ycombinator.com/item?id=48503796</a></p>\n<p>Points: 16</p>\n<p># Comments: 17</p>",
+      "title": "I Am Not a Reverse Centaur",
+      "link": "https://blog.miguelgrinberg.com/post/i-am-not-a-reverse-centaur",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.miguelgrinberg.com/post/i-am-not-a-reverse-centaur\">https://blog.miguelgrinberg.com/post/i-am-not-a-reverse-centaur</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48507282\">https://news.ycombinator.com/item?id=48507282</a></p>\n<p>Points: 127</p>\n<p># Comments: 86</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 12 Jun 2026 13:22:59 +0000",
-      "summary": "The Unsung Hero of the Lord of the Rings\n<p>Article URL: <a href=\"https://www.theculturist.io/p/the-unsung-hero-of-the-lord-of-the\">https://www.theculturist.io/p/the-unsung-hero-of-the-lord-of-the</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48503796\">https://news.ycombinat"
+      "published": "Fri, 12 Jun 2026 17:53:20 +0000",
+      "summary": "I Am Not a Reverse Centaur\n<p>Article URL: <a href=\"https://blog.miguelgrinberg.com/post/i-am-not-a-reverse-centaur\">https://blog.miguelgrinberg.com/post/i-am-not-a-reverse-centaur</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48507282\">https://news.ycombinator.com/item?id=4"
     },
     {
-      "title": "Hazel (YC W24) Is Hiring a Full Stack Engineer",
-      "link": "https://www.ycombinator.com/companies/hazel-2/jobs/3epPWgu-full-stack-engineer-ts-sci",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/hazel-2/jobs/3epPWgu-full-stack-engineer-ts-sci\">https://www.ycombinator.com/companies/hazel-2/jobs/3epPWgu-full-stack-engineer-ts-sci</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48503717\">https://news.ycombinator.com/item?id=48503717</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
+      "title": "\"Don't You Just Upload It to ChatGPT?\"",
+      "link": "https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/",
+      "raw_summary": "<p>Article URL: <a href=\"https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/\">https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48507278\">https://news.ycombinator.com/item?id=48507278</a></p>\n<p>Points: 106</p>\n<p># Comments: 102</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 12 Jun 2026 13:14:18 +0000",
-      "summary": "Hazel (YC W24) Is Hiring a Full Stack Engineer\n<p>Article URL: <a href=\"https://www.ycombinator.com/companies/hazel-2/jobs/3epPWgu-full-stack-engineer-ts-sci\">https://www.ycombinator.com/companies/hazel-2/jobs/3epPWgu-full-stack-engineer-ts-sci</a></p>\n<p>Comments URL: <a href=\"https://news.ycombina"
+      "published": "Fri, 12 Jun 2026 17:52:46 +0000",
+      "summary": "\"Don't You Just Upload It to ChatGPT?\"\n<p>Article URL: <a href=\"https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/\">https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48507278\">https://news.ycombinat"
     },
     {
-      "title": "Encrypted Spaces An architecture for collaborative applications",
-      "link": "https://encryptedspaces.org/",
-      "raw_summary": "<p>Article URL: <a href=\"https://encryptedspaces.org/\">https://encryptedspaces.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48503219\">https://news.ycombinator.com/item?id=48503219</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
+      "title": "How to setup a local coding agent on macOS",
+      "link": "https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos",
+      "raw_summary": "<p>Article URL: <a href=\"https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos\">https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48507020\">https://news.ycombinator.com/item?id=48507020</a></p>\n<p>Points: 94</p>\n<p># Comments: 30</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 12 Jun 2026 12:22:07 +0000",
-      "summary": "Encrypted Spaces An architecture for collaborative applications\n<p>Article URL: <a href=\"https://encryptedspaces.org/\">https://encryptedspaces.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48503219\">https://news.ycombinator.com/item?id=48503219</a></p>\n<p>Points: 7</p>\n"
+      "published": "Fri, 12 Jun 2026 17:34:55 +0000",
+      "summary": "How to setup a local coding agent on macOS\n<p>Article URL: <a href=\"https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos\">https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48507020\">https://ne"
     },
     {
-      "title": "Maxproof",
-      "link": "https://arxiv.org/abs/2606.13473",
-      "raw_summary": "<p>Article URL: <a href=\"https://arxiv.org/abs/2606.13473\">https://arxiv.org/abs/2606.13473</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48503014\">https://news.ycombinator.com/item?id=48503014</a></p>\n<p>Points: 65</p>\n<p># Comments: 5</p>",
+      "title": "Pirates, a naval warfare game inspired by Sid Meier's Pirates",
+      "link": "https://piwodlaiwo.github.io/pirates/",
+      "raw_summary": "<p>Article URL: <a href=\"https://piwodlaiwo.github.io/pirates/\">https://piwodlaiwo.github.io/pirates/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48506659\">https://news.ycombinator.com/item?id=48506659</a></p>\n<p>Points: 74</p>\n<p># Comments: 30</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 12 Jun 2026 12:00:02 +0000",
-      "summary": "Maxproof\n<p>Article URL: <a href=\"https://arxiv.org/abs/2606.13473\">https://arxiv.org/abs/2606.13473</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48503014\">https://news.ycombinator.com/item?id=48503014</a></p>\n<p>Points: 65</p>\n<p># Comments: 5</p>"
+      "published": "Fri, 12 Jun 2026 17:07:46 +0000",
+      "summary": "Pirates, a naval warfare game inspired by Sid Meier's Pirates\n<p>Article URL: <a href=\"https://piwodlaiwo.github.io/pirates/\">https://piwodlaiwo.github.io/pirates/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48506659\">https://news.ycombinator.com/item?id=48506659</a></p>\n<"
     },
     {
-      "title": "SpaceX IPO: Everything you need to know",
-      "link": "https://techcrunch.com/2026/06/12/spacex-ipo-everything-you-need-to-know/",
+      "title": "SpaceX president Gwynne Shotwell just gave another hint at a Tesla merger",
+      "link": "https://techcrunch.com/2026/06/12/spacex-president-gwynne-shotwell-just-gave-another-hint-at-a-tesla-merger/",
+      "raw_summary": "A SpaceX-Tesla merger seems inevitable.",
+      "source": "TechCrunch",
+      "published": "Fri, 12 Jun 2026 19:28:31 +0000",
+      "summary": "SpaceX president Gwynne Shotwell just gave another hint at a Tesla merger\nA SpaceX-Tesla merger seems inevitable."
+    },
+    {
+      "title": "SpaceX IPO: Live updates on everything you need to know",
+      "link": "https://techcrunch.com/2026/06/12/spacex-ipo-live-updates-on-everything-you-need-to-know/",
       "raw_summary": "TechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and maybe some who won't), pre-IPO deals, and what's tucked inside its S-1 registration document.",
       "source": "TechCrunch",
-      "published": "Fri, 12 Jun 2026 14:08:54 +0000",
-      "summary": "SpaceX IPO: Everything you need to know\nTechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and maybe some who won't), pre-IPO deals, and what's tucked inside i"
+      "published": "Fri, 12 Jun 2026 18:36:19 +0000",
+      "summary": "SpaceX IPO: Live updates on everything you need to know\nTechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and maybe some who won't), pre-IPO deals, and what's"
     },
     {
-      "title": "US surveillance law to expire for first time after lawmakers reject Trump’s controversial pick to lead spy agencies",
-      "link": "https://techcrunch.com/2026/06/12/us-spy-law-to-expire-for-first-time-after-lawmakers-reject-trumps-controversial-pick-to-lead-spy-agencies/",
-      "raw_summary": "The spy law known as Section 702, which authorizes the NSA and FBI's warrantless surveillance, will all but certainly expire on Friday for the first time.",
+      "title": "SpaceX shares soar 30% midday, vaulting it to top six most valuable U.S. companies",
+      "link": "https://techcrunch.com/2026/06/12/spacex-shares-soar-30-percent-midday-vaulting-it-to-top-six-most-valuable-us-companies/",
+      "raw_summary": "The company made its heavily anticipated debut on Friday, trading higher than its initial $135 IPO price.",
       "source": "TechCrunch",
-      "published": "Fri, 12 Jun 2026 11:43:32 +0000",
-      "summary": "US surveillance law to expire for first time after lawmakers reject Trump’s controversial pick to lead spy agencies\nThe spy law known as Section 702, which authorizes the NSA and FBI's warrantless surveillance, will all but certainly expire on Friday for the first time."
+      "published": "Fri, 12 Jun 2026 18:20:50 +0000",
+      "summary": "SpaceX shares soar 30% midday, vaulting it to top six most valuable U.S. companies\nThe company made its heavily anticipated debut on Friday, trading higher than its initial $135 IPO price."
     },
     {
-      "title": "Cheaper, faster, and culturally aware, Avataar’s video AI is built for India’s scale",
-      "link": "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/",
-      "raw_summary": "Avataar AI's distilled video model is priced at $0.005 for every second of generation",
+      "title": "Mistral is rumored to be raising €3B at €20B valuation",
+      "link": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
+      "raw_summary": "The funding round would value the company at around €20 billion (about $23.15 billion), nearly double its Series C valuation of €11.7 billion.",
       "source": "TechCrunch",
-      "published": "Fri, 12 Jun 2026 04:30:00 +0000",
-      "summary": "Cheaper, faster, and culturally aware, Avataar’s video AI is built for India’s scale\nAvataar AI's distilled video model is priced at $0.005 for every second of generation"
+      "published": "Fri, 12 Jun 2026 17:38:11 +0000",
+      "summary": "Mistral is rumored to be raising €3B at €20B valuation\nThe funding round would value the company at around €20 billion (about $23.15 billion), nearly double its Series C valuation of €11.7 billion."
     },
     {
-      "title": "Equal AI raises $30M to screen calls so Indians don’t have to",
-      "link": "https://techcrunch.com/2026/06/11/equal-ai-raises-30m-to-screen-calls-so-indians-dont-have-to/",
-      "raw_summary": "Equal AI said that its AI-powered call assistant now has over a million monthly active users.",
+      "title": "Google sues alleged Chinese cybercrime operation that used AI to send scam texts",
+      "link": "https://techcrunch.com/2026/06/12/google-sues-alleged-chinese-cybercrime-operation-that-used-ai-to-send-scam-texts/",
+      "raw_summary": "The tech giant said a group called \"Outsider Enterprise\" used AI to scam hundreds of thousands of victims, sending 2.5 million text messages over a span of two weeks.",
       "source": "TechCrunch",
-      "published": "Fri, 12 Jun 2026 04:30:00 +0000",
-      "summary": "Equal AI raises $30M to screen calls so Indians don’t have to\nEqual AI said that its AI-powered call assistant now has over a million monthly active users."
+      "published": "Fri, 12 Jun 2026 17:26:08 +0000",
+      "summary": "Google sues alleged Chinese cybercrime operation that used AI to send scam texts\nThe tech giant said a group called \"Outsider Enterprise\" used AI to scam hundreds of thousands of victims, sending 2.5 million text messages over a span of two weeks."
     },
     {
-      "title": "Theker just raised $85M to build the factory robot that doesn’t specialize in anything",
-      "link": "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/",
-      "raw_summary": "Unlike humanoid robots designed around a fixed form — think Boston Dynamics — Theker's machines are built to be reconfigured.",
-      "source": "TechCrunch",
-      "published": "Fri, 12 Jun 2026 01:48:07 +0000",
-      "summary": "Theker just raised $85M to build the factory robot that doesn’t specialize in anything\nUnlike humanoid robots designed around a fixed form — think Boston Dynamics — Theker's machines are built to be reconfigured."
-    },
-    {
-      "title": "Cameras, sensors, and 3D body scans: All the tech helping eliminate blown calls",
-      "link": "https://arstechnica.com/gadgets/2026/06/cameras-sensors-and-3d-body-scans-all-the-tech-helping-eliminate-blown-calls/",
-      "raw_summary": "This World Cup, refs will use digital twins of each player to view plays from every angle.",
+      "title": "PeopleSoft 0-day affecting hundreds of organizations steals gigabytes of data",
+      "link": "https://arstechnica.com/security/2026/06/peoplesoft-0-day-affecting-hundreds-of-organizations-steals-gigabytes-of-data/",
+      "raw_summary": "Vulnerability in the Oracle-owned PeopleSoft software is about as critical as they come.",
       "source": "Ars Technica - All content",
-      "published": "Fri, 12 Jun 2026 11:45:18 +0000",
-      "summary": "Cameras, sensors, and 3D body scans: All the tech helping eliminate blown calls\nThis World Cup, refs will use digital twins of each player to view plays from every angle."
+      "published": "Fri, 12 Jun 2026 19:26:47 +0000",
+      "summary": "PeopleSoft 0-day affecting hundreds of organizations steals gigabytes of data\nVulnerability in the Oracle-owned PeopleSoft software is about as critical as they come."
     },
     {
-      "title": "Ebola cases in DRC rise to 676 as Kenya protests erupt over US plans",
-      "link": "https://arstechnica.com/health/2026/06/ebola-cases-in-drc-rise-to-676-as-kenya-protests-erupt-over-us-plans/",
-      "raw_summary": "Outbreak responses are still playing catch-up as US works to isolate itself.",
+      "title": "Controversial FISA spying law expires tonight. The spying will continue.",
+      "link": "https://arstechnica.com/tech-policy/2026/06/controversial-fisa-spying-law-expires-tonight-the-spying-will-continue/",
+      "raw_summary": "Section 702 of FISA to expire tonight, but certification lasts until March 2027.",
       "source": "Ars Technica - All content",
-      "published": "Fri, 12 Jun 2026 11:30:23 +0000",
-      "summary": "Ebola cases in DRC rise to 676 as Kenya protests erupt over US plans\nOutbreak responses are still playing catch-up as US works to isolate itself."
+      "published": "Fri, 12 Jun 2026 18:57:51 +0000",
+      "summary": "Controversial FISA spying law expires tonight. The spying will continue.\nSection 702 of FISA to expire tonight, but certification lasts until March 2027."
     },
     {
-      "title": "Pokémon Go players unwittingly contributed to tech with military drone uses",
-      "link": "https://arstechnica.com/ai/2026/06/pokemon-go-players-unwittingly-contributed-to-tech-with-military-drone-uses/",
-      "raw_summary": "The repurposing of <em>Pokémon Go</em> data for AI training continues to draw scrutiny.",
+      "title": "Here's what Jeff Bezos' new startup Prometheus will do",
+      "link": "https://arstechnica.com/ai/2026/06/heres-what-jeff-bezos-new-startup-prometheus-will-do/",
+      "raw_summary": "It isn't the only startup tackling physical AI, but it's one of the best-funded.",
       "source": "Ars Technica - All content",
-      "published": "Fri, 12 Jun 2026 11:15:41 +0000",
-      "summary": "Pokémon Go players unwittingly contributed to tech with military drone uses\nThe repurposing of <em>Pokémon Go</em> data for AI training continues to draw scrutiny."
+      "published": "Fri, 12 Jun 2026 18:45:40 +0000",
+      "summary": "Here's what Jeff Bezos' new startup Prometheus will do\nIt isn't the only startup tackling physical AI, but it's one of the best-funded."
     },
     {
-      "title": "Verizon sent man a refurbished phone with MDM, then deleted his data remotely",
-      "link": "https://arstechnica.com/tech-policy/2026/06/verizon-sent-man-a-refurbished-phone-with-mdm-then-deleted-his-data-remotely/",
-      "raw_summary": "Failure raises questions about how Verizon prepares refurbished phones for new users.",
+      "title": "Have politics finally come for the National Academies of Science?",
+      "link": "https://arstechnica.com/science/2026/06/have-politics-finally-come-for-the-national-academies-of-science/",
+      "raw_summary": "A pending report on climate attribution may be setting the stage for conflict.",
       "source": "Ars Technica - All content",
-      "published": "Fri, 12 Jun 2026 11:00:41 +0000",
-      "summary": "Verizon sent man a refurbished phone with MDM, then deleted his data remotely\nFailure raises questions about how Verizon prepares refurbished phones for new users."
+      "published": "Fri, 12 Jun 2026 18:31:36 +0000",
+      "summary": "Have politics finally come for the National Academies of Science?\nA pending report on climate attribution may be setting the stage for conflict."
     },
     {
-      "title": "Rocket Report: Nova moving through test campaign; SpaceX IPO launches Friday",
-      "link": "https://arstechnica.com/space/2026/06/rocket-report-nova-moving-through-test-campaign-spacex-ipo-launches-friday/",
-      "raw_summary": "\"If I needed to fly on another vehicle, what would that look like?\"",
+      "title": "Ukraine's one-time test used fully autonomous drones to kill Russian soldiers",
+      "link": "https://arstechnica.com/ai/2026/06/ukraines-one-time-test-used-fully-autonomous-drones-to-kill-russian-soldiers/",
+      "raw_summary": "Full autonomy is rare, but Ukraine is installing AI modules on drones and robots.",
       "source": "Ars Technica - All content",
-      "published": "Fri, 12 Jun 2026 11:00:13 +0000",
-      "summary": "Rocket Report: Nova moving through test campaign; SpaceX IPO launches Friday\n\"If I needed to fly on another vehicle, what would that look like?\""
+      "published": "Fri, 12 Jun 2026 18:03:29 +0000",
+      "summary": "Ukraine's one-time test used fully autonomous drones to kill Russian soldiers\nFull autonomy is rare, but Ukraine is installing AI modules on drones and robots."
     },
     {
-      "title": "Oil touches three-month low after Trump says US close to Iran deal",
-      "link": "https://www.ft.com/content/9d8b31b0-1269-458e-b831-9b5e079e564e",
-      "raw_summary": "Stocks and government bonds make gains on hopes energy shock could ease",
+      "title": "US-Iran peace deal text agreed, says Pakistan’s PM",
+      "link": "https://www.ft.com/content/b91fc27b-8e50-48c1-b9e6-0c93aea19b76",
+      "raw_summary": "Senior American official says both sides expect to sign agreement in coming days",
       "source": "World",
-      "published": "Fri, 12 Jun 2026 14:25:53 GMT",
-      "summary": "Oil touches three-month low after Trump says US close to Iran deal\nStocks and government bonds make gains on hopes energy shock could ease"
+      "published": "Fri, 12 Jun 2026 19:02:56 GMT",
+      "summary": "US-Iran peace deal text agreed, says Pakistan’s PM\nSenior American official says both sides expect to sign agreement in coming days"
     },
     {
-      "title": "SpaceX is cheap on a price-to-cosmos ratio",
-      "link": "https://www.ft.com/content/60fcbe6c-e074-4cd9-9816-cdae8112862f",
-      "raw_summary": "Terrestrial valuations don’t apply when it comes to Elon",
+      "title": "Football will eclipse politics at this World Cup",
+      "link": "https://www.ft.com/content/80086001-6fe2-4480-8277-4af356b651ea",
+      "raw_summary": "Goals, talent and diversity are set to drown out controversy off the pitch",
       "source": "World",
-      "published": "Fri, 12 Jun 2026 14:24:29 GMT",
-      "summary": "SpaceX is cheap on a price-to-cosmos ratio\nTerrestrial valuations don’t apply when it comes to Elon"
+      "published": "Fri, 12 Jun 2026 18:03:36 GMT",
+      "summary": "Football will eclipse politics at this World Cup\nGoals, talent and diversity are set to drown out controversy off the pitch"
     },
     {
-      "title": "SpaceX shares set to soar in historic Wall Street debut",
-      "link": "https://www.ft.com/content/097216e1-f3fc-4052-a5b5-fc66cfc57563",
-      "raw_summary": "Early quotes from US exchange Nasdaq show stock is indicated to open almost 30% higher",
+      "title": "The strategic dilemmas behind Britain’s defence spending mess",
+      "link": "https://www.ft.com/content/c5af5ea9-b40f-4d4d-b428-4693a8eb1906",
+      "raw_summary": "At the heart of the debate is not just how much the UK should spend on the military, but what types of threat it faces — and ultimately, its place in the world",
       "source": "World",
-      "published": "Fri, 12 Jun 2026 13:12:18 GMT",
-      "summary": "SpaceX shares set to soar in historic Wall Street debut\nEarly quotes from US exchange Nasdaq show stock is indicated to open almost 30% higher"
+      "published": "Fri, 12 Jun 2026 17:50:34 GMT",
+      "summary": "The strategic dilemmas behind Britain’s defence spending mess\nAt the heart of the debate is not just how much the UK should spend on the military, but what types of threat it faces — and ultimately, its place in the world"
     },
     {
-      "title": "BlackRock private credit fund honours less than 40% of redemption requests",
-      "link": "https://www.ft.com/content/65adec62-3505-4d01-8aa6-a609aa7cfdcc",
-      "raw_summary": "The firm’s $13bn HPS Corporate Lending Fund limits withdrawals for a second consecutive quarter",
+      "title": "SpaceX’s IPO is a display of Musk’s dominance",
+      "link": "https://www.ft.com/content/71372647-bf7f-448a-bb4c-a2d278020e33",
+      "raw_summary": "His unrivalled grip on the public imagination has transmuted into Wall Street gold",
       "source": "World",
-      "published": "Fri, 12 Jun 2026 13:05:12 GMT",
-      "summary": "BlackRock private credit fund honours less than 40% of redemption requests\nThe firm’s $13bn HPS Corporate Lending Fund limits withdrawals for a second consecutive quarter"
+      "published": "Fri, 12 Jun 2026 17:40:55 GMT",
+      "summary": "SpaceX’s IPO is a display of Musk’s dominance\nHis unrivalled grip on the public imagination has transmuted into Wall Street gold"
     },
     {
-      "title": "Elon Musk is a real-life Bond villain",
-      "link": "https://www.ft.com/content/77affaa7-5da8-4a85-bc7c-eb59b75a72b0",
-      "raw_summary": "The X owner is using his platform to amplify extremist opponents of multiculturalism in Britain",
+      "title": "Warsh and learn",
+      "link": "https://www.ft.com/content/1e26e057-f4cc-4902-aabd-2f0b94bae1f6",
+      "raw_summary": "We will understand more about new Fed chair Kevin Warsh when he oversees his inaugural rate meeting on Wednesday",
       "source": "World",
-      "published": "Fri, 12 Jun 2026 13:00:04 GMT",
-      "summary": "Elon Musk is a real-life Bond villain\nThe X owner is using his platform to amplify extremist opponents of multiculturalism in Britain"
+      "published": "Fri, 12 Jun 2026 17:20:22 GMT",
+      "summary": "Warsh and learn\nWe will understand more about new Fed chair Kevin Warsh when he oversees his inaugural rate meeting on Wednesday"
     },
     {
-      "title": "New York is in the Money With Knicks’ Historic Run",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-12/new-york-is-in-the-money-with-knicks-historic-run",
-      "raw_summary": "The vibes in New York City are very, very good this week with the historic 29-point comeback in Game 4 of the NBA Finals.\n\nBloomberg's Randall Williams joins Max Chafkin and Stacey Vanek Smith on the Everybody's Business podcast to unpack the NBA frenzy overtaking New York and the economic impact the Knicks' historic run has on the city. (Source: Bloomberg)",
+      "title": "Roku Said in Sale Talks, Including for Possible Media Tie-Up",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-12/roku-said-to-be-in-sale-talks-including-possible-media-tie-up",
+      "raw_summary": "Roku Inc., the streaming video platform, is in talks to sell itself, people with knowledge of the matter said.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 12 Jun 2026 14:34:33 GMT",
-      "summary": "New York is in the Money With Knicks’ Historic Run\nThe vibes in New York City are very, very good this week with the historic 29-point comeback in Game 4 of the NBA Finals.\n\nBloomberg's Randall Williams joins Max Chafkin and Stacey Vanek Smith on the Everybody's Business podcast to unpack the NBA fr"
+      "published": "Fri, 12 Jun 2026 19:13:10 GMT",
+      "summary": "Roku Said in Sale Talks, Including for Possible Media Tie-Up\nRoku Inc., the streaming video platform, is in talks to sell itself, people with knowledge of the matter said."
     },
     {
-      "title": "Middle East Fuel Exports Rebound as Tankers Slip Through Hormuz",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-12/middle-east-fuel-exports-rebound-as-tankers-slip-through-hormuz",
-      "raw_summary": "Exports of refined fuels from the Persian Gulf have rebounded this month as more tankers managed to slip through the Strait or Hormuz, providing welcome relief to markets starved of supply.",
+      "title": "Traders Are Most Positive on US Dollar Since February 2025",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-12/traders-are-most-positive-on-us-dollar-since-february-2025",
+      "raw_summary": "Traders turned the most optimistic on the US dollar in more than a year as the war in the Middle East supports the currency’s status as a haven.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 12 Jun 2026 14:24:21 GMT",
-      "summary": "Middle East Fuel Exports Rebound as Tankers Slip Through Hormuz\nExports of refined fuels from the Persian Gulf have rebounded this month as more tankers managed to slip through the Strait or Hormuz, providing welcome relief to markets starved of supply."
+      "published": "Fri, 12 Jun 2026 19:39:33 GMT",
+      "summary": "Traders Are Most Positive on US Dollar Since February 2025\nTraders turned the most optimistic on the US dollar in more than a year as the war in the Middle East supports the currency’s status as a haven."
     },
     {
-      "title": "Sleep Number Files Bankruptcy to Sell Itself, Blames Tariffs",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-12/sleep-number-files-for-bankruptcy-sale-to-sleep-country-canada",
-      "raw_summary": "Mattress maker Sleep Number Corp. filed bankruptcy with an agreement to sell the firm to one-time retail partner Sleep Country Canada Inc. after years of weak demand, mounting financial pressure and unpredictable tariffs.",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 12 Jun 2026 09:27:35 GMT",
-      "summary": "Sleep Number Files Bankruptcy to Sell Itself, Blames Tariffs\nMattress maker Sleep Number Corp. filed bankruptcy with an agreement to sell the firm to one-time retail partner Sleep Country Canada Inc. after years of weak demand, mounting financial pressure and unpredictable tariffs."
-    },
-    {
-      "title": "S&amp;P 500 Flips to Modest Gain With All Eyes on SpaceX, Iran Hopes",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-12/us-futures-rally-with-all-eyes-on-spacex-iran-war-peace-hopes",
-      "raw_summary": "US stocks erased a drop and posted a modest advance as investors awaited pending trading in SpaceX, which made history with the biggest-ever IPO, and assessed the potential for an interim peace deal in the Iran conflict.",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 12 Jun 2026 11:37:49 GMT",
-      "summary": "S&amp;P 500 Flips to Modest Gain With All Eyes on SpaceX, Iran Hopes\nUS stocks erased a drop and posted a modest advance as investors awaited pending trading in SpaceX, which made history with the biggest-ever IPO, and assessed the potential for an interim peace deal in the Iran conflict."
-    },
-    {
-      "title": "Stocks Advance After Consumer Sentiment Report: Markets Wrap",
+      "title": "Stocks Climb on US-Iran Optimism as SpaceX Debuts: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-06-11/asian-stocks-to-gain-as-trump-signals-us-iran-deal-markets-wrap",
-      "raw_summary": "Wall Street traders sent stocks higher after data showed a pickup in consumer sentiment alongside easing in inflation expectations.",
+      "raw_summary": "Hopes for a diplomatic breakthrough that would end the war in Iran extended a slide in oil prices while lifting stocks, with Wall Street’s enthusiasm also fueled by SpaceX’s strong trading debut.",
       "source": "Bloomberg Markets",
       "published": "Thu, 11 Jun 2026 22:03:20 GMT",
-      "summary": "Stocks Advance After Consumer Sentiment Report: Markets Wrap\nWall Street traders sent stocks higher after data showed a pickup in consumer sentiment alongside easing in inflation expectations."
+      "summary": "Stocks Climb on US-Iran Optimism as SpaceX Debuts: Markets Wrap\nHopes for a diplomatic breakthrough that would end the war in Iran extended a slide in oil prices while lifting stocks, with Wall Street’s enthusiasm also fueled by SpaceX’s strong trading debut."
     },
     {
-      "title": "FTX's Sam Bankman-Fried loses appeal of criminal conviction on fraud, conspiracy charges",
-      "link": "https://www.coindesk.com/policy/2026/06/12/ftx-s-sam-bankman-fried-loses-appeal-of-criminal-conviction-on-fraud-conspiracy-charges",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 12 Jun 2026 14:13:40 +0000",
-      "summary": "FTX's Sam Bankman-Fried loses appeal of criminal conviction on fraud, conspiracy charges\n"
+      "title": "Tesla Holder Merz Sits Out SpaceX IPO in Bet on Musk Merger Bid",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-12/tesla-holder-merz-sits-out-spacex-ipo-in-bet-on-musk-merger-bid",
+      "raw_summary": "Alexandra Merz, a longtime Tesla Inc. investor, said she deliberately avoided buying shares in SpaceX’s initial public offering because she expects Elon Musk to move quickly to combine the two companies.",
+      "source": "Bloomberg Markets",
+      "published": "Fri, 12 Jun 2026 19:26:01 GMT",
+      "summary": "Tesla Holder Merz Sits Out SpaceX IPO in Bet on Musk Merger Bid\nAlexandra Merz, a longtime Tesla Inc. investor, said she deliberately avoided buying shares in SpaceX’s initial public offering because she expects Elon Musk to move quickly to combine the two companies."
     },
     {
-      "title": "XRP sentiment falls to 8-month low, and that has been a buy signal before",
-      "link": "https://www.coindesk.com/markets/2026/06/12/xrp-sentiment-falls-to-an-eight-month-low-and-that-has-been-a-buy-signal-before",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 12 Jun 2026 14:08:03 +0000",
-      "summary": "XRP sentiment falls to 8-month low, and that has been a buy signal before\n"
+      "title": "SpaceX IPO Whips Musk Fans Into Frenzy",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-12/spacex-ipo-whips-musk-fans-into-frenzy-video",
+      "raw_summary": "Bloomberg's Nikki Waller joins Scarlet Fu and Tom Keene on \"Bloomberg Money.\" Shares of SpaceX climbed in their first day of trading on Friday following a $75 billion IPO that smashed records (Source: Bloomberg)",
+      "source": "Bloomberg Markets",
+      "published": "Fri, 12 Jun 2026 19:24:08 GMT",
+      "summary": "SpaceX IPO Whips Musk Fans Into Frenzy\nBloomberg's Nikki Waller joins Scarlet Fu and Tom Keene on \"Bloomberg Money.\" Shares of SpaceX climbed in their first day of trading on Friday following a $75 billion IPO that smashed records (Source: Bloomberg)"
     },
     {
-      "title": "CoinDesk 20 performance update: Ethereum (ETH) falls 1% as index trades lower",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/06/12/coindesk-20-performance-update-ethereum-eth-falls-1-as-index-trades-lower",
+      "title": "Bitcoin hit bottom at $59,000 marking end to the crypto winter, says Standard Chartered analyst",
+      "link": "https://www.coindesk.com/markets/2026/06/12/bitcoin-hit-bottom-at-usd59-000-marking-end-to-the-crypto-winter-says-standard-chartered-analyst",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 12 Jun 2026 13:11:26 +0000",
-      "summary": "CoinDesk 20 performance update: Ethereum (ETH) falls 1% as index trades lower\n"
+      "published": "Fri, 12 Jun 2026 18:09:06 +0000",
+      "summary": "Bitcoin hit bottom at $59,000 marking end to the crypto winter, says Standard Chartered analyst\n"
     },
     {
-      "title": "For crypto, SpaceX's stock market debut could go either way",
-      "link": "https://www.coindesk.com/daybook-us/2026/06/12/for-crypto-spacex-s-stock-market-debut-could-go-either-way",
+      "title": "VanEck bets BNB’s real-world usage can stand out in a crowded crypto ETF market",
+      "link": "https://www.coindesk.com/markets/2026/06/12/vaneck-bets-bnb-s-real-world-usage-can-stand-out-in-a-crowded-crypto-etf-market",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 12 Jun 2026 11:23:25 +0000",
-      "summary": "For crypto, SpaceX's stock market debut could go either way\n"
+      "published": "Fri, 12 Jun 2026 16:05:31 +0000",
+      "summary": "VanEck bets BNB’s real-world usage can stand out in a crowded crypto ETF market\n"
     },
     {
-      "title": "Monero price rockets 33% to $438 amid $120 million onchain laundering maze",
-      "link": "https://www.coindesk.com/markets/2026/06/12/monero-spiked-to-usd430-as-usd120-million-moved-through-it-then-tether-froze-usd72-million",
+      "title": "Elon Musk's SpaceX soars 20% in blockbuster Nasdaq debut",
+      "link": "https://www.coindesk.com/markets/2026/06/12/spacex-opens-at-usdtk-in-blockbuster-nasdaq-debut",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 12 Jun 2026 11:10:51 +0000",
-      "summary": "Monero price rockets 33% to $438 amid $120 million onchain laundering maze\n"
+      "published": "Fri, 12 Jun 2026 15:55:42 +0000",
+      "summary": "Elon Musk's SpaceX soars 20% in blockbuster Nasdaq debut\n"
+    },
+    {
+      "title": "Bloomberg Analyst: Most Bitcoin ETF Investors Have Stayed Put Despite Outflows",
+      "link": "https://www.coindesk.com/markets/2026/06/08/bloomberg-analyst-most-bitcoin-etf-investors-have-stayed-put-despite-outflows",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Fri, 12 Jun 2026 15:49:36 +0000",
+      "summary": "Bloomberg Analyst: Most Bitcoin ETF Investors Have Stayed Put Despite Outflows\n"
+    },
+    {
+      "title": "Kalshi’s crypto perpetuals spark debate over whether they’re futures or swaps",
+      "link": "https://www.coindesk.com/policy/2026/06/12/kalshi-s-crypto-perpetuals-spark-debate-over-whether-they-re-futures-or-swaps",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Fri, 12 Jun 2026 15:37:08 +0000",
+      "summary": "Kalshi’s crypto perpetuals spark debate over whether they’re futures or swaps\n"
     }
   ]
 }
