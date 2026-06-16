@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T16:27:24.655381+00:00",
+  "generated_at": "2026-06-16T20:41:17.192444+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,22 @@
       "summary": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak\nLawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity &#038; Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys an"
     },
     {
+      "title": "Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting",
+      "link": "https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html",
+      "raw_summary": "A flaw in the Google Cloud Vertex AI SDK for Python let an attacker with no access to a victim's project hijack the victim's machine learning model upload and run code inside Google's serving infrastructure.\n\nPalo Alto Networks Unit 42, which found and reported the bug through Google's bug bounty program, calls the technique \"Pickle in the Middle\" and said it saw no exploitation in the wild.",
+      "source": "The Hacker News",
+      "published": "Wed, 17 Jun 2026 00:35:41 +0530",
+      "summary": "Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting\nA flaw in the Google Cloud Vertex AI SDK for Python let an attacker with no access to a victim's project hijack the victim's machine learning model upload and run code inside Google's serving infrastructure.\n\nPalo Alto"
+    },
+    {
+      "title": "ClickFix Campaigns Expand Malware Delivery With New Loaders and Fake Update Lures",
+      "link": "https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html",
+      "raw_summary": "Cybersecurity researchers have flagged multiple ClickFix campaigns that deliver three malware loaders called BabaDeda Loader, Lorem Ipsum Loader, and Potemkin, per independent reports from Morphisec, BlueVoyant, and Huntress, respectively.\n\nAttacks involving BabaDeda Loader, observed in April 2026, have targeted education and financial organizations.\n\n\"Earlier BabaDeda activity was known for",
+      "source": "The Hacker News",
+      "published": "Tue, 16 Jun 2026 23:11:28 +0530",
+      "summary": "ClickFix Campaigns Expand Malware Delivery With New Loaders and Fake Update Lures\nCybersecurity researchers have flagged multiple ClickFix campaigns that deliver three malware loaders called BabaDeda Loader, Lorem Ipsum Loader, and Potemkin, per independent reports from Morphisec, BlueVoyant, and Hu"
+    },
+    {
       "title": "New Rokarolla Android Malware Steals PINs, SMS Codes, and Crypto Wallet Funds",
       "link": "https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html",
       "raw_summary": "Security researchers at&nbsp;Zimperium's zLabs&nbsp;have documented a new Android banking trojan, Rokarolla, that targets 217 banking and cryptocurrency apps and packs 137 remote commands.\n\nTogether, they give an operator near-total control of an infected phone: it lifts lock-screen PINs, reads and sends SMS, rewrites the clipboard to redirect crypto payments, and switches off Google Play",
@@ -67,220 +83,228 @@
       "summary": "Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week\nBad actors are exploiting multiple security vulnerabilities in Fortinet FortiSandbox, according to threat intelligence firm Defused Cyber.\n\nIn a post shared on X, the company said it has observed exploitation of CVE-2026-3981"
     },
     {
-      "title": "China-Linked SprySOCKS Backdoor Expands to Windows with Driver-Based Stealth",
-      "link": "https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html",
-      "raw_summary": "Cybersecurity researchers have flagged two previously undocumented Windows variants of what was believed to be a Linux-only backdoor called SprySOCKS.\n\n\"The Windows variants discovered are internally marked as WIN_DRV and WIN_PLUS,\" ESET said in a report shared with The Hacker News. \"Both come with a hard-coded C&amp;C [command-and-control] configuration and support communication over TCP, UDP,",
-      "source": "The Hacker News",
-      "published": "Tue, 16 Jun 2026 15:14:34 +0530",
-      "summary": "China-Linked SprySOCKS Backdoor Expands to Windows with Driver-Based Stealth\nCybersecurity researchers have flagged two previously undocumented Windows variants of what was believed to be a Linux-only backdoor called SprySOCKS.\n\n\"The Windows variants discovered are internally marked as WIN_DRV and W"
-    },
-    {
-      "title": "Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware",
-      "link": "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html",
-      "raw_summary": "The North Korean state-sponsored hacking group known as ScarCruft (aka APT37) has been observed using spear-phishing messages impersonating Microsoft Account security notifications to deliver malware called NarwhalRAT.\n\n\"The attack email contained a message impersonating an MS account security alert,\" the Genians Security Center (GSC) said. \"It was designed to create concern over possible",
-      "source": "The Hacker News",
-      "published": "Tue, 16 Jun 2026 13:44:55 +0530",
-      "summary": "Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware\nThe North Korean state-sponsored hacking group known as ScarCruft (aka APT37) has been observed using spear-phishing messages impersonating Microsoft Account security notifications to deliver malware called NarwhalRAT.\n\n\"The attack"
-    },
-    {
-      "title": "UK to require ID or face scan before you can make social media accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/uk-to-require-id-or-face-scan-before-you-can-make-social-media-accounts/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.bleepingcomputer.com/news/security/uk-to-require-id-or-face-scan-before-you-can-make-social-media-accounts/\">https://www.bleepingcomputer.com/news/security/uk-to-require-id-or-face-scan-before-you-can-make-social-media-accounts/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48556985\">https://news.ycombinator.com/item?id=48556985</a></p>\n<p>Points: 15</p>\n<p># Comments: 5</p>",
+      "title": "Frood, an Alpine Initramfs NAS",
+      "link": "https://words.filippo.io/frood/",
+      "raw_summary": "<p>Article URL: <a href=\"https://words.filippo.io/frood/\">https://words.filippo.io/frood/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48561402\">https://news.ycombinator.com/item?id=48561402</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 16 Jun 2026 15:39:36 +0000",
-      "summary": "UK to require ID or face scan before you can make social media accounts\n<p>Article URL: <a href=\"https://www.bleepingcomputer.com/news/security/uk-to-require-id-or-face-scan-before-you-can-make-social-media-accounts/\">https://www.bleepingcomputer.com/news/security/uk-to-require-id-or-face-scan-befor"
+      "published": "Tue, 16 Jun 2026 20:17:04 +0000",
+      "summary": "Frood, an Alpine Initramfs NAS\n<p>Article URL: <a href=\"https://words.filippo.io/frood/\">https://words.filippo.io/frood/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48561402\">https://news.ycombinator.com/item?id=48561402</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>"
     },
     {
-      "title": "CJEU: Social networks are the 'publishers' of algorithmically-altered feeds",
-      "link": "https://bsky.app/profile/stevepeers.bsky.social/post/3mofdspytds2l",
-      "raw_summary": "<p>Article URL: <a href=\"https://bsky.app/profile/stevepeers.bsky.social/post/3mofdspytds2l\">https://bsky.app/profile/stevepeers.bsky.social/post/3mofdspytds2l</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48556821\">https://news.ycombinator.com/item?id=48556821</a></p>\n<p>Points: 12</p>\n<p># Comments: 3</p>",
+      "title": "Nobody clicks your share buttons",
+      "link": "https://ankursethi.com/links/nobody-clicks-your-share-buttons/",
+      "raw_summary": "<p>Article URL: <a href=\"https://ankursethi.com/links/nobody-clicks-your-share-buttons/\">https://ankursethi.com/links/nobody-clicks-your-share-buttons/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48561332\">https://news.ycombinator.com/item?id=48561332</a></p>\n<p>Points: 32</p>\n<p># Comments: 8</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 16 Jun 2026 15:30:26 +0000",
-      "summary": "CJEU: Social networks are the 'publishers' of algorithmically-altered feeds\n<p>Article URL: <a href=\"https://bsky.app/profile/stevepeers.bsky.social/post/3mofdspytds2l\">https://bsky.app/profile/stevepeers.bsky.social/post/3mofdspytds2l</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/i"
+      "published": "Tue, 16 Jun 2026 20:12:05 +0000",
+      "summary": "Nobody clicks your share buttons\n<p>Article URL: <a href=\"https://ankursethi.com/links/nobody-clicks-your-share-buttons/\">https://ankursethi.com/links/nobody-clicks-your-share-buttons/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48561332\">https://news.ycombinator.com/item?"
     },
     {
-      "title": "Fable ban was never about a jailbreak",
-      "link": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/",
-      "raw_summary": "<p>Article URL: <a href=\"https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/\">https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48556785\">https://news.ycombinator.com/item?id=48556785</a></p>\n<p>Points: 61</p>\n<p># Comments: 15</p>",
+      "title": "Databricks Launches LTAP: A Unified OLAP/OLTP Data Architecture",
+      "link": "https://www.databricks.com/company/newsroom/press-releases/databricks-launches-ltap-first-lake-transactionalanalytical",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.databricks.com/company/newsroom/press-releases/databricks-launches-ltap-first-lake-transactionalanalytical\">https://www.databricks.com/company/newsroom/press-releases/databricks-launches-ltap-first-lake-transactionalanalytical</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48560886\">https://news.ycombinator.com/item?id=48560886</a></p>\n<p>Points: 8</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 16 Jun 2026 15:27:56 +0000",
-      "summary": "Fable ban was never about a jailbreak\n<p>Article URL: <a href=\"https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/\">https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/</a></p>\n<p>Comments UR"
+      "published": "Tue, 16 Jun 2026 19:45:11 +0000",
+      "summary": "Databricks Launches LTAP: A Unified OLAP/OLTP Data Architecture\n<p>Article URL: <a href=\"https://www.databricks.com/company/newsroom/press-releases/databricks-launches-ltap-first-lake-transactionalanalytical\">https://www.databricks.com/company/newsroom/press-releases/databricks-launches-ltap-first-l"
     },
     {
-      "title": "Google Chrome's Next Update Will Mark the End of Popular Ad Blockers",
-      "link": "https://tech.slashdot.org/story/26/06/15/205219/google-chromes-next-update-will-mark-the-end-of-popular-ad-blockers",
-      "raw_summary": "<p>Article URL: <a href=\"https://tech.slashdot.org/story/26/06/15/205219/google-chromes-next-update-will-mark-the-end-of-popular-ad-blockers\">https://tech.slashdot.org/story/26/06/15/205219/google-chromes-next-update-will-mark-the-end-of-popular-ad-blockers</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48556414\">https://news.ycombinator.com/item?id=48556414</a></p>\n<p>Points: 84</p>\n<p># Comments: 58</p>",
+      "title": "U.S. pulling ocean sensors a 'shock' for Canadian research as El Niño nears",
+      "link": "https://www.timescolonist.com/local-news/us-pulling-ocean-sensors-a-shock-for-canadian-research-as-el-nino-nears-12422874",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.timescolonist.com/local-news/us-pulling-ocean-sensors-a-shock-for-canadian-research-as-el-nino-nears-12422874\">https://www.timescolonist.com/local-news/us-pulling-ocean-sensors-a-shock-for-canadian-research-as-el-nino-nears-12422874</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48560847\">https://news.ycombinator.com/item?id=48560847</a></p>\n<p>Points: 221</p>\n<p># Comments: 86</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 16 Jun 2026 15:05:09 +0000",
-      "summary": "Google Chrome's Next Update Will Mark the End of Popular Ad Blockers\n<p>Article URL: <a href=\"https://tech.slashdot.org/story/26/06/15/205219/google-chromes-next-update-will-mark-the-end-of-popular-ad-blockers\">https://tech.slashdot.org/story/26/06/15/205219/google-chromes-next-update-will-mark-the-"
+      "published": "Tue, 16 Jun 2026 19:42:05 +0000",
+      "summary": "U.S. pulling ocean sensors a 'shock' for Canadian research as El Niño nears\n<p>Article URL: <a href=\"https://www.timescolonist.com/local-news/us-pulling-ocean-sensors-a-shock-for-canadian-research-as-el-nino-nears-12422874\">https://www.timescolonist.com/local-news/us-pulling-ocean-sensors-a-shock-fo"
     },
     {
-      "title": "Subquadratic – Introducing SubQ 1.1 Small",
-      "link": "https://subq.ai/subq-1-1-small-technical-report",
-      "raw_summary": "<p>Article URL: <a href=\"https://subq.ai/subq-1-1-small-technical-report\">https://subq.ai/subq-1-1-small-technical-report</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48556163\">https://news.ycombinator.com/item?id=48556163</a></p>\n<p>Points: 41</p>\n<p># Comments: 18</p>",
+      "title": "Show HN: VoiceDraw – Talk system design out loud, the diagrams draw themselves",
+      "link": "https://voicedraw.com/",
+      "raw_summary": "<p>I was frustated by having to draw system design diagrams by hand when discussing it with my team mates or in an interview. So I thought \"Wouldn't it be great if someone draws it for me, while I think out loud?\".<p>That is when I came up with VoiceDraw. You can just think out loud or discuss your system architecture with a friend/interviewer, the diagrams are automatically drawn along with your reasoning, open questions and tradeoffs beautifully written on to the side.<p>Demo Video: <a href=\"https://youtu.be/36PgHKSuccE\" rel=\"nofollow\">https://youtu.be/36PgHKSuccE</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48560454\">https://news.ycombinator.com/item?id=48560454</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 16 Jun 2026 14:50:10 +0000",
-      "summary": "Subquadratic – Introducing SubQ 1.1 Small\n<p>Article URL: <a href=\"https://subq.ai/subq-1-1-small-technical-report\">https://subq.ai/subq-1-1-small-technical-report</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48556163\">https://news.ycombinator.com/item?id=48556163</a></p>\n<"
+      "published": "Tue, 16 Jun 2026 19:13:30 +0000",
+      "summary": "Show HN: VoiceDraw – Talk system design out loud, the diagrams draw themselves\n<p>I was frustated by having to draw system design diagrams by hand when discussing it with my team mates or in an interview. So I thought \"Wouldn't it be great if someone draws it for me, while I think out loud?\".<p>That"
     },
     {
-      "title": "SpaceX is public: Everything you need to know post-IPO",
-      "link": "https://techcrunch.com/2026/06/16/spacex-is-public-everything-you-need-to-know-post-ipo/",
-      "raw_summary": "TechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and maybe some who won't), pre-IPO deals, and what's tucked inside its S-1 registration document.",
+      "title": "SpaceX valuation balloons to $2.6T, briefly passes Amazon",
+      "link": "https://techcrunch.com/2026/06/16/spacex-valuation-balloons-to-2-6t-briefly-passes-amazon/",
+      "raw_summary": "SpaceX's valuation has increased by $1 trillion since its shares started trading on Friday.",
       "source": "TechCrunch",
-      "published": "Tue, 16 Jun 2026 15:53:12 +0000",
-      "summary": "SpaceX is public: Everything you need to know post-IPO\nTechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and maybe some who won't), pre-IPO deals, and what's "
+      "published": "Tue, 16 Jun 2026 20:11:00 +0000",
+      "summary": "SpaceX valuation balloons to $2.6T, briefly passes Amazon\nSpaceX's valuation has increased by $1 trillion since its shares started trading on Friday."
     },
     {
-      "title": "India orders temporary ban on Telegram over exam fraud concerns",
-      "link": "https://techcrunch.com/2026/06/16/india-temporarily-blocks-access-to-telegram-over-exam-fraud-concerns/",
-      "raw_summary": "The restrictions include a nationwide ban on Telegram until June 22 and a requirement to disable the app's message editing feature.",
+      "title": "Qualcomm wants to be the chip inside whatever replaces your smartphone, and it just announced two products toward that end",
+      "link": "https://techcrunch.com/2026/06/16/qualcomm-wants-to-be-the-chip-inside-whatever-replaces-your-smartphone-and-it-just-announced-two-products-toward-that-end/",
+      "raw_summary": "Qualcomm CEO Cristiano Amon said Tuesday that the company is working on over 40 different AI wearable devices — including jewelry, earbuds with cameras, pins, and watches — a sign of how aggressively the chipmaker is betting that the next major computing platform won't be a phone.",
       "source": "TechCrunch",
-      "published": "Tue, 16 Jun 2026 15:49:00 +0000",
-      "summary": "India orders temporary ban on Telegram over exam fraud concerns\nThe restrictions include a nationwide ban on Telegram until June 22 and a requirement to disable the app's message editing feature."
+      "published": "Tue, 16 Jun 2026 18:22:24 +0000",
+      "summary": "Qualcomm wants to be the chip inside whatever replaces your smartphone, and it just announced two products toward that end\nQualcomm CEO Cristiano Amon said Tuesday that the company is working on over 40 different AI wearable devices — including jewelry, earbuds with cameras, pins, and watches — a si"
     },
     {
-      "title": "Payments startup Flutterwave hits $3.2B valuation, backed by Ripple",
-      "link": "https://techcrunch.com/2026/06/16/payments-startup-flutterwave-hits-3-2b-valuation-backed-by-ripple/",
-      "raw_summary": "African payments infrastructure company Flutterwave has hit a new valuation and landed blockchain company Ripple as investor and partner.",
+      "title": "Bug in FIFA World Cup internal system gave anyone ability to modify TV stream",
+      "link": "https://techcrunch.com/2026/06/16/bug-in-fifa-world-cup-internal-system-gave-anyone-ability-to-modify-tv-stream/",
+      "raw_summary": "A security researcher said a flaw in FIFA’s online platforms allowed her to access several internal systems, including one that could have allowed her to take control of the TV stream of every World Cup match.",
       "source": "TechCrunch",
-      "published": "Tue, 16 Jun 2026 15:35:39 +0000",
-      "summary": "Payments startup Flutterwave hits $3.2B valuation, backed by Ripple\nAfrican payments infrastructure company Flutterwave has hit a new valuation and landed blockchain company Ripple as investor and partner."
+      "published": "Tue, 16 Jun 2026 18:13:49 +0000",
+      "summary": "Bug in FIFA World Cup internal system gave anyone ability to modify TV stream\nA security researcher said a flaw in FIFA’s online platforms allowed her to access several internal systems, including one that could have allowed her to take control of the TV stream of every World Cup match."
     },
     {
-      "title": "DOJ claims xAI’s unpermitted gas turbines are a matter of ‘national, economic, and energy security’",
-      "link": "https://techcrunch.com/2026/06/16/doj-claims-xais-unpermitted-gas-turbines-are-a-matter-of-national-economic-and-energy-security/",
-      "raw_summary": "The Justice department says the Pentagon needs xAI to keep using its unpermitted gas turbines.",
+      "title": "Android 17 launches with new multitasking tools as Google expands Gemini features",
+      "link": "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
+      "raw_summary": "Google has released Android 17 and Wear OS 7, introducing new multitasking features, parental controls, security tools, and smartwatch upgrades. The launch is also accompanied by a Pixel Drop that brings Google’s latest AI models to its devices.",
       "source": "TechCrunch",
-      "published": "Tue, 16 Jun 2026 15:05:03 +0000",
-      "summary": "DOJ claims xAI’s unpermitted gas turbines are a matter of ‘national, economic, and energy security’\nThe Justice department says the Pentagon needs xAI to keep using its unpermitted gas turbines."
+      "published": "Tue, 16 Jun 2026 18:00:00 +0000",
+      "summary": "Android 17 launches with new multitasking tools as Google expands Gemini features\nGoogle has released Android 17 and Wear OS 7, introducing new multitasking features, parental controls, security tools, and smartwatch upgrades. The launch is also accompanied by a Pixel Drop that brings Google’s lates"
     },
     {
-      "title": "Plaud says its software business topped $100M in ARR after shipping over 2M AI notetakers",
-      "link": "https://techcrunch.com/2026/06/16/plaud-says-its-software-business-topped-100m-in-arr-after-shipping-over-2m-ai-notetakers/",
-      "raw_summary": "Plaud is trying to make a mark in a crowded market full of AI-powered meeting notetakers.",
+      "title": "Mobileye’s US robotaxi launch will put it on both sides of the AV business",
+      "link": "https://techcrunch.com/2026/06/16/mobileye-us-robotaxi-launch-will-put-it-on-both-sides-of-the-av-business/",
+      "raw_summary": "Mobileye apparently wants to own some of the robotaxi market, even if that puts it in direct competition with companies it supplies its self-driving system to.",
       "source": "TechCrunch",
-      "published": "Tue, 16 Jun 2026 15:00:00 +0000",
-      "summary": "Plaud says its software business topped $100M in ARR after shipping over 2M AI notetakers\nPlaud is trying to make a mark in a crowded market full of AI-powered meeting notetakers."
+      "published": "Tue, 16 Jun 2026 17:50:23 +0000",
+      "summary": "Mobileye’s US robotaxi launch will put it on both sides of the AV business\nMobileye apparently wants to own some of the robotaxi market, even if that puts it in direct competition with companies it supplies its self-driving system to."
     },
     {
-      "title": "Mobileye is entering the US robotaxi market with standalone service",
-      "link": "https://arstechnica.com/cars/2026/06/mobileye-is-entering-the-us-robotaxi-market-with-standalone-service/",
-      "raw_summary": "The service will leverage its Moovit platform to launch in an a US city in 2027.",
+      "title": "US approval of Paramount/Warner Bros. deal surprised DOJ lawyers, report says",
+      "link": "https://arstechnica.com/tech-policy/2026/06/us-approval-of-paramount-warner-bros-deal-surprised-doj-lawyers-report-says/",
+      "raw_summary": "Trump admin green-lighting $111B deal \"reeks of corruption,\" Sen. Warren says.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 16 Jun 2026 14:20:51 +0000",
-      "summary": "Mobileye is entering the US robotaxi market with standalone service\nThe service will leverage its Moovit platform to launch in an a US city in 2027."
+      "published": "Tue, 16 Jun 2026 18:48:45 +0000",
+      "summary": "US approval of Paramount/Warner Bros. deal surprised DOJ lawyers, report says\nTrump admin green-lighting $111B deal \"reeks of corruption,\" Sen. Warren says."
     },
     {
-      "title": "The Ars Technica 2026 Reader Survey: Let your voice be heard!",
-      "link": "https://arstechnica.com/staff/2026/06/the-ars-technica-2026-reader-survey-let-your-voice-be-heard/",
-      "raw_summary": "Tell us how you read Ars, and what you'd like to see more (or less!) of on the front page.",
+      "title": "Pentagon boasts of using AI to write reports mandated by Congress",
+      "link": "https://arstechnica.com/ai/2026/06/pentagon-boasts-of-using-ai-to-write-reports-mandated-by-congress/",
+      "raw_summary": "Pentagon also claims 1.5 million personnel are using generative AI tools.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 16 Jun 2026 13:35:55 +0000",
-      "summary": "The Ars Technica 2026 Reader Survey: Let your voice be heard!\nTell us how you read Ars, and what you'd like to see more (or less!) of on the front page."
+      "published": "Tue, 16 Jun 2026 18:11:05 +0000",
+      "summary": "Pentagon boasts of using AI to write reports mandated by Congress\nPentagon also claims 1.5 million personnel are using generative AI tools."
     },
     {
-      "title": "Critical Copilot vulnerability allowed hackers to seal 2FA code from users",
-      "link": "https://arstechnica.com/security/2026/06/critical-copilot-vulnerability-allowed-hackers-to-seal-2fa-code-from-users/",
-      "raw_summary": "SearchLeak exploit shows why the industry's approach to LLM security fails over and over.",
+      "title": "Android 17 starts hitting Pixel phones and watches today",
+      "link": "https://arstechnica.com/gadgets/2026/06/android-17-starts-hitting-pixel-phones-and-watches-today/",
+      "raw_summary": "Pixels will get their OTA in the coming weeks, but don't expect monumental changes.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 16 Jun 2026 11:15:46 +0000",
-      "summary": "Critical Copilot vulnerability allowed hackers to seal 2FA code from users\nSearchLeak exploit shows why the industry's approach to LLM security fails over and over."
+      "published": "Tue, 16 Jun 2026 18:00:08 +0000",
+      "summary": "Android 17 starts hitting Pixel phones and watches today\nPixels will get their OTA in the coming weeks, but don't expect monumental changes."
     },
     {
-      "title": "Commodore’s newest gadget is a flip phone that blocks social media and browsers",
-      "link": "https://arstechnica.com/gadgets/2026/06/commodores-newest-gadget-is-a-flip-phone-that-blocks-social-media-and-browsers/",
-      "raw_summary": "Commodore's Callback 8020 is a phone “where the customer is not the product.\"",
+      "title": "Trump admin abandons fight against wind energy as clean energy output surges",
+      "link": "https://arstechnica.com/science/2026/06/trump-admin-abandons-fight-against-wind-energy-as-clean-energy-output-surges/",
+      "raw_summary": "Legal victories have dampened the Trump admin’s efforts to halt wind and solar power.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 16 Jun 2026 09:00:51 +0000",
-      "summary": "Commodore’s newest gadget is a flip phone that blocks social media and browsers\nCommodore's Callback 8020 is a phone “where the customer is not the product.\""
+      "published": "Tue, 16 Jun 2026 16:49:09 +0000",
+      "summary": "Trump admin abandons fight against wind energy as clean energy output surges\nLegal victories have dampened the Trump admin’s efforts to halt wind and solar power."
     },
     {
-      "title": "Key mission for Europe's commercial space enterprise scrubbed again",
-      "link": "https://arstechnica.com/space/2026/06/key-mission-for-europes-commercial-space-enterprise-scrubbed-again/",
-      "raw_summary": "Isar Aerospace is not hurting for money, but it is sorely lacking in the currency of flight experience.",
+      "title": "SpaceX to acquire AI coding platform Cursor for $60 billion",
+      "link": "https://arstechnica.com/ai/2026/06/spacex-will-acquire-coding-tool-cursor-to-compete-with-anthropic-openai/",
+      "raw_summary": "Separately, neither could compete. Now they hope they can.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 15 Jun 2026 23:40:38 +0000",
-      "summary": "Key mission for Europe's commercial space enterprise scrubbed again\nIsar Aerospace is not hurting for money, but it is sorely lacking in the currency of flight experience."
+      "published": "Tue, 16 Jun 2026 16:37:45 +0000",
+      "summary": "SpaceX to acquire AI coding platform Cursor for $60 billion\nSeparately, neither could compete. Now they hope they can."
     },
     {
-      "title": "Oil sinks below $80 a barrel as traders bet Strait of Hormuz flows will return",
+      "title": "SpaceX leapfrogs Amazon to become world’s fifth-most valuable company",
+      "link": "https://www.ft.com/content/17153f13-b0c8-4331-8f97-32a19a5e966e",
+      "raw_summary": "Elon Musk’s AI, rocket and satellite group also announces $60bn deal for AI coding app Cursor",
+      "source": "World",
+      "published": "Tue, 16 Jun 2026 20:26:41 GMT",
+      "summary": "SpaceX leapfrogs Amazon to become world’s fifth-most valuable company\nElon Musk’s AI, rocket and satellite group also announces $60bn deal for AI coding app Cursor"
+    },
+    {
+      "title": "Ex-Citi executive says bank sacked her after raising Trump concerns",
+      "link": "https://www.ft.com/content/b780e03d-02b7-452f-944c-a71b8f237c7e",
+      "raw_summary": "Former employee claims in lawsuit that she identified issues with risk-management practices",
+      "source": "World",
+      "published": "Tue, 16 Jun 2026 20:08:10 GMT",
+      "summary": "Ex-Citi executive says bank sacked her after raising Trump concerns\nFormer employee claims in lawsuit that she identified issues with risk-management practices"
+    },
+    {
+      "title": "Yum Brands sells struggling Pizza Hut in bet on faster-growing businesses",
+      "link": "https://www.ft.com/content/f0100928-2a0d-45ad-8422-acb2563576df",
+      "raw_summary": "KFC and Taco Bell owner to offload bulk of fast-food chain to private equity group as part of $2.7bn sale",
+      "source": "World",
+      "published": "Tue, 16 Jun 2026 20:06:47 GMT",
+      "summary": "Yum Brands sells struggling Pizza Hut in bet on faster-growing businesses\nKFC and Taco Bell owner to offload bulk of fast-food chain to private equity group as part of $2.7bn sale"
+    },
+    {
+      "title": "Russian warship fires warning shots towards yacht in English Channel",
+      "link": "https://www.ft.com/content/ddbc8071-3d83-4c44-8ab4-13ac39e46636",
+      "raw_summary": "UK says incident is not linked to Britain’s interception of an oil tanker that is part of Moscow’s shadow fleet",
+      "source": "World",
+      "published": "Tue, 16 Jun 2026 20:01:51 GMT",
+      "summary": "Russian warship fires warning shots towards yacht in English Channel\nUK says incident is not linked to Britain’s interception of an oil tanker that is part of Moscow’s shadow fleet"
+    },
+    {
+      "title": "Oil sinks below $80 as traders bet Strait of Hormuz flows will return",
       "link": "https://www.ft.com/content/45340e55-aa6a-4302-a606-a869f5cb6189",
       "raw_summary": "Brent crude has tumbled to three-month low following agreement to extend US-Iran ceasefire",
       "source": "World",
-      "published": "Tue, 16 Jun 2026 16:20:53 GMT",
-      "summary": "Oil sinks below $80 a barrel as traders bet Strait of Hormuz flows will return\nBrent crude has tumbled to three-month low following agreement to extend US-Iran ceasefire"
-    },
-    {
-      "title": "Russian dissident artist shot dead in Poland",
-      "link": "https://www.ft.com/content/acafe93a-516b-4dd6-8587-a1bd813804b9",
-      "raw_summary": "Robert Kuzovkov had recently protested at the Venice Art Biennale outside Moscow’s controversial pavilion",
-      "source": "World",
-      "published": "Tue, 16 Jun 2026 16:18:05 GMT",
-      "summary": "Russian dissident artist shot dead in Poland\nRobert Kuzovkov had recently protested at the Venice Art Biennale outside Moscow’s controversial pavilion"
-    },
-    {
-      "title": "Russian warship accused of firing warning shots towards yacht in Channel",
-      "link": "https://www.ft.com/content/ddbc8071-3d83-4c44-8ab4-13ac39e46636",
-      "raw_summary": "Ministry of Defence says it is ‘investigating reports of incident’",
-      "source": "World",
-      "published": "Tue, 16 Jun 2026 16:12:35 GMT",
-      "summary": "Russian warship accused of firing warning shots towards yacht in Channel\nMinistry of Defence says it is ‘investigating reports of incident’"
-    },
-    {
-      "title": "‘A referendum on oil and gas’: Britain’s other big by-election",
-      "link": "https://www.ft.com/content/2628752c-6ec4-4482-893c-7174c47875fd",
-      "raw_summary": "Voters in Aberdeen go to the polls with both Conservative and Reform candidates making energy a central issue of their campaigns",
-      "source": "World",
-      "published": "Tue, 16 Jun 2026 15:36:24 GMT",
-      "summary": "‘A referendum on oil and gas’: Britain’s other big by-election\nVoters in Aberdeen go to the polls with both Conservative and Reform candidates making energy a central issue of their campaigns"
-    },
-    {
-      "title": "UK-EU summit set for July 22",
-      "link": "https://www.ft.com/content/2e1946ea-14c8-4880-9419-90d11aef506e",
-      "raw_summary": "Starmer seeks to flesh out plan for closer bilateral ties despite questions over his future as prime minister",
-      "source": "World",
-      "published": "Tue, 16 Jun 2026 14:55:31 GMT",
-      "summary": "UK-EU summit set for July 22\nStarmer seeks to flesh out plan for closer bilateral ties despite questions over his future as prime minister"
-    },
-    {
-      "title": "Emerging FX Index Edges Up on Peace Deal Ahead of Fed Meeting",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-16/emerging-stocks-near-record-high-on-tech-gains-lower-oil-prices",
-      "raw_summary": "An index for emerging-market currencies edged higher on Monday as traders weighed the interim peace deal between the US and Iran against uncertainty from the Federal Reserve’s upcoming policy meeting.",
-      "source": "Bloomberg Markets",
-      "published": "Tue, 16 Jun 2026 09:34:27 GMT",
-      "summary": "Emerging FX Index Edges Up on Peace Deal Ahead of Fed Meeting\nAn index for emerging-market currencies edged higher on Monday as traders weighed the interim peace deal between the US and Iran against uncertainty from the Federal Reserve’s upcoming policy meeting."
-    },
-    {
-      "title": "Rare-Earth Startup Lines Up $500 Million in Pentagon Funding",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-16/us-offers-conditional-500-million-loan-for-rare-earths-plant",
-      "raw_summary": "Rare-earth refiner Phoenix Tailings Inc. received a conditional $500 million loan from the Pentagon, the latest White House deal to boost production of rare-earth elements in the US.",
-      "source": "Bloomberg Markets",
-      "published": "Tue, 16 Jun 2026 15:05:26 GMT",
-      "summary": "Rare-Earth Startup Lines Up $500 Million in Pentagon Funding\nRare-earth refiner Phoenix Tailings Inc. received a conditional $500 million loan from the Pentagon, the latest White House deal to boost production of rare-earth elements in the US."
-    },
-    {
-      "title": "US Traders’ Access to Foreign Platforms Draws Scrutiny From CFTC",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-16/us-traders-access-to-foreign-platforms-draws-scrutiny-from-cftc",
-      "raw_summary": "The US derivatives regulator is launching a review of foreign trading platforms that let US-based individuals directly access their electronic trading systems, according to an agency official familiar with the matter.",
-      "source": "Bloomberg Markets",
-      "published": "Tue, 16 Jun 2026 16:12:57 GMT",
-      "summary": "US Traders’ Access to Foreign Platforms Draws Scrutiny From CFTC\nThe US derivatives regulator is launching a review of foreign trading platforms that let US-based individuals directly access their electronic trading systems, according to an agency official familiar with the matter."
+      "published": "Tue, 16 Jun 2026 19:58:27 GMT",
+      "summary": "Oil sinks below $80 as traders bet Strait of Hormuz flows will return\nBrent crude has tumbled to three-month low following agreement to extend US-Iran ceasefire"
     },
     {
       "title": "Oil Falls to Three-Month Low as US-Iran Deal Set to Add Supply",
       "link": "https://www.bloomberg.com/news/articles/2026-06-15/latest-oil-market-news-and-analysis-for-june-16",
-      "raw_summary": "Oil headed for its longest run of declines this year as the US-Iran deal to reopen the Strait of Hormuz boosted expectations for a revival in supply, with leading Wall Street banks reducing their price forecasts and key market gauges tumbling.",
+      "raw_summary": "Oil logged its longest run of declines this year as the US-Iran deal to reopen the Strait of Hormuz boosted expectations for a revival in supply, with leading Wall Street banks reducing their price forecasts and key market gauges tumbling.",
       "source": "Bloomberg Markets",
       "published": "Mon, 15 Jun 2026 22:01:18 GMT",
-      "summary": "Oil Falls to Three-Month Low as US-Iran Deal Set to Add Supply\nOil headed for its longest run of declines this year as the US-Iran deal to reopen the Strait of Hormuz boosted expectations for a revival in supply, with leading Wall Street banks reducing their price forecasts and key market gauges tum"
+      "summary": "Oil Falls to Three-Month Low as US-Iran Deal Set to Add Supply\nOil logged its longest run of declines this year as the US-Iran deal to reopen the Strait of Hormuz boosted expectations for a revival in supply, with leading Wall Street banks reducing their price forecasts and key market gauges tumblin"
     },
     {
-      "title": "Stanford's Wallace Says US Recession Is Not a Certainty",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-16/stanford-s-wallace-says-us-recession-is-not-a-certainty",
-      "raw_summary": "Stanford Management Company CEO Rob Wallace discusses his views on the US economy, and the challenges of managing a $50 billion portfolio for Stanford University's endowment. He joins David Rubenstein on this week's episode of Bloomberg Wealth. The interview was recorded April 9 in Palo Alto, CA.  (Source: Bloomberg)",
+      "title": "Private-Credit Defaults Match 2023 High in a KBRA Index",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-16/private-credit-defaults-match-2023-high-in-300-billion-index",
+      "raw_summary": "The default rate among private-credit borrowers has reached the highest in the roughly three-year history of an index from Kroll Bond Rating Agency LLC, adding to signs of stress in the $1.8 trillion industry.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 16 Jun 2026 16:04:02 GMT",
-      "summary": "Stanford's Wallace Says US Recession Is Not a Certainty\nStanford Management Company CEO Rob Wallace discusses his views on the US economy, and the challenges of managing a $50 billion portfolio for Stanford University's endowment. He joins David Rubenstein on this week's episode of Bloomberg Wealth."
+      "published": "Tue, 16 Jun 2026 19:44:09 GMT",
+      "summary": "Private-Credit Defaults Match 2023 High in a KBRA Index\nThe default rate among private-credit borrowers has reached the highest in the roughly three-year history of an index from Kroll Bond Rating Agency LLC, adding to signs of stress in the $1.8 trillion industry."
+    },
+    {
+      "title": "Biofuels Are Key to Avoiding Sharp Farmland Drop, S&amp;P Says",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-16/biofuels-are-key-to-preventing-sharp-drop-in-farmland-s-p-says",
+      "raw_summary": "Expanding biofuel demand is a “powerful catalyst” to restore profitability to American farms, according to a new study, as harvests balloon and lawmakers consider broadening the market for corn-based ethanol.",
+      "source": "Bloomberg Markets",
+      "published": "Tue, 16 Jun 2026 15:02:07 GMT",
+      "summary": "Biofuels Are Key to Avoiding Sharp Farmland Drop, S&amp;P Says\nExpanding biofuel demand is a “powerful catalyst” to restore profitability to American farms, according to a new study, as harvests balloon and lawmakers consider broadening the market for corn-based ethanol."
+    },
+    {
+      "title": "T-Shirt Maker Gildan Plunges on Short Seller’s Revenue Claim",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-16/gildan-activewear-shares-fall-24-after-jehoshaphat-alleges-channel-stuffing",
+      "raw_summary": "Shares of Gildan Activewear Inc. tumbled the most in more than six years after short seller Jehoshaphat Research published a negative report accusing the company of inflating revenue.",
+      "source": "Bloomberg Markets",
+      "published": "Tue, 16 Jun 2026 16:03:37 GMT",
+      "summary": "T-Shirt Maker Gildan Plunges on Short Seller’s Revenue Claim\nShares of Gildan Activewear Inc. tumbled the most in more than six years after short seller Jehoshaphat Research published a negative report accusing the company of inflating revenue."
+    },
+    {
+      "title": "Bond Options Traders Split on Fed Rate Path as Warsh Era Begins",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-16/bond-options-traders-split-on-fed-rate-path-as-warsh-era-begins",
+      "raw_summary": "Options traders are increasingly divided over the Federal Reserve’s near-term rate path, with conflicting bets that span from cuts to various degrees of hikes over the coming months.",
+      "source": "Bloomberg Markets",
+      "published": "Tue, 16 Jun 2026 20:30:24 GMT",
+      "summary": "Bond Options Traders Split on Fed Rate Path as Warsh Era Begins\nOptions traders are increasingly divided over the Federal Reserve’s near-term rate path, with conflicting bets that span from cuts to various degrees of hikes over the coming months."
+    },
+    {
+      "title": "U.S. senators urge Treasury not to leave states out of GENIUS Act stablecoin process",
+      "link": "https://www.coindesk.com/policy/2026/06/16/u-s-senators-urge-treasury-not-to-leave-states-out-of-genius-act-stablecoin-process",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Tue, 16 Jun 2026 20:36:09 +0000",
+      "summary": "U.S. senators urge Treasury not to leave states out of GENIUS Act stablecoin process\n"
+    },
+    {
+      "title": "Hyperliquid, Uniswap and Worldcoin buck crypto slump as traders chase AI, DeFi trends",
+      "link": "https://www.coindesk.com/markets/2026/06/16/hyperliquid-uniswap-and-worldcoin-buck-crypto-slump-as-traders-chase-ai-defi-trends",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Tue, 16 Jun 2026 20:20:35 +0000",
+      "summary": "Hyperliquid, Uniswap and Worldcoin buck crypto slump as traders chase AI, DeFi trends\n"
+    },
+    {
+      "title": "Coinbase intoduces AI advisor, stock options, and pre-IPO markets in finance push",
+      "link": "https://www.coindesk.com/business/2026/06/16/coinbase-intoduces-ai-advisor-stock-options-and-pre-ipo-markets-in-finance-push",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Tue, 16 Jun 2026 19:00:00 +0000",
+      "summary": "Coinbase intoduces AI advisor, stock options, and pre-IPO markets in finance push\n"
     },
     {
       "title": "Ripple invests in Flutterwave, pushing its stablecoin and XRP Ledger into payments across Africa",
@@ -297,30 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Tue, 16 Jun 2026 15:03:21 +0000",
       "summary": "Coinbase to join tokenized stock race with onchain shares, dividend payments\n"
-    },
-    {
-      "title": "Binance says its European regulatory application is compliant despite report of Greek rejection",
-      "link": "https://www.coindesk.com/policy/2026/06/16/binance-says-its-european-regulatory-application-is-fully-compliant-despite-report-of-greek-rejection",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 16 Jun 2026 14:55:35 +0000",
-      "summary": "Binance says its European regulatory application is compliant despite report of Greek rejection\n"
-    },
-    {
-      "title": "Ethereum’s biggest protocol overhaul in years moves into its final development stage",
-      "link": "https://www.coindesk.com/tech/2026/06/16/ethereum-s-biggest-protocol-overhaul-in-years-moves-into-its-final-development-stage",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 16 Jun 2026 14:48:18 +0000",
-      "summary": "Ethereum’s biggest protocol overhaul in years moves into its final development stage\n"
-    },
-    {
-      "title": "State Street targets stablecoin reserve boom with new money market fund",
-      "link": "https://www.coindesk.com/business/2026/06/16/state-street-targets-stablecoin-reserve-boom-with-new-money-market-fund",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 16 Jun 2026 14:27:26 +0000",
-      "summary": "State Street targets stablecoin reserve boom with new money market fund\n"
     }
   ]
 }
