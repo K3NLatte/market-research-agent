@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T02:57:11.988229+00:00",
+  "generated_at": "2026-06-16T10:56:53.112390+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,84 +43,100 @@
       "summary": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak\nLawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity &#038; Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys an"
     },
     {
-      "title": "Chinese Hackers Abused Google Workspace Rules to Steal Research and Defense Emails",
-      "link": "https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html",
-      "raw_summary": "A China-linked espionage group hid inside North American medical, academic, and military research networks for more than a year, quietly stealing sensitive research and defense email.\n\nThe way in was a backdoor on their REDCap research servers that stole login credentials. The exfiltration was the unusual part: the attackers rewired the victims' own Google Workspace rules to copy any message",
+      "title": "Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week",
+      "link": "https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html",
+      "raw_summary": "Bad actors are exploiting multiple security vulnerabilities in Fortinet FortiSandbox, according to threat intelligence firm Defused Cyber.\n\nIn a post shared on X, the company said it has observed exploitation of CVE-2026-39813, CVE-2026-39808, and CVE-2026-25089 over the past 24 hours.\n\nCVE-2026-39813 (CVSS score: 9.1) refers to a path traversal vulnerability in FortiSandbox JRPC API that could",
       "source": "The Hacker News",
-      "published": "Tue, 16 Jun 2026 01:14:06 +0530",
-      "summary": "Chinese Hackers Abused Google Workspace Rules to Steal Research and Defense Emails\nA China-linked espionage group hid inside North American medical, academic, and military research networks for more than a year, quietly stealing sensitive research and defense email.\n\nThe way in was a backdoor on the"
+      "published": "Tue, 16 Jun 2026 16:00:41 +0530",
+      "summary": "Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week\nBad actors are exploiting multiple security vulnerabilities in Fortinet FortiSandbox, according to threat intelligence firm Defused Cyber.\n\nIn a post shared on X, the company said it has observed exploitation of CVE-2026-3981"
     },
     {
-      "title": "North Korean Hackers Are Turning Developer Tools Into Malware Delivery Channels",
-      "link": "https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html",
-      "raw_summary": "Cybersecurity researchers have flagged two malicious cyber campaigns that exhibit similarities with a persistent North Korean threat cluster known as Contagious Interview (aka Famous Chollima, HexagonalRodent, and Void Dokkaebi).\n\nAccording to a report published by Proofpoint, the threat actor has been found orchestrating phishing campaigns using developer role recruitment or code review themes",
+      "title": "China-Linked SprySOCKS Backdoor Expands to Windows with Driver-Based Stealth",
+      "link": "https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html",
+      "raw_summary": "Cybersecurity researchers have flagged two previously undocumented Windows variants of what was believed to be a Linux-only backdoor called SprySOCKS.\n\n\"The Windows variants discovered are internally marked as WIN_DRV and WIN_PLUS,\" ESET said in a report shared with The Hacker News. \"Both come with a hard-coded C&amp;C [command-and-control] configuration and support communication over TCP, UDP,",
       "source": "The Hacker News",
-      "published": "Tue, 16 Jun 2026 01:02:52 +0530",
-      "summary": "North Korean Hackers Are Turning Developer Tools Into Malware Delivery Channels\nCybersecurity researchers have flagged two malicious cyber campaigns that exhibit similarities with a persistent North Korean threat cluster known as Contagious Interview (aka Famous Chollima, HexagonalRodent, and Void D"
+      "published": "Tue, 16 Jun 2026 15:14:34 +0530",
+      "summary": "China-Linked SprySOCKS Backdoor Expands to Windows with Driver-Based Stealth\nCybersecurity researchers have flagged two previously undocumented Windows variants of what was believed to be a Linux-only backdoor called SprySOCKS.\n\n\"The Windows variants discovered are internally marked as WIN_DRV and W"
     },
     {
-      "title": "LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers",
-      "link": "https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html",
-      "raw_summary": "A default low-privilege account on a LiteLLM proxy can climb to full admin and run code on the server by chaining three vulnerabilities, researchers at Obsidian Security disclosed\n\nLiteLLM is a widely deployed open-source AI gateway that brokers calls to more than 100 model providers behind one OpenAI-compatible interface.\n\nA server takeover exposes every provider key it holds, the secrets that",
+      "title": "Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware",
+      "link": "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html",
+      "raw_summary": "The North Korean state-sponsored hacking group known as ScarCruft (aka APT37) has been observed using spear-phishing messages impersonating Microsoft Account security notifications to deliver malware called NarwhalRAT.\n\n\"The attack email contained a message impersonating an MS account security alert,\" the Genians Security Center (GSC) said. \"It was designed to create concern over possible",
       "source": "The Hacker News",
-      "published": "Mon, 15 Jun 2026 22:09:01 +0530",
-      "summary": "LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers\nA default low-privilege account on a LiteLLM proxy can climb to full admin and run code on the server by chaining three vulnerabilities, researchers at Obsidian Security disclosed\n\nLiteLLM is a widely deployed open-sou"
+      "published": "Tue, 16 Jun 2026 13:44:55 +0530",
+      "summary": "Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware\nThe North Korean state-sponsored hacking group known as ScarCruft (aka APT37) has been observed using spear-phishing messages impersonating Microsoft Account security notifications to deliver malware called NarwhalRAT.\n\n\"The attack"
     },
     {
-      "title": "One-Click Microsoft 365 Copilot Flaw Could Have Let Attackers Steal Emails, Files, and MFA Codes",
-      "link": "https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html",
-      "raw_summary": "A single click on a trusted Microsoft link could have let an attacker pull emails, calendar details, and indexed files out of Microsoft 365 Copilot Enterprise Search.\n\nResearchers at Varonis Threat Labs chained three bugs into a one-click exfiltration path they call SearchLeak. Because the link pointed to a real microsoft.com domain, traditional anti-phishing and URL filtering tools were",
+      "title": "Cisco Releases Security Updates for Actively Exploited SD-WAN Manager Flaw",
+      "link": "https://thehackernews.com/2026/06/cisco-releases-security-updates-for.html",
+      "raw_summary": "Cisco has released security updates for a medium-severity security flaw in Catalyst SD-WAN Manager that has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-20262, carries a CVSS score of 6.5 out of 10.0.\n\n\"A vulnerability in the web UI of Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, could allow an authenticated, remote attacker to create a file or",
       "source": "The Hacker News",
-      "published": "Mon, 15 Jun 2026 20:39:05 +0530",
-      "summary": "One-Click Microsoft 365 Copilot Flaw Could Have Let Attackers Steal Emails, Files, and MFA Codes\nA single click on a trusted Microsoft link could have let an attacker pull emails, calendar details, and indexed files out of Microsoft 365 Copilot Enterprise Search.\n\nResearchers at Varonis Threat Labs "
+      "published": "Tue, 16 Jun 2026 11:35:58 +0530",
+      "summary": "Cisco Releases Security Updates for Actively Exploited SD-WAN Manager Flaw\nCisco has released security updates for a medium-severity security flaw in Catalyst SD-WAN Manager that has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-20262, carries a CVSS score of 6."
     },
     {
-      "title": "⚡ Weekly Recap: Chrome 0-Day, UniFi Exploits, macOS Stealers, VPN Flaw and More",
-      "link": "https://thehackernews.com/2026/06/weekly-recap-chrome-0-day-unifi.html",
-      "raw_summary": "Stuff broke again. Not in a movie way. An old tool was left exposed. An abandoned package was abused. A deprecated feature was still running in prod.\n\nThis week is the same lesson in a new form: phishing kits are easier to rent, AI names are useful bait, old login paths still fail, and forgotten software keeps becoming someone else's entry point.\n\nScroll through the full Monday Cybersecurity",
+      "title": "CISA Flags LiteSpeed cPanel Plugin Flaw Exploited for Root Privilege Escalation",
+      "link": "https://thehackernews.com/2026/06/cisa-flags-litespeed-cpanel-plugin-flaw.html",
+      "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw impacting LiteSpeed cPanel Plugin to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by June 18, 2026.\n\nThe vulnerability in question is CVE-2026-54420 (CVSS score: 8.5), which has been described as a case of privilege",
       "source": "The Hacker News",
-      "published": "Mon, 15 Jun 2026 19:19:29 +0530",
-      "summary": "⚡ Weekly Recap: Chrome 0-Day, UniFi Exploits, macOS Stealers, VPN Flaw and More\nStuff broke again. Not in a movie way. An old tool was left exposed. An abandoned package was abused. A deprecated feature was still running in prod.\n\nThis week is the same lesson in a new form: phishing kits are easier "
+      "published": "Tue, 16 Jun 2026 11:11:52 +0530",
+      "summary": "CISA Flags LiteSpeed cPanel Plugin Flaw Exploited for Root Privilege Escalation\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw impacting LiteSpeed cPanel Plugin to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Bran"
     },
     {
-      "title": "Humanity isn't ready for the coming intelligence explosion",
-      "link": "https://www.economist.com/by-invitation/2026/06/15/humanity-isnt-ready-for-the-coming-intelligence-explosion",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.economist.com/by-invitation/2026/06/15/humanity-isnt-ready-for-the-coming-intelligence-explosion\">https://www.economist.com/by-invitation/2026/06/15/humanity-isnt-ready-for-the-coming-intelligence-explosion</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48549628\">https://news.ycombinator.com/item?id=48549628</a></p>\n<p>Points: 3</p>\n<p># Comments: 5</p>",
+      "title": "Trinket.io shutting down, so we saved it and hosted it a trinket.strivemath.org",
+      "link": "https://trinket.strivemath.org/",
+      "raw_summary": "<p>Article URL: <a href=\"https://trinket.strivemath.org/\">https://trinket.strivemath.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48552723\">https://news.ycombinator.com/item?id=48552723</a></p>\n<p>Points: 15</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 16 Jun 2026 02:00:45 +0000",
-      "summary": "Humanity isn't ready for the coming intelligence explosion\n<p>Article URL: <a href=\"https://www.economist.com/by-invitation/2026/06/15/humanity-isnt-ready-for-the-coming-intelligence-explosion\">https://www.economist.com/by-invitation/2026/06/15/humanity-isnt-ready-for-the-coming-intelligence-explosi"
+      "published": "Tue, 16 Jun 2026 09:30:58 +0000",
+      "summary": "Trinket.io shutting down, so we saved it and hosted it a trinket.strivemath.org\n<p>Article URL: <a href=\"https://trinket.strivemath.org/\">https://trinket.strivemath.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48552723\">https://news.ycombinator.com/item?id=48552723</a>"
     },
     {
-      "title": "Amazon Announces Multibillion-Dollar Data Center in Missouri",
-      "link": "https://www.narracomm.com/amazon-announces-multibillion-dollar-data-center-in-missouri/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.narracomm.com/amazon-announces-multibillion-dollar-data-center-in-missouri/\">https://www.narracomm.com/amazon-announces-multibillion-dollar-data-center-in-missouri/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48548975\">https://news.ycombinator.com/item?id=48548975</a></p>\n<p>Points: 46</p>\n<p># Comments: 20</p>",
+      "title": "Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak",
+      "link": "https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827\">https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48552687\">https://news.ycombinator.com/item?id=48552687</a></p>\n<p>Points: 16</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 16 Jun 2026 00:28:14 +0000",
-      "summary": "Amazon Announces Multibillion-Dollar Data Center in Missouri\n<p>Article URL: <a href=\"https://www.narracomm.com/amazon-announces-multibillion-dollar-data-center-in-missouri/\">https://www.narracomm.com/amazon-announces-multibillion-dollar-data-center-in-missouri/</a></p>\n<p>Comments URL: <a href=\"htt"
+      "published": "Tue, 16 Jun 2026 09:26:09 +0000",
+      "summary": "Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak\n<p>Article URL: <a href=\"https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827\">https://www.theregister.com/security/2026/06/15/fed"
     },
     {
-      "title": "Reviews have become expensive, rewrites have become cheap",
-      "link": "http://ishmeetbindra.com/posts/reviews-have-become-expensive-rewrites-have-become-cheap/",
-      "raw_summary": "<p>Article URL: <a href=\"http://ishmeetbindra.com/posts/reviews-have-become-expensive-rewrites-have-become-cheap/\">http://ishmeetbindra.com/posts/reviews-have-become-expensive-rewrites-have-become-cheap/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48548883\">https://news.ycombinator.com/item?id=48548883</a></p>\n<p>Points: 22</p>\n<p># Comments: 13</p>",
+      "title": "Commodore Releases Flip Phone",
+      "link": "https://commodore.net/why-a-flip-phone/",
+      "raw_summary": "<p>Article URL: <a href=\"https://commodore.net/why-a-flip-phone/\">https://commodore.net/why-a-flip-phone/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48552614\">https://news.ycombinator.com/item?id=48552614</a></p>\n<p>Points: 40</p>\n<p># Comments: 14</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 16 Jun 2026 00:13:34 +0000",
-      "summary": "Reviews have become expensive, rewrites have become cheap\n<p>Article URL: <a href=\"http://ishmeetbindra.com/posts/reviews-have-become-expensive-rewrites-have-become-cheap/\">http://ishmeetbindra.com/posts/reviews-have-become-expensive-rewrites-have-become-cheap/</a></p>\n<p>Comments URL: <a href=\"http"
+      "published": "Tue, 16 Jun 2026 09:15:31 +0000",
+      "summary": "Commodore Releases Flip Phone\n<p>Article URL: <a href=\"https://commodore.net/why-a-flip-phone/\">https://commodore.net/why-a-flip-phone/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48552614\">https://news.ycombinator.com/item?id=48552614</a></p>\n<p>Points: 40</p>\n<p># Commen"
     },
     {
-      "title": "Banned Book Library in a Wi-Fi Smart Light Bulb",
-      "link": "https://www.richardosgood.com/posts/banned-book-library/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.richardosgood.com/posts/banned-book-library/\">https://www.richardosgood.com/posts/banned-book-library/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48547985\">https://news.ycombinator.com/item?id=48547985</a></p>\n<p>Points: 182</p>\n<p># Comments: 66</p>",
+      "title": "Understanding the rationale behind a rule when trying to circumvent it",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415",
+      "raw_summary": "<p>Article URL: <a href=\"https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415\">https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48551876\">https://news.ycombinator.com/item?id=48551876</a></p>\n<p>Points: 33</p>\n<p># Comments: 6</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 15 Jun 2026 22:37:55 +0000",
-      "summary": "Banned Book Library in a Wi-Fi Smart Light Bulb\n<p>Article URL: <a href=\"https://www.richardosgood.com/posts/banned-book-library/\">https://www.richardosgood.com/posts/banned-book-library/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48547985\">https://news.ycombinator.com/it"
+      "published": "Tue, 16 Jun 2026 07:35:27 +0000",
+      "summary": "Understanding the rationale behind a rule when trying to circumvent it\n<p>Article URL: <a href=\"https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415\">https://devblogs.microsoft.com/oldnewthing/20260611-00/?p=112415</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48"
     },
     {
-      "title": "Why I email complete strangers",
-      "link": "https://www.goodinternetmagazine.com/why-i-email-complete-strangers/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.goodinternetmagazine.com/why-i-email-complete-strangers/\">https://www.goodinternetmagazine.com/why-i-email-complete-strangers/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48547566\">https://news.ycombinator.com/item?id=48547566</a></p>\n<p>Points: 84</p>\n<p># Comments: 43</p>",
+      "title": "John Carmack on Fabrice Bellard",
+      "link": "https://twitter.com/ID_AA_Carmack/status/2064095424420487226",
+      "raw_summary": "<p><a href=\"https://xcancel.com/ID_AA_Carmack/status/2064095424420487226\" rel=\"nofollow\">https://xcancel.com/ID_AA_Carmack/status/2064095424420487226</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48550779\">https://news.ycombinator.com/item?id=48550779</a></p>\n<p>Points: 312</p>\n<p># Comments: 175</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 15 Jun 2026 21:57:10 +0000",
-      "summary": "Why I email complete strangers\n<p>Article URL: <a href=\"https://www.goodinternetmagazine.com/why-i-email-complete-strangers/\">https://www.goodinternetmagazine.com/why-i-email-complete-strangers/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48547566\">https://news.ycombinator"
+      "published": "Tue, 16 Jun 2026 04:58:15 +0000",
+      "summary": "John Carmack on Fabrice Bellard\n<p><a href=\"https://xcancel.com/ID_AA_Carmack/status/2064095424420487226\" rel=\"nofollow\">https://xcancel.com/ID_AA_Carmack/status/2064095424420487226</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48550779\">https://news.ycombinator.com/i"
+    },
+    {
+      "title": "ChatGPT’s market share slips below 50% for first time",
+      "link": "https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/",
+      "raw_summary": "The chatbot still remains the most popular AI assistant worldwide with over 1.1 billion monthly users, followed by Gemini with 662 million and Claude with 245 million.",
+      "source": "TechCrunch",
+      "published": "Tue, 16 Jun 2026 10:30:00 +0000",
+      "summary": "ChatGPT’s market share slips below 50% for first time\nThe chatbot still remains the most popular AI assistant worldwide with over 1.1 billion monthly users, followed by Gemini with 662 million and Claude with 245 million."
+    },
+    {
+      "title": "Malaysia’s AI agent-powered messaging app Respond.io raises $62.5M, eyes acquisitions",
+      "link": "https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/",
+      "raw_summary": "Respond.io, one of Malaysia startups to watch, uses AI agents to handle high volumes of customer inquiries and charges per convo, not per seat.",
+      "source": "TechCrunch",
+      "published": "Tue, 16 Jun 2026 06:59:00 +0000",
+      "summary": "Malaysia’s AI agent-powered messaging app Respond.io raises $62.5M, eyes acquisitions\nRespond.io, one of Malaysia startups to watch, uses AI agents to handle high volumes of customer inquiries and charges per convo, not per seat."
     },
     {
       "title": "Sundar Pichai faces boos, walkout at Stanford graduation ceremony over Google’s Israel, ICE ties",
@@ -147,20 +163,12 @@
       "summary": "Meta’s new ‘AI Mode’ on Facebook pulls from public info across its platforms\nMeta announced Monday that it's rolling out a wave of new AI features on Facebook, the latest sign of the company's effort to catch up in the AI race and keep users more engaged on the platform."
     },
     {
-      "title": "SpaceX is public: Everything you need to know post-IPO",
-      "link": "https://techcrunch.com/2026/06/15/spacex-is-public-everything-you-need-to-know-post-ipo/",
-      "raw_summary": "TechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and maybe some who won't), pre-IPO deals, and what's tucked inside its S-1 registration document.",
-      "source": "TechCrunch",
-      "published": "Mon, 15 Jun 2026 18:30:34 +0000",
-      "summary": "SpaceX is public: Everything you need to know post-IPO\nTechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and maybe some who won't), pre-IPO deals, and what's "
-    },
-    {
-      "title": "These are the countries moving to ban social media for children",
-      "link": "https://techcrunch.com/2026/06/15/social-media-ban-children-countries-list/",
-      "raw_summary": "Australia was the first country to issue a ban in late 2025, aiming to reduce the pressures and risks that young users may face on social media, including cyberbullying, social media addiction, and exposure to predators.",
-      "source": "TechCrunch",
-      "published": "Mon, 15 Jun 2026 17:41:02 +0000",
-      "summary": "These are the countries moving to ban social media for children\nAustralia was the first country to issue a ban in late 2025, aiming to reduce the pressures and risks that young users may face on social media, including cyberbullying, social media addiction, and exposure to predators."
+      "title": "Commodore’s newest gadget is a flip phone that blocks social media and browsers",
+      "link": "https://arstechnica.com/gadgets/2026/06/commodores-newest-gadget-is-a-flip-phone-that-blocks-social-media-and-browsers/",
+      "raw_summary": "Commodore's Call Back 8020 is a phone “where the customer is not the product.\"",
+      "source": "Ars Technica - All content",
+      "published": "Tue, 16 Jun 2026 09:00:51 +0000",
+      "summary": "Commodore’s newest gadget is a flip phone that blocks social media and browsers\nCommodore's Call Back 8020 is a phone “where the customer is not the product.\""
     },
     {
       "title": "Key mission for Europe's commercial space enterprise scrubbed again",
@@ -195,84 +203,44 @@
       "summary": "Chipmaker Nvidia seeks to raise over $25B in first bond deal since 2021\nDebt sale set to test investor appetite for further exposure to AI sector amid a deluge of borrowing."
     },
     {
-      "title": "A Chinese rocket breaks apart dangerously close to the Starlink constellation",
-      "link": "https://arstechnica.com/space/2026/06/a-chinese-rocket-breaks-apart-dangerously-close-to-the-starlink-constellation/",
-      "raw_summary": "The rocket's breakup likely generated 100 to 150 new pieces of space junk.",
-      "source": "Ars Technica - All content",
-      "published": "Mon, 15 Jun 2026 18:55:41 +0000",
-      "summary": "A Chinese rocket breaks apart dangerously close to the Starlink constellation\nThe rocket's breakup likely generated 100 to 150 new pieces of space junk."
+      "title": "If Brussels starts a trade war, Beijing will finish it",
+      "link": "https://www.ft.com/content/d2cc2b13-fb04-4b7e-a567-6f47b710afb1",
+      "raw_summary": "Wargaming the EU-China conflict warns Europe against aggression towards an opponent with superior firepower",
+      "source": "World",
+      "published": "Tue, 16 Jun 2026 10:00:05 GMT",
+      "summary": "If Brussels starts a trade war, Beijing will finish it\nWargaming the EU-China conflict warns Europe against aggression towards an opponent with superior firepower"
     },
     {
-      "title": "How has India dealt with the economic hit from the Iran war?",
-      "link": "https://www.ft.com/content/ea7c0776-4604-49a5-a6a6-b9ccb8ba491f",
-      "raw_summary": "Also in this newsletter: can India’s virtual cockroaches survive in the real world?",
+      "title": "FirstFT: $300bn reconstruction fund to rebuild Iran",
+      "link": "https://www.ft.com/content/b6cbba15-9b4e-44ef-84e4-e5a5f031df36",
+      "raw_summary": "Also in today’s newsletter: Japan’s interest rates hit a 31-year high and private equity’s warning for law and accountancy",
       "source": "World",
-      "published": "Tue, 16 Jun 2026 01:30:10 GMT",
-      "summary": "How has India dealt with the economic hit from the Iran war?\nAlso in this newsletter: can India’s virtual cockroaches survive in the real world?"
+      "published": "Tue, 16 Jun 2026 09:58:22 GMT",
+      "summary": "FirstFT: $300bn reconstruction fund to rebuild Iran\nAlso in today’s newsletter: Japan’s interest rates hit a 31-year high and private equity’s warning for law and accountancy"
     },
     {
       "title": "Environment secretary casts doubt on £10bn Thames Water rescue",
       "link": "https://www.ft.com/content/9d9cc597-fdbf-4466-86ae-0bdcefbaf80e",
       "raw_summary": "Emma Reynolds’ warning increases prospect of the nationalisation of Britain’s biggest water company",
       "source": "World",
-      "published": "Mon, 15 Jun 2026 23:27:32 GMT",
+      "published": "Tue, 16 Jun 2026 09:55:48 GMT",
       "summary": "Environment secretary casts doubt on £10bn Thames Water rescue\nEmma Reynolds’ warning increases prospect of the nationalisation of Britain’s biggest water company"
     },
     {
-      "title": "US billionaire owners of Crystal Palace explore sale",
-      "link": "https://www.ft.com/content/4b9d3f9e-822f-478f-9b65-c22ba719950e",
-      "raw_summary": "South London football club is enjoying its most successful ever period",
+      "title": "Reeves ‘hopes’ to fund defence without tax rises",
+      "link": "https://www.ft.com/content/8c3ea100-2dd8-43f9-ae75-c51c191042b8",
+      "raw_summary": "UK chancellor says cabinet has to decide where to cut spending to pay for extra military budget",
       "source": "World",
-      "published": "Mon, 15 Jun 2026 22:30:07 GMT",
-      "summary": "US billionaire owners of Crystal Palace explore sale\nSouth London football club is enjoying its most successful ever period"
+      "published": "Tue, 16 Jun 2026 09:42:52 GMT",
+      "summary": "Reeves ‘hopes’ to fund defence without tax rises\nUK chancellor says cabinet has to decide where to cut spending to pay for extra military budget"
     },
     {
-      "title": "Gavin Newsom says Trump has ordered justice department to investigate him",
-      "link": "https://www.ft.com/content/3ebc2a6f-ed8d-4848-880c-d04c5069ee5b",
-      "raw_summary": "California governor is considered a potential Democratic presidential candidate for 2028",
+      "title": "India blocks Telegram in bid to halt exam fraud",
+      "link": "https://www.ft.com/content/06803444-ff1e-479c-876a-a07690b81ada",
+      "raw_summary": "Temporary ban introduced after reports that last month’s medical entrance test papers had been leaked",
       "source": "World",
-      "published": "Mon, 15 Jun 2026 21:47:08 GMT",
-      "summary": "Gavin Newsom says Trump has ordered justice department to investigate him\nCalifornia governor is considered a potential Democratic presidential candidate for 2028"
-    },
-    {
-      "title": "FirstFT: US-Iran deal sparks global rally",
-      "link": "https://www.ft.com/content/b6cbba15-9b4e-44ef-84e4-e5a5f031df36",
-      "raw_summary": "Also in today’s newsletter: Starbucks Korea’s ‘Tank Day’ scandal and China summons Sam’s Club over food safety issues",
-      "source": "World",
-      "published": "Mon, 15 Jun 2026 21:42:39 GMT",
-      "summary": "FirstFT: US-Iran deal sparks global rally\nAlso in today’s newsletter: Starbucks Korea’s ‘Tank Day’ scandal and China summons Sam’s Club over food safety issues"
-    },
-    {
-      "title": "Global Funds Pile Into India Bonds as Oil Cools",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-06-16/foreign-inflows-into-india-bonds-at-15-month-high-as-oil-cools-on-peace-deal",
-      "raw_summary": "Lower crude prices improves inflation outlook and eases pressure on current account deficit.",
-      "source": "Bloomberg Markets",
-      "published": "Tue, 16 Jun 2026 02:47:48 GMT",
-      "summary": "Global Funds Pile Into India Bonds as Oil Cools\nLower crude prices improves inflation outlook and eases pressure on current account deficit."
-    },
-    {
-      "title": "China’s Consumer Spending Drop Imperils Growth",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-16/china-s-consumer-spending-drop-imperils-growth-video",
-      "raw_summary": "China’s consumer spending contracted last month for the first time since the pandemic and investment deteriorated, exposing risks still facing the economy even as it benefits from booming exports and a deescalation in tensions around Iran. UBS Securities Chief China Economist Yu Song shares his analysis. (Source: Bloomberg)",
-      "source": "Bloomberg Markets",
-      "published": "Tue, 16 Jun 2026 02:47:09 GMT",
-      "summary": "China’s Consumer Spending Drop Imperils Growth\nChina’s consumer spending contracted last month for the first time since the pandemic and investment deteriorated, exposing risks still facing the economy even as it benefits from booming exports and a deescalation in tensions around Iran. UBS Securitie"
-    },
-    {
-      "title": "China’s Oil Refiners Slash Output After Crude Imports Plunge",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-16/china-s-oil-refiners-slash-output-after-crude-imports-plunge",
-      "raw_summary": "Chinese oil refiners sharply reduced output last month to the weakest level in nearly four years, after the country’s crude imports plunged to an eight-year low due to the near-halt to shipments from the Persian Gulf.",
-      "source": "Bloomberg Markets",
-      "published": "Tue, 16 Jun 2026 02:24:14 GMT",
-      "summary": "China’s Oil Refiners Slash Output After Crude Imports Plunge\nChinese oil refiners sharply reduced output last month to the weakest level in nearly four years, after the country’s crude imports plunged to an eight-year low due to the near-halt to shipments from the Persian Gulf."
-    },
-    {
-      "title": "Jardine to Buy Back $500 Million Shares, Boost Returns",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-16/jardine-to-buy-back-500-million-shares-seeks-to-boost-returns",
-      "raw_summary": "Jardine Matheson Holdings Ltd. will buy back $500 million of its own shares by the end of next year as the Hong Kong company lays out targets for its transformation from a long-term owner-operator into an active investor more akin to a private equity fund.",
-      "source": "Bloomberg Markets",
-      "published": "Tue, 16 Jun 2026 01:30:29 GMT",
-      "summary": "Jardine to Buy Back $500 Million Shares, Boost Returns\nJardine Matheson Holdings Ltd. will buy back $500 million of its own shares by the end of next year as the Hong Kong company lays out targets for its transformation from a long-term owner-operator into an active investor more akin to a private e"
+      "published": "Tue, 16 Jun 2026 09:35:18 GMT",
+      "summary": "India blocks Telegram in bid to halt exam fraud\nTemporary ban introduced after reports that last month’s medical entrance test papers had been leaked"
     },
     {
       "title": "Biocon's Mazumdar-Shaw Says Firm On Track To Be Top Insulin Maker",
@@ -283,44 +251,76 @@
       "summary": "Biocon's Mazumdar-Shaw Says Firm On Track To Be Top Insulin Maker\nBiocon Executive Chairperson Kiran Mazumdar-Shaw says she is confident that the company's investment and capacity expansion in Insulin will make the company the top hub for the drug in the next five years. She speaks in an exclusive c"
     },
     {
-      "title": "Hyperliquid loses Anthropic, OpenAI markets as creator shuts down project",
-      "link": "https://www.coindesk.com/business/2026/06/15/hyperliquid-loses-anthropic-openai-markets-as-creator-shuts-down-project",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 15 Jun 2026 18:14:07 +0000",
-      "summary": "Hyperliquid loses Anthropic, OpenAI markets as creator shuts down project\n"
+      "title": "EBA Eyes Bigger Role for Banks in Setting Key Capital Buffer",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-16/eba-eyes-bigger-role-for-banks-in-setting-key-capital-buffer",
+      "raw_summary": "Europe’s top banking regulator said watchdogs should rely more on banks to calculate how big of a safety cushion they need on top of their minimum capital requirements.",
+      "source": "Bloomberg Markets",
+      "published": "Tue, 16 Jun 2026 10:44:22 GMT",
+      "summary": "EBA Eyes Bigger Role for Banks in Setting Key Capital Buffer\nEurope’s top banking regulator said watchdogs should rely more on banks to calculate how big of a safety cushion they need on top of their minimum capital requirements."
     },
     {
-      "title": "If America wants to lead in crypto, it must protect the people who build it",
-      "link": "https://www.coindesk.com/opinion/2026/06/15/if-america-wants-to-lead-in-crypto-it-must-protect-the-people-who-build-it",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 15 Jun 2026 14:25:00 +0000",
-      "summary": "If America wants to lead in crypto, it must protect the people who build it\n"
+      "title": "The Prospect of a Quieter Fed Could Roil Bond Prices",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-06-16/the-prospect-of-a-quieter-fed-could-roil-bond-prices",
+      "raw_summary": "Warsh has hinted at less communication from THE central bank.",
+      "source": "Bloomberg Markets",
+      "published": "Tue, 16 Jun 2026 10:35:14 GMT",
+      "summary": "The Prospect of a Quieter Fed Could Roil Bond Prices\nWarsh has hinted at less communication from THE central bank."
     },
     {
-      "title": "‘Crypto spring’ is here, says one analyst after bitcoin's key signals turn bullish",
-      "link": "https://www.coindesk.com/markets/2026/06/15/crypto-spring-is-here-says-one-analyst-after-bitcoin-s-key-signals-turn-bullish",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 15 Jun 2026 14:16:45 +0000",
-      "summary": "‘Crypto spring’ is here, says one analyst after bitcoin's key signals turn bullish\n"
+      "title": "SBI Plans Indian Rupee Deposits in Sri Lanka to Support Trade",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-16/sbi-plans-indian-rupee-deposits-in-sri-lanka-to-support-trade",
+      "raw_summary": "State Bank of India is planning to introduce Indian rupee-denominated deposits in Sri Lanka, a move aimed at encouraging wider use of the currency in trade and investment between the neighboring nations.",
+      "source": "Bloomberg Markets",
+      "published": "Tue, 16 Jun 2026 10:34:47 GMT",
+      "summary": "SBI Plans Indian Rupee Deposits in Sri Lanka to Support Trade\nState Bank of India is planning to introduce Indian rupee-denominated deposits in Sri Lanka, a move aimed at encouraging wider use of the currency in trade and investment between the neighboring nations."
     },
     {
-      "title": "Kraken debuts U.S. perpetual futures as crypto derivatives move onshore",
-      "link": "https://www.coindesk.com/markets/2026/06/15/kraken-debuts-u-s-perpetual-futures-as-crypto-derivatives-move-onshore",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 15 Jun 2026 14:07:22 +0000",
-      "summary": "Kraken debuts U.S. perpetual futures as crypto derivatives move onshore\n"
+      "title": "Glencore, Trafigura Said Set to Invest in Merdeka’s HK Listing",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-16/glencore-trafigura-said-set-to-invest-in-merdeka-s-hk-listing",
+      "raw_summary": "Glencore Plc, Mercuria Energy Group and Trafigura Group are among key investors planning to buy shares in the Hong Kong listing of Indonesian gold miner PT Merdeka Gold Resources, according to people familiar with the matter.",
+      "source": "Bloomberg Markets",
+      "published": "Tue, 16 Jun 2026 10:24:57 GMT",
+      "summary": "Glencore, Trafigura Said Set to Invest in Merdeka’s HK Listing\nGlencore Plc, Mercuria Energy Group and Trafigura Group are among key investors planning to buy shares in the Hong Kong listing of Indonesian gold miner PT Merdeka Gold Resources, according to people familiar with the matter."
     },
     {
-      "title": "Coinbase's Brian Armstrong says bitcoin may have bottomed at $60,000",
-      "link": "https://www.coindesk.com/markets/2026/06/15/coinbase-s-brian-armstrong-says-bitcoin-may-have-bottomed-at-usd60-000",
+      "title": "Bitcoin buyers add over 250,000 BTC between $59,000 and $67,000 as accumulation returns",
+      "link": "https://www.coindesk.com/markets/2026/06/16/bitcoin-buyers-add-over-250-000-btc-between-usd59-000-and-usd67-000-as-accumulation-returns",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 15 Jun 2026 13:30:05 +0000",
-      "summary": "Coinbase's Brian Armstrong says bitcoin may have bottomed at $60,000\n"
+      "published": "Tue, 16 Jun 2026 10:41:41 +0000",
+      "summary": "Bitcoin buyers add over 250,000 BTC between $59,000 and $67,000 as accumulation returns\n"
+    },
+    {
+      "title": "Bitcoin rallies after Japan rate increase with XLM, INJ, UNI advancing",
+      "link": "https://www.coindesk.com/markets/2026/06/16/bitcoin-rallies-after-japan-rate-increase-with-xlm-inj-uni-advancing",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Tue, 16 Jun 2026 10:29:34 +0000",
+      "summary": "Bitcoin rallies after Japan rate increase with XLM, INJ, UNI advancing\n"
+    },
+    {
+      "title": "Tether Gold now has a dedicated options market on Bybit",
+      "link": "https://www.coindesk.com/markets/2026/06/16/tether-gold-now-has-a-dedicated-options-market-on-bybit",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Tue, 16 Jun 2026 05:52:44 +0000",
+      "summary": "Tether Gold now has a dedicated options market on Bybit\n"
+    },
+    {
+      "title": "Live markets: SpaceX surges in pre-market trading as valuation climbs above Amazon's",
+      "link": "https://www.coindesk.com/tech/2026/06/16/live-markets-bitcoin-etfs-bled-cash-monday-while-every-other-crypto-etf-gained",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Tue, 16 Jun 2026 05:41:40 +0000",
+      "summary": "Live markets: SpaceX surges in pre-market trading as valuation climbs above Amazon's\n"
+    },
+    {
+      "title": "XRP gives back gains after 10% rally as traders take profit near $1.25",
+      "link": "https://www.coindesk.com/markets/2026/06/16/xrp-gives-back-gains-after-10-rally-as-traders-take-profit-near-usd1-25",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Tue, 16 Jun 2026 05:16:07 +0000",
+      "summary": "XRP gives back gains after 10% rally as traders take profit near $1.25\n"
     }
   ]
 }
