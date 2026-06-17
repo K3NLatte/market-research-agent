@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T02:53:57.604304+00:00",
+  "generated_at": "2026-06-17T10:28:25.420594+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak\nLawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity &#038; Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys an"
     },
     {
+      "title": "Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats",
+      "link": "https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html",
+      "raw_summary": "Cybersecurity researchers have flagged a \"coordinated malware campaign\" on the JetBrains Marketplace that has published no less than 15 malicious plugins capable of exfiltrating artificial intelligence (AI) provider keys.\n\n\"Every plugin poses as an AI coding assistant built on DeepSeek and other large language models, offering chat, commit messages, code review, bug finding, and unit tests,\"",
+      "source": "The Hacker News",
+      "published": "Wed, 17 Jun 2026 15:08:46 +0530",
+      "summary": "Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats\nCybersecurity researchers have flagged a \"coordinated malware campaign\" on the JetBrains Marketplace that has published no less than 15 malicious plugins capable of exfiltrating artificial intelligence (AI) prov"
+    },
+    {
+      "title": "144 Mastra npm Packages Compromised via Hijacked Contributor Account",
+      "link": "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html",
+      "raw_summary": "As many as 144 npm packages associated with the Mastra namespace (\"@mastra/*\"), a popular open-source JavaScript and TypeScript framework for building artificial intelligence (AI) applications, have been compromised as part of a software supply chain attack codenamed easy-day-js, per findings from JFrog, SafeDep, Socket, and StepSecurity.\n\n\"A single npm account (ehindero) mass-published more",
+      "source": "The Hacker News",
+      "published": "Wed, 17 Jun 2026 13:08:24 +0530",
+      "summary": "144 Mastra npm Packages Compromised via Hijacked Contributor Account\nAs many as 144 npm packages associated with the Mastra namespace (\"@mastra/*\"), a popular open-source JavaScript and TypeScript framework for building artificial intelligence (AI) applications, have been compromised as part of a so"
+    },
+    {
+      "title": "CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution",
+      "link": "https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html",
+      "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting Widget Factory Joomla Content Editor (JCE) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-48907 (CVSS score: 10.0), is a case of improper access control that could facilitate arbitrary",
+      "source": "The Hacker News",
+      "published": "Wed, 17 Jun 2026 11:20:46 +0530",
+      "summary": "CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting Widget Factory Joomla Content Editor (JCE) to its Known Exploited Vulnerabilities (KEV) catalog, c"
+    },
+    {
       "title": "Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting",
       "link": "https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html",
       "raw_summary": "A flaw in the Google Cloud Vertex AI SDK for Python let an attacker with no access to a victim's project hijack the victim's machine learning model upload and run code inside Google's serving infrastructure.\n\nPalo Alto Networks Unit 42, which found and reported the bug through Google's bug bounty program, calls the technique \"Pickle in the Middle\" and said it saw no exploitation in the wild.",
@@ -59,68 +83,44 @@
       "summary": "ClickFix Campaigns Expand Malware Delivery With New Loaders and Fake Update Lures\nCybersecurity researchers have flagged multiple ClickFix campaigns that deliver three malware loaders called BabaDeda Loader, Lorem Ipsum Loader, and Potemkin, per independent reports from Morphisec, BlueVoyant, and Hu"
     },
     {
-      "title": "New Rokarolla Android Malware Steals PINs, SMS Codes, and Crypto Wallet Funds",
-      "link": "https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html",
-      "raw_summary": "Security researchers at&nbsp;Zimperium's zLabs&nbsp;have documented a new Android banking trojan, Rokarolla, that targets 217 banking and cryptocurrency apps and packs 137 remote commands.\n\nTogether, they give an operator near-total control of an infected phone: it lifts lock-screen PINs, reads and sends SMS, rewrites the clipboard to redirect crypto payments, and switches off Google Play",
-      "source": "The Hacker News",
-      "published": "Tue, 16 Jun 2026 18:40:17 +0530",
-      "summary": "New Rokarolla Android Malware Steals PINs, SMS Codes, and Crypto Wallet Funds\nSecurity researchers at&nbsp;Zimperium's zLabs&nbsp;have documented a new Android banking trojan, Rokarolla, that targets 217 banking and cryptocurrency apps and packs 137 remote commands.\n\nTogether, they give an operator "
-    },
-    {
-      "title": "Survey: 94% of Incidents Involve Anonymized Infrastructure. Teams Are Still Reactive",
-      "link": "https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html",
-      "raw_summary": "Security teams have never had more IP data at their disposal. Every day, analysts ingest enrichment feeds, geolocation data, reputation scores, telemetry, and threat intelligence from a growing ecosystem of vendors and platforms.\n\nYet despite this abundance of information, many organizations continue to face a fundamental challenge: sifting through the noise to understand who is behind an IP and",
-      "source": "The Hacker News",
-      "published": "Tue, 16 Jun 2026 17:00:00 +0530",
-      "summary": "Survey: 94% of Incidents Involve Anonymized Infrastructure. Teams Are Still Reactive\nSecurity teams have never had more IP data at their disposal. Every day, analysts ingest enrichment feeds, geolocation data, reputation scores, telemetry, and threat intelligence from a growing ecosystem of vendors "
-    },
-    {
-      "title": "Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week",
-      "link": "https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html",
-      "raw_summary": "Bad actors are exploiting multiple security vulnerabilities in Fortinet FortiSandbox, according to threat intelligence firm Defused Cyber.\n\nIn a post shared on X, the company said it has observed exploitation of CVE-2026-39813, CVE-2026-39808, and CVE-2026-25089 over the past 24 hours.\n\nCVE-2026-39813 (CVSS score: 9.1) refers to a path traversal vulnerability in FortiSandbox JRPC API that could",
-      "source": "The Hacker News",
-      "published": "Tue, 16 Jun 2026 16:00:41 +0530",
-      "summary": "Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week\nBad actors are exploiting multiple security vulnerabilities in Fortinet FortiSandbox, according to threat intelligence firm Defused Cyber.\n\nIn a post shared on X, the company said it has observed exploitation of CVE-2026-3981"
-    },
-    {
-      "title": "Stop Killing Games fails to secure EU law despite 1.3M signatures",
-      "link": "https://www.dexerto.com/gaming/stop-killing-games-fails-to-secure-eu-law-despite-1-3m-signatures-3376431/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.dexerto.com/gaming/stop-killing-games-fails-to-secure-eu-law-despite-1-3m-signatures-3376431/\">https://www.dexerto.com/gaming/stop-killing-games-fails-to-secure-eu-law-despite-1-3m-signatures-3376431/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48564696\">https://news.ycombinator.com/item?id=48564696</a></p>\n<p>Points: 13</p>\n<p># Comments: 1</p>",
+      "title": "U.S. Science Is in Chaos",
+      "link": "https://www.scientificamerican.com/article/americas-compact-between-science-and-politics-is-broken/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.scientificamerican.com/article/americas-compact-between-science-and-politics-is-broken/\">https://www.scientificamerican.com/article/americas-compact-between-science-and-politics-is-broken/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48568058\">https://news.ycombinator.com/item?id=48568058</a></p>\n<p>Points: 11</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 17 Jun 2026 01:40:22 +0000",
-      "summary": "Stop Killing Games fails to secure EU law despite 1.3M signatures\n<p>Article URL: <a href=\"https://www.dexerto.com/gaming/stop-killing-games-fails-to-secure-eu-law-despite-1-3m-signatures-3376431/\">https://www.dexerto.com/gaming/stop-killing-games-fails-to-secure-eu-law-despite-1-3m-signatures-33764"
+      "published": "Wed, 17 Jun 2026 09:54:21 +0000",
+      "summary": "U.S. Science Is in Chaos\n<p>Article URL: <a href=\"https://www.scientificamerican.com/article/americas-compact-between-science-and-politics-is-broken/\">https://www.scientificamerican.com/article/americas-compact-between-science-and-politics-is-broken/</a></p>\n<p>Comments URL: <a href=\"https://news.yc"
     },
     {
-      "title": "Wolfram Language and Mathematica Version 15, AI Assistant, Symbolic Music, More",
-      "link": "https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality/",
-      "raw_summary": "<p>Article URL: <a href=\"https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality/\">https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48563609\">https://news.ycombinator.com/item?id=48563609</a></p>\n<p>Points: 94</p>\n<p># Comments: 22</p>",
+      "title": "Show HN: High-Res Neural Cellular Automata",
+      "link": "https://cells2pixels.github.io/",
+      "raw_summary": "<p>Neural CAs model self-organizing pattern formation.<p>Now they can generate patterns at HD resolution in real-time, enabled by turning each CA cell into a Neural Field.<p>Try 3 demos: grow a pattern from a seed (and damage it, it heals), synthesize PBR textures that can regenerate, or create 3D textures like clouds.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48567877\">https://news.ycombinator.com/item?id=48567877</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 16 Jun 2026 23:15:44 +0000",
-      "summary": "Wolfram Language and Mathematica Version 15, AI Assistant, Symbolic Music, More\n<p>Article URL: <a href=\"https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality/\">https://writings.stephenwolfram.com/2026/06/la"
+      "published": "Wed, 17 Jun 2026 09:28:36 +0000",
+      "summary": "Show HN: High-Res Neural Cellular Automata\n<p>Neural CAs model self-organizing pattern formation.<p>Now they can generate patterns at HD resolution in real-time, enabled by turning each CA cell into a Neural Field.<p>Try 3 demos: grow a pattern from a seed (and damage it, it heals), synthesize PBR t"
     },
     {
-      "title": "NLnet announces funding for 67 more open-source projects",
-      "link": "https://nlnet.nl/news/2026/20260616-67-new-projects.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://nlnet.nl/news/2026/20260616-67-new-projects.html\">https://nlnet.nl/news/2026/20260616-67-new-projects.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48563569\">https://news.ycombinator.com/item?id=48563569</a></p>\n<p>Points: 83</p>\n<p># Comments: 11</p>",
+      "title": "Most of the CVE-2026-4020 attackers are the same client",
+      "link": "https://honeylabs.net/blog/the-cloud-fleet-behind-cve-2026-4020",
+      "raw_summary": "<p>Article URL: <a href=\"https://honeylabs.net/blog/the-cloud-fleet-behind-cve-2026-4020\">https://honeylabs.net/blog/the-cloud-fleet-behind-cve-2026-4020</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48567574\">https://news.ycombinator.com/item?id=48567574</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 16 Jun 2026 23:12:09 +0000",
-      "summary": "NLnet announces funding for 67 more open-source projects\n<p>Article URL: <a href=\"https://nlnet.nl/news/2026/20260616-67-new-projects.html\">https://nlnet.nl/news/2026/20260616-67-new-projects.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48563569\">https://news.ycombinat"
+      "published": "Wed, 17 Jun 2026 08:47:14 +0000",
+      "summary": "Most of the CVE-2026-4020 attackers are the same client\n<p>Article URL: <a href=\"https://honeylabs.net/blog/the-cloud-fleet-behind-cve-2026-4020\">https://honeylabs.net/blog/the-cloud-fleet-behind-cve-2026-4020</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48567574\">https://n"
     },
     {
-      "title": "Humiliating IIS servers for fun and jail time",
-      "link": "https://mll.sh/humiliating-iis-servers-for-fun-and-jail-time/",
-      "raw_summary": "<p>Article URL: <a href=\"https://mll.sh/humiliating-iis-servers-for-fun-and-jail-time/\">https://mll.sh/humiliating-iis-servers-for-fun-and-jail-time/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48563394\">https://news.ycombinator.com/item?id=48563394</a></p>\n<p>Points: 112</p>\n<p># Comments: 17</p>",
+      "title": "Hacker News but for Independent Blogs",
+      "link": "https://bubbles.town/",
+      "raw_summary": "<p>Article URL: <a href=\"https://bubbles.town/\">https://bubbles.town/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48567155\">https://news.ycombinator.com/item?id=48567155</a></p>\n<p>Points: 67</p>\n<p># Comments: 24</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 16 Jun 2026 22:53:34 +0000",
-      "summary": "Humiliating IIS servers for fun and jail time\n<p>Article URL: <a href=\"https://mll.sh/humiliating-iis-servers-for-fun-and-jail-time/\">https://mll.sh/humiliating-iis-servers-for-fun-and-jail-time/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48563394\">https://news.ycombinato"
+      "published": "Wed, 17 Jun 2026 07:49:44 +0000",
+      "summary": "Hacker News but for Independent Blogs\n<p>Article URL: <a href=\"https://bubbles.town/\">https://bubbles.town/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48567155\">https://news.ycombinator.com/item?id=48567155</a></p>\n<p>Points: 67</p>\n<p># Comments: 24</p>"
     },
     {
-      "title": "GrapheneOS has been ported to Android 17",
-      "link": "https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon",
-      "raw_summary": "<p>Article URL: <a href=\"https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon\">https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48561654\">https://news.ycombinator.com/item?id=48561654</a></p>\n<p>Points: 434</p>\n<p># Comments: 174</p>",
+      "title": "The founder's playbook: Building an AI-native startup",
+      "link": "https://claude.com/blog/the-founders-playbook",
+      "raw_summary": "<p>Article URL: <a href=\"https://claude.com/blog/the-founders-playbook\">https://claude.com/blog/the-founders-playbook</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48566832\">https://news.ycombinator.com/item?id=48566832</a></p>\n<p>Points: 81</p>\n<p># Comments: 84</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 16 Jun 2026 20:34:35 +0000",
-      "summary": "GrapheneOS has been ported to Android 17\n<p>Article URL: <a href=\"https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon\">https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-so"
+      "published": "Wed, 17 Jun 2026 07:04:42 +0000",
+      "summary": "The founder's playbook: Building an AI-native startup\n<p>Article URL: <a href=\"https://claude.com/blog/the-founders-playbook\">https://claude.com/blog/the-founders-playbook</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48566832\">https://news.ycombinator.com/item?id=48566832</"
     },
     {
       "title": "Anthropic’s latest feud with the Trump admin may actually help it, sales data suggests",
@@ -203,124 +203,124 @@
       "summary": "Anthropic \"pauses\" token-based billing for its Claude Agent SDK\nMove originally planned for Monday would have heavily increased power users' costs."
     },
     {
-      "title": "Top Japan executive sounds alarm over ‘endlessly’ investing in US",
-      "link": "https://www.ft.com/content/dbbfa64f-eb93-4ae9-8f8d-ed1046fb642e",
-      "raw_summary": "Yoshimitsu Kobayashi highlights worries over $550bn funding for American infrastructure as domestic productivity lags",
+      "title": "Architect Omar Gandhi’s guide to Nova Scotia",
+      "link": "https://www.ft.com/content/95262f3d-da60-4009-b9c5-e73a82ea530f",
+      "raw_summary": "Why the Toronto native made wild, windy Halifax his home",
       "source": "World",
-      "published": "Wed, 17 Jun 2026 01:53:46 GMT",
-      "summary": "Top Japan executive sounds alarm over ‘endlessly’ investing in US\nYoshimitsu Kobayashi highlights worries over $550bn funding for American infrastructure as domestic productivity lags"
+      "published": "Wed, 17 Jun 2026 10:00:06 GMT",
+      "summary": "Architect Omar Gandhi’s guide to Nova Scotia\nWhy the Toronto native made wild, windy Halifax his home"
     },
     {
-      "title": "‘Humiliation’: Trump battles charge his Iran deal is worse than Obama’s",
-      "link": "https://www.ft.com/content/db14774f-a16e-4996-9cdd-c4d3c2e36a78",
-      "raw_summary": "US president’s critics ask if concessions to Tehran in purported agreement were worth four months of war",
+      "title": "FirstFT: Trump faces backlash over Iran deal",
+      "link": "https://www.ft.com/content/8c736b73-a281-4414-b53a-bc48859b02b2",
+      "raw_summary": "Also in today’s newsletter: Former executive sues Citi and investors pile into the dollar",
       "source": "World",
-      "published": "Wed, 17 Jun 2026 01:04:56 GMT",
-      "summary": "‘Humiliation’: Trump battles charge his Iran deal is worse than Obama’s\nUS president’s critics ask if concessions to Tehran in purported agreement were worth four months of war"
+      "published": "Wed, 17 Jun 2026 09:51:48 GMT",
+      "summary": "FirstFT: Trump faces backlash over Iran deal\nAlso in today’s newsletter: Former executive sues Citi and investors pile into the dollar"
     },
     {
-      "title": "Ambani’s Jio set to file for IPO as hopes grow for end to India’s listings drought",
-      "link": "https://www.ft.com/content/446baa8e-100b-4530-b53f-b3ba993025ed",
-      "raw_summary": "Iran war has hit country’s equity market and disrupted what was positioned to be another record year for flotations",
+      "title": "UK inflation unexpectedly holds steady at 2.8% in May",
+      "link": "https://www.ft.com/content/25ce9b8d-bc00-41cf-9f8c-bd526baf2eed",
+      "raw_summary": "Figure will ease BoE fears of a lasting impact from the Iran war",
       "source": "World",
-      "published": "Wed, 17 Jun 2026 01:00:09 GMT",
-      "summary": "Ambani’s Jio set to file for IPO as hopes grow for end to India’s listings drought\nIran war has hit country’s equity market and disrupted what was positioned to be another record year for flotations"
+      "published": "Wed, 17 Jun 2026 09:23:10 GMT",
+      "summary": "UK inflation unexpectedly holds steady at 2.8% in May\nFigure will ease BoE fears of a lasting impact from the Iran war"
     },
     {
-      "title": "Ex-Citi executive says bank sacked her after raising Trump concerns",
-      "link": "https://www.ft.com/content/b780e03d-02b7-452f-944c-a71b8f237c7e",
-      "raw_summary": "Former employee claims in lawsuit that she identified issues with risk-management practices",
+      "title": "As stubborn Starmer digs in, Streeting risks becoming biggest loser",
+      "link": "https://www.ft.com/content/9806ec63-e66f-48ce-a998-111e4cde0c1a",
+      "raw_summary": "Former health secretary was refreshingly sharp in UK economy speech but faces a formidable set of obstacles",
       "source": "World",
-      "published": "Tue, 16 Jun 2026 22:47:54 GMT",
-      "summary": "Ex-Citi executive says bank sacked her after raising Trump concerns\nFormer employee claims in lawsuit that she identified issues with risk-management practices"
+      "published": "Wed, 17 Jun 2026 09:06:44 GMT",
+      "summary": "As stubborn Starmer digs in, Streeting risks becoming biggest loser\nFormer health secretary was refreshingly sharp in UK economy speech but faces a formidable set of obstacles"
     },
     {
-      "title": "Russian warship fires warning shots towards yacht in English Channel",
-      "link": "https://www.ft.com/content/ddbc8071-3d83-4c44-8ab4-13ac39e46636",
-      "raw_summary": "UK says incident is not linked to Britain’s interception of an oil tanker that is part of Moscow’s shadow fleet",
+      "title": "Steady UK inflation removes any pressure for immediate rate rise",
+      "link": "https://www.ft.com/content/8c4cbebc-38df-4920-96a5-f1edddf69347",
+      "raw_summary": "Headline inflation remained unchanged at 2.8% in May",
       "source": "World",
-      "published": "Tue, 16 Jun 2026 22:29:11 GMT",
-      "summary": "Russian warship fires warning shots towards yacht in English Channel\nUK says incident is not linked to Britain’s interception of an oil tanker that is part of Moscow’s shadow fleet"
+      "published": "Wed, 17 Jun 2026 08:06:44 GMT",
+      "summary": "Steady UK inflation removes any pressure for immediate rate rise\nHeadline inflation remained unchanged at 2.8% in May"
     },
     {
-      "title": "India Micro-Caps Defy Hazy Macro With Breakout Signal",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-06-17/india-micro-caps-rally-as-golden-cross-hints-at-reversal",
-      "raw_summary": "The Bloomberg India Micro Cap Index has formed a  technical signal watched by traders.",
+      "title": "What Iran Stands to Gain Under Proposed Peace Deal",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-17/what-iran-stands-to-gain-under-proposed-peace-deal",
+      "raw_summary": "Iran is set to receive broad financial incentives as part of its agreement with the US, including the right to sell oil immediately and tap a $300 billion development fund.\n\nHere’s what we know from the draft of the deal, as seen by Bloomberg. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Wed, 17 Jun 2026 02:45:25 GMT",
-      "summary": "India Micro-Caps Defy Hazy Macro With Breakout Signal\nThe Bloomberg India Micro Cap Index has formed a  technical signal watched by traders."
+      "published": "Wed, 17 Jun 2026 10:04:59 GMT",
+      "summary": "What Iran Stands to Gain Under Proposed Peace Deal\nIran is set to receive broad financial incentives as part of its agreement with the US, including the right to sell oil immediately and tap a $300 billion development fund.\n\nHere’s what we know from the draft of the deal, as seen by Bloomberg. (Sour"
     },
     {
-      "title": "Oil Holds Near Three-Month Low as Iran Deal Seen Boosting Supply",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-16/latest-oil-market-news-and-analysis-for-june-17",
-      "raw_summary": "Oil held near a three-month low on expectations that a US-Iran deal to reopen the Strait of Hormuz will unleash a wave of supply.",
+      "title": "Higher Bond Yields Are Here to Stay in a Post-War World",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-06-17/higher-bond-yields-are-here-to-stay-in-a-post-war-world",
+      "raw_summary": "Higher government spending is still worrying investors.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 16 Jun 2026 22:03:13 GMT",
-      "summary": "Oil Holds Near Three-Month Low as Iran Deal Seen Boosting Supply\nOil held near a three-month low on expectations that a US-Iran deal to reopen the Strait of Hormuz will unleash a wave of supply."
+      "published": "Wed, 17 Jun 2026 09:58:34 GMT",
+      "summary": "Higher Bond Yields Are Here to Stay in a Post-War World\nHigher government spending is still worrying investors."
     },
     {
-      "title": "Bonds Climb as Oil Holds Near a Three-Month Low: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-16/asian-stocks-to-slip-ahead-of-fed-oil-steadies-markets-wrap",
-      "raw_summary": "Bonds advanced ahead of the Federal Reserve’s policy decision, as a sharp recent slide in oil prices helped ease concerns of a renewed inflation shock.",
+      "title": "Manipal Hospitals Is Said to Plan $1 Billion India IPO in July",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-17/manipal-hospitals-is-said-to-plan-1-billion-india-ipo-in-july",
+      "raw_summary": "Manipal Health Enterprises Pvt., which runs the Manipal Hospitals chain, is likely to launch its initial public offering as early as next month, according to people familiar with the matter.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 16 Jun 2026 22:06:39 GMT",
-      "summary": "Bonds Climb as Oil Holds Near a Three-Month Low: Markets Wrap\nBonds advanced ahead of the Federal Reserve’s policy decision, as a sharp recent slide in oil prices helped ease concerns of a renewed inflation shock."
+      "published": "Wed, 17 Jun 2026 09:57:52 GMT",
+      "summary": "Manipal Hospitals Is Said to Plan $1 Billion India IPO in July\nManipal Health Enterprises Pvt., which runs the Manipal Hospitals chain, is likely to launch its initial public offering as early as next month, according to people familiar with the matter."
     },
     {
-      "title": "SpaceX Drew $800 Million From Korean Investors on Trading Debut",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-17/spacex-draws-800-million-from-korean-investors-on-trading-debut",
-      "raw_summary": "South Korean retail investors snapped up almost $800 million of SpaceX shares on the stock’s first day of trading, underscoring strong demand for Elon Musk’s company after local investors were shut out from the world’s largest initial public offering.",
+      "title": "US-Iran Deal Details Emerge in 14-Point Memorandum | The Pulse 6/17/2026",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-17/the-pulse-6-17-2026-video",
+      "raw_summary": "\"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story is, bringing you exclusive interviews and market-moving scoops.\n\nToday's guests: Tanuja Randery, Amazon Web Services Vice President and EMEA Managing Director; Stefan Hoops, DWS CEO; Nadia Calviño, European Investment Bank President (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Wed, 17 Jun 2026 01:43:32 GMT",
-      "summary": "SpaceX Drew $800 Million From Korean Investors on Trading Debut\nSouth Korean retail investors snapped up almost $800 million of SpaceX shares on the stock’s first day of trading, underscoring strong demand for Elon Musk’s company after local investors were shut out from the world’s largest initial p"
+      "published": "Wed, 17 Jun 2026 09:53:49 GMT",
+      "summary": "US-Iran Deal Details Emerge in 14-Point Memorandum | The Pulse 6/17/2026\n\"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story is, bringing you exclusive"
     },
     {
-      "title": "Australia Must Gird for Shock-Prone Financial System, RBA Warns",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-17/australia-must-gird-for-shock-prone-financial-system-rba-warns",
-      "raw_summary": "Australian institutions need to be ready to respond to a more shock-prone financial system as a strained geopolitical environment reshapes financial and economic linkages, a senior Reserve Bank official said Wednesday.",
+      "title": "Gold Steadies as US and Iran Prepare to Sign Interim Peace Deal",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-16/gold-holds-gain-as-us-iran-prepare-to-sign-interim-peace-deal",
+      "raw_summary": "Gold steadied after a four-day gain as the US and Iran prepared to sign an interim peace agreement that may ease global inflationary pressures arising from the war.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 17 Jun 2026 01:30:00 GMT",
-      "summary": "Australia Must Gird for Shock-Prone Financial System, RBA Warns\nAustralian institutions need to be ready to respond to a more shock-prone financial system as a strained geopolitical environment reshapes financial and economic linkages, a senior Reserve Bank official said Wednesday."
+      "published": "Tue, 16 Jun 2026 23:48:24 GMT",
+      "summary": "Gold Steadies as US and Iran Prepare to Sign Interim Peace Deal\nGold steadied after a four-day gain as the US and Iran prepared to sign an interim peace agreement that may ease global inflationary pressures arising from the war."
     },
     {
-      "title": "Here is why Strategy's dividend-paying crypto stock is crashing to near-historic lows",
-      "link": "https://www.coindesk.com/markets/2026/06/16/here-is-why-strategy-s-dividend-paying-crypto-stock-is-crashing-to-near-historic-lows",
+      "title": "BitGo offers Europe’s crypto firms a MiCA-compliance lifeline as license deadline looms",
+      "link": "https://www.coindesk.com/business/2026/06/17/bitgo-offers-europe-s-crypto-firms-a-mica-compliance-lifeline-as-license-deadline-looms",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 16 Jun 2026 21:54:49 +0000",
-      "summary": "Here is why Strategy's dividend-paying crypto stock is crashing to near-historic lows\n"
+      "published": "Wed, 17 Jun 2026 06:34:55 +0000",
+      "summary": "BitGo offers Europe’s crypto firms a MiCA-compliance lifeline as license deadline looms\n"
     },
     {
-      "title": "Bitcoin miners' AI pivot faces $50 billion reality check, says VanEck",
-      "link": "https://www.coindesk.com/markets/2026/06/16/bitcoin-miners-ai-pivot-faces-usd50-billion-reality-check-says-vaneck",
+      "title": "Forget the price charts. Here's how bitcoin and S&P 500 look like when adjusted for the money printer",
+      "link": "https://www.coindesk.com/markets/2026/06/17/forget-the-price-charts-here-s-how-bitcoin-and-s-and-p-500-look-like-when-adjusted-for-the-money-printer",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 16 Jun 2026 20:58:18 +0000",
-      "summary": "Bitcoin miners' AI pivot faces $50 billion reality check, says VanEck\n"
+      "published": "Wed, 17 Jun 2026 06:30:14 +0000",
+      "summary": "Forget the price charts. Here's how bitcoin and S&P 500 look like when adjusted for the money printer\n"
     },
     {
-      "title": "U.S. senators urge Treasury not to leave states out of GENIUS Act stablecoin process",
-      "link": "https://www.coindesk.com/policy/2026/06/16/u-s-senators-urge-treasury-not-to-leave-states-out-of-genius-act-stablecoin-process",
+      "title": "Crypto PAC's $12 million Senate candidate, Barry Moore, wins Alabama GOP primary",
+      "link": "https://www.coindesk.com/policy/2026/06/17/crypto-pac-s-usd12-million-senate-candidate-barry-moore-wins-alabama-gop-primary",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 16 Jun 2026 20:36:09 +0000",
-      "summary": "U.S. senators urge Treasury not to leave states out of GENIUS Act stablecoin process\n"
+      "published": "Wed, 17 Jun 2026 05:38:27 +0000",
+      "summary": "Crypto PAC's $12 million Senate candidate, Barry Moore, wins Alabama GOP primary\n"
     },
     {
-      "title": "Hyperliquid, Uniswap and Worldcoin buck crypto slump as traders chase AI, DeFi trends",
-      "link": "https://www.coindesk.com/markets/2026/06/16/hyperliquid-uniswap-and-worldcoin-buck-crypto-slump-as-traders-chase-ai-defi-trends",
+      "title": "Live markets: Markets turn their focus to the Fed as oil returns to pre-war levels",
+      "link": "https://www.coindesk.com/tech/2026/06/17/live-markets-a-bitcoin-bottom-signal-flashed-as-holders-absorbed-125-000-btc-in-june",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 16 Jun 2026 20:20:35 +0000",
-      "summary": "Hyperliquid, Uniswap and Worldcoin buck crypto slump as traders chase AI, DeFi trends\n"
+      "published": "Wed, 17 Jun 2026 05:01:03 +0000",
+      "summary": "Live markets: Markets turn their focus to the Fed as oil returns to pre-war levels\n"
     },
     {
-      "title": "Coinbase intoduces AI advisor, stock options, and pre-IPO markets in finance push",
-      "link": "https://www.coindesk.com/business/2026/06/16/coinbase-intoduces-ai-advisor-stock-options-and-pre-ipo-markets-in-finance-push",
+      "title": "XRP gives back breakout gains, slipping below $1.23 on heavy selling",
+      "link": "https://www.coindesk.com/markets/2026/06/17/xrp-gives-back-breakout-gains-slipping-below-usd1-23-on-heavy-selling",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 16 Jun 2026 19:00:00 +0000",
-      "summary": "Coinbase intoduces AI advisor, stock options, and pre-IPO markets in finance push\n"
+      "published": "Wed, 17 Jun 2026 04:39:46 +0000",
+      "summary": "XRP gives back breakout gains, slipping below $1.23 on heavy selling\n"
     }
   ]
 }
