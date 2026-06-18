@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-06-18T14:50:55.837994+00:00",
+  "generated_at": "2026-06-18T20:13:38.795353+00:00",
   "count": 40,
   "articles": [
+    {
+      "title": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm",
+      "link": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
+      "raw_summary": "For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising fraud, account takeovers, and mass data-scraping efforts. This week, researchers from multiple security firms concluded that the Popa botnet is linked to NetNut, a \"residential proxy\" provider operated by the publicly-traded Israeli firm Alarum Technologies Ltd [NASDAQ: ALAR].",
+      "source": "Krebs on Security",
+      "published": "Thu, 18 Jun 2026 17:37:58 +0000",
+      "summary": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm\nFor the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising fraud, account takeovers, and mass data-scraping efforts. This week, researchers from mu"
+    },
     {
       "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
       "link": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
@@ -35,252 +43,276 @@
       "summary": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks\nAuthorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside th"
     },
     {
-      "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
-      "link": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
-      "raw_summary": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity &#038; Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys and a vast trove of other agency secrets on a public GitHub account. The inquiry comes as CISA is still struggling to contain the breach and invalidate the leaked credentials.",
-      "source": "Krebs on Security",
-      "published": "Fri, 22 May 2026 16:34:24 +0000",
-      "summary": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak\nLawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity &#038; Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys an"
-    },
-    {
-      "title": "DragonForce Hackers Abuse Microsoft Teams Relays to Hide Backdoor.Turn C2 Traffic",
-      "link": "https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html",
-      "raw_summary": "Threat actors associated with the DragonForce ransomware have been observed using a custom Go-based remote access trojan (RAT) called Backdoor.Turn to conceal command-and-control (C2) traffic inside Microsoft Teams relay infrastructure.\n\nAccording to findings from Broadcom-owned Symantec and Carbon Black, the backdoor was deployed against a major U.S. services firm. The name of the company was",
+      "title": "F5 Patches Two Critical NGINX Open Source Flaws Enabling Remote Code Execution",
+      "link": "https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html",
+      "raw_summary": "F5 has released security updates to address two critical security flaws in NGINX Open Source that could be exploited to achieve code execution on affected systems.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-42530 (CVSS v4 score: 9.2) - A use-after-free vulnerability in the ngx_http_v3_module that could be triggered by a remote unauthenticated attacker when NGINX Open Source is",
       "source": "The Hacker News",
-      "published": "Thu, 18 Jun 2026 19:00:07 +0530",
-      "summary": "DragonForce Hackers Abuse Microsoft Teams Relays to Hide Backdoor.Turn C2 Traffic\nThreat actors associated with the DragonForce ransomware have been observed using a custom Go-based remote access trojan (RAT) called Backdoor.Turn to conceal command-and-control (C2) traffic inside Microsoft Teams rel"
+      "published": "Thu, 18 Jun 2026 23:02:14 +0530",
+      "summary": "F5 Patches Two Critical NGINX Open Source Flaws Enabling Remote Code Execution\nF5 has released security updates to address two critical security flaws in NGINX Open Source that could be exploited to achieve code execution on affected systems.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-4253"
     },
     {
       "title": "Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network",
       "link": "https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html",
       "raw_summary": "If an autonomous AI agent interacts with your company's core intellectual property today, can your security team instantly name the person who authorized it?\n\nFor most enterprises, the answer is a simple no.\n\nThe rush to adopt internal AI tools has left a massive trail of administrative debt: orphaned agents (AI tools left running after their creator leaves the company) and standing privileges (",
       "source": "The Hacker News",
-      "published": "Thu, 18 Jun 2026 17:28:00 +0530",
+      "published": "Thu, 18 Jun 2026 21:03:49 +0530",
       "summary": "Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network\nIf an autonomous AI agent interacts with your company's core intellectual property today, can your security team instantly name the person who authorized it?\n\nFor most enterprises, the answer is a simple no.\n\nThe rush to adopt i"
     },
     {
-      "title": "The Scripts on Your Checkout Page Are Now a PCI DSS Problem",
-      "link": "https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html",
-      "raw_summary": "An independent PCI assessor tested Reflectiz against the new PCI DSS rules. Here is the verdict: See the full QSA assessment here →\n\nWhen a customer types their card number into your checkout, their browser is running far more than your code. Analytics tags, a tag manager, a support widget, a payment iframe: a modern checkout loads dozens of third-party scripts, and any one of them can be turned",
+      "title": "ThreatsDay Bulletin: Claude Chat Abuse, NastyC2 npm Packages, Device-Code Phishing + 25 More Stories",
+      "link": "https://thehackernews.com/2026/06/threatsday-bulletin-claude-chat-abuse.html",
+      "raw_summary": "The internet did not break this week. It got used exactly as designed, which is worse.\n\nSearches were siphoned through shady browser add-ons. AI chat links turned into malware delivery paths. macOS attacks ran in memory and left almost nothing behind. Cloud agents looked like helpers until attackers treated them like open shells.\n\nAdd exposed edge gear, poisoned packages, cash courier scams,",
       "source": "The Hacker News",
-      "published": "Thu, 18 Jun 2026 16:30:00 +0530",
-      "summary": "The Scripts on Your Checkout Page Are Now a PCI DSS Problem\nAn independent PCI assessor tested Reflectiz against the new PCI DSS rules. Here is the verdict: See the full QSA assessment here →\n\nWhen a customer types their card number into your checkout, their browser is running far more than your cod"
+      "published": "Thu, 18 Jun 2026 20:57:54 +0530",
+      "summary": "ThreatsDay Bulletin: Claude Chat Abuse, NastyC2 npm Packages, Device-Code Phishing + 25 More Stories\nThe internet did not break this week. It got used exactly as designed, which is worse.\n\nSearches were siphoned through shady browser add-ons. AI chat links turned into malware delivery paths. macOS a"
     },
     {
-      "title": "Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments",
-      "link": "https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html",
-      "raw_summary": "An unknown threat actor has been observed leveraging paid or promoted posts on legitimate news websites to drum up buzz for their warez, according to new findings from Check Point Research.\n\nThe threat actor also has at their disposal a dedicated WordPress phishing page that acts as the central hub, alongside GitHub and SourceForge projects promoted by fake accounts, a YouTube channel, and a",
+      "title": "Microsoft Details Windows Clipper Malware Campaign Using USB LNK Worm and Tor-Based C2",
+      "link": "https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html",
+      "raw_summary": "Microsoft has disclosed details of a Windows-based cryptocurrency clipper campaign that has targeted users since February 2026.\n\n\"The clipper in this campaign relies on Windows Script Host and ActiveX-driven logic to launch a bundled Tor proxy and poll a hidden-service C2 [command-and-control] server,\" the Microsoft Defender Security Research Team said in an analysis published Tuesday. \"It",
       "source": "The Hacker News",
-      "published": "Wed, 17 Jun 2026 23:44:24 +0530",
-      "summary": "Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments\nAn unknown threat actor has been observed leveraging paid or promoted posts on legitimate news websites to drum up buzz for their warez, according to new findings from Check Point Research.\n\nThe threat actor also has "
+      "published": "Thu, 18 Jun 2026 20:00:42 +0530",
+      "summary": "Microsoft Details Windows Clipper Malware Campaign Using USB LNK Worm and Tor-Based C2\nMicrosoft has disclosed details of a Windows-based cryptocurrency clipper campaign that has targeted users since February 2026.\n\n\"The clipper in this campaign relies on Windows Script Host and ActiveX-driven logic"
     },
     {
-      "title": "Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development",
-      "link": "https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html",
-      "raw_summary": "Microsoft has formally disclosed that it's working to release a patch to address a Defender zero-day codenamed RoguePlanet.\n\nThe vulnerability has now been assigned the CVE identifier CVE-2026-50656 (CVSS score: 7.8), with the tech giant describing it as a privilege escalation flaw.\n\n\"Microsoft is aware of an elevation of privilege in the Microsoft Malware Protection Engine in Microsoft Defender",
+      "title": "INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023",
+      "link": "https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html",
+      "raw_summary": "Cybersecurity researchers have charted the evolution of INC from an nascent ransomware-as-a-service (RaaS) operation to one of the most prolific cybercrime groups in 2026, claiming no less than 830 victims since August 2023.\n\n\"The disruption of LockBit and the shutdown of BlackCat created opportunities for INC to expand as affiliates migrated to alternative ransomware operations,\" Acronis",
       "source": "The Hacker News",
-      "published": "Wed, 17 Jun 2026 23:06:28 +0530",
-      "summary": "Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development\nMicrosoft has formally disclosed that it's working to release a patch to address a Defender zero-day codenamed RoguePlanet.\n\nThe vulnerability has now been assigned the CVE identifier CVE-2026-50656 (CVSS score: 7.8), wit"
+      "published": "Thu, 18 Jun 2026 19:42:48 +0530",
+      "summary": "INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023\nCybersecurity researchers have charted the evolution of INC from an nascent ransomware-as-a-service (RaaS) operation to one of the most prolific cybercrime groups in 2026, claiming no less than 830 victims since August "
     },
     {
-      "title": "Migrate from OpenClaw",
-      "link": "https://hermes-agent.nousresearch.com/docs/guides/migrate-from-openclaw",
-      "raw_summary": "<p>Article URL: <a href=\"https://hermes-agent.nousresearch.com/docs/guides/migrate-from-openclaw\">https://hermes-agent.nousresearch.com/docs/guides/migrate-from-openclaw</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48586005\">https://news.ycombinator.com/item?id=48586005</a></p>\n<p>Points: 7</p>\n<p># Comments: 2</p>",
+      "title": "Integer Quantization: Deep Dive",
+      "link": "https://hello-fri-end.github.io/2026/06/integer-quantization-deep-dive/",
+      "raw_summary": "<p>Article URL: <a href=\"https://hello-fri-end.github.io/2026/06/integer-quantization-deep-dive/\">https://hello-fri-end.github.io/2026/06/integer-quantization-deep-dive/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48590280\">https://news.ycombinator.com/item?id=48590280</a></p>\n<p>Points: 6</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 18 Jun 2026 14:32:13 +0000",
-      "summary": "Migrate from OpenClaw\n<p>Article URL: <a href=\"https://hermes-agent.nousresearch.com/docs/guides/migrate-from-openclaw\">https://hermes-agent.nousresearch.com/docs/guides/migrate-from-openclaw</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48586005\">https://news.ycombinator.co"
+      "published": "Thu, 18 Jun 2026 19:25:46 +0000",
+      "summary": "Integer Quantization: Deep Dive\n<p>Article URL: <a href=\"https://hello-fri-end.github.io/2026/06/integer-quantization-deep-dive/\">https://hello-fri-end.github.io/2026/06/integer-quantization-deep-dive/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48590280\">https://news.ycom"
     },
     {
-      "title": "Drowning Doesn't Look Like Drowning (2021)",
-      "link": "https://gcaptain.com/drowning/",
-      "raw_summary": "<p>Article URL: <a href=\"https://gcaptain.com/drowning/\">https://gcaptain.com/drowning/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48584915\">https://news.ycombinator.com/item?id=48584915</a></p>\n<p>Points: 13</p>\n<p># Comments: 0</p>",
+      "title": "The Token Compression Illusion: Why I'm Skeptical of RTK",
+      "link": "https://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk/",
+      "raw_summary": "<p>Article URL: <a href=\"https://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk/\">https://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48588755\">https://news.ycombinator.com/item?id=48588755</a></p>\n<p>Points: 30</p>\n<p># Comments: 45</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 18 Jun 2026 13:24:27 +0000",
-      "summary": "Drowning Doesn't Look Like Drowning (2021)\n<p>Article URL: <a href=\"https://gcaptain.com/drowning/\">https://gcaptain.com/drowning/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48584915\">https://news.ycombinator.com/item?id=48584915</a></p>\n<p>Points: 13</p>\n<p># Comments: 0"
+      "published": "Thu, 18 Jun 2026 17:37:00 +0000",
+      "summary": "The Token Compression Illusion: Why I'm Skeptical of RTK\n<p>Article URL: <a href=\"https://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk/\">https://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk/</a></p>\n<p>Comments URL: <a href=\"https://news."
     },
     {
-      "title": "Git platform built for agentic era",
-      "link": "https://gitlawb.com/node",
-      "raw_summary": "<p>Article URL: <a href=\"https://gitlawb.com/node\">https://gitlawb.com/node</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48584873\">https://news.ycombinator.com/item?id=48584873</a></p>\n<p>Points: 6</p>\n<p># Comments: 4</p>",
+      "title": "The founder of Craigslist has given away half a billion dollars",
+      "link": "https://www.independent.co.uk/us/money/craigslist-multimillionaire-craig-newmark-b2980681.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.independent.co.uk/us/money/craigslist-multimillionaire-craig-newmark-b2980681.html\">https://www.independent.co.uk/us/money/craigslist-multimillionaire-craig-newmark-b2980681.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48588216\">https://news.ycombinator.com/item?id=48588216</a></p>\n<p>Points: 184</p>\n<p># Comments: 115</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 18 Jun 2026 13:19:57 +0000",
-      "summary": "Git platform built for agentic era\n<p>Article URL: <a href=\"https://gitlawb.com/node\">https://gitlawb.com/node</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48584873\">https://news.ycombinator.com/item?id=48584873</a></p>\n<p>Points: 6</p>\n<p># Comments: 4</p>"
+      "published": "Thu, 18 Jun 2026 16:55:25 +0000",
+      "summary": "The founder of Craigslist has given away half a billion dollars\n<p>Article URL: <a href=\"https://www.independent.co.uk/us/money/craigslist-multimillionaire-craig-newmark-b2980681.html\">https://www.independent.co.uk/us/money/craigslist-multimillionaire-craig-newmark-b2980681.html</a></p>\n<p>Comments "
     },
     {
-      "title": "How Alberta Eradicated Rats",
-      "link": "https://worksinprogress.co/issue/albertas-war-on-rats/",
-      "raw_summary": "<p>Article URL: <a href=\"https://worksinprogress.co/issue/albertas-war-on-rats/\">https://worksinprogress.co/issue/albertas-war-on-rats/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48584709\">https://news.ycombinator.com/item?id=48584709</a></p>\n<p>Points: 13</p>\n<p># Comments: 3</p>",
+      "title": "The Harajuku Moment (2024)",
+      "link": "https://tim.blog/2024/02/09/harajuku-moment/",
+      "raw_summary": "<p>Article URL: <a href=\"https://tim.blog/2024/02/09/harajuku-moment/\">https://tim.blog/2024/02/09/harajuku-moment/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48587527\">https://news.ycombinator.com/item?id=48587527</a></p>\n<p>Points: 61</p>\n<p># Comments: 37</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 18 Jun 2026 13:05:58 +0000",
-      "summary": "How Alberta Eradicated Rats\n<p>Article URL: <a href=\"https://worksinprogress.co/issue/albertas-war-on-rats/\">https://worksinprogress.co/issue/albertas-war-on-rats/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48584709\">https://news.ycombinator.com/item?id=48584709</a></p>\n<"
+      "published": "Thu, 18 Jun 2026 16:05:58 +0000",
+      "summary": "The Harajuku Moment (2024)\n<p>Article URL: <a href=\"https://tim.blog/2024/02/09/harajuku-moment/\">https://tim.blog/2024/02/09/harajuku-moment/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48587527\">https://news.ycombinator.com/item?id=48587527</a></p>\n<p>Points: 61</p>\n<p>#"
     },
     {
-      "title": "Has W Social switched to closed source?",
-      "link": "https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/",
-      "raw_summary": "<p>Article URL: <a href=\"https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/\">https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48584497\">https://news.ycombinator.com/item?id=48584497</a></p>\n<p>Points: 87</p>\n<p># Comments: 43</p>",
+      "title": "TerraPower in deal with Meta for eight Natrium 345 MW nuclear plants",
+      "link": "https://neutronbytes.com/2026/01/09/terrapower-in-mega-deal-with-meta-for-eight-natrium-345-mw-advanced-nuclear-plants/",
+      "raw_summary": "<p>Article URL: <a href=\"https://neutronbytes.com/2026/01/09/terrapower-in-mega-deal-with-meta-for-eight-natrium-345-mw-advanced-nuclear-plants/\">https://neutronbytes.com/2026/01/09/terrapower-in-mega-deal-with-meta-for-eight-natrium-345-mw-advanced-nuclear-plants/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48586648\">https://news.ycombinator.com/item?id=48586648</a></p>\n<p>Points: 80</p>\n<p># Comments: 76</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 18 Jun 2026 12:46:04 +0000",
-      "summary": "Has W Social switched to closed source?\n<p>Article URL: <a href=\"https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/\">https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/</a></p>\n<p>Comment"
+      "published": "Thu, 18 Jun 2026 15:13:26 +0000",
+      "summary": "TerraPower in deal with Meta for eight Natrium 345 MW nuclear plants\n<p>Article URL: <a href=\"https://neutronbytes.com/2026/01/09/terrapower-in-mega-deal-with-meta-for-eight-natrium-345-mw-advanced-nuclear-plants/\">https://neutronbytes.com/2026/01/09/terrapower-in-mega-deal-with-meta-for-eight-natri"
     },
     {
-      "title": "Spotify’s reserved ticket sales to music superfans are now going live",
-      "link": "https://techcrunch.com/2026/06/18/spotifys-reserved-ticket-sales-to-musics-superfans-are-now-going-live/",
-      "raw_summary": "Spotify is launching \"Reserved,\" a new system that will hold two concert tickets for an artist's superfans before they're on sale to the public.",
+      "title": "OpenAI is bringing on some big guns in the lead-up to its IPO",
+      "link": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
+      "raw_summary": "OpenAI is bulking up before its IPO, landing Transformer co-inventor Noam Shazeer from Google DeepMind and former Trump AI policy official Dean Ball in the same week.",
       "source": "TechCrunch",
-      "published": "Thu, 18 Jun 2026 14:00:00 +0000",
-      "summary": "Spotify’s reserved ticket sales to music superfans are now going live\nSpotify is launching \"Reserved,\" a new system that will hold two concert tickets for an artist's superfans before they're on sale to the public."
+      "published": "Thu, 18 Jun 2026 19:59:22 +0000",
+      "summary": "OpenAI is bringing on some big guns in the lead-up to its IPO\nOpenAI is bulking up before its IPO, landing Transformer co-inventor Noam Shazeer from Google DeepMind and former Trump AI policy official Dean Ball in the same week."
     },
     {
-      "title": "Adobe adds its AI assistant to Premiere, Illustrator and InDesign",
-      "link": "https://techcrunch.com/2026/06/18/adobe-adds-its-ai-assistant-to-premiere-illustrator-and-indesign/",
-      "raw_summary": "Adobe is updating its Firefly AI assistant with new chops, and adding it to Premiere, Illustrator, InDesign and Frame.io.",
+      "title": "The 11 standout startups from YC’s Demo Day, according to VCs",
+      "link": "https://techcrunch.com/2026/06/18/the-11-standout-startups-from-ycs-demo-day-according-to-vcs/",
+      "raw_summary": "TechCrunch spoke to investors to find the hottest startups in the Spring 2026 YC batch. Some of them commanded valuations of over $175 million, VCs said.",
       "source": "TechCrunch",
-      "published": "Thu, 18 Jun 2026 13:00:00 +0000",
-      "summary": "Adobe adds its AI assistant to Premiere, Illustrator and InDesign\nAdobe is updating its Firefly AI assistant with new chops, and adding it to Premiere, Illustrator, InDesign and Frame.io."
+      "published": "Thu, 18 Jun 2026 19:52:19 +0000",
+      "summary": "The 11 standout startups from YC’s Demo Day, according to VCs\nTechCrunch spoke to investors to find the hottest startups in the Spring 2026 YC batch. Some of them commanded valuations of over $175 million, VCs said."
     },
     {
-      "title": "Pixi’s new iOS app turns text messages into interactive AR experiences",
-      "link": "https://techcrunch.com/2026/06/18/pixis-new-ios-app-turns-text-messages-into-interactive-ar-experiences/",
-      "raw_summary": "Forget stickers, GIFs, and emoji reactions. Pixi is betting that the next evolution of messaging is interactive augmented reality (AR).",
+      "title": "Rivian owners file lawsuit alleging false promises on self-driving features",
+      "link": "https://techcrunch.com/2026/06/18/rivian-owners-file-lawsuit-alleging-false-promises-on-self-driving-features/",
+      "raw_summary": "Plaintiffs in the class action complaint allege Rivian falsely promised for years it would bring hands-free driving to its first-generation R1 vehicles.",
       "source": "TechCrunch",
-      "published": "Thu, 18 Jun 2026 12:00:00 +0000",
-      "summary": "Pixi’s new iOS app turns text messages into interactive AR experiences\nForget stickers, GIFs, and emoji reactions. Pixi is betting that the next evolution of messaging is interactive augmented reality (AR)."
+      "published": "Thu, 18 Jun 2026 19:31:45 +0000",
+      "summary": "Rivian owners file lawsuit alleging false promises on self-driving features\nPlaintiffs in the class action complaint allege Rivian falsely promised for years it would bring hands-free driving to its first-generation R1 vehicles."
     },
     {
-      "title": "Waymo recalls nearly 4,000 robotaxis to stop them driving into highway construction zones",
-      "link": "https://techcrunch.com/2026/06/18/waymo-recalls-nearly-4000-robotaxis-to-stop-them-driving-into-highway-construction-zones/",
-      "raw_summary": "The company has identified at least 13 instances where its robotaxis drove into highway sections closed for construction.",
+      "title": "Almost half of U.S. singles feel negatively about AI in dating, Match says",
+      "link": "https://techcrunch.com/2026/06/18/almost-half-of-u-s-singles-feel-negatively-about-ai-in-dating-match-says/",
+      "raw_summary": "About 47% of singles look negatively at the use of AI in dating -- but, many dating app users are open to AI helping with profile punch-ups and conversation starters.",
       "source": "TechCrunch",
-      "published": "Thu, 18 Jun 2026 11:59:11 +0000",
-      "summary": "Waymo recalls nearly 4,000 robotaxis to stop them driving into highway construction zones\nThe company has identified at least 13 instances where its robotaxis drove into highway sections closed for construction."
+      "published": "Thu, 18 Jun 2026 18:51:46 +0000",
+      "summary": "Almost half of U.S. singles feel negatively about AI in dating, Match says\nAbout 47% of singles look negatively at the use of AI in dating -- but, many dating app users are open to AI helping with profile punch-ups and conversation starters."
     },
     {
-      "title": "NASA picks Eric Schmidt’s rocket company for Mars mission, setting up a race with SpaceX",
-      "link": "https://techcrunch.com/2026/06/17/nasa-picks-eric-schmidts-rocket-company-for-mars-mission-setting-up-a-race-with-spacex/",
-      "raw_summary": "Relativity Space—a rocket maker acquired by former Google executive chair Eric Schmidt last year after stumbling on the path to orbit—might just beat SpaceX to Mars.",
+      "title": "Amazon hopes to challenge Nvidia more directly by selling its AI chips",
+      "link": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
+      "raw_summary": "AWS is in talks to sell its chips to other data centers. CEO Andy Jassy has said this represents a $50 billion opportunity for the company.",
       "source": "TechCrunch",
-      "published": "Thu, 18 Jun 2026 06:26:24 +0000",
-      "summary": "NASA picks Eric Schmidt’s rocket company for Mars mission, setting up a race with SpaceX\nRelativity Space—a rocket maker acquired by former Google executive chair Eric Schmidt last year after stumbling on the path to orbit—might just beat SpaceX to Mars."
+      "published": "Thu, 18 Jun 2026 18:22:13 +0000",
+      "summary": "Amazon hopes to challenge Nvidia more directly by selling its AI chips\nAWS is in talks to sell its chips to other data centers. CEO Andy Jassy has said this represents a $50 billion opportunity for the company."
     },
     {
-      "title": "Cosmonaut Aleksandr Samokutyaev, 56, is first former ISS crew member to die",
+      "title": "After Senate vote, Trump admin backs off plans to kill ocean monitoring",
+      "link": "https://arstechnica.com/science/2026/06/after-senate-vote-trump-admin-backs-off-plans-to-kill-ocean-monitoring/",
+      "raw_summary": "It's unclear whether the system is currently intact.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 18 Jun 2026 18:19:44 +0000",
+      "summary": "After Senate vote, Trump admin backs off plans to kill ocean monitoring\nIt's unclear whether the system is currently intact."
+    },
+    {
+      "title": "Before SpaceX IPO, investors in China secretly acquired stakes",
+      "link": "https://arstechnica.com/information-technology/2026/06/before-spacex-ipo-investors-in-china-secretly-acquired-stakes/",
+      "raw_summary": "One previously unreported SpaceX investor has ties to Chinese military contractors.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 18 Jun 2026 17:42:18 +0000",
+      "summary": "Before SpaceX IPO, investors in China secretly acquired stakes\nOne previously unreported SpaceX investor has ties to Chinese military contractors."
+    },
+    {
+      "title": "Bernie Sanders unveils $7 trillion plan to give Americans control of AI industry",
+      "link": "https://arstechnica.com/tech-policy/2026/06/bernie-sanders-unveils-7-trillion-plan-to-give-americans-control-of-ai-industry/",
+      "raw_summary": "Biggest AI firms will likely recoil at Bernie Sanders' AI wealth fund.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 18 Jun 2026 17:02:49 +0000",
+      "summary": "Bernie Sanders unveils $7 trillion plan to give Americans control of AI industry\nBiggest AI firms will likely recoil at Bernie Sanders' AI wealth fund."
+    },
+    {
+      "title": "Hunter-gatherers in Siberia died of a plague outbreak 5,500 years ago",
+      "link": "https://arstechnica.com/science/2026/06/hunter-gatherers-in-siberia-died-of-a-plague-outbreak-5500-years-ago/",
+      "raw_summary": "We can't blame the Neolithic Transition for the plague anymore.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 18 Jun 2026 15:04:40 +0000",
+      "summary": "Hunter-gatherers in Siberia died of a plague outbreak 5,500 years ago\nWe can't blame the Neolithic Transition for the plague anymore."
+    },
+    {
+      "title": "The first long-duration resident of the ISS, a cosmonaut, has died",
       "link": "https://arstechnica.com/space/2026/06/cosmonaut-aleksandr-samokutyaev-56-is-first-former-iss-crew-member-to-die/",
       "raw_summary": "Two expeditions, two spacewalks, 322 days in space.",
       "source": "Ars Technica - All content",
       "published": "Thu, 18 Jun 2026 14:34:36 +0000",
-      "summary": "Cosmonaut Aleksandr Samokutyaev, 56, is first former ISS crew member to die\nTwo expeditions, two spacewalks, 322 days in space."
+      "summary": "The first long-duration resident of the ISS, a cosmonaut, has died\nTwo expeditions, two spacewalks, 322 days in space."
     },
     {
-      "title": "Hulk, Punisher join Peter Parker in Spider-Man: Brand New Day trailer",
-      "link": "https://arstechnica.com/culture/2026/06/hulk-punisher-join-peter-parker-in-spider-man-brand-new-day-trailer/",
-      "raw_summary": "Peter Parker to Bruce Banner: \"I didn't know you could get that big.\"",
-      "source": "Ars Technica - All content",
-      "published": "Thu, 18 Jun 2026 06:37:59 +0000",
-      "summary": "Hulk, Punisher join Peter Parker in Spider-Man: Brand New Day trailer\nPeter Parker to Bruce Banner: \"I didn't know you could get that big.\""
-    },
-    {
-      "title": "Second carcass-eating fly species cleared by FDA for maggot wound therapy",
-      "link": "https://arstechnica.com/health/2026/06/second-carcass-eating-fly-species-cleared-by-fda-for-maggot-wound-therapy/",
-      "raw_summary": "Maggot therapy lacks robust data, but it has fans and a fail-safe \"bacon therapy.\"",
-      "source": "Ars Technica - All content",
-      "published": "Wed, 17 Jun 2026 22:11:20 +0000",
-      "summary": "Second carcass-eating fly species cleared by FDA for maggot wound therapy\nMaggot therapy lacks robust data, but it has fans and a fail-safe \"bacon therapy.\""
-    },
-    {
-      "title": "Sooner than expected? Useful quantum error correction promised for 2028.",
-      "link": "https://arstechnica.com/science/2026/06/amazon-quera-promise-useful-quantum-error-correction-by-2028/",
-      "raw_summary": "Elsewhere, beyond-classical quantum hardware, plus classical computing fires back.",
-      "source": "Ars Technica - All content",
-      "published": "Wed, 17 Jun 2026 20:44:32 +0000",
-      "summary": "Sooner than expected? Useful quantum error correction promised for 2028.\nElsewhere, beyond-classical quantum hardware, plus classical computing fires back."
-    },
-    {
-      "title": "California says AT&T lied to FCC in attempt to shut off old phone network",
-      "link": "https://arstechnica.com/tech-policy/2026/06/california-says-att-lied-to-fcc-in-attempt-to-shut-off-old-phone-network/",
-      "raw_summary": "FCC considers AT&#038;T petitions to preempt state rules and discontinue phone service.",
-      "source": "Ars Technica - All content",
-      "published": "Wed, 17 Jun 2026 20:07:40 +0000",
-      "summary": "California says AT&T lied to FCC in attempt to shut off old phone network\nFCC considers AT&#038;T petitions to preempt state rules and discontinue phone service."
-    },
-    {
-      "title": "US and Iran sign deal as Trump vows to release frozen funds and ease sanctions",
-      "link": "https://www.ft.com/content/d4f89b6b-c213-4550-924b-a9ae45e24c37",
-      "raw_summary": "President says Iranians will receive incentives when they ‘behave’ and acknowledges Tehran will keep ballistic missiles",
+      "title": "Iran to get access to $6bn of frozen funds to buy US goods",
+      "link": "https://www.ft.com/content/905e17e6-0659-4e28-bab8-b733ba6be990",
+      "raw_summary": "Money held in Qatar to be released in phases under interim deal with Trump administration",
       "source": "World",
-      "published": "Thu, 18 Jun 2026 13:32:59 GMT",
-      "summary": "US and Iran sign deal as Trump vows to release frozen funds and ease sanctions\nPresident says Iranians will receive incentives when they ‘behave’ and acknowledges Tehran will keep ballistic missiles"
+      "published": "Thu, 18 Jun 2026 19:26:03 GMT",
+      "summary": "Iran to get access to $6bn of frozen funds to buy US goods\nMoney held in Qatar to be released in phases under interim deal with Trump administration"
     },
     {
-      "title": "Is the world becoming more predictable?",
-      "link": "https://www.ft.com/content/b1f417eb-f120-4e3f-8c85-6db3013c33ee",
-      "raw_summary": "Bigger and better data sets and powerful AI models are allowing us to spot previously undetectable patterns",
+      "title": "JD Vance lashes out at Israeli government over Iran deal criticism",
+      "link": "https://www.ft.com/content/cbb2047a-91dd-4777-9051-e9c709f4388b",
+      "raw_summary": "US vice-president says Israelis who find fault in agreement with Tehran need ‘to wake up and smell the reality’",
       "source": "World",
-      "published": "Thu, 18 Jun 2026 13:00:03 GMT",
-      "summary": "Is the world becoming more predictable?\nBigger and better data sets and powerful AI models are allowing us to spot previously undetectable patterns"
+      "published": "Thu, 18 Jun 2026 19:07:36 GMT",
+      "summary": "JD Vance lashes out at Israeli government over Iran deal criticism\nUS vice-president says Israelis who find fault in agreement with Tehran need ‘to wake up and smell the reality’"
     },
     {
-      "title": "Inside Washington’s interim deal to reopen the Strait of Hormuz",
-      "link": "https://www.ft.com/content/40c13aa0-4228-4068-8659-408f96e36172",
-      "raw_summary": "Also in today’s newsletter, interest rates held at Kevin Warsh’s first meeting as Fed chair",
+      "title": "Rape convictions under review after UK detective allegedly used AI chatbot for paperwork",
+      "link": "https://www.ft.com/content/4d1db23d-7747-4e8a-a95f-d63af64458c2",
+      "raw_summary": "Derbyshire Police investigating whether officer used software to secure desired court outcome",
       "source": "World",
-      "published": "Thu, 18 Jun 2026 13:00:03 GMT",
-      "summary": "Inside Washington’s interim deal to reopen the Strait of Hormuz\nAlso in today’s newsletter, interest rates held at Kevin Warsh’s first meeting as Fed chair"
+      "published": "Thu, 18 Jun 2026 18:18:12 GMT",
+      "summary": "Rape convictions under review after UK detective allegedly used AI chatbot for paperwork\nDerbyshire Police investigating whether officer used software to secure desired court outcome"
     },
     {
-      "title": "Saudi wealth fund warns European regulations ‘hurting’ foreign investors",
-      "link": "https://www.ft.com/content/35e079fa-04d7-44ae-9567-a595353f05aa",
-      "raw_summary": "Comments from Public Investment Fund governor come amid concerns about EU’s foreign subsidies regulation",
+      "title": "CME sues US derivatives regulator over crypto contract approval",
+      "link": "https://www.ft.com/content/5e90353f-cefd-4f3d-aaf9-830244bd5b20",
+      "raw_summary": "Exchange operator says allowance of ‘perpetual’ futures contracts on digital currencies by Kalshi violates law",
       "source": "World",
-      "published": "Thu, 18 Jun 2026 11:51:44 GMT",
-      "summary": "Saudi wealth fund warns European regulations ‘hurting’ foreign investors\nComments from Public Investment Fund governor come amid concerns about EU’s foreign subsidies regulation"
+      "published": "Thu, 18 Jun 2026 17:54:14 GMT",
+      "summary": "CME sues US derivatives regulator over crypto contract approval\nExchange operator says allowance of ‘perpetual’ futures contracts on digital currencies by Kalshi violates law"
     },
     {
-      "title": "Bank of England holds rates steady and waits for more information",
-      "link": "https://www.ft.com/content/2d462fcf-4ddf-483d-842f-4aa40426d641",
-      "raw_summary": "A majority of the committee is satisfied with waiting and watching before considering a rate rise",
+      "title": "South Africa’s anti-migrant backlash",
+      "link": "https://www.ft.com/content/a12d9e0a-fc7a-48b4-baf7-1cd33abbc682",
+      "raw_summary": "The country would benefit more if it stuck to its pan-African principles",
       "source": "World",
-      "published": "Thu, 18 Jun 2026 11:36:25 GMT",
-      "summary": "Bank of England holds rates steady and waits for more information\nA majority of the committee is satisfied with waiting and watching before considering a rate rise"
+      "published": "Thu, 18 Jun 2026 17:44:44 GMT",
+      "summary": "South Africa’s anti-migrant backlash\nThe country would benefit more if it stuck to its pan-African principles"
     },
     {
-      "title": "Supreme Court Says Some Drug Users Can Possess Guns",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-18/supreme-court-says-some-drug-users-can-possess-guns-video",
-      "raw_summary": "The US Supreme Court ruled that the government can’t categorically bar marijuana users from possessing firearms in a decision that expands the Constitution’s Second Amendment. Mike McKee reports on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
-      "source": "Bloomberg Markets",
-      "published": "Thu, 18 Jun 2026 14:42:45 GMT",
-      "summary": "Supreme Court Says Some Drug Users Can Possess Guns\nThe US Supreme Court ruled that the government can’t categorically bar marijuana users from possessing firearms in a decision that expands the Constitution’s Second Amendment. Mike McKee reports on \"Bloomberg Open Interest.\" (Source: Bloomberg)"
-    },
-    {
-      "title": "Second Iran-Bound Corn Ship Crossed Hormuz Before Peace Deal",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-17/corn-ships-cross-hormuz-toward-iran-uae-ahead-of-trump-deal",
-      "raw_summary": "A second ship laden with corn bound for Iran transited the Strait of Hormuz just hours before the US-Iran interim deal to end the war and reopen the waterway was announced.",
-      "source": "Bloomberg Markets",
-      "published": "Wed, 17 Jun 2026 16:35:14 GMT",
-      "summary": "Second Iran-Bound Corn Ship Crossed Hormuz Before Peace Deal\nA second ship laden with corn bound for Iran transited the Strait of Hormuz just hours before the US-Iran interim deal to end the war and reopen the waterway was announced."
-    },
-    {
-      "title": "Stranded Oil Is Streaming Out of Hormuz as Deal Takes Effect",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-18/two-saudi-oil-tankers-have-appeared-outside-strait-of-hormuz",
-      "raw_summary": "A growing stream of stranded oil is making its way out of the Strait of Hormuz and Kuwait said it will start ramping up production, as the US-Iran interim peace deal sparks a flurry of activity that is already pushing Middle East flows toward pre-war levels.",
-      "source": "Bloomberg Markets",
-      "published": "Thu, 18 Jun 2026 06:33:54 GMT",
-      "summary": "Stranded Oil Is Streaming Out of Hormuz as Deal Takes Effect\nA growing stream of stranded oil is making its way out of the Strait of Hormuz and Kuwait said it will start ramping up production, as the US-Iran interim peace deal sparks a flurry of activity that is already pushing Middle East flows tow"
-    },
-    {
-      "title": "Big Tech’s AI Spending Spree Is Making Stock Buybacks Disappear",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-18/big-tech-s-ai-spending-spree-is-making-stock-buybacks-disappear",
-      "raw_summary": "The artificial-intelligence race is becoming so expensive that it’s snuffing out one of the key forces that has helped keep Big Tech stocks soaring for years: steady share buybacks.",
-      "source": "Bloomberg Markets",
-      "published": "Thu, 18 Jun 2026 11:00:01 GMT",
-      "summary": "Big Tech’s AI Spending Spree Is Making Stock Buybacks Disappear\nThe artificial-intelligence race is becoming so expensive that it’s snuffing out one of the key forces that has helped keep Big Tech stocks soaring for years: steady share buybacks."
-    },
-    {
-      "title": "Dollar Rally Builds as Hawkish Fed Meeting Stokes Rate-Hike Bets",
+      "title": "Dollar Sees ‘Bullish Break’ as Fed Rate-Hike Bets Fuel Rally",
       "link": "https://www.bloomberg.com/news/articles/2026-06-18/dollar-rally-builds-as-hawkish-fed-meeting-stokes-rate-hike-bets",
-      "raw_summary": "The dollar extended its rally for a second day, pushing it back toward the late-March peak, as traders piled into bets that the Federal Reserve will start raising interest rates as soon as late next month.",
+      "raw_summary": "The dollar staged its biggest two-day rally in three months, driving it back toward a late-March peak, as traders piled into bets that the Federal Reserve will start raising interest rates as soon as late next month.",
       "source": "Bloomberg Markets",
       "published": "Thu, 18 Jun 2026 13:55:55 GMT",
-      "summary": "Dollar Rally Builds as Hawkish Fed Meeting Stokes Rate-Hike Bets\nThe dollar extended its rally for a second day, pushing it back toward the late-March peak, as traders piled into bets that the Federal Reserve will start raising interest rates as soon as late next month."
+      "summary": "Dollar Sees ‘Bullish Break’ as Fed Rate-Hike Bets Fuel Rally\nThe dollar staged its biggest two-day rally in three months, driving it back toward a late-March peak, as traders piled into bets that the Federal Reserve will start raising interest rates as soon as late next month."
+    },
+    {
+      "title": "Stocks Climb as US-Iran Deal Eases Inflation Angst: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-17/asian-stocks-bonds-to-fall-on-hawkish-fed-signals-markets-wrap",
+      "raw_summary": "Wall Street staged a comeback that saw stocks joining bonds higher after a peace deal between the US and Iran spurred optimism that a revival of the Strait of Hormuz will ease inflation risks.",
+      "source": "Bloomberg Markets",
+      "published": "Wed, 17 Jun 2026 22:11:45 GMT",
+      "summary": "Stocks Climb as US-Iran Deal Eases Inflation Angst: Markets Wrap\nWall Street staged a comeback that saw stocks joining bonds higher after a peace deal between the US and Iran spurred optimism that a revival of the Strait of Hormuz will ease inflation risks."
+    },
+    {
+      "title": "Gold Declines as Hawkish Fed Outweighs Relief from US-Iran Deal",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-17/gold-holds-decline-after-bets-increase-on-fed-hike-this-year",
+      "raw_summary": "Gold slipped as the Federal Reserve’s hawkish stance outweighed an interim peace deal between the US and Iran that eased inflation risks.",
+      "source": "Bloomberg Markets",
+      "published": "Wed, 17 Jun 2026 22:57:44 GMT",
+      "summary": "Gold Declines as Hawkish Fed Outweighs Relief from US-Iran Deal\nGold slipped as the Federal Reserve’s hawkish stance outweighed an interim peace deal between the US and Iran that eased inflation risks."
+    },
+    {
+      "title": "Deep Fission Opens At $16 a Share As The US Turns To Nuclear Energy",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-18/us-looks-to-expand-nuclear-as-ai-drives-up-energy-demand-video",
+      "raw_summary": "Liz Muller, Co-Founder and CEO of Deep Fission AND Will Wade, Bloomberg News Energy Reporter join Bloomberg Businessweek Daily to discuss Deep Fission's Nasdaq trading debut and the states of the nuclear industry in the US. Nuclear has regained public support in the AI era. The fuel source is capable of delivering 24/7 power on its own, unlike wind and solar. But while small modular reactors have tantalized hyperscalers and governments hoping to win the AI race, the technology has yet to break through on electric grids. (Source: Bloomberg)",
+      "source": "Bloomberg Markets",
+      "published": "Thu, 18 Jun 2026 19:52:20 GMT",
+      "summary": "Deep Fission Opens At $16 a Share As The US Turns To Nuclear Energy\nLiz Muller, Co-Founder and CEO of Deep Fission AND Will Wade, Bloomberg News Energy Reporter join Bloomberg Businessweek Daily to discuss Deep Fission's Nasdaq trading debut and the states of the nuclear industry in the US. Nuclear "
+    },
+    {
+      "title": "US Running Above Breakeven Employment: BofA's Caban",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-18/us-running-above-breakeven-employment-bofa-s-caban",
+      "raw_summary": "Mark Cabana, co-head of global rates research at BofA Securities, and Jamie Patton, co-head of global rates at TCW, join Scarlet Fu on \"Real Yield.\" They discuss the Fed and  Citigroup's Fed policy forecast of interest-rate cuts beginning in October, a month later than previously, based on the central bank’s revised forecasts released Wednesday in conjunction with the decision to leave rates unchanged. (Source: Bloomberg)",
+      "source": "Bloomberg Markets",
+      "published": "Thu, 18 Jun 2026 20:02:36 GMT",
+      "summary": "US Running Above Breakeven Employment: BofA's Caban\nMark Cabana, co-head of global rates research at BofA Securities, and Jamie Patton, co-head of global rates at TCW, join Scarlet Fu on \"Real Yield.\" They discuss the Fed and  Citigroup's Fed policy forecast of interest-rate cuts beginning in Octobe"
+    },
+    {
+      "title": "Ex-Celsius CEO Mashinsky gets U.S. CFTC ban in final resolution with regulator",
+      "link": "https://www.coindesk.com/policy/2026/06/18/ex-celsius-ceo-mashinsky-gets-u-s-cftc-ban-in-final-resolution-with-regulator",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Thu, 18 Jun 2026 19:26:55 +0000",
+      "summary": "Ex-Celsius CEO Mashinsky gets U.S. CFTC ban in final resolution with regulator\n"
+    },
+    {
+      "title": "U.S. agencies seek stablecoin customer-ID rules akin to banks in new GENIUS Act pitch",
+      "link": "https://www.coindesk.com/policy/2026/06/18/u-s-agencies-seek-stablecoin-customer-id-rules-akin-to-banks-in-new-genius-act-rule",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Thu, 18 Jun 2026 17:17:22 +0000",
+      "summary": "U.S. agencies seek stablecoin customer-ID rules akin to banks in new GENIUS Act pitch\n"
+    },
+    {
+      "title": "Ethereum Foundation loses another key leader as co-executive director Hsiao-Wei Wang resigns",
+      "link": "https://www.coindesk.com/tech/2026/06/18/ethereum-foundation-loses-another-key-leader-as-co-executive-director-hsiao-wei-wang-resigns",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Thu, 18 Jun 2026 15:41:17 +0000",
+      "summary": "Ethereum Foundation loses another key leader as co-executive director Hsiao-Wei Wang resigns\n"
+    },
+    {
+      "title": "Crypto for Advisors: Trading the bitcoin cycle",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/06/17/crypto-for-advisors-trading-the-bitcoin-cycle",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Thu, 18 Jun 2026 15:00:00 +0000",
+      "summary": "Crypto for Advisors: Trading the bitcoin cycle\n"
     },
     {
       "title": "Algorand unveils roadmap to achieve quantum resistance by 2028",
@@ -289,38 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Thu, 18 Jun 2026 14:00:00 +0000",
       "summary": "Algorand unveils roadmap to achieve quantum resistance by 2028\n"
-    },
-    {
-      "title": "CoinDesk 20 performance update: Stellar (XLM) jumps 10% while index declines",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/06/18/coindesk-20-performance-update-stellar-xlm-jumps-10-while-index-declines",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 18 Jun 2026 13:13:44 +0000",
-      "summary": "CoinDesk 20 performance update: Stellar (XLM) jumps 10% while index declines\n"
-    },
-    {
-      "title": "Alchemy's AI-driven identity and payment service gains access to Visa network",
-      "link": "https://www.coindesk.com/business/2026/06/18/alchemy-s-ai-driven-identity-and-payment-service-gains-access-to-visa-network",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 18 Jun 2026 13:00:00 +0000",
-      "summary": "Alchemy's AI-driven identity and payment service gains access to Visa network\n"
-    },
-    {
-      "title": "Hive shares jumps 10% on $220m Canada sovereign AI infrastructure deal",
-      "link": "https://www.coindesk.com/markets/2026/06/18/hive-shares-jumps-10-on-usd220m-canada-sovereign-ai-infrastructure-deal",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 18 Jun 2026 11:49:41 +0000",
-      "summary": "Hive shares jumps 10% on $220m Canada sovereign AI infrastructure deal\n"
-    },
-    {
-      "title": "The great rotation: Investors desert the Magnificent 7, crypto for AI bottlenecks",
-      "link": "https://www.coindesk.com/markets/2026/06/18/the-great-rotation-investors-desert-the-magnificent-7-crypto-for-ai-bottlenecks",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 18 Jun 2026 11:37:32 +0000",
-      "summary": "The great rotation: Investors desert the Magnificent 7, crypto for AI bottlenecks\n"
     }
   ]
 }
