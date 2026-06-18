@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T10:09:15.846367+00:00",
+  "generated_at": "2026-06-18T14:50:55.837994+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak\nLawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity &#038; Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys an"
     },
     {
+      "title": "DragonForce Hackers Abuse Microsoft Teams Relays to Hide Backdoor.Turn C2 Traffic",
+      "link": "https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html",
+      "raw_summary": "Threat actors associated with the DragonForce ransomware have been observed using a custom Go-based remote access trojan (RAT) called Backdoor.Turn to conceal command-and-control (C2) traffic inside Microsoft Teams relay infrastructure.\n\nAccording to findings from Broadcom-owned Symantec and Carbon Black, the backdoor was deployed against a major U.S. services firm. The name of the company was",
+      "source": "The Hacker News",
+      "published": "Thu, 18 Jun 2026 19:00:07 +0530",
+      "summary": "DragonForce Hackers Abuse Microsoft Teams Relays to Hide Backdoor.Turn C2 Traffic\nThreat actors associated with the DragonForce ransomware have been observed using a custom Go-based remote access trojan (RAT) called Backdoor.Turn to conceal command-and-control (C2) traffic inside Microsoft Teams rel"
+    },
+    {
+      "title": "Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network",
+      "link": "https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html",
+      "raw_summary": "If an autonomous AI agent interacts with your company's core intellectual property today, can your security team instantly name the person who authorized it?\n\nFor most enterprises, the answer is a simple no.\n\nThe rush to adopt internal AI tools has left a massive trail of administrative debt: orphaned agents (AI tools left running after their creator leaves the company) and standing privileges (",
+      "source": "The Hacker News",
+      "published": "Thu, 18 Jun 2026 17:28:00 +0530",
+      "summary": "Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network\nIf an autonomous AI agent interacts with your company's core intellectual property today, can your security team instantly name the person who authorized it?\n\nFor most enterprises, the answer is a simple no.\n\nThe rush to adopt i"
+    },
+    {
+      "title": "The Scripts on Your Checkout Page Are Now a PCI DSS Problem",
+      "link": "https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html",
+      "raw_summary": "An independent PCI assessor tested Reflectiz against the new PCI DSS rules. Here is the verdict: See the full QSA assessment here →\n\nWhen a customer types their card number into your checkout, their browser is running far more than your code. Analytics tags, a tag manager, a support widget, a payment iframe: a modern checkout loads dozens of third-party scripts, and any one of them can be turned",
+      "source": "The Hacker News",
+      "published": "Thu, 18 Jun 2026 16:30:00 +0530",
+      "summary": "The Scripts on Your Checkout Page Are Now a PCI DSS Problem\nAn independent PCI assessor tested Reflectiz against the new PCI DSS rules. Here is the verdict: See the full QSA assessment here →\n\nWhen a customer types their card number into your checkout, their browser is running far more than your cod"
+    },
+    {
       "title": "Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments",
       "link": "https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html",
       "raw_summary": "An unknown threat actor has been observed leveraging paid or promoted posts on legitimate news websites to drum up buzz for their warez, according to new findings from Check Point Research.\n\nThe threat actor also has at their disposal a dedicated WordPress phishing page that acts as the central hub, alongside GitHub and SourceForge projects promoted by fake accounts, a YouTube channel, and a",
@@ -59,68 +83,76 @@
       "summary": "Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development\nMicrosoft has formally disclosed that it's working to release a patch to address a Defender zero-day codenamed RoguePlanet.\n\nThe vulnerability has now been assigned the CVE identifier CVE-2026-50656 (CVSS score: 7.8), wit"
     },
     {
-      "title": "Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline",
-      "link": "https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html",
-      "raw_summary": "A French-speaking attacker broke into a small French automotive business, planted a keylogger, and stole banking and email credentials.\n\nOrdinary stuff, until one move near the end.\n\nBefore his command-and-control server went dark, he installed OpenSSH and Tailscale on a victim's machine, building a way back in that did not run through the C2 at all. When the Havoc server went offline the next",
-      "source": "The Hacker News",
-      "published": "Wed, 17 Jun 2026 21:30:56 +0530",
-      "summary": "Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline\nA French-speaking attacker broke into a small French automotive business, planted a keylogger, and stole banking and email credentials.\n\nOrdinary stuff, until one move near the end.\n\nBefore his command-and-control serv"
-    },
-    {
-      "title": "Adversarial Exposure Validation Turns Security Visibility into Confident Prioritization",
-      "link": "https://thehackernews.com/2026/06/adversarial-exposure-validation-turns.html",
-      "raw_summary": "For security teams, the findings never stop, but confidence in knowing which ones matter is becoming harder to maintain.\n\nThe problem is no longer visibility. It's validation. Security teams must decide which findings warrant action while operating under constant pressure and incomplete information. Increasingly, the challenge is not discovering potential risks. It is determining which risks",
-      "source": "The Hacker News",
-      "published": "Wed, 17 Jun 2026 20:28:00 +0530",
-      "summary": "Adversarial Exposure Validation Turns Security Visibility into Confident Prioritization\nFor security teams, the findings never stop, but confidence in knowing which ones matter is becoming harder to maintain.\n\nThe problem is no longer visibility. It's validation. Security teams must decide which fin"
-    },
-    {
-      "title": "Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats",
-      "link": "https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html",
-      "raw_summary": "Cybersecurity researchers have flagged a \"coordinated malware campaign\" on the JetBrains Marketplace that has published no less than 15 malicious plugins capable of exfiltrating artificial intelligence (AI) provider keys.\n\n\"Every plugin poses as an AI coding assistant built on DeepSeek and other large language models, offering chat, commit messages, code review, bug finding, and unit tests,\"",
-      "source": "The Hacker News",
-      "published": "Wed, 17 Jun 2026 19:21:58 +0530",
-      "summary": "Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats\nCybersecurity researchers have flagged a \"coordinated malware campaign\" on the JetBrains Marketplace that has published no less than 15 malicious plugins capable of exfiltrating artificial intelligence (AI) prov"
-    },
-    {
-      "title": "I need your clothes, your boots, and your motorcycle",
-      "link": "https://rbelmont.mameworld.info/?p=1725",
-      "raw_summary": "<p>Article URL: <a href=\"https://rbelmont.mameworld.info/?p=1725\">https://rbelmont.mameworld.info/?p=1725</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48582464\">https://news.ycombinator.com/item?id=48582464</a></p>\n<p>Points: 18</p>\n<p># Comments: 2</p>",
+      "title": "Migrate from OpenClaw",
+      "link": "https://hermes-agent.nousresearch.com/docs/guides/migrate-from-openclaw",
+      "raw_summary": "<p>Article URL: <a href=\"https://hermes-agent.nousresearch.com/docs/guides/migrate-from-openclaw\">https://hermes-agent.nousresearch.com/docs/guides/migrate-from-openclaw</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48586005\">https://news.ycombinator.com/item?id=48586005</a></p>\n<p>Points: 7</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 18 Jun 2026 08:28:04 +0000",
-      "summary": "I need your clothes, your boots, and your motorcycle\n<p>Article URL: <a href=\"https://rbelmont.mameworld.info/?p=1725\">https://rbelmont.mameworld.info/?p=1725</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48582464\">https://news.ycombinator.com/item?id=48582464</a></p>\n<p>Poi"
+      "published": "Thu, 18 Jun 2026 14:32:13 +0000",
+      "summary": "Migrate from OpenClaw\n<p>Article URL: <a href=\"https://hermes-agent.nousresearch.com/docs/guides/migrate-from-openclaw\">https://hermes-agent.nousresearch.com/docs/guides/migrate-from-openclaw</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48586005\">https://news.ycombinator.co"
     },
     {
-      "title": "AMD silently removes memory encryption from consumer Ryzen CPUs",
-      "link": "https://www.tomshardware.com/pc-components/cpus/amd-silently-removes-memory-encryption-from-consumer-ryzen-cpus-leaving-users-unaware-that-they-may-be-vulnerable-security-feature-vanishes-after-newer-agesa-firmware-amd-engineers-go-radio-silent-when-pressed-about-the-change",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.tomshardware.com/pc-components/cpus/amd-silently-removes-memory-encryption-from-consumer-ryzen-cpus-leaving-users-unaware-that-they-may-be-vulnerable-security-feature-vanishes-after-newer-agesa-firmware-amd-engineers-go-radio-silent-when-pressed-about-the-change\">https://www.tomshardware.com/pc-components/cpus/amd-silently-removes-memory-encryption-from-consumer-ryzen-cpus-leaving-users-unaware-that-they-may-be-vulnerable-security-feature-vanishes-after-newer-agesa-firmware-amd-engineers-go-radio-silent-when-pressed-about-the-change</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48582320\">https://news.ycombinator.com/item?id=48582320</a></p>\n<p>Points: 88</p>\n<p># Comments: 27</p>",
+      "title": "Drowning Doesn't Look Like Drowning (2021)",
+      "link": "https://gcaptain.com/drowning/",
+      "raw_summary": "<p>Article URL: <a href=\"https://gcaptain.com/drowning/\">https://gcaptain.com/drowning/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48584915\">https://news.ycombinator.com/item?id=48584915</a></p>\n<p>Points: 13</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 18 Jun 2026 08:08:00 +0000",
-      "summary": "AMD silently removes memory encryption from consumer Ryzen CPUs\n<p>Article URL: <a href=\"https://www.tomshardware.com/pc-components/cpus/amd-silently-removes-memory-encryption-from-consumer-ryzen-cpus-leaving-users-unaware-that-they-may-be-vulnerable-security-feature-vanishes-after-newer-agesa-firmw"
+      "published": "Thu, 18 Jun 2026 13:24:27 +0000",
+      "summary": "Drowning Doesn't Look Like Drowning (2021)\n<p>Article URL: <a href=\"https://gcaptain.com/drowning/\">https://gcaptain.com/drowning/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48584915\">https://news.ycombinator.com/item?id=48584915</a></p>\n<p>Points: 13</p>\n<p># Comments: 0"
     },
     {
-      "title": "The Forge We Deserve",
-      "link": "https://btao.org/posts/2026-05-09-the-forge-we-deserve/",
-      "raw_summary": "<p>Article URL: <a href=\"https://btao.org/posts/2026-05-09-the-forge-we-deserve/\">https://btao.org/posts/2026-05-09-the-forge-we-deserve/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48582147\">https://news.ycombinator.com/item?id=48582147</a></p>\n<p>Points: 17</p>\n<p># Comments: 17</p>",
+      "title": "Git platform built for agentic era",
+      "link": "https://gitlawb.com/node",
+      "raw_summary": "<p>Article URL: <a href=\"https://gitlawb.com/node\">https://gitlawb.com/node</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48584873\">https://news.ycombinator.com/item?id=48584873</a></p>\n<p>Points: 6</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 18 Jun 2026 07:46:55 +0000",
-      "summary": "The Forge We Deserve\n<p>Article URL: <a href=\"https://btao.org/posts/2026-05-09-the-forge-we-deserve/\">https://btao.org/posts/2026-05-09-the-forge-we-deserve/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48582147\">https://news.ycombinator.com/item?id=48582147</a></p>\n<p>Poi"
+      "published": "Thu, 18 Jun 2026 13:19:57 +0000",
+      "summary": "Git platform built for agentic era\n<p>Article URL: <a href=\"https://gitlawb.com/node\">https://gitlawb.com/node</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48584873\">https://news.ycombinator.com/item?id=48584873</a></p>\n<p>Points: 6</p>\n<p># Comments: 4</p>"
     },
     {
-      "title": "The Australian Government to Require SMS/MMS Sender ID Registraion",
-      "link": "https://www.acma.gov.au/sms-sender-id-register",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.acma.gov.au/sms-sender-id-register\">https://www.acma.gov.au/sms-sender-id-register</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48581489\">https://news.ycombinator.com/item?id=48581489</a></p>\n<p>Points: 96</p>\n<p># Comments: 55</p>",
+      "title": "How Alberta Eradicated Rats",
+      "link": "https://worksinprogress.co/issue/albertas-war-on-rats/",
+      "raw_summary": "<p>Article URL: <a href=\"https://worksinprogress.co/issue/albertas-war-on-rats/\">https://worksinprogress.co/issue/albertas-war-on-rats/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48584709\">https://news.ycombinator.com/item?id=48584709</a></p>\n<p>Points: 13</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 18 Jun 2026 06:23:24 +0000",
-      "summary": "The Australian Government to Require SMS/MMS Sender ID Registraion\n<p>Article URL: <a href=\"https://www.acma.gov.au/sms-sender-id-register\">https://www.acma.gov.au/sms-sender-id-register</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48581489\">https://news.ycombinator.com/ite"
+      "published": "Thu, 18 Jun 2026 13:05:58 +0000",
+      "summary": "How Alberta Eradicated Rats\n<p>Article URL: <a href=\"https://worksinprogress.co/issue/albertas-war-on-rats/\">https://worksinprogress.co/issue/albertas-war-on-rats/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48584709\">https://news.ycombinator.com/item?id=48584709</a></p>\n<"
     },
     {
-      "title": "DeepSeek Introduces Vision",
-      "link": "https://chat.deepseek.com/",
-      "raw_summary": "<p>Article URL: <a href=\"https://chat.deepseek.com/\">https://chat.deepseek.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48581458\">https://news.ycombinator.com/item?id=48581458</a></p>\n<p>Points: 141</p>\n<p># Comments: 64</p>",
+      "title": "Has W Social switched to closed source?",
+      "link": "https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/\">https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48584497\">https://news.ycombinator.com/item?id=48584497</a></p>\n<p>Points: 87</p>\n<p># Comments: 43</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 18 Jun 2026 06:17:40 +0000",
-      "summary": "DeepSeek Introduces Vision\n<p>Article URL: <a href=\"https://chat.deepseek.com/\">https://chat.deepseek.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48581458\">https://news.ycombinator.com/item?id=48581458</a></p>\n<p>Points: 141</p>\n<p># Comments: 64</p>"
+      "published": "Thu, 18 Jun 2026 12:46:04 +0000",
+      "summary": "Has W Social switched to closed source?\n<p>Article URL: <a href=\"https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/\">https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/</a></p>\n<p>Comment"
+    },
+    {
+      "title": "Spotify’s reserved ticket sales to music superfans are now going live",
+      "link": "https://techcrunch.com/2026/06/18/spotifys-reserved-ticket-sales-to-musics-superfans-are-now-going-live/",
+      "raw_summary": "Spotify is launching \"Reserved,\" a new system that will hold two concert tickets for an artist's superfans before they're on sale to the public.",
+      "source": "TechCrunch",
+      "published": "Thu, 18 Jun 2026 14:00:00 +0000",
+      "summary": "Spotify’s reserved ticket sales to music superfans are now going live\nSpotify is launching \"Reserved,\" a new system that will hold two concert tickets for an artist's superfans before they're on sale to the public."
+    },
+    {
+      "title": "Adobe adds its AI assistant to Premiere, Illustrator and InDesign",
+      "link": "https://techcrunch.com/2026/06/18/adobe-adds-its-ai-assistant-to-premiere-illustrator-and-indesign/",
+      "raw_summary": "Adobe is updating its Firefly AI assistant with new chops, and adding it to Premiere, Illustrator, InDesign and Frame.io.",
+      "source": "TechCrunch",
+      "published": "Thu, 18 Jun 2026 13:00:00 +0000",
+      "summary": "Adobe adds its AI assistant to Premiere, Illustrator and InDesign\nAdobe is updating its Firefly AI assistant with new chops, and adding it to Premiere, Illustrator, InDesign and Frame.io."
+    },
+    {
+      "title": "Pixi’s new iOS app turns text messages into interactive AR experiences",
+      "link": "https://techcrunch.com/2026/06/18/pixis-new-ios-app-turns-text-messages-into-interactive-ar-experiences/",
+      "raw_summary": "Forget stickers, GIFs, and emoji reactions. Pixi is betting that the next evolution of messaging is interactive augmented reality (AR).",
+      "source": "TechCrunch",
+      "published": "Thu, 18 Jun 2026 12:00:00 +0000",
+      "summary": "Pixi’s new iOS app turns text messages into interactive AR experiences\nForget stickers, GIFs, and emoji reactions. Pixi is betting that the next evolution of messaging is interactive augmented reality (AR)."
+    },
+    {
+      "title": "Waymo recalls nearly 4,000 robotaxis to stop them driving into highway construction zones",
+      "link": "https://techcrunch.com/2026/06/18/waymo-recalls-nearly-4000-robotaxis-to-stop-them-driving-into-highway-construction-zones/",
+      "raw_summary": "The company has identified at least 13 instances where its robotaxis drove into highway sections closed for construction.",
+      "source": "TechCrunch",
+      "published": "Thu, 18 Jun 2026 11:59:11 +0000",
+      "summary": "Waymo recalls nearly 4,000 robotaxis to stop them driving into highway construction zones\nThe company has identified at least 13 instances where its robotaxis drove into highway sections closed for construction."
     },
     {
       "title": "NASA picks Eric Schmidt’s rocket company for Mars mission, setting up a race with SpaceX",
@@ -131,36 +163,12 @@
       "summary": "NASA picks Eric Schmidt’s rocket company for Mars mission, setting up a race with SpaceX\nRelativity Space—a rocket maker acquired by former Google executive chair Eric Schmidt last year after stumbling on the path to orbit—might just beat SpaceX to Mars."
     },
     {
-      "title": "How to turn off AI in your Google Docs",
-      "link": "https://techcrunch.com/2026/06/17/how-to-turn-off-ai-in-your-google-docs/",
-      "raw_summary": "Here's what you need to do to get those pesky \"write with Gemini\" pop-ups to go away.",
-      "source": "TechCrunch",
-      "published": "Thu, 18 Jun 2026 01:23:51 +0000",
-      "summary": "How to turn off AI in your Google Docs\nHere's what you need to do to get those pesky \"write with Gemini\" pop-ups to go away."
-    },
-    {
-      "title": "AI is hurting Apple in more ways than one: it may force iPhone price increases",
-      "link": "https://techcrunch.com/2026/06/17/ai-is-hurting-apple-in-more-ways-than-one-it-may-force-iphone-price-increases/",
-      "raw_summary": "CEO Tim Cook said in a recent interview that the situation is \"unsustainable.\"",
-      "source": "TechCrunch",
-      "published": "Wed, 17 Jun 2026 23:28:21 +0000",
-      "summary": "AI is hurting Apple in more ways than one: it may force iPhone price increases\nCEO Tim Cook said in a recent interview that the situation is \"unsustainable.\""
-    },
-    {
-      "title": "Chi-Hua Chien saw Facebook coming — now he says the real AI winners won’t be selling AI",
-      "link": "https://techcrunch.com/2026/06/17/chi-hua-chien-saw-facebook-coming-now-he-says-the-real-ai-winners-wont-be-selling-ai/",
-      "raw_summary": "Chi-Hua Chien has spent more than two decades as a venture capitalist, but he thinks like a cultural anthropologist.",
-      "source": "TechCrunch",
-      "published": "Wed, 17 Jun 2026 21:30:50 +0000",
-      "summary": "Chi-Hua Chien saw Facebook coming — now he says the real AI winners won’t be selling AI\nChi-Hua Chien has spent more than two decades as a venture capitalist, but he thinks like a cultural anthropologist."
-    },
-    {
-      "title": "Roelof Botha joins SpaceX’s board of directors",
-      "link": "https://techcrunch.com/2026/06/17/roelof-botha-joins-spacexs-board-of-directors/",
-      "raw_summary": "The former Sequoia Capital leader is filling an \"existing vacancy\" on SpaceX's board, days after the company went public in the largest IPO ever.",
-      "source": "TechCrunch",
-      "published": "Wed, 17 Jun 2026 20:32:52 +0000",
-      "summary": "Roelof Botha joins SpaceX’s board of directors\nThe former Sequoia Capital leader is filling an \"existing vacancy\" on SpaceX's board, days after the company went public in the largest IPO ever."
+      "title": "Cosmonaut Aleksandr Samokutyaev, 56, is first former ISS crew member to die",
+      "link": "https://arstechnica.com/space/2026/06/cosmonaut-aleksandr-samokutyaev-56-is-first-former-iss-crew-member-to-die/",
+      "raw_summary": "Two expeditions, two spacewalks, 322 days in space.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 18 Jun 2026 14:34:36 +0000",
+      "summary": "Cosmonaut Aleksandr Samokutyaev, 56, is first former ISS crew member to die\nTwo expeditions, two spacewalks, 322 days in space."
     },
     {
       "title": "Hulk, Punisher join Peter Parker in Spider-Man: Brand New Day trailer",
@@ -195,132 +203,124 @@
       "summary": "California says AT&T lied to FCC in attempt to shut off old phone network\nFCC considers AT&#038;T petitions to preempt state rules and discontinue phone service."
     },
     {
-      "title": "Massive breach spills credentials for thousands of sensitive networks",
-      "link": "https://arstechnica.com/security/2026/06/massive-breach-spills-credentials-for-thousands-of-sensitive-networks/",
-      "raw_summary": "The affected include Oracle, Lenovo, FedEx, a NATO contractor, and Fortinet.",
-      "source": "Ars Technica - All content",
-      "published": "Wed, 17 Jun 2026 19:54:31 +0000",
-      "summary": "Massive breach spills credentials for thousands of sensitive networks\nThe affected include Oracle, Lenovo, FedEx, a NATO contractor, and Fortinet."
-    },
-    {
-      "title": "Octopus founder says climate policies must address energy costs",
-      "link": "https://www.ft.com/content/f2415750-c42f-490b-83e1-41172f00e70a",
-      "raw_summary": "Remarks come ahead of pivotal English by-election",
+      "title": "US and Iran sign deal as Trump vows to release frozen funds and ease sanctions",
+      "link": "https://www.ft.com/content/d4f89b6b-c213-4550-924b-a9ae45e24c37",
+      "raw_summary": "President says Iranians will receive incentives when they ‘behave’ and acknowledges Tehran will keep ballistic missiles",
       "source": "World",
-      "published": "Thu, 18 Jun 2026 10:06:28 GMT",
-      "summary": "Octopus founder says climate policies must address energy costs\nRemarks come ahead of pivotal English by-election"
+      "published": "Thu, 18 Jun 2026 13:32:59 GMT",
+      "summary": "US and Iran sign deal as Trump vows to release frozen funds and ease sanctions\nPresident says Iranians will receive incentives when they ‘behave’ and acknowledges Tehran will keep ballistic missiles"
     },
     {
-      "title": "Meet the keepers of the UK’s locks",
-      "link": "https://www.ft.com/content/1b09ec7c-5e5a-4bb9-9977-b99f1d90d0bc",
-      "raw_summary": "The Canal & River Trust stretches 4,700 miles – 8,000 volunteers have got it covered",
+      "title": "Is the world becoming more predictable?",
+      "link": "https://www.ft.com/content/b1f417eb-f120-4e3f-8c85-6db3013c33ee",
+      "raw_summary": "Bigger and better data sets and powerful AI models are allowing us to spot previously undetectable patterns",
       "source": "World",
-      "published": "Thu, 18 Jun 2026 10:00:04 GMT",
-      "summary": "Meet the keepers of the UK’s locks\nThe Canal & River Trust stretches 4,700 miles – 8,000 volunteers have got it covered"
+      "published": "Thu, 18 Jun 2026 13:00:03 GMT",
+      "summary": "Is the world becoming more predictable?\nBigger and better data sets and powerful AI models are allowing us to spot previously undetectable patterns"
     },
     {
-      "title": "Aldi is making a $9bn bet that it can finally crack America",
-      "link": "https://www.ft.com/content/aac77a7f-2fe4-4611-8989-85a9b702ef8a",
-      "raw_summary": "After 50 years of slow US expansion the German discount grocer is upping the pace. Can it win over hard-pressed consumers?",
+      "title": "Inside Washington’s interim deal to reopen the Strait of Hormuz",
+      "link": "https://www.ft.com/content/40c13aa0-4228-4068-8659-408f96e36172",
+      "raw_summary": "Also in today’s newsletter, interest rates held at Kevin Warsh’s first meeting as Fed chair",
       "source": "World",
-      "published": "Thu, 18 Jun 2026 10:00:04 GMT",
-      "summary": "Aldi is making a $9bn bet that it can finally crack America\nAfter 50 years of slow US expansion the German discount grocer is upping the pace. Can it win over hard-pressed consumers?"
+      "published": "Thu, 18 Jun 2026 13:00:03 GMT",
+      "summary": "Inside Washington’s interim deal to reopen the Strait of Hormuz\nAlso in today’s newsletter, interest rates held at Kevin Warsh’s first meeting as Fed chair"
     },
     {
-      "title": "Europe lacks a geopolitical strategy for digital money",
-      "link": "https://www.ft.com/content/3997ad7b-94e6-436f-9ac6-74bfe6100ea3",
-      "raw_summary": "It’s a poor goal to make a world of fast technological change safe and cuddly for banks",
+      "title": "Saudi wealth fund warns European regulations ‘hurting’ foreign investors",
+      "link": "https://www.ft.com/content/35e079fa-04d7-44ae-9567-a595353f05aa",
+      "raw_summary": "Comments from Public Investment Fund governor come amid concerns about EU’s foreign subsidies regulation",
       "source": "World",
-      "published": "Thu, 18 Jun 2026 10:00:04 GMT",
-      "summary": "Europe lacks a geopolitical strategy for digital money\nIt’s a poor goal to make a world of fast technological change safe and cuddly for banks"
+      "published": "Thu, 18 Jun 2026 11:51:44 GMT",
+      "summary": "Saudi wealth fund warns European regulations ‘hurting’ foreign investors\nComments from Public Investment Fund governor come amid concerns about EU’s foreign subsidies regulation"
     },
     {
-      "title": "China’s tribute system and the new world order",
-      "link": "https://www.ft.com/content/6afcd72b-7a70-44cb-971b-3ea1551bc400",
-      "raw_summary": "Exercising power without resorting to war could be Beijing’s ultimate show of strength",
+      "title": "Bank of England holds rates steady and waits for more information",
+      "link": "https://www.ft.com/content/2d462fcf-4ddf-483d-842f-4aa40426d641",
+      "raw_summary": "A majority of the committee is satisfied with waiting and watching before considering a rate rise",
       "source": "World",
-      "published": "Thu, 18 Jun 2026 10:00:04 GMT",
-      "summary": "China’s tribute system and the new world order\nExercising power without resorting to war could be Beijing’s ultimate show of strength"
+      "published": "Thu, 18 Jun 2026 11:36:25 GMT",
+      "summary": "Bank of England holds rates steady and waits for more information\nA majority of the committee is satisfied with waiting and watching before considering a rate rise"
     },
     {
-      "title": "Copper Falls After Fed Chairman Warsh Positions as Inflation Hawk",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-18/copper-falls-after-fed-chair-warsh-positions-as-inflation-hawk",
-      "raw_summary": "Copper fell more than 1% to wipe out the gains of earlier this week after US Federal Reserve Chair Kevin Warsh sparked speculation about rate hikes.",
+      "title": "Supreme Court Says Some Drug Users Can Possess Guns",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-18/supreme-court-says-some-drug-users-can-possess-guns-video",
+      "raw_summary": "The US Supreme Court ruled that the government can’t categorically bar marijuana users from possessing firearms in a decision that expands the Constitution’s Second Amendment. Mike McKee reports on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Thu, 18 Jun 2026 04:14:08 GMT",
-      "summary": "Copper Falls After Fed Chairman Warsh Positions as Inflation Hawk\nCopper fell more than 1% to wipe out the gains of earlier this week after US Federal Reserve Chair Kevin Warsh sparked speculation about rate hikes."
+      "published": "Thu, 18 Jun 2026 14:42:45 GMT",
+      "summary": "Supreme Court Says Some Drug Users Can Possess Guns\nThe US Supreme Court ruled that the government can’t categorically bar marijuana users from possessing firearms in a decision that expands the Constitution’s Second Amendment. Mike McKee reports on \"Bloomberg Open Interest.\" (Source: Bloomberg)"
     },
     {
-      "title": "Oil Falls as Iran Peace Deal Gets Tankers Moving Through Hormuz",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-17/latest-oil-market-news-and-analysis-for-june-18",
-      "raw_summary": "Oil fell and gasoline sank after the US and Iran agreed to settle a months-long conflict that triggered the biggest supply disruption in history, and some vessels were seen making their first crossings of the Strait of Hormuz since the war began.",
+      "title": "Second Iran-Bound Corn Ship Crossed Hormuz Before Peace Deal",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-17/corn-ships-cross-hormuz-toward-iran-uae-ahead-of-trump-deal",
+      "raw_summary": "A second ship laden with corn bound for Iran transited the Strait of Hormuz just hours before the US-Iran interim deal to end the war and reopen the waterway was announced.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 17 Jun 2026 22:03:01 GMT",
-      "summary": "Oil Falls as Iran Peace Deal Gets Tankers Moving Through Hormuz\nOil fell and gasoline sank after the US and Iran agreed to settle a months-long conflict that triggered the biggest supply disruption in history, and some vessels were seen making their first crossings of the Strait of Hormuz since the "
+      "published": "Wed, 17 Jun 2026 16:35:14 GMT",
+      "summary": "Second Iran-Bound Corn Ship Crossed Hormuz Before Peace Deal\nA second ship laden with corn bound for Iran transited the Strait of Hormuz just hours before the US-Iran interim deal to end the war and reopen the waterway was announced."
     },
     {
-      "title": "East Asian Refiners Eye Fuel Sales Boost Before Hormuz Reopen",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-18/east-asian-refiners-eye-fuel-sales-boost-before-hormuz-reopen",
-      "raw_summary": "Refineries in East Asia are starting to ramp up fuel exports after months of holding back and prioritizing local sales, in what appears to be an attempt to front-run the market before the Strait of Hormuz reopens.",
+      "title": "Stranded Oil Is Streaming Out of Hormuz as Deal Takes Effect",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-18/two-saudi-oil-tankers-have-appeared-outside-strait-of-hormuz",
+      "raw_summary": "A growing stream of stranded oil is making its way out of the Strait of Hormuz and Kuwait said it will start ramping up production, as the US-Iran interim peace deal sparks a flurry of activity that is already pushing Middle East flows toward pre-war levels.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 18 Jun 2026 09:44:05 GMT",
-      "summary": "East Asian Refiners Eye Fuel Sales Boost Before Hormuz Reopen\nRefineries in East Asia are starting to ramp up fuel exports after months of holding back and prioritizing local sales, in what appears to be an attempt to front-run the market before the Strait of Hormuz reopens."
+      "published": "Thu, 18 Jun 2026 06:33:54 GMT",
+      "summary": "Stranded Oil Is Streaming Out of Hormuz as Deal Takes Effect\nA growing stream of stranded oil is making its way out of the Strait of Hormuz and Kuwait said it will start ramping up production, as the US-Iran interim peace deal sparks a flurry of activity that is already pushing Middle East flows tow"
     },
     {
-      "title": "US Stocks Bounce and Oil Slides on Iran Accord: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-17/asian-stocks-bonds-to-fall-on-hawkish-fed-signals-markets-wrap",
-      "raw_summary": "US stocks are staging a rebound after President Donald Trump signed a preliminary deal to end the war in the Middle East, sending Brent crude briefly to its lowest level since the conflict started.",
+      "title": "Big Tech’s AI Spending Spree Is Making Stock Buybacks Disappear",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-18/big-tech-s-ai-spending-spree-is-making-stock-buybacks-disappear",
+      "raw_summary": "The artificial-intelligence race is becoming so expensive that it’s snuffing out one of the key forces that has helped keep Big Tech stocks soaring for years: steady share buybacks.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 17 Jun 2026 22:11:45 GMT",
-      "summary": "US Stocks Bounce and Oil Slides on Iran Accord: Markets Wrap\nUS stocks are staging a rebound after President Donald Trump signed a preliminary deal to end the war in the Middle East, sending Brent crude briefly to its lowest level since the conflict started."
+      "published": "Thu, 18 Jun 2026 11:00:01 GMT",
+      "summary": "Big Tech’s AI Spending Spree Is Making Stock Buybacks Disappear\nThe artificial-intelligence race is becoming so expensive that it’s snuffing out one of the key forces that has helped keep Big Tech stocks soaring for years: steady share buybacks."
     },
     {
-      "title": "Latvian PM says EU Needs Ukraine Peace Talks Envoy",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-18/digi-full-intv-andris-kulbergs-latvian-prime-minister",
-      "raw_summary": "“Europe has to be at the table,” Kulbergs said in an interview with Bloomberg TV on Thursday in Brussels. “There should be one person if the peace talks are in place who has the political mandate to do that.” (Source: Bloomberg)",
+      "title": "Dollar Rally Builds as Hawkish Fed Meeting Stokes Rate-Hike Bets",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-18/dollar-rally-builds-as-hawkish-fed-meeting-stokes-rate-hike-bets",
+      "raw_summary": "The dollar extended its rally for a second day, pushing it back toward the late-March peak, as traders piled into bets that the Federal Reserve will start raising interest rates as soon as late next month.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 18 Jun 2026 09:41:26 GMT",
-      "summary": "Latvian PM says EU Needs Ukraine Peace Talks Envoy\n“Europe has to be at the table,” Kulbergs said in an interview with Bloomberg TV on Thursday in Brussels. “There should be one person if the peace talks are in place who has the political mandate to do that.” (Source: Bloomberg)"
+      "published": "Thu, 18 Jun 2026 13:55:55 GMT",
+      "summary": "Dollar Rally Builds as Hawkish Fed Meeting Stokes Rate-Hike Bets\nThe dollar extended its rally for a second day, pushing it back toward the late-March peak, as traders piled into bets that the Federal Reserve will start raising interest rates as soon as late next month."
     },
     {
-      "title": "The bond market is flashing a clear signal on interest rates. Bitcoin bulls should take note",
-      "link": "https://www.coindesk.com/markets/2026/06/18/the-bond-market-is-flashing-a-clear-signal-on-interest-rates-bitcoin-bulls-should-take-note",
+      "title": "Algorand unveils roadmap to achieve quantum resistance by 2028",
+      "link": "https://www.coindesk.com/tech/2026/06/18/algorand-unveils-post-quantum-roadmap-to-secure-blockchain-by-2027",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 18 Jun 2026 07:08:27 +0000",
-      "summary": "The bond market is flashing a clear signal on interest rates. Bitcoin bulls should take note\n"
+      "published": "Thu, 18 Jun 2026 14:00:00 +0000",
+      "summary": "Algorand unveils roadmap to achieve quantum resistance by 2028\n"
     },
     {
-      "title": "Live markets: Bitcoin, ether ETFs lose $111 million combined as rate-cut hopes die",
-      "link": "https://www.coindesk.com/tech/2026/06/18/live-markets-bitcoin-and-ether-etfs-lost-usd111-million-combined-as-rate-cut-hopes-died",
+      "title": "CoinDesk 20 performance update: Stellar (XLM) jumps 10% while index declines",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/06/18/coindesk-20-performance-update-stellar-xlm-jumps-10-while-index-declines",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 18 Jun 2026 06:02:19 +0000",
-      "summary": "Live markets: Bitcoin, ether ETFs lose $111 million combined as rate-cut hopes die\n"
+      "published": "Thu, 18 Jun 2026 13:13:44 +0000",
+      "summary": "CoinDesk 20 performance update: Stellar (XLM) jumps 10% while index declines\n"
     },
     {
-      "title": "Strategy's STRC preferred stock hits a record low below par",
-      "link": "https://www.coindesk.com/markets/2026/06/18/strategy-s-strc-preferred-stock-hits-a-record-low-below-par",
+      "title": "Alchemy's AI-driven identity and payment service gains access to Visa network",
+      "link": "https://www.coindesk.com/business/2026/06/18/alchemy-s-ai-driven-identity-and-payment-service-gains-access-to-visa-network",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 18 Jun 2026 05:49:21 +0000",
-      "summary": "Strategy's STRC preferred stock hits a record low below par\n"
+      "published": "Thu, 18 Jun 2026 13:00:00 +0000",
+      "summary": "Alchemy's AI-driven identity and payment service gains access to Visa network\n"
     },
     {
-      "title": "XRP slips 4% below $1.20 after breakout rally stalls near key resistance",
-      "link": "https://www.coindesk.com/markets/2026/06/18/xrp-slips-4-below-usd1-20-after-breakout-rally-stalls-near-key-resistance",
+      "title": "Hive shares jumps 10% on $220m Canada sovereign AI infrastructure deal",
+      "link": "https://www.coindesk.com/markets/2026/06/18/hive-shares-jumps-10-on-usd220m-canada-sovereign-ai-infrastructure-deal",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 18 Jun 2026 05:08:12 +0000",
-      "summary": "XRP slips 4% below $1.20 after breakout rally stalls near key resistance\n"
+      "published": "Thu, 18 Jun 2026 11:49:41 +0000",
+      "summary": "Hive shares jumps 10% on $220m Canada sovereign AI infrastructure deal\n"
     },
     {
-      "title": "Buying bitcoin below its 200-week average has historically delivered over 100% in median returns, Kraken says",
-      "link": "https://www.coindesk.com/markets/2026/06/18/buying-bitcoin-below-its-200-week-average-has-historically-delivered-over-100-in-median-returns-kraken-says",
+      "title": "The great rotation: Investors desert the Magnificent 7, crypto for AI bottlenecks",
+      "link": "https://www.coindesk.com/markets/2026/06/18/the-great-rotation-investors-desert-the-magnificent-7-crypto-for-ai-bottlenecks",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 18 Jun 2026 05:08:05 +0000",
-      "summary": "Buying bitcoin below its 200-week average has historically delivered over 100% in median returns, Kraken says\n"
+      "published": "Thu, 18 Jun 2026 11:37:32 +0000",
+      "summary": "The great rotation: Investors desert the Magnificent 7, crypto for AI bottlenecks\n"
     }
   ]
 }
