@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T19:47:41.808388+00:00",
+  "generated_at": "2026-06-26T02:37:38.004408+00:00",
   "count": 40,
   "articles": [
     {
@@ -83,204 +83,212 @@
       "summary": "New Mistic Backdoor Linked to KongTuke in ClickFix and ModeloRAT Campaigns\nA new, stealthy backdoor named Mistic has been deployed as part of suspected financially motivated attacks aimed at multiple organizations spanning insurance, education, IT, and professional services sectors since April 2026."
     },
     {
-      "title": "Besimple AI (YC P25) Is Hiring",
-      "link": "https://www.ycombinator.com/companies/besimple-ai/jobs/yWfhhOR-strategic-projects-lead-audio-data",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/besimple-ai/jobs/yWfhhOR-strategic-projects-lead-audio-data\">https://www.ycombinator.com/companies/besimple-ai/jobs/yWfhhOR-strategic-projects-lead-audio-data</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48676256\">https://news.ycombinator.com/item?id=48676256</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
+      "title": "A data race that doesn't compile",
+      "link": "https://corentin-core.github.io/posts/ruxe-type-level-disjointness/",
+      "raw_summary": "<p>Article URL: <a href=\"https://corentin-core.github.io/posts/ruxe-type-level-disjointness/\">https://corentin-core.github.io/posts/ruxe-type-level-disjointness/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48681361\">https://news.ycombinator.com/item?id=48681361</a></p>\n<p>Points: 13</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 25 Jun 2026 17:00:00 +0000",
-      "summary": "Besimple AI (YC P25) Is Hiring\n<p>Article URL: <a href=\"https://www.ycombinator.com/companies/besimple-ai/jobs/yWfhhOR-strategic-projects-lead-audio-data\">https://www.ycombinator.com/companies/besimple-ai/jobs/yWfhhOR-strategic-projects-lead-audio-data</a></p>\n<p>Comments URL: <a href=\"https://news."
+      "published": "Fri, 26 Jun 2026 01:33:15 +0000",
+      "summary": "A data race that doesn't compile\n<p>Article URL: <a href=\"https://corentin-core.github.io/posts/ruxe-type-level-disjointness/\">https://corentin-core.github.io/posts/ruxe-type-level-disjointness/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48681361\">https://news.ycombinator"
     },
     {
-      "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
-      "link": "https://github.com/inkeep/open-knowledge",
-      "raw_summary": "<p>Hi HN, Nick here. We’re launching OpenKnowledge (<a href=\"https://openknowledge.ai/\" rel=\"nofollow\">https://openknowledge.ai/</a>), a “what you see is what you get” markdown editor that has direct integrations with Claude, Codex, and Cursor. Available as MacOS app or CLI. Fully free/local and OSS (<a href=\"https://github.com/inkeep/open-knowledge\" rel=\"nofollow\">https://github.com/inkeep/open-knowledge</a>).<p>We built this because we wanted a “Google docs” like experience for writing and sharing markdown files across our team. Obsidian is the best alternative we tried, but found it doesn’t have a true “what you see is what you get” UI and it didn’t integrate well with Claude/Codex outside of community plugins.<p>So we built OpenKnowledge. It takes shape as:<p>1. A MacOS app with a file navigator, the WYSIWYG editor, and link explorer.<p>2. Integrations with the Claude, Codex, and Cursor desktop apps. The agents can open an OpenKnowledge editor within their embedded web browsers for a side-by-side experience.<p>3. Built-in mcps, skills, and RAG for LLM-wiki and “AI Second Brain” scenarios + spec writing<p>4. An embedded terminal and CLI for TUI-first users<p>OSS stack includes: Tiptap/prosemirror, CodeMirror, yjs (CRDT), Electron (MacOS app), Orama, remark/rehype/micromark/mdast, @pierre/trees<p>On the architecture side, the interesting eng. challenges included:<p>1. A pipeline to convert ProseMirror to markdown in a bidirectional lossless way. ProseMirror uses ASTs, which are not designed to have byte-fidelity.<p>2. A dual-observer CRDT to keep the ProseMirror and markdown state in-sync.<p>The CRDT + git also power a collaborative experience that shows what Agents are doing in the markdown, have undo/redo, and version history. The “Share” and cloud-sync functionality are geared for team collaboration. They feel “no-code” but leverage git/GitHub under the hood, which also means data stays fully private.<p>In that spirit, we made OpenKnowledge open source for anybody who’s curious or who’d like to contribute.<p>We’re actively thinking about plugins/extensibility and what’s next. If you have suggestions or feedback, would love to hear it.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48675435\">https://news.ycombinator.com/item?id=48675435</a></p>\n<p>Points: 32</p>\n<p># Comments: 8</p>",
+      "title": "AI children's books, body horror edition",
+      "link": "https://lcamtuf.substack.com/p/ai-childrens-books-body-horror-edition",
+      "raw_summary": "<p>Article URL: <a href=\"https://lcamtuf.substack.com/p/ai-childrens-books-body-horror-edition\">https://lcamtuf.substack.com/p/ai-childrens-books-body-horror-edition</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48681250\">https://news.ycombinator.com/item?id=48681250</a></p>\n<p>Points: 48</p>\n<p># Comments: 7</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 25 Jun 2026 16:04:46 +0000",
-      "summary": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion\n<p>Hi HN, Nick here. We’re launching OpenKnowledge (<a href=\"https://openknowledge.ai/\" rel=\"nofollow\">https://openknowledge.ai/</a>), a “what you see is what you get” markdown editor that has direct integrations with Claud"
+      "published": "Fri, 26 Jun 2026 01:15:14 +0000",
+      "summary": "AI children's books, body horror edition\n<p>Article URL: <a href=\"https://lcamtuf.substack.com/p/ai-childrens-books-body-horror-edition\">https://lcamtuf.substack.com/p/ai-childrens-books-body-horror-edition</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48681250\">https://news"
     },
     {
-      "title": "Windows 10 quietly gets one more year of support and updates",
-      "link": "https://www.neowin.net/news/windows-10-quietly-gets-one-more-year-of-support-and-updates/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.neowin.net/news/windows-10-quietly-gets-one-more-year-of-support-and-updates/\">https://www.neowin.net/news/windows-10-quietly-gets-one-more-year-of-support-and-updates/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48675369\">https://news.ycombinator.com/item?id=48675369</a></p>\n<p>Points: 161</p>\n<p># Comments: 117</p>",
+      "title": "Framework's 10G Ethernet module exposes USB-C's complexity",
+      "link": "https://www.jeffgeerling.com/blog/2026/framework-10g-ethernet-module-usb-c-complexity/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.jeffgeerling.com/blog/2026/framework-10g-ethernet-module-usb-c-complexity/\">https://www.jeffgeerling.com/blog/2026/framework-10g-ethernet-module-usb-c-complexity/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48681220\">https://news.ycombinator.com/item?id=48681220</a></p>\n<p>Points: 27</p>\n<p># Comments: 11</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 25 Jun 2026 15:59:54 +0000",
-      "summary": "Windows 10 quietly gets one more year of support and updates\n<p>Article URL: <a href=\"https://www.neowin.net/news/windows-10-quietly-gets-one-more-year-of-support-and-updates/\">https://www.neowin.net/news/windows-10-quietly-gets-one-more-year-of-support-and-updates/</a></p>\n<p>Comments URL: <a href="
+      "published": "Fri, 26 Jun 2026 01:10:52 +0000",
+      "summary": "Framework's 10G Ethernet module exposes USB-C's complexity\n<p>Article URL: <a href=\"https://www.jeffgeerling.com/blog/2026/framework-10g-ethernet-module-usb-c-complexity/\">https://www.jeffgeerling.com/blog/2026/framework-10g-ethernet-module-usb-c-complexity/</a></p>\n<p>Comments URL: <a href=\"https:/"
     },
     {
-      "title": "An entire Herculaneum scroll has been read for the first time",
-      "link": "https://scrollprize.org/firstscroll",
-      "raw_summary": "<p>Preprint: <a href=\"https://scrollprize.org/pdf/main.pdf\" rel=\"nofollow\">https://scrollprize.org/pdf/main.pdf</a><p><a href=\"https://github.com/ScrollPrize/villa\" rel=\"nofollow\">https://github.com/ScrollPrize/villa</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48675179\">https://news.ycombinator.com/item?id=48675179</a></p>\n<p>Points: 448</p>\n<p># Comments: 109</p>",
+      "title": "The Garbage Collection Handbook: The Art of Automatic Memory Management (2nd Ed)",
+      "link": "https://gchandbook.org/",
+      "raw_summary": "<p>Article URL: <a href=\"https://gchandbook.org/\">https://gchandbook.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48680370\">https://news.ycombinator.com/item?id=48680370</a></p>\n<p>Points: 53</p>\n<p># Comments: 10</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 25 Jun 2026 15:48:07 +0000",
-      "summary": "An entire Herculaneum scroll has been read for the first time\n<p>Preprint: <a href=\"https://scrollprize.org/pdf/main.pdf\" rel=\"nofollow\">https://scrollprize.org/pdf/main.pdf</a><p><a href=\"https://github.com/ScrollPrize/villa\" rel=\"nofollow\">https://github.com/ScrollPrize/villa</a></p>\n<hr />\n<p>Com"
+      "published": "Thu, 25 Jun 2026 23:10:30 +0000",
+      "summary": "The Garbage Collection Handbook: The Art of Automatic Memory Management (2nd Ed)\n<p>Article URL: <a href=\"https://gchandbook.org/\">https://gchandbook.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48680370\">https://news.ycombinator.com/item?id=48680370</a></p>\n<p>Points:"
     },
     {
-      "title": "IBM debuts sub-1 nanometer chip technology",
-      "link": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
-      "raw_summary": "<p>Article URL: <a href=\"https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology\">https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48674967\">https://news.ycombinator.com/item?id=48674967</a></p>\n<p>Points: 142</p>\n<p># Comments: 84</p>",
+      "title": "Military branches restore flu shot requirement after virus swept through base",
+      "link": "https://arstechnica.com/health/2026/06/military-branches-restore-flu-shot-requirement-after-virus-swept-through-base/",
+      "raw_summary": "<p>Article URL: <a href=\"https://arstechnica.com/health/2026/06/military-branches-restore-flu-shot-requirement-after-virus-swept-through-base/\">https://arstechnica.com/health/2026/06/military-branches-restore-flu-shot-requirement-after-virus-swept-through-base/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48679934\">https://news.ycombinator.com/item?id=48679934</a></p>\n<p>Points: 146</p>\n<p># Comments: 57</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 25 Jun 2026 15:33:37 +0000",
-      "summary": "IBM debuts sub-1 nanometer chip technology\n<p>Article URL: <a href=\"https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology\">https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology</a></p>\n<p>Comments URL: <a href=\"https://news."
+      "published": "Thu, 25 Jun 2026 22:16:55 +0000",
+      "summary": "Military branches restore flu shot requirement after virus swept through base\n<p>Article URL: <a href=\"https://arstechnica.com/health/2026/06/military-branches-restore-flu-shot-requirement-after-virus-swept-through-base/\">https://arstechnica.com/health/2026/06/military-branches-restore-flu-shot-requ"
+    },
+    {
+      "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
+      "link": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+      "raw_summary": "penAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of to the broader public. The reason: the Trump administration told it to.",
+      "source": "TechCrunch",
+      "published": "Thu, 25 Jun 2026 23:34:39 +0000",
+      "summary": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns\npenAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of to the broader public. The reason: the Trump administration told it to."
+    },
+    {
+      "title": "YouTube Shorts are getting even shorter with an update that lets you double the playback speed",
+      "link": "https://techcrunch.com/2026/06/25/youtube-shorts-are-getting-even-shorter-with-an-update-that-lets-you-double-the-playback-speed/",
+      "raw_summary": "YouTube Shorts is getting a makeover.",
+      "source": "TechCrunch",
+      "published": "Thu, 25 Jun 2026 22:02:12 +0000",
+      "summary": "YouTube Shorts are getting even shorter with an update that lets you double the playback speed\nYouTube Shorts is getting a makeover."
+    },
+    {
+      "title": "Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents",
+      "link": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
+      "raw_summary": "Agent-testing startup Patronus AI, founded by former Meta AI researchers, is experiencing nearly insatiable demand, its investor says.",
+      "source": "TechCrunch",
+      "published": "Thu, 25 Jun 2026 20:19:25 +0000",
+      "summary": "Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents\nAgent-testing startup Patronus AI, founded by former Meta AI researchers, is experiencing nearly insatiable demand, its investor says."
+    },
+    {
+      "title": "Polymarket says hackers stole users’ funds",
+      "link": "https://techcrunch.com/2026/06/25/polymarket-says-hackers-stole-users-funds/",
+      "raw_summary": "The prediction market giant Polymarket said it's refunding users who had funds stolen due to a third-party breach.",
+      "source": "TechCrunch",
+      "published": "Thu, 25 Jun 2026 19:58:46 +0000",
+      "summary": "Polymarket says hackers stole users’ funds\nThe prediction market giant Polymarket said it's refunding users who had funds stolen due to a third-party breach."
     },
     {
       "title": "Xbox follows Apple with price increases",
       "link": "https://techcrunch.com/2026/06/25/xbox-follows-apple-with-price-increases/",
-      "raw_summary": "The price increase comes amid rising components costs.",
+      "raw_summary": "The company says the increases are being driven by rising memory and console storage prices, with costs more than 2.5x higher than previous levels.",
       "source": "TechCrunch",
       "published": "Thu, 25 Jun 2026 19:39:55 +0000",
-      "summary": "Xbox follows Apple with price increases\nThe price increase comes amid rising components costs."
+      "summary": "Xbox follows Apple with price increases\nThe company says the increases are being driven by rising memory and console storage prices, with costs more than 2.5x higher than previous levels."
     },
     {
-      "title": "Notion Mail shuts down amid agent takeover",
-      "link": "https://techcrunch.com/2026/06/25/notion-mail-shuts-down-amid-agent-takeover/",
-      "raw_summary": "The company said it is discontinuing its email inbox in favor of its AI agent offering as users are increasingly handing over the reins of their email to the agents.",
-      "source": "TechCrunch",
-      "published": "Thu, 25 Jun 2026 19:14:46 +0000",
-      "summary": "Notion Mail shuts down amid agent takeover\nThe company said it is discontinuing its email inbox in favor of its AI agent offering as users are increasingly handing over the reins of their email to the agents."
-    },
-    {
-      "title": "a16z-backed Base Power is offering cheaper electricity to the power grid that needs it most",
-      "link": "https://techcrunch.com/2026/06/25/a16z-backed-base-power-is-offering-cheaper-electricity-to-the-power-grid-that-needs-it-most/",
-      "raw_summary": "Base Power is skipping the PJM's troubled interconnection queue by placing its batteries at people's homes, offering backup services in exchange.",
-      "source": "TechCrunch",
-      "published": "Thu, 25 Jun 2026 17:52:05 +0000",
-      "summary": "a16z-backed Base Power is offering cheaper electricity to the power grid that needs it most\nBase Power is skipping the PJM's troubled interconnection queue by placing its batteries at people's homes, offering backup services in exchange."
-    },
-    {
-      "title": "Anthropic’s Claude is winning over paid consumers, a market owned by ChatGPT",
-      "link": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
-      "raw_summary": "Despite ChatGPT's commanding market lead, consumers who pay for AI have been increasingly choosing Anthropic's Claude, data shows.",
-      "source": "TechCrunch",
-      "published": "Thu, 25 Jun 2026 17:38:27 +0000",
-      "summary": "Anthropic’s Claude is winning over paid consumers, a market owned by ChatGPT\nDespite ChatGPT's commanding market lead, consumers who pay for AI have been increasingly choosing Anthropic's Claude, data shows."
-    },
-    {
-      "title": "General Intuition’s $2.3B bet that video games can train AI agents for the real world",
-      "link": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
-      "raw_summary": "General Intuition has raised $320 million to scale AI trained on millions of hours of gameplay, betting action data can help AI develop something closer to human intuition.",
-      "source": "TechCrunch",
-      "published": "Thu, 25 Jun 2026 16:55:00 +0000",
-      "summary": "General Intuition’s $2.3B bet that video games can train AI agents for the real world\nGeneral Intuition has raised $320 million to scale AI trained on millions of hours of gameplay, betting action data can help AI develop something closer to human intuition."
-    },
-    {
-      "title": "Feds deny Polestar authorization to sell cars in US from model year 2027",
-      "link": "https://arstechnica.com/cars/2026/06/feds-deny-polestar-authorization-to-sell-cars-in-us-from-model-year-2027/",
-      "raw_summary": "Unlike with Volvo, there will be no authorization for Polestar to sell its cars here.",
+      "title": "Microsoft adds another year to Windows 10 extended update program",
+      "link": "https://arstechnica.com/gadgets/2026/06/microsoft-adds-another-year-to-windows-10-extended-update-program/",
+      "raw_summary": "About a quarter of PCs are still running Microsoft's previous operating system.",
       "source": "Ars Technica - All content",
-      "published": "Thu, 25 Jun 2026 14:40:23 +0000",
-      "summary": "Feds deny Polestar authorization to sell cars in US from model year 2027\nUnlike with Volvo, there will be no authorization for Polestar to sell its cars here."
+      "published": "Thu, 25 Jun 2026 20:24:09 +0000",
+      "summary": "Microsoft adds another year to Windows 10 extended update program\nAbout a quarter of PCs are still running Microsoft's previous operating system."
     },
     {
-      "title": "Apple ratchets up prices, blames the cost of memory",
-      "link": "https://arstechnica.com/apple/2026/06/apple-ratchets-up-prices-blames-the-cost-of-memory/",
-      "raw_summary": "Some Macs are hundreds of dollars more expensive today than yesterday.",
+      "title": "FCC may kill $2B program that connects schools and libraries to Internet",
+      "link": "https://arstechnica.com/tech-policy/2026/06/fcc-may-kill-2b-program-that-connects-schools-and-libraries-to-internet/",
+      "raw_summary": "Carr cites screen time concerns, is accused of trying to be \"the nation’s parent.\"",
       "source": "Ars Technica - All content",
-      "published": "Thu, 25 Jun 2026 14:14:37 +0000",
-      "summary": "Apple ratchets up prices, blames the cost of memory\nSome Macs are hundreds of dollars more expensive today than yesterday."
+      "published": "Thu, 25 Jun 2026 20:01:08 +0000",
+      "summary": "FCC may kill $2B program that connects schools and libraries to Internet\nCarr cites screen time concerns, is accused of trying to be \"the nation’s parent.\""
     },
     {
-      "title": "The \"sad inevitability\" of Europe's heat wave",
-      "link": "https://arstechnica.com/science/2026/06/the-sad-inevitability-of-europes-heat-wave/",
-      "raw_summary": "Europeans are baking under their second heat wave of the summer.",
+      "title": "Notion killing Skiff-influenced email app since most users use AI agents instead",
+      "link": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/",
+      "raw_summary": "Notion is \"going all in on using agents to run your inbox.\"",
       "source": "Ars Technica - All content",
-      "published": "Thu, 25 Jun 2026 13:54:46 +0000",
-      "summary": "The \"sad inevitability\" of Europe's heat wave\nEuropeans are baking under their second heat wave of the summer."
+      "published": "Thu, 25 Jun 2026 19:04:57 +0000",
+      "summary": "Notion killing Skiff-influenced email app since most users use AI agents instead\nNotion is \"going all in on using agents to run your inbox.\""
     },
     {
-      "title": "New effort will get genome sequences for entire Endangered Species list",
-      "link": "https://arstechnica.com/science/2026/06/new-effort-will-get-genome-sequences-for-entire-endangered-species-list/",
-      "raw_summary": "Colossal Biosciences will be biobanking tissues from all of them as well.",
+      "title": "Google finally releases a Finance Android app, promises iOS version later in 2026",
+      "link": "https://arstechnica.com/google/2026/06/google-finance-finally-gets-a-mobile-app-as-ai-powered-overhaul-leaves-beta/",
+      "raw_summary": "It took 20 years, but the Finance app arrives just in time to be packed full of AI.",
       "source": "Ars Technica - All content",
-      "published": "Thu, 25 Jun 2026 13:40:34 +0000",
-      "summary": "New effort will get genome sequences for entire Endangered Species list\nColossal Biosciences will be biobanking tissues from all of them as well."
+      "published": "Thu, 25 Jun 2026 18:38:51 +0000",
+      "summary": "Google finally releases a Finance Android app, promises iOS version later in 2026\nIt took 20 years, but the Finance app arrives just in time to be packed full of AI."
     },
     {
-      "title": "Every Homo naledi we know of is female, and the implications are fascinating",
-      "link": "https://arstechnica.com/science/2026/06/every-homo-naledi-we-know-of-is-female-and-the-implications-are-fascinating/",
-      "raw_summary": "\"There is no natural explanation,\" says paleoanthropologist John Hawks.",
+      "title": "Anthropic says Alibaba must be punished for largest Claude cloning attack",
+      "link": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities/",
+      "raw_summary": "Alibaba allegedly used 25,000 accounts to mine Claude over 28.8 million exchanges.",
       "source": "Ars Technica - All content",
-      "published": "Thu, 25 Jun 2026 13:28:54 +0000",
-      "summary": "Every Homo naledi we know of is female, and the implications are fascinating\n\"There is no natural explanation,\" says paleoanthropologist John Hawks."
+      "published": "Thu, 25 Jun 2026 18:01:48 +0000",
+      "summary": "Anthropic says Alibaba must be punished for largest Claude cloning attack\nAlibaba allegedly used 25,000 accounts to mine Claude over 28.8 million exchanges."
+    },
+    {
+      "title": "Venezuelans search for survivors after devastating earthquakes",
+      "link": "https://www.ft.com/content/2cd60e15-2b30-48dd-9af1-faa68e4758c8",
+      "raw_summary": "Officials put death toll at 188 but expect it to climb as victims are dug out of the rubble",
+      "source": "World",
+      "published": "Fri, 26 Jun 2026 02:17:17 GMT",
+      "summary": "Venezuelans search for survivors after devastating earthquakes\nOfficials put death toll at 188 but expect it to climb as victims are dug out of the rubble"
+    },
+    {
+      "title": "Noel Tata: How we made fashion one of our biggest businesses",
+      "link": "https://www.ft.com/content/6622a77c-2cbe-416a-9245-4ca565757bcb",
+      "raw_summary": "Noel Tata and P Venkatesalu on the fast-growing retail chain you have likely never heard of",
+      "source": "World",
+      "published": "Fri, 26 Jun 2026 01:30:07 GMT",
+      "summary": "Noel Tata: How we made fashion one of our biggest businesses\nNoel Tata and P Venkatesalu on the fast-growing retail chain you have likely never heard of"
     },
     {
       "title": "Attack in Strait of Hormuz halts evacuation plan for stranded ships",
       "link": "https://www.ft.com/content/5abcb3c1-8ce8-470f-8a37-f47af58b2f7c",
-      "raw_summary": "International Maritime Organization calls a halt after container ship was hit by ‘unknown projectile’",
+      "raw_summary": "International Maritime Organization announces pause after container ship was hit by ‘unknown projectile’",
       "source": "World",
-      "published": "Thu, 25 Jun 2026 19:41:48 GMT",
-      "summary": "Attack in Strait of Hormuz halts evacuation plan for stranded ships\nInternational Maritime Organization calls a halt after container ship was hit by ‘unknown projectile’"
+      "published": "Fri, 26 Jun 2026 01:21:41 GMT",
+      "summary": "Attack in Strait of Hormuz halts evacuation plan for stranded ships\nInternational Maritime Organization announces pause after container ship was hit by ‘unknown projectile’"
     },
     {
-      "title": "Micron shares jump as blockbuster results spark Wall Street tech shake-up",
-      "link": "https://www.ft.com/content/b3ad976b-9967-4952-92ff-822a8e253fb1",
-      "raw_summary": "Apple’s stock slides after company unveils price rises linked to ‘unprecedented’ cost of memory chips",
+      "title": "Will strongman general’s push for US-Iran peace pay off for Pakistan?",
+      "link": "https://www.ft.com/content/c3cfce87-7632-44bc-acd0-e5c36a68aef2",
+      "raw_summary": "Islamabad elites are pinning their hopes on an agreement that could unlock financial support",
       "source": "World",
-      "published": "Thu, 25 Jun 2026 19:39:55 GMT",
-      "summary": "Micron shares jump as blockbuster results spark Wall Street tech shake-up\nApple’s stock slides after company unveils price rises linked to ‘unprecedented’ cost of memory chips"
+      "published": "Fri, 26 Jun 2026 00:40:10 GMT",
+      "summary": "Will strongman general’s push for US-Iran peace pay off for Pakistan?\nIslamabad elites are pinning their hopes on an agreement that could unlock financial support"
     },
     {
-      "title": "Apple increases MacBook and iPad prices by 20%",
-      "link": "https://www.ft.com/content/0f067265-2baf-4b6e-8fb2-ed56daef6f3c",
-      "raw_summary": "iPhone maker blamed cost rises on memory chip shortages caused by AI boom",
+      "title": "Trump administration asks OpenAI to stagger release of new model to vet users",
+      "link": "https://www.ft.com/content/0580e5c9-75b8-4cc5-803d-fbb4e82bb3ad",
+      "raw_summary": "The US Treasury, commerce department and other government offices request limited distribution of GPT 5.6",
       "source": "World",
-      "published": "Thu, 25 Jun 2026 18:42:51 GMT",
-      "summary": "Apple increases MacBook and iPad prices by 20%\niPhone maker blamed cost rises on memory chip shortages caused by AI boom"
+      "published": "Fri, 26 Jun 2026 00:17:06 GMT",
+      "summary": "Trump administration asks OpenAI to stagger release of new model to vet users\nThe US Treasury, commerce department and other government offices request limited distribution of GPT 5.6"
     },
     {
-      "title": "Micron posts 15-fold profit surge in boost for global AI stocks",
-      "link": "https://www.ft.com/content/9b739203-3274-43f1-b61e-c1905061d32a",
-      "raw_summary": "Chipmaker forecasts sustained demand for computer memory, boosting its shares and Asian markets",
-      "source": "World",
-      "published": "Thu, 25 Jun 2026 18:40:22 GMT",
-      "summary": "Micron posts 15-fold profit surge in boost for global AI stocks\nChipmaker forecasts sustained demand for computer memory, boosting its shares and Asian markets"
-    },
-    {
-      "title": "Live special: Ten years after Brexit",
-      "link": "https://www.ft.com/content/f3b604a2-e06a-466a-a2aa-81c94545bd5b",
-      "raw_summary": "Can the UK deliver change?",
-      "source": "World",
-      "published": "Thu, 25 Jun 2026 18:09:36 GMT",
-      "summary": "Live special: Ten years after Brexit\nCan the UK deliver change?"
-    },
-    {
-      "title": "Stocks Whipsaw as Micron Surges While Apple Sinks: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-24/us-stock-futures-surge-on-micron-s-strong-forecast-markets-wrap",
-      "raw_summary": "A renewed wave of tech volatility gripped Wall Street, with a selloff in megacaps tempering optimism in other corners of the stock market that were buoyed by signs the economy is in good shape.",
+      "title": "Oil Heads for Weekly Loss as Ship Attack Clouds Hormuz Outlook",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-25/latest-oil-market-news-and-analysis-for-june-26",
+      "raw_summary": "Oil was on track for a weekly decline after transits through the Strait of Hormuz accelerated, although an attack on a cargo ship has renewed concerns about safe passage through the vital waterway.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 24 Jun 2026 22:04:22 GMT",
-      "summary": "Stocks Whipsaw as Micron Surges While Apple Sinks: Markets Wrap\nA renewed wave of tech volatility gripped Wall Street, with a selloff in megacaps tempering optimism in other corners of the stock market that were buoyed by signs the economy is in good shape."
-    },
-    {
-      "title": "Moderna's Flu Vaccine Moves Closer to FDA Approval",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-25/moderna-cautiously-optimistic-on-flu-vaccine-approval-video",
-      "raw_summary": "The FDA advisory committee recommended Moderna's flu vaccine for approval. Moderna CEO Stéphane Bancel tells Romaine Bostick and Katie Greifeld he is cautiously optimistic that the agency will follow the guidance. A final decision by the FDA is expected by August 5 which is just in time for the next flu season. He speaks on \"Bloomberg The Close.\" (Source: Bloomberg)",
-      "source": "Bloomberg Markets",
-      "published": "Thu, 25 Jun 2026 18:31:17 GMT",
-      "summary": "Moderna's Flu Vaccine Moves Closer to FDA Approval\nThe FDA advisory committee recommended Moderna's flu vaccine for approval. Moderna CEO Stéphane Bancel tells Romaine Bostick and Katie Greifeld he is cautiously optimistic that the agency will follow the guidance. A final decision by the FDA is expe"
+      "published": "Thu, 25 Jun 2026 22:05:21 GMT",
+      "summary": "Oil Heads for Weekly Loss as Ship Attack Clouds Hormuz Outlook\nOil was on track for a weekly decline after transits through the Strait of Hormuz accelerated, although an attack on a cargo ship has renewed concerns about safe passage through the vital waterway."
     },
     {
       "title": "Ship Struck in Hormuz as Oil Supertankers Turn Back Again",
       "link": "https://www.bloomberg.com/news/articles/2026-06-25/ships-appear-to-u-turn-while-trying-to-exit-hormuz-by-oman-route",
-      "raw_summary": "A ship was hit by an unknown projectile in the Strait of Hormuz, just hours after several freighters turned around while attempting to cross the vital waterway, developments that may undermine what had been a rapid reopening of the energy chokepoint.",
+      "raw_summary": "A ship was hit by an unidentified projectile in the Strait of Hormuz on Thursday in the first reported attack after an interim US-Iran peace deal, a significant setback to efforts to restore traffic through the vital energy thoroughfare.",
       "source": "Bloomberg Markets",
       "published": "Thu, 25 Jun 2026 14:48:38 GMT",
-      "summary": "Ship Struck in Hormuz as Oil Supertankers Turn Back Again\nA ship was hit by an unknown projectile in the Strait of Hormuz, just hours after several freighters turned around while attempting to cross the vital waterway, developments that may undermine what had been a rapid reopening of the energy cho"
+      "summary": "Ship Struck in Hormuz as Oil Supertankers Turn Back Again\nA ship was hit by an unidentified projectile in the Strait of Hormuz on Thursday in the first reported attack after an interim US-Iran peace deal, a significant setback to efforts to restore traffic through the vital energy thoroughfare."
     },
     {
-      "title": "Oil Gains as Ship Attack Raises Concern About Hormuz Reopening",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-24/latest-oil-market-news-and-analysis-for-june-25",
-      "raw_summary": "Oil rose as traders closely monitored shipments through the Strait of Hormuz after a vessel was struck by a projectile in the key shipping corridor off the Omani coast, renewing concerns about the safety for passing cargoes amid the US and Iran’s peace negotiations.",
+      "title": "Asian Stocks Slide on Tech Selloff, Oil Slips: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-25/asia-stocks-set-for-choppy-open-on-tech-volatility-markets-wrap",
+      "raw_summary": "Stocks in Asia retreated as tech shares were hit by a renewed selloff after Thursday’s blistering rally, underscoring the heightened volatility that has gripped the sector this week.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 24 Jun 2026 22:02:16 GMT",
-      "summary": "Oil Gains as Ship Attack Raises Concern About Hormuz Reopening\nOil rose as traders closely monitored shipments through the Strait of Hormuz after a vessel was struck by a projectile in the key shipping corridor off the Omani coast, renewing concerns about the safety for passing cargoes amid the US a"
+      "published": "Thu, 25 Jun 2026 22:05:08 GMT",
+      "summary": "Asian Stocks Slide on Tech Selloff, Oil Slips: Markets Wrap\nStocks in Asia retreated as tech shares were hit by a renewed selloff after Thursday’s blistering rally, underscoring the heightened volatility that has gripped the sector this week."
     },
     {
-      "title": "Too Early to Worry About Concentration Risk: Doyle",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-25/too-early-to-worry-about-concentration-risk-doyle-video",
-      "raw_summary": "Stephanie Doyle, fixed income portfolio manager at JPMorgan Asset Management, Viktor Hjort, global head of credit strategy & desks analysts at BNP Paribas, join Katie Greifeld on \"Bloomberg Real Yield.\"\n (Source: Bloomberg)",
+      "title": "Apple Supplier Lingyi Rises in HK Debut After $1.1 Billion Float",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-25/apple-supplier-lingyi-set-for-hk-debut-after-1-1b-offering",
+      "raw_summary": "Lingyi iTech Guangdong Co. a Chinese maker of electronic devices, rose in its Hong Kong debut after raising HK$8.3 billion ($1.06 billion) in a share sale, part of the city’s busiest month for listings this year.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 25 Jun 2026 19:15:39 GMT",
-      "summary": "Too Early to Worry About Concentration Risk: Doyle\nStephanie Doyle, fixed income portfolio manager at JPMorgan Asset Management, Viktor Hjort, global head of credit strategy & desks analysts at BNP Paribas, join Katie Greifeld on \"Bloomberg Real Yield.\"\n (Source: Bloomberg)"
+      "published": "Thu, 25 Jun 2026 23:00:00 GMT",
+      "summary": "Apple Supplier Lingyi Rises in HK Debut After $1.1 Billion Float\nLingyi iTech Guangdong Co. a Chinese maker of electronic devices, rose in its Hong Kong debut after raising HK$8.3 billion ($1.06 billion) in a share sale, part of the city’s busiest month for listings this year."
+    },
+    {
+      "title": "Half of Australian Adults Have Never Sought Retirement Advice",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-26/half-of-australian-adults-have-never-sought-retirement-advice",
+      "raw_summary": "Australians are sleepwalking into their retirement, according to new research.",
+      "source": "Bloomberg Markets",
+      "published": "Fri, 26 Jun 2026 01:40:49 GMT",
+      "summary": "Half of Australian Adults Have Never Sought Retirement Advice\nAustralians are sleepwalking into their retirement, according to new research."
+    },
+    {
+      "title": "Asset management giant Invesco files for tokenized fund targeting stablecoin reserve market",
+      "link": "https://www.coindesk.com/business/2026/06/25/asset-management-giant-invesco-files-for-tokenized-fund-targeting-stablecoin-reserve-market",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Thu, 25 Jun 2026 20:47:24 +0000",
+      "summary": "Asset management giant Invesco files for tokenized fund targeting stablecoin reserve market\n"
     },
     {
       "title": "Coinbase's Base blockchain resumes after two-hour outage disrupted network",
@@ -313,14 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Thu, 25 Jun 2026 17:06:10 +0000",
       "summary": "a16z-backed crypto firm rebrands, shifts focus to solving AI’s global copyright headache\n"
-    },
-    {
-      "title": "BlackBerry is making a massive comeback as an 'uncrashable' software layer for AI and robotics",
-      "link": "https://www.coindesk.com/markets/2026/06/25/blackberry-is-making-a-massive-comeback-as-an-uncrashable-software-layer-for-ai-and-robotics",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 25 Jun 2026 16:05:06 +0000",
-      "summary": "BlackBerry is making a massive comeback as an 'uncrashable' software layer for AI and robotics\n"
     }
   ]
 }
