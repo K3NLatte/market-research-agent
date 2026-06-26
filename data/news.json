@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T14:07:21.755345+00:00",
+  "generated_at": "2026-06-26T19:29:16.425865+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,12 +43,36 @@
       "summary": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts\nThe Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages over the weekend, after instructions began circulating on Telegram showing h"
     },
     {
+      "title": "New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks",
+      "link": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
+      "raw_summary": "A newly discovered cyber attack campaign has been observed delivering a previously undocumented malware family called SharkLoader that acts as a loader for deploying Cobalt Strike Beacon on compromised hosts.\n\nKaspersky, which is tracking the activity under the moniker StrikeShark, said the campaign has targeted a diplomatic organization in Indonesia, government organizations in Taiwan,",
+      "source": "The Hacker News",
+      "published": "Fri, 26 Jun 2026 23:47:46 +0530",
+      "summary": "New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks\nA newly discovered cyber attack campaign has been observed delivering a previously undocumented malware family called SharkLoader that acts as a loader for deploying Cobalt Strike Beacon on compromised hosts.\n\nKaspersky, which"
+    },
+    {
+      "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
+      "link": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
+      "raw_summary": "A Chinese-speaking advanced persistent threat (APT) actor has been linked to a new custom backdoor called TinyRCT as part of cyber attacks aimed at government entities and critical infrastructure in Southeast Asia.\n\nThe activity, particularly aimed at state-owned enterprises in the energy and government sectors, has been attributed to a threat actor called CL-STA-1062, which Palo Alto Networks",
+      "source": "The Hacker News",
+      "published": "Fri, 26 Jun 2026 21:51:25 +0530",
+      "summary": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign\nA Chinese-speaking advanced persistent threat (APT) actor has been linked to a new custom backdoor called TinyRCT as part of cyber attacks aimed at government entities and critical infrastructure in Southeast Asia.\n\nThe act"
+    },
+    {
       "title": "New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries",
       "link": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
       "raw_summary": "A flaw in the Linux kernel's traffic-control subsystem can let a local unprivileged user gain root on affected systems.\n\nCVE-2026-46331, nicknamed \"pedit COW,\" is an out-of-bounds write in the packet-editing action (act_pedit) that corrupts shared page-cache memory. A&nbsp;public, working exploit&nbsp;appeared within a day of the CVE assignment on June 16. Red Hat&nbsp;rates the flaw as",
       "source": "The Hacker News",
-      "published": "Fri, 26 Jun 2026 18:30:41 +0530",
+      "published": "Fri, 26 Jun 2026 19:27:55 +0530",
       "summary": "New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries\nA flaw in the Linux kernel's traffic-control subsystem can let a local unprivileged user gain root on affected systems.\n\nCVE-2026-46331, nicknamed \"pedit COW,\" is an out-of-bounds write in the packet-editing action (act_ped"
+    },
+    {
+      "title": "Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs",
+      "link": "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html",
+      "raw_summary": "A high-severity flaw in Amazon Q Developer let a malicious repository run commands and steal a developer's cloud credentials. The path was short: a developer opens the repo, trusts the workspace, and Amazon Q does the rest. Amazon has patched it.\n\nTracked as&nbsp;CVE-2026-12957&nbsp;(CVSS 8.5), the bug sat in how Amazon's AI coding assistant handled Model Context Protocol (MCP) servers.\n\nWiz",
+      "source": "The Hacker News",
+      "published": "Fri, 26 Jun 2026 19:23:00 +0530",
+      "summary": "Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs\nA high-severity flaw in Amazon Q Developer let a malicious repository run commands and steal a developer's cloud credentials. The path was short: a developer opens the repo, trusts the workspace, and Amazon Q does the rest. A"
     },
     {
       "title": "CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue",
@@ -59,228 +83,236 @@
       "summary": "CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical remote code execution vulnerability impacting PTC Windchill PDMlink and PTC FlexPLM enterprise Product Data Management (PDM) a"
     },
     {
-      "title": "New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets",
-      "link": "https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html",
-      "raw_summary": "DirtyClone is a new Linux kernel privilege escalation in the DirtyFrag family.&nbsp;JFrog Security Research published a working exploit walkthrough&nbsp;for the flaw on June 25, the first public demonstration for this variant.\n\nTracked as&nbsp;CVE-2026-43503&nbsp;(CVSS 8.8), it lets a local user corrupt file-backed memory through a cloned network packet and gain root. The patch landed in",
-      "source": "The Hacker News",
-      "published": "Fri, 26 Jun 2026 17:21:35 +0530",
-      "summary": "New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets\nDirtyClone is a new Linux kernel privilege escalation in the DirtyFrag family.&nbsp;JFrog Security Research published a working exploit walkthrough&nbsp;for the flaw on June 25, the first public demonstration for this var"
-    },
-    {
-      "title": "Guardian Agents: The Next Layer of Identity Governance",
-      "link": "https://thehackernews.com/2026/06/guardian-agents-next-layer-of-identity.html",
-      "raw_summary": "AI agents are moving through enterprise environments, inheriting permissions, traversing systems, and executing decisions at machine speed with minimal oversight. The identity infrastructure built to govern human access wasn't designed for autonomous actors, and the gap between what enterprises are deploying and what their governance programs actually cover is widening fast. This guide breaks",
-      "source": "The Hacker News",
-      "published": "Fri, 26 Jun 2026 17:00:00 +0530",
-      "summary": "Guardian Agents: The Next Layer of Identity Governance\nAI agents are moving through enterprise environments, inheriting permissions, traversing systems, and executing decisions at machine speed with minimal oversight. The identity infrastructure built to govern human access wasn't designed for auton"
-    },
-    {
-      "title": "Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack",
-      "link": "https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html",
-      "raw_summary": "Cybersecurity researchers have flagged yet another evolution of the supply chain attack linked to the Mini Shai-Hulud, Miasma, and Hades malware family that has compromised a new set of npm packages, even as it has propagated to the Go ecosystem.\n\n\"The latest activity includes malicious npm releases affecting LeoPlatform and RStreams packages, GitHub Actions workflow abuse, and a related Go",
-      "source": "The Hacker News",
-      "published": "Fri, 26 Jun 2026 16:35:45 +0530",
-      "summary": "Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack\nCybersecurity researchers have flagged yet another evolution of the supply chain attack linked to the Mini Shai-Hulud, Miasma, and Hades malware family that has compromised a new set of npm packages, even as it has propaga"
-    },
-    {
-      "title": "Incident CVE-2026-LGTM",
-      "link": "https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html\">https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48686093\">https://news.ycombinator.com/item?id=48686093</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "title": "U.S. government will decide who gets to use GPT-5.6",
+      "link": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/",
+      "raw_summary": "<p><a href=\"https://archive.ph/PCQQl\" rel=\"nofollow\">https://archive.ph/PCQQl</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48690101\">https://news.ycombinator.com/item?id=48690101</a></p>\n<p>Points: 129</p>\n<p># Comments: 369</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 26 Jun 2026 12:58:07 +0000",
-      "summary": "Incident CVE-2026-LGTM\n<p>Article URL: <a href=\"https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html\">https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48686093\">https://news.ycombinator.com/item?id=486"
+      "published": "Fri, 26 Jun 2026 18:23:14 +0000",
+      "summary": "U.S. government will decide who gets to use GPT-5.6\n<p><a href=\"https://archive.ph/PCQQl\" rel=\"nofollow\">https://archive.ph/PCQQl</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48690101\">https://news.ycombinator.com/item?id=48690101</a></p>\n<p>Points: 129</p>\n<p># Comm"
     },
     {
-      "title": "Captcha proves you're human. HATCHA proves you're not",
-      "link": "https://github.com/mondaycom/HATCHA",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/mondaycom/HATCHA\">https://github.com/mondaycom/HATCHA</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48685677\">https://news.ycombinator.com/item?id=48685677</a></p>\n<p>Points: 58</p>\n<p># Comments: 67</p>",
+      "title": "What Is a Nomogram and Why Would It Interest Me?",
+      "link": "https://lefakkomies.github.io/pynomo-doc/introduction/introduction.html#what-is-a-nomogram-and-why-would-it-interest-me",
+      "raw_summary": "<p>Article URL: <a href=\"https://lefakkomies.github.io/pynomo-doc/introduction/introduction.html#what-is-a-nomogram-and-why-would-it-interest-me\">https://lefakkomies.github.io/pynomo-doc/introduction/introduction.html#what-is-a-nomogram-and-why-would-it-interest-me</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48689277\">https://news.ycombinator.com/item?id=48689277</a></p>\n<p>Points: 14</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 26 Jun 2026 12:06:17 +0000",
-      "summary": "Captcha proves you're human. HATCHA proves you're not\n<p>Article URL: <a href=\"https://github.com/mondaycom/HATCHA\">https://github.com/mondaycom/HATCHA</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48685677\">https://news.ycombinator.com/item?id=48685677</a></p>\n<p>Points: 58"
+      "published": "Fri, 26 Jun 2026 17:24:25 +0000",
+      "summary": "What Is a Nomogram and Why Would It Interest Me?\n<p>Article URL: <a href=\"https://lefakkomies.github.io/pynomo-doc/introduction/introduction.html#what-is-a-nomogram-and-why-would-it-interest-me\">https://lefakkomies.github.io/pynomo-doc/introduction/introduction.html#what-is-a-nomogram-and-why-would-"
     },
     {
-      "title": "Ultrasound Imaging of the Brain",
-      "link": "https://alephneuro.com/blog/ultrasound-brain",
-      "raw_summary": "<p>Article URL: <a href=\"https://alephneuro.com/blog/ultrasound-brain\">https://alephneuro.com/blog/ultrasound-brain</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48685558\">https://news.ycombinator.com/item?id=48685558</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
+      "title": "Previewing GPT‑5.6 Sol: a next-generation model",
+      "link": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "raw_summary": "<p>System card: <a href=\"https://deploymentsafety.openai.com/gpt-5-6-preview\" rel=\"nofollow\">https://deploymentsafety.openai.com/gpt-5-6-preview</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48689028\">https://news.ycombinator.com/item?id=48689028</a></p>\n<p>Points: 403</p>\n<p># Comments: 248</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 26 Jun 2026 11:51:11 +0000",
-      "summary": "Ultrasound Imaging of the Brain\n<p>Article URL: <a href=\"https://alephneuro.com/blog/ultrasound-brain\">https://alephneuro.com/blog/ultrasound-brain</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48685558\">https://news.ycombinator.com/item?id=48685558</a></p>\n<p>Points: 6</p>\n"
+      "published": "Fri, 26 Jun 2026 17:06:55 +0000",
+      "summary": "Previewing GPT‑5.6 Sol: a next-generation model\n<p>System card: <a href=\"https://deploymentsafety.openai.com/gpt-5-6-preview\" rel=\"nofollow\">https://deploymentsafety.openai.com/gpt-5-6-preview</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48689028\">https://news.ycombi"
     },
     {
-      "title": "We all depend on open source. We will defend it together",
-      "link": "https://akrites.org/letter/",
-      "raw_summary": "<p>Article URL: <a href=\"https://akrites.org/letter/\">https://akrites.org/letter/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48682737\">https://news.ycombinator.com/item?id=48682737</a></p>\n<p>Points: 341</p>\n<p># Comments: 164</p>",
+      "title": "Liva AI (YC S25) Is Hiring",
+      "link": "https://www.ycombinator.com/companies/liva-ai/jobs/gvtc3Ep-founding-operations-lead",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/liva-ai/jobs/gvtc3Ep-founding-operations-lead\">https://www.ycombinator.com/companies/liva-ai/jobs/gvtc3Ep-founding-operations-lead</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48688961\">https://news.ycombinator.com/item?id=48688961</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 26 Jun 2026 05:40:36 +0000",
-      "summary": "We all depend on open source. We will defend it together\n<p>Article URL: <a href=\"https://akrites.org/letter/\">https://akrites.org/letter/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48682737\">https://news.ycombinator.com/item?id=48682737</a></p>\n<p>Points: 341</p>\n<p># Co"
+      "published": "Fri, 26 Jun 2026 17:00:43 +0000",
+      "summary": "Liva AI (YC S25) Is Hiring\n<p>Article URL: <a href=\"https://www.ycombinator.com/companies/liva-ai/jobs/gvtc3Ep-founding-operations-lead\">https://www.ycombinator.com/companies/liva-ai/jobs/gvtc3Ep-founding-operations-lead</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48688961"
     },
     {
-      "title": "Libre Barcode Project",
-      "link": "https://graphicore.github.io/librebarcode/",
-      "raw_summary": "<p>Article URL: <a href=\"https://graphicore.github.io/librebarcode/\">https://graphicore.github.io/librebarcode/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48681949\">https://news.ycombinator.com/item?id=48681949</a></p>\n<p>Points: 213</p>\n<p># Comments: 35</p>",
+      "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
+      "link": "https://github.com/workweave/router",
+      "raw_summary": "<p>We built a model router that plugs into coding agents (e.g. Claude Code, Codex, Cursor, etc.) and intelligently sends requests to the best model to serve them. Here's a quick demo of running it locally: <a href=\"https://www.youtube.com/watch?v=isKhAyivtfM\" rel=\"nofollow\">https://www.youtube.com/watch?v=isKhAyivtfM</a>.<p>At Weave, we write most of our code with AI, and it's been getting more expensive. This came to a head when Opus 4.7 was released and, thanks to its tokenizer changes, our costs shot up. We knew we didn't need Opus for <i>everything</i> but we didn't want to lose out on the intelligence for the cases where you really need it. So we decided to build a model router to handle this for us.<p>The Weave Router acts as an Anthropic/OpenAI endpoint specifically for coding agents. It looks at every inference request and intelligently (more on that in a sec) decides what model to send it to, handling all the translations required along the way. So it can use faster/cheaper models (e.g. DeepSeek v4, GLM 5.2, Kimi K2.6) when possible, and frontier models (Opus 4.8 & GPT 5.5 (& Fable whenever it's back)) when necessary.<p>How do we know what model to route to? We trained an RL model on tens of thousands (so far!) of agent traces. We reward the routing model when it selects an LLM that successfully completes the given task.<p>Here's an example: if you ask the router to plan a complex change, it will (probably) route that request to Opus 4.8. Subagents exploring the codebase to gather context will be routed to more suitable models (e.g. DeepSeek V4 Flash). Then when you have the plan ready to implement, it will be (most likely) be handed to a quicker model (e.g. GLM 5.2) to carry it out.<p>We've been using this internally for the last month or so. We've saved 40% on tokens vs. what we otherwise would have paid, with no noticeable differences in quality or velocity.<p>The router is source-available under Elastic License 2.0, so you can self-host it. Or if you prefer, you can also use our hosted version: weaverouter.com.<p>I'll be here to answer any questions you may have!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48688700\">https://news.ycombinator.com/item?id=48688700</a></p>\n<p>Points: 72</p>\n<p># Comments: 53</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 26 Jun 2026 03:12:42 +0000",
-      "summary": "Libre Barcode Project\n<p>Article URL: <a href=\"https://graphicore.github.io/librebarcode/\">https://graphicore.github.io/librebarcode/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48681949\">https://news.ycombinator.com/item?id=48681949</a></p>\n<p>Points: 213</p>\n<p># Comment"
+      "published": "Fri, 26 Jun 2026 16:40:11 +0000",
+      "summary": "Show HN: Smart model routing directly in Claude, Codex and Cursor\n<p>We built a model router that plugs into coding agents (e.g. Claude Code, Codex, Cursor, etc.) and intelligently sends requests to the best model to serve them. Here's a quick demo of running it locally: <a href=\"https://www.youtube"
     },
     {
-      "title": "Robotaxis drive miles just to get cleaned and charged; this new startup wants to fix that",
-      "link": "https://techcrunch.com/2026/06/26/this-silicon-valley-startup-has-raised-10m-to-build-pitstops-to-clean-and-charge-robotaxis/",
-      "raw_summary": "Aseon Labs, which came out of Y Combinator's 2026 spring cohort, has raised $10 million from Crane Venture Partners and others.",
+      "title": "Novak Djokovic has a new job —  advisor to private equity firm General Atlantic",
+      "link": "https://techcrunch.com/2026/06/26/novak-djokovic-has-a-new-job-advisor-to-private-equity-firm-general-atlantic/",
+      "raw_summary": "General Atlantic has tapped tennis legend Novak Djokovic to serve as a global strategic advisor.",
       "source": "TechCrunch",
-      "published": "Fri, 26 Jun 2026 13:00:00 +0000",
-      "summary": "Robotaxis drive miles just to get cleaned and charged; this new startup wants to fix that\nAseon Labs, which came out of Y Combinator's 2026 spring cohort, has raised $10 million from Crane Venture Partners and others."
+      "published": "Fri, 26 Jun 2026 19:13:40 +0000",
+      "summary": "Novak Djokovic has a new job —  advisor to private equity firm General Atlantic\nGeneral Atlantic has tapped tennis legend Novak Djokovic to serve as a global strategic advisor."
     },
     {
-      "title": "Early Bird pricing ends tonight for TechCrunch Founder Summit",
-      "link": "https://techcrunch.com/2026/06/26/early-bird-pricing-ends-tonight-for-techcrunch-founder-summit/",
-      "raw_summary": "Save up to $190 on your pass to TechCrunch Founder Summit 2026. Early Bird pricing ends today, at 11:59 p.m. PT, after which rates increase. Register now.",
+      "title": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
+      "link": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+      "raw_summary": "“We don’t believe this kind of government access process should become the long-term default,” says OpenAI. “It keeps the best tools from users, developers, enterprises, cyber defenders, and global partners who need them.”",
       "source": "TechCrunch",
-      "published": "Fri, 26 Jun 2026 13:00:00 +0000",
-      "summary": "Early Bird pricing ends tonight for TechCrunch Founder Summit\nSave up to $190 on your pass to TechCrunch Founder Summit 2026. Early Bird pricing ends today, at 11:59 p.m. PT, after which rates increase. Register now."
+      "published": "Fri, 26 Jun 2026 18:32:14 +0000",
+      "summary": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm\n“We don’t believe this kind of government access process should become the long-term default,” says OpenAI. “It keeps the best tools from users, developers, enterprises, cyber defenders, and global partne"
     },
     {
-      "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
-      "link": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
-      "raw_summary": "OpenAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of with the broader public. The reason: the Trump administration told it to.",
+      "title": "OpenAI poaches Uber India chief to lead its biggest market outside the US",
+      "link": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/",
+      "raw_summary": "The hire marks OpenAI's latest push into India, expanding offices, partnerships and hiring.",
       "source": "TechCrunch",
-      "published": "Thu, 25 Jun 2026 23:34:39 +0000",
-      "summary": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns\nOpenAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of with the broader public. The reason: the Trump administration told it to."
+      "published": "Fri, 26 Jun 2026 18:19:36 +0000",
+      "summary": "OpenAI poaches Uber India chief to lead its biggest market outside the US\nThe hire marks OpenAI's latest push into India, expanding offices, partnerships and hiring."
     },
     {
-      "title": "YouTube Shorts are getting even shorter with an update that lets you double the playback speed",
-      "link": "https://techcrunch.com/2026/06/25/youtube-shorts-are-getting-even-shorter-with-an-update-that-lets-you-double-the-playback-speed/",
-      "raw_summary": "YouTube Shorts is getting a makeover.",
+      "title": "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
+      "link": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
+      "raw_summary": "Nvidia has dominated the AI chip market for years, but the era of total dependence might be ending.&#160;&#160; OpenAI just shared its plans to spice things up with&#160;Jalapeño, its custom inference chip built with Broadcom, joining Google, Apple, and SpaceX in a growing list of companies building their way out of single-supplier risk. The goal&#160;is&#160;less&#160;of&#160;a [&#8230;]",
       "source": "TechCrunch",
-      "published": "Thu, 25 Jun 2026 22:02:12 +0000",
-      "summary": "YouTube Shorts are getting even shorter with an update that lets you double the playback speed\nYouTube Shorts is getting a makeover."
+      "published": "Fri, 26 Jun 2026 17:43:22 +0000",
+      "summary": "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)\nNvidia has dominated the AI chip market for years, but the era of total dependence might be ending.&#160;&#160; OpenAI just shared its plans to spice things up with&#160;Jalapeño, its custom inference "
     },
     {
-      "title": "Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents",
-      "link": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
-      "raw_summary": "Agent-testing startup Patronus AI, founded by former Meta AI researchers, is experiencing nearly insatiable demand, its investor says.",
+      "title": "Russian hackers were behind $2.5 billion hack of Jaguar Land Rover: Report",
+      "link": "https://techcrunch.com/2026/06/26/russian-hackers-were-behind-2-5-billion-hack-of-jaguar-land-rover-report/",
+      "raw_summary": "The hack on car giant Jaguar Land Rover last year was one the most disrupting, damaging, and costly hacks of the last few years.",
       "source": "TechCrunch",
-      "published": "Thu, 25 Jun 2026 20:19:25 +0000",
-      "summary": "Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents\nAgent-testing startup Patronus AI, founded by former Meta AI researchers, is experiencing nearly insatiable demand, its investor says."
+      "published": "Fri, 26 Jun 2026 17:29:29 +0000",
+      "summary": "Russian hackers were behind $2.5 billion hack of Jaguar Land Rover: Report\nThe hack on car giant Jaguar Land Rover last year was one the most disrupting, damaging, and costly hacks of the last few years."
     },
     {
-      "title": "Rocket Report: China may soon attempt booster landing; Rocket Lab does rapid response",
-      "link": "https://arstechnica.com/space/2026/06/rocket-report-china-may-soon-attempt-booster-landing-rocket-lab-does-rapid-response/",
-      "raw_summary": "Is SpaceX planning to end its Transporter program?",
+      "title": "FCC accused of hiding Chairman Carr's messages with DOGE and Musk",
+      "link": "https://arstechnica.com/tech-policy/2026/06/fcc-accused-of-hiding-chairman-carrs-messages-with-doge-and-musk/",
+      "raw_summary": "FCC refuses to provide messages, has \"wasted a year\" of court's time, filing says.",
       "source": "Ars Technica - All content",
-      "published": "Fri, 26 Jun 2026 11:00:59 +0000",
-      "summary": "Rocket Report: China may soon attempt booster landing; Rocket Lab does rapid response\nIs SpaceX planning to end its Transporter program?"
+      "published": "Fri, 26 Jun 2026 18:51:04 +0000",
+      "summary": "FCC accused of hiding Chairman Carr's messages with DOGE and Musk\nFCC refuses to provide messages, has \"wasted a year\" of court's time, filing says."
     },
     {
-      "title": "Microsoft adds another year to Windows 10 extended update program",
-      "link": "https://arstechnica.com/gadgets/2026/06/microsoft-adds-another-year-to-windows-10-extended-update-program/",
-      "raw_summary": "About a quarter of PCs are still running Microsoft's previous operating system.",
+      "title": "Netflix now requires every user profile to be tied to unique email address",
+      "link": "https://arstechnica.com/gadgets/2026/06/netflix-now-requires-every-user-profile-to-be-tied-to-unique-email-address/",
+      "raw_summary": "Update began June 15 and will no longer allow you to share your login info.",
       "source": "Ars Technica - All content",
-      "published": "Thu, 25 Jun 2026 20:24:09 +0000",
-      "summary": "Microsoft adds another year to Windows 10 extended update program\nAbout a quarter of PCs are still running Microsoft's previous operating system."
+      "published": "Fri, 26 Jun 2026 18:19:58 +0000",
+      "summary": "Netflix now requires every user profile to be tied to unique email address\nUpdate began June 15 and will no longer allow you to share your login info."
     },
     {
-      "title": "FCC may kill $2B program that connects schools and libraries to Internet",
-      "link": "https://arstechnica.com/tech-policy/2026/06/fcc-may-kill-2b-program-that-connects-schools-and-libraries-to-internet/",
-      "raw_summary": "Carr cites screen time concerns, is accused of trying to be \"the nation’s parent.\"",
+      "title": "Antibiotic \"megacluster\" discovery provides new strategy to fight superbugs",
+      "link": "https://arstechnica.com/health/2026/06/antibiotic-megacluster-discovery-provides-new-strategy-to-fight-superbugs/",
+      "raw_summary": "It's \"an exciting advance in efforts to restock the antibiotic arsenal.\"",
       "source": "Ars Technica - All content",
-      "published": "Thu, 25 Jun 2026 20:01:08 +0000",
-      "summary": "FCC may kill $2B program that connects schools and libraries to Internet\nCarr cites screen time concerns, is accused of trying to be \"the nation’s parent.\""
+      "published": "Fri, 26 Jun 2026 17:46:07 +0000",
+      "summary": "Antibiotic \"megacluster\" discovery provides new strategy to fight superbugs\nIt's \"an exciting advance in efforts to restock the antibiotic arsenal.\""
     },
     {
-      "title": "Notion killing Skiff-influenced email app since most users use AI agents instead",
-      "link": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/",
-      "raw_summary": "Notion is \"going all in on using agents to run your inbox.\"",
+      "title": "Ars Live: What's the latest in the aftermath of the New Glenn catastrophe?",
+      "link": "https://arstechnica.com/space/2026/06/ars-live-whats-the-latest-in-the-aftermath-of-the-new-glenn-catastrophe/",
+      "raw_summary": "Join us on the livestream at 1 pm ET and ask questions about the aftermath of New Glenn.",
       "source": "Ars Technica - All content",
-      "published": "Thu, 25 Jun 2026 19:04:57 +0000",
-      "summary": "Notion killing Skiff-influenced email app since most users use AI agents instead\nNotion is \"going all in on using agents to run your inbox.\""
+      "published": "Fri, 26 Jun 2026 16:24:59 +0000",
+      "summary": "Ars Live: What's the latest in the aftermath of the New Glenn catastrophe?\nJoin us on the livestream at 1 pm ET and ask questions about the aftermath of New Glenn."
     },
     {
-      "title": "Google finally releases a Finance Android app, promises iOS version later in 2026",
-      "link": "https://arstechnica.com/google/2026/06/google-finance-finally-gets-a-mobile-app-as-ai-powered-overhaul-leaves-beta/",
-      "raw_summary": "It took 20 years, but the Finance app arrives just in time to be packed full of AI.",
+      "title": "VW may close four factories to adapt to the future, report says",
+      "link": "https://arstechnica.com/cars/2026/06/vw-may-close-four-factories-to-adapt-to-the-future-report-says/",
+      "raw_summary": "With falling sales in the US and especially China, VW Group wants to restructure.",
       "source": "Ars Technica - All content",
-      "published": "Thu, 25 Jun 2026 18:38:51 +0000",
-      "summary": "Google finally releases a Finance Android app, promises iOS version later in 2026\nIt took 20 years, but the Finance app arrives just in time to be packed full of AI."
+      "published": "Fri, 26 Jun 2026 15:10:03 +0000",
+      "summary": "VW may close four factories to adapt to the future, report says\nWith falling sales in the US and especially China, VW Group wants to restructure."
     },
     {
-      "title": "US tech stocks fall for fifth day in a row",
-      "link": "https://www.ft.com/content/bb70e272-5b09-4806-8b19-7c03c350f580",
-      "raw_summary": "Nasdaq Composite on track for longest losing streak of 2026 amid worries about an overstretched rally in AI-related shares",
+      "title": "Venezuelans search for survivors after devastating earthquakes",
+      "link": "https://www.ft.com/content/2cd60e15-2b30-48dd-9af1-faa68e4758c8",
+      "raw_summary": "Officials put death toll at 920 and expect it to climb as victims are dug out of rubble",
       "source": "World",
-      "published": "Fri, 26 Jun 2026 13:33:51 GMT",
-      "summary": "US tech stocks fall for fifth day in a row\nNasdaq Composite on track for longest losing streak of 2026 amid worries about an overstretched rally in AI-related shares"
+      "published": "Fri, 26 Jun 2026 19:13:29 GMT",
+      "summary": "Venezuelans search for survivors after devastating earthquakes\nOfficials put death toll at 920 and expect it to climb as victims are dug out of rubble"
     },
     {
-      "title": "The hole in British politics",
-      "link": "https://www.ft.com/content/a64dbe61-878c-4ad5-afb7-6dec2460728f",
-      "raw_summary": "Andy Burnham must fix the widespread idea that government is not on our side",
+      "title": "Hong Kong billionaire explores sale of Harvey Nichols",
+      "link": "https://www.ft.com/content/719bbd62-345a-46ba-9e61-be5ad3bf6058",
+      "raw_summary": "Struggling luxury department store owned by Sir Dickson Poon is in active talks with multiple parties over a deal",
       "source": "World",
-      "published": "Fri, 26 Jun 2026 13:32:29 GMT",
-      "summary": "The hole in British politics\nAndy Burnham must fix the widespread idea that government is not on our side"
+      "published": "Fri, 26 Jun 2026 18:39:11 GMT",
+      "summary": "Hong Kong billionaire explores sale of Harvey Nichols\nStruggling luxury department store owned by Sir Dickson Poon is in active talks with multiple parties over a deal"
     },
     {
-      "title": "EU plans 15% tax on aluminium scrap exports",
-      "link": "https://www.ft.com/content/f4ea27fb-9efe-4fd3-bc66-e7824916fe7e",
-      "raw_summary": "Move by Brussels aims to protect domestic producers and prevent valuable metal heading to US and Asia",
+      "title": "Speed of Andy Burnham’s takeover unsettles Labour MPs",
+      "link": "https://www.ft.com/content/824f0e2d-c104-4e94-8d65-cd5f8f849c53",
+      "raw_summary": "Supporters admit there is not much time for likely next prime minister to plan for power",
       "source": "World",
-      "published": "Fri, 26 Jun 2026 13:28:02 GMT",
-      "summary": "EU plans 15% tax on aluminium scrap exports\nMove by Brussels aims to protect domestic producers and prevent valuable metal heading to US and Asia"
+      "published": "Fri, 26 Jun 2026 18:02:30 GMT",
+      "summary": "Speed of Andy Burnham’s takeover unsettles Labour MPs\nSupporters admit there is not much time for likely next prime minister to plan for power"
     },
     {
-      "title": "Andrew Tate fails in attempt to reveal identities of accusers",
-      "link": "https://www.ft.com/content/ef98c341-bf0a-4a11-9651-91ccdbf24441",
-      "raw_summary": "The influencer and his brother face charges including rape but have yet to be extradited from Romania",
+      "title": "Brutal nights and humidity mark Europe’s record June temperatures",
+      "link": "https://www.ft.com/content/a2ea8432-f871-40c9-89bf-a18ee091413f",
+      "raw_summary": "Daytime peaks on the continent rising three times as fast as the wider rate of global warming, scientists say",
       "source": "World",
-      "published": "Fri, 26 Jun 2026 13:07:45 GMT",
-      "summary": "Andrew Tate fails in attempt to reveal identities of accusers\nThe influencer and his brother face charges including rape but have yet to be extradited from Romania"
+      "published": "Fri, 26 Jun 2026 17:59:23 GMT",
+      "summary": "Brutal nights and humidity mark Europe’s record June temperatures\nDaytime peaks on the continent rising three times as fast as the wider rate of global warming, scientists say"
     },
     {
-      "title": "The Democrats’ DSA siren song",
-      "link": "https://www.ft.com/content/2e67d503-9ca7-40bb-a66b-188556562bd8",
-      "raw_summary": "Democratic Socialists are winning in New York, but the city is not America",
+      "title": "OpenAI releases GPT-5.6 to select users vetted by US government",
+      "link": "https://www.ft.com/content/33a306c2-5aaa-45b1-9386-1716fa6a128e",
+      "raw_summary": "San Francisco-based company announces ‘limited preview’ of new models with powerful cyber security capabilities",
       "source": "World",
-      "published": "Fri, 26 Jun 2026 13:00:02 GMT",
-      "summary": "The Democrats’ DSA siren song\nDemocratic Socialists are winning in New York, but the city is not America"
+      "published": "Fri, 26 Jun 2026 17:40:13 GMT",
+      "summary": "OpenAI releases GPT-5.6 to select users vetted by US government\nSan Francisco-based company announces ‘limited preview’ of new models with powerful cyber security capabilities"
     },
     {
-      "title": "OpenAI Leans Toward Waiting Until 2027 for IPO, NYT Says",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-25/openai-leans-toward-waiting-until-2027-for-ipo-ny-times-says",
-      "raw_summary": "OpenAI is leaning toward holding off on an initial public offering until 2027, the New York Times reported, citing three people involved in the company’s deliberations.",
+      "title": "Money Roundtable: Hidden Inflation, Social Security",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-26/money-roundtable-hidden-inflation-social-security-video",
+      "raw_summary": "Bloomberg's David Gura and Romaine Bostick join Lisa Mateo and Tom Keene on \"Bloomberg Money.\" They discuss this week's US inflation report, Apple's price hike, and the future of social security.\n (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Thu, 25 Jun 2026 20:51:55 GMT",
-      "summary": "OpenAI Leans Toward Waiting Until 2027 for IPO, NYT Says\nOpenAI is leaning toward holding off on an initial public offering until 2027, the New York Times reported, citing three people involved in the company’s deliberations."
+      "published": "Fri, 26 Jun 2026 19:20:08 GMT",
+      "summary": "Money Roundtable: Hidden Inflation, Social Security\nBloomberg's David Gura and Romaine Bostick join Lisa Mateo and Tom Keene on \"Bloomberg Money.\" They discuss this week's US inflation report, Apple's price hike, and the future of social security.\n (Source: Bloomberg)"
     },
     {
-      "title": "US Consumer Sentiment Improves But Remains Close to Record Low",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-26/us-consumer-sentiment-improves-but-remains-close-to-record-low",
-      "raw_summary": "US consumer sentiment rose in June as lower gasoline prices provided some relief for Americans grappling with high inflation.",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 26 Jun 2026 14:00:00 GMT",
-      "summary": "US Consumer Sentiment Improves But Remains Close to Record Low\nUS consumer sentiment rose in June as lower gasoline prices provided some relief for Americans grappling with high inflation."
-    },
-    {
-      "title": "US Natural Gas Rises on Hot Forecasts as July Contract Expires",
+      "title": "US Natural Gas Drops on Cooler Outlooks as July Contract Expires",
       "link": "https://www.bloomberg.com/news/articles/2026-06-26/us-natural-gas-rises-on-hot-forecasts-as-july-contract-expires",
-      "raw_summary": "US natural gas futures increased in the final day of trading for the July contract as forecasts continued to show above-average temperatures in the first week of July. Individual transactions moved the market more amid a drop-off in liquidity near expiry.",
+      "raw_summary": "US natural gas futures settled much lower in the final day of trading for the July contract as midday forecasts shifted to show cooler weather compared with overnight outlooks. Individual transactions moved the market more amid a drop-off in liquidity near expiry.",
       "source": "Bloomberg Markets",
       "published": "Fri, 26 Jun 2026 13:57:29 GMT",
-      "summary": "US Natural Gas Rises on Hot Forecasts as July Contract Expires\nUS natural gas futures increased in the final day of trading for the July contract as forecasts continued to show above-average temperatures in the first week of July. Individual transactions moved the market more amid a drop-off in liqu"
+      "summary": "US Natural Gas Drops on Cooler Outlooks as July Contract Expires\nUS natural gas futures settled much lower in the final day of trading for the July contract as midday forecasts shifted to show cooler weather compared with overnight outlooks. Individual transactions moved the market more amid a drop-"
     },
     {
-      "title": "Saudi Arabia Is Ramping Up Oil Exports as Gulf Ports Restart",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-26/saudi-arabia-is-ramping-up-oil-exports-as-gulf-ports-restart",
-      "raw_summary": "Saudi Arabia is boosting crude shipments, opening up its Persian Gulf ports that were shuttered by the Iran war while also increasing loadings at Red Sea outlets that it has used to bypass the Strait of Hormuz.",
+      "title": "South Korean Regulators Are Lamenting Leveraged ETFs",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-06-26/trading-in-south-korea-renews-concern-about-leveraged-etf-boom",
+      "raw_summary": "Frenzied trading in South Korea has renewed concerns about the leveraged ETF boom",
       "source": "Bloomberg Markets",
-      "published": "Fri, 26 Jun 2026 13:57:04 GMT",
-      "summary": "Saudi Arabia Is Ramping Up Oil Exports as Gulf Ports Restart\nSaudi Arabia is boosting crude shipments, opening up its Persian Gulf ports that were shuttered by the Iran war while also increasing loadings at Red Sea outlets that it has used to bypass the Strait of Hormuz."
+      "published": "Fri, 26 Jun 2026 19:06:29 GMT",
+      "summary": "South Korean Regulators Are Lamenting Leveraged ETFs\nFrenzied trading in South Korea has renewed concerns about the leveraged ETF boom"
     },
     {
-      "title": "Aluminum Heads for Fourth Weekly Drop on Mideast Supply Return",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-26/aluminum-heads-for-fourth-weekly-drop-on-mideast-supply-return",
-      "raw_summary": "Aluminum headed for a fourth weekly decline, the longest losing streak since April 2025, as a renewed selloff in tech stocks added to pressure from the dollar’s recent rally and returning Middle East supplies.",
+      "title": "US Oil Plunges Below $70 as Ships Keep Crossing Strait of Hormuz",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-25/latest-oil-market-news-and-analysis-for-june-26",
+      "raw_summary": "US oil plunged, erasing nearly all its gains made during the war, as vessel traffic through the Strait of Hormuz continued to rise and as investors increasingly expect the market to be oversupplied with Persian Gulf exports rebounding sharply.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 26 Jun 2026 03:29:53 GMT",
-      "summary": "Aluminum Heads for Fourth Weekly Drop on Mideast Supply Return\nAluminum headed for a fourth weekly decline, the longest losing streak since April 2025, as a renewed selloff in tech stocks added to pressure from the dollar’s recent rally and returning Middle East supplies."
+      "published": "Thu, 25 Jun 2026 22:05:21 GMT",
+      "summary": "US Oil Plunges Below $70 as Ships Keep Crossing Strait of Hormuz\nUS oil plunged, erasing nearly all its gains made during the war, as vessel traffic through the Strait of Hormuz continued to rise and as investors increasingly expect the market to be oversupplied with Persian Gulf exports rebounding "
+    },
+    {
+      "title": "Stocks Waver as Wall Street Rotation Gains Speed: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-25/asia-stocks-set-for-choppy-open-on-tech-volatility-markets-wrap",
+      "raw_summary": "Wall Street traders kept driving a rotation out of high-profile chipmakers and into a broader category of companies tuned to improving growth prospects, with stocks wavering at the end of a volatile week.",
+      "source": "Bloomberg Markets",
+      "published": "Thu, 25 Jun 2026 22:05:08 GMT",
+      "summary": "Stocks Waver as Wall Street Rotation Gains Speed: Markets Wrap\nWall Street traders kept driving a rotation out of high-profile chipmakers and into a broader category of companies tuned to improving growth prospects, with stocks wavering at the end of a volatile week."
+    },
+    {
+      "title": "Former Ethereum Foundation leader warns of funding gap as governance shifts",
+      "link": "https://www.coindesk.com/markets/2026/06/26/former-ethereum-foundation-leader-warns-of-funding-gap-as-governance-shifts",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Fri, 26 Jun 2026 18:37:50 +0000",
+      "summary": "Former Ethereum Foundation leader warns of funding gap as governance shifts\n"
+    },
+    {
+      "title": "Anti-trafficking group says Clarity Act's Section 604 could weaken accountability",
+      "link": "https://www.coindesk.com/policy/2026/06/26/anti-trafficking-group-warns-clarity-act-s-section-604-could-weaken-accountability",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Fri, 26 Jun 2026 18:24:24 +0000",
+      "summary": "Anti-trafficking group says Clarity Act's Section 604 could weaken accountability\n"
+    },
+    {
+      "title": "Virtuals' Jansen Teng says AI agents are evolving into autonomous economic actors",
+      "link": "https://www.coindesk.com/coindesk-news/2026/06/26/virtuals-jansen-teng-says-ai-agents-are-evolving-into-autonomous-economic-actors",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Fri, 26 Jun 2026 18:04:22 +0000",
+      "summary": "Virtuals' Jansen Teng says AI agents are evolving into autonomous economic actors\n"
+    },
+    {
+      "title": "Securitize expects to raise $400 million as tokenization firm nears public debut",
+      "link": "https://www.coindesk.com/business/2026/06/26/securitize-expects-to-raise-usd400-million-as-tokenization-firm-nears-public-debut",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Fri, 26 Jun 2026 15:04:44 +0000",
+      "summary": "Securitize expects to raise $400 million as tokenization firm nears public debut\n"
     },
     {
       "title": "CoinDesk 20 performance update: AAVE jumps 8.9%, leading index higher",
@@ -289,38 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Fri, 26 Jun 2026 13:22:16 +0000",
       "summary": "CoinDesk 20 performance update: AAVE jumps 8.9%, leading index higher\n"
-    },
-    {
-      "title": "Wall Street's IPO revival hasn't reached dot-com euphoria levels, Goldman Sachs says",
-      "link": "https://www.coindesk.com/business/2026/06/26/wall-street-s-ipo-revival-hasn-t-reached-dot-com-euphoria-levels-goldman-sachs-says",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 26 Jun 2026 12:25:36 +0000",
-      "summary": "Wall Street's IPO revival hasn't reached dot-com euphoria levels, Goldman Sachs says\n"
-    },
-    {
-      "title": "With crypto ending the first half in the red, bitcoin's solace is it beat Strategy",
-      "link": "https://www.coindesk.com/daybook-us/2026/06/26/with-crypto-ending-the-first-half-in-the-red-bitcoin-s-solace-is-it-beat-strategy",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 26 Jun 2026 11:36:01 +0000",
-      "summary": "With crypto ending the first half in the red, bitcoin's solace is it beat Strategy\n"
-    },
-    {
-      "title": "Bitcoin bounces from $58,000 as derivatives signal more pain in the pipeline",
-      "link": "https://www.coindesk.com/markets/2026/06/26/bitcoin-bounces-from-usd58-000-as-derivatives-signal-more-pain-in-the-pipeline",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 26 Jun 2026 11:03:20 +0000",
-      "summary": "Bitcoin bounces from $58,000 as derivatives signal more pain in the pipeline\n"
-    },
-    {
-      "title": "All eyes on Strategy's June 30 ex-dividend date and monthly STRC dividend rate reset",
-      "link": "https://www.coindesk.com/markets/2026/06/26/all-eyes-on-strategy-s-june-30-ex-dividend-date-and-monthly-strc-dividend-rate-reset",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 26 Jun 2026 10:28:24 +0000",
-      "summary": "All eyes on Strategy's June 30 ex-dividend date and monthly STRC dividend rate reset\n"
     }
   ]
 }
