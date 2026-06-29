@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-29T10:26:31.528482+00:00",
-  "count": 39,
+  "generated_at": "2026-06-29T15:33:48.898691+00:00",
+  "count": 40,
   "articles": [
     {
       "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
@@ -43,6 +43,38 @@
       "summary": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts\nThe Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages over the weekend, after instructions began circulating on Telegram showing h"
     },
     {
+      "title": "⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers and More",
+      "link": "https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
+      "raw_summary": "This week was a reminder that attackers do not always need big tricks. One small mistake, one old access path, one missed patch, and suddenly the door is open.\n\nThe noise is not all noise, either. Forums are talking, researchers are finding easy cracks, and defenders have more cleanup waiting.\n\nHere’s the full Monday recap.\n\n⚡ Threat of the Week\n\nNew DirtyClone Linux Kernel Flaw Lets Local",
+      "source": "The Hacker News",
+      "published": "Mon, 29 Jun 2026 20:11:07 +0530",
+      "summary": "⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers and More\nThis week was a reminder that attackers do not always need big tricks. One small mistake, one old access path, one missed patch, and suddenly the door is open.\n\nThe noise is not all noise, either. Forums are"
+    },
+    {
+      "title": "236,000 DCloud Uni-App Sites Used in Crypto Scams, Phishing, and Wallet Drainers",
+      "link": "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
+      "raw_summary": "New findings unearthed by Infoblox show that more than 236,000 websites are using investment scam templates built using a legitimate Chinese open-source, cross-platform application development framework called DCloud Uni-App.\n\nThe templates power bogus cryptocurrency exchanges, multi-language pig-butchering operations, WhatsApp phishing networks, fake gambling platforms, brand-impersonation",
+      "source": "The Hacker News",
+      "published": "Mon, 29 Jun 2026 17:27:40 +0530",
+      "summary": "236,000 DCloud Uni-App Sites Used in Crypto Scams, Phishing, and Wallet Drainers\nNew findings unearthed by Infoblox show that more than 236,000 websites are using investment scam templates built using a legitimate Chinese open-source, cross-platform application development framework called DCloud Un"
+    },
+    {
+      "title": "Why Post-Quantum Cryptography Starts With Credentials",
+      "link": "https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html",
+      "raw_summary": "Today’s encrypted data, such as credentials, may no longer remain confidential in the future because the public-key cryptography protecting it will soon be broken by quantum computers. Although no machine today can break elliptic curve cryptography or RSA, quantum hardware is advancing rapidly and will inevitably change how organizations protect their data. Ciphertext and credentials captured by",
+      "source": "The Hacker News",
+      "published": "Mon, 29 Jun 2026 17:12:16 +0530",
+      "summary": "Why Post-Quantum Cryptography Starts With Credentials\nToday’s encrypted data, such as credentials, may no longer remain confidential in the future because the public-key cryptography protecting it will soon be broken by quantum computers. Although no machine today can break elliptic curve cryptograp"
+    },
+    {
+      "title": "Gamaredon Expands Ukraine Attacks with New Malware and Cloud Service Abuse",
+      "link": "https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html",
+      "raw_summary": "A Russian advanced persistent threat (APT) group has continued to evolve and expand its malware arsenal as part of its ongoing cyber onslaught against Ukraine throughout 2025.\n\nSlovakian cybersecurity company ESET said it observed 35 distinct spear-phishing campaigns mounted by Gamaredon against new targets, with most of them taking place in the second half of the year. Primary targets of these",
+      "source": "The Hacker News",
+      "published": "Mon, 29 Jun 2026 17:10:24 +0530",
+      "summary": "Gamaredon Expands Ukraine Attacks with New Malware and Cloud Service Abuse\nA Russian advanced persistent threat (APT) group has continued to evolve and expand its malware arsenal as part of its ongoing cyber onslaught against Ukraine throughout 2025.\n\nSlovakian cybersecurity company ESET said it obs"
+    },
+    {
       "title": "Microsoft Removes 119 Edge Extensions That Hid Malware in Images and Fonts",
       "link": "https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html",
       "raw_summary": "Microsoft has shut down a long-running malicious extension operation on the Edge Add-ons store that hid its payloads inside ordinary image and font files, then woke up days after install to steal credentials and run ad fraud.\n\nThe company calls it&nbsp;StegoAd, a mash-up of steganography and adware, and ties 119 extensions to a single threat actor it says has been active since at least 2021.",
@@ -51,116 +83,108 @@
       "summary": "Microsoft Removes 119 Edge Extensions That Hid Malware in Images and Fonts\nMicrosoft has shut down a long-running malicious extension operation on the Edge Add-ons store that hid its payloads inside ordinary image and font files, then woke up days after install to steal credentials and run ad fraud."
     },
     {
-      "title": "Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw",
-      "link": "https://thehackernews.com/2026/06/public-poc-released-for-critical.html",
-      "raw_summary": "A public proof-of-concept is now out for CVE-2026-55200, a critical flaw in libssh2 that lets a malicious or compromised SSH server trigger memory corruption on a connecting client, with possible code execution. No credentials, no user interaction. The bug affects every release up to and including 1.11.1 and carries a CVSS 4.0 score of 9.2.\n\nlibssh2 is a client-side SSH library, not a server.",
-      "source": "The Hacker News",
-      "published": "Mon, 29 Jun 2026 12:36:34 +0530",
-      "summary": "Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw\nA public proof-of-concept is now out for CVE-2026-55200, a critical flaw in libssh2 that lets a malicious or compromised SSH server trigger memory corruption on a connecting client, with possible code execution. No credenti"
-    },
-    {
-      "title": "Hijacked npm and Go Packages Use VS Code Tasks to Deploy Python Infostealer",
-      "link": "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html",
-      "raw_summary": "Cybersecurity researchers have uncovered two hijacked npm packages and a cluster of Go packages that are designed to deploy a Python-based information stealer on compromised Windows, Linux, and macOS hosts.\n\n\"This attack avoids the most common npm execution paths through lifecycle scripts, perhaps in an attempt to remain 'compatible' with npm v12's security hardenings,\" JFrog said in a",
-      "source": "The Hacker News",
-      "published": "Mon, 29 Jun 2026 11:06:06 +0530",
-      "summary": "Hijacked npm and Go Packages Use VS Code Tasks to Deploy Python Infostealer\nCybersecurity researchers have uncovered two hijacked npm packages and a cluster of Go packages that are designed to deploy a Python-based information stealer on compromised Windows, Linux, and macOS hosts.\n\n\"This attack avo"
-    },
-    {
-      "title": "Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials",
-      "link": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
-      "raw_summary": "The Security Service of Ukraine (SSU) said it, together with the U.S. Federal Bureau of Investigation (FBI), uncovered a long-running campaign orchestrated by Russian intelligence services to break into the messaging accounts of government officials, military personnel, politicians, and activists in Ukraine, Europe, and the U.S.\n\nThe systematic cyber attacks aimed at stealing sensitive",
-      "source": "The Hacker News",
-      "published": "Sat, 27 Jun 2026 22:57:11 +0530",
-      "summary": "Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials\nThe Security Service of Ukraine (SSU) said it, together with the U.S. Federal Bureau of Investigation (FBI), uncovered a long-running campaign orchestrated by Russian intelligence services to break into the mess"
-    },
-    {
-      "title": "OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards",
-      "link": "https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html",
-      "raw_summary": "OpenAI on Friday released three versions of GPT-5.6, called Sol, Terra, and Luna, as a limited preview to a small number of companies as part of an ongoing engagement with the U.S. government.\n\nWhile Sol is the latest flagship model and the most powerful, Terra strikes a balance between efficiency and power, and Luna is fine-tuned for speed and affordability.\n\n\"GPT‑5.6 Sol launches with our most",
-      "source": "The Hacker News",
-      "published": "Sat, 27 Jun 2026 17:49:37 +0530",
-      "summary": "OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards\nOpenAI on Friday released three versions of GPT-5.6, called Sol, Terra, and Luna, as a limited preview to a small number of companies as part of an ongoing engagement with the U.S. government.\n\nWhile Sol is the latest f"
-    },
-    {
-      "title": "Pollen (CEO Negus-Fancey, CTO Wright) tried to remove article, and Google helped",
-      "link": "https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/",
-      "raw_summary": "<p>Article URL: <a href=\"https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/\">https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48716902\">https://news.ycombinator.com/item?id=48716902</a></p>\n<p>Points: 63</p>\n<p># Comments: 7</p>",
+      "title": "WATaBoy: JIT-Ing Game Boy Instructions to WASM Beats a Native Interpreter",
+      "link": "https://humphri.es/blog/WATaBoy/",
+      "raw_summary": "<p>Article URL: <a href=\"https://humphri.es/blog/WATaBoy/\">https://humphri.es/blog/WATaBoy/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48720190\">https://news.ycombinator.com/item?id=48720190</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 29 Jun 2026 09:28:08 +0000",
-      "summary": "Pollen (CEO Negus-Fancey, CTO Wright) tried to remove article, and Google helped\n<p>Article URL: <a href=\"https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/\">https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-articl"
+      "published": "Mon, 29 Jun 2026 15:02:00 +0000",
+      "summary": "WATaBoy: JIT-Ing Game Boy Instructions to WASM Beats a Native Interpreter\n<p>Article URL: <a href=\"https://humphri.es/blog/WATaBoy/\">https://humphri.es/blog/WATaBoy/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48720190\">https://news.ycombinator.com/item?id=48720190</a></p>"
+    },
+    {
+      "title": "WebGL Without a GPU",
+      "link": "https://microlink.io/blog/webgl-without-a-gpu",
+      "raw_summary": "<p>Article URL: <a href=\"https://microlink.io/blog/webgl-without-a-gpu\">https://microlink.io/blog/webgl-without-a-gpu</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48720179\">https://news.ycombinator.com/item?id=48720179</a></p>\n<p>Points: 6</p>\n<p># Comments: 2</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Mon, 29 Jun 2026 15:01:15 +0000",
+      "summary": "WebGL Without a GPU\n<p>Article URL: <a href=\"https://microlink.io/blog/webgl-without-a-gpu\">https://microlink.io/blog/webgl-without-a-gpu</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48720179\">https://news.ycombinator.com/item?id=48720179</a></p>\n<p>Points: 6</p>\n<p># Comme"
+    },
+    {
+      "title": "Data breach exposes up to 14.2M email logins at six ISPs",
+      "link": "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/\">https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48719712\">https://news.ycombinator.com/item?id=48719712</a></p>\n<p>Points: 20</p>\n<p># Comments: 1</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Mon, 29 Jun 2026 14:27:35 +0000",
+      "summary": "Data breach exposes up to 14.2M email logins at six ISPs\n<p>Article URL: <a href=\"https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/\">https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-i"
+    },
+    {
+      "title": "Mag 7 starting to underperform [pdf]",
+      "link": "https://www.apollo.com/content/dam/apolloaem/pdf/daily-spark/2026/jun/28/062826-Mag7.pdf",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.apollo.com/content/dam/apolloaem/pdf/daily-spark/2026/jun/28/062826-Mag7.pdf\">https://www.apollo.com/content/dam/apolloaem/pdf/daily-spark/2026/jun/28/062826-Mag7.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48719532\">https://news.ycombinator.com/item?id=48719532</a></p>\n<p>Points: 95</p>\n<p># Comments: 60</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Mon, 29 Jun 2026 14:12:55 +0000",
+      "summary": "Mag 7 starting to underperform [pdf]\n<p>Article URL: <a href=\"https://www.apollo.com/content/dam/apolloaem/pdf/daily-spark/2026/jun/28/062826-Mag7.pdf\">https://www.apollo.com/content/dam/apolloaem/pdf/daily-spark/2026/jun/28/062826-Mag7.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator."
+    },
+    {
+      "title": "RocketLab Acquires Iridium",
+      "link": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully",
+      "raw_summary": "<p>Article URL: <a href=\"https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully\">https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48719485\">https://news.ycombinator.com/item?id=48719485</a></p>\n<p>Points: 47</p>\n<p># Comments: 32</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Mon, 29 Jun 2026 14:09:24 +0000",
+      "summary": "RocketLab Acquires Iridium\n<p>Article URL: <a href=\"https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully\">https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating"
+    },
+    {
+      "title": "Rocket Lab continues buying spree by acquiring satellite company Iridium",
+      "link": "https://techcrunch.com/2026/06/29/rocket-lab-continues-buying-spree-by-acquiring-satellite-company-iridium/",
+      "raw_summary": "The all-stock deal values Iridium at $8 billion, and gives Rocket Lab even more firepower to compete against Amazon and SpaceX.",
+      "source": "TechCrunch",
+      "published": "Mon, 29 Jun 2026 15:02:07 +0000",
+      "summary": "Rocket Lab continues buying spree by acquiring satellite company Iridium\nThe all-stock deal values Iridium at $8 billion, and gives Rocket Lab even more firepower to compete against Amazon and SpaceX."
+    },
+    {
+      "title": "Robot hand company settles Tesla trade secret suit and announces $11M raise",
+      "link": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
+      "raw_summary": "The startup, Proception, is taking a unique approach to collecting training data to tackle one of the hardest problems in robotics: hands.",
+      "source": "TechCrunch",
+      "published": "Mon, 29 Jun 2026 14:00:08 +0000",
+      "summary": "Robot hand company settles Tesla trade secret suit and announces $11M raise\nThe startup, Proception, is taking a unique approach to collecting training data to tackle one of the hardest problems in robotics: hands."
+    },
+    {
+      "title": "Pocket raises $11M in bet on rising demand for AI note-taking devices",
+      "link": "https://techcrunch.com/2026/06/29/pocket-raises-11m-in-bet-on-rising-demand-for-ai-note-taking-devices/",
+      "raw_summary": "Pocket sells a $129 credit card-shaped puck, which sticks to the back of your phone, and promises unlimited recordings, transcriptions, and to-do items.",
+      "source": "TechCrunch",
+      "published": "Mon, 29 Jun 2026 13:16:00 +0000",
+      "summary": "Pocket raises $11M in bet on rising demand for AI note-taking devices\nPocket sells a $129 credit card-shaped puck, which sticks to the back of your phone, and promises unlimited recordings, transcriptions, and to-do items."
+    },
+    {
+      "title": "Flipper Device’s new Busy Bar is a customizable display for productivity",
+      "link": "https://techcrunch.com/2026/06/29/flipper-devices-new-busy-bar-is-a-customizable-display-for-productivity/",
+      "raw_summary": "Flipper Device's new Busy Bar will retail for $249.",
+      "source": "TechCrunch",
+      "published": "Mon, 29 Jun 2026 13:00:00 +0000",
+      "summary": "Flipper Device’s new Busy Bar is a customizable display for productivity\nFlipper Device's new Busy Bar will retail for $249."
+    },
+    {
+      "title": "Omen AI’s plan to optimize data centers is all wet",
+      "link": "https://techcrunch.com/2026/06/29/omen-ais-plan-to-optimize-data-centers-is-all-wet/",
+      "raw_summary": "Omen AI raised a $31 million Series A to monitor chip coolant and stop bacterial outbreaks in data centers.",
+      "source": "TechCrunch",
+      "published": "Mon, 29 Jun 2026 13:00:00 +0000",
+      "summary": "Omen AI’s plan to optimize data centers is all wet\nOmen AI raised a $31 million Series A to monitor chip coolant and stop bacterial outbreaks in data centers."
+    },
+    {
+      "title": "Comcast is splitting its media and broadband properties",
+      "link": "https://arstechnica.com/tech-policy/2026/06/comcast-is-splitting-its-media-and-broadband-properties/",
+      "raw_summary": "NBCUniversal and Sky will be spun off into separate companies.",
+      "source": "Ars Technica - All content",
+      "published": "Mon, 29 Jun 2026 13:25:41 +0000",
+      "summary": "Comcast is splitting its media and broadband properties\nNBCUniversal and Sky will be spun off into separate companies."
+    },
+    {
+      "title": "NASA's X-59 \"frankenjet\" tests supersonic flight without the sonic boom",
+      "link": "https://arstechnica.com/gadgets/2026/06/nasas-x-59-frankenjet-tests-supersonic-flight-without-the-sonic-boom/",
+      "raw_summary": "NASA’s quiet supersonic flight tests could eventually go on a national tour.",
+      "source": "Ars Technica - All content",
+      "published": "Mon, 29 Jun 2026 10:30:36 +0000",
+      "summary": "NASA's X-59 \"frankenjet\" tests supersonic flight without the sonic boom\nNASA’s quiet supersonic flight tests could eventually go on a national tour."
     },
     {
       "title": "Why did this journal retract two 1940s papers by Max Planck?",
       "link": "https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/",
-      "raw_summary": "<p>Article URL: <a href=\"https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/\">https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48716634\">https://news.ycombinator.com/item?id=48716634</a></p>\n<p>Points: 126</p>\n<p># Comments: 5</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Mon, 29 Jun 2026 08:58:09 +0000",
-      "summary": "Why did this journal retract two 1940s papers by Max Planck?\n<p>Article URL: <a href=\"https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/\">https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/</a></p>\n<p>"
-    },
-    {
-      "title": "Herdr: Agent multiplexer that lives in your terminal",
-      "link": "https://github.com/ogulcancelik/herdr",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/ogulcancelik/herdr\">https://github.com/ogulcancelik/herdr</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48714802\">https://news.ycombinator.com/item?id=48714802</a></p>\n<p>Points: 69</p>\n<p># Comments: 40</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Mon, 29 Jun 2026 04:27:46 +0000",
-      "summary": "Herdr: Agent multiplexer that lives in your terminal\n<p>Article URL: <a href=\"https://github.com/ogulcancelik/herdr\">https://github.com/ogulcancelik/herdr</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48714802\">https://news.ycombinator.com/item?id=48714802</a></p>\n<p>Points:"
-    },
-    {
-      "title": "Age verification is just a precursor to automated attribution of speech",
-      "link": "https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026",
-      "raw_summary": "<p>Article URL: <a href=\"https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026\">https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48714529\">https://news.ycombinator.com/item?id=48714529</a></p>\n<p>Points: 503</p>\n<p># Comments: 282</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Mon, 29 Jun 2026 03:42:07 +0000",
-      "summary": "Age verification is just a precursor to automated attribution of speech\n<p>Article URL: <a href=\"https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026\">https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026</a></p>\n<p>Comment"
-    },
-    {
-      "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
-      "link": "https://danunparsed.com/p/hackerrank-open-source-ats",
-      "raw_summary": "<p>Article URL: <a href=\"https://danunparsed.com/p/hackerrank-open-source-ats\">https://danunparsed.com/p/hackerrank-open-source-ats</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48713832\">https://news.ycombinator.com/item?id=48713832</a></p>\n<p>Points: 461</p>\n<p># Comments: 173</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Mon, 29 Jun 2026 01:44:40 +0000",
-      "summary": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88\n<p>Article URL: <a href=\"https://danunparsed.com/p/hackerrank-open-source-ats\">https://danunparsed.com/p/hackerrank-open-source-ats</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48713832\">https://n"
-    },
-    {
-      "title": "California law targeting loud streaming ads takes effect on July 1",
-      "link": "https://techcrunch.com/2026/06/28/california-law-targeting-loud-streaming-ads-takes-effect-on-july-1/",
-      "raw_summary": "Streaming ads might be getting a lot quieter.",
-      "source": "TechCrunch",
-      "published": "Sun, 28 Jun 2026 21:34:14 +0000",
-      "summary": "California law targeting loud streaming ads takes effect on July 1\nStreaming ads might be getting a lot quieter."
-    },
-    {
-      "title": "Ford rehires ‘gray beard’ engineers after AI falls short",
-      "link": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
-      "raw_summary": "\"Mistakenly we thought that by just introducing artificial intelligence ... that would produce a high-quality product.”",
-      "source": "TechCrunch",
-      "published": "Sun, 28 Jun 2026 19:05:39 +0000",
-      "summary": "Ford rehires ‘gray beard’ engineers after AI falls short\n\"Mistakenly we thought that by just introducing artificial intelligence ... that would produce a high-quality product.”"
-    },
-    {
-      "title": "Writer Ian Bogost says ‘The Small Stuff’ can help us reclaim our lives from too much convenience",
-      "link": "https://techcrunch.com/2026/06/28/writer-ian-bogost-says-the-small-stuff-can-help-us-reclaim-our-lives-from-dematerialization/",
-      "raw_summary": "Has Silicon Valley been building the wrong things?",
-      "source": "TechCrunch",
-      "published": "Sun, 28 Jun 2026 17:03:16 +0000",
-      "summary": "Writer Ian Bogost says ‘The Small Stuff’ can help us reclaim our lives from too much convenience\nHas Silicon Valley been building the wrong things?"
-    },
-    {
-      "title": "TechCrunch Mobility: All eyes on Tesla FSD",
-      "link": "https://techcrunch.com/2026/06/28/techcrunch-mobility-all-eyes-on-tesla-fsd/",
-      "raw_summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part.",
-      "source": "TechCrunch",
-      "published": "Sun, 28 Jun 2026 16:05:00 +0000",
-      "summary": "TechCrunch Mobility: All eyes on Tesla FSD\nWelcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part."
-    },
-    {
-      "title": "Why Wall Street thinks US memory maker Micron is the next Nvidia",
-      "link": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
-      "raw_summary": "Eager to find more public AI-related companies that may do as well as Nvidia, Wall Street investors think they've found a winner with Micron.",
-      "source": "TechCrunch",
-      "published": "Sun, 28 Jun 2026 15:00:00 +0000",
-      "summary": "Why Wall Street thinks US memory maker Micron is the next Nvidia\nEager to find more public AI-related companies that may do as well as Nvidia, Wall Street investors think they've found a winner with Micron."
+      "raw_summary": "Clicking on the links now reveals blank pages and empty PDFs. \"Intellectually, it’s not acceptable.”",
+      "source": "Ars Technica - All content",
+      "published": "Sun, 28 Jun 2026 18:49:21 +0000",
+      "summary": "Why did this journal retract two 1940s papers by Max Planck?\nClicking on the links now reveals blank pages and empty PDFs. \"Intellectually, it’s not acceptable.”"
     },
     {
       "title": "Apple and Audi alumni have made a luxe EV based on the moon buggy",
@@ -173,146 +197,130 @@
     {
       "title": "South Korea plans to train entire military as \"drone warriors\"",
       "link": "https://arstechnica.com/ai/2026/06/south-korea-plans-to-train-entire-military-as-drone-warriors/",
-      "raw_summary": "Half-million strong military will train on drones as “universal combat tool.”",
+      "raw_summary": "Half-million-strong military will train on drones as “universal combat tool.”",
       "source": "Ars Technica - All content",
       "published": "Fri, 26 Jun 2026 22:19:05 +0000",
-      "summary": "South Korea plans to train entire military as \"drone warriors\"\nHalf-million strong military will train on drones as “universal combat tool.”"
+      "summary": "South Korea plans to train entire military as \"drone warriors\"\nHalf-million-strong military will train on drones as “universal combat tool.”"
     },
     {
-      "title": "Doctors suspected man had brain cancer. He actually had worms.",
-      "link": "https://arstechnica.com/health/2026/06/doctors-suspected-man-had-brain-cancer-he-actually-had-worms/",
-      "raw_summary": "His doctors went looking for cancer, then they saw the worms' heads.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 26 Jun 2026 21:43:57 +0000",
-      "summary": "Doctors suspected man had brain cancer. He actually had worms.\nHis doctors went looking for cancer, then they saw the worms' heads."
-    },
-    {
-      "title": "Streaming services’ obnoxiously loud ads become illegal on July 1 in California",
-      "link": "https://arstechnica.com/gadgets/2026/06/streaming-services-obnoxiously-loud-ads-become-illegal-on-july-1-in-california/",
-      "raw_summary": "Illinois passed a similar law, giving services more incentive to make ads less booming.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 26 Jun 2026 21:12:07 +0000",
-      "summary": "Streaming services’ obnoxiously loud ads become illegal on July 1 in California\nIllinois passed a similar law, giving services more incentive to make ads less booming."
-    },
-    {
-      "title": "FirstFT: AI fuels record number of power sector deals",
-      "link": "https://www.ft.com/content/1efdddb9-e72c-43c4-bbe5-d5e2aba00c1e",
-      "raw_summary": "Also in today’s newsletter: Venezuela’s government faces backlash over earthquake response; and how top executives stay fit",
+      "title": "‘The risk of a deleveraging event is rising’",
+      "link": "https://www.ft.com/content/45a7e7b1-1064-4efe-b5a2-01499f24a1eb",
+      "raw_summary": "Morgan Stanley’s analysts are worried about quarter-end money tightness",
       "source": "World",
-      "published": "Mon, 29 Jun 2026 09:23:32 GMT",
-      "summary": "FirstFT: AI fuels record number of power sector deals\nAlso in today’s newsletter: Venezuela’s government faces backlash over earthquake response; and how top executives stay fit"
+      "published": "Mon, 29 Jun 2026 15:25:17 GMT",
+      "summary": "‘The risk of a deleveraging event is rising’\nMorgan Stanley’s analysts are worried about quarter-end money tightness"
     },
     {
-      "title": "Britain’s case for meaningful devolution is overwhelming",
-      "link": "https://www.ft.com/content/4a5a4764-8a17-4151-b819-72e3e3d807de",
-      "raw_summary": "Andy Burnham is right to argue for a shift in power but he has to manage political risk",
+      "title": "US says it has agreed deal with Iran to halt strikes and resume talks",
+      "link": "https://www.ft.com/content/a1dc9209-ec77-415c-baae-e3ddab5c0eb1",
+      "raw_summary": "White House announces Steve Witkoff and Jared Kushner will fly to Doha for ‘high-level meetings’ but Tehran disputes that further negotiations have been confirmed",
       "source": "World",
-      "published": "Mon, 29 Jun 2026 08:50:19 GMT",
-      "summary": "Britain’s case for meaningful devolution is overwhelming\nAndy Burnham is right to argue for a shift in power but he has to manage political risk"
+      "published": "Mon, 29 Jun 2026 15:23:30 GMT",
+      "summary": "US says it has agreed deal with Iran to halt strikes and resume talks\nWhite House announces Steve Witkoff and Jared Kushner will fly to Doha for ‘high-level meetings’ but Tehran disputes that further negotiations have been confirmed"
     },
     {
-      "title": "Samsung and SK Hynix plan $600bn chipmaking expansion",
-      "link": "https://www.ft.com/content/86013b7e-41da-445a-981c-075a701dccf6",
-      "raw_summary": "Companies to invest alongside South Korean government in factories to meet surging demand for memory chips",
+      "title": "Burnham vows to ‘rewire’ British state",
+      "link": "https://www.ft.com/content/10b1ec7e-a6f6-484b-81a9-214764797a3c",
+      "raw_summary": "UK’s prime minister-in-waiting takes aim at centralisation and promises voters help on living costs",
       "source": "World",
-      "published": "Mon, 29 Jun 2026 07:07:35 GMT",
-      "summary": "Samsung and SK Hynix plan $600bn chipmaking expansion\nCompanies to invest alongside South Korean government in factories to meet surging demand for memory chips"
+      "published": "Mon, 29 Jun 2026 15:16:49 GMT",
+      "summary": "Burnham vows to ‘rewire’ British state\nUK’s prime minister-in-waiting takes aim at centralisation and promises voters help on living costs"
     },
     {
-      "title": "China says it can withstand trade freeze ahead of EU talks",
-      "link": "https://www.ft.com/content/75313f1b-10c2-4ec8-9e5b-ae098a5f9677",
-      "raw_summary": "State media increases pressure in advance of high-stakes negotiations with Brussels",
+      "title": "English cricket thrown into uncertainty by Ben Stokes’ chaotic exit",
+      "link": "https://www.ft.com/content/f4cccc3b-a9cb-401b-8868-8ec13abd3873",
+      "raw_summary": "Abrupt retirement of brilliantly aggressive captain comes after tensions with sport’s hierarchy",
       "source": "World",
-      "published": "Mon, 29 Jun 2026 07:03:08 GMT",
-      "summary": "China says it can withstand trade freeze ahead of EU talks\nState media increases pressure in advance of high-stakes negotiations with Brussels"
+      "published": "Mon, 29 Jun 2026 14:53:13 GMT",
+      "summary": "English cricket thrown into uncertainty by Ben Stokes’ chaotic exit\nAbrupt retirement of brilliantly aggressive captain comes after tensions with sport’s hierarchy"
     },
     {
-      "title": "UK’s Bridgepoint buys real estate unit in $1.4bn bet on US property",
-      "link": "https://www.ft.com/content/567ba6a4-809f-4e8e-a8f3-03855beb9a48",
-      "raw_summary": "Private capital group is looking beyond its traditional speciality in corporate buyouts",
+      "title": "Supreme Court blocks Trump from sacking Fed governor Lisa Cook",
+      "link": "https://www.ft.com/content/84db4001-8c8c-4dfa-9c6f-b501c38bc2fb",
+      "raw_summary": "Justices say the president can fire top regulator in a separate decision",
       "source": "World",
-      "published": "Mon, 29 Jun 2026 06:48:31 GMT",
-      "summary": "UK’s Bridgepoint buys real estate unit in $1.4bn bet on US property\nPrivate capital group is looking beyond its traditional speciality in corporate buyouts"
+      "published": "Mon, 29 Jun 2026 14:29:42 GMT",
+      "summary": "Supreme Court blocks Trump from sacking Fed governor Lisa Cook\nJustices say the president can fire top regulator in a separate decision"
     },
     {
-      "title": "Risks in Focus After US Stocks’ Wild Start to 2026",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-06-29/risks-in-focus-after-us-stocks-wild-start-to-2026",
-      "raw_summary": "Investors are grappling with a series of risks, from AI to rising interest rates and US elections.",
+      "title": "Yen Hits 40-Year Low in Historic Slide That’s Rattled Japan",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-29/yen-jpy-usd-hits-four-decade-low-in-historic-slide-that-s-rattled-japan",
+      "raw_summary": "The yen slid to its weakest level against the dollar since 1986, a milestone that will generate unease in Japan and put traders on high alert for authorities wading into the market.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 29 Jun 2026 10:20:00 GMT",
-      "summary": "Risks in Focus After US Stocks’ Wild Start to 2026\nInvestors are grappling with a series of risks, from AI to rising interest rates and US elections."
+      "published": "Mon, 29 Jun 2026 14:09:50 GMT",
+      "summary": "Yen Hits 40-Year Low in Historic Slide That’s Rattled Japan\nThe yen slid to its weakest level against the dollar since 1986, a milestone that will generate unease in Japan and put traders on high alert for authorities wading into the market."
     },
     {
-      "title": "Dip Buyers Lift US Stocks Despite Rise in Oil: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-28/us-futures-climb-on-reports-peace-talks-to-resume-markets-wrap",
-      "raw_summary": "Bargain hunters are pushing stocks higher at the start of a week in which leaders of the biggest central banks and a busy data calendar will set the tone. Oil rose after a weekend of tensions in the Middle East.",
+      "title": "Del Monte Corporation Reunites After 37 Years",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-29/del-monte-corporation-reunites-after-37-years-video",
+      "raw_summary": "Del Monte Corporation Chairman and CEO Mohammad Abu-Ghazaleh joined Bloomberg Open Interest to explain why the iconic food brand reunited after nearly four decades and discusses easing supply chain pressures. He also reveals some surprising pharmaceutical research using pineapple-derived compounds (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Sun, 28 Jun 2026 22:15:36 GMT",
-      "summary": "Dip Buyers Lift US Stocks Despite Rise in Oil: Markets Wrap\nBargain hunters are pushing stocks higher at the start of a week in which leaders of the biggest central banks and a busy data calendar will set the tone. Oil rose after a weekend of tensions in the Middle East."
+      "published": "Mon, 29 Jun 2026 15:22:32 GMT",
+      "summary": "Del Monte Corporation Reunites After 37 Years\nDel Monte Corporation Chairman and CEO Mohammad Abu-Ghazaleh joined Bloomberg Open Interest to explain why the iconic food brand reunited after nearly four decades and discusses easing supply chain pressures. He also reveals some surprising pharmaceutica"
     },
     {
-      "title": "UK Bond Yields Higher Ahead of Burnham Speech",
-      "link": "https://www.bloomberg.com/news/live-blog/2026-06-29/ftse-100-live-pound-glits-us-iran-talks-hormuz-oil-prices-gold-what-s-moving-uk-markets-right-now-markets-today",
-      "raw_summary": "",
+      "title": "Iger, Kushner Mull Bid for NBA Expansion Team",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-29/iger-kushner-mull-bid-for-nba-expansion-team-video",
+      "raw_summary": "The race to own the NBA's next expansion franchise is heating up. Bloomberg's Randall Williams joins Open Interest to break down why Las Vegas is attracting a crowded field of billionaire bidders, when Adam Silver could make a decision, and how private equity could reshape the economics of professional sports ownership. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Mon, 29 Jun 2026 05:48:25 GMT",
-      "summary": "UK Bond Yields Higher Ahead of Burnham Speech\n"
+      "published": "Mon, 29 Jun 2026 15:21:47 GMT",
+      "summary": "Iger, Kushner Mull Bid for NBA Expansion Team\nThe race to own the NBA's next expansion franchise is heating up. Bloomberg's Randall Williams joins Open Interest to break down why Las Vegas is attracting a crowded field of billionaire bidders, when Adam Silver could make a decision, and how private e"
     },
     {
-      "title": "Gold Drops as Traders Watch Iran Tensions for Inflation Outlook",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-29/gold-declines-as-fresh-us-iran-tension-fans-inflation-concerns",
-      "raw_summary": "Gold fell as the US and Iran agreed to stop attacking each other, following tit-for-tat strikes that tested a fragile truce in a war that has fueled global inflationary pressures.",
+      "title": "Oil Rises as US and Iran Halt Attacks, But Hormuz Traffic Slows",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-28/latest-oil-market-news-and-analysis-for-june-29",
+      "raw_summary": "Oil rose as traders assessed upcoming peace talks between the US and Iran following a weekend of flare-ups over the Strait of Hormuz, including an attack on a supertanker laden with crude.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 29 Jun 2026 00:07:10 GMT",
-      "summary": "Gold Drops as Traders Watch Iran Tensions for Inflation Outlook\nGold fell as the US and Iran agreed to stop attacking each other, following tit-for-tat strikes that tested a fragile truce in a war that has fueled global inflationary pressures."
+      "published": "Sun, 28 Jun 2026 22:01:18 GMT",
+      "summary": "Oil Rises as US and Iran Halt Attacks, But Hormuz Traffic Slows\nOil rose as traders assessed upcoming peace talks between the US and Iran following a weekend of flare-ups over the Strait of Hormuz, including an attack on a supertanker laden with crude."
     },
     {
-      "title": "US and Iran Agree to Halt Attacks Ahead of Talks",
-      "link": "https://www.bloomberg.com/news/videos/2026-06-29/us-and-iran-agree-to-halt-attacks-ahead-of-talks-video-mqz1a8xz",
-      "raw_summary": "The US and Iran have agreed to stop attacking each other before peace talks resume this week over the Strait of Hormuz and other issues.\n\nIt follows days of tit-for-tat attacks that risk slowing progress toward restoring traffic through the vital waterway. (Source: Bloomberg)",
+      "title": "Verizon, BT Merge International Units in Home Markets Pivot",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-29/verizon-bt-are-said-to-near-jv-deal-for-international-business",
+      "raw_summary": "Verizon Communications Inc. and the UK’s BT Group Plc agreed to create a joint venture for their international businesses in a merger that will take the low-margin units off their books and allow the carriers to focus on their home markets.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 29 Jun 2026 09:47:02 GMT",
-      "summary": "US and Iran Agree to Halt Attacks Ahead of Talks\nThe US and Iran have agreed to stop attacking each other before peace talks resume this week over the Strait of Hormuz and other issues.\n\nIt follows days of tit-for-tat attacks that risk slowing progress toward restoring traffic through the vital wate"
+      "published": "Mon, 29 Jun 2026 05:45:00 GMT",
+      "summary": "Verizon, BT Merge International Units in Home Markets Pivot\nVerizon Communications Inc. and the UK’s BT Group Plc agreed to create a joint venture for their international businesses in a merger that will take the low-margin units off their books and allow the carriers to focus on their home markets."
     },
     {
-      "title": "Europe’s unlicensed crypto firms face ‘wipeout’ as MiCA deadline hits",
-      "link": "https://www.coindesk.com/policy/2026/06/29/europe-s-unlicensed-crypto-firms-face-wipeout-as-final-regulatory-deadline-falls",
+      "title": "White House to speak with law enforcement groups to push Crypto's Clarity Act",
+      "link": "https://www.coindesk.com/policy/2026/06/29/white-house-to-speak-with-law-enforcement-groups-to-push-crypto-s-clarity-act",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 29 Jun 2026 10:01:23 +0000",
-      "summary": "Europe’s unlicensed crypto firms face ‘wipeout’ as MiCA deadline hits\n"
+      "published": "Mon, 29 Jun 2026 15:23:51 +0000",
+      "summary": "White House to speak with law enforcement groups to push Crypto's Clarity Act\n"
     },
     {
-      "title": "Bitcoin falls into a technical no man’s land as major support levels sit miles away",
-      "link": "https://www.coindesk.com/markets/2026/06/29/bitcoin-falls-into-a-technical-no-man-s-land-as-major-support-levels-sit-miles-away",
+      "title": "J.P. Morgan broadens blockchain settlement network as banks modernize cross-border payments",
+      "link": "https://www.coindesk.com/business/2026/06/29/j-p-morgan-broadens-blockchain-settlement-network-as-banks-modernize-cross-border-payments",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 29 Jun 2026 09:40:18 +0000",
-      "summary": "Bitcoin falls into a technical no man’s land as major support levels sit miles away\n"
+      "published": "Mon, 29 Jun 2026 15:23:36 +0000",
+      "summary": "J.P. Morgan broadens blockchain settlement network as banks modernize cross-border payments\n"
     },
     {
-      "title": "New MiCA regime in Europe, U.S. jobs report for June: Crypto Week Ahead",
-      "link": "https://www.coindesk.com/markets/2026/06/29/new-mica-regime-in-europe-u-s-jobs-report-for-june-crypto-week-ahead",
+      "title": "Crypto analytics firm Chainalysis proposes standards for blockchain tracing",
+      "link": "https://www.coindesk.com/policy/2026/06/29/crypto-analytics-firm-chainalysis-proposes-standards-for-blockchain-tracing",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 29 Jun 2026 09:08:25 +0000",
-      "summary": "New MiCA regime in Europe, U.S. jobs report for June: Crypto Week Ahead\n"
+      "published": "Mon, 29 Jun 2026 15:07:49 +0000",
+      "summary": "Crypto analytics firm Chainalysis proposes standards for blockchain tracing\n"
     },
     {
-      "title": "BIS warns stablecoins are more like ETFs than actual money, and they're creating FX risk",
-      "link": "https://www.coindesk.com/markets/2026/06/29/bis-warns-stablecoins-are-more-like-etfs-than-actual-money-and-they-re-creating-fx-risk",
+      "title": "MiCA July 1 deadline could leave 10 million crypto users searching for a new platform in the EU",
+      "link": "https://www.coindesk.com/business/2026/06/29/mica-july-1-deadline-could-leave-10-million-crypto-users-searching-for-a-new-platform-in-the-eu",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 29 Jun 2026 08:51:57 +0000",
-      "summary": "BIS warns stablecoins are more like ETFs than actual money, and they're creating FX risk\n"
+      "published": "Mon, 29 Jun 2026 15:03:53 +0000",
+      "summary": "MiCA July 1 deadline could leave 10 million crypto users searching for a new platform in the EU\n"
     },
     {
-      "title": "Crypto exchange BitMEX loses CEO, CFO and head of growth",
-      "link": "https://www.coindesk.com/business/2026/06/29/crypto-exchange-bitmex-removes-ceo-cfo-and-head-of-growth",
+      "title": "Ripple wants institutions to borrow against tokenized assets on XRPL",
+      "link": "https://www.coindesk.com/tech/2026/06/29/emb-3-pm-utc-ripple-wants-institutions-to-borrow-against-tokenized-assets-on-xrpl",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 29 Jun 2026 07:03:51 +0000",
-      "summary": "Crypto exchange BitMEX loses CEO, CFO and head of growth\n"
+      "published": "Mon, 29 Jun 2026 15:00:00 +0000",
+      "summary": "Ripple wants institutions to borrow against tokenized assets on XRPL\n"
     }
   ]
 }
