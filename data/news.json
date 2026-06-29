@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-29T02:43:51.728095+00:00",
-  "count": 40,
+  "generated_at": "2026-06-29T10:26:31.528482+00:00",
+  "count": 39,
   "articles": [
     {
       "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
@@ -43,6 +43,30 @@
       "summary": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts\nThe Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages over the weekend, after instructions began circulating on Telegram showing h"
     },
     {
+      "title": "Microsoft Removes 119 Edge Extensions That Hid Malware in Images and Fonts",
+      "link": "https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html",
+      "raw_summary": "Microsoft has shut down a long-running malicious extension operation on the Edge Add-ons store that hid its payloads inside ordinary image and font files, then woke up days after install to steal credentials and run ad fraud.\n\nThe company calls it&nbsp;StegoAd, a mash-up of steganography and adware, and ties 119 extensions to a single threat actor it says has been active since at least 2021.",
+      "source": "The Hacker News",
+      "published": "Mon, 29 Jun 2026 14:02:31 +0530",
+      "summary": "Microsoft Removes 119 Edge Extensions That Hid Malware in Images and Fonts\nMicrosoft has shut down a long-running malicious extension operation on the Edge Add-ons store that hid its payloads inside ordinary image and font files, then woke up days after install to steal credentials and run ad fraud."
+    },
+    {
+      "title": "Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw",
+      "link": "https://thehackernews.com/2026/06/public-poc-released-for-critical.html",
+      "raw_summary": "A public proof-of-concept is now out for CVE-2026-55200, a critical flaw in libssh2 that lets a malicious or compromised SSH server trigger memory corruption on a connecting client, with possible code execution. No credentials, no user interaction. The bug affects every release up to and including 1.11.1 and carries a CVSS 4.0 score of 9.2.\n\nlibssh2 is a client-side SSH library, not a server.",
+      "source": "The Hacker News",
+      "published": "Mon, 29 Jun 2026 12:36:34 +0530",
+      "summary": "Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw\nA public proof-of-concept is now out for CVE-2026-55200, a critical flaw in libssh2 that lets a malicious or compromised SSH server trigger memory corruption on a connecting client, with possible code execution. No credenti"
+    },
+    {
+      "title": "Hijacked npm and Go Packages Use VS Code Tasks to Deploy Python Infostealer",
+      "link": "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html",
+      "raw_summary": "Cybersecurity researchers have uncovered two hijacked npm packages and a cluster of Go packages that are designed to deploy a Python-based information stealer on compromised Windows, Linux, and macOS hosts.\n\n\"This attack avoids the most common npm execution paths through lifecycle scripts, perhaps in an attempt to remain 'compatible' with npm v12's security hardenings,\" JFrog said in a",
+      "source": "The Hacker News",
+      "published": "Mon, 29 Jun 2026 11:06:06 +0530",
+      "summary": "Hijacked npm and Go Packages Use VS Code Tasks to Deploy Python Infostealer\nCybersecurity researchers have uncovered two hijacked npm packages and a cluster of Go packages that are designed to deploy a Python-based information stealer on compromised Windows, Linux, and macOS hosts.\n\n\"This attack avo"
+    },
+    {
       "title": "Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials",
       "link": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
       "raw_summary": "The Security Service of Ukraine (SSU) said it, together with the U.S. Federal Bureau of Investigation (FBI), uncovered a long-running campaign orchestrated by Russian intelligence services to break into the messaging accounts of government officials, military personnel, politicians, and activists in Ukraine, Europe, and the U.S.\n\nThe systematic cyber attacks aimed at stealing sensitive",
@@ -59,68 +83,44 @@
       "summary": "OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards\nOpenAI on Friday released three versions of GPT-5.6, called Sol, Terra, and Luna, as a limited preview to a small number of companies as part of an ongoing engagement with the U.S. government.\n\nWhile Sol is the latest f"
     },
     {
-      "title": "FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys",
-      "link": "https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html",
-      "raw_summary": "The FBI and CISA have updated&nbsp;their March warning&nbsp;about Russian intelligence phishing Signal accounts, and the operators have added a step: they now coax targets into handing over their Signal Backup Recovery Key.\n\nHand it over once, and the attacker can restore the account's backup, read the private and group message history, and take over the account. Worse, the key keeps working.",
-      "source": "The Hacker News",
-      "published": "Sat, 27 Jun 2026 01:08:29 +0530",
-      "summary": "FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys\nThe FBI and CISA have updated&nbsp;their March warning&nbsp;about Russian intelligence phishing Signal accounts, and the operators have added a step: they now coax targets into handing over their Signal Backup Recovery Key.\n\nH"
-    },
-    {
-      "title": "New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks",
-      "link": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
-      "raw_summary": "A newly discovered cyber attack campaign has been observed delivering a previously undocumented malware family called SharkLoader that acts as a loader for deploying Cobalt Strike Beacon on compromised hosts.\n\nKaspersky, which is tracking the activity under the moniker StrikeShark, said the campaign has targeted a diplomatic organization in Indonesia, government organizations in Taiwan,",
-      "source": "The Hacker News",
-      "published": "Fri, 26 Jun 2026 23:47:46 +0530",
-      "summary": "New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks\nA newly discovered cyber attack campaign has been observed delivering a previously undocumented malware family called SharkLoader that acts as a loader for deploying Cobalt Strike Beacon on compromised hosts.\n\nKaspersky, which"
-    },
-    {
-      "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
-      "link": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
-      "raw_summary": "A Chinese-speaking advanced persistent threat (APT) actor has been linked to a new custom backdoor called TinyRCT as part of cyber attacks aimed at government entities and critical infrastructure in Southeast Asia.\n\nThe activity, particularly aimed at state-owned enterprises in the energy and government sectors, has been attributed to a threat actor called CL-STA-1062, which Palo Alto Networks",
-      "source": "The Hacker News",
-      "published": "Fri, 26 Jun 2026 21:51:25 +0530",
-      "summary": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign\nA Chinese-speaking advanced persistent threat (APT) actor has been linked to a new custom backdoor called TinyRCT as part of cyber attacks aimed at government entities and critical infrastructure in Southeast Asia.\n\nThe act"
-    },
-    {
-      "title": "AI boom risks global financial crash, warn central bankers",
-      "link": "https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/\">https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48713697\">https://news.ycombinator.com/item?id=48713697</a></p>\n<p>Points: 28</p>\n<p># Comments: 13</p>",
+      "title": "Pollen (CEO Negus-Fancey, CTO Wright) tried to remove article, and Google helped",
+      "link": "https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/\">https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48716902\">https://news.ycombinator.com/item?id=48716902</a></p>\n<p>Points: 63</p>\n<p># Comments: 7</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 29 Jun 2026 01:25:04 +0000",
-      "summary": "AI boom risks global financial crash, warn central bankers\n<p>Article URL: <a href=\"https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/\">https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/</"
+      "published": "Mon, 29 Jun 2026 09:28:08 +0000",
+      "summary": "Pollen (CEO Negus-Fancey, CTO Wright) tried to remove article, and Google helped\n<p>Article URL: <a href=\"https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/\">https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-articl"
     },
     {
-      "title": "Better Images of AI",
-      "link": "https://betterimagesofai.org/",
-      "raw_summary": "<p>Article URL: <a href=\"https://betterimagesofai.org/\">https://betterimagesofai.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48713051\">https://news.ycombinator.com/item?id=48713051</a></p>\n<p>Points: 15</p>\n<p># Comments: 9</p>",
+      "title": "Why did this journal retract two 1940s papers by Max Planck?",
+      "link": "https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/",
+      "raw_summary": "<p>Article URL: <a href=\"https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/\">https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48716634\">https://news.ycombinator.com/item?id=48716634</a></p>\n<p>Points: 126</p>\n<p># Comments: 5</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 28 Jun 2026 23:50:58 +0000",
-      "summary": "Better Images of AI\n<p>Article URL: <a href=\"https://betterimagesofai.org/\">https://betterimagesofai.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48713051\">https://news.ycombinator.com/item?id=48713051</a></p>\n<p>Points: 15</p>\n<p># Comments: 9</p>"
+      "published": "Mon, 29 Jun 2026 08:58:09 +0000",
+      "summary": "Why did this journal retract two 1940s papers by Max Planck?\n<p>Article URL: <a href=\"https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/\">https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/</a></p>\n<p>"
     },
     {
-      "title": "Knowledge Distillation of Black-Box Large Language Models (2024)",
-      "link": "https://arxiv.org/abs/2401.07013",
-      "raw_summary": "<p>Article URL: <a href=\"https://arxiv.org/abs/2401.07013\">https://arxiv.org/abs/2401.07013</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48712420\">https://news.ycombinator.com/item?id=48712420</a></p>\n<p>Points: 54</p>\n<p># Comments: 12</p>",
+      "title": "Herdr: Agent multiplexer that lives in your terminal",
+      "link": "https://github.com/ogulcancelik/herdr",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/ogulcancelik/herdr\">https://github.com/ogulcancelik/herdr</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48714802\">https://news.ycombinator.com/item?id=48714802</a></p>\n<p>Points: 69</p>\n<p># Comments: 40</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 28 Jun 2026 22:32:04 +0000",
-      "summary": "Knowledge Distillation of Black-Box Large Language Models (2024)\n<p>Article URL: <a href=\"https://arxiv.org/abs/2401.07013\">https://arxiv.org/abs/2401.07013</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48712420\">https://news.ycombinator.com/item?id=48712420</a></p>\n<p>Point"
+      "published": "Mon, 29 Jun 2026 04:27:46 +0000",
+      "summary": "Herdr: Agent multiplexer that lives in your terminal\n<p>Article URL: <a href=\"https://github.com/ogulcancelik/herdr\">https://github.com/ogulcancelik/herdr</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48714802\">https://news.ycombinator.com/item?id=48714802</a></p>\n<p>Points:"
     },
     {
-      "title": "Xonaly – Canada's Independent Search Engine",
-      "link": "https://xonaly.com/",
-      "raw_summary": "<p>Article URL: <a href=\"https://xonaly.com/\">https://xonaly.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48712324\">https://news.ycombinator.com/item?id=48712324</a></p>\n<p>Points: 59</p>\n<p># Comments: 38</p>",
+      "title": "Age verification is just a precursor to automated attribution of speech",
+      "link": "https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026",
+      "raw_summary": "<p>Article URL: <a href=\"https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026\">https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48714529\">https://news.ycombinator.com/item?id=48714529</a></p>\n<p>Points: 503</p>\n<p># Comments: 282</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 28 Jun 2026 22:20:56 +0000",
-      "summary": "Xonaly – Canada's Independent Search Engine\n<p>Article URL: <a href=\"https://xonaly.com/\">https://xonaly.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48712324\">https://news.ycombinator.com/item?id=48712324</a></p>\n<p>Points: 59</p>\n<p># Comments: 38</p>"
+      "published": "Mon, 29 Jun 2026 03:42:07 +0000",
+      "summary": "Age verification is just a precursor to automated attribution of speech\n<p>Article URL: <a href=\"https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026\">https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026</a></p>\n<p>Comment"
     },
     {
-      "title": "POSIX Is Not a Shell",
-      "link": "https://alganet.github.io/blog/2026-06-28-12-POSIX-Is-Not-A-Shell.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://alganet.github.io/blog/2026-06-28-12-POSIX-Is-Not-A-Shell.html\">https://alganet.github.io/blog/2026-06-28-12-POSIX-Is-Not-A-Shell.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48711403\">https://news.ycombinator.com/item?id=48711403</a></p>\n<p>Points: 41</p>\n<p># Comments: 28</p>",
+      "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
+      "link": "https://danunparsed.com/p/hackerrank-open-source-ats",
+      "raw_summary": "<p>Article URL: <a href=\"https://danunparsed.com/p/hackerrank-open-source-ats\">https://danunparsed.com/p/hackerrank-open-source-ats</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48713832\">https://news.ycombinator.com/item?id=48713832</a></p>\n<p>Points: 461</p>\n<p># Comments: 173</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 28 Jun 2026 20:39:50 +0000",
-      "summary": "POSIX Is Not a Shell\n<p>Article URL: <a href=\"https://alganet.github.io/blog/2026-06-28-12-POSIX-Is-Not-A-Shell.html\">https://alganet.github.io/blog/2026-06-28-12-POSIX-Is-Not-A-Shell.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48711403\">https://news.ycombinator.com/i"
+      "published": "Mon, 29 Jun 2026 01:44:40 +0000",
+      "summary": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88\n<p>Article URL: <a href=\"https://danunparsed.com/p/hackerrank-open-source-ats\">https://danunparsed.com/p/hackerrank-open-source-ats</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48713832\">https://n"
     },
     {
       "title": "California law targeting loud streaming ads takes effect on July 1",
@@ -163,14 +163,6 @@
       "summary": "Why Wall Street thinks US memory maker Micron is the next Nvidia\nEager to find more public AI-related companies that may do as well as Nvidia, Wall Street investors think they've found a winner with Micron."
     },
     {
-      "title": "Why did this journal retract two 1940s papers by Max Planck?",
-      "link": "https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/",
-      "raw_summary": "Clicking on the links now reveals blank pages and empty PDFs. \"Intellectually, it’s not acceptable.”",
-      "source": "Ars Technica - All content",
-      "published": "Sun, 28 Jun 2026 18:49:21 +0000",
-      "summary": "Why did this journal retract two 1940s papers by Max Planck?\nClicking on the links now reveals blank pages and empty PDFs. \"Intellectually, it’s not acceptable.”"
-    },
-    {
       "title": "Apple and Audi alumni have made a luxe EV based on the moon buggy",
       "link": "https://arstechnica.com/cars/2026/06/apple-and-audi-alumni-have-made-a-luxe-ev-based-on-the-moon-buggy/",
       "raw_summary": "The Amble One is a street-legal $25,000 electric buggy designed for luxury resorts.",
@@ -203,124 +195,124 @@
       "summary": "Streaming services’ obnoxiously loud ads become illegal on July 1 in California\nIllinois passed a similar law, giving services more incentive to make ads less booming."
     },
     {
-      "title": "US says it has agreed deal with Iran to halt strikes and resume talks",
-      "link": "https://www.ft.com/content/a1dc9209-ec77-415c-baae-e3ddab5c0eb1",
-      "raw_summary": "Tehran yet to confirm end of tit-for-tat attacks that threaten fragile truce in Strait of Hormuz",
-      "source": "World",
-      "published": "Mon, 29 Jun 2026 02:37:25 GMT",
-      "summary": "US says it has agreed deal with Iran to halt strikes and resume talks\nTehran yet to confirm end of tit-for-tat attacks that threaten fragile truce in Strait of Hormuz"
-    },
-    {
-      "title": "Sovereign funds move from public markets to private to ride AI wave",
-      "link": "https://www.ft.com/content/8ea5b49f-e115-4e18-8c14-c426fcac27ba",
-      "raw_summary": "High concentration in stock markets and national security concerns send SWFs to private credit and infrastructure",
-      "source": "World",
-      "published": "Sun, 28 Jun 2026 23:01:02 GMT",
-      "summary": "Sovereign funds move from public markets to private to ride AI wave\nHigh concentration in stock markets and national security concerns send SWFs to private credit and infrastructure"
-    },
-    {
-      "title": "Putin says Russia faces fuel shortages as Ukrainian drones strike refineries",
-      "link": "https://www.ft.com/content/b6a405a1-876d-4844-8ca9-8bc19b58a2b2",
-      "raw_summary": "President’s comments are first admission that Kyiv’s long-range attacks have dented production",
-      "source": "World",
-      "published": "Sun, 28 Jun 2026 22:28:40 GMT",
-      "summary": "Putin says Russia faces fuel shortages as Ukrainian drones strike refineries\nPresident’s comments are first admission that Kyiv’s long-range attacks have dented production"
-    },
-    {
-      "title": "FirstFT: AI ‘exuberance’ threatens the global economy, BIS warns",
+      "title": "FirstFT: AI fuels record number of power sector deals",
       "link": "https://www.ft.com/content/1efdddb9-e72c-43c4-bbe5-d5e2aba00c1e",
-      "raw_summary": "Also in today’s newsletter: Aramco helicopter crashes at Saudi port, and Indian snack giant Haldiram’s preparing European expansion",
+      "raw_summary": "Also in today’s newsletter: Venezuela’s government faces backlash over earthquake response; and how top executives stay fit",
       "source": "World",
-      "published": "Sun, 28 Jun 2026 21:32:25 GMT",
-      "summary": "FirstFT: AI ‘exuberance’ threatens the global economy, BIS warns\nAlso in today’s newsletter: Aramco helicopter crashes at Saudi port, and Indian snack giant Haldiram’s preparing European expansion"
+      "published": "Mon, 29 Jun 2026 09:23:32 GMT",
+      "summary": "FirstFT: AI fuels record number of power sector deals\nAlso in today’s newsletter: Venezuela’s government faces backlash over earthquake response; and how top executives stay fit"
     },
     {
-      "title": "Andy Burnham sets out ‘10-year mission’ to raise living standards",
-      "link": "https://www.ft.com/content/bff84ab6-7458-49ba-a21a-25883027a86e",
-      "raw_summary": "Prime minister-in-waiting will also pledge to go further on devolution as scrutiny grows over his likely policies",
+      "title": "Britain’s case for meaningful devolution is overwhelming",
+      "link": "https://www.ft.com/content/4a5a4764-8a17-4151-b819-72e3e3d807de",
+      "raw_summary": "Andy Burnham is right to argue for a shift in power but he has to manage political risk",
       "source": "World",
-      "published": "Sun, 28 Jun 2026 21:00:02 GMT",
-      "summary": "Andy Burnham sets out ‘10-year mission’ to raise living standards\nPrime minister-in-waiting will also pledge to go further on devolution as scrutiny grows over his likely policies"
+      "published": "Mon, 29 Jun 2026 08:50:19 GMT",
+      "summary": "Britain’s case for meaningful devolution is overwhelming\nAndy Burnham is right to argue for a shift in power but he has to manage political risk"
     },
     {
-      "title": "Indian Rupee Leads Asian Peers on Falling Crude, Capital Push",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-06-29/rupee-is-asia-s-best-performing-currency-in-june",
-      "raw_summary": "The RBI may need to let the rupee rise further before resuming dollars purchases.",
+      "title": "Samsung and SK Hynix plan $600bn chipmaking expansion",
+      "link": "https://www.ft.com/content/86013b7e-41da-445a-981c-075a701dccf6",
+      "raw_summary": "Companies to invest alongside South Korean government in factories to meet surging demand for memory chips",
+      "source": "World",
+      "published": "Mon, 29 Jun 2026 07:07:35 GMT",
+      "summary": "Samsung and SK Hynix plan $600bn chipmaking expansion\nCompanies to invest alongside South Korean government in factories to meet surging demand for memory chips"
+    },
+    {
+      "title": "China says it can withstand trade freeze ahead of EU talks",
+      "link": "https://www.ft.com/content/75313f1b-10c2-4ec8-9e5b-ae098a5f9677",
+      "raw_summary": "State media increases pressure in advance of high-stakes negotiations with Brussels",
+      "source": "World",
+      "published": "Mon, 29 Jun 2026 07:03:08 GMT",
+      "summary": "China says it can withstand trade freeze ahead of EU talks\nState media increases pressure in advance of high-stakes negotiations with Brussels"
+    },
+    {
+      "title": "UK’s Bridgepoint buys real estate unit in $1.4bn bet on US property",
+      "link": "https://www.ft.com/content/567ba6a4-809f-4e8e-a8f3-03855beb9a48",
+      "raw_summary": "Private capital group is looking beyond its traditional speciality in corporate buyouts",
+      "source": "World",
+      "published": "Mon, 29 Jun 2026 06:48:31 GMT",
+      "summary": "UK’s Bridgepoint buys real estate unit in $1.4bn bet on US property\nPrivate capital group is looking beyond its traditional speciality in corporate buyouts"
+    },
+    {
+      "title": "Risks in Focus After US Stocks’ Wild Start to 2026",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-06-29/risks-in-focus-after-us-stocks-wild-start-to-2026",
+      "raw_summary": "Investors are grappling with a series of risks, from AI to rising interest rates and US elections.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 29 Jun 2026 02:40:38 GMT",
-      "summary": "Indian Rupee Leads Asian Peers on Falling Crude, Capital Push\nThe RBI may need to let the rupee rise further before resuming dollars purchases."
+      "published": "Mon, 29 Jun 2026 10:20:00 GMT",
+      "summary": "Risks in Focus After US Stocks’ Wild Start to 2026\nInvestors are grappling with a series of risks, from AI to rising interest rates and US elections."
     },
     {
-      "title": "US Stock Futures Advance, Oil Pares Gain on Iran: Markets Wrap",
+      "title": "Dip Buyers Lift US Stocks Despite Rise in Oil: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-06-28/us-futures-climb-on-reports-peace-talks-to-resume-markets-wrap",
-      "raw_summary": "US equity-index futures rose after reports the US and Iran backed away from a fresh escalation of their conflict, easing concerns over the fragile ceasefire underpinning peace talks.",
+      "raw_summary": "Bargain hunters are pushing stocks higher at the start of a week in which leaders of the biggest central banks and a busy data calendar will set the tone. Oil rose after a weekend of tensions in the Middle East.",
       "source": "Bloomberg Markets",
       "published": "Sun, 28 Jun 2026 22:15:36 GMT",
-      "summary": "US Stock Futures Advance, Oil Pares Gain on Iran: Markets Wrap\nUS equity-index futures rose after reports the US and Iran backed away from a fresh escalation of their conflict, easing concerns over the fragile ceasefire underpinning peace talks."
+      "summary": "Dip Buyers Lift US Stocks Despite Rise in Oil: Markets Wrap\nBargain hunters are pushing stocks higher at the start of a week in which leaders of the biggest central banks and a busy data calendar will set the tone. Oil rose after a weekend of tensions in the Middle East."
     },
     {
-      "title": "PBOC Surprises by Withholding Rate on Debut Overnight Operation",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-29/pboc-debuts-overnight-operation-surprises-with-no-rate-released",
-      "raw_summary": "China’s central bank held its debut overnight reverse repo operation without disclosing the rate of interest it charged on its new instrument, in a surprise move to traders awaiting guidance on borrowing costs.",
+      "title": "UK Bond Yields Higher Ahead of Burnham Speech",
+      "link": "https://www.bloomberg.com/news/live-blog/2026-06-29/ftse-100-live-pound-glits-us-iran-talks-hormuz-oil-prices-gold-what-s-moving-uk-markets-right-now-markets-today",
+      "raw_summary": "",
       "source": "Bloomberg Markets",
-      "published": "Mon, 29 Jun 2026 01:41:56 GMT",
-      "summary": "PBOC Surprises by Withholding Rate on Debut Overnight Operation\nChina’s central bank held its debut overnight reverse repo operation without disclosing the rate of interest it charged on its new instrument, in a surprise move to traders awaiting guidance on borrowing costs."
+      "published": "Mon, 29 Jun 2026 05:48:25 GMT",
+      "summary": "UK Bond Yields Higher Ahead of Burnham Speech\n"
     },
     {
-      "title": "China Says Tech Growth a Challenge to Predicting Energy Demand",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-29/china-says-tech-growth-a-challenge-to-predicting-energy-demand",
-      "raw_summary": "China faces greater uncertainty in forecasting energy demand as structural changes in the economy and the rapid expansion of new industries reshape consumption patterns, according to a top government official.",
+      "title": "Gold Drops as Traders Watch Iran Tensions for Inflation Outlook",
+      "link": "https://www.bloomberg.com/news/articles/2026-06-29/gold-declines-as-fresh-us-iran-tension-fans-inflation-concerns",
+      "raw_summary": "Gold fell as the US and Iran agreed to stop attacking each other, following tit-for-tat strikes that tested a fragile truce in a war that has fueled global inflationary pressures.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 29 Jun 2026 01:53:35 GMT",
-      "summary": "China Says Tech Growth a Challenge to Predicting Energy Demand\nChina faces greater uncertainty in forecasting energy demand as structural changes in the economy and the rapid expansion of new industries reshape consumption patterns, according to a top government official."
+      "published": "Mon, 29 Jun 2026 00:07:10 GMT",
+      "summary": "Gold Drops as Traders Watch Iran Tensions for Inflation Outlook\nGold fell as the US and Iran agreed to stop attacking each other, following tit-for-tat strikes that tested a fragile truce in a war that has fueled global inflationary pressures."
     },
     {
-      "title": "Pakistan Says Strikes Along Afghan Border Kill 29 Militants",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-29/pakistan-says-strikes-along-afghan-border-kill-29-militants",
-      "raw_summary": "Pakistan said it carried out an intelligence-based ground operation and “precision” airstrikes along its border with Afghanistan, killing 29 militants in response to earlier deadly attacks.",
+      "title": "US and Iran Agree to Halt Attacks Ahead of Talks",
+      "link": "https://www.bloomberg.com/news/videos/2026-06-29/us-and-iran-agree-to-halt-attacks-ahead-of-talks-video-mqz1a8xz",
+      "raw_summary": "The US and Iran have agreed to stop attacking each other before peace talks resume this week over the Strait of Hormuz and other issues.\n\nIt follows days of tit-for-tat attacks that risk slowing progress toward restoring traffic through the vital waterway. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Mon, 29 Jun 2026 01:44:49 GMT",
-      "summary": "Pakistan Says Strikes Along Afghan Border Kill 29 Militants\nPakistan said it carried out an intelligence-based ground operation and “precision” airstrikes along its border with Afghanistan, killing 29 militants in response to earlier deadly attacks."
+      "published": "Mon, 29 Jun 2026 09:47:02 GMT",
+      "summary": "US and Iran Agree to Halt Attacks Ahead of Talks\nThe US and Iran have agreed to stop attacking each other before peace talks resume this week over the Strait of Hormuz and other issues.\n\nIt follows days of tit-for-tat attacks that risk slowing progress toward restoring traffic through the vital wate"
     },
     {
-      "title": "CZ wants to make the U.S. the 'capital of crypto': State of Crypto",
-      "link": "https://www.coindesk.com/policy/2026/06/28/cz-wants-to-make-the-u-s-the-capital-of-crypto-state-of-crypto",
+      "title": "Europe’s unlicensed crypto firms face ‘wipeout’ as MiCA deadline hits",
+      "link": "https://www.coindesk.com/policy/2026/06/29/europe-s-unlicensed-crypto-firms-face-wipeout-as-final-regulatory-deadline-falls",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 28 Jun 2026 19:30:00 +0000",
-      "summary": "CZ wants to make the U.S. the 'capital of crypto': State of Crypto\n"
+      "published": "Mon, 29 Jun 2026 10:01:23 +0000",
+      "summary": "Europe’s unlicensed crypto firms face ‘wipeout’ as MiCA deadline hits\n"
     },
     {
-      "title": "Samson Mow says bitcoin bottom is in despite skepticism from analysts",
-      "link": "https://www.coindesk.com/markets/2026/06/28/samson-mow-says-bitcoin-bottom-is-in-but-analysts-remain-divided",
+      "title": "Bitcoin falls into a technical no man’s land as major support levels sit miles away",
+      "link": "https://www.coindesk.com/markets/2026/06/29/bitcoin-falls-into-a-technical-no-man-s-land-as-major-support-levels-sit-miles-away",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 28 Jun 2026 15:07:12 +0000",
-      "summary": "Samson Mow says bitcoin bottom is in despite skepticism from analysts\n"
+      "published": "Mon, 29 Jun 2026 09:40:18 +0000",
+      "summary": "Bitcoin falls into a technical no man’s land as major support levels sit miles away\n"
     },
     {
-      "title": "Michael Saylor teases more bitcoin buying even as Strategy stock continues to fall",
-      "link": "https://www.coindesk.com/markets/2026/06/28/michael-saylor-teases-more-bitcoin-buying-even-as-strategy-stock-continues-to-fall",
+      "title": "New MiCA regime in Europe, U.S. jobs report for June: Crypto Week Ahead",
+      "link": "https://www.coindesk.com/markets/2026/06/29/new-mica-regime-in-europe-u-s-jobs-report-for-june-crypto-week-ahead",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 28 Jun 2026 15:02:43 +0000",
-      "summary": "Michael Saylor teases more bitcoin buying even as Strategy stock continues to fall\n"
+      "published": "Mon, 29 Jun 2026 09:08:25 +0000",
+      "summary": "New MiCA regime in Europe, U.S. jobs report for June: Crypto Week Ahead\n"
     },
     {
-      "title": "SBI's $289 million Bitbank deal is symptomatic of Japan's crypto consolidation: Architect Partners",
-      "link": "https://www.coindesk.com/business/2026/06/28/sbi-s-usd289-million-bitbank-deal-is-symptomatic-of-japan-s-crypto-consolidation-architect-partners",
+      "title": "BIS warns stablecoins are more like ETFs than actual money, and they're creating FX risk",
+      "link": "https://www.coindesk.com/markets/2026/06/29/bis-warns-stablecoins-are-more-like-etfs-than-actual-money-and-they-re-creating-fx-risk",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 28 Jun 2026 15:00:00 +0000",
-      "summary": "SBI's $289 million Bitbank deal is symptomatic of Japan's crypto consolidation: Architect Partners\n"
+      "published": "Mon, 29 Jun 2026 08:51:57 +0000",
+      "summary": "BIS warns stablecoins are more like ETFs than actual money, and they're creating FX risk\n"
     },
     {
-      "title": "Crypto's next frontier isn't crypto, it's financing AI and robotics, Framework's Anderson says",
-      "link": "https://www.coindesk.com/business/2026/06/28/crypto-s-next-frontier-isn-t-crypto-it-s-financing-ai-and-robotics-framework-s-anderson-says",
+      "title": "Crypto exchange BitMEX loses CEO, CFO and head of growth",
+      "link": "https://www.coindesk.com/business/2026/06/29/crypto-exchange-bitmex-removes-ceo-cfo-and-head-of-growth",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 28 Jun 2026 13:00:00 +0000",
-      "summary": "Crypto's next frontier isn't crypto, it's financing AI and robotics, Framework's Anderson says\n"
+      "published": "Mon, 29 Jun 2026 07:03:51 +0000",
+      "summary": "Crypto exchange BitMEX loses CEO, CFO and head of growth\n"
     }
   ]
 }
