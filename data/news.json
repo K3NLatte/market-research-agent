@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T08:43:45.870450+00:00",
+  "generated_at": "2026-07-02T13:41:41.852213+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts\nThe Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages over the weekend, after instructions began circulating on Telegram showing h"
     },
     {
+      "title": "ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API",
+      "link": "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html",
+      "raw_summary": "The threat actor known as ToddyCat has been attributed to a new malware called Umbrij that's designed to gain surreptitious access to a victim's email correspondence via the Google API.\n\n\"In this campaign, the attackers focused their attention on corporate email communications hosted on Gmail, targeting access compromise via APIs,\" Kaspersky said in a detailed report published this week. \"",
+      "source": "The Hacker News",
+      "published": "Thu, 02 Jul 2026 18:34:13 +0530",
+      "summary": "ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API\nThe threat actor known as ToddyCat has been attributed to a new malware called Umbrij that's designed to gain surreptitious access to a victim's email correspondence via the Google API.\n\n\"In this campaign, the attackers focus"
+    },
+    {
+      "title": "Identity Lifecycle Management Wasn't Built for AI Agents",
+      "link": "https://thehackernews.com/2026/07/identity-lifecycle-management.html",
+      "raw_summary": "Identity lifecycle management was architected around a person with an employment record, a manager, and a departure date. AI agents have none of those. As autonomous principals proliferate across enterprise environments, the governance model built for humans develops structural blind spots that traditional IGA tools weren't designed to detect. This guide covers where that model breaks, what it",
+      "source": "The Hacker News",
+      "published": "Thu, 02 Jul 2026 17:00:00 +0530",
+      "summary": "Identity Lifecycle Management Wasn't Built for AI Agents\nIdentity lifecycle management was architected around a person with an employment record, a manager, and a departure date. AI agents have none of those. As autonomous principals proliferate across enterprise environments, the governance model b"
+    },
+    {
+      "title": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack",
+      "link": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
+      "raw_summary": "Security firm&nbsp;Sysdig&nbsp;says it has found what it believes is the first ransomware attack run from start to finish by an AI agent.\n\nIts Threat Research Team calls the operator JADEPUFFER and says a large language model handled the whole job: breaking in, stealing credentials, moving deeper into the network, then encrypting and wiping a company's production database.\n\nRansomware has always",
+      "source": "The Hacker News",
+      "published": "Thu, 02 Jul 2026 14:43:13 +0530",
+      "summary": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack\nSecurity firm&nbsp;Sysdig&nbsp;says it has found what it believes is the first ransomware attack run from start to finish by an AI agent.\n\nIts Threat Research Team calls the operator JADEPUFFER and says a large language model hand"
+    },
+    {
+      "title": "FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations",
+      "link": "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html",
+      "raw_summary": "The recently discovered financially-motivated FortiBleed campaign has been attributed to INC and Lynx ransomware operations, indicating that the verified, stolen credentials were intended for follow-on intrusions.\n\n\"An operator tied to FortiBleed's infrastructure was found actively working negotiation panels for both groups, tying mass FortiGate credential theft directly to ransomware deployment",
+      "source": "The Hacker News",
+      "published": "Thu, 02 Jul 2026 13:30:49 +0530",
+      "summary": "FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations\nThe recently discovered financially-motivated FortiBleed campaign has been attributed to INC and Lynx ransomware operations, indicating that the verified, stolen credentials were intended for follow-on intrusions.\n\n\"An operator"
+    },
+    {
       "title": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos",
       "link": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
       "raw_summary": "Attackers are hiding a data-stealing trojan inside fake exploit code aimed at the people who hunt bugs for a living. The malware, called ChocoPoC, travels in Python proof-of-concept (PoC) repositories on GitHub that claim to exploit hot new CVEs.\n\nRun one, and it quietly lifts your saved passwords, browser cookies, and files, then hands the attacker a shell on your machine.&nbsp;YesWeHack and",
@@ -51,84 +83,76 @@
       "summary": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos\nAttackers are hiding a data-stealing trojan inside fake exploit code aimed at the people who hunt bugs for a living. The malware, called ChocoPoC, travels in Python proof-of-concept (PoC) repositories on GitHub that claim "
     },
     {
-      "title": "SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation",
-      "link": "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html",
-      "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a high-severity flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-45659 (CVSS score: 8.8), is a case of remote code execution arising from the deserialization of untrusted data. The issue",
-      "source": "The Hacker News",
-      "published": "Thu, 02 Jul 2026 11:16:45 +0530",
-      "summary": "SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a high-severity flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exp"
-    },
-    {
-      "title": "Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters",
-      "link": "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
-      "raw_summary": "Argo CD, a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server component that lets an unauthenticated attacker run code, provided they can reach the component's internal network port.\n\nSynacktiv, which found the bug, says it can lead to a full cluster takeover. There is no fix and no CVE. The firm says it reported the flaw to Argo CD's maintainers in",
-      "source": "The Hacker News",
-      "published": "Thu, 02 Jul 2026 01:10:06 +0530",
-      "summary": "Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters\nArgo CD, a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server component that lets an unauthenticated attacker run code, provided they can reach the component's internal n"
-    },
-    {
-      "title": "19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges",
-      "link": "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html",
-      "raw_summary": "A teenager accused of belonging to the hacking group Scattered Spider has been extradited from Finland to face U.S. charges of conspiracy, computer intrusion, and fraud, the U.S. Department of Justice&nbsp;announced&nbsp;on July 1.\n\nPeter Stokes, 19, a dual U.S. and Estonian citizen, appeared in a Chicago federal court on June 30, where a judge ordered him held in custody.\n\nFinnish police",
-      "source": "The Hacker News",
-      "published": "Thu, 02 Jul 2026 00:58:07 +0530",
-      "summary": "19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges\nA teenager accused of belonging to the hacking group Scattered Spider has been extradited from Finland to face U.S. charges of conspiracy, computer intrusion, and fraud, the U.S. Department of Justice&nbsp;announced&nbsp;on"
-    },
-    {
-      "title": "SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT",
-      "link": "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
-      "raw_summary": "Unknown threat actors are leveraging the ScreenConnect remote access tool as a way to deploy and execute AsyncRAT.\n\nKaspersky said the activity is part of a \"massive, multi-domain, multi-language\" campaign that distributes malicious installer archives hosted on spoofed websites.\n\nThese installers masquerade as popular software like OBS Studio, DNS Jumper, DS4Windows, and Bandicam, among others.",
-      "source": "The Hacker News",
-      "published": "Wed, 01 Jul 2026 23:23:06 +0530",
-      "summary": "SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT\nUnknown threat actors are leveraging the ScreenConnect remote access tool as a way to deploy and execute AsyncRAT.\n\nKaspersky said the activity is part of a \"massive, multi-domain, multi-language\" campaign that distributes malicious "
-    },
-    {
-      "title": "CursorBench 3.1",
-      "link": "https://cursor.com/evals",
-      "raw_summary": "<p>Article URL: <a href=\"https://cursor.com/evals\">https://cursor.com/evals</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48756840\">https://news.ycombinator.com/item?id=48756840</a></p>\n<p>Points: 48</p>\n<p># Comments: 32</p>",
+      "title": "Hazel (YC W24) Is Hiring for Our Largest Government Contract",
+      "link": "https://www.ycombinator.com/companies/hazel-2/jobs/3epPWgu-full-stack-engineer-ts-sci",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/hazel-2/jobs/3epPWgu-full-stack-engineer-ts-sci\">https://www.ycombinator.com/companies/hazel-2/jobs/3epPWgu-full-stack-engineer-ts-sci</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48761068\">https://news.ycombinator.com/item?id=48761068</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 02 Jul 2026 05:19:34 +0000",
-      "summary": "CursorBench 3.1\n<p>Article URL: <a href=\"https://cursor.com/evals\">https://cursor.com/evals</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48756840\">https://news.ycombinator.com/item?id=48756840</a></p>\n<p>Points: 48</p>\n<p># Comments: 32</p>"
+      "published": "Thu, 02 Jul 2026 13:14:57 +0000",
+      "summary": "Hazel (YC W24) Is Hiring for Our Largest Government Contract\n<p>Article URL: <a href=\"https://www.ycombinator.com/companies/hazel-2/jobs/3epPWgu-full-stack-engineer-ts-sci\">https://www.ycombinator.com/companies/hazel-2/jobs/3epPWgu-full-stack-engineer-ts-sci</a></p>\n<p>Comments URL: <a href=\"https:/"
     },
     {
-      "title": "Kimi K2.7 Code is generally available in GitHub Copilot",
-      "link": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/\">https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48756602\">https://news.ycombinator.com/item?id=48756602</a></p>\n<p>Points: 116</p>\n<p># Comments: 34</p>",
+      "title": "AI fake news complaining about how AI fake news is the death of real news",
+      "link": "https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news/\">https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48760598\">https://news.ycombinator.com/item?id=48760598</a></p>\n<p>Points: 31</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 02 Jul 2026 04:32:41 +0000",
-      "summary": "Kimi K2.7 Code is generally available in GitHub Copilot\n<p>Article URL: <a href=\"https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/\">https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/</a></p>\n<p>Comments URL: <a href=\"https://ne"
+      "published": "Thu, 02 Jul 2026 12:40:36 +0000",
+      "summary": "AI fake news complaining about how AI fake news is the death of real news\n<p>Article URL: <a href=\"https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news/\">https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complainin"
     },
     {
-      "title": "A new Android malware from Google",
-      "link": "https://f-droid.org/2026/07/01/adv-malware.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://f-droid.org/2026/07/01/adv-malware.html\">https://f-droid.org/2026/07/01/adv-malware.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48755965\">https://news.ycombinator.com/item?id=48755965</a></p>\n<p>Points: 296</p>\n<p># Comments: 139</p>",
+      "title": "This blog is written in en-GB",
+      "link": "https://shkspr.mobi/blog/2026/07/this-blog-is-written-in-en-gb/",
+      "raw_summary": "<p>Article URL: <a href=\"https://shkspr.mobi/blog/2026/07/this-blog-is-written-in-en-gb/\">https://shkspr.mobi/blog/2026/07/this-blog-is-written-in-en-gb/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48760289\">https://news.ycombinator.com/item?id=48760289</a></p>\n<p>Points: 179</p>\n<p># Comments: 91</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 02 Jul 2026 03:00:15 +0000",
-      "summary": "A new Android malware from Google\n<p>Article URL: <a href=\"https://f-droid.org/2026/07/01/adv-malware.html\">https://f-droid.org/2026/07/01/adv-malware.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48755965\">https://news.ycombinator.com/item?id=48755965</a></p>\n<p>Points"
+      "published": "Thu, 02 Jul 2026 12:17:33 +0000",
+      "summary": "This blog is written in en-GB\n<p>Article URL: <a href=\"https://shkspr.mobi/blog/2026/07/this-blog-is-written-in-en-gb/\">https://shkspr.mobi/blog/2026/07/this-blog-is-written-in-en-gb/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48760289\">https://news.ycombinator.com/item?i"
     },
     {
-      "title": "Senior SWE-Bench: open-source benchmark that assesses agents as senior engineers",
-      "link": "https://senior-swe-bench.snorkel.ai/",
-      "raw_summary": "<p>Article URL: <a href=\"https://senior-swe-bench.snorkel.ai/\">https://senior-swe-bench.snorkel.ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48755928\">https://news.ycombinator.com/item?id=48755928</a></p>\n<p>Points: 70</p>\n<p># Comments: 61</p>",
+      "title": "Is One Layer Enough? A Single Transformer Layer Matches Full-Parameter RL Train",
+      "link": "https://arxiv.org/abs/2607.01232",
+      "raw_summary": "<p>Article URL: <a href=\"https://arxiv.org/abs/2607.01232\">https://arxiv.org/abs/2607.01232</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48760201\">https://news.ycombinator.com/item?id=48760201</a></p>\n<p>Points: 13</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 02 Jul 2026 02:55:16 +0000",
-      "summary": "Senior SWE-Bench: open-source benchmark that assesses agents as senior engineers\n<p>Article URL: <a href=\"https://senior-swe-bench.snorkel.ai/\">https://senior-swe-bench.snorkel.ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48755928\">https://news.ycombinator.com/item?id=4"
+      "published": "Thu, 02 Jul 2026 12:10:24 +0000",
+      "summary": "Is One Layer Enough? A Single Transformer Layer Matches Full-Parameter RL Train\n<p>Article URL: <a href=\"https://arxiv.org/abs/2607.01232\">https://arxiv.org/abs/2607.01232</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48760201\">https://news.ycombinator.com/item?id=48760201</"
     },
     {
-      "title": "Bring back crappy forums",
-      "link": "https://tedium.co/2026/07/01/online-web-forums-retrospective/",
-      "raw_summary": "<p>Article URL: <a href=\"https://tedium.co/2026/07/01/online-web-forums-retrospective/\">https://tedium.co/2026/07/01/online-web-forums-retrospective/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48755731\">https://news.ycombinator.com/item?id=48755731</a></p>\n<p>Points: 234</p>\n<p># Comments: 140</p>",
+      "title": "Many people misunderstand the purpose of code review",
+      "link": "https://mathstodon.xyz/@mjd/115096720350507897",
+      "raw_summary": "<p>Article URL: <a href=\"https://mathstodon.xyz/@mjd/115096720350507897\">https://mathstodon.xyz/@mjd/115096720350507897</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48759870\">https://news.ycombinator.com/item?id=48759870</a></p>\n<p>Points: 6</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 02 Jul 2026 02:30:16 +0000",
-      "summary": "Bring back crappy forums\n<p>Article URL: <a href=\"https://tedium.co/2026/07/01/online-web-forums-retrospective/\">https://tedium.co/2026/07/01/online-web-forums-retrospective/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48755731\">https://news.ycombinator.com/item?id=4875573"
+      "published": "Thu, 02 Jul 2026 11:41:27 +0000",
+      "summary": "Many people misunderstand the purpose of code review\n<p>Article URL: <a href=\"https://mathstodon.xyz/@mjd/115096720350507897\">https://mathstodon.xyz/@mjd/115096720350507897</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48759870\">https://news.ycombinator.com/item?id=48759870<"
+    },
+    {
+      "title": "Tesla saw a massive sales jump in the second quarter",
+      "link": "https://techcrunch.com/2026/07/02/tesla-saw-a-massive-sales-jump-in-the-second-quarter/",
+      "raw_summary": "The company delivered more than 480,000 EVs globally, seemingly thanks to geographic expansion and cheaper versions of the Model 3, Model Y, and Cybertruck.",
+      "source": "TechCrunch",
+      "published": "Thu, 02 Jul 2026 13:20:15 +0000",
+      "summary": "Tesla saw a massive sales jump in the second quarter\nThe company delivered more than 480,000 EVs globally, seemingly thanks to geographic expansion and cheaper versions of the Model 3, Model Y, and Cybertruck."
+    },
+    {
+      "title": "Rivian raises EV sales forecast as Q2 production ramps up",
+      "link": "https://techcrunch.com/2026/07/02/rivian-thinks-it-will-sell-more-evs-than-expected-this-year/",
+      "raw_summary": "The company now expects to ship a few thousand more vehicles by the end of 2026 than it previously expected, after launching its R2 SUV last month.",
+      "source": "TechCrunch",
+      "published": "Thu, 02 Jul 2026 12:30:00 +0000",
+      "summary": "Rivian raises EV sales forecast as Q2 production ramps up\nThe company now expects to ship a few thousand more vehicles by the end of 2026 than it previously expected, after launching its R2 SUV last month."
+    },
+    {
+      "title": "Yep, we’re using OpenClaw to date now",
+      "link": "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now/",
+      "raw_summary": "Ben Guez has \"a bunch of potential international wives in [his] DMs,\" thanks to an automated script he set up using OpenClaw, Claude code, and Instagram trials.",
+      "source": "TechCrunch",
+      "published": "Thu, 02 Jul 2026 12:00:00 +0000",
+      "summary": "Yep, we’re using OpenClaw to date now\nBen Guez has \"a bunch of potential international wives in [his] DMs,\" thanks to an automated script he set up using OpenClaw, Claude code, and Instagram trials."
     },
     {
       "title": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
       "link": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
-      "raw_summary": "Neo is Bhavin Turakhia’s fifth venture and his latest involving enterprise software. This time he's taking on Microsoft Office, Google Apps with AI.",
+      "raw_summary": "Neo is Bhavin Turakhia’s fifth venture and his latest involving enterprise software. This time he's taking on Microsoft Office and Google Apps with AI.",
       "source": "TechCrunch",
       "published": "Thu, 02 Jul 2026 05:30:00 +0000",
-      "summary": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office\nNeo is Bhavin Turakhia’s fifth venture and his latest involving enterprise software. This time he's taking on Microsoft Office, Google Apps with AI."
+      "summary": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office\nNeo is Bhavin Turakhia’s fifth venture and his latest involving enterprise software. This time he's taking on Microsoft Office and Google Apps with AI."
     },
     {
       "title": "Apple is reportedly planning new iPad Pro and MacBook Pro releases early next year",
@@ -139,28 +163,20 @@
       "summary": "Apple is reportedly planning new iPad Pro and MacBook Pro releases early next year\nApple is readying several new iPad Pro tablets and a budget-friendly MacBook Pro, reports suggest."
     },
     {
-      "title": "Bending Spoons defies SaaS slump, surges 40% on first day of trading",
-      "link": "https://techcrunch.com/2026/07/01/bending-spoons-defies-saas-slump-surges-40-on-first-day-of-trading/",
-      "raw_summary": "The company has grown rapidly by acquiring and revamping last-generation tech brands like AOL, Eventbrite, Evernote, Meetup, and Vimeo.",
-      "source": "TechCrunch",
-      "published": "Wed, 01 Jul 2026 22:47:04 +0000",
-      "summary": "Bending Spoons defies SaaS slump, surges 40% on first day of trading\nThe company has grown rapidly by acquiring and revamping last-generation tech brands like AOL, Eventbrite, Evernote, Meetup, and Vimeo."
+      "title": "Google’s AI buildout drove 37% increase in electricity use in 2025",
+      "link": "https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025/",
+      "raw_summary": "Google tries balancing AI data center emissions with clean energy efforts.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 02 Jul 2026 11:15:49 +0000",
+      "summary": "Google’s AI buildout drove 37% increase in electricity use in 2025\nGoogle tries balancing AI data center emissions with clean energy efforts."
     },
     {
-      "title": "After $18B IPO, Bending Spoons founder says success comes from minimizing luck",
-      "link": "https://techcrunch.com/2026/07/01/after-18b-ipo-bending-spoons-founder-says-success-comes-from-minimizing-luck/",
-      "raw_summary": "The co-founders of Bending Spoons, the Italian company quietly buying beloved, ailing Internet brands, learned big lessons from their own startup's failure.",
-      "source": "TechCrunch",
-      "published": "Wed, 01 Jul 2026 22:28:35 +0000",
-      "summary": "After $18B IPO, Bending Spoons founder says success comes from minimizing luck\nThe co-founders of Bending Spoons, the Italian company quietly buying beloved, ailing Internet brands, learned big lessons from their own startup's failure."
-    },
-    {
-      "title": "WhatsApp usernames are already raising impersonation red flags",
-      "link": "https://techcrunch.com/2026/07/01/whatsapp-usernames-are-already-raising-impersonation-red-flags/",
-      "raw_summary": "Meta says usernames improve privacy, but critics question whether its safeguards can prevent impersonation.",
-      "source": "TechCrunch",
-      "published": "Wed, 01 Jul 2026 22:02:24 +0000",
-      "summary": "WhatsApp usernames are already raising impersonation red flags\nMeta says usernames improve privacy, but critics question whether its safeguards can prevent impersonation."
+      "title": "Editorial: It's time to step up and have your say for science",
+      "link": "https://arstechnica.com/science/2026/07/editorial-the-most-important-thing-you-can-do-to-protect-science/",
+      "raw_summary": "Your comments on a dangerous rule putting politicals in charge of science can matter.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 02 Jul 2026 10:00:27 +0000",
+      "summary": "Editorial: It's time to step up and have your say for science\nYour comments on a dangerous rule putting politicals in charge of science can matter."
     },
     {
       "title": "T-Mobile moving tens of thousands of virtual machines off VMware amid lawsuit",
@@ -187,140 +203,124 @@
       "summary": "US home battery installations hit record high on rising electricity costs\nRecord home battery installations unlock options for grids—and AI data centers."
     },
     {
-      "title": "Superworms could replace beetles for cleaning skeletal remains",
-      "link": "https://arstechnica.com/science/2026/07/museums-could-use-ravenous-superworms-to-clean-skeletons/",
-      "raw_summary": "An optimal ratio of 10-15 grams of larvae per gram of specimen minimized cleaning time with no bone damage.",
-      "source": "Ars Technica - All content",
-      "published": "Wed, 01 Jul 2026 18:59:21 +0000",
-      "summary": "Superworms could replace beetles for cleaning skeletal remains\nAn optimal ratio of 10-15 grams of larvae per gram of specimen minimized cleaning time with no bone damage."
-    },
-    {
-      "title": "Sony announces end of PlayStation discs, parts of digital store in the same day",
-      "link": "https://arstechnica.com/gaming/2026/07/sony-will-stop-making-physical-copies-of-playstation-games-in-2028/",
-      "raw_summary": "“We will own nothing, it's truly sad.”",
-      "source": "Ars Technica - All content",
-      "published": "Wed, 01 Jul 2026 18:41:49 +0000",
-      "summary": "Sony announces end of PlayStation discs, parts of digital store in the same day\n“We will own nothing, it's truly sad.”"
-    },
-    {
-      "title": "What Hammersmith Bridge could teach Burnham",
-      "link": "https://www.ft.com/content/171169ba-c72b-468c-bfe2-32077796d131",
-      "raw_summary": "Devolved authorities do not face right or wrong choices, only trade-offs",
+      "title": "Spain immigration amnesty draws 1.2mn applicants",
+      "link": "https://www.ft.com/content/90e98114-8f6a-4468-9ede-19b22d394cc2",
+      "raw_summary": "More than twice the expected number of unauthorised immigrants applied for legal status, mostly from Latin America",
       "source": "World",
-      "published": "Thu, 02 Jul 2026 08:30:09 GMT",
-      "summary": "What Hammersmith Bridge could teach Burnham\nDevolved authorities do not face right or wrong choices, only trade-offs"
+      "published": "Thu, 02 Jul 2026 13:22:53 GMT",
+      "summary": "Spain immigration amnesty draws 1.2mn applicants\nMore than twice the expected number of unauthorised immigrants applied for legal status, mostly from Latin America"
     },
     {
-      "title": "Russian drone campaign mapped Nato air defence gaps, study finds",
-      "link": "https://www.ft.com/content/49ed0040-7f5d-402d-b42d-1d8eab27114c",
-      "raw_summary": "Nearly 150 UAV incursions into more than a dozen European countries were made over 19 months, IISS report says",
+      "title": "Morgan McSweeney: ‘I felt guilty about what I’d done to Keir’",
+      "link": "https://www.ft.com/content/3d0a7027-39fe-4fcb-afc5-532bbb6279c5",
+      "raw_summary": "The former chief adviser to Keir Starmer forced out of his job over the Mandelson scandal talks for the first time about what went wrong",
       "source": "World",
-      "published": "Thu, 02 Jul 2026 08:30:08 GMT",
-      "summary": "Russian drone campaign mapped Nato air defence gaps, study finds\nNearly 150 UAV incursions into more than a dozen European countries were made over 19 months, IISS report says"
+      "published": "Thu, 02 Jul 2026 13:21:44 GMT",
+      "summary": "Morgan McSweeney: ‘I felt guilty about what I’d done to Keir’\nThe former chief adviser to Keir Starmer forced out of his job over the Mandelson scandal talks for the first time about what went wrong"
     },
     {
-      "title": "UK’s next census at risk if ONS fails to boost survey response rates",
-      "link": "https://www.ft.com/content/e99cac54-3d6c-42bb-a896-663eb76e57eb",
-      "raw_summary": "Solving institutional crisis at the statistics agency will be ‘neither quick nor entirely linear’ says top official",
+      "title": "US economy undershoots forecasts with 57,000 jobs added in June",
+      "link": "https://www.ft.com/content/4fd134b3-b75b-4a25-9f2c-8bdb4f8f7dea",
+      "raw_summary": "Hiring slows after three-month streak of overperformance",
       "source": "World",
-      "published": "Thu, 02 Jul 2026 08:30:08 GMT",
-      "summary": "UK’s next census at risk if ONS fails to boost survey response rates\nSolving institutional crisis at the statistics agency will be ‘neither quick nor entirely linear’ says top official"
+      "published": "Thu, 02 Jul 2026 13:12:46 GMT",
+      "summary": "US economy undershoots forecasts with 57,000 jobs added in June\nHiring slows after three-month streak of overperformance"
     },
     {
-      "title": "Russia unleashes huge bombardment of Kyiv",
-      "link": "https://www.ft.com/content/f85948e6-d779-4d74-9a59-56e83c3534d6",
-      "raw_summary": "Attack of 74 missiles and nearly 500 drones follows Zelenskyy’s warning that Moscow is preparing ‘massive strike’",
+      "title": "Tesla deliveries climb 25% as fuel price surge boosts Europe demand",
+      "link": "https://www.ft.com/content/d4d19d9b-3576-4a28-b972-3007b6cb0bdc",
+      "raw_summary": "Strong second-quarter sales in Europe and China help offset weak US figures hit by end of EV tax credits",
       "source": "World",
-      "published": "Thu, 02 Jul 2026 08:14:24 GMT",
-      "summary": "Russia unleashes huge bombardment of Kyiv\nAttack of 74 missiles and nearly 500 drones follows Zelenskyy’s warning that Moscow is preparing ‘massive strike’"
+      "published": "Thu, 02 Jul 2026 13:06:40 GMT",
+      "summary": "Tesla deliveries climb 25% as fuel price surge boosts Europe demand\nStrong second-quarter sales in Europe and China help offset weak US figures hit by end of EV tax credits"
     },
     {
-      "title": "Google loses appeal against record €4.1bn EU fine over Android",
-      "link": "https://www.ft.com/content/b2eb8225-54fd-4e6f-889e-d48fcb84faf4",
-      "raw_summary": "European Court of Justice decision marks a significant win for Brussels’ crackdown on Big Tech",
+      "title": "Eliminate ‘personal pricing’ and you risk harming consumers",
+      "link": "https://www.ft.com/content/e8a52d2a-9b48-45ac-8044-9143a014c3ef",
+      "raw_summary": "Students, seniors and coupon savers could all lose out under plans to make prices fairer",
       "source": "World",
-      "published": "Thu, 02 Jul 2026 07:58:16 GMT",
-      "summary": "Google loses appeal against record €4.1bn EU fine over Android\nEuropean Court of Justice decision marks a significant win for Brussels’ crackdown on Big Tech"
+      "published": "Thu, 02 Jul 2026 13:00:03 GMT",
+      "summary": "Eliminate ‘personal pricing’ and you risk harming consumers\nStudents, seniors and coupon savers could all lose out under plans to make prices fairer"
     },
     {
-      "title": "Quantum Systems More Than Doubles Valuation to $8 Billion",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-02/quantum-systems-more-than-doubles-valuation-to-8-billion-in-new-round",
-      "raw_summary": "Quantum Systems has raised $1.2 billion in a funding round, more than doubling the German drone startup’s valuation to about $8 billion post-money, in the latest example of investors’ enthusiasm for defense-related bets.",
+      "title": "Stocks Rise as Jobs Fuel Bets Fed to Stay on Hold: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-01/asian-stocks-to-decline-as-traders-weigh-ai-warsh-markets-wrap",
+      "raw_summary": "A slower-than-anticipated increase in US jobs drove stocks higher and short-dated bond yields fell on bets the Federal Reserve won’t be forced to raise interest rates any time soon.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 02 Jul 2026 06:45:20 GMT",
-      "summary": "Quantum Systems More Than Doubles Valuation to $8 Billion\nQuantum Systems has raised $1.2 billion in a funding round, more than doubling the German drone startup’s valuation to about $8 billion post-money, in the latest example of investors’ enthusiasm for defense-related bets."
+      "published": "Wed, 01 Jul 2026 22:05:31 GMT",
+      "summary": "Stocks Rise as Jobs Fuel Bets Fed to Stay on Hold: Markets Wrap\nA slower-than-anticipated increase in US jobs drove stocks higher and short-dated bond yields fell on bets the Federal Reserve won’t be forced to raise interest rates any time soon."
     },
     {
-      "title": "SBI Funds’ $1.2 Billion India IPO Launch in July to Test Demand",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-02/sbi-funds-1-2-billion-india-ipo-launch-in-july-to-test-demand",
-      "raw_summary": "SBI Funds Management Ltd. is set to launch its initial public offering, which could raise up to $1.2 billion, in the week starting July 13, according to people familiar with the matter, testing investor demand ahead of a busy pipeline of billion-dollar listings in India.",
+      "title": "Global Treasurers Fuel Record $36 Billion Kangaroo Sales",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-01/global-treasurers-fuel-record-36-billion-of-kangaroo-bond-sales",
+      "raw_summary": "Australia’s bond market is drawing increasing interest from funding chiefs worldwide, pushing issuance to a record high, as a flood of Asian capital cap borrowing costs and compete for deals.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 02 Jul 2026 08:04:13 GMT",
-      "summary": "SBI Funds’ $1.2 Billion India IPO Launch in July to Test Demand\nSBI Funds Management Ltd. is set to launch its initial public offering, which could raise up to $1.2 billion, in the week starting July 13, according to people familiar with the matter, testing investor demand ahead of a busy pipeline o"
+      "published": "Wed, 01 Jul 2026 22:00:00 GMT",
+      "summary": "Global Treasurers Fuel Record $36 Billion Kangaroo Sales\nAustralia’s bond market is drawing increasing interest from funding chiefs worldwide, pushing issuance to a record high, as a flood of Asian capital cap borrowing costs and compete for deals."
     },
     {
-      "title": "What Dan Wang Saw on His Last Trip to China",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-02/what-dan-wang-saw-on-his-last-trip-to-china-mr37sjni",
-      "raw_summary": "<p>China's great economic contradiction.</p>",
+      "title": "Springbok Emblems May Get Protection Before All Blacks Visit",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-02/springbok-emblems-may-get-legal-shield-before-all-blacks-visit",
+      "raw_summary": "South Africa proposed protecting the commercial rights to the Springboks’ upcoming rugby tour against New Zealand’s All Blacks, a move aimed at safeguarding sponsorship revenue.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 02 Jul 2026 08:00:20 GMT",
-      "summary": "What Dan Wang Saw on His Last Trip to China\n<p>China's great economic contradiction.</p>"
+      "published": "Thu, 02 Jul 2026 11:57:03 GMT",
+      "summary": "Springbok Emblems May Get Protection Before All Blacks Visit\nSouth Africa proposed protecting the commercial rights to the Springboks’ upcoming rugby tour against New Zealand’s All Blacks, a move aimed at safeguarding sponsorship revenue."
     },
     {
-      "title": "Japan Retail Investors Bought Record Stocks Last Week in Selloff",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-02/japan-retail-investors-bought-record-stocks-last-week-in-selloff",
-      "raw_summary": "Japan’s retail investors purchased a record amount of local shares last week, when a tech selloff sent equity gauges plunging.",
+      "title": "CoreWeave Junk Bonds Drop as Investors Doubt AI Boom",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-02/coreweave-junk-bonds-slide-further-as-investors-question-ai-boom",
+      "raw_summary": "Bonds issued last month by AI infrastructure firm CoreWeave Inc. fell for a second day running on Meta Platforms Inc.’s plans for a competing cloud business.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 02 Jul 2026 07:49:32 GMT",
-      "summary": "Japan Retail Investors Bought Record Stocks Last Week in Selloff\nJapan’s retail investors purchased a record amount of local shares last week, when a tech selloff sent equity gauges plunging."
+      "published": "Thu, 02 Jul 2026 12:15:20 GMT",
+      "summary": "CoreWeave Junk Bonds Drop as Investors Doubt AI Boom\nBonds issued last month by AI infrastructure firm CoreWeave Inc. fell for a second day running on Meta Platforms Inc.’s plans for a competing cloud business."
     },
     {
-      "title": "Chip Stocks Slump Across Asia as Global Tech Selloff Intensifies",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-02/us-tech-rout-sours-mood-for-japan-south-korean-chip-stocks",
-      "raw_summary": "Asian semiconductor stocks tumbled on Thursday, tracking tech losses on Wall Street after Meta Platforms Inc.’s plan to develop a business that would sell access to AI computing power raised worries about overcapacity.",
+      "title": "Adani, IHC Sign MOU for $11.5 Billion India Aluminum Project",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-02/adani-ihc-sign-mou-for-an-11-5-billion-india-aluminum-project",
+      "raw_summary": "Billionaire Gautam Adani’s flagship Adani Enterprises Ltd. and Abu Dhabi’s International Holding Co. plan to invest $11.5 billion in an aluminum project in the eastern state of Odisha, as the Indian conglomerate continues to build on its metal sector ambitions.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 02 Jul 2026 02:53:09 GMT",
-      "summary": "Chip Stocks Slump Across Asia as Global Tech Selloff Intensifies\nAsian semiconductor stocks tumbled on Thursday, tracking tech losses on Wall Street after Meta Platforms Inc.’s plan to develop a business that would sell access to AI computing power raised worries about overcapacity."
+      "published": "Thu, 02 Jul 2026 05:53:14 GMT",
+      "summary": "Adani, IHC Sign MOU for $11.5 Billion India Aluminum Project\nBillionaire Gautam Adani’s flagship Adani Enterprises Ltd. and Abu Dhabi’s International Holding Co. plan to invest $11.5 billion in an aluminum project in the eastern state of Odisha, as the Indian conglomerate continues to build on its m"
     },
     {
-      "title": "Taiko fully restores cross-chain bridge just 10 days after a $1.7 million hack",
-      "link": "https://www.coindesk.com/markets/2026/07/02/taiko-s-bridge-is-back-online-after-usd1-7-million-hack-and-its-token-is-up-a-staggering-136",
+      "title": "JPMorgan says Strategy's bitcoin sales policy adds 'two-way risk' to crypto markets",
+      "link": "https://www.coindesk.com/markets/2026/07/02/jpmorgan-says-strategy-s-bitcoin-sales-policy-adds-two-way-risk-to-crypto-markets",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 02 Jul 2026 08:35:28 +0000",
-      "summary": "Taiko fully restores cross-chain bridge just 10 days after a $1.7 million hack\n"
+      "published": "Thu, 02 Jul 2026 13:11:22 +0000",
+      "summary": "JPMorgan says Strategy's bitcoin sales policy adds 'two-way risk' to crypto markets\n"
     },
     {
-      "title": "XRP edges higher as whale activity rises while retail traders stay cautious",
-      "link": "https://www.coindesk.com/markets/2026/07/02/xrp-edges-higher-as-whale-activity-rises-while-retail-traders-stay-cautious",
+      "title": "U.S. payroll growth slowed sharply in June, with only 57,000 jobs added",
+      "link": "https://www.coindesk.com/markets/2026/07/02/u-s-payroll-growth-slowed-sharply-in-june-adding-only-57-000-jobs",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 02 Jul 2026 06:20:31 +0000",
-      "summary": "XRP edges higher as whale activity rises while retail traders stay cautious\n"
+      "published": "Thu, 02 Jul 2026 12:37:50 +0000",
+      "summary": "U.S. payroll growth slowed sharply in June, with only 57,000 jobs added\n"
     },
     {
-      "title": "Bitcoin's long-term holders have returned to accumulation",
-      "link": "https://www.coindesk.com/markets/2026/07/02/bitcoin-long-term-holders-have-returned-to-accumulation",
+      "title": "A struggling Nasdaq-listed company that tried to copy Saylor's Bitcoin playbook is completely dumping crypto for AI",
+      "link": "https://www.coindesk.com/markets/2026/07/02/a-struggling-nasdaq-listed-company-that-tried-to-copy-saylor-s-bitcoin-playbook-is-completely-dumping-crypto-for-ai",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 02 Jul 2026 06:17:16 +0000",
-      "summary": "Bitcoin's long-term holders have returned to accumulation\n"
+      "published": "Thu, 02 Jul 2026 12:10:15 +0000",
+      "summary": "A struggling Nasdaq-listed company that tried to copy Saylor's Bitcoin playbook is completely dumping crypto for AI\n"
     },
     {
-      "title": "FBI Director Kash Patel caught sleeping on required disclosure of six-figure MSTR investment: Report",
-      "link": "https://www.coindesk.com/policy/2026/07/02/fbi-director-kash-patel-caught-sleeping-on-required-disclosure-of-six-figure-mstr-investment",
+      "title": "Three years after MiCA became law, Europe's crypto framework is undergoing a rethink",
+      "link": "https://www.coindesk.com/policy/2026/07/02/three-years-after-mica-became-law-europe-s-crypto-framework-is-undergoing-a-rethink",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 02 Jul 2026 05:24:18 +0000",
-      "summary": "FBI Director Kash Patel caught sleeping on required disclosure of six-figure MSTR investment: Report\n"
+      "published": "Thu, 02 Jul 2026 11:55:03 +0000",
+      "summary": "Three years after MiCA became law, Europe's crypto framework is undergoing a rethink\n"
     },
     {
-      "title": "Ether, solana, dogecoin in the green after Warsh comments push bitcoin above $60,000",
-      "link": "https://www.coindesk.com/markets/2026/07/02/ether-solana-dogecoin-in-the-green-after-warsh-comments-push-bitcoin-above-usd60-000",
+      "title": "Warsh's comments set the stage for U.S. jobs data to ignite bitcoin, gold rally",
+      "link": "https://www.coindesk.com/daybook-us/2026/07/02/warsh-s-comments-set-the-stage-for-u-s-jobs-data-to-ignite-bitcoin-gold-rally",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 02 Jul 2026 05:22:54 +0000",
-      "summary": "Ether, solana, dogecoin in the green after Warsh comments push bitcoin above $60,000\n"
+      "published": "Thu, 02 Jul 2026 11:47:06 +0000",
+      "summary": "Warsh's comments set the stage for U.S. jobs data to ignite bitcoin, gold rally\n"
     }
   ]
 }
