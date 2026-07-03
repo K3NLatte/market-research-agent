@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-07-02T19:12:18.131637+00:00",
+  "generated_at": "2026-07-03T02:09:00.570409+00:00",
   "count": 40,
   "articles": [
+    {
+      "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
+      "link": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
+      "raw_summary": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: ALAR]. The action comes roughly two weeks after KrebsOnSecurity published findings from multiple security firms connecting NetNut to the Popa botnet, a collection of at least two million devices that have been compromised by malicious software with little or no consent from victims.",
+      "source": "Krebs on Security",
+      "published": "Thu, 02 Jul 2026 19:27:33 +0000",
+      "summary": "FBI Seizes NetNut Proxy Platform, Popa Botnet\nThe Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: "
+    },
     {
       "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
       "link": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
@@ -35,12 +43,20 @@
       "summary": "A Record-Breaking Patch Tuesday for June 2026\nMicrosoft today released software updates to plug nearly 200 security holes across its Windows operating systems and supported software, a record number of fixes for the company's monthly Patch Tuesday cycle. Nearly three dozen of those bugs earned Micro"
     },
     {
-      "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
-      "link": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
-      "raw_summary": "The Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages over the weekend, after instructions began circulating on Telegram showing how to trick Meta's \"AI support assistant\" bot into resetting account passwords.",
-      "source": "Krebs on Security",
-      "published": "Mon, 01 Jun 2026 17:32:50 +0000",
-      "summary": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts\nThe Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages over the weekend, after instructions began circulating on Telegram showing h"
+      "title": "Google Disrupts NetNut Residential Proxy Network Spanning 2 Million Home Devices",
+      "link": "https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html",
+      "raw_summary": "Google has significantly degraded NetNut, one of the biggest networks that turns home devices into rented relays for other people's traffic.\n\nWorking with the FBI, Lumen, and others, Google's Threat Intelligence Group (GTIG)&nbsp;said this week&nbsp;it had reduced the network's pool of usable devices by millions.\n\nGoogle identifies NetNut, also tracked as Popa, as a network spread across home",
+      "source": "The Hacker News",
+      "published": "Fri, 03 Jul 2026 00:24:06 +0530",
+      "summary": "Google Disrupts NetNut Residential Proxy Network Spanning 2 Million Home Devices\nGoogle has significantly degraded NetNut, one of the biggest networks that turns home devices into rented relays for other people's traffic.\n\nWorking with the FBI, Lumen, and others, Google's Threat Intelligence Group ("
+    },
+    {
+      "title": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials",
+      "link": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
+      "raw_summary": "Threat actors associated with the Anubis ransomware operation have been observed exploiting the Citrix Bleed 2 (CVE-2025-5777) vulnerability to obtain initial access.\n\n\"Although tactics differ between affiliates, common patterns emerged in tradecraft through use of legitimate Remote Management and Monitoring (RMM) tooling, credential access, and hands-on-keyboard procedures used for lateral",
+      "source": "The Hacker News",
+      "published": "Fri, 03 Jul 2026 00:00:33 +0530",
+      "summary": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials\nThreat actors associated with the Anubis ransomware operation have been observed exploiting the Citrix Bleed 2 (CVE-2025-5777) vulnerability to obtain initial access.\n\n\"Although tactics differ between affiliates, common pa"
     },
     {
       "title": "ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories",
@@ -67,100 +83,92 @@
       "summary": "Identity Lifecycle Management Wasn't Built for AI Agents\nIdentity lifecycle management was architected around a person with an employment record, a manager, and a departure date. AI agents have none of those. As autonomous principals proliferate across enterprise environments, the governance model b"
     },
     {
-      "title": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack",
-      "link": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
-      "raw_summary": "Security firm&nbsp;Sysdig&nbsp;says it has found what it believes is the first ransomware attack run from start to finish by an AI agent.\n\nIts Threat Research Team calls the operator JADEPUFFER and says a large language model handled the whole job: breaking in, stealing credentials, moving deeper into the network, then encrypting and wiping a company's production database.\n\nRansomware has always",
-      "source": "The Hacker News",
-      "published": "Thu, 02 Jul 2026 14:43:13 +0530",
-      "summary": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack\nSecurity firm&nbsp;Sysdig&nbsp;says it has found what it believes is the first ransomware attack run from start to finish by an AI agent.\n\nIts Threat Research Team calls the operator JADEPUFFER and says a large language model hand"
-    },
-    {
-      "title": "FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations",
-      "link": "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html",
-      "raw_summary": "The recently discovered financially-motivated FortiBleed campaign has been attributed to INC and Lynx ransomware operations, indicating that the verified, stolen credentials were intended for follow-on intrusions.\n\n\"An operator tied to FortiBleed's infrastructure was found actively working negotiation panels for both groups, tying mass FortiGate credential theft directly to ransomware deployment",
-      "source": "The Hacker News",
-      "published": "Thu, 02 Jul 2026 13:30:49 +0530",
-      "summary": "FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations\nThe recently discovered financially-motivated FortiBleed campaign has been attributed to INC and Lynx ransomware operations, indicating that the verified, stolen credentials were intended for follow-on intrusions.\n\n\"An operator"
-    },
-    {
-      "title": "Klara and the Sun Essay Contest – $1k Prize – AI Use Allowed",
-      "link": "https://willpenman.com/klara/",
-      "raw_summary": "<p>Article URL: <a href=\"https://willpenman.com/klara/\">https://willpenman.com/klara/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48765743\">https://news.ycombinator.com/item?id=48765743</a></p>\n<p>Points: 5</p>\n<p># Comments: 6</p>",
+      "title": "CarPlay Is Additive",
+      "link": "https://www.caseyliss.com/2026/7/2/carplay-is-additive-you-dolts",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.caseyliss.com/2026/7/2/carplay-is-additive-you-dolts\">https://www.caseyliss.com/2026/7/2/carplay-is-additive-you-dolts</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48769397\">https://news.ycombinator.com/item?id=48769397</a></p>\n<p>Points: 37</p>\n<p># Comments: 34</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 02 Jul 2026 18:48:58 +0000",
-      "summary": "Klara and the Sun Essay Contest – $1k Prize – AI Use Allowed\n<p>Article URL: <a href=\"https://willpenman.com/klara/\">https://willpenman.com/klara/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48765743\">https://news.ycombinator.com/item?id=48765743</a></p>\n<p>Points: 5</p>\n<"
+      "published": "Fri, 03 Jul 2026 01:02:45 +0000",
+      "summary": "CarPlay Is Additive\n<p>Article URL: <a href=\"https://www.caseyliss.com/2026/7/2/carplay-is-additive-you-dolts\">https://www.caseyliss.com/2026/7/2/carplay-is-additive-you-dolts</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48769397\">https://news.ycombinator.com/item?id=487693"
     },
     {
-      "title": "Exapunks",
-      "link": "https://www.zachtronics.com/exapunks/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.zachtronics.com/exapunks/\">https://www.zachtronics.com/exapunks/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48765663\">https://news.ycombinator.com/item?id=48765663</a></p>\n<p>Points: 28</p>\n<p># Comments: 10</p>",
+      "title": "GitHub is proud to announce that you can now obtain your public repo on CD-ROM",
+      "link": "https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR6G-c11n8yFDlQmk4B-QjDxUQkdTTjZLU0EyTFFRV1E3NVRTVTRTWjRHMy4u&route=shorturl",
+      "raw_summary": "<p>Article URL: <a href=\"https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR6G-c11n8yFDlQmk4B-QjDxUQkdTTjZLU0EyTFFRV1E3NVRTVTRTWjRHMy4u&amp;route=shorturl\">https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR6G-c11n8yFDlQmk4B-QjDxUQkdTTjZLU0EyTFFRV1E3NVRTVTRTWjRHMy4u&amp;route=shorturl</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48768997\">https://news.ycombinator.com/item?id=48768997</a></p>\n<p>Points: 54</p>\n<p># Comments: 38</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 02 Jul 2026 18:41:19 +0000",
-      "summary": "Exapunks\n<p>Article URL: <a href=\"https://www.zachtronics.com/exapunks/\">https://www.zachtronics.com/exapunks/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48765663\">https://news.ycombinator.com/item?id=48765663</a></p>\n<p>Points: 28</p>\n<p># Comments: 10</p>"
+      "published": "Fri, 03 Jul 2026 00:01:26 +0000",
+      "summary": "GitHub is proud to announce that you can now obtain your public repo on CD-ROM\n<p>Article URL: <a href=\"https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR6G-c11n8yFDlQmk4B-QjDxUQkdTTjZLU0EyTFFRV1E3NVRTVTRTWjRHMy4u&amp;route=shorturl\">https://forms.cloud.microsoft/pages/re"
     },
     {
-      "title": "Since Linux 6.9, LUKS suspend stopped wiping disk-encryption keys from memory",
-      "link": "https://mathstodon.xyz/@iblech/116769502749142438",
-      "raw_summary": "<p>Article URL: <a href=\"https://mathstodon.xyz/@iblech/116769502749142438\">https://mathstodon.xyz/@iblech/116769502749142438</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48763035\">https://news.ycombinator.com/item?id=48763035</a></p>\n<p>Points: 272</p>\n<p># Comments: 131</p>",
+      "title": "An American Privacy Emergency",
+      "link": "https://scottaaronson.blog/?p=9902",
+      "raw_summary": "<p>Article URL: <a href=\"https://scottaaronson.blog/?p=9902\">https://scottaaronson.blog/?p=9902</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48768992\">https://news.ycombinator.com/item?id=48768992</a></p>\n<p>Points: 134</p>\n<p># Comments: 34</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 02 Jul 2026 15:25:16 +0000",
-      "summary": "Since Linux 6.9, LUKS suspend stopped wiping disk-encryption keys from memory\n<p>Article URL: <a href=\"https://mathstodon.xyz/@iblech/116769502749142438\">https://mathstodon.xyz/@iblech/116769502749142438</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48763035\">https://news.yc"
+      "published": "Fri, 03 Jul 2026 00:01:06 +0000",
+      "summary": "An American Privacy Emergency\n<p>Article URL: <a href=\"https://scottaaronson.blog/?p=9902\">https://scottaaronson.blog/?p=9902</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48768992\">https://news.ycombinator.com/item?id=48768992</a></p>\n<p>Points: 134</p>\n<p># Comments: 34</p"
     },
     {
-      "title": "Launch HN: Manufact (YC S25) – MCP Cloud",
-      "link": "https://manufact.com",
-      "raw_summary": "<p>Hi HN, we are Pietro and Luigi, cofounders of Manufact (<a href=\"https://manufact.com\">https://manufact.com</a>), a cloud for MCP apps and servers. We used to be called mcp-use, and still build open source SDKs for MCP under that name: <a href=\"https://github.com/mcp-use/mcp-use\" rel=\"nofollow\">https://github.com/mcp-use/mcp-use</a>. We did a Show HN about that last year: <a href=\"https://news.ycombinator.com/item?id=44747229\">https://news.ycombinator.com/item?id=44747229</a>.<p>Today we want to tell you about our cloud product, Manufact, which is to mcp-use as Vercel is to Next.js. Manufact is an MCP vertical cloud designed for dev teams putting MCP Apps and servers in production.You can ship, iterate on, test and monitor your MCPs, and get them ready for the store submissions. All with the best developer and agent experience in mind.<p>Here is a demo video of the product: <a href=\"https://www.youtube.com/watch?v=R2rbr5OT9LI\" rel=\"nofollow\">https://www.youtube.com/watch?v=R2rbr5OT9LI</a>.<p>We have been working on MCP since April 2025. Our first focus was making it easy to build agents that could use any MCP server, and a lot of people started using our SDKs. Then the harness revolution kicked off: Claude Code, Claude Cowork, ChatGPT, Codex, OpenCode started shipping agent harnesses that made most standalone agent frameworks redundant. That pushed us to the other side of the connection, the servers. If agents were going to consolidate into a few harnesses, then first-class integration with the rest of a company's systems (i.e. MCP) would become the thing that mattered, so we started building up our server SDKs.<p>Then in succession:<p>1. Oct 2025. ChatGPT Apps SDK. OpenAI brings app UIs to ChatGPT, built on top of MCP and the work of mcp-ui.\n2. Late 2025. The stores open. ChatGPT starts accepting app submissions, Claude grows its connector directory with selected partners.\n3. Jan 2026. MCP Apps becomes official. SEP-1865 merges as the first MCP extension (io.modelcontextprotocol/ui): one UI standard any host can render.<p>Today, all the major clients fully support MCP and are opening marketplaces of reviewed MCPs that can be one click installed. All major tech companies have an MCP server, and many of those are reporting that already 15+% of their usage comes from their MCP, and we start to have a good way to distribute them just now.<p>MCP can return fully interactive UIs. So companies can (1) display data in more meaningful ways to their users (e.g. analytics, ecommerce) and (2) display their branding in some of the most used products on the planet (ChatGPT, Claude etc). Numbers: an engineer at Amplitude reported that their MCP saw a 2x increase in retention after adding UI to their MCP.<p>Clients (Claude, ChatGPT, Cursor) are starting to dynamically present MCP servers/apps to users, based on their intent. Products will be organically discovered on the chats!<p>We feel that MCP is reaching its maturity moment. Now that MCPs are starting to be easy to install and discover, there is going to be a huge incentive for users to use them and for companies to create them:<p>1 - Most work is already done from AI chats, this is not going to stop, MCP gives you a way to interact with products without manually using their dashboards.<p>2 - MCP allows you to bring the context together in one place: you can read an email, create a ticket while plugged into the source code of your product, or your knowledge base. Aggregation of products that was not possible before, will happen in the chat, orchestrated by increasingly intelligent models.<p>If AI apps (Codex, Claude Desktop) are the new browsers, as PG said in a recent tweet <a href=\"https://x.com/paulg/status/2069080429236191504\" rel=\"nofollow\">https://x.com/paulg/status/2069080429236191504</a>, then MCPs are the new websites.<p>But there is a catch:<p>- Submission process on the stores is still quite tricky, manual and takes up valuable time.\n- Hardly anybody knows how to design a good MCP: most of them are 1:1 proxies of the API and are abandoned, since being one shotted a few months ago.\n- The MCP Spec advances quickly and it is not easy to keep track of the changes, and what they mean for your server.\n- Auth is still a mystery for most teams (API key in the URL ???).\n- Most companies are not even aware that MCPs can return interactive UIs.\n- Clients still have to consolidate behavior, some do dynamic tool discovery, some don't, some persist authentication properly some don't.<p>We built Manufact and mcp-use to solve these problems.\nOur SDKs help them build good MCPs, our inspector helps them test locally, and our cloud helps them ship/publish and monitor them in production.<p>To deploy on Manufact you just need to connect a Github app, pick the repo, we'll detect the framework you are working with and get you a live MCP url as soon as possible.<p>In our platform, that live URL will be used to give you a chat where you can try/debug your MCP immediately and share it with your team. If you push an update on a new experimental branch, you'll be able to test that as well thanks to preview deployments.<p>Once your server is ready to go live, we help you make sure that it does not break. You can configure automated tests that will take your MCP server, install it in ChatGPT and Claude and test it. We do not test the model, we test the client (model + harness). This way you reliably know if your server breaks where people use it.<p>Since publishing on the store is a major distribution unlock for companies (your MCP can be dynamically discovered and one click installed across Claude\nproducts, and ChatGPT), we collected a set of requirements that will keep your submission from being rejected. You check this locally before going through the actual review process.<p>Once your server is live, you'll want to understand how it is used. Our analytics are designed for MCP, so you'll know how many users are hitting\nyour MCP, how many tool calls you receive, from which client.<p>You can try out <a href=\"https://manufact.com\">https://manufact.com</a> for free today. We have usage-based pricing and on our free account we give free credits for you to try it out. If you have an\nMCP already, just connect your Github repo and deploy, if not you can build one using our skill and SDKs pretty simply (we will guide you in the onboarding).<p>We would love to hear feedback about the product in the comments, and hear thoughts from everyone about MCP. Thanks! :)</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48762862\">https://news.ycombinator.com/item?id=48762862</a></p>\n<p>Points: 76</p>\n<p># Comments: 48</p>",
+      "title": "Right to Local Intelligence",
+      "link": "https://righttointelligence.org/",
+      "raw_summary": "<p>Article URL: <a href=\"https://righttointelligence.org/\">https://righttointelligence.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48768951\">https://news.ycombinator.com/item?id=48768951</a></p>\n<p>Points: 26</p>\n<p># Comments: 10</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 02 Jul 2026 15:11:20 +0000",
-      "summary": "Launch HN: Manufact (YC S25) – MCP Cloud\n<p>Hi HN, we are Pietro and Luigi, cofounders of Manufact (<a href=\"https://manufact.com\">https://manufact.com</a>), a cloud for MCP apps and servers. We used to be called mcp-use, and still build open source SDKs for MCP under that name: <a href=\"https://git"
+      "published": "Thu, 02 Jul 2026 23:54:03 +0000",
+      "summary": "Right to Local Intelligence\n<p>Article URL: <a href=\"https://righttointelligence.org/\">https://righttointelligence.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48768951\">https://news.ycombinator.com/item?id=48768951</a></p>\n<p>Points: 26</p>\n<p># Comments: 10</p>"
     },
     {
-      "title": "Spain Orders Blacklist of Palantir from Public and Private Companies",
-      "link": "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv",
-      "raw_summary": "<p>Article URL: <a href=\"https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv\">https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48762725\">https://news.ycombinator.com/item?id=48762725</a></p>\n<p>Points: 245</p>\n<p># Comments: 51</p>",
+      "title": "crustc: entirety of `rustc`, translated to C",
+      "link": "https://github.com/FractalFir/crustc",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/FractalFir/crustc\">https://github.com/FractalFir/crustc</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48768464\">https://news.ycombinator.com/item?id=48768464</a></p>\n<p>Points: 126</p>\n<p># Comments: 27</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 02 Jul 2026 15:02:26 +0000",
-      "summary": "Spain Orders Blacklist of Palantir from Public and Private Companies\n<p>Article URL: <a href=\"https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv\">https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tec"
+      "published": "Thu, 02 Jul 2026 22:57:35 +0000",
+      "summary": "crustc: entirety of `rustc`, translated to C\n<p>Article URL: <a href=\"https://github.com/FractalFir/crustc\">https://github.com/FractalFir/crustc</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48768464\">https://news.ycombinator.com/item?id=48768464</a></p>\n<p>Points: 126</p>\n<"
     },
     {
-      "title": "Meta quietly launches vibe-coded gaming app Pocket",
-      "link": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
-      "raw_summary": "Meta has quietly launched Pocket, an experimental AI app that lets users generate and share interactive mini games using text prompts.",
+      "title": "Last chance to apply — Startup Battlefield Australia applications close July 6",
+      "link": "https://techcrunch.com/2026/07/02/last-chance-to-apply-startup-battlefield-australia-applications-close-july-6-2/",
+      "raw_summary": "If you're going to apply for Startup Battlefield Australia, now is the time. Applications close July 6, and once the deadline passes, the opportunity is gone.",
       "source": "TechCrunch",
-      "published": "Thu, 02 Jul 2026 18:44:02 +0000",
-      "summary": "Meta quietly launches vibe-coded gaming app Pocket\nMeta has quietly launched Pocket, an experimental AI app that lets users generate and share interactive mini games using text prompts."
+      "published": "Fri, 03 Jul 2026 00:00:00 +0000",
+      "summary": "Last chance to apply — Startup Battlefield Australia applications close July 6\nIf you're going to apply for Startup Battlefield Australia, now is the time. Applications close July 6, and once the deadline passes, the opportunity is gone."
     },
     {
-      "title": "Travel app Hopper to pay $35M in FTC settlement over ‘unfairly’ charging hidden fees",
-      "link": "https://techcrunch.com/2026/07/02/travel-app-hopper-to-pay-35m-in-ftc-settlement-over-unfairly-charging-hidden-fees/",
-      "raw_summary": "Hopper will pay $35 million to settle FTC allegations that it used deceptive “dark patterns” to hide fees and mislead travelers about the cost and benefits of services.",
+      "title": "Mark Zuckerberg tells staff that AI agents haven’t progressed as quickly as he’d hoped",
+      "link": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+      "raw_summary": "At an internal meeting, the Meta CEO reportedly said that AI development efforts were not moving as quickly as anticipated.",
       "source": "TechCrunch",
-      "published": "Thu, 02 Jul 2026 18:39:14 +0000",
-      "summary": "Travel app Hopper to pay $35M in FTC settlement over ‘unfairly’ charging hidden fees\nHopper will pay $35 million to settle FTC allegations that it used deceptive “dark patterns” to hide fees and mislead travelers about the cost and benefits of services."
+      "published": "Thu, 02 Jul 2026 23:38:10 +0000",
+      "summary": "Mark Zuckerberg tells staff that AI agents haven’t progressed as quickly as he’d hoped\nAt an internal meeting, the Meta CEO reportedly said that AI development efforts were not moving as quickly as anticipated."
     },
     {
-      "title": "Anthropic is discussing a new custom chip with Samsung",
-      "link": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
-      "raw_summary": "The news comes about a week after OpenAI announced its own custom AI chip in a partnership with Broadcom.",
+      "title": "Private space pilots are flying orbital missions for the US Space Force",
+      "link": "https://techcrunch.com/2026/07/02/private-space-pilots-are-flying-orbital-missions-for-the-us-space-force/",
+      "raw_summary": "True Anomaly and Rocket Lab are performing Top Gun-style satellite fly-bys for the U.S. military.",
       "source": "TechCrunch",
-      "published": "Thu, 02 Jul 2026 18:31:09 +0000",
-      "summary": "Anthropic is discussing a new custom chip with Samsung\nThe news comes about a week after OpenAI announced its own custom AI chip in a partnership with Broadcom."
+      "published": "Thu, 02 Jul 2026 23:01:06 +0000",
+      "summary": "Private space pilots are flying orbital missions for the US Space Force\nTrue Anomaly and Rocket Lab are performing Top Gun-style satellite fly-bys for the U.S. military."
     },
     {
-      "title": "Boeing-owned Wisk Aero accused of firing manager who raised safety concerns",
-      "link": "https://techcrunch.com/2026/07/02/boeing-owned-wisk-aero-accused-of-firing-manager-who-raised-safety-concerns/",
-      "raw_summary": "A former software manager claims Wisk rushed software testing ahead of a crucial 2025 flight test.",
+      "title": "Thiel Capital’s Jack Selby nabs stakes in hot startups like Etched through Arizona connections",
+      "link": "https://techcrunch.com/2026/07/02/thiel-capitals-jack-selby-nabs-stakes-in-hot-startups-like-etched-through-arizona-connections/",
+      "raw_summary": "Selby's VC firm, Copper Sky Capital, is currently raising a $300 million second fund, according to a regulatory filing.",
       "source": "TechCrunch",
-      "published": "Thu, 02 Jul 2026 17:30:04 +0000",
-      "summary": "Boeing-owned Wisk Aero accused of firing manager who raised safety concerns\nA former software manager claims Wisk rushed software testing ahead of a crucial 2025 flight test."
+      "published": "Thu, 02 Jul 2026 21:57:10 +0000",
+      "summary": "Thiel Capital’s Jack Selby nabs stakes in hot startups like Etched through Arizona connections\nSelby's VC firm, Copper Sky Capital, is currently raising a $300 million second fund, according to a regulatory filing."
     },
     {
-      "title": "Melinda Gates’ venture firm backs Magnify Ventures’ $46.6M Fund II",
-      "link": "https://techcrunch.com/2026/07/02/melinda-gates-venture-firm-backs-magnify-ventures-46-6m-fund-ii/",
-      "raw_summary": "Early-stage firm Magnify Ventures has raised a $46.6 million Fund II from LPs, including Melinda French Gates’ Pivotal Ventures.",
+      "title": "IQM, Europe’s first public quantum company, admits the future of the tech is uncertain",
+      "link": "https://techcrunch.com/2026/07/02/iqm-europes-first-public-quantum-company-admits-the-future-of-the-tech-is-uncertain/",
+      "raw_summary": "IQM, a full-stack quantum company out of Finland, went public on the Nasdaq today at a valuation of about $1.9 billion.",
       "source": "TechCrunch",
-      "published": "Thu, 02 Jul 2026 15:26:43 +0000",
-      "summary": "Melinda Gates’ venture firm backs Magnify Ventures’ $46.6M Fund II\nEarly-stage firm Magnify Ventures has raised a $46.6 million Fund II from LPs, including Melinda French Gates’ Pivotal Ventures."
+      "published": "Thu, 02 Jul 2026 20:42:48 +0000",
+      "summary": "IQM, Europe’s first public quantum company, admits the future of the tech is uncertain\nIQM, a full-stack quantum company out of Finland, went public on the Nasdaq today at a valuation of about $1.9 billion."
+    },
+    {
+      "title": "Newly discovered PamStealer isn't your typical macOS malware",
+      "link": "https://arstechnica.com/security/2026/07/new-pamstealer-macos-malware-uses-clever-tradecraft-to-remain-stealthy/",
+      "raw_summary": "The discovery underscores the increased effort being poured into Mac infostealers.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 02 Jul 2026 19:38:57 +0000",
+      "summary": "Newly discovered PamStealer isn't your typical macOS malware\nThe discovery underscores the increased effort being poured into Mac infostealers."
     },
     {
       "title": "FAA proposal: Supersonic airliners can fly over US cities if they’re quiet",
@@ -195,92 +203,84 @@
       "summary": "Africa CDC confirms Marburg case in Uganda as Ebola outbreak rages\nEarly reports indicate there may be another case, but spread is thought to be localized."
     },
     {
-      "title": "Artificial cell manages a few rounds of cell division",
-      "link": "https://arstechnica.com/science/2026/07/artificial-cell-manages-a-few-rounds-of-cell-division/",
-      "raw_summary": "It only works for a few divisions thanks to a lot of added materials.",
-      "source": "Ars Technica - All content",
-      "published": "Thu, 02 Jul 2026 16:21:23 +0000",
-      "summary": "Artificial cell manages a few rounds of cell division\nIt only works for a few divisions thanks to a lot of added materials."
+      "title": "‘Heat dome’ over eastern US sends electricity prices soaring",
+      "link": "https://www.ft.com/content/76de196b-175f-4f5b-b10c-cc17bb2948d1",
+      "raw_summary": "More than 150,000 households left without power as temperatures near 40C strain utility grids",
+      "source": "World",
+      "published": "Thu, 02 Jul 2026 23:04:45 GMT",
+      "summary": "‘Heat dome’ over eastern US sends electricity prices soaring\nMore than 150,000 households left without power as temperatures near 40C strain utility grids"
+    },
+    {
+      "title": "Blackstone’s QTS ends Virginia data centre project after protests",
+      "link": "https://www.ft.com/content/671fbc14-9cc5-4177-932b-b96ae32cb7d3",
+      "raw_summary": "Proposed campus becomes the latest casualty of growing backlash to the facilities in the US",
+      "source": "World",
+      "published": "Thu, 02 Jul 2026 21:47:57 GMT",
+      "summary": "Blackstone’s QTS ends Virginia data centre project after protests\nProposed campus becomes the latest casualty of growing backlash to the facilities in the US"
+    },
+    {
+      "title": "Lockheed in lead to buy naval tech group Ultra Maritime in $3.5bn deal",
+      "link": "https://www.ft.com/content/5599eca5-5b23-4a10-a1fb-03db2d18bc69",
+      "raw_summary": "Agreement for defence company could be announced as soon as early next week",
+      "source": "World",
+      "published": "Thu, 02 Jul 2026 21:42:35 GMT",
+      "summary": "Lockheed in lead to buy naval tech group Ultra Maritime in $3.5bn deal\nAgreement for defence company could be announced as soon as early next week"
     },
     {
       "title": "US economy undershoots forecasts with 57,000 jobs added in June",
       "link": "https://www.ft.com/content/4fd134b3-b75b-4a25-9f2c-8bdb4f8f7dea",
       "raw_summary": "Hiring slows after 3-month streak of overperformance",
       "source": "World",
-      "published": "Thu, 02 Jul 2026 18:12:15 GMT",
+      "published": "Thu, 02 Jul 2026 20:14:36 GMT",
       "summary": "US economy undershoots forecasts with 57,000 jobs added in June\nHiring slows after 3-month streak of overperformance"
     },
     {
-      "title": "Modi and Takaichi meet in the shadow of Chinese pressure",
-      "link": "https://www.ft.com/content/9240e19a-8a7e-4213-8ac4-b03c16120cd7",
-      "raw_summary": "Japan and India draw closer after falling foul of Beijing’s restrictions on rare earth exports",
+      "title": "Burnham insists he will be disciplined with UK public finances",
+      "link": "https://www.ft.com/content/f27b6126-2c96-42f4-acf7-b54936f6f510",
+      "raw_summary": "Prime minister in waiting says he will stick by Labour’s manifesto promises on tax",
       "source": "World",
-      "published": "Thu, 02 Jul 2026 18:02:21 GMT",
-      "summary": "Modi and Takaichi meet in the shadow of Chinese pressure\nJapan and India draw closer after falling foul of Beijing’s restrictions on rare earth exports"
+      "published": "Thu, 02 Jul 2026 19:43:30 GMT",
+      "summary": "Burnham insists he will be disciplined with UK public finances\nPrime minister in waiting says he will stick by Labour’s manifesto promises on tax"
     },
     {
-      "title": "The faltering engine of Germany’s auto industry",
-      "link": "https://www.ft.com/content/f97cb278-be62-41b0-9d14-c8acb2d77f5f",
-      "raw_summary": "VW is a test of the country’s ability to adapt",
-      "source": "World",
-      "published": "Thu, 02 Jul 2026 17:55:22 GMT",
-      "summary": "The faltering engine of Germany’s auto industry\nVW is a test of the country’s ability to adapt"
-    },
-    {
-      "title": "Pubs to stay open until 5am for England’s World Cup match",
-      "link": "https://www.ft.com/content/de7b4c8d-d7a8-436c-a127-0be7e5a0251e",
-      "raw_summary": "Keir Starmer bows to pressure to allow an all-night party — or wake, depending on the result",
-      "source": "World",
-      "published": "Thu, 02 Jul 2026 17:52:21 GMT",
-      "summary": "Pubs to stay open until 5am for England’s World Cup match\nKeir Starmer bows to pressure to allow an all-night party — or wake, depending on the result"
-    },
-    {
-      "title": "The chip rally is tightening tech’s grip on Wall Street",
-      "link": "https://www.ft.com/content/3b44b33f-40da-43e4-98a7-10658e82a781",
-      "raw_summary": "AI spending frenzy has powered a semiconductor surge",
-      "source": "World",
-      "published": "Thu, 02 Jul 2026 17:19:36 GMT",
-      "summary": "The chip rally is tightening tech’s grip on Wall Street\nAI spending frenzy has powered a semiconductor surge"
-    },
-    {
-      "title": "Trump Financial Disclosure Shows 21,000 Trades in 2025",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-02/trump-financial-disclosure-shows-21-000-trades-in-2025",
-      "raw_summary": "President Donald Trump made more than 21,000 securities trades in his first year back in office, often in intense bursts tied to market events he created.",
+      "title": "Gold Rises Toward $4,200 as Weak Jobs Data Lowers Rate-Hike Odds",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-03/gold-holds-gains-as-weak-us-jobs-data-lowers-rate-hike-odds",
+      "raw_summary": "Gold extended two days of gains after weak US jobs data reduced the chances of the Federal Reserve raising interest rates this year to tackle inflation.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 02 Jul 2026 17:58:43 GMT",
-      "summary": "Trump Financial Disclosure Shows 21,000 Trades in 2025\nPresident Donald Trump made more than 21,000 securities trades in his first year back in office, often in intense bursts tied to market events he created."
+      "published": "Fri, 03 Jul 2026 00:08:40 GMT",
+      "summary": "Gold Rises Toward $4,200 as Weak Jobs Data Lowers Rate-Hike Odds\nGold extended two days of gains after weak US jobs data reduced the chances of the Federal Reserve raising interest rates this year to tackle inflation."
     },
     {
-      "title": "Screwworm's Return to the US Sets up Yearslong Fight",
-      "link": "https://www.bloomberg.com/news/videos/2026-07-02/screwworm-s-return-to-the-us-sets-up-yearslong-fight-video",
-      "raw_summary": "For the first time in about fifty years, the New World screwworm is back in US livestock. Bloomberg's Ilena Peng explains how the parasitic fly will affect beef prices and how the USDA is responding. (Source: Bloomberg)",
+      "title": "Trump Allies Renew Push to Reshape Federal Reserve",
+      "link": "https://www.bloomberg.com/news/videos/2026-07-03/trump-allies-renew-push-to-reshape-federal-reserve-video",
+      "raw_summary": "President Donald Trump and his allies are renewing a push to reshape the Federal Reserve after the Supreme Court blocked an effort to fire Governor Lisa Cook. Bloomberg's Enda Curran reports. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Thu, 02 Jul 2026 19:06:09 GMT",
-      "summary": "Screwworm's Return to the US Sets up Yearslong Fight\nFor the first time in about fifty years, the New World screwworm is back in US livestock. Bloomberg's Ilena Peng explains how the parasitic fly will affect beef prices and how the USDA is responding. (Source: Bloomberg)"
+      "published": "Fri, 03 Jul 2026 01:58:22 GMT",
+      "summary": "Trump Allies Renew Push to Reshape Federal Reserve\nPresident Donald Trump and his allies are renewing a push to reshape the Federal Reserve after the Supreme Court blocked an effort to fire Governor Lisa Cook. Bloomberg's Enda Curran reports. (Source: Bloomberg)"
     },
     {
-      "title": "S&amp;P 500 Erases Jobs-Fueled Gain as Chipmakers Sink: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-01/asian-stocks-to-decline-as-traders-weigh-ai-warsh-markets-wrap",
-      "raw_summary": "A selloff in chipmakers drove the S&amp;P 500 lower even as most of its shares rose after a sharp slowdown in US jobs bolstered bets the Federal Reserve won’t raise rates any time soon.",
+      "title": "Stocks Stabilize After Tech-Led Selloff, Gold Up: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-02/stock-market-today-dow-s-p-live-updates",
+      "raw_summary": "Stocks stabilized after two days of tech-led losses that were fueled by concern the artificial intelligence-driven rally had run ahead of itself. Gold extended gains on bets the Federal Reserve will wait longer to raise interest rates.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 01 Jul 2026 22:05:31 GMT",
-      "summary": "S&amp;P 500 Erases Jobs-Fueled Gain as Chipmakers Sink: Markets Wrap\nA selloff in chipmakers drove the S&amp;P 500 lower even as most of its shares rose after a sharp slowdown in US jobs bolstered bets the Federal Reserve won’t raise rates any time soon."
+      "published": "Thu, 02 Jul 2026 22:10:18 GMT",
+      "summary": "Stocks Stabilize After Tech-Led Selloff, Gold Up: Markets Wrap\nStocks stabilized after two days of tech-led losses that were fueled by concern the artificial intelligence-driven rally had run ahead of itself. Gold extended gains on bets the Federal Reserve will wait longer to raise interest rates."
     },
     {
-      "title": "Carney Keeps North BC Tanker Ban, Signaling Alberta’s Pipeline Will Go South",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-02/carney-to-keep-north-bc-tanker-ban-as-alberta-to-unveil-pipeline-proposal",
-      "raw_summary": "Prime Minister Mark Carney announced a deal with British Columbia that keeps an oil tanker ban in place for Canada’s north coast, and commits billions of dollars in federal funding for energy, mining and transportation projects.",
+      "title": "Japan Cuts Gas in Favor of Coal as Hormuz Disruption Chokes LNG",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-03/japan-cuts-gas-in-favor-of-coal-as-hormuz-disruption-chokes-lng",
+      "raw_summary": "Japan sharply reduced natural gas-fired power generation last month, instead relying more on coal, as disruptions around the Strait of Hormuz tightened supplies of the cleaner-burning fuel.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 02 Jul 2026 17:54:28 GMT",
-      "summary": "Carney Keeps North BC Tanker Ban, Signaling Alberta’s Pipeline Will Go South\nPrime Minister Mark Carney announced a deal with British Columbia that keeps an oil tanker ban in place for Canada’s north coast, and commits billions of dollars in federal funding for energy, mining and transportation proj"
+      "published": "Fri, 03 Jul 2026 01:30:29 GMT",
+      "summary": "Japan Cuts Gas in Favor of Coal as Hormuz Disruption Chokes LNG\nJapan sharply reduced natural gas-fired power generation last month, instead relying more on coal, as disruptions around the Strait of Hormuz tightened supplies of the cleaner-burning fuel."
     },
     {
-      "title": "The Doves Have Already Left the Building",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-07-02/the-doves-have-already-left-the-building",
-      "raw_summary": "A hawkish pivot was brewing before Warsh’s ascension.",
+      "title": "Oil Edges Lower as More Supply Flows Through Strait of Hormuz",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-02/latest-oil-market-news-and-analysis-for-july-1",
+      "raw_summary": "Oil slipped as flows through the Strait of Hormuz increased further, adding to a gush of near-term supply while talks between the US and Iran continue.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 02 Jul 2026 18:56:32 GMT",
-      "summary": "The Doves Have Already Left the Building\nA hawkish pivot was brewing before Warsh’s ascension."
+      "published": "Thu, 02 Jul 2026 22:02:06 GMT",
+      "summary": "Oil Edges Lower as More Supply Flows Through Strait of Hormuz\nOil slipped as flows through the Strait of Hormuz increased further, adding to a gush of near-term supply while talks between the US and Iran continue."
     },
     {
       "title": "Securitize tokenizes $295 million of its own stock on Solana and Avalanche amid NYSE debut",
