@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T19:05:42.883967+00:00",
+  "generated_at": "2026-07-04T02:07:20.807340+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "A Record-Breaking Patch Tuesday for June 2026\nMicrosoft today released software updates to plug nearly 200 security holes across its Windows operating systems and supported software, a record number of fixes for the company's monthly Patch Tuesday cycle. Nearly three dozen of those bugs earned Micro"
     },
     {
+      "title": "Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices",
+      "link": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html",
+      "raw_summary": "Security firm runZero has&nbsp;disclosed seven vulnerabilities&nbsp;in&nbsp;FatFs, a small filesystem library that lets a device read and write the FAT and exFAT formats used on USB drives and SD cards.\n\nThe flaws matter because FatFs is nearly everywhere. It ships inside the firmware that runs security cameras, drones, industrial controllers, hardware crypto wallets, and other devices built on",
+      "source": "The Hacker News",
+      "published": "Sat, 04 Jul 2026 01:49:31 +0530",
+      "summary": "Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices\nSecurity firm runZero has&nbsp;disclosed seven vulnerabilities&nbsp;in&nbsp;FatFs, a small filesystem library that lets a device read and write the FAT and exFAT formats used on USB drives and SD cards.\n\nThe flaws matt"
+    },
+    {
+      "title": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android",
+      "link": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
+      "raw_summary": "A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and Android, and a fix is out.\n\nBad Epoll sits in the same small stretch of kernel code where Anthropic's most powerful AI model, Mythos, recently found a different bug.\n\nThe AI caught one flaw and missed",
+      "source": "The Hacker News",
+      "published": "Sat, 04 Jul 2026 01:10:01 +0530",
+      "summary": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android\nA newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and Android, and a fix is o"
+    },
+    {
+      "title": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities",
+      "link": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
+      "raw_summary": "Cybersecurity researchers have discovered a previously undocumented modular malware framework codenamed Avalon that's distributed by means of a multi-stage phishing chain capable of bypassing traditional security controls.\n\nAvalon combines credential collection, lateral movement, remote access, recovery disruption, and ransomware execution, bringing together diverse functions under one",
+      "source": "The Hacker News",
+      "published": "Sat, 04 Jul 2026 00:25:24 +0530",
+      "summary": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities\nCybersecurity researchers have discovered a previously undocumented modular malware framework codenamed Avalon that's distributed by means of a multi-stage phishing chain capable of bypassing traditional security controls.\n\nAvalon com"
+    },
+    {
       "title": "North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer Secrets",
       "link": "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html",
       "raw_summary": "Threat actors with ties to North Korea have been linked to a fresh set of malicious npm packages that masquerade as Rollup polyfill tooling to facilitate remote access and data theft.\n\nAccording to JFrog, the packages \"rollup-packages-polyfill-core\" and \"rollup-runtime-polyfill-core\" mimic the legitimate \"rollup-plugin-polyfill-node\" project, down to the description, repository metadata, and",
@@ -59,68 +83,52 @@
       "summary": "Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer\nA previously undocumented threat actor known as Armored Likho has been attributed to cyber attacks targeting government agencies and the electric power sector across Russia, Brazil, and Kazakhstan.\n\n\"Armored Likho blends "
     },
     {
-      "title": "European Parliament Member Investigating Spyware Was Hacked With Pegasus",
-      "link": "https://thehackernews.com/2026/07/european-parliament-member.html",
-      "raw_summary": "A new report from the Citizen Lab has revealed that former Member of the European Parliament Stelios Kouloglou had his mobile device repeatedly hacked with the notorious Pegasus spyware while serving on a committee that was tasked with investigating the abuse of such commercial surveillance tools in the bloc.\n\n\"Through forensic analysis of his device, we found that the attackers could have had",
-      "source": "The Hacker News",
-      "published": "Fri, 03 Jul 2026 16:35:43 +0530",
-      "summary": "European Parliament Member Investigating Spyware Was Hacked With Pegasus\nA new report from the Citizen Lab has revealed that former Member of the European Parliament Stelios Kouloglou had his mobile device repeatedly hacked with the notorious Pegasus spyware while serving on a committee that was tas"
-    },
-    {
-      "title": "PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac Login Passwords",
-      "link": "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html",
-      "raw_summary": "Cybersecurity researchers have flagged a new macOS information stealer called PamStealer that employs a series of clever tricks to infect systems and siphon sensitive data.\n\nThe stealer, discovered by Jamf Threat Labs, is distributed as a compiled AppleScript (.scpt) file impersonating Maccy, a legitimate open-source clipboard manager. It has been codenamed PamStealer owing to its ability to",
-      "source": "The Hacker News",
-      "published": "Fri, 03 Jul 2026 13:33:37 +0530",
-      "summary": "PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac Login Passwords\nCybersecurity researchers have flagged a new macOS information stealer called PamStealer that employs a series of clever tricks to infect systems and siphon sensitive data.\n\nThe stealer, discovered by Jamf Threat Labs, is d"
-    },
-    {
-      "title": "Google Disrupts NetNut Residential Proxy Network Spanning 2 Million Home Devices",
-      "link": "https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html",
-      "raw_summary": "Google has significantly degraded NetNut, one of the biggest networks that turns home devices into rented relays for other people's traffic.\n\nWorking with the FBI, Lumen, and others, Google's Threat Intelligence Group (GTIG)&nbsp;said this week&nbsp;it had reduced the network's pool of usable devices by millions.\n\nGoogle identifies NetNut, also tracked as Popa, as a network spread across home",
-      "source": "The Hacker News",
-      "published": "Fri, 03 Jul 2026 00:24:06 +0530",
-      "summary": "Google Disrupts NetNut Residential Proxy Network Spanning 2 Million Home Devices\nGoogle has significantly degraded NetNut, one of the biggest networks that turns home devices into rented relays for other people's traffic.\n\nWorking with the FBI, Lumen, and others, Google's Threat Intelligence Group ("
-    },
-    {
-      "title": "I Wasn't Allowed Prompting ChatGPT During My Chalk Talk: This Is Discrimination",
-      "link": "https://inpreparation.substack.com/p/opinion-i-was-not-allowed-to-type",
-      "raw_summary": "<p>Article URL: <a href=\"https://inpreparation.substack.com/p/opinion-i-was-not-allowed-to-type\">https://inpreparation.substack.com/p/opinion-i-was-not-allowed-to-type</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48777728\">https://news.ycombinator.com/item?id=48777728</a></p>\n<p>Points: 34</p>\n<p># Comments: 16</p>",
+      "title": "MSI Center – How to gain SYSTEM privileges in seconds",
+      "link": "https://mrbruh.com/msicenter/",
+      "raw_summary": "<p>Article URL: <a href=\"https://mrbruh.com/msicenter/\">https://mrbruh.com/msicenter/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48781688\">https://news.ycombinator.com/item?id=48781688</a></p>\n<p>Points: 20</p>\n<p># Comments: 5</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 03 Jul 2026 17:46:10 +0000",
-      "summary": "I Wasn't Allowed Prompting ChatGPT During My Chalk Talk: This Is Discrimination\n<p>Article URL: <a href=\"https://inpreparation.substack.com/p/opinion-i-was-not-allowed-to-type\">https://inpreparation.substack.com/p/opinion-i-was-not-allowed-to-type</a></p>\n<p>Comments URL: <a href=\"https://news.ycomb"
+      "published": "Sat, 04 Jul 2026 00:57:44 +0000",
+      "summary": "MSI Center – How to gain SYSTEM privileges in seconds\n<p>Article URL: <a href=\"https://mrbruh.com/msicenter/\">https://mrbruh.com/msicenter/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48781688\">https://news.ycombinator.com/item?id=48781688</a></p>\n<p>Points: 20</p>\n<p># Co"
     },
     {
-      "title": "International chess federation sanctions Kramnik",
-      "link": "https://www.fide.com/fide-ethics-disciplinary-commission-issues-a-decision-in-case-involving-gm-vladimir-kramnik/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.fide.com/fide-ethics-disciplinary-commission-issues-a-decision-in-case-involving-gm-vladimir-kramnik/\">https://www.fide.com/fide-ethics-disciplinary-commission-issues-a-decision-in-case-involving-gm-vladimir-kramnik/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48777266\">https://news.ycombinator.com/item?id=48777266</a></p>\n<p>Points: 51</p>\n<p># Comments: 26</p>",
+      "title": "Soatok's Informal Guide to Threat Models",
+      "link": "https://soatok.blog/2026/06/30/soatoks-informal-guide-to-threat-models/",
+      "raw_summary": "<p>Article URL: <a href=\"https://soatok.blog/2026/06/30/soatoks-informal-guide-to-threat-models/\">https://soatok.blog/2026/06/30/soatoks-informal-guide-to-threat-models/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48781597\">https://news.ycombinator.com/item?id=48781597</a></p>\n<p>Points: 28</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 03 Jul 2026 17:04:08 +0000",
-      "summary": "International chess federation sanctions Kramnik\n<p>Article URL: <a href=\"https://www.fide.com/fide-ethics-disciplinary-commission-issues-a-decision-in-case-involving-gm-vladimir-kramnik/\">https://www.fide.com/fide-ethics-disciplinary-commission-issues-a-decision-in-case-involving-gm-vladimir-kramni"
+      "published": "Sat, 04 Jul 2026 00:35:49 +0000",
+      "summary": "Soatok's Informal Guide to Threat Models\n<p>Article URL: <a href=\"https://soatok.blog/2026/06/30/soatoks-informal-guide-to-threat-models/\">https://soatok.blog/2026/06/30/soatoks-informal-guide-to-threat-models/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48781597\">https://"
     },
     {
-      "title": "Show HN: Mcpsnoop – Wireshark for MCP (transparent proxy and live TUI)",
-      "link": "https://github.com/kerlenton/mcpsnoop",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/kerlenton/mcpsnoop\">https://github.com/kerlenton/mcpsnoop</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48777144\">https://news.ycombinator.com/item?id=48777144</a></p>\n<p>Points: 9</p>\n<p># Comments: 3</p>",
+      "title": "What does privatization of the US Postal Service mean?",
+      "link": "https://phenomenalworld.org/analysis/unstitching-america/",
+      "raw_summary": "<p>Article URL: <a href=\"https://phenomenalworld.org/analysis/unstitching-america/\">https://phenomenalworld.org/analysis/unstitching-america/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48781433\">https://news.ycombinator.com/item?id=48781433</a></p>\n<p>Points: 32</p>\n<p># Comments: 35</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 03 Jul 2026 16:53:50 +0000",
-      "summary": "Show HN: Mcpsnoop – Wireshark for MCP (transparent proxy and live TUI)\n<p>Article URL: <a href=\"https://github.com/kerlenton/mcpsnoop\">https://github.com/kerlenton/mcpsnoop</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48777144\">https://news.ycombinator.com/item?id=48777144<"
+      "published": "Sat, 04 Jul 2026 00:01:18 +0000",
+      "summary": "What does privatization of the US Postal Service mean?\n<p>Article URL: <a href=\"https://phenomenalworld.org/analysis/unstitching-america/\">https://phenomenalworld.org/analysis/unstitching-america/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48781433\">https://news.ycombinat"
     },
     {
-      "title": "The Life and Times of Maxis, Part 1: SimEverything",
-      "link": "https://www.filfre.net/2026/07/the-life-and-times-of-maxis-part-1-simeverything/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.filfre.net/2026/07/the-life-and-times-of-maxis-part-1-simeverything/\">https://www.filfre.net/2026/07/the-life-and-times-of-maxis-part-1-simeverything/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48776525\">https://news.ycombinator.com/item?id=48776525</a></p>\n<p>Points: 67</p>\n<p># Comments: 4</p>",
+      "title": "Scientists discover guidance system for migratory songbirds",
+      "link": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/scientists-discover-guidance-system-for-migratory-songbirds/",
+      "raw_summary": "<p>Article URL: <a href=\"https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/scientists-discover-guidance-system-for-migratory-songbirds/\">https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/scientists-discover-guidance-system-for-migratory-songbirds/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48781274\">https://news.ycombinator.com/item?id=48781274</a></p>\n<p>Points: 11</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 03 Jul 2026 15:56:02 +0000",
-      "summary": "The Life and Times of Maxis, Part 1: SimEverything\n<p>Article URL: <a href=\"https://www.filfre.net/2026/07/the-life-and-times-of-maxis-part-1-simeverything/\">https://www.filfre.net/2026/07/the-life-and-times-of-maxis-part-1-simeverything/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.co"
+      "published": "Fri, 03 Jul 2026 23:36:46 +0000",
+      "summary": "Scientists discover guidance system for migratory songbirds\n<p>Article URL: <a href=\"https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/scientists-discover-guidance-system-for-migratory-songbirds/\">https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/scientists-disc"
     },
     {
-      "title": "60% Fable cost cut by converting code to images and having the model OCR it",
-      "link": "https://github.com/teamchong/pxpipe",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/teamchong/pxpipe\">https://github.com/teamchong/pxpipe</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48776464\">https://news.ycombinator.com/item?id=48776464</a></p>\n<p>Points: 84</p>\n<p># Comments: 27</p>",
+      "title": "The circuit that lets your brain think and see",
+      "link": "https://www.engineering.columbia.edu/about/news/circuit-lets-your-brain-think-and-see",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.engineering.columbia.edu/about/news/circuit-lets-your-brain-think-and-see\">https://www.engineering.columbia.edu/about/news/circuit-lets-your-brain-think-and-see</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48780996\">https://news.ycombinator.com/item?id=48780996</a></p>\n<p>Points: 35</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 03 Jul 2026 15:50:49 +0000",
-      "summary": "60% Fable cost cut by converting code to images and having the model OCR it\n<p>Article URL: <a href=\"https://github.com/teamchong/pxpipe\">https://github.com/teamchong/pxpipe</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48776464\">https://news.ycombinator.com/item?id=48776464"
+      "published": "Fri, 03 Jul 2026 22:56:17 +0000",
+      "summary": "The circuit that lets your brain think and see\n<p>Article URL: <a href=\"https://www.engineering.columbia.edu/about/news/circuit-lets-your-brain-think-and-see\">https://www.engineering.columbia.edu/about/news/circuit-lets-your-brain-think-and-see</a></p>\n<p>Comments URL: <a href=\"https://news.ycombina"
+    },
+    {
+      "title": "The only AI glossary you’ll need this year",
+      "link": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "raw_summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "source": "TechCrunch",
+      "published": "Fri, 03 Jul 2026 21:20:00 +0000",
+      "summary": "The only AI glossary you’ll need this year\nThe rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter."
     },
     {
       "title": "The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari",
@@ -133,10 +141,10 @@
     {
       "title": "The Dune keypad device can be your meeting controller and more",
       "link": "https://techcrunch.com/2026/07/03/the-dune-keypad-device-can-be-your-meeting-controller-and-more/",
-      "raw_summary": "The $149 Dune keyboard can be a meeting controller at least and a script-executing keypad at best.",
+      "raw_summary": "The gadget has three buttons, and it changes context based on what app you are looking at. For instance, in meeting apps and sites, it could be toggle mic, toggle video, and bring window to the front.",
       "source": "TechCrunch",
       "published": "Fri, 03 Jul 2026 18:28:30 +0000",
-      "summary": "The Dune keypad device can be your meeting controller and more\nThe $149 Dune keyboard can be a meeting controller at least and a script-executing keypad at best."
+      "summary": "The Dune keypad device can be your meeting controller and more\nThe gadget has three buttons, and it changes context based on what app you are looking at. For instance, in meeting apps and sites, it could be toggle mic, toggle video, and bring window to the front."
     },
     {
       "title": "Chevy built an all-American EV truck — why is nobody buying it?",
@@ -153,14 +161,6 @@
       "source": "TechCrunch",
       "published": "Fri, 03 Jul 2026 05:05:00 +0000",
       "summary": "Politician who investigated spyware abuses had his phone hacked with Pegasus spyware\nA government customer of NSO Group used the company's Pegasus spyware to hack into the phone of a European politician, who at the time was serving on an EU committee tasked with investigating the spyware industry."
-    },
-    {
-      "title": "Last chance to apply — Startup Battlefield Australia applications close July 6",
-      "link": "https://techcrunch.com/2026/07/02/last-chance-to-apply-startup-battlefield-australia-applications-close-july-6-2/",
-      "raw_summary": "If you're going to apply for Startup Battlefield Australia, now is the time. Applications close July 6, and once the deadline passes, the opportunity is gone.",
-      "source": "TechCrunch",
-      "published": "Fri, 03 Jul 2026 00:00:00 +0000",
-      "summary": "Last chance to apply — Startup Battlefield Australia applications close July 6\nIf you're going to apply for Startup Battlefield Australia, now is the time. Applications close July 6, and once the deadline passes, the opportunity is gone."
     },
     {
       "title": "Rocket Report: Indian startup nears first launch; SpaceX's millenary milestone",
@@ -203,6 +203,38 @@
       "summary": "Wing Commander IV and the FMV future that never quite was\nC:\\ArsGames takes a look at the time Chris Roberts more or less made a whole movie."
     },
     {
+      "title": "Trump to kick off independence celebrations as heatwave grips US",
+      "link": "https://www.ft.com/content/46ae86e3-b7a4-4ef6-b90a-bc96214c521c",
+      "raw_summary": "President will speak at Mount Rushmore under a storm warning as high temperatures threaten 250th anniversary events",
+      "source": "World",
+      "published": "Sat, 04 Jul 2026 00:51:11 GMT",
+      "summary": "Trump to kick off independence celebrations as heatwave grips US\nPresident will speak at Mount Rushmore under a storm warning as high temperatures threaten 250th anniversary events"
+    },
+    {
+      "title": "Iran begins mourning for Khamenei under tight security",
+      "link": "https://www.ft.com/content/a23d758d-3b48-4ea4-a08c-5dba88543d08",
+      "raw_summary": "Dignitaries from more than 100 nations pay respects to slain supreme leader ahead of official funeral",
+      "source": "World",
+      "published": "Fri, 03 Jul 2026 20:06:32 GMT",
+      "summary": "Iran begins mourning for Khamenei under tight security\nDignitaries from more than 100 nations pay respects to slain supreme leader ahead of official funeral"
+    },
+    {
+      "title": "Andy Burnham says he will retain UK’s pension triple lock",
+      "link": "https://www.ft.com/content/09cfd5af-b3d6-4f27-9337-de90b802150e",
+      "raw_summary": "Keir Starmer’s likely successor also faced a question from Tory leader Kemi Badenoch during Reddit ‘ask me anything’ session",
+      "source": "World",
+      "published": "Fri, 03 Jul 2026 19:59:13 GMT",
+      "summary": "Andy Burnham says he will retain UK’s pension triple lock\nKeir Starmer’s likely successor also faced a question from Tory leader Kemi Badenoch during Reddit ‘ask me anything’ session"
+    },
+    {
+      "title": "Conservative Keiko Fujimori wins knife-edge election in Peru",
+      "link": "https://www.ft.com/content/82327fa5-345a-49f9-b760-54a5c0938a14",
+      "raw_summary": "Daughter of autocrat vows to boost private investment in mining sector while taking a tough line on crime",
+      "source": "World",
+      "published": "Fri, 03 Jul 2026 19:41:26 GMT",
+      "summary": "Conservative Keiko Fujimori wins knife-edge election in Peru\nDaughter of autocrat vows to boost private investment in mining sector while taking a tough line on crime"
+    },
+    {
       "title": "Romanians sentenced in London for Iran-directed attack on journalist",
       "link": "https://www.ft.com/content/12d30929-9e32-4344-80fd-fc53fc43ff8d",
       "raw_summary": "The two men were found to have stabbed opposition-supporting Pouria Zeraati on a Wimbledon street",
@@ -211,36 +243,36 @@
       "summary": "Romanians sentenced in London for Iran-directed attack on journalist\nThe two men were found to have stabbed opposition-supporting Pouria Zeraati on a Wimbledon street"
     },
     {
-      "title": "An American birthday worth celebrating",
-      "link": "https://www.ft.com/content/010b7867-1bf3-4a32-aeee-a3e6a67e4b0b",
-      "raw_summary": "Though its founding ideals are threatened, the US has the capacity for renewal",
-      "source": "World",
-      "published": "Fri, 03 Jul 2026 17:12:29 GMT",
-      "summary": "An American birthday worth celebrating\nThough its founding ideals are threatened, the US has the capacity for renewal"
+      "title": "Venture Capital During the AI Revolution: Masters in Business with Mamoon Hamid",
+      "link": "https://www.bloomberg.com/news/videos/2026-07-03/masters-in-business-with-mamoon-hamid-video",
+      "raw_summary": "Barry sits down with Kleiner Perkins Partner, Mamoon Hamid. They discuss Mamoon's thoughts on the AI revolution and his approach to early AI investing.  Mamoon also breaks down how he became an early investor in giants like Slack, Figma, and how Kleiner Perkins assesses the investments they missed. (Source: Bloomberg)",
+      "source": "Bloomberg Markets",
+      "published": "Fri, 03 Jul 2026 21:13:04 GMT",
+      "summary": "Venture Capital During the AI Revolution: Masters in Business with Mamoon Hamid\nBarry sits down with Kleiner Perkins Partner, Mamoon Hamid. They discuss Mamoon's thoughts on the AI revolution and his approach to early AI investing.  Mamoon also breaks down how he became an early investor in giants l"
     },
     {
-      "title": "Iran begins mourning for Khamenei under tight security",
-      "link": "https://www.ft.com/content/a23d758d-3b48-4ea4-a08c-5dba88543d08",
-      "raw_summary": "Dignitaries from more than 100 nations pay respects to slain supreme leader ahead of official funeral",
-      "source": "World",
-      "published": "Fri, 03 Jul 2026 17:00:39 GMT",
-      "summary": "Iran begins mourning for Khamenei under tight security\nDignitaries from more than 100 nations pay respects to slain supreme leader ahead of official funeral"
+      "title": "1ドル200円の円安シナリオ、高市氏インド訪問、W杯ピッチ外の戦い─1週間のニュース5選",
+      "link": "https://www.bloomberg.com/jp/news/newsletters/2026-07-03/THMAC1KGCTG300",
+      "raw_summary": "マーケットで話題になったニュースから、1週間を振り返る五つのトピックを厳選して紹介します。",
+      "source": "Bloomberg Markets",
+      "published": "Fri, 03 Jul 2026 21:00:01 GMT",
+      "summary": "1ドル200円の円安シナリオ、高市氏インド訪問、W杯ピッチ外の戦い─1週間のニュース5選\nマーケットで話題になったニュースから、1週間を振り返る五つのトピックを厳選して紹介します。"
     },
     {
-      "title": "Why US exceptionalism in markets is justified",
-      "link": "https://www.ft.com/content/5ee80a17-7277-41dd-bc3d-8817b400a757",
-      "raw_summary": "An honest conclusion is that America’s centrality rests on a set of mutually reinforcing advantages",
-      "source": "World",
-      "published": "Fri, 03 Jul 2026 17:00:04 GMT",
-      "summary": "Why US exceptionalism in markets is justified\nAn honest conclusion is that America’s centrality rests on a set of mutually reinforcing advantages"
+      "title": "Toronto Stocks Enjoy Broad Gains After New Pipeline Proposal",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-03/canadian-stocks-enjoy-broad-gains-after-new-pipeline-proposal",
+      "raw_summary": "Canada’s stocks benchmark climbed Friday morning after Prime Minister Mark Carney unveiled a new pipeline project to the country’s West Coast.",
+      "source": "Bloomberg Markets",
+      "published": "Fri, 03 Jul 2026 14:37:05 GMT",
+      "summary": "Toronto Stocks Enjoy Broad Gains After New Pipeline Proposal\nCanada’s stocks benchmark climbed Friday morning after Prime Minister Mark Carney unveiled a new pipeline project to the country’s West Coast."
     },
     {
-      "title": "Shell alleged to have misled UK courts in Nigeria pollution case",
-      "link": "https://www.ft.com/content/088774f0-8b93-4dd2-99c0-c6b095c52e24",
-      "raw_summary": "Long-running trial over blighting of Niger Delta due to begin next year",
-      "source": "World",
-      "published": "Fri, 03 Jul 2026 16:45:31 GMT",
-      "summary": "Shell alleged to have misled UK courts in Nigeria pollution case\nLong-running trial over blighting of Niger Delta due to begin next year"
+      "title": "Canada, Philippines Agree to Sign Trade Deal This Year, Grow Defense Ties",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-02/canada-philippines-agree-to-sign-trade-deal-this-year-grow-defense-ties",
+      "raw_summary": "Canada and the Philippines plan to finalize a free trade agreement this year, and signed agreements to deepen cooperation on energy, defense, labor and migration, Prime Minister Mark Carney said Thursday.",
+      "source": "Bloomberg Markets",
+      "published": "Thu, 02 Jul 2026 21:11:53 GMT",
+      "summary": "Canada, Philippines Agree to Sign Trade Deal This Year, Grow Defense Ties\nCanada and the Philippines plan to finalize a free trade agreement this year, and signed agreements to deepen cooperation on energy, defense, labor and migration, Prime Minister Mark Carney said Thursday."
     },
     {
       "title": "Copper Tracks Dollar Swings as Traders Weigh US Rate Outlook",
@@ -251,36 +283,12 @@
       "summary": "Copper Tracks Dollar Swings as Traders Weigh US Rate Outlook\nCopper rose on Friday, tracking small swings in the US dollar as investors continue to assess the outlook for US monetary policy."
     },
     {
-      "title": "Oil Is Little Changed as Persian Gulf Flows Near Pre-War Levels",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-02/latest-oil-market-news-and-analysis-for-july-1",
-      "raw_summary": "Oil prices were little changed in thin trading as the recovery of Persian Gulf flows fomented a new surplus in key parts of the global market.",
-      "source": "Bloomberg Markets",
-      "published": "Thu, 02 Jul 2026 22:02:06 GMT",
-      "summary": "Oil Is Little Changed as Persian Gulf Flows Near Pre-War Levels\nOil prices were little changed in thin trading as the recovery of Persian Gulf flows fomented a new surplus in key parts of the global market."
-    },
-    {
-      "title": "Gold Heads for First Weekly Gain Since May on Easing Fed Outlook",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-03/gold-holds-gains-as-weak-us-jobs-data-lowers-rate-hike-odds",
-      "raw_summary": "Gold headed for its first weekly gain since May as traders dialed down their expectations of Federal Reserve rate hikes.",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 03 Jul 2026 00:08:40 GMT",
-      "summary": "Gold Heads for First Weekly Gain Since May on Easing Fed Outlook\nGold headed for its first weekly gain since May as traders dialed down their expectations of Federal Reserve rate hikes."
-    },
-    {
-      "title": "CPP Invests $1.75 Billion in EQT’s AI Buildout",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-03/canada-pension-plan-commits-1-75-billion-to-eqt-eqt-for-ai-infrastructure",
-      "raw_summary": "Canada Pension Plan Investment Board will invest $1.75 billion to support EQT AB’s artificial intelligence infrastructure buildout, it announced Friday.",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 03 Jul 2026 15:44:05 GMT",
-      "summary": "CPP Invests $1.75 Billion in EQT’s AI Buildout\nCanada Pension Plan Investment Board will invest $1.75 billion to support EQT AB’s artificial intelligence infrastructure buildout, it announced Friday."
-    },
-    {
-      "title": "SQM-Codelco Venture Maps Path to Higher Lithium Output in Chile",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-03/sqm-codelco-venture-maps-path-to-higher-lithium-output-in-chile",
-      "raw_summary": "Chilean mining companies SQM and Codelco are paving the way to boost output at their sprawling lithium partnership by more than 70%, in a long-term bet on battery demand.",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 03 Jul 2026 17:52:25 GMT",
-      "summary": "SQM-Codelco Venture Maps Path to Higher Lithium Output in Chile\nChilean mining companies SQM and Codelco are paving the way to boost output at their sprawling lithium partnership by more than 70%, in a long-term bet on battery demand."
+      "title": "This sanctioned Russian stablecoin claims it processes billions, but blockchain analysts disagree",
+      "link": "https://www.coindesk.com/business/2026/07/03/this-sanctioned-russian-stablecoin-claims-it-processes-billions-but-blockchain-analysts-disagree",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Fri, 03 Jul 2026 19:18:59 +0000",
+      "summary": "This sanctioned Russian stablecoin claims it processes billions, but blockchain analysts disagree\n"
     },
     {
       "title": "Trump says there is ‘nothing wrong’ with family’s crypto windfall",
@@ -313,14 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Fri, 03 Jul 2026 11:11:39 +0000",
       "summary": "Crypto bulls on firmer footing as U.S. rate-hike risk recedes\n"
-    },
-    {
-      "title": "Memory and semiconductor stocks lose momentum, bitcoin rebounds in sign of changing investor focus",
-      "link": "https://www.coindesk.com/markets/2026/07/03/memory-and-semiconductor-stocks-lose-momentum-bitcoin-rebounds-in-sign-of-changing-investor-focus",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 03 Jul 2026 10:41:52 +0000",
-      "summary": "Memory and semiconductor stocks lose momentum, bitcoin rebounds in sign of changing investor focus\n"
     }
   ]
 }
