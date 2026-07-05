@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T08:42:37.219617+00:00",
+  "generated_at": "2026-07-05T13:13:51.040467+00:00",
   "count": 40,
   "articles": [
     {
@@ -83,44 +83,52 @@
       "summary": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities\nCybersecurity researchers have discovered a previously undocumented modular malware framework codenamed Avalon that's distributed by means of a multi-stage phishing chain capable of bypassing traditional security controls.\n\nAvalon com"
     },
     {
-      "title": "Is The Economist Always Wrong?",
-      "link": "https://economist.com/interactive/finance-and-economics/2026/07/02/is-the-economist-always-wrong",
-      "raw_summary": "<p>Article URL: <a href=\"https://economist.com/interactive/finance-and-economics/2026/07/02/is-the-economist-always-wrong\">https://economist.com/interactive/finance-and-economics/2026/07/02/is-the-economist-always-wrong</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48791799\">https://news.ycombinator.com/item?id=48791799</a></p>\n<p>Points: 12</p>\n<p># Comments: 6</p>",
+      "title": "Show HN: KiCad in the Browser",
+      "link": "https://demo.pcbjam.com/",
+      "raw_summary": "<p>KiCad, a PCB EDA suite is now working in a browser, you can try it at the link, there's a demo project or you can bring your own. Firefox is best, Chrome is good, Safari is \"working\".<p>We’re Emergence Engineering, a dev shop from Hungary, mostly working with rich text editors, CRDTs. PCBJam started as my (Viktor, CTO, ex-electrical engineer) hobby project but as time went on I put more\nand more energy into it, and a product started shaping up in my head, in the last few months we’ve started to focus on this project a bit more, and this is the first MVP~ish result.<p>This project is a ton of fun, ton of learning, ton of improvements over improvements:<p>- I thought there must be ways to emulate the PCB canvas OpenGL code on the web. And yes, there are a lot of ways, all of them very buggy. Turns out it’s faster to just write WebGL code that works with\nKiCad’s Graphics Abstraction Layer if you add the right intermediate debugging steps. I (with Claude) implemented the features and compared them to native at every step, then the app loaded up the first \ntime and just worked. I spent weeks hunting weird emulation bugs before that.<p>- There was an old wxWidgets web port as a starting point that helped a lot, bringing it up to the level KiCad needed is a long (and still ongoing) task. Thanks ahilss!<p>- Pthreads on the web: with Emscripten it’s possible to port multithreaded apps (used by DRC, software 3D renderer). A lot of Emscripten features (Asyncify, Pthreads, native exceptions) are in a war with each other, but it’s possible.<p>- Asyncify with native exceptions: Asyncify (used to make the WASM code suspend then call into the JS land, emulating blocking C++ calls by rewriting the WASM directly) is not compatible with native exceptions, even on the latest Binaryen version it can’t suspend inside catch arms. If you write a new Binaryen pass then it can, making the bundle 30-40% smaller and the app load in a second instead of 10.<p>- Optimizing bundle size is a fun game. We just moved Open CASCADE into a separate lazy-loaded WASM module, moving from 180 to 130 MB (24 MB brotli), still on -O1. -O2 / -Oz etc will be more work than it\nlooks.<p>And a ton more problems like these above on a daily basis.<p>A few months ago I had a barely loading laggy pcbnew that crashed when you looked at it wrong, now we have the whole application working. I should say with quite a few bugs still, but now it feels pretty\nclose to native.<p>There’s a lot of built up knowledge / code that we want to release as blogposts, mainline our changes to Binaryen / KiCad / wxWidgets, but I want to focus on the release first. Our wxWidgets port is quite \nclose to the core, the KiCad is ~150 changed core files (mostly build scripts, some code changes too). The goal is to keep as close to the mainline as possible, and merge eventually.<p>We’ll have a free tier for sure and something around $30/mo for bigger/closed projects, optional paid AI integration / self hosting / enterprise features / native & mobile version down the line.<p>The goal is to build a product on top of KiCad (collaboration, AI integration, sharing, integrations), kind of like what Red Hat did with Linux back then. We’re heads down making it functional and have the\nfirst version up in a ~month or so.<p>And of course we’re standing on the shoulders of the people who made KiCad & wxWidgets and we want to give back and contribute as much as possible, if you have an idea on how to do that best let me know, I\nreleased a few moderately successful open source projects, but I’ve never been a contributor. All of the front-end code is GPL (it has to be) and you can run this project if you want.<p>You can find the sources at: <a href=\"https://github.com/emergence-engineering/pcbjam\" rel=\"nofollow\">https://github.com/emergence-engineering/pcbjam</a>.<p>Our company site is at:\n<a href=\"https://emergence-engineering.com/\" rel=\"nofollow\">https://emergence-engineering.com/</a><p>Our crappy LP is at: \n<a href=\"https://www.pcbjam.com/\" rel=\"nofollow\">https://www.pcbjam.com/</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48793542\">https://news.ycombinator.com/item?id=48793542</a></p>\n<p>Points: 5</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 05 Jul 2026 06:40:05 +0000",
-      "summary": "Is The Economist Always Wrong?\n<p>Article URL: <a href=\"https://economist.com/interactive/finance-and-economics/2026/07/02/is-the-economist-always-wrong\">https://economist.com/interactive/finance-and-economics/2026/07/02/is-the-economist-always-wrong</a></p>\n<p>Comments URL: <a href=\"https://news.yc"
+      "published": "Sun, 05 Jul 2026 12:06:57 +0000",
+      "summary": "Show HN: KiCad in the Browser\n<p>KiCad, a PCB EDA suite is now working in a browser, you can try it at the link, there's a demo project or you can bring your own. Firefox is best, Chrome is good, Safari is \"working\".<p>We’re Emergence Engineering, a dev shop from Hungary, mostly working with rich te"
     },
     {
-      "title": "EV Batteries Are Defying Expectations After Miles",
-      "link": "https://www.wsj.com/business/autos/ev-batteries-are-defying-expectations-after-hundreds-of-thousands-of-miles-8579de13",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.wsj.com/business/autos/ev-batteries-are-defying-expectations-after-hundreds-of-thousands-of-miles-8579de13\">https://www.wsj.com/business/autos/ev-batteries-are-defying-expectations-after-hundreds-of-thousands-of-miles-8579de13</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48791755\">https://news.ycombinator.com/item?id=48791755</a></p>\n<p>Points: 32</p>\n<p># Comments: 18</p>",
+      "title": "Cannabis Users Face Substantially Higher Risk of Heart Attack",
+      "link": "https://www.acc.org/about-acc/press-releases/2025/03/17/15/35/cannabis-users-face-substantially-higher-risk",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.acc.org/about-acc/press-releases/2025/03/17/15/35/cannabis-users-face-substantially-higher-risk\">https://www.acc.org/about-acc/press-releases/2025/03/17/15/35/cannabis-users-face-substantially-higher-risk</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48793492\">https://news.ycombinator.com/item?id=48793492</a></p>\n<p>Points: 7</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 05 Jul 2026 06:30:40 +0000",
-      "summary": "EV Batteries Are Defying Expectations After Miles\n<p>Article URL: <a href=\"https://www.wsj.com/business/autos/ev-batteries-are-defying-expectations-after-hundreds-of-thousands-of-miles-8579de13\">https://www.wsj.com/business/autos/ev-batteries-are-defying-expectations-after-hundreds-of-thousands-of-m"
+      "published": "Sun, 05 Jul 2026 11:59:27 +0000",
+      "summary": "Cannabis Users Face Substantially Higher Risk of Heart Attack\n<p>Article URL: <a href=\"https://www.acc.org/about-acc/press-releases/2025/03/17/15/35/cannabis-users-face-substantially-higher-risk\">https://www.acc.org/about-acc/press-releases/2025/03/17/15/35/cannabis-users-face-substantially-higher-r"
     },
     {
-      "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
-      "link": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/",
-      "raw_summary": "<p>Article URL: <a href=\"https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/\">https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48791708\">https://news.ycombinator.com/item?id=48791708</a></p>\n<p>Points: 28</p>\n<p># Comments: 16</p>",
+      "title": "Introduction to Compilers and Language Design",
+      "link": "https://dthain.github.io/books/compiler/",
+      "raw_summary": "<p>Article URL: <a href=\"https://dthain.github.io/books/compiler/\">https://dthain.github.io/books/compiler/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48793454\">https://news.ycombinator.com/item?id=48793454</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 05 Jul 2026 06:19:34 +0000",
-      "summary": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)\n<p>Article URL: <a href=\"https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/\">https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48791708\">https:/"
+      "published": "Sun, 05 Jul 2026 11:54:16 +0000",
+      "summary": "Introduction to Compilers and Language Design\n<p>Article URL: <a href=\"https://dthain.github.io/books/compiler/\">https://dthain.github.io/books/compiler/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48793454\">https://news.ycombinator.com/item?id=48793454</a></p>\n<p>Points: "
     },
     {
-      "title": "Megawatts by Microwave",
-      "link": "https://computer.rip/2026-07-04-microwave-and-power.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://computer.rip/2026-07-04-microwave-and-power.html\">https://computer.rip/2026-07-04-microwave-and-power.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48791591\">https://news.ycombinator.com/item?id=48791591</a></p>\n<p>Points: 17</p>\n<p># Comments: 2</p>",
+      "title": "Scientist who cleaned space toilet on work now leading Mars exploration",
+      "link": "https://www.bbc.com/news/articles/cz758x04g83o",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.bbc.com/news/articles/cz758x04g83o\">https://www.bbc.com/news/articles/cz758x04g83o</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48792780\">https://news.ycombinator.com/item?id=48792780</a></p>\n<p>Points: 20</p>\n<p># Comments: 5</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 05 Jul 2026 05:56:03 +0000",
-      "summary": "Megawatts by Microwave\n<p>Article URL: <a href=\"https://computer.rip/2026-07-04-microwave-and-power.html\">https://computer.rip/2026-07-04-microwave-and-power.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48791591\">https://news.ycombinator.com/item?id=48791591</a></p>\n<p"
+      "published": "Sun, 05 Jul 2026 09:55:22 +0000",
+      "summary": "Scientist who cleaned space toilet on work now leading Mars exploration\n<p>Article URL: <a href=\"https://www.bbc.com/news/articles/cz758x04g83o\">https://www.bbc.com/news/articles/cz758x04g83o</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48792780\">https://news.ycombinator.co"
     },
     {
-      "title": "Mouse: Precision Editing Tools for AI Coding Agents",
-      "link": "https://hic-ai.com",
-      "raw_summary": "<p>Article URL: <a href=\"https://hic-ai.com\">https://hic-ai.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48791380\">https://news.ycombinator.com/item?id=48791380</a></p>\n<p>Points: 32</p>\n<p># Comments: 36</p>",
+      "title": "Claude Design System Prompt",
+      "link": "https://github.com/Trystan-SA/claude-design-system-prompt",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/Trystan-SA/claude-design-system-prompt\">https://github.com/Trystan-SA/claude-design-system-prompt</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48792399\">https://news.ycombinator.com/item?id=48792399</a></p>\n<p>Points: 54</p>\n<p># Comments: 12</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 05 Jul 2026 05:01:14 +0000",
-      "summary": "Mouse: Precision Editing Tools for AI Coding Agents\n<p>Article URL: <a href=\"https://hic-ai.com\">https://hic-ai.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48791380\">https://news.ycombinator.com/item?id=48791380</a></p>\n<p>Points: 32</p>\n<p># Comments: 36</p>"
+      "published": "Sun, 05 Jul 2026 08:43:37 +0000",
+      "summary": "Claude Design System Prompt\n<p>Article URL: <a href=\"https://github.com/Trystan-SA/claude-design-system-prompt\">https://github.com/Trystan-SA/claude-design-system-prompt</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48792399\">https://news.ycombinator.com/item?id=48792399</a>"
+    },
+    {
+      "title": "Almost 90 new unicorns have been minted so far this year — here they are",
+      "link": "https://techcrunch.com/2026/07/05/almost-40-new-unicorns-have-been-minted-so-far-this-year-here-they-are/",
+      "raw_summary": "With AI igniting an investor frenzy, more startups are achieving unicorn status every month.",
+      "source": "TechCrunch",
+      "published": "Sun, 05 Jul 2026 12:47:39 +0000",
+      "summary": "Almost 90 new unicorns have been minted so far this year — here they are\nWith AI igniting an investor frenzy, more startups are achieving unicorn status every month."
     },
     {
       "title": "New Google commercial imagines a Declaration of Independence written with help from AI",
@@ -155,12 +163,20 @@
       "summary": "What is Mistral AI? Everything to know about the OpenAI competitor\nMistral AI, which offers some open source AI models, has raised significant funding since its creation in 2023, with the ambition to “put frontier AI in the hands of everyone.”"
     },
     {
-      "title": "The only AI glossary you’ll need this year",
-      "link": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "raw_summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-      "source": "TechCrunch",
-      "published": "Fri, 03 Jul 2026 21:20:00 +0000",
-      "summary": "The only AI glossary you’ll need this year\nThe rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter."
+      "title": "Chemical accidents rise as Trump administration proposes weakening safety rules",
+      "link": "https://arstechnica.com/science/2026/07/chemical-accidents-rise-as-trump-administration-proposes-weakening-safety-rules/",
+      "raw_summary": "Chemicals from accidents that injured or killed people increased by nearly 50 percent in recent years.",
+      "source": "Ars Technica - All content",
+      "published": "Sun, 05 Jul 2026 11:05:22 +0000",
+      "summary": "Chemical accidents rise as Trump administration proposes weakening safety rules\nChemicals from accidents that injured or killed people increased by nearly 50 percent in recent years."
+    },
+    {
+      "title": "The missing 500 million: Cosmic bombardment melted Earth's first crust",
+      "link": "https://arstechnica.com/science/2026/07/the-missing-500-million-cosmic-bombardment-melted-earths-first-crust/",
+      "raw_summary": "The heat of the Hadean may have come from impacts as well as the interior.",
+      "source": "Ars Technica - All content",
+      "published": "Sun, 05 Jul 2026 10:55:02 +0000",
+      "summary": "The missing 500 million: Cosmic bombardment melted Earth's first crust\nThe heat of the Hadean may have come from impacts as well as the interior."
     },
     {
       "title": "Review: Supergirl is not the disaster its low box office suggests",
@@ -187,100 +203,100 @@
       "summary": "A martian rock has lots of carbon on it, and it's not clear why\nBiology could explain the find, but there are other potential explanations."
     },
     {
-      "title": "Rocket Report: Indian startup nears first launch; SpaceX's millenary milestone",
-      "link": "https://arstechnica.com/space/2026/07/rocket-report-indian-startup-nears-first-launch-spacexs-millenary-milestone/",
-      "raw_summary": "NASA awarded Rocket Lab deals for three dedicated launches using the company's Electron rocket.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 03 Jul 2026 13:55:35 +0000",
-      "summary": "Rocket Report: Indian startup nears first launch; SpaceX's millenary milestone\nNASA awarded Rocket Lab deals for three dedicated launches using the company's Electron rocket."
-    },
-    {
-      "title": "Inside the Luddite festival harnessing Gen Z’s rage against Big Tech",
-      "link": "https://arstechnica.com/culture/2026/07/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/",
-      "raw_summary": "New York City’s Summer of Ludd festival is teaching people how to live offline.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 03 Jul 2026 12:00:36 +0000",
-      "summary": "Inside the Luddite festival harnessing Gen Z’s rage against Big Tech\nNew York City’s Summer of Ludd festival is teaching people how to live offline."
-    },
-    {
-      "title": "French push to exclude UK from EU defence spending backfires",
-      "link": "https://www.ft.com/content/9077074a-b01d-4890-a938-403befccb21c",
-      "raw_summary": "Paris loses out on cheap loans due to strict eligibility criteria it had championed",
+      "title": "Ukraine striking Russian energy infrastructure at unprecedented rate",
+      "link": "https://www.ft.com/content/13687b48-9e54-44a1-bd4d-600bbc052baf",
+      "raw_summary": "Kyiv’s intensified drone campaign is spurring Russia’s worst fuel crisis in decades",
       "source": "World",
-      "published": "Sun, 05 Jul 2026 04:00:11 GMT",
-      "summary": "French push to exclude UK from EU defence spending backfires\nParis loses out on cheap loans due to strict eligibility criteria it had championed"
+      "published": "Sun, 05 Jul 2026 11:23:46 GMT",
+      "summary": "Ukraine striking Russian energy infrastructure at unprecedented rate\nKyiv’s intensified drone campaign is spurring Russia’s worst fuel crisis in decades"
     },
     {
-      "title": "Returning to pre-Trumpian politics won’t save America",
-      "link": "https://www.ft.com/content/5e7ca535-90a8-4f6d-934b-0a0d9b36e62d",
-      "raw_summary": "The opening of the Obama presidential library set off a wave of nostalgia for an era that is not coming back",
+      "title": "What will FOMC minutes reveal about Warsh’s debut at the Fed?",
+      "link": "https://www.ft.com/content/5f184dec-dd7f-4bb9-acf2-b3e9765b4d99",
+      "raw_summary": "Markets Questions is the FT’s guide to the week ahead",
       "source": "World",
-      "published": "Sun, 05 Jul 2026 04:00:11 GMT",
-      "summary": "Returning to pre-Trumpian politics won’t save America\nThe opening of the Obama presidential library set off a wave of nostalgia for an era that is not coming back"
+      "published": "Sun, 05 Jul 2026 11:00:03 GMT",
+      "summary": "What will FOMC minutes reveal about Warsh’s debut at the Fed?\nMarkets Questions is the FT’s guide to the week ahead"
     },
     {
-      "title": "Octopus Energy set for showdown with workers over union recognition",
-      "link": "https://www.ft.com/content/2f5339b0-89db-4579-9dd2-f8c20aa9964f",
-      "raw_summary": "Fast-growing energy supplier says employee share ownership means it’s not a ‘them and us’ company",
+      "title": "Rich nations must unleash land, labour, energy and capital",
+      "link": "https://www.ft.com/content/33da8720-996b-49e3-a34a-61d33095c541",
+      "raw_summary": "As policymakers shift towards industrial interventionism, they risk neglecting the simplest drivers of growth",
       "source": "World",
-      "published": "Sun, 05 Jul 2026 04:00:11 GMT",
-      "summary": "Octopus Energy set for showdown with workers over union recognition\nFast-growing energy supplier says employee share ownership means it’s not a ‘them and us’ company"
+      "published": "Sun, 05 Jul 2026 11:00:03 GMT",
+      "summary": "Rich nations must unleash land, labour, energy and capital\nAs policymakers shift towards industrial interventionism, they risk neglecting the simplest drivers of growth"
     },
     {
-      "title": "High share prices are becoming a status symbol",
-      "link": "https://www.ft.com/content/35bc6f34-bb3b-434a-9ce3-37a9d4fc3aa4",
-      "raw_summary": "Decline in stock splits suggests dividing share count no longer rules corporate orthodoxy",
+      "title": "‘Heat dome’ and storms over eastern US sends electricity prices soaring",
+      "link": "https://www.ft.com/content/76de196b-175f-4f5b-b10c-cc17bb2948d1",
+      "raw_summary": "Almost 1mn households left without power after storms and weekend temperatures near 40C disrupt grids",
       "source": "World",
-      "published": "Sun, 05 Jul 2026 04:00:03 GMT",
-      "summary": "High share prices are becoming a status symbol\nDecline in stock splits suggests dividing share count no longer rules corporate orthodoxy"
+      "published": "Sun, 05 Jul 2026 10:09:05 GMT",
+      "summary": "‘Heat dome’ and storms over eastern US sends electricity prices soaring\nAlmost 1mn households left without power after storms and weekend temperatures near 40C disrupt grids"
     },
     {
-      "title": "Uber stalls European food delivery push as it pursues Delivery Hero takeover",
-      "link": "https://www.ft.com/content/53f631ef-98e4-4eec-92e4-3dd023ed25f5",
-      "raw_summary": "Ride-hailing company will no longer launch in five of its seven planned new markets this year",
+      "title": "Lululemon’s latest struggle: slowing sales in key China market",
+      "link": "https://www.ft.com/content/7073e7b5-d845-44b5-a36b-d638c7de4cdd",
+      "raw_summary": "Growth in second-largest economy has helped activewear maker offset series of other troubles but now faces new challenges",
       "source": "World",
-      "published": "Sun, 05 Jul 2026 04:00:03 GMT",
-      "summary": "Uber stalls European food delivery push as it pursues Delivery Hero takeover\nRide-hailing company will no longer launch in five of its seven planned new markets this year"
+      "published": "Sun, 05 Jul 2026 10:00:02 GMT",
+      "summary": "Lululemon’s latest struggle: slowing sales in key China market\nGrowth in second-largest economy has helped activewear maker offset series of other troubles but now faces new challenges"
     },
     {
-      "title": "OPEC+ Agrees in Principle on 188K B/D Hike, Delegates Say",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-05/opec-agrees-in-principle-on-188k-b-d-quota-hike-delegates-say",
-      "raw_summary": "OPEC+ has a preliminary agreement for another modest oil quota increase in August, delegates said, raising the prospect of more supply eventually hitting the market again if a US-Iran peace pact can stick.",
-      "source": "Bloomberg Markets",
-      "published": "Sun, 05 Jul 2026 07:47:55 GMT",
-      "summary": "OPEC+ Agrees in Principle on 188K B/D Hike, Delegates Say\nOPEC+ has a preliminary agreement for another modest oil quota increase in August, delegates said, raising the prospect of more supply eventually hitting the market again if a US-Iran peace pact can stick."
-    },
-    {
-      "title": "BOK Warns of Risks From Single-Stock Leveraged ETFs: Yonhap",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-05/bok-warns-of-risks-from-single-stock-leveraged-etfs-yonhap",
-      "raw_summary": "The Bank of Korea warned that single-stock leveraged exchange-traded funds tied to Samsung Electronics Co. and SK Hynix Inc. could deepen market concentration, amplify volatility and intensify one-way trading flows, according to a local report.",
-      "source": "Bloomberg Markets",
-      "published": "Sun, 05 Jul 2026 06:33:33 GMT",
-      "summary": "BOK Warns of Risks From Single-Stock Leveraged ETFs: Yonhap\nThe Bank of Korea warned that single-stock leveraged exchange-traded funds tied to Samsung Electronics Co. and SK Hynix Inc. could deepen market concentration, amplify volatility and intensify one-way trading flows, according to a local rep"
-    },
-    {
-      "title": "Fewer Ships Transiting Hormuz Along Oman Coast After U-Turns",
+      "title": "Oil, Gas Tankers Cross Hormuz Via Oman-Side Route After U-Turns",
       "link": "https://www.bloomberg.com/news/articles/2026-07-05/fewer-ships-transiting-hormuz-along-oman-coast-after-u-turns",
-      "raw_summary": "The number of vessels sailing through the Strait of Hormuz along the Omani coast fell to a trickle on Sunday, a day after several exiting along that route made sharp reversals, underscoring Iran’s continued efforts to maintain its grip on the waterway.",
+      "raw_summary": "Oil and gas shipping along a US-protected corridor in the Strait of Hormuz showed signs of recovering Sunday, a day after a batch of vessels performed unexplained U-turns and detours in the vital energy corridor.",
       "source": "Bloomberg Markets",
       "published": "Sun, 05 Jul 2026 05:24:02 GMT",
-      "summary": "Fewer Ships Transiting Hormuz Along Oman Coast After U-Turns\nThe number of vessels sailing through the Strait of Hormuz along the Omani coast fell to a trickle on Sunday, a day after several exiting along that route made sharp reversals, underscoring Iran’s continued efforts to maintain its grip on "
+      "summary": "Oil, Gas Tankers Cross Hormuz Via Oman-Side Route After U-Turns\nOil and gas shipping along a US-protected corridor in the Strait of Hormuz showed signs of recovering Sunday, a day after a batch of vessels performed unexplained U-turns and detours in the vital energy corridor."
     },
     {
-      "title": "Modi’s Biofuel Push Comes Under Pressure as Motorists Protest",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-05/modi-s-biofuel-push-comes-under-pressure-as-motorists-protest",
-      "raw_summary": "Indian motorists will gather in New Delhi on Sunday, in the first major protest against a flagship biofuel program intended to reduce crude imports and support farm incomes.",
+      "title": "SK Hynix Seeks Access to AI Investors in $29 Billion US Listing",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-05/sk-hynix-seeks-access-to-ai-investors-in-29-billion-us-listing",
+      "raw_summary": "This week’s $29 billion US stock-market listing for SK Hynix Inc. may be the biggest-ever first-time share sale by a foreign company, but it isn’t just about raising cash. It’s also about competing in the hottest corner of the global stock market &mdash; memory chips used in AI computing.",
       "source": "Bloomberg Markets",
-      "published": "Sun, 05 Jul 2026 05:20:44 GMT",
-      "summary": "Modi’s Biofuel Push Comes Under Pressure as Motorists Protest\nIndian motorists will gather in New Delhi on Sunday, in the first major protest against a flagship biofuel program intended to reduce crude imports and support farm incomes."
+      "published": "Sun, 05 Jul 2026 13:00:00 GMT",
+      "summary": "SK Hynix Seeks Access to AI Investors in $29 Billion US Listing\nThis week’s $29 billion US stock-market listing for SK Hynix Inc. may be the biggest-ever first-time share sale by a foreign company, but it isn’t just about raising cash. It’s also about competing in the hottest corner of the global st"
     },
     {
-      "title": "Ebola Crisis Exposes Congo's Fragile Health System",
-      "link": "https://www.bloomberg.com/news/videos/2026-07-05/ebola-crisis-exposes-congo-s-fragile-health-system",
-      "raw_summary": "Daniele Nyirandutiye, Senior Fellow at the Center for American Progress, discusses how the Ebola outbreak in Congo exposed critical weaknesses in healthcare and why long-term investment is essential. (Source: Bloomberg)",
+      "title": "Parents Weigh New Trump Accounts for Newborns",
+      "link": "https://www.bloomberg.com/news/videos/2026-07-05/parents-weigh-new-trump-accounts-for-newborns-video",
+      "raw_summary": "Parents can now begin contributing to newly launched Trump Accounts, which provide a $1,000 government-funded investment for eligible children born between 2025 and 2028. Bloomberg's Sarah Foster joins David Gura and Christina Ruffini on Bloomberg This Weekend and explains that financial advisers still generally favor 529 plans for education savings and that questions remain about the new accounts' tax treatment, withdrawal rules and future investment options. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Sun, 05 Jul 2026 05:00:25 GMT",
-      "summary": "Ebola Crisis Exposes Congo's Fragile Health System\nDaniele Nyirandutiye, Senior Fellow at the Center for American Progress, discusses how the Ebola outbreak in Congo exposed critical weaknesses in healthcare and why long-term investment is essential. (Source: Bloomberg)"
+      "published": "Sun, 05 Jul 2026 12:47:16 GMT",
+      "summary": "Parents Weigh New Trump Accounts for Newborns\nParents can now begin contributing to newly launched Trump Accounts, which provide a $1,000 government-funded investment for eligible children born between 2025 and 2028. Bloomberg's Sarah Foster joins David Gura and Christina Ruffini on Bloomberg This W"
+    },
+    {
+      "title": "By The Way: Interesting Headlines You May Have Missed July 4th Week",
+      "link": "https://www.bloomberg.com/news/videos/2026-07-05/btw-interesting-headlines-you-may-have-missed-video",
+      "raw_summary": "Pony beers, household chores robots, 'bare nails' trend, and a new screen-time helper: Lisa Mateo shares with David Gura and Christina Ruffini the headlines explaining these topics that you and they may have missed this week. Watch Bloomberg This Weekend, Saturday and Sundays 7am EST. (Source: Bloomberg)",
+      "source": "Bloomberg Markets",
+      "published": "Sun, 05 Jul 2026 12:40:28 GMT",
+      "summary": "By The Way: Interesting Headlines You May Have Missed July 4th Week\nPony beers, household chores robots, 'bare nails' trend, and a new screen-time helper: Lisa Mateo shares with David Gura and Christina Ruffini the headlines explaining these topics that you and they may have missed this week. Watch "
+    },
+    {
+      "title": "What’s Happening in EM: Carry Traders Shift Away From Dollar",
+      "link": "https://www.bloomberg.com/news/audio/2026-07-05/what-s-happening-in-em-carry-traders-shift-away-from-dollar",
+      "raw_summary": "This week, Vinicius Andrade joins Kelsey Butler to discuss how emerging-market traders are increasingly turning to currencies from the euro to the Australian dollar to fund bets in the developing world as the US dollar roars back.",
+      "source": "Bloomberg Markets",
+      "published": "Sun, 05 Jul 2026 12:30:00 GMT",
+      "summary": "What’s Happening in EM: Carry Traders Shift Away From Dollar\nThis week, Vinicius Andrade joins Kelsey Butler to discuss how emerging-market traders are increasingly turning to currencies from the euro to the Australian dollar to fund bets in the developing world as the US dollar roars back."
+    },
+    {
+      "title": "Collateral, not yield, will decide which stablecoins win",
+      "link": "https://www.coindesk.com/opinion/2026/07/05/collateral-not-yield-will-decide-which-stablecoins-win",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Sun, 05 Jul 2026 13:00:00 +0000",
+      "summary": "Collateral, not yield, will decide which stablecoins win\n"
+    },
+    {
+      "title": "Kalshi and prediction market sector embroiled in mixed bag of legal fights across U.S.",
+      "link": "https://www.coindesk.com/news-analysis/2026/07/02/kalshi-and-prediction-market-sector-embroiled-in-mixed-bag-of-legal-fights-across-u-s",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Sun, 05 Jul 2026 13:00:00 +0000",
+      "summary": "Kalshi and prediction market sector embroiled in mixed bag of legal fights across U.S.\n"
     },
     {
       "title": "Barstool's Portnoy plans to hold bitcoin down to zero after timing it wrong every time",
@@ -305,22 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Sat, 04 Jul 2026 18:07:17 +0000",
       "summary": "Bitcoin jumps above $63,000, reversing end-June losses\n"
-    },
-    {
-      "title": "Bitcoin experts split over plan to freeze Satoshi's 1.1 million bitcoin as quantum threat grows",
-      "link": "https://www.coindesk.com/business/2026/07/04/bitcoin-experts-split-over-plan-to-freeze-satoshi-s-1-1-million-bitcoin-as-quantum-threat-grows",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sat, 04 Jul 2026 18:00:00 +0000",
-      "summary": "Bitcoin experts split over plan to freeze Satoshi's 1.1 million bitcoin as quantum threat grows\n"
-    },
-    {
-      "title": "How ethical hackers with just a $3,000 server found a flaw that could've put $70 billion in crypto at risk",
-      "link": "https://www.coindesk.com/tech/2026/07/04/how-ethical-hackers-with-just-a-usd3-000-server-found-a-flaw-that-could-ve-put-usd70-billion-in-crypto-at-risk",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sat, 04 Jul 2026 18:00:00 +0000",
-      "summary": "How ethical hackers with just a $3,000 server found a flaw that could've put $70 billion in crypto at risk\n"
     }
   ]
 }
