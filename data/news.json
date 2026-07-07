@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T14:10:53.070137+00:00",
+  "generated_at": "2026-07-07T19:43:54.003204+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "A Record-Breaking Patch Tuesday for June 2026\nMicrosoft today released software updates to plug nearly 200 security holes across its Windows operating systems and supported software, a record number of fixes for the company's monthly Patch Tuesday cycle. Nearly three dozen of those bugs earned Micro"
     },
     {
+      "title": "RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service",
+      "link": "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html",
+      "raw_summary": "A new Android malware operation called RedWing is being rented out on Telegram as a ready-made bank-fraud service. It lets even low-skill criminals take over a victim's phone, steal their banking logins, and capture the one-time codes that protect their accounts.\n\nZimperium's zLabs, which found the operation, says it looks like a new variant of Oblivion, a $300-a-month rent-a-malware tool",
+      "source": "The Hacker News",
+      "published": "Tue, 07 Jul 2026 22:40:15 +0530",
+      "summary": "RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service\nA new Android malware operation called RedWing is being rented out on Telegram as a ready-made bank-fraud service. It lets even low-skill criminals take over a victim's phone, steal their banking logins, and capture the one-time c"
+    },
+    {
+      "title": "Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots",
+      "link": "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html",
+      "raw_summary": "A critical flaw in Google's Dialogflow CX could have let an attacker with edit rights on one Code Block-enabled agent compromise other Code Block-enabled agents in the same Google Cloud project.\n\nFrom there, they could read live conversations, steal the data users shared, and make the bots send attacker-written messages, including requests to re-enter a password.\n\nSecurity firm Varonis found it",
+      "source": "The Hacker News",
+      "published": "Tue, 07 Jul 2026 22:07:33 +0530",
+      "summary": "Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots\nA critical flaw in Google's Dialogflow CX could have let an attacker with edit rights on one Code Block-enabled agent compromise other Code Block-enabled agents in the same Google Cloud project.\n\nFrom there, they could re"
+    },
+    {
+      "title": "DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts",
+      "link": "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
+      "raw_summary": "A Microsoft 365 device code phishing campaign has been observed leveraging collaboration-themed lures to take control of victim accounts between the last week of June 2026 and into early July, per findings from ZeroBEC.\n\n\"The campaign did not depend on a fake Microsoft password page. It used a malicious collaboration-style lure to push users into the legitimate Microsoft device login experience,",
+      "source": "The Hacker News",
+      "published": "Tue, 07 Jul 2026 20:44:14 +0530",
+      "summary": "DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts\nA Microsoft 365 device code phishing campaign has been observed leveraging collaboration-themed lures to take control of victim accounts between the last week of June 2026 and into early July, per findings from ZeroBEC.\n\n\"The c"
+    },
+    {
+      "title": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data",
+      "link": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
+      "raw_summary": "A public issue can trick GitHub Agentic Workflows into leaking the contents of an organization's private repositories, researchers at Noma Security have shown.\n\nThe attacker needs only to open a normal-looking issue on a public repository, with no stolen credentials and no access to the organization. If that organization has given the agent read access across its repositories, private ones",
+      "source": "The Hacker News",
+      "published": "Tue, 07 Jul 2026 19:34:50 +0530",
+      "summary": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data\nA public issue can trick GitHub Agentic Workflows into leaking the contents of an organization's private repositories, researchers at Noma Security have shown.\n\nThe attacker needs only to open a normal-looking is"
+    },
+    {
       "title": "Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker",
       "link": "https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html",
       "raw_summary": "U.S. prosecutors linked an alleged Scattered Spider hacker to a break-in at a luxury jewelry retailer using a persistent Windows device ID, according to a newly unsealed federal complaint.\n\nMicrosoft records tied that ID first to the account the attackers used to keep access during the May 2025 intrusion, then to online accounts prosecutors say belong to 19-year-old Peter Stokes.\n\nStokes is",
@@ -51,276 +83,244 @@
       "summary": "Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker\nU.S. prosecutors linked an alleged Scattered Spider hacker to a break-in at a luxury jewelry retailer using a persistent Windows device ID, according to a newly unsealed federal complaint.\n\nMicrosoft records tied"
     },
     {
-      "title": "Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants",
-      "link": "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html",
-      "raw_summary": "Cybersecurity researchers have disclosed details of a now-patched critical session isolation vulnerability in Writer, an enterprise generative artificial intelligence (AI) platform, that could result in cross-tenant compromise.\n\nThe one-click vulnerability has been codenamed WriteOut by the Sand Security Research team.\n\n\"An outsider could go from having no access to taking over any Writer AI",
-      "source": "The Hacker News",
-      "published": "Tue, 07 Jul 2026 18:57:09 +0530",
-      "summary": "Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants\nCybersecurity researchers have disclosed details of a now-patched critical session isolation vulnerability in Writer, an enterprise generative artificial intelligence (AI) platform, that could result in cross-tenant compromis"
-    },
-    {
-      "title": "What Changes When Your Software Supply Chain Includes AI Writing Your Code?",
-      "link": "https://thehackernews.com/2026/07/what-changes-when-your-software-supply.html",
-      "raw_summary": "Software supply chain security was hard enough. Then AI joined the build pipeline.\n\nFor five years, \"software supply chain security\" meant one question: what's in your code? Which open-source packages, which versions, which transitive dependencies three layers deep that nobody chose on purpose? \n\nSolarWinds, Log4Shell, and XZ Utils all taught the same lesson: the risk lives less in the code a",
-      "source": "The Hacker News",
-      "published": "Tue, 07 Jul 2026 17:00:00 +0530",
-      "summary": "What Changes When Your Software Supply Chain Includes AI Writing Your Code?\nSoftware supply chain security was hard enough. Then AI joined the build pipeline.\n\nFor five years, \"software supply chain security\" meant one question: what's in your code? Which open-source packages, which versions, which "
-    },
-    {
-      "title": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
-      "link": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
-      "raw_summary": "A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian universities as part of a new campaign.\n\nThe activity involves the exploitation of now-patched, critical security flaws in the open-source email solution, such as CVE-2024-42009 (CVSS score: 9.3), to siphon credentials,",
-      "source": "The Hacker News",
-      "published": "Tue, 07 Jul 2026 14:40:51 +0530",
-      "summary": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities\nA suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian universities as part of a new campaign.\n\nThe ac"
-    },
-    {
-      "title": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware",
-      "link": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
-      "raw_summary": "Several versions of firmware released by Chinese network device manufacturer Tenda have been found to embed an undocumented authentication backdoor that enables administrative access to the devices' web management interfaces, the CERT Coordination Center (CERT/CC) warned Monday.\n\n\"An attacker can exploit this vulnerability, tracked as CVE-2026-11405, to bypass the password verification process",
-      "source": "The Hacker News",
-      "published": "Tue, 07 Jul 2026 12:10:47 +0530",
-      "summary": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware\nSeveral versions of firmware released by Chinese network device manufacturer Tenda have been found to embed an undocumented authentication backdoor that enables administrative access to the devices' web management interfaces, the CERT C"
-    },
-    {
-      "title": "Mark Zuckerberg's biggest legal nightmare yet could cost Meta $1.4T",
-      "link": "https://www.the-independent.com/tech/mark-zuckerberg-meta-fine-trillion-b3010281.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.the-independent.com/tech/mark-zuckerberg-meta-fine-trillion-b3010281.html\">https://www.the-independent.com/tech/mark-zuckerberg-meta-fine-trillion-b3010281.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48817191\">https://news.ycombinator.com/item?id=48817191</a></p>\n<p>Points: 63</p>\n<p># Comments: 53</p>",
+      "title": "Show HN: Davit, a Apple Containers UI",
+      "link": "https://davit.app",
+      "raw_summary": "<p>Mostly vibe-coded Apple Containers front-end that I'd like to use myself. But if others want to use it, here's the source code.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48821848\">https://news.ycombinator.com/item?id=48821848</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 07 Jul 2026 13:03:31 +0000",
-      "summary": "Mark Zuckerberg's biggest legal nightmare yet could cost Meta $1.4T\n<p>Article URL: <a href=\"https://www.the-independent.com/tech/mark-zuckerberg-meta-fine-trillion-b3010281.html\">https://www.the-independent.com/tech/mark-zuckerberg-meta-fine-trillion-b3010281.html</a></p>\n<p>Comments URL: <a href=\""
+      "published": "Tue, 07 Jul 2026 18:44:29 +0000",
+      "summary": "Show HN: Davit, a Apple Containers UI\n<p>Mostly vibe-coded Apple Containers front-end that I'd like to use myself. But if others want to use it, here's the source code.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48821848\">https://news.ycombinator.com/item?id=48821848</"
     },
     {
-      "title": "Dua Lipa opens library for banned and censored books in Portugal",
-      "link": "https://www.euronews.com/culture/2026/06/29/dua-lipa-opens-library-for-banned-and-censored-books-in-portugal",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.euronews.com/culture/2026/06/29/dua-lipa-opens-library-for-banned-and-censored-books-in-portugal\">https://www.euronews.com/culture/2026/06/29/dua-lipa-opens-library-for-banned-and-censored-books-in-portugal</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48817017\">https://news.ycombinator.com/item?id=48817017</a></p>\n<p>Points: 78</p>\n<p># Comments: 74</p>",
+      "title": "Ask HN: Is GitHub preparing to go behind a login wall?",
+      "link": "https://news.ycombinator.com/item?id=48821803",
+      "raw_summary": "<p>From time to time, I check that our open-source project is still available to all users, and I've occasionally noticed that the stargazers (1) information returns a 404 for non-logged-in users.<p>I assume they're preparing to follow the LinkedIn model by making access available to registered users only.<p>Have you noticed that GitHub has started blocking access to certain functions/pages for users without an account?<p>1. https://github.com/tirrenotechnologies/tirreno/stargazers</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48821803\">https://news.ycombinator.com/item?id=48821803</a></p>\n<p>Points: 18</p>\n<p># Comments: 17</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 07 Jul 2026 12:50:40 +0000",
-      "summary": "Dua Lipa opens library for banned and censored books in Portugal\n<p>Article URL: <a href=\"https://www.euronews.com/culture/2026/06/29/dua-lipa-opens-library-for-banned-and-censored-books-in-portugal\">https://www.euronews.com/culture/2026/06/29/dua-lipa-opens-library-for-banned-and-censored-books-in-"
+      "published": "Tue, 07 Jul 2026 18:40:40 +0000",
+      "summary": "Ask HN: Is GitHub preparing to go behind a login wall?\n<p>From time to time, I check that our open-source project is still available to all users, and I've occasionally noticed that the stargazers (1) information returns a 404 for non-logged-in users.<p>I assume they're preparing to follow the Linke"
     },
     {
-      "title": "98% Isn't Much",
-      "link": "https://whynothugo.nl/journal/2026/07/03/98-isnt-very-much/",
-      "raw_summary": "<p>Article URL: <a href=\"https://whynothugo.nl/journal/2026/07/03/98-isnt-very-much/\">https://whynothugo.nl/journal/2026/07/03/98-isnt-very-much/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48816959\">https://news.ycombinator.com/item?id=48816959</a></p>\n<p>Points: 146</p>\n<p># Comments: 125</p>",
+      "title": "AI Meets Cryptography 1: What AI Found in Cloudflare's Circl",
+      "link": "https://blog.zksecurity.xyz/posts/circl-bugs/",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.zksecurity.xyz/posts/circl-bugs/\">https://blog.zksecurity.xyz/posts/circl-bugs/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48821749\">https://news.ycombinator.com/item?id=48821749</a></p>\n<p>Points: 13</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 07 Jul 2026 12:45:14 +0000",
-      "summary": "98% Isn't Much\n<p>Article URL: <a href=\"https://whynothugo.nl/journal/2026/07/03/98-isnt-very-much/\">https://whynothugo.nl/journal/2026/07/03/98-isnt-very-much/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48816959\">https://news.ycombinator.com/item?id=48816959</a></p>\n<p>P"
+      "published": "Tue, 07 Jul 2026 18:36:35 +0000",
+      "summary": "AI Meets Cryptography 1: What AI Found in Cloudflare's Circl\n<p>Article URL: <a href=\"https://blog.zksecurity.xyz/posts/circl-bugs/\">https://blog.zksecurity.xyz/posts/circl-bugs/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48821749\">https://news.ycombinator.com/item?id=488"
     },
     {
-      "title": "A better way to tie your gym shorts. (Or any drawstring) [video]",
-      "link": "https://www.youtube.com/watch?v=3R0Lp86GEBk",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.youtube.com/watch?v=3R0Lp86GEBk\">https://www.youtube.com/watch?v=3R0Lp86GEBk</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48816956\">https://news.ycombinator.com/item?id=48816956</a></p>\n<p>Points: 90</p>\n<p># Comments: 26</p>",
+      "title": "Decrypting View State Messages",
+      "link": "https://zeroed.tech/blog/decrypting-viewstate-messages/",
+      "raw_summary": "<p>Article URL: <a href=\"https://zeroed.tech/blog/decrypting-viewstate-messages/\">https://zeroed.tech/blog/decrypting-viewstate-messages/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48821691\">https://news.ycombinator.com/item?id=48821691</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 07 Jul 2026 12:45:06 +0000",
-      "summary": "A better way to tie your gym shorts. (Or any drawstring) [video]\n<p>Article URL: <a href=\"https://www.youtube.com/watch?v=3R0Lp86GEBk\">https://www.youtube.com/watch?v=3R0Lp86GEBk</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48816956\">https://news.ycombinator.com/item?id=488"
+      "published": "Tue, 07 Jul 2026 18:32:26 +0000",
+      "summary": "Decrypting View State Messages\n<p>Article URL: <a href=\"https://zeroed.tech/blog/decrypting-viewstate-messages/\">https://zeroed.tech/blog/decrypting-viewstate-messages/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48821691\">https://news.ycombinator.com/item?id=48821691</a><"
     },
     {
-      "title": "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time",
-      "link": "https://streetcomplete.app/",
-      "raw_summary": "<p>Article URL: <a href=\"https://streetcomplete.app/\">https://streetcomplete.app/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48816883\">https://news.ycombinator.com/item?id=48816883</a></p>\n<p>Points: 98</p>\n<p># Comments: 24</p>",
+      "title": "Astro 7.0",
+      "link": "https://astro.build/blog/astro-7/",
+      "raw_summary": "<p>Article URL: <a href=\"https://astro.build/blog/astro-7/\">https://astro.build/blog/astro-7/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48821653\">https://news.ycombinator.com/item?id=48821653</a></p>\n<p>Points: 83</p>\n<p># Comments: 15</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 07 Jul 2026 12:38:35 +0000",
-      "summary": "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time\n<p>Article URL: <a href=\"https://streetcomplete.app/\">https://streetcomplete.app/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48816883\">https://news.ycombinator.com/item?id=48816883</a></p>\n<p>Points: 98</p>\n<p"
+      "published": "Tue, 07 Jul 2026 18:30:02 +0000",
+      "summary": "Astro 7.0\n<p>Article URL: <a href=\"https://astro.build/blog/astro-7/\">https://astro.build/blog/astro-7/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48821653\">https://news.ycombinator.com/item?id=48821653</a></p>\n<p>Points: 83</p>\n<p># Comments: 15</p>"
     },
     {
-      "title": "This startup pits dealerships against each other to bid on your used car",
-      "link": "https://techcrunch.com/2026/07/07/this-startup-is-pitting-dealerships-against-each-other-to-bid-on-your-used-car/",
-      "raw_summary": "Bidbus, which lets dealerships bid on used cars, has raised $15 million in a Series A round that was led by early-stage mobility fund Ibex Investors.",
+      "title": "Discord admits AI moderation bug wrongfully banned users over harmless images",
+      "link": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
+      "raw_summary": "Discord has acknowledged that a bug in its AI moderation system mistakenly banned more than 8,000 users over the past two months, after harmless images—including spreadsheets, chessboards, game textures, as well as white and gray transparent backgrounds—were incorrectly flagged as harmful content. The company confirmed that the issue had been affecting accounts since May, with [&#8230;]",
       "source": "TechCrunch",
-      "published": "Tue, 07 Jul 2026 14:00:00 +0000",
-      "summary": "This startup pits dealerships against each other to bid on your used car\nBidbus, which lets dealerships bid on used cars, has raised $15 million in a Series A round that was led by early-stage mobility fund Ibex Investors."
+      "published": "Tue, 07 Jul 2026 19:28:38 +0000",
+      "summary": "Discord admits AI moderation bug wrongfully banned users over harmless images\nDiscord has acknowledged that a bug in its AI moderation system mistakenly banned more than 8,000 users over the past two months, after harmless images—including spreadsheets, chessboards, game textures, as well as white a"
     },
     {
-      "title": "Hacktivists call out Trump by hacking and defacing US Army websites",
-      "link": "https://techcrunch.com/2026/07/07/hacktivists-call-out-trump-by-hacking-and-defacing-us-army-websites/",
-      "raw_summary": "The U.S. Army has fixed two of its websites that were hacked to display messages calling President Trump a \"pedophile\" and a \"thief.\"",
+      "title": "Google’s Pixel event is set for August 12",
+      "link": "https://techcrunch.com/2026/07/07/googles-pixel-event-is-set-for-august-12/",
+      "raw_summary": "Google's upcoming event in August will introduce new Pixel devices.",
       "source": "TechCrunch",
-      "published": "Tue, 07 Jul 2026 13:10:00 +0000",
-      "summary": "Hacktivists call out Trump by hacking and defacing US Army websites\nThe U.S. Army has fixed two of its websites that were hacked to display messages calling President Trump a \"pedophile\" and a \"thief.\""
+      "published": "Tue, 07 Jul 2026 18:38:29 +0000",
+      "summary": "Google’s Pixel event is set for August 12\nGoogle's upcoming event in August will introduce new Pixel devices."
     },
     {
-      "title": "Savi’s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom",
-      "link": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/",
-      "raw_summary": "The company just raised $7 million in seed funding, and is launching its app for iPhone and Android on Tuesday.",
+      "title": "Figma acquires team behind a vibe-coding app",
+      "link": "https://techcrunch.com/2026/07/07/figma-acquires-team-behind-a-vibe-coding-app/",
+      "raw_summary": "The Y Combinator-backed company started a vibe-coding platform and later built an agent-creation product.",
       "source": "TechCrunch",
-      "published": "Tue, 07 Jul 2026 12:00:00 +0000",
-      "summary": "Savi’s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom\nThe company just raised $7 million in seed funding, and is launching its app for iPhone and Android on Tuesday."
+      "published": "Tue, 07 Jul 2026 18:37:01 +0000",
+      "summary": "Figma acquires team behind a vibe-coding app\nThe Y Combinator-backed company started a vibe-coding platform and later built an agent-creation product."
     },
     {
-      "title": "The first American autonomous ground vehicles are fighting in Ukraine",
-      "link": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/",
-      "raw_summary": "Forterra has deployed more than 100 of its self-driving ATVs in conflict zones in Ukraine.",
+      "title": "Netflix dabbles in shorter video content with its new set of publisher deals with Variety, others",
+      "link": "https://techcrunch.com/2026/07/07/netflix-dabbles-in-shorter-video-content-with-its-new-set-of-publisher-deals-with-variety-others/",
+      "raw_summary": "Netflix is bringing 2- to 20-minute videos to its platform through new partnerships with digital publishers, including Rolling Stone and Variety.",
       "source": "TechCrunch",
-      "published": "Tue, 07 Jul 2026 09:00:00 +0000",
-      "summary": "The first American autonomous ground vehicles are fighting in Ukraine\nForterra has deployed more than 100 of its self-driving ATVs in conflict zones in Ukraine."
+      "published": "Tue, 07 Jul 2026 17:24:35 +0000",
+      "summary": "Netflix dabbles in shorter video content with its new set of publisher deals with Variety, others\nNetflix is bringing 2- to 20-minute videos to its platform through new partnerships with digital publishers, including Rolling Stone and Variety."
     },
     {
-      "title": "Netflix invented binge-watching. Now it may have outgrown it.",
-      "link": "https://techcrunch.com/2026/07/06/netflix-invented-binge-watching-now-it-may-have-outgrown-it/",
-      "raw_summary": "A new report suggests Netflix viewers aren’t sticking around for Season 2. The bigger issue may be that binge-watching itself is no longer the advantage it once was.",
+      "title": "Hacked, leaked, and held for ransom: The worst breaches of 2026 so far",
+      "link": "https://techcrunch.com/2026/07/07/the-worst-hacks-and-breaches-of-2026-so-far/",
+      "raw_summary": "From a massive DOGE data breach and the hacking of critical energy and water systems to the hack of an FBI surveillance system, here are the most damaging security incidents and data breaches of 2026.",
       "source": "TechCrunch",
-      "published": "Tue, 07 Jul 2026 00:47:33 +0000",
-      "summary": "Netflix invented binge-watching. Now it may have outgrown it.\nA new report suggests Netflix viewers aren’t sticking around for Season 2. The bigger issue may be that binge-watching itself is no longer the advantage it once was."
+      "published": "Tue, 07 Jul 2026 16:45:00 +0000",
+      "summary": "Hacked, leaked, and held for ransom: The worst breaches of 2026 so far\nFrom a massive DOGE data breach and the hacking of critical energy and water systems to the hack of an FBI surveillance system, here are the most damaging security incidents and data breaches of 2026."
     },
     {
-      "title": "ULA's last six Atlas Vs can't launch anything besides Boeing's Starliner",
-      "link": "https://arstechnica.com/space/2026/07/after-a-stellar-career-ulas-atlas-v-rocket-last-act-is-waiting-on-starliner/",
-      "raw_summary": "Amazon says it has enough satellites in orbit to begin initial broadband service at mid-latitudes later this year.",
+      "title": "Google's Pixel 11 launch event is set for August 12, with possible price increases",
+      "link": "https://arstechnica.com/gadgets/2026/07/googles-pixel-11-launch-event-is-set-for-august-12-with-possible-price-increases/",
+      "raw_summary": "Google's new phones could feature glowing LEDs and higher price tags.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 07 Jul 2026 11:15:15 +0000",
-      "summary": "ULA's last six Atlas Vs can't launch anything besides Boeing's Starliner\nAmazon says it has enough satellites in orbit to begin initial broadband service at mid-latitudes later this year."
+      "published": "Tue, 07 Jul 2026 19:08:34 +0000",
+      "summary": "Google's Pixel 11 launch event is set for August 12, with possible price increases\nGoogle's new phones could feature glowing LEDs and higher price tags."
     },
     {
-      "title": "How AI could enable autonomous robot workers in workplaces—and maybe homes",
-      "link": "https://arstechnica.com/features/2026/07/robot-workers-rising-how-ai-may-drive-general-purpose-autonomy-in-robotics/",
-      "raw_summary": "Top robotics researchers and founders explain how robot autonomy is evolving.",
+      "title": "The Weather Channel increases streaming subscription prices by up to $20",
+      "link": "https://arstechnica.com/gadgets/2026/07/the-weather-channels-streaming-app-gets-a-67-percent-price-hike/",
+      "raw_summary": "Livestreaming the channel through its app now starts at $5 per month.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 07 Jul 2026 11:00:18 +0000",
-      "summary": "How AI could enable autonomous robot workers in workplaces—and maybe homes\nTop robotics researchers and founders explain how robot autonomy is evolving."
+      "published": "Tue, 07 Jul 2026 18:29:24 +0000",
+      "summary": "The Weather Channel increases streaming subscription prices by up to $20\nLivestreaming the channel through its app now starts at $5 per month."
     },
     {
-      "title": "FCC to end Biden-era rule that forces ISPs to list all their fees",
-      "link": "https://arstechnica.com/tech-policy/2026/07/fcc-to-end-biden-era-rule-that-forces-isps-to-list-all-their-fees/",
-      "raw_summary": "FCC to let ISPs stop listing all passthrough fees, give single \"up to\" price.",
+      "title": "The Nintendo Switch's days are numbered—but what is that number?",
+      "link": "https://arstechnica.com/gaming/2026/07/the-nintendo-switchs-days-are-numbered-but-what-is-that-number/",
+      "raw_summary": "Ars analysis suggests the 9-year-old console could keep selling for years.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 06 Jul 2026 21:13:37 +0000",
-      "summary": "FCC to end Biden-era rule that forces ISPs to list all their fees\nFCC to let ISPs stop listing all passthrough fees, give single \"up to\" price."
+      "published": "Tue, 07 Jul 2026 18:16:29 +0000",
+      "summary": "The Nintendo Switch's days are numbered—but what is that number?\nArs analysis suggests the 9-year-old console could keep selling for years."
     },
     {
-      "title": "Kremlin suspected of flying drones over Europe using Russian shadow fleet",
-      "link": "https://arstechnica.com/gadgets/2026/07/kremlin-suspected-of-flying-drones-over-europe-using-russian-shadow-fleet/",
-      "raw_summary": "Drone intruders that possibly flew from Russian ships showed Europe isn’t ready.",
+      "title": "This race car is made from plant fibers, volcanoes, ... and seawater?",
+      "link": "https://arstechnica.com/cars/2026/07/this-race-car-is-made-from-plant-fibers-volcanoes-and-seawater/",
+      "raw_summary": "The T70S can be eligible for racing events or built to be road-legal.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 06 Jul 2026 20:52:42 +0000",
-      "summary": "Kremlin suspected of flying drones over Europe using Russian shadow fleet\nDrone intruders that possibly flew from Russian ships showed Europe isn’t ready."
+      "published": "Tue, 07 Jul 2026 16:45:18 +0000",
+      "summary": "This race car is made from plant fibers, volcanoes, ... and seawater?\nThe T70S can be eligible for racing events or built to be road-legal."
     },
     {
-      "title": "What is the oldest American object ever launched into space?",
-      "link": "https://arstechnica.com/space/2026/07/whats-the-oldest-americana-flown-in-space/",
-      "raw_summary": "From a Revolutionary War flag to the Statue of Liberty...",
+      "title": "Facing US export controls, China's DeepSeek plans to make its own chips",
+      "link": "https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips/",
+      "raw_summary": "It's early, but the plan is to reduce dependency on Nvidia and Huawei.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 06 Jul 2026 19:57:56 +0000",
-      "summary": "What is the oldest American object ever launched into space?\nFrom a Revolutionary War flag to the Statue of Liberty..."
+      "published": "Tue, 07 Jul 2026 16:14:53 +0000",
+      "summary": "Facing US export controls, China's DeepSeek plans to make its own chips\nIt's early, but the plan is to reduce dependency on Nvidia and Huawei."
     },
     {
-      "title": "SpaceX wins bullish recommendations from Wall Street banks",
-      "link": "https://www.ft.com/content/ea0a1a37-75a0-4658-93c1-d58bccaacf2b",
-      "raw_summary": "Morgan Stanley gives Elon Musk’s AI and rocket stock $300 price target as quiet period ends following record IPO",
+      "title": "French far-right leader Marine Le Pen says she will run for president",
+      "link": "https://www.ft.com/content/3c0ecc58-630b-4d74-8abd-b17eb73116cf",
+      "raw_summary": "Politician sets up unprecedented election campaign next year after judges uphold her conviction for embezzlement",
       "source": "World",
-      "published": "Tue, 07 Jul 2026 13:56:44 GMT",
-      "summary": "SpaceX wins bullish recommendations from Wall Street banks\nMorgan Stanley gives Elon Musk’s AI and rocket stock $300 price target as quiet period ends following record IPO"
+      "published": "Tue, 07 Jul 2026 19:36:21 GMT",
+      "summary": "French far-right leader Marine Le Pen says she will run for president\nPolitician sets up unprecedented election campaign next year after judges uphold her conviction for embezzlement"
     },
     {
-      "title": "Prince Harry loses phone-hacking case against publisher of Daily Mail",
+      "title": "Farage by-election gambit undercut by rivals’ refusal to participate",
+      "link": "https://www.ft.com/content/e83009d2-1a82-4ec1-83aa-2447cf1fa19b",
+      "raw_summary": "Conservatives, Labour and Lib Dems will not contest vote as Reform UK leader denies wrongdoing over gifts",
+      "source": "World",
+      "published": "Tue, 07 Jul 2026 19:31:07 GMT",
+      "summary": "Farage by-election gambit undercut by rivals’ refusal to participate\nConservatives, Labour and Lib Dems will not contest vote as Reform UK leader denies wrongdoing over gifts"
+    },
+    {
+      "title": "How Prince Harry’s phone-hacking case against Daily Mail publisher was lost",
       "link": "https://www.ft.com/content/de057c0d-ba47-43c7-9dc1-889e66299c84",
-      "raw_summary": "High Court in London rules against Duke of Sussex and six other claimants",
+      "raw_summary": "Judgment marks potentially fatal setback in self-declared crusade to hold British tabloid press accountable",
       "source": "World",
-      "published": "Tue, 07 Jul 2026 13:42:29 GMT",
-      "summary": "Prince Harry loses phone-hacking case against publisher of Daily Mail\nHigh Court in London rules against Duke of Sussex and six other claimants"
+      "published": "Tue, 07 Jul 2026 19:18:08 GMT",
+      "summary": "How Prince Harry’s phone-hacking case against Daily Mail publisher was lost\nJudgment marks potentially fatal setback in self-declared crusade to hold British tabloid press accountable"
     },
     {
-      "title": "Top banking watchdogs issue stark warning over AI-driven cyber attacks",
-      "link": "https://www.ft.com/content/304cdbb9-c161-4e40-af4d-6df1d2ff5363",
-      "raw_summary": "IT weaknesses could be exploited by frontier models in a ‘matter of minutes’, say ECB and ESRB",
+      "title": "How far can a ‘Messi strategy’ get Argentina?",
+      "link": "https://www.ft.com/content/629cedac-1ed9-42a7-b1cc-bc6cd2384f6c",
+      "raw_summary": "A team shaped around the 39-year-old relies on controlled possession",
       "source": "World",
-      "published": "Tue, 07 Jul 2026 13:28:13 GMT",
-      "summary": "Top banking watchdogs issue stark warning over AI-driven cyber attacks\nIT weaknesses could be exploited by frontier models in a ‘matter of minutes’, say ECB and ESRB"
+      "published": "Tue, 07 Jul 2026 19:12:54 GMT",
+      "summary": "How far can a ‘Messi strategy’ get Argentina?\nA team shaped around the 39-year-old relies on controlled possession"
     },
     {
-      "title": "Trump’s intervention hangs over World Cup as US crashes out",
-      "link": "https://www.ft.com/content/b5149c78-df48-4d86-a224-34c465c34dca",
-      "raw_summary": "Also in today’s newsletter, Zelenskyy tells the FT that Trump changed his mind about Russia-Ukraine war",
+      "title": "Rachel Reeves calls for rival international defence schemes to merge",
+      "link": "https://www.ft.com/content/fe160ac5-3ef8-423f-b758-b43ff6096c43",
+      "raw_summary": "UK chancellor says competing funding bodies should be brought together",
       "source": "World",
-      "published": "Tue, 07 Jul 2026 13:00:03 GMT",
-      "summary": "Trump’s intervention hangs over World Cup as US crashes out\nAlso in today’s newsletter, Zelenskyy tells the FT that Trump changed his mind about Russia-Ukraine war"
+      "published": "Tue, 07 Jul 2026 19:00:02 GMT",
+      "summary": "Rachel Reeves calls for rival international defence schemes to merge\nUK chancellor says competing funding bodies should be brought together"
     },
     {
-      "title": "Nato countries unveil billions in defence deals to mollify Trump",
-      "link": "https://www.ft.com/content/3994cd63-ff43-4565-af35-3431696a1127",
-      "raw_summary": "Announcement comes as European allies strain to convince US president of their commitment to continent’s defence",
-      "source": "World",
-      "published": "Tue, 07 Jul 2026 12:48:41 GMT",
-      "summary": "Nato countries unveil billions in defence deals to mollify Trump\nAnnouncement comes as European allies strain to convince US president of their commitment to continent’s defence"
-    },
-    {
-      "title": "Three New ETFs to Watch",
-      "link": "https://www.bloomberg.com/news/articles/2026-06-25/new-etfs-to-watch-2x-spacex-3x-ai-plus-bonds-and-bitcoin",
-      "raw_summary": "<p>The SpaceX IPO set off a predictable&nbsp;frenzy&mdash;we look at who may lead the pack. Also, betting against AI, high-yield bonds, plus bonus mentions.</p>",
+      "title": "Soccer Shows the Real Bull Case for Europe",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-07-07/soccer-shows-the-real-bull-case-for-europe",
+      "raw_summary": "Can you put a price on history?",
       "source": "Bloomberg Markets",
-      "published": "Thu, 25 Jun 2026 15:08:18 GMT",
-      "summary": "Three New ETFs to Watch\n<p>The SpaceX IPO set off a predictable&nbsp;frenzy&mdash;we look at who may lead the pack. Also, betting against AI, high-yield bonds, plus bonus mentions.</p>"
+      "published": "Tue, 07 Jul 2026 19:43:11 GMT",
+      "summary": "Soccer Shows the Real Bull Case for Europe\nCan you put a price on history?"
     },
     {
-      "title": "A Once-Great Copper Miner Faces a Reckoning Just as AI Power Demand Soars",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-07/codelco-confronts-debt-output-concerns-as-copper-demand-soars-on-ai",
-      "raw_summary": "<p>Chile’s Codelco, facing scrutiny for a fatal accident and inflated production figures, is struggling under $25 billion of debt.</p>",
+      "title": "Canadians Skeptical of Carney’s Push to Open Airports to Private Investment",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-06/carney-s-airport-privatization-push-opposed-by-canadians-in-poll",
+      "raw_summary": "A slim majority of Canadians oppose allowing private investment in airports, a new poll shows, as Prime Minister Mark Carney explores selling stakes in the publicly owned facilities to unlock funding for major infrastructure projects.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 07 Jul 2026 10:00:26 GMT",
-      "summary": "A Once-Great Copper Miner Faces a Reckoning Just as AI Power Demand Soars\n<p>Chile’s Codelco, facing scrutiny for a fatal accident and inflated production figures, is struggling under $25 billion of debt.</p>"
-    },
-    {
-      "title": "Gold Fluctuates as Traders Weigh Fed Rate Path, Hormuz Attacks",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-06/gold-steadies-as-traders-look-to-fed-for-interest-rate-outlook",
-      "raw_summary": "Gold swung between gains and losses as traders weighed the outlook for US interest rates and renewed attacks on shipping in the Strait of Hormuz.",
-      "source": "Bloomberg Markets",
-      "published": "Mon, 06 Jul 2026 23:19:10 GMT",
-      "summary": "Gold Fluctuates as Traders Weigh Fed Rate Path, Hormuz Attacks\nGold swung between gains and losses as traders weighed the outlook for US interest rates and renewed attacks on shipping in the Strait of Hormuz."
+      "published": "Mon, 06 Jul 2026 10:00:00 GMT",
+      "summary": "Canadians Skeptical of Carney’s Push to Open Airports to Private Investment\nA slim majority of Canadians oppose allowing private investment in airports, a new poll shows, as Prime Minister Mark Carney explores selling stakes in the publicly owned facilities to unlock funding for major infrastructure"
     },
     {
       "title": "Chip Stocks Tumble on AI Anxiety as Oil Climbs: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-07-06/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "A selloff in chipmakers dragged down stocks on concerns over whether massive artificial-intelligence investments will justify lofty valuations while higher oil prices lifted bond yields.",
+      "raw_summary": "A selloff in chipmakers dragged down the stock market on concerns over whether massive artificial-intelligence investments will justify lofty valuations after a breakneck surge from war-driven lows.",
       "source": "Bloomberg Markets",
       "published": "Mon, 06 Jul 2026 22:10:26 GMT",
-      "summary": "Chip Stocks Tumble on AI Anxiety as Oil Climbs: Markets Wrap\nA selloff in chipmakers dragged down stocks on concerns over whether massive artificial-intelligence investments will justify lofty valuations while higher oil prices lifted bond yields."
+      "summary": "Chip Stocks Tumble on AI Anxiety as Oil Climbs: Markets Wrap\nA selloff in chipmakers dragged down the stock market on concerns over whether massive artificial-intelligence investments will justify lofty valuations after a breakneck surge from war-driven lows."
     },
     {
-      "title": "Rivian’s Stock Plunges Most Since 2024 on Planned Share Sale",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-06/electric-vehicle-maker-rivian-offers-to-sell-75-million-shares",
-      "raw_summary": "Rivian Automotive Inc.’s stock tumbled the most in more than a year after the electric vehicle maker said it will sell 75 million shares to fund equity contributions related to a US Department of Energy loan.",
+      "title": "US Revokes Waiver Allowing Iran Oil Sales After Attacks",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-07/us-revokes-waiver-allowing-iran-oil-sales-after-tanker-attacks",
+      "raw_summary": "The US Treasury Department revoked a waiver that allowed the sale of Iranian oil in response to attacks on tankers in the Strait of Hormuz, jeopardizing an interim peace deal between Washington and Tehran.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 06 Jul 2026 21:26:22 GMT",
-      "summary": "Rivian’s Stock Plunges Most Since 2024 on Planned Share Sale\nRivian Automotive Inc.’s stock tumbled the most in more than a year after the electric vehicle maker said it will sell 75 million shares to fund equity contributions related to a US Department of Energy loan."
+      "published": "Tue, 07 Jul 2026 19:08:45 GMT",
+      "summary": "US Revokes Waiver Allowing Iran Oil Sales After Attacks\nThe US Treasury Department revoked a waiver that allowed the sale of Iranian oil in response to attacks on tankers in the Strait of Hormuz, jeopardizing an interim peace deal between Washington and Tehran."
     },
     {
-      "title": "EDX Markets raises $76 million in funding round led by SBI Holdings",
-      "link": "https://www.coindesk.com/business/2026/07/07/edx-markets-raises-usd76-million-in-funding-round-led-by-sbi-holdings",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 07 Jul 2026 14:07:05 +0000",
-      "summary": "EDX Markets raises $76 million in funding round led by SBI Holdings\n"
+      "title": "NYC Is Racing to Secure ‘Unstable’ Midtown Manhattan Building",
+      "link": "https://www.bloomberg.com/news/videos/2026-07-07/nyc-is-racing-to-secure-unstable-midtown-manhattan-building",
+      "raw_summary": "New York City officials were racing to stabilize a high-rise building in the heart of Manhattan after cracks developed in multiple columns and floors began to sag, leading to the evacuation of nearby office buildings and a school during the height of the morning rush. (Source: Bloomberg)",
+      "source": "Bloomberg Markets",
+      "published": "Tue, 07 Jul 2026 19:30:34 GMT",
+      "summary": "NYC Is Racing to Secure ‘Unstable’ Midtown Manhattan Building\nNew York City officials were racing to stabilize a high-rise building in the heart of Manhattan after cracks developed in multiple columns and floors began to sag, leading to the evacuation of nearby office buildings and a school during t"
     },
     {
-      "title": "Former Tether investment chief is looking to sell part of his stake in the stablecoin giant: Bloomberg",
-      "link": "https://www.coindesk.com/business/2026/07/07/former-tether-investment-chief-is-looking-to-sell-part-of-his-stake-in-the-stablecoin-giant-bloomberg",
+      "title": "BlackRock-backed Securitize slides 40% after SPAC debut despite tokenization boom",
+      "link": "https://www.coindesk.com/markets/2026/07/07/blackrock-backed-securitize-slides-40-after-spac-debut-despite-tokenization-boom",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 07 Jul 2026 13:46:25 +0000",
-      "summary": "Former Tether investment chief is looking to sell part of his stake in the stablecoin giant: Bloomberg\n"
+      "published": "Tue, 07 Jul 2026 19:35:14 +0000",
+      "summary": "BlackRock-backed Securitize slides 40% after SPAC debut despite tokenization boom\n"
     },
     {
-      "title": "Bitcoin, XRP draw Japanese firms as weak yen drives treasury diversification",
-      "link": "https://www.coindesk.com/markets/2026/07/07/bitcoin-xrp-draw-japanese-firms-as-weak-yen-drives-treasury-diversification",
+      "title": "Crypto exchange Kraken is trying to become a bank in Europe",
+      "link": "https://www.coindesk.com/business/2026/07/07/crypto-exchange-kraken-is-trying-to-become-a-bank-in-europe",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 07 Jul 2026 13:26:59 +0000",
-      "summary": "Bitcoin, XRP draw Japanese firms as weak yen drives treasury diversification\n"
+      "published": "Tue, 07 Jul 2026 18:38:10 +0000",
+      "summary": "Crypto exchange Kraken is trying to become a bank in Europe\n"
     },
     {
-      "title": "Coinbase secures UK authorization to offer traditional investments alongside crypto",
-      "link": "https://www.coindesk.com/business/2026/07/07/coinbase-secures-uk-authorization-to-offer-traditional-investments-alongside-crypto",
+      "title": "SpaceX IPO powers record $3.86 billion in tokenized equities trading in June",
+      "link": "https://www.coindesk.com/markets/2026/07/07/spacex-ipo-powers-record-usd3-86-billion-in-tokenized-equities-trading-in-june",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 07 Jul 2026 11:37:01 +0000",
-      "summary": "Coinbase secures UK authorization to offer traditional investments alongside crypto\n"
+      "published": "Tue, 07 Jul 2026 16:18:18 +0000",
+      "summary": "SpaceX IPO powers record $3.86 billion in tokenized equities trading in June\n"
     },
     {
-      "title": "Bitcoin's July gains may be fleeting as U.S. demand stays weak",
-      "link": "https://www.coindesk.com/daybook-us/2026/07/07/bitcoin-s-july-gains-may-be-fleeting-as-u-s-demand-stays-weak",
+      "title": "U.S. SEC to propose crypto rule as soon as this month to ease startups, fundraising",
+      "link": "https://www.coindesk.com/policy/2026/07/07/u-s-sec-to-propose-crypto-rule-as-soon-as-this-month-to-ease-startups-fundraising",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 07 Jul 2026 11:26:17 +0000",
-      "summary": "Bitcoin's July gains may be fleeting as U.S. demand stays weak\n"
+      "published": "Tue, 07 Jul 2026 16:08:19 +0000",
+      "summary": "U.S. SEC to propose crypto rule as soon as this month to ease startups, fundraising\n"
+    },
+    {
+      "title": "Analysts see more upside for SpaceX as post-IPO research begins",
+      "link": "https://www.coindesk.com/markets/2026/07/07/analysts-see-more-upside-for-spacex-as-post-ipo-research-begins",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Tue, 07 Jul 2026 14:39:24 +0000",
+      "summary": "Analysts see more upside for SpaceX as post-IPO research begins\n"
     }
   ]
 }
