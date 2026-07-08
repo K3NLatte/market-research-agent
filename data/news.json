@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T01:56:18.201087+00:00",
+  "generated_at": "2026-07-08T08:11:47.102392+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,22 @@
       "summary": "A Record-Breaking Patch Tuesday for June 2026\nMicrosoft today released software updates to plug nearly 200 security holes across its Windows operating systems and supported software, a record number of fixes for the company's monthly Patch Tuesday cycle. Nearly three dozen of those bugs earned Micro"
     },
     {
+      "title": "15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros",
+      "link": "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html",
+      "raw_summary": "Researchers at&nbsp;Nebula Security&nbsp;have disclosed GhostLock (CVE-2026-43499), a 15-year-old Linux kernel flaw that lets any logged-in user take full&nbsp;root&nbsp;control of a machine that has not been patched.\n\nThe vulnerable code has shipped by default in essentially every mainstream distribution since 2011. The flaw needs no special permission, no unusual settings, and no network",
+      "source": "The Hacker News",
+      "published": "Wed, 08 Jul 2026 11:46:44 +0530",
+      "summary": "15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros\nResearchers at&nbsp;Nebula Security&nbsp;have disclosed GhostLock (CVE-2026-43499), a 15-year-old Linux kernel flaw that lets any logged-in user take full&nbsp;root&nbsp;control of a machine that has not been patched."
+    },
+    {
+      "title": "CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV",
+      "link": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html",
+      "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-48282 (CVSS score: 10.0) - A path traversal vulnerability in Adobe ColdFusion that could lead to arbitrary code execution in the context of the",
+      "source": "The Hacker News",
+      "published": "Wed, 08 Jul 2026 11:03:12 +0530",
+      "summary": "CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities are listed "
+    },
+    {
       "title": "RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service",
       "link": "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html",
       "raw_summary": "A new Android malware operation called RedWing is being rented out on Telegram as a ready-made bank-fraud service. It lets even low-skill criminals take over a victim's phone, steal their banking logins, and capture the one-time codes that protect their accounts.\n\nZimperium's zLabs, which found the operation, says it looks like a new variant of Oblivion, a $300-a-month rent-a-malware tool",
@@ -67,60 +83,60 @@
       "summary": "DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts\nA Microsoft 365 device code phishing campaign has been observed leveraging collaboration-themed lures to take control of victim accounts between the last week of June 2026 and into early July, per findings from ZeroBEC.\n\n\"The c"
     },
     {
-      "title": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data",
-      "link": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
-      "raw_summary": "A public issue can trick GitHub Agentic Workflows into leaking the contents of an organization's private repositories, researchers at Noma Security have shown.\n\nThe attacker needs only to open a normal-looking issue on a public repository, with no stolen credentials and no access to the organization. If that organization has given the agent read access across its repositories, private ones",
-      "source": "The Hacker News",
-      "published": "Tue, 07 Jul 2026 19:34:50 +0530",
-      "summary": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data\nA public issue can trick GitHub Agentic Workflows into leaking the contents of an organization's private repositories, researchers at Noma Security have shown.\n\nThe attacker needs only to open a normal-looking is"
-    },
-    {
-      "title": "Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker",
-      "link": "https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html",
-      "raw_summary": "U.S. prosecutors linked an alleged Scattered Spider hacker to a break-in at a luxury jewelry retailer using a persistent Windows device ID, according to a newly unsealed federal complaint.\n\nMicrosoft records tied that ID first to the account the attackers used to keep access during the May 2025 intrusion, then to online accounts prosecutors say belong to 19-year-old Peter Stokes.\n\nStokes is",
-      "source": "The Hacker News",
-      "published": "Tue, 07 Jul 2026 18:57:20 +0530",
-      "summary": "Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker\nU.S. prosecutors linked an alleged Scattered Spider hacker to a break-in at a luxury jewelry retailer using a persistent Windows device ID, according to a newly unsealed federal complaint.\n\nMicrosoft records tied"
-    },
-    {
-      "title": "Show HN: Chiptune Radio",
-      "link": "https://chiptune-radio.alephvoid.com/",
-      "raw_summary": "<p>I built a chiptune song generator and its broadcasting algorithmically generated chiptune music.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48826094\">https://news.ycombinator.com/item?id=48826094</a></p>\n<p>Points: 5</p>\n<p># Comments: 1</p>",
+      "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
+      "link": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+      "raw_summary": "<p>Article URL: <a href=\"https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/\">https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48827858\">https://news.ycombinator.com/item?id=48827858</a></p>\n<p>Points: 86</p>\n<p># Comments: 27</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 08 Jul 2026 00:55:19 +0000",
-      "summary": "Show HN: Chiptune Radio\n<p>I built a chiptune song generator and its broadcasting algorithmically generated chiptune music.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48826094\">https://news.ycombinator.com/item?id=48826094</a></p>\n<p>Points: 5</p>\n<p># Comments: 1</p>"
+      "published": "Wed, 08 Jul 2026 05:25:35 +0000",
+      "summary": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos\n<p>Article URL: <a href=\"https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/\">https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/</a></p>\n<p>Comments"
     },
     {
-      "title": "Rlm-Workflow",
-      "link": "https://try.works/projects#rlm-workflow",
-      "raw_summary": "<p>Article URL: <a href=\"https://try.works/projects#rlm-workflow\">https://try.works/projects#rlm-workflow</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48825906\">https://news.ycombinator.com/item?id=48825906</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "title": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday",
+      "link": "https://twitter.com/OpenAI/status/2074704958419792299",
+      "raw_summary": "<p>Article URL: <a href=\"https://twitter.com/OpenAI/status/2074704958419792299\">https://twitter.com/OpenAI/status/2074704958419792299</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48827402\">https://news.ycombinator.com/item?id=48827402</a></p>\n<p>Points: 157</p>\n<p># Comments: 90</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 08 Jul 2026 00:32:18 +0000",
-      "summary": "Rlm-Workflow\n<p>Article URL: <a href=\"https://try.works/projects#rlm-workflow\">https://try.works/projects#rlm-workflow</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48825906\">https://news.ycombinator.com/item?id=48825906</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>"
+      "published": "Wed, 08 Jul 2026 04:12:13 +0000",
+      "summary": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday\n<p>Article URL: <a href=\"https://twitter.com/OpenAI/status/2074704958419792299\">https://twitter.com/OpenAI/status/2074704958419792299</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48827402\">https://ne"
     },
     {
-      "title": "An interactive explorer for Benford's Law across real datasets",
-      "link": "https://vatsalbakshi.com/blog/benfords-law/",
-      "raw_summary": "<p>Article URL: <a href=\"https://vatsalbakshi.com/blog/benfords-law/\">https://vatsalbakshi.com/blog/benfords-law/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48825816\">https://news.ycombinator.com/item?id=48825816</a></p>\n<p>Points: 14</p>\n<p># Comments: 3</p>",
+      "title": "How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS (2024)",
+      "link": "https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/",
+      "raw_summary": "<p>Article URL: <a href=\"https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/\">https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48827325\">https://news.ycombinator.com/item?id=48827325</a></p>\n<p>Points: 155</p>\n<p># Comments: 83</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 08 Jul 2026 00:18:39 +0000",
-      "summary": "An interactive explorer for Benford's Law across real datasets\n<p>Article URL: <a href=\"https://vatsalbakshi.com/blog/benfords-law/\">https://vatsalbakshi.com/blog/benfords-law/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48825816\">https://news.ycombinator.com/item?id=48825"
+      "published": "Wed, 08 Jul 2026 03:59:35 +0000",
+      "summary": "How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS (2024)\n<p>Article URL: <a href=\"https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/\">https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinat"
     },
     {
-      "title": "Tenda firmware (multiple versions) contains hidden authentication backdoor",
-      "link": "https://kb.cert.org/vuls/id/213560",
-      "raw_summary": "<p>Article URL: <a href=\"https://kb.cert.org/vuls/id/213560\">https://kb.cert.org/vuls/id/213560</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48825749\">https://news.ycombinator.com/item?id=48825749</a></p>\n<p>Points: 13</p>\n<p># Comments: 2</p>",
+      "title": "Copy That Floppy – Cambridge guide for preserving data from fragile floppy disks",
+      "link": "https://www.digipres.org/the-floppy-guide/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.digipres.org/the-floppy-guide/\">https://www.digipres.org/the-floppy-guide/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48827092\">https://news.ycombinator.com/item?id=48827092</a></p>\n<p>Points: 55</p>\n<p># Comments: 11</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 08 Jul 2026 00:08:51 +0000",
-      "summary": "Tenda firmware (multiple versions) contains hidden authentication backdoor\n<p>Article URL: <a href=\"https://kb.cert.org/vuls/id/213560\">https://kb.cert.org/vuls/id/213560</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48825749\">https://news.ycombinator.com/item?id=48825749</a"
+      "published": "Wed, 08 Jul 2026 03:22:31 +0000",
+      "summary": "Copy That Floppy – Cambridge guide for preserving data from fragile floppy disks\n<p>Article URL: <a href=\"https://www.digipres.org/the-floppy-guide/\">https://www.digipres.org/the-floppy-guide/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48827092\">https://news.ycombinator.c"
     },
     {
-      "title": "Show HN: Fortress – a stealth Chromium so your agents stop getting blocked",
-      "link": "https://github.com/tiliondev/fortress",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/tiliondev/fortress\">https://github.com/tiliondev/fortress</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48825745\">https://news.ycombinator.com/item?id=48825745</a></p>\n<p>Points: 17</p>\n<p># Comments: 11</p>",
+      "title": "LineageOS Statistics",
+      "link": "https://stats.lineageos.org",
+      "raw_summary": "<p>Article URL: <a href=\"https://stats.lineageos.org\">https://stats.lineageos.org</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48826329\">https://news.ycombinator.com/item?id=48826329</a></p>\n<p>Points: 61</p>\n<p># Comments: 32</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 08 Jul 2026 00:08:21 +0000",
-      "summary": "Show HN: Fortress – a stealth Chromium so your agents stop getting blocked\n<p>Article URL: <a href=\"https://github.com/tiliondev/fortress\">https://github.com/tiliondev/fortress</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48825745\">https://news.ycombinator.com/item?id=48825"
+      "published": "Wed, 08 Jul 2026 01:27:39 +0000",
+      "summary": "LineageOS Statistics\n<p>Article URL: <a href=\"https://stats.lineageos.org\">https://stats.lineageos.org</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48826329\">https://news.ycombinator.com/item?id=48826329</a></p>\n<p>Points: 61</p>\n<p># Comments: 32</p>"
+    },
+    {
+      "title": "Hot French startup ZML releases free product to speed inference across lots of AI chips",
+      "link": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/",
+      "raw_summary": "ZML, a hot French AI startup endorsed by Turing Award winner Yann LeCun, has now released ZML/LLMD, software that could make running AI less costly.",
+      "source": "TechCrunch",
+      "published": "Wed, 08 Jul 2026 08:00:00 +0000",
+      "summary": "Hot French startup ZML releases free product to speed inference across lots of AI chips\nZML, a hot French AI startup endorsed by Turing Award winner Yann LeCun, has now released ZML/LLMD, software that could make running AI less costly."
+    },
+    {
+      "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
+      "link": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
+      "raw_summary": "AI chip maker SambaNova has raised at an $11B valuation months after Intel was rumored to be trying to buy it for about $1.6 billion.",
+      "source": "TechCrunch",
+      "published": "Wed, 08 Jul 2026 07:16:00 +0000",
+      "summary": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round\nAI chip maker SambaNova has raised at an $11B valuation months after Intel was rumored to be trying to buy it for about $1.6 billion."
     },
     {
       "title": "Final extension: Startup Battlefield Australia applications now close July 20",
@@ -133,10 +149,10 @@
     {
       "title": "Meta just launched a new AI generator, Muse Image, and users are already pushing back over use of their photos",
       "link": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
-      "raw_summary": "The new image-generating model has numerous use cases, including advertising, decorating and creator-based opportunities.",
+      "raw_summary": "The new image-generating model has numerous use cases, including advertising and decorating, and creator-based opportunities.",
       "source": "TechCrunch",
       "published": "Tue, 07 Jul 2026 22:18:10 +0000",
-      "summary": "Meta just launched a new AI generator, Muse Image, and users are already pushing back over use of their photos\nThe new image-generating model has numerous use cases, including advertising, decorating and creator-based opportunities."
+      "summary": "Meta just launched a new AI generator, Muse Image, and users are already pushing back over use of their photos\nThe new image-generating model has numerous use cases, including advertising and decorating, and creator-based opportunities."
     },
     {
       "title": "Why the rise of open source AI isn’t hurting Anthropic … yet",
@@ -147,20 +163,12 @@
       "summary": "Why the rise of open source AI isn’t hurting Anthropic … yet\nOpen source models’ success isn’t coming at the expense of frontier labs. Instead, they each seem to capture two phases of the same life cycle."
     },
     {
-      "title": "Microsoft joins AI cost-cutting trend by relying more on its own models",
-      "link": "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/",
-      "raw_summary": "Microsoft is the latest Silicon Valley giant to cut back on its AI spending.",
-      "source": "TechCrunch",
-      "published": "Tue, 07 Jul 2026 19:58:20 +0000",
-      "summary": "Microsoft joins AI cost-cutting trend by relying more on its own models\nMicrosoft is the latest Silicon Valley giant to cut back on its AI spending."
-    },
-    {
-      "title": "Discord admits AI moderation bug wrongfully banned users over harmless images",
-      "link": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
-      "raw_summary": "The company confirmed that the issue had been affecting accounts since May, with an additional 200 users banned over the weekend before its team identified and fixed the problem.",
-      "source": "TechCrunch",
-      "published": "Tue, 07 Jul 2026 19:28:38 +0000",
-      "summary": "Discord admits AI moderation bug wrongfully banned users over harmless images\nThe company confirmed that the issue had been affecting accounts since May, with an additional 200 users banned over the weekend before its team identified and fixed the problem."
+      "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
+      "link": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/",
+      "raw_summary": "\"HalluSquatting\" weaponizes LLMs' inability to say \"I don't know.\"",
+      "source": "Ars Technica - All content",
+      "published": "Wed, 08 Jul 2026 07:00:51 +0000",
+      "summary": "Hackers can use 9 of the most popular AI tools to assemble massive botnets\n\"HalluSquatting\" weaponizes LLMs' inability to say \"I don't know.\""
     },
     {
       "title": "Michigan sees explosive outbreak of diarrheal parasite with over 700 cases",
@@ -195,92 +203,100 @@
       "summary": "SCOTUS lets Texas enforce app store law that Big Tech calls \"censorship regime\"\nTexas win at 5th Circuit left in place as attempts to overturn age law continue."
     },
     {
-      "title": "Bethesda, id Software reportedly hit hard by Microsoft layoffs",
-      "link": "https://arstechnica.com/gaming/2026/07/bethesda-id-software-reportedly-hit-hard-by-microsoft-layoffs/",
-      "raw_summary": "As much as 50 percent of some teams affected by reductions, and more could be coming.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 07 Jul 2026 19:52:59 +0000",
-      "summary": "Bethesda, id Software reportedly hit hard by Microsoft layoffs\nAs much as 50 percent of some teams affected by reductions, and more could be coming."
-    },
-    {
-      "title": "US launches new wave of Iran strikes after attacks on tankers",
+      "title": "US launches wave of Iran strikes after attacks on tankers",
       "link": "https://www.ft.com/content/c7dac217-4a77-4640-9aa4-17ae7b0d5c0c",
-      "raw_summary": "Trump administration also revokes licence allowing Islamic republic’s oil sales, sending crude prices higher",
+      "raw_summary": "Nato secretary-general Rutte backs US action as ‘absolutely necessary’ as Revolutionary Guards retaliate",
       "source": "World",
-      "published": "Wed, 08 Jul 2026 00:08:05 GMT",
-      "summary": "US launches new wave of Iran strikes after attacks on tankers\nTrump administration also revokes licence allowing Islamic republic’s oil sales, sending crude prices higher"
-    },
-    {
-      "title": "A quick guide to Nigel Farage’s gamble",
-      "link": "https://www.ft.com/content/b6776af8-8fb8-4059-b77a-b9553f61ef38",
-      "raw_summary": "Reform UK leader has responded to scrutiny of his finances by calling a by-election that may yet fall flat",
-      "source": "World",
-      "published": "Tue, 07 Jul 2026 22:20:55 GMT",
-      "summary": "A quick guide to Nigel Farage’s gamble\nReform UK leader has responded to scrutiny of his finances by calling a by-election that may yet fall flat"
+      "published": "Wed, 08 Jul 2026 07:49:14 GMT",
+      "summary": "US launches wave of Iran strikes after attacks on tankers\nNato secretary-general Rutte backs US action as ‘absolutely necessary’ as Revolutionary Guards retaliate"
     },
     {
       "title": "Farage by-election gambit undercut by rivals’ refusal to participate",
       "link": "https://www.ft.com/content/e83009d2-1a82-4ec1-83aa-2447cf1fa19b",
       "raw_summary": "Conservatives, Labour and Lib Dems will not contest vote as Reform UK leader denies wrongdoing over gifts",
       "source": "World",
-      "published": "Tue, 07 Jul 2026 22:13:12 GMT",
+      "published": "Wed, 08 Jul 2026 07:14:03 GMT",
       "summary": "Farage by-election gambit undercut by rivals’ refusal to participate\nConservatives, Labour and Lib Dems will not contest vote as Reform UK leader denies wrongdoing over gifts"
     },
     {
-      "title": "Rachel Reeves calls for rival international defence schemes to merge",
-      "link": "https://www.ft.com/content/fe160ac5-3ef8-423f-b758-b43ff6096c43",
-      "raw_summary": "UK chancellor says competing funding bodies should be brought together",
+      "title": "Virgin Media O2 fined for likely mishandling millions of calls in delay tactics",
+      "link": "https://www.ft.com/content/560023db-09d6-49b2-8168-6becb15d57ad",
+      "raw_summary": "Ofcom uncovers tactics such as excessive call transfers to prevent customers from cancelling contracts",
       "source": "World",
-      "published": "Tue, 07 Jul 2026 22:10:55 GMT",
-      "summary": "Rachel Reeves calls for rival international defence schemes to merge\nUK chancellor says competing funding bodies should be brought together"
+      "published": "Wed, 08 Jul 2026 07:08:07 GMT",
+      "summary": "Virgin Media O2 fined for likely mishandling millions of calls in delay tactics\nOfcom uncovers tactics such as excessive call transfers to prevent customers from cancelling contracts"
     },
     {
-      "title": "FirstFT: US strikes Iran in response to attacks on tankers",
-      "link": "https://www.ft.com/content/5f6b653e-2016-48a8-a5c9-8b32eb709f62",
-      "raw_summary": "Also in today’s newsletter: France’s Le Pen announces run for president, and Samsung shares tumble despite record quarterly profit",
+      "title": "South Korea falls into bear market as traders fret over AI chipmakers’ prospects",
+      "link": "https://www.ft.com/content/2cb790fc-016b-4b15-a9d8-5b6057592e1a",
+      "raw_summary": "Kospi retreats more than 20% from June peak as sentiment starts to turn on Samsung Electronics and SK Hynix",
       "source": "World",
-      "published": "Tue, 07 Jul 2026 22:09:51 GMT",
-      "summary": "FirstFT: US strikes Iran in response to attacks on tankers\nAlso in today’s newsletter: France’s Le Pen announces run for president, and Samsung shares tumble despite record quarterly profit"
+      "published": "Wed, 08 Jul 2026 07:04:00 GMT",
+      "summary": "South Korea falls into bear market as traders fret over AI chipmakers’ prospects\nKospi retreats more than 20% from June peak as sentiment starts to turn on Samsung Electronics and SK Hynix"
     },
     {
-      "title": "Oil Rises With Dollar After US Strikes on Iran: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-07/oil-jumps-on-iran-attack-asian-stocks-set-to-drop-markets-wrap",
-      "raw_summary": "Oil prices rose and the dollar advanced as investors assessed the implications of renewed geopolitical tensions for energy supplies and risk assets.",
-      "source": "Bloomberg Markets",
-      "published": "Tue, 07 Jul 2026 22:10:50 GMT",
-      "summary": "Oil Rises With Dollar After US Strikes on Iran: Markets Wrap\nOil prices rose and the dollar advanced as investors assessed the implications of renewed geopolitical tensions for energy supplies and risk assets."
+      "title": "Singapore’s Temasek doubles down on AI and private credit",
+      "link": "https://www.ft.com/content/39e28145-ed1d-493f-bfc3-aeaa0ea88096",
+      "raw_summary": "State investor focuses on accelerating returns after several lacklustre years",
+      "source": "World",
+      "published": "Wed, 08 Jul 2026 07:03:57 GMT",
+      "summary": "Singapore’s Temasek doubles down on AI and private credit\nState investor focuses on accelerating returns after several lacklustre years"
     },
     {
-      "title": "Gold Steadies After Fresh US Strikes in Iran Cloud Rate Outlook",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-07/gold-holds-drop-as-us-strikes-in-iran-cloud-rate-hike-outlook",
-      "raw_summary": "Gold traded in a narrow range as investors sought clues on the Federal Reserve’s outlook for interest rates, with renewed US airstrikes on Iran stoking concerns around a return to higher energy prices and inflation.",
+      "title": "Bonds Show Vulnerability to Iran Setback: 3-Minutes MLIV",
+      "link": "https://www.bloomberg.com/news/videos/2026-07-08/bonds-show-vulnerability-to-iran-setback-3-minutes-mliv-video",
+      "raw_summary": "Anna Edwards, Guy Johnson and Paul Dobson break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\" (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Tue, 07 Jul 2026 23:06:49 GMT",
-      "summary": "Gold Steadies After Fresh US Strikes in Iran Cloud Rate Outlook\nGold traded in a narrow range as investors sought clues on the Federal Reserve’s outlook for interest rates, with renewed US airstrikes on Iran stoking concerns around a return to higher energy prices and inflation."
+      "published": "Wed, 08 Jul 2026 08:07:21 GMT",
+      "summary": "Bonds Show Vulnerability to Iran Setback: 3-Minutes MLIV\nAnna Edwards, Guy Johnson and Paul Dobson break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\" (Source: Bloomberg)"
     },
     {
-      "title": "Indonesia Faces Possible Cut to Frontier Market by S&amp;P Dow Jones",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-07/s-p-dow-jones-signals-possible-frontier-market-cut-for-indonesia",
-      "raw_summary": "Indonesia’s efforts to reassure global investors suffered another setback after S&amp;P Dow Jones Indices signaled the country could eventually lose its emerging-market status if concerns over its stock market persist.",
+      "title": "Aselsan CEO Says Global Defense Orders Are Surging",
+      "link": "https://www.bloomberg.com/news/videos/2026-07-08/aselsan-ceo-says-global-defense-orders-are-surging-video",
+      "raw_summary": "Turkey’s $37 billion state-run defense contractor Aselsan Elektronik Sanayi ve Ticaret AS said international orders have doubled in the past year on the back of demand fueled by the conflicts in Ukraine and the Middle East. Aselsan CEO Ahmet Akyol spoke Tuesday with Bloomberg's Annmarie Hordern at the NATO Summit in Ankara, Turkey. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Tue, 07 Jul 2026 23:18:52 GMT",
-      "summary": "Indonesia Faces Possible Cut to Frontier Market by S&amp;P Dow Jones\nIndonesia’s efforts to reassure global investors suffered another setback after S&amp;P Dow Jones Indices signaled the country could eventually lose its emerging-market status if concerns over its stock market persist."
+      "published": "Wed, 08 Jul 2026 07:46:17 GMT",
+      "summary": "Aselsan CEO Says Global Defense Orders Are Surging\nTurkey’s $37 billion state-run defense contractor Aselsan Elektronik Sanayi ve Ticaret AS said international orders have doubled in the past year on the back of demand fueled by the conflicts in Ukraine and the Middle East. Aselsan CEO Ahmet Akyol s"
     },
     {
-      "title": "GM-Backed Momenta Rises in HK Debut After $752 Million IPO",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-07/gm-backed-momenta-set-for-hong-kong-debut-after-752-million-ipo",
-      "raw_summary": "Momenta Global Ltd., a Chinese autonomous-driving firm, opened 1.8% higher in Hong Kong on Wednesday after raising HK$5.9 billion ($752 million) in an initial public offering, testing market appetite for loss-making firms that offer promising technologies.",
+      "title": "Alphabet Powers 44% Jump in India Foreign Investment, UN Says",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-08/alphabet-powers-44-jump-in-india-foreign-investment-un-says",
+      "raw_summary": "Foreign direct investment in India surged in 2025, driven largely by Alphabet Inc.’s data center project, though a decline in greenfield investments signaled a weaker investment outlook, according to the United Nations’ trade agency.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 07 Jul 2026 23:00:00 GMT",
-      "summary": "GM-Backed Momenta Rises in HK Debut After $752 Million IPO\nMomenta Global Ltd., a Chinese autonomous-driving firm, opened 1.8% higher in Hong Kong on Wednesday after raising HK$5.9 billion ($752 million) in an initial public offering, testing market appetite for loss-making firms that offer promisin"
+      "published": "Wed, 08 Jul 2026 07:44:37 GMT",
+      "summary": "Alphabet Powers 44% Jump in India Foreign Investment, UN Says\nForeign direct investment in India surged in 2025, driven largely by Alphabet Inc.’s data center project, though a decline in greenfield investments signaled a weaker investment outlook, according to the United Nations’ trade agency."
     },
     {
-      "title": "US Strikes Iran and Blocks Oil Sales in New Threats to Ceasefire",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-07/us-revokes-waiver-allowing-iran-oil-sales-after-tanker-attacks",
-      "raw_summary": "The US launched fresh airstrikes in Iran and revoked a waiver that allowed it to sell oil globally, further imperiling a peace agreement after a series of attacks on ships in the Strait of Hormuz.",
+      "title": "China’s 10-Year Bond Sale Sees Demand Gauge at Record High",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-08/china-s-10-year-bond-sale-sees-demand-gauge-at-record-high",
+      "raw_summary": "A gauge of demand for an auction of China’s benchmark sovereign bonds touched an all-time high on Wednesday, indicating strong appetite for the securities.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 07 Jul 2026 19:08:45 GMT",
-      "summary": "US Strikes Iran and Blocks Oil Sales in New Threats to Ceasefire\nThe US launched fresh airstrikes in Iran and revoked a waiver that allowed it to sell oil globally, further imperiling a peace agreement after a series of attacks on ships in the Strait of Hormuz."
+      "published": "Wed, 08 Jul 2026 04:54:15 GMT",
+      "summary": "China’s 10-Year Bond Sale Sees Demand Gauge at Record High\nA gauge of demand for an auction of China’s benchmark sovereign bonds touched an all-time high on Wednesday, indicating strong appetite for the securities."
+    },
+    {
+      "title": "India Fat-Loss Drug Sales Slow After Early Spike From Generics",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-08/india-fat-loss-drug-sales-slow-after-early-spike-from-generics",
+      "raw_summary": "Growth in India’s obesity- and diabetes-drug market is losing steam just months after a surge triggered by the arrival of generic semaglutide products.",
+      "source": "Bloomberg Markets",
+      "published": "Wed, 08 Jul 2026 07:41:49 GMT",
+      "summary": "India Fat-Loss Drug Sales Slow After Early Spike From Generics\nGrowth in India’s obesity- and diabetes-drug market is losing steam just months after a surge triggered by the arrival of generic semaglutide products."
+    },
+    {
+      "title": "Live markets: Japan's collapsing yen is pushing companies into bitcoin and XRP",
+      "link": "https://www.coindesk.com/tech/2026/07/08/live-markets-japan-s-collapsing-yen-is-pushing-companies-into-bitcoin-and-xrp",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 08 Jul 2026 05:29:16 +0000",
+      "summary": "Live markets: Japan's collapsing yen is pushing companies into bitcoin and XRP\n"
+    },
+    {
+      "title": "Bitcoin under pressure as U.S.-Iran escalation lifts oil",
+      "link": "https://www.coindesk.com/markets/2026/07/08/bitcoin-under-pressure-as-u-s-iran-escalation-lifts-oil",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 08 Jul 2026 04:30:24 +0000",
+      "summary": "Bitcoin under pressure as U.S.-Iran escalation lifts oil\n"
     },
     {
       "title": "BlackRock-backed Securitize slides 40% after SPAC debut despite tokenization boom",
@@ -305,22 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Tue, 07 Jul 2026 16:18:18 +0000",
       "summary": "SpaceX IPO powers record $3.86 billion in tokenized equities trading in June\n"
-    },
-    {
-      "title": "U.S. SEC to propose crypto rule as soon as this month to ease startups, fundraising",
-      "link": "https://www.coindesk.com/policy/2026/07/07/u-s-sec-to-propose-crypto-rule-as-soon-as-this-month-to-ease-startups-fundraising",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 07 Jul 2026 16:08:19 +0000",
-      "summary": "U.S. SEC to propose crypto rule as soon as this month to ease startups, fundraising\n"
-    },
-    {
-      "title": "Analysts see more upside for SpaceX as post-IPO research begins",
-      "link": "https://www.coindesk.com/markets/2026/07/07/analysts-see-more-upside-for-spacex-as-post-ipo-research-begins",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 07 Jul 2026 14:39:24 +0000",
-      "summary": "Analysts see more upside for SpaceX as post-IPO research begins\n"
     }
   ]
 }
