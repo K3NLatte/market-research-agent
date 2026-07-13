@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T02:00:00.526821+00:00",
+  "generated_at": "2026-07-13T08:53:11.211319+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,22 @@
       "summary": "Who Runs the Ransomware Group ‘The Gentlemen?’\nA cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers through an aggressive recruitment strategy that promises affiliates 90 percent of any ransom p"
     },
     {
+      "title": "Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365",
+      "link": "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html",
+      "raw_summary": "An attacker running a live Microsoft 365 phishing operation left a Python web server listening on a public port with directory listing switched on. The command that did it:&nbsp;python3 -m http.server 8080, was still sitting in the readable&nbsp;.bash_history.\n\nFrom that one lapse, French security firm&nbsp;Lexfo&nbsp;lifted the operator's entire toolkit and pivoted through it to two more",
+      "source": "The Hacker News",
+      "published": "Mon, 13 Jul 2026 13:00:00 +0530",
+      "summary": "Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365\nAn attacker running a live Microsoft 365 phishing operation left a Python web server listening on a public port with directory listing switched on. The command that did it:&nbsp;python3 -m http.server 8080, was s"
+    },
+    {
+      "title": "iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days",
+      "link": "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html",
+      "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation in the wild.\n\nThe vulnerabilities, both rated 10.0 on the CVSS scoring system, are below -\n\n\n  CVE-2026-48939 - A vulnerability in the",
+      "source": "The Hacker News",
+      "published": "Mon, 13 Jul 2026 11:06:02 +0530",
+      "summary": "iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited Vulnerabilities (KEV) catalog, followin"
+    },
+    {
       "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
       "link": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
       "raw_summary": "The jscrambler npm package was compromised, and simply installing its&nbsp;8.14.0&nbsp;release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a&nbsp;preinstall&nbsp;hook that drops and executes a native binary, one build each for Windows, macOS, and Linux.\n\nSocket flagged the release&nbsp;six minutes after it was published. If you or one of your",
@@ -67,60 +83,44 @@
       "summary": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions\nZimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution.\n\nThe vulnerability has been described as a case o"
     },
     {
-      "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
-      "link": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
-      "raw_summary": "Progress Software has told ShareFile customers to shut down the Windows servers running their Storage Zone Controllers, confirming to The Hacker News that it is responding to a \"credible external security threat.\"\n\nThe company has temporarily disabled access to the affected accounts, a step it says it took \"out of an abundance of caution\" while it works with internal and external security",
-      "source": "The Hacker News",
-      "published": "Fri, 10 Jul 2026 22:00:00 +0530",
-      "summary": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat\nProgress Software has told ShareFile customers to shut down the Windows servers running their Storage Zone Controllers, confirming to The Hacker News that it is responding to a \"credible external s"
-    },
-    {
-      "title": "Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages",
-      "link": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
-      "raw_summary": "Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wallet private keys and mnemonic seed phrases.\n\nThe compromised version, @injectivelabs/sdk-ts@1.20.21, came embedded with fake telemetry functionality that exfiltrated data from cryptocurrency wallets. The version was",
-      "source": "The Hacker News",
-      "published": "Fri, 10 Jul 2026 21:59:00 +0530",
-      "summary": "Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages\nUnknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wallet private keys and mnemonic seed phrases.\n\nTh"
-    },
-    {
-      "title": "Ask HN: Add flag for AI-generated articles",
-      "link": "https://news.ycombinator.com/item?id=48886741",
-      "raw_summary": "<p>Should HN add the ability to flag articles as AI-generated? This doesn't have to act as a regular flag, i.e., it won't de-rank the article; it could just show up as an indicator, allowing others (like myself) who don't like reading AI-generated text, to skip it.<p>Open questions:<p>1. Why is the regular voting system not enough?<p>2. Should HN change in response to the gen AI era? It has been successful not changing fundamentals.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48886741\">https://news.ycombinator.com/item?id=48886741</a></p>\n<p>Points: 18</p>\n<p># Comments: 3</p>",
+      "title": "Quadrupling code performance with a \"useless\" if",
+      "link": "https://purplesyringa.moe/blog/quadrupling-code-performance-with-a-useless-if/",
+      "raw_summary": "<p>Article URL: <a href=\"https://purplesyringa.moe/blog/quadrupling-code-performance-with-a-useless-if/\">https://purplesyringa.moe/blog/quadrupling-code-performance-with-a-useless-if/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48889148\">https://news.ycombinator.com/item?id=48889148</a></p>\n<p>Points: 26</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 13 Jul 2026 01:24:20 +0000",
-      "summary": "Ask HN: Add flag for AI-generated articles\n<p>Should HN add the ability to flag articles as AI-generated? This doesn't have to act as a regular flag, i.e., it won't de-rank the article; it could just show up as an indicator, allowing others (like myself) who don't like reading AI-generated text, to "
+      "published": "Mon, 13 Jul 2026 07:37:06 +0000",
+      "summary": "Quadrupling code performance with a \"useless\" if\n<p>Article URL: <a href=\"https://purplesyringa.moe/blog/quadrupling-code-performance-with-a-useless-if/\">https://purplesyringa.moe/blog/quadrupling-code-performance-with-a-useless-if/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item"
     },
     {
-      "title": "MacKenzie Scott's giving, in quality-adjusted life years",
-      "link": "https://maxghenis.com/mackenzie-scott-qaly/",
-      "raw_summary": "<p>Article URL: <a href=\"https://maxghenis.com/mackenzie-scott-qaly/\">https://maxghenis.com/mackenzie-scott-qaly/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48886311\">https://news.ycombinator.com/item?id=48886311</a></p>\n<p>Points: 44</p>\n<p># Comments: 15</p>",
+      "title": "Backtrack-Free Cursive",
+      "link": "https://mmapped.blog/posts/52-backtrack-free-cursive",
+      "raw_summary": "<p>Article URL: <a href=\"https://mmapped.blog/posts/52-backtrack-free-cursive\">https://mmapped.blog/posts/52-backtrack-free-cursive</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48888518\">https://news.ycombinator.com/item?id=48888518</a></p>\n<p>Points: 54</p>\n<p># Comments: 19</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 13 Jul 2026 00:18:16 +0000",
-      "summary": "MacKenzie Scott's giving, in quality-adjusted life years\n<p>Article URL: <a href=\"https://maxghenis.com/mackenzie-scott-qaly/\">https://maxghenis.com/mackenzie-scott-qaly/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48886311\">https://news.ycombinator.com/item?id=48886311</a"
+      "published": "Mon, 13 Jul 2026 06:08:12 +0000",
+      "summary": "Backtrack-Free Cursive\n<p>Article URL: <a href=\"https://mmapped.blog/posts/52-backtrack-free-cursive\">https://mmapped.blog/posts/52-backtrack-free-cursive</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48888518\">https://news.ycombinator.com/item?id=48888518</a></p>\n<p>Points:"
     },
     {
-      "title": "Circular Obstacle Pathfinding (2017)",
-      "link": "https://redblobgames.github.io/circular-obstacle-pathfinding/",
-      "raw_summary": "<p>Article URL: <a href=\"https://redblobgames.github.io/circular-obstacle-pathfinding/\">https://redblobgames.github.io/circular-obstacle-pathfinding/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48886040\">https://news.ycombinator.com/item?id=48886040</a></p>\n<p>Points: 8</p>\n<p># Comments: 1</p>",
+      "title": "Sam Neill has died",
+      "link": "https://www.theguardian.com/film/2026/jul/13/sam-neill-death-actor-dies-aged-78",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.theguardian.com/film/2026/jul/13/sam-neill-death-actor-dies-aged-78\">https://www.theguardian.com/film/2026/jul/13/sam-neill-death-actor-dies-aged-78</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48888468\">https://news.ycombinator.com/item?id=48888468</a></p>\n<p>Points: 91</p>\n<p># Comments: 14</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 12 Jul 2026 23:42:41 +0000",
-      "summary": "Circular Obstacle Pathfinding (2017)\n<p>Article URL: <a href=\"https://redblobgames.github.io/circular-obstacle-pathfinding/\">https://redblobgames.github.io/circular-obstacle-pathfinding/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48886040\">https://news.ycombinator.com/ite"
+      "published": "Mon, 13 Jul 2026 06:02:11 +0000",
+      "summary": "Sam Neill has died\n<p>Article URL: <a href=\"https://www.theguardian.com/film/2026/jul/13/sam-neill-death-actor-dies-aged-78\">https://www.theguardian.com/film/2026/jul/13/sam-neill-death-actor-dies-aged-78</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48888468\">https://news.y"
     },
     {
-      "title": "Designing and assembling my first PCB",
-      "link": "https://vilkeliskis.com/b/2026/0711.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://vilkeliskis.com/b/2026/0711.html\">https://vilkeliskis.com/b/2026/0711.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48885728\">https://news.ycombinator.com/item?id=48885728</a></p>\n<p>Points: 44</p>\n<p># Comments: 4</p>",
+      "title": "Beavis Ultrasound PnP ISA Sound Card Replica",
+      "link": "https://github.com/schlae/BeavisUltrasound",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/schlae/BeavisUltrasound\">https://github.com/schlae/BeavisUltrasound</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48888193\">https://news.ycombinator.com/item?id=48888193</a></p>\n<p>Points: 55</p>\n<p># Comments: 17</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 12 Jul 2026 22:56:56 +0000",
-      "summary": "Designing and assembling my first PCB\n<p>Article URL: <a href=\"https://vilkeliskis.com/b/2026/0711.html\">https://vilkeliskis.com/b/2026/0711.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48885728\">https://news.ycombinator.com/item?id=48885728</a></p>\n<p>Points: 44</p>\n<"
+      "published": "Mon, 13 Jul 2026 05:15:14 +0000",
+      "summary": "Beavis Ultrasound PnP ISA Sound Card Replica\n<p>Article URL: <a href=\"https://github.com/schlae/BeavisUltrasound\">https://github.com/schlae/BeavisUltrasound</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48888193\">https://news.ycombinator.com/item?id=48888193</a></p>\n<p>Point"
     },
     {
-      "title": "Architecture Description Languages [pdf]",
-      "link": "https://ics.uci.edu/~taylor/documents/2000-ADLs-TSE.pdf",
-      "raw_summary": "<p>Article URL: <a href=\"https://ics.uci.edu/~taylor/documents/2000-ADLs-TSE.pdf\">https://ics.uci.edu/~taylor/documents/2000-ADLs-TSE.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48885708\">https://news.ycombinator.com/item?id=48885708</a></p>\n<p>Points: 18</p>\n<p># Comments: 1</p>",
+      "title": "Count Binface",
+      "link": "https://countbinface.com",
+      "raw_summary": "<p>Article URL: <a href=\"https://countbinface.com\">https://countbinface.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48887753\">https://news.ycombinator.com/item?id=48887753</a></p>\n<p>Points: 268</p>\n<p># Comments: 165</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 12 Jul 2026 22:54:07 +0000",
-      "summary": "Architecture Description Languages [pdf]\n<p>Article URL: <a href=\"https://ics.uci.edu/~taylor/documents/2000-ADLs-TSE.pdf\">https://ics.uci.edu/~taylor/documents/2000-ADLs-TSE.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48885708\">https://news.ycombinator.com/item?id=488"
+      "published": "Mon, 13 Jul 2026 04:00:54 +0000",
+      "summary": "Count Binface\n<p>Article URL: <a href=\"https://countbinface.com\">https://countbinface.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48887753\">https://news.ycombinator.com/item?id=48887753</a></p>\n<p>Points: 268</p>\n<p># Comments: 165</p>"
     },
     {
       "title": "TechCrunch Mobility: A robotaxi ultimatum",
@@ -203,84 +203,100 @@
       "summary": "Increased drone surveillance of illegal July 4th fireworks led to $100K fine\nMore police and firefighters use drones to catch and deter illegal fireworks."
     },
     {
-      "title": "More than 2,700 deaths linked to UK heatwaves",
-      "link": "https://www.ft.com/content/bdbac7c0-e963-4e4b-844d-0deda384559c",
-      "raw_summary": "For the first time on record temperatures of 35C or higher had been recorded in May, June and July of the same year in UK",
+      "title": "EU moves towards social media ban for children",
+      "link": "https://www.ft.com/content/b3d94d79-e045-40bd-a1f3-4df0c365ce9a",
+      "raw_summary": "Brussels will propose gradual access for different ages in response to concerns over child safety online",
       "source": "World",
-      "published": "Sun, 12 Jul 2026 23:01:00 GMT",
-      "summary": "More than 2,700 deaths linked to UK heatwaves\nFor the first time on record temperatures of 35C or higher had been recorded in May, June and July of the same year in UK"
+      "published": "Mon, 13 Jul 2026 08:46:15 GMT",
+      "summary": "EU moves towards social media ban for children\nBrussels will propose gradual access for different ages in response to concerns over child safety online"
     },
     {
-      "title": "US launches another round of strikes on Iran as ceasefire teeters",
+      "title": "A bold, unpopular Budget could pay off",
+      "link": "https://www.ft.com/content/a886953b-fd1a-4805-8337-e88f41a22679",
+      "raw_summary": "Getting big and controversial reforms out of the way can reap dividends for governments closer to election time",
+      "source": "World",
+      "published": "Mon, 13 Jul 2026 08:30:04 GMT",
+      "summary": "A bold, unpopular Budget could pay off\nGetting big and controversial reforms out of the way can reap dividends for governments closer to election time"
+    },
+    {
+      "title": "Global stocks fall as Asian memory chipmakers hammered",
+      "link": "https://www.ft.com/content/54be872f-c0a2-46dd-9337-5cad9124e734",
+      "raw_summary": "Oil jumps as US-Iran hostilities escalate and investors go into ‘risk-off’ mode",
+      "source": "World",
+      "published": "Mon, 13 Jul 2026 08:21:30 GMT",
+      "summary": "Global stocks fall as Asian memory chipmakers hammered\nOil jumps as US-Iran hostilities escalate and investors go into ‘risk-off’ mode"
+    },
+    {
+      "title": "US launches more strikes on Iran as ceasefire teeters",
       "link": "https://www.ft.com/content/c5beec47-ba53-412e-910e-6b9ab2f3238d",
-      "raw_summary": "Fighting escalates as Trump insists the Strait of Hormuz remains open while Tehran says it is closed",
+      "raw_summary": "Fighting escalates as Trump insists Strait of Hormuz remains open while Tehran says it is closed",
       "source": "World",
-      "published": "Sun, 12 Jul 2026 22:52:37 GMT",
-      "summary": "US launches another round of strikes on Iran as ceasefire teeters\nFighting escalates as Trump insists the Strait of Hormuz remains open while Tehran says it is closed"
+      "published": "Mon, 13 Jul 2026 06:06:20 GMT",
+      "summary": "US launches more strikes on Iran as ceasefire teeters\nFighting escalates as Trump insists Strait of Hormuz remains open while Tehran says it is closed"
     },
     {
-      "title": "Oil prices jump as US and Iran step up tit-for-tat strikes",
-      "link": "https://www.ft.com/content/a3075fc2-74bd-4908-ab02-bbac79c32ee6",
-      "raw_summary": "Traders fear escalating hostilities could further restrict the flow of crude through the Strait of Hormuz",
+      "title": "EU urged to follow its own rules and ban trade with Israeli settlements",
+      "link": "https://www.ft.com/content/6db0a5eb-5a00-4683-9542-c53e349d507d",
+      "raw_summary": "Also in this newsletter: No ‘single measure’ will protect kids online, says justice commissioner",
       "source": "World",
-      "published": "Sun, 12 Jul 2026 22:41:05 GMT",
-      "summary": "Oil prices jump as US and Iran step up tit-for-tat strikes\nTraders fear escalating hostilities could further restrict the flow of crude through the Strait of Hormuz"
+      "published": "Mon, 13 Jul 2026 05:00:04 GMT",
+      "summary": "EU urged to follow its own rules and ban trade with Israeli settlements\nAlso in this newsletter: No ‘single measure’ will protect kids online, says justice commissioner"
     },
     {
-      "title": "FirstFT: US launches new strikes on Iran in fight over Strait of Hormuz",
-      "link": "https://www.ft.com/content/2ea1acd3-fcf2-4b39-98c7-82af6e1a16bb",
-      "raw_summary": "Also in today’s newsletter: Lindsey Graham dies aged 71 and Zelenskyy dismisses Ukraine’s prime minister",
-      "source": "World",
-      "published": "Sun, 12 Jul 2026 21:59:43 GMT",
-      "summary": "FirstFT: US launches new strikes on Iran in fight over Strait of Hormuz\nAlso in today’s newsletter: Lindsey Graham dies aged 71 and Zelenskyy dismisses Ukraine’s prime minister"
-    },
-    {
-      "title": "US senator Lindsey Graham dies aged 71",
-      "link": "https://www.ft.com/content/b3b93565-652a-41e9-aabd-9ed35309bdeb",
-      "raw_summary": "South Carolina politician, who died from cardiovascular disease, was one of the most influential and hawkish Republicans",
-      "source": "World",
-      "published": "Sun, 12 Jul 2026 21:46:52 GMT",
-      "summary": "US senator Lindsey Graham dies aged 71\nSouth Carolina politician, who died from cardiovascular disease, was one of the most influential and hawkish Republicans"
-    },
-    {
-      "title": "SK Hynix Shares Drop in Seoul After Much-Hyped US Trading Debut",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-13/sk-hynix-shares-drop-in-seoul-after-much-hyped-us-trading-debut",
-      "raw_summary": "SK Hynix Inc. shares declined in Seoul on Monday after the memory chipmaker’s highly anticipated US trading debut.",
+      "title": "The Three Pillars of Graham's Legacy",
+      "link": "https://www.bloomberg.com/news/videos/2026-07-13/the-three-pillars-of-graham-s-legacy-video",
+      "raw_summary": "From Donald Trump skeptic to one of the president's closest allies, Lindsey Graham spent decades shaping US foreign policy and the Republican Party. Here's a look at the South Carolina senator's political legacy following his death at 71. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Mon, 13 Jul 2026 01:27:43 GMT",
-      "summary": "SK Hynix Shares Drop in Seoul After Much-Hyped US Trading Debut\nSK Hynix Inc. shares declined in Seoul on Monday after the memory chipmaker’s highly anticipated US trading debut."
+      "published": "Mon, 13 Jul 2026 08:42:42 GMT",
+      "summary": "The Three Pillars of Graham's Legacy\nFrom Donald Trump skeptic to one of the president's closest allies, Lindsey Graham spent decades shaping US foreign policy and the Republican Party. Here's a look at the South Carolina senator's political legacy following his death at 71. (Source: Bloomberg)"
     },
     {
-      "title": "Oil Climbs, Treasuries Drop After US Strikes Iran: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-12/oil-climbs-us-futures-dip-on-fresh-iran-strikes-markets-wrap",
-      "raw_summary": "Oil rose and Treasuries fell after the US launched another round of strikes against Iran, reviving concern that higher energy prices will keep inflation elevated and interest rates higher for longer.",
+      "title": "Oil Jumps as US Conducts Wave of Strikes Against Iran",
+      "link": "https://www.bloomberg.com/news/videos/2026-07-13/oil-jumps-as-us-conducts-wave-of-strikes-against-iran-video",
+      "raw_summary": "Global benchmark Brent rose above $79 a barrel while West Texas Intermediate edged toward $75 after US forces completed another wave of strikes against Iran, with the two sides disputing whether the Strait of Hormuz was open. Bloomberg's Stephen Stapczynski reports. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Sun, 12 Jul 2026 22:10:28 GMT",
-      "summary": "Oil Climbs, Treasuries Drop After US Strikes Iran: Markets Wrap\nOil rose and Treasuries fell after the US launched another round of strikes against Iran, reviving concern that higher energy prices will keep inflation elevated and interest rates higher for longer."
+      "published": "Mon, 13 Jul 2026 08:34:37 GMT",
+      "summary": "Oil Jumps as US Conducts Wave of Strikes Against Iran\nGlobal benchmark Brent rose above $79 a barrel while West Texas Intermediate edged toward $75 after US forces completed another wave of strikes against Iran, with the two sides disputing whether the Strait of Hormuz was open. Bloomberg's Stephen "
     },
     {
-      "title": "Treasury Two-Year Yield Rises to Highest Since 2025 on Oil Gain",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-13/treasury-two-year-yield-rises-to-highest-since-2025-on-oil-gain",
-      "raw_summary": "The Treasury two-year yield climbed to its highest level in more than 16 months as renewed tensions in Iran pushed up oil prices, fanning speculation the Federal Reserve will tighten policy to keep inflation in check.",
+      "title": "TSMC’s Sales Soar 36% in Latest Sign of AI Spending Momentum",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-13/tsmc-sales-surge-36-in-fresh-sign-of-ai-spending-momentum",
+      "raw_summary": "Taiwan Semiconductor Manufacturing Co. reported a 36% jump in quarterly sales, meeting elevated expectations while signaling global demand for AI computing remains intact.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 13 Jul 2026 01:07:16 GMT",
-      "summary": "Treasury Two-Year Yield Rises to Highest Since 2025 on Oil Gain\nThe Treasury two-year yield climbed to its highest level in more than 16 months as renewed tensions in Iran pushed up oil prices, fanning speculation the Federal Reserve will tighten policy to keep inflation in check."
+      "published": "Mon, 13 Jul 2026 05:40:42 GMT",
+      "summary": "TSMC’s Sales Soar 36% in Latest Sign of AI Spending Momentum\nTaiwan Semiconductor Manufacturing Co. reported a 36% jump in quarterly sales, meeting elevated expectations while signaling global demand for AI computing remains intact."
     },
     {
-      "title": "US Renews Iran Strikes as Both Sides Dispute Hormuz Status",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-12/us-iran-trade-wave-of-attacks-as-tehran-says-hormuz-closed",
-      "raw_summary": "The US launched fresh missile attacks against Iran on Sunday in what has become a pattern of strikes and counterstrikes by Washington and Tehran as the two sides issued conflicting declarations over whether the Strait of Hormuz is open to shipping.",
+      "title": "Antenna Maker Smag Sinks in Debut as Defense Stock Appetite Ebbs",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-13/antenna-maker-smag-sinks-in-debut-as-defense-stock-appetite-ebbs",
+      "raw_summary": "Smag Mobile Antenna Masts AG shares tumbled as much as 33% below the initial public offering price in their German trading debut, marking the latest sign of waning demand for defense stocks in Europe.",
       "source": "Bloomberg Markets",
-      "published": "Sun, 12 Jul 2026 08:06:08 GMT",
-      "summary": "US Renews Iran Strikes as Both Sides Dispute Hormuz Status\nThe US launched fresh missile attacks against Iran on Sunday in what has become a pattern of strikes and counterstrikes by Washington and Tehran as the two sides issued conflicting declarations over whether the Strait of Hormuz is open to sh"
+      "published": "Mon, 13 Jul 2026 08:29:29 GMT",
+      "summary": "Antenna Maker Smag Sinks in Debut as Defense Stock Appetite Ebbs\nSmag Mobile Antenna Masts AG shares tumbled as much as 33% below the initial public offering price in their German trading debut, marking the latest sign of waning demand for defense stocks in Europe."
     },
     {
-      "title": "US to Increase Mexico Sugar Imports to 1.15 Million Metric Tons",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-13/us-to-increase-mexico-sugar-imports-to-1-15-million-metric-tons",
-      "raw_summary": "The US Department of Agriculture estimates it will import as much as 1.15 million metric tons of Mexican sugar in the 2026-2027 period, according to a statement posted on X by Mexican President Claudia Sheinbaum.",
+      "title": "European Stocks 'Vulnerable' Without Solid Iran Deal: Schroders",
+      "link": "https://www.bloomberg.com/news/videos/2026-07-13/europe-vulnerable-without-solid-iran-deal-schroders-video",
+      "raw_summary": "Remi Olu-Pitan, head of multi-asset growth and income at Schroders, discusses the outlook for US earnings and European stocks. \"Europe in general tends to be the peace trade, and we're not getting a clear peace deal,\" Olu-Pitan tells Bloomberg Television. \"It leaves Europe vulnerable.\" (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Mon, 13 Jul 2026 01:25:45 GMT",
-      "summary": "US to Increase Mexico Sugar Imports to 1.15 Million Metric Tons\nThe US Department of Agriculture estimates it will import as much as 1.15 million metric tons of Mexican sugar in the 2026-2027 period, according to a statement posted on X by Mexican President Claudia Sheinbaum."
+      "published": "Mon, 13 Jul 2026 08:28:37 GMT",
+      "summary": "European Stocks 'Vulnerable' Without Solid Iran Deal: Schroders\nRemi Olu-Pitan, head of multi-asset growth and income at Schroders, discusses the outlook for US earnings and European stocks. \"Europe in general tends to be the peace trade, and we're not getting a clear peace deal,\" Olu-Pitan tells Bl"
+    },
+    {
+      "title": "Live markets: Bitcoin slips below $63,000 in an Asian-session leverage flush",
+      "link": "https://www.coindesk.com/markets/2026/07/13/bitcoin-slips-below-usd63-000-in-an-asian-session-leverage-flush",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Mon, 13 Jul 2026 06:52:28 +0000",
+      "summary": "Live markets: Bitcoin slips below $63,000 in an Asian-session leverage flush\n"
+    },
+    {
+      "title": "Bitcoin holds near $63,800 as war-driven selloff hits everything but crypto",
+      "link": "https://www.coindesk.com/markets/2026/07/13/bitcoin-holds-near-usd63-800-as-war-driven-selloff-hits-everything-but-crypto",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Mon, 13 Jul 2026 04:48:11 +0000",
+      "summary": "Bitcoin holds near $63,800 as war-driven selloff hits everything but crypto\n"
     },
     {
       "title": "Signs of life?: State of Crypto",
@@ -305,22 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Sun, 12 Jul 2026 11:30:00 +0000",
       "summary": "Bitcoin is nearing a power law support line Fidelity has tracked since 2015\n"
-    },
-    {
-      "title": "Bitcoin, ether little changed as U.S. launches fresh Iran strikes",
-      "link": "https://www.coindesk.com/markets/2026/07/12/bitcoin-ether-little-changed-as-u-s-launches-fresh-iran-strikes",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 12 Jul 2026 06:18:15 +0000",
-      "summary": "Bitcoin, ether little changed as U.S. launches fresh Iran strikes\n"
-    },
-    {
-      "title": "Ripple once weighed shutting down and handing XRP to shareholders, CEO says",
-      "link": "https://www.coindesk.com/markets/2026/07/12/ripple-once-weighed-shutting-down-and-handing-xrp-to-shareholders-ceo-says",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 12 Jul 2026 06:09:49 +0000",
-      "summary": "Ripple once weighed shutting down and handing XRP to shareholders, CEO says\n"
     }
   ]
 }
