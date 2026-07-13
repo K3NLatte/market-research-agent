@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-07-13T14:12:00.741253+00:00",
+  "generated_at": "2026-07-13T19:14:42.792680+00:00",
   "count": 40,
   "articles": [
+    {
+      "title": "Lessons Learned from CISA’s Recent GitHub Leak",
+      "link": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
+      "raw_summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency's initial response provide important lessons that all security teams should absorb.",
+      "source": "Krebs on Security",
+      "published": "Mon, 13 Jul 2026 15:03:28 +0000",
+      "summary": "Lessons Learned from CISA’s Recent GitHub Leak\nThe Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months "
+    },
     {
       "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
       "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
@@ -35,12 +43,36 @@
       "summary": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm\nFor the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising fraud, account takeovers, and mass data-scraping efforts. This week, researchers from mu"
     },
     {
-      "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
-      "link": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
-      "raw_summary": "A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers through an aggressive recruitment strategy that promises affiliates 90 percent of any ransom paid by victims. This post examines clues pointing to a real life identity for the administrator of The Gentlemen ransomware group.",
-      "source": "Krebs on Security",
-      "published": "Wed, 10 Jun 2026 14:03:44 +0000",
-      "summary": "Who Runs the Ransomware Group ‘The Gentlemen?’\nA cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers through an aggressive recruitment strategy that promises affiliates 90 percent of any ransom p"
+      "title": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
+      "link": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
+      "raw_summary": "Cybersecurity researchers have flagged a new macOS information stealer called CrashStealer that's capable of harvesting sensitive data from compromised systems.\n\nUnlike other information stealers that are built on AppleScript droppers or Objective-C-based wrappers, CrashStealer is implemented in native C++, according to Jamf Threat Labs.\n\n\"It validates the victim's login password locally before",
+      "source": "The Hacker News",
+      "published": "Mon, 13 Jul 2026 23:06:12 +0530",
+      "summary": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks\nCybersecurity researchers have flagged a new macOS information stealer called CrashStealer that's capable of harvesting sensitive data from compromised systems.\n\nUnlike other information stealers that are built on AppleScrip"
+    },
+    {
+      "title": "Google and Microsoft Pull ModHeader With 1.6 Million Installs After Dormant Collector Found",
+      "link": "https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html",
+      "raw_summary": "Google and Microsoft have pulled ModHeader, a popular header-editing extension with roughly 1.6 million installs across Chrome and Edge, after researchers found a hidden browsing-history collector built into its official store version.\n\nThe collector was dormant. An empty allow-list kept it switched off, and no proof has emerged that it ever gathered or sent a single browsing domain.\n\nThe",
+      "source": "The Hacker News",
+      "published": "Mon, 13 Jul 2026 22:47:24 +0530",
+      "summary": "Google and Microsoft Pull ModHeader With 1.6 Million Installs After Dormant Collector Found\nGoogle and Microsoft have pulled ModHeader, a popular header-editing extension with roughly 1.6 million installs across Chrome and Edge, after researchers found a hidden browsing-history collector built into "
+    },
+    {
+      "title": "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More",
+      "link": "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html",
+      "raw_summary": "Somewhere right now, a security tool is quietly finding bugs faster than any human can fix them. That's supposed to be the good news. The catch is that the attackers have the same tools, pointed the other way, and they don't file tickets.\n\nThat's the shape of this week. Trusted code turns on the people who installed it. Old bugs from last year are still landing because the fix sat in a queue too",
+      "source": "The Hacker News",
+      "published": "Mon, 13 Jul 2026 20:35:57 +0530",
+      "summary": "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More\nSomewhere right now, a security tool is quietly finding bugs faster than any human can fix them. That's supposed to be the good news. The catch is that the attackers have the same tools, pointed the other way, a"
+    },
+    {
+      "title": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email",
+      "link": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
+      "raw_summary": "Give an AI assistant a memory and access to your inbox, and you hand an attacker a way to rewrite what it thinks it knows about you. A single email can trick that agent into saving a false \"fact\" about the user, hide the change, and quietly steer its answers in later sessions.\n\nWhen it works, the person reads an ordinary-looking reply and never learns their assistant was tampered with.\n\nThe",
+      "source": "The Hacker News",
+      "published": "Mon, 13 Jul 2026 19:19:48 +0530",
+      "summary": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email\nGive an AI assistant a memory and access to your inbox, and you hand an attacker a way to rewrite what it thinks it knows about you. A single email can trick that agent into saving a false \"fact\" about the user, hide"
     },
     {
       "title": "Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft",
@@ -51,276 +83,244 @@
       "summary": "Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft\nA new phishing-as-a-service (PhaaS) operation called Forg365 is using a combination of device code phishing, adversary-in-the-middle (AitM) tactics, antibot evasion, artificial intelligence (AI)-assisted lure creation, and p"
     },
     {
-      "title": "Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling",
-      "link": "https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html",
-      "raw_summary": "Meta has filed a patent application for an AI that listens to your voice throughout the day, works out how it thinks you are feeling from the way you sound, and keeps a timestamped log of every read.\n\nEach read gets pinned to the moment it happened: the time, your location, what you were doing, even how you were using your phone. Some versions in the filing would listen all day; others would",
-      "source": "The Hacker News",
-      "published": "Mon, 13 Jul 2026 17:24:46 +0530",
-      "summary": "Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling\nMeta has filed a patent application for an AI that listens to your voice throughout the day, works out how it thinks you are feeling from the way you sound, and keeps a timestamped log of every read.\n\nEach read gets pinned"
-    },
-    {
-      "title": "Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots",
-      "link": "https://thehackernews.com/2026/07/thinking-fast-and-slow-in-soc-case-for.html",
-      "raw_summary": "A few days ago, I was sitting with the CISO of a Fortune 50 company, walking through how his security team was thinking about AI agents in the SOC. Smart team. Serious program. They had already connected Claude to a few detection tools and were seeing real value in specific investigations. But as we mapped out the broader architecture, something kept nagging at me. The design they were building",
-      "source": "The Hacker News",
-      "published": "Mon, 13 Jul 2026 17:07:05 +0530",
-      "summary": "Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots\nA few days ago, I was sitting with the CISO of a Fortune 50 company, walking through how his security team was thinking about AI agents in the SOC. Smart team. Serious program. They had already connected Cl"
-    },
-    {
-      "title": "Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory",
-      "link": "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html",
-      "raw_summary": "Cybersecurity researchers have flagged an intrusion in which an unknown threat actor leveraged a vibe-coded PowerShell script for Active Directory (AD) enumeration.\n\n\"The script looked for the Domain Controller (DC) and mapped users, computers, and domains, before creating a directory and exporting out a number of files, and finally creating AD_Report.html to measure the success of the",
-      "source": "The Hacker News",
-      "published": "Mon, 13 Jul 2026 16:32:33 +0530",
-      "summary": "Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory\nCybersecurity researchers have flagged an intrusion in which an unknown threat actor leveraged a vibe-coded PowerShell script for Active Directory (AD) enumeration.\n\n\"The script looked for the Domain Controller (DC) and m"
-    },
-    {
-      "title": "Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365",
-      "link": "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html",
-      "raw_summary": "An attacker running a live Microsoft 365 phishing operation left a Python web server listening on a public port with directory listing switched on. The command that did it:&nbsp;python3 -m http.server 8080, was still sitting in the readable&nbsp;.bash_history.\n\nFrom that one lapse, French security firm&nbsp;Lexfo&nbsp;lifted the operator's entire toolkit and pivoted through it to two more",
-      "source": "The Hacker News",
-      "published": "Mon, 13 Jul 2026 13:00:00 +0530",
-      "summary": "Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365\nAn attacker running a live Microsoft 365 phishing operation left a Python web server listening on a public port with directory listing switched on. The command that did it:&nbsp;python3 -m http.server 8080, was s"
-    },
-    {
-      "title": "Grok uploaded my user directory to xAI's servers",
-      "link": "https://twitter.com/a_green_being/status/2076598897779020159",
-      "raw_summary": "<p>Article URL: <a href=\"https://twitter.com/a_green_being/status/2076598897779020159\">https://twitter.com/a_green_being/status/2076598897779020159</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48892512\">https://news.ycombinator.com/item?id=48892512</a></p>\n<p>Points: 46</p>\n<p># Comments: 14</p>",
+      "title": "The real prices of frontier models. Tokens * Price, right?",
+      "link": "https://playcode.io/blog/real-price-of-frontier-models",
+      "raw_summary": "<p>Article URL: <a href=\"https://playcode.io/blog/real-price-of-frontier-models\">https://playcode.io/blog/real-price-of-frontier-models</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48896800\">https://news.ycombinator.com/item?id=48896800</a></p>\n<p>Points: 15</p>\n<p># Comments: 7</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 13 Jul 2026 13:39:59 +0000",
-      "summary": "Grok uploaded my user directory to xAI's servers\n<p>Article URL: <a href=\"https://twitter.com/a_green_being/status/2076598897779020159\">https://twitter.com/a_green_being/status/2076598897779020159</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48892512\">https://news.ycombinat"
+      "published": "Mon, 13 Jul 2026 18:32:27 +0000",
+      "summary": "The real prices of frontier models. Tokens * Price, right?\n<p>Article URL: <a href=\"https://playcode.io/blog/real-price-of-frontier-models\">https://playcode.io/blog/real-price-of-frontier-models</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48896800\">https://news.ycombinator"
     },
     {
-      "title": "Grok CLI uploaded the whole home directory to GCS",
-      "link": "https://twitter.com/i/status/2076598897779020159",
-      "raw_summary": "<p>Article URL: <a href=\"https://twitter.com/i/status/2076598897779020159\">https://twitter.com/i/status/2076598897779020159</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48892468\">https://news.ycombinator.com/item?id=48892468</a></p>\n<p>Points: 33</p>\n<p># Comments: 9</p>",
+      "title": "Building and Shipping Mac and iOS Apps Without Ever Opening Xcode",
+      "link": "https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/",
+      "raw_summary": "<p>Article URL: <a href=\"https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/\">https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48896665\">https://news.ycombinator.com/item?id=48896665</a></p>\n<p>Points: 25</p>\n<p># Comments: 8</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 13 Jul 2026 13:35:32 +0000",
-      "summary": "Grok CLI uploaded the whole home directory to GCS\n<p>Article URL: <a href=\"https://twitter.com/i/status/2076598897779020159\">https://twitter.com/i/status/2076598897779020159</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48892468\">https://news.ycombinator.com/item?id=48892468"
+      "published": "Mon, 13 Jul 2026 18:22:16 +0000",
+      "summary": "Building and Shipping Mac and iOS Apps Without Ever Opening Xcode\n<p>Article URL: <a href=\"https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/\">https://scottwillsey.com/building-and-shipping-mac-and-ios-apps-without-ever-opening-xcode/</a></p>\n<p>Comments URL:"
     },
     {
-      "title": "Show HN: DOM-docx – HTML to native, editable Word docs (MIT)",
-      "link": "https://github.com/floodtide/dom-docx",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/floodtide/dom-docx\">https://github.com/floodtide/dom-docx</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48891267\">https://news.ycombinator.com/item?id=48891267</a></p>\n<p>Points: 40</p>\n<p># Comments: 14</p>",
+      "title": "A full body MRI earns you a year of smoking",
+      "link": "https://entropicthoughts.com/full-body-mri-earns-you-a-base-jump",
+      "raw_summary": "<p>Article URL: <a href=\"https://entropicthoughts.com/full-body-mri-earns-you-a-base-jump\">https://entropicthoughts.com/full-body-mri-earns-you-a-base-jump</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48896658\">https://news.ycombinator.com/item?id=48896658</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 13 Jul 2026 11:51:56 +0000",
-      "summary": "Show HN: DOM-docx – HTML to native, editable Word docs (MIT)\n<p>Article URL: <a href=\"https://github.com/floodtide/dom-docx\">https://github.com/floodtide/dom-docx</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48891267\">https://news.ycombinator.com/item?id=48891267</a></p>\n<p"
+      "published": "Mon, 13 Jul 2026 18:21:50 +0000",
+      "summary": "A full body MRI earns you a year of smoking\n<p>Article URL: <a href=\"https://entropicthoughts.com/full-body-mri-earns-you-a-base-jump\">https://entropicthoughts.com/full-body-mri-earns-you-a-base-jump</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48896658\">https://news.ycombi"
     },
     {
-      "title": "An Infuriating Goodbye to Photoshop",
-      "link": "https://anderegg.ca/2026/07/12/an-infuriating-goodbye-to-photoshop",
-      "raw_summary": "<p>Article URL: <a href=\"https://anderegg.ca/2026/07/12/an-infuriating-goodbye-to-photoshop\">https://anderegg.ca/2026/07/12/an-infuriating-goodbye-to-photoshop</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48891200\">https://news.ycombinator.com/item?id=48891200</a></p>\n<p>Points: 117</p>\n<p># Comments: 65</p>",
+      "title": "Linux on the Sega 32X. Who needs hardware synchronization primitives anyway?",
+      "link": "https://cakehonolulu.github.io/linux-on-32x/",
+      "raw_summary": "<p>Article URL: <a href=\"https://cakehonolulu.github.io/linux-on-32x/\">https://cakehonolulu.github.io/linux-on-32x/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48896600\">https://news.ycombinator.com/item?id=48896600</a></p>\n<p>Points: 12</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 13 Jul 2026 11:46:47 +0000",
-      "summary": "An Infuriating Goodbye to Photoshop\n<p>Article URL: <a href=\"https://anderegg.ca/2026/07/12/an-infuriating-goodbye-to-photoshop\">https://anderegg.ca/2026/07/12/an-infuriating-goodbye-to-photoshop</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48891200\">https://news.ycombinato"
+      "published": "Mon, 13 Jul 2026 18:18:25 +0000",
+      "summary": "Linux on the Sega 32X. Who needs hardware synchronization primitives anyway?\n<p>Article URL: <a href=\"https://cakehonolulu.github.io/linux-on-32x/\">https://cakehonolulu.github.io/linux-on-32x/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48896600\">https://news.ycombinator.c"
     },
     {
-      "title": "Control the Ideas, Not the Code",
-      "link": "https://antirez.com/news/169",
-      "raw_summary": "<p>Article URL: <a href=\"https://antirez.com/news/169\">https://antirez.com/news/169</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48891184\">https://news.ycombinator.com/item?id=48891184</a></p>\n<p>Points: 94</p>\n<p># Comments: 56</p>",
+      "title": "Show HN: BillAI Bass, an AI-Powered Big Mouth Billy Bass Using Strands Agents",
+      "link": "https://github.com/morganwilliscloud/billai-bass",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/morganwilliscloud/billai-bass\">https://github.com/morganwilliscloud/billai-bass</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48896599\">https://news.ycombinator.com/item?id=48896599</a></p>\n<p>Points: 11</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 13 Jul 2026 11:45:36 +0000",
-      "summary": "Control the Ideas, Not the Code\n<p>Article URL: <a href=\"https://antirez.com/news/169\">https://antirez.com/news/169</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48891184\">https://news.ycombinator.com/item?id=48891184</a></p>\n<p>Points: 94</p>\n<p># Comments: 56</p>"
+      "published": "Mon, 13 Jul 2026 18:18:23 +0000",
+      "summary": "Show HN: BillAI Bass, an AI-Powered Big Mouth Billy Bass Using Strands Agents\n<p>Article URL: <a href=\"https://github.com/morganwilliscloud/billai-bass\">https://github.com/morganwilliscloud/billai-bass</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48896599\">https://news.ycom"
     },
     {
-      "title": "Uber’s robotaxi lobbying effort puts it on a collision course with Waymo",
-      "link": "https://techcrunch.com/2026/07/13/ubers-robotaxi-lobbying-effort-has-put-it-on-a-collision-course-with-waymo/",
-      "raw_summary": "Washington, D.C. has become a battleground for Uber and Waymo's competing views.",
+      "title": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI",
+      "link": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/",
+      "raw_summary": "Apple’s trade secrets lawsuit against OpenAI contains allegations that range from employees joking about unauthorized access to Apple’s systems to claims that job candidates were asked to bring Apple hardware to interviews. Here are the complaint’s most eye-catching claims.",
       "source": "TechCrunch",
-      "published": "Mon, 13 Jul 2026 12:30:00 +0000",
-      "summary": "Uber’s robotaxi lobbying effort puts it on a collision course with Waymo\nWashington, D.C. has become a battleground for Uber and Waymo's competing views."
+      "published": "Mon, 13 Jul 2026 18:22:10 +0000",
+      "summary": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI\nApple’s trade secrets lawsuit against OpenAI contains allegations that range from employees joking about unauthorized access to Apple’s systems to claims that job candidates were asked to bring Apple hardware to interviews. Here"
     },
     {
-      "title": "TechCrunch Mobility: A robotaxi ultimatum",
-      "link": "https://techcrunch.com/2026/07/12/techcrunch-mobility-a-robotaxi-ultimatum/",
-      "raw_summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part.",
+      "title": "Sam Altman’s space data center trash talk is what most experts already believe",
+      "link": "https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe/",
+      "raw_summary": "Responding to Musk accusing him of being a scammer, Altman said, \"homeboy you're the one sellling [sic] public market investors on short-term space datacenters.\"",
       "source": "TechCrunch",
-      "published": "Sun, 12 Jul 2026 16:07:00 +0000",
-      "summary": "TechCrunch Mobility: A robotaxi ultimatum\nWelcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part."
+      "published": "Mon, 13 Jul 2026 17:28:37 +0000",
+      "summary": "Sam Altman’s space data center trash talk is what most experts already believe\nResponding to Musk accusing him of being a scammer, Altman said, \"homeboy you're the one sellling [sic] public market investors on short-term space datacenters.\""
     },
     {
-      "title": "Reed Jobs would rather talk about curing cancer than his last name",
-      "link": "https://techcrunch.com/2026/07/11/reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name/",
-      "raw_summary": "When we last sat down with Jobs at TechCrunch Disrupt nearly three years ago, his firm Yosemite was brand new and biotech was still reeling from its post-pandemic crash. Now, the venture outfit has a team of 17; a cluster of blockbuster drugs are all losing patent protection in roughly the same window, creating all kinds of new opportunities; and AI has gone from a curiosity to, in Jobs' words, a huge part of what Yosemite does. \"I didn't expect Yosemite to be moving this fast,\" he said.",
+      "title": "Investors send General Fusion soaring in debut as first publicly traded fusion company",
+      "link": "https://techcrunch.com/2026/07/13/investors-send-general-fusion-soaring-in-debut-as-first-publicly-traded-fusion-company/",
+      "raw_summary": "General Fusion started trading on the Nasdaq following a reverse merger that saw high redemptions.",
       "source": "TechCrunch",
-      "published": "Sun, 12 Jul 2026 00:16:06 +0000",
-      "summary": "Reed Jobs would rather talk about curing cancer than his last name\nWhen we last sat down with Jobs at TechCrunch Disrupt nearly three years ago, his firm Yosemite was brand new and biotech was still reeling from its post-pandemic crash. Now, the venture outfit has a team of 17; a cluster of blockbus"
+      "published": "Mon, 13 Jul 2026 17:03:11 +0000",
+      "summary": "Investors send General Fusion soaring in debut as first publicly traded fusion company\nGeneral Fusion started trading on the Nasdaq following a reverse merger that saw high redemptions."
     },
     {
-      "title": "This slushie machine was a lifesaver during NYC’s heat wave",
-      "link": "https://techcrunch.com/2026/07/11/this-slushie-machine-was-a-lifesaver-during-nycs-heat-wave/",
-      "raw_summary": "Ninja's latest slushie machine builds on the popularity of the original Slushi, but with a big upgrade.",
+      "title": "12 states sue to block Paramount’s $110B Warner Bros. deal",
+      "link": "https://techcrunch.com/2026/07/13/12-states-sue-to-block-paramounts-110b-warner-bros-deal/",
+      "raw_summary": "The states allege that the deal would harm movie theaters, basic cable distributors, and audiences.",
       "source": "TechCrunch",
-      "published": "Sat, 11 Jul 2026 22:00:00 +0000",
-      "summary": "This slushie machine was a lifesaver during NYC’s heat wave\nNinja's latest slushie machine builds on the popularity of the original Slushi, but with a big upgrade."
+      "published": "Mon, 13 Jul 2026 17:00:14 +0000",
+      "summary": "12 states sue to block Paramount’s $110B Warner Bros. deal\nThe states allege that the deal would harm movie theaters, basic cable distributors, and audiences."
     },
     {
-      "title": "Smart glasses without a camera? Even Realities bets productivity beats recording everyone",
-      "link": "https://techcrunch.com/2026/07/11/smart-glasses-without-a-camera-even-realities-bets-productivity-beats-recording-everyone/",
-      "raw_summary": "The glasses are targeted at people who might be constantly in meetings, giving presentations, and traveling to countries where different languages are spoken.",
+      "title": "Should AI help you get away with killing your spouse?",
+      "link": "https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse/",
+      "raw_summary": "What does a world of total user-aligned AI actually look like?",
       "source": "TechCrunch",
-      "published": "Sat, 11 Jul 2026 17:30:00 +0000",
-      "summary": "Smart glasses without a camera? Even Realities bets productivity beats recording everyone\nThe glasses are targeted at people who might be constantly in meetings, giving presentations, and traveling to countries where different languages are spoken."
+      "published": "Mon, 13 Jul 2026 16:31:23 +0000",
+      "summary": "Should AI help you get away with killing your spouse?\nWhat does a world of total user-aligned AI actually look like?"
     },
     {
-      "title": "The real mystery behind Moana: After 1,700 years, why did Polynesians suddenly sail east?",
-      "link": "https://arstechnica.com/culture/2026/07/the-real-mystery-behind-moana-after-1700-years-why-did-polynesians-suddenly-sail-east/",
-      "raw_summary": "New climate evidence adds context to these long voyages.",
+      "title": "Apple and Samsung benefit as memory shortage pushes smartphone shipments to historic lows",
+      "link": "https://arstechnica.com/gadgets/2026/07/apple-and-samsung-benefit-as-memory-shortage-pushes-smartphone-shipments-to-historic-lows/",
+      "raw_summary": "The biggest smartphone makers keep on trucking in the face of component shortages and economic uncertainty.",
       "source": "Ars Technica - All content",
-      "published": "Sun, 12 Jul 2026 11:12:19 +0000",
-      "summary": "The real mystery behind Moana: After 1,700 years, why did Polynesians suddenly sail east?\nNew climate evidence adds context to these long voyages."
+      "published": "Mon, 13 Jul 2026 17:18:25 +0000",
+      "summary": "Apple and Samsung benefit as memory shortage pushes smartphone shipments to historic lows\nThe biggest smartphone makers keep on trucking in the face of component shortages and economic uncertainty."
     },
     {
-      "title": "A Jupiter-size planet that escaped its star's death",
-      "link": "https://arstechnica.com/science/2026/07/a-jupiter-size-planet-that-escaped-its-stars-death/",
-      "raw_summary": "It's unclear how the planet avoided its star's bloated red giant stage.",
+      "title": "Colorado will decide whether a \"right to natural gas\" is added to state constitution",
+      "link": "https://arstechnica.com/tech-policy/2026/07/colorado-will-decide-whether-a-right-to-natural-gas-is-added-to-state-constitution/",
+      "raw_summary": "The amendment would restrict building codes that promote electrification.",
       "source": "Ars Technica - All content",
-      "published": "Sat, 11 Jul 2026 12:00:58 +0000",
-      "summary": "A Jupiter-size planet that escaped its star's death\nIt's unclear how the planet avoided its star's bloated red giant stage."
+      "published": "Mon, 13 Jul 2026 16:49:35 +0000",
+      "summary": "Colorado will decide whether a \"right to natural gas\" is added to state constitution\nThe amendment would restrict building codes that promote electrification."
     },
     {
-      "title": "Overhaul of public lands grazing regulations seeks to cut public involvement",
-      "link": "https://arstechnica.com/tech-policy/2026/07/overhaul-of-public-lands-grazing-regulations-seeks-to-cut-public-involvement/",
-      "raw_summary": "For the first time since 1995, the Bureau of Land Management is rewriting its grazing regulations.",
+      "title": "Hackers quickly prove that Neo Geo Doom ports are not \"impossible\"",
+      "link": "https://arstechnica.com/gaming/2026/07/hackers-quickly-prove-that-neo-geo-doom-ports-are-not-impossible/",
+      "raw_summary": "Clever coding and graphical compromises get a classic game on more classic hardware.",
       "source": "Ars Technica - All content",
-      "published": "Sat, 11 Jul 2026 11:11:26 +0000",
-      "summary": "Overhaul of public lands grazing regulations seeks to cut public involvement\nFor the first time since 1995, the Bureau of Land Management is rewriting its grazing regulations."
+      "published": "Mon, 13 Jul 2026 16:37:14 +0000",
+      "summary": "Hackers quickly prove that Neo Geo Doom ports are not \"impossible\"\nClever coding and graphical compromises get a classic game on more classic hardware."
     },
     {
-      "title": "Quantum error correction can constantly recalibrate a processor",
-      "link": "https://arstechnica.com/science/2026/07/quantum-error-correction-can-constantly-recalibrate-a-processor/",
-      "raw_summary": "Reinforcement learning uses error information to adjust control algorithms.",
+      "title": "A \"disaster waiting to happen\"? Industry officials worry about Crew Dragon availability.",
+      "link": "https://arstechnica.com/space/2026/07/what-happens-if-crew-dragon-stops-flying-in-the-2030s/",
+      "raw_summary": "\"It's very clear that in the United States there is a big need for an additional crew vehicle.\"",
       "source": "Ars Technica - All content",
-      "published": "Fri, 10 Jul 2026 23:02:30 +0000",
-      "summary": "Quantum error correction can constantly recalibrate a processor\nReinforcement learning uses error information to adjust control algorithms."
+      "published": "Mon, 13 Jul 2026 16:05:03 +0000",
+      "summary": "A \"disaster waiting to happen\"? Industry officials worry about Crew Dragon availability.\n\"It's very clear that in the United States there is a big need for an additional crew vehicle.\""
     },
     {
-      "title": "Increased drone surveillance of illegal July 4th fireworks led to $100K fine",
-      "link": "https://arstechnica.com/gadgets/2026/07/on-americas-250th-more-cities-used-drone-surveillance-to-spot-illegal-fireworks/",
-      "raw_summary": "More police and firefighters use drones to catch and deter illegal fireworks.",
+      "title": "Now, defenders are embracing the prompt injection, too",
+      "link": "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/",
+      "raw_summary": "\"Context bombing\" tricks hacking agents into shutting down before they can do harm.",
       "source": "Ars Technica - All content",
-      "published": "Fri, 10 Jul 2026 22:37:22 +0000",
-      "summary": "Increased drone surveillance of illegal July 4th fireworks led to $100K fine\nMore police and firefighters use drones to catch and deter illegal fireworks."
+      "published": "Mon, 13 Jul 2026 15:06:34 +0000",
+      "summary": "Now, defenders are embracing the prompt injection, too\n\"Context bombing\" tricks hacking agents into shutting down before they can do harm."
     },
     {
-      "title": "Wall Street tech stocks fall after Asian chipmakers hammered",
-      "link": "https://www.ft.com/content/54be872f-c0a2-46dd-9337-5cad9124e734",
-      "raw_summary": "Oil rises as US-Iran hostilities escalate and investors go into ‘risk-off’ mode",
-      "source": "World",
-      "published": "Mon, 13 Jul 2026 14:10:36 GMT",
-      "summary": "Wall Street tech stocks fall after Asian chipmakers hammered\nOil rises as US-Iran hostilities escalate and investors go into ‘risk-off’ mode"
-    },
-    {
-      "title": "UK and Switzerland to loosen visa restrictions as part of services trade deal",
-      "link": "https://www.ft.com/content/b4818ca6-c345-42ec-a93f-8be506fe3833",
-      "raw_summary": "Agreement will also enable British travellers to use automated passport gates at Swiss airports",
-      "source": "World",
-      "published": "Mon, 13 Jul 2026 14:00:05 GMT",
-      "summary": "UK and Switzerland to loosen visa restrictions as part of services trade deal\nAgreement will also enable British travellers to use automated passport gates at Swiss airports"
-    },
-    {
-      "title": "Dubai plans new port to bypass Strait of Hormuz",
-      "link": "https://www.ft.com/content/1f97b548-1bd8-41c8-8380-043ec688d77a",
-      "raw_summary": "Project to build capacity on UAE’s east coast represents a major shift after US-Iran war",
-      "source": "World",
-      "published": "Mon, 13 Jul 2026 13:38:23 GMT",
-      "summary": "Dubai plans new port to bypass Strait of Hormuz\nProject to build capacity on UAE’s east coast represents a major shift after US-Iran war"
-    },
-    {
-      "title": "US ‘taking over’ Strait of Hormuz, says Trump",
+      "title": "US will charge 20% fee for ships using Strait of Hormuz, Trump says",
       "link": "https://www.ft.com/content/b1ab6ab2-b893-4605-b2b1-571ba9f46bd1",
-      "raw_summary": "President suggests Washington will seek ‘reimbursement’ as escalating tension over the waterway risks reigniting war",
+      "raw_summary": "President claims Washington will be ‘guardian’ of waterway and seek reimbursement to provide security for vessels",
       "source": "World",
-      "published": "Mon, 13 Jul 2026 13:37:04 GMT",
-      "summary": "US ‘taking over’ Strait of Hormuz, says Trump\nPresident suggests Washington will seek ‘reimbursement’ as escalating tension over the waterway risks reigniting war"
+      "published": "Mon, 13 Jul 2026 18:59:58 GMT",
+      "summary": "US will charge 20% fee for ships using Strait of Hormuz, Trump says\nPresident claims Washington will be ‘guardian’ of waterway and seek reimbursement to provide security for vessels"
     },
     {
-      "title": "Counterterror police take over Widdecombe murder probe",
-      "link": "https://www.ft.com/content/5b90a72a-3dd0-4b9b-b023-474dd98efc2c",
-      "raw_summary": "Police say ‘new information and evidence’ have come to light over killing of former Conservative minister",
+      "title": "US appeals court revives lawsuits linking painkiller Tylenol to autism",
+      "link": "https://www.ft.com/content/7c000308-c23e-47d0-8127-eb7184764cc5",
+      "raw_summary": "Federal panel in New York finds trial judge wrongly excluded expert testimony in dismissing litigation",
       "source": "World",
-      "published": "Mon, 13 Jul 2026 13:13:52 GMT",
-      "summary": "Counterterror police take over Widdecombe murder probe\nPolice say ‘new information and evidence’ have come to light over killing of former Conservative minister"
+      "published": "Mon, 13 Jul 2026 18:24:20 GMT",
+      "summary": "US appeals court revives lawsuits linking painkiller Tylenol to autism\nFederal panel in New York finds trial judge wrongly excluded expert testimony in dismissing litigation"
     },
     {
-      "title": "Trump Says US Would 'Keep the Strait' And Run It",
-      "link": "https://www.bloomberg.com/news/videos/2026-07-13/trump-says-us-would-keep-the-strait-and-run-it-video",
-      "raw_summary": "The US and Iran have escalated attacks against each other as President Donald Trump says the US will \"keep the Strait\" and \"probably run it.\" Both countries have been offering conflicting statements about whether the Strait of Hormuz is actually open to shipping. Bloomberg's Tyler Kendall reports.  (Source: Bloomberg)",
-      "source": "Bloomberg Markets",
-      "published": "Mon, 13 Jul 2026 14:01:42 GMT",
-      "summary": "Trump Says US Would 'Keep the Strait' And Run It\nThe US and Iran have escalated attacks against each other as President Donald Trump says the US will \"keep the Strait\" and \"probably run it.\" Both countries have been offering conflicting statements about whether the Strait of Hormuz is actually open "
+      "title": "Shell sells Indian wind and solar business for $1.8bn",
+      "link": "https://www.ft.com/content/e9a826a4-db60-458b-8886-a94a3a111cff",
+      "raw_summary": "Aditya Birla Renewables takes on Shell’s renewable assets in India as energy major continues to refocus on oil and gas",
+      "source": "World",
+      "published": "Mon, 13 Jul 2026 18:13:33 GMT",
+      "summary": "Shell sells Indian wind and solar business for $1.8bn\nAditya Birla Renewables takes on Shell’s renewable assets in India as energy major continues to refocus on oil and gas"
     },
     {
-      "title": "US Stocks Fall as Mideast Tensions Flare Anew, Oil Climbs",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-13/us-stock-futures-fall-as-mideast-tensions-flare-anew-oil-climbs",
-      "raw_summary": "US stocks dropped on Monday as investors assessed tit-for-tat attacks between the US and Iran and conflicting information over the status of the Strait of Hormuz.",
-      "source": "Bloomberg Markets",
-      "published": "Mon, 13 Jul 2026 12:20:56 GMT",
-      "summary": "US Stocks Fall as Mideast Tensions Flare Anew, Oil Climbs\nUS stocks dropped on Monday as investors assessed tit-for-tat attacks between the US and Iran and conflicting information over the status of the Strait of Hormuz."
+      "title": "What will Burnham do on immigration?",
+      "link": "https://www.ft.com/content/4d072fc3-0f8a-4ab7-bcd4-a2f553e6fd3a",
+      "raw_summary": "Likely next prime minister is looking to satisfy calls for tougher borders while appealing to Labour’s liberal supporters",
+      "source": "World",
+      "published": "Mon, 13 Jul 2026 18:01:24 GMT",
+      "summary": "What will Burnham do on immigration?\nLikely next prime minister is looking to satisfy calls for tougher borders while appealing to Labour’s liberal supporters"
     },
     {
-      "title": "Tech Stocks Slide as Oil Climbs on US-Iran Strikes: Markets Wrap",
+      "title": "Democratic states sue to block Paramount’s $110bn WBD acquisition",
+      "link": "https://www.ft.com/content/a7b88ab9-86d4-43d6-8112-89b0f46df9f3",
+      "raw_summary": "Lawsuit could delay deal and cost studio tens of millions of dollars",
+      "source": "World",
+      "published": "Mon, 13 Jul 2026 17:30:13 GMT",
+      "summary": "Democratic states sue to block Paramount’s $110bn WBD acquisition\nLawsuit could delay deal and cost studio tens of millions of dollars"
+    },
+    {
+      "title": "Stocks, Bonds Fall as Oil Jump Fuels Fed-Hike Bets: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-07-12/oil-climbs-us-futures-dip-on-fresh-iran-strikes-markets-wrap",
-      "raw_summary": "A selloff in tech giants sent stocks lower, with the market also falling as oil jumped after clashes over the Strait of Hormuz raised concerns about a disruption in energy supplies that could fuel inflation.",
+      "raw_summary": "A standoff between the US and Iran lifted oil prices, with stocks joining bonds lower after clashes over the Strait of Hormuz raised concerns about a disruption in energy supplies that could fuel inflation.",
       "source": "Bloomberg Markets",
       "published": "Sun, 12 Jul 2026 22:10:28 GMT",
-      "summary": "Tech Stocks Slide as Oil Climbs on US-Iran Strikes: Markets Wrap\nA selloff in tech giants sent stocks lower, with the market also falling as oil jumped after clashes over the Strait of Hormuz raised concerns about a disruption in energy supplies that could fuel inflation."
+      "summary": "Stocks, Bonds Fall as Oil Jump Fuels Fed-Hike Bets: Markets Wrap\nA standoff between the US and Iran lifted oil prices, with stocks joining bonds lower after clashes over the Strait of Hormuz raised concerns about a disruption in energy supplies that could fuel inflation."
     },
     {
-      "title": "Treasury Two-Year Yields Rise to Highest Since 2025 as Oil Jumps",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-13/treasury-two-year-yield-rises-to-highest-since-2025-on-oil-gain",
-      "raw_summary": "Treasury two-year yields climbed to their highest level since early 2025 as renewed tensions in Iran pushed up oil prices, fanning speculation that the Federal Reserve will need to raise interest rates to combat inflation.",
+      "title": "Test Your ETF Knowledge In Our IQ Test",
+      "link": "https://www.bloomberg.com/news/videos/2026-07-13/test-your-etf-knowledge-in-our-iq-test-video",
+      "raw_summary": "Bloomberg's Joel Weber puts Scarlet Fu, Katie Greifeld, and Eric Balchunas to the test on \"Bloomberg ETF IQ\" in this week's edition of \"IQ Test.\" (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Mon, 13 Jul 2026 01:07:16 GMT",
-      "summary": "Treasury Two-Year Yields Rise to Highest Since 2025 as Oil Jumps\nTreasury two-year yields climbed to their highest level since early 2025 as renewed tensions in Iran pushed up oil prices, fanning speculation that the Federal Reserve will need to raise interest rates to combat inflation."
+      "published": "Mon, 13 Jul 2026 18:49:57 GMT",
+      "summary": "Test Your ETF Knowledge In Our IQ Test\nBloomberg's Joel Weber puts Scarlet Fu, Katie Greifeld, and Eric Balchunas to the test on \"Bloomberg ETF IQ\" in this week's edition of \"IQ Test.\" (Source: Bloomberg)"
     },
     {
-      "title": "Delta CEO Says Oil Prices Will Stay 'Sticky for Longer'",
-      "link": "https://www.bloomberg.com/news/videos/2026-07-13/delta-ceo-says-oil-prices-will-stay-sticky-for-longer-video",
-      "raw_summary": "Delta Air Lines CEO Ed Bastian says oil prices will stay \"sticky for longer,\" but the carrier will still do \"just fine.\" He says there is still strong demand for premium and international travel. He speaks to Bloomberg's Lisa Abramowicz. (Source: Bloomberg)",
+      "title": "SBI Funds IPO Anchor Book Draws Capital Group, BlackRock, Goldman, GIC",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-13/capital-group-blackrock-said-to-buy-into-sbi-funds-anchor-book",
+      "raw_summary": "The Capital Group Inc., BlackRock Inc., Fidelity Investments and Goldman Sachs Asset Management are among key investors that participated in the anchor book of SBI Funds Management Ltd. ahead the start of bidding for its initial public offering.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 13 Jul 2026 13:40:21 GMT",
-      "summary": "Delta CEO Says Oil Prices Will Stay 'Sticky for Longer'\nDelta Air Lines CEO Ed Bastian says oil prices will stay \"sticky for longer,\" but the carrier will still do \"just fine.\" He says there is still strong demand for premium and international travel. He speaks to Bloomberg's Lisa Abramowicz. (Sourc"
+      "published": "Mon, 13 Jul 2026 03:00:35 GMT",
+      "summary": "SBI Funds IPO Anchor Book Draws Capital Group, BlackRock, Goldman, GIC\nThe Capital Group Inc., BlackRock Inc., Fidelity Investments and Goldman Sachs Asset Management are among key investors that participated in the anchor book of SBI Funds Management Ltd. ahead the start of bidding for its initial "
     },
     {
-      "title": "UK Treasury report on tokenization cites Ripple as convergence model",
-      "link": "https://www.coindesk.com/policy/2026/07/13/ripple-lands-inside-uk-plan-for-tokenized-repo-bonds-and-funds",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 13 Jul 2026 14:06:53 +0000",
-      "summary": "UK Treasury report on tokenization cites Ripple as convergence model\n"
+      "title": "US Stocks Fall as Iran Blockade Restarts; Oil Surges Above $80",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-13/us-stock-futures-fall-as-mideast-tensions-flare-anew-oil-climbs",
+      "raw_summary": "Stocks dropped on Monday as investors assessed a tense situation in the Middle East, with President Donald Trump reinstating the US blockade of Iranian ships transiting the Strait of Hormuz.",
+      "source": "Bloomberg Markets",
+      "published": "Mon, 13 Jul 2026 12:20:56 GMT",
+      "summary": "US Stocks Fall as Iran Blockade Restarts; Oil Surges Above $80\nStocks dropped on Monday as investors assessed a tense situation in the Middle East, with President Donald Trump reinstating the US blockade of Iranian ships transiting the Strait of Hormuz."
     },
     {
-      "title": "Tom Lee's BitMine ether holdings rise to 5.77 million tokens, or 4.8% of total supply",
-      "link": "https://www.coindesk.com/markets/2026/07/13/tom-lee-s-bitmine-raises-ether-holdings-to-usd5-77-million-or-4-8-of-supply",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 13 Jul 2026 14:04:01 +0000",
-      "summary": "Tom Lee's BitMine ether holdings rise to 5.77 million tokens, or 4.8% of total supply\n"
+      "title": "Mutual Fund Managers Missing 'Biblical' Opportunity: Smead",
+      "link": "https://www.bloomberg.com/news/videos/2026-07-13/mutual-fund-managers-missing-biblical-opportunity-smead-video",
+      "raw_summary": "Cole Smead, CEO of Smead Capital, joins Katie Greifeld, Scarlet Fu, and Eric Balchunas on \"Bloomberg ETF IQ.\" Smead outlines the benefits of mutual funds and how they can match ETF tax efficiency.  (Source: Bloomberg)",
+      "source": "Bloomberg Markets",
+      "published": "Mon, 13 Jul 2026 18:28:47 GMT",
+      "summary": "Mutual Fund Managers Missing 'Biblical' Opportunity: Smead\nCole Smead, CEO of Smead Capital, joins Katie Greifeld, Scarlet Fu, and Eric Balchunas on \"Bloomberg ETF IQ.\" Smead outlines the benefits of mutual funds and how they can match ETF tax efficiency.  (Source: Bloomberg)"
     },
     {
-      "title": "Wall Street transfer agents lobby SEC, warning that third-party tokens pose risks to market integrity",
-      "link": "https://www.coindesk.com/policy/2026/07/13/wall-street-transfer-agents-lobby-sec-warning-that-third-party-tokens-pose-risks-to-market-integrity",
+      "title": "Trump's crypto riches loom over Clarity Act talks to ban conflicts for U.S. officials",
+      "link": "https://www.coindesk.com/policy/2026/07/13/trump-s-crypto-riches-loom-over-clarity-act-talks-to-ban-conflicts-for-u-s-officials",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 13 Jul 2026 13:45:00 +0000",
-      "summary": "Wall Street transfer agents lobby SEC, warning that third-party tokens pose risks to market integrity\n"
+      "published": "Mon, 13 Jul 2026 17:49:10 +0000",
+      "summary": "Trump's crypto riches loom over Clarity Act talks to ban conflicts for U.S. officials\n"
     },
     {
-      "title": "Robinhood Chain surges into top five by DEX volume: Bernstein",
-      "link": "https://www.coindesk.com/tech/2026/07/13/robinhood-chain-surges-into-top-five-by-dex-volume-bernstein",
+      "title": "Mizuho says Circle bank approval doesn't solve USDC growth, stablecoin competition risks",
+      "link": "https://www.coindesk.com/business/2026/07/13/mizuho-says-circle-bank-approval-doesn-t-solve-usdc-growth-stablecoin-competition-risks",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 13 Jul 2026 12:49:00 +0000",
-      "summary": "Robinhood Chain surges into top five by DEX volume: Bernstein\n"
+      "published": "Mon, 13 Jul 2026 16:34:48 +0000",
+      "summary": "Mizuho says Circle bank approval doesn't solve USDC growth, stablecoin competition risks\n"
     },
     {
-      "title": "Michael Saylor’s Strategy added $467 million in cash, made no changes to bitcoin holdings",
-      "link": "https://www.coindesk.com/markets/2026/07/13/michael-saylor-s-strategy-added-usd467-million-in-cash-made-no-changes-to-bitcoin-holdings",
+      "title": "Bitcoin panic-selling may be ending as sellers' profit margins disappear",
+      "link": "https://www.coindesk.com/markets/2026/07/13/bitcoin-panic-selling-may-be-ending-as-sellers-profit-margins-disappear",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 13 Jul 2026 12:15:17 +0000",
-      "summary": "Michael Saylor’s Strategy added $467 million in cash, made no changes to bitcoin holdings\n"
+      "published": "Mon, 13 Jul 2026 15:49:41 +0000",
+      "summary": "Bitcoin panic-selling may be ending as sellers' profit margins disappear\n"
+    },
+    {
+      "title": "Strategy pauses its Bitcoin buying spree to hoard a massive $3 billion cash cushion",
+      "link": "https://www.coindesk.com/markets/2026/07/13/strategy-pauses-its-bitcoin-buying-spree-to-hoard-a-massive-usd3-billion-cash-cushion",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Mon, 13 Jul 2026 15:27:36 +0000",
+      "summary": "Strategy pauses its Bitcoin buying spree to hoard a massive $3 billion cash cushion\n"
+    },
+    {
+      "title": "Robinhood built a blockchain for tokenized stocks. Memecoins took over",
+      "link": "https://www.coindesk.com/tech/2026/07/13/robinhood-built-a-blockchain-for-tokenized-stocks-memecoins-took-over",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Mon, 13 Jul 2026 15:17:05 +0000",
+      "summary": "Robinhood built a blockchain for tokenized stocks. Memecoins took over\n"
     }
   ]
 }
