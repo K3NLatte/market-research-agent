@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-14T13:14:04.567416+00:00",
-  "count": 40,
+  "generated_at": "2026-07-14T19:05:43.444704+00:00",
+  "count": 35,
   "articles": [
     {
       "title": "Lessons Learned from CISA’s Recent GitHub Leak",
@@ -43,6 +43,22 @@
       "summary": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm\nFor the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising fraud, account takeovers, and mass data-scraping efforts. This week, researchers from mu"
     },
     {
+      "title": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts",
+      "link": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html",
+      "raw_summary": "Cybersecurity researchers have flagged a previously undocumented Rust-based remote access trojan (RAT) codenamed LabubaRAT that masquerades as NVIDIA software to blend into target environments.\n\n\"LabubaRAT creates a reusable foothold for hands-on activity,\" Blackpoint Cyber researchers Sam Decker and Nevan Beal said in an analysis published today. \"Once deployed, it can profile the host,",
+      "source": "The Hacker News",
+      "published": "Tue, 14 Jul 2026 22:22:37 +0530",
+      "summary": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts\nCybersecurity researchers have flagged a previously undocumented Rust-based remote access trojan (RAT) codenamed LabubaRAT that masquerades as NVIDIA software to blend into target environments.\n\n\"LabubaRAT creates a reusable foothold "
+    },
+    {
+      "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
+      "link": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
+      "raw_summary": "Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries.\n\nMiggo's security team, which discovered and reported the flaws, said one \"leaks the broker's confidential OAuth",
+      "source": "The Hacker News",
+      "published": "Tue, 14 Jul 2026 19:18:07 +0530",
+      "summary": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata\nCybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infra"
+    },
+    {
       "title": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot",
       "link": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
       "raw_summary": "Cybersecurity researchers have discovered 11 old, Microsoft-signed, Unified Extensible Firmware Interface (UEFI) applications that could be abused to bypass Secure Boot on most systems using the modern firmware standard.\n\n\"An attacker exploiting one of these vulnerable applications can execute untrusted code during system boot, enabling deployment of malicious UEFI bootkits or other malware,\"",
@@ -67,260 +83,204 @@
       "summary": "How Pentera Turns AI Security Workflows into Validation Engines\nAI security agents are starting to influence real security decisions. They summarize findings, prioritize remediation, recommend next steps, and help teams move faster. But most still rely on fragmented risk signals: scanner output, sev"
     },
     {
-      "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials",
-      "link": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
-      "raw_summary": "At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry.\n\nThe activity allows users to enumerate user accounts and validate stolen credentials in Microsoft Entra ID environments, without ever generating a successful sign-in event that would otherwise alert defenders. And bad actors have begun",
-      "source": "The Hacker News",
-      "published": "Tue, 14 Jul 2026 16:51:35 +0530",
-      "summary": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials\nAt least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry.\n\nThe activity allows users to enumerate user accounts a"
-    },
-    {
-      "title": "Grok Build Uploaded Entire Git Repositories to xAI Storage, Not Just Files It Read",
-      "link": "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
-      "raw_summary": "xAI's Grok Build coding CLI was uploading entire Git repositories, full commit history and all, to a Google Cloud Storage bucket run by xAI, not just the files a coding task needed.\n\nA researcher publishing as cereblab, testing version 0.2.93, captured one of those uploads, cloned the git bundle out of the intercepted request, and pulled back a file the agent had been told in plain terms not",
-      "source": "The Hacker News",
-      "published": "Tue, 14 Jul 2026 14:32:48 +0530",
-      "summary": "Grok Build Uploaded Entire Git Repositories to xAI Storage, Not Just Files It Read\nxAI's Grok Build coding CLI was uploading entire Git repositories, full commit history and all, to a Google Cloud Storage bucket run by xAI, not just the files a coding task needed.\n\nA researcher publishing as cerebla"
-    },
-    {
-      "title": "Show HN: I RL-trained an agent that trains models with RL (for –$1.3k)",
-      "link": "https://github.com/Danau5tin/ai-trains-ai",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/Danau5tin/ai-trains-ai\">https://github.com/Danau5tin/ai-trains-ai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48905919\">https://news.ycombinator.com/item?id=48905919</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
+      "title": "Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone",
+      "link": "https://prismml.com/news/bonsai-27b",
+      "raw_summary": "<p>Article URL: <a href=\"https://prismml.com/news/bonsai-27b\">https://prismml.com/news/bonsai-27b</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48910545\">https://news.ycombinator.com/item?id=48910545</a></p>\n<p>Points: 42</p>\n<p># Comments: 8</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 14 Jul 2026 12:41:25 +0000",
-      "summary": "Show HN: I RL-trained an agent that trains models with RL (for –$1.3k)\n<p>Article URL: <a href=\"https://github.com/Danau5tin/ai-trains-ai\">https://github.com/Danau5tin/ai-trains-ai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48905919\">https://news.ycombinator.com/item?id=4"
+      "published": "Tue, 14 Jul 2026 17:50:48 +0000",
+      "summary": "Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone\n<p>Article URL: <a href=\"https://prismml.com/news/bonsai-27b\">https://prismml.com/news/bonsai-27b</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48910545\">https://news.ycombinator.com/item?id=48910545</a></p>"
     },
     {
-      "title": "Beautiful Type Erasure with C++26 Reflection",
-      "link": "https://ryanjk5.github.io/posts/rjk-duck/",
-      "raw_summary": "<p>Article URL: <a href=\"https://ryanjk5.github.io/posts/rjk-duck/\">https://ryanjk5.github.io/posts/rjk-duck/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48905914\">https://news.ycombinator.com/item?id=48905914</a></p>\n<p>Points: 8</p>\n<p># Comments: 3</p>",
+      "title": "Kontigo (YC S24) Is Hiring (Head of Security)",
+      "link": "https://www.ycombinator.com/companies/kontigo/jobs/uNttrlv-head-of-security",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/kontigo/jobs/uNttrlv-head-of-security\">https://www.ycombinator.com/companies/kontigo/jobs/uNttrlv-head-of-security</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48909820\">https://news.ycombinator.com/item?id=48909820</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 14 Jul 2026 12:40:50 +0000",
-      "summary": "Beautiful Type Erasure with C++26 Reflection\n<p>Article URL: <a href=\"https://ryanjk5.github.io/posts/rjk-duck/\">https://ryanjk5.github.io/posts/rjk-duck/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48905914\">https://news.ycombinator.com/item?id=48905914</a></p>\n<p>Points:"
+      "published": "Tue, 14 Jul 2026 17:00:17 +0000",
+      "summary": "Kontigo (YC S24) Is Hiring (Head of Security)\n<p>Article URL: <a href=\"https://www.ycombinator.com/companies/kontigo/jobs/uNttrlv-head-of-security\">https://www.ycombinator.com/companies/kontigo/jobs/uNttrlv-head-of-security</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48909"
     },
     {
-      "title": "Coding agents think ahead of time",
-      "link": "https://arxiv.org/abs/2607.05188",
-      "raw_summary": "<p>Article URL: <a href=\"https://arxiv.org/abs/2607.05188\">https://arxiv.org/abs/2607.05188</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48905764\">https://news.ycombinator.com/item?id=48905764</a></p>\n<p>Points: 7</p>\n<p># Comments: 1</p>",
+      "title": "The Tower Keeps Rising",
+      "link": "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
+      "raw_summary": "<p>Article URL: <a href=\"https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/\">https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48909785\">https://news.ycombinator.com/item?id=48909785</a></p>\n<p>Points: 110</p>\n<p># Comments: 38</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 14 Jul 2026 12:28:09 +0000",
-      "summary": "Coding agents think ahead of time\n<p>Article URL: <a href=\"https://arxiv.org/abs/2607.05188\">https://arxiv.org/abs/2607.05188</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48905764\">https://news.ycombinator.com/item?id=48905764</a></p>\n<p>Points: 7</p>\n<p># Comments: 1</p>"
+      "published": "Tue, 14 Jul 2026 16:57:54 +0000",
+      "summary": "The Tower Keeps Rising\n<p>Article URL: <a href=\"https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/\">https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48909785\">https://news.ycombinator.com/item?id=48909785</a></p"
     },
     {
-      "title": "Germany set to restrict its Freedom of Information Act",
-      "link": "https://www.dw.com/en/germany-freedom-of-information-act/a-77939695",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.dw.com/en/germany-freedom-of-information-act/a-77939695\">https://www.dw.com/en/germany-freedom-of-information-act/a-77939695</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48905290\">https://news.ycombinator.com/item?id=48905290</a></p>\n<p>Points: 58</p>\n<p># Comments: 12</p>",
+      "title": "S&P downgrades Oracle to BBB – only one notch above junk level",
+      "link": "https://www.heise.de/en/news/S-P-downgrades-Oracle-to-BBB-only-one-notch-above-junk-level-11363472.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.heise.de/en/news/S-P-downgrades-Oracle-to-BBB-only-one-notch-above-junk-level-11363472.html\">https://www.heise.de/en/news/S-P-downgrades-Oracle-to-BBB-only-one-notch-above-junk-level-11363472.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48909768\">https://news.ycombinator.com/item?id=48909768</a></p>\n<p>Points: 208</p>\n<p># Comments: 168</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 14 Jul 2026 11:49:48 +0000",
-      "summary": "Germany set to restrict its Freedom of Information Act\n<p>Article URL: <a href=\"https://www.dw.com/en/germany-freedom-of-information-act/a-77939695\">https://www.dw.com/en/germany-freedom-of-information-act/a-77939695</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48905290\">ht"
+      "published": "Tue, 14 Jul 2026 16:56:48 +0000",
+      "summary": "S&P downgrades Oracle to BBB – only one notch above junk level\n<p>Article URL: <a href=\"https://www.heise.de/en/news/S-P-downgrades-Oracle-to-BBB-only-one-notch-above-junk-level-11363472.html\">https://www.heise.de/en/news/S-P-downgrades-Oracle-to-BBB-only-one-notch-above-junk-level-11363472.html</a>"
     },
     {
-      "title": "Punch Yourself in the Face with Reality",
-      "link": "https://adi.bio/reality",
-      "raw_summary": "<p>Article URL: <a href=\"https://adi.bio/reality\">https://adi.bio/reality</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48905118\">https://news.ycombinator.com/item?id=48905118</a></p>\n<p>Points: 35</p>\n<p># Comments: 11</p>",
+      "title": "Measuring Input Latency on Linux: X11 vs. Wayland, VRR, and DXVK",
+      "link": "https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/",
+      "raw_summary": "<p>Article URL: <a href=\"https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/\">https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48909424\">https://news.ycombinator.com/item?id=48909424</a></p>\n<p>Points: 207</p>\n<p># Comments: 110</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 14 Jul 2026 11:33:19 +0000",
-      "summary": "Punch Yourself in the Face with Reality\n<p>Article URL: <a href=\"https://adi.bio/reality\">https://adi.bio/reality</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48905118\">https://news.ycombinator.com/item?id=48905118</a></p>\n<p>Points: 35</p>\n<p># Comments: 11</p>"
+      "published": "Tue, 14 Jul 2026 16:36:06 +0000",
+      "summary": "Measuring Input Latency on Linux: X11 vs. Wayland, VRR, and DXVK\n<p>Article URL: <a href=\"https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/\">https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/</a></p>\n<p>Comments URL: <a href=\"https"
     },
     {
-      "title": "Pinwheel launches a retro-inspired landline phone for kids",
-      "link": "https://techcrunch.com/2026/07/14/pinwheel-launches-a-retro-inspired-landline-phone-for-kids/",
-      "raw_summary": "Kid-friendly tech company Pinwheel announced the launch of a new landline phone designed to let children stay connected without the distractions of a smartphone.",
+      "title": "Lucid Motors denies report it’s considering bankruptcy",
+      "link": "https://techcrunch.com/2026/07/14/lucid-motors-denies-report-its-considering-bankruptcy/",
+      "raw_summary": "The company said the \"rumors are completely false\" after its stock sank more than 50% on a report that it was weighing the option.",
       "source": "TechCrunch",
-      "published": "Tue, 14 Jul 2026 09:00:00 +0000",
-      "summary": "Pinwheel launches a retro-inspired landline phone for kids\nKid-friendly tech company Pinwheel announced the launch of a new landline phone designed to let children stay connected without the distractions of a smartphone."
+      "published": "Tue, 14 Jul 2026 18:47:14 +0000",
+      "summary": "Lucid Motors denies report it’s considering bankruptcy\nThe company said the \"rumors are completely false\" after its stock sank more than 50% on a report that it was weighing the option."
     },
     {
-      "title": "Already rich, already successful, why the last wave of tech winners is grinding again",
-      "link": "https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again/",
-      "raw_summary": "They're rolling up their sleeves again, seemingly out of fear of missing AI's defining moment and, presumably, the irresistible allure of making even more money -- potentially a lot more.",
+      "title": "Google faces another AI training lawsuit from major publishers",
+      "link": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/",
+      "raw_summary": "Hachette, Cengage, Elsevier, and other publishers allege that Google trained its AI on copyrighted works without the necessary permissions.",
       "source": "TechCrunch",
-      "published": "Tue, 14 Jul 2026 02:46:42 +0000",
-      "summary": "Already rich, already successful, why the last wave of tech winners is grinding again\nThey're rolling up their sleeves again, seemingly out of fear of missing AI's defining moment and, presumably, the irresistible allure of making even more money -- potentially a lot more."
+      "published": "Tue, 14 Jul 2026 18:33:31 +0000",
+      "summary": "Google faces another AI training lawsuit from major publishers\nHachette, Cengage, Elsevier, and other publishers allege that Google trained its AI on copyrighted works without the necessary permissions."
     },
     {
-      "title": "Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be ‘everything for everyone’",
-      "link": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
-      "raw_summary": "Uber Chief Product Officer Sachin Kansal walks TechCrunch through the company's financial services ambitions, its increasingly complicated relationship with Waymo, its new AV Labs data operation, and how AI is starting to show up in ways riders and drivers will actually notice.",
+      "title": "DeepMind CEO calls for an independent standards body to regulate frontier AI",
+      "link": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
+      "raw_summary": "DeepMind CEO Demis Hassabis is proposing an AI \"standards body\" modeled after FINRA, to test frontier models and develop best practices for their release.",
       "source": "TechCrunch",
-      "published": "Tue, 14 Jul 2026 00:45:00 +0000",
-      "summary": "Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be ‘everything for everyone’\nUber Chief Product Officer Sachin Kansal walks TechCrunch through the company's financial services ambitions, its increasingly complicated relationship with Waymo, its new AV Labs data operati"
+      "published": "Tue, 14 Jul 2026 17:45:55 +0000",
+      "summary": "DeepMind CEO calls for an independent standards body to regulate frontier AI\nDeepMind CEO Demis Hassabis is proposing an AI \"standards body\" modeled after FINRA, to test frontier models and develop best practices for their release."
     },
     {
-      "title": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
-      "link": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
-      "raw_summary": "With the cash, the company aims to expand its world model offering and reach customers across geographies.",
+      "title": "DeepSeek reportedly in talks to raise $1.5B, then IPO",
+      "link": "https://techcrunch.com/2026/07/14/deepseek-reportedly-in-talks-to-raise-1-5b-then-ipo/",
+      "raw_summary": "DeepSeek, the Chinese large language model developer, is said to be preparing for a 2027 IPO debut as it also looks to raise around $1.5 billion in new funds at a $71 billion valuation.",
       "source": "TechCrunch",
-      "published": "Tue, 14 Jul 2026 00:00:00 +0000",
-      "summary": "Video-generation startup PixVerse raises $439M, valuation soars past $2B\nWith the cash, the company aims to expand its world model offering and reach customers across geographies."
+      "published": "Tue, 14 Jul 2026 16:45:23 +0000",
+      "summary": "DeepSeek reportedly in talks to raise $1.5B, then IPO\nDeepSeek, the Chinese large language model developer, is said to be preparing for a 2027 IPO debut as it also looks to raise around $1.5 billion in new funds at a $71 billion valuation."
     },
     {
-      "title": "X just tweaked its algorithm to make it more friendly, less battleground",
-      "link": "https://techcrunch.com/2026/07/13/x-just-tweaked-its-algorithm-to-make-it-more-friendly-less-battleground/",
-      "raw_summary": "The social media site says it will amplify posts made by users' mutual followers' to give the feed more of a communal feel.",
+      "title": "Meta’s Adam Mosseri says AI token budgets could soon be capped per engineer",
+      "link": "https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer/",
+      "raw_summary": "Instagram head Adam Mosseri believes companies will eventually need to manage AI token spending the same way they manage payroll or other operating expenses, predicting that engineers could soon face limits on how much they spend using AI tools.",
       "source": "TechCrunch",
-      "published": "Mon, 13 Jul 2026 23:58:27 +0000",
-      "summary": "X just tweaked its algorithm to make it more friendly, less battleground\nThe social media site says it will amplify posts made by users' mutual followers' to give the feed more of a communal feel."
+      "published": "Tue, 14 Jul 2026 16:22:15 +0000",
+      "summary": "Meta’s Adam Mosseri says AI token budgets could soon be capped per engineer\nInstagram head Adam Mosseri believes companies will eventually need to manage AI token spending the same way they manage payroll or other operating expenses, predicting that engineers could soon face limits on how much they "
     },
     {
-      "title": "SpaceX is gearing up for Starship's 13th test flight later this week",
-      "link": "https://arstechnica.com/space/2026/07/spacex-is-gearing-up-for-starships-13th-test-flight-later-this-week/",
-      "raw_summary": "This flight will put Starship under higher pressure and test out new Starlink satellites in orbit.",
+      "title": "US military sent explosive drone boats into combat for the first time",
+      "link": "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/",
+      "raw_summary": "US military’s drone boats struck an Iranian naval port as war heats up again.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 14 Jul 2026 01:17:14 +0000",
-      "summary": "SpaceX is gearing up for Starship's 13th test flight later this week\nThis flight will put Starship under higher pressure and test out new Starlink satellites in orbit."
+      "published": "Tue, 14 Jul 2026 18:00:01 +0000",
+      "summary": "US military sent explosive drone boats into combat for the first time\nUS military’s drone boats struck an Iranian naval port as war heats up again."
     },
     {
-      "title": "US continues to shun Ebola-infected citizens; second American sent to Germany",
-      "link": "https://arstechnica.com/health/2026/07/us-continues-to-shun-ebola-infected-citizens-second-american-sent-to-germany/",
-      "raw_summary": "The man is said to be doing well in a Frankfurt hospital.",
+      "title": "These painted e-tattoos could be the future of wearable biosensors",
+      "link": "https://arstechnica.com/science/2026/07/these-painted-e-tattoos-could-be-the-future-of-wearable-biosensors/",
+      "raw_summary": "Conductive ink is painted directly onto the skin in colorful custom designs, drying into working electrodes.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 13 Jul 2026 22:07:34 +0000",
-      "summary": "US continues to shun Ebola-infected citizens; second American sent to Germany\nThe man is said to be doing well in a Frankfurt hospital."
+      "published": "Tue, 14 Jul 2026 17:31:58 +0000",
+      "summary": "These painted e-tattoos could be the future of wearable biosensors\nConductive ink is painted directly onto the skin in colorful custom designs, drying into working electrodes."
     },
     {
-      "title": "The US government warns that Russia state hackers are coming after your router",
-      "link": "https://arstechnica.com/security/2026/07/the-us-government-warns-that-russia-state-hackers-are-coming-after-your-router/",
-      "raw_summary": "With residential proxies all the rage, CISA urges router users to be vigilant.",
+      "title": "Google revamps image search for its 25th anniversary with more images and more AI",
+      "link": "https://arstechnica.com/google/2026/07/google-revamps-image-search-for-its-25th-anniversary-with-more-images-and-more-ai/",
+      "raw_summary": "The new Google image search will use your \"unique interests\" to create an always-updated gallery.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 13 Jul 2026 21:03:07 +0000",
-      "summary": "The US government warns that Russia state hackers are coming after your router\nWith residential proxies all the rage, CISA urges router users to be vigilant."
+      "published": "Tue, 14 Jul 2026 16:28:14 +0000",
+      "summary": "Google revamps image search for its 25th anniversary with more images and more AI\nThe new Google image search will use your \"unique interests\" to create an always-updated gallery."
     },
     {
-      "title": "Ukrainian drone strikes forced Russia to stop shipping in vital sea corridor",
-      "link": "https://arstechnica.com/gadgets/2026/07/ukrainian-drone-strikes-forced-russia-to-stop-shipping-in-vital-sea-corridor/",
-      "raw_summary": "Ukraine’s drone blitz halted Russia’s Sea of Azov shipping in under a week.",
+      "title": "New York bans data center construction for a year, rattling AI industry",
+      "link": "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/",
+      "raw_summary": "New York’s data center moratorium may become the blueprint for anti-AI movement.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 13 Jul 2026 20:41:26 +0000",
-      "summary": "Ukrainian drone strikes forced Russia to stop shipping in vital sea corridor\nUkraine’s drone blitz halted Russia’s Sea of Azov shipping in under a week."
+      "published": "Tue, 14 Jul 2026 15:06:28 +0000",
+      "summary": "New York bans data center construction for a year, rattling AI industry\nNew York’s data center moratorium may become the blueprint for anti-AI movement."
     },
     {
-      "title": "California creates $3,500 rebate for new electric vehicle buyers",
-      "link": "https://arstechnica.com/cars/2026/07/first-time-ev-buyers-in-california-can-now-claim-a-new-rebate/",
-      "raw_summary": "There's a separate $1,750 rebate for used EVs, but both rebates have a price cap.",
+      "title": "Probe into explosive diarrheal cases points to Taco Bell and bad lettuce",
+      "link": "https://arstechnica.com/health/2026/07/taco-bell-eyed-in-explosive-diarrheal-outbreak-leafy-greens-suspected/",
+      "raw_summary": "Health officials have not confirmed a source yet—and there may be multiple sources.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 13 Jul 2026 19:52:48 +0000",
-      "summary": "California creates $3,500 rebate for new electric vehicle buyers\nThere's a separate $1,750 rebate for used EVs, but both rebates have a price cap."
+      "published": "Tue, 14 Jul 2026 14:49:02 +0000",
+      "summary": "Probe into explosive diarrheal cases points to Taco Bell and bad lettuce\nHealth officials have not confirmed a source yet—and there may be multiple sources."
     },
     {
-      "title": "Brussels to propose easing banks’ capital requirements",
-      "link": "https://www.ft.com/content/f8c00d09-1cbd-4e40-86c5-55f5ab24700d",
-      "raw_summary": "Proposal follows similar moves by US and UK as lenders push for loosening of regulation",
+      "title": "Buffett drops Gates Foundation from $6bn Berkshire donation",
+      "link": "https://www.ft.com/content/ebc72869-a233-4710-a9a4-e398f567a5b2",
+      "raw_summary": "Billionaire chair of conglomerate shifts personal charity plans after revelations about Microsoft co-founder’s Epstein ties",
       "source": "World",
-      "published": "Tue, 14 Jul 2026 13:06:24 GMT",
-      "summary": "Brussels to propose easing banks’ capital requirements\nProposal follows similar moves by US and UK as lenders push for loosening of regulation"
+      "published": "Tue, 14 Jul 2026 19:03:42 GMT",
+      "summary": "Buffett drops Gates Foundation from $6bn Berkshire donation\nBillionaire chair of conglomerate shifts personal charity plans after revelations about Microsoft co-founder’s Epstein ties"
     },
     {
-      "title": "US inflation fell more than expected to 3.5% in June as petrol prices tumbled",
-      "link": "https://www.ft.com/content/cb3b2887-d805-402b-9c85-55e3b44d867b",
-      "raw_summary": "Traders rein in bets on Fed rate rises as easing energy costs help tame price surges spurred by Middle East war",
+      "title": "Trump pays E Jean Carroll $5.6mn in assault and defamation case",
+      "link": "https://www.ft.com/content/33ad643c-18d8-41a8-a3a2-b2cfd8303d43",
+      "raw_summary": "Funds president owed had been in a government account as he appealed against the verdict and judgment",
       "source": "World",
-      "published": "Tue, 14 Jul 2026 13:06:03 GMT",
-      "summary": "US inflation fell more than expected to 3.5% in June as petrol prices tumbled\nTraders rein in bets on Fed rate rises as easing energy costs help tame price surges spurred by Middle East war"
+      "published": "Tue, 14 Jul 2026 18:20:52 GMT",
+      "summary": "Trump pays E Jean Carroll $5.6mn in assault and defamation case\nFunds president owed had been in a government account as he appealed against the verdict and judgment"
     },
     {
-      "title": "Inflation and interest rates tracker: see how your country compares",
-      "link": "https://www.ft.com/content/088d3368-bb8b-4ff3-9df7-a7680d4d81b2",
-      "raw_summary": "Explore the latest data through interactive charts",
+      "title": "Brinkmanship in the Strait of Hormuz",
+      "link": "https://www.ft.com/content/862aa8f3-2e08-4dbc-ba7f-e85a69b25748",
+      "raw_summary": "America’s president is trapped, but Tehran is overplaying its hand",
       "source": "World",
-      "published": "Tue, 14 Jul 2026 13:05:36 GMT",
-      "summary": "Inflation and interest rates tracker: see how your country compares\nExplore the latest data through interactive charts"
+      "published": "Tue, 14 Jul 2026 17:37:57 GMT",
+      "summary": "Brinkmanship in the Strait of Hormuz\nAmerica’s president is trapped, but Tehran is overplaying its hand"
     },
     {
-      "title": "IBM shares set to plunge 23% as customers shift spending to AI",
-      "link": "https://www.ft.com/content/da478c37-7a32-415d-9f30-3b2981149f95",
-      "raw_summary": "Chief executive Arvind Krishna says large deals slipped as clients redirected money into chips, servers and memory",
+      "title": "US banks results as they happened: Wall Street banks post blockbuster profits as equities trading booms",
+      "link": "https://www.ft.com/content/f4231724-bb67-4cfd-81e2-d20f4badb82e",
+      "raw_summary": "JPMorgan, Goldman, Citi and BofA kick off earnings season with strong results",
       "source": "World",
-      "published": "Tue, 14 Jul 2026 13:01:54 GMT",
-      "summary": "IBM shares set to plunge 23% as customers shift spending to AI\nChief executive Arvind Krishna says large deals slipped as clients redirected money into chips, servers and memory"
+      "published": "Tue, 14 Jul 2026 17:08:35 GMT",
+      "summary": "US banks results as they happened: Wall Street banks post blockbuster profits as equities trading booms\nJPMorgan, Goldman, Citi and BofA kick off earnings season with strong results"
     },
     {
-      "title": "Donald Trump returns to escalation against Iran",
-      "link": "https://www.ft.com/content/ef06822f-c107-4286-b35b-71e4bbaba0a5",
-      "raw_summary": "Also in today’s newsletter, Lindsey Graham’s sudden death reverberates across Washington",
+      "title": "European defence groups plan interceptor system to destroy missiles in space",
+      "link": "https://www.ft.com/content/8280d5cf-a117-4dd2-bf69-dbe3ac199a18",
+      "raw_summary": "Programme intended to plug gaps in air defence and will draw on lessons from war in Ukraine",
       "source": "World",
-      "published": "Tue, 14 Jul 2026 13:00:05 GMT",
-      "summary": "Donald Trump returns to escalation against Iran\nAlso in today’s newsletter, Lindsey Graham’s sudden death reverberates across Washington"
+      "published": "Tue, 14 Jul 2026 17:00:42 GMT",
+      "summary": "European defence groups plan interceptor system to destroy missiles in space\nProgramme intended to plug gaps in air defence and will draw on lessons from war in Ukraine"
     },
     {
-      "title": "SLB, Liberty Energy to Sell Infrastructure to Data Centers",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-14/slb-liberty-energy-to-sell-power-and-parts-to-data-centers",
-      "raw_summary": "SLB, the world’s largest oil field service provider, has agreed to partner with Liberty Energy Inc. to provide modular systems and power for data centers, the latest example of energy companies positioning themselves to benefit from the artificial intelligence boom.",
-      "source": "Bloomberg Markets",
-      "published": "Tue, 14 Jul 2026 10:50:00 GMT",
-      "summary": "SLB, Liberty Energy to Sell Infrastructure to Data Centers\nSLB, the world’s largest oil field service provider, has agreed to partner with Liberty Energy Inc. to provide modular systems and power for data centers, the latest example of energy companies positioning themselves to benefit from the arti"
-    },
-    {
-      "title": "Citi Stock Traders Post Record Revenue for Quarter",
-      "link": "https://www.bloomberg.com/news/videos/2026-07-14/citi-stock-traders-post-record-revenue-for-quarter-video",
-      "raw_summary": "Citigroup says revenue from equities trading surged 45% to $2.3 billion in the second quarter from a year earlier. That's 11% higher than the record set in this year's opening months. Earnings per share came in at $3.15, beating all estimates. This is coverage from \"Bloomberg Surveillance.\" (Source: Bloomberg)",
-      "source": "Bloomberg Markets",
-      "published": "Tue, 14 Jul 2026 13:06:01 GMT",
-      "summary": "Citi Stock Traders Post Record Revenue for Quarter\nCitigroup says revenue from equities trading surged 45% to $2.3 billion in the second quarter from a year earlier. That's 11% higher than the record set in this year's opening months. Earnings per share came in at $3.15, beating all estimates. This "
-    },
-    {
-      "title": "Stocks, Bonds Rise as Soft CPI Curbs Fed-Hike Bets: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-13/oil-holds-gains-as-iran-stokes-inflation-worries-markets-wrap",
-      "raw_summary": "A cooler-than-estimated inflation reading spurred gains in both stocks and bonds, easing concern about the potential for imminent Federal Reserve rate hikes amid a resurgence in oil prices.",
-      "source": "Bloomberg Markets",
-      "published": "Mon, 13 Jul 2026 22:05:56 GMT",
-      "summary": "Stocks, Bonds Rise as Soft CPI Curbs Fed-Hike Bets: Markets Wrap\nA cooler-than-estimated inflation reading spurred gains in both stocks and bonds, easing concern about the potential for imminent Federal Reserve rate hikes amid a resurgence in oil prices."
-    },
-    {
-      "title": "US Stock Futures Rise as Traders Parse CPI Data, Warsh Comments",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-14/s-p-500-futures-steady-ahead-of-inflation-data-warsh-testimony",
-      "raw_summary": "US stock futures rose before the bell on Tuesday as investors parsed latest inflation data and Federal Reserve Chairman Kevin Warsh’s remarks.",
-      "source": "Bloomberg Markets",
-      "published": "Tue, 14 Jul 2026 12:05:39 GMT",
-      "summary": "US Stock Futures Rise as Traders Parse CPI Data, Warsh Comments\nUS stock futures rose before the bell on Tuesday as investors parsed latest inflation data and Federal Reserve Chairman Kevin Warsh’s remarks."
-    },
-    {
-      "title": "US CPI Falls for the First Time Since 2020, Core Gauge Flat",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-14/us-cpi-falls-for-the-first-time-since-2020-core-gauge-unchanged",
-      "raw_summary": "US consumer prices declined in June for the first time in six years and a key gauge of underlying inflation was little changed, taking some pressure off the Federal Reserve to raise interest rates.",
-      "source": "Bloomberg Markets",
-      "published": "Tue, 14 Jul 2026 12:32:08 GMT",
-      "summary": "US CPI Falls for the First Time Since 2020, Core Gauge Flat\nUS consumer prices declined in June for the first time in six years and a key gauge of underlying inflation was little changed, taking some pressure off the Federal Reserve to raise interest rates."
-    },
-    {
-      "title": "Hut 8 price target hiked to $165 at Benchmark as AI pivot reshapes valuation",
-      "link": "https://www.coindesk.com/business/2026/07/14/hut-8-price-target-hiked-to-usd165-at-benchmark-as-ai-pivot-reshapes-valuation",
+      "title": "Some U.S. Senate Democrats come out against Clarity Act, calling it a 'corrupt' bill",
+      "link": "https://www.coindesk.com/policy/2026/07/14/some-u-s-senate-democrats-come-out-against-clarity-act-calling-it-a-corrupt-bill",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 14 Jul 2026 12:53:05 +0000",
-      "summary": "Hut 8 price target hiked to $165 at Benchmark as AI pivot reshapes valuation\n"
+      "published": "Tue, 14 Jul 2026 18:57:15 +0000",
+      "summary": "Some U.S. Senate Democrats come out against Clarity Act, calling it a 'corrupt' bill\n"
     },
     {
-      "title": "U.S. June CPI fell 0.4%, likely cooling move toward Fed rate hikes",
-      "link": "https://www.coindesk.com/markets/2026/07/14/u-s-june-cpi-fell-0-4-likely-cooling-move-toward-fed-rate-hikes",
+      "title": "Binance bets on becoming a crypto 'super app' as stablecoins reshape growth",
+      "link": "https://www.coindesk.com/business/2026/07/14/binance-bets-on-becoming-a-crypto-super-app-as-stablecoins-reshape-growth",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 14 Jul 2026 12:33:24 +0000",
-      "summary": "U.S. June CPI fell 0.4%, likely cooling move toward Fed rate hikes\n"
+      "published": "Tue, 14 Jul 2026 17:33:19 +0000",
+      "summary": "Binance bets on becoming a crypto 'super app' as stablecoins reshape growth\n"
     },
     {
-      "title": "ECB picks firms including Deutsche Bank, Revolut for digital euro pilot",
-      "link": "https://www.coindesk.com/business/2026/07/14/ecb-picks-firms-including-deutsche-bank-revolut-for-digital-euro-pilot",
+      "title": "The Clarity Act isn't a ticket to sanctions evasion, actually",
+      "link": "https://www.coindesk.com/opinion/2026/07/14/the-clarity-act-isn-t-a-ticket-to-sanctions-evasion-actually",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 14 Jul 2026 12:10:03 +0000",
-      "summary": "ECB picks firms including Deutsche Bank, Revolut for digital euro pilot\n"
+      "published": "Tue, 14 Jul 2026 17:27:48 +0000",
+      "summary": "The Clarity Act isn't a ticket to sanctions evasion, actually\n"
     },
     {
-      "title": "Japan’s biggest card network taps Circle to bring stablecoins to 40 million merchants",
-      "link": "https://www.coindesk.com/business/2026/07/14/circle-signs-mou-with-japan-s-largest-card-network-to-explore-stablecoin-payments",
+      "title": "Mizuho downgrades Circle to underperform, cuts price target to $50 on Open USD threat",
+      "link": "https://www.coindesk.com/business/2026/07/14/mizuho-downgrades-circle-to-underperform-cuts-price-target-to-usd50-on-open-usd-threat",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 14 Jul 2026 12:01:50 +0000",
-      "summary": "Japan’s biggest card network taps Circle to bring stablecoins to 40 million merchants\n"
+      "published": "Tue, 14 Jul 2026 16:59:44 +0000",
+      "summary": "Mizuho downgrades Circle to underperform, cuts price target to $50 on Open USD threat\n"
     },
     {
-      "title": "U.S.-Iran escalation weighs on bitcoin, stocks as oil climbs",
-      "link": "https://www.coindesk.com/daybook-us/2026/07/14/u-s-iran-escalation-weighs-on-bitcoin-stocks-as-oil-climbs",
+      "title": "Wikipedia blackout could hurt how AI engines like ChatGPT understand crypto",
+      "link": "https://www.coindesk.com/policy/2026/07/14/wikipedia-blackout-could-hurt-how-ai-engines-like-chatgpt-understand-crypto",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 14 Jul 2026 11:15:06 +0000",
-      "summary": "U.S.-Iran escalation weighs on bitcoin, stocks as oil climbs\n"
+      "published": "Tue, 14 Jul 2026 16:39:26 +0000",
+      "summary": "Wikipedia blackout could hurt how AI engines like ChatGPT understand crypto\n"
     }
   ]
 }
