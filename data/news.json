@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-07-14T19:05:43.444704+00:00",
+  "generated_at": "2026-07-15T01:42:54.646746+00:00",
   "count": 35,
   "articles": [
+    {
+      "title": "Microsoft Patches a Record 570 Security Flaws",
+      "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+      "raw_summary": "Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of vulnerabilities the software giant fixed in its record-smashing Patch Tuesday release last month. Microsoft attributed the burgeoning patch counts to vulnerability discoveries aided by artificial intelligence.",
+      "source": "Krebs on Security",
+      "published": "Tue, 14 Jul 2026 19:22:42 +0000",
+      "summary": "Microsoft Patches a Record 570 Security Flaws\nMicrosoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of vulnerabilities the software giant fixed in its record-smashing Patch Tuesday release las"
+    },
     {
       "title": "Lessons Learned from CISA’s Recent GitHub Leak",
       "link": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
@@ -35,12 +43,28 @@
       "summary": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial\nTwo men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London, the entity responsible for the public transport network in the Greater London area. The duo "
     },
     {
-      "title": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm",
-      "link": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
-      "raw_summary": "For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising fraud, account takeovers, and mass data-scraping efforts. This week, researchers from multiple security firms concluded that the Popa botnet is linked to NetNut, a \"residential proxy\" provider operated by the publicly-traded Israeli firm Alarum Technologies Ltd [NASDAQ: ALAR].",
-      "source": "Krebs on Security",
-      "published": "Thu, 18 Jun 2026 17:37:58 +0000",
-      "summary": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm\nFor the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising fraud, account takeovers, and mass data-scraping efforts. This week, researchers from mu"
+      "title": "Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack",
+      "link": "https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html",
+      "raw_summary": "Microsoft shipped its largest Patch Tuesday on record today, and two of the fixes close holes that attackers are already exploiting. The release covers 622 of Microsoft's own CVEs by its&nbsp;Security Update Guide&nbsp;count, more than triple&nbsp;June's previous high of around 200.\n\nThose two live bugs are the ones to grab first. Microsoft credits incident responders for both. Both are",
+      "source": "The Hacker News",
+      "published": "Wed, 15 Jul 2026 01:55:47 +0530",
+      "summary": "Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack\nMicrosoft shipped its largest Patch Tuesday on record today, and two of the fixes close holes that attackers are already exploiting. The release covers 622 of Microsoft's own CVEs by its&nbsp;Security Update Guide&nbsp;c"
+    },
+    {
+      "title": "SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data",
+      "link": "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html",
+      "raw_summary": "SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP.\n\nThe vulnerability in question is CVE-2026-44747 (CVSS score: 9.9), an out-of-bounds write flaw that allows an authenticated attacker to leverage logical errors in memory management to cause a memory corruption that could",
+      "source": "The Hacker News",
+      "published": "Tue, 14 Jul 2026 23:47:57 +0530",
+      "summary": "SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data\nSAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP.\n\nThe vulnerability in question is CVE-2026-44747 (CV"
+    },
+    {
+      "title": "Researchers Say Claude for Chrome Flaw Lets Rogue Extensions Trigger Gmail Reads",
+      "link": "https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html",
+      "raw_summary": "Any other browser extension that can run a script on claude.ai can still trigger Claude for Chrome tasks aimed at your Gmail, your latest Google Doc and its comments, and your Calendar.\n\nBoth this and ClaudeBleed need a rogue extension that can already run a script on claude.ai; the difference is scope. Anthropic restricted the arbitrary-prompt path in May as part of its response to the&nbsp;",
+      "source": "The Hacker News",
+      "published": "Tue, 14 Jul 2026 22:57:23 +0530",
+      "summary": "Researchers Say Claude for Chrome Flaw Lets Rogue Extensions Trigger Gmail Reads\nAny other browser extension that can run a script on claude.ai can still trigger Claude for Chrome tasks aimed at your Gmail, your latest Google Doc and its comments, and your Calendar.\n\nBoth this and ClaudeBleed need a"
     },
     {
       "title": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts",
@@ -59,108 +83,116 @@
       "summary": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata\nCybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infra"
     },
     {
-      "title": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot",
-      "link": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
-      "raw_summary": "Cybersecurity researchers have discovered 11 old, Microsoft-signed, Unified Extensible Firmware Interface (UEFI) applications that could be abused to bypass Secure Boot on most systems using the modern firmware standard.\n\n\"An attacker exploiting one of these vulnerable applications can execute untrusted code during system boot, enabling deployment of malicious UEFI bootkits or other malware,\"",
-      "source": "The Hacker News",
-      "published": "Tue, 14 Jul 2026 18:16:18 +0530",
-      "summary": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot\nCybersecurity researchers have discovered 11 old, Microsoft-signed, Unified Extensible Firmware Interface (UEFI) applications that could be abused to bypass Secure Boot on most systems using the modern firmware standard."
-    },
-    {
-      "title": "Study of 85 Crypto Wallet Extensions Finds Address Leaks and Cross-Site Tracking Risks",
-      "link": "https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html",
-      "raw_summary": "Researchers at KU Leuven tested 85 of the most popular crypto wallets that run as browser extensions and found that the wallets themselves leak enough to link and track the people using them.\n\nThe way these wallets talk to websites and blockchain servers can tie a person's separate addresses together and let outsiders follow them from site to site. And on a site that already holds a name or",
-      "source": "The Hacker News",
-      "published": "Tue, 14 Jul 2026 17:25:00 +0530",
-      "summary": "Study of 85 Crypto Wallet Extensions Finds Address Leaks and Cross-Site Tracking Risks\nResearchers at KU Leuven tested 85 of the most popular crypto wallets that run as browser extensions and found that the wallets themselves leak enough to link and track the people using them.\n\nThe way these wallet"
-    },
-    {
-      "title": "How Pentera Turns AI Security Workflows into Validation Engines",
-      "link": "https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html",
-      "raw_summary": "AI security agents are starting to influence real security decisions. They summarize findings, prioritize remediation, recommend next steps, and help teams move faster. But most still rely on fragmented risk signals: scanner output, severity scores, threat intelligence, configuration findings, and exposure data.\n\nThat fragmentation matters because attackers do not move through environments one",
-      "source": "The Hacker News",
-      "published": "Tue, 14 Jul 2026 17:00:00 +0530",
-      "summary": "How Pentera Turns AI Security Workflows into Validation Engines\nAI security agents are starting to influence real security decisions. They summarize findings, prioritize remediation, recommend next steps, and help teams move faster. But most still rely on fragmented risk signals: scanner output, sev"
-    },
-    {
-      "title": "Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone",
-      "link": "https://prismml.com/news/bonsai-27b",
-      "raw_summary": "<p>Article URL: <a href=\"https://prismml.com/news/bonsai-27b\">https://prismml.com/news/bonsai-27b</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48910545\">https://news.ycombinator.com/item?id=48910545</a></p>\n<p>Points: 42</p>\n<p># Comments: 8</p>",
+      "title": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access",
+      "link": "https://tailscale.com/security-bulletins",
+      "raw_summary": "<p>Article URL: <a href=\"https://tailscale.com/security-bulletins\">https://tailscale.com/security-bulletins</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48915004\">https://news.ycombinator.com/item?id=48915004</a></p>\n<p>Points: 6</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 14 Jul 2026 17:50:48 +0000",
-      "summary": "Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone\n<p>Article URL: <a href=\"https://prismml.com/news/bonsai-27b\">https://prismml.com/news/bonsai-27b</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48910545\">https://news.ycombinator.com/item?id=48910545</a></p>"
+      "published": "Wed, 15 Jul 2026 01:08:26 +0000",
+      "summary": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access\n<p>Article URL: <a href=\"https://tailscale.com/security-bulletins\">https://tailscale.com/security-bulletins</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48915004\">https://news.ycombinator.com/ite"
     },
     {
-      "title": "Kontigo (YC S24) Is Hiring (Head of Security)",
-      "link": "https://www.ycombinator.com/companies/kontigo/jobs/uNttrlv-head-of-security",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/kontigo/jobs/uNttrlv-head-of-security\">https://www.ycombinator.com/companies/kontigo/jobs/uNttrlv-head-of-security</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48909820\">https://news.ycombinator.com/item?id=48909820</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
+      "title": "Data centers have hiked electricity prices on the public by $23B",
+      "link": "https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills/",
+      "raw_summary": "<p>Article URL: <a href=\"https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills/\">https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48914683\">https://news.ycombinator.com/item?id=48914683</a></p>\n<p>Points: 22</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 14 Jul 2026 17:00:17 +0000",
-      "summary": "Kontigo (YC S24) Is Hiring (Head of Security)\n<p>Article URL: <a href=\"https://www.ycombinator.com/companies/kontigo/jobs/uNttrlv-head-of-security\">https://www.ycombinator.com/companies/kontigo/jobs/uNttrlv-head-of-security</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48909"
+      "published": "Wed, 15 Jul 2026 00:20:31 +0000",
+      "summary": "Data centers have hiked electricity prices on the public by $23B\n<p>Article URL: <a href=\"https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills/\">https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.co"
     },
     {
-      "title": "The Tower Keeps Rising",
-      "link": "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
-      "raw_summary": "<p>Article URL: <a href=\"https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/\">https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48909785\">https://news.ycombinator.com/item?id=48909785</a></p>\n<p>Points: 110</p>\n<p># Comments: 38</p>",
+      "title": "Solving 20 Erdős Problems with 20 Codex Accounts Running in Parallel",
+      "link": "https://www.starfleetmath.com/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.starfleetmath.com/\">https://www.starfleetmath.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48914646\">https://news.ycombinator.com/item?id=48914646</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 14 Jul 2026 16:57:54 +0000",
-      "summary": "The Tower Keeps Rising\n<p>Article URL: <a href=\"https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/\">https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48909785\">https://news.ycombinator.com/item?id=48909785</a></p"
+      "published": "Wed, 15 Jul 2026 00:15:56 +0000",
+      "summary": "Solving 20 Erdős Problems with 20 Codex Accounts Running in Parallel\n<p>Article URL: <a href=\"https://www.starfleetmath.com/\">https://www.starfleetmath.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48914646\">https://news.ycombinator.com/item?id=48914646</a></p>\n<p>Point"
     },
     {
-      "title": "S&P downgrades Oracle to BBB – only one notch above junk level",
-      "link": "https://www.heise.de/en/news/S-P-downgrades-Oracle-to-BBB-only-one-notch-above-junk-level-11363472.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.heise.de/en/news/S-P-downgrades-Oracle-to-BBB-only-one-notch-above-junk-level-11363472.html\">https://www.heise.de/en/news/S-P-downgrades-Oracle-to-BBB-only-one-notch-above-junk-level-11363472.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48909768\">https://news.ycombinator.com/item?id=48909768</a></p>\n<p>Points: 208</p>\n<p># Comments: 168</p>",
+      "title": "Vancouver PD website features Quick Escape button that wipes itself from history",
+      "link": "https://vpd.ca/",
+      "raw_summary": "<p>Article URL: <a href=\"https://vpd.ca/\">https://vpd.ca/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48914644\">https://news.ycombinator.com/item?id=48914644</a></p>\n<p>Points: 44</p>\n<p># Comments: 14</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 14 Jul 2026 16:56:48 +0000",
-      "summary": "S&P downgrades Oracle to BBB – only one notch above junk level\n<p>Article URL: <a href=\"https://www.heise.de/en/news/S-P-downgrades-Oracle-to-BBB-only-one-notch-above-junk-level-11363472.html\">https://www.heise.de/en/news/S-P-downgrades-Oracle-to-BBB-only-one-notch-above-junk-level-11363472.html</a>"
+      "published": "Wed, 15 Jul 2026 00:15:53 +0000",
+      "summary": "Vancouver PD website features Quick Escape button that wipes itself from history\n<p>Article URL: <a href=\"https://vpd.ca/\">https://vpd.ca/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48914644\">https://news.ycombinator.com/item?id=48914644</a></p>\n<p>Points: 44</p>\n<p># Com"
     },
     {
-      "title": "Measuring Input Latency on Linux: X11 vs. Wayland, VRR, and DXVK",
-      "link": "https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/",
-      "raw_summary": "<p>Article URL: <a href=\"https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/\">https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48909424\">https://news.ycombinator.com/item?id=48909424</a></p>\n<p>Points: 207</p>\n<p># Comments: 110</p>",
+      "title": "Casio FX-870P Emulator",
+      "link": "https://github.com/urbancamo/fx870p-emulator",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/urbancamo/fx870p-emulator\">https://github.com/urbancamo/fx870p-emulator</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48913910\">https://news.ycombinator.com/item?id=48913910</a></p>\n<p>Points: 15</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 14 Jul 2026 16:36:06 +0000",
-      "summary": "Measuring Input Latency on Linux: X11 vs. Wayland, VRR, and DXVK\n<p>Article URL: <a href=\"https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/\">https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/</a></p>\n<p>Comments URL: <a href=\"https"
+      "published": "Tue, 14 Jul 2026 22:47:58 +0000",
+      "summary": "Casio FX-870P Emulator\n<p>Article URL: <a href=\"https://github.com/urbancamo/fx870p-emulator\">https://github.com/urbancamo/fx870p-emulator</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48913910\">https://news.ycombinator.com/item?id=48913910</a></p>\n<p>Points: 15</p>\n<p># Com"
     },
     {
-      "title": "Lucid Motors denies report it’s considering bankruptcy",
-      "link": "https://techcrunch.com/2026/07/14/lucid-motors-denies-report-its-considering-bankruptcy/",
-      "raw_summary": "The company said the \"rumors are completely false\" after its stock sank more than 50% on a report that it was weighing the option.",
+      "title": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
+      "link": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+      "raw_summary": "The funding discussions point to investor interest in applying AI to make breakthroughs in life sciences.",
       "source": "TechCrunch",
-      "published": "Tue, 14 Jul 2026 18:47:14 +0000",
-      "summary": "Lucid Motors denies report it’s considering bankruptcy\nThe company said the \"rumors are completely false\" after its stock sank more than 50% on a report that it was weighing the option."
+      "published": "Wed, 15 Jul 2026 00:27:04 +0000",
+      "summary": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B\nThe funding discussions point to investor interest in applying AI to make breakthroughs in life sciences."
     },
     {
-      "title": "Google faces another AI training lawsuit from major publishers",
-      "link": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/",
-      "raw_summary": "Hachette, Cengage, Elsevier, and other publishers allege that Google trained its AI on copyrighted works without the necessary permissions.",
+      "title": "Lorde says AI glasses are ‘not sexy’",
+      "link": "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy/",
+      "raw_summary": "\"Increasingly in our world, it gets harder and harder to know what is real,\" Lorde said onstage.",
       "source": "TechCrunch",
-      "published": "Tue, 14 Jul 2026 18:33:31 +0000",
-      "summary": "Google faces another AI training lawsuit from major publishers\nHachette, Cengage, Elsevier, and other publishers allege that Google trained its AI on copyrighted works without the necessary permissions."
+      "published": "Tue, 14 Jul 2026 23:10:02 +0000",
+      "summary": "Lorde says AI glasses are ‘not sexy’\n\"Increasingly in our world, it gets harder and harder to know what is real,\" Lorde said onstage."
     },
     {
-      "title": "DeepMind CEO calls for an independent standards body to regulate frontier AI",
-      "link": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
-      "raw_summary": "DeepMind CEO Demis Hassabis is proposing an AI \"standards body\" modeled after FINRA, to test frontier models and develop best practices for their release.",
+      "title": "OpenAI’s first hardware device is reportedly a screenless speaker that can move",
+      "link": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
+      "raw_summary": "The device is weirdly described as involving \"mechanical elements that can move on their own\" and the Bloomberg report includes the detail that the device is designed to \"feel like a companion and become a physical manifestation of OpenAI’s ChatGPT.\"",
       "source": "TechCrunch",
-      "published": "Tue, 14 Jul 2026 17:45:55 +0000",
-      "summary": "DeepMind CEO calls for an independent standards body to regulate frontier AI\nDeepMind CEO Demis Hassabis is proposing an AI \"standards body\" modeled after FINRA, to test frontier models and develop best practices for their release."
+      "published": "Tue, 14 Jul 2026 22:22:24 +0000",
+      "summary": "OpenAI’s first hardware device is reportedly a screenless speaker that can move\nThe device is weirdly described as involving \"mechanical elements that can move on their own\" and the Bloomberg report includes the detail that the device is designed to \"feel like a companion and become a physical manif"
     },
     {
-      "title": "DeepSeek reportedly in talks to raise $1.5B, then IPO",
-      "link": "https://techcrunch.com/2026/07/14/deepseek-reportedly-in-talks-to-raise-1-5b-then-ipo/",
-      "raw_summary": "DeepSeek, the Chinese large language model developer, is said to be preparing for a 2027 IPO debut as it also looks to raise around $1.5 billion in new funds at a $71 billion valuation.",
+      "title": "OpenAI pushes back on Apple trade secret lawsuit",
+      "link": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/",
+      "raw_summary": "OpenAI has issued another statement on the lawsuit, this time suggesting it lacks merit.",
       "source": "TechCrunch",
-      "published": "Tue, 14 Jul 2026 16:45:23 +0000",
-      "summary": "DeepSeek reportedly in talks to raise $1.5B, then IPO\nDeepSeek, the Chinese large language model developer, is said to be preparing for a 2027 IPO debut as it also looks to raise around $1.5 billion in new funds at a $71 billion valuation."
+      "published": "Tue, 14 Jul 2026 22:07:42 +0000",
+      "summary": "OpenAI pushes back on Apple trade secret lawsuit\nOpenAI has issued another statement on the lawsuit, this time suggesting it lacks merit."
     },
     {
-      "title": "Meta’s Adam Mosseri says AI token budgets could soon be capped per engineer",
-      "link": "https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer/",
-      "raw_summary": "Instagram head Adam Mosseri believes companies will eventually need to manage AI token spending the same way they manage payroll or other operating expenses, predicting that engineers could soon face limits on how much they spend using AI tools.",
+      "title": "OpenAI’s new flagship model deletes files on its own, people keep warning",
+      "link": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/",
+      "raw_summary": "A number of social media posts claim that GPT-5.6 Sol deleted files and data without warning. OpenAI had basically disclosed the problem in June.",
       "source": "TechCrunch",
-      "published": "Tue, 14 Jul 2026 16:22:15 +0000",
-      "summary": "Meta’s Adam Mosseri says AI token budgets could soon be capped per engineer\nInstagram head Adam Mosseri believes companies will eventually need to manage AI token spending the same way they manage payroll or other operating expenses, predicting that engineers could soon face limits on how much they "
+      "published": "Tue, 14 Jul 2026 21:50:11 +0000",
+      "summary": "OpenAI’s new flagship model deletes files on its own, people keep warning\nA number of social media posts claim that GPT-5.6 Sol deleted files and data without warning. OpenAI had basically disclosed the problem in June."
+    },
+    {
+      "title": "Microsoft’s Secure Boot has been broken for a decade and no one noticed until now",
+      "link": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/",
+      "raw_summary": "Old and forgotten \"shims\" Microsoft failed to revoke have made Secure Boot bypasses simple.",
+      "source": "Ars Technica - All content",
+      "published": "Tue, 14 Jul 2026 22:20:48 +0000",
+      "summary": "Microsoft’s Secure Boot has been broken for a decade and no one noticed until now\nOld and forgotten \"shims\" Microsoft failed to revoke have made Secure Boot bypasses simple."
+    },
+    {
+      "title": "Trump admin puts Americans in Congo on \"do-not-board\" list, barring return",
+      "link": "https://arstechnica.com/health/2026/07/americans-in-congo-barred-from-returning-home-amid-ebola-outbreak/",
+      "raw_summary": "Citizens must now spend 21 days in a third country before they are allowed to come home.",
+      "source": "Ars Technica - All content",
+      "published": "Tue, 14 Jul 2026 22:09:31 +0000",
+      "summary": "Trump admin puts Americans in Congo on \"do-not-board\" list, barring return\nCitizens must now spend 21 days in a third country before they are allowed to come home."
+    },
+    {
+      "title": "Lawsuit claims Meta's layoff decisions were made by AI, not humans",
+      "link": "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/",
+      "raw_summary": "Meta denies using AI to terminate workers with disabilities and medical problems.",
+      "source": "Ars Technica - All content",
+      "published": "Tue, 14 Jul 2026 20:05:53 +0000",
+      "summary": "Lawsuit claims Meta's layoff decisions were made by AI, not humans\nMeta denies using AI to terminate workers with disabilities and medical problems."
+    },
+    {
+      "title": "Probe into explosive diarrheal cases points to Taco Bell and bad lettuce",
+      "link": "https://arstechnica.com/health/2026/07/taco-bell-eyed-in-explosive-diarrheal-outbreak-leafy-greens-suspected/",
+      "raw_summary": "Federal officials have not confirmed a source yet—and there may be multiple sources.",
+      "source": "Ars Technica - All content",
+      "published": "Tue, 14 Jul 2026 19:00:02 +0000",
+      "summary": "Probe into explosive diarrheal cases points to Taco Bell and bad lettuce\nFederal officials have not confirmed a source yet—and there may be multiple sources."
     },
     {
       "title": "US military sent explosive drone boats into combat for the first time",
@@ -171,76 +203,52 @@
       "summary": "US military sent explosive drone boats into combat for the first time\nUS military’s drone boats struck an Iranian naval port as war heats up again."
     },
     {
-      "title": "These painted e-tattoos could be the future of wearable biosensors",
-      "link": "https://arstechnica.com/science/2026/07/these-painted-e-tattoos-could-be-the-future-of-wearable-biosensors/",
-      "raw_summary": "Conductive ink is painted directly onto the skin in colorful custom designs, drying into working electrodes.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 14 Jul 2026 17:31:58 +0000",
-      "summary": "These painted e-tattoos could be the future of wearable biosensors\nConductive ink is painted directly onto the skin in colorful custom designs, drying into working electrodes."
-    },
-    {
-      "title": "Google revamps image search for its 25th anniversary with more images and more AI",
-      "link": "https://arstechnica.com/google/2026/07/google-revamps-image-search-for-its-25th-anniversary-with-more-images-and-more-ai/",
-      "raw_summary": "The new Google image search will use your \"unique interests\" to create an always-updated gallery.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 14 Jul 2026 16:28:14 +0000",
-      "summary": "Google revamps image search for its 25th anniversary with more images and more AI\nThe new Google image search will use your \"unique interests\" to create an always-updated gallery."
-    },
-    {
-      "title": "New York bans data center construction for a year, rattling AI industry",
-      "link": "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/",
-      "raw_summary": "New York’s data center moratorium may become the blueprint for anti-AI movement.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 14 Jul 2026 15:06:28 +0000",
-      "summary": "New York bans data center construction for a year, rattling AI industry\nNew York’s data center moratorium may become the blueprint for anti-AI movement."
-    },
-    {
-      "title": "Probe into explosive diarrheal cases points to Taco Bell and bad lettuce",
-      "link": "https://arstechnica.com/health/2026/07/taco-bell-eyed-in-explosive-diarrheal-outbreak-leafy-greens-suspected/",
-      "raw_summary": "Health officials have not confirmed a source yet—and there may be multiple sources.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 14 Jul 2026 14:49:02 +0000",
-      "summary": "Probe into explosive diarrheal cases points to Taco Bell and bad lettuce\nHealth officials have not confirmed a source yet—and there may be multiple sources."
-    },
-    {
-      "title": "Buffett drops Gates Foundation from $6bn Berkshire donation",
-      "link": "https://www.ft.com/content/ebc72869-a233-4710-a9a4-e398f567a5b2",
-      "raw_summary": "Billionaire chair of conglomerate shifts personal charity plans after revelations about Microsoft co-founder’s Epstein ties",
+      "title": "City leaders chew over Reeves’ successor at Mansion House banquet",
+      "link": "https://www.ft.com/content/55512248-2d7e-4d77-a476-7484206440bb",
+      "raw_summary": "Conversations at annual gathering focus on who will take key job of chancellor in new Burnham government",
       "source": "World",
-      "published": "Tue, 14 Jul 2026 19:03:42 GMT",
-      "summary": "Buffett drops Gates Foundation from $6bn Berkshire donation\nBillionaire chair of conglomerate shifts personal charity plans after revelations about Microsoft co-founder’s Epstein ties"
+      "published": "Tue, 14 Jul 2026 22:40:06 GMT",
+      "summary": "City leaders chew over Reeves’ successor at Mansion House banquet\nConversations at annual gathering focus on who will take key job of chancellor in new Burnham government"
     },
     {
-      "title": "Trump pays E Jean Carroll $5.6mn in assault and defamation case",
-      "link": "https://www.ft.com/content/33ad643c-18d8-41a8-a3a2-b2cfd8303d43",
-      "raw_summary": "Funds president owed had been in a government account as he appealed against the verdict and judgment",
+      "title": "Spain reach second World Cup final with comfortable win over France",
+      "link": "https://www.ft.com/content/8e49687a-60e9-4087-96ce-e2b715d03815",
+      "raw_summary": "Spanish players put on calm and controlled display in 2-0 victory over the tournament favourites",
       "source": "World",
-      "published": "Tue, 14 Jul 2026 18:20:52 GMT",
-      "summary": "Trump pays E Jean Carroll $5.6mn in assault and defamation case\nFunds president owed had been in a government account as he appealed against the verdict and judgment"
+      "published": "Tue, 14 Jul 2026 22:13:55 GMT",
+      "summary": "Spain reach second World Cup final with comfortable win over France\nSpanish players put on calm and controlled display in 2-0 victory over the tournament favourites"
     },
     {
-      "title": "Brinkmanship in the Strait of Hormuz",
-      "link": "https://www.ft.com/content/862aa8f3-2e08-4dbc-ba7f-e85a69b25748",
-      "raw_summary": "America’s president is trapped, but Tehran is overplaying its hand",
+      "title": "Manic markets show no mercy to IBM",
+      "link": "https://www.ft.com/content/cfec51c1-0435-457f-a140-f302ca6a4e0b",
+      "raw_summary": "Failure will apparently not be tolerated",
       "source": "World",
-      "published": "Tue, 14 Jul 2026 17:37:57 GMT",
-      "summary": "Brinkmanship in the Strait of Hormuz\nAmerica’s president is trapped, but Tehran is overplaying its hand"
+      "published": "Tue, 14 Jul 2026 22:07:17 GMT",
+      "summary": "Manic markets show no mercy to IBM\nFailure will apparently not be tolerated"
     },
     {
-      "title": "US banks results as they happened: Wall Street banks post blockbuster profits as equities trading booms",
-      "link": "https://www.ft.com/content/f4231724-bb67-4cfd-81e2-d20f4badb82e",
-      "raw_summary": "JPMorgan, Goldman, Citi and BofA kick off earnings season with strong results",
+      "title": "FirstFT: Wall Street banks shatter records on AI-stock trading frenzy",
+      "link": "https://www.ft.com/content/6470bbd1-ec3b-44c7-a767-405b99d0b342",
+      "raw_summary": "Also in today’s newsletter: IBM shares plunge and DeepSeek weighs new fundraising",
       "source": "World",
-      "published": "Tue, 14 Jul 2026 17:08:35 GMT",
-      "summary": "US banks results as they happened: Wall Street banks post blockbuster profits as equities trading booms\nJPMorgan, Goldman, Citi and BofA kick off earnings season with strong results"
+      "published": "Tue, 14 Jul 2026 21:57:17 GMT",
+      "summary": "FirstFT: Wall Street banks shatter records on AI-stock trading frenzy\nAlso in today’s newsletter: IBM shares plunge and DeepSeek weighs new fundraising"
     },
     {
-      "title": "European defence groups plan interceptor system to destroy missiles in space",
-      "link": "https://www.ft.com/content/8280d5cf-a117-4dd2-bf69-dbe3ac199a18",
-      "raw_summary": "Programme intended to plug gaps in air defence and will draw on lessons from war in Ukraine",
+      "title": "UK teenagers face midnight curfew on using social media platforms",
+      "link": "https://www.ft.com/content/e3dc6768-8c8a-4e1e-9efc-a431b739a929",
+      "raw_summary": "Addictive features such as autoplay videos and infinite scrolling will be switched off under planned laws",
       "source": "World",
-      "published": "Tue, 14 Jul 2026 17:00:42 GMT",
-      "summary": "European defence groups plan interceptor system to destroy missiles in space\nProgramme intended to plug gaps in air defence and will draw on lessons from war in Ukraine"
+      "published": "Tue, 14 Jul 2026 21:30:04 GMT",
+      "summary": "UK teenagers face midnight curfew on using social media platforms\nAddictive features such as autoplay videos and infinite scrolling will be switched off under planned laws"
+    },
+    {
+      "title": "U.S. CFTC moves to stop Kalshi from canceling trades as ordered by Michigan court",
+      "link": "https://www.coindesk.com/policy/2026/07/14/u-s-cftc-moves-to-stop-kalshi-from-canceling-trades-as-ordered-by-michigan-court",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Tue, 14 Jul 2026 20:51:05 +0000",
+      "summary": "U.S. CFTC moves to stop Kalshi from canceling trades as ordered by Michigan court\n"
     },
     {
       "title": "Some U.S. Senate Democrats come out against Clarity Act, calling it a 'corrupt' bill",
@@ -273,14 +281,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Tue, 14 Jul 2026 16:59:44 +0000",
       "summary": "Mizuho downgrades Circle to underperform, cuts price target to $50 on Open USD threat\n"
-    },
-    {
-      "title": "Wikipedia blackout could hurt how AI engines like ChatGPT understand crypto",
-      "link": "https://www.coindesk.com/policy/2026/07/14/wikipedia-blackout-could-hurt-how-ai-engines-like-chatgpt-understand-crypto",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 14 Jul 2026 16:39:26 +0000",
-      "summary": "Wikipedia blackout could hurt how AI engines like ChatGPT understand crypto\n"
     }
   ]
 }
