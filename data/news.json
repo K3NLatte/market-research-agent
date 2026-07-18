@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T18:55:18.823175+00:00",
+  "generated_at": "2026-07-18T01:46:48.027696+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial\nTwo men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London, the entity responsible for the public transport network in the Greater London area. The duo "
     },
     {
+      "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
+      "link": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
+      "raw_summary": "An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable.\n\nEvery 6.9 and 7.0 site was in range until Friday, when WordPress shipped 6.9.5 and 7.0.2 and enabled what it calls forced updates through its auto-update system.\n\nAdam Kues at Assetnote, Searchlight Cyber's attack surface management arm, found the flaw and reported",
+      "source": "The Hacker News",
+      "published": "Sat, 18 Jul 2026 02:50:10 +0530",
+      "summary": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code\nAn anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable.\n\nEvery 6.9 and 7.0 site was in range until Friday, when WordPress shipped 6.9.5 and 7.0.2 and e"
+    },
+    {
+      "title": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests",
+      "link": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
+      "raw_summary": "Eleven bytes will make an unpatched OpenSSL server set aside up to 131 KB of memory for a message that never arrives. On the glibc systems Okta tested, that memory is gone until the process restarts.\n\nOpenSSL shipped the HollowByte fix in June with no CVE, no advisory, and no changelog entry pointing at it. Okta's Red Team, which reported the denial-of-service bug and named it, published the",
+      "source": "The Hacker News",
+      "published": "Sat, 18 Jul 2026 01:50:53 +0530",
+      "summary": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests\nEleven bytes will make an unpatched OpenSSL server set aside up to 131 KB of memory for a message that never arrives. On the glibc systems Okta tested, that memory is gone until the process restarts.\n\nOpenSSL shipped the Ho"
+    },
+    {
+      "title": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
+      "link": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
+      "raw_summary": "Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack.\n\nThe malicious package campaign, codenamed ViteVenom by Checkmarx, marks an expansion of ChainVeil, which was observed using an \"unprecedented\" four-tier blockchain-based command-and-control (C2) infrastructure spanning Tron,",
+      "source": "The Hacker News",
+      "published": "Sat, 18 Jul 2026 00:24:51 +0530",
+      "summary": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT\nCybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack.\n\nThe malicious package campaign, codenamed ViteVenom by Ch"
+    },
+    {
       "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
       "link": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
       "raw_summary": "A Go botnet called NadMesh turned up in early July hunting exposed AI services, and the operator's own dashboard claims 3,811 unique AWS keys.\n\nA Shodan harvester keeps the scan queue stocked with ComfyUI, Ollama, n8n, Open WebUI, Langflow, and Gradio: the image generators, local model runners, and workflow builders that teams stand up fast and firewall late.\n\nThe intel feed behind that counter",
@@ -59,108 +83,116 @@
       "summary": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft\nCybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine.\n\nExpel, which shared technical details of the event, described the threat acto"
     },
     {
-      "title": "Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images",
-      "link": "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html",
-      "raw_summary": "North Korean threat actors linked to the Contagious Interview campaign have been observed employing steganography in SVG image files to conceal malicious payloads as part of a campaign using fake job postings and coding challenges.\n\n\"Any user who ran the project ended up with a four-stage payload aligned with OTTERCOOKIE: a browser credential and crypto wallet stealer, a file stealer, a",
-      "source": "The Hacker News",
-      "published": "Fri, 17 Jul 2026 19:18:56 +0530",
-      "summary": "Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images\nNorth Korean threat actors linked to the Contagious Interview campaign have been observed employing steganography in SVG image files to conceal malicious payloads as part of a campaign using fake job postings and coding "
-    },
-    {
-      "title": "E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants",
-      "link": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html",
-      "raw_summary": "The European Commission on Thursday ordered Google to give rival AI assistants the same reach into Android that Gemini already has: the camera, the microphone, whatever is on screen, a wake word that fires with the display off, and the ability to drive other apps in the background by imitating taps and typing.\n\nGoogle has to ship it in the next major release, Android 18, and by 1 August 2027 at",
-      "source": "The Hacker News",
-      "published": "Fri, 17 Jul 2026 17:14:41 +0530",
-      "summary": "E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants\nThe European Commission on Thursday ordered Google to give rival AI assistants the same reach into Android that Gemini already has: the camera, the microphone, whatever is on screen, a wake word that fires with the disp"
-    },
-    {
-      "title": "The Race to Field Military Autonomy Is On, Can Trusted Information Infrastructure Keep Pace?",
-      "link": "https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html",
-      "raw_summary": "Military forces are under increasing pressure to field autonomous capabilities faster than ever before. Across the U.S., UK, and NATO, new investment, evolving defense strategies, and accelerated acquisition pathways are transforming how capability is delivered, rewarding programs that can move from concept to operational deployment at commercial speed.\n\nNow the focus shifts to the trusted",
-      "source": "The Hacker News",
-      "published": "Fri, 17 Jul 2026 17:00:00 +0530",
-      "summary": "The Race to Field Military Autonomy Is On, Can Trusted Information Infrastructure Keep Pace?\nMilitary forces are under increasing pressure to field autonomous capabilities faster than ever before. Across the U.S., UK, and NATO, new investment, evolving defense strategies, and accelerated acquisition"
-    },
-    {
-      "title": "Learning a few things about running SQLite",
-      "link": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/",
-      "raw_summary": "<p>Article URL: <a href=\"https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/\">https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48950122\">https://news.ycombinator.com/item?id=48950122</a></p>\n<p>Points: 13</p>\n<p># Comments: 0</p>",
+      "title": "I Started a \"Dirt Notebook\"",
+      "link": "https://pinewind.bearblog.dev/i-started-a-dirt-notebook/",
+      "raw_summary": "<p>Article URL: <a href=\"https://pinewind.bearblog.dev/i-started-a-dirt-notebook/\">https://pinewind.bearblog.dev/i-started-a-dirt-notebook/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48954149\">https://news.ycombinator.com/item?id=48954149</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 17 Jul 2026 17:45:41 +0000",
-      "summary": "Learning a few things about running SQLite\n<p>Article URL: <a href=\"https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/\">https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48950122\">https://news.ycombinator"
+      "published": "Sat, 18 Jul 2026 01:12:13 +0000",
+      "summary": "I Started a \"Dirt Notebook\"\n<p>Article URL: <a href=\"https://pinewind.bearblog.dev/i-started-a-dirt-notebook/\">https://pinewind.bearblog.dev/i-started-a-dirt-notebook/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48954149\">https://news.ycombinator.com/item?id=48954149</a></"
     },
     {
-      "title": "Homomorphically encrypted CIFAR-10 inference in 200ms",
-      "link": "https://sofar.belfortlabs.cloud/",
-      "raw_summary": "<p>Article URL: <a href=\"https://sofar.belfortlabs.cloud/\">https://sofar.belfortlabs.cloud/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48949240\">https://news.ycombinator.com/item?id=48949240</a></p>\n<p>Points: 9</p>\n<p># Comments: 2</p>",
+      "title": "DrDroid (YC W23) Is Hiring",
+      "link": "https://www.ycombinator.com/companies/drdroid/jobs/w45QcNV-product-engineer-assignment-mandatory",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/drdroid/jobs/w45QcNV-product-engineer-assignment-mandatory\">https://www.ycombinator.com/companies/drdroid/jobs/w45QcNV-product-engineer-assignment-mandatory</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48954074\">https://news.ycombinator.com/item?id=48954074</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 17 Jul 2026 16:29:52 +0000",
-      "summary": "Homomorphically encrypted CIFAR-10 inference in 200ms\n<p>Article URL: <a href=\"https://sofar.belfortlabs.cloud/\">https://sofar.belfortlabs.cloud/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48949240\">https://news.ycombinator.com/item?id=48949240</a></p>\n<p>Points: 9</p>\n<p"
+      "published": "Sat, 18 Jul 2026 01:01:08 +0000",
+      "summary": "DrDroid (YC W23) Is Hiring\n<p>Article URL: <a href=\"https://www.ycombinator.com/companies/drdroid/jobs/w45QcNV-product-engineer-assignment-mandatory\">https://www.ycombinator.com/companies/drdroid/jobs/w45QcNV-product-engineer-assignment-mandatory</a></p>\n<p>Comments URL: <a href=\"https://news.ycombi"
     },
     {
-      "title": "Designing emoji for the way we communicate today",
-      "link": "https://blog.google/products-and-platforms/platforms/android/world-emoji-day-noto-3d/",
-      "raw_summary": "<p>Article URL: <a href=\"https://blog.google/products-and-platforms/platforms/android/world-emoji-day-noto-3d/\">https://blog.google/products-and-platforms/platforms/android/world-emoji-day-noto-3d/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48949184\">https://news.ycombinator.com/item?id=48949184</a></p>\n<p>Points: 22</p>\n<p># Comments: 14</p>",
+      "title": "A grumpy screed about AI in software engineering",
+      "link": "https://sam.sutch.net/posts/a-grumpy-ai-screed",
+      "raw_summary": "<p>Article URL: <a href=\"https://sam.sutch.net/posts/a-grumpy-ai-screed\">https://sam.sutch.net/posts/a-grumpy-ai-screed</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48953924\">https://news.ycombinator.com/item?id=48953924</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 17 Jul 2026 16:24:13 +0000",
-      "summary": "Designing emoji for the way we communicate today\n<p>Article URL: <a href=\"https://blog.google/products-and-platforms/platforms/android/world-emoji-day-noto-3d/\">https://blog.google/products-and-platforms/platforms/android/world-emoji-day-noto-3d/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombi"
+      "published": "Sat, 18 Jul 2026 00:40:08 +0000",
+      "summary": "A grumpy screed about AI in software engineering\n<p>Article URL: <a href=\"https://sam.sutch.net/posts/a-grumpy-ai-screed\">https://sam.sutch.net/posts/a-grumpy-ai-screed</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48953924\">https://news.ycombinator.com/item?id=48953924</a><"
     },
     {
-      "title": "Show HN: Explore the Workspaces of Modern Creators",
-      "link": "https://workspaces.xyz/",
-      "raw_summary": "<p>Article URL: <a href=\"https://workspaces.xyz/\">https://workspaces.xyz/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48948693\">https://news.ycombinator.com/item?id=48948693</a></p>\n<p>Points: 35</p>\n<p># Comments: 28</p>",
+      "title": "Native C# CEL Implementation",
+      "link": "https://www.nuget.org/packages/Celly",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.nuget.org/packages/Celly\">https://www.nuget.org/packages/Celly</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48953830\">https://news.ycombinator.com/item?id=48953830</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 17 Jul 2026 15:41:05 +0000",
-      "summary": "Show HN: Explore the Workspaces of Modern Creators\n<p>Article URL: <a href=\"https://workspaces.xyz/\">https://workspaces.xyz/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48948693\">https://news.ycombinator.com/item?id=48948693</a></p>\n<p>Points: 35</p>\n<p># Comments: 28</p>"
+      "published": "Sat, 18 Jul 2026 00:22:33 +0000",
+      "summary": "Native C# CEL Implementation\n<p>Article URL: <a href=\"https://www.nuget.org/packages/Celly\">https://www.nuget.org/packages/Celly</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48953830\">https://news.ycombinator.com/item?id=48953830</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p"
     },
     {
-      "title": "Frame – the first Linux Assembly X server",
-      "link": "https://isene.org/2026/07/Frame.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://isene.org/2026/07/Frame.html\">https://isene.org/2026/07/Frame.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48948597\">https://news.ycombinator.com/item?id=48948597</a></p>\n<p>Points: 54</p>\n<p># Comments: 31</p>",
+      "title": "PSA about abuse of cat(1) command. Don't abuse cats",
+      "link": "https://www.abuseofcats.com",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.abuseofcats.com\">https://www.abuseofcats.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48953719\">https://news.ycombinator.com/item?id=48953719</a></p>\n<p>Points: 6</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 17 Jul 2026 15:31:22 +0000",
-      "summary": "Frame – the first Linux Assembly X server\n<p>Article URL: <a href=\"https://isene.org/2026/07/Frame.html\">https://isene.org/2026/07/Frame.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48948597\">https://news.ycombinator.com/item?id=48948597</a></p>\n<p>Points: 54</p>\n<p># "
+      "published": "Sat, 18 Jul 2026 00:03:41 +0000",
+      "summary": "PSA about abuse of cat(1) command. Don't abuse cats\n<p>Article URL: <a href=\"https://www.abuseofcats.com\">https://www.abuseofcats.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48953719\">https://news.ycombinator.com/item?id=48953719</a></p>\n<p>Points: 6</p>\n<p># Comments:"
     },
     {
-      "title": "I replaced my space heater and ceiling fan with one Dyson appliance",
-      "link": "https://techcrunch.com/2026/07/17/i-replaced-my-space-heater-and-ceiling-fan-with-one-dyson-appliance/",
-      "raw_summary": "Designed for year-round comfort, the Dyson Hot+Cool HF1 combines quiet operation and simple controls with Dyson's signature bladeless design.",
+      "title": "Applications close in 48 hours — here’s everything Australian founders need to know about Stripe x Startup Battlefield",
+      "link": "https://techcrunch.com/2026/07/17/applications-close-in-48-hours-heres-everything-australian-founders-need-to-know-about-stripe-x-startup-battlefield/",
+      "raw_summary": "The window is almost shut. On August 19, eight startups will take the stage at Stripe Tour Sydney in front of investors, global press, and the Australian tech community. One startup walks away with automatic entry into TechCrunch Disrupt in San Francisco — no application, no further competition, a guaranteed spot on the world&#8217;s most [&#8230;]",
       "source": "TechCrunch",
-      "published": "Fri, 17 Jul 2026 18:00:17 +0000",
-      "summary": "I replaced my space heater and ceiling fan with one Dyson appliance\nDesigned for year-round comfort, the Dyson Hot+Cool HF1 combines quiet operation and simple controls with Dyson's signature bladeless design."
+      "published": "Fri, 17 Jul 2026 23:08:00 +0000",
+      "summary": "Applications close in 48 hours — here’s everything Australian founders need to know about Stripe x Startup Battlefield\nThe window is almost shut. On August 19, eight startups will take the stage at Stripe Tour Sydney in front of investors, global press, and the Australian tech community. One startup"
     },
     {
-      "title": "How Apple’s big lawsuit could disrupt OpenAI’s IPO plans",
-      "link": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
-      "raw_summary": "Apple&#160;filed a trade secrets&#160;lawsuit against OpenAI&#160;last Friday, and&#160;it&#8217;s&#160;not messing around. The complaint alleges a pattern of misconduct reaching all the way up to OpenAI&#8217;s chief hardware officer and claims more than 400 former Apple employees now work at the company.&#160;OpenAI&#8217;s response so far&#160;has been carefully hedged, and the timing&#160;couldn&#8217;t&#160;be worse with the company&#160;reportedly eyeing&#160;an IPO [&#8230;]",
+      "title": "Vertu wants executives to pay $6,880 for an AI agent — here’s how it actually performs",
+      "link": "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/",
+      "raw_summary": "From AI workflows to battery life and security, here's what it's really like to live with Vertu's luxury foldable every day.",
       "source": "TechCrunch",
-      "published": "Fri, 17 Jul 2026 17:45:46 +0000",
-      "summary": "How Apple’s big lawsuit could disrupt OpenAI’s IPO plans\nApple&#160;filed a trade secrets&#160;lawsuit against OpenAI&#160;last Friday, and&#160;it&#8217;s&#160;not messing around. The complaint alleges a pattern of misconduct reaching all the way up to OpenAI&#8217;s chief hardware officer and clai"
+      "published": "Fri, 17 Jul 2026 22:55:09 +0000",
+      "summary": "Vertu wants executives to pay $6,880 for an AI agent — here’s how it actually performs\nFrom AI workflows to battery life and security, here's what it's really like to live with Vertu's luxury foldable every day."
     },
     {
-      "title": "FBI arrests man accused of using Steam games to drain victims’ crypto wallets",
-      "link": "https://techcrunch.com/2026/07/17/fbi-arrests-man-accused-of-using-steam-games-to-drain-victims-crypto-wallets/",
-      "raw_summary": "Prosecutors accused 21-year-old student Zyaire Wilkins of publishing on Steam several fake video games that contained malware, infecting thousands of victims, and stealing crypto from some of them.",
+      "title": "Databricks hits $188B valuation, extending its run as AI’s favorite second act",
+      "link": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
+      "raw_summary": "Databricks has remade its image into an AI company and has published research on the cost savings of open weight AI models for coding.",
       "source": "TechCrunch",
-      "published": "Fri, 17 Jul 2026 16:18:09 +0000",
-      "summary": "FBI arrests man accused of using Steam games to drain victims’ crypto wallets\nProsecutors accused 21-year-old student Zyaire Wilkins of publishing on Steam several fake video games that contained malware, infecting thousands of victims, and stealing crypto from some of them."
+      "published": "Fri, 17 Jul 2026 22:12:56 +0000",
+      "summary": "Databricks hits $188B valuation, extending its run as AI’s favorite second act\nDatabricks has remade its image into an AI company and has published research on the cost savings of open weight AI models for coding."
     },
     {
-      "title": "Parents want safer phones for kids. These companies are answering the call.",
-      "link": "https://techcrunch.com/2026/07/17/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call/",
-      "raw_summary": "As parents look for alternatives to unrestricted smartphones, a growing number of companies are building phones designed specifically for kids, from feature-limited mobile devices to minimalist home phones.",
+      "title": "The Zoom hack that says, ‘Don’t record me’",
+      "link": "https://techcrunch.com/2026/07/17/the-zoom-hack-that-says-dont-record-me/",
+      "raw_summary": "If every meeting, watercooler conversation, and date gets transcribed and summarized, who's actually reading any of it?",
       "source": "TechCrunch",
-      "published": "Fri, 17 Jul 2026 16:12:46 +0000",
-      "summary": "Parents want safer phones for kids. These companies are answering the call.\nAs parents look for alternatives to unrestricted smartphones, a growing number of companies are building phones designed specifically for kids, from feature-limited mobile devices to minimalist home phones."
+      "published": "Fri, 17 Jul 2026 21:20:47 +0000",
+      "summary": "The Zoom hack that says, ‘Don’t record me’\nIf every meeting, watercooler conversation, and date gets transcribed and summarized, who's actually reading any of it?"
     },
     {
-      "title": "Amazon fixing bug that billed some AWS customers billions of dollars",
-      "link": "https://techcrunch.com/2026/07/17/amazon-fixing-bug-that-billed-some-aws-customers-billions-of-dollars/",
-      "raw_summary": "Some Amazon customers logged on Friday to a surprise bill estimate claiming that they owed the tech and cloud giant billions in fees.",
+      "title": "Agility Robotics plants its flag in Tesla’s backyard",
+      "link": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/",
+      "raw_summary": "Agility is opening a new training center for its Digit robots in Fremont, California.",
       "source": "TechCrunch",
-      "published": "Fri, 17 Jul 2026 15:29:21 +0000",
-      "summary": "Amazon fixing bug that billed some AWS customers billions of dollars\nSome Amazon customers logged on Friday to a surprise bill estimate claiming that they owed the tech and cloud giant billions in fees."
+      "published": "Fri, 17 Jul 2026 20:19:49 +0000",
+      "summary": "Agility Robotics plants its flag in Tesla’s backyard\nAgility is opening a new training center for its Digit robots in Fremont, California."
+    },
+    {
+      "title": "Google-backed satellites for wildfire detection launch as smoke chokes US, Canada",
+      "link": "https://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada/",
+      "raw_summary": "The FireSat program can spot wildfires that other satellites miss.",
+      "source": "Ars Technica - All content",
+      "published": "Fri, 17 Jul 2026 19:50:18 +0000",
+      "summary": "Google-backed satellites for wildfire detection launch as smoke chokes US, Canada\nThe FireSat program can spot wildfires that other satellites miss."
+    },
+    {
+      "title": "The Pentagon's Space Development Agency hasn't moved as fast as anyone would like",
+      "link": "https://arstechnica.com/space/2026/07/the-pentagons-space-development-agency-hasnt-moved-as-fast-as-anyone-would-like/",
+      "raw_summary": "\"Missiles are being launched at the joint force every single day in [Operation] Epic Fury.\"",
+      "source": "Ars Technica - All content",
+      "published": "Fri, 17 Jul 2026 19:19:42 +0000",
+      "summary": "The Pentagon's Space Development Agency hasn't moved as fast as anyone would like\n\"Missiles are being launched at the joint force every single day in [Operation] Epic Fury.\""
+    },
+    {
+      "title": "Hegseth wants a \"High-T\" military; doctors call it a clinical minefield",
+      "link": "https://arstechnica.com/health/2026/07/hegseth-wants-a-high-t-military-doctors-call-it-a-clinical-minefield/",
+      "raw_summary": "\"We're turning the clock back on rational healthcare.\"",
+      "source": "Ars Technica - All content",
+      "published": "Fri, 17 Jul 2026 18:53:11 +0000",
+      "summary": "Hegseth wants a \"High-T\" military; doctors call it a clinical minefield\n\"We're turning the clock back on rational healthcare.\""
+    },
+    {
+      "title": "Taco Bell iceberg lettuce identified as source of cyclosporiasis in 5 states",
+      "link": "https://arstechnica.com/health/2026/07/taco-bell-iceburg-lettuce-identified-as-source-of-cyclosporiasis-in-5-states/",
+      "raw_summary": "Don't eat Taco Bell lettuce in Indiana, Kentucky, Michigan, Ohio, or West Virginia.",
+      "source": "Ars Technica - All content",
+      "published": "Fri, 17 Jul 2026 18:45:23 +0000",
+      "summary": "Taco Bell iceberg lettuce identified as source of cyclosporiasis in 5 states\nDon't eat Taco Bell lettuce in Indiana, Kentucky, Michigan, Ohio, or West Virginia."
     },
     {
       "title": "Troubling new details emerge on diabetes ouster controversy",
@@ -171,116 +203,84 @@
       "summary": "Troubling new details emerge on diabetes ouster controversy\nAmerican Diabetes Association blocked publication of op-ed articles so the authors posted them as a preprint."
     },
     {
-      "title": "Will Russia's answer to the Falcon 9 rocket ever take flight?",
-      "link": "https://arstechnica.com/space/2026/07/will-russias-answer-to-the-falcon-9-rocket-ever-take-flight/",
-      "raw_summary": "Grasshopper-like tests could begin in 2028.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 17 Jul 2026 16:42:19 +0000",
-      "summary": "Will Russia's answer to the Falcon 9 rocket ever take flight?\nGrasshopper-like tests could begin in 2028."
-    },
-    {
-      "title": "Fubo hikes prices by $15 after restoring some NBCU channels lost in November",
-      "link": "https://arstechnica.com/gadgets/2026/07/fubo-hikes-prices-by-15-after-restoring-some-nbcu-channels-lost-in-november/",
-      "raw_summary": "Fubo subscribers still don't have Versant channels.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 17 Jul 2026 16:24:21 +0000",
-      "summary": "Fubo hikes prices by $15 after restoring some NBCU channels lost in November\nFubo subscribers still don't have Versant channels."
-    },
-    {
-      "title": "San Francisco orders Apple, Google to remove nudify apps from app stores",
-      "link": "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/",
-      "raw_summary": "Official estimates Google and Apple likely made millions in nudify app fees.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 17 Jul 2026 16:10:05 +0000",
-      "summary": "San Francisco orders Apple, Google to remove nudify apps from app stores\nOfficial estimates Google and Apple likely made millions in nudify app fees."
-    },
-    {
-      "title": "Ars is looking for a senior technology reporter, and you might be it!",
-      "link": "https://arstechnica.com/staff/2026/07/ars-is-looking-for-a-senior-technology-reporter-and-you-might-be-it/",
-      "raw_summary": "Desktops, laptops, phones, CPUs, GPUs, NAS—if you know this stuff, come work for us!",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 17 Jul 2026 15:52:28 +0000",
-      "summary": "Ars is looking for a senior technology reporter, and you might be it!\nDesktops, laptops, phones, CPUs, GPUs, NAS—if you know this stuff, come work for us!"
-    },
-    {
-      "title": "How long can oil markets absorb the Hormuz shock?",
-      "link": "https://www.ft.com/content/55f5860b-6ef0-42ed-a87f-c49af6ef9d29",
-      "raw_summary": "Improvements in oil intensity have cushioned the global economy so far — but could prompt reckless political choices",
+      "title": "Trump threatens Canada with tariffs over ‘invasion’ of wildfire smoke",
+      "link": "https://www.ft.com/content/fa4e24db-9324-47e2-8512-a581ca9c1aba?syn-25a6b1a6=1",
+      "raw_summary": "President to call PM Mark Carney over ‘filthy, polluted’ air wafting over US cities",
       "source": "World",
-      "published": "Fri, 17 Jul 2026 17:52:37 GMT",
-      "summary": "How long can oil markets absorb the Hormuz shock?\nImprovements in oil intensity have cushioned the global economy so far — but could prompt reckless political choices"
+      "published": "Fri, 17 Jul 2026 20:56:10 GMT",
+      "summary": "Trump threatens Canada with tariffs over ‘invasion’ of wildfire smoke\nPresident to call PM Mark Carney over ‘filthy, polluted’ air wafting over US cities"
     },
     {
-      "title": "Britain’s Burnham and nostalgia for a semi-imaginary past",
-      "link": "https://www.ft.com/content/5fdb4431-e714-40d3-afe6-44b7f0f9fcf7?syn-25a6b1a6=1",
-      "raw_summary": "The new prime minister has to set out a coherent and business-friendly platform",
+      "title": "Trump Media pitched $100,000 monthly fee for fast feed of president’s posts",
+      "link": "https://www.ft.com/content/e466df85-fa3b-4a7f-a4a1-ae04d66db99f?syn-25a6b1a6=1",
+      "raw_summary": "Family company has quoted the six-figure sum for high-speed access to Truth Social platform",
       "source": "World",
-      "published": "Fri, 17 Jul 2026 17:32:38 GMT",
-      "summary": "Britain’s Burnham and nostalgia for a semi-imaginary past\nThe new prime minister has to set out a coherent and business-friendly platform"
+      "published": "Fri, 17 Jul 2026 20:24:36 GMT",
+      "summary": "Trump Media pitched $100,000 monthly fee for fast feed of president’s posts\nFamily company has quoted the six-figure sum for high-speed access to Truth Social platform"
     },
     {
-      "title": "Jeffrey Donaldson seeks to appeal child sex convictions",
-      "link": "https://www.ft.com/content/ac42361f-44a5-4448-8ab6-f32497428314?syn-25a6b1a6=1",
-      "raw_summary": "Hearing on the application could happen in September, say former DUP leader’s lawyers",
+      "title": "US chip stocks notch up worst week in more than a year",
+      "link": "https://www.ft.com/content/79a15abd-5892-4f1c-b038-b09a1ceecabb?syn-25a6b1a6=1",
+      "raw_summary": "High-flying semiconductor shares fall as ‘momentum trades’ backfire",
       "source": "World",
-      "published": "Fri, 17 Jul 2026 17:32:04 GMT",
-      "summary": "Jeffrey Donaldson seeks to appeal child sex convictions\nHearing on the application could happen in September, say former DUP leader’s lawyers"
+      "published": "Fri, 17 Jul 2026 20:22:31 GMT",
+      "summary": "US chip stocks notch up worst week in more than a year\nHigh-flying semiconductor shares fall as ‘momentum trades’ backfire"
     },
     {
-      "title": "EU set to delay fines for breaking methane rules after US pressure",
-      "link": "https://www.ft.com/content/e121d6ad-6d5f-4895-bacf-aff56d5a2eeb?syn-25a6b1a6=1",
-      "raw_summary": "Move unlikely to satisfy energy companies that want a rewrite of law on leaks and flaring of polluting gas",
+      "title": "Apple briefly leapfrogs Nvidia as world’s most valuable company",
+      "link": "https://www.ft.com/content/9586223a-8339-4a57-9e2f-251899ebd211?syn-25a6b1a6=1",
+      "raw_summary": "Shares in iPhone maker have escaped AI sell-off that has hit chipmaker",
       "source": "World",
-      "published": "Fri, 17 Jul 2026 17:26:22 GMT",
-      "summary": "EU set to delay fines for breaking methane rules after US pressure\nMove unlikely to satisfy energy companies that want a rewrite of law on leaks and flaring of polluting gas"
+      "published": "Fri, 17 Jul 2026 20:17:44 GMT",
+      "summary": "Apple briefly leapfrogs Nvidia as world’s most valuable company\nShares in iPhone maker have escaped AI sell-off that has hit chipmaker"
     },
     {
-      "title": "Paris and Berlin vow to align on tougher trade measures against China",
-      "link": "https://www.ft.com/content/e8f185db-9b5c-4d0c-8e5e-e130483f151d?syn-25a6b1a6=1",
-      "raw_summary": "French President Emmanuel Macron and German Chancellor Friedrich Merz to push for EU ‘safeguard’ trade measures",
+      "title": "The Burnham era begins: Mahmood set for chancellor",
+      "link": "https://www.ft.com/content/1a3e03b0-bd7a-41de-bf3f-92ed5c723773?syn-25a6b1a6=1",
+      "raw_summary": "Plus, Starmer’s farewell",
       "source": "World",
-      "published": "Fri, 17 Jul 2026 17:14:00 GMT",
-      "summary": "Paris and Berlin vow to align on tougher trade measures against China\nFrench President Emmanuel Macron and German Chancellor Friedrich Merz to push for EU ‘safeguard’ trade measures"
+      "published": "Fri, 17 Jul 2026 19:03:33 GMT",
+      "summary": "The Burnham era begins: Mahmood set for chancellor\nPlus, Starmer’s farewell"
     },
     {
-      "title": "US Oil Rig Count Notches Longest Streak Without Drop Since 2022",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-17/us-oil-rig-count-notches-longest-streak-without-drop-since-2022",
-      "raw_summary": "Drilling in the US oil patch achieved the longest stretch without a decrease in activity in more than four years, supporting shale’s expansion amid higher prices driven by the Iran war.",
+      "title": "Apple Briefly Tops Nvidia as World’s Most Valuable Company",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-17/apple-tops-nvidia-as-world-s-largest-company-amid-tech-rotation",
+      "raw_summary": "Apple Inc. briefly overtook Nvidia Corp. as the world’s most valuable company, a title the chipmaker has held since May 2025.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 17 Jul 2026 18:30:43 GMT",
-      "summary": "US Oil Rig Count Notches Longest Streak Without Drop Since 2022\nDrilling in the US oil patch achieved the longest stretch without a decrease in activity in more than four years, supporting shale’s expansion amid higher prices driven by the Iran war."
+      "published": "Fri, 17 Jul 2026 13:42:06 GMT",
+      "summary": "Apple Briefly Tops Nvidia as World’s Most Valuable Company\nApple Inc. briefly overtook Nvidia Corp. as the world’s most valuable company, a title the chipmaker has held since May 2025."
     },
     {
-      "title": "US Stocks Decline as Traders Fear Another ‘DeepSeek Moment’",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-17/us-stock-index-futures-slide-as-jitters-grow-on-chip-selloff",
-      "raw_summary": "US stocks fell on Friday as semiconductor names dipped following the reveal of an artificial-intelligence model from a Chinese startup.",
+      "title": "Baker Tilly Eyes $3 Billion in Debt to Replace Private Credit",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-17/baker-tilly-eyes-3-billion-in-debt-to-replace-private-credit",
+      "raw_summary": "Deutsche Bank AG is preparing to sell about $3 billion in debt markets for accounting services firm Baker Tilly Advisory Group to refinance private credit loans, according to people familiar with the matter.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 17 Jul 2026 08:13:01 GMT",
-      "summary": "US Stocks Decline as Traders Fear Another ‘DeepSeek Moment’\nUS stocks fell on Friday as semiconductor names dipped following the reveal of an artificial-intelligence model from a Chinese startup."
+      "published": "Fri, 17 Jul 2026 22:10:11 GMT",
+      "summary": "Baker Tilly Eyes $3 Billion in Debt to Replace Private Credit\nDeutsche Bank AG is preparing to sell about $3 billion in debt markets for accounting services firm Baker Tilly Advisory Group to refinance private credit loans, according to people familiar with the matter."
     },
     {
-      "title": "Chip Stocks Poised for Bear Market in AI Unwind: Markets Wrap",
+      "title": "Chip Stocks Slide Into Bear Market in AI Unwind: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-07-16/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "A selloff in chipmakers gathered pace on Friday, driving the group that has led this year’s stock rally toward a bear market on worries that the artificial-intelligence spending spree is becoming harder to justify.",
+      "raw_summary": "A selloff in chipmakers gathered pace, driving the high-profile group of stocks to a bear market on worries that the artificial-intelligence spending spree is becoming harder to justify.",
       "source": "Bloomberg Markets",
       "published": "Thu, 16 Jul 2026 22:05:23 GMT",
-      "summary": "Chip Stocks Poised for Bear Market in AI Unwind: Markets Wrap\nA selloff in chipmakers gathered pace on Friday, driving the group that has led this year’s stock rally toward a bear market on worries that the artificial-intelligence spending spree is becoming harder to justify."
+      "summary": "Chip Stocks Slide Into Bear Market in AI Unwind: Markets Wrap\nA selloff in chipmakers gathered pace, driving the high-profile group of stocks to a bear market on worries that the artificial-intelligence spending spree is becoming harder to justify."
     },
     {
-      "title": "Griffin Wants to Buy Old Cottage Across From New Citadel HQ",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-17/griffin-wants-to-buy-an-old-cottage-across-from-new-headquarters",
-      "raw_summary": "Ken Griffin has gone to extraordinary lengths to assemble parcels of land around his planned Citadel headquarters in Miami, including buying up all 138 units in a condo building across the street.",
+      "title": "Gauge of Oracle’s Credit Risk Hits Fresh All Time High",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-17/gauge-of-oracle-s-credit-risk-hits-fresh-all-time-high",
+      "raw_summary": "A measure of Oracle Corp.’s credit risk hit a record high on Friday as concerns grew about both the company’s aggressive cash-burn and the future profitability of its artificial intelligence investments amid a new Chinese model that could rival offerings from companies like OpenAI.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 17 Jul 2026 15:47:10 GMT",
-      "summary": "Griffin Wants to Buy Old Cottage Across From New Citadel HQ\nKen Griffin has gone to extraordinary lengths to assemble parcels of land around his planned Citadel headquarters in Miami, including buying up all 138 units in a condo building across the street."
+      "published": "Fri, 17 Jul 2026 21:43:03 GMT",
+      "summary": "Gauge of Oracle’s Credit Risk Hits Fresh All Time High\nA measure of Oracle Corp.’s credit risk hit a record high on Friday as concerns grew about both the company’s aggressive cash-burn and the future profitability of its artificial intelligence investments amid a new Chinese model that could rival "
     },
     {
-      "title": "Blue Owl-Backed Latigo Files for IPO, Adding to Biotech Pipeline",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-17/blue-owl-backed-latigo-files-for-ipo-adding-to-biotech-pipeline",
-      "raw_summary": "Latigo Biotherapeutics Inc. filed for an initial public offering, joining a growing list of biotechnology firms considering going public as soon as this quarter.",
+      "title": "CoreLogic Wraps Up $5.25 Billion Debt Deal With Hefty Yields",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-16/corelogic-in-talks-to-sweeten-terms-on-struggling-debt-sale",
+      "raw_summary": "CoreLogic Inc. raised $5.25 billion from a debt sale after amending the terms and offering some of the year’s highest yields in response to lukewarm investor demand.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 17 Jul 2026 17:48:40 GMT",
-      "summary": "Blue Owl-Backed Latigo Files for IPO, Adding to Biotech Pipeline\nLatigo Biotherapeutics Inc. filed for an initial public offering, joining a growing list of biotechnology firms considering going public as soon as this quarter."
+      "published": "Thu, 16 Jul 2026 21:32:22 GMT",
+      "summary": "CoreLogic Wraps Up $5.25 Billion Debt Deal With Hefty Yields\nCoreLogic Inc. raised $5.25 billion from a debt sale after amending the terms and offering some of the year’s highest yields in response to lukewarm investor demand."
     },
     {
       "title": "Polymarket traders cut Clarity Act passage odds to record low as Senate delay drags on",
@@ -307,12 +307,12 @@
       "summary": "Cardano hands core development to outside teams in decentralization push\n"
     },
     {
-      "title": "Inside Robinhood’s high-stakes bet to onboard 10 million casual users onto decentralized finance",
+      "title": "Inside Robinhood’s high-stakes bet to onboard millions of casual users onto decentralized finance",
       "link": "https://www.coindesk.com/business/2026/07/17/inside-robinhood-s-high-stakes-bet-to-onboard-10-million-casual-investors-onto-decentralized-finance",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Fri, 17 Jul 2026 15:36:39 +0000",
-      "summary": "Inside Robinhood’s high-stakes bet to onboard 10 million casual users onto decentralized finance\n"
+      "summary": "Inside Robinhood’s high-stakes bet to onboard millions of casual users onto decentralized finance\n"
     },
     {
       "title": "Japan's SBI Group is building Asia's first cross-border digital asset empire",
