@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T12:58:37.113311+00:00",
+  "generated_at": "2026-07-19T18:54:04.937373+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,22 @@
       "summary": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial\nTwo men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London, the entity responsible for the public transport network in the Greater London area. The duo "
     },
     {
+      "title": "UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware",
+      "link": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
+      "raw_summary": "Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware.\n\nAccording to the Computer Emergency Response Team of Ukraine (CERT-UA), the activity has been attributed to UAC-0145, a sub-cluster within Sandworm, an advanced hacking unit affiliated with GRU, Russia's",
+      "source": "The Hacker News",
+      "published": "Sun, 19 Jul 2026 19:00:55 +0530",
+      "summary": "UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware\nRussian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware.\n\nAccording to the Computer Emergency Res"
+    },
+    {
+      "title": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access",
+      "link": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
+      "raw_summary": "A previously undocumented threat actor has been attributed to the exploitation of recently disclosed SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances as zero-days prior their public disclosure since June 22, 2026.\n\nCybersecurity company Volexity is tracking the activity under the moniker UTA0533. The discovery was made following an incident response investigation earlier this",
+      "source": "The Hacker News",
+      "published": "Sun, 19 Jul 2026 18:48:56 +0530",
+      "summary": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access\nA previously undocumented threat actor has been attributed to the exploitation of recently disclosed SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances as zero-days prior their public disclosure since June 22, 2026."
+    },
+    {
       "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
       "link": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
       "raw_summary": "Updated July 18, 2026: the two flaws now carry CVE IDs, the full mechanism has been published, a persistent-object-cache condition has surfaced, and a working proof-of-concept is public. The story below reflects all of it.\n\nAn anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable. Every 6.9 and 7.0 site was in range until",
@@ -67,60 +83,68 @@
       "summary": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT\nCybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack.\n\nThe malicious package campaign, codenamed ViteVenom by Ch"
     },
     {
-      "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
-      "link": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
-      "raw_summary": "A Go botnet called NadMesh turned up in early July hunting exposed AI services, and the operator's own dashboard claims 3,811 unique AWS keys.\n\nA Shodan harvester keeps the scan queue stocked with ComfyUI, Ollama, n8n, Open WebUI, Langflow, and Gradio: the image generators, local model runners, and workflow builders that teams stand up fast and firewall late.\n\nThe intel feed behind that counter",
-      "source": "The Hacker News",
-      "published": "Fri, 17 Jul 2026 22:42:23 +0530",
-      "summary": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens\nA Go botnet called NadMesh turned up in early July hunting exposed AI services, and the operator's own dashboard claims 3,811 unique AWS keys.\n\nA Shodan harvester keeps the scan queue stocked with ComfyUI, Ollama, n8n,"
-    },
-    {
-      "title": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
-      "link": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
-      "raw_summary": "Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine.\n\nExpel, which shared technical details of the event, described the threat actor as a sub-group of GoldenEyeDog (aka APT-Q-27, Dragon Breath, and Miuuti Group), a Chinese cybercrime group known for its targeting of the gambling and gaming sectors using",
-      "source": "The Hacker News",
-      "published": "Fri, 17 Jul 2026 22:09:16 +0530",
-      "summary": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft\nCybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine.\n\nExpel, which shared technical details of the event, described the threat acto"
-    },
-    {
-      "title": "The death and rebirth of my home server",
-      "link": "https://sgt.hootr.club/blog/home-server-rebirth/",
-      "raw_summary": "<p>Article URL: <a href=\"https://sgt.hootr.club/blog/home-server-rebirth/\">https://sgt.hootr.club/blog/home-server-rebirth/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48966769\">https://news.ycombinator.com/item?id=48966769</a></p>\n<p>Points: 16</p>\n<p># Comments: 5</p>",
+      "title": "Less Is More: Why Audio on SoundCloud Looks Different",
+      "link": "https://developers.soundcloud.com/blog/less-is-more-why-soundcloud-low-passes-its-aac-transcodings/",
+      "raw_summary": "<p>Article URL: <a href=\"https://developers.soundcloud.com/blog/less-is-more-why-soundcloud-low-passes-its-aac-transcodings/\">https://developers.soundcloud.com/blog/less-is-more-why-soundcloud-low-passes-its-aac-transcodings/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48970372\">https://news.ycombinator.com/item?id=48970372</a></p>\n<p>Points: 8</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 19 Jul 2026 10:44:31 +0000",
-      "summary": "The death and rebirth of my home server\n<p>Article URL: <a href=\"https://sgt.hootr.club/blog/home-server-rebirth/\">https://sgt.hootr.club/blog/home-server-rebirth/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48966769\">https://news.ycombinator.com/item?id=48966769</a></p>\n<"
+      "published": "Sun, 19 Jul 2026 18:10:12 +0000",
+      "summary": "Less Is More: Why Audio on SoundCloud Looks Different\n<p>Article URL: <a href=\"https://developers.soundcloud.com/blog/less-is-more-why-soundcloud-low-passes-its-aac-transcodings/\">https://developers.soundcloud.com/blog/less-is-more-why-soundcloud-low-passes-its-aac-transcodings/</a></p>\n<p>Comments "
     },
     {
-      "title": "What I learned selling 2,500 MIDI recorders: Hardware is not so hard",
-      "link": "https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard",
-      "raw_summary": "<p>Article URL: <a href=\"https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard\">https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48966713\">https://news.ycombinator.com/item?id=48966713</a></p>\n<p>Points: 47</p>\n<p># Comments: 28</p>",
+      "title": "Neither GCC nor Clang are compliant with standard C++",
+      "link": "https://sebsite.pw/w/20260708-badstdcxx.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://sebsite.pw/w/20260708-badstdcxx.html\">https://sebsite.pw/w/20260708-badstdcxx.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48970039\">https://news.ycombinator.com/item?id=48970039</a></p>\n<p>Points: 15</p>\n<p># Comments: 6</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 19 Jul 2026 10:34:58 +0000",
-      "summary": "What I learned selling 2,500 MIDI recorders: Hardware is not so hard\n<p>Article URL: <a href=\"https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard\">https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item"
+      "published": "Sun, 19 Jul 2026 17:32:41 +0000",
+      "summary": "Neither GCC nor Clang are compliant with standard C++\n<p>Article URL: <a href=\"https://sebsite.pw/w/20260708-badstdcxx.html\">https://sebsite.pw/w/20260708-badstdcxx.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48970039\">https://news.ycombinator.com/item?id=48970039</a>"
     },
     {
-      "title": "Claude Code uses Bun written in Rust now",
-      "link": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
-      "raw_summary": "<p>Article URL: <a href=\"https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/\">https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48966569\">https://news.ycombinator.com/item?id=48966569</a></p>\n<p>Points: 116</p>\n<p># Comments: 133</p>",
+      "title": "HMD Touch 4G",
+      "link": "https://www.hmd.com/en_int/hmd-touch-4g",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.hmd.com/en_int/hmd-touch-4g\">https://www.hmd.com/en_int/hmd-touch-4g</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48969983\">https://news.ycombinator.com/item?id=48969983</a></p>\n<p>Points: 27</p>\n<p># Comments: 28</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 19 Jul 2026 10:03:23 +0000",
-      "summary": "Claude Code uses Bun written in Rust now\n<p>Article URL: <a href=\"https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/\">https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48966569\">https://news.ycombin"
+      "published": "Sun, 19 Jul 2026 17:25:03 +0000",
+      "summary": "HMD Touch 4G\n<p>Article URL: <a href=\"https://www.hmd.com/en_int/hmd-touch-4g\">https://www.hmd.com/en_int/hmd-touch-4g</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48969983\">https://news.ycombinator.com/item?id=48969983</a></p>\n<p>Points: 27</p>\n<p># Comments: 28</p>"
     },
     {
-      "title": "Qwen 3.8 Max Preview",
-      "link": "https://www.qwencloud.com/pricing/token-plan",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.qwencloud.com/pricing/token-plan\">https://www.qwencloud.com/pricing/token-plan</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48966190\">https://news.ycombinator.com/item?id=48966190</a></p>\n<p>Points: 122</p>\n<p># Comments: 62</p>",
+      "title": "The Last MPEG-4 Visual Patent Has Expired",
+      "link": "https://www.phoronix.com/news/Last-MPEG-4-Patent-Expired",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.phoronix.com/news/Last-MPEG-4-Patent-Expired\">https://www.phoronix.com/news/Last-MPEG-4-Patent-Expired</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48969635\">https://news.ycombinator.com/item?id=48969635</a></p>\n<p>Points: 42</p>\n<p># Comments: 11</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 19 Jul 2026 08:57:31 +0000",
-      "summary": "Qwen 3.8 Max Preview\n<p>Article URL: <a href=\"https://www.qwencloud.com/pricing/token-plan\">https://www.qwencloud.com/pricing/token-plan</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48966190\">https://news.ycombinator.com/item?id=48966190</a></p>\n<p>Points: 122</p>\n<p># Comm"
+      "published": "Sun, 19 Jul 2026 16:45:17 +0000",
+      "summary": "The Last MPEG-4 Visual Patent Has Expired\n<p>Article URL: <a href=\"https://www.phoronix.com/news/Last-MPEG-4-Patent-Expired\">https://www.phoronix.com/news/Last-MPEG-4-Patent-Expired</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48969635\">https://news.ycombinator.com/item?id="
     },
     {
-      "title": "Half a Second – a book about the XZ backdoor",
-      "link": "https://www.half-second.com/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.half-second.com/\">https://www.half-second.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48966139\">https://news.ycombinator.com/item?id=48966139</a></p>\n<p>Points: 32</p>\n<p># Comments: 23</p>",
+      "title": "Texas Police Spent $4.5M on Four Chevy Tahoes",
+      "link": "https://www.thedrive.com/news/how-texas-police-spent-4-5-million-on-four-chevy-tahoes",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.thedrive.com/news/how-texas-police-spent-4-5-million-on-four-chevy-tahoes\">https://www.thedrive.com/news/how-texas-police-spent-4-5-million-on-four-chevy-tahoes</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48969582\">https://news.ycombinator.com/item?id=48969582</a></p>\n<p>Points: 49</p>\n<p># Comments: 22</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 19 Jul 2026 08:48:41 +0000",
-      "summary": "Half a Second – a book about the XZ backdoor\n<p>Article URL: <a href=\"https://www.half-second.com/\">https://www.half-second.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48966139\">https://news.ycombinator.com/item?id=48966139</a></p>\n<p>Points: 32</p>\n<p># Comments: 23<"
+      "published": "Sun, 19 Jul 2026 16:38:36 +0000",
+      "summary": "Texas Police Spent $4.5M on Four Chevy Tahoes\n<p>Article URL: <a href=\"https://www.thedrive.com/news/how-texas-police-spent-4-5-million-on-four-chevy-tahoes\">https://www.thedrive.com/news/how-texas-police-spent-4-5-million-on-four-chevy-tahoes</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinat"
+    },
+    {
+      "title": "TechCrunch Mobility: The battle over robotaxi rules",
+      "link": "https://techcrunch.com/2026/07/19/techcrunch-mobility-the-battle-over-robotaxi-rules/",
+      "raw_summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part.",
+      "source": "TechCrunch",
+      "published": "Sun, 19 Jul 2026 16:05:00 +0000",
+      "summary": "TechCrunch Mobility: The battle over robotaxi rules\nWelcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part."
+    },
+    {
+      "title": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’",
+      "link": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/",
+      "raw_summary": "\"Everybody knows the Greeks are inside.\"",
+      "source": "TechCrunch",
+      "published": "Sun, 19 Jul 2026 14:52:08 +0000",
+      "summary": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’\n\"Everybody knows the Greeks are inside.\""
+    },
+    {
+      "title": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
+      "link": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+      "raw_summary": "Current AI, a non-profit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat and more.",
+      "source": "TechCrunch",
+      "published": "Sun, 19 Jul 2026 14:00:00 +0000",
+      "summary": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all\nCurrent AI, a non-profit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat and more."
     },
     {
       "title": "Waymo says San Francisco service has resumed after one-hour pause",
@@ -137,30 +161,6 @@
       "source": "TechCrunch",
       "published": "Sat, 18 Jul 2026 18:51:07 +0000",
       "summary": "Kimi: Threat or menace?\nChinese company Moonshot AI released a new version of its Kimi model this week, prompting concern about \"full AI communism.\""
-    },
-    {
-      "title": "All the EVs that were discontinued or killed off in the U.S. this year",
-      "link": "https://techcrunch.com/2026/07/18/all-the-evs-that-were-discontinued-or-killed-off-in-the-u-s-this-year/",
-      "raw_summary": "Th Honda Prologue will no longer be sold in the U.S., joining a growing list of EV models to exit the market this year.",
-      "source": "TechCrunch",
-      "published": "Sat, 18 Jul 2026 16:30:00 +0000",
-      "summary": "All the EVs that were discontinued or killed off in the U.S. this year\nTh Honda Prologue will no longer be sold in the U.S., joining a growing list of EV models to exit the market this year."
-    },
-    {
-      "title": "Federal employees can download TikTok on their work phones again",
-      "link": "https://techcrunch.com/2026/07/18/federal-employees-can-download-tiktok-on-their-work-phones-again/",
-      "raw_summary": "The Department of Justice says that federal employees can now download TikTok on their government devices.",
-      "source": "TechCrunch",
-      "published": "Sat, 18 Jul 2026 15:54:24 +0000",
-      "summary": "Federal employees can download TikTok on their work phones again\nThe Department of Justice says that federal employees can now download TikTok on their government devices."
-    },
-    {
-      "title": "A 600-mile road trip (and data) proves EV charging doesn’t suck anymore",
-      "link": "https://techcrunch.com/2026/07/18/a-600-mile-road-trip-and-data-proves-ev-charging-doesnt-suck-anymore/",
-      "raw_summary": "A recent road trip in an EV revealed just how much faster and more reliable DC Fast charging has become in the U.S.",
-      "source": "TechCrunch",
-      "published": "Sat, 18 Jul 2026 14:32:00 +0000",
-      "summary": "A 600-mile road trip (and data) proves EV charging doesn’t suck anymore\nA recent road trip in an EV revealed just how much faster and more reliable DC Fast charging has become in the U.S."
     },
     {
       "title": "As mosquito ranges expand, better monitoring is key to preventing disease",
@@ -203,124 +203,124 @@
       "summary": "Hegseth wants a \"High-T\" military; doctors call it a clinical minefield\n\"We're turning the clock back on rational healthcare.\""
     },
     {
-      "title": "Burnham should pursue a devolution ‘big bang’",
-      "link": "https://www.ft.com/content/45657e57-c8d0-4e58-b20d-d67a7bfdb050?syn-25a6b1a6=1",
-      "raw_summary": "If done right, radical decentralisation could boost UK productivity growth and living standards",
+      "title": "Boeing says it will be ready to fund new plane programme by 2030",
+      "link": "https://www.ft.com/content/c688ea11-c066-44a3-9372-2e2293e9e6f9?syn-25a6b1a6=1",
+      "raw_summary": "US group expects to have firepower to start work on 737 Max successor but warns that demand may be more of a constraint",
       "source": "World",
-      "published": "Sun, 19 Jul 2026 11:00:02 GMT",
-      "summary": "Burnham should pursue a devolution ‘big bang’\nIf done right, radical decentralisation could boost UK productivity growth and living standards"
+      "published": "Sun, 19 Jul 2026 17:22:26 GMT",
+      "summary": "Boeing says it will be ready to fund new plane programme by 2030\nUS group expects to have firepower to start work on 737 Max successor but warns that demand may be more of a constraint"
     },
     {
-      "title": "UK steel quota concessions to seal India deal pose risk to Welsh plant, say insiders",
-      "link": "https://www.ft.com/content/b0ac6cd9-e325-485a-9c0a-db5053af8d93?syn-25a6b1a6=1",
-      "raw_summary": "Union leaders say quotas for galvanised steel particularly harmful for Tata Steel UK’s Llanwern plant in Newport",
+      "title": "Burnham’s British reboot begins",
+      "link": "https://www.ft.com/content/0b2af747-f298-4740-a3d2-7165f1f687be?syn-25a6b1a6=1",
+      "raw_summary": "‘King of the North’ comes south, ECB rate decision, Trump returns to a rescheduled White House correspondents’ dinner",
       "source": "World",
-      "published": "Sun, 19 Jul 2026 11:00:02 GMT",
-      "summary": "UK steel quota concessions to seal India deal pose risk to Welsh plant, say insiders\nUnion leaders say quotas for galvanised steel particularly harmful for Tata Steel UK’s Llanwern plant in Newport"
+      "published": "Sun, 19 Jul 2026 17:15:04 GMT",
+      "summary": "Burnham’s British reboot begins\n‘King of the North’ comes south, ECB rate decision, Trump returns to a rescheduled White House correspondents’ dinner"
     },
     {
-      "title": "How will the ECB respond to the latest rise in oil prices?",
-      "link": "https://www.ft.com/content/c1b04338-8fc8-45fc-8a35-f623843d4dda?syn-25a6b1a6=1",
-      "raw_summary": "Market Questions is the FT’s guide to the week ahead",
+      "title": "Burnham to maintain ban on North Sea exploration licences",
+      "link": "https://www.ft.com/content/d9631aae-1100-43e0-a09a-e49f5c21f896?syn-25a6b1a6=1",
+      "raw_summary": "Decision criticised by oil and gas industry as well as trade union",
       "source": "World",
-      "published": "Sun, 19 Jul 2026 11:00:02 GMT",
-      "summary": "How will the ECB respond to the latest rise in oil prices?\nMarket Questions is the FT’s guide to the week ahead"
+      "published": "Sun, 19 Jul 2026 15:37:26 GMT",
+      "summary": "Burnham to maintain ban on North Sea exploration licences\nDecision criticised by oil and gas industry as well as trade union"
     },
     {
-      "title": "China’s Jingye demands payout over British Steel nationalisation",
-      "link": "https://www.ft.com/content/dc61c278-c3eb-48b5-8f79-f949eae7a601?syn-25a6b1a6=1",
-      "raw_summary": "UK government accused of disregarding group’s investment and offering ‘almost zero compensation’",
+      "title": "UK must focus on insiders vs outsiders not north vs south",
+      "link": "https://www.ft.com/content/79160822-5eb7-41c1-b9f7-a2a447ecb378?syn-25a6b1a6=1",
+      "raw_summary": "Economists and politicians want to boost growth, but it must include people on the periphery of hotspots",
       "source": "World",
-      "published": "Sun, 19 Jul 2026 10:50:00 GMT",
-      "summary": "China’s Jingye demands payout over British Steel nationalisation\nUK government accused of disregarding group’s investment and offering ‘almost zero compensation’"
+      "published": "Sun, 19 Jul 2026 15:00:03 GMT",
+      "summary": "UK must focus on insiders vs outsiders not north vs south\nEconomists and politicians want to boost growth, but it must include people on the periphery of hotspots"
     },
     {
-      "title": "US day traders flock to ‘the most dangerous product in crypto’",
-      "link": "https://www.ft.com/content/8da4243f-820c-428c-bcfb-ba63dac48c1c?syn-25a6b1a6=1",
-      "raw_summary": "Trump administration has opened American markets to highly leveraged perpetual futures",
+      "title": "EU faces crumbling support for new Russia sanctions",
+      "link": "https://www.ft.com/content/eb0cd740-e45d-4dd7-ab9a-6f6643bb32ee?syn-25a6b1a6=1",
+      "raw_summary": "National capitals refuse to support measures that could hurt big companies",
       "source": "World",
-      "published": "Sun, 19 Jul 2026 10:10:53 GMT",
-      "summary": "US day traders flock to ‘the most dangerous product in crypto’\nTrump administration has opened American markets to highly leveraged perpetual futures"
+      "published": "Sun, 19 Jul 2026 14:00:02 GMT",
+      "summary": "EU faces crumbling support for new Russia sanctions\nNational capitals refuse to support measures that could hurt big companies"
     },
     {
-      "title": "US, Iran Launch Fresh Strikes After Two Troops Die in Jordan",
+      "title": "US-Iran Attacks Escalate as Strikes Kill Two American Troops",
       "link": "https://www.bloomberg.com/news/articles/2026-07-19/us-iran-trade-more-attacks-after-two-troops-killed-in-jordan",
-      "raw_summary": "The US and Iran engaged in another wave of tit-for-tat attacks, signaling no let-up after strikes by the Islamic Republic killed two American service members in Jordan on Friday.",
+      "raw_summary": "The US and Iran engaged in a quickening series of tit-for-tat attacks, causing fresh chaos in the Middle East over the weekend after strikes by the Islamic Republic killed two American service members in Jordan.",
       "source": "Bloomberg Markets",
       "published": "Sun, 19 Jul 2026 06:58:45 GMT",
-      "summary": "US, Iran Launch Fresh Strikes After Two Troops Die in Jordan\nThe US and Iran engaged in another wave of tit-for-tat attacks, signaling no let-up after strikes by the Islamic Republic killed two American service members in Jordan on Friday."
+      "summary": "US-Iran Attacks Escalate as Strikes Kill Two American Troops\nThe US and Iran engaged in a quickening series of tit-for-tat attacks, causing fresh chaos in the Middle East over the weekend after strikes by the Islamic Republic killed two American service members in Jordan."
     },
     {
-      "title": "Caspian Pipeline Consortium Halts Loadings After Drone Strike",
+      "title": "Bond Traders Take Warsh at Word, See Inflation Fight Continuing",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-19/bond-traders-take-warsh-at-word-see-inflation-fight-continuing",
+      "raw_summary": "Bond traders and Federal Reserve Chairman Kevin Warsh are in agreement on a crucial point: The central bank’s fight against inflation still seems far from over.",
+      "source": "Bloomberg Markets",
+      "published": "Sun, 19 Jul 2026 17:00:00 GMT",
+      "summary": "Bond Traders Take Warsh at Word, See Inflation Fight Continuing\nBond traders and Federal Reserve Chairman Kevin Warsh are in agreement on a crucial point: The central bank’s fight against inflation still seems far from over."
+    },
+    {
+      "title": "Caspian Pipeline Consortium Halts Loadings on Drone Strike",
       "link": "https://www.bloomberg.com/news/articles/2026-07-19/caspian-pipeline-consortium-halts-loadings-after-drone-strike",
-      "raw_summary": "Oil loading at the Caspian Pipeline Consortium’s terminal on Russia’s Black Sea coast was halted after a drone strike.",
+      "raw_summary": "Oil loading at the Caspian Pipeline Consortium’s terminal on Russia’s Black Sea coast was suspended after a drone strike, prompting the Kazakh government to call for an immediate end to such attacks.",
       "source": "Bloomberg Markets",
       "published": "Sun, 19 Jul 2026 08:03:40 GMT",
-      "summary": "Caspian Pipeline Consortium Halts Loadings After Drone Strike\nOil loading at the Caspian Pipeline Consortium’s terminal on Russia’s Black Sea coast was halted after a drone strike."
+      "summary": "Caspian Pipeline Consortium Halts Loadings on Drone Strike\nOil loading at the Caspian Pipeline Consortium’s terminal on Russia’s Black Sea coast was suspended after a drone strike, prompting the Kazakh government to call for an immediate end to such attacks."
     },
     {
-      "title": "South Korea Details Plan for Foreigners to Trade Won Easier",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-19/south-korea-to-ease-fx-rules-for-foreigners-to-trade-won-easier",
-      "raw_summary": "South Korea laid out a detailed plan to make the won freely tradable among foreigners, its boldest step yet to liberalize the forex market and bring the currency closer to full convertibility.",
+      "title": "Tropical Storm Watches Posted Across Florida’s Panhandle Region",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-19/tropical-storm-watches-posted-across-florida-s-panhandle-region",
+      "raw_summary": "A tropical storm watch has been issued for the Florida Panhandle as the Atlantic’s next event takes shape off shore.",
       "source": "Bloomberg Markets",
-      "published": "Sun, 19 Jul 2026 03:00:00 GMT",
-      "summary": "South Korea Details Plan for Foreigners to Trade Won Easier\nSouth Korea laid out a detailed plan to make the won freely tradable among foreigners, its boldest step yet to liberalize the forex market and bring the currency closer to full convertibility."
+      "published": "Sun, 19 Jul 2026 15:44:22 GMT",
+      "summary": "Tropical Storm Watches Posted Across Florida’s Panhandle Region\nA tropical storm watch has been issued for the Florida Panhandle as the Atlantic’s next event takes shape off shore."
     },
     {
-      "title": "Jingye Says It Reserves Legal Rights in UK Steel Nationalization",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-19/jingye-says-it-reserves-legal-rights-in-uk-steel-nationalization",
-      "raw_summary": "Jingye Steel Co. has reserved all legal rights, including international arbitration, over the UK government’s nationalization of British Steel.",
+      "title": "Extreme Stock Swings Tempt Funds Into Reverse Dispersion Trade",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-19/extreme-stock-swings-tempt-funds-into-reverse-dispersion-trade",
+      "raw_summary": "Betting that individual stocks will be volatile while the S&amp;P 500 stays relatively calm has been a popular and successful hedge fund strategy. But with the swings in share prices reaching extreme levels, the reverse trade is gaining traction with investors.",
       "source": "Bloomberg Markets",
-      "published": "Sun, 19 Jul 2026 05:00:13 GMT",
-      "summary": "Jingye Says It Reserves Legal Rights in UK Steel Nationalization\nJingye Steel Co. has reserved all legal rights, including international arbitration, over the UK government’s nationalization of British Steel."
+      "published": "Sun, 19 Jul 2026 14:00:00 GMT",
+      "summary": "Extreme Stock Swings Tempt Funds Into Reverse Dispersion Trade\nBetting that individual stocks will be volatile while the S&amp;P 500 stays relatively calm has been a popular and successful hedge fund strategy. But with the swings in share prices reaching extreme levels, the reverse trade is gaining "
     },
     {
-      "title": "Venezuela’s Official Earthquake Death Toll Rises to 5,119",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-19/venezuela-s-official-earthquake-death-toll-rises-to-5-119",
-      "raw_summary": "The official death toll from the twin earthquakes that struck Venezuela last month rose to 5,119, according to National Assembly head Jorge Rodríguez.",
-      "source": "Bloomberg Markets",
-      "published": "Sun, 19 Jul 2026 01:16:59 GMT",
-      "summary": "Venezuela’s Official Earthquake Death Toll Rises to 5,119\nThe official death toll from the twin earthquakes that struck Venezuela last month rose to 5,119, according to National Assembly head Jorge Rodríguez."
-    },
-    {
-      "title": "Bitcoin’s quantum problem gets a recovery tool, but not for Satoshi’s 1.1 million coins",
-      "link": "https://www.coindesk.com/tech/2026/07/19/bitcoin-s-quantum-problem-gets-a-recovery-tool-but-not-for-satoshi-s-1-1-million-coin",
+      "title": "The GENIUS Act turns 1: State of Crypto",
+      "link": "https://www.coindesk.com/policy/2026/07/19/the-genius-act-turns-1-state-of-crypto",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 19 Jul 2026 10:00:00 +0000",
-      "summary": "Bitcoin’s quantum problem gets a recovery tool, but not for Satoshi’s 1.1 million coins\n"
+      "published": "Sun, 19 Jul 2026 18:30:00 +0000",
+      "summary": "The GENIUS Act turns 1: State of Crypto\n"
     },
     {
-      "title": "Inside Zcash's new node that targets Visa-scale privacy at 50,000 transactions per second",
-      "link": "https://www.coindesk.com/tech/2026/07/16/inside-zcash-s-new-node-that-targets-visa-scale-privacy-at-50-000-transactions-per-second",
+      "title": "Bitcoin's biggest advocate, Michael Saylor, says new plan to clean up the blockchain is 'a bad idea'",
+      "link": "https://www.coindesk.com/tech/2026/07/19/bitcoin-s-biggest-advocate-michael-saylor-says-new-plan-to-clean-up-the-blockchain-is-a-bad-idea",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 19 Jul 2026 05:37:34 +0000",
-      "summary": "Inside Zcash's new node that targets Visa-scale privacy at 50,000 transactions per second\n"
+      "published": "Sun, 19 Jul 2026 15:19:21 +0000",
+      "summary": "Bitcoin's biggest advocate, Michael Saylor, says new plan to clean up the blockchain is 'a bad idea'\n"
     },
     {
-      "title": "France orders country's internet service providers to block Polymarket",
-      "link": "https://www.coindesk.com/policy/2026/07/18/france-orders-country-s-internet-service-providers-to-block-polymarket",
+      "title": "AI is destroying the internet. Math is our only hope.",
+      "link": "https://www.coindesk.com/opinion/2026/07/17/ai-is-destroying-the-internet-math-is-our-only-hope",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sat, 18 Jul 2026 21:52:18 +0000",
-      "summary": "France orders country's internet service providers to block Polymarket\n"
+      "published": "Sun, 19 Jul 2026 14:00:00 +0000",
+      "summary": "AI is destroying the internet. Math is our only hope.\n"
     },
     {
-      "title": "Crypto executives say digital native generations may never need a bank account",
-      "link": "https://www.coindesk.com/business/2026/07/17/crypto-executives-say-digital-native-generations-may-never-need-a-bank-account",
+      "title": "Tether's USDT hits 2-year countdown threatening its position on U.S. crypto platforms",
+      "link": "https://www.coindesk.com/news-analysis/2026/07/17/tether-s-usdt-hits-2-year-countdown-threatening-its-position-on-u-s-crypto-platforms",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sat, 18 Jul 2026 18:30:00 +0000",
-      "summary": "Crypto executives say digital native generations may never need a bank account\n"
+      "published": "Sun, 19 Jul 2026 13:00:00 +0000",
+      "summary": "Tether's USDT hits 2-year countdown threatening its position on U.S. crypto platforms\n"
     },
     {
-      "title": "DOG Mode explains Bitcoin's next governance fight",
-      "link": "https://www.coindesk.com/tech/2026/07/18/dog-mode-explains-bitcoin-s-next-governance-fight",
+      "title": "Kraken says simpler options can unlock crypto's next derivatives market",
+      "link": "https://www.coindesk.com/business/2026/07/19/kraken-says-simpler-options-can-unlock-crypto-s-next-derivatives-market",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sat, 18 Jul 2026 17:00:00 +0000",
-      "summary": "DOG Mode explains Bitcoin's next governance fight\n"
+      "published": "Sun, 19 Jul 2026 13:00:00 +0000",
+      "summary": "Kraken says simpler options can unlock crypto's next derivatives market\n"
     }
   ]
 }
