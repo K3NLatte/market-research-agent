@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T13:50:56.739012+00:00",
+  "generated_at": "2026-07-20T19:27:49.013936+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial\nTwo men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London, the entity responsible for the public transport network in the Greater London area. The duo "
     },
     {
+      "title": "Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign",
+      "link": "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html",
+      "raw_summary": "A malware operator left its delivery server wide open, and Rapid7 pulled down the whole toolkit: 1,048 files spanning lure templates, filename-spoofing tests, execution experiments, droppers, builder notes, and two campaign chains. One was already live against Windows users in Mexico, delivering an infostealer through a fake government ID-lookup site over WebDAV.\n\nWhat makes it more than a",
+      "source": "The Hacker News",
+      "published": "Mon, 20 Jul 2026 22:59:50 +0530",
+      "summary": "Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign\nA malware operator left its delivery server wide open, and Rapid7 pulled down the whole toolkit: 1,048 files spanning lure templates, filename-spoofing tests, execution experiments, droppers, builder notes, and two ca"
+    },
+    {
+      "title": "HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050",
+      "link": "https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html",
+      "raw_summary": "A newly discovered espionage implant has been using a hijacked Microsoft 365 calendar as its command channel, planting operator instructions and smuggling out stolen files as attachments on calendar events dated to the year 2050.\n\nGroup-IB, which named the malware HollowGraph, says the approach moves tasking and stolen data through legitimate Microsoft Graph API traffic, so the activity looks",
+      "source": "The Hacker News",
+      "published": "Mon, 20 Jul 2026 20:03:43 +0530",
+      "summary": "HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050\nA newly discovered espionage implant has been using a hijacked Microsoft 365 calendar as its command channel, planting operator instructions and smuggling out stolen files as attachments on calendar events dated to the "
+    },
+    {
+      "title": "⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More",
+      "link": "https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html",
+      "raw_summary": "A single request should not be able to do this much. But this week, small inputs led to code execution, memory loss, stolen keys, and disabled security tools.\n\nThe paths were often simple: exposed systems, weak checks, old drivers, fake prompts, and public code used for malware delivery. Some bugs were new. Others were already being used before defenders had time to patch.\n\nHere is the full",
+      "source": "The Hacker News",
+      "published": "Mon, 20 Jul 2026 19:02:26 +0530",
+      "summary": "⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More\nA single request should not be able to do this much. But this week, small inputs led to code execution, memory loss, stolen keys, and disabled security tools.\n\nThe paths were often simple: exposed systems,"
+    },
+    {
       "title": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
       "link": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html",
       "raw_summary": "At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport routes, weapons shipments bound for Kyiv, and the locations of Ukrainian troops.\n\nThat is the finding of a cybersecurity advisory published July 10 by the AIVD and MIVD, the Netherlands' civilian and military intelligence",
@@ -59,108 +83,116 @@
       "summary": "Mythos Didn't Break Your Security Program. Your Exposure Window Could.\nThe industry spent the initial months after Anthropic's April 7 Mythos reveal focused on volume. How many new CVEs would Mythos add to an already overloaded pipeline? How quickly would the flood of AI-driven discovery overwhelm t"
     },
     {
-      "title": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
-      "link": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
-      "raw_summary": "Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend Micro's Zero Day Initiative (ZDI) detailed it on July 15. A fix shipped on June 25 in 7-Zip 26.02.\n\nThe overflow lets an attacker \"execute code in the context of the current process,\" per the",
-      "source": "The Hacker News",
-      "published": "Mon, 20 Jul 2026 14:40:56 +0530",
-      "summary": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction\nOpening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend Micro's Zero Day In"
-    },
-    {
-      "title": "Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs",
-      "link": "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html",
-      "raw_summary": "A solo Russian-speaking threat actor known as \"bandcampro\" outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered a live botnet.\n\nThe findings come from an analysis of 200 Gemini CLI session logs between March 19 and April 21, 2026, which found the threat actor using AI, among other things, to crack passwords, set up a residential",
-      "source": "The Hacker News",
-      "published": "Mon, 20 Jul 2026 14:37:11 +0530",
-      "summary": "Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs\nA solo Russian-speaking threat actor known as \"bandcampro\" outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered a live botnet.\n\nThe findings "
-    },
-    {
-      "title": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent",
-      "link": "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
-      "raw_summary": "In an ironic twist, open-source artificial intelligence (AI) platform Hugging Face revealed that it was the victim of a hack perpetrated by an autonomous AI agent system.\n\nThe company said it detected and responded to the incident targeting its production infrastructure earlier last week.\n\n\"We identified unauthorized access to a limited set of internal datasets and to several credentials used by",
-      "source": "The Hacker News",
-      "published": "Mon, 20 Jul 2026 10:57:26 +0530",
-      "summary": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent\nIn an ironic twist, open-source artificial intelligence (AI) platform Hugging Face revealed that it was the victim of a hack perpetrated by an autonomous AI agent system.\n\nThe company said it detected and responded to t"
-    },
-    {
-      "title": "Hacker wipes Romania's land registry database",
-      "link": "https://news.risky.biz/risky-bulletin-hacker-wipes-romanias-entire-land-registry-database/",
-      "raw_summary": "<p>Article URL: <a href=\"https://news.risky.biz/risky-bulletin-hacker-wipes-romanias-entire-land-registry-database/\">https://news.risky.biz/risky-bulletin-hacker-wipes-romanias-entire-land-registry-database/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48978605\">https://news.ycombinator.com/item?id=48978605</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
+      "title": "Safety and alignment in an era of long-horizon models",
+      "link": "https://openai.com/index/safety-alignment-long-horizon-models/",
+      "raw_summary": "<p>Article URL: <a href=\"https://openai.com/index/safety-alignment-long-horizon-models/\">https://openai.com/index/safety-alignment-long-horizon-models/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48983108\">https://news.ycombinator.com/item?id=48983108</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 20 Jul 2026 13:28:33 +0000",
-      "summary": "Hacker wipes Romania's land registry database\n<p>Article URL: <a href=\"https://news.risky.biz/risky-bulletin-hacker-wipes-romanias-entire-land-registry-database/\">https://news.risky.biz/risky-bulletin-hacker-wipes-romanias-entire-land-registry-database/</a></p>\n<p>Comments URL: <a href=\"https://news"
+      "published": "Mon, 20 Jul 2026 18:43:55 +0000",
+      "summary": "Safety and alignment in an era of long-horizon models\n<p>Article URL: <a href=\"https://openai.com/index/safety-alignment-long-horizon-models/\">https://openai.com/index/safety-alignment-long-horizon-models/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48983108\">https://news."
     },
     {
-      "title": "Simple Invoices. Faster Payments",
-      "link": "https://duely-44998.bubbleapps.io/",
-      "raw_summary": "<p>Article URL: <a href=\"https://duely-44998.bubbleapps.io/\">https://duely-44998.bubbleapps.io/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48978454\">https://news.ycombinator.com/item?id=48978454</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>",
+      "title": "Nativ: Run frontier open models locally on your Mac",
+      "link": "https://blaizzy.github.io/nativ/",
+      "raw_summary": "<p>Article URL: <a href=\"https://blaizzy.github.io/nativ/\">https://blaizzy.github.io/nativ/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48982681\">https://news.ycombinator.com/item?id=48982681</a></p>\n<p>Points: 21</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 20 Jul 2026 13:16:03 +0000",
-      "summary": "Simple Invoices. Faster Payments\n<p>Article URL: <a href=\"https://duely-44998.bubbleapps.io/\">https://duely-44998.bubbleapps.io/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48978454\">https://news.ycombinator.com/item?id=48978454</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p"
+      "published": "Mon, 20 Jul 2026 18:16:08 +0000",
+      "summary": "Nativ: Run frontier open models locally on your Mac\n<p>Article URL: <a href=\"https://blaizzy.github.io/nativ/\">https://blaizzy.github.io/nativ/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48982681\">https://news.ycombinator.com/item?id=48982681</a></p>\n<p>Points: 21</p>\n<p>"
     },
     {
-      "title": "Inertia-1: An Open Exploration to a Unified Motion Foundation Model",
-      "link": "https://yang-ai-lab.github.io/Inertia-1/",
-      "raw_summary": "<p>Article URL: <a href=\"https://yang-ai-lab.github.io/Inertia-1/\">https://yang-ai-lab.github.io/Inertia-1/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48978388\">https://news.ycombinator.com/item?id=48978388</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "title": "An Empirical Study: AI Agent Rules Need Context and Layered Enforcement",
+      "link": "https://eunomia.dev/blog/2026/07/15/ebpf-ai-agent-policy-enforcement/",
+      "raw_summary": "<p>Article URL: <a href=\"https://eunomia.dev/blog/2026/07/15/ebpf-ai-agent-policy-enforcement/\">https://eunomia.dev/blog/2026/07/15/ebpf-ai-agent-policy-enforcement/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48982583\">https://news.ycombinator.com/item?id=48982583</a></p>\n<p>Points: 13</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 20 Jul 2026 13:11:12 +0000",
-      "summary": "Inertia-1: An Open Exploration to a Unified Motion Foundation Model\n<p>Article URL: <a href=\"https://yang-ai-lab.github.io/Inertia-1/\">https://yang-ai-lab.github.io/Inertia-1/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48978388\">https://news.ycombinator.com/item?id=489783"
+      "published": "Mon, 20 Jul 2026 18:10:44 +0000",
+      "summary": "An Empirical Study: AI Agent Rules Need Context and Layered Enforcement\n<p>Article URL: <a href=\"https://eunomia.dev/blog/2026/07/15/ebpf-ai-agent-policy-enforcement/\">https://eunomia.dev/blog/2026/07/15/ebpf-ai-agent-policy-enforcement/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com"
     },
     {
-      "title": "Codex is wearing out our devices",
-      "link": "https://old.reddit.com/r/codex/comments/1v0m3lt/codex_is_wearing_out_our_devices/",
-      "raw_summary": "<p>Article URL: <a href=\"https://old.reddit.com/r/codex/comments/1v0m3lt/codex_is_wearing_out_our_devices/\">https://old.reddit.com/r/codex/comments/1v0m3lt/codex_is_wearing_out_our_devices/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48978331\">https://news.ycombinator.com/item?id=48978331</a></p>\n<p>Points: 4</p>\n<p># Comments: 2</p>",
+      "title": "The drivers behind software delivery inefficiency",
+      "link": "https://dl.acm.org/doi/10.1145/3800646.3800650",
+      "raw_summary": "<p>Article URL: <a href=\"https://dl.acm.org/doi/10.1145/3800646.3800650\">https://dl.acm.org/doi/10.1145/3800646.3800650</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48982578\">https://news.ycombinator.com/item?id=48982578</a></p>\n<p>Points: 13</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 20 Jul 2026 13:04:41 +0000",
-      "summary": "Codex is wearing out our devices\n<p>Article URL: <a href=\"https://old.reddit.com/r/codex/comments/1v0m3lt/codex_is_wearing_out_our_devices/\">https://old.reddit.com/r/codex/comments/1v0m3lt/codex_is_wearing_out_our_devices/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=489783"
+      "published": "Mon, 20 Jul 2026 18:10:17 +0000",
+      "summary": "The drivers behind software delivery inefficiency\n<p>Article URL: <a href=\"https://dl.acm.org/doi/10.1145/3800646.3800650\">https://dl.acm.org/doi/10.1145/3800646.3800650</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48982578\">https://news.ycombinator.com/item?id=48982578</a>"
     },
     {
-      "title": "Stop Using OpenCode",
-      "link": "https://wren.wtf/shower-thoughts/stop-using-opencode/",
-      "raw_summary": "<p>Article URL: <a href=\"https://wren.wtf/shower-thoughts/stop-using-opencode/\">https://wren.wtf/shower-thoughts/stop-using-opencode/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48978112\">https://news.ycombinator.com/item?id=48978112</a></p>\n<p>Points: 84</p>\n<p># Comments: 51</p>",
+      "title": "Agent swarms and the new model economics",
+      "link": "https://cursor.com/blog/agent-swarm-model-economics",
+      "raw_summary": "<p>Article URL: <a href=\"https://cursor.com/blog/agent-swarm-model-economics\">https://cursor.com/blog/agent-swarm-model-economics</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48982535\">https://news.ycombinator.com/item?id=48982535</a></p>\n<p>Points: 9</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 20 Jul 2026 12:45:55 +0000",
-      "summary": "Stop Using OpenCode\n<p>Article URL: <a href=\"https://wren.wtf/shower-thoughts/stop-using-opencode/\">https://wren.wtf/shower-thoughts/stop-using-opencode/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48978112\">https://news.ycombinator.com/item?id=48978112</a></p>\n<p>Points: "
+      "published": "Mon, 20 Jul 2026 18:06:13 +0000",
+      "summary": "Agent swarms and the new model economics\n<p>Article URL: <a href=\"https://cursor.com/blog/agent-swarm-model-economics\">https://cursor.com/blog/agent-swarm-model-economics</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48982535\">https://news.ycombinator.com/item?id=48982535</a"
     },
     {
-      "title": "Hugging Face confirms breach affected internal datasets and credentials, urges users to take action",
-      "link": "https://techcrunch.com/2026/07/20/hugging-face-confirms-breach-affected-internal-datasets-and-credentials-urges-users-to-take-action/",
-      "raw_summary": "Hugging Face is urging users to rotate any access tokens stored on the platform and review account activity.",
+      "title": "Natural raises $30M to reinvent payments for AI agents — and take on Stripe",
+      "link": "https://techcrunch.com/2026/07/20/natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe/",
+      "raw_summary": "The one-year-old startup aims to reinvent financial architecture for autonomous AI transactions.",
       "source": "TechCrunch",
-      "published": "Mon, 20 Jul 2026 12:39:28 +0000",
-      "summary": "Hugging Face confirms breach affected internal datasets and credentials, urges users to take action\nHugging Face is urging users to rotate any access tokens stored on the platform and review account activity."
+      "published": "Mon, 20 Jul 2026 19:11:25 +0000",
+      "summary": "Natural raises $30M to reinvent payments for AI agents — and take on Stripe\nThe one-year-old startup aims to reinvent financial architecture for autonomous AI transactions."
     },
     {
-      "title": "StrictlyVC returns to New York City September 10 to celebrate a huge year for the city’s startup community",
-      "link": "https://techcrunch.com/2026/07/20/strictlyvc-returns-to-new-york-city-september-10-to-celebrate-a-huge-year-for-the-citys-startup-community/",
-      "raw_summary": "For the first time since 2024, StrictlyVC is coming back to New York City — and we're bringing the kind of access you’d expect from an under-wraps event to the whole startup, VC, and dealmaking community.",
+      "title": "Judge pauses $110B Paramount-Warner Bros. merger",
+      "link": "https://techcrunch.com/2026/07/20/judge-pauses-110b-paramount-warner-bros-merger/",
+      "raw_summary": "The lawsuit from the states alleges that the deal would harm movie theaters, basic cable distributors, and audiences.",
       "source": "TechCrunch",
-      "published": "Mon, 20 Jul 2026 12:30:00 +0000",
-      "summary": "StrictlyVC returns to New York City September 10 to celebrate a huge year for the city’s startup community\nFor the first time since 2024, StrictlyVC is coming back to New York City — and we're bringing the kind of access you’d expect from an under-wraps event to the whole startup, VC, and dealmaking"
+      "published": "Mon, 20 Jul 2026 17:58:50 +0000",
+      "summary": "Judge pauses $110B Paramount-Warner Bros. merger\nThe lawsuit from the states alleges that the deal would harm movie theaters, basic cable distributors, and audiences."
     },
     {
-      "title": "Netflix paid $587M for Ben Affleck’s AI filmmaking startup",
-      "link": "https://techcrunch.com/2026/07/19/netflix-paid-587m-for-ben-afflecks-ai-filmmaking-startup/",
-      "raw_summary": "Netflix revealed that it paid $587 million in cash for InterPositive, a startup co-founded by Ben Affleck.",
+      "title": "Adobe camera app’s new feature will critique your photos using AI",
+      "link": "https://techcrunch.com/2026/07/20/adobe-camera-apps-new-feature-will-critique-your-photos-using-ai/",
+      "raw_summary": "Adobe's Project Indigo can now remove all kinds of backgrounds from photos you snap using the app.",
       "source": "TechCrunch",
-      "published": "Sun, 19 Jul 2026 21:45:00 +0000",
-      "summary": "Netflix paid $587M for Ben Affleck’s AI filmmaking startup\nNetflix revealed that it paid $587 million in cash for InterPositive, a startup co-founded by Ben Affleck."
+      "published": "Mon, 20 Jul 2026 15:45:00 +0000",
+      "summary": "Adobe camera app’s new feature will critique your photos using AI\nAdobe's Project Indigo can now remove all kinds of backgrounds from photos you snap using the app."
     },
     {
-      "title": "What to watch for after Jensen Huang’s Japan visit",
-      "link": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
-      "raw_summary": "Jensen Huang left Tokyo with deals spanning Japan's entire tech ecosystem.",
+      "title": "Hackers are exploiting recently patched WordPress bugs, putting millions of websites at risk",
+      "link": "https://techcrunch.com/2026/07/20/hackers-are-exploiting-recently-patched-wordpress-bugs-putting-millions-of-websites-at-risk/",
+      "raw_summary": "Two critical security flaws in WordPress’ software have given hackers the chance to remotely take over tens of millions of websites, according to an estimate by a cybersecurity researcher.",
       "source": "TechCrunch",
-      "published": "Sun, 19 Jul 2026 21:16:07 +0000",
-      "summary": "What to watch for after Jensen Huang’s Japan visit\nJensen Huang left Tokyo with deals spanning Japan's entire tech ecosystem."
+      "published": "Mon, 20 Jul 2026 15:35:37 +0000",
+      "summary": "Hackers are exploiting recently patched WordPress bugs, putting millions of websites at risk\nTwo critical security flaws in WordPress’ software have given hackers the chance to remotely take over tens of millions of websites, according to an estimate by a cybersecurity researcher."
     },
     {
-      "title": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
-      "link": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
-      "raw_summary": "On the latest episode of Equity, we debate whether Apple's lawsuit will cast a shadow over OpenAi's much-discussed plans to get into hardware and go public.",
+      "title": "YouTube clarifies policies around AI slop and upsetting videos",
+      "link": "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/",
+      "raw_summary": "YouTube has updated its monetization policies to more clearly define the kinds of AI-generated and low-quality videos that can’t earn ad revenue.",
       "source": "TechCrunch",
-      "published": "Sun, 19 Jul 2026 19:24:45 +0000",
-      "summary": "Can an Apple lawsuit derail OpenAI’s hardware plans?\nOn the latest episode of Equity, we debate whether Apple's lawsuit will cast a shadow over OpenAi's much-discussed plans to get into hardware and go public."
+      "published": "Mon, 20 Jul 2026 15:23:06 +0000",
+      "summary": "YouTube clarifies policies around AI slop and upsetting videos\nYouTube has updated its monetization policies to more clearly define the kinds of AI-generated and low-quality videos that can’t earn ad revenue."
+    },
+    {
+      "title": "F1 in Belgium: Machine learning algorithms are ruining the sport",
+      "link": "https://arstechnica.com/cars/2026/07/f1-in-belgium-the-2026-cars-look-pathetic-on-all-the-best-racetracks/",
+      "raw_summary": "Many will say Spa is the best racetrack on earth, but not for these F1 cars.",
+      "source": "Ars Technica - All content",
+      "published": "Mon, 20 Jul 2026 15:59:18 +0000",
+      "summary": "F1 in Belgium: Machine learning algorithms are ruining the sport\nMany will say Spa is the best racetrack on earth, but not for these F1 cars."
+    },
+    {
+      "title": "AliExpress hit with record $625M fine after failing to make EU-ordered fixes",
+      "link": "https://arstechnica.com/tech-policy/2026/07/aliexpress-fined-625m-for-failing-to-remove-unsafe-toys-dangerous-cosmetics/",
+      "raw_summary": "Online retailer AliExpress says it's shocked by largest DSA fine yet.",
+      "source": "Ars Technica - All content",
+      "published": "Mon, 20 Jul 2026 15:32:45 +0000",
+      "summary": "AliExpress hit with record $625M fine after failing to make EU-ordered fixes\nOnline retailer AliExpress says it's shocked by largest DSA fine yet."
+    },
+    {
+      "title": "The first trailer for Avengers: Doomsday is finally here",
+      "link": "https://arstechnica.com/culture/2026/07/the-first-trailer-for-avengers-doomsday-is-finally-here/",
+      "raw_summary": "\"Something's coming. Something we may not be able to deter.\"",
+      "source": "Ars Technica - All content",
+      "published": "Mon, 20 Jul 2026 14:33:46 +0000",
+      "summary": "The first trailer for Avengers: Doomsday is finally here\n\"Something's coming. Something we may not be able to deter.\""
+    },
+    {
+      "title": "Pay up or not? Ransomware surge has victims facing tough choices.",
+      "link": "https://arstechnica.com/security/2026/07/pay-up-or-not-ransomware-surge-has-victims-facing-tough-choices/",
+      "raw_summary": "Governments look at banning ransom payments in face of increasingly sophisticated threats.",
+      "source": "Ars Technica - All content",
+      "published": "Mon, 20 Jul 2026 14:00:50 +0000",
+      "summary": "Pay up or not? Ransomware surge has victims facing tough choices.\nGovernments look at banning ransom payments in face of increasingly sophisticated threats."
     },
     {
       "title": "Beyond grep: The case for a context-rich AI coding harness",
@@ -171,124 +203,108 @@
       "summary": "Beyond grep: The case for a context-rich AI coding harness\nAugment Code's Vinay Perneti talks models, harnesses, and context."
     },
     {
-      "title": "India's first privately-developed rocket reaches orbit on dramatic debut launch",
-      "link": "https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/",
-      "raw_summary": "\"On the first attempt, reaching orbit, I never thought it was possible.\"",
-      "source": "Ars Technica - All content",
-      "published": "Sun, 19 Jul 2026 22:11:21 +0000",
-      "summary": "India's first privately-developed rocket reaches orbit on dramatic debut launch\n\"On the first attempt, reaching orbit, I never thought it was possible.\""
-    },
-    {
-      "title": "As mosquito ranges expand, better monitoring is key to preventing disease",
-      "link": "https://arstechnica.com/science/2026/07/as-mosquito-ranges-expand-better-monitoring-is-key-to-preventing-disease/",
-      "raw_summary": "Monitoring is expensive and labor intensive. But it helps public health officials stop outbreaks.",
-      "source": "Ars Technica - All content",
-      "published": "Sun, 19 Jul 2026 11:19:31 +0000",
-      "summary": "As mosquito ranges expand, better monitoring is key to preventing disease\nMonitoring is expensive and labor intensive. But it helps public health officials stop outbreaks."
-    },
-    {
-      "title": "Will AI fix prior authorization—or make it worse?",
-      "link": "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/",
-      "raw_summary": "The government is piloting a program that uses AI for insurance-coverage decisions.",
-      "source": "Ars Technica - All content",
-      "published": "Sat, 18 Jul 2026 11:18:25 +0000",
-      "summary": "Will AI fix prior authorization—or make it worse?\nThe government is piloting a program that uses AI for insurance-coverage decisions."
-    },
-    {
-      "title": "Google-backed satellites for wildfire detection launch as smoke chokes US, Canada",
-      "link": "https://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada/",
-      "raw_summary": "The FireSat program can spot wildfires that other satellites miss.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 17 Jul 2026 19:50:18 +0000",
-      "summary": "Google-backed satellites for wildfire detection launch as smoke chokes US, Canada\nThe FireSat program can spot wildfires that other satellites miss."
-    },
-    {
-      "title": "Oil touches $90 after Iran hits tankers",
-      "link": "https://www.ft.com/content/52e98fc4-32e3-4ed9-90fd-dcbba6188df5?syn-25a6b1a6=1",
-      "raw_summary": "Crude later falls back after Tehran says it has received proposals from mediators about the war",
+      "title": "Man charged with Ann Widdecombe murder",
+      "link": "https://www.ft.com/content/9f36df1b-cc5b-4391-ae91-562cf85a58a3?syn-25a6b1a6=1",
+      "raw_summary": "Joshua Kerry will appear in court on Tuesday in relation to the killing of former Conservative minister",
       "source": "World",
-      "published": "Mon, 20 Jul 2026 13:46:11 GMT",
-      "summary": "Oil touches $90 after Iran hits tankers\nCrude later falls back after Tehran says it has received proposals from mediators about the war"
+      "published": "Mon, 20 Jul 2026 18:40:04 GMT",
+      "summary": "Man charged with Ann Widdecombe murder\nJoshua Kerry will appear in court on Tuesday in relation to the killing of former Conservative minister"
     },
     {
-      "title": "Why Mullin is struggling to keep ICE out of the headlines",
-      "link": "https://www.ft.com/content/c45ba698-6b6a-4880-8b36-d81fa61c3cee?syn-25a6b1a6=1",
-      "raw_summary": "Two killings by federal agents in the space of a week have drawn attention to the downsides of a DHS hiring spree",
+      "title": "Gilts under pressure as investors brace for higher spending under new PM",
+      "link": "https://www.ft.com/content/b7cc3ea9-c89c-4f94-8ce0-3786034a6ddc?syn-25a6b1a6=1",
+      "raw_summary": "Andy Burnham said he will ‘use any flexibility’ within the fiscal rules",
       "source": "World",
-      "published": "Mon, 20 Jul 2026 13:00:02 GMT",
-      "summary": "Why Mullin is struggling to keep ICE out of the headlines\nTwo killings by federal agents in the space of a week have drawn attention to the downsides of a DHS hiring spree"
+      "published": "Mon, 20 Jul 2026 18:37:43 GMT",
+      "summary": "Gilts under pressure as investors brace for higher spending under new PM\nAndy Burnham said he will ‘use any flexibility’ within the fiscal rules"
     },
     {
-      "title": "UK businesses are not deepening their use of AI, suggests ONS data",
-      "link": "https://www.ft.com/content/1ab00e18-995a-4cda-b76b-00ba6c043863?syn-25a6b1a6=1",
-      "raw_summary": "Free tools are the most widely used by companies with focus on efficiency savings rather than developing new products",
+      "title": "Burnham stuns Labour MPs by choosing Healey as new chancellor",
+      "link": "https://www.ft.com/content/740f0449-f367-46e0-92a6-43251f56f974?syn-25a6b1a6=1",
+      "raw_summary": "UK prime minister’s choice of former defence minister surprises allies",
       "source": "World",
-      "published": "Mon, 20 Jul 2026 12:51:37 GMT",
-      "summary": "UK businesses are not deepening their use of AI, suggests ONS data\nFree tools are the most widely used by companies with focus on efficiency savings rather than developing new products"
+      "published": "Mon, 20 Jul 2026 18:35:45 GMT",
+      "summary": "Burnham stuns Labour MPs by choosing Healey as new chancellor\nUK prime minister’s choice of former defence minister surprises allies"
     },
     {
-      "title": "Yemen’s Houthi rebels threaten blockade against Saudi Arabia",
-      "link": "https://www.ft.com/content/97389cc7-7c83-496e-a2d2-72a1eb574281?syn-25a6b1a6=1",
-      "raw_summary": "Renewed fighting puts kingdom’s crude exports through Red Sea at risk",
+      "title": "Who is in Andy Burnham’s new cabinet?",
+      "link": "https://www.ft.com/content/05b20ea3-425b-49da-886e-fd0ac9270fe7?syn-25a6b1a6=1",
+      "raw_summary": "UK prime minister announces top team, with a number of experienced faces returning to government",
       "source": "World",
-      "published": "Mon, 20 Jul 2026 12:49:36 GMT",
-      "summary": "Yemen’s Houthi rebels threaten blockade against Saudi Arabia\nRenewed fighting puts kingdom’s crude exports through Red Sea at risk"
+      "published": "Mon, 20 Jul 2026 18:02:20 GMT",
+      "summary": "Who is in Andy Burnham’s new cabinet?\nUK prime minister announces top team, with a number of experienced faces returning to government"
     },
     {
-      "title": "How I got into Berghain, Berlin’s notoriously selective club",
-      "link": "https://www.ft.com/content/c31a7fec-d757-481a-a6d8-3d414803db4b?syn-25a6b1a6=1",
-      "raw_summary": "The mystique of its intimidating door policy still convinces people to fly in from all around the world",
+      "title": "Big Tech’s AI backstops risk ignominy",
+      "link": "https://www.ft.com/content/e9563a0f-0a93-4a38-87e1-32b7898522d8?syn-25a6b1a6=1",
+      "raw_summary": "Big benefactors offer their balance sheets as an emergency ‘deep pocket’, enabling unproven AI companies to borrow cheaply",
       "source": "World",
-      "published": "Mon, 20 Jul 2026 12:44:43 GMT",
-      "summary": "How I got into Berghain, Berlin’s notoriously selective club\nThe mystique of its intimidating door policy still convinces people to fly in from all around the world"
+      "published": "Mon, 20 Jul 2026 17:55:39 GMT",
+      "summary": "Big Tech’s AI backstops risk ignominy\nBig benefactors offer their balance sheets as an emergency ‘deep pocket’, enabling unproven AI companies to borrow cheaply"
     },
     {
-      "title": "US Stocks Rebound From Selloff as Nvidia, Other Chipmakers Rise",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-20/us-stocks-rebound-from-selloff-as-nvidia-other-chipmakers-rise",
-      "raw_summary": "US stocks advanced on Monday, paring last week’s slump, as chipmakers rebounded amid a deluge of earnings reports that will test whether Big Tech’s profits can match high expectations.",
-      "source": "Bloomberg Markets",
-      "published": "Mon, 20 Jul 2026 13:41:52 GMT",
-      "summary": "US Stocks Rebound From Selloff as Nvidia, Other Chipmakers Rise\nUS stocks advanced on Monday, paring last week’s slump, as chipmakers rebounded amid a deluge of earnings reports that will test whether Big Tech’s profits can match high expectations."
-    },
-    {
-      "title": "Stocks Get Lift From Chipmakers as Oil Rally Wanes: Markets Wrap",
+      "title": "Stocks Decline as Oil Whipsaws on US-Iran Risks: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-07-19/oil-climbs-as-middle-east-conflict-escalates-markets-wrap",
-      "raw_summary": "A rebound in chipmakers powered Wall Street gains, with stocks also rising as oil fell on hopes for a revival of a peace deal between the US and Iran that has all-but collapsed amid an escalation of hostilities.",
+      "raw_summary": "A renewed bout of oil volatility sent stocks lower, with concerns about further escalation in Middle East hostilities outweighing technology gains.",
       "source": "Bloomberg Markets",
       "published": "Sun, 19 Jul 2026 22:10:10 GMT",
-      "summary": "Stocks Get Lift From Chipmakers as Oil Rally Wanes: Markets Wrap\nA rebound in chipmakers powered Wall Street gains, with stocks also rising as oil fell on hopes for a revival of a peace deal between the US and Iran that has all-but collapsed amid an escalation of hostilities."
-    },
-    {
-      "title": "Paris Corn Hits Seven-Week High After Ukraine Cargo Attack",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-20/soybeans-and-corn-extend-gains-as-us-iran-hostilities-escalate",
-      "raw_summary": "Corn prices reached the highest level in seven weeks in Paris as renewed tensions in the Black Sea stoked supply concerns.",
-      "source": "Bloomberg Markets",
-      "published": "Mon, 20 Jul 2026 02:41:49 GMT",
-      "summary": "Paris Corn Hits Seven-Week High After Ukraine Cargo Attack\nCorn prices reached the highest level in seven weeks in Paris as renewed tensions in the Black Sea stoked supply concerns."
+      "summary": "Stocks Decline as Oil Whipsaws on US-Iran Risks: Markets Wrap\nA renewed bout of oil volatility sent stocks lower, with concerns about further escalation in Middle East hostilities outweighing technology gains."
     },
     {
       "title": "Canada Financials Stocks Close In on Top Spot as Energy Momentum Fades",
       "link": "https://www.bloomberg.com/news/articles/2026-07-20/canada-financials-stocks-close-in-on-top-spot-as-energy-momentum-fades",
-      "raw_summary": "Canada’s financial stocks are on the verge of overtaking energy as the best performing sector in the equity market this year.",
+      "raw_summary": "Canada’s financial stocks took a breather Monday after a torrid four-month rally that put them on the verge of overtaking energy as the best performing sector in the equity market this year.",
       "source": "Bloomberg Markets",
       "published": "Mon, 20 Jul 2026 13:19:04 GMT",
-      "summary": "Canada Financials Stocks Close In on Top Spot as Energy Momentum Fades\nCanada’s financial stocks are on the verge of overtaking energy as the best performing sector in the equity market this year."
+      "summary": "Canada Financials Stocks Close In on Top Spot as Energy Momentum Fades\nCanada’s financial stocks took a breather Monday after a torrid four-month rally that put them on the verge of overtaking energy as the best performing sector in the equity market this year."
     },
     {
-      "title": "Goldman Says Hedge Funds Sell US Tech Stocks at Record Pace",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-20/goldman-says-hedge-funds-sell-us-tech-stocks-at-record-pace",
-      "raw_summary": "Hedge funds pulled back from US tech stocks at a record pace over the past two months, according to Goldman Sachs Group Inc.’s Prime Services desk.",
+      "title": "Gilts Rattled on Andy Burnham’s First Day as Fiscal Fears Return",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-20/gilts-fall-as-burnham-s-fiscal-flexibility-comments-spook-market",
+      "raw_summary": "UK government bonds plunged after new Prime Minister Andy Burnham unnerved investors on his first day in the job over his approach to the country’s finances.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 20 Jul 2026 13:16:19 GMT",
-      "summary": "Goldman Says Hedge Funds Sell US Tech Stocks at Record Pace\nHedge funds pulled back from US tech stocks at a record pace over the past two months, according to Goldman Sachs Group Inc.’s Prime Services desk."
+      "published": "Mon, 20 Jul 2026 15:07:58 GMT",
+      "summary": "Gilts Rattled on Andy Burnham’s First Day as Fiscal Fears Return\nUK government bonds plunged after new Prime Minister Andy Burnham unnerved investors on his first day in the job over his approach to the country’s finances."
     },
     {
-      "title": "Hut 8 surges on $9.8 billion AI data-center lease, lifting compute sector",
+      "title": "Gold Steadies as Traders Assess Rate Path Amid US-Iran Conflict",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-19/gold-falls-as-us-iran-hostilities-keep-rate-hike-bets-on-table",
+      "raw_summary": "Gold steadied after escalating US-Iran clashes over the weekend were followed by reports of mediation efforts, with traders assessing the likelihood of the Federal Reserve raising interest rates to contain inflation.",
+      "source": "Bloomberg Markets",
+      "published": "Sun, 19 Jul 2026 23:33:09 GMT",
+      "summary": "Gold Steadies as Traders Assess Rate Path Amid US-Iran Conflict\nGold steadied after escalating US-Iran clashes over the weekend were followed by reports of mediation efforts, with traders assessing the likelihood of the Federal Reserve raising interest rates to contain inflation."
+    },
+    {
+      "title": "Lionheart (CUB) Nears $400 Million Deal for Venezuela Oil Stake",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-20/lionheart-cub-nears-400-million-deal-for-venezuela-oil-stake",
+      "raw_summary": "Lionheart Capital is close to a $400 million deal for a stake in a Venezuelan oil field, in what would be one of the first major private investments in the country’s oil industry since the US began easing sanctions.",
+      "source": "Bloomberg Markets",
+      "published": "Mon, 20 Jul 2026 14:38:33 GMT",
+      "summary": "Lionheart (CUB) Nears $400 Million Deal for Venezuela Oil Stake\nLionheart Capital is close to a $400 million deal for a stake in a Venezuelan oil field, in what would be one of the first major private investments in the country’s oil industry since the US began easing sanctions."
+    },
+    {
+      "title": "Inside Cardano's 'Van Rossum' hard fork, and what it means for users",
+      "link": "https://www.coindesk.com/markets/2026/07/20/inside-cardano-s-van-rossum-hard-fork-and-what-it-means-for-users",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Mon, 20 Jul 2026 14:31:23 +0000",
+      "summary": "Inside Cardano's 'Van Rossum' hard fork, and what it means for users\n"
+    },
+    {
+      "title": "Exodus to cut 25% of global workforce in payments shift",
+      "link": "https://www.coindesk.com/business/2026/07/20/exodus-to-cut-25-of-global-workforce-in-payments-shift",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Mon, 20 Jul 2026 13:53:08 +0000",
+      "summary": "Exodus to cut 25% of global workforce in payments shift\n"
+    },
+    {
+      "title": "AI compute stocks bounce as Hut 8, IREN land billions in new contracts",
       "link": "https://www.coindesk.com/business/2026/07/20/hut-8-surges-on-usd9-8-billion-ai-data-center-lease-lifting-compute-sector",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Mon, 20 Jul 2026 13:49:24 +0000",
-      "summary": "Hut 8 surges on $9.8 billion AI data-center lease, lifting compute sector\n"
+      "summary": "AI compute stocks bounce as Hut 8, IREN land billions in new contracts\n"
     },
     {
       "title": "Tom Lee's Bitmine slowed ether purchases as it bought back $86 million in stock",
@@ -305,22 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Mon, 20 Jul 2026 12:35:02 +0000",
       "summary": "Saylor's Strategy raises cash reserves to $3.2 billion, leaving bitcoin holdings unchanged\n"
-    },
-    {
-      "title": "Brazil’s securities regulator sets up task force with 60-day deadline for tokenization proposal",
-      "link": "https://www.coindesk.com/policy/2026/07/20/brazil-s-securities-regulator-sets-up-task-force-with-60-day-deadline-for-tokenization-proposal",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 20 Jul 2026 12:02:28 +0000",
-      "summary": "Brazil’s securities regulator sets up task force with 60-day deadline for tokenization proposal\n"
-    },
-    {
-      "title": "A bitcoin 'volmageddon' may be brewing, key indicator suggests",
-      "link": "https://www.coindesk.com/daybook-us/2026/07/20/a-bitcoin-volmageddon-may-be-brewing-key-indicator-suggests",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 20 Jul 2026 11:15:57 +0000",
-      "summary": "A bitcoin 'volmageddon' may be brewing, key indicator suggests\n"
     }
   ]
 }
