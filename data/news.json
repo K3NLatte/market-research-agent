@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T18:54:04.937373+00:00",
+  "generated_at": "2026-07-20T03:15:56.085851+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,14 @@
       "summary": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial\nTwo men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London, the entity responsible for the public transport network in the Greater London area. The duo "
     },
     {
+      "title": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
+      "link": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
+      "raw_summary": "F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests. CVE-2026-42533 was patched on July 15 in nginx 1.30.4 (stable) and 1.31.3 (mainline), and in NGINX Plus 37.0.3.1; anyone on an earlier build should upgrade.\n\nTriggering it can crash or restart the worker, causing a denial of",
+      "source": "The Hacker News",
+      "published": "Mon, 20 Jul 2026 02:12:49 +0530",
+      "summary": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution\nF5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests. CVE-2026-42533 was patched on July 15 in ngi"
+    },
+    {
       "title": "UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware",
       "link": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
       "raw_summary": "Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware.\n\nAccording to the Computer Emergency Response Team of Ukraine (CERT-UA), the activity has been attributed to UAC-0145, a sub-cluster within Sandworm, an advanced hacking unit affiliated with GRU, Russia's",
@@ -75,52 +83,68 @@
       "summary": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests\nEleven bytes will make an unpatched OpenSSL server set aside up to 131 KB of memory for a message that never arrives. On the glibc systems Okta tested, that memory is gone until the process restarts.\n\nOpenSSL shipped the Ho"
     },
     {
-      "title": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
-      "link": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
-      "raw_summary": "Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack.\n\nThe malicious package campaign, codenamed ViteVenom by Checkmarx, marks an expansion of ChainVeil, which was observed using an \"unprecedented\" four-tier blockchain-based command-and-control (C2) infrastructure spanning Tron,",
-      "source": "The Hacker News",
-      "published": "Sat, 18 Jul 2026 00:24:51 +0530",
-      "summary": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT\nCybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack.\n\nThe malicious package campaign, codenamed ViteVenom by Ch"
+      "title": "Delete Your Data with Drop",
+      "link": "https://privacy.ca.gov/",
+      "raw_summary": "<p>Article URL: <a href=\"https://privacy.ca.gov/\">https://privacy.ca.gov/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48973715\">https://news.ycombinator.com/item?id=48973715</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Mon, 20 Jul 2026 02:19:22 +0000",
+      "summary": "Delete Your Data with Drop\n<p>Article URL: <a href=\"https://privacy.ca.gov/\">https://privacy.ca.gov/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48973715\">https://news.ycombinator.com/item?id=48973715</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>"
     },
     {
-      "title": "Less Is More: Why Audio on SoundCloud Looks Different",
-      "link": "https://developers.soundcloud.com/blog/less-is-more-why-soundcloud-low-passes-its-aac-transcodings/",
-      "raw_summary": "<p>Article URL: <a href=\"https://developers.soundcloud.com/blog/less-is-more-why-soundcloud-low-passes-its-aac-transcodings/\">https://developers.soundcloud.com/blog/less-is-more-why-soundcloud-low-passes-its-aac-transcodings/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48970372\">https://news.ycombinator.com/item?id=48970372</a></p>\n<p>Points: 8</p>\n<p># Comments: 1</p>",
+      "title": "Moonshine: Lets you stream games from your PC to any device running Moonlight",
+      "link": "https://github.com/hgaiser/moonshine",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/hgaiser/moonshine\">https://github.com/hgaiser/moonshine</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48972970\">https://news.ycombinator.com/item?id=48972970</a></p>\n<p>Points: 7</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 19 Jul 2026 18:10:12 +0000",
-      "summary": "Less Is More: Why Audio on SoundCloud Looks Different\n<p>Article URL: <a href=\"https://developers.soundcloud.com/blog/less-is-more-why-soundcloud-low-passes-its-aac-transcodings/\">https://developers.soundcloud.com/blog/less-is-more-why-soundcloud-low-passes-its-aac-transcodings/</a></p>\n<p>Comments "
+      "published": "Mon, 20 Jul 2026 00:16:50 +0000",
+      "summary": "Moonshine: Lets you stream games from your PC to any device running Moonlight\n<p>Article URL: <a href=\"https://github.com/hgaiser/moonshine\">https://github.com/hgaiser/moonshine</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48972970\">https://news.ycombinator.com/item?id=4897"
     },
     {
-      "title": "Neither GCC nor Clang are compliant with standard C++",
-      "link": "https://sebsite.pw/w/20260708-badstdcxx.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://sebsite.pw/w/20260708-badstdcxx.html\">https://sebsite.pw/w/20260708-badstdcxx.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48970039\">https://news.ycombinator.com/item?id=48970039</a></p>\n<p>Points: 15</p>\n<p># Comments: 6</p>",
+      "title": "We want Texans to know their rights",
+      "link": "https://www.eff.org/deeplinks/2026/07/we-want-texans-know-their-rights-qa-mayday-health-impact-surveillance-abortion",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.eff.org/deeplinks/2026/07/we-want-texans-know-their-rights-qa-mayday-health-impact-surveillance-abortion\">https://www.eff.org/deeplinks/2026/07/we-want-texans-know-their-rights-qa-mayday-health-impact-surveillance-abortion</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48972062\">https://news.ycombinator.com/item?id=48972062</a></p>\n<p>Points: 147</p>\n<p># Comments: 46</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 19 Jul 2026 17:32:41 +0000",
-      "summary": "Neither GCC nor Clang are compliant with standard C++\n<p>Article URL: <a href=\"https://sebsite.pw/w/20260708-badstdcxx.html\">https://sebsite.pw/w/20260708-badstdcxx.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48970039\">https://news.ycombinator.com/item?id=48970039</a>"
+      "published": "Sun, 19 Jul 2026 22:03:11 +0000",
+      "summary": "We want Texans to know their rights\n<p>Article URL: <a href=\"https://www.eff.org/deeplinks/2026/07/we-want-texans-know-their-rights-qa-mayday-health-impact-surveillance-abortion\">https://www.eff.org/deeplinks/2026/07/we-want-texans-know-their-rights-qa-mayday-health-impact-surveillance-abortion</a><"
     },
     {
-      "title": "HMD Touch 4G",
-      "link": "https://www.hmd.com/en_int/hmd-touch-4g",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.hmd.com/en_int/hmd-touch-4g\">https://www.hmd.com/en_int/hmd-touch-4g</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48969983\">https://news.ycombinator.com/item?id=48969983</a></p>\n<p>Points: 27</p>\n<p># Comments: 28</p>",
+      "title": "Grok-iOS – remote Grok Build from your iPhone over ACP",
+      "link": "https://github.com/Pedroshakoor/grok-build-ios",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/Pedroshakoor/grok-build-ios\">https://github.com/Pedroshakoor/grok-build-ios</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48971999\">https://news.ycombinator.com/item?id=48971999</a></p>\n<p>Points: 10</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 19 Jul 2026 17:25:03 +0000",
-      "summary": "HMD Touch 4G\n<p>Article URL: <a href=\"https://www.hmd.com/en_int/hmd-touch-4g\">https://www.hmd.com/en_int/hmd-touch-4g</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48969983\">https://news.ycombinator.com/item?id=48969983</a></p>\n<p>Points: 27</p>\n<p># Comments: 28</p>"
+      "published": "Sun, 19 Jul 2026 21:51:26 +0000",
+      "summary": "Grok-iOS – remote Grok Build from your iPhone over ACP\n<p>Article URL: <a href=\"https://github.com/Pedroshakoor/grok-build-ios\">https://github.com/Pedroshakoor/grok-build-ios</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48971999\">https://news.ycombinator.com/item?id=4897199"
     },
     {
-      "title": "The Last MPEG-4 Visual Patent Has Expired",
-      "link": "https://www.phoronix.com/news/Last-MPEG-4-Patent-Expired",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.phoronix.com/news/Last-MPEG-4-Patent-Expired\">https://www.phoronix.com/news/Last-MPEG-4-Patent-Expired</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48969635\">https://news.ycombinator.com/item?id=48969635</a></p>\n<p>Points: 42</p>\n<p># Comments: 11</p>",
+      "title": "Biggest Probabilistic Computer Turns Noise into Answers",
+      "link": "https://spectrum.ieee.org/biggest-probabilistic-computer",
+      "raw_summary": "<p>Article URL: <a href=\"https://spectrum.ieee.org/biggest-probabilistic-computer\">https://spectrum.ieee.org/biggest-probabilistic-computer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48971938\">https://news.ycombinator.com/item?id=48971938</a></p>\n<p>Points: 41</p>\n<p># Comments: 6</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 19 Jul 2026 16:45:17 +0000",
-      "summary": "The Last MPEG-4 Visual Patent Has Expired\n<p>Article URL: <a href=\"https://www.phoronix.com/news/Last-MPEG-4-Patent-Expired\">https://www.phoronix.com/news/Last-MPEG-4-Patent-Expired</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48969635\">https://news.ycombinator.com/item?id="
+      "published": "Sun, 19 Jul 2026 21:42:12 +0000",
+      "summary": "Biggest Probabilistic Computer Turns Noise into Answers\n<p>Article URL: <a href=\"https://spectrum.ieee.org/biggest-probabilistic-computer\">https://spectrum.ieee.org/biggest-probabilistic-computer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48971938\">https://news.ycombinato"
     },
     {
-      "title": "Texas Police Spent $4.5M on Four Chevy Tahoes",
-      "link": "https://www.thedrive.com/news/how-texas-police-spent-4-5-million-on-four-chevy-tahoes",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.thedrive.com/news/how-texas-police-spent-4-5-million-on-four-chevy-tahoes\">https://www.thedrive.com/news/how-texas-police-spent-4-5-million-on-four-chevy-tahoes</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48969582\">https://news.ycombinator.com/item?id=48969582</a></p>\n<p>Points: 49</p>\n<p># Comments: 22</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Sun, 19 Jul 2026 16:38:36 +0000",
-      "summary": "Texas Police Spent $4.5M on Four Chevy Tahoes\n<p>Article URL: <a href=\"https://www.thedrive.com/news/how-texas-police-spent-4-5-million-on-four-chevy-tahoes\">https://www.thedrive.com/news/how-texas-police-spent-4-5-million-on-four-chevy-tahoes</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinat"
+      "title": "Netflix paid $587M for Ben Affleck’s AI filmmaking startup",
+      "link": "https://techcrunch.com/2026/07/19/netflix-paid-587m-for-ben-afflecks-ai-filmmaking-startup/",
+      "raw_summary": "Netflix revealed that it paid $587 million in cash for InterPositive, a startup co-founded by Ben Affleck.",
+      "source": "TechCrunch",
+      "published": "Sun, 19 Jul 2026 21:45:00 +0000",
+      "summary": "Netflix paid $587M for Ben Affleck’s AI filmmaking startup\nNetflix revealed that it paid $587 million in cash for InterPositive, a startup co-founded by Ben Affleck."
+    },
+    {
+      "title": "What to watch for after Jensen Huang’s Japan visit",
+      "link": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
+      "raw_summary": "Jensen Huang left Tokyo with deals spanning Japan's entire tech ecosystem.",
+      "source": "TechCrunch",
+      "published": "Sun, 19 Jul 2026 21:16:07 +0000",
+      "summary": "What to watch for after Jensen Huang’s Japan visit\nJensen Huang left Tokyo with deals spanning Japan's entire tech ecosystem."
+    },
+    {
+      "title": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
+      "link": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
+      "raw_summary": "On the latest episode of Equity, we debate whether Apple's lawsuit will cast over OpenAi's much-discussed plans to get into hardware and go public.",
+      "source": "TechCrunch",
+      "published": "Sun, 19 Jul 2026 19:24:45 +0000",
+      "summary": "Can an Apple lawsuit derail OpenAI’s hardware plans?\nOn the latest episode of Equity, we debate whether Apple's lawsuit will cast over OpenAi's much-discussed plans to get into hardware and go public."
     },
     {
       "title": "TechCrunch Mobility: The battle over robotaxi rules",
@@ -139,28 +163,12 @@
       "summary": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’\n\"Everybody knows the Greeks are inside.\""
     },
     {
-      "title": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
-      "link": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
-      "raw_summary": "Current AI, a non-profit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat and more.",
-      "source": "TechCrunch",
-      "published": "Sun, 19 Jul 2026 14:00:00 +0000",
-      "summary": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all\nCurrent AI, a non-profit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat and more."
-    },
-    {
-      "title": "Waymo says San Francisco service has resumed after one-hour pause",
-      "link": "https://techcrunch.com/2026/07/18/waymo-appears-to-pause-san-francisco-service-amidst-power-outage/",
-      "raw_summary": "This isn’t the first time power outages have caused issues for Waymo.",
-      "source": "TechCrunch",
-      "published": "Sat, 18 Jul 2026 19:30:23 +0000",
-      "summary": "Waymo says San Francisco service has resumed after one-hour pause\nThis isn’t the first time power outages have caused issues for Waymo."
-    },
-    {
-      "title": "Kimi: Threat or menace?",
-      "link": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
-      "raw_summary": "Chinese company Moonshot AI released a new version of its Kimi model this week, prompting concern about \"full AI communism.\"",
-      "source": "TechCrunch",
-      "published": "Sat, 18 Jul 2026 18:51:07 +0000",
-      "summary": "Kimi: Threat or menace?\nChinese company Moonshot AI released a new version of its Kimi model this week, prompting concern about \"full AI communism.\""
+      "title": "India's first privately-developed rocket reaches orbit on dramatic debut launch",
+      "link": "https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/",
+      "raw_summary": "\"On the first attempt, reaching orbit, I never thought it was possible.\"",
+      "source": "Ars Technica - All content",
+      "published": "Sun, 19 Jul 2026 22:11:21 +0000",
+      "summary": "India's first privately-developed rocket reaches orbit on dramatic debut launch\n\"On the first attempt, reaching orbit, I never thought it was possible.\""
     },
     {
       "title": "As mosquito ranges expand, better monitoring is key to preventing disease",
@@ -195,92 +203,84 @@
       "summary": "The Pentagon's Space Development Agency hasn't moved as fast as anyone would like\n\"Missiles are being launched at the joint force every single day in [Operation] Epic Fury.\""
     },
     {
-      "title": "Hegseth wants a \"High-T\" military; doctors call it a clinical minefield",
-      "link": "https://arstechnica.com/health/2026/07/hegseth-wants-a-high-t-military-doctors-call-it-a-clinical-minefield/",
-      "raw_summary": "\"We're turning the clock back on rational healthcare.\"",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 17 Jul 2026 18:53:11 +0000",
-      "summary": "Hegseth wants a \"High-T\" military; doctors call it a clinical minefield\n\"We're turning the clock back on rational healthcare.\""
-    },
-    {
-      "title": "Boeing says it will be ready to fund new plane programme by 2030",
-      "link": "https://www.ft.com/content/c688ea11-c066-44a3-9372-2e2293e9e6f9?syn-25a6b1a6=1",
-      "raw_summary": "US group expects to have firepower to start work on 737 Max successor but warns that demand may be more of a constraint",
+      "title": "US launches fresh Iran strikes as death toll climbs",
+      "link": "https://www.ft.com/content/7aa5493a-a2ba-4824-b3d0-03b9309ae3ea?syn-25a6b1a6=1",
+      "raw_summary": "Service member dies in ‘controlled’ drone detonation after two soldiers killed in Jordan with another missing",
       "source": "World",
-      "published": "Sun, 19 Jul 2026 17:22:26 GMT",
-      "summary": "Boeing says it will be ready to fund new plane programme by 2030\nUS group expects to have firepower to start work on 737 Max successor but warns that demand may be more of a constraint"
+      "published": "Mon, 20 Jul 2026 02:12:53 GMT",
+      "summary": "US launches fresh Iran strikes as death toll climbs\nService member dies in ‘controlled’ drone detonation after two soldiers killed in Jordan with another missing"
     },
     {
-      "title": "Burnham’s British reboot begins",
-      "link": "https://www.ft.com/content/0b2af747-f298-4740-a3d2-7165f1f687be?syn-25a6b1a6=1",
-      "raw_summary": "‘King of the North’ comes south, ECB rate decision, Trump returns to a rescheduled White House correspondents’ dinner",
+      "title": "The AI revolution takes on the world’s most cyclical industry",
+      "link": "https://www.ft.com/content/97eeb736-f8af-4839-8511-3d0354c8b34c?syn-25a6b1a6=1",
+      "raw_summary": "Massive investment plans lead to investor fears of a new boom and bust in memory chips",
       "source": "World",
-      "published": "Sun, 19 Jul 2026 17:15:04 GMT",
-      "summary": "Burnham’s British reboot begins\n‘King of the North’ comes south, ECB rate decision, Trump returns to a rescheduled White House correspondents’ dinner"
+      "published": "Mon, 20 Jul 2026 01:00:07 GMT",
+      "summary": "The AI revolution takes on the world’s most cyclical industry\nMassive investment plans lead to investor fears of a new boom and bust in memory chips"
     },
     {
-      "title": "Burnham to maintain ban on North Sea exploration licences",
-      "link": "https://www.ft.com/content/d9631aae-1100-43e0-a09a-e49f5c21f896?syn-25a6b1a6=1",
-      "raw_summary": "Decision criticised by oil and gas industry as well as trade union",
+      "title": "Spain beat Argentina to win World Cup for second time",
+      "link": "https://www.ft.com/content/424d3c10-0068-4005-ad9b-d15daa70b842?syn-25a6b1a6=1",
+      "raw_summary": "Extra-time winner from Ferran Torres is decisive moment in tight but completely one-sided final",
       "source": "World",
-      "published": "Sun, 19 Jul 2026 15:37:26 GMT",
-      "summary": "Burnham to maintain ban on North Sea exploration licences\nDecision criticised by oil and gas industry as well as trade union"
+      "published": "Sun, 19 Jul 2026 23:35:31 GMT",
+      "summary": "Spain beat Argentina to win World Cup for second time\nExtra-time winner from Ferran Torres is decisive moment in tight but completely one-sided final"
     },
     {
-      "title": "UK must focus on insiders vs outsiders not north vs south",
-      "link": "https://www.ft.com/content/79160822-5eb7-41c1-b9f7-a2a447ecb378?syn-25a6b1a6=1",
-      "raw_summary": "Economists and politicians want to boost growth, but it must include people on the periphery of hotspots",
+      "title": "FirstFT: Singapore weighs tax cuts for fund managers to rival Hong Kong",
+      "link": "https://www.ft.com/content/b8fd6341-4191-4fdd-a9c0-7fb7837d1dc7?syn-25a6b1a6=1",
+      "raw_summary": "Also in today’s newsletter: US-Iran war expands and EU faces crumbling support for new Russia sanctions",
       "source": "World",
-      "published": "Sun, 19 Jul 2026 15:00:03 GMT",
-      "summary": "UK must focus on insiders vs outsiders not north vs south\nEconomists and politicians want to boost growth, but it must include people on the periphery of hotspots"
+      "published": "Sun, 19 Jul 2026 22:31:21 GMT",
+      "summary": "FirstFT: Singapore weighs tax cuts for fund managers to rival Hong Kong\nAlso in today’s newsletter: US-Iran war expands and EU faces crumbling support for new Russia sanctions"
     },
     {
-      "title": "EU faces crumbling support for new Russia sanctions",
-      "link": "https://www.ft.com/content/eb0cd740-e45d-4dd7-ab9a-6f6643bb32ee?syn-25a6b1a6=1",
-      "raw_summary": "National capitals refuse to support measures that could hurt big companies",
+      "title": "Andy Burnham plans beefed-up control centre in Downing Street",
+      "link": "https://www.ft.com/content/1370d477-fc16-408a-b9ed-d9c19c076ca3?syn-25a6b1a6=1",
+      "raw_summary": "Incoming prime minister wants to be less reliant on ‘imperial’ Treasury as he bids to restore confidence in government",
       "source": "World",
-      "published": "Sun, 19 Jul 2026 14:00:02 GMT",
-      "summary": "EU faces crumbling support for new Russia sanctions\nNational capitals refuse to support measures that could hurt big companies"
+      "published": "Sun, 19 Jul 2026 20:00:04 GMT",
+      "summary": "Andy Burnham plans beefed-up control centre in Downing Street\nIncoming prime minister wants to be less reliant on ‘imperial’ Treasury as he bids to restore confidence in government"
     },
     {
-      "title": "US-Iran Attacks Escalate as Strikes Kill Two American Troops",
+      "title": "Latest Oil Market News and Analysis for July 20",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-19/latest-oil-market-news-and-analysis-for-july-20",
+      "raw_summary": "Brent crude jumped after the US and Iran escalated hostilities, including the targeting of vessels attempting to transit the Strait of Hormuz and an attack on a key oil facility in Kuwait over the weekend.",
+      "source": "Bloomberg Markets",
+      "published": "Sun, 19 Jul 2026 22:02:08 GMT",
+      "summary": "Latest Oil Market News and Analysis for July 20\nBrent crude jumped after the US and Iran escalated hostilities, including the targeting of vessels attempting to transit the Strait of Hormuz and an attack on a key oil facility in Kuwait over the weekend."
+    },
+    {
+      "title": "US Strikes Iran in Escalating Campaign After Troops Killed",
       "link": "https://www.bloomberg.com/news/articles/2026-07-19/us-iran-trade-more-attacks-after-two-troops-killed-in-jordan",
-      "raw_summary": "The US and Iran engaged in a quickening series of tit-for-tat attacks, causing fresh chaos in the Middle East over the weekend after strikes by the Islamic Republic killed two American service members in Jordan.",
+      "raw_summary": "The US and Iran engaged in a quickening series of tit-for-tat attacks, with the American military conducting a wave of strikes on the Islamic Republic following the deaths of service personnel.",
       "source": "Bloomberg Markets",
       "published": "Sun, 19 Jul 2026 06:58:45 GMT",
-      "summary": "US-Iran Attacks Escalate as Strikes Kill Two American Troops\nThe US and Iran engaged in a quickening series of tit-for-tat attacks, causing fresh chaos in the Middle East over the weekend after strikes by the Islamic Republic killed two American service members in Jordan."
+      "summary": "US Strikes Iran in Escalating Campaign After Troops Killed\nThe US and Iran engaged in a quickening series of tit-for-tat attacks, with the American military conducting a wave of strikes on the Islamic Republic following the deaths of service personnel."
     },
     {
-      "title": "Bond Traders Take Warsh at Word, See Inflation Fight Continuing",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-19/bond-traders-take-warsh-at-word-see-inflation-fight-continuing",
-      "raw_summary": "Bond traders and Federal Reserve Chairman Kevin Warsh are in agreement on a crucial point: The central bank’s fight against inflation still seems far from over.",
+      "title": "Tungsten Miner’s Stock Jumps as Billionaire Forrest Buys Stake",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-20/tungsten-miner-s-stock-jumps-as-billionaire-forrest-buys-stake",
+      "raw_summary": "EQ Resources Ltd. shares surged after mining billionaire Andrew Forrest agreed to acquire a 16.8% stake in the Sydney-listed tungsten producer from Oaktree Capital Management LP.",
       "source": "Bloomberg Markets",
-      "published": "Sun, 19 Jul 2026 17:00:00 GMT",
-      "summary": "Bond Traders Take Warsh at Word, See Inflation Fight Continuing\nBond traders and Federal Reserve Chairman Kevin Warsh are in agreement on a crucial point: The central bank’s fight against inflation still seems far from over."
+      "published": "Mon, 20 Jul 2026 01:36:04 GMT",
+      "summary": "Tungsten Miner’s Stock Jumps as Billionaire Forrest Buys Stake\nEQ Resources Ltd. shares surged after mining billionaire Andrew Forrest agreed to acquire a 16.8% stake in the Sydney-listed tungsten producer from Oaktree Capital Management LP."
     },
     {
-      "title": "Caspian Pipeline Consortium Halts Loadings on Drone Strike",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-19/caspian-pipeline-consortium-halts-loadings-after-drone-strike",
-      "raw_summary": "Oil loading at the Caspian Pipeline Consortium’s terminal on Russia’s Black Sea coast was suspended after a drone strike, prompting the Kazakh government to call for an immediate end to such attacks.",
+      "title": "Innolight Gauges Interest for $8 Billion Hong Kong Listing",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-20/zhongji-innolight-starts-gauging-interest-for-hong-kong-listing",
+      "raw_summary": "China’s Zhongji Innolight Co. is starting to gauge investor demand for its Hong Kong listing, according to terms of the deal seen by Bloomberg News, bringing it a step closer to what may be the city’s largest first-time share sale in seven years.",
       "source": "Bloomberg Markets",
-      "published": "Sun, 19 Jul 2026 08:03:40 GMT",
-      "summary": "Caspian Pipeline Consortium Halts Loadings on Drone Strike\nOil loading at the Caspian Pipeline Consortium’s terminal on Russia’s Black Sea coast was suspended after a drone strike, prompting the Kazakh government to call for an immediate end to such attacks."
+      "published": "Mon, 20 Jul 2026 02:16:14 GMT",
+      "summary": "Innolight Gauges Interest for $8 Billion Hong Kong Listing\nChina’s Zhongji Innolight Co. is starting to gauge investor demand for its Hong Kong listing, according to terms of the deal seen by Bloomberg News, bringing it a step closer to what may be the city’s largest first-time share sale in seven y"
     },
     {
-      "title": "Tropical Storm Watches Posted Across Florida’s Panhandle Region",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-19/tropical-storm-watches-posted-across-florida-s-panhandle-region",
-      "raw_summary": "A tropical storm watch has been issued for the Florida Panhandle as the Atlantic’s next event takes shape off shore.",
+      "title": "India Private Banks See Corporate Loans Rise as Bond Yields Climb",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-07-20/india-private-banks-see-corporate-loans-rise-as-bond-yields-climb",
+      "raw_summary": "Managements sounded fairly confident that credit demand will hold up.",
       "source": "Bloomberg Markets",
-      "published": "Sun, 19 Jul 2026 15:44:22 GMT",
-      "summary": "Tropical Storm Watches Posted Across Florida’s Panhandle Region\nA tropical storm watch has been issued for the Florida Panhandle as the Atlantic’s next event takes shape off shore."
-    },
-    {
-      "title": "Extreme Stock Swings Tempt Funds Into Reverse Dispersion Trade",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-19/extreme-stock-swings-tempt-funds-into-reverse-dispersion-trade",
-      "raw_summary": "Betting that individual stocks will be volatile while the S&amp;P 500 stays relatively calm has been a popular and successful hedge fund strategy. But with the swings in share prices reaching extreme levels, the reverse trade is gaining traction with investors.",
-      "source": "Bloomberg Markets",
-      "published": "Sun, 19 Jul 2026 14:00:00 GMT",
-      "summary": "Extreme Stock Swings Tempt Funds Into Reverse Dispersion Trade\nBetting that individual stocks will be volatile while the S&amp;P 500 stays relatively calm has been a popular and successful hedge fund strategy. But with the swings in share prices reaching extreme levels, the reverse trade is gaining "
+      "published": "Mon, 20 Jul 2026 02:44:27 GMT",
+      "summary": "India Private Banks See Corporate Loans Rise as Bond Yields Climb\nManagements sounded fairly confident that credit demand will hold up."
     },
     {
       "title": "The GENIUS Act turns 1: State of Crypto",
