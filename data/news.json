@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T01:54:57.325094+00:00",
+  "generated_at": "2026-07-21T08:11:02.821823+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,22 @@
       "summary": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial\nTwo men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London, the entity responsible for the public transport network in the Greater London area. The duo "
     },
     {
+      "title": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
+      "link": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
+      "raw_summary": "Researchers at Sysdig have linked a second attack on the same Langflow server to JADEPUFFER, the AI-agent-driven operator it first documented earlier this month.\n\nThe same operator has now been spotted deploying ENCFORGE, a new compiled Go ransomware designed to encrypt model weights, vector indexes, training datasets, and other AI infrastructure files across the host filesystem.\n\nThe entry",
+      "source": "The Hacker News",
+      "published": "Tue, 21 Jul 2026 13:04:32 +0530",
+      "summary": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack\nResearchers at Sysdig have linked a second attack on the same Langflow server to JADEPUFFER, the AI-agent-driven operator it first documented earlier this month.\n\nThe same operator has now been spotted deploying ENCFORGE, a new co"
+    },
+    {
+      "title": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
+      "link": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
+      "raw_summary": "Threat actors are now exploiting a recently disclosed critical security flaw impacting ServiceNow AI Platform, according to Defused Cyber.\n\nIn a post shared on X, the threat intelligence firm said it's observing in-the-wild exploitation of CVE-2026-6875 (CVSS score: 9.5), a sandbox escape vulnerability that could allow an unauthenticated user to run arbitrary code.\n\nPatches for the flaw were",
+      "source": "The Hacker News",
+      "published": "Tue, 21 Jul 2026 11:59:26 +0530",
+      "summary": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution\nThreat actors are now exploiting a recently disclosed critical security flaw impacting ServiceNow AI Platform, according to Defused Cyber.\n\nIn a post shared on X, the threat intelligence firm said it's observing in-the"
+    },
+    {
       "title": "FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware",
       "link": "https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html",
       "raw_summary": "Cybersecurity researchers have discovered nearly 7,600 malicious GitHub repositories, out of which more than 800 pose as artificial intelligence (AI) skills or Model Context Protocol (MCP) servers to deliver a malware family known as SmartLoader as part of an ongoing campaign codenamed FakeGit.\n\n\"FakeGit uses copied projects, lookalike developer profiles, convincing READMEs, and malicious ZIP",
@@ -67,60 +83,44 @@
       "summary": "HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050\nA newly discovered espionage implant has been using a hijacked Microsoft 365 calendar as its command channel, planting operator instructions and smuggling out stolen files as attachments on calendar events dated to the "
     },
     {
-      "title": "⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More",
-      "link": "https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html",
-      "raw_summary": "A single request should not be able to do this much. But this week, small inputs led to code execution, memory loss, stolen keys, and disabled security tools.\n\nThe paths were often simple: exposed systems, weak checks, old drivers, fake prompts, and public code used for malware delivery. Some bugs were new. Others were already being used before defenders had time to patch.\n\nHere is the full",
-      "source": "The Hacker News",
-      "published": "Mon, 20 Jul 2026 19:02:26 +0530",
-      "summary": "⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More\nA single request should not be able to do this much. But this week, small inputs led to code execution, memory loss, stolen keys, and disabled security tools.\n\nThe paths were often simple: exposed systems,"
-    },
-    {
-      "title": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
-      "link": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html",
-      "raw_summary": "At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport routes, weapons shipments bound for Kyiv, and the locations of Ukrainian troops.\n\nThat is the finding of a cybersecurity advisory published July 10 by the AIVD and MIVD, the Netherlands' civilian and military intelligence",
-      "source": "The Hacker News",
-      "published": "Mon, 20 Jul 2026 17:43:39 +0530",
-      "summary": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine\nAt least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport routes, weapons shipments"
-    },
-    {
-      "title": "Flock Credibility Lost as It Repeatedly Lies to City Councils, Police, & Public",
-      "link": "https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-safety-credibility-lost-as-it-repeatedly-lies-to-city-councils-police-departments-and-public-across-the-country",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-safety-credibility-lost-as-it-repeatedly-lies-to-city-councils-police-departments-and-public-across-the-country\">https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-safety-credibility-lost-as-it-repeatedly-lies-to-city-councils-police-departments-and-public-across-the-country</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48986731\">https://news.ycombinator.com/item?id=48986731</a></p>\n<p>Points: 19</p>\n<p># Comments: 0</p>",
+      "title": "Linux kernel will support $ORIGIN, sort of",
+      "link": "https://fzakaria.com/2026/07/20/linux-kernel-will-support-origin-sort-of",
+      "raw_summary": "<p>Article URL: <a href=\"https://fzakaria.com/2026/07/20/linux-kernel-will-support-origin-sort-of\">https://fzakaria.com/2026/07/20/linux-kernel-will-support-origin-sort-of</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48988793\">https://news.ycombinator.com/item?id=48988793</a></p>\n<p>Points: 15</p>\n<p># Comments: 7</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 21 Jul 2026 00:33:53 +0000",
-      "summary": "Flock Credibility Lost as It Repeatedly Lies to City Councils, Police, & Public\n<p>Article URL: <a href=\"https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-safety-credibility-lost-as-it-repeatedly-lies-to-city-councils-police-departments-and-public-across-the-country\">https://w"
+      "published": "Tue, 21 Jul 2026 06:29:22 +0000",
+      "summary": "Linux kernel will support $ORIGIN, sort of\n<p>Article URL: <a href=\"https://fzakaria.com/2026/07/20/linux-kernel-will-support-origin-sort-of\">https://fzakaria.com/2026/07/20/linux-kernel-will-support-origin-sort-of</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48988793\">http"
     },
     {
-      "title": "Jellyfin founder Andrew leaves team",
-      "link": "https://forum.jellyfin.org/t-project-leadership-changes",
-      "raw_summary": "<p>Article URL: <a href=\"https://forum.jellyfin.org/t-project-leadership-changes\">https://forum.jellyfin.org/t-project-leadership-changes</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48986091\">https://news.ycombinator.com/item?id=48986091</a></p>\n<p>Points: 25</p>\n<p># Comments: 6</p>",
+      "title": "Show HN: Ex Situ – Open-source spatial index of displaced cultural artifacts",
+      "link": "https://exsitu.app/map",
+      "raw_summary": "<p>Hi, I designed and developed a spatial index that maps museum artefacts as connecting arcs/hyperlinks from their origin site to institutional location/sources. The Index specifically looks at western/euro-american institutions and maps their collection categorised by them under Islamic art, Asian/African art, ethnological collections, Middle East, South America etc.<p>Started as my MA thesis in 2022, kept building since, mostly solo with a little funding. Fully open source, self-hosted, AGPL-3.0, Next.js + Deck.gl on the frontend, Strapi backend, Python ETL pulling from museum open-access APIs. Currently indexing over 100k artifacts from all over the world, across 8 collections (Met, V&amp;A, SMB Berlin). Recently added an md export so researchers can download provenance data for a filtered set of artifacts.<p>The infrastructure is conceptualized as an indexer, not a hoster. Even images are kept as URLs pointing to the source institutions. It's connective tissue between archives that were never designed to speak to each other, with an origin-first search UI concept. The data model is on purpose flat, to avoid encoding problematic taxonomies, and routes researchers directly to the source giving responsibility to the source institutions rather than duplicating institutional data. It indexes the relationship between origin sites and destination collections.<p>Coming from a design background, taking this project from prototype to production app has been incredibly rewarding, but honestly it’s getting a little bit overwhelming to scale alone. I would love community’s feedback on performance scaling, any code contributions, data pipelines for missing museum apis or general feedback.<p>Repo: <a href=\"https://github.com/hburakyel/ex-situ\" rel=\"nofollow\">https://github.com/hburakyel/ex-situ</a><p>Live: <a href=\"https://exsitu.app\" rel=\"nofollow\">https://exsitu.app</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48988158\">https://news.ycombinator.com/item?id=48988158</a></p>\n<p>Points: 24</p>\n<p># Comments: 11</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 20 Jul 2026 23:15:41 +0000",
-      "summary": "Jellyfin founder Andrew leaves team\n<p>Article URL: <a href=\"https://forum.jellyfin.org/t-project-leadership-changes\">https://forum.jellyfin.org/t-project-leadership-changes</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48986091\">https://news.ycombinator.com/item?id=48986091"
+      "published": "Tue, 21 Jul 2026 04:48:32 +0000",
+      "summary": "Show HN: Ex Situ – Open-source spatial index of displaced cultural artifacts\n<p>Hi, I designed and developed a spatial index that maps museum artefacts as connecting arcs/hyperlinks from their origin site to institutional location/sources. The Index specifically looks at western/euro-american instit"
     },
     {
-      "title": "Opaque, Interoperable Passkey Records (and a Go API)",
-      "link": "https://words.filippo.io/passkey-record/",
-      "raw_summary": "<p>Article URL: <a href=\"https://words.filippo.io/passkey-record/\">https://words.filippo.io/passkey-record/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48985956\">https://news.ycombinator.com/item?id=48985956</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
+      "title": "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
+      "link": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
+      "raw_summary": "<p>Article URL: <a href=\"https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding\">https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48987863\">https://news.ycombinator.com/item?id=48987863</a></p>\n<p>Points: 240</p>\n<p># Comments: 112</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 20 Jul 2026 23:00:29 +0000",
-      "summary": "Opaque, Interoperable Passkey Records (and a Go API)\n<p>Article URL: <a href=\"https://words.filippo.io/passkey-record/\">https://words.filippo.io/passkey-record/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48985956\">https://news.ycombinator.com/item?id=48985956</a></p>\n<p>P"
+      "published": "Tue, 21 Jul 2026 03:56:03 +0000",
+      "summary": "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding\n<p>Article URL: <a href=\"https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding\">https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn"
     },
     {
-      "title": "I wrote an bash enumerator because I was sick of xargs",
-      "link": "https://numerlab.org/2025/07/20/bashumerate-enumerator/",
-      "raw_summary": "<p>Article URL: <a href=\"https://numerlab.org/2025/07/20/bashumerate-enumerator/\">https://numerlab.org/2025/07/20/bashumerate-enumerator/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48984270\">https://news.ycombinator.com/item?id=48984270</a></p>\n<p>Points: 54</p>\n<p># Comments: 50</p>",
+      "title": "Running Doom on Our Custom CPU and Going Viral",
+      "link": "https://www.armaangomes.com/blogs/doom/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.armaangomes.com/blogs/doom/\">https://www.armaangomes.com/blogs/doom/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48987846\">https://news.ycombinator.com/item?id=48987846</a></p>\n<p>Points: 52</p>\n<p># Comments: 9</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 20 Jul 2026 20:12:19 +0000",
-      "summary": "I wrote an bash enumerator because I was sick of xargs\n<p>Article URL: <a href=\"https://numerlab.org/2025/07/20/bashumerate-enumerator/\">https://numerlab.org/2025/07/20/bashumerate-enumerator/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48984270\">https://news.ycombinator.c"
+      "published": "Tue, 21 Jul 2026 03:54:16 +0000",
+      "summary": "Running Doom on Our Custom CPU and Going Viral\n<p>Article URL: <a href=\"https://www.armaangomes.com/blogs/doom/\">https://www.armaangomes.com/blogs/doom/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48987846\">https://news.ycombinator.com/item?id=48987846</a></p>\n<p>Points: 5"
     },
     {
-      "title": "Show HN: Immersive Gaussian Splat tour of grace cathedral, San Francisco",
-      "link": "https://vincentwoo.com/3d/grace_cathedral/",
-      "raw_summary": "<p>Article URL: <a href=\"https://vincentwoo.com/3d/grace_cathedral/\">https://vincentwoo.com/3d/grace_cathedral/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48984254\">https://news.ycombinator.com/item?id=48984254</a></p>\n<p>Points: 73</p>\n<p># Comments: 14</p>",
+      "title": "A Koi Pond Mosaic Made from 10 Pounds of 3D Printer Waste",
+      "link": "https://www.instructables.com/A-Koi-Pond-Mosaic-Made-From-10-Pounds-of-3D-Printe/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.instructables.com/A-Koi-Pond-Mosaic-Made-From-10-Pounds-of-3D-Printe/\">https://www.instructables.com/A-Koi-Pond-Mosaic-Made-From-10-Pounds-of-3D-Printe/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48987831\">https://news.ycombinator.com/item?id=48987831</a></p>\n<p>Points: 28</p>\n<p># Comments: 21</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 20 Jul 2026 20:10:44 +0000",
-      "summary": "Show HN: Immersive Gaussian Splat tour of grace cathedral, San Francisco\n<p>Article URL: <a href=\"https://vincentwoo.com/3d/grace_cathedral/\">https://vincentwoo.com/3d/grace_cathedral/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48984254\">https://news.ycombinator.com/item?"
+      "published": "Tue, 21 Jul 2026 03:52:05 +0000",
+      "summary": "A Koi Pond Mosaic Made from 10 Pounds of 3D Printer Waste\n<p>Article URL: <a href=\"https://www.instructables.com/A-Koi-Pond-Mosaic-Made-From-10-Pounds-of-3D-Printe/\">https://www.instructables.com/A-Koi-Pond-Mosaic-Made-From-10-Pounds-of-3D-Printe/</a></p>\n<p>Comments URL: <a href=\"https://news.ycomb"
     },
     {
       "title": "Anthropic’s landmark $1.5B copyright settlement is approved",
@@ -203,84 +203,116 @@
       "summary": "AT&T loses key ruling in bid to stop offering basic phone service in California\nAT&#038;T suffers setback but will keep asking court and FCC to preempt state rules."
     },
     {
-      "title": "Pro-Trump Super Pac Maga Inc builds $400mn war chest ahead of 2026 midterms",
-      "link": "https://www.ft.com/content/c34f57ed-6c8e-4203-983b-6b619848cb3e?syn-25a6b1a6=1",
-      "raw_summary": "President’s allies have built biggest money machine in a non-presidential election year",
+      "title": "Continuity and change in Burnham’s new cabinet",
+      "link": "https://www.ft.com/content/35e0aa44-e908-43a4-ad31-f4988f18bc9f?syn-25a6b1a6=1",
+      "raw_summary": "Chancellor from Labour’s ‘old right’ is experienced but unlikely to meaningfully diverge from previous set up",
       "source": "World",
-      "published": "Tue, 21 Jul 2026 01:53:48 GMT",
-      "summary": "Pro-Trump Super Pac Maga Inc builds $400mn war chest ahead of 2026 midterms\nPresident’s allies have built biggest money machine in a non-presidential election year"
+      "published": "Tue, 21 Jul 2026 07:55:25 GMT",
+      "summary": "Continuity and change in Burnham’s new cabinet\nChancellor from Labour’s ‘old right’ is experienced but unlikely to meaningfully diverge from previous set up"
     },
     {
-      "title": "Nearly 100 US troops injured in two weeks since Iran war resumed",
-      "link": "https://www.ft.com/content/2e137205-df69-47a2-9674-2f4a9deec0d9?syn-25a6b1a6=1",
-      "raw_summary": "The Pentagon says most soldiers suffered ‘minor concussions’ and have returned to duty",
+      "title": "Mitie agrees £3.1bn takeover by rival outsourcer OCS",
+      "link": "https://www.ft.com/content/aaee5340-68c3-40a3-840c-3bcbb88edd42?syn-25a6b1a6=1",
+      "raw_summary": "Facilities management group is latest London-listed company to agree a deal",
       "source": "World",
-      "published": "Tue, 21 Jul 2026 01:31:47 GMT",
-      "summary": "Nearly 100 US troops injured in two weeks since Iran war resumed\nThe Pentagon says most soldiers suffered ‘minor concussions’ and have returned to duty"
+      "published": "Tue, 21 Jul 2026 07:31:16 GMT",
+      "summary": "Mitie agrees £3.1bn takeover by rival outsourcer OCS\nFacilities management group is latest London-listed company to agree a deal"
     },
     {
-      "title": "Indian parliament starts session as student protests escalate",
-      "link": "https://www.ft.com/content/42b65531-8d64-445e-bfdf-0d593d4e8c54?syn-25a6b1a6=1",
-      "raw_summary": "Also in this newsletter, credit growth bump for private banks",
+      "title": "Indian asset manager’s debut revives hopes for local IPO market",
+      "link": "https://www.ft.com/content/6320b91d-9eda-41ff-ae76-bb68a52886f9?syn-25a6b1a6=1",
+      "raw_summary": "Shares of SBI Funds Management jump nearly 9% in country’s largest listing so far this year",
       "source": "World",
-      "published": "Tue, 21 Jul 2026 01:30:06 GMT",
-      "summary": "Indian parliament starts session as student protests escalate\nAlso in this newsletter, credit growth bump for private banks"
+      "published": "Tue, 21 Jul 2026 06:47:04 GMT",
+      "summary": "Indian asset manager’s debut revives hopes for local IPO market\nShares of SBI Funds Management jump nearly 9% in country’s largest listing so far this year"
     },
     {
-      "title": "US to hit Canada with 50% tariffs on wide range of goods",
-      "link": "https://www.ft.com/content/0b507e93-877f-4cf7-904b-639eb390c4bf?syn-25a6b1a6=1",
-      "raw_summary": "Washington accuses neighbour of engaging in unfair practices in move that could reignite trade war",
+      "title": "Brazil faces unforgiving economics after election",
+      "link": "https://www.ft.com/content/d47f9b39-9e78-4034-97a2-1ca8e07e27e8",
+      "raw_summary": "Whoever wins the presidential race will have to face up to the need for fiscal consolidation",
       "source": "World",
-      "published": "Tue, 21 Jul 2026 00:16:49 GMT",
-      "summary": "US to hit Canada with 50% tariffs on wide range of goods\nWashington accuses neighbour of engaging in unfair practices in move that could reignite trade war"
+      "published": "Tue, 21 Jul 2026 06:08:20 GMT",
+      "summary": "Brazil faces unforgiving economics after election\nWhoever wins the presidential race will have to face up to the need for fiscal consolidation"
     },
     {
-      "title": "Oracle could face $7bn collateral bill for Wisconsin data centre",
-      "link": "https://www.ft.com/content/b37030b6-bda8-4ba9-8e08-e6b88687b8f5?syn-25a6b1a6=1",
-      "raw_summary": "Increased power costs add to challenges facing tech giant’s AI ambition amid high spending and mounting debt",
+      "title": "Burnham move to eliminate VAT on electricity bills sparks funding row",
+      "link": "https://www.ft.com/content/7700d94a-d204-439a-92c8-027f67320b73",
+      "raw_summary": "Government claim that measure would be funded by scrapping digital ID scheme disputed by former minister",
       "source": "World",
-      "published": "Mon, 20 Jul 2026 23:33:46 GMT",
-      "summary": "Oracle could face $7bn collateral bill for Wisconsin data centre\nIncreased power costs add to challenges facing tech giant’s AI ambition amid high spending and mounting debt"
+      "published": "Tue, 21 Jul 2026 05:43:32 GMT",
+      "summary": "Burnham move to eliminate VAT on electricity bills sparks funding row\nGovernment claim that measure would be funded by scrapping digital ID scheme disputed by former minister"
     },
     {
-      "title": "Asian Stocks Recover as Chips Rebound, Oil Falls: Markets Wrap",
+      "title": "Chip Rebound Drives Stocks Higher as Oil Eases: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-07-20/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "Asian equities rose for the first time in four days, led by chipmakers, as investors looked to megacap earnings this week for clues on whether the AI-driven rally can be sustained. Oil fell.",
+      "raw_summary": "A strong rebound in chipmakers drove stock markets higher in a broadly supportive session that also saw lower oil prices, a rise in gold and softer Treasury yields.",
       "source": "Bloomberg Markets",
       "published": "Mon, 20 Jul 2026 22:09:48 GMT",
-      "summary": "Asian Stocks Recover as Chips Rebound, Oil Falls: Markets Wrap\nAsian equities rose for the first time in four days, led by chipmakers, as investors looked to megacap earnings this week for clues on whether the AI-driven rally can be sustained. Oil fell."
+      "summary": "Chip Rebound Drives Stocks Higher as Oil Eases: Markets Wrap\nA strong rebound in chipmakers drove stock markets higher in a broadly supportive session that also saw lower oil prices, a rise in gold and softer Treasury yields."
     },
     {
-      "title": "Latest Oil Market News and Analysis for July 21",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-20/latest-oil-market-news-and-analysis-for-july-20",
-      "raw_summary": "Brent oil slipped after surging almost 6% over the previous two sessions, as traders weighed continued hostilities between the US and Iran against efforts to broker a new ceasefire.",
+      "title": "Indonesia Markets First Panda Bonds as It Broadens Funding",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-21/indonesia-markets-first-panda-bonds-as-it-diversifies-funding",
+      "raw_summary": "Indonesia has begun marketing its inaugural yuan-denominated bonds in China’s domestic debt market, as Southeast Asia’s largest economy seeks to diversify funding sources amid currency volatility and fiscal challenges.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 20 Jul 2026 22:11:54 GMT",
-      "summary": "Latest Oil Market News and Analysis for July 21\nBrent oil slipped after surging almost 6% over the previous two sessions, as traders weighed continued hostilities between the US and Iran against efforts to broker a new ceasefire."
+      "published": "Tue, 21 Jul 2026 07:02:12 GMT",
+      "summary": "Indonesia Markets First Panda Bonds as It Broadens Funding\nIndonesia has begun marketing its inaugural yuan-denominated bonds in China’s domestic debt market, as Southeast Asia’s largest economy seeks to diversify funding sources amid currency volatility and fiscal challenges."
     },
     {
-      "title": "Moody’s Flags Rising Risks in Indonesia on Policy Uncertainty",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-21/moody-s-flags-rising-risks-in-indonesia-on-policy-uncertainty",
-      "raw_summary": "Moody’s Ratings remains concerned about policy uncertainty and fiscal sustainability risks in Indonesia, reinforcing its cautious outlook and warning that downside risks are likely to persist.",
+      "title": "Gilts Steady as Investors Await More Policy Details From Burnham",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-21/gilts-steady-as-investors-await-more-policy-details-from-burnham",
+      "raw_summary": "UK government bonds posted small moves as investors awaited fresh policy details from new Prime Minister Andy Burnham, while weak economic data dimmed bets on higher interest rates.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 21 Jul 2026 01:04:34 GMT",
-      "summary": "Moody’s Flags Rising Risks in Indonesia on Policy Uncertainty\nMoody’s Ratings remains concerned about policy uncertainty and fiscal sustainability risks in Indonesia, reinforcing its cautious outlook and warning that downside risks are likely to persist."
+      "published": "Tue, 21 Jul 2026 07:33:01 GMT",
+      "summary": "Gilts Steady as Investors Await More Policy Details From Burnham\nUK government bonds posted small moves as investors awaited fresh policy details from new Prime Minister Andy Burnham, while weak economic data dimmed bets on higher interest rates."
     },
     {
-      "title": "Korean Stock Traders Slash Margin Loans to Lowest Since April",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-21/korean-stock-traders-unwind-leveraged-bets-to-lowest-since-april",
-      "raw_summary": "South Korean investors slashed their leveraged stock positions to the lowest level in three months, as memory-chip losses halted the market’s rally.",
+      "title": "Another Ship Hit in Hormuz as Houthis Add to Regional Risks",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-21/another-tanker-hit-in-hormuz-as-houthis-add-to-regional-risks",
+      "raw_summary": "Another tanker was attacked in the Strait of Hormuz as renewed hostilities empty the waterway, while a threat by Houthi rebels to blockade Saudi Arabia in the Red Sea heightened regional maritime risks.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 21 Jul 2026 00:45:49 GMT",
-      "summary": "Korean Stock Traders Slash Margin Loans to Lowest Since April\nSouth Korean investors slashed their leveraged stock positions to the lowest level in three months, as memory-chip losses halted the market’s rally."
+      "published": "Tue, 21 Jul 2026 06:21:53 GMT",
+      "summary": "Another Ship Hit in Hormuz as Houthis Add to Regional Risks\nAnother tanker was attacked in the Strait of Hormuz as renewed hostilities empty the waterway, while a threat by Houthi rebels to blockade Saudi Arabia in the Red Sea heightened regional maritime risks."
     },
     {
-      "title": "Gold Steady as Traders Watch Middle East War for Inflation Clues",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-20/gold-steady-as-traders-watch-middle-east-war-for-inflation-clues",
-      "raw_summary": "Gold was steady as traders monitored a raft of developments in the Middle East conflict for clues on the energy price impact on inflation.",
+      "title": "London Stock Exchange to Introduce Nonstop Trading Next Year",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-21/london-stock-exchange-to-introduce-nonstop-trading-next-year",
+      "raw_summary": "The London Stock Exchange will open a new venue outside of its regular market hours in a move to offer “near-continuous trading” in the working week.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 20 Jul 2026 23:47:34 GMT",
-      "summary": "Gold Steady as Traders Watch Middle East War for Inflation Clues\nGold was steady as traders monitored a raft of developments in the Middle East conflict for clues on the energy price impact on inflation."
+      "published": "Tue, 21 Jul 2026 07:14:51 GMT",
+      "summary": "London Stock Exchange to Introduce Nonstop Trading Next Year\nThe London Stock Exchange will open a new venue outside of its regular market hours in a move to offer “near-continuous trading” in the working week."
+    },
+    {
+      "title": "XRP jumps 4% as traders watch 'triangle breakout' toward $1.35",
+      "link": "https://www.coindesk.com/markets/2026/07/21/xrp-jumps-4-as-traders-watch-triangle-breakout-toward-usd1-35",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Tue, 21 Jul 2026 07:21:04 +0000",
+      "summary": "XRP jumps 4% as traders watch 'triangle breakout' toward $1.35\n"
+    },
+    {
+      "title": "Live markets: Bitcoin ETFs post a fifth straight day of inflows in a first since April",
+      "link": "https://www.coindesk.com/business/2026/07/21/live-markets-bitcoin-etfs-post-a-fifth-straight-day-of-inflows-in-a-first-since-april",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Tue, 21 Jul 2026 06:42:52 +0000",
+      "summary": "Live markets: Bitcoin ETFs post a fifth straight day of inflows in a first since April\n"
+    },
+    {
+      "title": "UK Parliament begins inquiry into banking chokepoint for crypto businesses",
+      "link": "https://www.coindesk.com/policy/2026/07/21/uk-parliamentary-group-begins-inquiry-into-banking-chokepoint-for-crypto-businesses",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Tue, 21 Jul 2026 06:15:26 +0000",
+      "summary": "UK Parliament begins inquiry into banking chokepoint for crypto businesses\n"
+    },
+    {
+      "title": "Bitcoin hits a two-week high near $65,500 as the chip trade turns back into a tailwind",
+      "link": "https://www.coindesk.com/markets/2026/07/21/bitcoin-hits-a-two-week-high-near-usd65-500-as-the-chip-trade-turns-back-into-a-tailwind",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Tue, 21 Jul 2026 05:34:00 +0000",
+      "summary": "Bitcoin hits a two-week high near $65,500 as the chip trade turns back into a tailwind\n"
     },
     {
       "title": "Inside Cardano's 'Van Rossum' hard fork, and what it means for users",
@@ -289,38 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Mon, 20 Jul 2026 14:31:23 +0000",
       "summary": "Inside Cardano's 'Van Rossum' hard fork, and what it means for users\n"
-    },
-    {
-      "title": "Exodus to cut 25% of global workforce in payments shift",
-      "link": "https://www.coindesk.com/business/2026/07/20/exodus-to-cut-25-of-global-workforce-in-payments-shift",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 20 Jul 2026 13:53:08 +0000",
-      "summary": "Exodus to cut 25% of global workforce in payments shift\n"
-    },
-    {
-      "title": "AI compute stocks bounce as Hut 8, IREN land billions in new contracts",
-      "link": "https://www.coindesk.com/business/2026/07/20/hut-8-surges-on-usd9-8-billion-ai-data-center-lease-lifting-compute-sector",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 20 Jul 2026 13:49:24 +0000",
-      "summary": "AI compute stocks bounce as Hut 8, IREN land billions in new contracts\n"
-    },
-    {
-      "title": "Tom Lee's Bitmine slowed ether purchases as it bought back $86 million in stock",
-      "link": "https://www.coindesk.com/business/2026/07/20/tom-lee-s-bitmine-slowed-ether-purchases-as-it-bought-back-usd86-million-in-stock",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 20 Jul 2026 12:55:36 +0000",
-      "summary": "Tom Lee's Bitmine slowed ether purchases as it bought back $86 million in stock\n"
-    },
-    {
-      "title": "Saylor's Strategy raises cash reserves to $3.2 billion, leaving bitcoin holdings unchanged",
-      "link": "https://www.coindesk.com/business/2026/07/20/saylor-s-strategy-raises-cash-reserves-to-usd3-225-billion-leaving-bitcoin-holdings-unchanged",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 20 Jul 2026 12:35:02 +0000",
-      "summary": "Saylor's Strategy raises cash reserves to $3.2 billion, leaving bitcoin holdings unchanged\n"
     }
   ]
 }
