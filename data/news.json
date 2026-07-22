@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-22T01:53:39.223126+00:00",
-  "count": 40,
+  "generated_at": "2026-07-22T08:11:35.359798+00:00",
+  "count": 39,
   "articles": [
     {
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
@@ -43,6 +43,38 @@
       "summary": "FBI Seizes NetNut Proxy Platform, Popa Botnet\nThe Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: "
     },
     {
+      "title": "Police Dismantle Kratos Phishing Kit Built to Steal Microsoft 365 Sessions and Bypass MFA",
+      "link": "https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html",
+      "raw_summary": "German and US law enforcement have taken down the core infrastructure of Kratos, described by German investigators as one of the world's most widely used criminal phishing kits, and Indonesian authorities arrested the man they say developed and ran it.\n\nIn a joint announcement on Monday, the Frankfurt public prosecutor's cybercrime unit (ZIT) and Germany's Federal Criminal Police Office (BKA)",
+      "source": "The Hacker News",
+      "published": "Wed, 22 Jul 2026 12:08:45 +0530",
+      "summary": "Police Dismantle Kratos Phishing Kit Built to Steal Microsoft 365 Sessions and Bypass MFA\nGerman and US law enforcement have taken down the core infrastructure of Kratos, described by German investigators as one of the world's most widely used criminal phishing kits, and Indonesian authorities arres"
+    },
+    {
+      "title": "Trojanized Newtonsoft.Json Fork Hides Game-Rigging Code in a Working Library",
+      "link": "https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html",
+      "raw_summary": "Cybersecurity researchers have discovered a NuGet typosquat that's unlike the typical information-stealing malware distributed via package registries: usual info-stealers: it's designed to rig live game results on Digitain.\n\nThe package, named \"Newtonsoftt.Json.Net,\" masquerades as the Newtonsoft.Json library and is a trojanized fork. Seven versions of the package have been published to the",
+      "source": "The Hacker News",
+      "published": "Wed, 22 Jul 2026 11:30:06 +0530",
+      "summary": "Trojanized Newtonsoft.Json Fork Hides Game-Rigging Code in a Working Library\nCybersecurity researchers have discovered a NuGet typosquat that's unlike the typical information-stealing malware distributed via package registries: usual info-stealers: it's designed to rig live game results on Digitain."
+    },
+    {
+      "title": "Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents",
+      "link": "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html",
+      "raw_summary": "A single invisible comment in an Azure DevOps pull request can turn a reviewer's own AI coding agent against them, driving it into projects the attacker has no rights to reach and quietly leaking what it finds.\n\nThe flaw is in Microsoft's official Azure DevOps MCP server, and it works because one of its tools returns pull request descriptions without a prompt-injection guardrail the company had",
+      "source": "The Hacker News",
+      "published": "Wed, 22 Jul 2026 10:27:52 +0530",
+      "summary": "Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents\nA single invisible comment in an Azure DevOps pull request can turn a reviewer's own AI coding agent against them, driving it into projects the attacker has no rights to reach and quietly leaking what it finds.\n\nThe flaw"
+    },
+    {
+      "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
+      "link": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
+      "raw_summary": "OpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an \"even more capable pre-release model,\" was behind the security incident that targeted Hugging Face's production infrastructure last week.\n\nThe AI company said the models were operating with \"reduced cyber refusals for evaluation purposes\" that might otherwise limit their ability to",
+      "source": "The Hacker News",
+      "published": "Wed, 22 Jul 2026 09:48:33 +0530",
+      "summary": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark\nOpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an \"even more capable pre-release model,\" was behind the security incident that targeted Hugging Face's produ"
+    },
+    {
       "title": "Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs",
       "link": "https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html",
       "raw_summary": "Apple has moved to address a security flaw in its Hide My Email service that enabled users' real email addresses to be unmasked, effectively undermining the feature's privacy guarantees.\n\n404 Media reported Tuesday that a fix for the issue was deployed by Apple on July 3, 2026, after more than a year, when it was disclosed to the company by Tyler Murphy, co-founder of EasyOptOuts.\n\nHide My Email",
@@ -51,76 +83,52 @@
       "summary": "Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs\nApple has moved to address a security flaw in its Hide My Email service that enabled users' real email addresses to be unmasked, effectively undermining the feature's privacy guarantees.\n\n404 Media reported Tuesday that a fix for"
     },
     {
-      "title": "AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code",
-      "link": "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html",
-      "raw_summary": "Hidden text on a web page was enough to make Kiro, AWS's agentic coding IDE, rewrite its own configuration file and run an attacker's code on a developer's machine, with no approval step able to stop it.\n\nIntezer, in research with Kodem Security, found that a request as ordinary as asking Kiro to summarize a page could end in remote code execution. AWS has patched the issue, and no CVE has been",
-      "source": "The Hacker News",
-      "published": "Tue, 21 Jul 2026 21:36:12 +0530",
-      "summary": "AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code\nHidden text on a web page was enough to make Kiro, AWS's agentic coding IDE, rewrite its own configuration file and run an attacker's code on a developer's machine, with no approval step able to stop it.\n\nIntezer, in research with"
-    },
-    {
-      "title": "Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities",
-      "link": "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html",
-      "raw_summary": "Google's DeepMind on Tuesday announced the release of Gemini 3.5 Flash Cyber, a specialized artificial intelligence (AI) model built atop 3.5 Flash that's designed to discover, validate, and patch vulnerabilities quickly and efficiently.\n\nAccording to the tech giant, the model will be exclusively available to governments and trusted partners via CodeMender as part of a limited-access pilot",
-      "source": "The Hacker News",
-      "published": "Tue, 21 Jul 2026 20:39:28 +0530",
-      "summary": "Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities\nGoogle's DeepMind on Tuesday announced the release of Gemini 3.5 Flash Cyber, a specialized artificial intelligence (AI) model built atop 3.5 Flash that's designed to discover, validate, and patch vulnerabilities quic"
-    },
-    {
-      "title": "Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC",
-      "link": "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html",
-      "raw_summary": "A third SharePoint Server flaw patched by Microsoft as part of its Patch Tuesday update for July 2026 has come under active exploitation, per watchTowr.\n\nThe vulnerability in question is CVE-2026-50522 (CVSS score: 9.8), a critical deserialization of untrusted data in Microsoft Office SharePoint that could allow an unauthorized attacker to execute code over a network. Microsoft credited DEVCORE",
-      "source": "The Hacker News",
-      "published": "Tue, 21 Jul 2026 20:27:51 +0530",
-      "summary": "Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC\nA third SharePoint Server flaw patched by Microsoft as part of its Patch Tuesday update for July 2026 has come under active exploitation, per watchTowr.\n\nThe vulnerability in question is CVE-2026-50522 (CVSS score: 9.8"
-    },
-    {
-      "title": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access",
-      "link": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
-      "raw_summary": "Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments.\n\nArctic Wolf Labs said it investigated multiple intrusions in June 2026 that began with the exploitation of CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw affecting the portal and gateway",
-      "source": "The Hacker News",
-      "published": "Tue, 21 Jul 2026 19:34:57 +0530",
-      "summary": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access\nThreat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments.\n\nArctic Wolf Labs said "
-    },
-    {
-      "title": "Ten Steps Towards Happiness",
-      "link": "http://hintjens.com/blog:99",
-      "raw_summary": "<p>Article URL: <a href=\"http://hintjens.com/blog:99\">http://hintjens.com/blog:99</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49000600\">https://news.ycombinator.com/item?id=49000600</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>",
+      "title": "Show HN: ReadKinetic – a free, local-first speed reader for your own books",
+      "link": "https://www.readkinetic.com/app/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.readkinetic.com/app/\">https://www.readkinetic.com/app/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49002344\">https://news.ycombinator.com/item?id=49002344</a></p>\n<p>Points: 40</p>\n<p># Comments: 17</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 22 Jul 2026 01:17:26 +0000",
-      "summary": "Ten Steps Towards Happiness\n<p>Article URL: <a href=\"http://hintjens.com/blog:99\">http://hintjens.com/blog:99</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49000600\">https://news.ycombinator.com/item?id=49000600</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>"
+      "published": "Wed, 22 Jul 2026 05:49:51 +0000",
+      "summary": "Show HN: ReadKinetic – a free, local-first speed reader for your own books\n<p>Article URL: <a href=\"https://www.readkinetic.com/app/\">https://www.readkinetic.com/app/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49002344\">https://news.ycombinator.com/item?id=49002344</a></p"
     },
     {
-      "title": "How an AI Anime Is Created",
-      "link": "https://www.aventos.dev/our-process?view=blog",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.aventos.dev/our-process?view=blog\">https://www.aventos.dev/our-process?view=blog</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49000429\">https://news.ycombinator.com/item?id=49000429</a></p>\n<p>Points: 6</p>\n<p># Comments: 3</p>",
+      "title": "Show HN: A new kind of FPS aim trainer",
+      "link": "https://openaim.pramit.gg/",
+      "raw_summary": "<p>I played a lot of Valorant and got mad, so I made an aim trainer that analyzes your raw crosshair movement to explore your raw motor and perceptual weaknesses instead of scoring scenarios.\nIt also chooses sens and difficulty as part of the tasks, and makes playlists that are optimal difficulty for you to learn and progress faster!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49002276\">https://news.ycombinator.com/item?id=49002276</a></p>\n<p>Points: 27</p>\n<p># Comments: 9</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 22 Jul 2026 00:53:00 +0000",
-      "summary": "How an AI Anime Is Created\n<p>Article URL: <a href=\"https://www.aventos.dev/our-process?view=blog\">https://www.aventos.dev/our-process?view=blog</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49000429\">https://news.ycombinator.com/item?id=49000429</a></p>\n<p>Points: 6</p>\n<p>"
+      "published": "Wed, 22 Jul 2026 05:39:31 +0000",
+      "summary": "Show HN: A new kind of FPS aim trainer\n<p>I played a lot of Valorant and got mad, so I made an aim trainer that analyzes your raw crosshair movement to explore your raw motor and perceptual weaknesses instead of scoring scenarios.\nIt also chooses sens and difficulty as part of the tasks, and makes p"
     },
     {
-      "title": "A flaky test exposed a Redis client use-after-free",
-      "link": "https://buildkite.engineering/how-a-flaky-test-exposed-a-redis-use-after-free/",
-      "raw_summary": "<p>Article URL: <a href=\"https://buildkite.engineering/how-a-flaky-test-exposed-a-redis-use-after-free/\">https://buildkite.engineering/how-a-flaky-test-exposed-a-redis-use-after-free/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49000250\">https://news.ycombinator.com/item?id=49000250</a></p>\n<p>Points: 18</p>\n<p># Comments: 1</p>",
+      "title": "Original Apollo 11 Guidance Computer source code for command and lunar modules",
+      "link": "https://github.com/chrislgarry/Apollo-11",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/chrislgarry/Apollo-11\">https://github.com/chrislgarry/Apollo-11</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49002166\">https://news.ycombinator.com/item?id=49002166</a></p>\n<p>Points: 49</p>\n<p># Comments: 14</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 22 Jul 2026 00:27:35 +0000",
-      "summary": "A flaky test exposed a Redis client use-after-free\n<p>Article URL: <a href=\"https://buildkite.engineering/how-a-flaky-test-exposed-a-redis-use-after-free/\">https://buildkite.engineering/how-a-flaky-test-exposed-a-redis-use-after-free/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/it"
+      "published": "Wed, 22 Jul 2026 05:18:08 +0000",
+      "summary": "Original Apollo 11 Guidance Computer source code for command and lunar modules\n<p>Article URL: <a href=\"https://github.com/chrislgarry/Apollo-11\">https://github.com/chrislgarry/Apollo-11</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49002166\">https://news.ycombinator.com/ite"
     },
     {
-      "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
-      "link": "https://fireworks.ai/blog/kimik3-fable",
-      "raw_summary": "<p>Article URL: <a href=\"https://fireworks.ai/blog/kimik3-fable\">https://fireworks.ai/blog/kimik3-fable</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48999291\">https://news.ycombinator.com/item?id=48999291</a></p>\n<p>Points: 292</p>\n<p># Comments: 155</p>",
+      "title": "Late.sh – a command-line Clubhouse for computer people",
+      "link": "https://late.sh/",
+      "raw_summary": "<p>Article URL: <a href=\"https://late.sh/\">https://late.sh/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49001127\">https://news.ycombinator.com/item?id=49001127</a></p>\n<p>Points: 123</p>\n<p># Comments: 45</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 21 Jul 2026 22:35:24 +0000",
-      "summary": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA\n<p>Article URL: <a href=\"https://fireworks.ai/blog/kimik3-fable\">https://fireworks.ai/blog/kimik3-fable</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48999291\">https://news.ycombinator.com/item?id=48999291</a></p>\n"
+      "published": "Wed, 22 Jul 2026 02:32:30 +0000",
+      "summary": "Late.sh – a command-line Clubhouse for computer people\n<p>Article URL: <a href=\"https://late.sh/\">https://late.sh/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49001127\">https://news.ycombinator.com/item?id=49001127</a></p>\n<p>Points: 123</p>\n<p># Comments: 45</p>"
     },
     {
-      "title": "Show HN: Computable – Buy, sell, and redeem GPU for the exact weeks you want",
-      "link": "https://www.getcomputable.com/",
-      "raw_summary": "<p>Hey we are Computable. We spent years building trading infrastructure at Jump Trading and Coinbase. From that point of view, compute looks like energy markets before 2000: everything trades through private bilateral leases, there’s no visible price, and nothing can be resold. The same H100 rents at a 2x spread depending on who’s asking, and once you sign a 24-month lease, it can never change hands.<p>So we built a market for GPU nodes, sold by the calendar week. Here are three things you can do on it that you can’t do anywhere else:<p>- Buy exactly the weeks you need. Three nodes for the last two weeks of October means you pay for those two weeks and walk away when the run is done. You don't have to commit to 6-24 months, and there's no flexibility premium.<p>- Sell back what you don’t use. If your plans change, unused weeks turn back into cash: we keep a market quote posted on every position, so there’s always a price to hit.<p>- Buy (or sell) the future. Lock January in July at a price you set, so the cost of a future run is known before another 40% H100 rate jump makes it not.<p>The first auction is live now at <a href=\"https://market.getcomputable.com\">https://market.getcomputable.com</a>: a block of nodes, August through the end of January. Bidding closes July 31. The bids are sealed. You bid how many nodes, which weeks, and your price. Every clearing price gets published after settlement, because nobody knows what a GPU week is worth and we want the prints to exist in public.<p>Happy to go deep in the comments on anything, including the clearing mechanism, which is a packing problem and was fun to design!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48998828\">https://news.ycombinator.com/item?id=48998828</a></p>\n<p>Points: 20</p>\n<p># Comments: 16</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Tue, 21 Jul 2026 21:48:19 +0000",
-      "summary": "Show HN: Computable – Buy, sell, and redeem GPU for the exact weeks you want\n<p>Hey we are Computable. We spent years building trading infrastructure at Jump Trading and Coinbase. From that point of view, compute looks like energy markets before 2000: everything trades through private bilateral leas"
+      "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
+      "link": "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/",
+      "raw_summary": "Synthesia launched AI Roleplay Sessions, an interactive enterprise training platform where employees practice workplace conversations with AI avatars that provide feedback, scoring, and analytics to help companies measure training effectiveness.",
+      "source": "TechCrunch",
+      "published": "Wed, 22 Jul 2026 08:00:00 +0000",
+      "summary": "Synthesia’s AI training platform is moving beyond videos into live coaching\nSynthesia launched AI Roleplay Sessions, an interactive enterprise training platform where employees practice workplace conversations with AI avatars that provide feedback, scoring, and analytics to help companies measure tr"
+    },
+    {
+      "title": "The Anthropic-Physical Intelligence rumor roiling AI Twitter",
+      "link": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
+      "raw_summary": "Anthropic and OpenAI's aggressive 2026 acquisition sprees set the stage for a weekend rumor.",
+      "source": "TechCrunch",
+      "published": "Wed, 22 Jul 2026 03:20:57 +0000",
+      "summary": "The Anthropic-Physical Intelligence rumor roiling AI Twitter\nAnthropic and OpenAI's aggressive 2026 acquisition sprees set the stage for a weekend rumor."
     },
     {
       "title": "Dimension Capital’s $800M third fund shows the intersection of science and compute is booming",
@@ -145,22 +153,6 @@
       "source": "TechCrunch",
       "published": "Tue, 21 Jul 2026 20:57:35 +0000",
       "summary": "These are the countries moving to ban social media for children\nAustralia was the first country to issue a ban in late 2025, aiming to reduce the pressures and risks that young users may face on social media, including cyberbullying, social media addiction, and exposure to predators."
-    },
-    {
-      "title": "OpenAI says Hugging Face was breached by its pre-release models",
-      "link": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/",
-      "raw_summary": "OpenAI has come forward to claim responsibility for the Hugging Face breach, saying it was the result of internal testing gone awry.",
-      "source": "TechCrunch",
-      "published": "Tue, 21 Jul 2026 20:56:55 +0000",
-      "summary": "OpenAI says Hugging Face was breached by its pre-release models\nOpenAI has come forward to claim responsibility for the Hugging Face breach, saying it was the result of internal testing gone awry."
-    },
-    {
-      "title": "Jack Dorsey is taking on Slack with Buzz, a group chat platform for teams and their AI agents",
-      "link": "https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/",
-      "raw_summary": "Buzz is a group chat platform for the workplace that puts humans and their AI agents in the same conversation.",
-      "source": "TechCrunch",
-      "published": "Tue, 21 Jul 2026 19:43:41 +0000",
-      "summary": "Jack Dorsey is taking on Slack with Buzz, a group chat platform for teams and their AI agents\nBuzz is a group chat platform for the workplace that puts humans and their AI agents in the same conversation."
     },
     {
       "title": "Range Rover answers the question: \"What if we built a not-SUV?\"",
@@ -203,76 +195,76 @@
       "summary": "Nintendo says users voluntarily paid higher prices, have no right to tariff refunds\nNintendo says Switch buyers got what they paid for, urges court to dismiss lawsuit."
     },
     {
-      "title": "Trump vows to attack Iranian nuclear facility as Middle East war escalates",
+      "title": "Oil rises to highest level in six weeks as Middle East war escalates",
       "link": "https://www.ft.com/content/90facd68-4df7-40c2-9383-e989a02fbe51?syn-25a6b1a6=1",
-      "raw_summary": "Goldman Sachs warns oil could jump to $120 per barrel if Strait of Hormuz remains ‘disrupted’",
+      "raw_summary": "Goldman Sachs warns Brent crude price could jump to $120 if Strait of Hormuz remains ‘disrupted’",
       "source": "World",
-      "published": "Wed, 22 Jul 2026 01:41:05 GMT",
-      "summary": "Trump vows to attack Iranian nuclear facility as Middle East war escalates\nGoldman Sachs warns oil could jump to $120 per barrel if Strait of Hormuz remains ‘disrupted’"
+      "published": "Wed, 22 Jul 2026 08:08:58 GMT",
+      "summary": "Oil rises to highest level in six weeks as Middle East war escalates\nGoldman Sachs warns Brent crude price could jump to $120 if Strait of Hormuz remains ‘disrupted’"
     },
     {
-      "title": "Investors fear Japanese bond bets risk becoming new ‘widow-maker trade’",
-      "link": "https://www.ft.com/content/7143bee9-07fc-45ab-99c9-00ae2559e724?syn-25a6b1a6=1",
-      "raw_summary": "Big rise in government debt yields lure some traders but many remain wary of fiscal outlook",
+      "title": "UK inflation falls more than expected to 2.6% in June",
+      "link": "https://www.ft.com/content/62c39102-c288-4041-911f-8f2ba74fc451?syn-25a6b1a6=1",
+      "raw_summary": "Figure comes as Prime Minister Andy Burnham seeks to cut cost of living",
       "source": "World",
-      "published": "Wed, 22 Jul 2026 01:00:04 GMT",
-      "summary": "Investors fear Japanese bond bets risk becoming new ‘widow-maker trade’\nBig rise in government debt yields lure some traders but many remain wary of fiscal outlook"
+      "published": "Wed, 22 Jul 2026 07:38:43 GMT",
+      "summary": "UK inflation falls more than expected to 2.6% in June\nFigure comes as Prime Minister Andy Burnham seeks to cut cost of living"
     },
     {
-      "title": "Trump plans 100% tariffs on generic drugs in 2028",
-      "link": "https://www.ft.com/content/86e0c0df-8280-4224-8db2-81a662164554?syn-25a6b1a6=1",
-      "raw_summary": "Latest trade measure intended to push companies towards manufacturing medications in the US",
+      "title": "Wetherspoons issues fourth profit warning this year",
+      "link": "https://www.ft.com/content/9ffbd5c5-e5b2-431c-aadd-fa3d1c45898f?syn-25a6b1a6=1",
+      "raw_summary": "Pub chain hit by weak sales and cost rises",
       "source": "World",
-      "published": "Wed, 22 Jul 2026 00:44:35 GMT",
-      "summary": "Trump plans 100% tariffs on generic drugs in 2028\nLatest trade measure intended to push companies towards manufacturing medications in the US"
+      "published": "Wed, 22 Jul 2026 07:29:20 GMT",
+      "summary": "Wetherspoons issues fourth profit warning this year\nPub chain hit by weak sales and cost rises"
     },
     {
-      "title": "OpenAI admits an AI ‘agent’ caused a major cyber breach by itself",
-      "link": "https://www.ft.com/content/9db74b25-45ad-4187-b4d7-0e4d414fe41c?syn-25a6b1a6=1",
-      "raw_summary": "AI lab’s advanced models escaped testing ‘sandbox’ to hack Hugging Face",
+      "title": "Burnham launches £2 cap on bus fares in latest cost of living intervention",
+      "link": "https://www.ft.com/content/d8c377d5-630c-46de-8348-b08affa7d013?syn-25a6b1a6=1",
+      "raw_summary": "New prime minister says measure will reduce prices by up to a third for millions of people",
       "source": "World",
-      "published": "Wed, 22 Jul 2026 00:11:33 GMT",
-      "summary": "OpenAI admits an AI ‘agent’ caused a major cyber breach by itself\nAI lab’s advanced models escaped testing ‘sandbox’ to hack Hugging Face"
+      "published": "Wed, 22 Jul 2026 07:18:14 GMT",
+      "summary": "Burnham launches £2 cap on bus fares in latest cost of living intervention\nNew prime minister says measure will reduce prices by up to a third for millions of people"
     },
     {
-      "title": "Trump taps Big Tech critic as chief of DoJ antitrust division",
-      "link": "https://www.ft.com/content/9cff12a5-db1f-4a70-b048-87428c181dbd?syn-25a6b1a6=1",
-      "raw_summary": "Adam Candeub authored a Project 2025 chapter calling for a sweeping shake-up of US competition enforcement",
+      "title": "Trump’s Board of Peace to set up Gaza ‘pilot’ city",
+      "link": "https://www.ft.com/content/2b6bd490-838e-490c-9d43-2f5758936a1b?syn-25a6b1a6=1",
+      "raw_summary": "Controversial plan comes after months of fruitless attempts to advance US peace deal for the enclave",
       "source": "World",
-      "published": "Tue, 21 Jul 2026 23:13:39 GMT",
-      "summary": "Trump taps Big Tech critic as chief of DoJ antitrust division\nAdam Candeub authored a Project 2025 chapter calling for a sweeping shake-up of US competition enforcement"
+      "published": "Wed, 22 Jul 2026 07:06:04 GMT",
+      "summary": "Trump’s Board of Peace to set up Gaza ‘pilot’ city\nControversial plan comes after months of fruitless attempts to advance US peace deal for the enclave"
     },
     {
-      "title": "XPeng Hunts New Markets to Escape Reliance on Weaker China",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-21/xpeng-hunts-for-new-markets-to-escape-reliance-on-weaker-china",
-      "raw_summary": "XPeng Inc. is rolling out more models overseas and scouting for new markets from South America to Asia as demand in China’s domestic electric vehicle market continues to slow.",
+      "title": "TPG Eyes Tokyo Sale to Japan Hotel REIT for $860 Million",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-22/tpg-said-to-eye-tokyo-sale-to-japan-hotel-reit-for-860-million",
+      "raw_summary": "Investment fund TPG Angelo Gordon Inc. plans to sell a Tokyo hotel property to Japan Hotel REIT Investment Co. as a tourism boom unfolds and boosts valuations, people familiar with the matter said.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 21 Jul 2026 14:00:00 GMT",
-      "summary": "XPeng Hunts New Markets to Escape Reliance on Weaker China\nXPeng Inc. is rolling out more models overseas and scouting for new markets from South America to Asia as demand in China’s domestic electric vehicle market continues to slow."
+      "published": "Wed, 22 Jul 2026 07:31:40 GMT",
+      "summary": "TPG Eyes Tokyo Sale to Japan Hotel REIT for $860 Million\nInvestment fund TPG Angelo Gordon Inc. plans to sell a Tokyo hotel property to Japan Hotel REIT Investment Co. as a tourism boom unfolds and boosts valuations, people familiar with the matter said."
     },
     {
-      "title": "Thai Bonds Are Beating Asia and Analysts Predict Further Gains",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-22/thai-bond-rally-gathers-pace-as-supply-falls-inflation-slows",
-      "raw_summary": "Thailand’s bonds have beaten their emerging Asian peers over the past month and analysts predict they will extend gains on favorable supply dynamics and slower inflation.",
+      "title": "MSEDCL Said to Pick Banks for India IPO Worth Up to $1 Billion",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-22/msedcl-said-to-pick-banks-for-india-ipo-worth-up-to-1-billion",
+      "raw_summary": "Maharashtra State Electricity Distribution Co., the power distribution company in India’s richest state, has shortlisted six investment banks for a planned initial public offering that could raise between $500 million and $1 billion, people familiar with the matter said.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 22 Jul 2026 00:00:00 GMT",
-      "summary": "Thai Bonds Are Beating Asia and Analysts Predict Further Gains\nThailand’s bonds have beaten their emerging Asian peers over the past month and analysts predict they will extend gains on favorable supply dynamics and slower inflation."
+      "published": "Wed, 22 Jul 2026 07:39:57 GMT",
+      "summary": "MSEDCL Said to Pick Banks for India IPO Worth Up to $1 Billion\nMaharashtra State Electricity Distribution Co., the power distribution company in India’s richest state, has shortlisted six investment banks for a planned initial public offering that could raise between $500 million and $1 billion, peo"
     },
     {
-      "title": "Yen Slides Past 163 Mark to Fresh Four-Decade Low Against Dollar",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-21/yen-slides-past-163-mark-to-fresh-four-decade-low-against-dollar",
-      "raw_summary": "The yen slid past 163 per dollar for the first time since 1986, extending its decline and further testing Japanese authorities’ resolve to intervene.",
+      "title": "Stocks Fall as Caution Builds Ahead of Alphabet: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-21/stock-market-today-dow-s-p-live-updates",
+      "raw_summary": "Stocks fell ahead of Alphabet Inc.’s earnings as traders waited for the clearest read yet on whether the vast sums technology hyperscalers are pouring into artificial intelligence are paying off.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 21 Jul 2026 22:35:01 GMT",
-      "summary": "Yen Slides Past 163 Mark to Fresh Four-Decade Low Against Dollar\nThe yen slid past 163 per dollar for the first time since 1986, extending its decline and further testing Japanese authorities’ resolve to intervene."
+      "published": "Tue, 21 Jul 2026 22:07:30 GMT",
+      "summary": "Stocks Fall as Caution Builds Ahead of Alphabet: Markets Wrap\nStocks fell ahead of Alphabet Inc.’s earnings as traders waited for the clearest read yet on whether the vast sums technology hyperscalers are pouring into artificial intelligence are paying off."
     },
     {
-      "title": "Korean Stocks Jump as Brokers Say Margin Unwind Nearing End",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-22/korean-stocks-jump-as-brokers-say-margin-unwind-nearing-end",
-      "raw_summary": "South Korean stocks jumped, as the unwinding of leveraged bets that helped drive the benchmark nearly 30% below its peak appeared to be nearing its end.",
+      "title": "PHP/USD: Philippine Peso Declines to Match Record Low on Higher Oil Prices",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-22/php-usd-philippine-peso-declines-to-match-record-low-on-higher-oil-prices",
+      "raw_summary": "The Philippine central bank intervened in the foreign-exchange market to support the peso, which fell to a record low.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 22 Jul 2026 01:18:07 GMT",
-      "summary": "Korean Stocks Jump as Brokers Say Margin Unwind Nearing End\nSouth Korean stocks jumped, as the unwinding of leveraged bets that helped drive the benchmark nearly 30% below its peak appeared to be nearing its end."
+      "published": "Wed, 22 Jul 2026 01:55:53 GMT",
+      "summary": "PHP/USD: Philippine Peso Declines to Match Record Low on Higher Oil Prices\nThe Philippine central bank intervened in the foreign-exchange market to support the peso, which fell to a record low."
     },
     {
       "title": "Latest Oil Market News and Analysis for July 22",
@@ -281,6 +273,22 @@
       "source": "Bloomberg Markets",
       "published": "Tue, 21 Jul 2026 22:11:41 GMT",
       "summary": "Latest Oil Market News and Analysis for July 22\nOil extended gains after President Donald Trump played down the prospect of near-term talks with Iran while threatening broader strikes, as risks to global supply spread beyond the Middle East to the Black Sea."
+    },
+    {
+      "title": "AI models escaped OpenAI’s sandbox and hit Hugging Face. Crypto is where that gets dangerous",
+      "link": "https://www.coindesk.com/markets/2026/07/22/ai-models-escaped-openai-s-sandbox-and-hit-hugging-face-crypto-is-where-that-gets-dangerous",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 22 Jul 2026 06:01:56 +0000",
+      "summary": "AI models escaped OpenAI’s sandbox and hit Hugging Face. Crypto is where that gets dangerous\n"
+    },
+    {
+      "title": "Bitcoin holds near $66,300 as chips extend their rally and the yen hits a 40-year low",
+      "link": "https://www.coindesk.com/markets/2026/07/22/bitcoin-holds-near-usd66-300-as-chips-extend-their-rally-and-the-yen-hits-a-40-year-low",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 22 Jul 2026 05:03:39 +0000",
+      "summary": "Bitcoin holds near $66,300 as chips extend their rally and the yen hits a 40-year low\n"
     },
     {
       "title": "Crypto lobby group Digital Chamber sues Illinois to block digital asset tax",
@@ -305,22 +313,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Tue, 21 Jul 2026 20:05:33 +0000",
       "summary": "Bitcoin rally faces key test at $68,000 as 'summer slumber' grips crypto, analysts say\n"
-    },
-    {
-      "title": "White House pushes Senate Democrats to take 'historic' crypto Clarity Act ethics deal",
-      "link": "https://www.coindesk.com/policy/2026/07/21/white-house-pushes-senate-democrats-to-take-historic-crypto-clarity-act-ethics-deal",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 21 Jul 2026 18:14:39 +0000",
-      "summary": "White House pushes Senate Democrats to take 'historic' crypto Clarity Act ethics deal\n"
-    },
-    {
-      "title": "Movement Labs files for Chapter 11 bankruptcy months after token scandal",
-      "link": "https://www.coindesk.com/policy/2026/07/21/movement-labs-files-for-chapter-11-months-after-token-scandal-and-strategic-overhaul",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 21 Jul 2026 17:54:40 +0000",
-      "summary": "Movement Labs files for Chapter 11 bankruptcy months after token scandal\n"
     }
   ]
 }
