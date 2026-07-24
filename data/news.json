@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T19:02:18.034076+00:00",
+  "generated_at": "2026-07-24T01:56:48.788834+00:00",
   "count": 40,
   "articles": [
     {
@@ -83,84 +83,116 @@
       "summary": "China-Nexus JadeProx Uses New TriBack Loader in Government and Healthcare Attacks\nAn exposed Alibaba Cloud server has revealed a China-nexus operation that Group-IB tracks as JadeProx. The cluster has targeted government, healthcare, and education organizations across Asia and Latin America with a p"
     },
     {
-      "title": "From Evaluation to Guardrails: What We Brought to ACM FAccT 2026",
-      "link": "https://blog.mozilla.ai/from-evaluation-to-guardrails-what-we-brought-to-acm-facct-2026/",
-      "raw_summary": "<p>Article URL: <a href=\"https://blog.mozilla.ai/from-evaluation-to-guardrails-what-we-brought-to-acm-facct-2026/\">https://blog.mozilla.ai/from-evaluation-to-guardrails-what-we-brought-to-acm-facct-2026/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49026059\">https://news.ycombinator.com/item?id=49026059</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "title": "The Visual 6502",
+      "link": "http://visual6502.org/JSSim/index.html",
+      "raw_summary": "<p>Article URL: <a href=\"http://visual6502.org/JSSim/index.html\">http://visual6502.org/JSSim/index.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49029538\">https://news.ycombinator.com/item?id=49029538</a></p>\n<p>Points: 41</p>\n<p># Comments: 12</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 23 Jul 2026 18:29:22 +0000",
-      "summary": "From Evaluation to Guardrails: What We Brought to ACM FAccT 2026\n<p>Article URL: <a href=\"https://blog.mozilla.ai/from-evaluation-to-guardrails-what-we-brought-to-acm-facct-2026/\">https://blog.mozilla.ai/from-evaluation-to-guardrails-what-we-brought-to-acm-facct-2026/</a></p>\n<p>Comments URL: <a hre"
+      "published": "Thu, 23 Jul 2026 23:36:42 +0000",
+      "summary": "The Visual 6502\n<p>Article URL: <a href=\"http://visual6502.org/JSSim/index.html\">http://visual6502.org/JSSim/index.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49029538\">https://news.ycombinator.com/item?id=49029538</a></p>\n<p>Points: 41</p>\n<p># Comments: 12</p>"
+    },
+    {
+      "title": "A taxonomy of omnicidal futures involving artificial intelligence (2025)",
+      "link": "https://arxiv.org/abs/2507.09369",
+      "raw_summary": "<p>Article URL: <a href=\"https://arxiv.org/abs/2507.09369\">https://arxiv.org/abs/2507.09369</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49029133\">https://news.ycombinator.com/item?id=49029133</a></p>\n<p>Points: 48</p>\n<p># Comments: 36</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Thu, 23 Jul 2026 22:51:13 +0000",
+      "summary": "A taxonomy of omnicidal futures involving artificial intelligence (2025)\n<p>Article URL: <a href=\"https://arxiv.org/abs/2507.09369\">https://arxiv.org/abs/2507.09369</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49029133\">https://news.ycombinator.com/item?id=49029133</a></p>\n"
+    },
+    {
+      "title": "98.css",
+      "link": "https://jdan.github.io/98.css/#status-bar",
+      "raw_summary": "<p>Article URL: <a href=\"https://jdan.github.io/98.css/#status-bar\">https://jdan.github.io/98.css/#status-bar</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49028927\">https://news.ycombinator.com/item?id=49028927</a></p>\n<p>Points: 212</p>\n<p># Comments: 40</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Thu, 23 Jul 2026 22:30:29 +0000",
+      "summary": "98.css\n<p>Article URL: <a href=\"https://jdan.github.io/98.css/#status-bar\">https://jdan.github.io/98.css/#status-bar</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49028927\">https://news.ycombinator.com/item?id=49028927</a></p>\n<p>Points: 212</p>\n<p># Comments: 40</p>"
+    },
+    {
+      "title": "Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models",
+      "link": "https://news.ycombinator.com/item?id=49026810",
+      "raw_summary": "<p>I’ve been building Echo (<a href=\"https://echo.tracerml.ai/\" rel=\"nofollow\">https://echo.tracerml.ai/</a>), an experiment in making one AI system out of a pool of open-weight models rather than choosing a single model and using it for every task.<p>It started with a simple experiment. I took a group of models, including GLM-5.2, Kimi K2.7 and others, and ran them on the same evaluations. Then I measured what would happen if, for each problem, you somehow knew in advance which models would be useful and how their outputs should be combined.<p>That hypothetical system performed substantially better than any individual model in the pool. Of course, it is not something you can actually deploy because it relies on knowing which decisions were good after seeing the result. Echo is my attempt to recover some of that advantage without having that information in advance.<p>For each request, Echo decides how much computation to allocate, which models should participate, and how their work should be combined. Some prompts may only need a relatively small amount of inference, while others benefit from multiple models working on different parts of the problem.<p>One thing that surprised me while building it was how complementary the models are. A model that is clearly weaker overall can still be extremely useful on particular problems or as part of a combination.<p>On my first evaluation mix, Echo consistently performed better than the best individual model in its pool. It also reached roughly the same aggregate result as Fable, which I used as one of the stronger comparison systems, at around one third of the inference cost.<p>There are still some cases where Echo makes the wrong allocation or combination decision. I’m currently spending a lot of time understanding those failures, as well as testing whether the same approach holds up on coding and agentic tasks where measuring the quality of each decision becomes much harder.<p>I built a chat interface (echo.tracerml.ai) and an OpenAI-compatible API (<a href=\"https://echo.tracerml.ai/docs/api\" rel=\"nofollow\">https://echo.tracerml.ai/docs/api</a>) so the system can be tested outside the evaluation setup.<p>Here is a short/high level video on how it works: <a href=\"https://www.youtube.com/watch?v=lJFJSvOdXhg\" rel=\"nofollow\">https://www.youtube.com/watch?v=lJFJSvOdXhg</a><p>I wrote up the evaluation methodology, individual model results, costs and current limitations here: <a href=\"https://echo.tracerml.ai/eval\" rel=\"nofollow\">https://echo.tracerml.ai/eval</a><p>I would love for you to try it! Especially if you hit any weird failure cases or places where the allocation looks unintuitive.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49026810\">https://news.ycombinator.com/item?id=49026810</a></p>\n<p>Points: 231</p>\n<p># Comments: 114</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Thu, 23 Jul 2026 19:26:01 +0000",
+      "summary": "Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models\n<p>I’ve been building Echo (<a href=\"https://echo.tracerml.ai/\" rel=\"nofollow\">https://echo.tracerml.ai/</a>), an experiment in making one AI system out of a pool of open-weight models rather than choosing a single model an"
     },
     {
       "title": "Building on ATProto",
       "link": "https://lukekanies.com/writing/building-on-atproto/",
-      "raw_summary": "<p>Article URL: <a href=\"https://lukekanies.com/writing/building-on-atproto/\">https://lukekanies.com/writing/building-on-atproto/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49025984\">https://news.ycombinator.com/item?id=49025984</a></p>\n<p>Points: 21</p>\n<p># Comments: 1</p>",
+      "raw_summary": "<p>Article URL: <a href=\"https://lukekanies.com/writing/building-on-atproto/\">https://lukekanies.com/writing/building-on-atproto/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49025984\">https://news.ycombinator.com/item?id=49025984</a></p>\n<p>Points: 127</p>\n<p># Comments: 59</p>",
       "source": "Hacker News: Front Page",
       "published": "Thu, 23 Jul 2026 18:23:50 +0000",
-      "summary": "Building on ATProto\n<p>Article URL: <a href=\"https://lukekanies.com/writing/building-on-atproto/\">https://lukekanies.com/writing/building-on-atproto/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49025984\">https://news.ycombinator.com/item?id=49025984</a></p>\n<p>Points: 21</"
+      "summary": "Building on ATProto\n<p>Article URL: <a href=\"https://lukekanies.com/writing/building-on-atproto/\">https://lukekanies.com/writing/building-on-atproto/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49025984\">https://news.ycombinator.com/item?id=49025984</a></p>\n<p>Points: 127<"
     },
     {
-      "title": "A solid-state “atomic channel” for separating rare earth elements",
-      "link": "https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements",
-      "raw_summary": "<p>Article URL: <a href=\"https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements\">https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49025831\">https://news.ycombinator.com/item?id=49025831</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Thu, 23 Jul 2026 18:13:03 +0000",
-      "summary": "A solid-state “atomic channel” for separating rare earth elements\n<p>Article URL: <a href=\"https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements\">https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements</a></p>\n<p>Comments URL: <a href=\"ht"
-    },
-    {
-      "title": "Geekbench 7",
-      "link": "https://www.geekbench.com/blog/2026/07/geekbench-7/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.geekbench.com/blog/2026/07/geekbench-7/\">https://www.geekbench.com/blog/2026/07/geekbench-7/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49025812\">https://news.ycombinator.com/item?id=49025812</a></p>\n<p>Points: 11</p>\n<p># Comments: 5</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Thu, 23 Jul 2026 18:11:46 +0000",
-      "summary": "Geekbench 7\n<p>Article URL: <a href=\"https://www.geekbench.com/blog/2026/07/geekbench-7/\">https://www.geekbench.com/blog/2026/07/geekbench-7/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49025812\">https://news.ycombinator.com/item?id=49025812</a></p>\n<p>Points: 11</p>\n<p># "
-    },
-    {
-      "title": "Show HN: Claude-thermos – keeps your Claude session warm for you",
-      "link": "https://github.com/izeigerman/claude-thermos",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/izeigerman/claude-thermos\">https://github.com/izeigerman/claude-thermos</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49024882\">https://news.ycombinator.com/item?id=49024882</a></p>\n<p>Points: 16</p>\n<p># Comments: 15</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Thu, 23 Jul 2026 17:06:22 +0000",
-      "summary": "Show HN: Claude-thermos – keeps your Claude session warm for you\n<p>Article URL: <a href=\"https://github.com/izeigerman/claude-thermos\">https://github.com/izeigerman/claude-thermos</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49024882\">https://news.ycombinator.com/item?id=4"
-    },
-    {
-      "title": "Anthropic updates Claude voice mode with more capable models",
-      "link": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
-      "raw_summary": "Claude's new voice model will let you reschedule your meeting or draft an email",
+      "title": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
+      "link": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
+      "raw_summary": "We spoke with several cybersecurity researchers, who look for unknown vulnerabilities and develop tools to exploit them, about how OpenAI’s and Anthropic’s guardrails affect their work.",
       "source": "TechCrunch",
-      "published": "Thu, 23 Jul 2026 19:00:00 +0000",
-      "summary": "Anthropic updates Claude voice mode with more capable models\nClaude's new voice model will let you reschedule your meeting or draft an email"
+      "published": "Fri, 24 Jul 2026 01:00:00 +0000",
+      "summary": "How AI guardrails are impeding the work of offensive cybersecurity researchers\nWe spoke with several cybersecurity researchers, who look for unknown vulnerabilities and develop tools to exploit them, about how OpenAI’s and Anthropic’s guardrails affect their work."
     },
     {
-      "title": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
-      "link": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
-      "raw_summary": "The Series A was led by Battery Ventures, bringing AegisAI total funding to $49 million.",
+      "title": "Meet the judges who will crown Australia’s next breakout startup",
+      "link": "https://techcrunch.com/2026/07/23/meet-the-judges-who-will-crown-australias-next-breakout-startup/",
+      "raw_summary": "TechCrunch Startup Battlefield is coming to Australia — and we're partnering with Stripe to find the country's most exciting early-stage startups.",
       "source": "TechCrunch",
-      "published": "Thu, 23 Jul 2026 18:38:34 +0000",
-      "summary": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing\nThe Series A was led by Battery Ventures, bringing AegisAI total funding to $49 million."
+      "published": "Fri, 24 Jul 2026 00:05:00 +0000",
+      "summary": "Meet the judges who will crown Australia’s next breakout startup\nTechCrunch Startup Battlefield is coming to Australia — and we're partnering with Stripe to find the country's most exciting early-stage startups."
     },
     {
-      "title": "US government says Iran-linked hackers are disrupting American water and energy providers",
-      "link": "https://techcrunch.com/2026/07/23/us-government-says-iran-linked-hackers-are-disrupting-american-water-and-energy-providers/",
-      "raw_summary": "An updated government advisory warns that Iranian hackers are exploiting systems used by water and energy providers.",
+      "title": "Mobileye CEO Amnon Shashua to step aside as company pushes into robotaxis, robotics",
+      "link": "https://techcrunch.com/2026/07/23/mobileye-ceo-amnon-shashua-to-step-aside-as-company-pushes-into-robotaxis-robotics/",
+      "raw_summary": "Shashua has been invited to take the chairman of the board seat.",
       "source": "TechCrunch",
-      "published": "Thu, 23 Jul 2026 17:27:08 +0000",
-      "summary": "US government says Iran-linked hackers are disrupting American water and energy providers\nAn updated government advisory warns that Iranian hackers are exploiting systems used by water and energy providers."
+      "published": "Thu, 23 Jul 2026 22:40:08 +0000",
+      "summary": "Mobileye CEO Amnon Shashua to step aside as company pushes into robotaxis, robotics\nShashua has been invited to take the chairman of the board seat."
     },
     {
-      "title": "Runway launches AI model router as generative media gets crowded",
-      "link": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
-      "raw_summary": "The Media Router is a tool that automatically selects the best image, video, or audio generation model for a request based on whether a developer prioritizes quality, speed or cost.",
+      "title": "AMD takes on Nvidia with its Helios AI rack-scale system",
+      "link": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
+      "raw_summary": "AMD is challenging its chipmaker rival with a new rack-scale system that will start shipping to customers later this year.",
       "source": "TechCrunch",
-      "published": "Thu, 23 Jul 2026 17:07:35 +0000",
-      "summary": "Runway launches AI model router as generative media gets crowded\nThe Media Router is a tool that automatically selects the best image, video, or audio generation model for a request based on whether a developer prioritizes quality, speed or cost."
+      "published": "Thu, 23 Jul 2026 20:33:02 +0000",
+      "summary": "AMD takes on Nvidia with its Helios AI rack-scale system\nAMD is challenging its chipmaker rival with a new rack-scale system that will start shipping to customers later this year."
     },
     {
-      "title": "OpenAI makes ChatGPT Health available to all US users",
-      "link": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
-      "raw_summary": "Users can also integrate their personal data from services like Apple Health, Function, and MyFitnessPal.",
+      "title": "Patreon lays off 20% of its workforce",
+      "link": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/",
+      "raw_summary": "In a memo to staff that was posted online, Conte said the company's core business is strong, but the platform has to respond to market changes and adjust its cost structure to remain stable.",
       "source": "TechCrunch",
-      "published": "Thu, 23 Jul 2026 17:00:00 +0000",
-      "summary": "OpenAI makes ChatGPT Health available to all US users\nUsers can also integrate their personal data from services like Apple Health, Function, and MyFitnessPal."
+      "published": "Thu, 23 Jul 2026 20:30:07 +0000",
+      "summary": "Patreon lays off 20% of its workforce\nIn a memo to staff that was posted online, Conte said the company's core business is strong, but the platform has to respond to market changes and adjust its cost structure to remain stable."
+    },
+    {
+      "title": "Microsoft responds to LG monitors installing McAfee ads on Windows",
+      "link": "https://arstechnica.com/gadgets/2026/07/microsoft-responds-to-lg-monitors-installing-mcafee-ads-on-windows/",
+      "raw_summary": "App is installed through Windows Update when certain LG monitors connect to a PC.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 23 Jul 2026 20:47:33 +0000",
+      "summary": "Microsoft responds to LG monitors installing McAfee ads on Windows\nApp is installed through Windows Update when certain LG monitors connect to a PC."
+    },
+    {
+      "title": "FDA reports new outbreak of explosive diarrhea with 72 cases identified",
+      "link": "https://arstechnica.com/health/2026/07/fda-reports-new-outbreak-of-explosive-diarrhea-with-72-cases-identified/",
+      "raw_summary": "The FDA hasn't said where the cases are or how they're linked.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 23 Jul 2026 19:22:36 +0000",
+      "summary": "FDA reports new outbreak of explosive diarrhea with 72 cases identified\nThe FDA hasn't said where the cases are or how they're linked."
+    },
+    {
+      "title": "Forgot your Google password? Now you can log in with a selfie.",
+      "link": "https://arstechnica.com/gadgets/2026/07/google-now-lets-you-log-into-your-account-with-a-selfie/",
+      "raw_summary": "Google's selfie videos can be used for account access, AI Avatars, and age verification.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 23 Jul 2026 19:14:25 +0000",
+      "summary": "Forgot your Google password? Now you can log in with a selfie.\nGoogle's selfie videos can be used for account access, AI Avatars, and age verification."
+    },
+    {
+      "title": "AI Kill Switch Act would let Trump admin order shutdown of rogue AI systems",
+      "link": "https://arstechnica.com/tech-policy/2026/07/ai-kill-switch-act-would-let-trump-admin-order-shutdown-of-rogue-ai-systems/",
+      "raw_summary": "Bill would let Homeland Security chief decide when an AI should be shut down.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 23 Jul 2026 19:08:01 +0000",
+      "summary": "AI Kill Switch Act would let Trump admin order shutdown of rogue AI systems\nBill would let Homeland Security chief decide when an AI should be shut down."
     },
     {
       "title": "Final Coyote vs. Acme trailer drops at SDCC",
@@ -171,116 +203,92 @@
       "summary": "Final Coyote vs. Acme trailer drops at SDCC\nAlso, the full trailer for Zach Cregger's <em>Resident Evil</em> features a likable everyman."
     },
     {
-      "title": "A woman got a UTI. Two years later, the bacteria had evolved, invaded her brain.",
-      "link": "https://arstechnica.com/health/2026/07/woman-loses-vision-in-one-eye-after-uti-bacteria-evolves-to-invade-her-brain/",
-      "raw_summary": "The case provides a novel report of the emergence of heterovirulence.",
-      "source": "Ars Technica - All content",
-      "published": "Thu, 23 Jul 2026 16:58:26 +0000",
-      "summary": "A woman got a UTI. Two years later, the bacteria had evolved, invaded her brain.\nThe case provides a novel report of the emergence of heterovirulence."
-    },
-    {
-      "title": "Google hit with $1 billion in fines as EU braces for Trump battle",
-      "link": "https://arstechnica.com/tech-policy/2026/07/google-hit-with-1-billion-in-fines-as-eu-braces-for-trump-battle/",
-      "raw_summary": "Google becomes third tech giant to face huge fines under the Digital Markets Act.",
-      "source": "Ars Technica - All content",
-      "published": "Thu, 23 Jul 2026 16:41:36 +0000",
-      "summary": "Google hit with $1 billion in fines as EU braces for Trump battle\nGoogle becomes third tech giant to face huge fines under the Digital Markets Act."
-    },
-    {
-      "title": "Sony's decision to ditch discs was practically inevitable, data shows",
-      "link": "https://arstechnica.com/gaming/2026/07/the-playstation-game-disc-was-dying-long-before-sony-pulled-the-plug/",
-      "raw_summary": "Circana numbers show US gamers overwhelmingly voting with their wallets.",
-      "source": "Ars Technica - All content",
-      "published": "Thu, 23 Jul 2026 16:25:46 +0000",
-      "summary": "Sony's decision to ditch discs was practically inevitable, data shows\nCircana numbers show US gamers overwhelmingly voting with their wallets."
-    },
-    {
-      "title": "Google just had its first negative cash flow quarter due to massive AI spending",
-      "link": "https://arstechnica.com/google/2026/07/google-just-had-its-first-negative-cash-flow-quarter-ever-due-to-massive-ai-spending/",
-      "raw_summary": "Google continues to report big quarterly revenue, but its AI spending has skyrocketed.",
-      "source": "Ars Technica - All content",
-      "published": "Thu, 23 Jul 2026 16:04:19 +0000",
-      "summary": "Google just had its first negative cash flow quarter due to massive AI spending\nGoogle continues to report big quarterly revenue, but its AI spending has skyrocketed."
-    },
-    {
-      "title": "EU fines Google €890mn in test of Trump’s threats to protect Big Tech",
-      "link": "https://www.ft.com/content/c836e73b-66bb-4aa1-b85b-dd5b6eb89af0?syn-25a6b1a6=1",
-      "raw_summary": "EU competition chief says it is bloc’s ‘duty to defend rule of law’ while delivering ‘strong message’ to search giant",
-      "source": "World",
-      "published": "Thu, 23 Jul 2026 17:58:39 GMT",
-      "summary": "EU fines Google €890mn in test of Trump’s threats to protect Big Tech\nEU competition chief says it is bloc’s ‘duty to defend rule of law’ while delivering ‘strong message’ to search giant"
-    },
-    {
-      "title": "Trump’s dubious nuclear deal with Saudi Arabia",
-      "link": "https://www.ft.com/content/55b3b434-9965-4046-b239-43443db3e54a",
-      "raw_summary": "An accord lacking ‘gold standard’ safeguards on enrichment would carry proliferation risks",
-      "source": "World",
-      "published": "Thu, 23 Jul 2026 17:56:15 GMT",
-      "summary": "Trump’s dubious nuclear deal with Saudi Arabia\nAn accord lacking ‘gold standard’ safeguards on enrichment would carry proliferation risks"
-    },
-    {
-      "title": "US justice department to streamline company merger reviews",
-      "link": "https://www.ft.com/content/a5c66044-8999-48a5-b9cc-51341f177930?syn-25a6b1a6=1",
-      "raw_summary": "Change entails focusing on top competition concerns in a deal rather than expansive probes and fact-finding missions",
-      "source": "World",
-      "published": "Thu, 23 Jul 2026 17:56:01 GMT",
-      "summary": "US justice department to streamline company merger reviews\nChange entails focusing on top competition concerns in a deal rather than expansive probes and fact-finding missions"
-    },
-    {
-      "title": "North Sea oil and gas industry looks for answers from new energy secretary",
-      "link": "https://www.ft.com/content/58a7b441-938c-4c05-9615-40ceaf17882b?syn-25a6b1a6=1",
-      "raw_summary": "Miatta Fahnbulleh’s visit to Aberdeen comes as companies hope to sway Burnham’s government on new drilling licences",
-      "source": "World",
-      "published": "Thu, 23 Jul 2026 17:49:55 GMT",
-      "summary": "North Sea oil and gas industry looks for answers from new energy secretary\nMiatta Fahnbulleh’s visit to Aberdeen comes as companies hope to sway Burnham’s government on new drilling licences"
-    },
-    {
-      "title": "Oil hits $100 for first time since May while US stocks slide",
+      "title": "Oil hits $100 as Trump weighs ‘massive attack’",
       "link": "https://www.ft.com/content/3fd494d1-ee74-4c0f-9cd6-34e2283961df?syn-25a6b1a6=1",
-      "raw_summary": "Donald Trump warns US is weighing ‘massive attack’ on Iran as Middle East tensions ratchet higher",
+      "raw_summary": "US stocks and bonds also sold off as Middle East tensions increase",
       "source": "World",
-      "published": "Thu, 23 Jul 2026 17:10:28 GMT",
-      "summary": "Oil hits $100 for first time since May while US stocks slide\nDonald Trump warns US is weighing ‘massive attack’ on Iran as Middle East tensions ratchet higher"
+      "published": "Fri, 24 Jul 2026 01:32:40 GMT",
+      "summary": "Oil hits $100 as Trump weighs ‘massive attack’\nUS stocks and bonds also sold off as Middle East tensions increase"
     },
     {
-      "title": "Yen’s Slump Extends Beyond Dollar and Stokes Inflation Fears",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-23/yen-s-slump-in-trade-weighted-gauge-shows-its-broad-based-drop",
-      "raw_summary": "While the yen’s plunge to a four-decade low against the dollar has dominated headlines, a broader gauge of the Japanese currency’s health is also flashing a warning.",
-      "source": "Bloomberg Markets",
-      "published": "Thu, 23 Jul 2026 00:39:28 GMT",
-      "summary": "Yen’s Slump Extends Beyond Dollar and Stokes Inflation Fears\nWhile the yen’s plunge to a four-decade low against the dollar has dominated headlines, a broader gauge of the Japanese currency’s health is also flashing a warning."
+      "title": "Why India’s student protests are different",
+      "link": "https://www.ft.com/content/c529dc01-ad31-4f1b-a8df-14eff1e4579b?syn-25a6b1a6=1",
+      "raw_summary": "Also in this newsletter: Trump’s new pharmaceutical tariffs",
+      "source": "World",
+      "published": "Fri, 24 Jul 2026 01:30:10 GMT",
+      "summary": "Why India’s student protests are different\nAlso in this newsletter: Trump’s new pharmaceutical tariffs"
     },
     {
-      "title": "Stocks Hit by AI and War Jitters as Oil Tops $100: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-22/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "A surge in oil spurred by the escalating Iran war sent stocks and bonds lower, with Wall Street also rattled by renewed concerns over whether massive artificial-intelligence investments will pay off.",
-      "source": "Bloomberg Markets",
-      "published": "Wed, 22 Jul 2026 22:12:30 GMT",
-      "summary": "Stocks Hit by AI and War Jitters as Oil Tops $100: Markets Wrap\nA surge in oil spurred by the escalating Iran war sent stocks and bonds lower, with Wall Street also rattled by renewed concerns over whether massive artificial-intelligence investments will pay off."
+      "title": "Intel posts fastest growth in 15 years as AI data centres demand fuels sales",
+      "link": "https://www.ft.com/content/48f0a410-daae-420b-93fc-216c3a2f1184?syn-25a6b1a6=1",
+      "raw_summary": "Chipmaker’s revenue jumped 25% in the second quarter",
+      "source": "World",
+      "published": "Fri, 24 Jul 2026 00:02:15 GMT",
+      "summary": "Intel posts fastest growth in 15 years as AI data centres demand fuels sales\nChipmaker’s revenue jumped 25% in the second quarter"
     },
     {
-      "title": "China Tankers Pass Red Sea Chokepoint Despite Houthi Threat",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-23/china-tankers-head-to-red-sea-chokepoint-despite-houthi-attacks",
-      "raw_summary": "Two China-owned oil tankers loaded with Saudi Arabian crude exited the Red Sea via the Bab el-Mandeb chokepoint despite overnight Houthi attacks on vessels in the region.",
-      "source": "Bloomberg Markets",
-      "published": "Thu, 23 Jul 2026 06:33:44 GMT",
-      "summary": "China Tankers Pass Red Sea Chokepoint Despite Houthi Threat\nTwo China-owned oil tankers loaded with Saudi Arabian crude exited the Red Sea via the Bab el-Mandeb chokepoint despite overnight Houthi attacks on vessels in the region."
+      "title": "Sewage discharges flout guidance near 65 beaches in England since May",
+      "link": "https://www.ft.com/content/1fd567d6-1591-4256-8976-95fac46f522b?syn-25a6b1a6=1",
+      "raw_summary": "Overflows at bathing sites come as tourists flock to coastal areas for summer holidays",
+      "source": "World",
+      "published": "Thu, 23 Jul 2026 23:01:09 GMT",
+      "summary": "Sewage discharges flout guidance near 65 beaches in England since May\nOverflows at bathing sites come as tourists flock to coastal areas for summer holidays"
     },
     {
-      "title": "Miami to Sell Griffin a Historic Site Next to New Citadel HQ",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-23/miami-to-sell-griffin-an-historic-site-next-to-new-citadel-hq",
-      "raw_summary": "Miami agreed to sell Ken Griffin a site across the street from the planned Citadel headquarters in the Brickell financial district that currently houses an historic cottage, completing the billionaire’s goal of owning the entire square block.",
-      "source": "Bloomberg Markets",
-      "published": "Thu, 23 Jul 2026 18:21:26 GMT",
-      "summary": "Miami to Sell Griffin a Historic Site Next to New Citadel HQ\nMiami agreed to sell Ken Griffin a site across the street from the planned Citadel headquarters in the Brickell financial district that currently houses an historic cottage, completing the billionaire’s goal of owning the entire square blo"
+      "title": "Sun, football and Burnham push UK consumer confidence higher",
+      "link": "https://www.ft.com/content/856296a6-abab-4dba-ac39-9b74f9b137f1?syn-25a6b1a6=1",
+      "raw_summary": "Survey was conducted in first half of July before new prime minister took office and ahead of latest escalation in US-Iran conflict",
+      "source": "World",
+      "published": "Thu, 23 Jul 2026 23:01:09 GMT",
+      "summary": "Sun, football and Burnham push UK consumer confidence higher\nSurvey was conducted in first half of July before new prime minister took office and ahead of latest escalation in US-Iran conflict"
     },
     {
-      "title": "Latest Oil Market News and Analysis for July 23",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-22/latest-oil-market-news-and-analysis-for-july-23",
-      "raw_summary": "Oil surged past $100 a barrel for the first time in two months after Iran-backed Houthi militants said they attacked two Saudi Arabian tankers in the Red Sea, opening a new front in the Middle East conflict and threatening deeper supply disruptions.",
+      "title": "Trump to Take Up Manila’s Concerns With Xi, Philippines Says",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-24/trump-to-take-up-manila-s-concerns-with-xi-philippines-says",
+      "raw_summary": "US President Donald Trump assured Philippine leader Ferdinand Marcos Jr. that he would take up Manila’s concerns when he meets with Chinese President Xi Jinping, the Southeast Asian nation said.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 22 Jul 2026 22:02:06 GMT",
-      "summary": "Latest Oil Market News and Analysis for July 23\nOil surged past $100 a barrel for the first time in two months after Iran-backed Houthi militants said they attacked two Saudi Arabian tankers in the Red Sea, opening a new front in the Middle East conflict and threatening deeper supply disruptions."
+      "published": "Fri, 24 Jul 2026 01:22:04 GMT",
+      "summary": "Trump to Take Up Manila’s Concerns With Xi, Philippines Says\nUS President Donald Trump assured Philippine leader Ferdinand Marcos Jr. that he would take up Manila’s concerns when he meets with Chinese President Xi Jinping, the Southeast Asian nation said."
+    },
+    {
+      "title": "PHP/USD: Philippine Peso Falls to Fresh Record Low as Oil Advances",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-24/php-usd-philippine-peso-falls-to-fresh-record-low-as-oil-advances",
+      "raw_summary": "The Philippine peso dropped to a new record low as oil prices climbed, putting pressure on the central bank to step up its defense of the currency.",
+      "source": "Bloomberg Markets",
+      "published": "Fri, 24 Jul 2026 01:04:29 GMT",
+      "summary": "PHP/USD: Philippine Peso Falls to Fresh Record Low as Oil Advances\nThe Philippine peso dropped to a new record low as oil prices climbed, putting pressure on the central bank to step up its defense of the currency."
+    },
+    {
+      "title": "Macquarie’s First Woman CEO Departs With a $339 Million Stake",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-24/macquarie-s-first-woman-ceo-departs-with-a-339-million-stake",
+      "raw_summary": "Shemara Wikramanayake is stepping down as head of Macquarie Group Ltd. after leading the Australian financial conglomerate to bumper profits and a record high share price. For that she will be richly rewarded, making her one of the best-paid female bank executives in the world.",
+      "source": "Bloomberg Markets",
+      "published": "Fri, 24 Jul 2026 01:04:14 GMT",
+      "summary": "Macquarie’s First Woman CEO Departs With a $339 Million Stake\nShemara Wikramanayake is stepping down as head of Macquarie Group Ltd. after leading the Australian financial conglomerate to bumper profits and a record high share price. For that she will be richly rewarded, making her one of the best-p"
+    },
+    {
+      "title": "Modi Seeks to Calm Anger in Rare Video as India Protests Widen",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-24/modi-seeks-to-calm-anger-in-rare-video-as-india-protests-widen",
+      "raw_summary": "Indian Prime Minister Narendra Modi made a fresh bid to calm mounting anger over examination paper leaks as students prepared nationwide protests on Friday, with demands growing for the education minister to step down.",
+      "source": "Bloomberg Markets",
+      "published": "Fri, 24 Jul 2026 01:01:32 GMT",
+      "summary": "Modi Seeks to Calm Anger in Rare Video as India Protests Widen\nIndian Prime Minister Narendra Modi made a fresh bid to calm mounting anger over examination paper leaks as students prepared nationwide protests on Friday, with demands growing for the education minister to step down."
+    },
+    {
+      "title": "Asian Stocks Fall on Tech, Brent Trades Above $100: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-23/stock-market-today-dow-s-p-live-updates",
+      "raw_summary": "Asian stocks followed Wall Street lower as investors grew skeptical that the billions being poured into the artificial intelligence buildout will generate adequate returns. Brent traded above $100 a barrel.",
+      "source": "Bloomberg Markets",
+      "published": "Thu, 23 Jul 2026 22:06:16 GMT",
+      "summary": "Asian Stocks Fall on Tech, Brent Trades Above $100: Markets Wrap\nAsian stocks followed Wall Street lower as investors grew skeptical that the billions being poured into the artificial intelligence buildout will generate adequate returns. Brent traded above $100 a barrel."
+    },
+    {
+      "title": "Clarity Act expected to miss its window before Congress' summer break, leadership says",
+      "link": "https://www.coindesk.com/policy/2026/07/23/clarity-act-expected-to-miss-its-window-before-congress-summer-break-leadership-says",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Thu, 23 Jul 2026 20:16:37 +0000",
+      "summary": "Clarity Act expected to miss its window before Congress' summer break, leadership says\n"
     },
     {
       "title": "Robinhood CEO Vlad Tenev's X account hacked to promote token amid memecoin frenzy",
@@ -313,14 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Thu, 23 Jul 2026 15:36:39 +0000",
       "summary": "The SEC settles with Coinbase over its missing Gary Gensler texts\n"
-    },
-    {
-      "title": "Crypto for Advisors: It’s time for tokenization to get to work",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/07/23/crypto-for-advisors-it-s-time-for-tokenization-to-get-to-work",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 23 Jul 2026 14:53:34 +0000",
-      "summary": "Crypto for Advisors: It’s time for tokenization to get to work\n"
     }
   ]
 }
