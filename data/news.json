@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T08:11:14.098849+00:00",
+  "generated_at": "2026-07-24T13:21:00.308792+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,84 +43,92 @@
       "summary": "FBI Seizes NetNut Proxy Platform, Popa Botnet\nThe Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: "
     },
     {
-      "title": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks",
-      "link": "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html",
-      "raw_summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to compromise Windows systems.\n\nThe activity has been attributed by the agency to a threat cluster it tracks as UAC-0099, a Russia-aligned group that has previously observed weaponizing security flaws in WinRAR software to",
+      "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
+      "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
+      "raw_summary": "Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build, authorize, and deploy an autonomous artificial intelligence (AI) agent inside a victim's organization.\n\nThe vulnerability has been codenamed AgentForger by Zenity Labs. The issue has since been addressed by OpenAI as of June 8,",
       "source": "The Hacker News",
-      "published": "Fri, 24 Jul 2026 12:20:57 +0530",
-      "summary": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks\nThe Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to compromise Windows systems.\n\nThe activity has been attributed"
+      "published": "Fri, 24 Jul 2026 17:23:55 +0530",
+      "summary": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link\nCybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build, authorize, and deploy an autonomous artificial i"
     },
     {
-      "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
-      "link": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
-      "raw_summary": "A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client.\n\nThe payload goes after the last 90 days of email, the organization's entire email directory, the password saved in the browser and the codes kept for two-factor recovery. Opening the message was enough to start it.\n\nThe NSA, CISA and partner agencies published",
+      "title": "Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers",
+      "link": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
+      "raw_summary": "A crafted SVG submitted to Bing's image search ran commands as NT AUTHORITY\\SYSTEM on Microsoft's production image-processing workers, and as root on the Linux machines in the same fleet.\n\nXBOW's testing got the same result on workers across different hosts and network ranges, so the problem sat in Bing's image tier, not on one bad machine. Microsoft issued two critical CVEs, CVE-2026-32194 and",
       "source": "The Hacker News",
-      "published": "Fri, 24 Jul 2026 00:06:08 +0530",
-      "summary": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes\nA Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client.\n\nThe payload goes after the last 90 days of email, the organization's entire email di"
+      "published": "Fri, 24 Jul 2026 17:15:17 +0530",
+      "summary": "Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers\nA crafted SVG submitted to Bing's image search ran commands as NT AUTHORITY\\SYSTEM on Microsoft's production image-processing workers, and as root on the Linux machines in the same fleet.\n\nXBOW's testing got the same re"
     },
     {
-      "title": "ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories",
-      "link": "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html",
-      "raw_summary": "Most of this week's trouble came dressed as something useful.\n\nA package stole data. A fake extension opened remote access. A safety app became spyware. An image gave hidden orders to an AI agent. Other threats hid in open systems, weak code, and normal network traffic.\n\n\n The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out.\n\n\nThe danger was",
+      "title": "Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do",
+      "link": "https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html",
+      "raw_summary": "AI agent security is moving through a familiar maturity curve: adoption, then visibility, and finally, control. But what we've collectively discovered is that enforcing least privilege for AI agents is harder than we ever imagined. This is why there are so many approaches, from prompt filtering to identity-layer access controls. Where we've collectively landed is that understanding the intent of",
       "source": "The Hacker News",
-      "published": "Thu, 23 Jul 2026 20:32:07 +0530",
-      "summary": "ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories\nMost of this week's trouble came dressed as something useful.\n\nA package stole data. A fake extension opened remote access. A safety app became spyware. An image gave hidden orders to an AI agent. Other threats hid"
+      "published": "Fri, 24 Jul 2026 17:00:00 +0530",
+      "summary": "Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do\nAI agent security is moving through a familiar maturity curve: adoption, then visibility, and finally, control. But what we've collectively discovered is that enforcing least privilege for AI agents is harder than we ever i"
     },
     {
-      "title": "Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files",
-      "link": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
-      "raw_summary": "Cybersecurity researchers have uncovered a sandbox escape vulnerability in Anthropic's Claude Cowork that makes it possible to break out of the confines of a Linux virtual machine (VM) within which the agent runs to read or write files anywhere on the Mac.\n\nAccomplish AI, which shared details of the vulnerability with The Hacker News ahead of publication, said about 500,000 macOS users running",
+      "title": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
+      "link": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html",
+      "raw_summary": "Someone installed a popular AI assistant on a rented server, switched off the setting that makes it ask permission before running risky commands, and pointed it at Thailand's Ministry of Finance, which runs the country's treasury and tax collection.\n\nThe agent then worked through the ministry's network on its own, checking hosts for ways to gain root access, hunting through file systems, and",
       "source": "The Hacker News",
-      "published": "Thu, 23 Jul 2026 18:57:59 +0530",
-      "summary": "Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files\nCybersecurity researchers have uncovered a sandbox escape vulnerability in Anthropic's Claude Cowork that makes it possible to break out of the confines of a Linux virtual machine (VM) within which the agent runs to read or wri"
+      "published": "Fri, 24 Jul 2026 15:45:29 +0530",
+      "summary": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry\nSomeone installed a popular AI assistant on a rented server, switched off the setting that makes it ask permission before running risky commands, and pointed it at Thailand's Ministry of Finance, which runs the cou"
     },
     {
-      "title": "Chaos Ransomware Uses msaRAT to Route C2 Traffic Through Headless Chrome and Edge",
-      "link": "https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html",
-      "raw_summary": "The Chaos ransomware group ran its command-and-control through the victim's own browser. Cisco Talos on Thursday detailed msaRAT, the Rust implant behind it, found on a compromised Windows machine ahead of the encryptor.\n\nThe implant never opens an outbound connection of its own. Its process talks to 127.0.0.1 and nothing else. It starts Chrome or Edge in headless mode and drives the browser",
+      "title": "Golden Chickens Resurfaces With Four New Malware Families and Modular Implants",
+      "link": "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html",
+      "raw_summary": "The threat actors behind the Golden Chickens malware-as-a-service (MaaS) ecosystem have resurfaced with four new malware families, indicating that the operators are showing no signs of stopping despite extensive public disclosures into their inner workings.\n\nThe malware families in question are: TinyEgg, ChonkyChicken, a modularized variant of ChonkyChicken, and a modified web browser credential",
       "source": "The Hacker News",
-      "published": "Thu, 23 Jul 2026 18:41:09 +0530",
-      "summary": "Chaos Ransomware Uses msaRAT to Route C2 Traffic Through Headless Chrome and Edge\nThe Chaos ransomware group ran its command-and-control through the victim's own browser. Cisco Talos on Thursday detailed msaRAT, the Rust implant behind it, found on a compromised Windows machine ahead of the encrypto"
+      "published": "Fri, 24 Jul 2026 15:39:24 +0530",
+      "summary": "Golden Chickens Resurfaces With Four New Malware Families and Modular Implants\nThe threat actors behind the Golden Chickens malware-as-a-service (MaaS) ecosystem have resurfaced with four new malware families, indicating that the operators are showing no signs of stopping despite extensive public di"
     },
     {
-      "title": "The PImpl idiom and the C++26 std:indirect type",
-      "link": "https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/",
-      "raw_summary": "<p>Article URL: <a href=\"https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/\">https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49032095\">https://news.ycombinator.com/item?id=49032095</a></p>\n<p>Points: 23</p>\n<p># Comments: 16</p>",
+      "title": "Eight Newly Produced MQ-9 Reaper Drones Destroyed in Iranian Strike",
+      "link": "https://militarywatchmagazine.com/",
+      "raw_summary": "<p>Article URL: <a href=\"https://militarywatchmagazine.com/\">https://militarywatchmagazine.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49034895\">https://news.ycombinator.com/item?id=49034895</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 24 Jul 2026 07:02:43 +0000",
-      "summary": "The PImpl idiom and the C++26 std:indirect type\n<p>Article URL: <a href=\"https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/\">https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/</a></p>\n<p>Comments URL: <a href=\"https://news.y"
+      "published": "Fri, 24 Jul 2026 12:55:47 +0000",
+      "summary": "Eight Newly Produced MQ-9 Reaper Drones Destroyed in Iranian Strike\n<p>Article URL: <a href=\"https://militarywatchmagazine.com/\">https://militarywatchmagazine.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49034895\">https://news.ycombinator.com/item?id=49034895</a></p>\n<"
     },
     {
-      "title": "Flux 3",
-      "link": "https://bfl.ai/blog/flux-3",
-      "raw_summary": "<p>Article URL: <a href=\"https://bfl.ai/blog/flux-3\">https://bfl.ai/blog/flux-3</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49031796\">https://news.ycombinator.com/item?id=49031796</a></p>\n<p>Points: 145</p>\n<p># Comments: 30</p>",
+      "title": "LLMs Are Still Toxic, Stuck in the Past, and Bad at Math",
+      "link": "https://www.eyosias.dev/blog/llms-are-still-toxic-and-bad-at-math",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.eyosias.dev/blog/llms-are-still-toxic-and-bad-at-math\">https://www.eyosias.dev/blog/llms-are-still-toxic-and-bad-at-math</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49034838\">https://news.ycombinator.com/item?id=49034838</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 24 Jul 2026 06:17:08 +0000",
-      "summary": "Flux 3\n<p>Article URL: <a href=\"https://bfl.ai/blog/flux-3\">https://bfl.ai/blog/flux-3</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49031796\">https://news.ycombinator.com/item?id=49031796</a></p>\n<p>Points: 145</p>\n<p># Comments: 30</p>"
+      "published": "Fri, 24 Jul 2026 12:51:13 +0000",
+      "summary": "LLMs Are Still Toxic, Stuck in the Past, and Bad at Math\n<p>Article URL: <a href=\"https://www.eyosias.dev/blog/llms-are-still-toxic-and-bad-at-math\">https://www.eyosias.dev/blog/llms-are-still-toxic-and-bad-at-math</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49034838\">http"
     },
     {
-      "title": "The Visual 6502",
-      "link": "http://visual6502.org/JSSim/index.html",
-      "raw_summary": "<p>Article URL: <a href=\"http://visual6502.org/JSSim/index.html\">http://visual6502.org/JSSim/index.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49029538\">https://news.ycombinator.com/item?id=49029538</a></p>\n<p>Points: 87</p>\n<p># Comments: 22</p>",
+      "title": "Em dashes are fucking amazing",
+      "link": "https://psychotechnology.substack.com/p/em-dashes-are-fucking-amazing",
+      "raw_summary": "<p>Article URL: <a href=\"https://psychotechnology.substack.com/p/em-dashes-are-fucking-amazing\">https://psychotechnology.substack.com/p/em-dashes-are-fucking-amazing</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49034747\">https://news.ycombinator.com/item?id=49034747</a></p>\n<p>Points: 5</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 23 Jul 2026 23:36:42 +0000",
-      "summary": "The Visual 6502\n<p>Article URL: <a href=\"http://visual6502.org/JSSim/index.html\">http://visual6502.org/JSSim/index.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49029538\">https://news.ycombinator.com/item?id=49029538</a></p>\n<p>Points: 87</p>\n<p># Comments: 22</p>"
+      "published": "Fri, 24 Jul 2026 12:40:27 +0000",
+      "summary": "Em dashes are fucking amazing\n<p>Article URL: <a href=\"https://psychotechnology.substack.com/p/em-dashes-are-fucking-amazing\">https://psychotechnology.substack.com/p/em-dashes-are-fucking-amazing</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49034747\">https://news.ycombinato"
     },
     {
-      "title": "98.css",
-      "link": "https://jdan.github.io/98.css/#status-bar",
-      "raw_summary": "<p>Article URL: <a href=\"https://jdan.github.io/98.css/#status-bar\">https://jdan.github.io/98.css/#status-bar</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49028927\">https://news.ycombinator.com/item?id=49028927</a></p>\n<p>Points: 445</p>\n<p># Comments: 105</p>",
+      "title": "Programming language file extensions that match ISO 3166-1 alpha-2 country code",
+      "link": "https://www.bruh.ltd/blog/programming-language-file-extensions-that-match-an-iso-3166-1-alpha-2-country-code/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.bruh.ltd/blog/programming-language-file-extensions-that-match-an-iso-3166-1-alpha-2-country-code/\">https://www.bruh.ltd/blog/programming-language-file-extensions-that-match-an-iso-3166-1-alpha-2-country-code/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49034673\">https://news.ycombinator.com/item?id=49034673</a></p>\n<p>Points: 6</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 23 Jul 2026 22:30:29 +0000",
-      "summary": "98.css\n<p>Article URL: <a href=\"https://jdan.github.io/98.css/#status-bar\">https://jdan.github.io/98.css/#status-bar</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49028927\">https://news.ycombinator.com/item?id=49028927</a></p>\n<p>Points: 445</p>\n<p># Comments: 105</p>"
+      "published": "Fri, 24 Jul 2026 12:34:28 +0000",
+      "summary": "Programming language file extensions that match ISO 3166-1 alpha-2 country code\n<p>Article URL: <a href=\"https://www.bruh.ltd/blog/programming-language-file-extensions-that-match-an-iso-3166-1-alpha-2-country-code/\">https://www.bruh.ltd/blog/programming-language-file-extensions-that-match-an-iso-316"
     },
     {
-      "title": "Mourning Dan Williams",
-      "link": "https://lwn.net/Articles/1084545/",
-      "raw_summary": "<p>Article URL: <a href=\"https://lwn.net/Articles/1084545/\">https://lwn.net/Articles/1084545/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49027052\">https://news.ycombinator.com/item?id=49027052</a></p>\n<p>Points: 66</p>\n<p># Comments: 1</p>",
+      "title": "Why is programming so captivating, yet so agonizing?",
+      "link": "https://elsewhere.news/en/zhenfund/why-is-programming-so-captivating-yet-so-agonizing",
+      "raw_summary": "<p>Article URL: <a href=\"https://elsewhere.news/en/zhenfund/why-is-programming-so-captivating-yet-so-agonizing\">https://elsewhere.news/en/zhenfund/why-is-programming-so-captivating-yet-so-agonizing</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49034468\">https://news.ycombinator.com/item?id=49034468</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 23 Jul 2026 19:46:28 +0000",
-      "summary": "Mourning Dan Williams\n<p>Article URL: <a href=\"https://lwn.net/Articles/1084545/\">https://lwn.net/Articles/1084545/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49027052\">https://news.ycombinator.com/item?id=49027052</a></p>\n<p>Points: 66</p>\n<p># Comments: 1</p>"
+      "published": "Fri, 24 Jul 2026 12:15:11 +0000",
+      "summary": "Why is programming so captivating, yet so agonizing?\n<p>Article URL: <a href=\"https://elsewhere.news/en/zhenfund/why-is-programming-so-captivating-yet-so-agonizing\">https://elsewhere.news/en/zhenfund/why-is-programming-so-captivating-yet-so-agonizing</a></p>\n<p>Comments URL: <a href=\"https://news.yc"
+    },
+    {
+      "title": "Facebook launches a dedicated Marketplace app for sellers, adds a free verification system",
+      "link": "https://techcrunch.com/2026/07/24/facebook-launches-a-dedicated-marketplace-app-for-sellers-adds-a-free-verification-system/",
+      "raw_summary": "Seller is a dedicated Marketplace app for people who list and sell items frequently.",
+      "source": "TechCrunch",
+      "published": "Fri, 24 Jul 2026 12:47:15 +0000",
+      "summary": "Facebook launches a dedicated Marketplace app for sellers, adds a free verification system\nSeller is a dedicated Marketplace app for people who list and sell items frequently."
     },
     {
       "title": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
@@ -155,12 +163,12 @@
       "summary": "AMD takes on Nvidia with its Helios AI rack-scale system\nAMD is challenging its chipmaker rival with a new rack-scale system that will start shipping to customers later this year."
     },
     {
-      "title": "Patreon lays off 20% of its workforce",
-      "link": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce/",
-      "raw_summary": "In a memo to staff that was posted online, Conte said the company's core business is strong, but the platform has to respond to market changes and adjust its cost structure to remain stable.",
-      "source": "TechCrunch",
-      "published": "Thu, 23 Jul 2026 20:30:07 +0000",
-      "summary": "Patreon lays off 20% of its workforce\nIn a memo to staff that was posted online, Conte said the company's core business is strong, but the platform has to respond to market changes and adjust its cost structure to remain stable."
+      "title": "Robot snakes searched for Venezuela earthquake survivors in collapsed buildings",
+      "link": "https://arstechnica.com/gadgets/2026/07/robot-snakes-searched-for-venezuela-earthquake-survivors-in-collapsed-buildings/",
+      "raw_summary": "US robotics researchers flew to Venezuela with snakebots after getting a call.",
+      "source": "Ars Technica - All content",
+      "published": "Fri, 24 Jul 2026 11:20:43 +0000",
+      "summary": "Robot snakes searched for Venezuela earthquake survivors in collapsed buildings\nUS robotics researchers flew to Venezuela with snakebots after getting a call."
     },
     {
       "title": "Microsoft responds to LG monitors installing McAfee ads on Windows",
@@ -195,132 +203,124 @@
       "summary": "AI Kill Switch Act would let Trump admin order shutdown of rogue AI systems\nBill would let Homeland Security chief decide when an AI should be shut down."
     },
     {
-      "title": "Final Coyote vs. Acme trailer drops at SDCC",
-      "link": "https://arstechnica.com/culture/2026/07/final-coyote-vs-acme-trailer-drops-at-sdcc/",
-      "raw_summary": "Also, the full trailer for Zach Cregger's <em>Resident Evil</em> features a likable everyman.",
-      "source": "Ars Technica - All content",
-      "published": "Thu, 23 Jul 2026 18:01:46 +0000",
-      "summary": "Final Coyote vs. Acme trailer drops at SDCC\nAlso, the full trailer for Zach Cregger's <em>Resident Evil</em> features a likable everyman."
-    },
-    {
-      "title": "Wise’s US bank licence bid rejected over compliance ‘deficiencies’",
-      "link": "https://www.ft.com/content/fe213675-b988-4121-9723-96d433d524d8?syn-25a6b1a6=1",
-      "raw_summary": "Regulator raises concerns over fintech’s anti-money laundering checks and understanding of banking law",
-      "source": "World",
-      "published": "Fri, 24 Jul 2026 07:51:11 GMT",
-      "summary": "Wise’s US bank licence bid rejected over compliance ‘deficiencies’\nRegulator raises concerns over fintech’s anti-money laundering checks and understanding of banking law"
-    },
-    {
-      "title": "Oil hovers near $100 as Trump weighs ‘massive attack’",
-      "link": "https://www.ft.com/content/3fd494d1-ee74-4c0f-9cd6-34e2283961df?syn-25a6b1a6=1",
-      "raw_summary": "Middle East tensions have risen after Red Sea attacks by Houthi militants threatened to squeeze global supplies further",
-      "source": "World",
-      "published": "Fri, 24 Jul 2026 07:26:44 GMT",
-      "summary": "Oil hovers near $100 as Trump weighs ‘massive attack’\nMiddle East tensions have risen after Red Sea attacks by Houthi militants threatened to squeeze global supplies further"
-    },
-    {
-      "title": "Russia’s biggest online retailer becomes target in Ukraine drone war",
-      "link": "https://www.ft.com/content/5c9ae967-8e85-470f-974b-43667cc6f1c1?syn-25a6b1a6=1",
-      "raw_summary": "Strikes on Wildberries have killed nine people and left small sellers facing millions of roubles in losses",
-      "source": "World",
-      "published": "Fri, 24 Jul 2026 06:48:37 GMT",
-      "summary": "Russia’s biggest online retailer becomes target in Ukraine drone war\nStrikes on Wildberries have killed nine people and left small sellers facing millions of roubles in losses"
-    },
-    {
-      "title": "Sun, football and Burnham push  consumer confidence and retail sales higher",
-      "link": "https://www.ft.com/content/856296a6-abab-4dba-ac39-9b74f9b137f1?syn-25a6b1a6=1",
-      "raw_summary": "Perceptions of UK economy improved despite lack of clear evidence of gaining momentum",
-      "source": "World",
-      "published": "Fri, 24 Jul 2026 06:41:01 GMT",
-      "summary": "Sun, football and Burnham push  consumer confidence and retail sales higher\nPerceptions of UK economy improved despite lack of clear evidence of gaining momentum"
-    },
-    {
-      "title": "US hits 60 countries with new duties as Trump rebuilds tariff wall",
+      "title": "US hits 60 trading partners with new duties as Trump rebuilds tariff wall",
       "link": "https://www.ft.com/content/078269b4-5518-4289-b90a-dd722fd7e703?syn-25a6b1a6=1",
       "raw_summary": "Washington moves to reimpose 10 per cent duties after previous blanket levies were struck down by Supreme Court",
       "source": "World",
-      "published": "Fri, 24 Jul 2026 06:29:07 GMT",
-      "summary": "US hits 60 countries with new duties as Trump rebuilds tariff wall\nWashington moves to reimpose 10 per cent duties after previous blanket levies were struck down by Supreme Court"
+      "published": "Fri, 24 Jul 2026 12:30:37 GMT",
+      "summary": "US hits 60 trading partners with new duties as Trump rebuilds tariff wall\nWashington moves to reimpose 10 per cent duties after previous blanket levies were struck down by Supreme Court"
     },
     {
-      "title": "Dangote Prefers London Over Dubai for Listing of Cement Unit",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-24/dangote-prefers-london-over-dubai-for-listing-of-cement-unit",
-      "raw_summary": "Dangote Cement Plc prefers to list its cement business in London because it will be quicker to sell shares on the exchange in the UK than in Dubai, according to Mariya Dangote, a board member in the cement business.",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 24 Jul 2026 04:50:14 GMT",
-      "summary": "Dangote Prefers London Over Dubai for Listing of Cement Unit\nDangote Cement Plc prefers to list its cement business in London because it will be quicker to sell shares on the exchange in the UK than in Dubai, according to Mariya Dangote, a board member in the cement business."
+      "title": "South East Water secures £200mn liquidity boost",
+      "link": "https://www.ft.com/content/21d95258-2734-4a8a-91f7-6bbd02d21385?syn-25a6b1a6=1",
+      "raw_summary": "Cash-strapped British utility says financing will be used to help future bond issuance",
+      "source": "World",
+      "published": "Fri, 24 Jul 2026 11:36:45 GMT",
+      "summary": "South East Water secures £200mn liquidity boost\nCash-strapped British utility says financing will be used to help future bond issuance"
     },
     {
-      "title": "How Franchise Restaurants Opened the Door to the Gig Economy",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-24/how-franchise-restaurants-opened-the-door-to-the-gig-economy",
-      "raw_summary": "<p><strong>The ruthless labor history of your favorite fast food joint.</strong></p>",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 24 Jul 2026 08:00:21 GMT",
-      "summary": "How Franchise Restaurants Opened the Door to the Gig Economy\n<p><strong>The ruthless labor history of your favorite fast food joint.</strong></p>"
+      "title": "Is a second home in New York or London more trouble than it’s worth?",
+      "link": "https://www.ft.com/content/43c3d467-db73-44d8-b3a5-0a829268181b",
+      "raw_summary": "New York’s new tax on second homes is prompting owners to rethink. Are these city pads still worth it? It’s a question that those in London have long been asking",
+      "source": "World",
+      "published": "Fri, 24 Jul 2026 11:00:03 GMT",
+      "summary": "Is a second home in New York or London more trouble than it’s worth?\nNew York’s new tax on second homes is prompting owners to rethink. Are these city pads still worth it? It’s a question that those in London have long been asking"
     },
     {
-      "title": "Odd Lots: How Franchising Led to the Gig Economy (Podcast)",
-      "link": "https://www.bloomberg.com/news/audio/2026-07-24/odd-lots-how-franchising-led-to-the-gig-economy-podcast",
-      "raw_summary": "When the fast food industry began booming in the 1950s, it did so via a new business model known as the franchise. This model allowed independent operators to license trademarks from a business like McDonald’s or Dunkin Donuts, and it soon spread across the country, with huge consequences for how Americans are employed. Legal battles fought by franchises eventually opened the door to what’s now known as the gig economy, allowing Uber drivers to be treated in much the same way as the operator of",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 24 Jul 2026 08:00:00 GMT",
-      "summary": "Odd Lots: How Franchising Led to the Gig Economy (Podcast)\nWhen the fast food industry began booming in the 1950s, it did so via a new business model known as the franchise. This model allowed independent operators to license trademarks from a business like McDonald’s or Dunkin Donuts, and it soon s"
+      "title": "Trump tracker: the latest data on US tariffs, trade and economy",
+      "link": "https://www.ft.com/content/2c473393-35fb-479d-8bba-236a1a98087c?syn-25a6b1a6=1",
+      "raw_summary": "Follow the latest impact of tariffs amid the president’s ongoing trade war",
+      "source": "World",
+      "published": "Fri, 24 Jul 2026 10:36:48 GMT",
+      "summary": "Trump tracker: the latest data on US tariffs, trade and economy\nFollow the latest impact of tariffs amid the president’s ongoing trade war"
     },
     {
-      "title": "Khazanah Is Said to Sell $340 Million Tenaga Stake in Placement",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-24/khazanah-is-said-to-sell-340-million-tenaga-stake-in-placement",
-      "raw_summary": "Malaysian sovereign wealth fund Khazanah Nasional Bhd. has sold 1.39 billion ringgit ($340 million) worth of shares in state-owned power firm Tenaga Nasional Bhd., according to people with knowledge of the matter.",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 24 Jul 2026 07:38:46 GMT",
-      "summary": "Khazanah Is Said to Sell $340 Million Tenaga Stake in Placement\nMalaysian sovereign wealth fund Khazanah Nasional Bhd. has sold 1.39 billion ringgit ($340 million) worth of shares in state-owned power firm Tenaga Nasional Bhd., according to people with knowledge of the matter."
+      "title": "FirstFT: US hits 60 countries with new tariffs",
+      "link": "https://www.ft.com/content/1e18ad77-8ef1-4ed8-891d-a43a901febf7?syn-25a6b1a6=1",
+      "raw_summary": "Also in today’s newsletter: Intel’s revenue jump and oil breaches $100 a barrel",
+      "source": "World",
+      "published": "Fri, 24 Jul 2026 10:25:54 GMT",
+      "summary": "FirstFT: US hits 60 countries with new tariffs\nAlso in today’s newsletter: Intel’s revenue jump and oil breaches $100 a barrel"
     },
     {
       "title": "Latest Oil Market News and Analysis for July 24",
       "link": "https://www.bloomberg.com/news/articles/2026-07-23/latest-oil-market-news-and-analysis-for-july-24",
-      "raw_summary": "Brent crude traded near $99 a barrel after Houthi attacks on tankers in the Red Sea opened a new front in the Middle East conflict, while President Donald Trump threatened to extend US strikes on Iran.",
+      "raw_summary": "Brent crude retreated after hitting $100 a barrel amid concerns over the economic impact of high prices and renewed US trade tariffs, yet remained set for a substantial weekly increase as hostilities in the Middle East continue to threaten supplies.",
       "source": "Bloomberg Markets",
       "published": "Thu, 23 Jul 2026 22:04:48 GMT",
-      "summary": "Latest Oil Market News and Analysis for July 24\nBrent crude traded near $99 a barrel after Houthi attacks on tankers in the Red Sea opened a new front in the Middle East conflict, while President Donald Trump threatened to extend US strikes on Iran."
+      "summary": "Latest Oil Market News and Analysis for July 24\nBrent crude retreated after hitting $100 a barrel amid concerns over the economic impact of high prices and renewed US trade tariffs, yet remained set for a substantial weekly increase as hostilities in the Middle East continue to threaten supplies."
     },
     {
-      "title": "Live updates: Dogecoin and ether lead pullback as investors digest tech earnings",
-      "link": "https://www.coindesk.com/tech/2026/07/24/live-updates-dogecoin-and-ether-lead-pullback-as-investors-digest-tech-earnings",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 24 Jul 2026 07:22:26 +0000",
-      "summary": "Live updates: Dogecoin and ether lead pullback as investors digest tech earnings\n"
+      "title": "Gilts Caught Between Twin Risks From Burnham Debut and Oil Shock",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-24/gilts-caught-between-twin-risks-from-burnham-debut-and-oil-shock",
+      "raw_summary": "Britain’s bond traders have spent Andy Burnham’s first week in office trying to price two different forces: the spending ambitions of his new government and the impact of oil prices hovering near $100 a barrel.",
+      "source": "Bloomberg Markets",
+      "published": "Fri, 24 Jul 2026 12:44:54 GMT",
+      "summary": "Gilts Caught Between Twin Risks From Burnham Debut and Oil Shock\nBritain’s bond traders have spent Andy Burnham’s first week in office trying to price two different forces: the spending ambitions of his new government and the impact of oil prices hovering near $100 a barrel."
     },
     {
-      "title": "Ripple’s RLUSD gets two boosts as transfer volume drops 25%",
-      "link": "https://www.coindesk.com/business/2026/07/24/ripple-s-rlusd-gets-two-boosts-as-transfer-volume-drops-25",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 24 Jul 2026 06:33:37 +0000",
-      "summary": "Ripple’s RLUSD gets two boosts as transfer volume drops 25%\n"
+      "title": "‘Ridiculously’ Cheap US Bank Capital Risks Trapping Investors",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-24/-ridiculously-tight-us-preferred-spreads-risk-trapping-buyers",
+      "raw_summary": "US banks are raising regulatory capital at the tightest valuations since the financial crisis, unsettling the most seasoned investors.",
+      "source": "Bloomberg Markets",
+      "published": "Fri, 24 Jul 2026 11:00:00 GMT",
+      "summary": "‘Ridiculously’ Cheap US Bank Capital Risks Trapping Investors\nUS banks are raising regulatory capital at the tightest valuations since the financial crisis, unsettling the most seasoned investors."
     },
     {
-      "title": "Mirae plans to turn crypto exchange Korbit into something Korea hasn't seen before",
-      "link": "https://www.coindesk.com/markets/2026/07/24/mirae-asset-has-a-name-for-what-it-s-building-with-korbit-an-intelligent-platform",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 24 Jul 2026 06:10:49 +0000",
-      "summary": "Mirae plans to turn crypto exchange Korbit into something Korea hasn't seen before\n"
+      "title": "S&P 500 Futures Steady as Big Tech Rebounds, Oil Dips Below $100",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-24/s-p-500-futures-steady-as-big-tech-rebounds-oil-dips-below-100",
+      "raw_summary": "US equity futures on Friday were little changed, indicating stocks are poised to steady from the deepest one-day drop in a month, as Brent crude prices fell below $100 a barrel and a selloff in Big Tech shares eased.",
+      "source": "Bloomberg Markets",
+      "published": "Fri, 24 Jul 2026 12:39:22 GMT",
+      "summary": "S&P 500 Futures Steady as Big Tech Rebounds, Oil Dips Below $100\nUS equity futures on Friday were little changed, indicating stocks are poised to steady from the deepest one-day drop in a month, as Brent crude prices fell below $100 a barrel and a selloff in Big Tech shares eased."
     },
     {
-      "title": "Bitcoin holds near $65,000 as $800 billion AI selloff leaves crypto largely untouched",
-      "link": "https://www.coindesk.com/markets/2026/07/24/bitcoin-holds-near-usd65-000-as-usd800-billion-ai-selloff-leaves-crypto-largely-untouched",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 24 Jul 2026 04:43:19 +0000",
-      "summary": "Bitcoin holds near $65,000 as $800 billion AI selloff leaves crypto largely untouched\n"
+      "title": "Gulf States Set for Debt Binge on Routes to Avoid Hormuz",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-24/gulf-states-seen-splurging-on-debt-to-build-new-hormuz-bypasses",
+      "raw_summary": "Traders are preparing for a spike in borrowing from Persian Gulf nations as the region’s oil exporters seek financing to build costly bypasses around the Strait of Hormuz.",
+      "source": "Bloomberg Markets",
+      "published": "Fri, 24 Jul 2026 10:10:17 GMT",
+      "summary": "Gulf States Set for Debt Binge on Routes to Avoid Hormuz\nTraders are preparing for a spike in borrowing from Persian Gulf nations as the region’s oil exporters seek financing to build costly bypasses around the Strait of Hormuz."
     },
     {
-      "title": "Clarity Act expected to miss its window before Congress' summer break, leadership says",
-      "link": "https://www.coindesk.com/policy/2026/07/23/clarity-act-expected-to-miss-its-window-before-congress-summer-break-leadership-says",
+      "title": "Saylor and team overhaul Strategy's bitcoin metrics as bear market persists",
+      "link": "https://www.coindesk.com/markets/2026/07/24/saylor-and-team-overhaul-strategy-s-bitcoin-metrics-as-bear-market-persists",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 23 Jul 2026 20:16:37 +0000",
-      "summary": "Clarity Act expected to miss its window before Congress' summer break, leadership says\n"
+      "published": "Fri, 24 Jul 2026 13:15:15 +0000",
+      "summary": "Saylor and team overhaul Strategy's bitcoin metrics as bear market persists\n"
+    },
+    {
+      "title": "Brazilian farmers tokenized dairy cows to get loans, bypassing bank lending limits",
+      "link": "https://www.coindesk.com/markets/2026/07/24/brazilian-farmers-tokenized-dairy-cows-to-get-loans-bypassing-bank-lending-limits",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Fri, 24 Jul 2026 13:03:03 +0000",
+      "summary": "Brazilian farmers tokenized dairy cows to get loans, bypassing bank lending limits\n"
+    },
+    {
+      "title": "EU hits Russia with massive 21st sanctions package targeting $120B crypto network",
+      "link": "https://www.coindesk.com/policy/2026/07/24/eu-hits-russia-with-massive-21st-sanctions-package-targeting-usd120b-crypto-network",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Fri, 24 Jul 2026 11:58:06 +0000",
+      "summary": "EU hits Russia with massive 21st sanctions package targeting $120B crypto network\n"
+    },
+    {
+      "title": "Crypto market maker B2C2 held sale talks with multiple potential buyers",
+      "link": "https://www.coindesk.com/business/2026/06/29/crypto-market-maker-b2c2-held-sale-talks-with-multiple-potential-buyers",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Fri, 24 Jul 2026 11:49:06 +0000",
+      "summary": "Crypto market maker B2C2 held sale talks with multiple potential buyers\n"
+    },
+    {
+      "title": "Crypto's institutional influx has killed the memecoin craze",
+      "link": "https://www.coindesk.com/daybook-us/2026/07/24/crypto-s-institutional-influx-has-killed-the-memecoin-craze",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Fri, 24 Jul 2026 11:35:48 +0000",
+      "summary": "Crypto's institutional influx has killed the memecoin craze\n"
     }
   ]
 }
