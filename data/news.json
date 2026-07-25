@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T07:52:37.418914+00:00",
+  "generated_at": "2026-07-25T13:05:47.890668+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "FBI Seizes NetNut Proxy Platform, Popa Botnet\nThe Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: "
     },
     {
+      "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
+      "link": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
+      "raw_summary": "Security researchers at&nbsp;depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on any self-managed 18.11.3 server that has not taken the update.\n\nAny authenticated user who can push to a project can run it. The attacker commits a crafted Jupyter notebook and opens its commit diff, which leaks a heap",
+      "source": "The Hacker News",
+      "published": "Sat, 25 Jul 2026 15:44:26 +0530",
+      "summary": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git\nSecurity researchers at&nbsp;depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on any self-managed 18.11.3 server that h"
+    },
+    {
+      "title": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking",
+      "link": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
+      "raw_summary": "For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the credentials, and accounts were compromised later when an opportunity arose.\n\nThat model is changing.\n\nRecent investigations into insurance-focused phishing operations reveal a more immediate approach. Instead of harvesting",
+      "source": "The Hacker News",
+      "published": "Sat, 25 Jul 2026 15:44:21 +0530",
+      "summary": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking\nFor years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the credentials, and accounts were co"
+    },
+    {
+      "title": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
+      "link": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
+      "raw_summary": "Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign.\n\n\"Attackers chain a pre-authentication information disclosure in the FlexPLM WSDL endpoint with a server-side flaw in the Windchill login servlet, enabling",
+      "source": "The Hacker News",
+      "published": "Sat, 25 Jul 2026 15:44:03 +0530",
+      "summary": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE\nThreat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a n"
+    },
+    {
+      "title": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts",
+      "link": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
+      "raw_summary": "The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various aspects related to victims.\n\nSwiss cybersecurity company PRODAFT is tracking the centrally administered RaaS operation under the name Funky Mantis.\n\n\"The portal combined build generation, finance,",
+      "source": "The Hacker News",
+      "published": "Sat, 25 Jul 2026 15:23:41 +0530",
+      "summary": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts\nThe operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various aspects relate"
+    },
+    {
       "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
       "link": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
       "raw_summary": "The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campaigns designed to deliver malware.\n\n\"BlueNoroff has operationalised trust abuse by combining compromised industry contacts, social engineering, wallet",
@@ -51,41 +83,33 @@
       "summary": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery\nThe North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms i"
     },
     {
-      "title": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller",
-      "link": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
-      "raw_summary": "Researchers H0j3n and Aniq Fakhrul published a working exploit on July 24 that lets a low-privileged Active Directory user obtain a certificate for a Domain Controller and authenticate as that machine.\n\nThey codenamed the flaw Certighost. Because Domain Controller accounts carry directory replication rights, the resulting Kerberos credential can retrieve the krbtgt secret through DCSync.",
-      "source": "The Hacker News",
-      "published": "Fri, 24 Jul 2026 19:45:21 +0530",
-      "summary": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller\nResearchers H0j3n and Aniq Fakhrul published a working exploit on July 24 that lets a low-privileged Active Directory user obtain a certificate for a Domain Controller and authenticate as that machine.\n\nThe"
+      "title": "Kyber (YC W23) Is Hiring a Head of Engineering",
+      "link": "https://www.ycombinator.com/companies/kyber/jobs/FGmI8mx-head-of-engineering",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/kyber/jobs/FGmI8mx-head-of-engineering\">https://www.ycombinator.com/companies/kyber/jobs/FGmI8mx-head-of-engineering</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49046858\">https://news.ycombinator.com/item?id=49046858</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Sat, 25 Jul 2026 12:00:04 +0000",
+      "summary": "Kyber (YC W23) Is Hiring a Head of Engineering\n<p>Article URL: <a href=\"https://www.ycombinator.com/companies/kyber/jobs/FGmI8mx-head-of-engineering\">https://www.ycombinator.com/companies/kyber/jobs/FGmI8mx-head-of-engineering</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49"
     },
     {
-      "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
-      "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
-      "raw_summary": "Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build, authorize, and deploy an autonomous artificial intelligence (AI) agent inside a victim's organization.\n\nThe vulnerability has been codenamed AgentForger by Zenity Labs. The issue has since been addressed by OpenAI as of June 8,",
-      "source": "The Hacker News",
-      "published": "Fri, 24 Jul 2026 17:23:55 +0530",
-      "summary": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link\nCybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build, authorize, and deploy an autonomous artificial i"
+      "title": "The Fedora 45 Sausage Factory",
+      "link": "https://supakeen.com/weblog/the-fedora-45-sausage-factory/",
+      "raw_summary": "<p>Article URL: <a href=\"https://supakeen.com/weblog/the-fedora-45-sausage-factory/\">https://supakeen.com/weblog/the-fedora-45-sausage-factory/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49046525\">https://news.ycombinator.com/item?id=49046525</a></p>\n<p>Points: 7</p>\n<p># Comments: 1</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Sat, 25 Jul 2026 11:04:57 +0000",
+      "summary": "The Fedora 45 Sausage Factory\n<p>Article URL: <a href=\"https://supakeen.com/weblog/the-fedora-45-sausage-factory/\">https://supakeen.com/weblog/the-fedora-45-sausage-factory/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49046525\">https://news.ycombinator.com/item?id=49046525"
     },
     {
-      "title": "Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers",
-      "link": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
-      "raw_summary": "A crafted SVG submitted to Bing's image search ran commands as NT AUTHORITY\\SYSTEM on Microsoft's production image-processing workers, and as root on the Linux machines in the same fleet.\n\nXBOW's testing got the same result on workers across different hosts and network ranges, so the problem sat in Bing's image tier, not on one bad machine. Microsoft issued two critical CVEs, CVE-2026-32194 and",
-      "source": "The Hacker News",
-      "published": "Fri, 24 Jul 2026 17:15:17 +0530",
-      "summary": "Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers\nA crafted SVG submitted to Bing's image search ran commands as NT AUTHORITY\\SYSTEM on Microsoft's production image-processing workers, and as root on the Linux machines in the same fleet.\n\nXBOW's testing got the same re"
-    },
-    {
-      "title": "Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do",
-      "link": "https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html",
-      "raw_summary": "AI agent security is moving through a familiar maturity curve: adoption, then visibility, and finally, control. But what we've collectively discovered is that enforcing least privilege for AI agents is harder than we ever imagined. This is why there are so many approaches, from prompt filtering to identity-layer access controls. Where we've collectively landed is that understanding the intent of",
-      "source": "The Hacker News",
-      "published": "Fri, 24 Jul 2026 17:00:00 +0530",
-      "summary": "Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do\nAI agent security is moving through a familiar maturity curve: adoption, then visibility, and finally, control. But what we've collectively discovered is that enforcing least privilege for AI agents is harder than we ever i"
+      "title": "MouthPad: A Tongue-Controlled Touchpad",
+      "link": "https://www.augmental.tech/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.augmental.tech/\">https://www.augmental.tech/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49045446\">https://news.ycombinator.com/item?id=49045446</a></p>\n<p>Points: 30</p>\n<p># Comments: 9</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Sat, 25 Jul 2026 07:51:19 +0000",
+      "summary": "MouthPad: A Tongue-Controlled Touchpad\n<p>Article URL: <a href=\"https://www.augmental.tech/\">https://www.augmental.tech/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49045446\">https://news.ycombinator.com/item?id=49045446</a></p>\n<p>Points: 30</p>\n<p># Comments: 9</p>"
     },
     {
       "title": "Android May Soon Restrict On-Device ADB",
       "link": "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/",
-      "raw_summary": "<p>Article URL: <a href=\"https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/\">https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49045159\">https://news.ycombinator.com/item?id=49045159</a></p>\n<p>Points: 18</p>\n<p># Comments: 5</p>",
+      "raw_summary": "<p>Article URL: <a href=\"https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/\">https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49045159\">https://news.ycombinator.com/item?id=49045159</a></p>\n<p>Points: 392</p>\n<p># Comments: 174</p>",
       "source": "Hacker News: Front Page",
       "published": "Sat, 25 Jul 2026 06:57:14 +0000",
       "summary": "Android May Soon Restrict On-Device ADB\n<p>Article URL: <a href=\"https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/\">https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49045"
@@ -93,34 +117,18 @@
     {
       "title": "ARC-AGI Leaderboard",
       "link": "https://arcprize.org/leaderboard",
-      "raw_summary": "<p>Article URL: <a href=\"https://arcprize.org/leaderboard\">https://arcprize.org/leaderboard</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49045040\">https://news.ycombinator.com/item?id=49045040</a></p>\n<p>Points: 41</p>\n<p># Comments: 25</p>",
+      "raw_summary": "<p>Article URL: <a href=\"https://arcprize.org/leaderboard\">https://arcprize.org/leaderboard</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49045040\">https://news.ycombinator.com/item?id=49045040</a></p>\n<p>Points: 114</p>\n<p># Comments: 89</p>",
       "source": "Hacker News: Front Page",
       "published": "Sat, 25 Jul 2026 06:31:40 +0000",
-      "summary": "ARC-AGI Leaderboard\n<p>Article URL: <a href=\"https://arcprize.org/leaderboard\">https://arcprize.org/leaderboard</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49045040\">https://news.ycombinator.com/item?id=49045040</a></p>\n<p>Points: 41</p>\n<p># Comments: 25</p>"
+      "summary": "ARC-AGI Leaderboard\n<p>Article URL: <a href=\"https://arcprize.org/leaderboard\">https://arcprize.org/leaderboard</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49045040\">https://news.ycombinator.com/item?id=49045040</a></p>\n<p>Points: 114</p>\n<p># Comments: 89</p>"
     },
     {
-      "title": "Extinct Media Museum Tokyo",
-      "link": "https://extinct-media-museum.blog.jp/otemachi/",
-      "raw_summary": "<p>Article URL: <a href=\"https://extinct-media-museum.blog.jp/otemachi/\">https://extinct-media-museum.blog.jp/otemachi/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49044874\">https://news.ycombinator.com/item?id=49044874</a></p>\n<p>Points: 10</p>\n<p># Comments: 1</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Sat, 25 Jul 2026 05:51:27 +0000",
-      "summary": "Extinct Media Museum Tokyo\n<p>Article URL: <a href=\"https://extinct-media-museum.blog.jp/otemachi/\">https://extinct-media-museum.blog.jp/otemachi/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49044874\">https://news.ycombinator.com/item?id=49044874</a></p>\n<p>Points: 10</p>\n"
-    },
-    {
-      "title": "UK AISI / Caisi Preliminary Assessment of Kimi K3's Cyber Capabilities",
-      "link": "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities\">https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49044492\">https://news.ycombinator.com/item?id=49044492</a></p>\n<p>Points: 40</p>\n<p># Comments: 14</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Sat, 25 Jul 2026 04:20:21 +0000",
-      "summary": "UK AISI / Caisi Preliminary Assessment of Kimi K3's Cyber Capabilities\n<p>Article URL: <a href=\"https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities\">https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-"
-    },
-    {
-      "title": "Taylor Farms Called White House to Try to Delay Cyclospora Recall",
-      "link": "https://www.wsj.com/health/taylor-farms-cyclospora-recall-delay-call-41fef0bc",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.wsj.com/health/taylor-farms-cyclospora-recall-delay-call-41fef0bc\">https://www.wsj.com/health/taylor-farms-cyclospora-recall-delay-call-41fef0bc</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49044074\">https://news.ycombinator.com/item?id=49044074</a></p>\n<p>Points: 196</p>\n<p># Comments: 78</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Sat, 25 Jul 2026 02:54:36 +0000",
-      "summary": "Taylor Farms Called White House to Try to Delay Cyclospora Recall\n<p>Article URL: <a href=\"https://www.wsj.com/health/taylor-farms-cyclospora-recall-delay-call-41fef0bc\">https://www.wsj.com/health/taylor-farms-cyclospora-recall-delay-call-41fef0bc</a></p>\n<p>Comments URL: <a href=\"https://news.ycomb"
+      "title": "One fallen power line exposed a growing AI data center problem. Here’s how to fix it.",
+      "link": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
+      "raw_summary": "A close call in Northern Virginia revealed just how poorly data centers respond to grid disruptions. Here's how to fix the problem.",
+      "source": "TechCrunch",
+      "published": "Sat, 25 Jul 2026 13:05:00 +0000",
+      "summary": "One fallen power line exposed a growing AI data center problem. Here’s how to fix it.\nA close call in Northern Virginia revealed just how poorly data centers respond to grid disruptions. Here's how to fix the problem."
     },
     {
       "title": "I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else",
@@ -155,12 +163,20 @@
       "summary": "TechCrunch Disrupt 2026’s new Smart Money Stage explores fintech, payments, AI, and everything between\nMoney has evolved into far more than the cash in your wallet or your bank account. And at TechCrunch Disrupt 2026, we’re devoting an entire stage to that progression."
     },
     {
-      "title": "Vietnam is looking to restrict social media for kids; here are the growing number of other countries doing the same",
-      "link": "https://techcrunch.com/2026/07/24/social-media-ban-children-countries-list/",
-      "raw_summary": "Australia was the first country to issue a ban in late 2025, aiming to reduce the pressures and risks that young users may face on social media, including cyberbullying, social media addiction, and exposure to predators.",
-      "source": "TechCrunch",
-      "published": "Fri, 24 Jul 2026 21:15:00 +0000",
-      "summary": "Vietnam is looking to restrict social media for kids; here are the growing number of other countries doing the same\nAustralia was the first country to issue a ban in late 2025, aiming to reduce the pressures and risks that young users may face on social media, including cyberbullying, social media a"
+      "title": "With help from data, art museums are reframing the visitor experience",
+      "link": "https://arstechnica.com/culture/2026/07/with-help-from-data-art-museums-are-reframing-the-visitor-experience/",
+      "raw_summary": "Museums are embracing data-driven curation and a shifting technology landscape.",
+      "source": "Ars Technica - All content",
+      "published": "Sat, 25 Jul 2026 11:00:32 +0000",
+      "summary": "With help from data, art museums are reframing the visitor experience\nMuseums are embracing data-driven curation and a shifting technology landscape."
+    },
+    {
+      "title": "Big Tech accused of stonewalling European social media researchers",
+      "link": "https://arstechnica.com/tech-policy/2026/07/big-tech-accused-of-stonewalling-european-social-media-researchers/",
+      "raw_summary": "Researchers say TikTok, X, and Meta aren't providing data they're legally required to.",
+      "source": "Ars Technica - All content",
+      "published": "Sat, 25 Jul 2026 10:45:32 +0000",
+      "summary": "Big Tech accused of stonewalling European social media researchers\nResearchers say TikTok, X, and Meta aren't providing data they're legally required to."
     },
     {
       "title": "Wildfire forces evacuation of NASA's Deep Space Network complex in Spain",
@@ -187,76 +203,76 @@
       "summary": "Canadian legislator reads out apparent LLM response in floor speech\n\"Here’s a more natural, flowing version of that section...\""
     },
     {
-      "title": "Anthropic's Opus 5 is about token efficiency, not a capability leap",
-      "link": "https://arstechnica.com/ai/2026/07/anthropics-opus-5-is-about-token-efficiency-not-a-capability-leap/",
-      "raw_summary": "Models are improving quickly, but the cheaper options are often good enough.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 24 Jul 2026 21:05:51 +0000",
-      "summary": "Anthropic's Opus 5 is about token efficiency, not a capability leap\nModels are improving quickly, but the cheaper options are often good enough."
+      "title": "Saudi Arabia strikes Houthis after Iran-backed rebels target energy sites",
+      "link": "https://www.ft.com/content/14ee6049-87bf-4aac-b684-c9937374fdcc?syn-25a6b1a6=1",
+      "raw_summary": "Tit-for-tat attacks risk expanding the regional war in the Middle East",
+      "source": "World",
+      "published": "Sat, 25 Jul 2026 13:02:40 GMT",
+      "summary": "Saudi Arabia strikes Houthis after Iran-backed rebels target energy sites\nTit-for-tat attacks risk expanding the regional war in the Middle East"
     },
     {
-      "title": "Roku raises streaming stick prices by up to 60 percent",
-      "link": "https://arstechnica.com/gadgets/2026/07/roku-raises-streaming-stick-prices-by-up-to-60-percent/",
-      "raw_summary": "Roku blames RAM shortage after CEO called it \"great\" for business in May.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 24 Jul 2026 19:41:06 +0000",
-      "summary": "Roku raises streaming stick prices by up to 60 percent\nRoku blames RAM shortage after CEO called it \"great\" for business in May."
+      "title": "Washington and London discuss plan for meeting to resolve Hormuz crisis",
+      "link": "https://www.ft.com/content/6359b7ba-494f-4c80-b3f7-a64b3224ba9e?syn-25a6b1a6=1",
+      "raw_summary": "Gathering to consider forming an international maritime coalition to safeguard shipping",
+      "source": "World",
+      "published": "Sat, 25 Jul 2026 12:11:13 GMT",
+      "summary": "Washington and London discuss plan for meeting to resolve Hormuz crisis\nGathering to consider forming an international maritime coalition to safeguard shipping"
     },
     {
-      "title": "France and Spain evacuate 200,000 people as ‘unprecedented’ wildfires spread",
+      "title": "France and Spain evacuate almost 250,000 people as ‘unprecedented’ wildfires spread",
       "link": "https://www.ft.com/content/6e1d4a14-b7ad-4a36-86d9-3990497272a3?syn-25a6b1a6=1",
-      "raw_summary": "Extreme heat and high winds fuel fast-moving blazes as authorities in both countries battle to contain them",
+      "raw_summary": "Latest orders to leave extend to suburbs within 30km of the centre of Bordeaux",
       "source": "World",
-      "published": "Sat, 25 Jul 2026 06:04:19 GMT",
-      "summary": "France and Spain evacuate 200,000 people as ‘unprecedented’ wildfires spread\nExtreme heat and high winds fuel fast-moving blazes as authorities in both countries battle to contain them"
+      "published": "Sat, 25 Jul 2026 12:10:56 GMT",
+      "summary": "France and Spain evacuate almost 250,000 people as ‘unprecedented’ wildfires spread\nLatest orders to leave extend to suburbs within 30km of the centre of Bordeaux"
     },
     {
-      "title": "Guy Scott, former president of Zambia, 1944-2026",
-      "link": "https://www.ft.com/content/0ccf0809-9f8a-4771-876e-772972cb7ce6?syn-25a6b1a6=1",
-      "raw_summary": "The academic and farmer was the first and only white man to lead an African democracy",
+      "title": "Maha Inc: how companies tied to Kennedy’s movement are poised to benefit",
+      "link": "https://www.ft.com/content/1a7cdff0-5e52-4fa1-8b21-978e501eb791?syn-25a6b1a6=1",
+      "raw_summary": "Kaleidoscope of industries emerge as early winners from administration’s health regulation overhaul",
       "source": "World",
-      "published": "Sat, 25 Jul 2026 04:00:37 GMT",
-      "summary": "Guy Scott, former president of Zambia, 1944-2026\nThe academic and farmer was the first and only white man to lead an African democracy"
+      "published": "Sat, 25 Jul 2026 11:00:09 GMT",
+      "summary": "Maha Inc: how companies tied to Kennedy’s movement are poised to benefit\nKaleidoscope of industries emerge as early winners from administration’s health regulation overhaul"
     },
     {
-      "title": "India’s ‘Cockroach’ Gen Z has had enough",
-      "link": "https://www.ft.com/content/ac19e4f4-cf7b-4a75-b591-0ca79ef62d37",
-      "raw_summary": "The irreverence of the country’s youth brings to light the contrast between government promises and economic reality",
+      "title": "India’s education minister resigns after weeks of student protests",
+      "link": "https://www.ft.com/content/5f267b7d-9e57-40f6-9bb5-6fe5d6cf9d1d?syn-25a6b1a6=1",
+      "raw_summary": "Dharmendra Pradhan’s departure was a key demand of the growing student movement",
       "source": "World",
-      "published": "Sat, 25 Jul 2026 04:00:37 GMT",
-      "summary": "India’s ‘Cockroach’ Gen Z has had enough\nThe irreverence of the country’s youth brings to light the contrast between government promises and economic reality"
+      "published": "Sat, 25 Jul 2026 10:38:12 GMT",
+      "summary": "India’s education minister resigns after weeks of student protests\nDharmendra Pradhan’s departure was a key demand of the growing student movement"
     },
     {
-      "title": "Overpriced UK homes take ‘more than four times longer to sell’, study finds",
-      "link": "https://www.ft.com/content/24a8adf9-8103-44b3-92e8-350ef897dc2a?syn-25a6b1a6=1",
-      "raw_summary": "Pitching too high can disproportionately lengthen the time it takes to agree a sale",
-      "source": "World",
-      "published": "Sat, 25 Jul 2026 04:00:36 GMT",
-      "summary": "Overpriced UK homes take ‘more than four times longer to sell’, study finds\nPitching too high can disproportionately lengthen the time it takes to agree a sale"
-    },
-    {
-      "title": "What the City needs from the Burnham government",
-      "link": "https://www.ft.com/content/66a53961-6583-4dfb-8b74-96e6abed5db7",
-      "raw_summary": "Unlike the 1970s, there is a conversation to be had here",
-      "source": "World",
-      "published": "Sat, 25 Jul 2026 04:00:36 GMT",
-      "summary": "What the City needs from the Burnham government\nUnlike the 1970s, there is a conversation to be had here"
-    },
-    {
-      "title": "Modi Sidesteps Exam Leaks in Video as India Protests Spread",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-25/modi-sidesteps-exam-scandal-in-video-as-india-protests-spread",
-      "raw_summary": "Indian Prime Minister Narendra Modi repeatedly thanked the nation’s youth in a video message Friday night, offering no indication he would meet their key demand to remove the education minister as student protests widen.",
+      "title": "Over 250,000 People Flee Wildfires Ravaging France and Spain",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-25/bordeaux-suburbs-at-risk-as-200-000-flee-fires-in-france-spain",
+      "raw_summary": "More than 250,000 people fled towns and villages in Spain and France into the weekend as uncontrolled wildfires moved ever closer to Madrid and Bordeaux, metropolitan areas that are home to more than 8 million people combined.",
       "source": "Bloomberg Markets",
-      "published": "Sat, 25 Jul 2026 04:30:21 GMT",
-      "summary": "Modi Sidesteps Exam Leaks in Video as India Protests Spread\nIndian Prime Minister Narendra Modi repeatedly thanked the nation’s youth in a video message Friday night, offering no indication he would meet their key demand to remove the education minister as student protests widen."
+      "published": "Sat, 25 Jul 2026 08:49:50 GMT",
+      "summary": "Over 250,000 People Flee Wildfires Ravaging France and Spain\nMore than 250,000 people fled towns and villages in Spain and France into the weekend as uncontrolled wildfires moved ever closer to Madrid and Bordeaux, metropolitan areas that are home to more than 8 million people combined."
     },
     {
-      "title": "Europe’s Stock Market Rally Is the Most Concentrated in Years",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-25/europe-s-stock-market-rally-is-the-most-concentrated-in-years",
-      "raw_summary": "The European equity market has long been seen as immune to shocks driven by only a handful of stocks. A narrow rally in 2026 has completely flipped that script.",
+      "title": "Austin’s Mayor Tackles Housing Affordability, and Canada Faces New Tariffs",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-07-25/austin-s-mayor-tackles-housing-affordability-and-canada-faces-new-tariffs",
+      "raw_summary": "Former trade negotiator says don’t underestimate Canada’s ire",
       "source": "Bloomberg Markets",
-      "published": "Sat, 25 Jul 2026 07:00:00 GMT",
-      "summary": "Europe’s Stock Market Rally Is the Most Concentrated in Years\nThe European equity market has long been seen as immune to shocks driven by only a handful of stocks. A narrow rally in 2026 has completely flipped that script."
+      "published": "Sat, 25 Jul 2026 12:00:01 GMT",
+      "summary": "Austin’s Mayor Tackles Housing Affordability, and Canada Faces New Tariffs\nFormer trade negotiator says don’t underestimate Canada’s ire"
+    },
+    {
+      "title": "Heat Bakes Central US, Raising Energy Demand as East Stays Cool",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-25/heat-bakes-central-us-raising-energy-demand-as-east-stays-cool",
+      "raw_summary": "Baking temperatures will sear the central US from the Rocky Mountains to the Mississippi River and eventually push down into the Gulf Coast for the rest of the month, putting regional power grids to the test.",
+      "source": "Bloomberg Markets",
+      "published": "Sat, 25 Jul 2026 11:41:32 GMT",
+      "summary": "Heat Bakes Central US, Raising Energy Demand as East Stays Cool\nBaking temperatures will sear the central US from the Rocky Mountains to the Mississippi River and eventually push down into the Gulf Coast for the rest of the month, putting regional power grids to the test."
+    },
+    {
+      "title": "Big Tech Debt Flood Is Taking Over Risk In Market: Credit Weekly",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-25/big-tech-debt-flood-is-taking-over-risk-in-market-credit-weekly",
+      "raw_summary": "Big Tech’s insatiable appetite for AI investment is unleashing a relentless wave of bond sales — and having a bigger impact on the US corporate bond market than might be obvious.",
+      "source": "Bloomberg Markets",
+      "published": "Sat, 25 Jul 2026 11:00:00 GMT",
+      "summary": "Big Tech Debt Flood Is Taking Over Risk In Market: Credit Weekly\nBig Tech’s insatiable appetite for AI investment is unleashing a relentless wave of bond sales — and having a bigger impact on the US corporate bond market than might be obvious."
     },
     {
       "title": "Indonesia Arrests Former Top Graft Prosecutor After Police Raids",
@@ -267,20 +283,20 @@
       "summary": "Indonesia Arrests Former Top Graft Prosecutor After Police Raids\nIndonesia’s former top graft prosecutor was arrested on suspicion of money laundering, weeks after police raids uncovered $26 million worth of gold bars and cash at a house he owns."
     },
     {
-      "title": "India Flags Attack on LPG Tanker in Iran Waters, Says Crew Safe",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-25/india-flags-attack-on-lpg-tanker-in-iran-waters-says-crew-safe",
-      "raw_summary": "India’s embassy in Tehran said it is in close contact with authorities after a liquefied petroleum gas tanker, with 28 Indian crew members onboard, came under attack in Iranian territorial waters on Friday.",
-      "source": "Bloomberg Markets",
-      "published": "Sat, 25 Jul 2026 03:31:07 GMT",
-      "summary": "India Flags Attack on LPG Tanker in Iran Waters, Says Crew Safe\nIndia’s embassy in Tehran said it is in close contact with authorities after a liquefied petroleum gas tanker, with 28 Indian crew members onboard, came under attack in Iranian territorial waters on Friday."
+      "title": "Democratizing weather derivatives through tokenization could be crypto's most important real-world use case",
+      "link": "https://www.coindesk.com/opinion/2026/07/25/democratizing-weather-derivatives-through-tokenization-could-be-crypto-s-most-important-real-world-use-case",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Sat, 25 Jul 2026 13:00:00 +0000",
+      "summary": "Democratizing weather derivatives through tokenization could be crypto's most important real-world use case\n"
     },
     {
-      "title": "Seven & i Abandons Investment Talks with Poland’s Zabka",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-25/seven-i-abandons-investment-talks-with-poland-s-zabka-group",
-      "raw_summary": "Japan’s Seven &amp; i Holdings Co. has ended talks over a potential investment in Poland’s largest convenience store operator Zabka Group SA, even as it continues to look for expansion opportunities beyond its home market.",
-      "source": "Bloomberg Markets",
-      "published": "Sat, 25 Jul 2026 01:24:58 GMT",
-      "summary": "Seven & i Abandons Investment Talks with Poland’s Zabka\nJapan’s Seven &amp; i Holdings Co. has ended talks over a potential investment in Poland’s largest convenience store operator Zabka Group SA, even as it continues to look for expansion opportunities beyond its home market."
+      "title": "Robinhood Chain's real-world assets jump fivefold as tokenized stocks start trading in bigger size",
+      "link": "https://www.coindesk.com/business/2026/07/25/robinhood-chain-s-real-world-assets-jump-fivefold-as-tokenized-stocks-start-trading-in-bigger-size",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Sat, 25 Jul 2026 10:00:00 +0000",
+      "summary": "Robinhood Chain's real-world assets jump fivefold as tokenized stocks start trading in bigger size\n"
     },
     {
       "title": "Senate Dems should accept the victory they won on Trump's crypto limits: White House",
@@ -305,22 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Fri, 24 Jul 2026 14:36:16 +0000",
       "summary": "Institutional crypto trading platform LMAX is exploring sale, IPO\n"
-    },
-    {
-      "title": "Saylor and team overhaul Strategy's bitcoin metrics as bear market persists",
-      "link": "https://www.coindesk.com/markets/2026/07/24/saylor-and-team-overhaul-strategy-s-bitcoin-metrics-as-bear-market-persists",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 24 Jul 2026 13:15:15 +0000",
-      "summary": "Saylor and team overhaul Strategy's bitcoin metrics as bear market persists\n"
-    },
-    {
-      "title": "Brazilian farmers tokenized dairy cows to get loans, bypassing bank lending limits",
-      "link": "https://www.coindesk.com/markets/2026/07/24/brazilian-farmers-tokenized-dairy-cows-to-get-loans-bypassing-bank-lending-limits",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 24 Jul 2026 13:03:03 +0000",
-      "summary": "Brazilian farmers tokenized dairy cows to get loans, bypassing bank lending limits\n"
     }
   ]
 }
