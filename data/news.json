@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T09:35:05.273678+00:00",
+  "generated_at": "2026-07-27T14:13:36.164970+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "FBI Seizes NetNut Proxy Platform, Popa Botnet\nThe Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: "
     },
     {
+      "title": "n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process",
+      "link": "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html",
+      "raw_summary": "n8n has patched a high-severity expression-sandbox escape that could let an authenticated workflow editor execute operating-system commands on the server running the automation platform. Security Joes found the flaw while probing n8n's February fix for CVE-2026-27577 for another bypass.\n\nThe affected ranges are &lt;2.31.5 and &gt;=2.32.0,&lt;2.32.1. n8n fixed the flaw in versions 2.31.5 and",
+      "source": "The Hacker News",
+      "published": "Mon, 27 Jul 2026 18:35:15 +0530",
+      "summary": "n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process\nn8n has patched a high-severity expression-sandbox escape that could let an authenticated workflow editor execute operating-system commands on the server running the automation platform. Security Joes found the flaw while pr"
+    },
+    {
+      "title": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update",
+      "link": "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html",
+      "raw_summary": "Cybersecurity researchers have flagged a Microsoft Teams-themed phishing campaign that employs \"secure document\" lures to deliver legitimate remote monitoring and management (RMM) tools.\n\n\"The victim was directed through compromised web infrastructure to a counterfeit Microsoft Store page claiming that Microsoft Teams had to be updated before the shared document could be opened,\" ZeroBEC said in",
+      "source": "The Hacker News",
+      "published": "Mon, 27 Jul 2026 18:07:49 +0530",
+      "summary": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update\nCybersecurity researchers have flagged a Microsoft Teams-themed phishing campaign that employs \"secure document\" lures to deliver legitimate remote monitoring and management (RMM) tools.\n\n\"The victim was directed through co"
+    },
+    {
+      "title": "Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware",
+      "link": "https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html",
+      "raw_summary": "The China-linked cybercrime group behind the use of income tax-related phishing lures targeting Indian taxpayers, tax professionals, and corporate finance teams has been observed using a sophisticated crypter service called Cruciferra.\n\nAccording to a new analysis by Proofpoint, Cruciferra has been utilized by various unrelated cybercriminal threat clusters to deliver a wide array of remote",
+      "source": "The Hacker News",
+      "published": "Mon, 27 Jul 2026 16:21:45 +0530",
+      "summary": "Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware\nThe China-linked cybercrime group behind the use of income tax-related phishing lures targeting Indian taxpayers, tax professionals, and corporate finance teams has been observed using a sophisticated crypter service called C"
+    },
+    {
       "title": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
       "link": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html",
       "raw_summary": "Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East.\n\nThe intrusions have resulted in the deployment of previously unreported malware families dubbed TELESHIM, MIXEDKEY, and BINDCLOAK, according to Zscaler ThreatLabz. The cybersecurity firm said it detected the campaign earlier this month.",
@@ -59,68 +83,68 @@
       "summary": "GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption\nGitHub has announced a new cooldown mechanism in Dependabot, allowing the tool to wait at least three days after a release is published before opening a pull request.\n\n\"The cooldown configuration option in the dependabot.yml st"
     },
     {
-      "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
-      "link": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
-      "raw_summary": "A malvertising operation dubbed SourTrade is making victims' browsers build the final Windows executable themselves, using a legitimate Bun runtime as its base instead of serving one complete malicious file from a fixed URL.\n\nConfiant, which detailed the campaign on July 23, 2026, said it has operated since late 2024 and impersonated TradingView, Solana, and Luno to target retail traders and",
-      "source": "The Hacker News",
-      "published": "Sun, 26 Jul 2026 00:18:44 +0530",
-      "summary": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable\nA malvertising operation dubbed SourTrade is making victims' browsers build the final Windows executable themselves, using a legitimate Bun runtime as its base instead of serving one complete malicious file from a fixe"
-    },
-    {
-      "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
-      "link": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
-      "raw_summary": "Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can execute code without authentication, with the privileges of the Java process.\n\nTracked as CVE-2026-16723, the vulnerability carries an Alibaba-assigned CVSS score of 9.0. The confirmed chain requires",
-      "source": "The Hacker News",
-      "published": "Sat, 25 Jul 2026 18:22:43 +0530",
-      "summary": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available\nSecurity firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can execute code without authent"
-    },
-    {
-      "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
-      "link": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
-      "raw_summary": "Security researchers at&nbsp;depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on any self-managed 18.11.3 server that has not taken the update.\n\nAny authenticated user who can push to a project can run it. The attacker commits a crafted Jupyter notebook and opens its commit diff, which leaks a heap",
-      "source": "The Hacker News",
-      "published": "Sat, 25 Jul 2026 15:44:26 +0530",
-      "summary": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git\nSecurity researchers at&nbsp;depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on any self-managed 18.11.3 server that h"
-    },
-    {
-      "title": "How Unix spell ran in 64 kB of RAM",
-      "link": "https://blog.codingconfessions.com/p/how-unix-spell-ran-in-64kb-ram",
-      "raw_summary": "<p>Article URL: <a href=\"https://blog.codingconfessions.com/p/how-unix-spell-ran-in-64kb-ram\">https://blog.codingconfessions.com/p/how-unix-spell-ran-in-64kb-ram</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49066750\">https://news.ycombinator.com/item?id=49066750</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
+      "title": "Should you wash your solar panels?",
+      "link": "https://incoherency.co.uk/blog/stories/should-you-wash-your-solar-panels.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://incoherency.co.uk/blog/stories/should-you-wash-your-solar-panels.html\">https://incoherency.co.uk/blog/stories/should-you-wash-your-solar-panels.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49069132\">https://news.ycombinator.com/item?id=49069132</a></p>\n<p>Points: 35</p>\n<p># Comments: 16</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 27 Jul 2026 08:43:11 +0000",
-      "summary": "How Unix spell ran in 64 kB of RAM\n<p>Article URL: <a href=\"https://blog.codingconfessions.com/p/how-unix-spell-ran-in-64kb-ram\">https://blog.codingconfessions.com/p/how-unix-spell-ran-in-64kb-ram</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49066750\">https://news.ycombinat"
+      "published": "Mon, 27 Jul 2026 13:04:11 +0000",
+      "summary": "Should you wash your solar panels?\n<p>Article URL: <a href=\"https://incoherency.co.uk/blog/stories/should-you-wash-your-solar-panels.html\">https://incoherency.co.uk/blog/stories/should-you-wash-your-solar-panels.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49069132\">ht"
     },
     {
-      "title": "Kimi-K3 Releases on HuggingFace 7/27",
-      "link": "https://huggingface.co/moonshotai/Kimi-K3",
-      "raw_summary": "<p>Article URL: <a href=\"https://huggingface.co/moonshotai/Kimi-K3\">https://huggingface.co/moonshotai/Kimi-K3</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49065752\">https://news.ycombinator.com/item?id=49065752</a></p>\n<p>Points: 261</p>\n<p># Comments: 95</p>",
+      "title": "AI companies are shredding rare books",
+      "link": "https://xcancel.com/HedgieMarkets/status/2081534588485296565",
+      "raw_summary": "<p>Article URL: <a href=\"https://xcancel.com/HedgieMarkets/status/2081534588485296565\">https://xcancel.com/HedgieMarkets/status/2081534588485296565</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49068738\">https://news.ycombinator.com/item?id=49068738</a></p>\n<p>Points: 270</p>\n<p># Comments: 157</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 27 Jul 2026 06:18:10 +0000",
-      "summary": "Kimi-K3 Releases on HuggingFace 7/27\n<p>Article URL: <a href=\"https://huggingface.co/moonshotai/Kimi-K3\">https://huggingface.co/moonshotai/Kimi-K3</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49065752\">https://news.ycombinator.com/item?id=49065752</a></p>\n<p>Points: 261</p>"
+      "published": "Mon, 27 Jul 2026 12:32:12 +0000",
+      "summary": "AI companies are shredding rare books\n<p>Article URL: <a href=\"https://xcancel.com/HedgieMarkets/status/2081534588485296565\">https://xcancel.com/HedgieMarkets/status/2081534588485296565</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49068738\">https://news.ycombinator.com/item"
     },
     {
-      "title": "The old-school way of keeping the summer heat out of your home",
-      "link": "https://monocle.com/design/architecture/keeping-your-home-cool-without-air-conditioning/",
-      "raw_summary": "<p>Article URL: <a href=\"https://monocle.com/design/architecture/keeping-your-home-cool-without-air-conditioning/\">https://monocle.com/design/architecture/keeping-your-home-cool-without-air-conditioning/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49064588\">https://news.ycombinator.com/item?id=49064588</a></p>\n<p>Points: 12</p>\n<p># Comments: 13</p>",
+      "title": "The Proof Machine (2016)",
+      "link": "https://incredible.pm/",
+      "raw_summary": "<p>Article URL: <a href=\"https://incredible.pm/\">https://incredible.pm/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49068711\">https://news.ycombinator.com/item?id=49068711</a></p>\n<p>Points: 11</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 27 Jul 2026 02:33:22 +0000",
-      "summary": "The old-school way of keeping the summer heat out of your home\n<p>Article URL: <a href=\"https://monocle.com/design/architecture/keeping-your-home-cool-without-air-conditioning/\">https://monocle.com/design/architecture/keeping-your-home-cool-without-air-conditioning/</a></p>\n<p>Comments URL: <a href="
+      "published": "Mon, 27 Jul 2026 12:29:24 +0000",
+      "summary": "The Proof Machine (2016)\n<p>Article URL: <a href=\"https://incredible.pm/\">https://incredible.pm/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49068711\">https://news.ycombinator.com/item?id=49068711</a></p>\n<p>Points: 11</p>\n<p># Comments: 0</p>"
     },
     {
-      "title": "PGSimCity - How PostgreSQL Works",
-      "link": "https://nikolays.github.io/PGSimCity/",
-      "raw_summary": "<p>Article URL: <a href=\"https://nikolays.github.io/PGSimCity/\">https://nikolays.github.io/PGSimCity/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49063754\">https://news.ycombinator.com/item?id=49063754</a></p>\n<p>Points: 573</p>\n<p># Comments: 57</p>",
+      "title": "Worse on Purpose",
+      "link": "https://ledger.worseonpurpose.com/brands",
+      "raw_summary": "<p>Article URL: <a href=\"https://ledger.worseonpurpose.com/brands\">https://ledger.worseonpurpose.com/brands</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49068707\">https://news.ycombinator.com/item?id=49068707</a></p>\n<p>Points: 62</p>\n<p># Comments: 25</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 27 Jul 2026 00:19:04 +0000",
-      "summary": "PGSimCity - How PostgreSQL Works\n<p>Article URL: <a href=\"https://nikolays.github.io/PGSimCity/\">https://nikolays.github.io/PGSimCity/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49063754\">https://news.ycombinator.com/item?id=49063754</a></p>\n<p>Points: 573</p>\n<p># Commen"
+      "published": "Mon, 27 Jul 2026 12:29:14 +0000",
+      "summary": "Worse on Purpose\n<p>Article URL: <a href=\"https://ledger.worseonpurpose.com/brands\">https://ledger.worseonpurpose.com/brands</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49068707\">https://news.ycombinator.com/item?id=49068707</a></p>\n<p>Points: 62</p>\n<p># Comments: 25</p>"
     },
     {
-      "title": "Fonts In Use – Find out where a font is used",
-      "link": "https://fontsinuse.com/",
-      "raw_summary": "<p>Article URL: <a href=\"https://fontsinuse.com/\">https://fontsinuse.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49063523\">https://news.ycombinator.com/item?id=49063523</a></p>\n<p>Points: 67</p>\n<p># Comments: 4</p>",
+      "title": "Elevated errors on Claude Opus 5",
+      "link": "https://status.claude.com/incidents/mfdtrknpxghq",
+      "raw_summary": "<p>Article URL: <a href=\"https://status.claude.com/incidents/mfdtrknpxghq\">https://status.claude.com/incidents/mfdtrknpxghq</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49068029\">https://news.ycombinator.com/item?id=49068029</a></p>\n<p>Points: 47</p>\n<p># Comments: 43</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 26 Jul 2026 23:45:09 +0000",
-      "summary": "Fonts In Use – Find out where a font is used\n<p>Article URL: <a href=\"https://fontsinuse.com/\">https://fontsinuse.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49063523\">https://news.ycombinator.com/item?id=49063523</a></p>\n<p>Points: 67</p>\n<p># Comments: 4</p>"
+      "published": "Mon, 27 Jul 2026 11:32:32 +0000",
+      "summary": "Elevated errors on Claude Opus 5\n<p>Article URL: <a href=\"https://status.claude.com/incidents/mfdtrknpxghq\">https://status.claude.com/incidents/mfdtrknpxghq</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49068029\">https://news.ycombinator.com/item?id=49068029</a></p>\n<p>Point"
+    },
+    {
+      "title": "Snapchat now lets you share what you’re listening to in real time",
+      "link": "https://techcrunch.com/2026/07/27/snapchat-now-lets-you-share-what-youre-listening-to-in-real-time/",
+      "raw_summary": "Starting with Spotify, Snapchat users will be able to link their accounts, choose who can see their listening activity, and see what their friends are listening to in real time.",
+      "source": "TechCrunch",
+      "published": "Mon, 27 Jul 2026 13:00:00 +0000",
+      "summary": "Snapchat now lets you share what you’re listening to in real time\nStarting with Spotify, Snapchat users will be able to link their accounts, choose who can see their listening activity, and see what their friends are listening to in real time."
+    },
+    {
+      "title": "Enigma raises $70M to make controlling a robot as easy as adjusting the volume",
+      "link": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/",
+      "raw_summary": "The massive seed round was led by  Index Ventures and Ribbit Capital, with participation from Sarah Guo's Conviction Partners.",
+      "source": "TechCrunch",
+      "published": "Mon, 27 Jul 2026 13:00:00 +0000",
+      "summary": "Enigma raises $70M to make controlling a robot as easy as adjusting the volume\nThe massive seed round was led by  Index Ventures and Ribbit Capital, with participation from Sarah Guo's Conviction Partners."
+    },
+    {
+      "title": "Europe got its own TBPN-style live show, and everyone’s angling for a guest spot",
+      "link": "https://techcrunch.com/2026/07/27/europe-got-its-own-tbpn-style-live-show-and-its-already-a-hot-spot-on-a-press-tour/",
+      "raw_summary": "On Monday, the network announced a $1.6 million seed round from top players in the media ecosystem, including Powerhouse Capital, Axel Springer SE (which owns Business Insider and Politico), the popular media publication LadBible, and angel investors from OpenAI and DeepMind. With this fresh capital, the network is announcing its largest expansion yet.",
+      "source": "TechCrunch",
+      "published": "Mon, 27 Jul 2026 10:00:00 +0000",
+      "summary": "Europe got its own TBPN-style live show, and everyone’s angling for a guest spot\nOn Monday, the network announced a $1.6 million seed round from top players in the media ecosystem, including Powerhouse Capital, Axel Springer SE (which owns Business Insider and Politico), the popular media publicatio"
     },
     {
       "title": "Are brain waves the next unlock for physical AI?",
@@ -139,28 +163,12 @@
       "summary": "Can Apple make smart glasses that aren’t a constant privacy threat?\nAs Apple prepares to launch its first smart glasses, the company may also be wrestling with how to address consumer privacy concerns."
     },
     {
-      "title": "Making sense of the panic over Chinese AI",
-      "link": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/",
-      "raw_summary": "On the latest episode of Equity, we discussed why Moonshot AI's Kimi seemed to panic Silicon Valley and Wall Street.",
-      "source": "TechCrunch",
-      "published": "Sun, 26 Jul 2026 19:40:57 +0000",
-      "summary": "Making sense of the panic over Chinese AI\nOn the latest episode of Equity, we discussed why Moonshot AI's Kimi seemed to panic Silicon Valley and Wall Street."
-    },
-    {
-      "title": "Inside one London founder house rewriting the founder-house rules",
-      "link": "https://techcrunch.com/2026/07/26/inside-one-london-founder-house-rewriting-the-founder-house-rules/",
-      "raw_summary": "How one founder house is betting work-life balance can beat burnout .",
-      "source": "TechCrunch",
-      "published": "Sun, 26 Jul 2026 17:03:19 +0000",
-      "summary": "Inside one London founder house rewriting the founder-house rules\nHow one founder house is betting work-life balance can beat burnout ."
-    },
-    {
-      "title": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
-      "link": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
-      "raw_summary": "\"The first autonomous agent cyberattack is an unprecedented event. It deserves an unprecedented response!\"",
-      "source": "TechCrunch",
-      "published": "Sun, 26 Jul 2026 16:33:13 +0000",
-      "summary": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack\n\"The first autonomous agent cyberattack is an unprecedented event. It deserves an unprecedented response!\""
+      "title": "Artist sues AI meme generator for selling deeply personal comic as ad template",
+      "link": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template/",
+      "raw_summary": "Meme generator may have screwed up by using templates in outputs, expert says.",
+      "source": "Ars Technica - All content",
+      "published": "Mon, 27 Jul 2026 10:50:37 +0000",
+      "summary": "Artist sues AI meme generator for selling deeply personal comic as ad template\nMeme generator may have screwed up by using templates in outputs, expert says."
     },
     {
       "title": "First teaser for Apple TV's Neuromancer debuts at SDCC",
@@ -195,132 +203,124 @@
       "summary": "With help from data, art museums are reframing the visitor experience\nMuseums are embracing data-driven curation and a shifting technology landscape."
     },
     {
-      "title": "Big Tech accused of stonewalling European social media researchers",
-      "link": "https://arstechnica.com/tech-policy/2026/07/big-tech-accused-of-stonewalling-european-social-media-researchers/",
-      "raw_summary": "Researchers say TikTok, X, and Meta aren't providing data they're legally required to.",
-      "source": "Ars Technica - All content",
-      "published": "Sat, 25 Jul 2026 10:45:32 +0000",
-      "summary": "Big Tech accused of stonewalling European social media researchers\nResearchers say TikTok, X, and Meta aren't providing data they're legally required to."
-    },
-    {
-      "title": "Oil falls 8% as Iran and US pause strikes over Strait of Hormuz",
-      "link": "https://www.ft.com/content/403625cc-8371-43ee-997a-f6908a97f52e?syn-25a6b1a6=1",
-      "raw_summary": "Brent lower after two weeks of escalating violence had pushed crude to more than $100 a barrel",
+      "title": "France and Spain brace for more extreme heat as wildfires rage",
+      "link": "https://www.ft.com/content/45867580-65a2-4a7d-ba4c-8143e86f4e36?syn-25a6b1a6=1",
+      "raw_summary": "Blazes ‘far from being under control’ as another heatwave approaches, says France’s civil security agency",
       "source": "World",
-      "published": "Mon, 27 Jul 2026 09:30:19 GMT",
-      "summary": "Oil falls 8% as Iran and US pause strikes over Strait of Hormuz\nBrent lower after two weeks of escalating violence had pushed crude to more than $100 a barrel"
+      "published": "Mon, 27 Jul 2026 13:29:21 GMT",
+      "summary": "France and Spain brace for more extreme heat as wildfires rage\nBlazes ‘far from being under control’ as another heatwave approaches, says France’s civil security agency"
     },
     {
-      "title": "The good, the bad and the mixed of Burnham’s government overhaul",
-      "link": "https://www.ft.com/content/7007005d-33b0-4d7a-83b9-76a53d498769?syn-25a6b1a6=1",
-      "raw_summary": "PM should have gone further in scrapping Cabinet Office, while handing Lisa Nandy an expanded brief is a gamble",
+      "title": "Size matters when it comes to tariff threats",
+      "link": "https://www.ft.com/content/06c0ded7-8a5c-4429-955d-50df7e0c2438?syn-25a6b1a6=1",
+      "raw_summary": "European leaders are calling for more technology supply chain independence for security reasons",
       "source": "World",
-      "published": "Mon, 27 Jul 2026 09:01:21 GMT",
-      "summary": "The good, the bad and the mixed of Burnham’s government overhaul\nPM should have gone further in scrapping Cabinet Office, while handing Lisa Nandy an expanded brief is a gamble"
+      "published": "Mon, 27 Jul 2026 13:00:05 GMT",
+      "summary": "Size matters when it comes to tariff threats\nEuropean leaders are calling for more technology supply chain independence for security reasons"
     },
     {
-      "title": "Italy’s search for national football coach marred by Russia links",
+      "title": "Burnham looks to cut welfare bill by linking up schools and employers",
+      "link": "https://www.ft.com/content/5374bf31-0d6d-4ebd-a4ae-28b399f39cc3?syn-25a6b1a6=1",
+      "raw_summary": "PM draws on experience as Greater Manchester mayor in bid to get more young people into work",
+      "source": "World",
+      "published": "Mon, 27 Jul 2026 12:10:46 GMT",
+      "summary": "Burnham looks to cut welfare bill by linking up schools and employers\nPM draws on experience as Greater Manchester mayor in bid to get more young people into work"
+    },
+    {
+      "title": "Italy’s search for national football coach stumbles over Russia links",
       "link": "https://www.ft.com/content/7c534c2f-07f0-4148-ab59-69f84e1dbfcb?syn-25a6b1a6=1",
-      "raw_summary": "Andrea Pirlo, tipped to revive struggling team, has acted as global ambassador for Russian betting company",
+      "raw_summary": "Andrea Pirlo, tipped to revive struggling team, is a global ambassador for Russian betting company",
       "source": "World",
-      "published": "Mon, 27 Jul 2026 08:35:52 GMT",
-      "summary": "Italy’s search for national football coach marred by Russia links\nAndrea Pirlo, tipped to revive struggling team, has acted as global ambassador for Russian betting company"
+      "published": "Mon, 27 Jul 2026 11:59:21 GMT",
+      "summary": "Italy’s search for national football coach stumbles over Russia links\nAndrea Pirlo, tipped to revive struggling team, is a global ambassador for Russian betting company"
     },
     {
-      "title": "Chinese chip champion CXMT soars 466% in market debut",
-      "link": "https://www.ft.com/content/8e82e939-908b-42bf-a314-0bb02a3f1b07?syn-25a6b1a6=1",
-      "raw_summary": "Tech group briefly becomes China’s most valuable listed company in mainland’s biggest IPO since 2010",
+      "title": "Brexit ‘reset’ could constrain UK’s freedom of movement on trade",
+      "link": "https://www.ft.com/content/0e84911a-f4a1-4a9d-9bd2-b4bc07e72921?syn-25a6b1a6=1",
+      "raw_summary": "If Brussels pursues economic defences against Beijing, London might feel pressure to follow suit",
       "source": "World",
-      "published": "Mon, 27 Jul 2026 07:29:15 GMT",
-      "summary": "Chinese chip champion CXMT soars 466% in market debut\nTech group briefly becomes China’s most valuable listed company in mainland’s biggest IPO since 2010"
+      "published": "Mon, 27 Jul 2026 11:31:05 GMT",
+      "summary": "Brexit ‘reset’ could constrain UK’s freedom of movement on trade\nIf Brussels pursues economic defences against Beijing, London might feel pressure to follow suit"
     },
     {
-      "title": "How tight is the labour market?",
-      "link": "https://www.ft.com/content/6f39ace4-0d94-4005-855a-8da6f74e6efc?syn-25a6b1a6=1",
-      "raw_summary": "The data is equivocal",
-      "source": "World",
-      "published": "Mon, 27 Jul 2026 05:30:04 GMT",
-      "summary": "How tight is the labour market?\nThe data is equivocal"
-    },
-    {
-      "title": "Japan’s GPIF Says to Act Only in Interest of Beneficiaries",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-27/japan-s-gpif-says-to-act-only-in-interest-of-beneficiaries",
-      "raw_summary": "Japan’s Government Pension Investment Fund will manage its assets solely in the long-term interest of its beneficiaries, its leader said Monday, an apparent pushback at suggestions from the prime minister and members of her cabinet that the GPIF increase investments in domestic assets.",
+      "title": "Stocks, Bonds Rise as US-Iran Hopes Spur Oil Drop: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-26/oil-tumbles-as-us-and-iran-pause-military-strikes-markets-wrap",
+      "raw_summary": "Stocks climbed around the world, joining gains in bonds as oil fell on hopes the US and Iran will restore their diplomatic efforts after tensions in the Middle East eased.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 27 Jul 2026 08:55:35 GMT",
-      "summary": "Japan’s GPIF Says to Act Only in Interest of Beneficiaries\nJapan’s Government Pension Investment Fund will manage its assets solely in the long-term interest of its beneficiaries, its leader said Monday, an apparent pushback at suggestions from the prime minister and members of her cabinet that the "
+      "published": "Sun, 26 Jul 2026 22:09:05 GMT",
+      "summary": "Stocks, Bonds Rise as US-Iran Hopes Spur Oil Drop: Markets Wrap\nStocks climbed around the world, joining gains in bonds as oil fell on hopes the US and Iran will restore their diplomatic efforts after tensions in the Middle East eased."
     },
     {
-      "title": "Bond Traders on Edge as Middle East Conflict Clouds Fed Outlook",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-26/bond-traders-on-edge-as-risks-of-fed-rate-hike-this-week-mount",
-      "raw_summary": "Bond traders head into the week pricing in roughly a one-in-three chance of a Federal Reserve interest rate hike on Wednesday, after flaring Middle East tensions fueled volatility in oil prices and Treasury yields, heightening inflation worries.",
-      "source": "Bloomberg Markets",
-      "published": "Sun, 26 Jul 2026 19:00:00 GMT",
-      "summary": "Bond Traders on Edge as Middle East Conflict Clouds Fed Outlook\nBond traders head into the week pricing in roughly a one-in-three chance of a Federal Reserve interest rate hike on Wednesday, after flaring Middle East tensions fueled volatility in oil prices and Treasury yields, heightening inflation"
-    },
-    {
-      "title": "Laopu Gold Sees First-Half Profit Slowing Amid Dropping Prices",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-27/laopu-gold-sees-first-half-profit-slowing-amid-dropping-prices",
-      "raw_summary": "Laopu Gold Co. expects first-half adjusted net profit to rise as much as 85%, slower than a year earlier as demand for its jewelry was under pressure in recent months amid dropping gold prices.",
-      "source": "Bloomberg Markets",
-      "published": "Mon, 27 Jul 2026 08:55:03 GMT",
-      "summary": "Laopu Gold Sees First-Half Profit Slowing Amid Dropping Prices\nLaopu Gold Co. expects first-half adjusted net profit to rise as much as 85%, slower than a year earlier as demand for its jewelry was under pressure in recent months amid dropping gold prices."
-    },
-    {
-      "title": "European Stocks Pare Iran-Related Gains on ECB Rate-Hike Worries",
+      "title": "European Stocks Advance on Falling Oil Prices; ASML Drops",
       "link": "https://www.bloomberg.com/news/articles/2026-04-27/european-stocks-steady-as-investors-monitor-iran-s-hormuz-offer",
-      "raw_summary": "European stocks trimmed their advance from falling oil prices, after a European Central Bank rate-setter said the institution will have to raise interest rates at least one more time to curtail inflation risks.",
+      "raw_summary": "European stocks gained as oil prices retreated on signs of easing tensions in the Middle East. ASML Holding NV fell 5.0% after a report that a Chinese state-backed company had begun manufacturing immersion deep ultraviolet lithography machines.",
       "source": "Bloomberg Markets",
       "published": "Mon, 27 Apr 2026 07:21:42 GMT",
-      "summary": "European Stocks Pare Iran-Related Gains on ECB Rate-Hike Worries\nEuropean stocks trimmed their advance from falling oil prices, after a European Central Bank rate-setter said the institution will have to raise interest rates at least one more time to curtail inflation risks."
+      "summary": "European Stocks Advance on Falling Oil Prices; ASML Drops\nEuropean stocks gained as oil prices retreated on signs of easing tensions in the Middle East. ASML Holding NV fell 5.0% after a report that a Chinese state-backed company had begun manufacturing immersion deep ultraviolet lithography machine"
     },
     {
-      "title": "France’s Lescure Warns of Economic Shock for Region Hit by Fires",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-27/france-s-lescure-warns-of-economic-shock-for-region-hit-by-fires",
-      "raw_summary": "French Finance Minister Roland Lescure said wildfires in the southwest are a major economic setback for the region as businesses and tourists were forced to evacuate.",
+      "title": "US Stocks Climb as Pause in Iran Strikes Pushes Oil Price Lower",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-27/us-stocks-catch-a-bid-as-oil-tumbles-with-iran-conflict-pause",
+      "raw_summary": "US stocks rallied to start the week, with oil prices sliding as the US paused strikes against Iran and a Kazakh export terminal resumed loadings, easing supply pressures.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 27 Jul 2026 08:40:23 GMT",
-      "summary": "France’s Lescure Warns of Economic Shock for Region Hit by Fires\nFrench Finance Minister Roland Lescure said wildfires in the southwest are a major economic setback for the region as businesses and tourists were forced to evacuate."
+      "published": "Mon, 27 Jul 2026 11:12:22 GMT",
+      "summary": "US Stocks Climb as Pause in Iran Strikes Pushes Oil Price Lower\nUS stocks rallied to start the week, with oil prices sliding as the US paused strikes against Iran and a Kazakh export terminal resumed loadings, easing supply pressures."
     },
     {
-      "title": "Cloud data firm Storj files for Chapter 11, extending a week of crypto failures. Token slides 16%",
-      "link": "https://www.coindesk.com/business/2026/07/27/cloud-data-firm-storj-files-for-chapter-11-extending-a-week-of-crypto-failures-token-slides-16",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 27 Jul 2026 09:15:43 +0000",
-      "summary": "Cloud data firm Storj files for Chapter 11, extending a week of crypto failures. Token slides 16%\n"
+      "title": "Citi Traders Are Betting Fed Will Keep Rates on Hold This Week",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-27/citi-traders-are-betting-fed-will-keep-rates-on-hold-this-week",
+      "raw_summary": "Citigroup Inc.’s traders are betting the Federal Reserve will leave rates unchanged this week, even as the swap markets assign a more than one-in-three chance of a quarter-point hike.",
+      "source": "Bloomberg Markets",
+      "published": "Mon, 27 Jul 2026 13:45:07 GMT",
+      "summary": "Citi Traders Are Betting Fed Will Keep Rates on Hold This Week\nCitigroup Inc.’s traders are betting the Federal Reserve will leave rates unchanged this week, even as the swap markets assign a more than one-in-three chance of a quarter-point hike."
     },
     {
-      "title": "Live updates: Ether leads crypto higher. China's gold imports surge",
-      "link": "https://www.coindesk.com/markets/2026/07/27/live-updates-ether-leads-crypto-higher-as-bitcoin-trades-around-usd65-500",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 27 Jul 2026 06:43:34 +0000",
-      "summary": "Live updates: Ether leads crypto higher. China's gold imports surge\n"
+      "title": "Chile Taps International Bond Markets After Debt Limit Raise",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-27/chile-taps-international-bond-markets-after-debt-limit-increase",
+      "raw_summary": "Chile is returning to international debt markets for the second time in 2026, just a few weeks after Congress raised the limit on sovereign bond sales this year.",
+      "source": "Bloomberg Markets",
+      "published": "Mon, 27 Jul 2026 12:59:39 GMT",
+      "summary": "Chile Taps International Bond Markets After Debt Limit Raise\nChile is returning to international debt markets for the second time in 2026, just a few weeks after Congress raised the limit on sovereign bond sales this year."
     },
     {
-      "title": "Crypto is the canary in the coal mine for the quantum computing threat, experts say",
-      "link": "https://www.coindesk.com/markets/2026/07/27/crypto-is-the-canary-in-the-coal-mine-for-the-quantum-computing-threat-experts-say",
+      "title": "Lido begins moving $16.5 billion in staked ether to cut validator count by a third",
+      "link": "https://www.coindesk.com/tech/2026/07/27/lido-begins-moving-usd16-5-billion-in-staked-ether-to-cut-validator-count-by-a-third",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 27 Jul 2026 06:37:54 +0000",
-      "summary": "Crypto is the canary in the coal mine for the quantum computing threat, experts say\n"
+      "published": "Mon, 27 Jul 2026 14:00:00 +0000",
+      "summary": "Lido begins moving $16.5 billion in staked ether to cut validator count by a third\n"
     },
     {
-      "title": "Bitcoin is back above $65,000 as U.S. and Iran hold fire. Oil drops 5%",
-      "link": "https://www.coindesk.com/markets/2026/07/27/bitcoin-is-back-above-usd65-000-as-u-s-iran-hold-fire-oil-drops-5",
+      "title": "Thailand's SEC alleges Bitkub concealed cyberattack that led to $50 million hack",
+      "link": "https://www.coindesk.com/policy/2026/07/27/thailand-s-sec-alleges-bitkub-concealed-cyberattack-that-led-to-usd50-million-hack",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 27 Jul 2026 04:21:26 +0000",
-      "summary": "Bitcoin is back above $65,000 as U.S. and Iran hold fire. Oil drops 5%\n"
+      "published": "Mon, 27 Jul 2026 13:32:16 +0000",
+      "summary": "Thailand's SEC alleges Bitkub concealed cyberattack that led to $50 million hack\n"
     },
     {
-      "title": "South Korea trading giant puts receivables onchain in tokenization test with LG CNS",
-      "link": "https://www.coindesk.com/business/2026/07/26/south-korea-trading-giant-puts-receivables-onchain-in-tokenization-test-with-lg-cns",
+      "title": "Nvidia forms 37-member AI security alliance without OpenAI, Anthropic or Google",
+      "link": "https://www.coindesk.com/tech/2026/07/27/nvidia-forms-37-member-ai-security-alliance-without-openai-anthropic-or-google",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 27 Jul 2026 00:00:00 +0000",
-      "summary": "South Korea trading giant puts receivables onchain in tokenization test with LG CNS\n"
+      "published": "Mon, 27 Jul 2026 13:25:58 +0000",
+      "summary": "Nvidia forms 37-member AI security alliance without OpenAI, Anthropic or Google\n"
+    },
+    {
+      "title": "Securitize builds Wall Street credentials with SEC adviser license as tokenization expands",
+      "link": "https://www.coindesk.com/business/2026/07/27/securitize-builds-wall-street-credentials-with-sec-adviser-license-as-tokenization-expands",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Mon, 27 Jul 2026 13:00:00 +0000",
+      "summary": "Securitize builds Wall Street credentials with SEC adviser license as tokenization expands\n"
+    },
+    {
+      "title": "Crypto is rewriting how Wall Street traders spend their weekends",
+      "link": "https://www.coindesk.com/markets/2026/07/27/crypto-is-rewriting-how-wall-street-traders-spend-their-weekends",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Mon, 27 Jul 2026 13:00:00 +0000",
+      "summary": "Crypto is rewriting how Wall Street traders spend their weekends\n"
     }
   ]
 }
