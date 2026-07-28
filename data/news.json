@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T13:44:55.308673+00:00",
+  "generated_at": "2026-07-28T19:10:55.562597+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "FBI Seizes NetNut Proxy Platform, Popa Botnet\nThe Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: "
     },
     {
+      "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
+      "link": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
+      "raw_summary": "A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process.\n\nIf that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force.\n\nTengu supports 25 distributed denial-of-service (",
+      "source": "The Hacker News",
+      "published": "Tue, 28 Jul 2026 20:31:33 +0530",
+      "summary": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process\nA new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process.\n\nIf that happens, Tengu's other persistence mechanisms get another c"
+    },
+    {
+      "title": "24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login",
+      "link": "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html",
+      "raw_summary": "Cybersecurity researchers have sounded an alert after finding more than 36,000 Baseboard Management Controller (BMC) management interfaces exposing Intelligent Platform Management Interface (IPMI) protocol to the public internet.\n\nOf the 36,872 internet-exposed server-management interfaces running IPMI, 24,650 have been found to disclose password-derived authentication hashes before login due to",
+      "source": "The Hacker News",
+      "published": "Tue, 28 Jul 2026 20:11:36 +0530",
+      "summary": "24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login\nCybersecurity researchers have sounded an alert after finding more than 36,000 Baseboard Management Controller (BMC) management interfaces exposing Intelligent Platform Management Interface (IPMI) protocol to the public internet"
+    },
+    {
+      "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
+      "link": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
+      "raw_summary": "JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment.\n\nArtifactory is JFrog's software repository manager. OpenAI says the models then escalated privileges and moved laterally until they reached an internet-connected node. JFrog says it has since developed and released fixes for cloud",
+      "source": "The Hacker News",
+      "published": "Tue, 28 Jul 2026 19:03:47 +0530",
+      "summary": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach\nJFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment.\n\nArtifactory is JFrog's software repository mana"
+    },
+    {
+      "title": "Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root",
+      "link": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html",
+      "raw_summary": "OpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network services enabled by default.\n\nThe critical issue, tracked as CVE-2026-53921 and rated 9.8 on CVSS 3.1 in OpenWrt's GitHub advisory, lets an unauthenticated attacker able to reach the DHCPv6 server overwrite a stack buffer in odhcpd through a crafted DHCPv6",
+      "source": "The Hacker News",
+      "published": "Tue, 28 Jul 2026 18:26:14 +0530",
+      "summary": "Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root\nOpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network services enabled by default.\n\nThe critical issue, tracked as CVE-2026-53921 and rat"
+    },
+    {
       "title": "Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays",
       "link": "https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html",
       "raw_summary": "The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, and South Asia.\n\nThe intrusions involve the use of a previously undocumented Windows backdoor called NightLedger and two custom WebSocket tunnelers,",
@@ -51,116 +83,92 @@
       "summary": "Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays\nThe Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the "
     },
     {
-      "title": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In",
-      "link": "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html",
-      "raw_summary": "JetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical security issue that could result in arbitrary code execution.\n\nThe vulnerability, assigned CVE-2026-63077 (CVSS score: 9.8), affects all TeamCity On-Premises versions. It has been addressed in versions 2025.11.7 and 2026.1.3. TeamCity Cloud instances have already",
-      "source": "The Hacker News",
-      "published": "Tue, 28 Jul 2026 13:41:22 +0530",
-      "summary": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In\nJetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical security issue that could result in arbitrary code execution.\n\nThe vulnerability, assig"
-    },
-    {
-      "title": "Researcher Says AI Helped Develop Linux Traffic-Control Race Into Root Exploit",
-      "link": "https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html",
-      "raw_summary": "STAR Labs has published a Linux kernel exploit that turns an ordinary local user into root on the CentOS Stream 9 build it targeted. The flaw, tracked as CVE-2026-53264 (CVSS score: 7.8), is a use-after-free race in the kernel's network traffic-control subsystem.Researcher Lee Jia Jie said artificial intelligence (AI) helped him find the bug and speed up exploit development. This is local",
-      "source": "The Hacker News",
-      "published": "Tue, 28 Jul 2026 13:34:44 +0530",
-      "summary": "Researcher Says AI Helped Develop Linux Traffic-Control Race Into Root Exploit\nSTAR Labs has published a Linux kernel exploit that turns an ordinary local user into root on the CentOS Stream 9 build it targeted. The flaw, tracked as CVE-2026-53264 (CVSS score: 7.8), is a use-after-free race in the k"
-    },
-    {
-      "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Score 95.95% at Half the Cost",
-      "link": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html",
-      "raw_summary": "Microsoft has launched its first cybersecurity-specific model inside MDASH, its multi-model vulnerability identification and remediation harness.\n\nThe company says MDASH, using MAI-Cyber-1-Flash and GPT-5.4, scored 95.95% on CyberGym. It also claims the configuration costs 50% less than its current best MDASH combination of GPT-5.4, GPT-5.4 mini, and GPT-5.3 Codex. Access is limited to approved",
-      "source": "The Hacker News",
-      "published": "Tue, 28 Jul 2026 11:37:22 +0530",
-      "summary": "Microsoft Says New Cybersecurity AI Model Helps MDASH Score 95.95% at Half the Cost\nMicrosoft has launched its first cybersecurity-specific model inside MDASH, its multi-model vulnerability identification and remediation harness.\n\nThe company says MDASH, using MAI-Cyber-1-Flash and GPT-5.4, scored 9"
-    },
-    {
-      "title": "Attackers Exploit Arista VeloCloud Orchestrator Command Injection Flaw",
-      "link": "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html",
-      "raw_summary": "A maximum-severity security flaw impacting on-premises versions of Arista VeloCloud Orchestrator (VCO) has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-16812 (CVSS score: 10.0), is a case of operating system command injection that could pave the way for arbitrary code execution.\n\n\"VeloCloud Orchestrator (VCO) on-prem has a security issue where this issue",
-      "source": "The Hacker News",
-      "published": "Tue, 28 Jul 2026 10:13:53 +0530",
-      "summary": "Attackers Exploit Arista VeloCloud Orchestrator Command Injection Flaw\nA maximum-severity security flaw impacting on-premises versions of Arista VeloCloud Orchestrator (VCO) has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-16812 (CVSS score: 10.0), is a case of"
-    },
-    {
-      "title": "Show HN: tale.fyi, we deserve a home for fiction",
-      "link": "https://tale.fyi/@sam/announcing-tale-fyi-read-or-listen-to-an-entire-book-from-a-single-link",
-      "raw_summary": "<p>for decades, i have been concerned that the internet was being built around non-fiction, so i built something to show how we could celebrate great fiction on the web.<p>i started with an amazing library from the public domain, and i also added tools to add your own stories<p>super interested to hear any feedback, and if you read anything good!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49083389\">https://news.ycombinator.com/item?id=49083389</a></p>\n<p>Points: 11</p>\n<p># Comments: 1</p>",
+      "title": "Deflock Casa Grande",
+      "link": "https://deflockcg.com/",
+      "raw_summary": "<p>Article URL: <a href=\"https://deflockcg.com/\">https://deflockcg.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49088148\">https://news.ycombinator.com/item?id=49088148</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 28 Jul 2026 13:16:52 +0000",
-      "summary": "Show HN: tale.fyi, we deserve a home for fiction\n<p>for decades, i have been concerned that the internet was being built around non-fiction, so i built something to show how we could celebrate great fiction on the web.<p>i started with an amazing library from the public domain, and i also added tool"
+      "published": "Tue, 28 Jul 2026 18:41:48 +0000",
+      "summary": "Deflock Casa Grande\n<p>Article URL: <a href=\"https://deflockcg.com/\">https://deflockcg.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49088148\">https://news.ycombinator.com/item?id=49088148</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>"
     },
     {
-      "title": "Show HN: Ctrlb-decompose: Strip the noise from logs before sending to LLMs",
-      "link": "https://github.com/ctrlb-hq/ctrlb-decompose",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/ctrlb-hq/ctrlb-decompose\">https://github.com/ctrlb-hq/ctrlb-decompose</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49083336\">https://news.ycombinator.com/item?id=49083336</a></p>\n<p>Points: 20</p>\n<p># Comments: 1</p>",
+      "title": "MCP 2026-07-28 Specification: transport going stateless",
+      "link": "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.modelcontextprotocol.io/posts/2026-07-28/\">https://blog.modelcontextprotocol.io/posts/2026-07-28/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49088058\">https://news.ycombinator.com/item?id=49088058</a></p>\n<p>Points: 11</p>\n<p># Comments: 6</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 28 Jul 2026 13:13:35 +0000",
-      "summary": "Show HN: Ctrlb-decompose: Strip the noise from logs before sending to LLMs\n<p>Article URL: <a href=\"https://github.com/ctrlb-hq/ctrlb-decompose\">https://github.com/ctrlb-hq/ctrlb-decompose</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49083336\">https://news.ycombinator.com/i"
+      "published": "Tue, 28 Jul 2026 18:35:11 +0000",
+      "summary": "MCP 2026-07-28 Specification: transport going stateless\n<p>Article URL: <a href=\"https://blog.modelcontextprotocol.io/posts/2026-07-28/\">https://blog.modelcontextprotocol.io/posts/2026-07-28/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49088058\">https://news.ycombinator.co"
     },
     {
-      "title": "New HIV vaccine shows unprecedented success in preclinical study",
-      "link": "https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/\">https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49083314\">https://news.ycombinator.com/item?id=49083314</a></p>\n<p>Points: 21</p>\n<p># Comments: 7</p>",
+      "title": "Discovering Cryptographic Weaknesses with Claude",
+      "link": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.anthropic.com/research/discovering-cryptographic-weaknesses\">https://www.anthropic.com/research/discovering-cryptographic-weaknesses</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49087091\">https://news.ycombinator.com/item?id=49087091</a></p>\n<p>Points: 67</p>\n<p># Comments: 26</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 28 Jul 2026 13:12:01 +0000",
-      "summary": "New HIV vaccine shows unprecedented success in preclinical study\n<p>Article URL: <a href=\"https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/\">https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-"
+      "published": "Tue, 28 Jul 2026 17:22:16 +0000",
+      "summary": "Discovering Cryptographic Weaknesses with Claude\n<p>Article URL: <a href=\"https://www.anthropic.com/research/discovering-cryptographic-weaknesses\">https://www.anthropic.com/research/discovering-cryptographic-weaknesses</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49087091\">"
     },
     {
-      "title": "Show HN: Formally verified 3D CSG: Trust 93 lines spec, not 1000 lines AI code",
-      "link": "https://github.com/schildep/verified-3d-mesh-intersection",
-      "raw_summary": "<p>To my knowledge, this is the first formally verified implementation of a 3D constructive solid geometry (CSG) operation: mesh intersection, implemented in Lean 4 and verified against a concise specification that pins down the surface of the resulting mesh exactly and guarantees practical well-formedness conditions on the triangulation.<p>This project is also an experiment in avoiding having to trust AI-generated code. A human reviewer only needs to read 93 lines of formal specification and run the Lean checker to certify the correctness of the kernel, skipping the intricate 1000+ lines of AI-written implementation. To prove correctness, AI autonomously wrote over 60,000 lines of Lean proofs, which also never have to be inspected by a human. The Lean checker guarantees conformance to the specification at compile time, with zero trust placed in any LLM. This allows us to treat the implementation and proofs as a black box. I guided the agent through the milestones described in the readme to arrive at the result presented here.<p>Also take a look at the web demo <a href=\"https://schildep.github.io/verified-3d-mesh-intersection/\" rel=\"nofollow\">https://schildep.github.io/verified-3d-mesh-intersection/</a>, which runs the verified mesh intersection kernel compiled to WebAssembly in your browser.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49083239\">https://news.ycombinator.com/item?id=49083239</a></p>\n<p>Points: 16</p>\n<p># Comments: 2</p>",
+      "title": "Scientific computing in the age of agentic AI",
+      "link": "https://openai.com/index/scientific-computing-agentic-ai/",
+      "raw_summary": "<p>Article URL: <a href=\"https://openai.com/index/scientific-computing-agentic-ai/\">https://openai.com/index/scientific-computing-agentic-ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49086987\">https://news.ycombinator.com/item?id=49086987</a></p>\n<p>Points: 23</p>\n<p># Comments: 6</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 28 Jul 2026 13:07:14 +0000",
-      "summary": "Show HN: Formally verified 3D CSG: Trust 93 lines spec, not 1000 lines AI code\n<p>To my knowledge, this is the first formally verified implementation of a 3D constructive solid geometry (CSG) operation: mesh intersection, implemented in Lean 4 and verified against a concise specification that pins d"
+      "published": "Tue, 28 Jul 2026 17:13:15 +0000",
+      "summary": "Scientific computing in the age of agentic AI\n<p>Article URL: <a href=\"https://openai.com/index/scientific-computing-agentic-ai/\">https://openai.com/index/scientific-computing-agentic-ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49086987\">https://news.ycombinator.com/it"
     },
     {
-      "title": "What AI developers could learn from Charles Bukowski?",
-      "link": "https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski",
-      "raw_summary": "<p>Article URL: <a href=\"https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski\">https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49083132\">https://news.ycombinator.com/item?id=49083132</a></p>\n<p>Points: 9</p>\n<p># Comments: 5</p>",
+      "title": "Steel Bank Common Lisp version 2.6.7",
+      "link": "https://sbcl.org/all-news.html?2.6.7",
+      "raw_summary": "<p>Article URL: <a href=\"https://sbcl.org/all-news.html?2.6.7\">https://sbcl.org/all-news.html?2.6.7</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49086971\">https://news.ycombinator.com/item?id=49086971</a></p>\n<p>Points: 76</p>\n<p># Comments: 14</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 28 Jul 2026 13:00:12 +0000",
-      "summary": "What AI developers could learn from Charles Bukowski?\n<p>Article URL: <a href=\"https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski\">https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=4908313"
+      "published": "Tue, 28 Jul 2026 17:11:54 +0000",
+      "summary": "Steel Bank Common Lisp version 2.6.7\n<p>Article URL: <a href=\"https://sbcl.org/all-news.html?2.6.7\">https://sbcl.org/all-news.html?2.6.7</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49086971\">https://news.ycombinator.com/item?id=49086971</a></p>\n<p>Points: 76</p>\n<p># Comme"
     },
     {
-      "title": "Recursive Superintelligence signs $410 compute deal with Amazon",
-      "link": "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/",
-      "raw_summary": "Recursive’s $400 million outlay represents the bulk of the company’s fundraising to date.",
+      "title": "Ozlo’s Sleepbuds 2 build on Bose’s sleep earbud legacy",
+      "link": "https://techcrunch.com/2026/07/28/ozlos-sleepbuds-2-build-on-boses-sleep-earbud-legacy/",
+      "raw_summary": "Ozlo’s first major update to its sleep earbuds introduces longer battery life, improved connectivity, enhanced audio, and new sleep features as the startup continues the product line once abandoned by Bose.",
       "source": "TechCrunch",
-      "published": "Tue, 28 Jul 2026 13:19:17 +0000",
-      "summary": "Recursive Superintelligence signs $410 compute deal with Amazon\nRecursive’s $400 million outlay represents the bulk of the company’s fundraising to date."
+      "published": "Tue, 28 Jul 2026 19:09:18 +0000",
+      "summary": "Ozlo’s Sleepbuds 2 build on Bose’s sleep earbud legacy\nOzlo’s first major update to its sleep earbuds introduces longer battery life, improved connectivity, enhanced audio, and new sleep features as the startup continues the product line once abandoned by Bose."
     },
     {
-      "title": "Granola launches an Apple Watch app",
-      "link": "https://techcrunch.com/2026/07/28/granola-launches-an-apple-watch-app/",
-      "raw_summary": "Granola debutes an Apple Watch app for in-person notetaking",
+      "title": "The robot NASA hired to lift a orbital telescope is tumbling out of control",
+      "link": "https://techcrunch.com/2026/07/28/the-robot-nasa-hired-to-lift-a-orbital-telescope-is-tumbling-out-of-control/",
+      "raw_summary": "Katalyst's LINK spacecraft is tumbling out of control after suffering key component failures.",
       "source": "TechCrunch",
-      "published": "Tue, 28 Jul 2026 13:00:00 +0000",
-      "summary": "Granola launches an Apple Watch app\nGranola debutes an Apple Watch app for in-person notetaking"
+      "published": "Tue, 28 Jul 2026 19:07:31 +0000",
+      "summary": "The robot NASA hired to lift a orbital telescope is tumbling out of control\nKatalyst's LINK spacecraft is tumbling out of control after suffering key component failures."
     },
     {
-      "title": "Lyft and Baidu enter London’s robotaxi battleground as testing begins",
-      "link": "https://techcrunch.com/2026/07/28/lyft-and-baidu-enter-londons-robotaxi-battleground-as-testing-begins/",
-      "raw_summary": "Baidu's Apollo Go autonomous vehicles will be available on Freenow, the mobility network that Lyft acquired in 2025.",
+      "title": "Waymo, robotaxi operators face fresh scrutiny over emergency response failures",
+      "link": "https://techcrunch.com/2026/07/28/waymo-robotaxi-operators-face-fresh-scrutiny-over-emergency-response-failures/",
+      "raw_summary": "Rep. Kevin Mullin (D-California ) has proposed bill would direct federal regulators to establish minimum national safety standards for autonomous vehicle operators — action that follows a series of incidents in which robotaxis blocked fire trucks and impeded emergency responders.",
       "source": "TechCrunch",
-      "published": "Tue, 28 Jul 2026 08:00:00 +0000",
-      "summary": "Lyft and Baidu enter London’s robotaxi battleground as testing begins\nBaidu's Apollo Go autonomous vehicles will be available on Freenow, the mobility network that Lyft acquired in 2025."
+      "published": "Tue, 28 Jul 2026 19:06:33 +0000",
+      "summary": "Waymo, robotaxi operators face fresh scrutiny over emergency response failures\nRep. Kevin Mullin (D-California ) has proposed bill would direct federal regulators to establish minimum national safety standards for autonomous vehicle operators — action that follows a series of incidents in which robo"
     },
     {
-      "title": "Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing",
-      "link": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/",
-      "raw_summary": "Cursor says India is now its third-largest market globally and plans to expand local hiring and enterprise sales.",
+      "title": "eBay reaches $56M settlement with e-commerce newsletter writers it terrorized in 2019",
+      "link": "https://techcrunch.com/2026/07/28/ebay-reaches-56m-settlement-with-e-commerce-newsletter-writers-it-terrorized-in-2019/",
+      "raw_summary": "Ina and David Steiner inspired the ire of high-level eBay executives after occasionally criticizing the company in their newsletter. In 2019, a plot was concocted to intimidate the couple into halting their negative coverage.",
       "source": "TechCrunch",
-      "published": "Tue, 28 Jul 2026 04:30:00 +0000",
-      "summary": "Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing\nCursor says India is now its third-largest market globally and plans to expand local hiring and enterprise sales."
+      "published": "Tue, 28 Jul 2026 18:35:29 +0000",
+      "summary": "eBay reaches $56M settlement with e-commerce newsletter writers it terrorized in 2019\nIna and David Steiner inspired the ire of high-level eBay executives after occasionally criticizing the company in their newsletter. In 2019, a plot was concocted to intimidate the couple into halting their negativ"
     },
     {
-      "title": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
-      "link": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
-      "raw_summary": "Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China's growing AI capabilities.",
+      "title": "These App Store hidden gems prove there’s still room for great software in the AI era",
+      "link": "https://techcrunch.com/2026/07/28/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/",
+      "raw_summary": "Despite predictions that AI agents could make traditional apps obsolete, developers are shipping new software faster than ever. From smarter bookmarking tools and neighborhood marketplaces to digital pen pals and nature journals, here are the latest App Store finds worth adding to your Home Screen.",
       "source": "TechCrunch",
-      "published": "Tue, 28 Jul 2026 00:13:33 +0000",
-      "summary": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI\nAnthropic founder and CEO Dario Amodei made his views clear about open-weight models and China's growing AI capabilities."
+      "published": "Tue, 28 Jul 2026 18:16:39 +0000",
+      "summary": "These App Store hidden gems prove there’s still room for great software in the AI era\nDespite predictions that AI agents could make traditional apps obsolete, developers are shipping new software faster than ever. From smarter bookmarking tools and neighborhood marketplaces to digital pen pals and n"
+    },
+    {
+      "title": "Report: Trump mad RFK Jr. hasn’t cut more vaccines or proven autism link",
+      "link": "https://arstechnica.com/health/2026/07/report-trump-mad-rfk-jr-hasnt-cut-more-vaccines-or-proven-autism-link/",
+      "raw_summary": "Trump is fixated on the false, long-debunked claim that vaccines cause autism.",
+      "source": "Ars Technica - All content",
+      "published": "Tue, 28 Jul 2026 16:16:25 +0000",
+      "summary": "Report: Trump mad RFK Jr. hasn’t cut more vaccines or proven autism link\nTrump is fixated on the false, long-debunked claim that vaccines cause autism."
     },
     {
       "title": "As US measles cases rise, biotech firms start developing new treatments",
@@ -195,132 +203,124 @@
       "summary": "Epic diarrhea outbreak has 40% of Americans avoiding fruits and veggies\nKennedy has focused on nutrition but has neglected food safety, critics say."
     },
     {
-      "title": "iOS and macOS 26.6 arrive today, paving the way for iOS and macOS 27",
-      "link": "https://arstechnica.com/gadgets/2026/07/ios-and-macos-26-6-arrive-today-paving-the-way-for-ios-and-macos-27/",
-      "raw_summary": "These are likely the last updates of note before Apple's bigger fall updates.",
-      "source": "Ars Technica - All content",
-      "published": "Mon, 27 Jul 2026 20:32:45 +0000",
-      "summary": "iOS and macOS 26.6 arrive today, paving the way for iOS and macOS 27\nThese are likely the last updates of note before Apple's bigger fall updates."
-    },
-    {
-      "title": "AI stock sell-off deepens as investors dump chipmakers",
-      "link": "https://www.ft.com/content/f8c03b5b-e194-4236-82c3-389b6f5dd7ae?syn-25a6b1a6=1",
-      "raw_summary": "Wall Street tech shares extend declines after South Korean markets tumble",
-      "source": "World",
-      "published": "Tue, 28 Jul 2026 13:31:39 GMT",
-      "summary": "AI stock sell-off deepens as investors dump chipmakers\nWall Street tech shares extend declines after South Korean markets tumble"
-    },
-    {
       "title": "Powerful earthquake hits Japan’s southern Kumamoto prefecture",
       "link": "https://www.ft.com/content/568eb170-a4c1-445d-8edb-67fa51f7a134?syn-25a6b1a6=1",
-      "raw_summary": "Reports of multiple deaths from blast at shopping centre and widespread damage to buildings and infrastructure",
+      "raw_summary": "Reports of multiple deaths from tremor after blast at shopping centre and damage to factories, buildings and infrastructure",
       "source": "World",
-      "published": "Tue, 28 Jul 2026 13:25:38 GMT",
-      "summary": "Powerful earthquake hits Japan’s southern Kumamoto prefecture\nReports of multiple deaths from blast at shopping centre and widespread damage to buildings and infrastructure"
+      "published": "Tue, 28 Jul 2026 18:32:23 GMT",
+      "summary": "Powerful earthquake hits Japan’s southern Kumamoto prefecture\nReports of multiple deaths from tremor after blast at shopping centre and damage to factories, buildings and infrastructure"
     },
     {
-      "title": "Trump sets stage for Netanyahu meeting amid tensions with Israeli PM",
-      "link": "https://www.ft.com/content/ba86f426-0386-4afb-acb8-cdd56371a5a8?syn-25a6b1a6=1",
-      "raw_summary": "Also in today’s newsletter, an uphill financial battle for Democrats in Maine Senate race",
+      "title": "Fire-ravaged France evacuates tourists and braces for new heatwave",
+      "link": "https://www.ft.com/content/b0dfd771-a6d6-476e-a435-7a5aedf2f820?syn-25a6b1a6=1",
+      "raw_summary": "Firefighters make progress on blazes that have displaced hundreds of thousands of people",
       "source": "World",
-      "published": "Tue, 28 Jul 2026 13:15:05 GMT",
-      "summary": "Trump sets stage for Netanyahu meeting amid tensions with Israeli PM\nAlso in today’s newsletter, an uphill financial battle for Democrats in Maine Senate race"
+      "published": "Tue, 28 Jul 2026 18:21:29 GMT",
+      "summary": "Fire-ravaged France evacuates tourists and braces for new heatwave\nFirefighters make progress on blazes that have displaced hundreds of thousands of people"
     },
     {
-      "title": "Air Force One refurbishment costs weigh on Boeing results",
-      "link": "https://www.ft.com/content/e8a4b77a-f420-409a-938f-17521c5ba7bf?syn-25a6b1a6=1",
-      "raw_summary": "Overhaul of presidential jet offsets continued improvement in group’s commercial airliner business",
+      "title": "Greens and Reform take a hit from the Burnham bounce",
+      "link": "https://www.ft.com/content/a4222e62-b649-4ad6-8ebf-6ea1f7d2f7ad?syn-25a6b1a6=1",
+      "raw_summary": "Labour’s recovery appears to have come at the expense of  Zack Polanski’s party",
       "source": "World",
-      "published": "Tue, 28 Jul 2026 13:04:47 GMT",
-      "summary": "Air Force One refurbishment costs weigh on Boeing results\nOverhaul of presidential jet offsets continued improvement in group’s commercial airliner business"
+      "published": "Tue, 28 Jul 2026 18:04:18 GMT",
+      "summary": "Greens and Reform take a hit from the Burnham bounce\nLabour’s recovery appears to have come at the expense of  Zack Polanski’s party"
     },
     {
-      "title": "A truly progressive VAT would solve a lot of UK tax problems",
-      "link": "https://www.ft.com/content/3c62f28e-d7bc-409e-af17-61002472f3f7?syn-25a6b1a6=1",
-      "raw_summary": "Ending exemptions while excluding low-income households would be fairer and bring in far more revenue",
+      "title": "Ares’ next big private capital deal looks deceptively close to home",
+      "link": "https://www.ft.com/content/20432705-d873-46eb-9b65-b5ae547b1585?syn-25a6b1a6=1",
+      "raw_summary": "While it’s already common to find private equity and credit under the same roof, any tie-up will prove a test of culture",
       "source": "World",
-      "published": "Tue, 28 Jul 2026 12:01:17 GMT",
-      "summary": "A truly progressive VAT would solve a lot of UK tax problems\nEnding exemptions while excluding low-income households would be fairer and bring in far more revenue"
+      "published": "Tue, 28 Jul 2026 18:00:54 GMT",
+      "summary": "Ares’ next big private capital deal looks deceptively close to home\nWhile it’s already common to find private equity and credit under the same roof, any tie-up will prove a test of culture"
     },
     {
-      "title": "Centene Slides On Dimming Outlook for Medicaid Profit Margins",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-28/centene-boosts-guidance-on-better-than-expected-medical-costs",
-      "raw_summary": "Centene Corp. shares fell after the health insurer said it would take longer than planned to rebuild profits in its Medicaid business, a worrying sign that overshadowed an upbeat earnings report.",
+      "title": "Ebay pays couple $56mn for its role in cockroach harassment campaign",
+      "link": "https://www.ft.com/content/1ed4aee0-cbb4-4c98-a2aa-34971ded2583",
+      "raw_summary": "Couple received threatening deliveries including funeral wreath after criticising ecommerce retailer in blog",
+      "source": "World",
+      "published": "Tue, 28 Jul 2026 17:24:20 GMT",
+      "summary": "Ebay pays couple $56mn for its role in cockroach harassment campaign\nCouple received threatening deliveries including funeral wreath after criticising ecommerce retailer in blog"
+    },
+    {
+      "title": "PE Firm Unloads Mental Health Chain Into Muni Market",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-28/private-equity-firm-unloads-mental-health-chain-into-muni-market",
+      "raw_summary": "A Connecticut-based private equity firm plans to sell a chain of mental health centers and sober-living homes through a deal financed by municipal bonds.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 28 Jul 2026 10:10:28 GMT",
-      "summary": "Centene Slides On Dimming Outlook for Medicaid Profit Margins\nCentene Corp. shares fell after the health insurer said it would take longer than planned to rebuild profits in its Medicaid business, a worrying sign that overshadowed an upbeat earnings report."
+      "published": "Tue, 28 Jul 2026 16:12:40 GMT",
+      "summary": "PE Firm Unloads Mental Health Chain Into Muni Market\nA Connecticut-based private equity firm plans to sell a chain of mental health centers and sober-living homes through a deal financed by municipal bonds."
     },
     {
-      "title": "Most Stocks Rise as Earnings Outweigh Chip Rout: Markets Wrap",
+      "title": "Warner Bros. Deal Collapse Would Cost the Ellisons $9.8 Billion",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-28/warner-bros-deal-collapse-would-cost-the-ellisons-9-8-billion",
+      "raw_summary": "Larry Ellison and his family would be on the hook for $9.8 billion if Paramount Skydance Corp.’s deal to buy Warner Bros. Discovery Inc. falls apart.",
+      "source": "Bloomberg Markets",
+      "published": "Tue, 28 Jul 2026 18:44:28 GMT",
+      "summary": "Warner Bros. Deal Collapse Would Cost the Ellisons $9.8 Billion\nLarry Ellison and his family would be on the hook for $9.8 billion if Paramount Skydance Corp.’s deal to buy Warner Bros. Discovery Inc. falls apart."
+    },
+    {
+      "title": "S&P 500 Rises as Oil Drop Outweighs Chip Selloff: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-07-27/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "Wall Street traders kept driving a rotation out of high-profile chipmakers and into a broader category of companies tuned to improving growth prospects, with most stocks rising amid strong corporate earnings.",
+      "raw_summary": "A rotation that has seen investors bail from high-profile chipmakers in favor of more economically sensitive industries picked up speed, with stocks rising on strong earnings and a drop in oil prices.",
       "source": "Bloomberg Markets",
       "published": "Mon, 27 Jul 2026 22:08:16 GMT",
-      "summary": "Most Stocks Rise as Earnings Outweigh Chip Rout: Markets Wrap\nWall Street traders kept driving a rotation out of high-profile chipmakers and into a broader category of companies tuned to improving growth prospects, with most stocks rising amid strong corporate earnings."
+      "summary": "S&P 500 Rises as Oil Drop Outweighs Chip Selloff: Markets Wrap\nA rotation that has seen investors bail from high-profile chipmakers in favor of more economically sensitive industries picked up speed, with stocks rising on strong earnings and a drop in oil prices."
     },
     {
-      "title": "First Brands Bankruptcy: Lawsuits Around Alleged Fraud Seek to Recoup Billions",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-28/first-brands-bankruptcy-lawsuits-around-alleged-fraud-seek-to-recoup-billions",
-      "raw_summary": "The pitch to creditors of bankrupt First Brands goes like this: Stick with us just a while longer, and you’ll get a full recovery as we claw back $2 billion from suing a long list of insiders and business partners who allegedly perpetrated a widespread fraud.",
+      "title": "AI Bond Binge Enters New Era of Weak Demand and Sky-High Prices",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-27/blackrock-raises-12-5-billion-of-debt-for-meta-data-center",
+      "raw_summary": "For months, Big Tech has flooded debt markets with mega bonds that were initially snatched up by investors keen to get exposure to the artificial intelligence boom. As demand wanes and bubble concerns mount, those deals are becoming harder and costlier to get over the line.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 28 Jul 2026 13:20:17 GMT",
-      "summary": "First Brands Bankruptcy: Lawsuits Around Alleged Fraud Seek to Recoup Billions\nThe pitch to creditors of bankrupt First Brands goes like this: Stick with us just a while longer, and you’ll get a full recovery as we claw back $2 billion from suing a long list of insiders and business partners who all"
+      "published": "Mon, 27 Jul 2026 21:47:14 GMT",
+      "summary": "AI Bond Binge Enters New Era of Weak Demand and Sky-High Prices\nFor months, Big Tech has flooded debt markets with mega bonds that were initially snatched up by investors keen to get exposure to the artificial intelligence boom. As demand wanes and bubble concerns mount, those deals are becoming har"
     },
     {
-      "title": "Latest Oil Market News and Analysis for July 28",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-27/latest-oil-market-news-and-analysis-for-july-28",
-      "raw_summary": "Oil extended its decline after President Donald Trump said that the US and Iran were engaged in talks to end the Middle East conflict, with both sides continuing to hold off on attacks.",
+      "title": "TD Warns Dollar Set to Drop as Market Misprices Fed Rate Risk",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-28/td-warns-dollar-set-to-drop-as-market-misprices-fed-rate-risk",
+      "raw_summary": "The US dollar will weaken if the Federal Reserve leaves interest rates unchanged this week, according to TD Securities.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 27 Jul 2026 22:02:24 GMT",
-      "summary": "Latest Oil Market News and Analysis for July 28\nOil extended its decline after President Donald Trump said that the US and Iran were engaged in talks to end the Middle East conflict, with both sides continuing to hold off on attacks."
+      "published": "Tue, 28 Jul 2026 17:58:18 GMT",
+      "summary": "TD Warns Dollar Set to Drop as Market Misprices Fed Rate Risk\nThe US dollar will weaken if the Federal Reserve leaves interest rates unchanged this week, according to TD Securities."
     },
     {
-      "title": "Invesco, Rathbones Cut Gilts as UK Enters ‘Uncertain Territory’",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-28/invesco-and-rathbones-cut-gilts-on-uk-exposure-to-politics-oil",
-      "raw_summary": "Fund managers including Invesco Ltd., Ninety One UK Ltd., Rathbones Asset Management Ltd. and W1M Group Ltd. have soured on UK government debt this year as worries about inflation and political instability prompt them to look elsewhere.",
-      "source": "Bloomberg Markets",
-      "published": "Tue, 28 Jul 2026 09:10:55 GMT",
-      "summary": "Invesco, Rathbones Cut Gilts as UK Enters ‘Uncertain Territory’\nFund managers including Invesco Ltd., Ninety One UK Ltd., Rathbones Asset Management Ltd. and W1M Group Ltd. have soured on UK government debt this year as worries about inflation and political instability prompt them to look elsewhere."
-    },
-    {
-      "title": "Core Scientific lands AMD AI deal as bitcoin mining operation winds down",
-      "link": "https://www.coindesk.com/business/2026/07/28/core-scientific-lands-amd-ai-deal-as-bitcoin-mining-operation-winds-down",
+      "title": "Wall Street veteran Don Wilson says regulators are getting perps all wrong",
+      "link": "https://www.coindesk.com/markets/2026/07/28/wall-street-veteran-don-wilson-says-regulators-are-getting-crypto-s-biggest-trading-innovation-all-wrong",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 28 Jul 2026 12:46:05 +0000",
-      "summary": "Core Scientific lands AMD AI deal as bitcoin mining operation winds down\n"
+      "published": "Tue, 28 Jul 2026 17:23:35 +0000",
+      "summary": "Wall Street veteran Don Wilson says regulators are getting perps all wrong\n"
     },
     {
-      "title": "Binance makes fighting crypto crime more difficult, says new report",
-      "link": "https://www.coindesk.com/business/2026/07/28/binance-makes-fighting-crypto-crime-more-difficult-says-new-nyt-article",
+      "title": "BlackRock, Fidelity, other Wall Street giants back the Clarity Act",
+      "link": "https://www.coindesk.com/policy/2026/07/28/blackrock-fidelity-other-wall-street-giants-back-the-clarity-act",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 28 Jul 2026 12:24:02 +0000",
-      "summary": "Binance makes fighting crypto crime more difficult, says new report\n"
+      "published": "Tue, 28 Jul 2026 16:08:19 +0000",
+      "summary": "BlackRock, Fidelity, other Wall Street giants back the Clarity Act\n"
     },
     {
-      "title": "Apple kept fake bitcoin wallet on App Store after $875,000 theft report, lawsuit alleges",
-      "link": "https://www.coindesk.com/business/2026/07/28/apple-kept-fake-bitcoin-wallet-on-app-store-after-usd875-000-theft-report-lawsuit-alleges",
+      "title": "Ethereum startup EthSystems bets privacy is key to getting banks on public blockchains",
+      "link": "https://www.coindesk.com/tech/2026/07/28/ethereum-startup-ethsystems-bets-privacy-is-key-to-getting-banks-on-public-blockchains",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 28 Jul 2026 11:59:17 +0000",
-      "summary": "Apple kept fake bitcoin wallet on App Store after $875,000 theft report, lawsuit alleges\n"
+      "published": "Tue, 28 Jul 2026 15:46:33 +0000",
+      "summary": "Ethereum startup EthSystems bets privacy is key to getting banks on public blockchains\n"
     },
     {
-      "title": "Bitcoin’s recent stability hasn't been enough to spark a broader altcoin rally",
-      "link": "https://www.coindesk.com/daybook-us/2026/07/28/bitcoin-s-recent-stability-hasn-t-been-enough-to-spark-a-broader-altcoin-rally",
+      "title": "Russia outlines new digital depository rules ahead of fall crypto framework roll-out",
+      "link": "https://www.coindesk.com/policy/2026/07/28/russia-outlines-new-digital-depository-rules-ahead-of-fall-crypto-framework-roll-out",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 28 Jul 2026 11:37:31 +0000",
-      "summary": "Bitcoin’s recent stability hasn't been enough to spark a broader altcoin rally\n"
+      "published": "Tue, 28 Jul 2026 14:49:50 +0000",
+      "summary": "Russia outlines new digital depository rules ahead of fall crypto framework roll-out\n"
     },
     {
-      "title": "Bitcoin drops as South Korean stocks tumble, Senate shelves crypto Clarity Act",
-      "link": "https://www.coindesk.com/markets/2026/07/28/bitcoin-drops-as-south-korean-stocks-tumble-senate-shelves-crypto-clarity-act",
+      "title": "Hyperliquid is taking crypto perps deep into DeFi’s ‘money LEGO’ land",
+      "link": "https://www.coindesk.com/business/2026/07/28/hyperliquid-is-taking-crypto-perps-deep-into-defi-s-money-lego-land",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 28 Jul 2026 11:09:16 +0000",
-      "summary": "Bitcoin drops as South Korean stocks tumble, Senate shelves crypto Clarity Act\n"
+      "published": "Tue, 28 Jul 2026 14:49:01 +0000",
+      "summary": "Hyperliquid is taking crypto perps deep into DeFi’s ‘money LEGO’ land\n"
     }
   ]
 }
