@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T01:52:00.345346+00:00",
+  "generated_at": "2026-07-29T08:24:36.933895+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "FBI Seizes NetNut Proxy Platform, Popa Botnet\nThe Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: "
     },
     {
+      "title": "Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates",
+      "link": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html",
+      "raw_summary": "Source code for the Flying Eagle Android remote access trojan (RAT) framework is circulating through criminal Telegram channels. Hunt.io and independent researcher NetAskari traced matching control panels and certificates to 170 internet servers.\n\nThey linked the framework to a fake \"公安一网通办\" Public Security service application targeting Android users in China. The kit supports payment-password",
+      "source": "The Hacker News",
+      "published": "Wed, 29 Jul 2026 12:37:23 +0530",
+      "summary": "Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates\nSource code for the Flying Eagle Android remote access trojan (RAT) framework is circulating through criminal Telegram channels. Hunt.io and independent researcher NetAskari traced matching control panels and certificates"
+    },
+    {
+      "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
+      "link": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
+      "raw_summary": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment, and also hacked multiple third-party accounts and services as part of the attack.\n\nThe latest disclosure shows that the security incident, which stemmed from an internal security test, was more extensive in scope than",
+      "source": "The Hacker News",
+      "published": "Wed, 29 Jul 2026 12:15:02 +0530",
+      "summary": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach\nOpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment, and also hacked multiple third-party acco"
+    },
+    {
+      "title": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
+      "link": "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html",
+      "raw_summary": "Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family.\n\nThe list of affected packages is as follows -\n\n\n  @joyfill/layouts@0.1.2-2773.beta.0\n  @joyfill/components@4.0.0-rc24-2773-beta.4\n\nThe two packages \"contain an import-time JavaScript implant that resolves encrypted code",
+      "source": "The Hacker News",
+      "published": "Wed, 29 Jul 2026 09:50:57 +0530",
+      "summary": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js\nBeta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family.\n\nThe list of affected packages is as follows -\n\n\n  "
+    },
+    {
       "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
       "link": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
       "raw_summary": "Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128.\n\nThe HAWK attack exploits a previously unused symmetry in the lattice behind the signature scheme. Anthropic's released implementation gives an expected end-to-end runtime of about three hours and 42 minutes on a 96-core server",
@@ -59,68 +83,44 @@
       "summary": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process\nA new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process.\n\nIf that happens, Tengu's other persistence mechanisms get another c"
     },
     {
-      "title": "24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login",
-      "link": "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html",
-      "raw_summary": "Cybersecurity researchers have sounded an alert after finding more than 36,000 Baseboard Management Controller (BMC) management interfaces exposing Intelligent Platform Management Interface (IPMI) protocol to the public internet.\n\nOf the 36,872 internet-exposed server-management interfaces running IPMI, 24,650 have been found to disclose password-derived authentication hashes before login due to",
-      "source": "The Hacker News",
-      "published": "Tue, 28 Jul 2026 20:11:36 +0530",
-      "summary": "24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login\nCybersecurity researchers have sounded an alert after finding more than 36,000 Baseboard Management Controller (BMC) management interfaces exposing Intelligent Platform Management Interface (IPMI) protocol to the public internet"
-    },
-    {
-      "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
-      "link": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
-      "raw_summary": "JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment.\n\nArtifactory is JFrog's software repository manager. OpenAI says the models then escalated privileges and moved laterally until they reached an internet-connected node. JFrog says it has since developed and released fixes for cloud",
-      "source": "The Hacker News",
-      "published": "Tue, 28 Jul 2026 19:03:47 +0530",
-      "summary": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach\nJFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment.\n\nArtifactory is JFrog's software repository mana"
-    },
-    {
-      "title": "Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root",
-      "link": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html",
-      "raw_summary": "OpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network services enabled by default.\n\nThe critical issue, tracked as CVE-2026-53921 and rated 9.8 on CVSS 3.1 in OpenWrt's GitHub advisory, lets an unauthenticated attacker able to reach the DHCPv6 server overwrite a stack buffer in odhcpd through a crafted DHCPv6",
-      "source": "The Hacker News",
-      "published": "Tue, 28 Jul 2026 18:26:14 +0530",
-      "summary": "Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root\nOpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network services enabled by default.\n\nThe critical issue, tracked as CVE-2026-53921 and rat"
-    },
-    {
-      "title": "Show HN: Learning Rust by writing a Markdown to HTML compiler",
-      "link": "https://andreadimatteo.com/md-to-html-compiler.html",
-      "raw_summary": "<p>Hi HN,<p>I'm new to Rust and, after half of `The Rust Programming Language` I decided to delve into a project I would actually use: a markdown to html compiler that actually serves my micro-blog (I started just right after publishing the project hehe). The project is intentionally small and one-file contained: I wanted to have the full picture in mind.<p>I'm open to comments, suggestions and PRs. If you asked me more convincing arguments to \"why did you do it?\" rather than \"to learn Rust\" I would respond with: LLMs are effectively a new type of web users today and will be more and more present in the future. Having a full, well formatted, .md interface of a website can make it easier for them to access the content.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49092151\">https://news.ycombinator.com/item?id=49092151</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "title": "More Tailscale tricks for your jailbroken Kindle",
+      "link": "https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes",
+      "raw_summary": "<p>Article URL: <a href=\"https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes\">https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49093569\">https://news.ycombinator.com/item?id=49093569</a></p>\n<p>Points: 138</p>\n<p># Comments: 40</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 29 Jul 2026 01:04:30 +0000",
-      "summary": "Show HN: Learning Rust by writing a Markdown to HTML compiler\n<p>Hi HN,<p>I'm new to Rust and, after half of `The Rust Programming Language` I decided to delve into a project I would actually use: a markdown to html compiler that actually serves my micro-blog (I started just right after publishing t"
+      "published": "Wed, 29 Jul 2026 04:58:46 +0000",
+      "summary": "More Tailscale tricks for your jailbroken Kindle\n<p>Article URL: <a href=\"https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes\">https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49093569\">https://news.ycombinat"
     },
     {
-      "title": "Industry Brief: Private 5G for Manufacturing and Industrial Sites [pdf]",
-      "link": "https://framerusercontent.com/assets/HV1dtfKZyXK2aknO6go8Cemejl8.pdf",
-      "raw_summary": "<p>Article URL: <a href=\"https://framerusercontent.com/assets/HV1dtfKZyXK2aknO6go8Cemejl8.pdf\">https://framerusercontent.com/assets/HV1dtfKZyXK2aknO6go8Cemejl8.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49091994\">https://news.ycombinator.com/item?id=49091994</a></p>\n<p>Points: 5</p>\n<p># Comments: 2</p>",
+      "title": "Cracking Windows Open: Porting RADV to Win32",
+      "link": "https://www.collabora.com/news-and-blog/news-and-events/cracking-windows-open-porting-radv-to-win32.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.collabora.com/news-and-blog/news-and-events/cracking-windows-open-porting-radv-to-win32.html\">https://www.collabora.com/news-and-blog/news-and-events/cracking-windows-open-porting-radv-to-win32.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49093435\">https://news.ycombinator.com/item?id=49093435</a></p>\n<p>Points: 35</p>\n<p># Comments: 8</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 29 Jul 2026 00:44:26 +0000",
-      "summary": "Industry Brief: Private 5G for Manufacturing and Industrial Sites [pdf]\n<p>Article URL: <a href=\"https://framerusercontent.com/assets/HV1dtfKZyXK2aknO6go8Cemejl8.pdf\">https://framerusercontent.com/assets/HV1dtfKZyXK2aknO6go8Cemejl8.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/i"
+      "published": "Wed, 29 Jul 2026 04:30:47 +0000",
+      "summary": "Cracking Windows Open: Porting RADV to Win32\n<p>Article URL: <a href=\"https://www.collabora.com/news-and-blog/news-and-events/cracking-windows-open-porting-radv-to-win32.html\">https://www.collabora.com/news-and-blog/news-and-events/cracking-windows-open-porting-radv-to-win32.html</a></p>\n<p>Comments"
     },
     {
-      "title": "Lightweight Spring Boot Monitoring Without Prometheus and Grafana",
-      "link": "https://pvrlabs.xyz/articles/lightweight-spring-boot-monitoring.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://pvrlabs.xyz/articles/lightweight-spring-boot-monitoring.html\">https://pvrlabs.xyz/articles/lightweight-spring-boot-monitoring.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49091895\">https://news.ycombinator.com/item?id=49091895</a></p>\n<p>Points: 10</p>\n<p># Comments: 0</p>",
+      "title": "User Interfaces of the Demo Scene",
+      "link": "https://www.datagubbe.se/scenegui/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.datagubbe.se/scenegui/\">https://www.datagubbe.se/scenegui/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49093434\">https://news.ycombinator.com/item?id=49093434</a></p>\n<p>Points: 125</p>\n<p># Comments: 21</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 29 Jul 2026 00:32:08 +0000",
-      "summary": "Lightweight Spring Boot Monitoring Without Prometheus and Grafana\n<p>Article URL: <a href=\"https://pvrlabs.xyz/articles/lightweight-spring-boot-monitoring.html\">https://pvrlabs.xyz/articles/lightweight-spring-boot-monitoring.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id"
+      "published": "Wed, 29 Jul 2026 04:30:36 +0000",
+      "summary": "User Interfaces of the Demo Scene\n<p>Article URL: <a href=\"https://www.datagubbe.se/scenegui/\">https://www.datagubbe.se/scenegui/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49093434\">https://news.ycombinator.com/item?id=49093434</a></p>\n<p>Points: 125</p>\n<p># Comments: 2"
     },
     {
-      "title": "The Difference Between a Button and a Link",
-      "link": "https://unplannedobsolescence.com/blog/buttons-vs-links/",
-      "raw_summary": "<p>Article URL: <a href=\"https://unplannedobsolescence.com/blog/buttons-vs-links/\">https://unplannedobsolescence.com/blog/buttons-vs-links/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49091738\">https://news.ycombinator.com/item?id=49091738</a></p>\n<p>Points: 28</p>\n<p># Comments: 12</p>",
+      "title": "Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-Design",
+      "link": "https://transformer-transformer.github.io/",
+      "raw_summary": "<p>Article URL: <a href=\"https://transformer-transformer.github.io/\">https://transformer-transformer.github.io/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49093232\">https://news.ycombinator.com/item?id=49093232</a></p>\n<p>Points: 45</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 29 Jul 2026 00:12:14 +0000",
-      "summary": "The Difference Between a Button and a Link\n<p>Article URL: <a href=\"https://unplannedobsolescence.com/blog/buttons-vs-links/\">https://unplannedobsolescence.com/blog/buttons-vs-links/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49091738\">https://news.ycombinator.com/item?id"
+      "published": "Wed, 29 Jul 2026 03:52:29 +0000",
+      "summary": "Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-Design\n<p>Article URL: <a href=\"https://transformer-transformer.github.io/\">https://transformer-transformer.github.io/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49093232\">https://news.ycombinator.co"
     },
     {
-      "title": "Hubble: Open-source notetaking app for you and your agents",
-      "link": "https://www.hubble.md/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.hubble.md/\">https://www.hubble.md/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49091730\">https://news.ycombinator.com/item?id=49091730</a></p>\n<p>Points: 27</p>\n<p># Comments: 6</p>",
+      "title": "Hooray for the Sockets Interface",
+      "link": "https://blog.apnic.net/2026/07/28/hooray-for-the-sockets-interface/",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.apnic.net/2026/07/28/hooray-for-the-sockets-interface/\">https://blog.apnic.net/2026/07/28/hooray-for-the-sockets-interface/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49092754\">https://news.ycombinator.com/item?id=49092754</a></p>\n<p>Points: 27</p>\n<p># Comments: 16</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 29 Jul 2026 00:11:23 +0000",
-      "summary": "Hubble: Open-source notetaking app for you and your agents\n<p>Article URL: <a href=\"https://www.hubble.md/\">https://www.hubble.md/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49091730\">https://news.ycombinator.com/item?id=49091730</a></p>\n<p>Points: 27</p>\n<p># Comments: 6"
+      "published": "Wed, 29 Jul 2026 02:25:29 +0000",
+      "summary": "Hooray for the Sockets Interface\n<p>Article URL: <a href=\"https://blog.apnic.net/2026/07/28/hooray-for-the-sockets-interface/\">https://blog.apnic.net/2026/07/28/hooray-for-the-sockets-interface/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49092754\">https://news.ycombinator"
     },
     {
       "title": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents",
@@ -163,6 +163,14 @@
       "summary": "Ozlo’s Sleepbuds 2 build on Bose’s sleep earbud legacy\nOzlo’s first major update to its sleep earbuds introduces longer battery life, improved connectivity, enhanced audio, and new sleep features as the startup continues the product line once abandoned by Bose."
     },
     {
+      "title": "Audi has a new flagship designed with the US in mind: The 2027 Q9",
+      "link": "https://arstechnica.com/cars/2026/07/audi-has-a-new-flagship-designed-with-the-us-in-mind-the-2027-q9/",
+      "raw_summary": "The new full-size flagship SUV starts at $87,700 when it goes on sale in Q4.",
+      "source": "Ars Technica - All content",
+      "published": "Wed, 29 Jul 2026 01:00:36 +0000",
+      "summary": "Audi has a new flagship designed with the US in mind: The 2027 Q9\nThe new full-size flagship SUV starts at $87,700 when it goes on sale in Q4."
+    },
+    {
       "title": "Reaction wheel failures leave Swift rescue mission spinning in orbit",
       "link": "https://arstechnica.com/space/2026/07/reaction-wheel-failures-leave-swift-rescue-mission-spinning-in-orbit/",
       "raw_summary": "\"Preliminary investigation shows that two of Link's three reaction wheels currently are not operable.\"",
@@ -195,132 +203,124 @@
       "summary": "eBay pays $46M to journalists it targeted in bizarre harassment campaign\neBay sent bloody pig mask and other macabre deliveries to journalists' home."
     },
     {
-      "title": "Study: Dinosaurs were charbroiled after Chicxulub impact",
-      "link": "https://arstechnica.com/science/2026/07/dust-cloud-from-dino-killing-asteroid-charbroiled-the-earth/",
-      "raw_summary": "“We're in the realm where we might be essentially killing off everything within that first hour or two.\"",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 28 Jul 2026 20:51:45 +0000",
-      "summary": "Study: Dinosaurs were charbroiled after Chicxulub impact\n“We're in the realm where we might be essentially killing off everything within that first hour or two.\""
-    },
-    {
-      "title": "US says it intercepted ‘surprise’ Iranian missile attack",
-      "link": "https://www.ft.com/content/509a6a94-8342-49c1-965f-66abff88b977?syn-25a6b1a6=1",
-      "raw_summary": "Incident ends a days-long pause in direct air strikes",
+      "title": "St James’s Place inflows drop as UK pensions tax change looms",
+      "link": "https://www.ft.com/content/18508c64-5951-4003-a3f1-ce7f2ad0f8ec?syn-25a6b1a6=1",
+      "raw_summary": "Withdrawals at wealth manager increase as people take money from their pension pots",
       "source": "World",
-      "published": "Wed, 29 Jul 2026 00:44:50 GMT",
-      "summary": "US says it intercepted ‘surprise’ Iranian missile attack\nIncident ends a days-long pause in direct air strikes"
+      "published": "Wed, 29 Jul 2026 07:13:32 GMT",
+      "summary": "St James’s Place inflows drop as UK pensions tax change looms\nWithdrawals at wealth manager increase as people take money from their pension pots"
     },
     {
-      "title": "US poised to impose new Russia sanctions package",
-      "link": "https://www.ft.com/content/612c3693-6b2e-483d-a0f4-ac649ab7d191?syn-25a6b1a6=1",
-      "raw_summary": "Measures are the latest sign of Washington’s warming relations with Ukrainian President Volodymyr Zelenskyy",
-      "source": "World",
-      "published": "Wed, 29 Jul 2026 00:40:53 GMT",
-      "summary": "US poised to impose new Russia sanctions package\nMeasures are the latest sign of Washington’s warming relations with Ukrainian President Volodymyr Zelenskyy"
-    },
-    {
-      "title": "SK Hynix profits soar sixfold on AI boom",
+      "title": "Tech rout roils markets after SK Hynix profits disappoint",
       "link": "https://www.ft.com/content/e8e3a60a-059c-45b5-bbe3-49add14fd343?syn-25a6b1a6=1",
-      "raw_summary": "Second-largest memory-chip maker says it won multiyear contracts with about 10 customers",
+      "raw_summary": "South Korean chip giant misses analyst expectations but insists risk of memory oversupply remains ‘limited’",
       "source": "World",
-      "published": "Wed, 29 Jul 2026 00:33:58 GMT",
-      "summary": "SK Hynix profits soar sixfold on AI boom\nSecond-largest memory-chip maker says it won multiyear contracts with about 10 customers"
+      "published": "Wed, 29 Jul 2026 06:56:59 GMT",
+      "summary": "Tech rout roils markets after SK Hynix profits disappoint\nSouth Korean chip giant misses analyst expectations but insists risk of memory oversupply remains ‘limited’"
     },
     {
-      "title": "Hedge funds face demands to stump up collateral as AI stocks tumble",
-      "link": "https://www.ft.com/content/5c8a2816-8f28-4257-8707-b22ebaa6089c?syn-25a6b1a6=1",
-      "raw_summary": "Scale of losses in recent weeks sparks growing risk aversion on Wall Street",
+      "title": "Asia’s richest man Adani weighs bid for UK’s top port operator",
+      "link": "https://www.ft.com/content/be6ae5f1-01fd-41d2-bd0f-e2f492076b6e?syn-25a6b1a6=1",
+      "raw_summary": "Indian industrialist considers offer for Associated British Ports as two Canadian pension funds prepare to sell stakes",
       "source": "World",
-      "published": "Tue, 28 Jul 2026 23:18:19 GMT",
-      "summary": "Hedge funds face demands to stump up collateral as AI stocks tumble\nScale of losses in recent weeks sparks growing risk aversion on Wall Street"
+      "published": "Wed, 29 Jul 2026 06:42:09 GMT",
+      "summary": "Asia’s richest man Adani weighs bid for UK’s top port operator\nIndian industrialist considers offer for Associated British Ports as two Canadian pension funds prepare to sell stakes"
     },
     {
-      "title": "Higher inflation to cut value of UK public spending by £24bn, think-tank says",
-      "link": "https://www.ft.com/content/37ab413d-42f1-4da3-af2f-b8c095f2c920?syn-25a6b1a6=1",
-      "raw_summary": "Niesr calls for new policy commitments to be fully funded owing to impact of Iran war",
+      "title": "EU crisis chief warns wildfires are a risk from scaling back green agenda",
+      "link": "https://www.ft.com/content/12fda371-31f6-4c88-899f-36d2cf147e00?syn-25a6b1a6=1",
+      "raw_summary": "Also in this newsletter: Hungary slows Ukraine’s EU accession despite Orbán’s departure",
       "source": "World",
-      "published": "Tue, 28 Jul 2026 23:01:09 GMT",
-      "summary": "Higher inflation to cut value of UK public spending by £24bn, think-tank says\nNiesr calls for new policy commitments to be fully funded owing to impact of Iran war"
+      "published": "Wed, 29 Jul 2026 05:03:35 GMT",
+      "summary": "EU crisis chief warns wildfires are a risk from scaling back green agenda\nAlso in this newsletter: Hungary slows Ukraine’s EU accession despite Orbán’s departure"
     },
     {
-      "title": "Oil Rises on Iran, Stocks Wobble on AI Jitters: Markets Wrap",
+      "title": "Bank of Japan normalisation will continue amid market tensions",
+      "link": "https://www.ft.com/content/5f41c99b-a866-45d5-844b-1114969175fc",
+      "raw_summary": "Read the BoJ’s July forecast from the FT’s Monetary Policy Radar team",
+      "source": "World",
+      "published": "Wed, 29 Jul 2026 05:00:03 GMT",
+      "summary": "Bank of Japan normalisation will continue amid market tensions\nRead the BoJ’s July forecast from the FT’s Monetary Policy Radar team"
+    },
+    {
+      "title": "Citadel Securities’ Fed Rate Hike Call Adds to Market Angst",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-28/citadel-securities-fed-rate-hike-call-adds-to-market-angst",
+      "raw_summary": "Ahead of the Federal Reserve’s policy decision later Wednesday, bond traders are on edge. While most expect policymakers to leave interest rates unchanged, prominent voices across Wall Street are putting their weight behind a hike in just the second meeting run by new Chairman Kevin Warsh.",
+      "source": "Bloomberg Markets",
+      "published": "Tue, 28 Jul 2026 19:44:00 GMT",
+      "summary": "Citadel Securities’ Fed Rate Hike Call Adds to Market Angst\nAhead of the Federal Reserve’s policy decision later Wednesday, bond traders are on edge. While most expect policymakers to leave interest rates unchanged, prominent voices across Wall Street are putting their weight behind a hike in just t"
+    },
+    {
+      "title": "Correlation to Return Into Month-End: 3-Minutes MLIV",
+      "link": "https://www.bloomberg.com/news/videos/2026-07-29/correlation-to-return-into-month-end-3-minutes-mliv-video",
+      "raw_summary": "Lizzy Burden, Anna Edwards and Mark Cudmore break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\" (Source: Bloomberg)",
+      "source": "Bloomberg Markets",
+      "published": "Wed, 29 Jul 2026 07:43:46 GMT",
+      "summary": "Correlation to Return Into Month-End: 3-Minutes MLIV\nLizzy Burden, Anna Edwards and Mark Cudmore break down today's key themes for analysts and investors on \"Bloomberg: The Opening Trade.\" (Source: Bloomberg)"
+    },
+    {
+      "title": "US Stocks Rise as Fed Call and AI Earnings Loom: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-07-28/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "Oil climbed and Treasuries fell after fighting erupted in the Middle East, ending several days of calm and renewing concerns over disruptions to energy supplies. Asian stocks swung between gains and losses.",
+      "raw_summary": "US stocks edged higher as traders held off on major bets ahead of a US interest-rate decision where markets see room for a hike and earnings from two of the world’s biggest spenders on artificial intelligence.",
       "source": "Bloomberg Markets",
       "published": "Tue, 28 Jul 2026 22:15:52 GMT",
-      "summary": "Oil Rises on Iran, Stocks Wobble on AI Jitters: Markets Wrap\nOil climbed and Treasuries fell after fighting erupted in the Middle East, ending several days of calm and renewing concerns over disruptions to energy supplies. Asian stocks swung between gains and losses."
+      "summary": "US Stocks Rise as Fed Call and AI Earnings Loom: Markets Wrap\nUS stocks edged higher as traders held off on major bets ahead of a US interest-rate decision where markets see room for a hike and earnings from two of the world’s biggest spenders on artificial intelligence."
     },
     {
-      "title": "Australia Core Prices Cooler Than Expected, Easing RBA Pressure",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-29/australia-core-prices-cooler-than-expected-easing-rba-pressure",
-      "raw_summary": "Australia’s core inflation came in cooler than anticipated last quarter, easing pressure on the Reserve Bank for a near-term policy adjustment and allowing it scope to keep assessing the economic outlook.",
+      "title": "Azimut Expands Bet on Turkey With Asset Manager Acquisition",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-29/azimut-expands-bet-on-turkey-with-asset-manager-acquisition",
+      "raw_summary": "Azimut Holding SpA agreed to buy Turkey’s Yapi Kredi Portfoy Yonetimi AS, in a deal that will make the Italian asset and wealth manager the largest private portfolio manager in the country.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 29 Jul 2026 01:31:59 GMT",
-      "summary": "Australia Core Prices Cooler Than Expected, Easing RBA Pressure\nAustralia’s core inflation came in cooler than anticipated last quarter, easing pressure on the Reserve Bank for a near-term policy adjustment and allowing it scope to keep assessing the economic outlook."
+      "published": "Wed, 29 Jul 2026 07:35:11 GMT",
+      "summary": "Azimut Expands Bet on Turkey With Asset Manager Acquisition\nAzimut Holding SpA agreed to buy Turkey’s Yapi Kredi Portfoy Yonetimi AS, in a deal that will make the Italian asset and wealth manager the largest private portfolio manager in the country."
     },
     {
-      "title": "Latest Oil Market News and Analysis for July 29",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-28/latest-oil-market-news-and-analysis-for-july-29",
-      "raw_summary": "Oil surged as fresh fighting erupted in the Middle East, casting a pall over diplomatic efforts to end the war and threatening further disruptions to energy flows.",
+      "title": "Multiple Dead After 7.1-Magnitude Quake Hits Japan",
+      "link": "https://www.bloomberg.com/news/videos/2026-07-29/multiple-dead-after-7-1-magnitude-quake-hits-japan-video",
+      "raw_summary": "Rescuers continued the hunt for survivors in the ruins of a shopping mall on the southwestern island of Kyushu on Wednesday, after a major earthquake in which multiple people have been confirmed dead.\n\nThe quake hit a region that is a hub for Japan's semiconductor industry, housing names like TSMC and Tokyo Electron. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Tue, 28 Jul 2026 22:01:33 GMT",
-      "summary": "Latest Oil Market News and Analysis for July 29\nOil surged as fresh fighting erupted in the Middle East, casting a pall over diplomatic efforts to end the war and threatening further disruptions to energy flows."
+      "published": "Wed, 29 Jul 2026 07:34:26 GMT",
+      "summary": "Multiple Dead After 7.1-Magnitude Quake Hits Japan\nRescuers continued the hunt for survivors in the ruins of a shopping mall on the southwestern island of Kyushu on Wednesday, after a major earthquake in which multiple people have been confirmed dead.\n\nThe quake hit a region that is a hub for Japan'"
     },
     {
-      "title": "Japanese Construction Shares Gain After Deadly Kyushu Earthquake",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-28/japan-quake-may-weigh-on-shares-including-aeon-nippon-paper",
-      "raw_summary": "Japanese construction-related shares rose on expectations of rebuilding demand following a magnitude 7.1 earthquake on the southwestern island of Kyushu.",
-      "source": "Bloomberg Markets",
-      "published": "Tue, 28 Jul 2026 23:45:22 GMT",
-      "summary": "Japanese Construction Shares Gain After Deadly Kyushu Earthquake\nJapanese construction-related shares rose on expectations of rebuilding demand following a magnitude 7.1 earthquake on the southwestern island of Kyushu."
-    },
-    {
-      "title": "One AI Chipmaker Trade Blew Up $60 Million in Crypto Bets",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-29/one-ai-chipmaker-trade-blew-up-60-million-in-crypto-bets",
-      "raw_summary": "The crypto industry learned an expensive lesson this week when a Korean chip manufacturer’s shares suddenly dropped.",
-      "source": "Bloomberg Markets",
-      "published": "Wed, 29 Jul 2026 01:20:03 GMT",
-      "summary": "One AI Chipmaker Trade Blew Up $60 Million in Crypto Bets\nThe crypto industry learned an expensive lesson this week when a Korean chip manufacturer’s shares suddenly dropped."
-    },
-    {
-      "title": "Coinbase wants to be Canada’s ‘everything exchange,’ but says clearer rules are needed first",
-      "link": "https://www.coindesk.com/policy/2026/07/28/coinbase-wants-to-be-canada-s-everything-exchange-but-says-clearer-rules-are-needed-first",
+      "title": "SpaceX is a battleground Solana must win",
+      "link": "https://www.coindesk.com/opinion/2026/07/29/spacex-is-a-battleground-solana-must-win",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 28 Jul 2026 23:50:38 +0000",
-      "summary": "Coinbase wants to be Canada’s ‘everything exchange,’ but says clearer rules are needed first\n"
+      "published": "Wed, 29 Jul 2026 08:00:00 +0000",
+      "summary": "SpaceX is a battleground Solana must win\n"
     },
     {
-      "title": "'Anything remotely dovish' from Fed could be good for bitcoin, says analyst",
-      "link": "https://www.coindesk.com/markets/2026/07/28/remotely-dovish-fed-could-be-good-for-bitcoin-says-analyst",
+      "title": "Live updates: Bitcoin clears $64,000 in Asia hours ahead of Fed decision",
+      "link": "https://www.coindesk.com/tech/2026/07/29/live-updates-bitcoin-clears-usd64-000-in-asia-hours-ahead-of-fed-decision",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 28 Jul 2026 20:23:31 +0000",
-      "summary": "'Anything remotely dovish' from Fed could be good for bitcoin, says analyst\n"
+      "published": "Wed, 29 Jul 2026 06:25:21 +0000",
+      "summary": "Live updates: Bitcoin clears $64,000 in Asia hours ahead of Fed decision\n"
     },
     {
-      "title": "Ondo drops tokenized asset blockchain plans for private, high-speed trading network",
-      "link": "https://www.coindesk.com/business/2026/07/28/ondo-drops-tokenized-asset-blockchain-plans-for-private-high-speed-trading-network",
+      "title": "Company behind AI trade that caused $60 million crypto liquidations to cover all losses",
+      "link": "https://www.coindesk.com/markets/2026/07/29/company-behind-ai-trade-that-caused-usd60-million-crypto-liquidations-to-cover-all-losses",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 28 Jul 2026 19:44:26 +0000",
-      "summary": "Ondo drops tokenized asset blockchain plans for private, high-speed trading network\n"
+      "published": "Wed, 29 Jul 2026 06:03:28 +0000",
+      "summary": "Company behind AI trade that caused $60 million crypto liquidations to cover all losses\n"
     },
     {
-      "title": "Wall Street veteran Don Wilson says regulators are getting perps all wrong",
-      "link": "https://www.coindesk.com/markets/2026/07/28/wall-street-veteran-don-wilson-says-regulators-are-getting-crypto-s-biggest-trading-innovation-all-wrong",
+      "title": "Citadel bets on a Fed rate hike Wednesday as bitcoin analysts call a hold. Someone will be wrong.",
+      "link": "https://www.coindesk.com/markets/2026/07/29/citadel-bets-on-a-fed-rate-hike-wednesday-as-bitcoin-analysts-call-a-hold-someone-will-be-wrong",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 28 Jul 2026 17:23:35 +0000",
-      "summary": "Wall Street veteran Don Wilson says regulators are getting perps all wrong\n"
+      "published": "Wed, 29 Jul 2026 05:37:38 +0000",
+      "summary": "Citadel bets on a Fed rate hike Wednesday as bitcoin analysts call a hold. Someone will be wrong.\n"
     },
     {
-      "title": "BlackRock, Fidelity, other Wall Street giants back the Clarity Act",
-      "link": "https://www.coindesk.com/policy/2026/07/28/blackrock-fidelity-other-wall-street-giants-back-the-clarity-act",
+      "title": "Bitcoin rises toward $64,000 as Korea's record chip crash leaves crypto untouched",
+      "link": "https://www.coindesk.com/markets/2026/07/29/bitcoin-rises-toward-usd64-000-as-korea-s-record-chip-crash-leaves-crypto-untouched",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 28 Jul 2026 16:08:19 +0000",
-      "summary": "BlackRock, Fidelity, other Wall Street giants back the Clarity Act\n"
+      "published": "Wed, 29 Jul 2026 05:32:27 +0000",
+      "summary": "Bitcoin rises toward $64,000 as Korea's record chip crash leaves crypto untouched\n"
     }
   ]
 }
