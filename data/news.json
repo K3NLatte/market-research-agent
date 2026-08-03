@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T09:27:07.754259+00:00",
+  "generated_at": "2026-08-03T14:20:16.670766+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "Felons, Fraudsters Flog Offensive Cybersecurity Startup\nA cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence "
     },
     {
+      "title": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
+      "link": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
+      "raw_summary": "This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Public systems, package feeds, hotel networks, and login flows all gave away more than intended.\n\nSome of it was clever. Most of it was just access left lying around: old bugs, exposed gear, poisoned dependencies, weak defaults, and tooling that moved from",
+      "source": "The Hacker News",
+      "published": "Mon, 03 Aug 2026 19:33:11 +0530",
+      "summary": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks\nThis week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Public systems, package feeds, hotel networks, and login flows al"
+    },
+    {
+      "title": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit",
+      "link": "https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html",
+      "raw_summary": "AI is moving incredibly fast, and every security leader is feeling the pressure to keep up.\n\nAI platforms like Claude, Codex and Cursor are already helping security teams write detections, investigate alerts, summarize incidents, and automate repetitive work. The conversation has evolved from whether AI belongs in the SOC, to where each type of AI delivers the most value.\n\nWith so many new AI",
+      "source": "The Hacker News",
+      "published": "Mon, 03 Aug 2026 17:00:00 +0530",
+      "summary": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit\nAI is moving incredibly fast, and every security leader is feeling the pressure to keep up.\n\nAI platforms like Claude, Codex and Cursor are already helping security teams write detections, investigate alerts, summarize incidents, and autom"
+    },
+    {
+      "title": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
+      "link": "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
+      "raw_summary": "An unknown Chinese-threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit.\n\nAttack surface management platform Censys said it identified the threat actor running more than 100 web properties, most of which are fake Amazon Web Services (AWS) sign-in pages on a domain that also hosts the exploit toolkit.\n\n\"",
+      "source": "The Hacker News",
+      "published": "Mon, 03 Aug 2026 16:19:06 +0530",
+      "summary": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS\nAn unknown Chinese-threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit.\n\nAttack surface management platform Censys said it identif"
+    },
+    {
+      "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
+      "link": "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html",
+      "raw_summary": "The Police National Legal Database (PNLD) has confirmed that police, government and customer contact information was compromised and published on the dark web.\n\nThe data included names, organisations and work email addresses belonging to police officers, police staff, criminal justice professionals, government partners and customers.\n\nThe incident, identified on July 26, also exposed some names",
+      "source": "The Hacker News",
+      "published": "Mon, 03 Aug 2026 14:43:56 +0530",
+      "summary": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web\nThe Police National Legal Database (PNLD) has confirmed that police, government and customer contact information was compromised and published on the dark web.\n\nThe data included names, organisations and work email addresses "
+    },
+    {
       "title": "Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable",
       "link": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
       "raw_summary": "Thermo Fisher Scientific has patched a flaw in select Applied Biosystems human identification software that could allow data files to be altered before analysis software loads them.\n\nThe vendor's July 31 security bulletin says nearly undetectable changes to .fsa and .hid outputs could occur if laboratory controls are circumvented.\n\nThermo Fisher tracks the issue as CVE-2026-17583 and rates it",
@@ -51,76 +83,68 @@
       "summary": "Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable\nThermo Fisher Scientific has patched a flaw in select Applied Biosystems human identification software that could allow data files to be altered before analysis software loads them.\n\nThe vendor's July 31 security bulle"
     },
     {
-      "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
-      "link": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
-      "raw_summary": "N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers.\n\nIts first fix was incomplete. CVE-2026-18577 affects N-central builds prior to 2026.3.1.7. N-able shipped build 2026.3.1.7 on August 2 as the first unaffected version.\n\nN-central is the remote monitoring and management platform",
-      "source": "The Hacker News",
-      "published": "Mon, 03 Aug 2026 12:11:46 +0530",
-      "summary": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete\nN-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers.\n\nIts first fix was incomplete. CVE-2026-18577"
-    },
-    {
-      "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
-      "link": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
-      "raw_summary": "Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, opening the artificial intelligence (AI) supply chain to security risk.\n\n\"These vulnerabilities are bypassing trust_remote_code, the safeguard designed to stop unreviewed code from running in the",
-      "source": "The Hacker News",
-      "published": "Mon, 03 Aug 2026 12:10:31 +0530",
-      "summary": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code\nThree high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, opening the artificia"
-    },
-    {
-      "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
-      "link": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
-      "raw_summary": "An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a firmware flaw in Coldcard, the Bitcoin-only hardware wallet made by Canadian firm Coinkite.\n\nA March 2021 firmware integration error routed seed generation to a deterministic software pseudorandom number generator (PRNG",
-      "source": "The Hacker News",
-      "published": "Sat, 01 Aug 2026 22:47:22 +0530",
-      "summary": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes\nAn attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a firmware flaw in Coldcard, the Bitcoin-on"
-    },
-    {
-      "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
-      "link": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
-      "raw_summary": "Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses.\n\nAdform detected the incident on July 27, 2026, removed the malicious code, notified affected clients, and reported it to authorities.\n\nAnyone who visited a site carrying the affected script on July 27 and copied a Bitcoin,",
-      "source": "The Hacker News",
-      "published": "Sat, 01 Aug 2026 14:33:07 +0530",
-      "summary": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites\nAttackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses.\n\nAdform detected the incident on July 27, 2026, "
-    },
-    {
-      "title": "Bonsai: Janestreet's UI Library",
-      "link": "https://github.com/janestreet/bonsai",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/janestreet/bonsai\">https://github.com/janestreet/bonsai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49152842\">https://news.ycombinator.com/item?id=49152842</a></p>\n<p>Points: 24</p>\n<p># Comments: 3</p>",
+      "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
+      "link": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui\">https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49155629\">https://news.ycombinator.com/item?id=49155629</a></p>\n<p>Points: 45</p>\n<p># Comments: 10</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 03 Aug 2026 08:29:57 +0000",
-      "summary": "Bonsai: Janestreet's UI Library\n<p>Article URL: <a href=\"https://github.com/janestreet/bonsai\">https://github.com/janestreet/bonsai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49152842\">https://news.ycombinator.com/item?id=49152842</a></p>\n<p>Points: 24</p>\n<p># Comments: "
+      "published": "Mon, 03 Aug 2026 13:34:43 +0000",
+      "summary": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video\n<p>Article URL: <a href=\"https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui\">https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=491"
     },
     {
-      "title": "Octane – React's programming model, compiled",
-      "link": "https://octanejs.dev",
-      "raw_summary": "<p>Article URL: <a href=\"https://octanejs.dev\">https://octanejs.dev</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49152640\">https://news.ycombinator.com/item?id=49152640</a></p>\n<p>Points: 11</p>\n<p># Comments: 3</p>",
+      "title": "SPF Record Syntax: Mechanisms, Qualifiers, Modifiers, and Macros",
+      "link": "https://dmarcguard.io/blog/spf-record-syntax/",
+      "raw_summary": "<p>Article URL: <a href=\"https://dmarcguard.io/blog/spf-record-syntax/\">https://dmarcguard.io/blog/spf-record-syntax/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49155626\">https://news.ycombinator.com/item?id=49155626</a></p>\n<p>Points: 7</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 03 Aug 2026 08:04:04 +0000",
-      "summary": "Octane – React's programming model, compiled\n<p>Article URL: <a href=\"https://octanejs.dev\">https://octanejs.dev</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49152640\">https://news.ycombinator.com/item?id=49152640</a></p>\n<p>Points: 11</p>\n<p># Comments: 3</p>"
+      "published": "Mon, 03 Aug 2026 13:34:25 +0000",
+      "summary": "SPF Record Syntax: Mechanisms, Qualifiers, Modifiers, and Macros\n<p>Article URL: <a href=\"https://dmarcguard.io/blog/spf-record-syntax/\">https://dmarcguard.io/blog/spf-record-syntax/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49155626\">https://news.ycombinator.com/item?id"
     },
     {
-      "title": "The Shape of Things to Come",
-      "link": "https://yegge.ai/essays/the-shape-of-things-to-come/",
-      "raw_summary": "<p>Article URL: <a href=\"https://yegge.ai/essays/the-shape-of-things-to-come/\">https://yegge.ai/essays/the-shape-of-things-to-come/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49152316\">https://news.ycombinator.com/item?id=49152316</a></p>\n<p>Points: 10</p>\n<p># Comments: 4</p>",
+      "title": "Ask HN: What are the viable alternatives to DuckDuckGo?",
+      "link": "https://news.ycombinator.com/item?id=49155492",
+      "raw_summary": "<p>More than 10 years ago I dropped Google Search because my searches were enshitified and bubble wrapped and quotes stop to matter so it became impossible to escape the bubble.<p>As the saying goes, it happened before and will happen again : it now the turn of DuckDuckGo to enshitify my searches by bubblification and ignoring quotes.<p>Also, not interested in IA chatbot, I prefer multiple sources and to cross-check the information myself, thank you.<p>What alternatives are you using / recommending ?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49155492\">https://news.ycombinator.com/item?id=49155492</a></p>\n<p>Points: 9</p>\n<p># Comments: 8</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 03 Aug 2026 07:22:27 +0000",
-      "summary": "The Shape of Things to Come\n<p>Article URL: <a href=\"https://yegge.ai/essays/the-shape-of-things-to-come/\">https://yegge.ai/essays/the-shape-of-things-to-come/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49152316\">https://news.ycombinator.com/item?id=49152316</a></p>\n<p>Po"
+      "published": "Mon, 03 Aug 2026 13:22:44 +0000",
+      "summary": "Ask HN: What are the viable alternatives to DuckDuckGo?\n<p>More than 10 years ago I dropped Google Search because my searches were enshitified and bubble wrapped and quotes stop to matter so it became impossible to escape the bubble.<p>As the saying goes, it happened before and will happen again : i"
     },
     {
-      "title": "The AI Productivity Gap",
-      "link": "https://bjorg.bjornroche.com/management/ai-productivity-gap/",
-      "raw_summary": "<p>Article URL: <a href=\"https://bjorg.bjornroche.com/management/ai-productivity-gap/\">https://bjorg.bjornroche.com/management/ai-productivity-gap/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49152222\">https://news.ycombinator.com/item?id=49152222</a></p>\n<p>Points: 16</p>\n<p># Comments: 17</p>",
+      "title": "Critical CVE issued for hallucinated SQLite vulnerability",
+      "link": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
+      "raw_summary": "<p>Article URL: <a href=\"https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/\">https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49154332\">https://news.ycombinator.com/item?id=49154332</a></p>\n<p>Points: 336</p>\n<p># Comments: 103</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 03 Aug 2026 07:07:20 +0000",
-      "summary": "The AI Productivity Gap\n<p>Article URL: <a href=\"https://bjorg.bjornroche.com/management/ai-productivity-gap/\">https://bjorg.bjornroche.com/management/ai-productivity-gap/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49152222\">https://news.ycombinator.com/item?id=49152222</"
+      "published": "Mon, 03 Aug 2026 11:28:54 +0000",
+      "summary": "Critical CVE issued for hallucinated SQLite vulnerability\n<p>Article URL: <a href=\"https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/\">https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49154332\">h"
     },
     {
-      "title": "Show HN: I created a project management system",
-      "link": "https://is.team",
-      "raw_summary": "<p>Article URL: <a href=\"https://is.team\">https://is.team</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49152054\">https://news.ycombinator.com/item?id=49152054</a></p>\n<p>Points: 6</p>\n<p># Comments: 4</p>",
+      "title": "9front \"This Was Supposed to Be Fun\" Released",
+      "link": "https://9front.org/releases/2026/08/02/0/",
+      "raw_summary": "<p>Article URL: <a href=\"https://9front.org/releases/2026/08/02/0/\">https://9front.org/releases/2026/08/02/0/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49154249\">https://news.ycombinator.com/item?id=49154249</a></p>\n<p>Points: 56</p>\n<p># Comments: 17</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 03 Aug 2026 06:47:36 +0000",
-      "summary": "Show HN: I created a project management system\n<p>Article URL: <a href=\"https://is.team\">https://is.team</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49152054\">https://news.ycombinator.com/item?id=49152054</a></p>\n<p>Points: 6</p>\n<p># Comments: 4</p>"
+      "published": "Mon, 03 Aug 2026 11:17:56 +0000",
+      "summary": "9front \"This Was Supposed to Be Fun\" Released\n<p>Article URL: <a href=\"https://9front.org/releases/2026/08/02/0/\">https://9front.org/releases/2026/08/02/0/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49154249\">https://news.ycombinator.com/item?id=49154249</a></p>\n<p>Points"
+    },
+    {
+      "title": "Horizon3 hits $2 billion valuation with $250M Series E as AI threats escalate",
+      "link": "https://techcrunch.com/2026/08/03/horizon3-hits-2-billion-valuation-with-250m-series-e-as-ai-threats-escalate/",
+      "raw_summary": "Cybersecurity startup Horizon3 raised $250 million at a $2 billion valuation as companies want continuous, AI-powered security validation instead of annual pentesting.",
+      "source": "TechCrunch",
+      "published": "Mon, 03 Aug 2026 12:50:46 +0000",
+      "summary": "Horizon3 hits $2 billion valuation with $250M Series E as AI threats escalate\nCybersecurity startup Horizon3 raised $250 million at a $2 billion valuation as companies want continuous, AI-powered security validation instead of annual pentesting."
+    },
+    {
+      "title": "Samsung bans smart TV apps that share users’ internet connections with strangers",
+      "link": "https://techcrunch.com/2026/08/03/samsung-bans-smart-tv-apps-that-share-users-internet-connections-with-strangers/",
+      "raw_summary": "New security research offers a rare view inside residential proxy networks, which rely on apps that share a person's internet connection with someone else.",
+      "source": "TechCrunch",
+      "published": "Mon, 03 Aug 2026 12:10:41 +0000",
+      "summary": "Samsung bans smart TV apps that share users’ internet connections with strangers\nNew security research offers a rare view inside residential proxy networks, which rely on apps that share a person's internet connection with someone else."
+    },
+    {
+      "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
+      "link": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/",
+      "raw_summary": "June emerged from stealth today with a $20 million pre-seed round to make AI adoption simpler.",
+      "source": "TechCrunch",
+      "published": "Mon, 03 Aug 2026 10:00:00 +0000",
+      "summary": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem\nJune emerged from stealth today with a $20 million pre-seed round to make AI adoption simpler."
     },
     {
       "title": "The global memory shortage hits the MacBook Air",
@@ -139,28 +163,12 @@
       "summary": "Sam Altman and AI’s decel debate\nOn the latest episode of Equity, we discuss why Sam Altman has calling on the industry to \"pace the rate of AI development.\""
     },
     {
-      "title": "Malaysia is reportedly shutting down Balaji Srinivasan’s Network School",
-      "link": "https://techcrunch.com/2026/08/02/malaysia-is-reportedly-shutting-down-balaji-srinivasans-network-school/",
-      "raw_summary": "Let's see how this \"frontier community for techno-optimists\" is doing ...",
-      "source": "TechCrunch",
-      "published": "Sun, 02 Aug 2026 17:05:07 +0000",
-      "summary": "Malaysia is reportedly shutting down Balaji Srinivasan’s Network School\nLet's see how this \"frontier community for techno-optimists\" is doing ..."
-    },
-    {
-      "title": "TechCrunch Mobility: Two roads diverged — for robotaxis",
-      "link": "https://techcrunch.com/2026/08/02/techcrunch-mobility-two-roads-diverged-for-robotaxis/",
-      "raw_summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
-      "source": "TechCrunch",
-      "published": "Sun, 02 Aug 2026 16:05:00 +0000",
-      "summary": "TechCrunch Mobility: Two roads diverged — for robotaxis\nWelcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it."
-    },
-    {
-      "title": "These App Store hidden gems prove there’s still room for great software in the AI era",
-      "link": "https://techcrunch.com/2026/08/02/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/",
-      "raw_summary": "Despite predictions that AI agents could make traditional apps obsolete, developers are shipping new software faster than ever. From smarter bookmarking tools and neighborhood marketplaces to digital pen pals and nature journals, here are the latest App Store finds worth adding to your Home Screen.",
-      "source": "TechCrunch",
-      "published": "Sun, 02 Aug 2026 15:23:19 +0000",
-      "summary": "These App Store hidden gems prove there’s still room for great software in the AI era\nDespite predictions that AI agents could make traditional apps obsolete, developers are shipping new software faster than ever. From smarter bookmarking tools and neighborhood marketplaces to digital pen pals and n"
+      "title": "How headlights got brighter, whiter, and more blinding after dark",
+      "link": "https://arstechnica.com/cars/2026/08/how-headlights-got-brighter-whiter-and-more-blinding-after-dark/",
+      "raw_summary": "Automotive lights are better than they've ever been, but there's a trade-off.",
+      "source": "Ars Technica - All content",
+      "published": "Mon, 03 Aug 2026 11:00:11 +0000",
+      "summary": "How headlights got brighter, whiter, and more blinding after dark\nAutomotive lights are better than they've ever been, but there's a trade-off."
     },
     {
       "title": "Here's how engineers plan to save the satellite sent to save NASA's Swift mission",
@@ -195,132 +203,124 @@
       "summary": "After noise complaints, judge orders Waymo to stop overnight charging in Santa Monica\nAutonomous vehicle giant disturbs residents' sleep."
     },
     {
-      "title": "Defcon's new badge is a security key you can see inside",
-      "link": "https://arstechnica.com/security/2026/08/defcons-new-badge-is-a-security-key-you-can-see-inside/",
-      "raw_summary": "A removable chip lets hackers inspect their badge—and keep using it after Defcon.",
-      "source": "Ars Technica - All content",
-      "published": "Sat, 01 Aug 2026 10:05:21 +0000",
-      "summary": "Defcon's new badge is a security key you can see inside\nA removable chip lets hackers inspect their badge—and keep using it after Defcon."
-    },
-    {
       "title": "Reform UK promises large-scale ‘military operation’ to block small boat crossings",
       "link": "https://www.ft.com/content/d0fb3d34-cb05-44e5-8fea-ac3753aecb7a?syn-25a6b1a6=1",
-      "raw_summary": "Rightwing party’s policy announcement comes as Reform drops behind Labour in polls",
+      "raw_summary": "Policy pledge comes as rightwing party drops behind Labour in polls",
       "source": "World",
-      "published": "Mon, 03 Aug 2026 09:00:12 GMT",
-      "summary": "Reform UK promises large-scale ‘military operation’ to block small boat crossings\nRightwing party’s policy announcement comes as Reform drops behind Labour in polls"
+      "published": "Mon, 03 Aug 2026 13:49:00 GMT",
+      "summary": "Reform UK promises large-scale ‘military operation’ to block small boat crossings\nPolicy pledge comes as rightwing party drops behind Labour in polls"
     },
     {
-      "title": "Oil slides after Trump says talks with Iran will resume",
+      "title": "Iran denies Trump claim of imminent talks",
       "link": "https://www.ft.com/content/c9bd508c-2915-4b34-a5a5-553bff9548a5?syn-25a6b1a6=1",
-      "raw_summary": "Tehran says a deal with Oman to reopen Strait of Hormuz to shipping was close",
+      "raw_summary": "US president had said negotiations would begin on Monday but Tehran denied the two parties were in talks",
       "source": "World",
-      "published": "Mon, 03 Aug 2026 08:39:44 GMT",
-      "summary": "Oil slides after Trump says talks with Iran will resume\nTehran says a deal with Oman to reopen Strait of Hormuz to shipping was close"
+      "published": "Mon, 03 Aug 2026 13:48:15 GMT",
+      "summary": "Iran denies Trump claim of imminent talks\nUS president had said negotiations would begin on Monday but Tehran denied the two parties were in talks"
     },
     {
-      "title": "Don’t let tax rows eclipse the fundamentals of social care",
-      "link": "https://www.ft.com/content/d65cbd70-dc0b-4026-b80f-feeb8c152b0c?syn-25a6b1a6=1",
-      "raw_summary": "Like in the case of wind power, agreement on the big structural issues is much more important than finance",
+      "title": "Can Democrats win over the working class?",
+      "link": "https://www.ft.com/content/0eec21be-80c4-4fca-991a-32fbd58cc653?syn-25a6b1a6=1",
+      "raw_summary": "A new report shows that the party can’t take disillusioned Trump voters for granted",
       "source": "World",
-      "published": "Mon, 03 Aug 2026 08:30:09 GMT",
-      "summary": "Don’t let tax rows eclipse the fundamentals of social care\nLike in the case of wind power, agreement on the big structural issues is much more important than finance"
+      "published": "Mon, 03 Aug 2026 13:00:12 GMT",
+      "summary": "Can Democrats win over the working class?\nA new report shows that the party can’t take disillusioned Trump voters for granted"
     },
     {
-      "title": "Todd Blanche confirms scrapping of $1.8bn ‘slush fund’ ahead of confirmation vote",
-      "link": "https://www.ft.com/content/518d4dea-01b4-4030-85c1-916e91661580?syn-25a6b1a6=1",
-      "raw_summary": "Acting US attorney-general U-turns on ‘anti-weaponisation fund’ after two Republicans threaten to torpedo nomination",
+      "title": "Why Burnham is wrong about education and opportunity",
+      "link": "https://www.ft.com/content/547bc3c3-6778-42d3-9bed-fcc3d0c28068",
+      "raw_summary": "Success in adulthood is not just about connections",
       "source": "World",
-      "published": "Mon, 03 Aug 2026 07:47:34 GMT",
-      "summary": "Todd Blanche confirms scrapping of $1.8bn ‘slush fund’ ahead of confirmation vote\nActing US attorney-general U-turns on ‘anti-weaponisation fund’ after two Republicans threaten to torpedo nomination"
+      "published": "Mon, 03 Aug 2026 13:00:11 GMT",
+      "summary": "Why Burnham is wrong about education and opportunity\nSuccess in adulthood is not just about connections"
     },
     {
-      "title": "Japan vows further yen intervention with US if needed",
-      "link": "https://www.ft.com/content/5de204a4-4db6-458c-aa9a-324e6bd5e766?syn-25a6b1a6=1",
-      "raw_summary": "Finance minister Satsuki Katayama confirms joint action with Washington to counter ‘disorderly movements’",
+      "title": "Reform’s Richard Tice probed over alleged failure to declare an interest",
+      "link": "https://www.ft.com/content/f2180678-aebb-44c5-b7ad-483db9b5ee28?syn-25a6b1a6=1",
+      "raw_summary": "UK’s parliamentary standards watchdog is investigating the rightwing party’s deputy leader",
       "source": "World",
-      "published": "Mon, 03 Aug 2026 07:40:38 GMT",
-      "summary": "Japan vows further yen intervention with US if needed\nFinance minister Satsuki Katayama confirms joint action with Washington to counter ‘disorderly movements’"
+      "published": "Mon, 03 Aug 2026 12:52:32 GMT",
+      "summary": "Reform’s Richard Tice probed over alleged failure to declare an interest\nUK’s parliamentary standards watchdog is investigating the rightwing party’s deputy leader"
     },
     {
-      "title": "Prysmian Reaches Deal to Buy US Electrical Maker Atkore",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-03/prysmian-strikes-deal-to-buy-us-electrical-maker-atkore",
-      "raw_summary": "Italy’s Prysmian SpA has struck an all-cash deal to acquire electrical manufacturing company Atkore Inc.",
+      "title": "Stocks Rally as Amazon Hits $3 Trillion Market Cap; Chips Slide",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-03/us-futures-climb-as-focus-shifts-back-to-earnings-oil-slides",
+      "raw_summary": "US stocks rose into the first trading day of the month as attention turned to this week’s heavy slate of earnings reports.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 03 Aug 2026 05:32:04 GMT",
-      "summary": "Prysmian Reaches Deal to Buy US Electrical Maker Atkore\nItaly’s Prysmian SpA has struck an all-cash deal to acquire electrical manufacturing company Atkore Inc."
+      "published": "Mon, 03 Aug 2026 11:49:28 GMT",
+      "summary": "Stocks Rally as Amazon Hits $3 Trillion Market Cap; Chips Slide\nUS stocks rose into the first trading day of the month as attention turned to this week’s heavy slate of earnings reports."
     },
     {
-      "title": "Milei’s Money Man Shuns Foreign Markets After Failed Bond Binge",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-03/milei-s-money-man-shuns-foreign-markets-after-failed-bond-binge",
-      "raw_summary": "In his first stint as a top Argentine finance official a decade ago, Luis Caputo tapped foreign bond markets again and again, selling more than $40 billion in total and earning the moniker “serial borrower” from his critics. Nearly three years into his second tour, Caputo, now the top economic aide to President Javier Milei, hasn’t sold a single bond overseas.",
-      "source": "Bloomberg Markets",
-      "published": "Mon, 03 Aug 2026 09:00:00 GMT",
-      "summary": "Milei’s Money Man Shuns Foreign Markets After Failed Bond Binge\nIn his first stint as a top Argentine finance official a decade ago, Luis Caputo tapped foreign bond markets again and again, selling more than $40 billion in total and earning the moniker “serial borrower” from his critics. Nearly thre"
-    },
-    {
-      "title": "Stocks Rise as Oil Plunge Eases Pressure on Yields: Markets Wrap",
+      "title": "Stocks, Bonds Rise as US-Iran Hopes Spur Oil Drop: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-08-02/oil-slumps-us-futures-rise-on-iran-talks-optimism-markets-wrap",
-      "raw_summary": "Stocks and bonds rose as the latest sign of easing tensions between the US and Iran pushed oil prices lower, allaying concerns about faster inflation.",
+      "raw_summary": "Wall Street traders lifted stocks and bonds as the latest sign of easing Middle East tensions sank oil prices, allaying worries about inflation.",
       "source": "Bloomberg Markets",
       "published": "Sun, 02 Aug 2026 22:09:16 GMT",
-      "summary": "Stocks Rise as Oil Plunge Eases Pressure on Yields: Markets Wrap\nStocks and bonds rose as the latest sign of easing tensions between the US and Iran pushed oil prices lower, allaying concerns about faster inflation."
+      "summary": "Stocks, Bonds Rise as US-Iran Hopes Spur Oil Drop: Markets Wrap\nWall Street traders lifted stocks and bonds as the latest sign of easing Middle East tensions sank oil prices, allaying worries about inflation."
     },
     {
-      "title": "Korean Stocks Drop as Chipmakers Reverse Friday’s Record Gains",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-03/korean-stocks-drop-as-chipmakers-reverse-friday-s-record-gains",
-      "raw_summary": "South Korean stocks slipped, as heavyweight chipmakers faced selloffs after Friday’s record gains while investors unwound leverage-backed trades.",
+      "title": "Senators Urge CFTC to Curb Wildfire Prediction Market Bets Over Arson Concerns",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-03/prediction-market-bets-on-wildfires-draw-scrutiny-from-senators",
+      "raw_summary": "A group of Democratic senators urged the Commodity Futures Trading Commission to rein in prediction market trading on wildfires, expressing concern that individuals could be tempted to commit arson to make their bets pay off.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 03 Aug 2026 00:59:28 GMT",
-      "summary": "Korean Stocks Drop as Chipmakers Reverse Friday’s Record Gains\nSouth Korean stocks slipped, as heavyweight chipmakers faced selloffs after Friday’s record gains while investors unwound leverage-backed trades."
+      "published": "Mon, 03 Aug 2026 14:06:05 GMT",
+      "summary": "Senators Urge CFTC to Curb Wildfire Prediction Market Bets Over Arson Concerns\nA group of Democratic senators urged the Commodity Futures Trading Commission to rein in prediction market trading on wildfires, expressing concern that individuals could be tempted to commit arson to make their bets pay "
     },
     {
-      "title": "Yen Rises Amid Speculation of More Intervention After US Support",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-02/yen-traders-brace-for-more-intervention-with-us-at-japan-s-side",
-      "raw_summary": "The yen rallied sharply on Monday amid speculation that authorities may have intervened to prop up the currency again after coordinated action between the US and Japan last week.",
+      "title": "Trump Family-Linked Bitcoin Miner Posts Second-Quarter Loss",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-03/trump-family-linked-bitcoin-miner-posts-second-quarter-loss",
+      "raw_summary": "American Bitcoin Corp., the Trump family-backed miner launched last year just before the cryptocurrency tumbled from record highs, posted a third consecutive quarterly loss after a decline in the value of its holdings.",
       "source": "Bloomberg Markets",
-      "published": "Sun, 02 Aug 2026 12:47:40 GMT",
-      "summary": "Yen Rises Amid Speculation of More Intervention After US Support\nThe yen rallied sharply on Monday amid speculation that authorities may have intervened to prop up the currency again after coordinated action between the US and Japan last week."
+      "published": "Mon, 03 Aug 2026 11:25:36 GMT",
+      "summary": "Trump Family-Linked Bitcoin Miner Posts Second-Quarter Loss\nAmerican Bitcoin Corp., the Trump family-backed miner launched last year just before the cryptocurrency tumbled from record highs, posted a third consecutive quarterly loss after a decline in the value of its holdings."
     },
     {
-      "title": "Coldcard wallet losses may near $114 million as possible fourth sweep emerges",
-      "link": "https://www.coindesk.com/tech/2026/08/03/coldcard-wallet-losses-may-near-usd114-million-as-possible-fourth-sweep-emerges",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 03 Aug 2026 08:51:39 +0000",
-      "summary": "Coldcard wallet losses may near $114 million as possible fourth sweep emerges\n"
+      "title": "Jefferies Reviews Exposure to Radiant World",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-03/jefferies-reviews-exposure-to-radiant-world-video",
+      "raw_summary": "Investors in Jefferies Financial Group’s Point Bonita Capital started asking for all their money back last year when it emerged that the fund’s biggest exposure was to collapsing auto supplier First Brands Group. Jefferies is now reviewing its exposure to Radiant World. Katherine Doherty reports on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
+      "source": "Bloomberg Markets",
+      "published": "Mon, 03 Aug 2026 13:59:42 GMT",
+      "summary": "Jefferies Reviews Exposure to Radiant World\nInvestors in Jefferies Financial Group’s Point Bonita Capital started asking for all their money back last year when it emerged that the fund’s biggest exposure was to collapsing auto supplier First Brands Group. Jefferies is now reviewing its exposure to "
     },
     {
-      "title": "U.S. Jobs, Circle, Galaxy, American Bitcoin earnings: Crypto Week Ahead",
-      "link": "https://www.coindesk.com/markets/2026/08/03/u-s-jobs-circle-galaxy-american-bitcoin-earnings-crypto-week-ahead",
+      "title": "Circle slides after Morgan Stanley downgrade, cut in price target",
+      "link": "https://www.coindesk.com/markets/2026/08/03/circle-internet-slides-after-morgan-stanley-downgrade-cut-in-price-target",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 03 Aug 2026 08:16:28 +0000",
-      "summary": "U.S. Jobs, Circle, Galaxy, American Bitcoin earnings: Crypto Week Ahead\n"
+      "published": "Mon, 03 Aug 2026 13:59:50 +0000",
+      "summary": "Circle slides after Morgan Stanley downgrade, cut in price target\n"
     },
     {
-      "title": "Bitcoin slips under $63,000 despite Iran deal hopes as Coldcard losses rattle market",
-      "link": "https://www.coindesk.com/markets/2026/08/03/bitcoin-slips-under-usd63-000-despite-iran-deal-hopes-as-coldcard-losses-rattle-market",
+      "title": "Bernstein sees another leg lower for crypto markets if Clarity Act stalls",
+      "link": "https://www.coindesk.com/policy/2026/08/03/bernstein-sees-another-leg-lower-for-crypto-markets-if-clarity-act-stalls",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 03 Aug 2026 06:15:38 +0000",
-      "summary": "Bitcoin slips under $63,000 despite Iran deal hopes as Coldcard losses rattle market\n"
+      "published": "Mon, 03 Aug 2026 13:49:40 +0000",
+      "summary": "Bernstein sees another leg lower for crypto markets if Clarity Act stalls\n"
     },
     {
-      "title": "Trump Media’s bitcoin stash may be down to loan collateral after $165 million BTC move",
-      "link": "https://www.coindesk.com/markets/2026/08/03/trump-media-s-bitcoin-stash-may-be-down-to-loan-collateral-after-usd165-million-btc-move",
+      "title": "BlackRock expands tokenized cash with new blockchain-based money market offerings",
+      "link": "https://www.coindesk.com/business/2026/08/03/blackrock-expands-tokenized-cash-with-new-blockchain-based-money-market-offerings",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 03 Aug 2026 05:52:29 +0000",
-      "summary": "Trump Media’s bitcoin stash may be down to loan collateral after $165 million BTC move\n"
+      "published": "Mon, 03 Aug 2026 13:15:46 +0000",
+      "summary": "BlackRock expands tokenized cash with new blockchain-based money market offerings\n"
     },
     {
-      "title": "Michael Saylor’s Strategy is now tracking bitcoin’s 200-week moving average",
-      "link": "https://www.coindesk.com/markets/2026/08/03/michael-saylor-s-strategy-is-now-tracking-bitcoin-s-200-week-moving-average",
+      "title": "Tom Lee's Bitmine bought more ether, added to stock buyback last week",
+      "link": "https://www.coindesk.com/business/2026/08/03/bitmine-bought-more-ether-added-to-stock-buyback-last-week",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 03 Aug 2026 05:07:49 +0000",
-      "summary": "Michael Saylor’s Strategy is now tracking bitcoin’s 200-week moving average\n"
+      "published": "Mon, 03 Aug 2026 12:53:21 +0000",
+      "summary": "Tom Lee's Bitmine bought more ether, added to stock buyback last week\n"
+    },
+    {
+      "title": "Strategy sold another $105 million of bitcoin last week, repurchased $81.2 million of STRC",
+      "link": "https://www.coindesk.com/markets/2026/08/03/strategy-sold-another-usd105-million-of-bitcoin-last-week-repurchased-usd81-2-million-of-strc",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Mon, 03 Aug 2026 12:17:10 +0000",
+      "summary": "Strategy sold another $105 million of bitcoin last week, repurchased $81.2 million of STRC\n"
     }
   ]
 }
