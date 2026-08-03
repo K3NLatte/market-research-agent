@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T02:02:07.141586+00:00",
+  "generated_at": "2026-08-03T09:27:07.754259+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "Felons, Fraudsters Flog Offensive Cybersecurity Startup\nA cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence "
     },
     {
+      "title": "Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable",
+      "link": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
+      "raw_summary": "Thermo Fisher Scientific has patched a flaw in select Applied Biosystems human identification software that could allow data files to be altered before analysis software loads them.\n\nThe vendor's July 31 security bulletin says nearly undetectable changes to .fsa and .hid outputs could occur if laboratory controls are circumvented.\n\nThermo Fisher tracks the issue as CVE-2026-17583 and rates it",
+      "source": "The Hacker News",
+      "published": "Mon, 03 Aug 2026 13:35:30 +0530",
+      "summary": "Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable\nThermo Fisher Scientific has patched a flaw in select Applied Biosystems human identification software that could allow data files to be altered before analysis software loads them.\n\nThe vendor's July 31 security bulle"
+    },
+    {
+      "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
+      "link": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
+      "raw_summary": "N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers.\n\nIts first fix was incomplete. CVE-2026-18577 affects N-central builds prior to 2026.3.1.7. N-able shipped build 2026.3.1.7 on August 2 as the first unaffected version.\n\nN-central is the remote monitoring and management platform",
+      "source": "The Hacker News",
+      "published": "Mon, 03 Aug 2026 12:11:46 +0530",
+      "summary": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete\nN-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers.\n\nIts first fix was incomplete. CVE-2026-18577"
+    },
+    {
+      "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
+      "link": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
+      "raw_summary": "Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, opening the artificial intelligence (AI) supply chain to security risk.\n\n\"These vulnerabilities are bypassing trust_remote_code, the safeguard designed to stop unreviewed code from running in the",
+      "source": "The Hacker News",
+      "published": "Mon, 03 Aug 2026 12:10:31 +0530",
+      "summary": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code\nThree high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, opening the artificia"
+    },
+    {
       "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
       "link": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
       "raw_summary": "An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a firmware flaw in Coldcard, the Bitcoin-only hardware wallet made by Canadian firm Coinkite.\n\nA March 2021 firmware integration error routed seed generation to a deterministic software pseudorandom number generator (PRNG",
@@ -59,68 +83,44 @@
       "summary": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites\nAttackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses.\n\nAdform detected the incident on July 27, 2026, "
     },
     {
-      "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
-      "link": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
-      "raw_summary": "Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution.\n\nThe vulnerability, tracked as CVE-2026-48449, carries a severity score of 10.0 on the CVSS scoring system.\n\nIt has been described as a case of incorrect authorization that could result in",
-      "source": "The Hacker News",
-      "published": "Sat, 01 Aug 2026 12:42:42 +0530",
-      "summary": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction\nAdobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution.\n\nThe vulnerabi"
-    },
-    {
-      "title": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware",
-      "link": "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
-      "raw_summary": "A fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture webcam images, microphone audio, and keystrokes, Microsoft said in its latest report.\n\nResearchers track the operation as CaptiveCrunch and attribute it to Storm-2945. It assesses Storm-2945 to be an operational sub-cluster of Midnight Blizzard, also known as",
-      "source": "The Hacker News",
-      "published": "Sat, 01 Aug 2026 11:59:05 +0530",
-      "summary": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware\nA fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture webcam images, microphone audio, and keystrokes, Microsoft said in its latest report.\n\nRes"
-    },
-    {
-      "title": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
-      "link": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html",
-      "raw_summary": "A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakhstan, and the Syrian Arab Republic, since January 2025.\n\nThese targeted organizations operate across several sectors, such as healthcare, research, government offices,",
-      "source": "The Hacker News",
-      "published": "Sat, 01 Aug 2026 00:22:04 +0530",
-      "summary": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk\nA Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan, Tajikistan, Uzbe"
-    },
-    {
-      "title": "RFC 9851: TLS 1.2 is in Feature Freeze",
-      "link": "https://www.rfc-editor.org/rfc/rfc9851.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.rfc-editor.org/rfc/rfc9851.html\">https://www.rfc-editor.org/rfc/rfc9851.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49150181\">https://news.ycombinator.com/item?id=49150181</a></p>\n<p>Points: 8</p>\n<p># Comments: 1</p>",
+      "title": "Bonsai: Janestreet's UI Library",
+      "link": "https://github.com/janestreet/bonsai",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/janestreet/bonsai\">https://github.com/janestreet/bonsai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49152842\">https://news.ycombinator.com/item?id=49152842</a></p>\n<p>Points: 24</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 03 Aug 2026 01:23:26 +0000",
-      "summary": "RFC 9851: TLS 1.2 is in Feature Freeze\n<p>Article URL: <a href=\"https://www.rfc-editor.org/rfc/rfc9851.html\">https://www.rfc-editor.org/rfc/rfc9851.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49150181\">https://news.ycombinator.com/item?id=49150181</a></p>\n<p>Points: 8"
+      "published": "Mon, 03 Aug 2026 08:29:57 +0000",
+      "summary": "Bonsai: Janestreet's UI Library\n<p>Article URL: <a href=\"https://github.com/janestreet/bonsai\">https://github.com/janestreet/bonsai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49152842\">https://news.ycombinator.com/item?id=49152842</a></p>\n<p>Points: 24</p>\n<p># Comments: "
     },
     {
-      "title": "Show HN: Isopolis – isometric pixel map of SF",
-      "link": "https://sf.isopolis.city/",
-      "raw_summary": "<p>Article URL: <a href=\"https://sf.isopolis.city/\">https://sf.isopolis.city/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49149966\">https://news.ycombinator.com/item?id=49149966</a></p>\n<p>Points: 20</p>\n<p># Comments: 3</p>",
+      "title": "Octane – React's programming model, compiled",
+      "link": "https://octanejs.dev",
+      "raw_summary": "<p>Article URL: <a href=\"https://octanejs.dev\">https://octanejs.dev</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49152640\">https://news.ycombinator.com/item?id=49152640</a></p>\n<p>Points: 11</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 03 Aug 2026 00:46:38 +0000",
-      "summary": "Show HN: Isopolis – isometric pixel map of SF\n<p>Article URL: <a href=\"https://sf.isopolis.city/\">https://sf.isopolis.city/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49149966\">https://news.ycombinator.com/item?id=49149966</a></p>\n<p>Points: 20</p>\n<p># Comments: 3</p>"
+      "published": "Mon, 03 Aug 2026 08:04:04 +0000",
+      "summary": "Octane – React's programming model, compiled\n<p>Article URL: <a href=\"https://octanejs.dev\">https://octanejs.dev</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49152640\">https://news.ycombinator.com/item?id=49152640</a></p>\n<p>Points: 11</p>\n<p># Comments: 3</p>"
     },
     {
-      "title": "CP/M-386 – CP/M for 386 protected mode, derived from CP/M‑68K",
-      "link": "https://github.com/johnsonjh/cpm386",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/johnsonjh/cpm386\">https://github.com/johnsonjh/cpm386</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49149898\">https://news.ycombinator.com/item?id=49149898</a></p>\n<p>Points: 17</p>\n<p># Comments: 4</p>",
+      "title": "The Shape of Things to Come",
+      "link": "https://yegge.ai/essays/the-shape-of-things-to-come/",
+      "raw_summary": "<p>Article URL: <a href=\"https://yegge.ai/essays/the-shape-of-things-to-come/\">https://yegge.ai/essays/the-shape-of-things-to-come/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49152316\">https://news.ycombinator.com/item?id=49152316</a></p>\n<p>Points: 10</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 03 Aug 2026 00:38:10 +0000",
-      "summary": "CP/M-386 – CP/M for 386 protected mode, derived from CP/M‑68K\n<p>Article URL: <a href=\"https://github.com/johnsonjh/cpm386\">https://github.com/johnsonjh/cpm386</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49149898\">https://news.ycombinator.com/item?id=49149898</a></p>\n<p>Po"
+      "published": "Mon, 03 Aug 2026 07:22:27 +0000",
+      "summary": "The Shape of Things to Come\n<p>Article URL: <a href=\"https://yegge.ai/essays/the-shape-of-things-to-come/\">https://yegge.ai/essays/the-shape-of-things-to-come/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49152316\">https://news.ycombinator.com/item?id=49152316</a></p>\n<p>Po"
     },
     {
-      "title": "Show HN: ssh ssh.place",
-      "link": "https://ssh.place",
-      "raw_summary": "<p>Article URL: <a href=\"https://ssh.place\">https://ssh.place</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49149805\">https://news.ycombinator.com/item?id=49149805</a></p>\n<p>Points: 12</p>\n<p># Comments: 4</p>",
+      "title": "The AI Productivity Gap",
+      "link": "https://bjorg.bjornroche.com/management/ai-productivity-gap/",
+      "raw_summary": "<p>Article URL: <a href=\"https://bjorg.bjornroche.com/management/ai-productivity-gap/\">https://bjorg.bjornroche.com/management/ai-productivity-gap/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49152222\">https://news.ycombinator.com/item?id=49152222</a></p>\n<p>Points: 16</p>\n<p># Comments: 17</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 03 Aug 2026 00:23:21 +0000",
-      "summary": "Show HN: ssh ssh.place\n<p>Article URL: <a href=\"https://ssh.place\">https://ssh.place</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49149805\">https://news.ycombinator.com/item?id=49149805</a></p>\n<p>Points: 12</p>\n<p># Comments: 4</p>"
+      "published": "Mon, 03 Aug 2026 07:07:20 +0000",
+      "summary": "The AI Productivity Gap\n<p>Article URL: <a href=\"https://bjorg.bjornroche.com/management/ai-productivity-gap/\">https://bjorg.bjornroche.com/management/ai-productivity-gap/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49152222\">https://news.ycombinator.com/item?id=49152222</"
     },
     {
-      "title": "Why Book Corners won't sync contributions back to OpenStreetMap",
-      "link": "https://www.andreagrandi.it/posts/why-book-corners-wont-sync-contributions-back-to-openstreetmap/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.andreagrandi.it/posts/why-book-corners-wont-sync-contributions-back-to-openstreetmap/\">https://www.andreagrandi.it/posts/why-book-corners-wont-sync-contributions-back-to-openstreetmap/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49149746\">https://news.ycombinator.com/item?id=49149746</a></p>\n<p>Points: 37</p>\n<p># Comments: 13</p>",
+      "title": "Show HN: I created a project management system",
+      "link": "https://is.team",
+      "raw_summary": "<p>Article URL: <a href=\"https://is.team\">https://is.team</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49152054\">https://news.ycombinator.com/item?id=49152054</a></p>\n<p>Points: 6</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 03 Aug 2026 00:12:16 +0000",
-      "summary": "Why Book Corners won't sync contributions back to OpenStreetMap\n<p>Article URL: <a href=\"https://www.andreagrandi.it/posts/why-book-corners-wont-sync-contributions-back-to-openstreetmap/\">https://www.andreagrandi.it/posts/why-book-corners-wont-sync-contributions-back-to-openstreetmap/</a></p>\n<p>Com"
+      "published": "Mon, 03 Aug 2026 06:47:36 +0000",
+      "summary": "Show HN: I created a project management system\n<p>Article URL: <a href=\"https://is.team\">https://is.team</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49152054\">https://news.ycombinator.com/item?id=49152054</a></p>\n<p>Points: 6</p>\n<p># Comments: 4</p>"
     },
     {
       "title": "The global memory shortage hits the MacBook Air",
@@ -203,52 +203,68 @@
       "summary": "Defcon's new badge is a security key you can see inside\nA removable chip lets hackers inspect their badge—and keep using it after Defcon."
     },
     {
-      "title": "Trump says Iran talks to resume after US called off major attack",
-      "link": "https://www.ft.com/content/c9bd508c-2915-4b34-a5a5-553bff9548a5?syn-25a6b1a6=1",
-      "raw_summary": "Oil falls on signs of de-escalation as Tehran says a deal with Oman to reopen Strait of Hormuz to shipping was close",
+      "title": "Reform UK promises large-scale ‘military operation’ to block small boat crossings",
+      "link": "https://www.ft.com/content/d0fb3d34-cb05-44e5-8fea-ac3753aecb7a?syn-25a6b1a6=1",
+      "raw_summary": "Rightwing party’s policy announcement comes as Reform drops behind Labour in polls",
       "source": "World",
-      "published": "Mon, 03 Aug 2026 01:24:32 GMT",
-      "summary": "Trump says Iran talks to resume after US called off major attack\nOil falls on signs of de-escalation as Tehran says a deal with Oman to reopen Strait of Hormuz to shipping was close"
+      "published": "Mon, 03 Aug 2026 09:00:12 GMT",
+      "summary": "Reform UK promises large-scale ‘military operation’ to block small boat crossings\nRightwing party’s policy announcement comes as Reform drops behind Labour in polls"
     },
     {
-      "title": "Japan vows to intervene again with US over yen if needed",
+      "title": "Oil slides after Trump says talks with Iran will resume",
+      "link": "https://www.ft.com/content/c9bd508c-2915-4b34-a5a5-553bff9548a5?syn-25a6b1a6=1",
+      "raw_summary": "Tehran says a deal with Oman to reopen Strait of Hormuz to shipping was close",
+      "source": "World",
+      "published": "Mon, 03 Aug 2026 08:39:44 GMT",
+      "summary": "Oil slides after Trump says talks with Iran will resume\nTehran says a deal with Oman to reopen Strait of Hormuz to shipping was close"
+    },
+    {
+      "title": "Don’t let tax rows eclipse the fundamentals of social care",
+      "link": "https://www.ft.com/content/d65cbd70-dc0b-4026-b80f-feeb8c152b0c?syn-25a6b1a6=1",
+      "raw_summary": "Like in the case of wind power, agreement on the big structural issues is much more important than finance",
+      "source": "World",
+      "published": "Mon, 03 Aug 2026 08:30:09 GMT",
+      "summary": "Don’t let tax rows eclipse the fundamentals of social care\nLike in the case of wind power, agreement on the big structural issues is much more important than finance"
+    },
+    {
+      "title": "Todd Blanche confirms scrapping of $1.8bn ‘slush fund’ ahead of confirmation vote",
+      "link": "https://www.ft.com/content/518d4dea-01b4-4030-85c1-916e91661580?syn-25a6b1a6=1",
+      "raw_summary": "Acting US attorney-general U-turns on ‘anti-weaponisation fund’ after two Republicans threaten to torpedo nomination",
+      "source": "World",
+      "published": "Mon, 03 Aug 2026 07:47:34 GMT",
+      "summary": "Todd Blanche confirms scrapping of $1.8bn ‘slush fund’ ahead of confirmation vote\nActing US attorney-general U-turns on ‘anti-weaponisation fund’ after two Republicans threaten to torpedo nomination"
+    },
+    {
+      "title": "Japan vows further yen intervention with US if needed",
       "link": "https://www.ft.com/content/5de204a4-4db6-458c-aa9a-324e6bd5e766?syn-25a6b1a6=1",
       "raw_summary": "Finance minister Satsuki Katayama confirms joint action with Washington to counter ‘disorderly movements’",
       "source": "World",
-      "published": "Mon, 03 Aug 2026 00:48:08 GMT",
-      "summary": "Japan vows to intervene again with US over yen if needed\nFinance minister Satsuki Katayama confirms joint action with Washington to counter ‘disorderly movements’"
+      "published": "Mon, 03 Aug 2026 07:40:38 GMT",
+      "summary": "Japan vows further yen intervention with US if needed\nFinance minister Satsuki Katayama confirms joint action with Washington to counter ‘disorderly movements’"
     },
     {
-      "title": "UK graduate job openings fall to lowest level since pandemic",
-      "link": "https://www.ft.com/content/5391353e-3e03-4170-a289-497019a5d615?syn-25a6b1a6=1",
-      "raw_summary": "Indeed’s findings point to challenge facing Andy Burnham to boost youth unemployment and cut welfare bill",
-      "source": "World",
-      "published": "Sun, 02 Aug 2026 23:01:09 GMT",
-      "summary": "UK graduate job openings fall to lowest level since pandemic\nIndeed’s findings point to challenge facing Andy Burnham to boost youth unemployment and cut welfare bill"
-    },
-    {
-      "title": "Labour overtakes Reform UK in polls for first time in more than a year",
-      "link": "https://www.ft.com/content/43636916-1879-4315-9ed3-9437d7526179?syn-25a6b1a6=1",
-      "raw_summary": "Party commands about 25 per cent of the vote as Andy Burnham promises to ‘bring back hope’",
-      "source": "World",
-      "published": "Sun, 02 Aug 2026 21:20:36 GMT",
-      "summary": "Labour overtakes Reform UK in polls for first time in more than a year\nParty commands about 25 per cent of the vote as Andy Burnham promises to ‘bring back hope’"
-    },
-    {
-      "title": "Monte dei Paschi explores Banco BPM takeover after ‘merger of equals’ talks collapse",
-      "link": "https://www.ft.com/content/4ce36d22-571d-4532-8a8f-078e8fba34ff?syn-25a6b1a6=1",
-      "raw_summary": "MPS chief executive weighs approach to Banco BPM’s largest shareholder, Crédit Agricole",
-      "source": "World",
-      "published": "Sun, 02 Aug 2026 17:32:45 GMT",
-      "summary": "Monte dei Paschi explores Banco BPM takeover after ‘merger of equals’ talks collapse\nMPS chief executive weighs approach to Banco BPM’s largest shareholder, Crédit Agricole"
-    },
-    {
-      "title": "Yen Bears Face Risks on Joint US-Japan Action, Strategists Say",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-02/yen-bears-face-risks-on-joint-us-japan-action-strategists-say",
-      "raw_summary": "Strategists say the coordinated intervention between Japan and the US increases the risk for anyone betting against the currency and puts pressure on Japanese stocks. President Donald Trump said the US joined a currency-market intervention that lifted the yen last week as a sign of friendship with Japan.",
+      "title": "Prysmian Reaches Deal to Buy US Electrical Maker Atkore",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-03/prysmian-strikes-deal-to-buy-us-electrical-maker-atkore",
+      "raw_summary": "Italy’s Prysmian SpA has struck an all-cash deal to acquire electrical manufacturing company Atkore Inc.",
       "source": "Bloomberg Markets",
-      "published": "Sun, 02 Aug 2026 23:35:41 GMT",
-      "summary": "Yen Bears Face Risks on Joint US-Japan Action, Strategists Say\nStrategists say the coordinated intervention between Japan and the US increases the risk for anyone betting against the currency and puts pressure on Japanese stocks. President Donald Trump said the US joined a currency-market interventi"
+      "published": "Mon, 03 Aug 2026 05:32:04 GMT",
+      "summary": "Prysmian Reaches Deal to Buy US Electrical Maker Atkore\nItaly’s Prysmian SpA has struck an all-cash deal to acquire electrical manufacturing company Atkore Inc."
+    },
+    {
+      "title": "Milei’s Money Man Shuns Foreign Markets After Failed Bond Binge",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-03/milei-s-money-man-shuns-foreign-markets-after-failed-bond-binge",
+      "raw_summary": "In his first stint as a top Argentine finance official a decade ago, Luis Caputo tapped foreign bond markets again and again, selling more than $40 billion in total and earning the moniker “serial borrower” from his critics. Nearly three years into his second tour, Caputo, now the top economic aide to President Javier Milei, hasn’t sold a single bond overseas.",
+      "source": "Bloomberg Markets",
+      "published": "Mon, 03 Aug 2026 09:00:00 GMT",
+      "summary": "Milei’s Money Man Shuns Foreign Markets After Failed Bond Binge\nIn his first stint as a top Argentine finance official a decade ago, Luis Caputo tapped foreign bond markets again and again, selling more than $40 billion in total and earning the moniker “serial borrower” from his critics. Nearly thre"
+    },
+    {
+      "title": "Stocks Rise as Oil Plunge Eases Pressure on Yields: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-02/oil-slumps-us-futures-rise-on-iran-talks-optimism-markets-wrap",
+      "raw_summary": "Stocks and bonds rose as the latest sign of easing tensions between the US and Iran pushed oil prices lower, allaying concerns about faster inflation.",
+      "source": "Bloomberg Markets",
+      "published": "Sun, 02 Aug 2026 22:09:16 GMT",
+      "summary": "Stocks Rise as Oil Plunge Eases Pressure on Yields: Markets Wrap\nStocks and bonds rose as the latest sign of easing tensions between the US and Iran pushed oil prices lower, allaying concerns about faster inflation."
     },
     {
       "title": "Korean Stocks Drop as Chipmakers Reverse Friday’s Record Gains",
@@ -259,68 +275,52 @@
       "summary": "Korean Stocks Drop as Chipmakers Reverse Friday’s Record Gains\nSouth Korean stocks slipped, as heavyweight chipmakers faced selloffs after Friday’s record gains while investors unwound leverage-backed trades."
     },
     {
-      "title": "Oil Falls on Iran Deal Optimism, Yen Strengthens: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-02/oil-slumps-us-futures-rise-on-iran-talks-optimism-markets-wrap",
-      "raw_summary": "Oil fell and Treasuries rose after President Donald Trump said fresh US-Iran talks would begin Monday, boosting optimism the two sides will reach a deal to reopen the Strait of Hormuz. Asian stocks fell as South Korean chipmakers tumbled.",
+      "title": "Yen Rises Amid Speculation of More Intervention After US Support",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-02/yen-traders-brace-for-more-intervention-with-us-at-japan-s-side",
+      "raw_summary": "The yen rallied sharply on Monday amid speculation that authorities may have intervened to prop up the currency again after coordinated action between the US and Japan last week.",
       "source": "Bloomberg Markets",
-      "published": "Sun, 02 Aug 2026 22:09:16 GMT",
-      "summary": "Oil Falls on Iran Deal Optimism, Yen Strengthens: Markets Wrap\nOil fell and Treasuries rose after President Donald Trump said fresh US-Iran talks would begin Monday, boosting optimism the two sides will reach a deal to reopen the Strait of Hormuz. Asian stocks fell as South Korean chipmakers tumbled"
+      "published": "Sun, 02 Aug 2026 12:47:40 GMT",
+      "summary": "Yen Rises Amid Speculation of More Intervention After US Support\nThe yen rallied sharply on Monday amid speculation that authorities may have intervened to prop up the currency again after coordinated action between the US and Japan last week."
     },
     {
-      "title": "Japan Stocks Slide as Exporters Fall on Yen Intervention Worries",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-02/japanese-stocks-set-to-fall-on-yen-worries-kioxia-guidance-miss",
-      "raw_summary": "Japanese equities declined as automakers and other exporters dropped amid concerns about a stronger yen following joint currency intervention with the US. Traders remain on high alert for further moves by the authorities.",
-      "source": "Bloomberg Markets",
-      "published": "Sun, 02 Aug 2026 22:39:33 GMT",
-      "summary": "Japan Stocks Slide as Exporters Fall on Yen Intervention Worries\nJapanese equities declined as automakers and other exporters dropped amid concerns about a stronger yen following joint currency intervention with the US. Traders remain on high alert for further moves by the authorities."
-    },
-    {
-      "title": "Chinese Government Bond Futures Start Trading in Hong Kong",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-03/chinese-government-bond-futures-kick-off-trading-in-hong-kong",
-      "raw_summary": "Chinese government bond futures began trading in Hong Kong on Monday, marking authorities’ third attempt to use the hedging tool to further open up the country’s debt market.",
-      "source": "Bloomberg Markets",
-      "published": "Mon, 03 Aug 2026 01:35:08 GMT",
-      "summary": "Chinese Government Bond Futures Start Trading in Hong Kong\nChinese government bond futures began trading in Hong Kong on Monday, marking authorities’ third attempt to use the hedging tool to further open up the country’s debt market."
-    },
-    {
-      "title": "Counting down the days: State of Crypto",
-      "link": "https://www.coindesk.com/policy/2026/08/02/counting-down-the-days-state-of-crypto",
+      "title": "Coldcard wallet losses may near $114 million as possible fourth sweep emerges",
+      "link": "https://www.coindesk.com/tech/2026/08/03/coldcard-wallet-losses-may-near-usd114-million-as-possible-fourth-sweep-emerges",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 02 Aug 2026 18:30:00 +0000",
-      "summary": "Counting down the days: State of Crypto\n"
+      "published": "Mon, 03 Aug 2026 08:51:39 +0000",
+      "summary": "Coldcard wallet losses may near $114 million as possible fourth sweep emerges\n"
     },
     {
-      "title": "Why a DeFi platform ditched its consumer app to become the secret backend for tech giants",
-      "link": "https://www.coindesk.com/web3/2026/08/02/why-a-defi-platform-ditched-its-consumer-app-to-become-the-secret-backend-for-tech-giants",
+      "title": "U.S. Jobs, Circle, Galaxy, American Bitcoin earnings: Crypto Week Ahead",
+      "link": "https://www.coindesk.com/markets/2026/08/03/u-s-jobs-circle-galaxy-american-bitcoin-earnings-crypto-week-ahead",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 02 Aug 2026 17:00:00 +0000",
-      "summary": "Why a DeFi platform ditched its consumer app to become the secret backend for tech giants\n"
+      "published": "Mon, 03 Aug 2026 08:16:28 +0000",
+      "summary": "U.S. Jobs, Circle, Galaxy, American Bitcoin earnings: Crypto Week Ahead\n"
     },
     {
-      "title": "The future of crypto payments won't include on-ramps or bridges, Fun CEO says",
-      "link": "https://www.coindesk.com/tech/2026/08/02/the-future-of-crypto-payments-won-t-include-on-ramps-or-bridges-fun-ceo-says",
+      "title": "Bitcoin slips under $63,000 despite Iran deal hopes as Coldcard losses rattle market",
+      "link": "https://www.coindesk.com/markets/2026/08/03/bitcoin-slips-under-usd63-000-despite-iran-deal-hopes-as-coldcard-losses-rattle-market",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 02 Aug 2026 16:00:00 +0000",
-      "summary": "The future of crypto payments won't include on-ramps or bridges, Fun CEO says\n"
+      "published": "Mon, 03 Aug 2026 06:15:38 +0000",
+      "summary": "Bitcoin slips under $63,000 despite Iran deal hopes as Coldcard losses rattle market\n"
     },
     {
-      "title": "The reverse bridge: Crypto meets Wall Street using perps",
-      "link": "https://www.coindesk.com/business/2026/08/02/the-reverse-bridge-crypto-meets-wall-street-using-perps",
+      "title": "Trump Media’s bitcoin stash may be down to loan collateral after $165 million BTC move",
+      "link": "https://www.coindesk.com/markets/2026/08/03/trump-media-s-bitcoin-stash-may-be-down-to-loan-collateral-after-usd165-million-btc-move",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 02 Aug 2026 13:00:00 +0000",
-      "summary": "The reverse bridge: Crypto meets Wall Street using perps\n"
+      "published": "Mon, 03 Aug 2026 05:52:29 +0000",
+      "summary": "Trump Media’s bitcoin stash may be down to loan collateral after $165 million BTC move\n"
     },
     {
-      "title": "Unlike the FTX collapse, the $89 million Coldcard exploit has investors sending bitcoin back to exchanges",
-      "link": "https://www.coindesk.com/markets/2026/08/02/unlike-the-ftx-collapse-the-usd88-million-coldcard-exploit-has-investors-sending-bitcoin-back-to-exchanges",
+      "title": "Michael Saylor’s Strategy is now tracking bitcoin’s 200-week moving average",
+      "link": "https://www.coindesk.com/markets/2026/08/03/michael-saylor-s-strategy-is-now-tracking-bitcoin-s-200-week-moving-average",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 02 Aug 2026 12:03:51 +0000",
-      "summary": "Unlike the FTX collapse, the $89 million Coldcard exploit has investors sending bitcoin back to exchanges\n"
+      "published": "Mon, 03 Aug 2026 05:07:49 +0000",
+      "summary": "Michael Saylor’s Strategy is now tracking bitcoin’s 200-week moving average\n"
     }
   ]
 }
