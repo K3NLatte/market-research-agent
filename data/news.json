@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T13:51:29.704428+00:00",
+  "generated_at": "2026-08-04T19:20:00.549137+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "Felons, Fraudsters Flog Offensive Cybersecurity Startup\nA cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence "
     },
     {
+      "title": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
+      "link": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html",
+      "raw_summary": "The commercial phishing-as-a-service (PhaaS) toolkit known as Greatness has become the latest crimeware solution to add support for device code phishing, a rapidly growing cyber threat that abuses the legitimate OAuth 2.0 Device Authorization Grant to bypass Multi-Factor Authentication (MFA) and seize control of user accounts.\n\n\"Greatness supports AiTM [adversary-in-the-middle] credential and",
+      "source": "The Hacker News",
+      "published": "Tue, 04 Aug 2026 22:57:39 +0530",
+      "summary": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens\nThe commercial phishing-as-a-service (PhaaS) toolkit known as Greatness has become the latest crimeware solution to add support for device code phishing, a rapidly growing cyber threat that abuses the legitimate OAuth 2.0 Devic"
+    },
+    {
+      "title": "Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks",
+      "link": "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
+      "raw_summary": "A credential-stealing npm worm that first appeared in keyv@6.0.0 spread beyond the Keyv and Cacheable namespaces into hundreds of packages across multiple organizations on August 4, 2026.\n\nSafeDep verified 353 poisoned versions across 79 package names in the npm registry. Its monitoring put the wider footprint at 442 versions across 353 names, while Aikido later reported at least 868 packages",
+      "source": "The Hacker News",
+      "published": "Tue, 04 Aug 2026 19:00:23 +0530",
+      "summary": "Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks\nA credential-stealing npm worm that first appeared in keyv@6.0.0 spread beyond the Keyv and Cacheable namespaces into hundreds of packages across multiple organizations on August 4, 2026.\n\nSafeDep verified 353 po"
+    },
+    {
+      "title": "Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access",
+      "link": "https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html",
+      "raw_summary": "Cybersecurity researchers have disclosed details of an active, multi-wave campaign that employs social engineering lures themed around Adobe and Zoom software updates, business document reviews, and system maintenance utilities to stealthily deploy Remote Monitoring and Management (RMM) programs like ConnectWise ScreenConnect.\n\nThe campaign has been codenamed SMOKE#SCREEN by Securonix Threat",
+      "source": "The Hacker News",
+      "published": "Tue, 04 Aug 2026 18:41:22 +0530",
+      "summary": "Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access\nCybersecurity researchers have disclosed details of an active, multi-wave campaign that employs social engineering lures themed around Adobe and Zoom software updates, business document reviews, and system maintenance uti"
+    },
+    {
       "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
       "link": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
       "raw_summary": "The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise.\n\nThat assumption is starting to break.\n\nSecurity teams have long estimated risk by ranking attacker sophistication. Nation-state actors sat at one end. Organized criminal groups followed. Inexperienced attackers, dismissed as \"script kiddies,\" sat at the other end, running public",
@@ -59,268 +83,244 @@
       "summary": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent\nGoogle deleted three AI agent workflows from its Agent Development Kit (ADK) Python repository. Pillar Security showed that a public GitHub issue could manipulate a triage agent into triggering a privileged"
     },
     {
-      "title": "New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root",
-      "link": "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html",
-      "raw_summary": "cPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database's root context, crossing the privilege boundary between a cPanel account and the server's administrative database identity. It shipped in a targeted security release that closes two other routes past account boundaries.\n\nThe database bug is tracked as CVE-2026-58048 (CVSS 4.0 score: 9.4) and affects",
-      "source": "The Hacker News",
-      "published": "Tue, 04 Aug 2026 16:06:27 +0530",
-      "summary": "New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root\ncPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database's root context, crossing the privilege boundary between a cPanel account and the server's administrative database identity. I"
-    },
-    {
-      "title": "DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT",
-      "link": "https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html",
-      "raw_summary": "A new Russian loader-as-a-service (LaaS) codenamed DOUBLECUP has been using ClickFix lures as a way to stage malware-laced PNG images in victims' browser cache and ultimately deliver CountLoader and a previously undocumented remote access trojan called DeviceManager.\n\n\"The first stage drops a steganographic PNG image into the browser's cache, retrieves its hidden content, and executes the second",
-      "source": "The Hacker News",
-      "published": "Tue, 04 Aug 2026 14:33:23 +0530",
-      "summary": "DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT\nA new Russian loader-as-a-service (LaaS) codenamed DOUBLECUP has been using ClickFix lures as a way to stage malware-laced PNG images in victims' browser cache and ultimately deliver CountLoader and a previously und"
-    },
-    {
-      "title": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
-      "link": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
-      "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog following reports of active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-18577 (CVSS score: 8.2), is a case of incomplete patching for CVE-2026-18556 (CVSS score: 8.2) that allows",
-      "source": "The Hacker News",
-      "published": "Tue, 04 Aug 2026 12:30:13 +0530",
-      "summary": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog following reports of active explo"
-    },
-    {
-      "title": "Xbox goes down. You can't play games you own on disc",
-      "link": "https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/",
-      "raw_summary": "<p>Article URL: <a href=\"https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/\">https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49167448\">https://news.ycombinator.com/item?id=49167448</a></p>\n<p>Points: 142</p>\n<p># Comments: 139</p>",
+      "title": "Launch HN: EdotEnv (YC S26) – Quant Trading RL Envs to Teach LLMs Research",
+      "link": "https://edotenv.com/",
+      "raw_summary": "<p>We are Rui and Michael and we’re building EdotEnv (<a href=\"https://edotenv.com\" rel=\"nofollow\">https://edotenv.com</a>): self-improving RL environments from Quant Trading workflows.<p>With all the benchmaxxing around, evals saturate and become meaningless for model comparison. Useful benchmarks should increase in difficulty as models advance. Back in our Quant jobs, Michael and I saw that the market has exactly this property: markets became more efficient as people profited from trading inefficiencies, making new profitable strategies harder to find and old ones decay over time.<p>This makes markets an ideal, continuously evolving benchmark for LLM training. The hard part is to turn professional quant workflows into reliable training envs, as this is a very niche expertise.<p>In our environments, we give LLMs a quant trading workflow and evaluate their performance on out-of-sample data: build predictive features/ models, design a portfolio, backtest strategies, adapt continuously to market regimes. Each step is a task with different self-built tools. For example, a predictive feature building task gives the agent cleaned market data of time period [0,T] to research ideas, a backtesting tool to test created features at time t on [0, t], an execution tool to trade strategies with the new features on [t+1, T] and a final evaluation. Our reward isolates the agent's feature building skills and yet benefits from market properties.<p>From running SOTA models in our environments, we see that i) they seem to struggle with iterating deeply on research ideas, preferring broad shallow searches; ii) higher reasoning does not seem to increase performance and iii) agents do not understand trading, e.g. when losing money they stop trading instead of trading smarter. Check out our blogs for more details! <a href=\"https://edotenv.com/?tab=blog\" rel=\"nofollow\">https://edotenv.com/?tab=blog</a><p>Quant workflows are essentially applied ML research, long-horizon planning and continual learning. Through our envs, we teach these transferable research skills, rather than task specific answers. Our environments are closer to a realistic research workflow: we use real-world data instead of synthetic ones; our envs naturally contain noise and real trade-offs; our rewards are verifiable and immediate, with no need for an additional LLM judge or human expert.<p>We open sourced a sample task repository: <a href=\"https://github.com/MMcollab-dotcom/feature-engineering\" rel=\"nofollow\">https://github.com/MMcollab-dotcom/feature-engineering</a>. We plan to sell continuously improving envs to AI labs/researchers/enterprises training their own agents, who are interested in ML modelling capabilities, continual learning, long horizon planning or Quant Research in general.<p>We'd love feedback from anyone trying out their own agents in our envs, for either eval or post training. And of course, we are always happy to discuss the future of trading with LLMs (and no, it should not be asking the LLM to read tea leaves and give you the stock to buy tomorrow). Looking forward to your comments!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49172936\">https://news.ycombinator.com/item?id=49172936</a></p>\n<p>Points: 7</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 04 Aug 2026 12:01:02 +0000",
-      "summary": "Xbox goes down. You can't play games you own on disc\n<p>Article URL: <a href=\"https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/\">https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/it"
+      "published": "Tue, 04 Aug 2026 18:36:02 +0000",
+      "summary": "Launch HN: EdotEnv (YC S26) – Quant Trading RL Envs to Teach LLMs Research\n<p>We are Rui and Michael and we’re building EdotEnv (<a href=\"https://edotenv.com\" rel=\"nofollow\">https://edotenv.com</a>): self-improving RL environments from Quant Trading workflows.<p>With all the benchmaxxing around, eva"
     },
     {
-      "title": "Roame (YC S23) Is Hiring Lead Engineer",
-      "link": "https://www.ycombinator.com/companies/roame/jobs/mqqfa38-lead-full-stack-engineer",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/roame/jobs/mqqfa38-lead-full-stack-engineer\">https://www.ycombinator.com/companies/roame/jobs/mqqfa38-lead-full-stack-engineer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49167444\">https://news.ycombinator.com/item?id=49167444</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
+      "title": "Web security is too hard",
+      "link": "https://textslashplain.com/2026/08/04/security-is-hard-yall/",
+      "raw_summary": "<p>Article URL: <a href=\"https://textslashplain.com/2026/08/04/security-is-hard-yall/\">https://textslashplain.com/2026/08/04/security-is-hard-yall/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49172834\">https://news.ycombinator.com/item?id=49172834</a></p>\n<p>Points: 72</p>\n<p># Comments: 15</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 04 Aug 2026 12:00:51 +0000",
-      "summary": "Roame (YC S23) Is Hiring Lead Engineer\n<p>Article URL: <a href=\"https://www.ycombinator.com/companies/roame/jobs/mqqfa38-lead-full-stack-engineer\">https://www.ycombinator.com/companies/roame/jobs/mqqfa38-lead-full-stack-engineer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id="
+      "published": "Tue, 04 Aug 2026 18:29:32 +0000",
+      "summary": "Web security is too hard\n<p>Article URL: <a href=\"https://textslashplain.com/2026/08/04/security-is-hard-yall/\">https://textslashplain.com/2026/08/04/security-is-hard-yall/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49172834\">https://news.ycombinator.com/item?id=49172834<"
     },
     {
-      "title": "Buckminster Fuller: everything I know",
-      "link": "https://www.bfi.org/about-fuller/everything-i-know/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.bfi.org/about-fuller/everything-i-know/\">https://www.bfi.org/about-fuller/everything-i-know/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49167147\">https://news.ycombinator.com/item?id=49167147</a></p>\n<p>Points: 36</p>\n<p># Comments: 12</p>",
+      "title": "Blackmail Fail (2013)",
+      "link": "https://gwern.net/blackmail",
+      "raw_summary": "<p>Article URL: <a href=\"https://gwern.net/blackmail\">https://gwern.net/blackmail</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49172597\">https://news.ycombinator.com/item?id=49172597</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 04 Aug 2026 11:33:32 +0000",
-      "summary": "Buckminster Fuller: everything I know\n<p>Article URL: <a href=\"https://www.bfi.org/about-fuller/everything-i-know/\">https://www.bfi.org/about-fuller/everything-i-know/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49167147\">https://news.ycombinator.com/item?id=49167147</a></"
+      "published": "Tue, 04 Aug 2026 18:11:09 +0000",
+      "summary": "Blackmail Fail (2013)\n<p>Article URL: <a href=\"https://gwern.net/blackmail\">https://gwern.net/blackmail</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49172597\">https://news.ycombinator.com/item?id=49172597</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>"
     },
     {
-      "title": "AI-Generated Images Discourage Me from Reading Your Blog",
-      "link": "https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/",
-      "raw_summary": "<p>Article URL: <a href=\"https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/\">https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49167113\">https://news.ycombinator.com/item?id=49167113</a></p>\n<p>Points: 379</p>\n<p># Comments: 225</p>",
+      "title": "Why some people mow a lawn better than others",
+      "link": "https://pudding.cool/2026/06/mow/",
+      "raw_summary": "<p>Article URL: <a href=\"https://pudding.cool/2026/06/mow/\">https://pudding.cool/2026/06/mow/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49172550\">https://news.ycombinator.com/item?id=49172550</a></p>\n<p>Points: 31</p>\n<p># Comments: 12</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 04 Aug 2026 11:30:17 +0000",
-      "summary": "AI-Generated Images Discourage Me from Reading Your Blog\n<p>Article URL: <a href=\"https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/\">https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator."
+      "published": "Tue, 04 Aug 2026 18:06:12 +0000",
+      "summary": "Why some people mow a lawn better than others\n<p>Article URL: <a href=\"https://pudding.cool/2026/06/mow/\">https://pudding.cool/2026/06/mow/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49172550\">https://news.ycombinator.com/item?id=49172550</a></p>\n<p>Points: 31</p>\n<p># Co"
     },
     {
-      "title": "Show HN: Fine-tune an 8B model on a 4 GB laptop GPU",
-      "link": "https://github.com/MakazhanAlpamys/Soup",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/MakazhanAlpamys/Soup\">https://github.com/MakazhanAlpamys/Soup</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49166984\">https://news.ycombinator.com/item?id=49166984</a></p>\n<p>Points: 34</p>\n<p># Comments: 4</p>",
+      "title": "Show HN: cMCP, deny an AI agent's tool call and get a signed receipt",
+      "link": "https://github.com/agentrust-io/cmcp",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/agentrust-io/cmcp\">https://github.com/agentrust-io/cmcp</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49172545\">https://news.ycombinator.com/item?id=49172545</a></p>\n<p>Points: 7</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 04 Aug 2026 11:17:57 +0000",
-      "summary": "Show HN: Fine-tune an 8B model on a 4 GB laptop GPU\n<p>Article URL: <a href=\"https://github.com/MakazhanAlpamys/Soup\">https://github.com/MakazhanAlpamys/Soup</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49166984\">https://news.ycombinator.com/item?id=49166984</a></p>\n<p>Poin"
+      "published": "Tue, 04 Aug 2026 18:06:08 +0000",
+      "summary": "Show HN: cMCP, deny an AI agent's tool call and get a signed receipt\n<p>Article URL: <a href=\"https://github.com/agentrust-io/cmcp\">https://github.com/agentrust-io/cmcp</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49172545\">https://news.ycombinator.com/item?id=49172545</a><"
     },
     {
-      "title": "India moves to give its instant payments network a business model",
-      "link": "https://techcrunch.com/2026/08/04/india-moves-to-give-its-instant-payments-network-a-business-model/",
-      "raw_summary": "The legislation lays the groundwork for a potential overhaul of India's zero-merchant-discount-rate regime, under which businesses have not paid fees to accept UPI payments since 2020.",
+      "title": "Waymo opens up robotaxi service in Dallas to everyone",
+      "link": "https://techcrunch.com/2026/08/04/waymo-opens-up-robotaxi-service-in-dallas-to-everyone/",
+      "raw_summary": "Waymo has dropped the waitlist for its robotaxi service in Dallas, the latest step in the company's bid to scale its self-driving technology across the United States, U.K., and Europe.",
       "source": "TechCrunch",
-      "published": "Tue, 04 Aug 2026 13:31:17 +0000",
-      "summary": "India moves to give its instant payments network a business model\nThe legislation lays the groundwork for a potential overhaul of India's zero-merchant-discount-rate regime, under which businesses have not paid fees to accept UPI payments since 2020."
+      "published": "Tue, 04 Aug 2026 17:31:01 +0000",
+      "summary": "Waymo opens up robotaxi service in Dallas to everyone\nWaymo has dropped the waitlist for its robotaxi service in Dallas, the latest step in the company's bid to scale its self-driving technology across the United States, U.K., and Europe."
     },
     {
-      "title": "Is the future of data centers portable? Runware builds a pod to find out",
-      "link": "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
-      "raw_summary": "On Tuesday, AI infrastructure company Runware announced the launch of its own modular data center called Sonic Inference Pod.",
+      "title": "Take an extra $100 off your TechCrunch Disrupt 2026 pass: This week only!",
+      "link": "https://techcrunch.com/2026/08/04/take-an-extra-100-off-your-techcrunch-disrupt-2026-pass-this-week-only/",
+      "raw_summary": "Starting today, you can take an additional $100 off your founder, investor, or attendee TechCrunch Disrupt 2026 pass, which is a nice bonus on top of our current discounted pricing.",
       "source": "TechCrunch",
-      "published": "Tue, 04 Aug 2026 13:00:00 +0000",
-      "summary": "Is the future of data centers portable? Runware builds a pod to find out\nOn Tuesday, AI infrastructure company Runware announced the launch of its own modular data center called Sonic Inference Pod."
+      "published": "Tue, 04 Aug 2026 17:20:54 +0000",
+      "summary": "Take an extra $100 off your TechCrunch Disrupt 2026 pass: This week only!\nStarting today, you can take an additional $100 off your founder, investor, or attendee TechCrunch Disrupt 2026 pass, which is a nice bonus on top of our current discounted pricing."
     },
     {
-      "title": "EON wants to move the data superhighway from ocean fiber to space lasers",
-      "link": "https://techcrunch.com/2026/08/04/eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to-space-lasers/",
-      "raw_summary": "Endeavour Optical Networks is planning to launch the fastest space laser communications system yet built.",
+      "title": "TV Time co-founder launches Bingers to revive the beloved TV-tracking app",
+      "link": "https://techcrunch.com/2026/08/04/tv-time-co-founder-launches-bingers-to-revive-the-beloved-tv-tracking-app/",
+      "raw_summary": "Bingers is a new TV and movie tracker that revives the social features fans loved with TV Time, while adding support for importing their viewing history.",
       "source": "TechCrunch",
-      "published": "Tue, 04 Aug 2026 12:00:00 +0000",
-      "summary": "EON wants to move the data superhighway from ocean fiber to space lasers\nEndeavour Optical Networks is planning to launch the fastest space laser communications system yet built."
+      "published": "Tue, 04 Aug 2026 17:05:48 +0000",
+      "summary": "TV Time co-founder launches Bingers to revive the beloved TV-tracking app\nBingers is a new TV and movie tracker that revives the social features fans loved with TV Time, while adding support for importing their viewing history."
     },
     {
-      "title": "Bending Spoons to buy Airtable for $1.28B",
-      "link": "https://techcrunch.com/2026/08/04/bending-spoons-to-buy-airtable-for-1-28b/",
-      "raw_summary": "At its peak in 2021, Airtable was valued at over $11 billion, but earlier this year, its shares were said to be trading on the secondary markets at a valuation of $4 billion.",
+      "title": "Hackers steal over $130M by exploiting bug in offline hardware wallets",
+      "link": "https://techcrunch.com/2026/08/04/hackers-steal-over-130-million-by-exploiting-bug-in-offline-hardware-wallets/",
+      "raw_summary": "A security vulnerability in the cryptocurrency hardware wallet Coldcard is allowing hackers to drain the crypto from victims’ wallets. The total losses amount to more than $130 million, according to blockchain-monitoring firms.",
       "source": "TechCrunch",
-      "published": "Tue, 04 Aug 2026 11:30:56 +0000",
-      "summary": "Bending Spoons to buy Airtable for $1.28B\nAt its peak in 2021, Airtable was valued at over $11 billion, but earlier this year, its shares were said to be trading on the secondary markets at a valuation of $4 billion."
+      "published": "Tue, 04 Aug 2026 16:27:59 +0000",
+      "summary": "Hackers steal over $130M by exploiting bug in offline hardware wallets\nA security vulnerability in the cryptocurrency hardware wallet Coldcard is allowing hackers to drain the crypto from victims’ wallets. The total losses amount to more than $130 million, according to blockchain-monitoring firms."
     },
     {
-      "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
-      "link": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist/",
-      "raw_summary": "After a quarter that delivered $1 billion in profit, Palantir CEO Alex Karp on Monday once again warned that AI frontier labs are too untrustworthy for enterprises.",
+      "title": "Spotify expands AI remix and covers project with Merlin partnership",
+      "link": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
+      "raw_summary": "Spotify says Merlin, which represents more than 30,000 independent labels and distributors, has joined Universal Music Group in backing its upcoming AI-powered remix and covers product. The paid tool will let fans create AI-generated covers and remixes of participating artists’ music while ensuring artists opt in, receive credit, and are compensated.",
       "source": "TechCrunch",
-      "published": "Mon, 03 Aug 2026 23:19:50 +0000",
-      "summary": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’\nAfter a quarter that delivered $1 billion in profit, Palantir CEO Alex Karp on Monday once again warned that AI frontier labs are too untrustworthy for enterprises."
+      "published": "Tue, 04 Aug 2026 15:50:06 +0000",
+      "summary": "Spotify expands AI remix and covers project with Merlin partnership\nSpotify says Merlin, which represents more than 30,000 independent labels and distributors, has joined Universal Music Group in backing its upcoming AI-powered remix and covers product. The paid tool will let fans create AI-generate"
     },
     {
-      "title": "US company’s AI lets Ukraine’s cheap kamikaze drones track targets on their own",
-      "link": "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
-      "raw_summary": "$100 million deal gives 50,000 Ukrainian drones US-developed AI capabilities.",
+      "title": "China is Tesla's cash cow, but for how much longer?",
+      "link": "https://arstechnica.com/cars/2026/08/china-is-teslas-cash-cow-but-for-how-much-longer/",
+      "raw_summary": "Tesla's Shanghai factory is busier than ever but might be cut loose.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 03 Aug 2026 22:11:39 +0000",
-      "summary": "US company’s AI lets Ukraine’s cheap kamikaze drones track targets on their own\n$100 million deal gives 50,000 Ukrainian drones US-developed AI capabilities."
+      "published": "Tue, 04 Aug 2026 17:34:48 +0000",
+      "summary": "China is Tesla's cash cow, but for how much longer?\nTesla's Shanghai factory is busier than ever but might be cut loose."
     },
     {
-      "title": "Research roundup: 6 cool science stories we almost missed",
-      "link": "https://arstechnica.com/science/2026/08/research-roundup-6-cool-science-stories-we-almost-missed-5/",
-      "raw_summary": "Also: Cyborg diving suits for cockroaches, why sleepy sperm whales blow bubbles, Betelgeuse's companion star.",
+      "title": "The Pixel 11's \"glow\" feature is actually called HiLight—here's what it does",
+      "link": "https://arstechnica.com/gadgets/2026/08/the-pixel-11s-glow-feature-is-actually-called-hilight-heres-what-it-does/",
+      "raw_summary": "The camera flash will evolve into a multicolor LED that illuminates when your phone is face down.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 03 Aug 2026 20:13:37 +0000",
-      "summary": "Research roundup: 6 cool science stories we almost missed\nAlso: Cyborg diving suits for cockroaches, why sleepy sperm whales blow bubbles, Betelgeuse's companion star."
+      "published": "Tue, 04 Aug 2026 16:11:05 +0000",
+      "summary": "The Pixel 11's \"glow\" feature is actually called HiLight—here's what it does\nThe camera flash will evolve into a multicolor LED that illuminates when your phone is face down."
     },
     {
-      "title": "Lego deploys Hubble Space Telescope as detailed desktop model",
-      "link": "https://arstechnica.com/space/2026/08/lego-deploys-hubble-space-telescope-as-detailed-desktop-model/",
-      "raw_summary": "The orbiting observatory in minifigure scale.",
+      "title": "Tom DeLay helped create TV ownership cap—he says Trump FCC has no authority to repeal it",
+      "link": "https://arstechnica.com/tech-policy/2026/08/can-trump-fcc-repeal-39-tv-ownership-cap-republican-who-wrote-cap-into-law-says-no/",
+      "raw_summary": "Congress set ownership limit at 39%, but FCC claims authority to kill the rule.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 03 Aug 2026 19:21:16 +0000",
-      "summary": "Lego deploys Hubble Space Telescope as detailed desktop model\nThe orbiting observatory in minifigure scale."
+      "published": "Tue, 04 Aug 2026 15:51:00 +0000",
+      "summary": "Tom DeLay helped create TV ownership cap—he says Trump FCC has no authority to repeal it\nCongress set ownership limit at 39%, but FCC claims authority to kill the rule."
     },
     {
-      "title": "An AI-supervised remote exam went so badly that 58,000 students must retake it",
-      "link": "https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/",
-      "raw_summary": "Top scores increased by 5x.",
+      "title": "Trump admin \"aware\" of deaths in explosive diarrhea outbreak, delays reporting",
+      "link": "https://arstechnica.com/health/2026/08/trump-admin-aware-of-deaths-in-explosive-diarrhea-outbreak-delays-reporting/",
+      "raw_summary": "Federal officials will update the outbreak sometime \"this week,\" a spokesperson said.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 03 Aug 2026 19:00:50 +0000",
-      "summary": "An AI-supervised remote exam went so badly that 58,000 students must retake it\nTop scores increased by 5x."
+      "published": "Tue, 04 Aug 2026 15:06:07 +0000",
+      "summary": "Trump admin \"aware\" of deaths in explosive diarrhea outbreak, delays reporting\nFederal officials will update the outbreak sometime \"this week,\" a spokesperson said."
     },
     {
-      "title": "2026 Volkswagen Jetta Sport: The cheap car isn't completely extinct yet",
-      "link": "https://arstechnica.com/cars/2026/08/2026-volkswagen-jetta-sport-the-cheap-car-isnt-completely-extinct-yet/",
-      "raw_summary": "At $25,305, you won't find many new cars for less. But you get what you pay for.",
+      "title": "2027 Chevrolet Corvette Grand Sport X proves code is as important as hardware",
+      "link": "https://arstechnica.com/cars/2026/08/2027-chevrolet-corvette-grand-sport-x-proves-code-is-as-important-as-hardware/",
+      "raw_summary": "Chevy's 721-hp hybrid ups the ante with few compromises, but at a steep cost.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 03 Aug 2026 16:10:22 +0000",
-      "summary": "2026 Volkswagen Jetta Sport: The cheap car isn't completely extinct yet\nAt $25,305, you won't find many new cars for less. But you get what you pay for."
+      "published": "Tue, 04 Aug 2026 14:45:08 +0000",
+      "summary": "2027 Chevrolet Corvette Grand Sport X proves code is as important as hardware\nChevy's 721-hp hybrid ups the ante with few compromises, but at a steep cost."
     },
     {
-      "title": "Oil falls after Bessent says deal to reopen Strait of Hormuz is imminent",
+      "title": "Trump’s ex-lawyer poised to become attorney-general after ‘slush fund’ U-turn",
+      "link": "https://www.ft.com/content/4bfbce82-52ae-425f-8c11-57b2b30f2de7?syn-25a6b1a6=1",
+      "raw_summary": "Todd Blanche’s nomination clears US Senate panel as Republican holdouts drop objections",
+      "source": "World",
+      "published": "Tue, 04 Aug 2026 18:05:26 GMT",
+      "summary": "Trump’s ex-lawyer poised to become attorney-general after ‘slush fund’ U-turn\nTodd Blanche’s nomination clears US Senate panel as Republican holdouts drop objections"
+    },
+    {
+      "title": "US diesel prices overtake Biden-era average in blow to Trump",
+      "link": "https://www.ft.com/content/8d421d44-862d-4942-99ae-568bad4900c2?syn-25a6b1a6=1",
+      "raw_summary": "Cost for fuel that powers industrial America set to remain elevated even as crude falls",
+      "source": "World",
+      "published": "Tue, 04 Aug 2026 17:51:17 GMT",
+      "summary": "US diesel prices overtake Biden-era average in blow to Trump\nCost for fuel that powers industrial America set to remain elevated even as crude falls"
+    },
+    {
+      "title": "An overdue show of EU solidarity with Spain",
+      "link": "https://www.ft.com/content/e8f58a9c-0166-4a81-b970-b070d3dbc122?syn-25a6b1a6=1",
+      "raw_summary": "Instinct to punish Madrid’s liberal approach to migration is self-defeating",
+      "source": "World",
+      "published": "Tue, 04 Aug 2026 17:45:12 GMT",
+      "summary": "An overdue show of EU solidarity with Spain\nInstinct to punish Madrid’s liberal approach to migration is self-defeating"
+    },
+    {
+      "title": "US stocks jump after Bessent says deal to reopen Hormuz is imminent",
       "link": "https://www.ft.com/content/1ed68c71-e1e8-4ae5-a965-5380cbdeaa22?syn-25a6b1a6=1",
-      "raw_summary": "Brent crude drops 4% as Iranian and Omani negotiators agree on temporary arrangement for shipping through waterway",
+      "raw_summary": "S&amp;P 500 hits record high as Iranian and Omani negotiators agree on temporary shipping arrangement",
       "source": "World",
-      "published": "Tue, 04 Aug 2026 13:32:04 GMT",
-      "summary": "Oil falls after Bessent says deal to reopen Strait of Hormuz is imminent\nBrent crude drops 4% as Iranian and Omani negotiators agree on temporary arrangement for shipping through waterway"
+      "published": "Tue, 04 Aug 2026 17:37:19 GMT",
+      "summary": "US stocks jump after Bessent says deal to reopen Hormuz is imminent\nS&amp;P 500 hits record high as Iranian and Omani negotiators agree on temporary shipping arrangement"
     },
     {
-      "title": "Blanche secures key Republican support clearing way for A-G confirmation",
-      "link": "https://www.ft.com/content/07ba66d4-ceaf-497d-8bb2-19df27853a26?syn-25a6b1a6=1",
-      "raw_summary": "Also in today’s newsletter, how Michigan’s Senate race is putting ideological divisions of Democrats on display",
+      "title": "Palantir rides high on greed and fear — but mostly fear",
+      "link": "https://www.ft.com/content/6183a03c-4766-43e7-9392-cacd9a6545f8?syn-25a6b1a6=1",
+      "raw_summary": "Given its prodigious growth and the belief that this will continue, the anxiety many feel is the fear of missing out",
       "source": "World",
-      "published": "Tue, 04 Aug 2026 13:00:11 GMT",
-      "summary": "Blanche secures key Republican support clearing way for A-G confirmation\nAlso in today’s newsletter, how Michigan’s Senate race is putting ideological divisions of Democrats on display"
+      "published": "Tue, 04 Aug 2026 17:23:41 GMT",
+      "summary": "Palantir rides high on greed and fear — but mostly fear\nGiven its prodigious growth and the belief that this will continue, the anxiety many feel is the fear of missing out"
     },
     {
-      "title": "Developing countries have ‘less to fear’ from AI than rich nations",
-      "link": "https://www.ft.com/content/33c20c4e-6a25-42da-9f1e-6664c8388957?syn-25a6b1a6=1",
-      "raw_summary": "World Bank says workers in poorer economies more likely to benefit from the technology than be replaced by it",
-      "source": "World",
-      "published": "Tue, 04 Aug 2026 13:00:10 GMT",
-      "summary": "Developing countries have ‘less to fear’ from AI than rich nations\nWorld Bank says workers in poorer economies more likely to benefit from the technology than be replaced by it"
+      "title": "AI’s Great Reverse Run On The Bank",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-08-04/ai-s-great-reverse-run-on-the-bank",
+      "raw_summary": "When people run towards the source of panic.",
+      "source": "Bloomberg Markets",
+      "published": "Tue, 04 Aug 2026 19:02:23 GMT",
+      "summary": "AI’s Great Reverse Run On The Bank\nWhen people run towards the source of panic."
     },
     {
-      "title": "South African court hears challenge to land seizure law opposed by US",
-      "link": "https://www.ft.com/content/30d55ac8-d363-42e6-a711-016aa83ced80?syn-25a6b1a6=1",
-      "raw_summary": "Democratic Alliance party seeks to scrap ANC policy used by Trump to justify ‘refugee’ scheme for white South Africans",
-      "source": "World",
-      "published": "Tue, 04 Aug 2026 12:54:15 GMT",
-      "summary": "South African court hears challenge to land seizure law opposed by US\nDemocratic Alliance party seeks to scrap ANC policy used by Trump to justify ‘refugee’ scheme for white South Africans"
-    },
-    {
-      "title": "The Fed goes Wacko",
-      "link": "https://www.ft.com/content/cbc7297a-647f-44be-9124-4fba662b15e5?syn-25a6b1a6=1",
-      "raw_summary": "Warsh’s Awful Communications: Knowingly Opaque. Also in this newsletter, the BoE shows how it’s done",
-      "source": "World",
-      "published": "Tue, 04 Aug 2026 11:30:01 GMT",
-      "summary": "The Fed goes Wacko\nWarsh’s Awful Communications: Knowingly Opaque. Also in this newsletter, the BoE shows how it’s done"
+      "title": "AI Boom Is ‘Trickling Down’ to Old-Line Stocks, Wells Fargo Says",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-04/ai-boom-is-trickling-down-to-old-line-stocks-wells-fargo-says",
+      "raw_summary": "The flood of AI spending by big tech companies is “trickling down to the broader economy,” according to Wells Fargo &amp; Co., which says that’s poised to push up industrial stocks.",
+      "source": "Bloomberg Markets",
+      "published": "Tue, 04 Aug 2026 19:02:22 GMT",
+      "summary": "AI Boom Is ‘Trickling Down’ to Old-Line Stocks, Wells Fargo Says\nThe flood of AI spending by big tech companies is “trickling down to the broader economy,” according to Wells Fargo &amp; Co., which says that’s poised to push up industrial stocks."
     },
     {
       "title": "S&P 500 Set for All-Time Highs on Hormuz Deal Push: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-08-03/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "Hopes for a deal to revive the Strait of Hormuz lifted stocks toward all-time highs, bonds rose and oil sank, with Wall Street’s enthusiasm also fueled by a batch of solid corporate earnings.",
+      "raw_summary": "Hopes for an agreement to revive the Strait of Hormuz lifted stocks toward all-time highs, bonds climbed and oil sank, with Wall Street’s enthusiasm also fueled by a batch of solid corporate earnings.",
       "source": "Bloomberg Markets",
       "published": "Mon, 03 Aug 2026 22:13:40 GMT",
-      "summary": "S&P 500 Set for All-Time Highs on Hormuz Deal Push: Markets Wrap\nHopes for a deal to revive the Strait of Hormuz lifted stocks toward all-time highs, bonds rose and oil sank, with Wall Street’s enthusiasm also fueled by a batch of solid corporate earnings."
+      "summary": "S&P 500 Set for All-Time Highs on Hormuz Deal Push: Markets Wrap\nHopes for an agreement to revive the Strait of Hormuz lifted stocks toward all-time highs, bonds climbed and oil sank, with Wall Street’s enthusiasm also fueled by a batch of solid corporate earnings."
     },
     {
-      "title": "Latest Oil Market News and Analysis for Aug. 4",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-03/latest-oil-market-news-and-analysis-for-aug-4",
-      "raw_summary": "Oil slid as optimism grew that the US and Iran are moving closer to a deal to reopen the vital Strait of Hormuz chokepoint.",
+      "title": "El problema del yen ya preocupa también a Estados Unidos",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-04/el-problema-del-yen-ya-preocupa-tambien-a-ee-uu-video",
+      "raw_summary": "El yen japonés se fortaleció con fuerza después de que el gobierno estadounidense interviniera en el mercado cambiario. Pero, ¿por qué la moneda estaba tan débil y qué hay detrás de esa decisión? (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Mon, 03 Aug 2026 22:01:24 GMT",
-      "summary": "Latest Oil Market News and Analysis for Aug. 4\nOil slid as optimism grew that the US and Iran are moving closer to a deal to reopen the vital Strait of Hormuz chokepoint."
+      "published": "Tue, 04 Aug 2026 16:31:27 GMT",
+      "summary": "El problema del yen ya preocupa también a Estados Unidos\nEl yen japonés se fortaleció con fuerza después de que el gobierno estadounidense interviniera en el mercado cambiario. Pero, ¿por qué la moneda estaba tan débil y qué hay detrás de esa decisión? (Source: Bloomberg)"
     },
     {
-      "title": "A Quant and a Korean Dentist Push the Limits of Leveraged ETFs",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-04/a-quant-and-a-korean-dentist-push-the-limits-of-leveraged-etfs",
-      "raw_summary": "A growing number of investors from the US to South Korea are using leveraged exchange-traded funds for long-term investing, a far cry from the day trading they were designed for.",
+      "title": "Codelco Halts Expansion Work at Top Mine on New Seismic Risk",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-04/codelco-halts-expansion-project-at-top-mine-on-new-seismic-risk",
+      "raw_summary": "Codelco is suspending work on a project designed to extend the life of its biggest copper mine in Chile after identifying a new source of seismic risk a year after a rock burst killed six workers.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 04 Aug 2026 13:35:11 GMT",
-      "summary": "A Quant and a Korean Dentist Push the Limits of Leveraged ETFs\nA growing number of investors from the US to South Korea are using leveraged exchange-traded funds for long-term investing, a far cry from the day trading they were designed for."
+      "published": "Tue, 04 Aug 2026 17:54:01 GMT",
+      "summary": "Codelco Halts Expansion Work at Top Mine on New Seismic Risk\nCodelco is suspending work on a project designed to extend the life of its biggest copper mine in Chile after identifying a new source of seismic risk a year after a rock burst killed six workers."
     },
     {
-      "title": "SpaceX’s First Earnings Offer a Chance to Reverse Stock’s Plunge",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-04/spacex-s-first-earnings-offer-a-chance-to-reverse-stock-s-plunge",
-      "raw_summary": "SpaceX’s first earnings release following its record initial public offering is one of the most anticipated reports of the summer for traders on Wall Street and beyond. Whether it’ll give investors a reason to buy the sinking stock is another matter.",
-      "source": "Bloomberg Markets",
-      "published": "Tue, 04 Aug 2026 08:26:19 GMT",
-      "summary": "SpaceX’s First Earnings Offer a Chance to Reverse Stock’s Plunge\nSpaceX’s first earnings release following its record initial public offering is one of the most anticipated reports of the summer for traders on Wall Street and beyond. Whether it’ll give investors a reason to buy the sinking stock is "
-    },
-    {
-      "title": "After Historic Intervention, 155 Emerges as Yen’s Next Big Test",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-04/after-historic-intervention-155-emerges-as-yen-s-next-big-test",
-      "raw_summary": "Japan’s historic joint intervention with the US is shifting market focus to whether the yen can strengthen beyond 155 per dollar, a threshold strategists view as a key test for the rally’s staying power.",
-      "source": "Bloomberg Markets",
-      "published": "Tue, 04 Aug 2026 02:09:53 GMT",
-      "summary": "After Historic Intervention, 155 Emerges as Yen’s Next Big Test\nJapan’s historic joint intervention with the US is shifting market focus to whether the yen can strengthen beyond 155 per dollar, a threshold strategists view as a key test for the rally’s staying power."
-    },
-    {
-      "title": "As Clarity Act teeters, mystery group hammers away at crypto in Washington ads",
-      "link": "https://www.coindesk.com/policy/2026/08/03/as-clarity-act-teeters-mystery-group-hammers-away-at-crypto-in-washington-ads",
+      "title": "Open USD rattled Circle's stock, but its key backers still support USDC",
+      "link": "https://www.coindesk.com/business/2026/08/03/open-usd-rattled-circle-s-stock-but-its-key-backers-still-support-usdc",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 04 Aug 2026 13:00:00 +0000",
-      "summary": "As Clarity Act teeters, mystery group hammers away at crypto in Washington ads\n"
+      "published": "Tue, 04 Aug 2026 17:55:23 +0000",
+      "summary": "Open USD rattled Circle's stock, but its key backers still support USDC\n"
     },
     {
-      "title": "BitGo’s WBTC move pushes LayerZero-to-Chainlink tally near $15 billion",
-      "link": "https://www.coindesk.com/business/2026/08/04/bitgo-s-wbtc-move-pushes-layerzero-to-chainlink-tally-near-usd15-billion",
+      "title": "Samsung is poised to become a dominant stablecoin distributor, analysts say",
+      "link": "https://www.coindesk.com/business/2026/08/04/samsung-is-poised-to-become-a-dominant-stablecoin-distributor-analysts-say",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 04 Aug 2026 13:00:00 +0000",
-      "summary": "BitGo’s WBTC move pushes LayerZero-to-Chainlink tally near $15 billion\n"
+      "published": "Tue, 04 Aug 2026 17:14:13 +0000",
+      "summary": "Samsung is poised to become a dominant stablecoin distributor, analysts say\n"
     },
     {
-      "title": "BNY to add crypto staking to digital asset custody platform",
-      "link": "https://www.coindesk.com/business/2026/08/04/bny-to-add-crypto-staking-to-digital-asset-custody-platform",
+      "title": "Clarity Act sits idle over Trump ethics question as Warren asks SEC to investigate him",
+      "link": "https://www.coindesk.com/policy/2026/08/04/clarity-act-sits-idle-over-trump-ethics-question-as-warren-asks-sec-to-investigate-him",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 04 Aug 2026 12:30:00 +0000",
-      "summary": "BNY to add crypto staking to digital asset custody platform\n"
+      "published": "Tue, 04 Aug 2026 16:21:59 +0000",
+      "summary": "Clarity Act sits idle over Trump ethics question as Warren asks SEC to investigate him\n"
     },
     {
-      "title": "Coldcard urges users to move bitcoin as exploit is still in progress",
-      "link": "https://www.coindesk.com/tech/2026/08/04/coldcard-urges-users-to-move-bitcoin-as-active-wallet-exploit-continues",
+      "title": "Wells Fargo joins JPMorgan and Citi in the race to tokenize Wall Street’s settlement rails",
+      "link": "https://www.coindesk.com/business/2026/08/04/wells-fargo-to-offer-tokenized-deposits-for-24-7-corporate-payments",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 04 Aug 2026 12:00:25 +0000",
-      "summary": "Coldcard urges users to move bitcoin as exploit is still in progress\n"
+      "published": "Tue, 04 Aug 2026 15:47:05 +0000",
+      "summary": "Wells Fargo joins JPMorgan and Citi in the race to tokenize Wall Street’s settlement rails\n"
     },
     {
-      "title": "The bitcoin market has plenty of reasons to freak out, yet calm pervades",
-      "link": "https://www.coindesk.com/daybook-us/2026/08/04/the-bitcoin-market-has-plenty-of-reasons-to-freak-out-yet-calm-pervades",
+      "title": "Bitcoin’s $63,000 zone emerges as key battleground for buyers: Glassnode",
+      "link": "https://www.coindesk.com/markets/2026/08/04/bitcoin-s-usd63-000-zone-emerges-as-key-battleground-for-buyers-glassnode",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 04 Aug 2026 11:23:33 +0000",
-      "summary": "The bitcoin market has plenty of reasons to freak out, yet calm pervades\n"
+      "published": "Tue, 04 Aug 2026 14:49:33 +0000",
+      "summary": "Bitcoin’s $63,000 zone emerges as key battleground for buyers: Glassnode\n"
     }
   ]
 }
