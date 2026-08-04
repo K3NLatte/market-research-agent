@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T08:24:18.711156+00:00",
+  "generated_at": "2026-08-04T13:51:29.704428+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "Felons, Fraudsters Flog Offensive Cybersecurity Startup\nA cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence "
     },
     {
+      "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
+      "link": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
+      "raw_summary": "The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise.\n\nThat assumption is starting to break.\n\nSecurity teams have long estimated risk by ranking attacker sophistication. Nation-state actors sat at one end. Organized criminal groups followed. Inexperienced attackers, dismissed as \"script kiddies,\" sat at the other end, running public",
+      "source": "The Hacker News",
+      "published": "Tue, 04 Aug 2026 17:00:00 +0530",
+      "summary": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted\nThe cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise.\n\nThat assumption is starting to break.\n\nSecurity teams have long estimated risk by ranking attacker sophist"
+    },
+    {
+      "title": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent",
+      "link": "https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html",
+      "raw_summary": "Google deleted three AI agent workflows from its Agent Development Kit (ADK) Python repository. Pillar Security showed that a public GitHub issue could manipulate a triage agent into triggering a privileged code-fixing agent.\n\nThe researchers said the public agent could be prompt-injected into posting /adk-issue-fix as adk-bot. They identified the bot as a collaborator, so that comment satisfied",
+      "source": "The Hacker News",
+      "published": "Tue, 04 Aug 2026 16:46:23 +0530",
+      "summary": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent\nGoogle deleted three AI agent workflows from its Agent Development Kit (ADK) Python repository. Pillar Security showed that a public GitHub issue could manipulate a triage agent into triggering a privileged"
+    },
+    {
+      "title": "New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root",
+      "link": "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html",
+      "raw_summary": "cPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database's root context, crossing the privilege boundary between a cPanel account and the server's administrative database identity. It shipped in a targeted security release that closes two other routes past account boundaries.\n\nThe database bug is tracked as CVE-2026-58048 (CVSS 4.0 score: 9.4) and affects",
+      "source": "The Hacker News",
+      "published": "Tue, 04 Aug 2026 16:06:27 +0530",
+      "summary": "New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root\ncPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database's root context, crossing the privilege boundary between a cPanel account and the server's administrative database identity. I"
+    },
+    {
+      "title": "DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT",
+      "link": "https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html",
+      "raw_summary": "A new Russian loader-as-a-service (LaaS) codenamed DOUBLECUP has been using ClickFix lures as a way to stage malware-laced PNG images in victims' browser cache and ultimately deliver CountLoader and a previously undocumented remote access trojan called DeviceManager.\n\n\"The first stage drops a steganographic PNG image into the browser's cache, retrieves its hidden content, and executes the second",
+      "source": "The Hacker News",
+      "published": "Tue, 04 Aug 2026 14:33:23 +0530",
+      "summary": "DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT\nA new Russian loader-as-a-service (LaaS) codenamed DOUBLECUP has been using ClickFix lures as a way to stage malware-laced PNG images in victims' browser cache and ultimately deliver CountLoader and a previously und"
+    },
+    {
       "title": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
       "link": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
       "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog following reports of active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-18577 (CVSS score: 8.2), is a case of incomplete patching for CVE-2026-18556 (CVSS score: 8.2) that allows",
@@ -51,76 +83,76 @@
       "summary": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog following reports of active explo"
     },
     {
-      "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
-      "link": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
-      "raw_summary": "Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated, targeted software supply chain attack targeting Chinese-speaking environments.\n\nOne of the packages in question is \"lib-mtop,\" an unscoped package with the same name as a private Alibaba package",
-      "source": "The Hacker News",
-      "published": "Tue, 04 Aug 2026 00:13:53 +0530",
-      "summary": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users\nCybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated, targeted software supply "
-    },
-    {
-      "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
-      "link": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
-      "raw_summary": "Malware running as an ordinary user on a Windows machine can sign into a victim's passkey-protected accounts without a fingerprint, a PIN, or anything at all appearing on the victim's screen.\n\nUnit 42 detailed three attack paths against Chrome's Google Password Manager cloud authenticator, which it calls Pass-ta-key, Silver Pass-ta-key and Golden Pass-ta-key; the strongest targets the master key",
-      "source": "The Hacker News",
-      "published": "Mon, 03 Aug 2026 21:54:47 +0530",
-      "summary": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts\nMalware running as an ordinary user on a Windows machine can sign into a victim's passkey-protected accounts without a fingerprint, a PIN, or anything at all appearing on the victim's screen.\n\nUnit 42 detailed three "
-    },
-    {
-      "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
-      "link": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
-      "raw_summary": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances.\n\nIn a report published over the weekend, Resecurity said it observed the INC Ransomware accelerating its activity since the beginning of August 2026, listing multiple victims on its data leak site. Per",
-      "source": "The Hacker News",
-      "published": "Mon, 03 Aug 2026 21:45:13 +0530",
-      "summary": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws\nThe INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances.\n\nIn a report published over the we"
-    },
-    {
-      "title": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
-      "link": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
-      "raw_summary": "This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Public systems, package feeds, hotel networks, and login flows all gave away more than intended.\n\nSome of it was clever. Most of it was just access left lying around: old bugs, exposed gear, poisoned dependencies, weak defaults, and tooling that moved from",
-      "source": "The Hacker News",
-      "published": "Mon, 03 Aug 2026 19:33:11 +0530",
-      "summary": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks\nThis week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Public systems, package feeds, hotel networks, and login flows al"
-    },
-    {
-      "title": "CollectWise (YC F24) Is Hiring",
-      "link": "https://www.ycombinator.com/companies/collectwise/jobs/oEAfzBS-ai-agent-engineer",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/collectwise/jobs/oEAfzBS-ai-agent-engineer\">https://www.ycombinator.com/companies/collectwise/jobs/oEAfzBS-ai-agent-engineer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49165170\">https://news.ycombinator.com/item?id=49165170</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
+      "title": "Xbox goes down. You can't play games you own on disc",
+      "link": "https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/",
+      "raw_summary": "<p>Article URL: <a href=\"https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/\">https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49167448\">https://news.ycombinator.com/item?id=49167448</a></p>\n<p>Points: 142</p>\n<p># Comments: 139</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 04 Aug 2026 07:01:26 +0000",
-      "summary": "CollectWise (YC F24) Is Hiring\n<p>Article URL: <a href=\"https://www.ycombinator.com/companies/collectwise/jobs/oEAfzBS-ai-agent-engineer\">https://www.ycombinator.com/companies/collectwise/jobs/oEAfzBS-ai-agent-engineer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49165170\">"
+      "published": "Tue, 04 Aug 2026 12:01:02 +0000",
+      "summary": "Xbox goes down. You can't play games you own on disc\n<p>Article URL: <a href=\"https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/\">https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/it"
     },
     {
-      "title": "Apple is getting this wrong",
-      "link": "https://openai.com/index/apple-is-getting-this-wrong/",
-      "raw_summary": "<p>Article URL: <a href=\"https://openai.com/index/apple-is-getting-this-wrong/\">https://openai.com/index/apple-is-getting-this-wrong/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49164649\">https://news.ycombinator.com/item?id=49164649</a></p>\n<p>Points: 151</p>\n<p># Comments: 140</p>",
+      "title": "Roame (YC S23) Is Hiring Lead Engineer",
+      "link": "https://www.ycombinator.com/companies/roame/jobs/mqqfa38-lead-full-stack-engineer",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/roame/jobs/mqqfa38-lead-full-stack-engineer\">https://www.ycombinator.com/companies/roame/jobs/mqqfa38-lead-full-stack-engineer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49167444\">https://news.ycombinator.com/item?id=49167444</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 04 Aug 2026 05:32:13 +0000",
-      "summary": "Apple is getting this wrong\n<p>Article URL: <a href=\"https://openai.com/index/apple-is-getting-this-wrong/\">https://openai.com/index/apple-is-getting-this-wrong/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49164649\">https://news.ycombinator.com/item?id=49164649</a></p>\n<p>"
+      "published": "Tue, 04 Aug 2026 12:00:51 +0000",
+      "summary": "Roame (YC S23) Is Hiring Lead Engineer\n<p>Article URL: <a href=\"https://www.ycombinator.com/companies/roame/jobs/mqqfa38-lead-full-stack-engineer\">https://www.ycombinator.com/companies/roame/jobs/mqqfa38-lead-full-stack-engineer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id="
     },
     {
-      "title": "Why did we wait so long for the bicycle? (2019)",
-      "link": "https://blog.rootsofprogress.org/why-did-we-wait-so-long-for-the-bicycle",
-      "raw_summary": "<p>Article URL: <a href=\"https://blog.rootsofprogress.org/why-did-we-wait-so-long-for-the-bicycle\">https://blog.rootsofprogress.org/why-did-we-wait-so-long-for-the-bicycle</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49162787\">https://news.ycombinator.com/item?id=49162787</a></p>\n<p>Points: 36</p>\n<p># Comments: 28</p>",
+      "title": "Buckminster Fuller: everything I know",
+      "link": "https://www.bfi.org/about-fuller/everything-i-know/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.bfi.org/about-fuller/everything-i-know/\">https://www.bfi.org/about-fuller/everything-i-know/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49167147\">https://news.ycombinator.com/item?id=49167147</a></p>\n<p>Points: 36</p>\n<p># Comments: 12</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 03 Aug 2026 23:44:19 +0000",
-      "summary": "Why did we wait so long for the bicycle? (2019)\n<p>Article URL: <a href=\"https://blog.rootsofprogress.org/why-did-we-wait-so-long-for-the-bicycle\">https://blog.rootsofprogress.org/why-did-we-wait-so-long-for-the-bicycle</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49162787\""
+      "published": "Tue, 04 Aug 2026 11:33:32 +0000",
+      "summary": "Buckminster Fuller: everything I know\n<p>Article URL: <a href=\"https://www.bfi.org/about-fuller/everything-i-know/\">https://www.bfi.org/about-fuller/everything-i-know/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49167147\">https://news.ycombinator.com/item?id=49167147</a></"
     },
     {
-      "title": "There Will Come Soft Rains (1950) [pdf]",
-      "link": "https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf",
-      "raw_summary": "<p>Article URL: <a href=\"https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf\">https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49162653\">https://news.ycombinator.com/item?id=49162653</a></p>\n<p>Points: 137</p>\n<p># Comments: 53</p>",
+      "title": "AI-Generated Images Discourage Me from Reading Your Blog",
+      "link": "https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/",
+      "raw_summary": "<p>Article URL: <a href=\"https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/\">https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49167113\">https://news.ycombinator.com/item?id=49167113</a></p>\n<p>Points: 379</p>\n<p># Comments: 225</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 03 Aug 2026 23:24:53 +0000",
-      "summary": "There Will Come Soft Rains (1950) [pdf]\n<p>Article URL: <a href=\"https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf\">https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49162653\">https://news.ycombinator.com/item"
+      "published": "Tue, 04 Aug 2026 11:30:17 +0000",
+      "summary": "AI-Generated Images Discourage Me from Reading Your Blog\n<p>Article URL: <a href=\"https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/\">https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator."
     },
     {
-      "title": "Windows XP 2002 for the Itanium: Unbridled rage",
-      "link": "https://virtuallyfun.com/2026/08/03/windows-xp-2002-for-the-itanium-unbridled-rage/",
-      "raw_summary": "<p>Article URL: <a href=\"https://virtuallyfun.com/2026/08/03/windows-xp-2002-for-the-itanium-unbridled-rage/\">https://virtuallyfun.com/2026/08/03/windows-xp-2002-for-the-itanium-unbridled-rage/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49162086\">https://news.ycombinator.com/item?id=49162086</a></p>\n<p>Points: 97</p>\n<p># Comments: 52</p>",
+      "title": "Show HN: Fine-tune an 8B model on a 4 GB laptop GPU",
+      "link": "https://github.com/MakazhanAlpamys/Soup",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/MakazhanAlpamys/Soup\">https://github.com/MakazhanAlpamys/Soup</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49166984\">https://news.ycombinator.com/item?id=49166984</a></p>\n<p>Points: 34</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 03 Aug 2026 22:04:49 +0000",
-      "summary": "Windows XP 2002 for the Itanium: Unbridled rage\n<p>Article URL: <a href=\"https://virtuallyfun.com/2026/08/03/windows-xp-2002-for-the-itanium-unbridled-rage/\">https://virtuallyfun.com/2026/08/03/windows-xp-2002-for-the-itanium-unbridled-rage/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator"
+      "published": "Tue, 04 Aug 2026 11:17:57 +0000",
+      "summary": "Show HN: Fine-tune an 8B model on a 4 GB laptop GPU\n<p>Article URL: <a href=\"https://github.com/MakazhanAlpamys/Soup\">https://github.com/MakazhanAlpamys/Soup</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49166984\">https://news.ycombinator.com/item?id=49166984</a></p>\n<p>Poin"
+    },
+    {
+      "title": "India moves to give its instant payments network a business model",
+      "link": "https://techcrunch.com/2026/08/04/india-moves-to-give-its-instant-payments-network-a-business-model/",
+      "raw_summary": "The legislation lays the groundwork for a potential overhaul of India's zero-merchant-discount-rate regime, under which businesses have not paid fees to accept UPI payments since 2020.",
+      "source": "TechCrunch",
+      "published": "Tue, 04 Aug 2026 13:31:17 +0000",
+      "summary": "India moves to give its instant payments network a business model\nThe legislation lays the groundwork for a potential overhaul of India's zero-merchant-discount-rate regime, under which businesses have not paid fees to accept UPI payments since 2020."
+    },
+    {
+      "title": "Is the future of data centers portable? Runware builds a pod to find out",
+      "link": "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
+      "raw_summary": "On Tuesday, AI infrastructure company Runware announced the launch of its own modular data center called Sonic Inference Pod.",
+      "source": "TechCrunch",
+      "published": "Tue, 04 Aug 2026 13:00:00 +0000",
+      "summary": "Is the future of data centers portable? Runware builds a pod to find out\nOn Tuesday, AI infrastructure company Runware announced the launch of its own modular data center called Sonic Inference Pod."
+    },
+    {
+      "title": "EON wants to move the data superhighway from ocean fiber to space lasers",
+      "link": "https://techcrunch.com/2026/08/04/eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to-space-lasers/",
+      "raw_summary": "Endeavour Optical Networks is planning to launch the fastest space laser communications system yet built.",
+      "source": "TechCrunch",
+      "published": "Tue, 04 Aug 2026 12:00:00 +0000",
+      "summary": "EON wants to move the data superhighway from ocean fiber to space lasers\nEndeavour Optical Networks is planning to launch the fastest space laser communications system yet built."
+    },
+    {
+      "title": "Bending Spoons to buy Airtable for $1.28B",
+      "link": "https://techcrunch.com/2026/08/04/bending-spoons-to-buy-airtable-for-1-28b/",
+      "raw_summary": "At its peak in 2021, Airtable was valued at over $11 billion, but earlier this year, its shares were said to be trading on the secondary markets at a valuation of $4 billion.",
+      "source": "TechCrunch",
+      "published": "Tue, 04 Aug 2026 11:30:56 +0000",
+      "summary": "Bending Spoons to buy Airtable for $1.28B\nAt its peak in 2021, Airtable was valued at over $11 billion, but earlier this year, its shares were said to be trading on the secondary markets at a valuation of $4 billion."
     },
     {
       "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
@@ -129,38 +161,6 @@
       "source": "TechCrunch",
       "published": "Mon, 03 Aug 2026 23:19:50 +0000",
       "summary": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’\nAfter a quarter that delivered $1 billion in profit, Palantir CEO Alex Karp on Monday once again warned that AI frontier labs are too untrustworthy for enterprises."
-    },
-    {
-      "title": "Snap CEO sidesteps Specs preorder questions on Q2 earnings call",
-      "link": "https://techcrunch.com/2026/08/03/snap-ceo-sidesteps-specs-pre-order-questions-on-q2-earnings-call/",
-      "raw_summary": "When asked about product-market fit, Spiegel said he believes mass-market consumer adoption won't occur until the end of the decade.",
-      "source": "TechCrunch",
-      "published": "Mon, 03 Aug 2026 22:10:58 +0000",
-      "summary": "Snap CEO sidesteps Specs preorder questions on Q2 earnings call\nWhen asked about product-market fit, Spiegel said he believes mass-market consumer adoption won't occur until the end of the decade."
-    },
-    {
-      "title": "AWS is helping vibe-coding startup Superblocks, and the implications are big",
-      "link": "https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big/",
-      "raw_summary": "AWS now allows vibe-coding tool Superblocks to be embedded into the private clouds of AWS customers. It's another step toward decoupling apps from models.",
-      "source": "TechCrunch",
-      "published": "Mon, 03 Aug 2026 20:00:00 +0000",
-      "summary": "AWS is helping vibe-coding startup Superblocks, and the implications are big\nAWS now allows vibe-coding tool Superblocks to be embedded into the private clouds of AWS customers. It's another step toward decoupling apps from models."
-    },
-    {
-      "title": "Who’s legally to blame for Anthropic and OpenAI’s autonomous AI hacks? It’s complicated",
-      "link": "https://techcrunch.com/2026/08/03/whos-legally-to-blame-for-anthropic-and-openais-autonomous-ai-hacks-its-complicated/",
-      "raw_summary": "OpenAI and Anthropic admitted that their unreleased AI models escaped their sandboxes and hacked several companies in unprecedented cyberattacks. Who is legally to blame? Should prosecutors charge the two AI frontier labs? Can victims sue them? We spoke to lawyers who specialize in computer hacking laws to find out.",
-      "source": "TechCrunch",
-      "published": "Mon, 03 Aug 2026 19:45:35 +0000",
-      "summary": "Who’s legally to blame for Anthropic and OpenAI’s autonomous AI hacks? It’s complicated\nOpenAI and Anthropic admitted that their unreleased AI models escaped their sandboxes and hacked several companies in unprecedented cyberattacks. Who is legally to blame? Should prosecutors charge the two AI fron"
-    },
-    {
-      "title": "Design Arena creators raise $7.9 million to bring taste to AI models",
-      "link": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
-      "raw_summary": "Design Arena is used by 5.3 million people around the world, providing critical human evaluations to frontier labs.",
-      "source": "TechCrunch",
-      "published": "Mon, 03 Aug 2026 19:28:57 +0000",
-      "summary": "Design Arena creators raise $7.9 million to bring taste to AI models\nDesign Arena is used by 5.3 million people around the world, providing critical human evaluations to frontier labs."
     },
     {
       "title": "US company’s AI lets Ukraine’s cheap kamikaze drones track targets on their own",
@@ -203,124 +203,124 @@
       "summary": "2026 Volkswagen Jetta Sport: The cheap car isn't completely extinct yet\nAt $25,305, you won't find many new cars for less. But you get what you pay for."
     },
     {
-      "title": "Segro accepts £14bn takeover offer from US rival Prologis",
-      "link": "https://www.ft.com/content/1d8ac0ff-8ff0-44fd-bd92-5fd18983f31e?syn-25a6b1a6=1",
-      "raw_summary": "US real estate group made its ‘final’ bid for London-listed company last month",
+      "title": "Oil falls after Bessent says deal to reopen Strait of Hormuz is imminent",
+      "link": "https://www.ft.com/content/1ed68c71-e1e8-4ae5-a965-5380cbdeaa22?syn-25a6b1a6=1",
+      "raw_summary": "Brent crude drops 4% as Iranian and Omani negotiators agree on temporary arrangement for shipping through waterway",
       "source": "World",
-      "published": "Tue, 04 Aug 2026 08:23:23 GMT",
-      "summary": "Segro accepts £14bn takeover offer from US rival Prologis\nUS real estate group made its ‘final’ bid for London-listed company last month"
+      "published": "Tue, 04 Aug 2026 13:32:04 GMT",
+      "summary": "Oil falls after Bessent says deal to reopen Strait of Hormuz is imminent\nBrent crude drops 4% as Iranian and Omani negotiators agree on temporary arrangement for shipping through waterway"
     },
     {
-      "title": "Toyota plans $6.3bn buyback as weak yen boosts outlook",
-      "link": "https://www.ft.com/content/8a703d1e-99d4-4a04-a08a-761489d33da3?syn-25a6b1a6=1",
-      "raw_summary": "World’s biggest carmaker expects to sell more than 5mn hybrid electric vehicles this year",
+      "title": "Blanche secures key Republican support clearing way for A-G confirmation",
+      "link": "https://www.ft.com/content/07ba66d4-ceaf-497d-8bb2-19df27853a26?syn-25a6b1a6=1",
+      "raw_summary": "Also in today’s newsletter, how Michigan’s Senate race is putting ideological divisions of Democrats on display",
       "source": "World",
-      "published": "Tue, 04 Aug 2026 06:17:26 GMT",
-      "summary": "Toyota plans $6.3bn buyback as weak yen boosts outlook\nWorld’s biggest carmaker expects to sell more than 5mn hybrid electric vehicles this year"
+      "published": "Tue, 04 Aug 2026 13:00:11 GMT",
+      "summary": "Blanche secures key Republican support clearing way for A-G confirmation\nAlso in today’s newsletter, how Michigan’s Senate race is putting ideological divisions of Democrats on display"
     },
     {
-      "title": "Yen intervention = US self-preservation",
-      "link": "https://www.ft.com/content/04b34467-dab0-4646-97dc-8c3d3e44e5e2?syn-25a6b1a6=1",
-      "raw_summary": "More thoughts on why it’s happening",
+      "title": "Developing countries have ‘less to fear’ from AI than rich nations",
+      "link": "https://www.ft.com/content/33c20c4e-6a25-42da-9f1e-6664c8388957?syn-25a6b1a6=1",
+      "raw_summary": "World Bank says workers in poorer economies more likely to benefit from the technology than be replaced by it",
       "source": "World",
-      "published": "Tue, 04 Aug 2026 05:30:05 GMT",
-      "summary": "Yen intervention = US self-preservation\nMore thoughts on why it’s happening"
+      "published": "Tue, 04 Aug 2026 13:00:10 GMT",
+      "summary": "Developing countries have ‘less to fear’ from AI than rich nations\nWorld Bank says workers in poorer economies more likely to benefit from the technology than be replaced by it"
     },
     {
-      "title": "FirstFT: Russia expands shadow LNG fleet",
-      "link": "https://www.ft.com/content/bbcf5c49-0ca3-4af4-a408-e0a723227042?syn-25a6b1a6=1",
-      "raw_summary": "Also in today’s newsletter: Spain’s migrant amnesty and Google’s finance machine",
+      "title": "South African court hears challenge to land seizure law opposed by US",
+      "link": "https://www.ft.com/content/30d55ac8-d363-42e6-a711-016aa83ced80?syn-25a6b1a6=1",
+      "raw_summary": "Democratic Alliance party seeks to scrap ANC policy used by Trump to justify ‘refugee’ scheme for white South Africans",
       "source": "World",
-      "published": "Tue, 04 Aug 2026 04:32:09 GMT",
-      "summary": "FirstFT: Russia expands shadow LNG fleet\nAlso in today’s newsletter: Spain’s migrant amnesty and Google’s finance machine"
+      "published": "Tue, 04 Aug 2026 12:54:15 GMT",
+      "summary": "South African court hears challenge to land seizure law opposed by US\nDemocratic Alliance party seeks to scrap ANC policy used by Trump to justify ‘refugee’ scheme for white South Africans"
     },
     {
-      "title": "The king who outfoxed Pedro Sánchez",
-      "link": "https://www.ft.com/content/b2440aa5-be3e-40ae-ad2d-ad5893de79d3?syn-25a6b1a6=1",
-      "raw_summary": "Morocco’s absolute ruler Mohammed VI turned Spain’s border into leverage over Madrid",
+      "title": "The Fed goes Wacko",
+      "link": "https://www.ft.com/content/cbc7297a-647f-44be-9124-4fba662b15e5?syn-25a6b1a6=1",
+      "raw_summary": "Warsh’s Awful Communications: Knowingly Opaque. Also in this newsletter, the BoE shows how it’s done",
       "source": "World",
-      "published": "Tue, 04 Aug 2026 04:00:24 GMT",
-      "summary": "The king who outfoxed Pedro Sánchez\nMorocco’s absolute ruler Mohammed VI turned Spain’s border into leverage over Madrid"
+      "published": "Tue, 04 Aug 2026 11:30:01 GMT",
+      "summary": "The Fed goes Wacko\nWarsh’s Awful Communications: Knowingly Opaque. Also in this newsletter, the BoE shows how it’s done"
     },
     {
-      "title": "Aramco Says July Attacks Had No Material Operational Impact",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-04/aramco-says-july-attacks-had-no-material-impact-on-operations",
-      "raw_summary": "Saudi Aramco said attacks last month didn’t have a material impact on its operations, and the company is working to expand its oil export capacity as the Iran war disrupts flows through the Strait of Hormuz.",
-      "source": "Bloomberg Markets",
-      "published": "Tue, 04 Aug 2026 07:16:58 GMT",
-      "summary": "Aramco Says July Attacks Had No Material Operational Impact\nSaudi Aramco said attacks last month didn’t have a material impact on its operations, and the company is working to expand its oil export capacity as the Iran war disrupts flows through the Strait of Hormuz."
-    },
-    {
-      "title": "Stocks Hold Near Record Highs as Earnings Roll In: Markets Wrap",
+      "title": "S&P 500 Set for All-Time Highs on Hormuz Deal Push: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-08-03/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "Stocks extended gains as investors turned their focus to corporate earnings after weeks of choppy trading spurred by concerns over tech valuations and the conflict in the Middle East.",
+      "raw_summary": "Hopes for a deal to revive the Strait of Hormuz lifted stocks toward all-time highs, bonds rose and oil sank, with Wall Street’s enthusiasm also fueled by a batch of solid corporate earnings.",
       "source": "Bloomberg Markets",
       "published": "Mon, 03 Aug 2026 22:13:40 GMT",
-      "summary": "Stocks Hold Near Record Highs as Earnings Roll In: Markets Wrap\nStocks extended gains as investors turned their focus to corporate earnings after weeks of choppy trading spurred by concerns over tech valuations and the conflict in the Middle East."
+      "summary": "S&P 500 Set for All-Time Highs on Hormuz Deal Push: Markets Wrap\nHopes for a deal to revive the Strait of Hormuz lifted stocks toward all-time highs, bonds rose and oil sank, with Wall Street’s enthusiasm also fueled by a batch of solid corporate earnings."
     },
     {
-      "title": "Risk Demand Grows for Europe as AI Woes Hit US, Citi’s Chew Says",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-04/risk-demand-grows-for-europe-as-ai-woes-hit-us-citi-s-chew-says",
-      "raw_summary": "Europe’s stock market is the only major region to have experienced a meaningful improvement in risk appetite in recent weeks, supported by fresh capital inflows and better-than-expected earnings, according to strategists at Citigroup Inc.",
+      "title": "Latest Oil Market News and Analysis for Aug. 4",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-03/latest-oil-market-news-and-analysis-for-aug-4",
+      "raw_summary": "Oil slid as optimism grew that the US and Iran are moving closer to a deal to reopen the vital Strait of Hormuz chokepoint.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 04 Aug 2026 08:00:13 GMT",
-      "summary": "Risk Demand Grows for Europe as AI Woes Hit US, Citi’s Chew Says\nEurope’s stock market is the only major region to have experienced a meaningful improvement in risk appetite in recent weeks, supported by fresh capital inflows and better-than-expected earnings, according to strategists at Citigroup I"
+      "published": "Mon, 03 Aug 2026 22:01:24 GMT",
+      "summary": "Latest Oil Market News and Analysis for Aug. 4\nOil slid as optimism grew that the US and Iran are moving closer to a deal to reopen the vital Strait of Hormuz chokepoint."
     },
     {
-      "title": "Europe’s Earnings Are Much Stronger Than They Look",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-04/europe-s-earnings-are-much-stronger-than-they-look-taking-stock",
-      "raw_summary": "Europe Inc. is delivering one of the strongest earnings scorecards in years, setting up regional stocks to scale fresh peaks as analysts turn even more optimistic about a broad range of sectors.",
+      "title": "A Quant and a Korean Dentist Push the Limits of Leveraged ETFs",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-04/a-quant-and-a-korean-dentist-push-the-limits-of-leveraged-etfs",
+      "raw_summary": "A growing number of investors from the US to South Korea are using leveraged exchange-traded funds for long-term investing, a far cry from the day trading they were designed for.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 04 Aug 2026 06:16:25 GMT",
-      "summary": "Europe’s Earnings Are Much Stronger Than They Look\nEurope Inc. is delivering one of the strongest earnings scorecards in years, setting up regional stocks to scale fresh peaks as analysts turn even more optimistic about a broad range of sectors."
+      "published": "Tue, 04 Aug 2026 13:35:11 GMT",
+      "summary": "A Quant and a Korean Dentist Push the Limits of Leveraged ETFs\nA growing number of investors from the US to South Korea are using leveraged exchange-traded funds for long-term investing, a far cry from the day trading they were designed for."
     },
     {
-      "title": "Copper Marches Closer to $14,000 as Flows to US Tighten Market",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-04/copper-marches-closer-to-14-000-as-flows-to-us-tighten-market",
-      "raw_summary": "Copper advanced to the highest in two months, nearing $14,000 a ton in London, as traders monitored ballooning volumes held in the US ahead of an expected decision on an import tariff by President Donald Trump.",
+      "title": "SpaceX’s First Earnings Offer a Chance to Reverse Stock’s Plunge",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-04/spacex-s-first-earnings-offer-a-chance-to-reverse-stock-s-plunge",
+      "raw_summary": "SpaceX’s first earnings release following its record initial public offering is one of the most anticipated reports of the summer for traders on Wall Street and beyond. Whether it’ll give investors a reason to buy the sinking stock is another matter.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 04 Aug 2026 06:24:34 GMT",
-      "summary": "Copper Marches Closer to $14,000 as Flows to US Tighten Market\nCopper advanced to the highest in two months, nearing $14,000 a ton in London, as traders monitored ballooning volumes held in the US ahead of an expected decision on an import tariff by President Donald Trump."
+      "published": "Tue, 04 Aug 2026 08:26:19 GMT",
+      "summary": "SpaceX’s First Earnings Offer a Chance to Reverse Stock’s Plunge\nSpaceX’s first earnings release following its record initial public offering is one of the most anticipated reports of the summer for traders on Wall Street and beyond. Whether it’ll give investors a reason to buy the sinking stock is "
     },
     {
-      "title": "Bhutan's GMC puts part of its bitcoin treasury to work after 10,000 BTC pledge",
-      "link": "https://www.coindesk.com/markets/2026/08/04/bhutan-s-gmc-puts-part-of-its-bitcoin-treasury-to-work-after-10-000-btc-pledge",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 04 Aug 2026 07:56:11 +0000",
-      "summary": "Bhutan's GMC puts part of its bitcoin treasury to work after 10,000 BTC pledge\n"
+      "title": "After Historic Intervention, 155 Emerges as Yen’s Next Big Test",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-04/after-historic-intervention-155-emerges-as-yen-s-next-big-test",
+      "raw_summary": "Japan’s historic joint intervention with the US is shifting market focus to whether the yen can strengthen beyond 155 per dollar, a threshold strategists view as a key test for the rally’s staying power.",
+      "source": "Bloomberg Markets",
+      "published": "Tue, 04 Aug 2026 02:09:53 GMT",
+      "summary": "After Historic Intervention, 155 Emerges as Yen’s Next Big Test\nJapan’s historic joint intervention with the US is shifting market focus to whether the yen can strengthen beyond 155 per dollar, a threshold strategists view as a key test for the rally’s staying power."
     },
     {
-      "title": "Why Jim Cramer’s quantum panic isn’t rattling bitcoin as price holds steady around $64,000",
-      "link": "https://www.coindesk.com/markets/2026/08/04/why-jim-cramer-s-quantum-panic-isn-t-rattling-bitcoin-as-price-holds-steady-around-usd64-000",
+      "title": "As Clarity Act teeters, mystery group hammers away at crypto in Washington ads",
+      "link": "https://www.coindesk.com/policy/2026/08/03/as-clarity-act-teeters-mystery-group-hammers-away-at-crypto-in-washington-ads",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 04 Aug 2026 07:53:18 +0000",
-      "summary": "Why Jim Cramer’s quantum panic isn’t rattling bitcoin as price holds steady around $64,000\n"
+      "published": "Tue, 04 Aug 2026 13:00:00 +0000",
+      "summary": "As Clarity Act teeters, mystery group hammers away at crypto in Washington ads\n"
     },
     {
-      "title": "XRP holders can now borrow RLUSD on Ethereum through $280 million lending pool",
-      "link": "https://www.coindesk.com/markets/2026/08/04/flare-s-wrapped-xrp-wins-approval-in-a-usd280-million-rlusd-lending-vault",
+      "title": "BitGo’s WBTC move pushes LayerZero-to-Chainlink tally near $15 billion",
+      "link": "https://www.coindesk.com/business/2026/08/04/bitgo-s-wbtc-move-pushes-layerzero-to-chainlink-tally-near-usd15-billion",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 04 Aug 2026 06:12:20 +0000",
-      "summary": "XRP holders can now borrow RLUSD on Ethereum through $280 million lending pool\n"
+      "published": "Tue, 04 Aug 2026 13:00:00 +0000",
+      "summary": "BitGo’s WBTC move pushes LayerZero-to-Chainlink tally near $15 billion\n"
     },
     {
-      "title": "A new Solana proposal aims to ramp up daily SOL Burns from $47,000 to $650,000",
-      "link": "https://www.coindesk.com/tech/2026/08/04/a-new-solana-proposal-would-take-daily-sol-burns-from-usd47-000-to-usd650-000",
+      "title": "BNY to add crypto staking to digital asset custody platform",
+      "link": "https://www.coindesk.com/business/2026/08/04/bny-to-add-crypto-staking-to-digital-asset-custody-platform",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 04 Aug 2026 05:39:18 +0000",
-      "summary": "A new Solana proposal aims to ramp up daily SOL Burns from $47,000 to $650,000\n"
+      "published": "Tue, 04 Aug 2026 12:30:00 +0000",
+      "summary": "BNY to add crypto staking to digital asset custody platform\n"
     },
     {
-      "title": "Bitcoin nears $64,000 as traders look past Strategy's BTC sales and Coldcard sweeps",
-      "link": "https://www.coindesk.com/markets/2026/08/04/bitcoin-nears-usd64-000-as-traders-look-past-the-fourth-coldcard-sweep",
+      "title": "Coldcard urges users to move bitcoin as exploit is still in progress",
+      "link": "https://www.coindesk.com/tech/2026/08/04/coldcard-urges-users-to-move-bitcoin-as-active-wallet-exploit-continues",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 04 Aug 2026 05:21:13 +0000",
-      "summary": "Bitcoin nears $64,000 as traders look past Strategy's BTC sales and Coldcard sweeps\n"
+      "published": "Tue, 04 Aug 2026 12:00:25 +0000",
+      "summary": "Coldcard urges users to move bitcoin as exploit is still in progress\n"
+    },
+    {
+      "title": "The bitcoin market has plenty of reasons to freak out, yet calm pervades",
+      "link": "https://www.coindesk.com/daybook-us/2026/08/04/the-bitcoin-market-has-plenty-of-reasons-to-freak-out-yet-calm-pervades",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Tue, 04 Aug 2026 11:23:33 +0000",
+      "summary": "The bitcoin market has plenty of reasons to freak out, yet calm pervades\n"
     }
   ]
 }
