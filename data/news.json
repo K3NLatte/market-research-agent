@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T19:20:00.549137+00:00",
+  "generated_at": "2026-08-05T01:49:24.662995+00:00",
   "count": 40,
   "articles": [
     {
@@ -83,84 +83,108 @@
       "summary": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent\nGoogle deleted three AI agent workflows from its Agent Development Kit (ADK) Python repository. Pillar Security showed that a public GitHub issue could manipulate a triage agent into triggering a privileged"
     },
     {
-      "title": "Launch HN: EdotEnv (YC S26) – Quant Trading RL Envs to Teach LLMs Research",
-      "link": "https://edotenv.com/",
-      "raw_summary": "<p>We are Rui and Michael and we’re building EdotEnv (<a href=\"https://edotenv.com\" rel=\"nofollow\">https://edotenv.com</a>): self-improving RL environments from Quant Trading workflows.<p>With all the benchmaxxing around, evals saturate and become meaningless for model comparison. Useful benchmarks should increase in difficulty as models advance. Back in our Quant jobs, Michael and I saw that the market has exactly this property: markets became more efficient as people profited from trading inefficiencies, making new profitable strategies harder to find and old ones decay over time.<p>This makes markets an ideal, continuously evolving benchmark for LLM training. The hard part is to turn professional quant workflows into reliable training envs, as this is a very niche expertise.<p>In our environments, we give LLMs a quant trading workflow and evaluate their performance on out-of-sample data: build predictive features/ models, design a portfolio, backtest strategies, adapt continuously to market regimes. Each step is a task with different self-built tools. For example, a predictive feature building task gives the agent cleaned market data of time period [0,T] to research ideas, a backtesting tool to test created features at time t on [0, t], an execution tool to trade strategies with the new features on [t+1, T] and a final evaluation. Our reward isolates the agent's feature building skills and yet benefits from market properties.<p>From running SOTA models in our environments, we see that i) they seem to struggle with iterating deeply on research ideas, preferring broad shallow searches; ii) higher reasoning does not seem to increase performance and iii) agents do not understand trading, e.g. when losing money they stop trading instead of trading smarter. Check out our blogs for more details! <a href=\"https://edotenv.com/?tab=blog\" rel=\"nofollow\">https://edotenv.com/?tab=blog</a><p>Quant workflows are essentially applied ML research, long-horizon planning and continual learning. Through our envs, we teach these transferable research skills, rather than task specific answers. Our environments are closer to a realistic research workflow: we use real-world data instead of synthetic ones; our envs naturally contain noise and real trade-offs; our rewards are verifiable and immediate, with no need for an additional LLM judge or human expert.<p>We open sourced a sample task repository: <a href=\"https://github.com/MMcollab-dotcom/feature-engineering\" rel=\"nofollow\">https://github.com/MMcollab-dotcom/feature-engineering</a>. We plan to sell continuously improving envs to AI labs/researchers/enterprises training their own agents, who are interested in ML modelling capabilities, continual learning, long horizon planning or Quant Research in general.<p>We'd love feedback from anyone trying out their own agents in our envs, for either eval or post training. And of course, we are always happy to discuss the future of trading with LLMs (and no, it should not be asking the LLM to read tea leaves and give you the stock to buy tomorrow). Looking forward to your comments!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49172936\">https://news.ycombinator.com/item?id=49172936</a></p>\n<p>Points: 7</p>\n<p># Comments: 2</p>",
+      "title": "Zigbee vs. Matter over Thread:Understanding IoT Protocol Performance in Practice",
+      "link": "https://arxiv.org/abs/2603.04221",
+      "raw_summary": "<p>Article URL: <a href=\"https://arxiv.org/abs/2603.04221\">https://arxiv.org/abs/2603.04221</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49176983\">https://news.ycombinator.com/item?id=49176983</a></p>\n<p>Points: 14</p>\n<p># Comments: 6</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 04 Aug 2026 18:36:02 +0000",
-      "summary": "Launch HN: EdotEnv (YC S26) – Quant Trading RL Envs to Teach LLMs Research\n<p>We are Rui and Michael and we’re building EdotEnv (<a href=\"https://edotenv.com\" rel=\"nofollow\">https://edotenv.com</a>): self-improving RL environments from Quant Trading workflows.<p>With all the benchmaxxing around, eva"
+      "published": "Wed, 05 Aug 2026 00:10:37 +0000",
+      "summary": "Zigbee vs. Matter over Thread:Understanding IoT Protocol Performance in Practice\n<p>Article URL: <a href=\"https://arxiv.org/abs/2603.04221\">https://arxiv.org/abs/2603.04221</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49176983\">https://news.ycombinator.com/item?id=49176983<"
     },
     {
-      "title": "Web security is too hard",
-      "link": "https://textslashplain.com/2026/08/04/security-is-hard-yall/",
-      "raw_summary": "<p>Article URL: <a href=\"https://textslashplain.com/2026/08/04/security-is-hard-yall/\">https://textslashplain.com/2026/08/04/security-is-hard-yall/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49172834\">https://news.ycombinator.com/item?id=49172834</a></p>\n<p>Points: 72</p>\n<p># Comments: 15</p>",
+      "title": "Bugtraq Is Back",
+      "link": "https://lists.securityfocus.com/hyperkitty/list/bugtraq@securityfocus.com/thread/CHKLXLA7SJEWLDFHWXB3QU57ADOXGL2E/",
+      "raw_summary": "<p>Article URL: <a href=\"https://lists.securityfocus.com/hyperkitty/list/bugtraq@securityfocus.com/thread/CHKLXLA7SJEWLDFHWXB3QU57ADOXGL2E/\">https://lists.securityfocus.com/hyperkitty/list/bugtraq@securityfocus.com/thread/CHKLXLA7SJEWLDFHWXB3QU57ADOXGL2E/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49176947\">https://news.ycombinator.com/item?id=49176947</a></p>\n<p>Points: 13</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 04 Aug 2026 18:29:32 +0000",
-      "summary": "Web security is too hard\n<p>Article URL: <a href=\"https://textslashplain.com/2026/08/04/security-is-hard-yall/\">https://textslashplain.com/2026/08/04/security-is-hard-yall/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49172834\">https://news.ycombinator.com/item?id=49172834<"
+      "published": "Wed, 05 Aug 2026 00:05:49 +0000",
+      "summary": "Bugtraq Is Back\n<p>Article URL: <a href=\"https://lists.securityfocus.com/hyperkitty/list/bugtraq@securityfocus.com/thread/CHKLXLA7SJEWLDFHWXB3QU57ADOXGL2E/\">https://lists.securityfocus.com/hyperkitty/list/bugtraq@securityfocus.com/thread/CHKLXLA7SJEWLDFHWXB3QU57ADOXGL2E/</a></p>\n<p>Comments URL: <a "
     },
     {
-      "title": "Blackmail Fail (2013)",
-      "link": "https://gwern.net/blackmail",
-      "raw_summary": "<p>Article URL: <a href=\"https://gwern.net/blackmail\">https://gwern.net/blackmail</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49172597\">https://news.ycombinator.com/item?id=49172597</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
+      "title": "Flowise Is Shutting Down",
+      "link": "https://flowiseai.com/sunset",
+      "raw_summary": "<p>Article URL: <a href=\"https://flowiseai.com/sunset\">https://flowiseai.com/sunset</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49176920\">https://news.ycombinator.com/item?id=49176920</a></p>\n<p>Points: 10</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 04 Aug 2026 18:11:09 +0000",
-      "summary": "Blackmail Fail (2013)\n<p>Article URL: <a href=\"https://gwern.net/blackmail\">https://gwern.net/blackmail</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49172597\">https://news.ycombinator.com/item?id=49172597</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>"
+      "published": "Wed, 05 Aug 2026 00:02:40 +0000",
+      "summary": "Flowise Is Shutting Down\n<p>Article URL: <a href=\"https://flowiseai.com/sunset\">https://flowiseai.com/sunset</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49176920\">https://news.ycombinator.com/item?id=49176920</a></p>\n<p>Points: 10</p>\n<p># Comments: 3</p>"
     },
     {
-      "title": "Why some people mow a lawn better than others",
-      "link": "https://pudding.cool/2026/06/mow/",
-      "raw_summary": "<p>Article URL: <a href=\"https://pudding.cool/2026/06/mow/\">https://pudding.cool/2026/06/mow/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49172550\">https://news.ycombinator.com/item?id=49172550</a></p>\n<p>Points: 31</p>\n<p># Comments: 12</p>",
+      "title": "Eight Myths on Software Engineering and GenAI",
+      "link": "https://queue.acm.org/detail.cfm?id=3807963",
+      "raw_summary": "<p>Article URL: <a href=\"https://queue.acm.org/detail.cfm?id=3807963\">https://queue.acm.org/detail.cfm?id=3807963</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49176830\">https://news.ycombinator.com/item?id=49176830</a></p>\n<p>Points: 50</p>\n<p># Comments: 21</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 04 Aug 2026 18:06:12 +0000",
-      "summary": "Why some people mow a lawn better than others\n<p>Article URL: <a href=\"https://pudding.cool/2026/06/mow/\">https://pudding.cool/2026/06/mow/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49172550\">https://news.ycombinator.com/item?id=49172550</a></p>\n<p>Points: 31</p>\n<p># Co"
+      "published": "Tue, 04 Aug 2026 23:50:52 +0000",
+      "summary": "Eight Myths on Software Engineering and GenAI\n<p>Article URL: <a href=\"https://queue.acm.org/detail.cfm?id=3807963\">https://queue.acm.org/detail.cfm?id=3807963</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49176830\">https://news.ycombinator.com/item?id=49176830</a></p>\n<p>Po"
     },
     {
-      "title": "Show HN: cMCP, deny an AI agent's tool call and get a signed receipt",
-      "link": "https://github.com/agentrust-io/cmcp",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/agentrust-io/cmcp\">https://github.com/agentrust-io/cmcp</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49172545\">https://news.ycombinator.com/item?id=49172545</a></p>\n<p>Points: 7</p>\n<p># Comments: 1</p>",
+      "title": "IP and DNS Leaks in WebKit Affecting Proxy Browsers and iCloud Private Relay",
+      "link": "https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/",
+      "raw_summary": "<p>Article URL: <a href=\"https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/\">https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49176697\">https://news.ycombinator.com/item?id=49176697</a></p>\n<p>Points: 34</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 04 Aug 2026 18:06:08 +0000",
-      "summary": "Show HN: cMCP, deny an AI agent's tool call and get a signed receipt\n<p>Article URL: <a href=\"https://github.com/agentrust-io/cmcp\">https://github.com/agentrust-io/cmcp</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49172545\">https://news.ycombinator.com/item?id=49172545</a><"
+      "published": "Tue, 04 Aug 2026 23:31:46 +0000",
+      "summary": "IP and DNS Leaks in WebKit Affecting Proxy Browsers and iCloud Private Relay\n<p>Article URL: <a href=\"https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/\">https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombi"
     },
     {
-      "title": "Waymo opens up robotaxi service in Dallas to everyone",
-      "link": "https://techcrunch.com/2026/08/04/waymo-opens-up-robotaxi-service-in-dallas-to-everyone/",
-      "raw_summary": "Waymo has dropped the waitlist for its robotaxi service in Dallas, the latest step in the company's bid to scale its self-driving technology across the United States, U.K., and Europe.",
+      "title": "Elon Musk repeatedly one-upped his execs on SpaceX’s first earnings call",
+      "link": "https://techcrunch.com/2026/08/04/elon-musk-repeatedly-one-upped-his-execs-on-spacexs-first-earnings-call/",
+      "raw_summary": "Musk kept inflating the already-big promises being made by SpaceX CFO Bret Johnsen and Gwynne Shotwell on the company's first call.",
       "source": "TechCrunch",
-      "published": "Tue, 04 Aug 2026 17:31:01 +0000",
-      "summary": "Waymo opens up robotaxi service in Dallas to everyone\nWaymo has dropped the waitlist for its robotaxi service in Dallas, the latest step in the company's bid to scale its self-driving technology across the United States, U.K., and Europe."
+      "published": "Tue, 04 Aug 2026 22:30:58 +0000",
+      "summary": "Elon Musk repeatedly one-upped his execs on SpaceX’s first earnings call\nMusk kept inflating the already-big promises being made by SpaceX CFO Bret Johnsen and Gwynne Shotwell on the company's first call."
     },
     {
-      "title": "Take an extra $100 off your TechCrunch Disrupt 2026 pass: This week only!",
-      "link": "https://techcrunch.com/2026/08/04/take-an-extra-100-off-your-techcrunch-disrupt-2026-pass-this-week-only/",
-      "raw_summary": "Starting today, you can take an additional $100 off your founder, investor, or attendee TechCrunch Disrupt 2026 pass, which is a nice bonus on top of our current discounted pricing.",
+      "title": "Lucid’s turnaround plan hinges on $1.4B in cash savings, robotaxis",
+      "link": "https://techcrunch.com/2026/08/04/lucids-turnaround-plan-hinges-on-1-4b-in-cash-savings-robotaxis/",
+      "raw_summary": "Lucid's new CEO Silvio Napoli listed four must-win priorities, including the successful launch of its midsize EV, finishing a factory in Saudi Arabia, cutting expenses, and robotaxis.",
       "source": "TechCrunch",
-      "published": "Tue, 04 Aug 2026 17:20:54 +0000",
-      "summary": "Take an extra $100 off your TechCrunch Disrupt 2026 pass: This week only!\nStarting today, you can take an additional $100 off your founder, investor, or attendee TechCrunch Disrupt 2026 pass, which is a nice bonus on top of our current discounted pricing."
+      "published": "Tue, 04 Aug 2026 22:24:00 +0000",
+      "summary": "Lucid’s turnaround plan hinges on $1.4B in cash savings, robotaxis\nLucid's new CEO Silvio Napoli listed four must-win priorities, including the successful launch of its midsize EV, finishing a factory in Saudi Arabia, cutting expenses, and robotaxis."
     },
     {
-      "title": "TV Time co-founder launches Bingers to revive the beloved TV-tracking app",
-      "link": "https://techcrunch.com/2026/08/04/tv-time-co-founder-launches-bingers-to-revive-the-beloved-tv-tracking-app/",
-      "raw_summary": "Bingers is a new TV and movie tracker that revives the social features fans loved with TV Time, while adding support for importing their viewing history.",
+      "title": "How to get the best hotel deals for TechCrunch Disrupt 2026",
+      "link": "https://techcrunch.com/2026/08/04/how-to-get-the-best-hotel-deals-for-techcrunch-disrupt-2026/",
+      "raw_summary": "We’ve partnered with hotels around Moscone West during Disrupt, taking place October 13 to 15, to secure the best prices available for attendees.",
       "source": "TechCrunch",
-      "published": "Tue, 04 Aug 2026 17:05:48 +0000",
-      "summary": "TV Time co-founder launches Bingers to revive the beloved TV-tracking app\nBingers is a new TV and movie tracker that revives the social features fans loved with TV Time, while adding support for importing their viewing history."
+      "published": "Tue, 04 Aug 2026 22:18:30 +0000",
+      "summary": "How to get the best hotel deals for TechCrunch Disrupt 2026\nWe’ve partnered with hotels around Moscone West during Disrupt, taking place October 13 to 15, to secure the best prices available for attendees."
     },
     {
-      "title": "Hackers steal over $130M by exploiting bug in offline hardware wallets",
-      "link": "https://techcrunch.com/2026/08/04/hackers-steal-over-130-million-by-exploiting-bug-in-offline-hardware-wallets/",
-      "raw_summary": "A security vulnerability in the cryptocurrency hardware wallet Coldcard is allowing hackers to drain the crypto from victims’ wallets. The total losses amount to more than $130 million, according to blockchain-monitoring firms.",
+      "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year",
+      "link": "https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year/",
+      "raw_summary": "The purchase illustrates just how interconnected Elon Musk's universe of companies are.",
       "source": "TechCrunch",
-      "published": "Tue, 04 Aug 2026 16:27:59 +0000",
-      "summary": "Hackers steal over $130M by exploiting bug in offline hardware wallets\nA security vulnerability in the cryptocurrency hardware wallet Coldcard is allowing hackers to drain the crypto from victims’ wallets. The total losses amount to more than $130 million, according to blockchain-monitoring firms."
+      "published": "Tue, 04 Aug 2026 21:07:26 +0000",
+      "summary": "SpaceX has bought $329M worth of Tesla Megapacks so far this year\nThe purchase illustrates just how interconnected Elon Musk's universe of companies are."
     },
     {
-      "title": "Spotify expands AI remix and covers project with Merlin partnership",
-      "link": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
-      "raw_summary": "Spotify says Merlin, which represents more than 30,000 independent labels and distributors, has joined Universal Music Group in backing its upcoming AI-powered remix and covers product. The paid tool will let fans create AI-generated covers and remixes of participating artists’ music while ensuring artists opt in, receive credit, and are compensated.",
+      "title": "SpaceX doubles revenue on Anthropic and Google compute deals, Starlink growth",
+      "link": "https://techcrunch.com/2026/08/04/spacex-doubles-revenues-on-anthropic-and-google-compute-deals-starlink-growth/",
+      "raw_summary": "SpaceX doubled its revenue compared to last year, according to its first quarterly earnings since going public in June.",
       "source": "TechCrunch",
-      "published": "Tue, 04 Aug 2026 15:50:06 +0000",
-      "summary": "Spotify expands AI remix and covers project with Merlin partnership\nSpotify says Merlin, which represents more than 30,000 independent labels and distributors, has joined Universal Music Group in backing its upcoming AI-powered remix and covers product. The paid tool will let fans create AI-generate"
+      "published": "Tue, 04 Aug 2026 20:36:30 +0000",
+      "summary": "SpaceX doubles revenue on Anthropic and Google compute deals, Starlink growth\nSpaceX doubled its revenue compared to last year, according to its first quarterly earnings since going public in June."
+    },
+    {
+      "title": "Senators demand crackdown on wildfire \"prediction markets\"",
+      "link": "https://arstechnica.com/tech-policy/2026/08/senators-demand-crackdown-on-wildfire-prediction-markets/",
+      "raw_summary": "Fire experts warn such markets could incentivize arson.",
+      "source": "Ars Technica - All content",
+      "published": "Tue, 04 Aug 2026 21:52:31 +0000",
+      "summary": "Senators demand crackdown on wildfire \"prediction markets\"\nFire experts warn such markets could incentivize arson."
+    },
+    {
+      "title": "Trump killed the Digital Equity Act, but US was forced to bring part of it back",
+      "link": "https://arstechnica.com/tech-policy/2026/08/trump-forced-to-reinstate-broadband-grants-but-court-lets-us-scrap-race-criteria/",
+      "raw_summary": "$1.25 billion program restored, but judge ruled race provision unconstitutional.",
+      "source": "Ars Technica - All content",
+      "published": "Tue, 04 Aug 2026 21:27:05 +0000",
+      "summary": "Trump killed the Digital Equity Act, but US was forced to bring part of it back\n$1.25 billion program restored, but judge ruled race provision unconstitutional."
+    },
+    {
+      "title": "Texas halts data center connections to power grid amid overwhelming demand",
+      "link": "https://arstechnica.com/ai/2026/08/texas-halts-data-center-connections-to-power-grid-amid-overwhelming-demand/",
+      "raw_summary": "Governor who touted Texas as AI “epicenter” pauses data center grid connections.",
+      "source": "Ars Technica - All content",
+      "published": "Tue, 04 Aug 2026 20:34:28 +0000",
+      "summary": "Texas halts data center connections to power grid amid overwhelming demand\nGovernor who touted Texas as AI “epicenter” pauses data center grid connections."
     },
     {
       "title": "China is Tesla's cash cow, but for how much longer?",
@@ -179,108 +203,92 @@
       "summary": "The Pixel 11's \"glow\" feature is actually called HiLight—here's what it does\nThe camera flash will evolve into a multicolor LED that illuminates when your phone is face down."
     },
     {
-      "title": "Tom DeLay helped create TV ownership cap—he says Trump FCC has no authority to repeal it",
-      "link": "https://arstechnica.com/tech-policy/2026/08/can-trump-fcc-repeal-39-tv-ownership-cap-republican-who-wrote-cap-into-law-says-no/",
-      "raw_summary": "Congress set ownership limit at 39%, but FCC claims authority to kill the rule.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 04 Aug 2026 15:51:00 +0000",
-      "summary": "Tom DeLay helped create TV ownership cap—he says Trump FCC has no authority to repeal it\nCongress set ownership limit at 39%, but FCC claims authority to kill the rule."
+      "title": "Trump trapped between escalation and an Iran deal on Tehran’s terms",
+      "link": "https://www.ft.com/content/87b039cf-7eb0-4cf6-b536-0c2929424dc5?syn-25a6b1a6=1",
+      "raw_summary": "The US president faces few good options to exit a war he once said would end swiftly with the Islamic republic’s surrender",
+      "source": "World",
+      "published": "Wed, 05 Aug 2026 00:50:16 GMT",
+      "summary": "Trump trapped between escalation and an Iran deal on Tehran’s terms\nThe US president faces few good options to exit a war he once said would end swiftly with the Islamic republic’s surrender"
     },
     {
-      "title": "Trump admin \"aware\" of deaths in explosive diarrhea outbreak, delays reporting",
-      "link": "https://arstechnica.com/health/2026/08/trump-admin-aware-of-deaths-in-explosive-diarrhea-outbreak-delays-reporting/",
-      "raw_summary": "Federal officials will update the outbreak sometime \"this week,\" a spokesperson said.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 04 Aug 2026 15:06:07 +0000",
-      "summary": "Trump admin \"aware\" of deaths in explosive diarrhea outbreak, delays reporting\nFederal officials will update the outbreak sometime \"this week,\" a spokesperson said."
+      "title": "OpenAI and Anthropic models went rogue in cyber tests, UK watchdog says",
+      "link": "https://www.ft.com/content/480c18a3-e661-4c7c-aaa0-1763887144a2?syn-25a6b1a6=1",
+      "raw_summary": "AI Security Institute warns tools undertook ‘potentially harmful activity directed at real people and organisations’",
+      "source": "World",
+      "published": "Tue, 04 Aug 2026 23:27:36 GMT",
+      "summary": "OpenAI and Anthropic models went rogue in cyber tests, UK watchdog says\nAI Security Institute warns tools undertook ‘potentially harmful activity directed at real people and organisations’"
     },
     {
-      "title": "2027 Chevrolet Corvette Grand Sport X proves code is as important as hardware",
-      "link": "https://arstechnica.com/cars/2026/08/2027-chevrolet-corvette-grand-sport-x-proves-code-is-as-important-as-hardware/",
-      "raw_summary": "Chevy's 721-hp hybrid ups the ante with few compromises, but at a steep cost.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 04 Aug 2026 14:45:08 +0000",
-      "summary": "2027 Chevrolet Corvette Grand Sport X proves code is as important as hardware\nChevy's 721-hp hybrid ups the ante with few compromises, but at a steep cost."
+      "title": "Musk’s SpaceX unnerves investors with lavish AI spending plans",
+      "link": "https://www.ft.com/content/41f7963b-dd50-4f27-a085-771ddec4a8ca?syn-25a6b1a6=1",
+      "raw_summary": "Shares slide even as group says its quarterly revenues nearly doubled",
+      "source": "World",
+      "published": "Tue, 04 Aug 2026 23:24:33 GMT",
+      "summary": "Musk’s SpaceX unnerves investors with lavish AI spending plans\nShares slide even as group says its quarterly revenues nearly doubled"
+    },
+    {
+      "title": "US revokes visa for Brazilian ambassador",
+      "link": "https://www.ft.com/content/42ddc5f7-d29c-4a22-a96f-f20ada108b53?syn-25a6b1a6=1",
+      "raw_summary": "Retaliatory move deepens diplomatic rift ahead of South American nation’s October elections",
+      "source": "World",
+      "published": "Tue, 04 Aug 2026 23:20:28 GMT",
+      "summary": "US revokes visa for Brazilian ambassador\nRetaliatory move deepens diplomatic rift ahead of South American nation’s October elections"
     },
     {
       "title": "Trump’s ex-lawyer poised to become attorney-general after ‘slush fund’ U-turn",
       "link": "https://www.ft.com/content/4bfbce82-52ae-425f-8c11-57b2b30f2de7?syn-25a6b1a6=1",
       "raw_summary": "Todd Blanche’s nomination clears US Senate panel as Republican holdouts drop objections",
       "source": "World",
-      "published": "Tue, 04 Aug 2026 18:05:26 GMT",
+      "published": "Tue, 04 Aug 2026 22:06:22 GMT",
       "summary": "Trump’s ex-lawyer poised to become attorney-general after ‘slush fund’ U-turn\nTodd Blanche’s nomination clears US Senate panel as Republican holdouts drop objections"
     },
     {
-      "title": "US diesel prices overtake Biden-era average in blow to Trump",
-      "link": "https://www.ft.com/content/8d421d44-862d-4942-99ae-568bad4900c2?syn-25a6b1a6=1",
-      "raw_summary": "Cost for fuel that powers industrial America set to remain elevated even as crude falls",
-      "source": "World",
-      "published": "Tue, 04 Aug 2026 17:51:17 GMT",
-      "summary": "US diesel prices overtake Biden-era average in blow to Trump\nCost for fuel that powers industrial America set to remain elevated even as crude falls"
-    },
-    {
-      "title": "An overdue show of EU solidarity with Spain",
-      "link": "https://www.ft.com/content/e8f58a9c-0166-4a81-b970-b070d3dbc122?syn-25a6b1a6=1",
-      "raw_summary": "Instinct to punish Madrid’s liberal approach to migration is self-defeating",
-      "source": "World",
-      "published": "Tue, 04 Aug 2026 17:45:12 GMT",
-      "summary": "An overdue show of EU solidarity with Spain\nInstinct to punish Madrid’s liberal approach to migration is self-defeating"
-    },
-    {
-      "title": "US stocks jump after Bessent says deal to reopen Hormuz is imminent",
-      "link": "https://www.ft.com/content/1ed68c71-e1e8-4ae5-a965-5380cbdeaa22?syn-25a6b1a6=1",
-      "raw_summary": "S&amp;P 500 hits record high as Iranian and Omani negotiators agree on temporary shipping arrangement",
-      "source": "World",
-      "published": "Tue, 04 Aug 2026 17:37:19 GMT",
-      "summary": "US stocks jump after Bessent says deal to reopen Hormuz is imminent\nS&amp;P 500 hits record high as Iranian and Omani negotiators agree on temporary shipping arrangement"
-    },
-    {
-      "title": "Palantir rides high on greed and fear — but mostly fear",
-      "link": "https://www.ft.com/content/6183a03c-4766-43e7-9392-cacd9a6545f8?syn-25a6b1a6=1",
-      "raw_summary": "Given its prodigious growth and the belief that this will continue, the anxiety many feel is the fear of missing out",
-      "source": "World",
-      "published": "Tue, 04 Aug 2026 17:23:41 GMT",
-      "summary": "Palantir rides high on greed and fear — but mostly fear\nGiven its prodigious growth and the belief that this will continue, the anxiety many feel is the fear of missing out"
-    },
-    {
-      "title": "AI’s Great Reverse Run On The Bank",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-08-04/ai-s-great-reverse-run-on-the-bank",
-      "raw_summary": "When people run towards the source of panic.",
+      "title": "Latest Oil Market News and Analysis for Aug. 5",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-04/latest-oil-market-news-and-analysis-for-aug-5",
+      "raw_summary": "Oil steadied after a two-day decline on optimism a deal can be reached that would reopen the Strait of Hormuz, freeing up supply trapped in the Persian Gulf.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 04 Aug 2026 19:02:23 GMT",
-      "summary": "AI’s Great Reverse Run On The Bank\nWhen people run towards the source of panic."
+      "published": "Tue, 04 Aug 2026 22:01:15 GMT",
+      "summary": "Latest Oil Market News and Analysis for Aug. 5\nOil steadied after a two-day decline on optimism a deal can be reached that would reopen the Strait of Hormuz, freeing up supply trapped in the Persian Gulf."
     },
     {
-      "title": "AI Boom Is ‘Trickling Down’ to Old-Line Stocks, Wells Fargo Says",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-04/ai-boom-is-trickling-down-to-old-line-stocks-wells-fargo-says",
-      "raw_summary": "The flood of AI spending by big tech companies is “trickling down to the broader economy,” according to Wells Fargo &amp; Co., which says that’s poised to push up industrial stocks.",
+      "title": "Australian Stocks Hit Record High on Iran Hopes, Economic Bets",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-05/australian-stocks-rise-to-record-on-iran-hopes-economic-bets",
+      "raw_summary": "Australia’s stock benchmark briefly climbed to an intraday record on easing concerns over the US-Iran conflict and supportive signals in the domestic economy.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 04 Aug 2026 19:02:22 GMT",
-      "summary": "AI Boom Is ‘Trickling Down’ to Old-Line Stocks, Wells Fargo Says\nThe flood of AI spending by big tech companies is “trickling down to the broader economy,” according to Wells Fargo &amp; Co., which says that’s poised to push up industrial stocks."
+      "published": "Wed, 05 Aug 2026 00:15:13 GMT",
+      "summary": "Australian Stocks Hit Record High on Iran Hopes, Economic Bets\nAustralia’s stock benchmark briefly climbed to an intraday record on easing concerns over the US-Iran conflict and supportive signals in the domestic economy."
     },
     {
-      "title": "S&P 500 Set for All-Time Highs on Hormuz Deal Push: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-03/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "Hopes for an agreement to revive the Strait of Hormuz lifted stocks toward all-time highs, bonds climbed and oil sank, with Wall Street’s enthusiasm also fueled by a batch of solid corporate earnings.",
+      "title": "A Quant and a Korean Dentist Push the Limits of Leveraged ETFs",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-04/a-quant-and-a-korean-dentist-push-the-limits-of-leveraged-etfs",
+      "raw_summary": "A growing number of investors from the US to South Korea are using leveraged exchange-traded funds for long-term investing, a far cry from the day trading they were designed for.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 03 Aug 2026 22:13:40 GMT",
-      "summary": "S&P 500 Set for All-Time Highs on Hormuz Deal Push: Markets Wrap\nHopes for an agreement to revive the Strait of Hormuz lifted stocks toward all-time highs, bonds climbed and oil sank, with Wall Street’s enthusiasm also fueled by a batch of solid corporate earnings."
+      "published": "Tue, 04 Aug 2026 13:35:11 GMT",
+      "summary": "A Quant and a Korean Dentist Push the Limits of Leveraged ETFs\nA growing number of investors from the US to South Korea are using leveraged exchange-traded funds for long-term investing, a far cry from the day trading they were designed for."
     },
     {
-      "title": "El problema del yen ya preocupa también a Estados Unidos",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-04/el-problema-del-yen-ya-preocupa-tambien-a-ee-uu-video",
-      "raw_summary": "El yen japonés se fortaleció con fuerza después de que el gobierno estadounidense interviniera en el mercado cambiario. Pero, ¿por qué la moneda estaba tan débil y qué hay detrás de esa decisión? (Source: Bloomberg)",
+      "title": "Goldman-Backed Biotech Attovia Raises $289 Million in US IPO",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-05/goldman-backed-biotech-attovia-raises-289-million-in-us-ipo",
+      "raw_summary": "Attovia Therapeutics Inc., an early-stage drug developer focused on immune system diseases with high unmet need, raised $289 million in a US initial public offering that priced at the top of its marketed range.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 04 Aug 2026 16:31:27 GMT",
-      "summary": "El problema del yen ya preocupa también a Estados Unidos\nEl yen japonés se fortaleció con fuerza después de que el gobierno estadounidense interviniera en el mercado cambiario. Pero, ¿por qué la moneda estaba tan débil y qué hay detrás de esa decisión? (Source: Bloomberg)"
+      "published": "Wed, 05 Aug 2026 01:06:12 GMT",
+      "summary": "Goldman-Backed Biotech Attovia Raises $289 Million in US IPO\nAttovia Therapeutics Inc., an early-stage drug developer focused on immune system diseases with high unmet need, raised $289 million in a US initial public offering that priced at the top of its marketed range."
     },
     {
-      "title": "Codelco Halts Expansion Work at Top Mine on New Seismic Risk",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-04/codelco-halts-expansion-project-at-top-mine-on-new-seismic-risk",
-      "raw_summary": "Codelco is suspending work on a project designed to extend the life of its biggest copper mine in Chile after identifying a new source of seismic risk a year after a rock burst killed six workers.",
+      "title": "Asian Stocks Advance, Oil Extends Drop on Iran: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-04/stock-market-today-dow-s-p-live-updates",
+      "raw_summary": "Asian stocks tracked Wall Street higher after optimism over a possible interim deal between Washington and Tehran eased concerns about energy supplies. Oil extended its losses.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 04 Aug 2026 17:54:01 GMT",
-      "summary": "Codelco Halts Expansion Work at Top Mine on New Seismic Risk\nCodelco is suspending work on a project designed to extend the life of its biggest copper mine in Chile after identifying a new source of seismic risk a year after a rock burst killed six workers."
+      "published": "Tue, 04 Aug 2026 22:11:08 GMT",
+      "summary": "Asian Stocks Advance, Oil Extends Drop on Iran: Markets Wrap\nAsian stocks tracked Wall Street higher after optimism over a possible interim deal between Washington and Tehran eased concerns about energy supplies. Oil extended its losses."
+    },
+    {
+      "title": "SpaceX tops Wall Street revenue forecast, posts $540 million loss on bitcoin holdings",
+      "link": "https://www.coindesk.com/business/2026/08/04/spacex-tops-wall-street-revenue-forecast-posts-usd540-million-decline-on-bitcoin-holding-value",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Tue, 04 Aug 2026 20:26:21 +0000",
+      "summary": "SpaceX tops Wall Street revenue forecast, posts $540 million loss on bitcoin holdings\n"
     },
     {
       "title": "Open USD rattled Circle's stock, but its key backers still support USDC",
@@ -313,14 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Tue, 04 Aug 2026 15:47:05 +0000",
       "summary": "Wells Fargo joins JPMorgan and Citi in the race to tokenize Wall Street’s settlement rails\n"
-    },
-    {
-      "title": "Bitcoin’s $63,000 zone emerges as key battleground for buyers: Glassnode",
-      "link": "https://www.coindesk.com/markets/2026/08/04/bitcoin-s-usd63-000-zone-emerges-as-key-battleground-for-buyers-glassnode",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 04 Aug 2026 14:49:33 +0000",
-      "summary": "Bitcoin’s $63,000 zone emerges as key battleground for buyers: Glassnode\n"
     }
   ]
 }
