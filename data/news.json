@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T08:21:39.013917+00:00",
+  "generated_at": "2026-08-05T13:47:26.205892+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,124 +43,132 @@
       "summary": "Felons, Fraudsters Flog Offensive Cybersecurity Startup\nA cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence "
     },
     {
-      "title": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer",
-      "link": "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html",
-      "raw_summary": "Cybersecurity researchers have disclosed what has been described as a \"long-standing supply chain attack\" on QuickFox, a virtual private network (VPN) and network acceleration tool designed for overseas Chinese users.\n\nAccording to Fortinet FortiGuard Labs, the supply chain attack has been ongoing since at least August 2025 and involves a trojanized version of the application to deliver FDMTP, a",
+      "title": "New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch",
+      "link": "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html",
+      "raw_summary": "A memory corruption flaw in the Linux kernel's Open vSwitch datapath gives ordinary local users a path to root on a broad set of default-configured distributions, and a public exploit ships with pre-built records for roughly 800 kernel builds.\n\nThe vulnerability, tracked as CVE-2026-64531 (CVSS score: 7.8) and codenamed OVSwrap by its discoverer, was disclosed by security researcher Asim",
       "source": "The Hacker News",
-      "published": "Wed, 05 Aug 2026 11:17:19 +0530",
-      "summary": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer\nCybersecurity researchers have disclosed what has been described as a \"long-standing supply chain attack\" on QuickFox, a virtual private network (VPN) and network acceleration tool designed for overseas Chinese use"
+      "published": "Wed, 05 Aug 2026 17:13:27 +0530",
+      "summary": "New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch\nA memory corruption flaw in the Linux kernel's Open vSwitch datapath gives ordinary local users a path to root on a broad set of default-configured distributions, and a public exploit ships with pre-built records for roughly 8"
     },
     {
-      "title": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
-      "link": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html",
-      "raw_summary": "The commercial phishing-as-a-service (PhaaS) toolkit known as Greatness has become the latest crimeware solution to add support for device code phishing, a rapidly growing cyber threat that abuses the legitimate OAuth 2.0 Device Authorization Grant to bypass Multi-Factor Authentication (MFA) and seize control of user accounts.\n\n\"Greatness supports AiTM [adversary-in-the-middle] credential and",
+      "title": "Kali365 Weaponizes Microsoft Authentication Against US Companies: New Enterprise Risk",
+      "link": "https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html",
+      "raw_summary": "Kali365 is turning a legitimate Microsoft login into a gateway to corporate data.\n\nThe phishing kit targets US organizations with attacker-controlled device codes that victims approve on Microsoft's real authentication page. Once access and refresh tokens are issued, attackers may retain access to email, documents, and cloud resources, creating a direct path to data exposure, financial fraud,",
       "source": "The Hacker News",
-      "published": "Tue, 04 Aug 2026 22:57:39 +0530",
-      "summary": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens\nThe commercial phishing-as-a-service (PhaaS) toolkit known as Greatness has become the latest crimeware solution to add support for device code phishing, a rapidly growing cyber threat that abuses the legitimate OAuth 2.0 Devic"
+      "published": "Wed, 05 Aug 2026 17:13:19 +0530",
+      "summary": "Kali365 Weaponizes Microsoft Authentication Against US Companies: New Enterprise Risk\nKali365 is turning a legitimate Microsoft login into a gateway to corporate data.\n\nThe phishing kit targets US organizations with attacker-controlled device codes that victims approve on Microsoft's real authentica"
     },
     {
-      "title": "Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks",
-      "link": "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
-      "raw_summary": "A credential-stealing npm worm that first appeared in keyv@6.0.0 spread beyond the Keyv and Cacheable namespaces into hundreds of packages across multiple organizations on August 4, 2026.\n\nSafeDep verified 353 poisoned versions across 79 package names in the npm registry. Its monitoring put the wider footprint at 442 versions across 353 names, while Aikido later reported at least 868 packages",
+      "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
+      "link": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
+      "raw_summary": "An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1.\n\nThe file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its",
       "source": "The Hacker News",
-      "published": "Tue, 04 Aug 2026 19:00:23 +0530",
-      "summary": "Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks\nA credential-stealing npm worm that first appeared in keyv@6.0.0 spread beyond the Keyv and Cacheable namespaces into hundreds of packages across multiple organizations on August 4, 2026.\n\nSafeDep verified 353 po"
+      "published": "Wed, 05 Aug 2026 16:34:23 +0530",
+      "summary": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup\nAn unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository an"
     },
     {
-      "title": "Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access",
-      "link": "https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html",
-      "raw_summary": "Cybersecurity researchers have disclosed details of an active, multi-wave campaign that employs social engineering lures themed around Adobe and Zoom software updates, business document reviews, and system maintenance utilities to stealthily deploy Remote Monitoring and Management (RMM) programs like ConnectWise ScreenConnect.\n\nThe campaign has been codenamed SMOKE#SCREEN by Securonix Threat",
+      "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft",
+      "link": "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
+      "raw_summary": "GitGuardian researchers found 321 n8n instances accepting API tokens exposed in public GitHub commits and demonstrated four ways attackers could use them to access sensitive data and downstream credentials without exploiting a software vulnerability.\n\nWe scanned public GitHub commits for exposed n8n API tokens and identified 4,576 unique credentials associated with 1,255 hostnames. Of the 896",
       "source": "The Hacker News",
-      "published": "Tue, 04 Aug 2026 18:41:22 +0530",
-      "summary": "Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access\nCybersecurity researchers have disclosed details of an active, multi-wave campaign that employs social engineering lures themed around Adobe and Zoom software updates, business document reviews, and system maintenance uti"
+      "published": "Wed, 05 Aug 2026 16:05:29 +0530",
+      "summary": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft\nGitGuardian researchers found 321 n8n instances accepting API tokens exposed in public GitHub commits and demonstrated four ways attackers could use them to access sensitive data and downstream credentials without exploiting a software"
     },
     {
-      "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
-      "link": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
-      "raw_summary": "The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise.\n\nThat assumption is starting to break.\n\nSecurity teams have long estimated risk by ranking attacker sophistication. Nation-state actors sat at one end. Organized criminal groups followed. Inexperienced attackers, dismissed as \"script kiddies,\" sat at the other end, running public",
+      "title": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data",
+      "link": "https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html",
+      "raw_summary": "A cluster of 77 extensions on the Open VSX marketplace has been found to impersonate legitimate developer tools while transmitting information about the systems and development environments on which they were installed.\n\nThe \"evil twin\" extensions were uploaded to the repository between July 26 and August 1, 2026, according to Manifold Security. The packages have been removed from Open VSX as of",
       "source": "The Hacker News",
-      "published": "Tue, 04 Aug 2026 17:00:00 +0530",
-      "summary": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted\nThe cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise.\n\nThat assumption is starting to break.\n\nSecurity teams have long estimated risk by ranking attacker sophist"
+      "published": "Wed, 05 Aug 2026 14:53:03 +0530",
+      "summary": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data\nA cluster of 77 extensions on the Open VSX marketplace has been found to impersonate legitimate developer tools while transmitting information about the systems and development environments on which they were installed.\n\n"
     },
     {
-      "title": "Rust-lang/rust is adopting an LLM policy",
-      "link": "https://blog.rust-lang.org/inside-rust/2026/08/05/rust-langrust-is-adopting-an-llm-policy/",
-      "raw_summary": "<p>Article URL: <a href=\"https://blog.rust-lang.org/inside-rust/2026/08/05/rust-langrust-is-adopting-an-llm-policy/\">https://blog.rust-lang.org/inside-rust/2026/08/05/rust-langrust-is-adopting-an-llm-policy/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49179039\">https://news.ycombinator.com/item?id=49179039</a></p>\n<p>Points: 51</p>\n<p># Comments: 30</p>",
+      "title": "Iowa et al asks OpenAI to keep their bots sandboxed",
+      "link": "https://www.iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-leads-coalition-demanding-transparency-from-openai-after-ai-breach-and",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-leads-coalition-demanding-transparency-from-openai-after-ai-breach-and\">https://www.iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-leads-coalition-demanding-transparency-from-openai-after-ai-breach-and</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49182052\">https://news.ycombinator.com/item?id=49182052</a></p>\n<p>Points: 43</p>\n<p># Comments: 64</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 05 Aug 2026 05:52:24 +0000",
-      "summary": "Rust-lang/rust is adopting an LLM policy\n<p>Article URL: <a href=\"https://blog.rust-lang.org/inside-rust/2026/08/05/rust-langrust-is-adopting-an-llm-policy/\">https://blog.rust-lang.org/inside-rust/2026/08/05/rust-langrust-is-adopting-an-llm-policy/</a></p>\n<p>Comments URL: <a href=\"https://news.ycom"
+      "published": "Wed, 05 Aug 2026 12:42:50 +0000",
+      "summary": "Iowa et al asks OpenAI to keep their bots sandboxed\n<p>Article URL: <a href=\"https://www.iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-leads-coalition-demanding-transparency-from-openai-after-ai-breach-and\">https://www.iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-lea"
     },
     {
-      "title": "Zero-Mem: Zero-Token Memory Operations for LLM Agents",
-      "link": "https://arxiv.org/abs/2607.29377",
-      "raw_summary": "<p>Article URL: <a href=\"https://arxiv.org/abs/2607.29377\">https://arxiv.org/abs/2607.29377</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49178608\">https://news.ycombinator.com/item?id=49178608</a></p>\n<p>Points: 26</p>\n<p># Comments: 5</p>",
+      "title": "TIME Is Serving AI Bots a Different Website, with Ads Built In",
+      "link": "https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website/\">https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49182041\">https://news.ycombinator.com/item?id=49182041</a></p>\n<p>Points: 33</p>\n<p># Comments: 10</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 05 Aug 2026 04:36:44 +0000",
-      "summary": "Zero-Mem: Zero-Token Memory Operations for LLM Agents\n<p>Article URL: <a href=\"https://arxiv.org/abs/2607.29377\">https://arxiv.org/abs/2607.29377</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49178608\">https://news.ycombinator.com/item?id=49178608</a></p>\n<p>Points: 26</p>\n<"
+      "published": "Wed, 05 Aug 2026 12:41:47 +0000",
+      "summary": "TIME Is Serving AI Bots a Different Website, with Ads Built In\n<p>Article URL: <a href=\"https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website/\">https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.co"
     },
     {
-      "title": "An SLM trained on $8 ESP32-S3",
-      "link": "https://github.com/Carloscodix/qapla",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/Carloscodix/qapla\">https://github.com/Carloscodix/qapla</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49178464\">https://news.ycombinator.com/item?id=49178464</a></p>\n<p>Points: 18</p>\n<p># Comments: 6</p>",
+      "title": "Three Six Mafia – Data about \"6/6/6 dating\" (2024)",
+      "link": "https://divingintheshallowend.com/three-six-mafia/",
+      "raw_summary": "<p>Article URL: <a href=\"https://divingintheshallowend.com/three-six-mafia/\">https://divingintheshallowend.com/three-six-mafia/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49181678\">https://news.ycombinator.com/item?id=49181678</a></p>\n<p>Points: 89</p>\n<p># Comments: 85</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 05 Aug 2026 04:07:27 +0000",
-      "summary": "An SLM trained on $8 ESP32-S3\n<p>Article URL: <a href=\"https://github.com/Carloscodix/qapla\">https://github.com/Carloscodix/qapla</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49178464\">https://news.ycombinator.com/item?id=49178464</a></p>\n<p>Points: 18</p>\n<p># Comments: 6<"
+      "published": "Wed, 05 Aug 2026 12:06:14 +0000",
+      "summary": "Three Six Mafia – Data about \"6/6/6 dating\" (2024)\n<p>Article URL: <a href=\"https://divingintheshallowend.com/three-six-mafia/\">https://divingintheshallowend.com/three-six-mafia/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49181678\">https://news.ycombinator.com/item?id=491"
     },
     {
-      "title": "Zigbee vs. Matter over Thread:Understanding IoT Protocol Performance in Practice",
-      "link": "https://arxiv.org/abs/2603.04221",
-      "raw_summary": "<p>Article URL: <a href=\"https://arxiv.org/abs/2603.04221\">https://arxiv.org/abs/2603.04221</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49176983\">https://news.ycombinator.com/item?id=49176983</a></p>\n<p>Points: 80</p>\n<p># Comments: 63</p>",
+      "title": "Why the Legendary Erdős Problems Are Falling to AI",
+      "link": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/\">https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49181519\">https://news.ycombinator.com/item?id=49181519</a></p>\n<p>Points: 27</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 05 Aug 2026 00:10:37 +0000",
-      "summary": "Zigbee vs. Matter over Thread:Understanding IoT Protocol Performance in Practice\n<p>Article URL: <a href=\"https://arxiv.org/abs/2603.04221\">https://arxiv.org/abs/2603.04221</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49176983\">https://news.ycombinator.com/item?id=49176983<"
+      "published": "Wed, 05 Aug 2026 11:49:34 +0000",
+      "summary": "Why the Legendary Erdős Problems Are Falling to AI\n<p>Article URL: <a href=\"https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/\">https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/</a></p>\n<p>Comments URL: <a href=\"https"
     },
     {
-      "title": "Bugtraq is back",
-      "link": "https://lists.securityfocus.com/hyperkitty/list/bugtraq@securityfocus.com/thread/CHKLXLA7SJEWLDFHWXB3QU57ADOXGL2E/",
-      "raw_summary": "<p>Article URL: <a href=\"https://lists.securityfocus.com/hyperkitty/list/bugtraq@securityfocus.com/thread/CHKLXLA7SJEWLDFHWXB3QU57ADOXGL2E/\">https://lists.securityfocus.com/hyperkitty/list/bugtraq@securityfocus.com/thread/CHKLXLA7SJEWLDFHWXB3QU57ADOXGL2E/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49176947\">https://news.ycombinator.com/item?id=49176947</a></p>\n<p>Points: 38</p>\n<p># Comments: 9</p>",
+      "title": "Could psilocybin be the key to treating anorexia?",
+      "link": "https://www.scientificamerican.com/article/psilocybin-could-kick-start-anorexia-recovery-early-results-suggest/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.scientificamerican.com/article/psilocybin-could-kick-start-anorexia-recovery-early-results-suggest/\">https://www.scientificamerican.com/article/psilocybin-could-kick-start-anorexia-recovery-early-results-suggest/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49181419\">https://news.ycombinator.com/item?id=49181419</a></p>\n<p>Points: 23</p>\n<p># Comments: 21</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 05 Aug 2026 00:05:49 +0000",
-      "summary": "Bugtraq is back\n<p>Article URL: <a href=\"https://lists.securityfocus.com/hyperkitty/list/bugtraq@securityfocus.com/thread/CHKLXLA7SJEWLDFHWXB3QU57ADOXGL2E/\">https://lists.securityfocus.com/hyperkitty/list/bugtraq@securityfocus.com/thread/CHKLXLA7SJEWLDFHWXB3QU57ADOXGL2E/</a></p>\n<p>Comments URL: <a "
+      "published": "Wed, 05 Aug 2026 11:39:09 +0000",
+      "summary": "Could psilocybin be the key to treating anorexia?\n<p>Article URL: <a href=\"https://www.scientificamerican.com/article/psilocybin-could-kick-start-anorexia-recovery-early-results-suggest/\">https://www.scientificamerican.com/article/psilocybin-could-kick-start-anorexia-recovery-early-results-suggest/<"
     },
     {
-      "title": "Wispr Flow launches a Granola-styled meeting notetaker",
-      "link": "https://techcrunch.com/2026/08/05/wispr-flow-is-preparing-to-launch-a-meeting-notetaker-updated-terms-suggest/",
-      "raw_summary": "Wispr Flow's new terms of service indicate it will introduce a notetaker that generates meeting summaries and action items.",
+      "title": "Disney+ looks to TikTok creators to bring fan content to its short-form video feed",
+      "link": "https://techcrunch.com/2026/08/05/disney-looks-to-tiktok-creators-to-bring-fan-content-to-its-short-form-video-feed/",
+      "raw_summary": "As streamers compete with social media giants for viewer attention, Disney+ is partnering with TikTok to bring creator content to its app.",
       "source": "TechCrunch",
-      "published": "Wed, 05 Aug 2026 07:15:49 +0000",
-      "summary": "Wispr Flow launches a Granola-styled meeting notetaker\nWispr Flow's new terms of service indicate it will introduce a notetaker that generates meeting summaries and action items."
+      "published": "Wed, 05 Aug 2026 13:21:43 +0000",
+      "summary": "Disney+ looks to TikTok creators to bring fan content to its short-form video feed\nAs streamers compete with social media giants for viewer attention, Disney+ is partnering with TikTok to bring creator content to its app."
     },
     {
-      "title": "Elon Musk repeatedly one-upped his execs on SpaceX’s first earnings call",
-      "link": "https://techcrunch.com/2026/08/04/elon-musk-repeatedly-one-upped-his-execs-on-spacexs-first-earnings-call/",
-      "raw_summary": "Musk kept inflating the already-big promises being made by SpaceX CFO Bret Johnsen and Gwynne Shotwell on the company's first call.",
+      "title": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store",
+      "link": "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/",
+      "raw_summary": "MacPaw is building a local version of its AI assistant Eney using Liquid AI's models.",
       "source": "TechCrunch",
-      "published": "Tue, 04 Aug 2026 22:30:58 +0000",
-      "summary": "Elon Musk repeatedly one-upped his execs on SpaceX’s first earnings call\nMusk kept inflating the already-big promises being made by SpaceX CFO Bret Johnsen and Gwynne Shotwell on the company's first call."
+      "published": "Wed, 05 Aug 2026 12:28:38 +0000",
+      "summary": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store\nMacPaw is building a local version of its AI assistant Eney using Liquid AI's models."
     },
     {
-      "title": "Lucid’s turnaround plan hinges on $1.4B in cash savings, robotaxis",
-      "link": "https://techcrunch.com/2026/08/04/lucids-turnaround-plan-hinges-on-1-4b-in-cash-savings-robotaxis/",
-      "raw_summary": "Lucid's new CEO Silvio Napoli listed four must-win priorities, including the successful launch of its midsize EV, finishing a factory in Saudi Arabia, cutting expenses, and robotaxis.",
+      "title": "Robinhood to list a fund that lets anyone back Y Combinator startups",
+      "link": "https://techcrunch.com/2026/08/05/robinhood-to-list-a-fund-that-lets-anyone-back-y-combinator-startups/",
+      "raw_summary": "Robinhood's latest financial instrument intends to let any retail investor feel like they, too, can make money by backing Y Combinator startups.",
       "source": "TechCrunch",
-      "published": "Tue, 04 Aug 2026 22:24:00 +0000",
-      "summary": "Lucid’s turnaround plan hinges on $1.4B in cash savings, robotaxis\nLucid's new CEO Silvio Napoli listed four must-win priorities, including the successful launch of its midsize EV, finishing a factory in Saudi Arabia, cutting expenses, and robotaxis."
+      "published": "Wed, 05 Aug 2026 12:23:52 +0000",
+      "summary": "Robinhood to list a fund that lets anyone back Y Combinator startups\nRobinhood's latest financial instrument intends to let any retail investor feel like they, too, can make money by backing Y Combinator startups."
     },
     {
-      "title": "How to get the best hotel deals for TechCrunch Disrupt 2026",
-      "link": "https://techcrunch.com/2026/08/04/how-to-get-the-best-hotel-deals-for-techcrunch-disrupt-2026/",
-      "raw_summary": "We’ve partnered with hotels around Moscone West during Disrupt, taking place October 13 to 15, to secure the best prices available for attendees.",
+      "title": "Indian EV startup River raises $120M Series C to scale production, launch more models",
+      "link": "https://techcrunch.com/2026/08/05/indian-ev-two-wheeler-startup-river-raises-120m-after-scaling-with-one-model/",
+      "raw_summary": "River plans to build a new factory, launch additional models from 2027, and target profitability as it scales production.",
       "source": "TechCrunch",
-      "published": "Tue, 04 Aug 2026 22:18:30 +0000",
-      "summary": "How to get the best hotel deals for TechCrunch Disrupt 2026\nWe’ve partnered with hotels around Moscone West during Disrupt, taking place October 13 to 15, to secure the best prices available for attendees."
+      "published": "Wed, 05 Aug 2026 11:26:00 +0000",
+      "summary": "Indian EV startup River raises $120M Series C to scale production, launch more models\nRiver plans to build a new factory, launch additional models from 2027, and target profitability as it scales production."
     },
     {
-      "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year",
-      "link": "https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year/",
-      "raw_summary": "The purchase illustrates just how interconnected Elon Musk's universe of companies are.",
+      "title": "Saudi Aramco backs India’s Mitti Labs to make Asia’s rice farming more water-resilient",
+      "link": "https://techcrunch.com/2026/08/05/saudi-aramco-backs-indias-mitti-labs-to-make-asias-rice-farming-more-water-resilient/",
+      "raw_summary": "Mitti Labs plans to expand beyond India and enter the Philippines and Indonesia while growing its carbon credits and agricultural data business.",
       "source": "TechCrunch",
-      "published": "Tue, 04 Aug 2026 21:07:26 +0000",
-      "summary": "SpaceX has bought $329M worth of Tesla Megapacks so far this year\nThe purchase illustrates just how interconnected Elon Musk's universe of companies are."
+      "published": "Wed, 05 Aug 2026 11:00:00 +0000",
+      "summary": "Saudi Aramco backs India’s Mitti Labs to make Asia’s rice farming more water-resilient\nMitti Labs plans to expand beyond India and enter the Philippines and Indonesia while growing its carbon credits and agricultural data business."
+    },
+    {
+      "title": "Pushing the limits: Infinite Machine's Olto is barely a bicycle",
+      "link": "https://arstechnica.com/cars/2026/08/pushing-the-limits-infinite-machines-olto-is-barely-a-bicycle/",
+      "raw_summary": "Scooter layout makes pedaling a bad experience. But it does have pedals.",
+      "source": "Ars Technica - All content",
+      "published": "Wed, 05 Aug 2026 11:00:26 +0000",
+      "summary": "Pushing the limits: Infinite Machine's Olto is barely a bicycle\nScooter layout makes pedaling a bad experience. But it does have pedals."
     },
     {
       "title": "Senators demand crackdown on wildfire \"prediction markets\"",
@@ -195,60 +203,52 @@
       "summary": "China is Tesla's cash cow, but for how much longer?\nTesla's Shanghai factory is busier than ever but might be cut loose."
     },
     {
-      "title": "The Pixel 11's \"glow\" feature is actually called HiLight—here's what it does",
-      "link": "https://arstechnica.com/gadgets/2026/08/the-pixel-11s-glow-feature-is-actually-called-hilight-heres-what-it-does/",
-      "raw_summary": "The camera flash will evolve into a multicolor LED that illuminates when your phone is face down.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 04 Aug 2026 16:11:05 +0000",
-      "summary": "The Pixel 11's \"glow\" feature is actually called HiLight—here's what it does\nThe camera flash will evolve into a multicolor LED that illuminates when your phone is face down."
-    },
-    {
-      "title": "Glencore plans secondary listing in Australia",
-      "link": "https://www.ft.com/content/f447bd94-8541-4176-acdf-f16e2be4289a?syn-25a6b1a6=1",
-      "raw_summary": "Miner has long complained its London shares are undervalued",
+      "title": "High-stakes Michigan Democratic Senate primary too close to call",
+      "link": "https://www.ft.com/content/65633475-0a89-4522-9c2c-5cbd22fd9aac?syn-25a6b1a6=1",
+      "raw_summary": "Fewer than 20,000 votes separate centrist congresswoman Haley Stevens and progressive challenger Abdul El-Sayed",
       "source": "World",
-      "published": "Wed, 05 Aug 2026 07:37:55 GMT",
-      "summary": "Glencore plans secondary listing in Australia\nMiner has long complained its London shares are undervalued"
+      "published": "Wed, 05 Aug 2026 13:38:34 GMT",
+      "summary": "High-stakes Michigan Democratic Senate primary too close to call\nFewer than 20,000 votes separate centrist congresswoman Haley Stevens and progressive challenger Abdul El-Sayed"
     },
     {
-      "title": "Solid wage growth keeps BoJ on course for tightening",
-      "link": "https://www.ft.com/content/36b7f8a7-5062-4211-90e0-d89b6c32ca15",
-      "raw_summary": "Japan’s headline and real wage growth were above expectations in June",
+      "title": "Eli Lilly and Novo Nordisk raise profit outlook as weight-loss drug demand soars",
+      "link": "https://www.ft.com/content/fc7f75f9-73b5-4ce6-8a27-f819aa7f361b?syn-25a6b1a6=1",
+      "raw_summary": "Drugmakers’ share prices diverge as investors take dim view of Novo’s over-reliance on obesity treatments",
       "source": "World",
-      "published": "Wed, 05 Aug 2026 07:30:58 GMT",
-      "summary": "Solid wage growth keeps BoJ on course for tightening\nJapan’s headline and real wage growth were above expectations in June"
+      "published": "Wed, 05 Aug 2026 13:35:30 GMT",
+      "summary": "Eli Lilly and Novo Nordisk raise profit outlook as weight-loss drug demand soars\nDrugmakers’ share prices diverge as investors take dim view of Novo’s over-reliance on obesity treatments"
     },
     {
-      "title": "India raises $40bn from diaspora to support sagging rupee",
-      "link": "https://www.ft.com/content/7dc728e5-74d3-45e9-bae8-c2cd6284e136?syn-25a6b1a6=1",
-      "raw_summary": "Central bank’s rare push to repatriate savings has drawn stronger than expected inflows",
+      "title": "Musk’s SpaceX slides 12% as lavish AI spending plans unnerve investors",
+      "link": "https://www.ft.com/content/41f7963b-dd50-4f27-a085-771ddec4a8ca?syn-25a6b1a6=1",
+      "raw_summary": "Shares slide even as group says its quarterly revenues nearly doubled",
       "source": "World",
-      "published": "Wed, 05 Aug 2026 07:24:07 GMT",
-      "summary": "India raises $40bn from diaspora to support sagging rupee\nCentral bank’s rare push to repatriate savings has drawn stronger than expected inflows"
+      "published": "Wed, 05 Aug 2026 13:31:33 GMT",
+      "summary": "Musk’s SpaceX slides 12% as lavish AI spending plans unnerve investors\nShares slide even as group says its quarterly revenues nearly doubled"
     },
     {
-      "title": "Russian bombardment kills 17 in Kyiv",
-      "link": "https://www.ft.com/content/c2eb9800-b8df-41f6-aad9-e25c2ebe43d6?syn-25a6b1a6=1",
-      "raw_summary": "Ukraine warns Patriot interceptor stocks are running low as retaliatory 40-day air campaign expires",
+      "title": "China hits back at US with sanctions and tighter drone export rules",
+      "link": "https://www.ft.com/content/38e11309-9cb6-4cd4-a5b6-fc9a239ad6b3?syn-25a6b1a6=1",
+      "raw_summary": "Beijing’s retaliation highlights tensions ahead of Xi Jinping’s planned trip in September",
       "source": "World",
-      "published": "Wed, 05 Aug 2026 06:52:22 GMT",
-      "summary": "Russian bombardment kills 17 in Kyiv\nUkraine warns Patriot interceptor stocks are running low as retaliatory 40-day air campaign expires"
+      "published": "Wed, 05 Aug 2026 13:23:08 GMT",
+      "summary": "China hits back at US with sanctions and tighter drone export rules\nBeijing’s retaliation highlights tensions ahead of Xi Jinping’s planned trip in September"
     },
     {
-      "title": "Bank of England: QT bye?",
-      "link": "https://www.ft.com/content/8bbcfe7e-d3a8-4ea8-ad43-a88f0a48b69e?syn-25a6b1a6=1",
-      "raw_summary": "The case for active quantitative tightening is getting weaker",
+      "title": "Russia drone company chief injured in car bombing",
+      "link": "https://www.ft.com/content/eee4bbbf-1d94-4910-9a61-2faefef61d55?syn-25a6b1a6=1",
+      "raw_summary": "Attack on Vladimir Tkachuk is latest targeting prominent figures in the Russian war effort",
       "source": "World",
-      "published": "Wed, 05 Aug 2026 05:30:09 GMT",
-      "summary": "Bank of England: QT bye?\nThe case for active quantitative tightening is getting weaker"
+      "published": "Wed, 05 Aug 2026 12:59:26 GMT",
+      "summary": "Russia drone company chief injured in car bombing\nAttack on Vladimir Tkachuk is latest targeting prominent figures in the Russian war effort"
     },
     {
-      "title": "SK Hynix Climbs as Investors Bet on Shareholder Return Plan",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-05/sk-hynix-climbs-as-investors-bet-on-shareholder-return-plan",
-      "raw_summary": "Shares of SK Hynix Inc. advanced, lifted by an overnight rally in US chipmakers and speculation that the Korean firm may soon unveil buybacks and other details of a broader shareholder return plan.",
+      "title": "Disney's Third-Quarter Profit Growth Driven by Parks, Streaming",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-05/disney-sees-3q-profit-growth-driven-by-parks-streaming-video",
+      "raw_summary": "Walt Disney Co.’s fiscal third quarter profit beat Wall Street estimates as soaring income from its entertainment division and the resilience of its theme parks in California and Florida delivered a second straight quarter of better-than-expected profitability for Chief Executive Officer Josh D’Amaro. Geetha Ranganathan of Bloomberg Intelligence has more. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Wed, 05 Aug 2026 02:37:33 GMT",
-      "summary": "SK Hynix Climbs as Investors Bet on Shareholder Return Plan\nShares of SK Hynix Inc. advanced, lifted by an overnight rally in US chipmakers and speculation that the Korean firm may soon unveil buybacks and other details of a broader shareholder return plan."
+      "published": "Wed, 05 Aug 2026 13:40:28 GMT",
+      "summary": "Disney's Third-Quarter Profit Growth Driven by Parks, Streaming\nWalt Disney Co.’s fiscal third quarter profit beat Wall Street estimates as soaring income from its entertainment division and the resilience of its theme parks in California and Florida delivered a second straight quarter of better-tha"
     },
     {
       "title": "Glencore Takes Provision on Exposure to Trader Radiant World",
@@ -259,68 +259,68 @@
       "summary": "Glencore Takes Provision on Exposure to Trader Radiant World\nGlencore Plc said it has taken a provision on its exposure to iron ore trader Radiant World and confirmed it has stopped doing any new business with the firm."
     },
     {
-      "title": "Latest Oil Market News and Analysis for Aug. 5",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-04/latest-oil-market-news-and-analysis-for-aug-5",
-      "raw_summary": "Oil erased a decline as Yemen’s Houthi militant group issued a fresh threat against Middle East shipping, tempering optimism over US-Iran talks.",
+      "title": "S&P 500 Opens at Another Record as AI Spending Narrative Holds",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-05/s-p-500-poised-for-another-record-as-ai-spending-narrative-holds",
+      "raw_summary": "US stocks climbed on Wednesday as the latest batch of earnings pointed to strong demand for and spending on artificial intelligence. SpaceX shares fell, but it reported higher-than-expected AI-related outlays, which helped Nvidia Corp. rally after Elon Musk touted his computing plans.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 04 Aug 2026 22:01:15 GMT",
-      "summary": "Latest Oil Market News and Analysis for Aug. 5\nOil erased a decline as Yemen’s Houthi militant group issued a fresh threat against Middle East shipping, tempering optimism over US-Iran talks."
+      "published": "Wed, 05 Aug 2026 11:52:30 GMT",
+      "summary": "S&P 500 Opens at Another Record as AI Spending Narrative Holds\nUS stocks climbed on Wednesday as the latest batch of earnings pointed to strong demand for and spending on artificial intelligence. SpaceX shares fell, but it reported higher-than-expected AI-related outlays, which helped Nvidia Corp. r"
     },
     {
-      "title": "Stocks Hit Records on AI Trade, Iran Deal Prospect: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-04/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "Global stocks climbed to a record as hopes rose for a US-Iran deal to open the Strait of Hormuz, while investors renewed bets on the artificial intelligence trade, driving gains in chipmakers.",
+      "title": "US Copper Trades Near Record on Tariff Risks, Hormuz Speculation",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-05/us-copper-trades-near-record-on-tariff-risks-hormuz-speculation",
+      "raw_summary": "Copper futures in New York traded just short of an all-time high as investors awaited a decision on US tariffs, while also tracking a push to reopen the Strait of Hormuz that lifted demand for risk assets.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 04 Aug 2026 22:11:08 GMT",
-      "summary": "Stocks Hit Records on AI Trade, Iran Deal Prospect: Markets Wrap\nGlobal stocks climbed to a record as hopes rose for a US-Iran deal to open the Strait of Hormuz, while investors renewed bets on the artificial intelligence trade, driving gains in chipmakers."
+      "published": "Wed, 05 Aug 2026 04:46:06 GMT",
+      "summary": "US Copper Trades Near Record on Tariff Risks, Hormuz Speculation\nCopper futures in New York traded just short of an all-time high as investors awaited a decision on US tariffs, while also tracking a push to reopen the Strait of Hormuz that lifted demand for risk assets."
     },
     {
-      "title": "Gold Jumps With Silver as Markets Track Push to Reopen Hormuz",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-04/gold-holds-steady-as-progress-on-hormuz-trims-rate-hike-bets",
-      "raw_summary": "Gold jumped, gaining for a third day as the prospect of an interim deal to reopen the Strait of Hormuz eased concerns about the outlook for inflation and reduced the odds of the Federal Reserve raising interest rates.",
+      "title": "US Signals Steady Debt Sales to 2027, Offers ‘Subtle Change’",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-05/us-keeps-debt-sale-guidance-steady-deepening-reliance-on-bills",
+      "raw_summary": "The US Treasury on Wednesday retained its previous guidance for future debt issuance, signaling no change in note and bond auction sizes well into 2027 even as federal borrowing needs climb.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 04 Aug 2026 23:54:09 GMT",
-      "summary": "Gold Jumps With Silver as Markets Track Push to Reopen Hormuz\nGold jumped, gaining for a third day as the prospect of an interim deal to reopen the Strait of Hormuz eased concerns about the outlook for inflation and reduced the odds of the Federal Reserve raising interest rates."
+      "published": "Wed, 05 Aug 2026 12:32:16 GMT",
+      "summary": "US Signals Steady Debt Sales to 2027, Offers ‘Subtle Change’\nThe US Treasury on Wednesday retained its previous guidance for future debt issuance, signaling no change in note and bond auction sizes well into 2027 even as federal borrowing needs climb."
     },
     {
-      "title": "The worst chart for bitcoin bulls right now",
-      "link": "https://www.coindesk.com/markets/2026/08/05/the-worst-chart-for-bitcoin-bulls-right-now",
+      "title": "Nomura’s Laser Digital backs ZIGChain for onchain private credit push in UAE",
+      "link": "https://www.coindesk.com/business/2026/08/05/noumura-s-laser-digital-backs-zigchain-for-onchain-private-credit-push-in-uae",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 05 Aug 2026 07:54:22 +0000",
-      "summary": "The worst chart for bitcoin bulls right now\n"
+      "published": "Wed, 05 Aug 2026 13:25:04 +0000",
+      "summary": "Nomura’s Laser Digital backs ZIGChain for onchain private credit push in UAE\n"
     },
     {
-      "title": "New Ethereum proposal would cut issuance to zero if staked ETH reaches $112 billion",
-      "link": "https://www.coindesk.com/tech/2026/08/05/new-ethereum-proposal-would-cut-issuance-to-zero-if-staked-eth-reaches-usd112-billion",
+      "title": "Crypto may have institutionalized, but it still trades like a rumor mill",
+      "link": "https://www.coindesk.com/opinion/2026/08/05/crypto-may-have-institutionalized-but-it-still-trades-like-a-rumor-mill",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 05 Aug 2026 05:49:57 +0000",
-      "summary": "New Ethereum proposal would cut issuance to zero if staked ETH reaches $112 billion\n"
+      "published": "Wed, 05 Aug 2026 13:00:00 +0000",
+      "summary": "Crypto may have institutionalized, but it still trades like a rumor mill\n"
     },
     {
-      "title": "\"You stole, please return some.\" Coldcard hacker's wallet becomes a graffiti wall of pleas and hustles",
-      "link": "https://www.coindesk.com/markets/2026/08/05/you-stole-please-return-some-coldcard-hacker-s-wallet-becomes-a-graffiti-wall-of-pleas-and-hustles",
+      "title": "Galaxy Digital shares slip 5% after second-quarter results",
+      "link": "https://www.coindesk.com/business/2026/08/05/galaxy-digital-shares-slip-5-after-second-quarter-results",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 05 Aug 2026 05:12:46 +0000",
-      "summary": "\"You stole, please return some.\" Coldcard hacker's wallet becomes a graffiti wall of pleas and hustles\n"
+      "published": "Wed, 05 Aug 2026 12:42:19 +0000",
+      "summary": "Galaxy Digital shares slip 5% after second-quarter results\n"
     },
     {
-      "title": "Bitcoin flat at $64,000 as stocks print records and Hormuz deal nears",
-      "link": "https://www.coindesk.com/markets/2026/08/05/bitcoin-flat-at-usd64-000-as-stocks-print-records-and-hormuz-deal-nears",
+      "title": "AI agent token once worth $2.4 billion ends with founder calling it dead",
+      "link": "https://www.coindesk.com/markets/2026/08/05/ai-agent-token-once-worth-usd2-4-billion-ends-with-founder-calling-it-dead",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 05 Aug 2026 04:32:16 +0000",
-      "summary": "Bitcoin flat at $64,000 as stocks print records and Hormuz deal nears\n"
+      "published": "Wed, 05 Aug 2026 12:28:39 +0000",
+      "summary": "AI agent token once worth $2.4 billion ends with founder calling it dead\n"
     },
     {
-      "title": "SpaceX tops Wall Street revenue forecast, posts $540 million loss on bitcoin holdings",
-      "link": "https://www.coindesk.com/business/2026/08/04/spacex-tops-wall-street-revenue-forecast-posts-usd540-million-decline-on-bitcoin-holding-value",
+      "title": "SpaceX extends decline to 11% on lockup expiration and capex spending fears",
+      "link": "https://www.coindesk.com/markets/2026/08/05/spacex-stock-drops-11-premarket-as-lockup-spending-fears-hit-first-earnings",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 04 Aug 2026 20:26:21 +0000",
-      "summary": "SpaceX tops Wall Street revenue forecast, posts $540 million loss on bitcoin holdings\n"
+      "published": "Wed, 05 Aug 2026 12:12:08 +0000",
+      "summary": "SpaceX extends decline to 11% on lockup expiration and capex spending fears\n"
     }
   ]
 }
