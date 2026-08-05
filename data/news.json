@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T13:47:26.205892+00:00",
+  "generated_at": "2026-08-05T19:17:33.868730+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,244 +43,276 @@
       "summary": "Felons, Fraudsters Flog Offensive Cybersecurity Startup\nA cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence "
     },
     {
-      "title": "New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch",
-      "link": "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html",
-      "raw_summary": "A memory corruption flaw in the Linux kernel's Open vSwitch datapath gives ordinary local users a path to root on a broad set of default-configured distributions, and a public exploit ships with pre-built records for roughly 800 kernel builds.\n\nThe vulnerability, tracked as CVE-2026-64531 (CVSS score: 7.8) and codenamed OVSwrap by its discoverer, was disclosed by security researcher Asim",
+      "title": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
+      "link": "https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html",
+      "raw_summary": "A macOS ClickFix operation spanning more than 250 front-end domains now fingerprints visitors before deciding whether to show them a malware lure, a change Microsoft Threat Intelligence tracked on infrastructure it had been watching for weeks.\n\nThe server-side gate hides the malicious page from crawlers and sandboxes while presenting selected Mac users with a fake software download. Microsoft",
       "source": "The Hacker News",
-      "published": "Wed, 05 Aug 2026 17:13:27 +0530",
-      "summary": "New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch\nA memory corruption flaw in the Linux kernel's Open vSwitch datapath gives ordinary local users a path to root on a broad set of default-configured distributions, and a public exploit ships with pre-built records for roughly 8"
+      "published": "Thu, 06 Aug 2026 00:14:31 +0530",
+      "summary": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures\nA macOS ClickFix operation spanning more than 250 front-end domains now fingerprints visitors before deciding whether to show them a malware lure, a change Microsoft Threat Intelligence tracked on infrastructure it had "
     },
     {
-      "title": "Kali365 Weaponizes Microsoft Authentication Against US Companies: New Enterprise Risk",
-      "link": "https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html",
-      "raw_summary": "Kali365 is turning a legitimate Microsoft login into a gateway to corporate data.\n\nThe phishing kit targets US organizations with attacker-controlled device codes that victims approve on Microsoft's real authentication page. Once access and refresh tokens are issued, attackers may retain access to email, documents, and cloud resources, creating a direct path to data exposure, financial fraud,",
+      "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
+      "link": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
+      "raw_summary": "OpenAI said it disrupted a Cambodia-based scam operation that used its generative artificial intelligence (AI) chatbot ChatGPT to facilitate a wide range of investment, romance, gambling, and law enforcement impersonation schemes.\n\nTo that end, it banned a coordinated network of ChatGPT accounts likely originating from Southeast Asia and operating from the city of Poipet, a region with extensive",
       "source": "The Hacker News",
-      "published": "Wed, 05 Aug 2026 17:13:19 +0530",
-      "summary": "Kali365 Weaponizes Microsoft Authentication Against US Companies: New Enterprise Risk\nKali365 is turning a legitimate Microsoft login into a gateway to corporate data.\n\nThe phishing kit targets US organizations with attacker-controlled device codes that victims approve on Microsoft's real authentica"
+      "published": "Thu, 06 Aug 2026 00:03:47 +0530",
+      "summary": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes\nOpenAI said it disrupted a Cambodia-based scam operation that used its generative artificial intelligence (AI) chatbot ChatGPT to facilitate a wide range of investment, romance, gambling, and law enforcement impersonatio"
     },
     {
-      "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
-      "link": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
-      "raw_summary": "An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1.\n\nThe file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its",
+      "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
+      "link": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
+      "raw_summary": "Cybersecurity researchers have discovered more than half-a-dozen services advertisements for illegal access to artificial intelligence (AI) models on underground cybercrime forums and messaging platforms.\n\nOne such service, Poison Claude, claims to offer access to Anthropic's large language models (LLMs), including Opus 4.8, Opus 4.7, Opus 4.6, and Sonnet 4.6.\n\n\"Advertisements for Poison Claude",
       "source": "The Hacker News",
-      "published": "Wed, 05 Aug 2026 16:34:23 +0530",
-      "summary": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup\nAn unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository an"
+      "published": "Wed, 05 Aug 2026 21:06:03 +0530",
+      "summary": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt\nCybersecurity researchers have discovered more than half-a-dozen services advertisements for illegal access to artificial intelligence (AI) models on underground cybercrime forums and messaging platforms.\n\nOne"
     },
     {
-      "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft",
-      "link": "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
-      "raw_summary": "GitGuardian researchers found 321 n8n instances accepting API tokens exposed in public GitHub commits and demonstrated four ways attackers could use them to access sensitive data and downstream credentials without exploiting a software vulnerability.\n\nWe scanned public GitHub commits for exposed n8n API tokens and identified 4,576 unique credentials associated with 1,255 hostnames. Of the 896",
+      "title": "Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports",
+      "link": "https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html",
+      "raw_summary": "Two security flaws in Paperclip could let attackers execute commands on a network server or a developer's computer. Paperclip is an open-source control plane for teams of artificial intelligence (AI) agents, and both paths rely on importing a malicious agent and starting it.\n\nA third flaw could expose sensitive data and control-plane details through application programming interface (API) routes",
       "source": "The Hacker News",
-      "published": "Wed, 05 Aug 2026 16:05:29 +0530",
-      "summary": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft\nGitGuardian researchers found 321 n8n instances accepting API tokens exposed in public GitHub commits and demonstrated four ways attackers could use them to access sensitive data and downstream credentials without exploiting a software"
+      "published": "Wed, 05 Aug 2026 20:44:05 +0530",
+      "summary": "Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports\nTwo security flaws in Paperclip could let attackers execute commands on a network server or a developer's computer. Paperclip is an open-source control plane for teams of artificial intelligence (AI) agents, and both path"
     },
     {
-      "title": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data",
-      "link": "https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html",
-      "raw_summary": "A cluster of 77 extensions on the Open VSX marketplace has been found to impersonate legitimate developer tools while transmitting information about the systems and development environments on which they were installed.\n\nThe \"evil twin\" extensions were uploaded to the repository between July 26 and August 1, 2026, according to Manifold Security. The packages have been removed from Open VSX as of",
+      "title": "Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug",
+      "link": "https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html",
+      "raw_summary": "HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django.\n\nThe three most serious:\n\n\n  An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5\n  A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users'",
       "source": "The Hacker News",
-      "published": "Wed, 05 Aug 2026 14:53:03 +0530",
-      "summary": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data\nA cluster of 77 extensions on the Open VSX marketplace has been found to impersonate legitimate developer tools while transmitting information about the systems and development environments on which they were installed.\n\n"
+      "published": "Wed, 05 Aug 2026 19:57:30 +0530",
+      "summary": "Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug\nHashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django.\n\nThe three most serious:\n\n\n  An unauthenticated flaw in V"
     },
     {
-      "title": "Iowa et al asks OpenAI to keep their bots sandboxed",
-      "link": "https://www.iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-leads-coalition-demanding-transparency-from-openai-after-ai-breach-and",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-leads-coalition-demanding-transparency-from-openai-after-ai-breach-and\">https://www.iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-leads-coalition-demanding-transparency-from-openai-after-ai-breach-and</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49182052\">https://news.ycombinator.com/item?id=49182052</a></p>\n<p>Points: 43</p>\n<p># Comments: 64</p>",
+      "title": "Zed DeltaDB",
+      "link": "https://zed.dev/deltadb",
+      "raw_summary": "<p>Article URL: <a href=\"https://zed.dev/deltadb\">https://zed.dev/deltadb</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49187256\">https://news.ycombinator.com/item?id=49187256</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 05 Aug 2026 12:42:50 +0000",
-      "summary": "Iowa et al asks OpenAI to keep their bots sandboxed\n<p>Article URL: <a href=\"https://www.iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-leads-coalition-demanding-transparency-from-openai-after-ai-breach-and\">https://www.iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-lea"
+      "published": "Wed, 05 Aug 2026 18:52:54 +0000",
+      "summary": "Zed DeltaDB\n<p>Article URL: <a href=\"https://zed.dev/deltadb\">https://zed.dev/deltadb</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49187256\">https://news.ycombinator.com/item?id=49187256</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>"
     },
     {
-      "title": "TIME Is Serving AI Bots a Different Website, with Ads Built In",
-      "link": "https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website/\">https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49182041\">https://news.ycombinator.com/item?id=49182041</a></p>\n<p>Points: 33</p>\n<p># Comments: 10</p>",
+      "title": "Born Against, or why hobby programming communities are against LLM usage",
+      "link": "https://blog.fogus.me/llm/born-against.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.fogus.me/llm/born-against.html\">https://blog.fogus.me/llm/born-against.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49187061\">https://news.ycombinator.com/item?id=49187061</a></p>\n<p>Points: 18</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 05 Aug 2026 12:41:47 +0000",
-      "summary": "TIME Is Serving AI Bots a Different Website, with Ads Built In\n<p>Article URL: <a href=\"https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website/\">https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.co"
+      "published": "Wed, 05 Aug 2026 18:37:49 +0000",
+      "summary": "Born Against, or why hobby programming communities are against LLM usage\n<p>Article URL: <a href=\"https://blog.fogus.me/llm/born-against.html\">https://blog.fogus.me/llm/born-against.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49187061\">https://news.ycombinator.com/ite"
     },
     {
-      "title": "Three Six Mafia – Data about \"6/6/6 dating\" (2024)",
-      "link": "https://divingintheshallowend.com/three-six-mafia/",
-      "raw_summary": "<p>Article URL: <a href=\"https://divingintheshallowend.com/three-six-mafia/\">https://divingintheshallowend.com/three-six-mafia/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49181678\">https://news.ycombinator.com/item?id=49181678</a></p>\n<p>Points: 89</p>\n<p># Comments: 85</p>",
+      "title": "Microsoft's AI Sales Mostly Come from OpenAI, Disclosures Show",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-05/microsoft-s-ai-sales-mostly-come-from-openai-disclosures-show",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.bloomberg.com/news/articles/2026-08-05/microsoft-s-ai-sales-mostly-come-from-openai-disclosures-show\">https://www.bloomberg.com/news/articles/2026-08-05/microsoft-s-ai-sales-mostly-come-from-openai-disclosures-show</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49186766\">https://news.ycombinator.com/item?id=49186766</a></p>\n<p>Points: 18</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 05 Aug 2026 12:06:14 +0000",
-      "summary": "Three Six Mafia – Data about \"6/6/6 dating\" (2024)\n<p>Article URL: <a href=\"https://divingintheshallowend.com/three-six-mafia/\">https://divingintheshallowend.com/three-six-mafia/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49181678\">https://news.ycombinator.com/item?id=491"
+      "published": "Wed, 05 Aug 2026 18:19:10 +0000",
+      "summary": "Microsoft's AI Sales Mostly Come from OpenAI, Disclosures Show\n<p>Article URL: <a href=\"https://www.bloomberg.com/news/articles/2026-08-05/microsoft-s-ai-sales-mostly-come-from-openai-disclosures-show\">https://www.bloomberg.com/news/articles/2026-08-05/microsoft-s-ai-sales-mostly-come-from-openai-di"
     },
     {
-      "title": "Why the Legendary Erdős Problems Are Falling to AI",
-      "link": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/\">https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49181519\">https://news.ycombinator.com/item?id=49181519</a></p>\n<p>Points: 27</p>\n<p># Comments: 3</p>",
+      "title": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models",
+      "link": "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency",
+      "raw_summary": "<p>Article URL: <a href=\"https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency\">https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49186762\">https://news.ycombinator.com/item?id=49186762</a></p>\n<p>Points: 18</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 05 Aug 2026 11:49:34 +0000",
-      "summary": "Why the Legendary Erdős Problems Are Falling to AI\n<p>Article URL: <a href=\"https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/\">https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/</a></p>\n<p>Comments URL: <a href=\"https"
+      "published": "Wed, 05 Aug 2026 18:18:56 +0000",
+      "summary": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models\n<p>Article URL: <a href=\"https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency\">https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency</a></p>\n<p>Comments URL: <a href=\"https"
     },
     {
-      "title": "Could psilocybin be the key to treating anorexia?",
-      "link": "https://www.scientificamerican.com/article/psilocybin-could-kick-start-anorexia-recovery-early-results-suggest/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.scientificamerican.com/article/psilocybin-could-kick-start-anorexia-recovery-early-results-suggest/\">https://www.scientificamerican.com/article/psilocybin-could-kick-start-anorexia-recovery-early-results-suggest/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49181419\">https://news.ycombinator.com/item?id=49181419</a></p>\n<p>Points: 23</p>\n<p># Comments: 21</p>",
+      "title": "Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence",
+      "link": "https://arxiv.org/abs/2510.01395",
+      "raw_summary": "<p>Article URL: <a href=\"https://arxiv.org/abs/2510.01395\">https://arxiv.org/abs/2510.01395</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49186720\">https://news.ycombinator.com/item?id=49186720</a></p>\n<p>Points: 7</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 05 Aug 2026 11:39:09 +0000",
-      "summary": "Could psilocybin be the key to treating anorexia?\n<p>Article URL: <a href=\"https://www.scientificamerican.com/article/psilocybin-could-kick-start-anorexia-recovery-early-results-suggest/\">https://www.scientificamerican.com/article/psilocybin-could-kick-start-anorexia-recovery-early-results-suggest/<"
+      "published": "Wed, 05 Aug 2026 18:17:03 +0000",
+      "summary": "Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence\n<p>Article URL: <a href=\"https://arxiv.org/abs/2510.01395\">https://arxiv.org/abs/2510.01395</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49186720\">https://news.ycombinator.com/item?id=49186720</a></p>\n<p>"
     },
     {
-      "title": "Disney+ looks to TikTok creators to bring fan content to its short-form video feed",
-      "link": "https://techcrunch.com/2026/08/05/disney-looks-to-tiktok-creators-to-bring-fan-content-to-its-short-form-video-feed/",
-      "raw_summary": "As streamers compete with social media giants for viewer attention, Disney+ is partnering with TikTok to bring creator content to its app.",
+      "title": "Reddit aims to make ‘karma’ less important for first-time posters with shift to AI moderation tools",
+      "link": "https://techcrunch.com/2026/08/05/reddit-aims-to-make-karma-less-important-for-first-time-posters-with-shift-to-ai-moderation-tools/",
+      "raw_summary": "Reddit is expanding its moderation tools and building stronger abuse prevention systems that it says could eventually reduce communities’ reliance on karma and account-age requirements, making it easier for legitimate newcomers to participate.",
       "source": "TechCrunch",
-      "published": "Wed, 05 Aug 2026 13:21:43 +0000",
-      "summary": "Disney+ looks to TikTok creators to bring fan content to its short-form video feed\nAs streamers compete with social media giants for viewer attention, Disney+ is partnering with TikTok to bring creator content to its app."
+      "published": "Wed, 05 Aug 2026 18:00:40 +0000",
+      "summary": "Reddit aims to make ‘karma’ less important for first-time posters with shift to AI moderation tools\nReddit is expanding its moderation tools and building stronger abuse prevention systems that it says could eventually reduce communities’ reliance on karma and account-age requirements, making it easi"
     },
     {
-      "title": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store",
-      "link": "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/",
-      "raw_summary": "MacPaw is building a local version of its AI assistant Eney using Liquid AI's models.",
+      "title": "Lucid Motors just delayed its affordable EV. Now what?",
+      "link": "https://techcrunch.com/2026/08/05/lucid-motors-just-delayed-its-affordable-ev-now-what/",
+      "raw_summary": "The Cosmos EV is now slated for release in the second half of 2027. CEO Silvio Napoli said he's focused on getting the EV right, as well as its nearer-term robotaxi project with Uber and Nuro.",
       "source": "TechCrunch",
-      "published": "Wed, 05 Aug 2026 12:28:38 +0000",
-      "summary": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store\nMacPaw is building a local version of its AI assistant Eney using Liquid AI's models."
+      "published": "Wed, 05 Aug 2026 17:57:45 +0000",
+      "summary": "Lucid Motors just delayed its affordable EV. Now what?\nThe Cosmos EV is now slated for release in the second half of 2027. CEO Silvio Napoli said he's focused on getting the EV right, as well as its nearer-term robotaxi project with Uber and Nuro."
     },
     {
-      "title": "Robinhood to list a fund that lets anyone back Y Combinator startups",
-      "link": "https://techcrunch.com/2026/08/05/robinhood-to-list-a-fund-that-lets-anyone-back-y-combinator-startups/",
-      "raw_summary": "Robinhood's latest financial instrument intends to let any retail investor feel like they, too, can make money by backing Y Combinator startups.",
+      "title": "Meet the eight startups pitching at Startup Battlefield Australia",
+      "link": "https://techcrunch.com/2026/08/05/meet-the-eight-startups-pitching-at-startup-battlefield-australia/",
+      "raw_summary": "The applications are in, and the TechCrunch Startup Battlefield team made their decisions!",
       "source": "TechCrunch",
-      "published": "Wed, 05 Aug 2026 12:23:52 +0000",
-      "summary": "Robinhood to list a fund that lets anyone back Y Combinator startups\nRobinhood's latest financial instrument intends to let any retail investor feel like they, too, can make money by backing Y Combinator startups."
+      "published": "Wed, 05 Aug 2026 17:02:00 +0000",
+      "summary": "Meet the eight startups pitching at Startup Battlefield Australia\nThe applications are in, and the TechCrunch Startup Battlefield team made their decisions!"
     },
     {
-      "title": "Indian EV startup River raises $120M Series C to scale production, launch more models",
-      "link": "https://techcrunch.com/2026/08/05/indian-ev-two-wheeler-startup-river-raises-120m-after-scaling-with-one-model/",
-      "raw_summary": "River plans to build a new factory, launch additional models from 2027, and target profitability as it scales production.",
+      "title": "PSA: Apple’s Private Relay can leak your real IP address",
+      "link": "https://techcrunch.com/2026/08/05/psa-apples-private-relay-can-leak-your-real-ip-address/",
+      "raw_summary": "A bug in how Apple implements its Private Relay feature, which in theory masks users’ IP addresses from the sites they visit, can reveal users’ real IP addresses.",
       "source": "TechCrunch",
-      "published": "Wed, 05 Aug 2026 11:26:00 +0000",
-      "summary": "Indian EV startup River raises $120M Series C to scale production, launch more models\nRiver plans to build a new factory, launch additional models from 2027, and target profitability as it scales production."
+      "published": "Wed, 05 Aug 2026 16:52:29 +0000",
+      "summary": "PSA: Apple’s Private Relay can leak your real IP address\nA bug in how Apple implements its Private Relay feature, which in theory masks users’ IP addresses from the sites they visit, can reveal users’ real IP addresses."
     },
     {
-      "title": "Saudi Aramco backs India’s Mitti Labs to make Asia’s rice farming more water-resilient",
-      "link": "https://techcrunch.com/2026/08/05/saudi-aramco-backs-indias-mitti-labs-to-make-asias-rice-farming-more-water-resilient/",
-      "raw_summary": "Mitti Labs plans to expand beyond India and enter the Philippines and Indonesia while growing its carbon credits and agricultural data business.",
+      "title": "Shopify says AI search is driving more traffic and sales, not replacing Google",
+      "link": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/",
+      "raw_summary": "Shopify says AI isn’t cannibalizing search traffic the way it has for publishers. Instead, AI-driven traffic and orders to Shopify stores tripled year over year in Q2.",
       "source": "TechCrunch",
-      "published": "Wed, 05 Aug 2026 11:00:00 +0000",
-      "summary": "Saudi Aramco backs India’s Mitti Labs to make Asia’s rice farming more water-resilient\nMitti Labs plans to expand beyond India and enter the Philippines and Indonesia while growing its carbon credits and agricultural data business."
+      "published": "Wed, 05 Aug 2026 15:56:14 +0000",
+      "summary": "Shopify says AI search is driving more traffic and sales, not replacing Google\nShopify says AI isn’t cannibalizing search traffic the way it has for publishers. Instead, AI-driven traffic and orders to Shopify stores tripled year over year in Q2."
     },
     {
-      "title": "Pushing the limits: Infinite Machine's Olto is barely a bicycle",
-      "link": "https://arstechnica.com/cars/2026/08/pushing-the-limits-infinite-machines-olto-is-barely-a-bicycle/",
-      "raw_summary": "Scooter layout makes pedaling a bad experience. But it does have pedals.",
+      "title": "After jacking up prices, Disney+ and Netflix consider offering free alternatives",
+      "link": "https://arstechnica.com/gadgets/2026/08/after-jacking-up-prices-disney-and-netflix-consider-offering-free-alternatives/",
+      "raw_summary": "Disney is interested in \"price-sensitive\" streaming customers.",
       "source": "Ars Technica - All content",
-      "published": "Wed, 05 Aug 2026 11:00:26 +0000",
-      "summary": "Pushing the limits: Infinite Machine's Olto is barely a bicycle\nScooter layout makes pedaling a bad experience. But it does have pedals."
+      "published": "Wed, 05 Aug 2026 17:12:39 +0000",
+      "summary": "After jacking up prices, Disney+ and Netflix consider offering free alternatives\nDisney is interested in \"price-sensitive\" streaming customers."
     },
     {
-      "title": "Senators demand crackdown on wildfire \"prediction markets\"",
-      "link": "https://arstechnica.com/tech-policy/2026/08/senators-demand-crackdown-on-wildfire-prediction-markets/",
-      "raw_summary": "Fire experts warn such markets could incentivize arson.",
+      "title": "EVgo starts building Tesla Superchargers under license",
+      "link": "https://arstechnica.com/cars/2026/08/evgo-starts-building-tesla-superchargers-under-license/",
+      "raw_summary": "The V4 Superchargers will show up in the Tesla nav app and have NACS and CCS1 plugs.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 04 Aug 2026 21:52:31 +0000",
-      "summary": "Senators demand crackdown on wildfire \"prediction markets\"\nFire experts warn such markets could incentivize arson."
+      "published": "Wed, 05 Aug 2026 17:00:38 +0000",
+      "summary": "EVgo starts building Tesla Superchargers under license\nThe V4 Superchargers will show up in the Tesla nav app and have NACS and CCS1 plugs."
     },
     {
-      "title": "Trump killed the Digital Equity Act, but US was forced to bring part of it back",
-      "link": "https://arstechnica.com/tech-policy/2026/08/trump-forced-to-reinstate-broadband-grants-but-court-lets-us-scrap-race-criteria/",
-      "raw_summary": "$1.25 billion program restored, but judge ruled race provision unconstitutional.",
+      "title": "D-Wave shows off its new entry in quantum computing race",
+      "link": "https://arstechnica.com/science/2026/08/d-wave-on-rails-company-tests-entanglement-on-its-dual-rail-qubits/",
+      "raw_summary": "Company noted for building quantum annealers now also making gate-based hardware.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 04 Aug 2026 21:27:05 +0000",
-      "summary": "Trump killed the Digital Equity Act, but US was forced to bring part of it back\n$1.25 billion program restored, but judge ruled race provision unconstitutional."
+      "published": "Wed, 05 Aug 2026 16:37:07 +0000",
+      "summary": "D-Wave shows off its new entry in quantum computing race\nCompany noted for building quantum annealers now also making gate-based hardware."
     },
     {
-      "title": "Texas halts data center connections to power grid amid overwhelming demand",
-      "link": "https://arstechnica.com/ai/2026/08/texas-halts-data-center-connections-to-power-grid-amid-overwhelming-demand/",
-      "raw_summary": "Governor who touted Texas as AI “epicenter” pauses data center grid connections.",
+      "title": "Google plans to kill Assistant on your phone on September 4",
+      "link": "https://arstechnica.com/ai/2026/08/google-plans-to-kill-assistant-on-your-phone-on-september-4/",
+      "raw_summary": "Assistant will disappear, leaving only Gemini for voice control in the coming weeks.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 04 Aug 2026 20:34:28 +0000",
-      "summary": "Texas halts data center connections to power grid amid overwhelming demand\nGovernor who touted Texas as AI “epicenter” pauses data center grid connections."
+      "published": "Wed, 05 Aug 2026 15:30:02 +0000",
+      "summary": "Google plans to kill Assistant on your phone on September 4\nAssistant will disappear, leaving only Gemini for voice control in the coming weeks."
     },
     {
-      "title": "China is Tesla's cash cow, but for how much longer?",
-      "link": "https://arstechnica.com/cars/2026/08/china-is-teslas-cash-cow-but-for-how-much-longer/",
-      "raw_summary": "Tesla's Shanghai factory is busier than ever but might be cut loose.",
+      "title": "SpaceX spooks investors with debut earnings report",
+      "link": "https://arstechnica.com/ai/2026/08/spacex-spooks-investors-with-debut-earnings-report/",
+      "raw_summary": "Shares slide in pre-market trading even as group says its quarterly revenues nearly doubled.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 04 Aug 2026 17:34:48 +0000",
-      "summary": "China is Tesla's cash cow, but for how much longer?\nTesla's Shanghai factory is busier than ever but might be cut loose."
+      "published": "Wed, 05 Aug 2026 13:59:17 +0000",
+      "summary": "SpaceX spooks investors with debut earnings report\nShares slide in pre-market trading even as group says its quarterly revenues nearly doubled."
     },
     {
-      "title": "High-stakes Michigan Democratic Senate primary too close to call",
-      "link": "https://www.ft.com/content/65633475-0a89-4522-9c2c-5cbd22fd9aac?syn-25a6b1a6=1",
-      "raw_summary": "Fewer than 20,000 votes separate centrist congresswoman Haley Stevens and progressive challenger Abdul El-Sayed",
+      "title": "Google DeepMind CEO Demis Hassabis steps down in shake-up of AI lab",
+      "link": "https://www.ft.com/content/61d41764-f2f7-4906-a112-ff3073972c51?syn-25a6b1a6=1",
+      "raw_summary": "Chief scientist Jeff Dean leaves the group to found his own start-up",
       "source": "World",
-      "published": "Wed, 05 Aug 2026 13:38:34 GMT",
-      "summary": "High-stakes Michigan Democratic Senate primary too close to call\nFewer than 20,000 votes separate centrist congresswoman Haley Stevens and progressive challenger Abdul El-Sayed"
+      "published": "Wed, 05 Aug 2026 18:24:23 GMT",
+      "summary": "Google DeepMind CEO Demis Hassabis steps down in shake-up of AI lab\nChief scientist Jeff Dean leaves the group to found his own start-up"
     },
     {
-      "title": "Eli Lilly and Novo Nordisk raise profit outlook as weight-loss drug demand soars",
-      "link": "https://www.ft.com/content/fc7f75f9-73b5-4ce6-8a27-f819aa7f361b?syn-25a6b1a6=1",
-      "raw_summary": "Drugmakers’ share prices diverge as investors take dim view of Novo’s over-reliance on obesity treatments",
+      "title": "Badenoch ‘sad’ over former antisemite’s withdrawal as Tory council candidate",
+      "link": "https://www.ft.com/content/124950d0-1d2f-4da5-8dbc-33912e939298?syn-25a6b1a6=1",
+      "raw_summary": "Joshua Bonehill-Paine says he will now advise Conservative Party on its culture and integration commission",
       "source": "World",
-      "published": "Wed, 05 Aug 2026 13:35:30 GMT",
-      "summary": "Eli Lilly and Novo Nordisk raise profit outlook as weight-loss drug demand soars\nDrugmakers’ share prices diverge as investors take dim view of Novo’s over-reliance on obesity treatments"
+      "published": "Wed, 05 Aug 2026 18:03:03 GMT",
+      "summary": "Badenoch ‘sad’ over former antisemite’s withdrawal as Tory council candidate\nJoshua Bonehill-Paine says he will now advise Conservative Party on its culture and integration commission"
     },
     {
-      "title": "Musk’s SpaceX slides 12% as lavish AI spending plans unnerve investors",
-      "link": "https://www.ft.com/content/41f7963b-dd50-4f27-a085-771ddec4a8ca?syn-25a6b1a6=1",
-      "raw_summary": "Shares slide even as group says its quarterly revenues nearly doubled",
+      "title": "How to solve Britain’s prisons crisis",
+      "link": "https://www.ft.com/content/2f32de35-697e-4f56-ac57-e44006a09d0f?syn-25a6b1a6=1",
+      "raw_summary": "It will require changes to sentencing as well as building more capacity",
       "source": "World",
-      "published": "Wed, 05 Aug 2026 13:31:33 GMT",
-      "summary": "Musk’s SpaceX slides 12% as lavish AI spending plans unnerve investors\nShares slide even as group says its quarterly revenues nearly doubled"
+      "published": "Wed, 05 Aug 2026 17:52:15 GMT",
+      "summary": "How to solve Britain’s prisons crisis\nIt will require changes to sentencing as well as building more capacity"
     },
     {
-      "title": "China hits back at US with sanctions and tighter drone export rules",
-      "link": "https://www.ft.com/content/38e11309-9cb6-4cd4-a5b6-fc9a239ad6b3?syn-25a6b1a6=1",
-      "raw_summary": "Beijing’s retaliation highlights tensions ahead of Xi Jinping’s planned trip in September",
+      "title": "Iran says it has reached agreement with Oman on Hormuz shipping route",
+      "link": "https://www.ft.com/content/e0b10cad-3e46-4a6d-9227-eba6fe11c676?syn-25a6b1a6=1",
+      "raw_summary": "Islamic republic is determined to retain a degree of control over the chokepoint",
       "source": "World",
-      "published": "Wed, 05 Aug 2026 13:23:08 GMT",
-      "summary": "China hits back at US with sanctions and tighter drone export rules\nBeijing’s retaliation highlights tensions ahead of Xi Jinping’s planned trip in September"
+      "published": "Wed, 05 Aug 2026 17:24:01 GMT",
+      "summary": "Iran says it has reached agreement with Oman on Hormuz shipping route\nIslamic republic is determined to retain a degree of control over the chokepoint"
     },
     {
-      "title": "Russia drone company chief injured in car bombing",
-      "link": "https://www.ft.com/content/eee4bbbf-1d94-4910-9a61-2faefef61d55?syn-25a6b1a6=1",
-      "raw_summary": "Attack on Vladimir Tkachuk is latest targeting prominent figures in the Russian war effort",
+      "title": "Europe must do more to harness its AI ambitions",
+      "link": "https://www.ft.com/content/65576911-f6ee-46b3-b5a8-f423df723879",
+      "raw_summary": "The US and China use the technology as an instrument of state power, while the EU is still considering its course",
       "source": "World",
-      "published": "Wed, 05 Aug 2026 12:59:26 GMT",
-      "summary": "Russia drone company chief injured in car bombing\nAttack on Vladimir Tkachuk is latest targeting prominent figures in the Russian war effort"
+      "published": "Wed, 05 Aug 2026 17:01:54 GMT",
+      "summary": "Europe must do more to harness its AI ambitions\nThe US and China use the technology as an instrument of state power, while the EU is still considering its course"
     },
     {
-      "title": "Disney's Third-Quarter Profit Growth Driven by Parks, Streaming",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-05/disney-sees-3q-profit-growth-driven-by-parks-streaming-video",
-      "raw_summary": "Walt Disney Co.’s fiscal third quarter profit beat Wall Street estimates as soaring income from its entertainment division and the resilience of its theme parks in California and Florida delivered a second straight quarter of better-than-expected profitability for Chief Executive Officer Josh D’Amaro. Geetha Ranganathan of Bloomberg Intelligence has more. (Source: Bloomberg)",
+      "title": "Ares Eyes $2 Billion Loan Deal in Private Credit’s Slow Year",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-05/ares-eyes-2-billion-loan-deal-in-slow-year-for-private-credit",
+      "raw_summary": "Ares Management Corp. is leading a $2.2 billion direct loan to help finance a healthcare services acquisition, in one of the biggest deals since the private credit market was roiled by record redemptions this year.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 05 Aug 2026 13:40:28 GMT",
-      "summary": "Disney's Third-Quarter Profit Growth Driven by Parks, Streaming\nWalt Disney Co.’s fiscal third quarter profit beat Wall Street estimates as soaring income from its entertainment division and the resilience of its theme parks in California and Florida delivered a second straight quarter of better-tha"
+      "published": "Wed, 05 Aug 2026 17:56:09 GMT",
+      "summary": "Ares Eyes $2 Billion Loan Deal in Private Credit’s Slow Year\nAres Management Corp. is leading a $2.2 billion direct loan to help finance a healthcare services acquisition, in one of the biggest deals since the private credit market was roiled by record redemptions this year."
     },
     {
-      "title": "Glencore Takes Provision on Exposure to Trader Radiant World",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-05/glencore-says-it-has-taken-provision-on-radiant-world-exposure",
-      "raw_summary": "Glencore Plc said it has taken a provision on its exposure to iron ore trader Radiant World and confirmed it has stopped doing any new business with the firm.",
+      "title": "S&P 500 Churns After $3.7 Trillion Rally to Record: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-04/stock-market-today-dow-s-p-live-updates",
+      "raw_summary": "Wall Street’s blistering run wavered near all-time highs, with traders digesting the recent stock gains amid a slew of corporate earnings and hopes for a reopening of the Strait of Hormuz.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 05 Aug 2026 06:49:31 GMT",
-      "summary": "Glencore Takes Provision on Exposure to Trader Radiant World\nGlencore Plc said it has taken a provision on its exposure to iron ore trader Radiant World and confirmed it has stopped doing any new business with the firm."
+      "published": "Tue, 04 Aug 2026 22:11:08 GMT",
+      "summary": "S&P 500 Churns After $3.7 Trillion Rally to Record: Markets Wrap\nWall Street’s blistering run wavered near all-time highs, with traders digesting the recent stock gains amid a slew of corporate earnings and hopes for a reopening of the Strait of Hormuz."
     },
     {
-      "title": "S&P 500 Opens at Another Record as AI Spending Narrative Holds",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-05/s-p-500-poised-for-another-record-as-ai-spending-narrative-holds",
-      "raw_summary": "US stocks climbed on Wednesday as the latest batch of earnings pointed to strong demand for and spending on artificial intelligence. SpaceX shares fell, but it reported higher-than-expected AI-related outlays, which helped Nvidia Corp. rally after Elon Musk touted his computing plans.",
+      "title": "Carry Trade Is Powering On as Investors Sidestep Yen’s Gains",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-05/carry-trade-is-powering-on-as-investors-sidestep-yen-s-gains",
+      "raw_summary": "Emerging-market carry trades, some of this year’s most popular foreign-exchange bets, are showing resilience even after joint US-Japan currency intervention dented the appeal of this yen-funded strategy.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 05 Aug 2026 11:52:30 GMT",
-      "summary": "S&P 500 Opens at Another Record as AI Spending Narrative Holds\nUS stocks climbed on Wednesday as the latest batch of earnings pointed to strong demand for and spending on artificial intelligence. SpaceX shares fell, but it reported higher-than-expected AI-related outlays, which helped Nvidia Corp. r"
+      "published": "Wed, 05 Aug 2026 11:15:00 GMT",
+      "summary": "Carry Trade Is Powering On as Investors Sidestep Yen’s Gains\nEmerging-market carry trades, some of this year’s most popular foreign-exchange bets, are showing resilience even after joint US-Japan currency intervention dented the appeal of this yen-funded strategy."
     },
     {
-      "title": "US Copper Trades Near Record on Tariff Risks, Hormuz Speculation",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-05/us-copper-trades-near-record-on-tariff-risks-hormuz-speculation",
-      "raw_summary": "Copper futures in New York traded just short of an all-time high as investors awaited a decision on US tariffs, while also tracking a push to reopen the Strait of Hormuz that lifted demand for risk assets.",
+      "title": "Everyone Is Chasing Scale: Petillo-Décossard",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-05/everyone-is-chasing-scale-petillo-decossard-video",
+      "raw_summary": "Kimberly Petillo-Décossard, global co-head of M&amp;A White & Case, joins Dani Burger on \"Bloomberg Deals.\" They discuss the current state of dealmaking, market volatility, and how the federal regulatory environment affects the flow of deals. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Wed, 05 Aug 2026 04:46:06 GMT",
-      "summary": "US Copper Trades Near Record on Tariff Risks, Hormuz Speculation\nCopper futures in New York traded just short of an all-time high as investors awaited a decision on US tariffs, while also tracking a push to reopen the Strait of Hormuz that lifted demand for risk assets."
+      "published": "Wed, 05 Aug 2026 18:50:50 GMT",
+      "summary": "Everyone Is Chasing Scale: Petillo-Décossard\nKimberly Petillo-Décossard, global co-head of M&amp;A White & Case, joins Dani Burger on \"Bloomberg Deals.\" They discuss the current state of dealmaking, market volatility, and how the federal regulatory environment affects the flow of deals. (Source: Blo"
     },
     {
-      "title": "US Signals Steady Debt Sales to 2027, Offers ‘Subtle Change’",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-05/us-keeps-debt-sale-guidance-steady-deepening-reliance-on-bills",
-      "raw_summary": "The US Treasury on Wednesday retained its previous guidance for future debt issuance, signaling no change in note and bond auction sizes well into 2027 even as federal borrowing needs climb.",
+      "title": "Apollo’s Deal Spree Drives Fee-Related Revenue to a Record",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-05/apollo-s-deal-spree-drives-fee-related-revenue-to-record-video",
+      "raw_summary": "Bloomberg's Laura Benitez joins Dani Burger on \"Bloomberg Deals.\" Apollo Global Management reported record revenue from fees as it vies to be one of Wall Street’s largest lenders.\n (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Wed, 05 Aug 2026 12:32:16 GMT",
-      "summary": "US Signals Steady Debt Sales to 2027, Offers ‘Subtle Change’\nThe US Treasury on Wednesday retained its previous guidance for future debt issuance, signaling no change in note and bond auction sizes well into 2027 even as federal borrowing needs climb."
+      "published": "Wed, 05 Aug 2026 18:40:35 GMT",
+      "summary": "Apollo’s Deal Spree Drives Fee-Related Revenue to a Record\nBloomberg's Laura Benitez joins Dani Burger on \"Bloomberg Deals.\" Apollo Global Management reported record revenue from fees as it vies to be one of Wall Street’s largest lenders.\n (Source: Bloomberg)"
+    },
+    {
+      "title": "Crypto's campaign efforts see rare loss, but crypto roster in Congress likely to grow",
+      "link": "https://www.coindesk.com/policy/2026/08/05/crypto-s-campaign-efforts-see-rare-loss-but-crypto-roster-in-congress-likely-to-grow",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 05 Aug 2026 18:15:21 +0000",
+      "summary": "Crypto's campaign efforts see rare loss, but crypto roster in Congress likely to grow\n"
+    },
+    {
+      "title": "Coldcard exploit could boost demand for regulated bitcoin exposure, analysts say",
+      "link": "https://www.coindesk.com/tech/2026/08/05/coldcard-exploit-could-boost-demand-for-regulated-bitcoin-exposure-analysts-say",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 05 Aug 2026 15:44:08 +0000",
+      "summary": "Coldcard exploit could boost demand for regulated bitcoin exposure, analysts say\n"
+    },
+    {
+      "title": "Crypto Long & Short: Putting the bitcoin sizing question to the test",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/08/05/crypto-long-and-short-putting-the-bitcoin-sizing-question-to-the-test",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 05 Aug 2026 15:03:19 +0000",
+      "summary": "Crypto Long & Short: Putting the bitcoin sizing question to the test\n"
+    },
+    {
+      "title": "Strategy’s STRC rebounds 30% as company builds cash reserve, bitcoin price stabilizes",
+      "link": "https://www.coindesk.com/markets/2026/08/05/strategy-s-strc-rebounds-30-as-company-builds-cash-reserve-bitcoin-price-stabilizes",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 05 Aug 2026 14:44:30 +0000",
+      "summary": "Strategy’s STRC rebounds 30% as company builds cash reserve, bitcoin price stabilizes\n"
     },
     {
       "title": "Nomura’s Laser Digital backs ZIGChain for onchain private credit push in UAE",
@@ -289,38 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Wed, 05 Aug 2026 13:25:04 +0000",
       "summary": "Nomura’s Laser Digital backs ZIGChain for onchain private credit push in UAE\n"
-    },
-    {
-      "title": "Crypto may have institutionalized, but it still trades like a rumor mill",
-      "link": "https://www.coindesk.com/opinion/2026/08/05/crypto-may-have-institutionalized-but-it-still-trades-like-a-rumor-mill",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 05 Aug 2026 13:00:00 +0000",
-      "summary": "Crypto may have institutionalized, but it still trades like a rumor mill\n"
-    },
-    {
-      "title": "Galaxy Digital shares slip 5% after second-quarter results",
-      "link": "https://www.coindesk.com/business/2026/08/05/galaxy-digital-shares-slip-5-after-second-quarter-results",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 05 Aug 2026 12:42:19 +0000",
-      "summary": "Galaxy Digital shares slip 5% after second-quarter results\n"
-    },
-    {
-      "title": "AI agent token once worth $2.4 billion ends with founder calling it dead",
-      "link": "https://www.coindesk.com/markets/2026/08/05/ai-agent-token-once-worth-usd2-4-billion-ends-with-founder-calling-it-dead",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 05 Aug 2026 12:28:39 +0000",
-      "summary": "AI agent token once worth $2.4 billion ends with founder calling it dead\n"
-    },
-    {
-      "title": "SpaceX extends decline to 11% on lockup expiration and capex spending fears",
-      "link": "https://www.coindesk.com/markets/2026/08/05/spacex-stock-drops-11-premarket-as-lockup-spending-fears-hit-first-earnings",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 05 Aug 2026 12:12:08 +0000",
-      "summary": "SpaceX extends decline to 11% on lockup expiration and capex spending fears\n"
     }
   ]
 }
