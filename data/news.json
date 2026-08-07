@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T23:51:17.701481+00:00",
+  "generated_at": "2026-08-07T02:12:49.547560+00:00",
   "count": 40,
   "articles": [
     {
@@ -83,9 +83,25 @@
       "summary": "Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities\nForescout found 22 internet-facing Rockwell Automation programmable logic controllers (PLCs) in cities hit by recent cyberattacks on US water utilities. Nineteen used the same mobile carrier network.\n\nIts August 3 scan counted "
     },
     {
+      "title": "Obviously, DOGE Did Not Save Money",
+      "link": "https://www.nationalreview.com/corner/obviously-doge-did-not-save-money/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.nationalreview.com/corner/obviously-doge-did-not-save-money/\">https://www.nationalreview.com/corner/obviously-doge-did-not-save-money/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49204510\">https://news.ycombinator.com/item?id=49204510</a></p>\n<p>Points: 11</p>\n<p># Comments: 1</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Fri, 07 Aug 2026 00:31:10 +0000",
+      "summary": "Obviously, DOGE Did Not Save Money\n<p>Article URL: <a href=\"https://www.nationalreview.com/corner/obviously-doge-did-not-save-money/\">https://www.nationalreview.com/corner/obviously-doge-did-not-save-money/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49204510\">https://news"
+    },
+    {
+      "title": "Meta Ordered to Pay $942M to Address Harm to Kids from Social Media",
+      "link": "https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7\">https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49204352\">https://news.ycombinator.com/item?id=49204352</a></p>\n<p>Points: 56</p>\n<p># Comments: 27</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Fri, 07 Aug 2026 00:06:28 +0000",
+      "summary": "Meta Ordered to Pay $942M to Address Harm to Kids from Social Media\n<p>Article URL: <a href=\"https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7\">https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media"
+    },
+    {
       "title": "Spin audit of SQD/QSCI quantum-chemistry benchmarks on iron–sulfur clusters",
       "link": "https://zenodo.org/records/21359923",
-      "raw_summary": "<p>Author here.<p>Background, for anyone who hasn't followed this fight: IBM's iron–sulfur SQD results (Sci. Adv. 2025) are one of the flagship \"quantum computers are useful for chemistry now\" claims, and a published critique (arXiv:2501.07231) argues the quantum samples never beat classical selected-CI at matched cost. That argument is still live.<p>Both sides have been arguing about energies. Neither measured which electronic state these calculations actually converge to.<p>So I measured it. ⟨S²⟩ comes out between 4.7 and 7.0 depending on the system and the subspace size, where the target these papers name is a singlet at ⟨S²⟩ = 0. Every starting guess I tried lands in the same place, and the error at convergence is about the size of the spin-state ladder itself, which <i>is</i> the physics under dispute.<p>IBM ships a mitigation for this. Run exactly as shipped, using their driver, their recovery loop and their own spin_square() diagnostic, it moves the ground energy by under a nanohartree while making the subspace 4.00x bigger: 194,481 determinants against 48,600. It makes a singlet representable. It never produces one. Their solver also takes a spin_sq argument that would target the singlet directly, and the default pipeline never sets it.<p>I filed that narrow part on their tracker yesterday, before posting this: <a href=\"https://github.com/Qiskit/qiskit-addon-sqd/issues/337\" rel=\"nofollow\">https://github.com/Qiskit/qiskit-addon-sqd/issues/337</a>. A maintainer answered and closed it the same day, and his answer is the useful part. The flag, in his words, augments the sampled subspace by using alpha CI strings as beta strings and vice versa. That is a statement about which determinants span the space, not about what spin the returned state comes out in, which is exactly what the measurement says. He did not contest the numbers. The second question, whether the default path is meant to reach spin_sq at all, is still unanswered.<p>The obvious objection is that this is all my own reimplementation, so here's the part that isn't. IBM's data-availability archive for the flagship paper contains the raw hardware measurement records: 2,457,600 shots on [2Fe-2S] from December 2023, 3,163,742 outcomes on [4Fe-4S] from April 2024, plus the integrals and the optimized circuit's parameters. Running their shots through their own pipeline, [2Fe-2S] reaches low ⟨S²⟩ but sits 248 mHa off their own reference, and [4Fe-4S] converges to a spin-pure triplet, Var(S²) = 3e-6, a genuine S=1 eigenstate: a clean state, and the wrong one, 1,438 mHa from their reference.<p>Two things in that archive need no analysis from me at all. Their uniform-random null control matches or beats the hardware samples in every published [2Fe-2S] comparison. And their largest [4Fe-4S] runs, at subspace dimension 10⁸, trail their own classical HCI file by 149 mHa.<p>On the AI angle, since that's half of why this is on HN: Claude did the initial audit end to end in about 72 hours under my direction, and it's been through many rounds of adversarial review since. The part I'd defend as actually interesting isn't the speed. It caught five defects in its own work through pre-registered validation gates, one of them by cross-checking against IBM's own published energy tables, and it retracted its own strongest pro-quantum finding when the new instrument showed that result was a spin-sector artifact. AUDIT_TRAIL.md has the timeline. REPRO_MAP.md maps every claim to a file and a command that regenerates it.<p>If you want to kill this, and I mean that, here's how. Exhibit any state in a spin-completed ground manifold of these benchmarks with ⟨S²⟩ < 1. Or show me a quantum-sampled subspace at matched determinant count whose spin-identified energy beats HCI or CIPSI. Or get any shipped-pipeline run on IBM's archived samples to land ⟨S²⟩ < 1 and error under 50 mHa at once, with no spin penalty. The harness is in the archive and I'll publish whatever comes back, including if it's me who's wrong.<p>Preprint: <a href=\"https://doi.org/10.26434/chemrxiv.15006382/v1\" rel=\"nofollow\">https://doi.org/10.26434/chemrxiv.15006382/v1</a><p>The limitations section is real: comparison dimensions are fixed, the [4Fe-4S] reference is approximate, and the 58.6M \"samples\" file is deduplicated, so the shot-level distribution of their optimal-circuit numerics isn't publicly auditable. It's short. Worth reading before the hot take.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49203707\">https://news.ycombinator.com/item?id=49203707</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "raw_summary": "<p>Author here.<p>Background, for anyone who hasn't followed this fight: IBM's iron–sulfur SQD results (Sci. Adv. 2025) are one of the flagship \"quantum computers are useful for chemistry now\" claims, and a published critique (arXiv:2501.07231) argues the quantum samples never beat classical selected-CI at matched cost. That argument is still live.<p>Both sides have been arguing about energies. Neither measured which electronic state these calculations actually converge to.<p>So I measured it. ⟨S²⟩ comes out between 4.7 and 7.0 depending on the system and the subspace size, where the target these papers name is a singlet at ⟨S²⟩ = 0. Every starting guess I tried lands in the same place, and the error at convergence is about the size of the spin-state ladder itself, which <i>is</i> the physics under dispute.<p>IBM ships a mitigation for this. Run exactly as shipped, using their driver, their recovery loop and their own spin_square() diagnostic, it moves the ground energy by under a nanohartree while making the subspace 4.00x bigger: 194,481 determinants against 48,600. It makes a singlet representable. It never produces one. Their solver also takes a spin_sq argument that would target the singlet directly, and the default pipeline never sets it.<p>I filed that narrow part on their tracker yesterday, before posting this: <a href=\"https://github.com/Qiskit/qiskit-addon-sqd/issues/337\" rel=\"nofollow\">https://github.com/Qiskit/qiskit-addon-sqd/issues/337</a>. A maintainer answered and closed it the same day, and his answer is the useful part. The flag, in his words, augments the sampled subspace by using alpha CI strings as beta strings and vice versa. That is a statement about which determinants span the space, not about what spin the returned state comes out in, which is exactly what the measurement says. He did not contest the numbers. The second question, whether the default path is meant to reach spin_sq at all, is still unanswered.<p>The obvious objection is that this is all my own reimplementation, so here's the part that isn't. IBM's data-availability archive for the flagship paper contains the raw hardware measurement records: 2,457,600 shots on [2Fe-2S] from December 2023, 3,163,742 outcomes on [4Fe-4S] from April 2024, plus the integrals and the optimized circuit's parameters. Running their shots through their own pipeline, [2Fe-2S] reaches low ⟨S²⟩ but sits 248 mHa off their own reference, and [4Fe-4S] converges to a spin-pure triplet, Var(S²) = 3e-6, a genuine S=1 eigenstate: a clean state, and the wrong one, 1,438 mHa from their reference.<p>Two things in that archive need no analysis from me at all. Their uniform-random null control matches or beats the hardware samples in every published [2Fe-2S] comparison. And their largest [4Fe-4S] runs, at subspace dimension 10⁸, trail their own classical HCI file by 149 mHa.<p>On the AI angle, since that's half of why this is on HN: Claude did the initial audit end to end in about 72 hours under my direction, and it's been through many rounds of adversarial review since. The part I'd defend as actually interesting isn't the speed. It caught five defects in its own work through pre-registered validation gates, one of them by cross-checking against IBM's own published energy tables, and it retracted its own strongest pro-quantum finding when the new instrument showed that result was a spin-sector artifact. AUDIT_TRAIL.md has the timeline. REPRO_MAP.md maps every claim to a file and a command that regenerates it.<p>If you want to kill this, and I mean that, here's how. Exhibit any state in a spin-completed ground manifold of these benchmarks with ⟨S²⟩ < 1. Or show me a quantum-sampled subspace at matched determinant count whose spin-identified energy beats HCI or CIPSI. Or get any shipped-pipeline run on IBM's archived samples to land ⟨S²⟩ < 1 and error under 50 mHa at once, with no spin penalty. The harness is in the archive and I'll publish whatever comes back, including if it's me who's wrong.<p>Preprint: <a href=\"https://doi.org/10.26434/chemrxiv.15006382/v1\" rel=\"nofollow\">https://doi.org/10.26434/chemrxiv.15006382/v1</a><p>The limitations section is real: comparison dimensions are fixed, the [4Fe-4S] reference is approximate, and the 58.6M \"samples\" file is deduplicated, so the shot-level distribution of their optimal-circuit numerics isn't publicly auditable. It's short. Worth reading before the hot take.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49203707\">https://news.ycombinator.com/item?id=49203707</a></p>\n<p>Points: 7</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
       "published": "Thu, 06 Aug 2026 22:50:09 +0000",
       "summary": "Spin audit of SQD/QSCI quantum-chemistry benchmarks on iron–sulfur clusters\n<p>Author here.<p>Background, for anyone who hasn't followed this fight: IBM's iron–sulfur SQD results (Sci. Adv. 2025) are one of the flagship \"quantum computers are useful for chemistry now\" claims, and a published critiqu"
@@ -93,34 +109,18 @@
     {
       "title": "Welcoming the Nepalese Government to Have I Been Pwned",
       "link": "https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/\">https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49203105\">https://news.ycombinator.com/item?id=49203105</a></p>\n<p>Points: 46</p>\n<p># Comments: 12</p>",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/\">https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49203105\">https://news.ycombinator.com/item?id=49203105</a></p>\n<p>Points: 84</p>\n<p># Comments: 14</p>",
       "source": "Hacker News: Front Page",
       "published": "Thu, 06 Aug 2026 21:52:16 +0000",
       "summary": "Welcoming the Nepalese Government to Have I Been Pwned\n<p>Article URL: <a href=\"https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/\">https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinato"
     },
     {
-      "title": "Show HN: Pokémon Emerald Ported to Raspberry Pi Pico 2",
-      "link": "https://github.com/mattdeeds/pokeemerald-rp2350",
-      "raw_summary": "<p>Pokémon Emerald ported to the RP2350 microcontroller. No emulator, 60 fps HDMI output. Recompiled from ARMv4T to Cortex-M33 and the Game Boy Advance's video hardware is reimplemented in software on the second core.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49203059\">https://news.ycombinator.com/item?id=49203059</a></p>\n<p>Points: 29</p>\n<p># Comments: 9</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Thu, 06 Aug 2026 21:49:07 +0000",
-      "summary": "Show HN: Pokémon Emerald Ported to Raspberry Pi Pico 2\n<p>Pokémon Emerald ported to the RP2350 microcontroller. No emulator, 60 fps HDMI output. Recompiled from ARMv4T to Cortex-M33 and the Game Boy Advance's video hardware is reimplemented in software on the second core.</p>\n<hr />\n<p>Comments URL:"
-    },
-    {
       "title": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
       "link": "https://www.aleksagordic.com/blog/vllm",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.aleksagordic.com/blog/vllm\">https://www.aleksagordic.com/blog/vllm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49202852\">https://news.ycombinator.com/item?id=49202852</a></p>\n<p>Points: 30</p>\n<p># Comments: 2</p>",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.aleksagordic.com/blog/vllm\">https://www.aleksagordic.com/blog/vllm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49202852\">https://news.ycombinator.com/item?id=49202852</a></p>\n<p>Points: 62</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
       "published": "Thu, 06 Aug 2026 21:30:21 +0000",
       "summary": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)\n<p>Article URL: <a href=\"https://www.aleksagordic.com/blog/vllm\">https://www.aleksagordic.com/blog/vllm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49202852\">https://news.ycombinator.com/item?id=49202852"
-    },
-    {
-      "title": "Bioengineered chewing gum may offer a way to fight microbes linked to cancers",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260803080917.htm",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.sciencedaily.com/releases/2026/08/260803080917.htm\">https://www.sciencedaily.com/releases/2026/08/260803080917.htm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49202716\">https://news.ycombinator.com/item?id=49202716</a></p>\n<p>Points: 32</p>\n<p># Comments: 0</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Thu, 06 Aug 2026 21:18:32 +0000",
-      "summary": "Bioengineered chewing gum may offer a way to fight microbes linked to cancers\n<p>Article URL: <a href=\"https://www.sciencedaily.com/releases/2026/08/260803080917.htm\">https://www.sciencedaily.com/releases/2026/08/260803080917.htm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id"
     },
     {
       "title": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
@@ -163,6 +163,14 @@
       "summary": "Google says hackers are calling financial firm employees to hack and extort victims\nGroups of hackers are breaking into large U.S. financial firms to steal sensitive data and extort victims, Google’s security researchers report."
     },
     {
+      "title": "Organ donation group accused of trying to take living man's organs faces shutdown",
+      "link": "https://arstechnica.com/health/2026/08/us-to-shutter-organ-donation-group-accused-of-trying-to-take-living-mans-organs/",
+      "raw_summary": "The organization, Network for Hope, \"strongly disagrees\" with Trump admin's decision.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 06 Aug 2026 22:20:50 +0000",
+      "summary": "Organ donation group accused of trying to take living man's organs faces shutdown\nThe organization, Network for Hope, \"strongly disagrees\" with Trump admin's decision."
+    },
+    {
       "title": "Explosive drone found hovering near Ukrainian cargo aircraft at German airport",
       "link": "https://arstechnica.com/gadgets/2026/08/germany-disarms-explosive-drone-found-at-airport-hunts-possible-second-drone/",
       "raw_summary": "Russian attack? Explosive drone targeted parked aircraft at Leipzig airport.",
@@ -195,12 +203,28 @@
       "summary": "Anthropic will design its own hardware to power Claude\nAnthropic and OpenAI are racing to scale up while reducing dependence on Nvidia."
     },
     {
-      "title": "Large genome models used to design new viruses",
-      "link": "https://arstechnica.com/science/2026/08/large-genome-models-used-to-design-new-viruses/",
-      "raw_summary": "The AI system makes genetically distant versions of a bacteria-killing virus.",
-      "source": "Ars Technica - All content",
-      "published": "Thu, 06 Aug 2026 19:04:57 +0000",
-      "summary": "Large genome models used to design new viruses\nThe AI system makes genetically distant versions of a bacteria-killing virus."
+      "title": "US euro sale to prop up yen blindsided ECB",
+      "link": "https://www.ft.com/content/d9922d0b-51a0-48be-811b-42e08f90985a?syn-25a6b1a6=1",
+      "raw_summary": "Christine Lagarde and Scott Bessent spoke only after Washington’s historic intervention",
+      "source": "World",
+      "published": "Fri, 07 Aug 2026 01:50:16 GMT",
+      "summary": "US euro sale to prop up yen blindsided ECB\nChristine Lagarde and Scott Bessent spoke only after Washington’s historic intervention"
+    },
+    {
+      "title": "Airtel to list its $10bn Africa finance business in London",
+      "link": "https://www.ft.com/content/3029a861-8d61-4939-a49d-2b4c05dab64b?syn-25a6b1a6=1",
+      "raw_summary": "Also in this newsletter: Indian government sells stake in LIC",
+      "source": "World",
+      "published": "Fri, 07 Aug 2026 01:30:02 GMT",
+      "summary": "Airtel to list its $10bn Africa finance business in London\nAlso in this newsletter: Indian government sells stake in LIC"
+    },
+    {
+      "title": "Why Modi’s economic model is not working for India’s youth",
+      "link": "https://www.ft.com/content/8ada381f-e1ff-4f29-9468-1edb138c5cc9?syn-25a6b1a6=1",
+      "raw_summary": "Protests reflect deep frustration with poor job prospects and government mis-steps",
+      "source": "World",
+      "published": "Fri, 07 Aug 2026 01:29:02 GMT",
+      "summary": "Why Modi’s economic model is not working for India’s youth\nProtests reflect deep frustration with poor job prospects and government mis-steps"
     },
     {
       "title": "Alibaba’s latest AI model puts it back in the great game",
@@ -219,68 +243,44 @@
       "summary": "Google shifts AI power back to Brin as DeepMind’s Hassabis steps aside\nSilicon Valley parent consolidates control as the London lab’s scientific culture gives way to urgency to build AI products"
     },
     {
-      "title": "Rail users face further disruption after Manchester power cut",
-      "link": "https://www.ft.com/content/030898ed-4fa2-4669-9970-c587c669ee4f?syn-25a6b1a6=1",
-      "raw_summary": "Hundreds of trains were cancelled in north-west England after a 90-second outage at a critical train signalling centre",
-      "source": "World",
-      "published": "Thu, 06 Aug 2026 21:36:30 GMT",
-      "summary": "Rail users face further disruption after Manchester power cut\nHundreds of trains were cancelled in north-west England after a 90-second outage at a critical train signalling centre"
-    },
-    {
-      "title": "Mexico deploys hundreds of troops to secure avocado heartlands",
-      "link": "https://www.ft.com/content/f6f53b98-9661-4d50-bf25-b32738643cac?syn-25a6b1a6=1",
-      "raw_summary": "Violence in Michoacán state prompts US to withdraw its inspectors and suspends imports of the fruit",
-      "source": "World",
-      "published": "Thu, 06 Aug 2026 21:12:43 GMT",
-      "summary": "Mexico deploys hundreds of troops to secure avocado heartlands\nViolence in Michoacán state prompts US to withdraw its inspectors and suspends imports of the fruit"
-    },
-    {
-      "title": "FirstFT: US scientists use AI to create first synthetic viruses",
-      "link": "https://www.ft.com/content/9c99a309-e133-4882-8cea-f21aa1eea0e1?syn-25a6b1a6=1",
-      "raw_summary": "Also in today’s newsletter: Jane Street in talks to refinance $11bn debt load and SoftBank beats analysts’ expectations",
-      "source": "World",
-      "published": "Thu, 06 Aug 2026 21:10:27 GMT",
-      "summary": "FirstFT: US scientists use AI to create first synthetic viruses\nAlso in today’s newsletter: Jane Street in talks to refinance $11bn debt load and SoftBank beats analysts’ expectations"
-    },
-    {
-      "title": "Gold Steady as Traders Assess Impact of Hormuz Flare-Up on Rates",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-06/gold-steady-as-traders-assess-impact-of-hormuz-flare-up-on-rates",
-      "raw_summary": "Gold moved in a narrow range as traders assessed the impact of a reported Iranian attack in the Strait of Hormuz on the Federal Reserve’s path for interest rates.",
+      "title": "Philippine Economy Grows at Slowest Pace Since 2009 Ex-Covid",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-07/philippine-gdp-growth-unexpectedly-slows-to-2-3-on-oil-shock",
+      "raw_summary": "Philippine economic growth dramatically slowed in the second quarter, defying expectations of a pickup, as the protracted Middle East conflict stokes inflation and drags down consumer spending and investment.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 06 Aug 2026 23:43:38 GMT",
-      "summary": "Gold Steady as Traders Assess Impact of Hormuz Flare-Up on Rates\nGold moved in a narrow range as traders assessed the impact of a reported Iranian attack in the Strait of Hormuz on the Federal Reserve’s path for interest rates."
+      "published": "Fri, 07 Aug 2026 02:02:57 GMT",
+      "summary": "Philippine Economy Grows at Slowest Pace Since 2009 Ex-Covid\nPhilippine economic growth dramatically slowed in the second quarter, defying expectations of a pickup, as the protracted Middle East conflict stokes inflation and drags down consumer spending and investment."
     },
     {
-      "title": "Asian Stocks to Slip on Iran Concerns, Oil Climbs: Markets Wrap",
+      "title": "Oil Gains on Iran, Bonds Drop Before US Jobs Data: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-08-06/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "Stocks in Asia looked set to edge lower Friday after a resurgence in geopolitical tensions sent US stocks and bonds lower. Oil jumped, reviving inflation concerns ahead of a key US jobs report.",
+      "raw_summary": "Oil rose as prospects for a lasting agreement to reopen the Strait of Hormuz remained elusive. Bonds fell on inflation concerns as traders awaited the US jobs report for clues on the path of interest rates.",
       "source": "Bloomberg Markets",
       "published": "Thu, 06 Aug 2026 22:10:21 GMT",
-      "summary": "Asian Stocks to Slip on Iran Concerns, Oil Climbs: Markets Wrap\nStocks in Asia looked set to edge lower Friday after a resurgence in geopolitical tensions sent US stocks and bonds lower. Oil jumped, reviving inflation concerns ahead of a key US jobs report."
+      "summary": "Oil Gains on Iran, Bonds Drop Before US Jobs Data: Markets Wrap\nOil rose as prospects for a lasting agreement to reopen the Strait of Hormuz remained elusive. Bonds fell on inflation concerns as traders awaited the US jobs report for clues on the path of interest rates."
     },
     {
-      "title": "Fed's Musalem Expresses Preference to Raise Rates",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-06/fed-s-musalem-expresses-preference-to-raise-rates-video",
-      "raw_summary": "Federal Reserve Bank of St. Louis President Alberto Musalem explains why he expressed a preference to raise rates at the Federal Open Market Committee's July meeting. Speaking at an event in São Paulo, Musalem also discusses the outlook for inflation. (Source: Bloomberg)",
+      "title": "Yen Surrenders Nearly Half Its Gains From US-Japan Intervention",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-07/yen-surrenders-nearly-half-its-gains-from-us-japan-intervention",
+      "raw_summary": "The yen is heading into the end of the week having surrendered nearly half of its intervention-driven gains, fueling speculation among traders that authorities may step into the market again.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 06 Aug 2026 23:11:44 GMT",
-      "summary": "Fed's Musalem Expresses Preference to Raise Rates\nFederal Reserve Bank of St. Louis President Alberto Musalem explains why he expressed a preference to raise rates at the Federal Open Market Committee's July meeting. Speaking at an event in São Paulo, Musalem also discusses the outlook for inflation"
+      "published": "Fri, 07 Aug 2026 00:04:31 GMT",
+      "summary": "Yen Surrenders Nearly Half Its Gains From US-Japan Intervention\nThe yen is heading into the end of the week having surrendered nearly half of its intervention-driven gains, fueling speculation among traders that authorities may step into the market again."
     },
     {
-      "title": "Fed's Musalem Sees Need for 'Meaningful Restraint' on Inflation",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-06/musalem-calls-for-meaningful-restraint-on-inflation-video",
-      "raw_summary": "Federal Reserve Bank of St. Louis President Alberto Musalem says policymakers can't afford to tolerate higher inflation while they wait for the possibility of stronger productivity growth. He speaks at an event in São Paulo. (Source: Bloomberg)",
+      "title": "Fujifilm Shares Tumble by a Record After Earnings Disappoint",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-07/fujifilm-shares-tumble-by-a-record-after-earnings-disappoint",
+      "raw_summary": "Fujifilm Holdings Corp. shares tumbled by the most on record after the Japanese medical equipment maker reported first-quarter results that fell short of expectations.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 06 Aug 2026 23:00:48 GMT",
-      "summary": "Fed's Musalem Sees Need for 'Meaningful Restraint' on Inflation\nFederal Reserve Bank of St. Louis President Alberto Musalem says policymakers can't afford to tolerate higher inflation while they wait for the possibility of stronger productivity growth. He speaks at an event in São Paulo. (Source: Bl"
+      "published": "Fri, 07 Aug 2026 00:45:13 GMT",
+      "summary": "Fujifilm Shares Tumble by a Record After Earnings Disappoint\nFujifilm Holdings Corp. shares tumbled by the most on record after the Japanese medical equipment maker reported first-quarter results that fell short of expectations."
     },
     {
-      "title": "Chinese Banks Expand Direct Settlement to Aid Yuan’s Global Role",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-06/chinese-banks-expand-direct-settlement-to-aid-yuan-s-global-role",
-      "raw_summary": "China is accelerating its push to internationalize the yuan as domestic banks add new foreign currencies available for direct settlement to bypass the dollar in cross-border trade.",
+      "title": "China Central Bank Adds Gold in Hong Kong to Support Trading Hub",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-07/china-central-bank-adds-gold-in-hong-kong-to-support-trading-hub",
+      "raw_summary": "China’s central bank is stockpiling more gold in Hong Kong, according to people familiar with the matter, in a move that’s likely to support the city’s push to become a major bullion-trading hub.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 06 Aug 2026 23:00:07 GMT",
-      "summary": "Chinese Banks Expand Direct Settlement to Aid Yuan’s Global Role\nChina is accelerating its push to internationalize the yuan as domestic banks add new foreign currencies available for direct settlement to bypass the dollar in cross-border trade."
+      "published": "Fri, 07 Aug 2026 01:01:00 GMT",
+      "summary": "China Central Bank Adds Gold in Hong Kong to Support Trading Hub\nChina’s central bank is stockpiling more gold in Hong Kong, according to people familiar with the matter, in a move that’s likely to support the city’s push to become a major bullion-trading hub."
     },
     {
       "title": "Power struggle erupts at Ondo Finance after founder’s death",
