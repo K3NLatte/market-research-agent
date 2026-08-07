@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T07:01:59.585059+00:00",
+  "generated_at": "2026-08-07T12:43:20.982735+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,49 +43,65 @@
       "summary": "Lessons Learned from CISA’s Recent GitHub Leak\nThe Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months "
     },
     {
-      "title": "New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts",
-      "link": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html",
-      "raw_summary": "Zapscape, a new Linux kernel vulnerability, could allow an attacker with kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation and execute code on the host. The risk applies when nested virtualization is exposed to untrusted guests.\n\nThe flaw is tracked as&nbsp;CVE-2026-64561&nbsp;and affects KVM/x86's shadow memory management unit (MMU), which manages shadow page",
+      "title": "Growing Up The Hard Way",
+      "link": "https://thehackernews.com/2026/08/growing-up-hard-way.html",
+      "raw_summary": "Open Source had a great childhood.\n\nFor two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watching. It ran the kind of lemonade stand that took IOUs from anyone who wandered up — take what you need, pay me back whenever, no need to leave a name. It was idyllic. It was also, in retrospect, a little feral.\n\nThen,",
       "source": "The Hacker News",
-      "published": "Thu, 06 Aug 2026 23:28:30 +0530",
-      "summary": "New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts\nZapscape, a new Linux kernel vulnerability, could allow an attacker with kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation and execute code on the host. The risk applies when nested virtual"
+      "published": "Fri, 07 Aug 2026 17:25:26 +0530",
+      "summary": "Growing Up The Hard Way\nOpen Source had a great childhood.\n\nFor two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watching. It ran the kind of lemonade stand that took IOUs from anyone who wandered up — take what you"
     },
     {
-      "title": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs",
-      "link": "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html",
-      "raw_summary": "Cisco has rolled out updates to address multiple critical security vulnerabilities impacting Catalyst SD-WAN and IOS XE Software as part of a comprehensive internal security review.\n\nThe security issues affect Cisco Catalyst SD-WAN Software, regardless of device configuration, and Cisco IOS XE Software when it is running in autonomous or controller mode.\n\n\"These vulnerabilities were found",
+      "title": "18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers",
+      "link": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
+      "raw_summary": "A use-after-free bug in Linux's SCTP networking code can be turned into full root on a host, and Tencent researchers say they used it to escape a container and reach the machine underneath.\n\nThe flaw has existed since 2008. The fix already shipped: stable kernels 7.1.6, 6.18.42, 6.12.101 and 6.6.148, released August 3, close it. Anyone running an older kernel with SCTP reachable should update.",
       "source": "The Hacker News",
-      "published": "Thu, 06 Aug 2026 22:43:15 +0530",
-      "summary": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs\nCisco has rolled out updates to address multiple critical security vulnerabilities impacting Catalyst SD-WAN and IOS XE Software as part of a comprehensive internal security review.\n\nThe security issues affect Cisco Cataly"
+      "published": "Fri, 07 Aug 2026 16:40:33 +0530",
+      "summary": "18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers\nA use-after-free bug in Linux's SCTP networking code can be turned into full root on a host, and Tencent researchers say they used it to escape a container and reach the machine underneath.\n\nThe flaw has existed since "
     },
     {
-      "title": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs",
-      "link": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html",
-      "raw_summary": "An unprivileged Linux program can time a hardware interrupt to land in the gap between a processor sanitizing its branch predictor and the kernel using it, re-poisoning the predictor after the defense has run.\n\nMIT CSAIL researchers Daniël Trujillo and Mengjia Yan named the technique INTERRUPT INJECTION. On an AMD Zen 2 machine running Linux 6.14 with every default Spectre v2 mitigation on,",
+      "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
+      "link": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
+      "raw_summary": "Security researcher Malcolm Stagg has disclosed a new attack class called&nbsp;NatJack&nbsp;that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS responses, expose mapped ports, and exhaust NAT tables.\n\nPresented at Black Hat USA 2026, the research found affected behavior across independently developed implementations, including Windows and",
       "source": "The Hacker News",
-      "published": "Thu, 06 Aug 2026 21:47:13 +0530",
-      "summary": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs\nAn unprivileged Linux program can time a hardware interrupt to land in the gap between a processor sanitizing its branch predictor and the kernel using it, re-poisoning the predictor after the defense has run.\n\nMIT C"
+      "published": "Fri, 07 Aug 2026 16:28:38 +0530",
+      "summary": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables\nSecurity researcher Malcolm Stagg has disclosed a new attack class called&nbsp;NatJack&nbsp;that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS responses, expose "
     },
     {
-      "title": "ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories",
-      "link": "https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html",
-      "raw_summary": "Apparently, opening the thing is now enough. A repo can run before the first prompt, a package can hide among hundreds, and a harmless-looking PDF can finish the job.\n\nThis week runs on cheap leverage: exposed servers, recycled bugs, poisoned agent instructions, remote-access tools dressed as support software, and trusted defaults doing attackers a favor.\n\nNothing here is especially mystical.",
+      "title": "Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails",
+      "link": "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html",
+      "raw_summary": "Cybersecurity researchers have called attention to an active \"widespread email-driven phishing campaign\" that employs adversary-in-the-middle (AitM) techniques to take control of Microsoft 365 accounts with an aim to identify key personnel involved in financial workflows and gather related email.\n\n\"The campaign uses residential proxies to disguise malicious sign-ins as ordinary consumer traffic,",
       "source": "The Hacker News",
-      "published": "Thu, 06 Aug 2026 20:54:31 +0530",
-      "summary": "ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories\nApparently, opening the thing is now enough. A repo can run before the first prompt, a package can hide among hundreds, and a harmless-looking PDF can finish the job.\n\nThis week runs on cheap leverage: expo"
+      "published": "Fri, 07 Aug 2026 16:08:27 +0530",
+      "summary": "Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails\nCybersecurity researchers have called attention to an active \"widespread email-driven phishing campaign\" that employs adversary-in-the-middle (AitM) techniques to take control of Microsoft 365 accounts with an aim to "
     },
     {
-      "title": "Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities",
-      "link": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html",
-      "raw_summary": "Forescout found 22 internet-facing Rockwell Automation programmable logic controllers (PLCs) in cities hit by recent cyberattacks on US water utilities. Nineteen used the same mobile carrier network.\n\nIts August 3 scan counted 4,407 exposed Rockwell controllers worldwide, including 2,844 in the United States, but Forescout could not confirm any were compromised. That figure counts exposed",
+      "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
+      "link": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
+      "raw_summary": "PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors.\n\nPortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where",
       "source": "The Hacker News",
-      "published": "Thu, 06 Aug 2026 17:46:58 +0530",
-      "summary": "Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities\nForescout found 22 internet-facing Rockwell Automation programmable logic controllers (PLCs) in cities hit by recent cyberattacks on US water utilities. Nineteen used the same mobile carrier network.\n\nIts August 3 scan counted "
+      "published": "Fri, 07 Aug 2026 15:39:54 +0530",
+      "summary": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day\nPortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vect"
+    },
+    {
+      "title": "US strikes $1.2B deal to pay German firm to halt offshore wind projects",
+      "link": "https://www.bbc.com/news/articles/c1e1vg0gjl5o",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.bbc.com/news/articles/c1e1vg0gjl5o\">https://www.bbc.com/news/articles/c1e1vg0gjl5o</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49208314\">https://news.ycombinator.com/item?id=49208314</a></p>\n<p>Points: 319</p>\n<p># Comments: 287</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Fri, 07 Aug 2026 10:28:55 +0000",
+      "summary": "US strikes $1.2B deal to pay German firm to halt offshore wind projects\n<p>Article URL: <a href=\"https://www.bbc.com/news/articles/c1e1vg0gjl5o\">https://www.bbc.com/news/articles/c1e1vg0gjl5o</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49208314\">https://news.ycombinator.co"
+    },
+    {
+      "title": "Show HN: Certo – An open source platform to deliver Open Badges",
+      "link": "https://github.com/schroedinger-Hat/certo",
+      "raw_summary": "<p>Certo is open-source infrastructure for issuing, managing, verifying, and exchanging digital credentials.<p>It implements Open Badges 3.0[1] and W3C Verifiable Credentials[2] which are the open standards that make credentials portable, machine-verifiable, and vendor-independent.<p>It is designed to be:<p>- Self-hosted: run it inside your own infrastructure, air-gapped network, or sovereign cloud\n- Standards-compliant: credentials it issues work with any OB3/VC-compatible system\n- API-first: everything the UI can do, the API can do\n- Exportable: your data is always yours, in open formats\n- Extensible: a small, stable core with a plugin interface for everything else<p>A demo is available at <a href=\"https://certo.schroedinger-hat.org/\" rel=\"nofollow\">https://certo.schroedinger-hat.org/</a> which we're using for Schrödinger Hat[3] conferences, workshops, partner communities.<p>I'll be around if you have any questions. Feel free to give a feedback on the project.<p>[1] <a href=\"https://www.imsglobal.org/spec/ob/v3p0\" rel=\"nofollow\">https://www.imsglobal.org/spec/ob/v3p0</a>\n[2] <a href=\"https://www.w3.org/TR/vc-data-model/\" rel=\"nofollow\">https://www.w3.org/TR/vc-data-model/</a>\n[3] <a href=\"https://schroedinger-hat.org/\" rel=\"nofollow\">https://schroedinger-hat.org/</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49207793\">https://news.ycombinator.com/item?id=49207793</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Fri, 07 Aug 2026 09:10:30 +0000",
+      "summary": "Show HN: Certo – An open source platform to deliver Open Badges\n<p>Certo is open-source infrastructure for issuing, managing, verifying, and exchanging digital credentials.<p>It implements Open Badges 3.0[1] and W3C Verifiable Credentials[2] which are the open standards that make credentials portabl"
     },
     {
       "title": "Framework discloses data breach via Metabase 0-day",
       "link": "https://community.frame.work/t/framework-data-breach-discussion/83939",
-      "raw_summary": "<p>Article URL: <a href=\"https://community.frame.work/t/framework-data-breach-discussion/83939\">https://community.frame.work/t/framework-data-breach-discussion/83939</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49206130\">https://news.ycombinator.com/item?id=49206130</a></p>\n<p>Points: 35</p>\n<p># Comments: 6</p>",
+      "raw_summary": "<p>Article URL: <a href=\"https://community.frame.work/t/framework-data-breach-discussion/83939\">https://community.frame.work/t/framework-data-breach-discussion/83939</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49206130\">https://news.ycombinator.com/item?id=49206130</a></p>\n<p>Points: 108</p>\n<p># Comments: 40</p>",
       "source": "Hacker News: Front Page",
       "published": "Fri, 07 Aug 2026 05:17:57 +0000",
       "summary": "Framework discloses data breach via Metabase 0-day\n<p>Article URL: <a href=\"https://community.frame.work/t/framework-data-breach-discussion/83939\">https://community.frame.work/t/framework-data-breach-discussion/83939</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49206130\">ht"
@@ -93,34 +109,34 @@
     {
       "title": "New Orleans is testing Carbyne’s AI-powered Emergency Call Triage software",
       "link": "https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007/\">https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49204546\">https://news.ycombinator.com/item?id=49204546</a></p>\n<p>Points: 51</p>\n<p># Comments: 64</p>",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007/\">https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49204546\">https://news.ycombinator.com/item?id=49204546</a></p>\n<p>Points: 65</p>\n<p># Comments: 101</p>",
       "source": "Hacker News: Front Page",
       "published": "Fri, 07 Aug 2026 00:37:30 +0000",
       "summary": "New Orleans is testing Carbyne’s AI-powered Emergency Call Triage software\n<p>Article URL: <a href=\"https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007/\">https://www.shrev"
     },
     {
-      "title": "Meta Ordered to Pay $942M to Address Harm to Kids from Social Media",
-      "link": "https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7\">https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49204352\">https://news.ycombinator.com/item?id=49204352</a></p>\n<p>Points: 165</p>\n<p># Comments: 106</p>",
+      "title": "New Mexico court orders Meta to pay $567m over harms to children’s mental health",
+      "link": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
+      "raw_summary": "<p><a href=\"https://www.reuters.com/world/new-mexico-court-orders-meta-pay-567-mln-teen-mental-health-fund-2026-08-06/\" rel=\"nofollow\">https://www.reuters.com/world/new-mexico-court-orders-meta-p...</a><p><a href=\"https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta\" rel=\"nofollow\">https://www.theguardian.com/technology/2026/aug/06/new-mexic...</a><p><a href=\"https://www.kob.com/new-mexico/nm-court-orders-meta-to-pay-567m-make-changes-for-underage-users/\" rel=\"nofollow\">https://www.kob.com/new-mexico/nm-court-orders-meta-to-pay-5...</a><p><a href=\"https://www.bbc.com/news/articles/cd7lz3wr2rlo\" rel=\"nofollow\">https://www.bbc.com/news/articles/cd7lz3wr2rlo</a><p><a href=\"https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7\" rel=\"nofollow\">https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49204352\">https://news.ycombinator.com/item?id=49204352</a></p>\n<p>Points: 389</p>\n<p># Comments: 241</p>",
       "source": "Hacker News: Front Page",
       "published": "Fri, 07 Aug 2026 00:06:28 +0000",
-      "summary": "Meta Ordered to Pay $942M to Address Harm to Kids from Social Media\n<p>Article URL: <a href=\"https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7\">https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media"
+      "summary": "New Mexico court orders Meta to pay $567m over harms to children’s mental health\n<p><a href=\"https://www.reuters.com/world/new-mexico-court-orders-meta-pay-567-mln-teen-mental-health-fund-2026-08-06/\" rel=\"nofollow\">https://www.reuters.com/world/new-mexico-court-orders-meta-p...</a><p><a href=\"https"
     },
     {
-      "title": "Welcoming the Nepalese Government to Have I Been Pwned",
-      "link": "https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/\">https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49203105\">https://news.ycombinator.com/item?id=49203105</a></p>\n<p>Points: 134</p>\n<p># Comments: 21</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Thu, 06 Aug 2026 21:52:16 +0000",
-      "summary": "Welcoming the Nepalese Government to Have I Been Pwned\n<p>Article URL: <a href=\"https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/\">https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinato"
+      "title": "The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know",
+      "link": "https://techcrunch.com/2026/08/07/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/",
+      "raw_summary": "TechCrunch Disrupt 2026 is built around one question: How do you build an enduring company in the AI era? Our programming and speaker lineup reflect that.",
+      "source": "TechCrunch",
+      "published": "Fri, 07 Aug 2026 12:30:00 +0000",
+      "summary": "The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know\nTechCrunch Disrupt 2026 is built around one question: How do you build an enduring company in the AI era? Our programming and speaker lineup reflect that."
     },
     {
-      "title": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
-      "link": "https://www.aleksagordic.com/blog/vllm",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.aleksagordic.com/blog/vllm\">https://www.aleksagordic.com/blog/vllm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49202852\">https://news.ycombinator.com/item?id=49202852</a></p>\n<p>Points: 90</p>\n<p># Comments: 5</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Thu, 06 Aug 2026 21:30:21 +0000",
-      "summary": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)\n<p>Article URL: <a href=\"https://www.aleksagordic.com/blog/vllm\">https://www.aleksagordic.com/blog/vllm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49202852\">https://news.ycombinator.com/item?id=49202852"
+      "title": "New Mexico court orders Meta to pay additional $567M in child safety case",
+      "link": "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/",
+      "raw_summary": "Meta's total fine has raked up to $942 million in this case",
+      "source": "TechCrunch",
+      "published": "Fri, 07 Aug 2026 11:40:37 +0000",
+      "summary": "New Mexico court orders Meta to pay additional $567M in child safety case\nMeta's total fine has raked up to $942 million in this case"
     },
     {
       "title": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
@@ -147,20 +163,12 @@
       "summary": "Vogue just gave another nod of approval to the tech world\nVogue World is coming to San Francisco next year — perhaps another indication that tech bros are now part of the fashion zeitgeist."
     },
     {
-      "title": "Get up to $400 off your TechCrunch Disrupt 2026 pass until tomorrow",
-      "link": "https://techcrunch.com/2026/08/06/get-up-to-400-off-your-techcrunch-disrupt-2026-pass-until-friday/",
-      "raw_summary": "Starting today, you can take an additional $100 off your founder, investor, or attendee TechCrunch Disrupt 2026 pass, which is a nice bonus on top of our current discounted pricing.",
-      "source": "TechCrunch",
-      "published": "Thu, 06 Aug 2026 21:20:00 +0000",
-      "summary": "Get up to $400 off your TechCrunch Disrupt 2026 pass until tomorrow\nStarting today, you can take an additional $100 off your founder, investor, or attendee TechCrunch Disrupt 2026 pass, which is a nice bonus on top of our current discounted pricing."
-    },
-    {
-      "title": "Google says hackers are calling financial firm employees to hack and extort victims",
-      "link": "https://techcrunch.com/2026/08/06/google-says-hackers-are-calling-financial-firm-employees-to-hack-and-extort-victims/",
-      "raw_summary": "Groups of hackers are breaking into large U.S. financial firms to steal sensitive data and extort victims, Google’s security researchers report.",
-      "source": "TechCrunch",
-      "published": "Thu, 06 Aug 2026 19:40:46 +0000",
-      "summary": "Google says hackers are calling financial firm employees to hack and extort victims\nGroups of hackers are breaking into large U.S. financial firms to steal sensitive data and extort victims, Google’s security researchers report."
+      "title": "Remembering the pre-Google web, when search was an experiment",
+      "link": "https://arstechnica.com/gadgets/2026/08/remembering-the-pre-google-web-when-search-was-an-experiment/",
+      "raw_summary": "\"Most people have completely forgotten how chaotic it really was.\"",
+      "source": "Ars Technica - All content",
+      "published": "Fri, 07 Aug 2026 11:00:06 +0000",
+      "summary": "Remembering the pre-Google web, when search was an experiment\n\"Most people have completely forgotten how chaotic it really was.\""
     },
     {
       "title": "Organ donation group accused of trying to take living man's organs faces shutdown",
@@ -195,132 +203,124 @@
       "summary": "Suno hopes to go legit with watermarks for AI-generated music\nSuno plans watermarks and download limits to stop \"large-scale abuse.\""
     },
     {
-      "title": "Anthropic will design its own hardware to power Claude",
-      "link": "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/",
-      "raw_summary": "Anthropic and OpenAI are racing to scale up while reducing dependence on Nvidia.",
-      "source": "Ars Technica - All content",
-      "published": "Thu, 06 Aug 2026 20:03:44 +0000",
-      "summary": "Anthropic will design its own hardware to power Claude\nAnthropic and OpenAI are racing to scale up while reducing dependence on Nvidia."
-    },
-    {
-      "title": "After the great deleveraging",
-      "link": "https://www.ft.com/content/4c756bd3-a7b8-45ef-aaee-1bfd48fc1439?syn-25a6b1a6=1",
-      "raw_summary": "Plus, was that . . .  forward guidance?",
+      "title": "US economy unexpectedly shed 23,000 jobs in July",
+      "link": "https://www.ft.com/content/54adfc90-f555-44d3-8a81-4f39a07b5473?syn-25a6b1a6=1",
+      "raw_summary": "Lacklustre figure prompts traders to scale back bets on Fed rate rises",
       "source": "World",
-      "published": "Fri, 07 Aug 2026 05:30:04 GMT",
-      "summary": "After the great deleveraging\nPlus, was that . . .  forward guidance?"
+      "published": "Fri, 07 Aug 2026 12:39:13 GMT",
+      "summary": "US economy unexpectedly shed 23,000 jobs in July\nLacklustre figure prompts traders to scale back bets on Fed rate rises"
     },
     {
-      "title": "The curious case of the Japanese government bond yields",
-      "link": "https://www.ft.com/content/22a6bce7-ccec-4e7d-a31b-ca8d67b1bcb6",
-      "raw_summary": "Maybe not as high as you think",
+      "title": "Will Farage’s gamble pay off?",
+      "link": "https://www.ft.com/content/81aff420-0ce3-4e69-9608-31b81d406be9?syn-25a6b1a6=1",
+      "raw_summary": "On the ground in Clacton; plus, what Badenoch’s backing for a former neo-Nazi says about her leadership style",
       "source": "World",
-      "published": "Fri, 07 Aug 2026 05:00:04 GMT",
-      "summary": "The curious case of the Japanese government bond yields\nMaybe not as high as you think"
+      "published": "Fri, 07 Aug 2026 12:36:33 GMT",
+      "summary": "Will Farage’s gamble pay off?\nOn the ground in Clacton; plus, what Badenoch’s backing for a former neo-Nazi says about her leadership style"
     },
     {
-      "title": "FirstFT: Google shakes up AI leadership",
-      "link": "https://www.ft.com/content/9c99a309-e133-4882-8cea-f21aa1eea0e1?syn-25a6b1a6=1",
-      "raw_summary": "Also in today’s newsletter: ECB yen shock and UK tuition fees",
+      "title": "UK housing market in ‘suspended animation’",
+      "link": "https://www.ft.com/content/2434fbcc-b8b5-4bda-a82d-1b08c6a015f8?syn-25a6b1a6=1",
+      "raw_summary": "Lloyds’ data shows house prices were unchanged in July as higher mortgage rates stretch affordability",
       "source": "World",
-      "published": "Fri, 07 Aug 2026 04:40:21 GMT",
-      "summary": "FirstFT: Google shakes up AI leadership\nAlso in today’s newsletter: ECB yen shock and UK tuition fees"
+      "published": "Fri, 07 Aug 2026 12:33:59 GMT",
+      "summary": "UK housing market in ‘suspended animation’\nLloyds’ data shows house prices were unchanged in July as higher mortgage rates stretch affordability"
     },
     {
-      "title": "Revisiting our estimates for Japan’s neutral rate",
-      "link": "https://www.ft.com/content/6bbddd45-5f39-4140-8218-66b66b7d08a6",
-      "raw_summary": "Research suggests the rate has moved up slightly in the past few years",
+      "title": "Iran’s oil exports stall and Kharg Island idles under US blockade",
+      "link": "https://www.ft.com/content/6bc9c93d-1b75-4512-8bc2-ba33cc3c4a53?syn-25a6b1a6=1",
+      "raw_summary": "US naval blockade appears to be halting tankers from carrying Tehran’s crude",
       "source": "World",
-      "published": "Fri, 07 Aug 2026 04:30:04 GMT",
-      "summary": "Revisiting our estimates for Japan’s neutral rate\nResearch suggests the rate has moved up slightly in the past few years"
+      "published": "Fri, 07 Aug 2026 12:29:35 GMT",
+      "summary": "Iran’s oil exports stall and Kharg Island idles under US blockade\nUS naval blockade appears to be halting tankers from carrying Tehran’s crude"
     },
     {
-      "title": "Big Law’s new private equity era",
-      "link": "https://www.ft.com/content/9387ed2c-837a-4ea1-8d5f-180513292c9a?syn-25a6b1a6=1",
-      "raw_summary": "Top law firms are exploring ways they may be able to take outside capital",
+      "title": "UK manages record share of assets on behalf of overseas clients",
+      "link": "https://www.ft.com/content/6d258069-e935-446c-b112-753c6c2bdfb2?syn-25a6b1a6=1",
+      "raw_summary": "New data helps dispel worries over London’s status as a world-leading financial centre",
       "source": "World",
-      "published": "Fri, 07 Aug 2026 04:00:25 GMT",
-      "summary": "Big Law’s new private equity era\nTop law firms are exploring ways they may be able to take outside capital"
+      "published": "Fri, 07 Aug 2026 12:09:08 GMT",
+      "summary": "UK manages record share of assets on behalf of overseas clients\nNew data helps dispel worries over London’s status as a world-leading financial centre"
     },
     {
-      "title": "Japan’s GPIF Posts $152 Billion Gain With Help From Stocks",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-07/japan-s-pension-whale-gpif-has-152-billion-gain-on-stock-rally",
-      "raw_summary": "Japan’s Government Pension Investment Fund posted a record gain in the three months ended in June as global and domestic stocks rallied, offsetting weakness from government bonds.",
+      "title": "Stocks and Bonds Rise as Jobs Ease Fed-Hike Worry: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-06/stock-market-today-dow-s-p-live-updates",
+      "raw_summary": "A sharp slowdown in the US jobs market drove stocks higher while bond yields fell on speculation the Federal Reserve won’t be forced to raise rates any time soon.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 07 Aug 2026 06:48:31 GMT",
-      "summary": "Japan’s GPIF Posts $152 Billion Gain With Help From Stocks\nJapan’s Government Pension Investment Fund posted a record gain in the three months ended in June as global and domestic stocks rallied, offsetting weakness from government bonds."
+      "published": "Thu, 06 Aug 2026 22:10:21 GMT",
+      "summary": "Stocks and Bonds Rise as Jobs Ease Fed-Hike Worry: Markets Wrap\nA sharp slowdown in the US jobs market drove stocks higher while bond yields fell on speculation the Federal Reserve won’t be forced to raise rates any time soon."
     },
     {
-      "title": "Gold Set for Best Week Since January on Support From Dip-Buyers",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-06/gold-steady-as-traders-assess-impact-of-hormuz-flare-up-on-rates",
-      "raw_summary": "Gold was on track for its biggest gain in more than six months as dip-buyers supported prices above a key technical level while looking past flare-ups in the Strait of Hormuz that risked adding to energy-led inflation.",
+      "title": "Garbage-Truck Margin Boost Shows the AI Profit Boom Has Begun",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-07/garbage-truck-margin-boost-shows-the-ai-profit-boom-has-begun",
+      "raw_summary": "Corporate America’s adoption of artificial intelligence tools is paying off, in a major relief to investors who had questioned massive investments in the technology by a concentrated number of companies.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 06 Aug 2026 23:43:38 GMT",
-      "summary": "Gold Set for Best Week Since January on Support From Dip-Buyers\nGold was on track for its biggest gain in more than six months as dip-buyers supported prices above a key technical level while looking past flare-ups in the Strait of Hormuz that risked adding to energy-led inflation."
+      "published": "Fri, 07 Aug 2026 12:18:45 GMT",
+      "summary": "Garbage-Truck Margin Boost Shows the AI Profit Boom Has Begun\nCorporate America’s adoption of artificial intelligence tools is paying off, in a major relief to investors who had questioned massive investments in the technology by a concentrated number of companies."
     },
     {
-      "title": "Iran Proposes a Deal Trump Will Have to Refuse | Insight with Haslinda Amin 8/7/2026",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-07/insight-with-haslinda-amin-8-7-2026-video",
-      "raw_summary": "Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent leaders spanning the worlds of business, finance, politics and culture. (Source: Bloomberg)",
+      "title": "Stocks Rise Ahead of Jobs Report; Oil Gains on Hormuz Uncertainty | Bloomberg Brief 08/07/2026",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-07/bloomberg-brief-08-07-26-video",
+      "raw_summary": "US equity futures edge higher ahead of the July payrolls report. Oil gains as Iranian lawmakers say they would seek to bar US and Israeli ships from the waterway as part of a deal to reopen the Strait of Hormuz. Rory Blundell of Gravitee discusses the security risks of AI models \"going rogue.\" Christopher Hodge of Natixis looks ahead to the US jobs report. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Fri, 07 Aug 2026 06:29:13 GMT",
-      "summary": "Iran Proposes a Deal Trump Will Have to Refuse | Insight with Haslinda Amin 8/7/2026\nInsight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent leaders spanning"
+      "published": "Fri, 07 Aug 2026 12:10:32 GMT",
+      "summary": "Stocks Rise Ahead of Jobs Report; Oil Gains on Hormuz Uncertainty | Bloomberg Brief 08/07/2026\nUS equity futures edge higher ahead of the July payrolls report. Oil gains as Iranian lawmakers say they would seek to bar US and Israeli ships from the waterway as part of a deal to reopen the Strait of H"
     },
     {
-      "title": "Allianz Profit Hits Record as Pimco Sees €32 Billion Inflows",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-07/allianz-profit-hits-record-as-pimco-sees-32-billion-in-inflows",
-      "raw_summary": "Allianz SE, the owner of bond manager Pacific Investment Management Co., generated record profit in the second quarter on better results in its insurance and asset management businesses.",
+      "title": "JBS Gets $2.5 Billion From Indonesia Fund to Expand in Asia",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-07/jbs-gets-2-5-billion-from-indonesia-fund-to-expand-in-asia",
+      "raw_summary": "JBS NV said the Indonesian sovereign wealth fund Danantara agreed to invest $2.5 billion to form a joint-venture that will focus on the protein market in Southeast Asia, Australia and New Zealand.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 07 Aug 2026 05:11:27 GMT",
-      "summary": "Allianz Profit Hits Record as Pimco Sees €32 Billion Inflows\nAllianz SE, the owner of bond manager Pacific Investment Management Co., generated record profit in the second quarter on better results in its insurance and asset management businesses."
+      "published": "Fri, 07 Aug 2026 11:02:14 GMT",
+      "summary": "JBS Gets $2.5 Billion From Indonesia Fund to Expand in Asia\nJBS NV said the Indonesian sovereign wealth fund Danantara agreed to invest $2.5 billion to form a joint-venture that will focus on the protein market in Southeast Asia, Australia and New Zealand."
     },
     {
-      "title": "Europe Faces Climate Crisis Strain: Markets Snapshot",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-07/europe-faces-climate-crisis-strain-markets-snapshot",
-      "raw_summary": "Amidst an already volatile economic and geopolitical backdrop, Europe is faced with a new a challenge in the form of an escalating climate crisis. Hot, dry weather across the continent has put communities under threat from deadly wildfires. Rivers and critical waterways are also in danger of falling water levels which could also cause disruptions to power facilities and fracture the transportation of coal, fuel, and industrial commodities. The Opening Trade spoke with guests about what the ongoing volatility means for European governments and business leaders.\n (Source: Bloomberg)",
+      "title": "Copper Heads for New Highs as US and China Squeeze Buffers",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-08-07/copper-heads-for-new-highs-as-us-and-china-squeeze-buffers",
+      "raw_summary": "A two-way pull is depleting LME inventories, raising the risk of another spike in futures contracts.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 07 Aug 2026 06:07:32 GMT",
-      "summary": "Europe Faces Climate Crisis Strain: Markets Snapshot\nAmidst an already volatile economic and geopolitical backdrop, Europe is faced with a new a challenge in the form of an escalating climate crisis. Hot, dry weather across the continent has put communities under threat from deadly wildfires. Rivers"
+      "published": "Fri, 07 Aug 2026 11:57:58 GMT",
+      "summary": "Copper Heads for New Highs as US and China Squeeze Buffers\nA two-way pull is depleting LME inventories, raising the risk of another spike in futures contracts."
     },
     {
-      "title": "Bitcoin whales load up on $1.2 billion in BTC as ETFs attract $750 million",
-      "link": "https://www.coindesk.com/markets/2026/08/07/bitcoin-whales-load-up-on-usd1-2-billion-in-btc-as-etfs-attract-usd750-million",
+      "title": "The U.S. lost 23,000 jobs in July, far shy of forecasts for a gain of 80,000",
+      "link": "https://www.coindesk.com/markets/2026/08/07/the-u-s-lost-23-000-jobs-in-july-far-shy-of-forecasts-for-a-gain-of-80-000",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 07 Aug 2026 05:45:21 +0000",
-      "summary": "Bitcoin whales load up on $1.2 billion in BTC as ETFs attract $750 million\n"
+      "published": "Fri, 07 Aug 2026 12:31:51 +0000",
+      "summary": "The U.S. lost 23,000 jobs in July, far shy of forecasts for a gain of 80,000\n"
     },
     {
-      "title": "Bitcoin wallet dormant since 2011 moves $3.2 million toward FalconX-linked address",
-      "link": "https://www.coindesk.com/markets/2026/08/07/bitcoin-wallet-dormant-since-2011-moves-usd3-2-million-toward-falconx-linked-address",
+      "title": "After a Clarity Act funeral, the crypto world would keep turning",
+      "link": "https://www.coindesk.com/news-analysis/2026/08/06/after-a-clarity-act-funeral-the-crypto-world-would-keep-turning",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 07 Aug 2026 04:50:44 +0000",
-      "summary": "Bitcoin wallet dormant since 2011 moves $3.2 million toward FalconX-linked address\n"
+      "published": "Fri, 07 Aug 2026 12:00:00 +0000",
+      "summary": "After a Clarity Act funeral, the crypto world would keep turning\n"
     },
     {
-      "title": "A case for a bitcoin surge to $76,000 may be building beneath the boring price action, but there's a caveat",
-      "link": "https://www.coindesk.com/markets/2026/08/07/a-case-for-a-bitcoin-surge-to-usd76-000-may-be-building-beneath-the-boring-price-action-but-there-s-a-caveat",
+      "title": "Why Bitcoin's BIP-110 refuses to die despite near-zero miner support",
+      "link": "https://www.coindesk.com/tech/2026/08/06/why-bitcoin-s-bip-110-refuses-to-die-despite-near-zero-miner-support",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 07 Aug 2026 04:28:17 +0000",
-      "summary": "A case for a bitcoin surge to $76,000 may be building beneath the boring price action, but there's a caveat\n"
+      "published": "Fri, 07 Aug 2026 11:45:49 +0000",
+      "summary": "Why Bitcoin's BIP-110 refuses to die despite near-zero miner support\n"
     },
     {
-      "title": "XRP leads majors losses as Clarity Act vote slips to September",
-      "link": "https://www.coindesk.com/markets/2026/08/07/bitcoin-stuck-near-usd64-000-as-clarity-act-vote-slips-to-september",
+      "title": "Bitcoin’s volatility has nearly disappeared. The risk hasn’t.",
+      "link": "https://www.coindesk.com/daybook-us/2026/08/07/bitcoin-s-volatility-has-nearly-disappeared-the-risk-hasn-t",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 07 Aug 2026 04:17:01 +0000",
-      "summary": "XRP leads majors losses as Clarity Act vote slips to September\n"
+      "published": "Fri, 07 Aug 2026 11:42:20 +0000",
+      "summary": "Bitcoin’s volatility has nearly disappeared. The risk hasn’t.\n"
     },
     {
-      "title": "Senate won't vote on crypto Clarity Act before its summer break",
-      "link": "https://www.coindesk.com/policy/2026/08/06/senate-won-t-vote-on-crypto-clarity-act-before-its-summer-break",
+      "title": "Bitcoin hovers below $65,000 as Middle East tensions escalate further",
+      "link": "https://www.coindesk.com/markets/2026/08/07/cmt",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 07 Aug 2026 02:14:43 +0000",
-      "summary": "Senate won't vote on crypto Clarity Act before its summer break\n"
+      "published": "Fri, 07 Aug 2026 10:36:14 +0000",
+      "summary": "Bitcoin hovers below $65,000 as Middle East tensions escalate further\n"
     }
   ]
 }
