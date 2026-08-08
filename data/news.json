@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T06:37:29.815318+00:00",
+  "generated_at": "2026-08-08T12:30:19.320030+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,84 +43,84 @@
       "summary": "Lessons Learned from CISA’s Recent GitHub Leak\nThe Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months "
     },
     {
-      "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
-      "link": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
-      "raw_summary": "A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems.\n\n\"These packages appear to use AI slop squatted, or randomly generated typo-squatting package names, but all of them deliver a powerful RAT and infostealer payload,\" OpenSourceMalware researcher Paul",
+      "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
+      "link": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
+      "raw_summary": "Attacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data that a signed-in user can access, then send it to an outside server. Two security firms found that behavior independently, by different routes. Only one of those routes is confirmed closed.\n\nPromptArmor, an AI security firm, hid the instructions in content Rovo reads. It said an uploaded file was",
       "source": "The Hacker News",
-      "published": "Sat, 08 Aug 2026 00:18:17 +0530",
-      "summary": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer\nA cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems.\n\n\"These packages appear to us"
+      "published": "Sat, 08 Aug 2026 14:24:50 +0530",
+      "summary": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers\nAttacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data that a signed-in user can access, then send it to an outside server. Two security firms found that behavior independen"
     },
     {
-      "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
-      "link": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
-      "raw_summary": "ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached credentials.\n\nThe macOS-focused infection chain is designed to deliver a shell script that profiles the host and then fetches a macOS malware payload that's compatible with the computer's CPU architecture.\n\n\"",
+      "title": "New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens",
+      "link": "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html",
+      "raw_summary": "New research shows content inside an email can escape its message boundary and interfere with the webmail interface.\n\nAcross attack chains spanning Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail, the techniques can capture passwords, take over third-party accounts, leak tokens, hijack trusted UI actions, and manipulate AI tools that read email.\n\nPortSwigger researcher Gareth",
       "source": "The Hacker News",
-      "published": "Fri, 07 Aug 2026 23:59:08 +0530",
-      "summary": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets\nClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached credentials.\n\nThe macOS-focused infection ch"
+      "published": "Sat, 08 Aug 2026 13:33:57 +0530",
+      "summary": "New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens\nNew research shows content inside an email can escape its message boundary and interfere with the webmail interface.\n\nAcross attack chains spanning Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail, the techniques"
     },
     {
-      "title": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
-      "link": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
-      "raw_summary": "A recent wave of cyber attacks targeting financial services, private equity, and professional services is attributed to a data extortion group known as UNC6671.\n\n\"UNC6671 continues to rely on voice phishing (vishing) to target enterprise employees, posing as IT help desk staff facilitating mandatory, urgent security migrations. Significantly, the threat actor often contacts employees via their",
+      "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
+      "link": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
+      "raw_summary": "Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day.\n\nThe vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, enabling them to gain",
       "source": "The Hacker News",
-      "published": "Fri, 07 Aug 2026 23:46:13 +0530",
-      "summary": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data\nA recent wave of cyber attacks targeting financial services, private equity, and professional services is attributed to a data extortion group known as UNC6671.\n\n\"UNC6671 continues to rely on voice phishing (vishing) to target enterpr"
+      "published": "Sat, 08 Aug 2026 12:28:31 +0530",
+      "summary": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication\nMetabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day.\n\nThe vulnerability (CVSS score: 10.0), wh"
     },
     {
-      "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
-      "link": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
-      "raw_summary": "WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw can be chained into PHP code execution on the server when a logged-in administrator interacts with an attacker-controlled page.\n\nTracked as&nbsp;CVE-2026-64638&nbsp;(CVSS score: 8.9), the",
+      "title": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist",
+      "link": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
+      "raw_summary": "N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM) product.\n\n\"We are proactively expanding protections in response to ongoing monitoring of threat actors as they evolve their attack techniques,\" the company said.\n\n\"This is not a duplicate of our",
       "source": "The Hacker News",
-      "published": "Fri, 07 Aug 2026 18:26:23 +0530",
-      "summary": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP\nWordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw can be chained into PHP code e"
+      "published": "Sat, 08 Aug 2026 12:27:43 +0530",
+      "summary": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist\nN-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM) product.\n\n\"We are pro"
     },
     {
-      "title": "Growing Up The Hard Way",
-      "link": "https://thehackernews.com/2026/08/growing-up-hard-way.html",
-      "raw_summary": "Open Source had a great childhood.\n\nFor two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watching. It ran the kind of lemonade stand that took IOUs from anyone who wandered up — take what you need, pay me back whenever, no need to leave a name. It was idyllic. It was also, in retrospect, a little feral.\n\nThen,",
+      "title": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts",
+      "link": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
+      "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-8037 (CVSS score: 9.6), is a command injection flaw that could be weaponized to achieve arbitrary",
       "source": "The Hacker News",
-      "published": "Fri, 07 Aug 2026 17:25:26 +0530",
-      "summary": "Growing Up The Hard Way\nOpen Source had a great childhood.\n\nFor two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watching. It ran the kind of lemonade stand that took IOUs from anyone who wandered up — take what you"
+      "published": "Sat, 08 Aug 2026 12:22:16 +0530",
+      "summary": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog, following report"
     },
     {
-      "title": "Mythos social engineering AISI INC-2026-07-28-01",
-      "link": "https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3",
-      "raw_summary": "<p>Article URL: <a href=\"https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3\">https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49218707\">https://news.ycombinator.com/item?id=49218707</a></p>\n<p>Points: 42</p>\n<p># Comments: 15</p>",
+      "title": "The USSR in 100 Photographs",
+      "link": "https://trinixy.ru/7039-sssr_v_fotografijakh_100_foto.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://trinixy.ru/7039-sssr_v_fotografijakh_100_foto.html\">https://trinixy.ru/7039-sssr_v_fotografijakh_100_foto.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49221041\">https://news.ycombinator.com/item?id=49221041</a></p>\n<p>Points: 11</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 08 Aug 2026 03:41:56 +0000",
-      "summary": "Mythos social engineering AISI INC-2026-07-28-01\n<p>Article URL: <a href=\"https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3\">https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3</a></p>\n<p>Comments URL: <a href=\"https://news.yc"
+      "published": "Sat, 08 Aug 2026 12:07:25 +0000",
+      "summary": "The USSR in 100 Photographs\n<p>Article URL: <a href=\"https://trinixy.ru/7039-sssr_v_fotografijakh_100_foto.html\">https://trinixy.ru/7039-sssr_v_fotografijakh_100_foto.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49221041\">https://news.ycombinator.com/item?id=49221041</"
     },
     {
-      "title": "NASA to keep its 48-year-old Voyager 2 probe running for yet another year",
-      "link": "https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year\">https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49218179\">https://news.ycombinator.com/item?id=49218179</a></p>\n<p>Points: 169</p>\n<p># Comments: 26</p>",
+      "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+      "link": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
+      "raw_summary": "<p>Article URL: <a href=\"https://simonwillison.net/2026/Aug/7/openai-timeline/\">https://simonwillison.net/2026/Aug/7/openai-timeline/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49220609\">https://news.ycombinator.com/item?id=49220609</a></p>\n<p>Points: 37</p>\n<p># Comments: 37</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 08 Aug 2026 01:49:11 +0000",
-      "summary": "NASA to keep its 48-year-old Voyager 2 probe running for yet another year\n<p>Article URL: <a href=\"https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year\">https://www.space.com/space-exploration/voyager/nasa-figured-o"
+      "published": "Sat, 08 Aug 2026 10:57:44 +0000",
+      "summary": "Now we have a timeline of the OpenAI accidental attack against Hugging Face\n<p>Article URL: <a href=\"https://simonwillison.net/2026/Aug/7/openai-timeline/\">https://simonwillison.net/2026/Aug/7/openai-timeline/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49220609\">https://n"
     },
     {
-      "title": "The Nixpkgs core team has disbanded",
-      "link": "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
-      "raw_summary": "<p>Article URL: <a href=\"https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413\">https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49217993\">https://news.ycombinator.com/item?id=49217993</a></p>\n<p>Points: 250</p>\n<p># Comments: 106</p>",
+      "title": "Apple Introduces Leasing Program for iPhones and Other Devices",
+      "link": "https://www.nytimes.com/2026/07/28/technology/apple-leasing-program.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.nytimes.com/2026/07/28/technology/apple-leasing-program.html\">https://www.nytimes.com/2026/07/28/technology/apple-leasing-program.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49220390\">https://news.ycombinator.com/item?id=49220390</a></p>\n<p>Points: 15</p>\n<p># Comments: 22</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 08 Aug 2026 01:12:45 +0000",
-      "summary": "The Nixpkgs core team has disbanded\n<p>Article URL: <a href=\"https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413\">https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49217993\">https://news."
+      "published": "Sat, 08 Aug 2026 10:16:01 +0000",
+      "summary": "Apple Introduces Leasing Program for iPhones and Other Devices\n<p>Article URL: <a href=\"https://www.nytimes.com/2026/07/28/technology/apple-leasing-program.html\">https://www.nytimes.com/2026/07/28/technology/apple-leasing-program.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/it"
     },
     {
-      "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
-      "link": "https://genesisopenmodels.anl.gov/",
-      "raw_summary": "<p>Article URL: <a href=\"https://genesisopenmodels.anl.gov/\">https://genesisopenmodels.anl.gov/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49216946\">https://news.ycombinator.com/item?id=49216946</a></p>\n<p>Points: 189</p>\n<p># Comments: 64</p>",
+      "title": "New Amazon Data Center Is Set to Have the Most Polluting Power Plant in the U.S.",
+      "link": "https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html\">https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49220350\">https://news.ycombinator.com/item?id=49220350</a></p>\n<p>Points: 94</p>\n<p># Comments: 89</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 07 Aug 2026 22:24:27 +0000",
-      "summary": "U.S. Department of Energy Launches the Genesis Open Models Initiative\n<p>Article URL: <a href=\"https://genesisopenmodels.anl.gov/\">https://genesisopenmodels.anl.gov/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49216946\">https://news.ycombinator.com/item?id=49216946</a></p>"
+      "published": "Sat, 08 Aug 2026 10:07:06 +0000",
+      "summary": "New Amazon Data Center Is Set to Have the Most Polluting Power Plant in the U.S.\n<p>Article URL: <a href=\"https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html\">https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html</a></p>\n<p>Comments URL: <a"
     },
     {
-      "title": "Water system controllers don't belong on the internet, says ex-NSA chief",
-      "link": "https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070\">https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49216362\">https://news.ycombinator.com/item?id=49216362</a></p>\n<p>Points: 171</p>\n<p># Comments: 114</p>",
+      "title": "US Military's Cyber Command Unit Grapples with Cluster of Deaths by Suicide",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-06/us-military-s-cyber-command-unit-grapples-with-cluster-of-deaths-by-suicide",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.bloomberg.com/news/articles/2026-08-06/us-military-s-cyber-command-unit-grapples-with-cluster-of-deaths-by-suicide\">https://www.bloomberg.com/news/articles/2026-08-06/us-military-s-cyber-command-unit-grapples-with-cluster-of-deaths-by-suicide</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49220339\">https://news.ycombinator.com/item?id=49220339</a></p>\n<p>Points: 25</p>\n<p># Comments: 19</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 07 Aug 2026 21:19:57 +0000",
-      "summary": "Water system controllers don't belong on the internet, says ex-NSA chief\n<p>Article URL: <a href=\"https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070\">https://www.theregister.com/security/2026/08/"
+      "published": "Sat, 08 Aug 2026 10:04:25 +0000",
+      "summary": "US Military's Cyber Command Unit Grapples with Cluster of Deaths by Suicide\n<p>Article URL: <a href=\"https://www.bloomberg.com/news/articles/2026-08-06/us-military-s-cyber-command-unit-grapples-with-cluster-of-deaths-by-suicide\">https://www.bloomberg.com/news/articles/2026-08-06/us-military-s-cyber-"
     },
     {
       "title": "OpenAI says it slowed Astra model development over security concerns",
@@ -163,6 +163,22 @@
       "summary": "Cloudflare launches Kitesurf, a browser built for AI agents\nKitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently."
     },
     {
+      "title": "The first self-driving vehicle on Mars has proven to be a smashing success",
+      "link": "https://arstechnica.com/space/2026/08/the-first-self-driving-vehicle-on-mars-has-proven-to-be-a-smashing-success/",
+      "raw_summary": "About 90 percent of the distance driven by Perseverance has been autonomous.",
+      "source": "Ars Technica - All content",
+      "published": "Sat, 08 Aug 2026 11:30:48 +0000",
+      "summary": "The first self-driving vehicle on Mars has proven to be a smashing success\nAbout 90 percent of the distance driven by Perseverance has been autonomous."
+    },
+    {
+      "title": "DeepMind’s hurricane breakthrough has surprised weather scientists",
+      "link": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/",
+      "raw_summary": "Open source WeatherNext model can make accurate predictions with lower-resolution weather data.",
+      "source": "Ars Technica - All content",
+      "published": "Sat, 08 Aug 2026 11:05:50 +0000",
+      "summary": "DeepMind’s hurricane breakthrough has surprised weather scientists\nOpen source WeatherNext model can make accurate predictions with lower-resolution weather data."
+    },
+    {
       "title": "Europe's free satellite service just made it easier to track wildfires",
       "link": "https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/",
       "raw_summary": "Copernicus Browser adds wildfire visualization amid record wildfire season.",
@@ -187,60 +203,68 @@
       "summary": "Judge rules Meta caused \"public nuisance\" and must fund mental health treatment\nNew Mexico judge orders $567M fund to help address youth mental health crisis."
     },
     {
-      "title": "The ultimate eclipse chase: A Concorde raced against the Moon's shadow",
-      "link": "https://arstechnica.com/science/2026/08/the-ultimate-eclipse-chase-a-concorde-raced-against-the-moons-shadow/",
-      "raw_summary": "Fitted with telescopes, the plane did our longest imaging of the Sun's corona.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 07 Aug 2026 19:00:17 +0000",
-      "summary": "The ultimate eclipse chase: A Concorde raced against the Moon's shadow\nFitted with telescopes, the plane did our longest imaging of the Sun's corona."
-    },
-    {
-      "title": "New official 30th anniversary Quake mission pack adds new maps and mechanics",
-      "link": "https://arstechnica.com/gaming/2026/08/new-official-30th-anniversary-quake-mission-pack-adds-new-maps-and-mechanics/",
-      "raw_summary": "19 new maps continue the story from MachineGames' other campaign additions.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 07 Aug 2026 18:00:02 +0000",
-      "summary": "New official 30th anniversary Quake mission pack adds new maps and mechanics\n19 new maps continue the story from MachineGames' other campaign additions."
-    },
-    {
-      "title": "Six hot takes from Copenhagen Fashion Week",
-      "link": "https://www.ft.com/content/bbc32738-b51b-4004-be55-e923e849f826",
-      "raw_summary": "The 20th-anniversary edition of the event championed underwear as street style, smart sustainability and cycling chic everywhere",
+      "title": "First Brands urges court to approve bankruptcy settlement",
+      "link": "https://www.ft.com/content/e1f2e2b9-6f52-44fc-a659-e981d2fc923e?syn-25a6b1a6=1",
+      "raw_summary": "Plan would fund lawsuits to pursue billions of dollars in claims arising from alleged fraud scheme at collapsed car-parts maker",
       "source": "World",
-      "published": "Sat, 08 Aug 2026 04:00:42 GMT",
-      "summary": "Six hot takes from Copenhagen Fashion Week\nThe 20th-anniversary edition of the event championed underwear as street style, smart sustainability and cycling chic everywhere"
+      "published": "Sat, 08 Aug 2026 11:21:34 GMT",
+      "summary": "First Brands urges court to approve bankruptcy settlement\nPlan would fund lawsuits to pursue billions of dollars in claims arising from alleged fraud scheme at collapsed car-parts maker"
     },
     {
-      "title": "Parents of UK students dig deep to fund university costs",
-      "link": "https://www.ft.com/content/5c74c644-1491-4514-93b5-0a203c3b8a95?syn-25a6b1a6=1",
-      "raw_summary": "Many expect to provide more than £50,000 towards tuition fees and living expenses, says survey",
+      "title": "Landmark crypto bill stalls in US Senate despite $225mn spending push",
+      "link": "https://www.ft.com/content/352a15ac-53c4-46eb-b75e-957f0388dc79?syn-25a6b1a6=1",
+      "raw_summary": "Lobby struggles to pass top priority in Congress as lawmakers spar over legislation",
       "source": "World",
-      "published": "Sat, 08 Aug 2026 04:00:42 GMT",
-      "summary": "Parents of UK students dig deep to fund university costs\nMany expect to provide more than £50,000 towards tuition fees and living expenses, says survey"
+      "published": "Sat, 08 Aug 2026 11:00:03 GMT",
+      "summary": "Landmark crypto bill stalls in US Senate despite $225mn spending push\nLobby struggles to pass top priority in Congress as lawmakers spar over legislation"
     },
     {
-      "title": "Venezuelans take to the streets as country hit by daily blackouts",
-      "link": "https://www.ft.com/content/45730a94-cb43-42cb-ae8f-da0f39f37d67",
-      "raw_summary": "Caracas experiencing power cuts for first time in 7 years despite government pledges to invest in grid",
+      "title": "Pfizer grapples with ‘a world of hurt’ after Covid triumph",
+      "link": "https://www.ft.com/content/a371dc43-0584-4fcc-b064-80596727d5b5?syn-25a6b1a6=1",
+      "raw_summary": "Sliding vaccine revenues and fears it overpaid for new drugs pile pressure on boss Albert Bourla",
       "source": "World",
-      "published": "Sat, 08 Aug 2026 04:00:42 GMT",
-      "summary": "Venezuelans take to the streets as country hit by daily blackouts\nCaracas experiencing power cuts for first time in 7 years despite government pledges to invest in grid"
+      "published": "Sat, 08 Aug 2026 10:00:03 GMT",
+      "summary": "Pfizer grapples with ‘a world of hurt’ after Covid triumph\nSliding vaccine revenues and fears it overpaid for new drugs pile pressure on boss Albert Bourla"
     },
     {
-      "title": "Kids, flats and student loans: Why UK first-time buyers are getting older",
-      "link": "https://www.ft.com/content/d9e0c81c-9160-48e7-9309-01f21de5fe5d?syn-25a6b1a6=1",
-      "raw_summary": "One in three starts a family before having a home of their own",
+      "title": "Spain reinstates border controls on Italy as tensions rise over migrants",
+      "link": "https://www.ft.com/content/f3050d94-6b78-4cf2-8b07-cf8903aacc7f?syn-25a6b1a6=1",
+      "raw_summary": "Decision widens rift between Pedro Sánchez’s government and rightwing Italian premier Giorgia Meloni",
       "source": "World",
-      "published": "Sat, 08 Aug 2026 04:00:41 GMT",
-      "summary": "Kids, flats and student loans: Why UK first-time buyers are getting older\nOne in three starts a family before having a home of their own"
+      "published": "Sat, 08 Aug 2026 09:45:12 GMT",
+      "summary": "Spain reinstates border controls on Italy as tensions rise over migrants\nDecision widens rift between Pedro Sánchez’s government and rightwing Italian premier Giorgia Meloni"
     },
     {
-      "title": "The exciting boring decade",
-      "link": "https://www.ft.com/content/10f9922c-4667-4fb9-b2a0-6f3264ef0b09?syn-25a6b1a6=1",
-      "raw_summary": "Why hasn’t all the chaos in the real world inspired more interesting art?",
+      "title": "Currency interventions have a mixed record",
+      "link": "https://www.ft.com/content/d2248ee9-edb5-445c-b89b-425e033a19fa?syn-25a6b1a6=1",
+      "raw_summary": "You can’t fight macro with FX interventions",
       "source": "World",
-      "published": "Sat, 08 Aug 2026 04:00:41 GMT",
-      "summary": "The exciting boring decade\nWhy hasn’t all the chaos in the real world inspired more interesting art?"
+      "published": "Sat, 08 Aug 2026 09:30:02 GMT",
+      "summary": "Currency interventions have a mixed record\nYou can’t fight macro with FX interventions"
+    },
+    {
+      "title": "Ceuta Migrant Surge Exposes Morocco’s Economic Strain",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-08/ceuta-migrant-surge-exposes-morocco-s-economic-strain-video",
+      "raw_summary": "More than 70,000 people, mostly Moroccans, crossed into Spain’s North African enclave of Ceuta in a mass migration surge fueled by economic frustration and amplified by social media. Senior Researcher at Oxford University Centre on Migration, Policy & Society Myriam Cherti is on Bloomberg This Weekend to discuss the unusual influx of those looking to cross. (Source: Bloomberg)",
+      "source": "Bloomberg Markets",
+      "published": "Sat, 08 Aug 2026 12:22:07 GMT",
+      "summary": "Ceuta Migrant Surge Exposes Morocco’s Economic Strain\nMore than 70,000 people, mostly Moroccans, crossed into Spain’s North African enclave of Ceuta in a mass migration surge fueled by economic frustration and amplified by social media. Senior Researcher at Oxford University Centre on Migration, Pol"
+    },
+    {
+      "title": "Weak Jobs Data Masked by Falling Unemployment",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-08/weak-jobs-data-masked-by-falling-unemployment-video",
+      "raw_summary": "The US unexpectedly lost 23,000 jobs in July while unemployment fell to 4.1%, a decline driven by fewer people participating in the labor force rather than stronger employment. Bloomberg News Economics Chief US Economist Anna Wong joins Bloomberg This Weekend and explains to hosts David Gura and Christina Ruffini that the weak payrolls and persistent downward revisions point to a softer labor market and could reduce pressure on the Fed to raise rates in September. (Source: Bloomberg)",
+      "source": "Bloomberg Markets",
+      "published": "Sat, 08 Aug 2026 12:12:02 GMT",
+      "summary": "Weak Jobs Data Masked by Falling Unemployment\nThe US unexpectedly lost 23,000 jobs in July while unemployment fell to 4.1%, a decline driven by fewer people participating in the labor force rather than stronger employment. Bloomberg News Economics Chief US Economist Anna Wong joins Bloomberg This We"
+    },
+    {
+      "title": "Kyiv Struck as Ukraine Targets Two Russian Oil Refineries",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-08/ukraine-drone-strike-sparks-fire-at-russia-s-ilsky-refinery",
+      "raw_summary": "A fire was sparked at Russia’s Ilsky oil refinery in the southern Krasnodar region by Ukrainian drone debris, injuring five people, the regional task force said on Saturday, as Russia and Ukraine exchanged overnight attacks including a large-scale missile barrage on Kyiv.",
+      "source": "Bloomberg Markets",
+      "published": "Sat, 08 Aug 2026 05:54:20 GMT",
+      "summary": "Kyiv Struck as Ukraine Targets Two Russian Oil Refineries\nA fire was sparked at Russia’s Ilsky oil refinery in the southern Krasnodar region by Ukrainian drone debris, injuring five people, the regional task force said on Saturday, as Russia and Ukraine exchanged overnight attacks including a large-"
     },
     {
       "title": "Zelenskyy Makes Debut Trip to Serbia as Russian Influence Wanes",
@@ -251,14 +275,6 @@
       "summary": "Zelenskyy Makes Debut Trip to Serbia as Russian Influence Wanes\nUkrainian President Volodymyr Zelenskyy is making a landmark first visit on Saturday to Serbia, the Balkan country whose leader has been scaling back once-close ties with Russia."
     },
     {
-      "title": "Ukraine Drone Strike Sparks Fire at Russia’s Ilsky Refinery",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-08/ukraine-drone-strike-sparks-fire-at-russia-s-ilsky-refinery",
-      "raw_summary": "A fire broke out at Russia’s Ilsky Oil Refinery in the southern Krasnodar region after falling Ukrainian drone debris, injuring five people, the regional task force said Saturday, as Russia and Ukraine exchanged large-scale overnight attacks.",
-      "source": "Bloomberg Markets",
-      "published": "Sat, 08 Aug 2026 05:54:20 GMT",
-      "summary": "Ukraine Drone Strike Sparks Fire at Russia’s Ilsky Refinery\nA fire broke out at Russia’s Ilsky Oil Refinery in the southern Krasnodar region after falling Ukrainian drone debris, injuring five people, the regional task force said Saturday, as Russia and Ukraine exchanged large-scale overnight attack"
-    },
-    {
       "title": "Burnham’s Fiscal ‘Flexibility’ Could Backfire, Officials Fear",
       "link": "https://www.bloomberg.com/news/articles/2026-08-08/burnham-s-fiscal-flexibility-could-backfire-officials-fear",
       "raw_summary": "UK Treasury officials are concerned that the prime minister’s talk of using “flexibility” within the fiscal rules to ramp up investment could backfire by destabilizing financial markets, according to people familiar with the thinking.",
@@ -267,20 +283,20 @@
       "summary": "Burnham’s Fiscal ‘Flexibility’ Could Backfire, Officials Fear\nUK Treasury officials are concerned that the prime minister’s talk of using “flexibility” within the fiscal rules to ramp up investment could backfire by destabilizing financial markets, according to people familiar with the thinking."
     },
     {
-      "title": "WuXi AppTec Gets Temporary Reprieve of Chinese Military Label",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-08/wuxi-apptec-gets-temporary-reprieve-of-chinese-military-label",
-      "raw_summary": "A US judge blocked the Defense Department from enforcing its designation of WuXi AppTec Co. as a Chinese military company, granting temporary relief to the major pharmaceutical contractor.",
-      "source": "Bloomberg Markets",
-      "published": "Sat, 08 Aug 2026 04:57:41 GMT",
-      "summary": "WuXi AppTec Gets Temporary Reprieve of Chinese Military Label\nA US judge blocked the Defense Department from enforcing its designation of WuXi AppTec Co. as a Chinese military company, granting temporary relief to the major pharmaceutical contractor."
+      "title": "U.S. Senate opens first stage of crypto Clarity Act voting to give bill a chance next month",
+      "link": "https://www.coindesk.com/policy/2026/08/08/u-s-senate-opens-first-stage-of-crypto-clarity-act-voting-to-give-bill-a-chance-next-month",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Sat, 08 Aug 2026 09:07:24 +0000",
+      "summary": "U.S. Senate opens first stage of crypto Clarity Act voting to give bill a chance next month\n"
     },
     {
-      "title": "War Brings Winter of Discontent for the World’s Workhorse Fuel",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-08/war-brings-winter-of-discontent-for-the-world-s-workhorse-fuel",
-      "raw_summary": "A diesel squeeze spurred by wars in the Middle East and Ukraine is setting the stage for an even worse crunch as demand rises ahead of the Northern Hemisphere winter.",
-      "source": "Bloomberg Markets",
-      "published": "Sat, 08 Aug 2026 04:00:00 GMT",
-      "summary": "War Brings Winter of Discontent for the World’s Workhorse Fuel\nA diesel squeeze spurred by wars in the Middle East and Ukraine is setting the stage for an even worse crunch as demand rises ahead of the Northern Hemisphere winter."
+      "title": "Another Bitcoin infrastructure exploit hits, this time draining Lightning payment servers",
+      "link": "https://www.coindesk.com/tech/2026/08/08/another-bitcoin-infrastructure-exploit-hits-this-time-draining-merchant-lightning-nodes",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Sat, 08 Aug 2026 07:46:04 +0000",
+      "summary": "Another Bitcoin infrastructure exploit hits, this time draining Lightning payment servers\n"
     },
     {
       "title": "New XRP Ledger amendments target $530 million in tokenized Wall Street assets",
@@ -305,22 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Fri, 07 Aug 2026 21:13:21 +0000",
       "summary": "Trump Media pulls back from crypto, scraps Crypto.com's CRO token treasury deal\n"
-    },
-    {
-      "title": "Trump-Backed American Bitcoin director Justin Mateen buys nearly $2 million of ABTC stock",
-      "link": "https://www.coindesk.com/business/2026/08/07/trump-backed-american-bitcoin-director-justin-mateen-buys-nearly-usd2-million-of-abtc-stock",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 07 Aug 2026 20:20:00 +0000",
-      "summary": "Trump-Backed American Bitcoin director Justin Mateen buys nearly $2 million of ABTC stock\n"
-    },
-    {
-      "title": "U.S. widens Iran crypto crackdown with sanctions on two exchanges",
-      "link": "https://www.coindesk.com/policy/2026/08/07/u-s-widens-iran-crypto-crackdown-with-sanctions-on-two-exchanges",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 07 Aug 2026 18:42:44 +0000",
-      "summary": "U.S. widens Iran crypto crackdown with sanctions on two exchanges\n"
     }
   ]
 }
