@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T18:42:16.851810+00:00",
+  "generated_at": "2026-08-08T01:01:13.392412+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "Lessons Learned from CISA’s Recent GitHub Leak\nThe Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months "
     },
     {
+      "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
+      "link": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
+      "raw_summary": "A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems.\n\n\"These packages appear to use AI slop squatted, or randomly generated typo-squatting package names, but all of them deliver a powerful RAT and infostealer payload,\" OpenSourceMalware researcher Paul",
+      "source": "The Hacker News",
+      "published": "Sat, 08 Aug 2026 00:18:17 +0530",
+      "summary": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer\nA cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems.\n\n\"These packages appear to us"
+    },
+    {
+      "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
+      "link": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
+      "raw_summary": "ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached credentials.\n\nThe macOS-focused infection chain is designed to deliver a shell script that profiles the host and then fetches a macOS malware payload that's compatible with the computer's CPU architecture.\n\n\"",
+      "source": "The Hacker News",
+      "published": "Fri, 07 Aug 2026 23:59:08 +0530",
+      "summary": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets\nClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached credentials.\n\nThe macOS-focused infection ch"
+    },
+    {
+      "title": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
+      "link": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
+      "raw_summary": "A recent wave of cyber attacks targeting financial services, private equity, and professional services is attributed to a data extortion group known as UNC6671.\n\n\"UNC6671 continues to rely on voice phishing (vishing) to target enterprise employees, posing as IT help desk staff facilitating mandatory, urgent security migrations. Significantly, the threat actor often contacts employees via their",
+      "source": "The Hacker News",
+      "published": "Fri, 07 Aug 2026 23:46:13 +0530",
+      "summary": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data\nA recent wave of cyber attacks targeting financial services, private equity, and professional services is attributed to a data extortion group known as UNC6671.\n\n\"UNC6671 continues to rely on voice phishing (vishing) to target enterpr"
+    },
+    {
       "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
       "link": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
       "raw_summary": "WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw can be chained into PHP code execution on the server when a logged-in administrator interacts with an attacker-controlled page.\n\nTracked as&nbsp;CVE-2026-64638&nbsp;(CVSS score: 8.9), the",
@@ -59,228 +83,228 @@
       "summary": "Growing Up The Hard Way\nOpen Source had a great childhood.\n\nFor two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watching. It ran the kind of lemonade stand that took IOUs from anyone who wandered up — take what you"
     },
     {
-      "title": "18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers",
-      "link": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
-      "raw_summary": "A use-after-free bug in Linux's SCTP networking code can be turned into full root on a host, and Tencent researchers say they used it to escape a container and reach the machine underneath.\n\nThe flaw has existed since 2008. The fix already shipped: stable kernels 7.1.6, 6.18.42, 6.12.101 and 6.6.148, released August 3, close it. Anyone running an older kernel with SCTP reachable should update.",
-      "source": "The Hacker News",
-      "published": "Fri, 07 Aug 2026 16:40:33 +0530",
-      "summary": "18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers\nA use-after-free bug in Linux's SCTP networking code can be turned into full root on a host, and Tencent researchers say they used it to escape a container and reach the machine underneath.\n\nThe flaw has existed since "
-    },
-    {
-      "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
-      "link": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
-      "raw_summary": "Security researcher Malcolm Stagg has disclosed a new attack class called&nbsp;NatJack&nbsp;that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS responses, expose mapped ports, and exhaust NAT tables.\n\nPresented at Black Hat USA 2026, the research found affected behavior across independently developed implementations, including Windows and",
-      "source": "The Hacker News",
-      "published": "Fri, 07 Aug 2026 16:28:38 +0530",
-      "summary": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables\nSecurity researcher Malcolm Stagg has disclosed a new attack class called&nbsp;NatJack&nbsp;that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS responses, expose "
-    },
-    {
-      "title": "Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails",
-      "link": "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html",
-      "raw_summary": "Cybersecurity researchers have called attention to an active \"widespread email-driven phishing campaign\" that employs adversary-in-the-middle (AitM) techniques to take control of Microsoft 365 accounts with an aim to identify key personnel involved in financial workflows and gather related email.\n\n\"The campaign uses residential proxies to disguise malicious sign-ins as ordinary consumer traffic,",
-      "source": "The Hacker News",
-      "published": "Fri, 07 Aug 2026 16:08:27 +0530",
-      "summary": "Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails\nCybersecurity researchers have called attention to an active \"widespread email-driven phishing campaign\" that employs adversary-in-the-middle (AitM) techniques to take control of Microsoft 365 accounts with an aim to "
-    },
-    {
-      "title": "ICE will release body cam video only when seen in the agency's 'best interests'",
-      "link": "https://apnews.com/article/ice-body-cameras-officers-shootings-dab1b294c8dc412d9ef8557ccbebfd57",
-      "raw_summary": "<p>Article URL: <a href=\"https://apnews.com/article/ice-body-cameras-officers-shootings-dab1b294c8dc412d9ef8557ccbebfd57\">https://apnews.com/article/ice-body-cameras-officers-shootings-dab1b294c8dc412d9ef8557ccbebfd57</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49214306\">https://news.ycombinator.com/item?id=49214306</a></p>\n<p>Points: 25</p>\n<p># Comments: 3</p>",
+      "title": "Should AI labs be treated like the owners of dangerous animals?",
+      "link": "https://www.economist.com/science-and-technology/2026/08/06/should-ai-labs-be-treated-like-the-owners-of-dangerous-animals",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.economist.com/science-and-technology/2026/08/06/should-ai-labs-be-treated-like-the-owners-of-dangerous-animals\">https://www.economist.com/science-and-technology/2026/08/06/should-ai-labs-be-treated-like-the-owners-of-dangerous-animals</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49217629\">https://news.ycombinator.com/item?id=49217629</a></p>\n<p>Points: 12</p>\n<p># Comments: 9</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 07 Aug 2026 18:15:33 +0000",
-      "summary": "ICE will release body cam video only when seen in the agency's 'best interests'\n<p>Article URL: <a href=\"https://apnews.com/article/ice-body-cameras-officers-shootings-dab1b294c8dc412d9ef8557ccbebfd57\">https://apnews.com/article/ice-body-cameras-officers-shootings-dab1b294c8dc412d9ef8557ccbebfd57</a"
+      "published": "Sat, 08 Aug 2026 00:03:31 +0000",
+      "summary": "Should AI labs be treated like the owners of dangerous animals?\n<p>Article URL: <a href=\"https://www.economist.com/science-and-technology/2026/08/06/should-ai-labs-be-treated-like-the-owners-of-dangerous-animals\">https://www.economist.com/science-and-technology/2026/08/06/should-ai-labs-be-treated-l"
     },
     {
-      "title": "Assembly Hall of Shame",
-      "link": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/xoreaxeaxeax/asm-hall-of-shame\">https://github.com/xoreaxeaxeax/asm-hall-of-shame</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49214098\">https://news.ycombinator.com/item?id=49214098</a></p>\n<p>Points: 7</p>\n<p># Comments: 1</p>",
+      "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
+      "link": "https://genesisopenmodels.anl.gov/",
+      "raw_summary": "<p>Article URL: <a href=\"https://genesisopenmodels.anl.gov/\">https://genesisopenmodels.anl.gov/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49216946\">https://news.ycombinator.com/item?id=49216946</a></p>\n<p>Points: 52</p>\n<p># Comments: 17</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 07 Aug 2026 18:01:30 +0000",
-      "summary": "Assembly Hall of Shame\n<p>Article URL: <a href=\"https://github.com/xoreaxeaxeax/asm-hall-of-shame\">https://github.com/xoreaxeaxeax/asm-hall-of-shame</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49214098\">https://news.ycombinator.com/item?id=49214098</a></p>\n<p>Points: 7</p>"
+      "published": "Fri, 07 Aug 2026 22:24:27 +0000",
+      "summary": "U.S. Department of Energy Launches the Genesis Open Models Initiative\n<p>Article URL: <a href=\"https://genesisopenmodels.anl.gov/\">https://genesisopenmodels.anl.gov/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49216946\">https://news.ycombinator.com/item?id=49216946</a></p>"
     },
     {
-      "title": "The End of No Code",
-      "link": "https://blog.exe.dev/the-end-of-no-code",
-      "raw_summary": "<p>Article URL: <a href=\"https://blog.exe.dev/the-end-of-no-code\">https://blog.exe.dev/the-end-of-no-code</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49214065\">https://news.ycombinator.com/item?id=49214065</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "title": "Water system controllers don't belong on the internet, says ex-NSA chief",
+      "link": "https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070\">https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49216362\">https://news.ycombinator.com/item?id=49216362</a></p>\n<p>Points: 113</p>\n<p># Comments: 68</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 07 Aug 2026 17:59:19 +0000",
-      "summary": "The End of No Code\n<p>Article URL: <a href=\"https://blog.exe.dev/the-end-of-no-code\">https://blog.exe.dev/the-end-of-no-code</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49214065\">https://news.ycombinator.com/item?id=49214065</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>"
+      "published": "Fri, 07 Aug 2026 21:19:57 +0000",
+      "summary": "Water system controllers don't belong on the internet, says ex-NSA chief\n<p>Article URL: <a href=\"https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070\">https://www.theregister.com/security/2026/08/"
     },
     {
-      "title": "DeepSeek V4 Flash 0731",
-      "link": "https://arcprize.org/results/deepseek-v4-flash-0731",
-      "raw_summary": "<p>Article URL: <a href=\"https://arcprize.org/results/deepseek-v4-flash-0731\">https://arcprize.org/results/deepseek-v4-flash-0731</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49214008\">https://news.ycombinator.com/item?id=49214008</a></p>\n<p>Points: 58</p>\n<p># Comments: 38</p>",
+      "title": "Psychological Warfare in Reverse Engineering (2015)",
+      "link": "https://github.com/xoreaxeaxeax/repsych",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/xoreaxeaxeax/repsych\">https://github.com/xoreaxeaxeax/repsych</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49214775\">https://news.ycombinator.com/item?id=49214775</a></p>\n<p>Points: 44</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 07 Aug 2026 17:56:20 +0000",
-      "summary": "DeepSeek V4 Flash 0731\n<p>Article URL: <a href=\"https://arcprize.org/results/deepseek-v4-flash-0731\">https://arcprize.org/results/deepseek-v4-flash-0731</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49214008\">https://news.ycombinator.com/item?id=49214008</a></p>\n<p>Points: 5"
+      "published": "Fri, 07 Aug 2026 18:51:45 +0000",
+      "summary": "Psychological Warfare in Reverse Engineering (2015)\n<p>Article URL: <a href=\"https://github.com/xoreaxeaxeax/repsych\">https://github.com/xoreaxeaxeax/repsych</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49214775\">https://news.ycombinator.com/item?id=49214775</a></p>\n<p>Poin"
     },
     {
-      "title": "Oracle bans AI-generated code from OpenJDK",
-      "link": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
-      "raw_summary": "<p>Article URL: <a href=\"https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code\">https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49213754\">https://news.ycombinator.com/item?id=49213754</a></p>\n<p>Points: 117</p>\n<p># Comments: 74</p>",
+      "title": "Ancient Library – 1,060 Greek/Latin texts, click any word to parse it",
+      "link": "https://ancientlibrary.net/",
+      "raw_summary": "<p>Article URL: <a href=\"https://ancientlibrary.net/\">https://ancientlibrary.net/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49214770\">https://news.ycombinator.com/item?id=49214770</a></p>\n<p>Points: 138</p>\n<p># Comments: 47</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 07 Aug 2026 17:36:30 +0000",
-      "summary": "Oracle bans AI-generated code from OpenJDK\n<p>Article URL: <a href=\"https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code\">https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-c"
+      "published": "Fri, 07 Aug 2026 18:51:14 +0000",
+      "summary": "Ancient Library – 1,060 Greek/Latin texts, click any word to parse it\n<p>Article URL: <a href=\"https://ancientlibrary.net/\">https://ancientlibrary.net/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49214770\">https://news.ycombinator.com/item?id=49214770</a></p>\n<p>Points: 13"
+    },
+    {
+      "title": "OpenAI says it slowed Astra model development over security concerns",
+      "link": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+      "raw_summary": "OpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against traditionally well-protected real-world systems.",
+      "source": "TechCrunch",
+      "published": "Fri, 07 Aug 2026 22:48:24 +0000",
+      "summary": "OpenAI says it slowed Astra model development over security concerns\nOpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against traditionally well-protected real-world systems."
+    },
+    {
+      "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+      "link": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+      "raw_summary": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.",
+      "source": "TechCrunch",
+      "published": "Fri, 07 Aug 2026 21:30:11 +0000",
+      "summary": "After Rippling blew millions on AI in months, it built an employee ROI tool\nAfter its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending."
+    },
+    {
+      "title": "Wacom’s MovinkPad 11 is a fun, midpriced entry point for digital artists",
+      "link": "https://techcrunch.com/2026/08/07/wacoms-movinkpad-11-is-a-fun-and-mid-priced-entry-point-for-digital-artists/",
+      "raw_summary": "The MovinkPad 11 a versatile little graphics tablet that can help make your wildest digital art dreams come true.",
+      "source": "TechCrunch",
+      "published": "Fri, 07 Aug 2026 21:20:00 +0000",
+      "summary": "Wacom’s MovinkPad 11 is a fun, midpriced entry point for digital artists\nThe MovinkPad 11 a versatile little graphics tablet that can help make your wildest digital art dreams come true."
+    },
+    {
+      "title": "Security researchers scanned the Polish web and found courts, hospitals, and airports at risk of hacks",
+      "link": "https://techcrunch.com/2026/08/07/security-researchers-scanned-the-polish-web-and-found-courts-hospitals-and-airports-at-risk-of-hacks/",
+      "raw_summary": "Researchers found common points of failure, like software used to organize and display web content, could have allowed hackers to run riot through government websites.",
+      "source": "TechCrunch",
+      "published": "Fri, 07 Aug 2026 21:00:08 +0000",
+      "summary": "Security researchers scanned the Polish web and found courts, hospitals, and airports at risk of hacks\nResearchers found common points of failure, like software used to organize and display web content, could have allowed hackers to run riot through government websites."
     },
     {
       "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
       "link": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
-      "raw_summary": "Cloudflare has introduced Kitesurf, a cloud-hosted browser designed for AI agents instead of people. The company says the browser uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.",
+      "raw_summary": "Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.",
       "source": "TechCrunch",
       "published": "Fri, 07 Aug 2026 16:16:09 +0000",
-      "summary": "Cloudflare launches Kitesurf, a browser built for AI agents\nCloudflare has introduced Kitesurf, a cloud-hosted browser designed for AI agents instead of people. The company says the browser uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI"
+      "summary": "Cloudflare launches Kitesurf, a browser built for AI agents\nKitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently."
     },
     {
-      "title": "Computer maker Framework notifies ‘all customers’ of a data breach",
-      "link": "https://techcrunch.com/2026/08/07/computer-maker-framework-notifies-all-customers-of-a-data-breach/",
-      "raw_summary": "Framework told \"all\" of its customers that hackers accessed their names, email addresses, phone numbers, and physical addresses in a data breach.",
-      "source": "TechCrunch",
-      "published": "Fri, 07 Aug 2026 16:09:04 +0000",
-      "summary": "Computer maker Framework notifies ‘all customers’ of a data breach\nFramework told \"all\" of its customers that hackers accessed their names, email addresses, phone numbers, and physical addresses in a data breach."
-    },
-    {
-      "title": "Today’s the last day to get up to $400 off your TechCrunch Disrupt 2026 ticket",
-      "link": "https://techcrunch.com/2026/08/07/todays-the-last-day-to-get-up-to-400-off-your-techcrunch-disrupt-2026-ticket/",
-      "raw_summary": "Starting today, you can take an additional $100 off your founder, investor, or attendee TechCrunch Disrupt 2026 pass, which is a nice bonus on top of our current discounted pricing.",
-      "source": "TechCrunch",
-      "published": "Fri, 07 Aug 2026 15:52:33 +0000",
-      "summary": "Today’s the last day to get up to $400 off your TechCrunch Disrupt 2026 ticket\nStarting today, you can take an additional $100 off your founder, investor, or attendee TechCrunch Disrupt 2026 pass, which is a nice bonus on top of our current discounted pricing."
-    },
-    {
-      "title": "Trump administration has spent nearly $4B to cancel offshore wind farms",
-      "link": "https://techcrunch.com/2026/08/07/trump-administration-has-spent-nearly-4b-to-cancel-offshore-wind-farms/",
-      "raw_summary": "The Trump administration has now convinced developers to abandon 12 offshore wind leases. The latest will cost taxpayers $1.2 billion.",
-      "source": "TechCrunch",
-      "published": "Fri, 07 Aug 2026 15:11:03 +0000",
-      "summary": "Trump administration has spent nearly $4B to cancel offshore wind farms\nThe Trump administration has now convinced developers to abandon 12 offshore wind leases. The latest will cost taxpayers $1.2 billion."
-    },
-    {
-      "title": "Host your own piece of Disrupt: Apply to run a Side Event at TechCrunch Disrupt 2026",
-      "link": "https://techcrunch.com/2026/08/07/host-your-own-piece-of-disrupt-apply-to-run-a-side-event-at-techcrunch-disrupt-2026/",
-      "raw_summary": "You put together the concept — from a founder mixer, an after-hours panel, a themed party, a morning run, whatever fits your goal — and the TechCrunch team helps put it in front of the attendees already in town for Disrupt.",
-      "source": "TechCrunch",
-      "published": "Fri, 07 Aug 2026 14:30:00 +0000",
-      "summary": "Host your own piece of Disrupt: Apply to run a Side Event at TechCrunch Disrupt 2026\nYou put together the concept — from a founder mixer, an after-hours panel, a themed party, a morning run, whatever fits your goal — and the TechCrunch team helps put it in front of the attendees already in town for "
-    },
-    {
-      "title": "Report: White House drafting executive order linking vaccines and autism",
-      "link": "https://arstechnica.com/health/2026/08/report-white-house-drafting-executive-order-linking-vaccines-and-autism/",
-      "raw_summary": "Trump determined to link life-saving shots to autism, despite science and political risk.",
+      "title": "Europe's free satellite service just made it easier to track wildfires",
+      "link": "https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/",
+      "raw_summary": "Copernicus Browser adds wildfire visualization amid record wildfire season.",
       "source": "Ars Technica - All content",
-      "published": "Fri, 07 Aug 2026 14:41:34 +0000",
-      "summary": "Report: White House drafting executive order linking vaccines and autism\nTrump determined to link life-saving shots to autism, despite science and political risk."
+      "published": "Fri, 07 Aug 2026 21:48:21 +0000",
+      "summary": "Europe's free satellite service just made it easier to track wildfires\nCopernicus Browser adds wildfire visualization amid record wildfire season."
     },
     {
-      "title": "AI chatbots have failed people in crisis. Can that be fixed?",
-      "link": "https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/",
-      "raw_summary": "Clinicians and researchers say AI companies need to open up their safety data.",
+      "title": "Flesh-eating screwworms feast on humans in Mexico; human cases top 500",
+      "link": "https://arstechnica.com/health/2026/08/flesh-eating-screwworms-feast-on-humans-in-mexico-human-cases-top-500/",
+      "raw_summary": "Six deaths reported among screwworm cases, one directly attributed to the flies.",
       "source": "Ars Technica - All content",
-      "published": "Fri, 07 Aug 2026 13:49:37 +0000",
-      "summary": "AI chatbots have failed people in crisis. Can that be fixed?\nClinicians and researchers say AI companies need to open up their safety data."
+      "published": "Fri, 07 Aug 2026 21:09:00 +0000",
+      "summary": "Flesh-eating screwworms feast on humans in Mexico; human cases top 500\nSix deaths reported among screwworm cases, one directly attributed to the flies."
     },
     {
-      "title": "ByteDance trains massive AI model in bid to rival Anthropic",
-      "link": "https://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic/",
-      "raw_summary": "TikTok owner training a model with 10 trillion parameters.",
+      "title": "Judge rules Meta caused \"public nuisance\" and must fund mental health treatment",
+      "link": "https://arstechnica.com/tech-policy/2026/08/meta-ordered-to-pay-567m-to-treat-youth-mental-health-problems-it-helped-create/",
+      "raw_summary": "New Mexico judge orders $567M fund to help address youth mental health crisis.",
       "source": "Ars Technica - All content",
-      "published": "Fri, 07 Aug 2026 13:29:22 +0000",
-      "summary": "ByteDance trains massive AI model in bid to rival Anthropic\nTikTok owner training a model with 10 trillion parameters."
+      "published": "Fri, 07 Aug 2026 19:49:27 +0000",
+      "summary": "Judge rules Meta caused \"public nuisance\" and must fund mental health treatment\nNew Mexico judge orders $567M fund to help address youth mental health crisis."
     },
     {
-      "title": "The world's biggest solar telescope caught vortexes on the Sun's surface",
-      "link": "https://arstechnica.com/science/2026/08/the-worlds-biggest-solar-telescope-caught-vortexes-on-the-suns-surface/",
-      "raw_summary": "We expected them to be there, but they had previously been too small to see.",
+      "title": "The ultimate eclipse chase: A Concorde raced against the Moon's shadow",
+      "link": "https://arstechnica.com/science/2026/08/the-ultimate-eclipse-chase-a-concorde-raced-against-the-moons-shadow/",
+      "raw_summary": "Fitted with telescopes, the plane did our longest imaging of the Sun's corona.",
       "source": "Ars Technica - All content",
-      "published": "Fri, 07 Aug 2026 13:20:46 +0000",
-      "summary": "The world's biggest solar telescope caught vortexes on the Sun's surface\nWe expected them to be there, but they had previously been too small to see."
+      "published": "Fri, 07 Aug 2026 19:00:17 +0000",
+      "summary": "The ultimate eclipse chase: A Concorde raced against the Moon's shadow\nFitted with telescopes, the plane did our longest imaging of the Sun's corona."
     },
     {
-      "title": "Trump is losing his war on wind power",
-      "link": "https://arstechnica.com/science/2026/08/trump-is-losing-his-war-on-wind-power/",
-      "raw_summary": "A court rules that a hold on all wind projects clearly violates the law.",
+      "title": "New official 30th anniversary Quake mission pack adds new maps and mechanics",
+      "link": "https://arstechnica.com/gaming/2026/08/new-official-30th-anniversary-quake-mission-pack-adds-new-maps-and-mechanics/",
+      "raw_summary": "19 new maps continue the story from MachineGames' other campaign additions.",
       "source": "Ars Technica - All content",
-      "published": "Fri, 07 Aug 2026 12:58:04 +0000",
-      "summary": "Trump is losing his war on wind power\nA court rules that a hold on all wind projects clearly violates the law."
+      "published": "Fri, 07 Aug 2026 18:00:02 +0000",
+      "summary": "New official 30th anniversary Quake mission pack adds new maps and mechanics\n19 new maps continue the story from MachineGames' other campaign additions."
     },
     {
-      "title": "Trump revives threat to sack Fed governor Lisa Cook",
-      "link": "https://www.ft.com/content/0012c7c9-fb31-4c90-a2e7-e65bd4629b22?syn-25a6b1a6=1",
-      "raw_summary": "Move comes after Supreme Court ruled in June that policymaker could remain in her position while case is resolved",
+      "title": "Moonshot shake-up seeks to win Beijing nod for stock market debut",
+      "link": "https://www.ft.com/content/9c0d4f0d-d2c6-4189-b4bb-200d17a4720f?syn-25a6b1a6=1",
+      "raw_summary": "Chinese AI start-up targets Hong Kong listing to raise fresh funding for next phase of development",
       "source": "World",
-      "published": "Fri, 07 Aug 2026 18:27:01 GMT",
-      "summary": "Trump revives threat to sack Fed governor Lisa Cook\nMove comes after Supreme Court ruled in June that policymaker could remain in her position while case is resolved"
+      "published": "Fri, 07 Aug 2026 23:00:07 GMT",
+      "summary": "Moonshot shake-up seeks to win Beijing nod for stock market debut\nChinese AI start-up targets Hong Kong listing to raise fresh funding for next phase of development"
     },
     {
-      "title": "Burnham’s UK tour to focus on cutting cost of living and helping high streets",
-      "link": "https://www.ft.com/content/cf508e70-5bc2-495e-8b9b-21f15e60ad58?syn-25a6b1a6=1",
-      "raw_summary": "Prime Minister returns from holiday next week with plans to visit every region",
+      "title": "Police investigating Ann Widdecombe murder reopen inquiry into attempted burglary",
+      "link": "https://www.ft.com/content/798623be-8da1-490d-9494-11b3d5f58ac8?syn-25a6b1a6=1",
+      "raw_summary": "Counterterror officers had identified ‘relevant’ information missed during an investigation last year",
       "source": "World",
-      "published": "Fri, 07 Aug 2026 18:01:37 GMT",
-      "summary": "Burnham’s UK tour to focus on cutting cost of living and helping high streets\nPrime Minister returns from holiday next week with plans to visit every region"
+      "published": "Fri, 07 Aug 2026 22:44:34 GMT",
+      "summary": "Police investigating Ann Widdecombe murder reopen inquiry into attempted burglary\nCounterterror officers had identified ‘relevant’ information missed during an investigation last year"
     },
     {
-      "title": "Passing the Clarity Act on digital assets is a matter of national security",
-      "link": "https://www.ft.com/content/8b61001e-6d7c-4ca9-8c4b-853b4555f318",
-      "raw_summary": "If the US does not set terms, crypto activity will migrate beyond American laws and law enforcement to lightly regulated foreign venues",
+      "title": "Spain reinstates border controls on Italy as tensions rise over migrants",
+      "link": "https://www.ft.com/content/f3050d94-6b78-4cf2-8b07-cf8903aacc7f?syn-25a6b1a6=1",
+      "raw_summary": "Move widens rift between Pedro Sánchez’s government and rightwing Italian premier Giorgia Meloni",
       "source": "World",
-      "published": "Fri, 07 Aug 2026 17:00:06 GMT",
-      "summary": "Passing the Clarity Act on digital assets is a matter of national security\nIf the US does not set terms, crypto activity will migrate beyond American laws and law enforcement to lightly regulated foreign venues"
+      "published": "Fri, 07 Aug 2026 22:06:08 GMT",
+      "summary": "Spain reinstates border controls on Italy as tensions rise over migrants\nMove widens rift between Pedro Sánchez’s government and rightwing Italian premier Giorgia Meloni"
+    },
+    {
+      "title": "Iran’s oil exports stall and Kharg Island idles under US blockade",
+      "link": "https://www.ft.com/content/6bc9c93d-1b75-4512-8bc2-ba33cc3c4a53?syn-25a6b1a6=1",
+      "raw_summary": "Naval interdiction appears to be halting tankers from carrying Tehran’s crude",
+      "source": "World",
+      "published": "Fri, 07 Aug 2026 21:12:17 GMT",
+      "summary": "Iran’s oil exports stall and Kharg Island idles under US blockade\nNaval interdiction appears to be halting tankers from carrying Tehran’s crude"
     },
     {
       "title": "US economy unexpectedly sheds 23,000 jobs in July",
       "link": "https://www.ft.com/content/54adfc90-f555-44d3-8a81-4f39a07b5473?syn-25a6b1a6=1",
       "raw_summary": "Lacklustre figure prompts traders to scale back bets on Fed rate rises",
       "source": "World",
-      "published": "Fri, 07 Aug 2026 16:53:49 GMT",
+      "published": "Fri, 07 Aug 2026 20:02:22 GMT",
       "summary": "US economy unexpectedly sheds 23,000 jobs in July\nLacklustre figure prompts traders to scale back bets on Fed rate rises"
     },
     {
-      "title": "Cambridge university to review appointments process after Jason Arday affair",
-      "link": "https://www.ft.com/content/0fd301d9-7e47-46ff-89b9-b666a8a1c148?syn-25a6b1a6=1",
-      "raw_summary": "Elite institution’s youngest-ever Black professor resigned this week following allegations of plagiarism",
-      "source": "World",
-      "published": "Fri, 07 Aug 2026 13:47:52 GMT",
-      "summary": "Cambridge university to review appointments process after Jason Arday affair\nElite institution’s youngest-ever Black professor resigned this week following allegations of plagiarism"
+      "title": "US Partly Resumes Operations in Mexico’s Avocado State Michoacan",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-08/us-partly-resumes-operations-in-mexico-s-avocado-state-michoacan",
+      "raw_summary": "The US will partially resume operations in Mexico’s top avocado-producing state, days after security concerns prompted a halt that disrupted inspections for exports.",
+      "source": "Bloomberg Markets",
+      "published": "Sat, 08 Aug 2026 00:12:21 GMT",
+      "summary": "US Partly Resumes Operations in Mexico’s Avocado State Michoacan\nThe US will partially resume operations in Mexico’s top avocado-producing state, days after security concerns prompted a halt that disrupted inspections for exports."
     },
     {
-      "title": "Cyclospora Outbreak Sends Shivers Through Restaurant Stocks",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-07/cyclospora-outbreak-puts-pressure-on-restaurant-stocks-video",
-      "raw_summary": "The cyclospora outbreak in the U.S. tied to lettuce used in restaurants has made more than 10,000 people sick according to the Centers for Disease Control. This has caused fewer people to go out to eat or get fast food. Now this is starting to hurt the restaurant sector. R.J. Hottovy of Placer.ai research covers the space and joins \"Bloomberg The Close.\" (Source: Bloomberg)",
+      "title": "SEC Drops Insider-Trading Suit Against Executive Trump Pardoned",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-07/sec-drops-insider-trading-suit-against-executive-trump-pardoned",
+      "raw_summary": "The US Securities and Exchange Commission said it is dropping an insider-trading lawsuit against a former healthcare executive who was convicted in a related criminal case and then pardoned by President Donald Trump.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 07 Aug 2026 14:38:50 GMT",
-      "summary": "Cyclospora Outbreak Sends Shivers Through Restaurant Stocks\nThe cyclospora outbreak in the U.S. tied to lettuce used in restaurants has made more than 10,000 people sick according to the Centers for Disease Control. This has caused fewer people to go out to eat or get fast food. Now this is starting"
+      "published": "Fri, 07 Aug 2026 22:58:03 GMT",
+      "summary": "SEC Drops Insider-Trading Suit Against Executive Trump Pardoned\nThe US Securities and Exchange Commission said it is dropping an insider-trading lawsuit against a former healthcare executive who was convicted in a related criminal case and then pardoned by President Donald Trump."
     },
     {
-      "title": "Stocks and Bonds Rise as Jobs Ease Fed-Hike Wagers: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-06/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "A sharp slowdown in the US jobs market drove stocks higher while bond yields fell on speculation the Federal Reserve won’t be forced to raise interest rates any time soon.",
+      "title": "CFTC Warns Prediction Markets on American-Style Casino Odds",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-07/cftc-warns-prediction-markets-against-american-style-casino-odds",
+      "raw_summary": "The Commodity Futures Trading Commission told prediction markets to avoid using American-style gambling odds as the US regulator fends off legal challenges alleging the platforms are illicit sports betting operations.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 06 Aug 2026 22:10:21 GMT",
-      "summary": "Stocks and Bonds Rise as Jobs Ease Fed-Hike Wagers: Markets Wrap\nA sharp slowdown in the US jobs market drove stocks higher while bond yields fell on speculation the Federal Reserve won’t be forced to raise interest rates any time soon."
+      "published": "Fri, 07 Aug 2026 15:13:29 GMT",
+      "summary": "CFTC Warns Prediction Markets on American-Style Casino Odds\nThe Commodity Futures Trading Commission told prediction markets to avoid using American-style gambling odds as the US regulator fends off legal challenges alleging the platforms are illicit sports betting operations."
     },
     {
-      "title": "US Stocks Pare Gains as Jobs Data Seen Easing Fed Rate Hike",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-07/us-futures-rise-as-trump-touts-iran-progress-awaiting-jobs-data",
-      "raw_summary": "US stocks pared gains on Friday after jobs data showed the US economy unexpectedly shed jobs in July, which could prompt the Federal Reserve to delay interest-rate increases.",
+      "title": "Yen Jumps on US Data as Traders Watch for Intervention Clues",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-07/yen-surrenders-nearly-half-its-gains-from-us-japan-intervention",
+      "raw_summary": "The yen surged against a weaker dollar after an unexpectedly soft US payrolls report on Friday, with traders on alert for any sign authorities were preparing to intervene in the Japanese currency again.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 07 Aug 2026 11:44:11 GMT",
-      "summary": "US Stocks Pare Gains as Jobs Data Seen Easing Fed Rate Hike\nUS stocks pared gains on Friday after jobs data showed the US economy unexpectedly shed jobs in July, which could prompt the Federal Reserve to delay interest-rate increases."
+      "published": "Fri, 07 Aug 2026 00:04:31 GMT",
+      "summary": "Yen Jumps on US Data as Traders Watch for Intervention Clues\nThe yen surged against a weaker dollar after an unexpectedly soft US payrolls report on Friday, with traders on alert for any sign authorities were preparing to intervene in the Japanese currency again."
     },
     {
-      "title": "Phelan Confirmed to Lead Trump’s Council of Economic Advisers",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-07/phelan-confirmed-to-lead-trump-s-council-of-economic-advisers",
-      "raw_summary": "The US Senate confirmed Christopher Phelan, a former adviser to the Federal Reserve Bank of Minneapolis, as chairman of the White House Council of Economic Advisers.",
+      "title": "Optimizing Life and Finances in Your Twenties | Masters in Business with Jack Raines",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-07/masters-in-business-with-jack-raines-video",
+      "raw_summary": "Barry sits down with Jack Raines author of \"Younge Money\". Jack dives into his unlikely journey into finance and venture capital. He discusses how his travels impacted the way he sees money and purpose in your twenties. He also reviews how to incorporate passion into your career and the impact it will have in your long-term finances. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Fri, 07 Aug 2026 18:28:17 GMT",
-      "summary": "Phelan Confirmed to Lead Trump’s Council of Economic Advisers\nThe US Senate confirmed Christopher Phelan, a former adviser to the Federal Reserve Bank of Minneapolis, as chairman of the White House Council of Economic Advisers."
+      "published": "Fri, 07 Aug 2026 21:00:20 GMT",
+      "summary": "Optimizing Life and Finances in Your Twenties | Masters in Business with Jack Raines\nBarry sits down with Jack Raines author of \"Younge Money\". Jack dives into his unlikely journey into finance and venture capital. He discusses how his travels impacted the way he sees money and purpose in your twent"
     },
     {
-      "title": "Once-AAA Bonds on New York Megamall Face $350 Million Loss",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-07/once-aaa-bonds-on-new-york-megamall-face-over-350-million-loss",
-      "raw_summary": "Pyramid Management Group, a shopping center developer, is buying back the mortgage on a struggling megamall it owns in Syracuse, New York, for cents on the dollar, mostly wiping out bonds that originally carried top ratings.",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 07 Aug 2026 15:34:16 GMT",
-      "summary": "Once-AAA Bonds on New York Megamall Face $350 Million Loss\nPyramid Management Group, a shopping center developer, is buying back the mortgage on a struggling megamall it owns in Syracuse, New York, for cents on the dollar, mostly wiping out bonds that originally carried top ratings."
+      "title": "Trump Media pulls back from crypto, scraps Crypto.com's CRO token treasury deal",
+      "link": "https://www.coindesk.com/business/2026/08/07/trump-media-pulls-back-from-crypto-scraps-crypto-com-cro-treasury-deal",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Fri, 07 Aug 2026 21:13:21 +0000",
+      "summary": "Trump Media pulls back from crypto, scraps Crypto.com's CRO token treasury deal\n"
+    },
+    {
+      "title": "Trump-Backed American Bitcoin director Justin Mateen buys nearly $2 million of ABTC stock",
+      "link": "https://www.coindesk.com/business/2026/08/07/trump-backed-american-bitcoin-director-justin-mateen-buys-nearly-usd2-million-of-abtc-stock",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Fri, 07 Aug 2026 20:20:00 +0000",
+      "summary": "Trump-Backed American Bitcoin director Justin Mateen buys nearly $2 million of ABTC stock\n"
+    },
+    {
+      "title": "U.S. widens Iran crypto crackdown with sanctions on two exchanges",
+      "link": "https://www.coindesk.com/policy/2026/08/07/u-s-widens-iran-crypto-crackdown-with-sanctions-on-two-exchanges",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Fri, 07 Aug 2026 18:42:44 +0000",
+      "summary": "U.S. widens Iran crypto crackdown with sanctions on two exchanges\n"
     },
     {
       "title": "BitMEX sale collapsed as buyers balked at founder ownership and shrinking business",
@@ -297,30 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Fri, 07 Aug 2026 16:32:41 +0000",
       "summary": "Bybit sues North Korea and Lazarus Group over $1.5 billion hack, secures asset freeze\n"
-    },
-    {
-      "title": "OKX's Rafique doubts Clarity Act will pass, warns optimism is already priced into bitcoin",
-      "link": "https://www.coindesk.com/policy/2026/08/04/okx-s-rafique-doubts-clarity-act-will-pass-warns-optimism-is-already-priced-into-bitcoin",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 07 Aug 2026 15:22:44 +0000",
-      "summary": "OKX's Rafique doubts Clarity Act will pass, warns optimism is already priced into bitcoin\n"
-    },
-    {
-      "title": "How a five-second trick let traders drain millions from Polymarket",
-      "link": "https://www.coindesk.com/business/2026/08/07/how-a-five-second-trick-let-traders-drain-millions-from-polymarket",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 07 Aug 2026 15:09:07 +0000",
-      "summary": "How a five-second trick let traders drain millions from Polymarket\n"
-    },
-    {
-      "title": "A part of FTX survived, and it’s the case for the CLARITY Act",
-      "link": "https://www.coindesk.com/opinion/2026/08/07/a-part-of-ftx-survived-and-it-s-the-case-for-the-clarity-act",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 07 Aug 2026 14:30:25 +0000",
-      "summary": "A part of FTX survived, and it’s the case for the CLARITY Act\n"
     }
   ]
 }
