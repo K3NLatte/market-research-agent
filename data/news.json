@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T12:44:14.632597+00:00",
+  "generated_at": "2026-08-11T18:50:54.876047+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "Lessons Learned from CISA’s Recent GitHub Leak\nThe Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months "
     },
     {
+      "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
+      "link": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
+      "raw_summary": "Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an AI agent.\n\nThe flaw, tracked as&nbsp;CVE-2026-55040&nbsp;(CVSS 9.1), affects SharePoint Server Subscription Edition, SharePoint Server 2019, and SharePoint Server 2016. Microsoft's",
+      "source": "The Hacker News",
+      "published": "Tue, 11 Aug 2026 22:17:44 +0530",
+      "summary": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE\nSecurity researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an AI agent.\n\nTh"
+    },
+    {
+      "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
+      "link": "https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html",
+      "raw_summary": "The ransomware group known as DeadLock has been observed using decentralized infrastructure to facilitate victim communications and data leak operations in a bid to improve operational resilience.\n\n\"Its recovery ecosystem combines the Session messaging network with blockchain-backed services that store and deliver resources used throughout the extortion process,\" the Microsoft Threat",
+      "source": "The Hacker News",
+      "published": "Tue, 11 Aug 2026 22:05:27 +0530",
+      "summary": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt\nThe ransomware group known as DeadLock has been observed using decentralized infrastructure to facilitate victim communications and data leak operations in a bid to improve operational resilience.\n\n\"Its recove"
+    },
+    {
+      "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
+      "link": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
+      "raw_summary": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response.\n\n\"Built on GPT‑5.6 Sol, it is trained to improve capabilities on several specialized cybersecurity tasks (e.g., finding zero-day vulnerabilities and developing exploit chains) and to reduce refusals for certain higher-risk",
+      "source": "The Hacker News",
+      "published": "Tue, 11 Aug 2026 18:41:23 +0530",
+      "summary": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development\nOpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response.\n\n\"Built on GPT‑5.6 Sol, it is trained to impro"
+    },
+    {
       "title": "A Malicious SIM Card Can Run Attacker Code Inside the Modems Behind Cellular IoT Devices",
       "link": "https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html",
       "raw_summary": "A malicious SIM card can order the device it sits in to run commands of the attacker's choosing. On the cellular modules built into electric-vehicle chargers, industrial routers, and car telematics units, that is enough to take the whole device over.\n\nResearchers at the University of Birmingham and the security firm Fuzzware tested 26 phones and cellular modules for the capability, found it",
@@ -59,228 +83,236 @@
       "summary": "Mozilla Revokes Firefox and Thunderbird Linux Signing Key After Key Lands in Private Repo\nMozilla has scrapped the cryptographic key behind Firefox and Thunderbird downloads for Linux after an unencrypted copy of it was committed by mistake to one of the company's own private code repositories.\n\nTha"
     },
     {
-      "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
-      "link": "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html",
-      "raw_summary": "Security researchers invented a cryptocurrency startup, advertised developer jobs, and hired three people they believe were North Korean operatives. Every virtual machine the company issued was recording.\n\nThe onboarding paperwork is the part hiring teams can use. The first hire claimed to live in Pasadena, Texas, then sent a California driver's license and a New York bank account.\n\nThe",
-      "source": "The Hacker News",
-      "published": "Tue, 11 Aug 2026 17:05:03 +0530",
-      "summary": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers\nSecurity researchers invented a cryptocurrency startup, advertised developer jobs, and hired three people they believe were North Korean operatives. Every virtual machine the company issued was recording.\n\nThe "
-    },
-    {
-      "title": "Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11",
-      "link": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html",
-      "raw_summary": "Windows Plug and Play can be abused to fetch signed vendor software for an emulated USB device and execute privileged installation components that researchers chained to SYSTEM access on a fully updated Windows 11 machine.\n\nThe same PnP path can be triggered over Remote Desktop without physical hardware when supported Plug and Play or low-level USB redirection is enabled; Microsoft says that",
-      "source": "The Hacker News",
-      "published": "Tue, 11 Aug 2026 16:18:26 +0530",
-      "summary": "Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11\nWindows Plug and Play can be abused to fetch signed vendor software for an emulated USB device and execute privileged installation components that researchers chained to SYSTEM access on a fully updated Windows 11 machine.\n\n"
-    },
-    {
-      "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
-      "link": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
-      "raw_summary": "A malicious tool server connected to an AI coding assistant can quietly walk off with SSH keys, environment secrets, source code, and customer data without ever sending one obviously harmful instruction.\n\nThe trick can work even after a blunt version of the same theft is refused: split the request into fragments that each look routine, place them in channels the assistant already uses, and let",
-      "source": "The Hacker News",
-      "published": "Tue, 11 Aug 2026 15:54:00 +0530",
-      "summary": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets\nA malicious tool server connected to an AI coding assistant can quietly walk off with SSH keys, environment secrets, source code, and customer data without ever sending one obviously harmful instruction.\n\nThe tr"
-    },
-    {
-      "title": "OpenAI's Only Ethicist Reportedly Left Last Month",
-      "link": "https://gizmodo.com/openais-only-ethicist-reportedly-left-last-month-she-wasnt-replaced-2000796883",
-      "raw_summary": "<p>Article URL: <a href=\"https://gizmodo.com/openais-only-ethicist-reportedly-left-last-month-she-wasnt-replaced-2000796883\">https://gizmodo.com/openais-only-ethicist-reportedly-left-last-month-she-wasnt-replaced-2000796883</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49257160\">https://news.ycombinator.com/item?id=49257160</a></p>\n<p>Points: 4</p>\n<p># Comments: 5</p>",
+      "title": "We Used to Get Jobs",
+      "link": "https://ironicsans.ghost.io/how-we-used-to-get-jobs/",
+      "raw_summary": "<p>Article URL: <a href=\"https://ironicsans.ghost.io/how-we-used-to-get-jobs/\">https://ironicsans.ghost.io/how-we-used-to-get-jobs/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49262211\">https://news.ycombinator.com/item?id=49262211</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 11 Aug 2026 12:23:07 +0000",
-      "summary": "OpenAI's Only Ethicist Reportedly Left Last Month\n<p>Article URL: <a href=\"https://gizmodo.com/openais-only-ethicist-reportedly-left-last-month-she-wasnt-replaced-2000796883\">https://gizmodo.com/openais-only-ethicist-reportedly-left-last-month-she-wasnt-replaced-2000796883</a></p>\n<p>Comments URL: <"
+      "published": "Tue, 11 Aug 2026 18:09:56 +0000",
+      "summary": "We Used to Get Jobs\n<p>Article URL: <a href=\"https://ironicsans.ghost.io/how-we-used-to-get-jobs/\">https://ironicsans.ghost.io/how-we-used-to-get-jobs/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49262211\">https://news.ycombinator.com/item?id=49262211</a></p>\n<p>Points: 6<"
     },
     {
-      "title": "Closing Canario Terminal source code",
-      "link": "https://rapha.land/closing-canario-terminal-source-code/",
-      "raw_summary": "<p>Article URL: <a href=\"https://rapha.land/closing-canario-terminal-source-code/\">https://rapha.land/closing-canario-terminal-source-code/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49254881\">https://news.ycombinator.com/item?id=49254881</a></p>\n<p>Points: 18</p>\n<p># Comments: 24</p>",
+      "title": "OpenSSH 10.5 released, AI assistance now welcome",
+      "link": "https://www.openssh.org/releasenotes.html#10.5",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.openssh.org/releasenotes.html#10.5\">https://www.openssh.org/releasenotes.html#10.5</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49261895\">https://news.ycombinator.com/item?id=49261895</a></p>\n<p>Points: 24</p>\n<p># Comments: 8</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 11 Aug 2026 08:16:19 +0000",
-      "summary": "Closing Canario Terminal source code\n<p>Article URL: <a href=\"https://rapha.land/closing-canario-terminal-source-code/\">https://rapha.land/closing-canario-terminal-source-code/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49254881\">https://news.ycombinator.com/item?id=49254"
+      "published": "Tue, 11 Aug 2026 17:49:37 +0000",
+      "summary": "OpenSSH 10.5 released, AI assistance now welcome\n<p>Article URL: <a href=\"https://www.openssh.org/releasenotes.html#10.5\">https://www.openssh.org/releasenotes.html#10.5</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49261895\">https://news.ycombinator.com/item?id=49261895</a><"
     },
     {
-      "title": "France to ban unsolicited telemarketing calls",
-      "link": "https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html\">https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49254880\">https://news.ycombinator.com/item?id=49254880</a></p>\n<p>Points: 436</p>\n<p># Comments: 266</p>",
+      "title": "Why Go Is an Ideal Language for AI-Assisted Software Engineering",
+      "link": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
+      "raw_summary": "<p>Article URL: <a href=\"https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/\">https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49261133\">https://news.ycombinator.com/item?id=49261133</a></p>\n<p>Points: 99</p>\n<p># Comments: 103</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 11 Aug 2026 08:15:46 +0000",
-      "summary": "France to ban unsolicited telemarketing calls\n<p>Article URL: <a href=\"https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html\">https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-fr"
+      "published": "Tue, 11 Aug 2026 16:57:09 +0000",
+      "summary": "Why Go Is an Ideal Language for AI-Assisted Software Engineering\n<p>Article URL: <a href=\"https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/\">https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/</a></p>\n<"
     },
     {
-      "title": "Show HN: Mcptoon – Token-efficient MCP CLI client",
-      "link": "https://github.com/activeing123/mcptoon",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/activeing123/mcptoon\">https://github.com/activeing123/mcptoon</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49253721\">https://news.ycombinator.com/item?id=49253721</a></p>\n<p>Points: 56</p>\n<p># Comments: 40</p>",
+      "title": "Mojo 1.0 Is Here",
+      "link": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here\">https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49261128\">https://news.ycombinator.com/item?id=49261128</a></p>\n<p>Points: 31</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 11 Aug 2026 05:26:58 +0000",
-      "summary": "Show HN: Mcptoon – Token-efficient MCP CLI client\n<p>Article URL: <a href=\"https://github.com/activeing123/mcptoon\">https://github.com/activeing123/mcptoon</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49253721\">https://news.ycombinator.com/item?id=49253721</a></p>\n<p>Points"
+      "published": "Tue, 11 Aug 2026 16:56:46 +0000",
+      "summary": "Mojo 1.0 Is Here\n<p>Article URL: <a href=\"https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here\">https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49261128\">https://news.ycombinator.com/item?id=49261128</a></p>\n<p>P"
     },
     {
-      "title": "Recycle – Floppydisks",
-      "link": "https://www.floppydisk.com/recycle",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.floppydisk.com/recycle\">https://www.floppydisk.com/recycle</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49252462\">https://news.ycombinator.com/item?id=49252462</a></p>\n<p>Points: 75</p>\n<p># Comments: 32</p>",
+      "title": "Show HN: Git-knife – edit commit messages, authors, and dates like a spreadsheet",
+      "link": "https://github.com/TheRealYT/git-knife",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/TheRealYT/git-knife\">https://github.com/TheRealYT/git-knife</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49259611\">https://news.ycombinator.com/item?id=49259611</a></p>\n<p>Points: 75</p>\n<p># Comments: 58</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 11 Aug 2026 02:01:01 +0000",
-      "summary": "Recycle – Floppydisks\n<p>Article URL: <a href=\"https://www.floppydisk.com/recycle\">https://www.floppydisk.com/recycle</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49252462\">https://news.ycombinator.com/item?id=49252462</a></p>\n<p>Points: 75</p>\n<p># Comments: 32</p>"
+      "published": "Tue, 11 Aug 2026 15:09:34 +0000",
+      "summary": "Show HN: Git-knife – edit commit messages, authors, and dates like a spreadsheet\n<p>Article URL: <a href=\"https://github.com/TheRealYT/git-knife\">https://github.com/TheRealYT/git-knife</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49259611\">https://news.ycombinator.com/item?"
     },
     {
-      "title": "What comes after the smartphone? Amazon’s Panos Panay will make his case at TechCrunch Disrupt 2026",
-      "link": "https://techcrunch.com/2026/08/11/what-comes-after-the-smartphone-amazons-panos-panay-will-make-his-case-at-techcrunch-disrupt-2026/",
-      "raw_summary": "At Disrupt 2026, Amazon's Panos Panay will provide an exclusive vision for what's in store for us beyond the smartphone.",
+      "title": "Google’s Gemini app surges to one billion users",
+      "link": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
+      "raw_summary": "Gemini is keeping pace with OpenAI’s ChatGPT, which hit 1 billion monthly active users back in June.",
       "source": "TechCrunch",
-      "published": "Tue, 11 Aug 2026 12:30:00 +0000",
-      "summary": "What comes after the smartphone? Amazon’s Panos Panay will make his case at TechCrunch Disrupt 2026\nAt Disrupt 2026, Amazon's Panos Panay will provide an exclusive vision for what's in store for us beyond the smartphone."
+      "published": "Tue, 11 Aug 2026 18:49:12 +0000",
+      "summary": "Google’s Gemini app surges to one billion users\nGemini is keeping pace with OpenAI’s ChatGPT, which hit 1 billion monthly active users back in June."
     },
     {
-      "title": "Anthropic says it will watermark text generated by its AI models",
-      "link": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/",
-      "raw_summary": "Anthropic will extend support for watermarking AI generations for older models as well.",
+      "title": "Bluesky’s active user base is shrinking as its focus expands beyond the app",
+      "link": "https://techcrunch.com/2026/08/11/blueskys-active-user-base-is-shrinking-as-its-focus-expands-beyond-the-app/",
+      "raw_summary": "Over a year following its post-election surge, Bluesky’s mobile app is seeing a continued decline in active users, though its remaining community is still relatively engaged.",
       "source": "TechCrunch",
-      "published": "Tue, 11 Aug 2026 12:13:47 +0000",
-      "summary": "Anthropic says it will watermark text generated by its AI models\nAnthropic will extend support for watermarking AI generations for older models as well."
+      "published": "Tue, 11 Aug 2026 17:46:14 +0000",
+      "summary": "Bluesky’s active user base is shrinking as its focus expands beyond the app\nOver a year following its post-election surge, Bluesky’s mobile app is seeing a continued decline in active users, though its remaining community is still relatively engaged."
     },
     {
-      "title": "OpenAI reportedly completed a $7 billion employee tender offer",
-      "link": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
-      "raw_summary": "San Francisco's housing market is in trouble again.",
+      "title": "What’s Scaleup Europe, the $5.7B fund that just backed satellite company ICEYE?",
+      "link": "https://techcrunch.com/2026/08/11/whats-scaleup-europe-the-5-7b-fund-that-just-backed-satellite-company-iceye/",
+      "raw_summary": "Scaleup Europe, a public-private fund with a $5.7 billion target, made its first investment by backing Finnish satellite company ICEYE.",
       "source": "TechCrunch",
-      "published": "Tue, 11 Aug 2026 00:03:18 +0000",
-      "summary": "OpenAI reportedly completed a $7 billion employee tender offer\nSan Francisco's housing market is in trouble again."
+      "published": "Tue, 11 Aug 2026 17:41:49 +0000",
+      "summary": "What’s Scaleup Europe, the $5.7B fund that just backed satellite company ICEYE?\nScaleup Europe, a public-private fund with a $5.7 billion target, made its first investment by backing Finnish satellite company ICEYE."
     },
     {
-      "title": "As AI-led attacks multiply, OpenAI launches a new cyber model",
-      "link": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
-      "raw_summary": "OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.",
+      "title": "Brad Lightcap, OpenAI’s longtime COO, is leaving to ‘start something new’",
+      "link": "https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/",
+      "raw_summary": "One of OpenAI's longest-serving executives is headed out the door, although the longtime COO told staff that he was \"excited to help you all advance the mission from a different vantage point.\"",
       "source": "TechCrunch",
-      "published": "Mon, 10 Aug 2026 23:56:15 +0000",
-      "summary": "As AI-led attacks multiply, OpenAI launches a new cyber model\nOpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it."
+      "published": "Tue, 11 Aug 2026 17:41:34 +0000",
+      "summary": "Brad Lightcap, OpenAI’s longtime COO, is leaving to ‘start something new’\nOne of OpenAI's longest-serving executives is headed out the door, although the longtime COO told staff that he was \"excited to help you all advance the mission from a different vantage point.\""
     },
     {
-      "title": "Jeff Bezos might finally get his hands on a sports team",
-      "link": "https://techcrunch.com/2026/08/10/jeff-bezos-might-finally-get-his-hands-on-a-sports-team/",
-      "raw_summary": "Jeff Bezos is reportedly close to buying his first stake in a sports team: the U.K.'s famed Liverpool Football Club.",
+      "title": "General Catalyst leads $1.1B round into 2-month-old River AI",
+      "link": "https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/",
+      "raw_summary": "River AI, a startup founded by xAI co-founder Igor Babuschkin, has a fascinating vision for personal agents and secured $1.1 billion out of the gate.",
       "source": "TechCrunch",
-      "published": "Mon, 10 Aug 2026 23:16:44 +0000",
-      "summary": "Jeff Bezos might finally get his hands on a sports team\nJeff Bezos is reportedly close to buying his first stake in a sports team: the U.K.'s famed Liverpool Football Club."
+      "published": "Tue, 11 Aug 2026 17:41:22 +0000",
+      "summary": "General Catalyst leads $1.1B round into 2-month-old River AI\nRiver AI, a startup founded by xAI co-founder Igor Babuschkin, has a fascinating vision for personal agents and secured $1.1 billion out of the gate."
     },
     {
-      "title": "Ars Live: Ross Scott discusses the Stop Killing Games movement",
-      "link": "https://arstechnica.com/gaming/2026/08/ars-live-ross-scott-discusses-the-stop-killing-games-movement/",
-      "raw_summary": "Our discussion takes place live on August 11 at 3 pm ET.",
+      "title": "Less than 2.5% of Taylor Farms' recalled lettuce went to Taco Bells",
+      "link": "https://arstechnica.com/health/2026/08/less-than-2-5-of-taylor-farms-recalled-lettuce-went-to-taco-bells/",
+      "raw_summary": "FDA report finally reveals where Taylor Farms sent its lettuce—and it raises questions.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 10 Aug 2026 22:23:43 +0000",
-      "summary": "Ars Live: Ross Scott discusses the Stop Killing Games movement\nOur discussion takes place live on August 11 at 3 pm ET."
+      "published": "Tue, 11 Aug 2026 18:00:14 +0000",
+      "summary": "Less than 2.5% of Taylor Farms' recalled lettuce went to Taco Bells\nFDA report finally reveals where Taylor Farms sent its lettuce—and it raises questions."
     },
     {
-      "title": "With new open models, Meta pitches another reboot of its struggling AI strategy",
-      "link": "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/",
-      "raw_summary": "Meta has been trailing competitors. Zuckerberg thinks he's found a way forward.",
+      "title": "Tracking extreme heat by the hour makes climate change seem even worse",
+      "link": "https://arstechnica.com/science/2026/08/tracking-extreme-heat-by-the-hour-makes-climate-change-seem-even-worse/",
+      "raw_summary": "Hot hours of summer could triple in the coming decades.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 10 Aug 2026 22:13:03 +0000",
-      "summary": "With new open models, Meta pitches another reboot of its struggling AI strategy\nMeta has been trailing competitors. Zuckerberg thinks he's found a way forward."
+      "published": "Tue, 11 Aug 2026 16:26:38 +0000",
+      "summary": "Tracking extreme heat by the hour makes climate change seem even worse\nHot hours of summer could triple in the coming decades."
     },
     {
-      "title": "Trump signs bonkers order that cuts vaccines, promotes ones that don't exist",
-      "link": "https://arstechnica.com/health/2026/08/trump-signs-bonkers-order-that-cuts-vaccines-promotes-ones-that-dont-exist/",
-      "raw_summary": "Trump falsely claimed the MMR vaccine is \"quite lethal\" and linked shots to autism.",
+      "title": "A Google insider spills the tea on how the company forsook its founding ideals",
+      "link": "https://arstechnica.com/gadgets/2026/08/a-google-insider-spills-the-tea-on-how-the-company-forsook-its-founding-ideals/",
+      "raw_summary": "Claire Stapleton's new book, <em>Don't Be Evil</em>, recounts her journey from company cheerleader to outspoken dissident.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 10 Aug 2026 21:42:56 +0000",
-      "summary": "Trump signs bonkers order that cuts vaccines, promotes ones that don't exist\nTrump falsely claimed the MMR vaccine is \"quite lethal\" and linked shots to autism."
+      "published": "Tue, 11 Aug 2026 16:07:34 +0000",
+      "summary": "A Google insider spills the tea on how the company forsook its founding ideals\nClaire Stapleton's new book, <em>Don't Be Evil</em>, recounts her journey from company cheerleader to outspoken dissident."
     },
     {
-      "title": "Developer Cold Iron Studios shuts down cloud version of $60 game with no refunds",
-      "link": "https://arstechnica.com/gadgets/2026/08/players-lose-access-to-aliens-fireteam-elite-on-nintendo-switch-without-refunds/",
-      "raw_summary": "A reminder of the perils of digital ownership.",
+      "title": "Trump to give Republicans a 3-1 FCC majority, isn't filling empty Democratic seat",
+      "link": "https://arstechnica.com/tech-policy/2026/08/trump-to-give-republicans-a-3-1-fcc-majority-isnt-filling-empty-democratic-seat/",
+      "raw_summary": "Trump has resisted urge to fire FCC Democrat despite recent Supreme Court win.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 10 Aug 2026 21:26:38 +0000",
-      "summary": "Developer Cold Iron Studios shuts down cloud version of $60 game with no refunds\nA reminder of the perils of digital ownership."
+      "published": "Tue, 11 Aug 2026 15:28:43 +0000",
+      "summary": "Trump to give Republicans a 3-1 FCC majority, isn't filling empty Democratic seat\nTrump has resisted urge to fire FCC Democrat despite recent Supreme Court win."
     },
     {
-      "title": "Amazon backs power plant that may become top source of US climate pollution",
-      "link": "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/",
-      "raw_summary": "Amazon announces first off-the-grid data center in race to reap AI profits.",
+      "title": "New surveillance tech links your phone to your license plate",
+      "link": "https://arstechnica.com/security/2026/08/new-surveillance-tech-links-your-phone-to-your-license-plate/",
+      "raw_summary": "Phone and Bluetooth signals could turn roadside cameras into far richer tracking tools.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 10 Aug 2026 20:45:52 +0000",
-      "summary": "Amazon backs power plant that may become top source of US climate pollution\nAmazon announces first off-the-grid data center in race to reap AI profits."
+      "published": "Tue, 11 Aug 2026 13:15:24 +0000",
+      "summary": "New surveillance tech links your phone to your license plate\nPhone and Bluetooth signals could turn roadside cameras into far richer tracking tools."
     },
     {
-      "title": "How to stop Warsh becoming a lame duck",
-      "link": "https://www.ft.com/content/e4b66f65-ae0d-45cd-aede-8662de3495b1?syn-25a6b1a6=1",
-      "raw_summary": "The Federal Reserve chair needs to assert his authority or others will usurp his natural role",
+      "title": "Climate change an ‘existential threat’ to England’s green spaces, study finds",
+      "link": "https://www.ft.com/content/386903c4-9b22-4c30-9b92-e173946898f9",
+      "raw_summary": "Hotter, drier summers are creating stress on plants and soils",
       "source": "World",
-      "published": "Tue, 11 Aug 2026 11:30:05 GMT",
-      "summary": "How to stop Warsh becoming a lame duck\nThe Federal Reserve chair needs to assert his authority or others will usurp his natural role"
+      "published": "Tue, 11 Aug 2026 18:22:33 GMT",
+      "summary": "Climate change an ‘existential threat’ to England’s green spaces, study finds\nHotter, drier summers are creating stress on plants and soils"
     },
     {
-      "title": "For prisons to work, we need to look at what is happening inside them",
-      "link": "https://www.ft.com/content/aa5ea665-2c80-490f-b410-ea48cbdaf9cd",
-      "raw_summary": "The row over early releases ignores the fact that many will soon return without proper educational funding",
+      "title": "Andy Burnham faces first real test over his handling of prisons crisis",
+      "link": "https://www.ft.com/content/9bc922b6-47b3-47f5-9793-209731717d60?syn-25a6b1a6=1",
+      "raw_summary": "New UK prime minister has leaned into the idea that he can respond to Britons’ concerns",
       "source": "World",
-      "published": "Tue, 11 Aug 2026 11:09:05 GMT",
-      "summary": "For prisons to work, we need to look at what is happening inside them\nThe row over early releases ignores the fact that many will soon return without proper educational funding"
+      "published": "Tue, 11 Aug 2026 18:19:22 GMT",
+      "summary": "Andy Burnham faces first real test over his handling of prisons crisis\nNew UK prime minister has leaned into the idea that he can respond to Britons’ concerns"
     },
     {
-      "title": "Intel investors are banking on a comeback — and then some",
-      "link": "https://www.ft.com/content/97812a6a-b8ae-4b53-9b67-397250bc5c80?syn-25a6b1a6=1",
-      "raw_summary": "The spillover of AI mania has transformed demand and pricing",
+      "title": "Moscow releases former US Marine after four-year stint in Russian prison",
+      "link": "https://www.ft.com/content/c1296b77-a8a4-4cfc-aebc-a2f0d62af25f?syn-25a6b1a6=1",
+      "raw_summary": "State department says American was freed without prisoner exchange or Washington concessions",
       "source": "World",
-      "published": "Tue, 11 Aug 2026 11:00:59 GMT",
-      "summary": "Intel investors are banking on a comeback — and then some\nThe spillover of AI mania has transformed demand and pricing"
+      "published": "Tue, 11 Aug 2026 17:51:42 GMT",
+      "summary": "Moscow releases former US Marine after four-year stint in Russian prison\nState department says American was freed without prisoner exchange or Washington concessions"
     },
     {
-      "title": "Sky City by Jacqueline Crooks — tuning into trauma",
-      "link": "https://www.ft.com/content/f789a20e-967d-4a58-bad0-52ccdd2a79da",
-      "raw_summary": "Pirate radio offers solace for a troubled young north London woman in the follow-up to Crooks’s acclaimed debut, ‘Fire Rush’",
+      "title": "Arday case poses awkward questions for Cambridge",
+      "link": "https://www.ft.com/content/b7ee9a48-8d99-4d47-8234-68218072fa3b?syn-25a6b1a6=1",
+      "raw_summary": "For Britain’s elite universities, governance issues add to funding woes",
       "source": "World",
-      "published": "Tue, 11 Aug 2026 11:00:10 GMT",
-      "summary": "Sky City by Jacqueline Crooks — tuning into trauma\nPirate radio offers solace for a troubled young north London woman in the follow-up to Crooks’s acclaimed debut, ‘Fire Rush’"
+      "published": "Tue, 11 Aug 2026 17:17:59 GMT",
+      "summary": "Arday case poses awkward questions for Cambridge\nFor Britain’s elite universities, governance issues add to funding woes"
     },
     {
-      "title": "FirstFT: EU border checks double waiting times",
-      "link": "https://www.ft.com/content/b957441e-ac7d-4dbd-a024-3af989ef7a44?syn-25a6b1a6=1",
-      "raw_summary": "Also in today’s newsletter: Chinese humanoid robot company prepares for IPO and Colombia earthquake death toll rises above 100",
+      "title": "Deputy PM Salvini proposes windfall tax on Italian bank profits",
+      "link": "https://www.ft.com/content/3e3de835-0a9e-43cc-bd7a-1043a5cf4266?syn-25a6b1a6=1",
+      "raw_summary": "Plan for three-year levy comes amid strained public finances",
       "source": "World",
-      "published": "Tue, 11 Aug 2026 10:13:16 GMT",
-      "summary": "FirstFT: EU border checks double waiting times\nAlso in today’s newsletter: Chinese humanoid robot company prepares for IPO and Colombia earthquake death toll rises above 100"
+      "published": "Tue, 11 Aug 2026 16:59:38 GMT",
+      "summary": "Deputy PM Salvini proposes windfall tax on Italian bank profits\nPlan for three-year levy comes amid strained public finances"
     },
     {
-      "title": "Stocks Climb as Oil Pares Gain on Iran Deal Hopes: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-10/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "Stock futures edged higher and Treasuries erased losses as crude oil pared gains on optimism around a possible deal between the US and Iran.",
+      "title": "NYSE Parent ICE Set to Raise $3.75 Billion From Bond Sale",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-11/nyse-parent-ice-kicks-off-bond-sale-for-marketaxess-takeover",
+      "raw_summary": "Intercontinental Exchange Inc. is selling $3.75 billion of US investment-grade bonds two weeks after announcing a $6 billion deal to acquire MarketAxess Holdings Inc.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 10 Aug 2026 22:08:16 GMT",
-      "summary": "Stocks Climb as Oil Pares Gain on Iran Deal Hopes: Markets Wrap\nStock futures edged higher and Treasuries erased losses as crude oil pared gains on optimism around a possible deal between the US and Iran."
+      "published": "Tue, 11 Aug 2026 13:18:02 GMT",
+      "summary": "NYSE Parent ICE Set to Raise $3.75 Billion From Bond Sale\nIntercontinental Exchange Inc. is selling $3.75 billion of US investment-grade bonds two weeks after announcing a $6 billion deal to acquire MarketAxess Holdings Inc."
     },
     {
-      "title": "India’s Small Traders Lose $9.6 Billion Despite Options Curbs",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-11/india-s-retail-traders-lost-9-6-billion-in-equity-derivatives",
-      "raw_summary": "Individuals in India lost 916.85 billion rupees ($9.6 billion) buying and selling equity futures and options in the year ended March, down from 1.1 trillion rupees a year earlier, the government told lawmakers on Tuesday.",
+      "title": "Don't See Evidence That US is on 'Back Heels' Against Iran, Says Megan Ortagus",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-11/no-evidence-us-is-on-back-heels-with-iran-ortagus-video",
+      "raw_summary": "Morgan Ortagus, a former deputy presidential special envoy, said she doesn't see proof of the narrative that the US is on its 'back heels' in negotiations with Iran and that strategic patience is on the side of the United States. \nOrtagus said that while military options are still on the table, what the Iranian regime is most scared of is not the US or Israel, but the uprising of its own people. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Tue, 11 Aug 2026 10:37:26 GMT",
-      "summary": "India’s Small Traders Lose $9.6 Billion Despite Options Curbs\nIndividuals in India lost 916.85 billion rupees ($9.6 billion) buying and selling equity futures and options in the year ended March, down from 1.1 trillion rupees a year earlier, the government told lawmakers on Tuesday."
+      "published": "Tue, 11 Aug 2026 18:25:40 GMT",
+      "summary": "Don't See Evidence That US is on 'Back Heels' Against Iran, Says Megan Ortagus\nMorgan Ortagus, a former deputy presidential special envoy, said she doesn't see proof of the narrative that the US is on its 'back heels' in negotiations with Iran and that strategic patience is on the side of the United"
     },
     {
-      "title": "A Dozen Ships Switch Oil Outside Hormuz as Barrels Keep Flowing",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-11/a-dozen-ships-switch-oil-outside-hormuz-as-barrels-keep-flowing",
-      "raw_summary": "A key oil supply valve from the Middle East that involves shuttle transits through the Strait of Hormuz is continuing to function in the face of a recent spate of attacks.",
+      "title": "Colombia Coffee Exports Largely Halted After Deadly Earthquake",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-11/colombia-coffee-exports-largely-halted-after-deadly-earthquake",
+      "raw_summary": "Colombian coffee exports are largely paused after a devastating earthquake disrupted operations at the nation’s main port and triggered roadblocks along key highways, according to the head of a coffee exporters’ group.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 11 Aug 2026 12:17:35 GMT",
-      "summary": "A Dozen Ships Switch Oil Outside Hormuz as Barrels Keep Flowing\nA key oil supply valve from the Middle East that involves shuttle transits through the Strait of Hormuz is continuing to function in the face of a recent spate of attacks."
+      "published": "Tue, 11 Aug 2026 18:23:46 GMT",
+      "summary": "Colombia Coffee Exports Largely Halted After Deadly Earthquake\nColombian coffee exports are largely paused after a devastating earthquake disrupted operations at the nation’s main port and triggered roadblocks along key highways, according to the head of a coffee exporters’ group."
     },
     {
-      "title": "Bonds Slide Amid Inflation Concerns as Oil Rises on Hormuz Deal Outlook | Bloomberg Brief 08/11/2026",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-11/bloomberg-brief-08-11-2026-video",
-      "raw_summary": "Treasuries fall and US equity futures waver as rising oil prices stoke inflation fears. President Trump hardens his stance toward Iran with new demands, clouding the prospect of an immediate agreement on the Strait of Hormuz. AI financing picks up as Nvidia taps investment giants including Apollo and Blackstone to source $500 billion for AI infrastructure. Intel raises $20 billion in an upsized share sale. Laura Cooper of Nuveen discusses the rise in real yields. (Source: Bloomberg)",
-      "source": "Bloomberg Markets",
-      "published": "Tue, 11 Aug 2026 12:10:26 GMT",
-      "summary": "Bonds Slide Amid Inflation Concerns as Oil Rises on Hormuz Deal Outlook | Bloomberg Brief 08/11/2026\nTreasuries fall and US equity futures waver as rising oil prices stoke inflation fears. President Trump hardens his stance toward Iran with new demands, clouding the prospect of an immediate agreemen"
-    },
-    {
-      "title": "US Stock Futures Rise as Oil Erases Gains on Iran Optimism",
+      "title": "US Stocks Fall After Iran Says Strait of Hormuz Will Remain Shut",
       "link": "https://www.bloomberg.com/news/articles/2026-08-11/us-stock-futures-rise-as-oil-erases-gains-on-iran-optimism",
-      "raw_summary": "US stock futures are slightly up before the bell on Tuesday as oil erased an earlier advance while traders await key inflation data for guidance on Federal Reserve interest-rate policy.",
+      "raw_summary": "US stocks turned lower Tuesday after Iran said the Strait of Hormuz would remain closed until its conditions were met, pushing oil prices higher.",
       "source": "Bloomberg Markets",
       "published": "Tue, 11 Aug 2026 12:10:15 GMT",
-      "summary": "US Stock Futures Rise as Oil Erases Gains on Iran Optimism\nUS stock futures are slightly up before the bell on Tuesday as oil erased an earlier advance while traders await key inflation data for guidance on Federal Reserve interest-rate policy."
+      "summary": "US Stocks Fall After Iran Says Strait of Hormuz Will Remain Shut\nUS stocks turned lower Tuesday after Iran said the Strait of Hormuz would remain closed until its conditions were met, pushing oil prices higher."
+    },
+    {
+      "title": "S&P 500 Falls as Oil Climbs Before Inflation Data: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-10/stock-market-today-dow-s-p-live-updates",
+      "raw_summary": "Wall Street refrained from making big bets on stocks and bonds ahead of a key inflation report, with oil resuming its advance as traders assessed the latest developments in the Middle East.",
+      "source": "Bloomberg Markets",
+      "published": "Mon, 10 Aug 2026 22:08:16 GMT",
+      "summary": "S&P 500 Falls as Oil Climbs Before Inflation Data: Markets Wrap\nWall Street refrained from making big bets on stocks and bonds ahead of a key inflation report, with oil resuming its advance as traders assessed the latest developments in the Middle East."
+    },
+    {
+      "title": "EToro reports second quarter crypto loss even as total profit beats estimates",
+      "link": "https://www.coindesk.com/business/2026/08/11/digital-broker-etoro-reports-q2-crypto-revenue-dropped-120-compared-to-2025",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Tue, 11 Aug 2026 17:12:11 +0000",
+      "summary": "EToro reports second quarter crypto loss even as total profit beats estimates\n"
+    },
+    {
+      "title": "If crypto goes back to the congressional drawing board, 3 Democrat women loom large",
+      "link": "https://www.coindesk.com/news-analysis/2026/08/11/if-crypto-goes-back-to-the-congressional-drawing-board-3-democrat-women-loom-large",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Tue, 11 Aug 2026 14:40:15 +0000",
+      "summary": "If crypto goes back to the congressional drawing board, 3 Democrat women loom large\n"
+    },
+    {
+      "title": "Crypto-friendly bank Erebor in talks to raise $1.5 billion at $9.5 billion valuation: FT",
+      "link": "https://www.coindesk.com/business/2026/08/11/crypto-friendly-bank-erebor-in-talks-to-raise-usd1-5-billion-at-usd9-5-billion-valuation-ft",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Tue, 11 Aug 2026 14:39:12 +0000",
+      "summary": "Crypto-friendly bank Erebor in talks to raise $1.5 billion at $9.5 billion valuation: FT\n"
+    },
+    {
+      "title": "Pokémon cards are becoming multibillion dollar market. Crypto wants to fix how they trade",
+      "link": "https://www.coindesk.com/business/2026/08/11/pokemon-cards-are-becoming-multibillion-dollar-market-crypto-wants-to-fix-how-they-trade",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Tue, 11 Aug 2026 13:06:07 +0000",
+      "summary": "Pokémon cards are becoming multibillion dollar market. Crypto wants to fix how they trade\n"
     },
     {
       "title": "MoneyGram expands on Solana with global crypto-to-cash service",
@@ -289,38 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Tue, 11 Aug 2026 12:02:22 +0000",
       "summary": "MoneyGram expands on Solana with global crypto-to-cash service\n"
-    },
-    {
-      "title": "Australian watchdog suspends Cryptolink, forcing 96 ATMs offline",
-      "link": "https://www.coindesk.com/policy/2026/08/11/australian-watchdog-suspends-cryptolink-forcing-96-atms-offline",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 11 Aug 2026 11:45:47 +0000",
-      "summary": "Australian watchdog suspends Cryptolink, forcing 96 ATMs offline\n"
-    },
-    {
-      "title": "Ravencoin could roll back four days of transactions after critical block flaw",
-      "link": "https://www.coindesk.com/tech/2026/08/11/ravencoin-could-roll-back-four-days-of-transactions-after-critical-block-flaw",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 11 Aug 2026 11:24:56 +0000",
-      "summary": "Ravencoin could roll back four days of transactions after critical block flaw\n"
-    },
-    {
-      "title": "Coinbase picks Abu Dhabi for its global tokenized asset push",
-      "link": "https://www.coindesk.com/business/2026/08/11/coinbase-picks-abu-dhabi-for-its-global-tokenized-asset-push",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 11 Aug 2026 11:23:25 +0000",
-      "summary": "Coinbase picks Abu Dhabi for its global tokenized asset push\n"
-    },
-    {
-      "title": "When safe assets compete with risk. Lessons from the 1960s–90s for bitcoin and stocks.",
-      "link": "https://www.coindesk.com/daybook-us/2026/08/11/when-safe-assets-compete-with-risk-lessons-from-the-1960s-90s-for-bitcoin-and-stocks",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 11 Aug 2026 11:13:55 +0000",
-      "summary": "When safe assets compete with risk. Lessons from the 1960s–90s for bitcoin and stocks.\n"
     }
   ]
 }
