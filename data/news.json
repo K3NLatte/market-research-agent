@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T12:50:30.008095+00:00",
+  "generated_at": "2026-08-12T18:51:20.604109+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "Microsoft Patches a Record 570 Security Flaws\nMicrosoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of vulnerabilities the software giant fixed in its record-smashing Patch Tuesday release las"
     },
     {
+      "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
+      "link": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
+      "raw_summary": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India.\n\nThe activity, per Check Point Research, is part of Operation Dream Job, a long-running cyber espionage and",
+      "source": "The Hacker News",
+      "published": "Wed, 12 Aug 2026 23:09:27 +0530",
+      "summary": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor\nThe North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and"
+    },
+    {
+      "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
+      "link": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
+      "raw_summary": "A massive set of 737 free VPN and proxy extensions have been found to mainly target Russian-speaking users seeking access to blocked services with an aim to intercept browser traffic and route them through a proxy infrastructure.\n\nThe extensions, published across at least 40 Chrome Web Store developer accounts, racked up 75,486 installs. Of those identified, 274 have been found to impersonate 66",
+      "source": "The Hacker News",
+      "published": "Wed, 12 Aug 2026 19:39:50 +0530",
+      "summary": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One\nA massive set of 737 free VPN and proxy extensions have been found to mainly target Russian-speaking users seeking access to blocked services with an aim to intercept browser traffic and route them through a prox"
+    },
+    {
+      "title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
+      "link": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
+      "raw_summary": "A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let researchers recover internal reasoning and secrets from session logs, including API keys and passwords.\n\nThe weakness affected encrypted reasoning objects used by the providers' reasoning APIs, where a block created in one session could be replayed into another and, during testing,",
+      "source": "The Hacker News",
+      "published": "Wed, 12 Aug 2026 17:17:38 +0530",
+      "summary": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning\nA newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let researchers recover internal reasoning and secrets from session logs, including API keys and pas"
+    },
+    {
+      "title": "Enterprise Defenses Recovered at the Edge and Collapsed Inside",
+      "link": "https://thehackernews.com/2026/08/enterprise-defenses-recovered-at-edge.html",
+      "raw_summary": "Enterprise defenses are tuned to catch the attacks that make noise. This year's data shows attackers winning by making none.\n\nAccording to Picus Labs' new Blue Report 2026, which measured more than 338 million real attack simulations across actual client production environments in the first half of 2026, defenses are having one of their strongest years yet. Average prevention effectiveness",
+      "source": "The Hacker News",
+      "published": "Wed, 12 Aug 2026 17:11:34 +0530",
+      "summary": "Enterprise Defenses Recovered at the Edge and Collapsed Inside\nEnterprise defenses are tuned to catch the attacks that make noise. This year's data shows attackers winning by making none.\n\nAccording to Picus Labs' new Blue Report 2026, which measured more than 338 million real attack simulations acr"
+    },
+    {
       "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
       "link": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
       "raw_summary": "Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation.\n\nThe most severe of the flaws are listed below -\n\n\n  CVE-2026-48362 (CVSS score: 10.0) - An operating system command injection vulnerability in ColdFusion that could",
@@ -51,276 +83,244 @@
       "summary": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws\nAdobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation."
     },
     {
-      "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
-      "link": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
-      "raw_summary": "Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO.\n\nThe vulnerability in question is CVE-2026-59310 (CVSS score: 9.8), a directory-traversal vulnerability in the VMware vCenter server that a malicious actor with network access can exploit to execute arbitrary code. Patches for the flaw were",
-      "source": "The Hacker News",
-      "published": "Wed, 12 Aug 2026 14:31:54 +0530",
-      "summary": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access\nThreat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO.\n\nThe vulnerability in question is CVE-2026-59310 (CVSS score: 9.8)"
-    },
-    {
-      "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
-      "link": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
-      "raw_summary": "Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other secrets from systems that installed them.\n\nThreat intelligence firm CloudSEK now says a dataset it obtained, built from roughly 434,000 files the attackers captured, maps potential exposure to more",
-      "source": "The Hacker News",
-      "published": "Wed, 12 Aug 2026 13:34:52 +0530",
-      "summary": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations\nTwo malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other secrets from sys"
-    },
-    {
-      "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
-      "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
-      "raw_summary": "SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution.\n\nThe vulnerability, assigned the CVE identifier CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It has been described as a case of insufficient authorization checks and input validation.\n\n\"SAP Commerce Cloud allows an",
-      "source": "The Hacker News",
-      "published": "Wed, 12 Aug 2026 13:01:40 +0530",
-      "summary": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code\nSAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution.\n\nThe vulnerability, assigned the CVE identifier CVE-2026-"
-    },
-    {
-      "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
-      "link": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
-      "raw_summary": "The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called ShieldBreak.\n\nThe vulnerability, rooted in Microsoft Defender for Windows, demonstrates a patch bypass for CVE-2026-50656 (CVSS score: 7.8), otherwise known as RoguePlanet.\n\nRoguePlanet has been described",
-      "source": "The Hacker News",
-      "published": "Wed, 12 Aug 2026 12:11:38 +0530",
-      "summary": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access\nThe security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called ShieldBreak.\n\nThe vulner"
-    },
-    {
-      "title": "Facebook ads are so hard to block that uBlock Origin stopped filtering them",
-      "link": "https://www.neowin.net/news/facebook-ads-are-so-hard-to-block-that-ublock-origin-stopped-filtering-them/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.neowin.net/news/facebook-ads-are-so-hard-to-block-that-ublock-origin-stopped-filtering-them/\">https://www.neowin.net/news/facebook-ads-are-so-hard-to-block-that-ublock-origin-stopped-filtering-them/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49271126\">https://news.ycombinator.com/item?id=49271126</a></p>\n<p>Points: 22</p>\n<p># Comments: 2</p>",
+      "title": "Zed: Delta",
+      "link": "https://zed.dev/blog/introducing-delta",
+      "raw_summary": "<p>Article URL: <a href=\"https://zed.dev/blog/introducing-delta\">https://zed.dev/blog/introducing-delta</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49276574\">https://news.ycombinator.com/item?id=49276574</a></p>\n<p>Points: 25</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 12 Aug 2026 12:07:16 +0000",
-      "summary": "Facebook ads are so hard to block that uBlock Origin stopped filtering them\n<p>Article URL: <a href=\"https://www.neowin.net/news/facebook-ads-are-so-hard-to-block-that-ublock-origin-stopped-filtering-them/\">https://www.neowin.net/news/facebook-ads-are-so-hard-to-block-that-ublock-origin-stopped-filt"
+      "published": "Wed, 12 Aug 2026 18:19:59 +0000",
+      "summary": "Zed: Delta\n<p>Article URL: <a href=\"https://zed.dev/blog/introducing-delta\">https://zed.dev/blog/introducing-delta</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49276574\">https://news.ycombinator.com/item?id=49276574</a></p>\n<p>Points: 25</p>\n<p># Comments: 0</p>"
     },
     {
-      "title": "2026 Eclipse Webcams",
-      "link": "https://jonty.github.io/2026_eclipse_webcams/",
-      "raw_summary": "<p>Article URL: <a href=\"https://jonty.github.io/2026_eclipse_webcams/\">https://jonty.github.io/2026_eclipse_webcams/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49270953\">https://news.ycombinator.com/item?id=49270953</a></p>\n<p>Points: 65</p>\n<p># Comments: 11</p>",
+      "title": "Your Key to Success Isn't More Luck or Hard Work",
+      "link": "https://julienreszka.com/blog/your-key-to-success-isn-t-more-luck-or-hard-work/",
+      "raw_summary": "<p>Article URL: <a href=\"https://julienreszka.com/blog/your-key-to-success-isn-t-more-luck-or-hard-work/\">https://julienreszka.com/blog/your-key-to-success-isn-t-more-luck-or-hard-work/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49276534\">https://news.ycombinator.com/item?id=49276534</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 12 Aug 2026 11:53:01 +0000",
-      "summary": "2026 Eclipse Webcams\n<p>Article URL: <a href=\"https://jonty.github.io/2026_eclipse_webcams/\">https://jonty.github.io/2026_eclipse_webcams/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49270953\">https://news.ycombinator.com/item?id=49270953</a></p>\n<p>Points: 65</p>\n<p># Com"
+      "published": "Wed, 12 Aug 2026 18:17:03 +0000",
+      "summary": "Your Key to Success Isn't More Luck or Hard Work\n<p>Article URL: <a href=\"https://julienreszka.com/blog/your-key-to-success-isn-t-more-luck-or-hard-work/\">https://julienreszka.com/blog/your-key-to-success-isn-t-more-luck-or-hard-work/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/it"
     },
     {
-      "title": "I hate packaging my software for Linux",
-      "link": "https://getfresh.dev/docs/blog/packaging-for-linux/",
-      "raw_summary": "<p>Article URL: <a href=\"https://getfresh.dev/docs/blog/packaging-for-linux/\">https://getfresh.dev/docs/blog/packaging-for-linux/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49270764\">https://news.ycombinator.com/item?id=49270764</a></p>\n<p>Points: 43</p>\n<p># Comments: 35</p>",
+      "title": "Reflex (YC W23) Is hiring Growth and GTM Roles",
+      "link": "https://www.ycombinator.com/companies/reflex/jobs/71x5GFb-growth-engineer",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/reflex/jobs/71x5GFb-growth-engineer\">https://www.ycombinator.com/companies/reflex/jobs/71x5GFb-growth-engineer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49275465\">https://news.ycombinator.com/item?id=49275465</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 12 Aug 2026 11:33:48 +0000",
-      "summary": "I hate packaging my software for Linux\n<p>Article URL: <a href=\"https://getfresh.dev/docs/blog/packaging-for-linux/\">https://getfresh.dev/docs/blog/packaging-for-linux/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49270764\">https://news.ycombinator.com/item?id=49270764</a><"
+      "published": "Wed, 12 Aug 2026 17:00:21 +0000",
+      "summary": "Reflex (YC W23) Is hiring Growth and GTM Roles\n<p>Article URL: <a href=\"https://www.ycombinator.com/companies/reflex/jobs/71x5GFb-growth-engineer\">https://www.ycombinator.com/companies/reflex/jobs/71x5GFb-growth-engineer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49275465"
     },
     {
-      "title": "Delphi 13 Community Edition Is Now Available",
-      "link": "https://blogs.embarcadero.com/delphi-13-community-edition-is-now-available/",
-      "raw_summary": "<p>Article URL: <a href=\"https://blogs.embarcadero.com/delphi-13-community-edition-is-now-available/\">https://blogs.embarcadero.com/delphi-13-community-edition-is-now-available/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49270621\">https://news.ycombinator.com/item?id=49270621</a></p>\n<p>Points: 17</p>\n<p># Comments: 8</p>",
+      "title": "SpaceXAI's Grok 4.6 Scores 61 on the Artificial Analysis Intelligence Index",
+      "link": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
+      "raw_summary": "<p>Article URL: <a href=\"https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis\">https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49275385\">https://news.ycombinator.com/item?id=49275385</a></p>\n<p>Points: 161</p>\n<p># Comments: 124</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 12 Aug 2026 11:13:36 +0000",
-      "summary": "Delphi 13 Community Edition Is Now Available\n<p>Article URL: <a href=\"https://blogs.embarcadero.com/delphi-13-community-edition-is-now-available/\">https://blogs.embarcadero.com/delphi-13-community-edition-is-now-available/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=492706"
+      "published": "Wed, 12 Aug 2026 16:54:25 +0000",
+      "summary": "SpaceXAI's Grok 4.6 Scores 61 on the Artificial Analysis Intelligence Index\n<p>Article URL: <a href=\"https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis\">https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis</a></p>\n<p>Comments URL: <a href=\"https://news.ycombin"
     },
     {
-      "title": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation",
-      "link": "https://woxi.ad-si.com",
-      "raw_summary": "<p>Woxi is an interpreter for the Wolfram Language written in Rust.<p>It comes with Woxi Studio, a Mathematica-like GUI built with iced, but you can also use Woxi through a CLI, Jupyter kernel, Python package, npm package, or WASM module.<p>Compared with wolframscript / Mathematica, the main differences are:<p>- Free and open source\n- Very fast startup - Typically milliseconds rather than seconds for the Wolfram kernel, making Woxi practical for shell scripts, one-liners, and other short-lived processes\n- Embeddable - It can run in a browser via WASM or be embedded into another application as a scripting language<p>A more detailed comparison with Mathematica is available here:\n<a href=\"https://woxi.ad-si.com/docs/comparison/mathematica/\" rel=\"nofollow\">https://woxi.ad-si.com/docs/comparison/mathematica/</a>.<p>Conformance is ensured with ~26'000 unit tests and ~900 .wls script snapshot tests.<p>The current focus is on fixing remaining edge cases, improving performance, and growing the community.<p>If you use the Wolfram Language, I'd be particularly interested in feedback on compatibility and missing functionality.\nContributions and bug reports are also very welcome: <a href=\"https://github.com/ad-si/Woxi\" rel=\"nofollow\">https://github.com/ad-si/Woxi</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49270040\">https://news.ycombinator.com/item?id=49270040</a></p>\n<p>Points: 98</p>\n<p># Comments: 3</p>",
+      "title": "HTML over WebSockets: real-time SPAs with barely any JavaScript",
+      "link": "https://en.andros.dev/blog/ef4968f5/html-over-websockets-real-time-spas-with-barely-any-javascript/",
+      "raw_summary": "<p>Article URL: <a href=\"https://en.andros.dev/blog/ef4968f5/html-over-websockets-real-time-spas-with-barely-any-javascript/\">https://en.andros.dev/blog/ef4968f5/html-over-websockets-real-time-spas-with-barely-any-javascript/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49275335\">https://news.ycombinator.com/item?id=49275335</a></p>\n<p>Points: 37</p>\n<p># Comments: 24</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 12 Aug 2026 10:06:29 +0000",
-      "summary": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation\n<p>Woxi is an interpreter for the Wolfram Language written in Rust.<p>It comes with Woxi Studio, a Mathematica-like GUI built with iced, but you can also use Woxi through a CLI, Jupyter kernel, Python package, npm package, o"
+      "published": "Wed, 12 Aug 2026 16:51:25 +0000",
+      "summary": "HTML over WebSockets: real-time SPAs with barely any JavaScript\n<p>Article URL: <a href=\"https://en.andros.dev/blog/ef4968f5/html-over-websockets-real-time-spas-with-barely-any-javascript/\">https://en.andros.dev/blog/ef4968f5/html-over-websockets-real-time-spas-with-barely-any-javascript/</a></p>\n<p"
     },
     {
-      "title": "AI code-testing startup Blacksmith’s valuation jumps almost 10x in less than a year",
-      "link": "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/",
-      "raw_summary": "Blacksmith says revenue has grown more than tenfold over the past year.",
+      "title": "Grubhub’s $24M FTC settlement is finally reaching diners and drivers",
+      "link": "https://techcrunch.com/2026/08/12/grubhubs-24m-ftc-settlement-is-finally-reaching-diners-and-drivers/",
+      "raw_summary": "Checks are being mailed from Grubhub's $23.8 million fine from  the FTC after it settled allegations over its business practices.",
       "source": "TechCrunch",
-      "published": "Wed, 12 Aug 2026 11:00:00 +0000",
-      "summary": "AI code-testing startup Blacksmith’s valuation jumps almost 10x in less than a year\nBlacksmith says revenue has grown more than tenfold over the past year."
+      "published": "Wed, 12 Aug 2026 18:34:21 +0000",
+      "summary": "Grubhub’s $24M FTC settlement is finally reaching diners and drivers\nChecks are being mailed from Grubhub's $23.8 million fine from  the FTC after it settled allegations over its business practices."
     },
     {
-      "title": "Reservoir raises $8M to make water heaters that people — and the grid — will actually want",
-      "link": "https://techcrunch.com/2026/08/12/reservoir-raises-8m-to-make-water-heaters-that-people-and-the-grid-will-actually-want/",
-      "raw_summary": "Reservoir has built an ultra-efficient water heater that can predict hot water demand, store energy, and detect plumbing leaks throughout a home.",
+      "title": "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
+      "link": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/",
+      "raw_summary": "Cognition may be looking to raise another mega round just a few months after raising $1 billion at a $26 billion valuation.",
       "source": "TechCrunch",
-      "published": "Wed, 12 Aug 2026 10:00:00 +0000",
-      "summary": "Reservoir raises $8M to make water heaters that people — and the grid — will actually want\nReservoir has built an ultra-efficient water heater that can predict hot water demand, store energy, and detect plumbing leaks throughout a home."
+      "published": "Wed, 12 Aug 2026 18:19:12 +0000",
+      "summary": "AI coding startup Cognition reportedly already in talks to raise at $40B valuation\nCognition may be looking to raise another mega round just a few months after raising $1 billion at a $26 billion valuation."
     },
     {
-      "title": "India’s Yulu raises $93M as quick-commerce boom fuels e-bike demand",
-      "link": "https://techcrunch.com/2026/08/11/indias-yulu-raises-93m-as-quick-commerce-boom-fuels-e-bike-demand/",
-      "raw_summary": "Yulu aims to have a fleet of 200,000 bikes in the next two years and faster electric two-wheelers, aiming at new logistics use cases.",
+      "title": "As AI safety concerns mount, three pioneers make the case for staying open",
+      "link": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
+      "raw_summary": "At Ai4, three of the world's most respected AI experts—Geoffrey Hinton, Fei-Fei Li, and Andrew Ng—debated regulation, open-source access, and how America can compete as China advances in Asia.",
       "source": "TechCrunch",
-      "published": "Wed, 12 Aug 2026 04:30:00 +0000",
-      "summary": "India’s Yulu raises $93M as quick-commerce boom fuels e-bike demand\nYulu aims to have a fleet of 200,000 bikes in the next two years and faster electric two-wheelers, aiming at new logistics use cases."
+      "published": "Wed, 12 Aug 2026 17:51:00 +0000",
+      "summary": "As AI safety concerns mount, three pioneers make the case for staying open\nAt Ai4, three of the world's most respected AI experts—Geoffrey Hinton, Fei-Fei Li, and Andrew Ng—debated regulation, open-source access, and how America can compete as China advances in Asia."
     },
     {
-      "title": "Phoebe Gates and Sophia Kianni reportedly knew Phia was ‘cookie stuffing’ for months",
-      "link": "https://techcrunch.com/2026/08/11/phoebe-gates-and-sophia-kianni-reportedly-knew-phia-was-cookie-stuffing-for-months/",
-      "raw_summary": "Phia, the shopping startup co-founded by Phoebe Gates and Sophia Kianni, is once again under fire for its alleged business practices.",
+      "title": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
+      "link": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
+      "raw_summary": "Thrive Holdings has raised $2 billion in new funding at a $12 billion valuation from investors like SoftBank, D1 Capital Partners, and Altimeter Capital.",
       "source": "TechCrunch",
-      "published": "Tue, 11 Aug 2026 21:39:58 +0000",
-      "summary": "Phoebe Gates and Sophia Kianni reportedly knew Phia was ‘cookie stuffing’ for months\nPhia, the shopping startup co-founded by Phoebe Gates and Sophia Kianni, is once again under fire for its alleged business practices."
+      "published": "Wed, 12 Aug 2026 17:41:29 +0000",
+      "summary": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise\nThrive Holdings has raised $2 billion in new funding at a $12 billion valuation from investors like SoftBank, D1 Capital Partners, and Altimeter Capital."
     },
     {
-      "title": "Accel closes oversubscribed $550M India fund within weeks, 19 months after its last",
-      "link": "https://techcrunch.com/2026/08/11/accel-closes-oversubscribed-550m-india-fund-within-weeks-19-months-after-its-last/",
-      "raw_summary": "The U.S. VC firm still has more than 55% of its previous $650 million India fund available for deployment.",
+      "title": "Uber Freight reportedly investigating after hacking group claims data breach",
+      "link": "https://techcrunch.com/2026/08/12/uber-freight-reportedly-investigating-after-hacking-group-claims-data-breach/",
+      "raw_summary": "An extortion gang known for targeting transportation companies and private equity firms has taken credit for a breach at Uber Freight.",
       "source": "TechCrunch",
-      "published": "Tue, 11 Aug 2026 21:39:11 +0000",
-      "summary": "Accel closes oversubscribed $550M India fund within weeks, 19 months after its last\nThe U.S. VC firm still has more than 55% of its previous $650 million India fund available for deployment."
+      "published": "Wed, 12 Aug 2026 17:15:41 +0000",
+      "summary": "Uber Freight reportedly investigating after hacking group claims data breach\nAn extortion gang known for targeting transportation companies and private equity firms has taken credit for a breach at Uber Freight."
     },
     {
-      "title": "DEF CON crowd suspected in fake-hotspot attack on Delta flight",
-      "link": "https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight/",
-      "raw_summary": "FBI Atlanta confirms it's looking into the incident, no arrests made.",
+      "title": "Two hydrogen-burning engines powered this car to a new land speed record",
+      "link": "https://arstechnica.com/cars/2026/08/jcb-sets-a-new-406-mph-speed-record-for-hydrogen-powered-cars/",
+      "raw_summary": "JCB has invested heavily in hydrogen to power its diggers and other machinery.",
       "source": "Ars Technica - All content",
-      "published": "Wed, 12 Aug 2026 00:08:40 +0000",
-      "summary": "DEF CON crowd suspected in fake-hotspot attack on Delta flight\nFBI Atlanta confirms it's looking into the incident, no arrests made."
+      "published": "Wed, 12 Aug 2026 17:01:11 +0000",
+      "summary": "Two hydrogen-burning engines powered this car to a new land speed record\nJCB has invested heavily in hydrogen to power its diggers and other machinery."
     },
     {
-      "title": "Trump wants Big Pharma to split MMR vaccine; Big Pharma thinks it's idiotic",
-      "link": "https://arstechnica.com/health/2026/08/trump-wants-big-pharma-to-split-mmr-vaccine-big-pharma-thinks-its-idiotic/",
-      "raw_summary": "It took just hours for the leading pharma group to reject the recommendations.",
+      "title": "US tries to override New York gambling laws, orders Kalshi to keep operating",
+      "link": "https://arstechnica.com/tech-policy/2026/08/us-tries-to-override-new-york-gambling-laws-orders-kalshi-to-keep-operating/",
+      "raw_summary": "Trump admin claims New York suing Kalshi created \"market emergency.\"",
       "source": "Ars Technica - All content",
-      "published": "Tue, 11 Aug 2026 22:31:45 +0000",
-      "summary": "Trump wants Big Pharma to split MMR vaccine; Big Pharma thinks it's idiotic\nIt took just hours for the leading pharma group to reject the recommendations."
+      "published": "Wed, 12 Aug 2026 16:33:43 +0000",
+      "summary": "US tries to override New York gambling laws, orders Kalshi to keep operating\nTrump admin claims New York suing Kalshi created \"market emergency.\""
     },
     {
-      "title": "Russian drones found near vital European offshore gas site, get blown up",
-      "link": "https://arstechnica.com/gadgets/2026/08/romania-destroys-russian-drones-drifting-near-vital-european-offshore-gas-site/",
-      "raw_summary": "This follows many drone incursions into Romania and a failed attack in Germany.",
+      "title": "Booksellers suspect AI firms are buying and then destroying rare books",
+      "link": "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart/",
+      "raw_summary": "AI firms quietly bulk buying rare books face resistance from booksellers.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 11 Aug 2026 21:20:11 +0000",
-      "summary": "Russian drones found near vital European offshore gas site, get blown up\nThis follows many drone incursions into Romania and a failed attack in Germany."
+      "published": "Wed, 12 Aug 2026 15:19:17 +0000",
+      "summary": "Booksellers suspect AI firms are buying and then destroying rare books\nAI firms quietly bulk buying rare books face resistance from booksellers."
     },
     {
-      "title": "Chrome adopts what may be the best protection yet against account takeovers",
-      "link": "https://arstechnica.com/security/2026/08/chrome-adopts-what-may-be-the-best-protection-yet-against-account-takeovers/",
-      "raw_summary": "Device-bound session credentials thwart an increasingly common form of account takeover.",
+      "title": "Google reveals 2026 hardware lineup: Pixel 11, Pixel Watch 5, and Pixel Tag",
+      "link": "https://arstechnica.com/gadgets/2026/08/google-reveals-2026-hardware-lineup-pixel-11-pixel-watch-5-and-pixel-tag/",
+      "raw_summary": "Google focuses more on AI and curated experiences than spec upgrades in 2026.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 11 Aug 2026 20:59:52 +0000",
-      "summary": "Chrome adopts what may be the best protection yet against account takeovers\nDevice-bound session credentials thwart an increasingly common form of account takeover."
+      "published": "Wed, 12 Aug 2026 14:00:51 +0000",
+      "summary": "Google reveals 2026 hardware lineup: Pixel 11, Pixel Watch 5, and Pixel Tag\nGoogle focuses more on AI and curated experiences than spec upgrades in 2026."
     },
     {
-      "title": "Meta can't stop states' $1.4 trillion lawsuit from going to trial",
-      "link": "https://arstechnica.com/tech-policy/2026/08/meta-cant-stop-states-1-4-trillion-lawsuit-from-going-to-trial/",
-      "raw_summary": "Judges tell Meta that Section 230 provides a defense, not immunity from lawsuits.",
+      "title": "Researchers found a way to hijack devices through Zoom screen sharing",
+      "link": "https://arstechnica.com/security/2026/08/researchers-found-a-way-to-hijack-devices-through-zoom-screen-sharing/",
+      "raw_summary": "A public AI tool found the dangerous Zoom flaw in under 20 prompts.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 11 Aug 2026 20:27:16 +0000",
-      "summary": "Meta can't stop states' $1.4 trillion lawsuit from going to trial\nJudges tell Meta that Section 230 provides a defense, not immunity from lawsuits."
+      "published": "Wed, 12 Aug 2026 13:37:12 +0000",
+      "summary": "Researchers found a way to hijack devices through Zoom screen sharing\nA public AI tool found the dangerous Zoom flaw in under 20 prompts."
+    },
+    {
+      "title": "World witnesses one of nature’s greatest spectacles: a total solar eclipse",
+      "link": "https://www.ft.com/content/007b5ff6-e8fe-47f6-ba34-40cd6520e9fd?syn-25a6b1a6=1",
+      "raw_summary": "Spectators and scientists gather to witness full or partial blocking of the Sun across the northern hemisphere",
+      "source": "World",
+      "published": "Wed, 12 Aug 2026 18:46:58 GMT",
+      "summary": "World witnesses one of nature’s greatest spectacles: a total solar eclipse\nSpectators and scientists gather to witness full or partial blocking of the Sun across the northern hemisphere"
+    },
+    {
+      "title": "Mark Walter’s insurers rush to unwind affiliated investments",
+      "link": "https://www.ft.com/content/ab5f7160-68f5-4396-a5a2-f97f770e8634?syn-25a6b1a6=1",
+      "raw_summary": "TWG Global is seeking to refinance loans, restructure firms and bring in outside investors as prosecutors scrutinise books",
+      "source": "World",
+      "published": "Wed, 12 Aug 2026 18:44:46 GMT",
+      "summary": "Mark Walter’s insurers rush to unwind affiliated investments\nTWG Global is seeking to refinance loans, restructure firms and bring in outside investors as prosecutors scrutinise books"
     },
     {
       "title": "US inflation falls to 3.4% in July",
       "link": "https://www.ft.com/content/52727749-4360-4463-8822-dc3bfd8ef279?syn-25a6b1a6=1",
-      "raw_summary": "Fallout from Iran war continues to reverberate across economy",
+      "raw_summary": "Fallout from Iran war continues to reverberate across economy even as petrol prices decline",
       "source": "World",
-      "published": "Wed, 12 Aug 2026 12:35:06 GMT",
-      "summary": "US inflation falls to 3.4% in July\nFallout from Iran war continues to reverberate across economy"
+      "published": "Wed, 12 Aug 2026 18:35:14 GMT",
+      "summary": "US inflation falls to 3.4% in July\nFallout from Iran war continues to reverberate across economy even as petrol prices decline"
     },
     {
-      "title": "Goldman Sachs to acquire ETF provider Neos for up to $2.3bn",
-      "link": "https://www.ft.com/content/ca40af31-2446-45e7-8e6a-7554d759a6ca?syn-25a6b1a6=1",
-      "raw_summary": "Wall Street bank continues to boost presence in asset management",
+      "title": "Burnham urges retailers to stop selling disposable BBQs amid wildfires",
+      "link": "https://www.ft.com/content/c9d5c256-0e93-4978-b312-354cb7bd7487?syn-25a6b1a6=1",
+      "raw_summary": "PM holds emergency government meeting in response to drought and heatwaves",
       "source": "World",
-      "published": "Wed, 12 Aug 2026 12:34:57 GMT",
-      "summary": "Goldman Sachs to acquire ETF provider Neos for up to $2.3bn\nWall Street bank continues to boost presence in asset management"
+      "published": "Wed, 12 Aug 2026 18:22:54 GMT",
+      "summary": "Burnham urges retailers to stop selling disposable BBQs amid wildfires\nPM holds emergency government meeting in response to drought and heatwaves"
     },
     {
-      "title": "Scottish North Sea tax revenues drop, fuelling debate on oil and gas industry’s future",
-      "link": "https://www.ft.com/content/dc0d5a3f-8bcc-483e-8787-18fd27ddab3f?syn-25a6b1a6=1",
-      "raw_summary": "UK government to soon decide whether to approve production at the Rosebank and Jackdaw fields",
+      "title": "Crackdown on zero-hours contracts could cost UK firms up to £3bn per year",
+      "link": "https://www.ft.com/content/699929b6-ce31-4d0b-9828-c0fe96e59d9d?syn-25a6b1a6=1",
+      "raw_summary": "About £1.2bn will come from new rules forcing bosses to pay compensation for cancelled shifts",
       "source": "World",
-      "published": "Wed, 12 Aug 2026 12:11:28 GMT",
-      "summary": "Scottish North Sea tax revenues drop, fuelling debate on oil and gas industry’s future\nUK government to soon decide whether to approve production at the Rosebank and Jackdaw fields"
+      "published": "Wed, 12 Aug 2026 17:42:47 GMT",
+      "summary": "Crackdown on zero-hours contracts could cost UK firms up to £3bn per year\nAbout £1.2bn will come from new rules forcing bosses to pay compensation for cancelled shifts"
     },
     {
-      "title": "Switzerland pushes ahead with post-Credit Suisse crackdown",
-      "link": "https://www.ft.com/content/de0e971c-0223-4d52-9f52-b703ef5ac467?syn-25a6b1a6=1",
-      "raw_summary": "Financial regulator may be given greater powers to intervene at troubled banks and levy fines",
-      "source": "World",
-      "published": "Wed, 12 Aug 2026 12:05:02 GMT",
-      "summary": "Switzerland pushes ahead with post-Credit Suisse crackdown\nFinancial regulator may be given greater powers to intervene at troubled banks and levy fines"
+      "title": "US Stocks Climb Near Record as Earnings Revive Faith in AI Trade",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-12/us-stock-futures-rise-as-tech-rally-resumes-before-key-cpi-data",
+      "raw_summary": "US stocks advanced toward all-time highs, led by the technology sector, after a subdued inflation reading helped ease interest-rate hike concerns.",
+      "source": "Bloomberg Markets",
+      "published": "Wed, 12 Aug 2026 12:15:30 GMT",
+      "summary": "US Stocks Climb Near Record as Earnings Revive Faith in AI Trade\nUS stocks advanced toward all-time highs, led by the technology sector, after a subdued inflation reading helped ease interest-rate hike concerns."
     },
     {
-      "title": "India plans to tighten rules on foreign-funded NGOs",
-      "link": "https://www.ft.com/content/c7ac41f1-d755-4024-9101-e206dfbcddd7?syn-25a6b1a6=1",
-      "raw_summary": "Charities and religious groups fear new bill could lead to government confiscating assets",
-      "source": "World",
-      "published": "Wed, 12 Aug 2026 11:44:58 GMT",
-      "summary": "India plans to tighten rules on foreign-funded NGOs\nCharities and religious groups fear new bill could lead to government confiscating assets"
+      "title": "Hong, Crowley 'Two Sides of the Same Coin' Says Republican Rep. Steil",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-12/hong-crowley-two-sides-of-the-same-coin-says-steil-video",
+      "raw_summary": "Wisconsin Representative Bryan Steil said that moderate David Crowley and democratic socialist Francesca Hong are 'two sides of the same coin' after Crowley pulled off an upset in the Democratic primary to face Republican Tom Tiffany in the fall. \nSteil said that he expects the race to be close and that he thinks that voters care more about 'kitchen table issues' than 'looking back' at Tiffany's stance on the 2020 election results.  (Source: Bloomberg)",
+      "source": "Bloomberg Markets",
+      "published": "Wed, 12 Aug 2026 18:19:15 GMT",
+      "summary": "Hong, Crowley 'Two Sides of the Same Coin' Says Republican Rep. Steil\nWisconsin Representative Bryan Steil said that moderate David Crowley and democratic socialist Francesca Hong are 'two sides of the same coin' after Crowley pulled off an upset in the Democratic primary to face Republican Tom Tiff"
+    },
+    {
+      "title": "Walter Sells Lakers, Seeks More Cash to Pay Loans Amid DOJ Probe",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-12/lakers-owner-walter-seeks-cash-to-pay-down-loans-amid-doj-probe",
+      "raw_summary": "Billionaire Mark Walter’s firm is in talks with investors to raise money to help pay down loans on the books of its insurers that had drawn scrutiny from the Justice Department, according to people familiar with the matter.",
+      "source": "Bloomberg Markets",
+      "published": "Wed, 12 Aug 2026 16:59:07 GMT",
+      "summary": "Walter Sells Lakers, Seeks More Cash to Pay Loans Amid DOJ Probe\nBillionaire Mark Walter’s firm is in talks with investors to raise money to help pay down loans on the books of its insurers that had drawn scrutiny from the Justice Department, according to people familiar with the matter."
     },
     {
       "title": "Stocks, Bonds Rise as Tame CPI Curbs Fed-Hike Bets: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-08-11/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "An in-line inflation reading spurred gains in both stocks and bonds, easing concern about imminent Federal Reserve rate increases despite elevated oil prices.",
+      "raw_summary": "An in-line inflation reading spurred gains in both stocks and bonds, easing concern about imminent Federal Reserve interest-rate increases despite elevated oil prices.",
       "source": "Bloomberg Markets",
       "published": "Tue, 11 Aug 2026 22:07:25 GMT",
-      "summary": "Stocks, Bonds Rise as Tame CPI Curbs Fed-Hike Bets: Markets Wrap\nAn in-line inflation reading spurred gains in both stocks and bonds, easing concern about imminent Federal Reserve rate increases despite elevated oil prices."
+      "summary": "Stocks, Bonds Rise as Tame CPI Curbs Fed-Hike Bets: Markets Wrap\nAn in-line inflation reading spurred gains in both stocks and bonds, easing concern about imminent Federal Reserve interest-rate increases despite elevated oil prices."
     },
     {
-      "title": "Hormuz Closure Helps Emerging-Market Company Bonds Beat US Peers",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-12/hormuz-closure-helps-emerging-market-company-bonds-beat-us-peers",
-      "raw_summary": "The average borrowing cost of emerging-market companies has fallen to the lowest level since January relative to US corporates as global bond investors’ diversification into higher-yielding assets drives an outperformance.",
+      "title": "Yen Trades Near 160 Level as Traders Watch for Intervention",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-12/yen-trades-near-160-level-keeping-traders-on-intervention-watch",
+      "raw_summary": "The yen held steady near the key level of 160 per dollar on Wednesday, keeping investors on the lookout for more intervention by officials in the foreign-exchange market.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 12 Aug 2026 12:40:21 GMT",
-      "summary": "Hormuz Closure Helps Emerging-Market Company Bonds Beat US Peers\nThe average borrowing cost of emerging-market companies has fallen to the lowest level since January relative to US corporates as global bond investors’ diversification into higher-yielding assets drives an outperformance."
+      "published": "Wed, 12 Aug 2026 15:10:30 GMT",
+      "summary": "Yen Trades Near 160 Level as Traders Watch for Intervention\nThe yen held steady near the key level of 160 per dollar on Wednesday, keeping investors on the lookout for more intervention by officials in the foreign-exchange market."
     },
     {
-      "title": "China Revives Free-Trade Zone Bond Market After Crackdown",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-12/china-revives-free-trade-zone-bond-market-after-2023-crackdown",
-      "raw_summary": "The Shanghai free-trade zone’s bond market has its first new offering from a nonfinancial firm since Chinese authorities clamped down on excessive borrowing by local governments in late 2023.",
-      "source": "Bloomberg Markets",
-      "published": "Wed, 12 Aug 2026 01:26:26 GMT",
-      "summary": "China Revives Free-Trade Zone Bond Market After Crackdown\nThe Shanghai free-trade zone’s bond market has its first new offering from a nonfinancial firm since Chinese authorities clamped down on excessive borrowing by local governments in late 2023."
-    },
-    {
-      "title": "Yardeni Says He Hasn't Been Bullish Enough on Earnings",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-12/yardeni-says-he-hasn-t-been-bullish-enough-on-earnings-video",
-      "raw_summary": "Ed Yardeni, president of Yardeni Research, says earnings are driving the markets higher. He talks about raising his year-end forecast for the S&amp;P 500 from 8,250 to 8,400. He also talks about the artificial intelligence trade \"Bloomberg Surveillance.\" (Source: Bloomberg)",
-      "source": "Bloomberg Markets",
-      "published": "Wed, 12 Aug 2026 12:32:41 GMT",
-      "summary": "Yardeni Says He Hasn't Been Bullish Enough on Earnings\nEd Yardeni, president of Yardeni Research, says earnings are driving the markets higher. He talks about raising his year-end forecast for the S&amp;P 500 from 8,250 to 8,400. He also talks about the artificial intelligence trade \"Bloomberg Surve"
-    },
-    {
-      "title": "Potential ‘Peak Earnings’ Set the Stage for Disappointing Stocks",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-12/potential-peak-earnings-set-the-stage-for-disappointing-stocks",
-      "raw_summary": "The latest reason to worry about the stock market is quite the doozy: Earnings growth has been too strong.",
-      "source": "Bloomberg Markets",
-      "published": "Wed, 12 Aug 2026 12:28:53 GMT",
-      "summary": "Potential ‘Peak Earnings’ Set the Stage for Disappointing Stocks\nThe latest reason to worry about the stock market is quite the doozy: Earnings growth has been too strong."
-    },
-    {
-      "title": "U.S. CPI inflation slows to 3.4% as expected, bitcoin holds near $64,000",
-      "link": "https://www.coindesk.com/markets/2026/08/12/u-s-cpi-inflation-edges-lower-to-3-4-as-expected",
+      "title": "Goldman Sachs leaps into bitcoin income ETFs with $2.25 billion NEOS buyout",
+      "link": "https://www.coindesk.com/business/2026/08/12/goldman-sachs-leaps-into-bitcoin-income-etfs-with-usd2-25-billion-neos-buyout",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 12 Aug 2026 12:44:39 +0000",
-      "summary": "U.S. CPI inflation slows to 3.4% as expected, bitcoin holds near $64,000\n"
+      "published": "Wed, 12 Aug 2026 17:21:03 +0000",
+      "summary": "Goldman Sachs leaps into bitcoin income ETFs with $2.25 billion NEOS buyout\n"
     },
     {
-      "title": "FlightAware drops Kalshi lawsuit over a market niche that data shows it never took off",
-      "link": "https://www.coindesk.com/policy/2026/08/12/flightaware-drops-kalshi-lawsuit-over-a-market-niche-that-data-shows-it-never-took-off",
+      "title": "Wintermute plans $1 billion AI push beyond crypto: Bloomberg",
+      "link": "https://www.coindesk.com/business/2026/08/12/wintermute-plans-usd1-billion-ai-push-beyond-crypto-bloomberg",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 12 Aug 2026 11:44:10 +0000",
-      "summary": "FlightAware drops Kalshi lawsuit over a market niche that data shows it never took off\n"
+      "published": "Wed, 12 Aug 2026 16:34:24 +0000",
+      "summary": "Wintermute plans $1 billion AI push beyond crypto: Bloomberg\n"
     },
     {
-      "title": "Russia moves to restrict retail crypto trading to bitcoin, ether and USDT",
-      "link": "https://www.coindesk.com/policy/2026/08/12/russia-moves-to-restrict-retail-crypto-trading-to-bitcoin-ether-and-usdt",
+      "title": "Kalshi taps Solana platform for Wall Street-style high-speed data feed",
+      "link": "https://www.coindesk.com/business/2026/08/12/solana-platform-taps-prediction-market-kalshi-for-wall-street-style-high-speed-data-feed",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 12 Aug 2026 11:19:32 +0000",
-      "summary": "Russia moves to restrict retail crypto trading to bitcoin, ether and USDT\n"
+      "published": "Wed, 12 Aug 2026 16:14:49 +0000",
+      "summary": "Kalshi taps Solana platform for Wall Street-style high-speed data feed\n"
     },
     {
-      "title": "XRP trading could get spicy after CPI report as futures bets hit highest since October",
-      "link": "https://www.coindesk.com/daybook-us/2026/08/12/xrp-trading-could-get-spicy-after-cpi-report-as-futures-bets-hit-highest-since-october",
+      "title": "Miden bets on privacy stablecoins with introduction of USDCx",
+      "link": "https://www.coindesk.com/tech/2026/08/12/miden-bets-on-privacy-stablecoins-with-introduction-of-usdcx",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 12 Aug 2026 11:15:00 +0000",
-      "summary": "XRP trading could get spicy after CPI report as futures bets hit highest since October\n"
+      "published": "Wed, 12 Aug 2026 15:00:00 +0000",
+      "summary": "Miden bets on privacy stablecoins with introduction of USDCx\n"
     },
     {
-      "title": "Bitcoin holds near $64,000 as U.S. inflation data looms, Harmony exploit rattles altcoins",
-      "link": "https://www.coindesk.com/markets/2026/08/12/bitcoin-holds-near-usd64-000-as-u-s-inflation-data-looms-harmony-exploit-rattles-altcoins",
+      "title": "Crypto Long & Short: When capital can't move fast enough, markets pay the price",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/08/12/crypto-long-and-short",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 12 Aug 2026 10:30:10 +0000",
-      "summary": "Bitcoin holds near $64,000 as U.S. inflation data looms, Harmony exploit rattles altcoins\n"
+      "published": "Wed, 12 Aug 2026 14:51:12 +0000",
+      "summary": "Crypto Long & Short: When capital can't move fast enough, markets pay the price\n"
     }
   ]
 }
