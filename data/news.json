@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T07:11:34.634249+00:00",
+  "generated_at": "2026-08-12T12:50:30.008095+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,84 +43,100 @@
       "summary": "Microsoft Patches a Record 570 Security Flaws\nMicrosoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of vulnerabilities the software giant fixed in its record-smashing Patch Tuesday release las"
     },
     {
-      "title": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
-      "link": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
-      "raw_summary": "Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks.\n\nThe bug sits in a core Windows kernel driver that handles network socket operations. An attacker with code already running on a machine can use it to escalate to SYSTEM. That patch goes out first.\n\nThe flaw is tracked as CVE-2026-68820 (CVSS score: 7.0) and is the only",
+      "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
+      "link": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
+      "raw_summary": "Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation.\n\nThe most severe of the flaws are listed below -\n\n\n  CVE-2026-48362 (CVSS score: 10.0) - An operating system command injection vulnerability in ColdFusion that could",
       "source": "The Hacker News",
-      "published": "Wed, 12 Aug 2026 01:40:55 +0530",
-      "summary": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack\nMicrosoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks.\n\nThe bug sits in a core Windows kernel driver that handles network socket operations. An at"
+      "published": "Wed, 12 Aug 2026 16:43:03 +0530",
+      "summary": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws\nAdobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation."
     },
     {
-      "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
-      "link": "https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html",
-      "raw_summary": "Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational resilience and conduct distributed denial-of-service (DDoS) attacks.\n\nThe new version, tracked as Kimwolf v7, was discovered by Palo Alto Networks Unit 42 in February 2026.\n\n\"Kimwolf v7 adds an HTTP/2-based",
+      "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
+      "link": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
+      "raw_summary": "Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO.\n\nThe vulnerability in question is CVE-2026-59310 (CVSS score: 9.8), a directory-traversal vulnerability in the VMware vCenter server that a malicious actor with network access can exploit to execute arbitrary code. Patches for the flaw were",
       "source": "The Hacker News",
-      "published": "Wed, 12 Aug 2026 01:06:37 +0530",
-      "summary": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing\nCybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational resilience and conduct distr"
+      "published": "Wed, 12 Aug 2026 14:31:54 +0530",
+      "summary": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access\nThreat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO.\n\nThe vulnerability in question is CVE-2026-59310 (CVSS score: 9.8)"
     },
     {
-      "title": "Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client",
-      "link": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html",
-      "raw_summary": "Anyone sharing their screen on a Zoom call could have taken over the computers of everyone watching, and anyone watching could have taken over the presenter's.\n\nThe flaw sat in the annotation tool, the feature that lets participants draw and type on a shared screen, and it asked nothing of the victim beyond being in the meeting. No click, no download, no prompt, and nothing on screen to show it",
+      "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
+      "link": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
+      "raw_summary": "Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other secrets from systems that installed them.\n\nThreat intelligence firm CloudSEK now says a dataset it obtained, built from roughly 434,000 files the attackers captured, maps potential exposure to more",
       "source": "The Hacker News",
-      "published": "Wed, 12 Aug 2026 00:38:47 +0530",
-      "summary": "Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client\nAnyone sharing their screen on a Zoom call could have taken over the computers of everyone watching, and anyone watching could have taken over the presenter's.\n\nThe flaw sat in the annotation tool, the feature tha"
+      "published": "Wed, 12 Aug 2026 13:34:52 +0530",
+      "summary": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations\nTwo malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other secrets from sys"
     },
     {
-      "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
-      "link": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
-      "raw_summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the country by masquerading as recruiters to trick them into installing malware.\n\nCERT-UA pinned the activity on a threat cluster it tracks as UAC-0145, which is a subgroup within Sandworm (aka APT44,",
+      "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
+      "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
+      "raw_summary": "SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution.\n\nThe vulnerability, assigned the CVE identifier CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It has been described as a case of insufficient authorization checks and input validation.\n\n\"SAP Commerce Cloud allows an",
       "source": "The Hacker News",
-      "published": "Wed, 12 Aug 2026 00:06:47 +0530",
-      "summary": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands\nThe Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the country by masquerad"
+      "published": "Wed, 12 Aug 2026 13:01:40 +0530",
+      "summary": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code\nSAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution.\n\nThe vulnerability, assigned the CVE identifier CVE-2026-"
     },
     {
-      "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
-      "link": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
-      "raw_summary": "Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an AI agent.\n\nThe flaw, tracked as&nbsp;CVE-2026-55040&nbsp;(CVSS 9.1), affects SharePoint Server Subscription Edition, SharePoint Server 2019, and SharePoint Server 2016. Microsoft's",
+      "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
+      "link": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
+      "raw_summary": "The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called ShieldBreak.\n\nThe vulnerability, rooted in Microsoft Defender for Windows, demonstrates a patch bypass for CVE-2026-50656 (CVSS score: 7.8), otherwise known as RoguePlanet.\n\nRoguePlanet has been described",
       "source": "The Hacker News",
-      "published": "Tue, 11 Aug 2026 22:17:44 +0530",
-      "summary": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE\nSecurity researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an AI agent.\n\nTh"
+      "published": "Wed, 12 Aug 2026 12:11:38 +0530",
+      "summary": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access\nThe security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called ShieldBreak.\n\nThe vulner"
     },
     {
-      "title": "llama.cpp",
-      "link": "https://llama.app",
-      "raw_summary": "<p>Article URL: <a href=\"https://llama.app\">https://llama.app</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49267928\">https://news.ycombinator.com/item?id=49267928</a></p>\n<p>Points: 112</p>\n<p># Comments: 48</p>",
+      "title": "Facebook ads are so hard to block that uBlock Origin stopped filtering them",
+      "link": "https://www.neowin.net/news/facebook-ads-are-so-hard-to-block-that-ublock-origin-stopped-filtering-them/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.neowin.net/news/facebook-ads-are-so-hard-to-block-that-ublock-origin-stopped-filtering-them/\">https://www.neowin.net/news/facebook-ads-are-so-hard-to-block-that-ublock-origin-stopped-filtering-them/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49271126\">https://news.ycombinator.com/item?id=49271126</a></p>\n<p>Points: 22</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 12 Aug 2026 04:51:59 +0000",
-      "summary": "llama.cpp\n<p>Article URL: <a href=\"https://llama.app\">https://llama.app</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49267928\">https://news.ycombinator.com/item?id=49267928</a></p>\n<p>Points: 112</p>\n<p># Comments: 48</p>"
+      "published": "Wed, 12 Aug 2026 12:07:16 +0000",
+      "summary": "Facebook ads are so hard to block that uBlock Origin stopped filtering them\n<p>Article URL: <a href=\"https://www.neowin.net/news/facebook-ads-are-so-hard-to-block-that-ublock-origin-stopped-filtering-them/\">https://www.neowin.net/news/facebook-ads-are-so-hard-to-block-that-ublock-origin-stopped-filt"
     },
     {
-      "title": "CVE-2026-53361 AF_Unix GC vs. MSG_PEEK use-after-free container escape",
-      "link": "https://github.com/sgkdev/bad_garbage",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/sgkdev/bad_garbage\">https://github.com/sgkdev/bad_garbage</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49267550\">https://news.ycombinator.com/item?id=49267550</a></p>\n<p>Points: 10</p>\n<p># Comments: 0</p>",
+      "title": "2026 Eclipse Webcams",
+      "link": "https://jonty.github.io/2026_eclipse_webcams/",
+      "raw_summary": "<p>Article URL: <a href=\"https://jonty.github.io/2026_eclipse_webcams/\">https://jonty.github.io/2026_eclipse_webcams/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49270953\">https://news.ycombinator.com/item?id=49270953</a></p>\n<p>Points: 65</p>\n<p># Comments: 11</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 12 Aug 2026 03:31:42 +0000",
-      "summary": "CVE-2026-53361 AF_Unix GC vs. MSG_PEEK use-after-free container escape\n<p>Article URL: <a href=\"https://github.com/sgkdev/bad_garbage\">https://github.com/sgkdev/bad_garbage</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49267550\">https://news.ycombinator.com/item?id=49267550<"
+      "published": "Wed, 12 Aug 2026 11:53:01 +0000",
+      "summary": "2026 Eclipse Webcams\n<p>Article URL: <a href=\"https://jonty.github.io/2026_eclipse_webcams/\">https://jonty.github.io/2026_eclipse_webcams/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49270953\">https://news.ycombinator.com/item?id=49270953</a></p>\n<p>Points: 65</p>\n<p># Com"
     },
     {
-      "title": "DARPA heavy lift challenge ends with winner at a 3.84:1 payload to weight ratio",
-      "link": "https://dronexl.co/2026/08/10/darpa-lift-challenge-results-avidrone/",
-      "raw_summary": "<p>Article URL: <a href=\"https://dronexl.co/2026/08/10/darpa-lift-challenge-results-avidrone/\">https://dronexl.co/2026/08/10/darpa-lift-challenge-results-avidrone/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49267527\">https://news.ycombinator.com/item?id=49267527</a></p>\n<p>Points: 11</p>\n<p># Comments: 0</p>",
+      "title": "I hate packaging my software for Linux",
+      "link": "https://getfresh.dev/docs/blog/packaging-for-linux/",
+      "raw_summary": "<p>Article URL: <a href=\"https://getfresh.dev/docs/blog/packaging-for-linux/\">https://getfresh.dev/docs/blog/packaging-for-linux/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49270764\">https://news.ycombinator.com/item?id=49270764</a></p>\n<p>Points: 43</p>\n<p># Comments: 35</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 12 Aug 2026 03:27:31 +0000",
-      "summary": "DARPA heavy lift challenge ends with winner at a 3.84:1 payload to weight ratio\n<p>Article URL: <a href=\"https://dronexl.co/2026/08/10/darpa-lift-challenge-results-avidrone/\">https://dronexl.co/2026/08/10/darpa-lift-challenge-results-avidrone/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinat"
+      "published": "Wed, 12 Aug 2026 11:33:48 +0000",
+      "summary": "I hate packaging my software for Linux\n<p>Article URL: <a href=\"https://getfresh.dev/docs/blog/packaging-for-linux/\">https://getfresh.dev/docs/blog/packaging-for-linux/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49270764\">https://news.ycombinator.com/item?id=49270764</a><"
     },
     {
-      "title": "The Human Is the Loop",
-      "link": "https://brentfitzgerald.com/posts/the-human-is-the-loop/",
-      "raw_summary": "<p>Article URL: <a href=\"https://brentfitzgerald.com/posts/the-human-is-the-loop/\">https://brentfitzgerald.com/posts/the-human-is-the-loop/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49267108\">https://news.ycombinator.com/item?id=49267108</a></p>\n<p>Points: 61</p>\n<p># Comments: 26</p>",
+      "title": "Delphi 13 Community Edition Is Now Available",
+      "link": "https://blogs.embarcadero.com/delphi-13-community-edition-is-now-available/",
+      "raw_summary": "<p>Article URL: <a href=\"https://blogs.embarcadero.com/delphi-13-community-edition-is-now-available/\">https://blogs.embarcadero.com/delphi-13-community-edition-is-now-available/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49270621\">https://news.ycombinator.com/item?id=49270621</a></p>\n<p>Points: 17</p>\n<p># Comments: 8</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 12 Aug 2026 02:15:01 +0000",
-      "summary": "The Human Is the Loop\n<p>Article URL: <a href=\"https://brentfitzgerald.com/posts/the-human-is-the-loop/\">https://brentfitzgerald.com/posts/the-human-is-the-loop/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49267108\">https://news.ycombinator.com/item?id=49267108</a></p>\n<p>"
+      "published": "Wed, 12 Aug 2026 11:13:36 +0000",
+      "summary": "Delphi 13 Community Edition Is Now Available\n<p>Article URL: <a href=\"https://blogs.embarcadero.com/delphi-13-community-edition-is-now-available/\">https://blogs.embarcadero.com/delphi-13-community-edition-is-now-available/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=492706"
     },
     {
-      "title": "Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI",
-      "link": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/\">https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49267057\">https://news.ycombinator.com/item?id=49267057</a></p>\n<p>Points: 161</p>\n<p># Comments: 35</p>",
+      "title": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation",
+      "link": "https://woxi.ad-si.com",
+      "raw_summary": "<p>Woxi is an interpreter for the Wolfram Language written in Rust.<p>It comes with Woxi Studio, a Mathematica-like GUI built with iced, but you can also use Woxi through a CLI, Jupyter kernel, Python package, npm package, or WASM module.<p>Compared with wolframscript / Mathematica, the main differences are:<p>- Free and open source\n- Very fast startup - Typically milliseconds rather than seconds for the Wolfram kernel, making Woxi practical for shell scripts, one-liners, and other short-lived processes\n- Embeddable - It can run in a browser via WASM or be embedded into another application as a scripting language<p>A more detailed comparison with Mathematica is available here:\n<a href=\"https://woxi.ad-si.com/docs/comparison/mathematica/\" rel=\"nofollow\">https://woxi.ad-si.com/docs/comparison/mathematica/</a>.<p>Conformance is ensured with ~26'000 unit tests and ~900 .wls script snapshot tests.<p>The current focus is on fixing remaining edge cases, improving performance, and growing the community.<p>If you use the Wolfram Language, I'd be particularly interested in feedback on compatibility and missing functionality.\nContributions and bug reports are also very welcome: <a href=\"https://github.com/ad-si/Woxi\" rel=\"nofollow\">https://github.com/ad-si/Woxi</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49270040\">https://news.ycombinator.com/item?id=49270040</a></p>\n<p>Points: 98</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 12 Aug 2026 02:05:42 +0000",
-      "summary": "Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI\n<p>Article URL: <a href=\"https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/\">https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/</a></p"
+      "published": "Wed, 12 Aug 2026 10:06:29 +0000",
+      "summary": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation\n<p>Woxi is an interpreter for the Wolfram Language written in Rust.<p>It comes with Woxi Studio, a Mathematica-like GUI built with iced, but you can also use Woxi through a CLI, Jupyter kernel, Python package, npm package, o"
+    },
+    {
+      "title": "AI code-testing startup Blacksmith’s valuation jumps almost 10x in less than a year",
+      "link": "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/",
+      "raw_summary": "Blacksmith says revenue has grown more than tenfold over the past year.",
+      "source": "TechCrunch",
+      "published": "Wed, 12 Aug 2026 11:00:00 +0000",
+      "summary": "AI code-testing startup Blacksmith’s valuation jumps almost 10x in less than a year\nBlacksmith says revenue has grown more than tenfold over the past year."
+    },
+    {
+      "title": "Reservoir raises $8M to make water heaters that people — and the grid — will actually want",
+      "link": "https://techcrunch.com/2026/08/12/reservoir-raises-8m-to-make-water-heaters-that-people-and-the-grid-will-actually-want/",
+      "raw_summary": "Reservoir has built an ultra-efficient water heater that can predict hot water demand, store energy, and detect plumbing leaks throughout a home.",
+      "source": "TechCrunch",
+      "published": "Wed, 12 Aug 2026 10:00:00 +0000",
+      "summary": "Reservoir raises $8M to make water heaters that people — and the grid — will actually want\nReservoir has built an ultra-efficient water heater that can predict hot water demand, store energy, and detect plumbing leaks throughout a home."
     },
     {
       "title": "India’s Yulu raises $93M as quick-commerce boom fuels e-bike demand",
@@ -145,22 +161,6 @@
       "source": "TechCrunch",
       "published": "Tue, 11 Aug 2026 21:39:11 +0000",
       "summary": "Accel closes oversubscribed $550M India fund within weeks, 19 months after its last\nThe U.S. VC firm still has more than 55% of its previous $650 million India fund available for deployment."
-    },
-    {
-      "title": "Uber surprised robotics company Serve by selling its entire stake",
-      "link": "https://techcrunch.com/2026/08/11/uber-surprised-robotics-company-serve-by-selling-its-entire-stake/",
-      "raw_summary": "The divestiture comes as the two once-tight companies have started to diverge on the business side.",
-      "source": "TechCrunch",
-      "published": "Tue, 11 Aug 2026 20:02:02 +0000",
-      "summary": "Uber surprised robotics company Serve by selling its entire stake\nThe divestiture comes as the two once-tight companies have started to diverge on the business side."
-    },
-    {
-      "title": "FBI says cybercriminals are hacking into victims’ online accounts to steal their intimate pictures",
-      "link": "https://techcrunch.com/2026/08/11/fbi-says-cybercriminals-are-hacking-into-victims-online-accounts-to-steal-their-intimate-pictures/",
-      "raw_summary": "In a new alert, the FBI said cybercriminals are targeting adults and minors in an attempt to steal their personal and intimate pictures in extortion campaigns.",
-      "source": "TechCrunch",
-      "published": "Tue, 11 Aug 2026 19:38:23 +0000",
-      "summary": "FBI says cybercriminals are hacking into victims’ online accounts to steal their intimate pictures\nIn a new alert, the FBI said cybercriminals are targeting adults and minors in an attempt to steal their personal and intimate pictures in extortion campaigns."
     },
     {
       "title": "DEF CON crowd suspected in fake-hotspot attack on Delta flight",
@@ -203,124 +203,124 @@
       "summary": "Meta can't stop states' $1.4 trillion lawsuit from going to trial\nJudges tell Meta that Section 230 provides a defense, not immunity from lawsuits."
     },
     {
-      "title": "Tata chair resigns as succession row escalates",
-      "link": "https://www.ft.com/content/89c3c50c-1fc5-4673-b67d-ddc0b824c6c5?syn-25a6b1a6=1",
-      "raw_summary": "N Chandrasekaran to depart India’s largest conglomerate amid dispute with Noel Tata",
+      "title": "US inflation falls to 3.4% in July",
+      "link": "https://www.ft.com/content/52727749-4360-4463-8822-dc3bfd8ef279?syn-25a6b1a6=1",
+      "raw_summary": "Fallout from Iran war continues to reverberate across economy",
       "source": "World",
-      "published": "Wed, 12 Aug 2026 06:42:23 GMT",
-      "summary": "Tata chair resigns as succession row escalates\nN Chandrasekaran to depart India’s largest conglomerate amid dispute with Noel Tata"
+      "published": "Wed, 12 Aug 2026 12:35:06 GMT",
+      "summary": "US inflation falls to 3.4% in July\nFallout from Iran war continues to reverberate across economy"
     },
     {
-      "title": "Democratic socialist locked in unexpectedly tight Wisconsin primary race",
-      "link": "https://www.ft.com/content/565bd314-0803-40a2-88b3-9070f574d933?syn-25a6b1a6=1",
-      "raw_summary": "Victory would pit leftwing candidate Francesca Hong against Trump-backed Republican in November midterms",
+      "title": "Goldman Sachs to acquire ETF provider Neos for up to $2.3bn",
+      "link": "https://www.ft.com/content/ca40af31-2446-45e7-8e6a-7554d759a6ca?syn-25a6b1a6=1",
+      "raw_summary": "Wall Street bank continues to boost presence in asset management",
       "source": "World",
-      "published": "Wed, 12 Aug 2026 06:17:22 GMT",
-      "summary": "Democratic socialist locked in unexpectedly tight Wisconsin primary race\nVictory would pit leftwing candidate Francesca Hong against Trump-backed Republican in November midterms"
+      "published": "Wed, 12 Aug 2026 12:34:57 GMT",
+      "summary": "Goldman Sachs to acquire ETF provider Neos for up to $2.3bn\nWall Street bank continues to boost presence in asset management"
     },
     {
-      "title": "Kevin Warsh’s monetary hall of mirrors",
-      "link": "https://www.ft.com/content/d3c55471-0e3d-4798-8355-2b661880d8b9?syn-25a6b1a6=1",
-      "raw_summary": "Plus: cheese",
+      "title": "Scottish North Sea tax revenues drop, fuelling debate on oil and gas industry’s future",
+      "link": "https://www.ft.com/content/dc0d5a3f-8bcc-483e-8787-18fd27ddab3f?syn-25a6b1a6=1",
+      "raw_summary": "UK government to soon decide whether to approve production at the Rosebank and Jackdaw fields",
       "source": "World",
-      "published": "Wed, 12 Aug 2026 05:30:06 GMT",
-      "summary": "Kevin Warsh’s monetary hall of mirrors\nPlus: cheese"
+      "published": "Wed, 12 Aug 2026 12:11:28 GMT",
+      "summary": "Scottish North Sea tax revenues drop, fuelling debate on oil and gas industry’s future\nUK government to soon decide whether to approve production at the Rosebank and Jackdaw fields"
     },
     {
-      "title": "Taiwan hits out at China over naval drill with Indonesia",
-      "link": "https://www.ft.com/content/e0ca4cab-c8ba-47d6-9465-13e2d73285fc?syn-25a6b1a6=1",
-      "raw_summary": "Rare joint exercises raise concerns over Beijing’s more assertive conduct in disputed waters",
+      "title": "Switzerland pushes ahead with post-Credit Suisse crackdown",
+      "link": "https://www.ft.com/content/de0e971c-0223-4d52-9f52-b703ef5ac467?syn-25a6b1a6=1",
+      "raw_summary": "Financial regulator may be given greater powers to intervene at troubled banks and levy fines",
       "source": "World",
-      "published": "Wed, 12 Aug 2026 05:14:24 GMT",
-      "summary": "Taiwan hits out at China over naval drill with Indonesia\nRare joint exercises raise concerns over Beijing’s more assertive conduct in disputed waters"
+      "published": "Wed, 12 Aug 2026 12:05:02 GMT",
+      "summary": "Switzerland pushes ahead with post-Credit Suisse crackdown\nFinancial regulator may be given greater powers to intervene at troubled banks and levy fines"
     },
     {
-      "title": "FirstFT: Vance asked Ukraine to halt strikes on tankers",
-      "link": "https://www.ft.com/content/7cd5f1c5-1097-4bd4-bd00-8006759da28d?syn-25a6b1a6=1",
-      "raw_summary": "Also in today’s newsletter: Revolut cuts WeWork access, and night farming",
+      "title": "India plans to tighten rules on foreign-funded NGOs",
+      "link": "https://www.ft.com/content/c7ac41f1-d755-4024-9101-e206dfbcddd7?syn-25a6b1a6=1",
+      "raw_summary": "Charities and religious groups fear new bill could lead to government confiscating assets",
       "source": "World",
-      "published": "Wed, 12 Aug 2026 04:31:00 GMT",
-      "summary": "FirstFT: Vance asked Ukraine to halt strikes on tankers\nAlso in today’s newsletter: Revolut cuts WeWork access, and night farming"
+      "published": "Wed, 12 Aug 2026 11:44:58 GMT",
+      "summary": "India plans to tighten rules on foreign-funded NGOs\nCharities and religious groups fear new bill could lead to government confiscating assets"
     },
     {
-      "title": "Norway $2.3 Trillion Fund Posts Best Quarter Since 2020",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-12/norway-2-3-trillion-fund-returns-9-4-in-first-half",
-      "raw_summary": "Norway’s sovereign wealth fund, the world’s largest, reported its best quarterly return in six years, helped by gains from its large holdings in global technology companies.",
+      "title": "Stocks, Bonds Rise as Tame CPI Curbs Fed-Hike Bets: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-11/stock-market-today-dow-s-p-live-updates",
+      "raw_summary": "An in-line inflation reading spurred gains in both stocks and bonds, easing concern about imminent Federal Reserve rate increases despite elevated oil prices.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 12 Aug 2026 06:17:10 GMT",
-      "summary": "Norway $2.3 Trillion Fund Posts Best Quarter Since 2020\nNorway’s sovereign wealth fund, the world’s largest, reported its best quarterly return in six years, helped by gains from its large holdings in global technology companies."
+      "published": "Tue, 11 Aug 2026 22:07:25 GMT",
+      "summary": "Stocks, Bonds Rise as Tame CPI Curbs Fed-Hike Bets: Markets Wrap\nAn in-line inflation reading spurred gains in both stocks and bonds, easing concern about imminent Federal Reserve rate increases despite elevated oil prices."
     },
     {
-      "title": "Shoprite Sees Earnings Rising as E-Commerce Unit Booms",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-12/shoprite-raises-earnings-guidance-as-e-commerce-unit-booms",
-      "raw_summary": "Shoprite Holdings Ltd. sees earnings rising as much as 14.7% as sales at the e-commerce unit of Africa’s largest supermarket chain jumped.",
+      "title": "Hormuz Closure Helps Emerging-Market Company Bonds Beat US Peers",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-12/hormuz-closure-helps-emerging-market-company-bonds-beat-us-peers",
+      "raw_summary": "The average borrowing cost of emerging-market companies has fallen to the lowest level since January relative to US corporates as global bond investors’ diversification into higher-yielding assets drives an outperformance.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 12 Aug 2026 06:40:38 GMT",
-      "summary": "Shoprite Sees Earnings Rising as E-Commerce Unit Booms\nShoprite Holdings Ltd. sees earnings rising as much as 14.7% as sales at the e-commerce unit of Africa’s largest supermarket chain jumped."
+      "published": "Wed, 12 Aug 2026 12:40:21 GMT",
+      "summary": "Hormuz Closure Helps Emerging-Market Company Bonds Beat US Peers\nThe average borrowing cost of emerging-market companies has fallen to the lowest level since January relative to US corporates as global bond investors’ diversification into higher-yielding assets drives an outperformance."
     },
     {
-      "title": "UAE Shuttles Oil Exports From Iraq Through the Strait of Hormuz",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-12/uae-shuttles-oil-exports-from-iraq-through-the-strait-of-hormuz",
-      "raw_summary": "Abu Dhabi National Oil Co. is offering to shuttle exports of Iraqi oil through the Strait of Hormuz, using its dark-transit playbook to transport Basrah and other crude to refiners in Asia, according to people familiar with the matter.",
+      "title": "China Revives Free-Trade Zone Bond Market After Crackdown",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-12/china-revives-free-trade-zone-bond-market-after-2023-crackdown",
+      "raw_summary": "The Shanghai free-trade zone’s bond market has its first new offering from a nonfinancial firm since Chinese authorities clamped down on excessive borrowing by local governments in late 2023.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 12 Aug 2026 06:49:40 GMT",
-      "summary": "UAE Shuttles Oil Exports From Iraq Through the Strait of Hormuz\nAbu Dhabi National Oil Co. is offering to shuttle exports of Iraqi oil through the Strait of Hormuz, using its dark-transit playbook to transport Basrah and other crude to refiners in Asia, according to people familiar with the matter."
+      "published": "Wed, 12 Aug 2026 01:26:26 GMT",
+      "summary": "China Revives Free-Trade Zone Bond Market After Crackdown\nThe Shanghai free-trade zone’s bond market has its first new offering from a nonfinancial firm since Chinese authorities clamped down on excessive borrowing by local governments in late 2023."
     },
     {
-      "title": "Horizons Middle East & Africa 8/12/2026",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-12/horizons-middle-east-africa-8-12-2026-video",
-      "raw_summary": "Horizons Middle East & Africa is your daily spotlight on one of the world's fastest-growing regions. Live from Dubai, we bring you the latest global markets and analysis, plus news-making interviews, with a special focus on MEA. All that and more, as you head to the office in the Gulf, pause for lunch in Hong Kong, or start your day in London or Johannesburg.  (Source: Bloomberg)",
+      "title": "Yardeni Says He Hasn't Been Bullish Enough on Earnings",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-12/yardeni-says-he-hasn-t-been-bullish-enough-on-earnings-video",
+      "raw_summary": "Ed Yardeni, president of Yardeni Research, says earnings are driving the markets higher. He talks about raising his year-end forecast for the S&amp;P 500 from 8,250 to 8,400. He also talks about the artificial intelligence trade \"Bloomberg Surveillance.\" (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Wed, 12 Aug 2026 06:29:27 GMT",
-      "summary": "Horizons Middle East & Africa 8/12/2026\nHorizons Middle East & Africa is your daily spotlight on one of the world's fastest-growing regions. Live from Dubai, we bring you the latest global markets and analysis, plus news-making interviews, with a special focus on MEA. All that and more, as you head "
+      "published": "Wed, 12 Aug 2026 12:32:41 GMT",
+      "summary": "Yardeni Says He Hasn't Been Bullish Enough on Earnings\nEd Yardeni, president of Yardeni Research, says earnings are driving the markets higher. He talks about raising his year-end forecast for the S&amp;P 500 from 8,250 to 8,400. He also talks about the artificial intelligence trade \"Bloomberg Surve"
     },
     {
-      "title": "AI Boom Fuels Asian Stocks Even as Oil Climbs | Insight with Haslinda Amin 08/12/2026",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-12/insight-with-haslinda-amin-08-12-2026-video",
-      "raw_summary": "Insight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent leaders spanning the worlds of business, finance, politics and culture. (Source: Bloomberg)",
+      "title": "Potential ‘Peak Earnings’ Set the Stage for Disappointing Stocks",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-12/potential-peak-earnings-set-the-stage-for-disappointing-stocks",
+      "raw_summary": "The latest reason to worry about the stock market is quite the doozy: Earnings growth has been too strong.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 12 Aug 2026 06:27:22 GMT",
-      "summary": "AI Boom Fuels Asian Stocks Even as Oil Climbs | Insight with Haslinda Amin 08/12/2026\nInsight with Haslinda Amin, a daily news program featuring in-depth, high-profile interviews and analysis to give viewers the complete picture on the stories that matter. The show features prominent leaders spannin"
+      "published": "Wed, 12 Aug 2026 12:28:53 GMT",
+      "summary": "Potential ‘Peak Earnings’ Set the Stage for Disappointing Stocks\nThe latest reason to worry about the stock market is quite the doozy: Earnings growth has been too strong."
     },
     {
-      "title": "Live updates: Bitcoin at $63,600 as Japan's Metaplanet moves 3,881 BTC between wallets",
-      "link": "https://www.coindesk.com/tech/2026/08/12/live-updates-bitcoin-at-usd63-600-as-japan-s-metaplanet-moves-3-881-btc-between-wallets",
+      "title": "U.S. CPI inflation slows to 3.4% as expected, bitcoin holds near $64,000",
+      "link": "https://www.coindesk.com/markets/2026/08/12/u-s-cpi-inflation-edges-lower-to-3-4-as-expected",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 12 Aug 2026 07:04:53 +0000",
-      "summary": "Live updates: Bitcoin at $63,600 as Japan's Metaplanet moves 3,881 BTC between wallets\n"
+      "published": "Wed, 12 Aug 2026 12:44:39 +0000",
+      "summary": "U.S. CPI inflation slows to 3.4% as expected, bitcoin holds near $64,000\n"
     },
     {
-      "title": "Crypto.com rolls out tokenized stock derivatives as crypto exchanges push into equities",
-      "link": "https://www.coindesk.com/business/2026/08/12/crypto-com-rolls-out-tokenized-stock-derivatives-as-crypto-exchanges-push-into-equities",
+      "title": "FlightAware drops Kalshi lawsuit over a market niche that data shows it never took off",
+      "link": "https://www.coindesk.com/policy/2026/08/12/flightaware-drops-kalshi-lawsuit-over-a-market-niche-that-data-shows-it-never-took-off",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 12 Aug 2026 06:00:00 +0000",
-      "summary": "Crypto.com rolls out tokenized stock derivatives as crypto exchanges push into equities\n"
+      "published": "Wed, 12 Aug 2026 11:44:10 +0000",
+      "summary": "FlightAware drops Kalshi lawsuit over a market niche that data shows it never took off\n"
     },
     {
-      "title": "Here's what bitcoin and ether traders are doing ahead of the binary U.S. CPI print",
-      "link": "https://www.coindesk.com/business/2026/08/12/here-s-what-bitcoin-and-ether-traders-are-doing-ahead-of-the-binary-u-s-cpi-print",
+      "title": "Russia moves to restrict retail crypto trading to bitcoin, ether and USDT",
+      "link": "https://www.coindesk.com/policy/2026/08/12/russia-moves-to-restrict-retail-crypto-trading-to-bitcoin-ether-and-usdt",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 12 Aug 2026 05:26:55 +0000",
-      "summary": "Here's what bitcoin and ether traders are doing ahead of the binary U.S. CPI print\n"
+      "published": "Wed, 12 Aug 2026 11:19:32 +0000",
+      "summary": "Russia moves to restrict retail crypto trading to bitcoin, ether and USDT\n"
     },
     {
-      "title": "Harmony’s ONE dives 26% after an attack appears to mint tokens equal to quarter of supply",
-      "link": "https://www.coindesk.com/markets/2026/08/12/harmony-s-one-falls-26-after-attacker-allegedly-mints-4-billion-tokens",
+      "title": "XRP trading could get spicy after CPI report as futures bets hit highest since October",
+      "link": "https://www.coindesk.com/daybook-us/2026/08/12/xrp-trading-could-get-spicy-after-cpi-report-as-futures-bets-hit-highest-since-october",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 12 Aug 2026 05:18:40 +0000",
-      "summary": "Harmony’s ONE dives 26% after an attack appears to mint tokens equal to quarter of supply\n"
+      "published": "Wed, 12 Aug 2026 11:15:00 +0000",
+      "summary": "XRP trading could get spicy after CPI report as futures bets hit highest since October\n"
     },
     {
-      "title": "Dogecoin and BNB lead majors higher as bitcoin slips near $63,700",
-      "link": "https://www.coindesk.com/markets/2026/08/12/dogecoin-and-bnb-lead-majors-higher-as-bitcoin-slips-near-usd63-700",
+      "title": "Bitcoin holds near $64,000 as U.S. inflation data looms, Harmony exploit rattles altcoins",
+      "link": "https://www.coindesk.com/markets/2026/08/12/bitcoin-holds-near-usd64-000-as-u-s-inflation-data-looms-harmony-exploit-rattles-altcoins",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 12 Aug 2026 04:53:46 +0000",
-      "summary": "Dogecoin and BNB lead majors higher as bitcoin slips near $63,700\n"
+      "published": "Wed, 12 Aug 2026 10:30:10 +0000",
+      "summary": "Bitcoin holds near $64,000 as U.S. inflation data looms, Harmony exploit rattles altcoins\n"
     }
   ]
 }
