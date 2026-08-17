@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T12:26:02.056061+00:00",
+  "generated_at": "2026-08-17T18:25:55.143653+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "LG to Ban Residential Proxies from Smart TV Apps\nThe home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less than a month after researchers found that more tha"
     },
     {
+      "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
+      "link": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
+      "raw_summary": "The expensive attacks are not always the clever ones.\n\nThis week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to access that was already there and defenses that assumed nobody would look too closely.\n\nSo, nothing magical. Just a",
+      "source": "The Hacker News",
+      "published": "Mon, 17 Aug 2026 18:53:51 +0530",
+      "summary": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More\nThe expensive attacks are not always the clever ones.\n\nThis week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreadi"
+    },
+    {
+      "title": "How MCP Servers Can Expose Enterprise Secrets",
+      "link": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
+      "raw_summary": "MCP servers can expose enterprise secrets through plaintext configuration files, over-permissioned access and prompt injection, often before security teams even know the server is running. As more organizations adopt AI agents into their systems, that exposure can silently become a major gap in MCP server security. The Model Context Protocol (MCP) allows AI agents to reach the tools and data,",
+      "source": "The Hacker News",
+      "published": "Mon, 17 Aug 2026 17:28:00 +0530",
+      "summary": "How MCP Servers Can Expose Enterprise Secrets\nMCP servers can expose enterprise secrets through plaintext configuration files, over-permissioned access and prompt injection, often before security teams even know the server is running. As more organizations adopt AI agents into their systems, that ex"
+    },
+    {
+      "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
+      "link": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
+      "raw_summary": "Security researchers at SSD Secure Disclosure have published a two-stage exploit chain that achieves full Android kernel access on devices running Unisoc modem firmware through a VoLTE video call, with no fix from the chipset maker.\n\nThe&nbsp;advisory, published August 17, 2026, is the second stage of a chain that began in March 2026, when SSD disclosed&nbsp;remote code execution&nbsp;in the",
+      "source": "The Hacker News",
+      "published": "Mon, 17 Aug 2026 16:22:34 +0530",
+      "summary": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access\nSecurity researchers at SSD Secure Disclosure have published a two-stage exploit chain that achieves full Android kernel access on devices running Unisoc modem firmware through a VoLTE video call, with no fix from th"
+    },
+    {
       "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
       "link": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
       "raw_summary": "Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives its core functionality from the Mirai botnet source code and is equipped to turn internet-facing devices into SOCKS proxies.\n\n\"While the malware reuses the DDoS engine from the publicly leaked Mirai source code, it extends the original framework with numerous capabilities, including",
@@ -59,268 +83,244 @@
       "summary": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware\nCybersecurity researchers have attributed the exploitation of a newly patched security flaw in Broadcom VMware vCenter to a suspected China-nexus advanced persistent threat (APT).\n\nThe attacks involve the expl"
     },
     {
-      "title": "SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch",
-      "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
-      "raw_summary": "A maximum-severity security vulnerability impacting SAP Commerce Cloud is witnessing active exploitation efforts.\n\nThe vulnerability, tracked as CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It relates to an instance of insufficient authorization checks and input validation.\n\n\"SAP Commerce Cloud allows an unauthenticated attacker to abuse a default authentication client and submit",
-      "source": "The Hacker News",
-      "published": "Sat, 15 Aug 2026 14:08:46 +0530",
-      "summary": "SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch\nA maximum-severity security vulnerability impacting SAP Commerce Cloud is witnessing active exploitation efforts.\n\nThe vulnerability, tracked as CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It relates t"
-    },
-    {
-      "title": "Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner",
-      "link": "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
-      "raw_summary": "A recently patched security flaw in Apple macOS has come under active exploitation in the wild to deploy a cryptocurrency miner, the Netherlands National Cyber Security Centre (NCSC) has warned.\n\nThe vulnerability in question is CVE-2026-65400 (CVSS score: 9.8), a critical authentication issue impacting the Screen Sharing component that could allow an attacker already on the network to",
-      "source": "The Hacker News",
-      "published": "Sat, 15 Aug 2026 12:54:04 +0530",
-      "summary": "Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner\nA recently patched security flaw in Apple macOS has come under active exploitation in the wild to deploy a cryptocurrency miner, the Netherlands National Cyber Security Centre (NCSC) has warned.\n\nThe vulnerabi"
-    },
-    {
-      "title": "Hackers Spend Nearly $7 Million on Expired Domains to Redirect Traffic to Scams and Malware",
-      "link": "https://thehackernews.com/2026/08/hackers-spend-nearly-7-million-on.html",
-      "raw_summary": "Threat actors are acquiring expired domains to inherit website traffic and reputation to redirect victims to scams and malware on a large scale.\n\nDNS threat intelligence firm Infoblox has given the name dropcatch domains to those that get a second chance, where an expired domain becomes available for registration and is then snapped up by another party.\n\nDuring the first half of 2026, 50,400",
-      "source": "The Hacker News",
-      "published": "Sat, 15 Aug 2026 00:18:46 +0530",
-      "summary": "Hackers Spend Nearly $7 Million on Expired Domains to Redirect Traffic to Scams and Malware\nThreat actors are acquiring expired domains to inherit website traffic and reputation to redirect victims to scams and malware on a large scale.\n\nDNS threat intelligence firm Infoblox has given the name dropc"
-    },
-    {
-      "title": "People are worried about America's solvency",
-      "link": "https://www.ft.com/content/e04f286c-f5ed-46d1-8e3f-0bbe4cce4d3e",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.ft.com/content/e04f286c-f5ed-46d1-8e3f-0bbe4cce4d3e\">https://www.ft.com/content/e04f286c-f5ed-46d1-8e3f-0bbe4cce4d3e</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49329347\">https://news.ycombinator.com/item?id=49329347</a></p>\n<p>Points: 21</p>\n<p># Comments: 13</p>",
+      "title": "Memory prices climb 500% in 12 months, up to 10x the lowest ever tracked prices",
+      "link": "https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399\">https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49334960\">https://news.ycombinator.com/item?id=49334960</a></p>\n<p>Points: 21</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 17 Aug 2026 11:45:12 +0000",
-      "summary": "People are worried about America's solvency\n<p>Article URL: <a href=\"https://www.ft.com/content/e04f286c-f5ed-46d1-8e3f-0bbe4cce4d3e\">https://www.ft.com/content/e04f286c-f5ed-46d1-8e3f-0bbe4cce4d3e</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49329347\">https://news.ycombina"
+      "published": "Mon, 17 Aug 2026 17:52:37 +0000",
+      "summary": "Memory prices climb 500% in 12 months, up to 10x the lowest ever tracked prices\n<p>Article URL: <a href=\"https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399\">https://www.tomshardware.com/pc-co"
     },
     {
-      "title": "Self hosted email continues to steeply decline",
-      "link": "https://labs.ripe.net/author/artem-berezin/two-providers-a-stubborn-plateau-and-a-very-long-tail-email-in-the-tranco-top-1m/",
-      "raw_summary": "<p>Article URL: <a href=\"https://labs.ripe.net/author/artem-berezin/two-providers-a-stubborn-plateau-and-a-very-long-tail-email-in-the-tranco-top-1m/\">https://labs.ripe.net/author/artem-berezin/two-providers-a-stubborn-plateau-and-a-very-long-tail-email-in-the-tranco-top-1m/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49328911\">https://news.ycombinator.com/item?id=49328911</a></p>\n<p>Points: 49</p>\n<p># Comments: 59</p>",
+      "title": "Qwen3.8 27B scores 52 on Artificial Analysis",
+      "link": "https://artificialanalysis.ai/models/qwen3-8-27b",
+      "raw_summary": "<p>Article URL: <a href=\"https://artificialanalysis.ai/models/qwen3-8-27b\">https://artificialanalysis.ai/models/qwen3-8-27b</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49334544\">https://news.ycombinator.com/item?id=49334544</a></p>\n<p>Points: 22</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 17 Aug 2026 10:45:14 +0000",
-      "summary": "Self hosted email continues to steeply decline\n<p>Article URL: <a href=\"https://labs.ripe.net/author/artem-berezin/two-providers-a-stubborn-plateau-and-a-very-long-tail-email-in-the-tranco-top-1m/\">https://labs.ripe.net/author/artem-berezin/two-providers-a-stubborn-plateau-and-a-very-long-tail-email"
+      "published": "Mon, 17 Aug 2026 17:25:17 +0000",
+      "summary": "Qwen3.8 27B scores 52 on Artificial Analysis\n<p>Article URL: <a href=\"https://artificialanalysis.ai/models/qwen3-8-27b\">https://artificialanalysis.ai/models/qwen3-8-27b</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49334544\">https://news.ycombinator.com/item?id=49334544</a><"
     },
     {
-      "title": "The Marxist Case for the Technofeudal Hypothesis",
-      "link": "https://jacobin.com/2026/08/varoufakis-tech-capital-marxism-technofeudalism",
-      "raw_summary": "<p>Article URL: <a href=\"https://jacobin.com/2026/08/varoufakis-tech-capital-marxism-technofeudalism\">https://jacobin.com/2026/08/varoufakis-tech-capital-marxism-technofeudalism</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49328899\">https://news.ycombinator.com/item?id=49328899</a></p>\n<p>Points: 17</p>\n<p># Comments: 1</p>",
+      "title": "Buy Your Friends Batteries",
+      "link": "https://domenkozar.com/2026/08/17/buy-your-friends-batteries/",
+      "raw_summary": "<p>Article URL: <a href=\"https://domenkozar.com/2026/08/17/buy-your-friends-batteries/\">https://domenkozar.com/2026/08/17/buy-your-friends-batteries/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49333932\">https://news.ycombinator.com/item?id=49333932</a></p>\n<p>Points: 73</p>\n<p># Comments: 75</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 17 Aug 2026 10:44:17 +0000",
-      "summary": "The Marxist Case for the Technofeudal Hypothesis\n<p>Article URL: <a href=\"https://jacobin.com/2026/08/varoufakis-tech-capital-marxism-technofeudalism\">https://jacobin.com/2026/08/varoufakis-tech-capital-marxism-technofeudalism</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49"
+      "published": "Mon, 17 Aug 2026 16:45:11 +0000",
+      "summary": "Buy Your Friends Batteries\n<p>Article URL: <a href=\"https://domenkozar.com/2026/08/17/buy-your-friends-batteries/\">https://domenkozar.com/2026/08/17/buy-your-friends-batteries/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49333932\">https://news.ycombinator.com/item?id=49333"
     },
     {
-      "title": "Show HN: Desktopcolors.com – A museum for solid background colors of classic OS",
-      "link": "https://desktopcolors.com",
-      "raw_summary": "<p>Hi HN, in my last vacation, I built desktopcolors.com as a place to collect iconic solid background colors. Let me know what you think.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49327643\">https://news.ycombinator.com/item?id=49327643</a></p>\n<p>Points: 30</p>\n<p># Comments: 16</p>",
+      "title": "Sun Clock",
+      "link": "https://sunclock.net/",
+      "raw_summary": "<p>Article URL: <a href=\"https://sunclock.net/\">https://sunclock.net/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49333824\">https://news.ycombinator.com/item?id=49333824</a></p>\n<p>Points: 17</p>\n<p># Comments: 9</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 17 Aug 2026 07:51:22 +0000",
-      "summary": "Show HN: Desktopcolors.com – A museum for solid background colors of classic OS\n<p>Hi HN, in my last vacation, I built desktopcolors.com as a place to collect iconic solid background colors. Let me know what you think.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=4932764"
+      "published": "Mon, 17 Aug 2026 16:37:54 +0000",
+      "summary": "Sun Clock\n<p>Article URL: <a href=\"https://sunclock.net/\">https://sunclock.net/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49333824\">https://news.ycombinator.com/item?id=49333824</a></p>\n<p>Points: 17</p>\n<p># Comments: 9</p>"
     },
     {
-      "title": "Linear algebra done right",
-      "link": "https://linear.axler.net/",
-      "raw_summary": "<p>Article URL: <a href=\"https://linear.axler.net/\">https://linear.axler.net/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49326816\">https://news.ycombinator.com/item?id=49326816</a></p>\n<p>Points: 111</p>\n<p># Comments: 46</p>",
+      "title": "Judge sets framework for Nine PBS to retrieve archival data",
+      "link": "https://current.org/2026/08/judge-sets-framework-for-nine-pbs-to-retrieve-archival-data/",
+      "raw_summary": "<p>Article URL: <a href=\"https://current.org/2026/08/judge-sets-framework-for-nine-pbs-to-retrieve-archival-data/\">https://current.org/2026/08/judge-sets-framework-for-nine-pbs-to-retrieve-archival-data/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49333344\">https://news.ycombinator.com/item?id=49333344</a></p>\n<p>Points: 11</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 17 Aug 2026 05:21:34 +0000",
-      "summary": "Linear algebra done right\n<p>Article URL: <a href=\"https://linear.axler.net/\">https://linear.axler.net/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49326816\">https://news.ycombinator.com/item?id=49326816</a></p>\n<p>Points: 111</p>\n<p># Comments: 46</p>"
+      "published": "Mon, 17 Aug 2026 16:11:37 +0000",
+      "summary": "Judge sets framework for Nine PBS to retrieve archival data\n<p>Article URL: <a href=\"https://current.org/2026/08/judge-sets-framework-for-nine-pbs-to-retrieve-archival-data/\">https://current.org/2026/08/judge-sets-framework-for-nine-pbs-to-retrieve-archival-data/</a></p>\n<p>Comments URL: <a href=\"ht"
     },
     {
-      "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
-      "link": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
-      "raw_summary": "OpenRouter's CEO recently described the startup as Stripe for AI.",
+      "title": "YouTube will now count a view as soon as a video starts playing",
+      "link": "https://techcrunch.com/2026/08/17/youtube-will-now-count-a-view-as-soon-as-a-video-starts-playing/",
+      "raw_summary": "The change comes a year after YouTube applied the same approach to counting views on Shorts videos.",
       "source": "TechCrunch",
-      "published": "Sun, 16 Aug 2026 20:57:04 +0000",
-      "summary": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+\nOpenRouter's CEO recently described the startup as Stripe for AI."
+      "published": "Mon, 17 Aug 2026 18:09:33 +0000",
+      "summary": "YouTube will now count a view as soon as a video starts playing\nThe change comes a year after YouTube applied the same approach to counting views on Shorts videos."
     },
     {
-      "title": "Why people aren’t buying Mark Zuckerberg’s AI future",
-      "link": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
-      "raw_summary": "On the latest episode of Equity podcast, we discuss why not everyone is buying Zuckerberg’s vision.",
+      "title": "Feedly attributes weeklong slowdown to bug, not its AI pivot",
+      "link": "https://techcrunch.com/2026/08/17/feedly-attributes-weeklong-slowdown-to-bug-not-its-ai-pivot/",
+      "raw_summary": "Feedly says a bug is behind the performance issues that have made its web app nearly \"unusable\" for some users, while complaints about its mobile apps and customer support are adding to frustrations.",
       "source": "TechCrunch",
-      "published": "Sun, 16 Aug 2026 20:32:01 +0000",
-      "summary": "Why people aren’t buying Mark Zuckerberg’s AI future\nOn the latest episode of Equity podcast, we discuss why not everyone is buying Zuckerberg’s vision."
+      "published": "Mon, 17 Aug 2026 17:10:59 +0000",
+      "summary": "Feedly attributes weeklong slowdown to bug, not its AI pivot\nFeedly says a bug is behind the performance issues that have made its web app nearly \"unusable\" for some users, while complaints about its mobile apps and customer support are adding to frustrations."
     },
     {
-      "title": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
-      "link": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
-      "raw_summary": "Dario Amodei is pushing back against the idea that he's been painting an overly pessimistic picture of AI.",
+      "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
+      "link": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+      "raw_summary": "Rare books are incredibly valuable for training LLMs, since these models have already trained on whatever's available online.",
       "source": "TechCrunch",
-      "published": "Sun, 16 Aug 2026 16:53:51 +0000",
-      "summary": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’\nDario Amodei is pushing back against the idea that he's been painting an overly pessimistic picture of AI."
+      "published": "Mon, 17 Aug 2026 16:38:44 +0000",
+      "summary": "Amazon, which started off selling books, is destroying rare texts to train AI\nRare books are incredibly valuable for training LLMs, since these models have already trained on whatever's available online."
     },
     {
-      "title": "TechCrunch Mobility: The shifting flight path of electric air taxis",
-      "link": "https://techcrunch.com/2026/08/16/techcrunch-mobility-the-shifting-flight-path-of-electric-air-taxis/",
-      "raw_summary": "Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation.",
+      "title": "Groq raises $350M to fuel its pivot from AI chips to neocloud",
+      "link": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
+      "raw_summary": "Groq raised $350 million at a $3.5 billion valuation as the former AI chipmaker pivots to a neocloud business and expands its Nvidia-powered data center footprint.",
       "source": "TechCrunch",
-      "published": "Sun, 16 Aug 2026 16:04:00 +0000",
-      "summary": "TechCrunch Mobility: The shifting flight path of electric air taxis\nWelcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation."
+      "published": "Mon, 17 Aug 2026 16:15:12 +0000",
+      "summary": "Groq raises $350M to fuel its pivot from AI chips to neocloud\nGroq raised $350 million at a $3.5 billion valuation as the former AI chipmaker pivots to a neocloud business and expands its Nvidia-powered data center footprint."
     },
     {
-      "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
-      "link": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
-      "raw_summary": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\"",
+      "title": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
+      "link": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
+      "raw_summary": "Nvidia's investment in SoftBank's data center developer will guarantee its chips power an OpenAI data center.",
       "source": "TechCrunch",
-      "published": "Sat, 15 Aug 2026 21:29:19 +0000",
-      "summary": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery\nThe woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\""
+      "published": "Mon, 17 Aug 2026 15:16:24 +0000",
+      "summary": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project\nNvidia's investment in SoftBank's data center developer will guarantee its chips power an OpenAI data center."
     },
     {
-      "title": "Wildfire smoke now bigger prenatal threat than human sources of air pollution",
-      "link": "https://arstechnica.com/science/2026/08/wildfire-smoke-now-bigger-prenatal-threat-than-human-sources-of-air-pollution/",
-      "raw_summary": "Regulations reduced prenatal exposure to harmful emissions, but wildfire smoke is erasing gains.",
+      "title": "Hidden Airtag reveals Amazon is trashing rare books to train AI",
+      "link": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
+      "raw_summary": "Amazon’s team uses a <em>T. rex</em> preparing to devour a book as its logo.",
       "source": "Ars Technica - All content",
-      "published": "Sun, 16 Aug 2026 10:00:59 +0000",
-      "summary": "Wildfire smoke now bigger prenatal threat than human sources of air pollution\nRegulations reduced prenatal exposure to harmful emissions, but wildfire smoke is erasing gains."
+      "published": "Mon, 17 Aug 2026 18:13:47 +0000",
+      "summary": "Hidden Airtag reveals Amazon is trashing rare books to train AI\nAmazon’s team uses a <em>T. rex</em> preparing to devour a book as its logo."
     },
     {
-      "title": "VisionQuest trailer kicks off Disney's D23 fan event",
-      "link": "https://arstechnica.com/culture/2026/08/visionquest-trailer-kicks-off-disneys-d23-fan-event/",
-      "raw_summary": "Also: <em>Ahsoka</em> S2 teaser, <em>Doomsday</em> trailer, news about MCU's <em>X-Men</em> and <em>Star Wars: Starfighter</em>",
+      "title": "This sub-$7,000 sportscar might be just what the future needs",
+      "link": "https://arstechnica.com/cars/2026/08/the-opposite-of-a-hypercar-is-fun-meet-the-gasolini-ar1/",
+      "raw_summary": "The Gasolini AR1 uses 2-cylinder Honda bike engine, and an EV is underway, too.",
       "source": "Ars Technica - All content",
-      "published": "Sat, 15 Aug 2026 21:21:27 +0000",
-      "summary": "VisionQuest trailer kicks off Disney's D23 fan event\nAlso: <em>Ahsoka</em> S2 teaser, <em>Doomsday</em> trailer, news about MCU's <em>X-Men</em> and <em>Star Wars: Starfighter</em>"
+      "published": "Mon, 17 Aug 2026 15:01:25 +0000",
+      "summary": "This sub-$7,000 sportscar might be just what the future needs\nThe Gasolini AR1 uses 2-cylinder Honda bike engine, and an EV is underway, too."
     },
     {
-      "title": "Ukraine strikes major Russian rocket factory with cruise missiles",
-      "link": "https://arstechnica.com/space/2026/08/ukraine-strikes-major-russian-rocket-factory-with-cruise-missiles/",
-      "raw_summary": "\"Flamingo missiles were used. A good achievement.\"",
+      "title": "Nvidia discloses $21B stake in SpaceX",
+      "link": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/",
+      "raw_summary": "Filing comes after Elon Musk announced exclusive arrangement to kit out its data centers.",
       "source": "Ars Technica - All content",
-      "published": "Sat, 15 Aug 2026 15:46:05 +0000",
-      "summary": "Ukraine strikes major Russian rocket factory with cruise missiles\n\"Flamingo missiles were used. A good achievement.\""
+      "published": "Mon, 17 Aug 2026 14:22:54 +0000",
+      "summary": "Nvidia discloses $21B stake in SpaceX\nFiling comes after Elon Musk announced exclusive arrangement to kit out its data centers."
     },
     {
-      "title": "So much solar: Digging into the list of every US power plant that went online this year",
-      "link": "https://arstechnica.com/science/2026/08/so-much-solar-digging-into-the-list-of-every-us-power-plant-that-went-online-this-year/",
-      "raw_summary": "Utility-scale solar leads by a mile, followed by batteries. Fossil fuels, not so much.",
+      "title": "Meet the only known trebuchet casualty in history",
+      "link": "https://arstechnica.com/science/2026/08/meet-the-only-known-trebuchet-casualty-in-history/",
+      "raw_summary": "\"It highlights the brutality of medieval warfare,\" said paleopathologist Jo Buckberry.",
       "source": "Ars Technica - All content",
-      "published": "Sat, 15 Aug 2026 11:09:57 +0000",
-      "summary": "So much solar: Digging into the list of every US power plant that went online this year\nUtility-scale solar leads by a mile, followed by batteries. Fossil fuels, not so much."
+      "published": "Mon, 17 Aug 2026 13:41:35 +0000",
+      "summary": "Meet the only known trebuchet casualty in history\n\"It highlights the brutality of medieval warfare,\" said paleopathologist Jo Buckberry."
     },
     {
-      "title": "Vulnerability giving attackers full control of Macs is under active exploitation",
-      "link": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
-      "raw_summary": "Screen-sharing bug lets remote hackers log in without a password.",
+      "title": "Satellite operators are in panic mode due to a worsening launch crisis",
+      "link": "https://arstechnica.com/space/2026/08/theres-a-huge-launch-crunch-right-now-and-it-will-probably-get-worse/",
+      "raw_summary": "What happens if the Falcon rockets stop flying?",
       "source": "Ars Technica - All content",
-      "published": "Fri, 14 Aug 2026 18:32:14 +0000",
-      "summary": "Vulnerability giving attackers full control of Macs is under active exploitation\nScreen-sharing bug lets remote hackers log in without a password."
+      "published": "Mon, 17 Aug 2026 11:00:26 +0000",
+      "summary": "Satellite operators are in panic mode due to a worsening launch crisis\nWhat happens if the Falcon rockets stop flying?"
     },
     {
-      "title": "Can Democrats seize Congress from Trump?",
-      "link": "https://www.ft.com/content/29f1af13-ecc3-4f26-a479-e6088c67231b?syn-25a6b1a6=1",
-      "raw_summary": "The races, the money and the issues that will determine the final half of Trump’s second term",
+      "title": "Chelsea shareholders Walter and Boehly in talks to sell stakes to Clearlake",
+      "link": "https://www.ft.com/content/71a498fa-4ce7-4c0b-ab14-7b7f46b2b9c6?syn-25a6b1a6=1",
+      "raw_summary": "Negotiations come amid clashes over strategy and as Walter’s business empire faces scrutiny from regulators",
       "source": "World",
-      "published": "Mon, 17 Aug 2026 11:44:19 GMT",
-      "summary": "Can Democrats seize Congress from Trump?\nThe races, the money and the issues that will determine the final half of Trump’s second term"
+      "published": "Mon, 17 Aug 2026 17:06:13 GMT",
+      "summary": "Chelsea shareholders Walter and Boehly in talks to sell stakes to Clearlake\nNegotiations come amid clashes over strategy and as Walter’s business empire faces scrutiny from regulators"
     },
     {
-      "title": "Trump’s war on customs fraud will be costly and difficult",
-      "link": "https://www.ft.com/content/83d287ed-43e2-466d-9490-06879efb04fc?syn-25a6b1a6=1",
-      "raw_summary": "The US administration has incentivised the tariff cheating, mislabelling and misvaluation it complains about",
+      "title": "Crime and punishment in the Middle East",
+      "link": "https://www.ft.com/content/a53ad482-510e-4855-90f3-b9f2bf7f6aac",
+      "raw_summary": "Lebanon and Syria are trying to improve the application of justice but challenges remain",
       "source": "World",
-      "published": "Mon, 17 Aug 2026 11:31:10 GMT",
-      "summary": "Trump’s war on customs fraud will be costly and difficult\nThe US administration has incentivised the tariff cheating, mislabelling and misvaluation it complains about"
+      "published": "Mon, 17 Aug 2026 16:55:41 GMT",
+      "summary": "Crime and punishment in the Middle East\nLebanon and Syria are trying to improve the application of justice but challenges remain"
     },
     {
-      "title": "Trump threatens to bomb Oman if it ‘gets in the way’ of US-Iran negotiations",
-      "link": "https://www.ft.com/content/d4d07198-498d-48d1-9e54-85f1febcd070",
-      "raw_summary": "Remarks come as Gulf state has been in talks with Tehran over provisional arrangement to manage Strait of Hormuz",
+      "title": "Russia fires economist over Ukraine war warning",
+      "link": "https://www.ft.com/content/a1b720e3-e1e6-4a13-bdb0-9cc27399ceb4?syn-25a6b1a6=1",
+      "raw_summary": "Andrei Klepach dismissed after bleak remarks about economic toll of conflict",
       "source": "World",
-      "published": "Mon, 17 Aug 2026 11:25:49 GMT",
-      "summary": "Trump threatens to bomb Oman if it ‘gets in the way’ of US-Iran negotiations\nRemarks come as Gulf state has been in talks with Tehran over provisional arrangement to manage Strait of Hormuz"
+      "published": "Mon, 17 Aug 2026 16:32:12 GMT",
+      "summary": "Russia fires economist over Ukraine war warning\nAndrei Klepach dismissed after bleak remarks about economic toll of conflict"
     },
     {
-      "title": "Reform UK vows to block foreign nationals from claiming benefits if it wins power",
-      "link": "https://www.ft.com/content/e34c097f-0f5d-49b8-8142-967842ba6c42?syn-25a6b1a6=1",
-      "raw_summary": "Party’s Treasury spokesperson Robert Jenrick says current welfare system is ‘a strange perversion of compassion’",
+      "title": "Seoul rattled by threat to drills at heart of US-Korean alliance",
+      "link": "https://www.ft.com/content/377d4c1c-1cbc-46b2-8c34-f2d578c6d595?syn-25a6b1a6=1",
+      "raw_summary": "Donald Trump’s eleventh-hour demand to ‘reduce’ annual exercises and praise of Kim Jong Un unsettles ally",
       "source": "World",
-      "published": "Mon, 17 Aug 2026 11:15:33 GMT",
-      "summary": "Reform UK vows to block foreign nationals from claiming benefits if it wins power\nParty’s Treasury spokesperson Robert Jenrick says current welfare system is ‘a strange perversion of compassion’"
+      "published": "Mon, 17 Aug 2026 15:25:18 GMT",
+      "summary": "Seoul rattled by threat to drills at heart of US-Korean alliance\nDonald Trump’s eleventh-hour demand to ‘reduce’ annual exercises and praise of Kim Jong Un unsettles ally"
     },
     {
-      "title": "FirstFT: Jared Kushner and Benjamin Netanyahu meet in push for Gaza peace",
-      "link": "https://www.ft.com/content/d794e389-2122-481d-8fa3-328e33480ee5?syn-25a6b1a6=1",
-      "raw_summary": "Also in today’s newsletter: private credit doldrums and the AI super-rich",
+      "title": "Ebola outbreak becomes DR Congo’s deadliest",
+      "link": "https://www.ft.com/content/9472e6dd-7b51-48e9-91fa-1f59412e0093?syn-25a6b1a6=1",
+      "raw_summary": "World Health Organization warns country has entered ‘intense transmission’ phase of the virus",
       "source": "World",
-      "published": "Mon, 17 Aug 2026 11:00:13 GMT",
-      "summary": "FirstFT: Jared Kushner and Benjamin Netanyahu meet in push for Gaza peace\nAlso in today’s newsletter: private credit doldrums and the AI super-rich"
+      "published": "Mon, 17 Aug 2026 15:20:20 GMT",
+      "summary": "Ebola outbreak becomes DR Congo’s deadliest\nWorld Health Organization warns country has entered ‘intense transmission’ phase of the virus"
     },
     {
-      "title": "Ascend Sport Said to Mull Listing in Up to $740 Million Deal",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-17/ascend-sport-said-to-mull-listing-in-up-to-740-million-merger",
-      "raw_summary": "Switzerland’s Ascend Sport Technology AG is exploring strategic options, including a reverse merger with a listed shell company that could value the firm between 500 million and 600 million Swiss francs ($740 million), according to people familiar with matter.",
+      "title": "US Bond Selloff Drives 30-Year Yields to 2007 High",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-17/us-bond-selloff-drives-30-year-yields-to-the-highest-since-2007",
+      "raw_summary": "The yield on 30-year US Treasuries hit the highest in almost two decades, reflecting investor angst over the surging national debt, a flood of long-dated bond sales and inflation that’s been stuck over the Federal Reserve’s target for the past five years.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 17 Aug 2026 09:24:56 GMT",
-      "summary": "Ascend Sport Said to Mull Listing in Up to $740 Million Deal\nSwitzerland’s Ascend Sport Technology AG is exploring strategic options, including a reverse merger with a listed shell company that could value the firm between 500 million and 600 million Swiss francs ($740 million), according to people "
+      "published": "Mon, 17 Aug 2026 16:44:44 GMT",
+      "summary": "US Bond Selloff Drives 30-Year Yields to 2007 High\nThe yield on 30-year US Treasuries hit the highest in almost two decades, reflecting investor angst over the surging national debt, a flood of long-dated bond sales and inflation that’s been stuck over the Federal Reserve’s target for the past five "
     },
     {
-      "title": "Chasing This Global Stocks Rally Boosts the Need for Protection",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-17/chasing-this-rally-boosts-the-need-for-protection-taking-stock",
-      "raw_summary": "Reasons to be wary about stocks are quickly disappearing and a Goldilocks scenario looks increasingly likely. That’s precisely why it’s a perfect time to hedge against a market priced for perfection.",
+      "title": "The Two Megatrends Changing the US Treasury Market",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-08-17/the-two-megatrends-changing-the-us-treasury-market",
+      "raw_summary": "Heading for higher yields.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 17 Aug 2026 06:15:26 GMT",
-      "summary": "Chasing This Global Stocks Rally Boosts the Need for Protection\nReasons to be wary about stocks are quickly disappearing and a Goldilocks scenario looks increasingly likely. That’s precisely why it’s a perfect time to hedge against a market priced for perfection."
+      "published": "Mon, 17 Aug 2026 18:21:15 GMT",
+      "summary": "The Two Megatrends Changing the US Treasury Market\nHeading for higher yields."
     },
     {
-      "title": "Trump’s Venezuela Fixer Is Promoting ‘America First’ Oil Deals",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-17/trump-s-venezuela-fixer-is-promoting-america-first-oil-deals",
-      "raw_summary": "A Venezuelan mogul who minted a fortune selling power turbines and pumping oil has emerged as the Trump administration’s fixer for promoting “America First” deals for favored US companies, as Washington moves to exert more influence in the resource-rich South American country.",
+      "title": "Latest Oil Market News and Analysis for June 17",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-16/latest-oil-market-news-and-analysis-for-june-17",
+      "raw_summary": "Oil climbed in thin summer trading as investors weighed fresh Middle East tensions against signs of ongoing shipments through the contested Strait of Hormuz.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 17 Aug 2026 12:01:42 GMT",
-      "summary": "Trump’s Venezuela Fixer Is Promoting ‘America First’ Oil Deals\nA Venezuelan mogul who minted a fortune selling power turbines and pumping oil has emerged as the Trump administration’s fixer for promoting “America First” deals for favored US companies, as Washington moves to exert more influence in t"
+      "published": "Sun, 16 Aug 2026 22:02:21 GMT",
+      "summary": "Latest Oil Market News and Analysis for June 17\nOil climbed in thin summer trading as investors weighed fresh Middle East tensions against signs of ongoing shipments through the contested Strait of Hormuz."
     },
     {
       "title": "Copper Squeeze Builds With Spreads Surging and Price Near Record",
       "link": "https://www.bloomberg.com/news/articles/2026-08-17/copper-heads-toward-record-high-on-lme-as-supply-tensions-build",
-      "raw_summary": "Copper rose toward a record on the London Metal Exchange, with soaring spreads highlighting an increasingly acute squeeze in near-term supply.",
+      "raw_summary": "Copper rose toward a record on the London Metal Exchange, with soaring price spreads highlighting an increasingly acute squeeze in near-term supply.",
       "source": "Bloomberg Markets",
       "published": "Mon, 17 Aug 2026 01:45:04 GMT",
-      "summary": "Copper Squeeze Builds With Spreads Surging and Price Near Record\nCopper rose toward a record on the London Metal Exchange, with soaring spreads highlighting an increasingly acute squeeze in near-term supply."
+      "summary": "Copper Squeeze Builds With Spreads Surging and Price Near Record\nCopper rose toward a record on the London Metal Exchange, with soaring price spreads highlighting an increasingly acute squeeze in near-term supply."
     },
     {
-      "title": "Stock Futures Rise as Anthropic Fuels AI Optimism: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-16/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "Technology stocks lifted global equities after stellar revenue growth at Anthropic PBC bolstered the view that massive spending on artificial intelligence will be sustained. The dollar touched a three-month low.",
+      "title": "Hydro-Quebec Inks $36 Billion Energy Deal With Newfoundland",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-17/hydro-quebec-reaches-36-billion-energy-deal-with-newfoundland",
+      "raw_summary": "The Canadian province of Newfoundland and Labrador managed to boost the value of a new 50-year electricity supply agreement with Hydro-Quebec, likely ending a long-running dispute.",
       "source": "Bloomberg Markets",
-      "published": "Sun, 16 Aug 2026 22:14:58 GMT",
-      "summary": "Stock Futures Rise as Anthropic Fuels AI Optimism: Markets Wrap\nTechnology stocks lifted global equities after stellar revenue growth at Anthropic PBC bolstered the view that massive spending on artificial intelligence will be sustained. The dollar touched a three-month low."
+      "published": "Mon, 17 Aug 2026 16:24:56 GMT",
+      "summary": "Hydro-Quebec Inks $36 Billion Energy Deal With Newfoundland\nThe Canadian province of Newfoundland and Labrador managed to boost the value of a new 50-year electricity supply agreement with Hydro-Quebec, likely ending a long-running dispute."
     },
     {
-      "title": "No change in bitcoin holdings as Strategy boosted dollar reserve, bought back more STRC last week",
-      "link": "https://www.coindesk.com/markets/2026/08/17/no-change-in-bitcoin-holdings-as-strategy-lifted-dollar-reserve-and-bought-back-more-strc-last-week",
+      "title": "BitMart founder dismisses calls for audit as users report blocked funds, unpaid employees",
+      "link": "https://www.coindesk.com/business/2026/08/17/bitmart-founder-dismisses-calls-for-audit-as-users-report-blocked-funds-unpaid-employees",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 17 Aug 2026 12:19:45 +0000",
-      "summary": "No change in bitcoin holdings as Strategy boosted dollar reserve, bought back more STRC last week\n"
+      "published": "Mon, 17 Aug 2026 16:40:08 +0000",
+      "summary": "BitMart founder dismisses calls for audit as users report blocked funds, unpaid employees\n"
     },
     {
-      "title": "Ethereum’s next big upgrade has 66 proposals, including a major privacy fix",
-      "link": "https://www.coindesk.com/tech/2026/08/17/ethereum-s-next-big-upgrade-has-66-proposals-including-a-major-privacy-fix",
+      "title": "Compound bets $52 million, new leadership team in switch to institutional focus",
+      "link": "https://www.coindesk.com/business/2026/08/17/compound-bets-usd52-million-new-leadership-team-in-switch-to-institutional-focus",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 17 Aug 2026 12:02:10 +0000",
-      "summary": "Ethereum’s next big upgrade has 66 proposals, including a major privacy fix\n"
+      "published": "Mon, 17 Aug 2026 15:32:30 +0000",
+      "summary": "Compound bets $52 million, new leadership team in switch to institutional focus\n"
     },
     {
-      "title": "Israel’s largest crypto broker Bits of Gold hit by data breach affecting 200,000 customers",
-      "link": "https://www.coindesk.com/tech/2026/08/17/israel-s-largest-crypto-broker-bits-of-gold-hit-by-data-breach-affecting-200-000-customers",
+      "title": "U.S. Treasury Department proposes GENIUS Act stablecoin rule",
+      "link": "https://www.coindesk.com/policy/2026/08/17/u-s-treasury-department-proposes-genius-act-stablecoin-rule",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 17 Aug 2026 11:59:23 +0000",
-      "summary": "Israel’s largest crypto broker Bits of Gold hit by data breach affecting 200,000 customers\n"
+      "published": "Mon, 17 Aug 2026 14:44:29 +0000",
+      "summary": "U.S. Treasury Department proposes GENIUS Act stablecoin rule\n"
     },
     {
-      "title": "Bitcoin options remain expensive despite summer calm. Here's why it matters",
-      "link": "https://www.coindesk.com/markets/2026/08/17/bitcoin-options-remain-expensive-despite-summer-calm-here-s-why-it-matters",
+      "title": "The Coldcard hack proves reputation is not a security model",
+      "link": "https://www.coindesk.com/opinion/2026/08/17/the-coldcard-hack-proves-reputation-is-not-a-security-model",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 17 Aug 2026 11:43:02 +0000",
-      "summary": "Bitcoin options remain expensive despite summer calm. Here's why it matters\n"
+      "published": "Mon, 17 Aug 2026 14:09:46 +0000",
+      "summary": "The Coldcard hack proves reputation is not a security model\n"
     },
     {
-      "title": "Bitcoin's biggest holders, Strategy and Metaplanet, are betting on math, not price",
-      "link": "https://www.coindesk.com/daybook-us/2026/08/17/bitcoin-s-biggest-holders-strategy-and-metaplanet-are-betting-on-math-not-price",
+      "title": "Tom Lee's Bitmine now owns 4.8% of Ethereum supply after latest ETH purchase",
+      "link": "https://www.coindesk.com/markets/2026/08/17/tom-lee-s-bitmine-now-owns-4-8-of-ethereum-supply-after-latest-eth-purchase",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 17 Aug 2026 11:28:41 +0000",
-      "summary": "Bitcoin's biggest holders, Strategy and Metaplanet, are betting on math, not price\n"
+      "published": "Mon, 17 Aug 2026 14:04:21 +0000",
+      "summary": "Tom Lee's Bitmine now owns 4.8% of Ethereum supply after latest ETH purchase\n"
     }
   ]
 }
