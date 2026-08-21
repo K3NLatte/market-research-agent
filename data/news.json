@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T18:26:21.973290+00:00",
+  "generated_at": "2026-08-21T00:50:38.750059+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "LG to Ban Residential Proxies from Smart TV Apps\nThe home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less than a month after researchers found that more tha"
     },
     {
+      "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
+      "link": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
+      "raw_summary": "The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded and executed a remote payload during compilation.\n\nThe affected releases are arrayref 0.3.10, internment 0.8.7, and append-only-vec 0.1.9, all published from the same owner",
+      "source": "The Hacker News",
+      "published": "Fri, 21 Aug 2026 01:52:35 +0530",
+      "summary": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads\nThe Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script down"
+    },
+    {
+      "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
+      "link": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
+      "raw_summary": "Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, governments, and think tanks across Europe, as well as academia and think tanks within the U.S.\n\nThese clusters include UNC6293, UNC7005, and UNC5976.\n\n\"These clusters engage in persistent, adaptive",
+      "source": "The Hacker News",
+      "published": "Fri, 21 Aug 2026 01:29:19 +0530",
+      "summary": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts\nThree distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, governments, and t"
+    },
+    {
+      "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit and More",
+      "link": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
+      "raw_summary": "A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do.\n\nSigned drivers get turned against defenses. Legitimate apps help malware blend in. A weak header check opens a path to code execution. Elsewhere, exposed systems, old bugs, odd hiding tricks, and AI-assisted exploit research keep lowering the effort needed to cause damage.\n\nNothing here needs",
+      "source": "The Hacker News",
+      "published": "Thu, 20 Aug 2026 22:53:48 +0530",
+      "summary": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit and More\nA lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do.\n\nSigned drivers get turned against defenses. Legitimate apps help malware blend in. A weak header check opens a"
+    },
+    {
       "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
       "link": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
       "raw_summary": "The U.S. government on Wednesday warned of an \"active threat\" targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit scripts.\n\nThe activity is targeting Siemens S7 SeriesProgrammable Logic Controllers (PLCs) to conduct reconnaissance and capability development using AI-generated scripts disguised as legitimate monitoring tools. That",
@@ -59,108 +83,116 @@
       "summary": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data\nAdversa AI has disclosed an attack technique that it says can cause xAI's Grok chatbot to send a user's name, approximate location, subscription tier, and the prompts from the ongoing conversation to an attacker-cont"
     },
     {
-      "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
-      "link": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
-      "raw_summary": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment.\n\nThe vulnerability (\"GHSA-864f-rcv7-6rh4\"), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0.",
-      "source": "The Hacker News",
-      "published": "Thu, 20 Aug 2026 19:18:24 +0530",
-      "summary": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE\nCybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the iso"
-    },
-    {
-      "title": "Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers",
-      "link": "https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html",
-      "raw_summary": "Citrix has released updates to address two security flaws impacting NetScaler ADC and NetScaler Gateway deployments, including a critical-severity authentication bypass vulnerability.\n\nAccording to the cloud computing and virtualization technology company, the issues affect customer-managed NetScaler ADC and NetScaler Gateway, including certain FIPS and NDcPP builds, as well as SecurAccess",
-      "source": "The Hacker News",
-      "published": "Thu, 20 Aug 2026 19:05:13 +0530",
-      "summary": "Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers\nCitrix has released updates to address two security flaws impacting NetScaler ADC and NetScaler Gateway deployments, including a critical-severity authentication bypass vulnerability.\n\nAccording to the cloud computi"
-    },
-    {
-      "title": "Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution",
-      "link": "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
-      "raw_summary": "A now-patched security flaw impacting Zimbra Collaboration (ZCS) has come under active exploitation in the wild, according to the Polish Computer Emergency Response Team (CERT Polska).\n\nThe vulnerability in question is CVE-2026-73570 (CVSS score: 8.9), which refers to a case of command injection that can lead to remote code execution.\n\n\"A remote code execution vulnerability exists in Zimbra",
-      "source": "The Hacker News",
-      "published": "Thu, 20 Aug 2026 18:54:28 +0530",
-      "summary": "Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution\nA now-patched security flaw impacting Zimbra Collaboration (ZCS) has come under active exploitation in the wild, according to the Polish Computer Emergency Response Team (CERT Polska).\n\nThe vulnerability in question is CVE-"
-    },
-    {
-      "title": "Optimizing things in the USSR (2016)",
-      "link": "https://chris-said.io/2016/05/11/optimizing-things-in-the-ussr/",
-      "raw_summary": "<p>Article URL: <a href=\"https://chris-said.io/2016/05/11/optimizing-things-in-the-ussr/\">https://chris-said.io/2016/05/11/optimizing-things-in-the-ussr/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49377923\">https://news.ycombinator.com/item?id=49377923</a></p>\n<p>Points: 6</p>\n<p># Comments: 2</p>",
+      "title": "There's no such thing as a small software team anymore",
+      "link": "https://jacob.gold/posts/theres-no-such-thing-as-a-small-software-team/",
+      "raw_summary": "<p>Article URL: <a href=\"https://jacob.gold/posts/theres-no-such-thing-as-a-small-software-team/\">https://jacob.gold/posts/theres-no-such-thing-as-a-small-software-team/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49382152\">https://news.ycombinator.com/item?id=49382152</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 20 Aug 2026 17:55:16 +0000",
-      "summary": "Optimizing things in the USSR (2016)\n<p>Article URL: <a href=\"https://chris-said.io/2016/05/11/optimizing-things-in-the-ussr/\">https://chris-said.io/2016/05/11/optimizing-things-in-the-ussr/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49377923\">https://news.ycombinator.com"
+      "published": "Fri, 21 Aug 2026 00:28:37 +0000",
+      "summary": "There's no such thing as a small software team anymore\n<p>Article URL: <a href=\"https://jacob.gold/posts/theres-no-such-thing-as-a-small-software-team/\">https://jacob.gold/posts/theres-no-such-thing-as-a-small-software-team/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=4938"
     },
     {
-      "title": "I should have loved biology",
-      "link": "https://jsomers.net/i-should-have-loved-biology/",
-      "raw_summary": "<p>Article URL: <a href=\"https://jsomers.net/i-should-have-loved-biology/\">https://jsomers.net/i-should-have-loved-biology/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49377853\">https://news.ycombinator.com/item?id=49377853</a></p>\n<p>Points: 14</p>\n<p># Comments: 3</p>",
+      "title": "Copyright does not protect AI-generated content in EU",
+      "link": "https://mathstodon.xyz/@maxpool/117128107757895678",
+      "raw_summary": "<p>Article URL: <a href=\"https://mathstodon.xyz/@maxpool/117128107757895678\">https://mathstodon.xyz/@maxpool/117128107757895678</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49382041\">https://news.ycombinator.com/item?id=49382041</a></p>\n<p>Points: 17</p>\n<p># Comments: 10</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 20 Aug 2026 17:50:02 +0000",
-      "summary": "I should have loved biology\n<p>Article URL: <a href=\"https://jsomers.net/i-should-have-loved-biology/\">https://jsomers.net/i-should-have-loved-biology/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49377853\">https://news.ycombinator.com/item?id=49377853</a></p>\n<p>Points: 14"
+      "published": "Fri, 21 Aug 2026 00:15:12 +0000",
+      "summary": "Copyright does not protect AI-generated content in EU\n<p>Article URL: <a href=\"https://mathstodon.xyz/@maxpool/117128107757895678\">https://mathstodon.xyz/@maxpool/117128107757895678</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49382041\">https://news.ycombinator.com/item?id="
     },
     {
-      "title": "Project Cybersyn",
-      "link": "https://bactra.org/notebooks/cybersyn.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://bactra.org/notebooks/cybersyn.html\">https://bactra.org/notebooks/cybersyn.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49377739\">https://news.ycombinator.com/item?id=49377739</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "title": "Stealth Model",
+      "link": "https://openrouter.ai/stealth/ox-alpha",
+      "raw_summary": "<p>Article URL: <a href=\"https://openrouter.ai/stealth/ox-alpha\">https://openrouter.ai/stealth/ox-alpha</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49381896\">https://news.ycombinator.com/item?id=49381896</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 20 Aug 2026 17:40:49 +0000",
-      "summary": "Project Cybersyn\n<p>Article URL: <a href=\"https://bactra.org/notebooks/cybersyn.html\">https://bactra.org/notebooks/cybersyn.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49377739\">https://news.ycombinator.com/item?id=49377739</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p"
+      "published": "Thu, 20 Aug 2026 23:56:35 +0000",
+      "summary": "Stealth Model\n<p>Article URL: <a href=\"https://openrouter.ai/stealth/ox-alpha\">https://openrouter.ai/stealth/ox-alpha</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49381896\">https://news.ycombinator.com/item?id=49381896</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>"
     },
     {
-      "title": "Show HN: We chased a weather balloon across Montana and never found it",
-      "link": "https://radi8.dev/blog/uplink/",
-      "raw_summary": "<p>Since April, I have been working with Sam Flynn (<a href=\"https://drook.dev\" rel=\"nofollow\">https://drook.dev</a>) to make this balloon payload, UpLink. We did a similar launch last year with Hack Club but this was our first independent launch.<p>UpLink was a 491 gram payload testing the insulation properties of 3D printing filaments, while also transmitting 320x240 images over a radio link -- up from the 18x10 images last year!<p>This is a writeup on our engineering process, mistakes made, and learning experiences. It covers:<p>- Custom electronics designed in KiCad<p>- Firmware design<p>- Results from the data we received on the ground<p>- Image transmission<p>- Launch day logistics, and where things went wrong<p>All hardware, software, firmware, and CAD is available on GitHub: <a href=\"https://github.com/radeeyate/UpLink\" rel=\"nofollow\">https://github.com/radeeyate/UpLink</a>, licensed + certified as open source hardware: <a href=\"https://certification.oshwa.org/us002826.html\" rel=\"nofollow\">https://certification.oshwa.org/us002826.html</a><p>If you just want to see the images received, I put up a gallery here: <a href=\"https://uplink.gallery.radi8.dev/\" rel=\"nofollow\">https://uplink.gallery.radi8.dev/</a><p>If you have any questions, comments, or concerns, let me know. I'm happy to answer anything!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49377660\">https://news.ycombinator.com/item?id=49377660</a></p>\n<p>Points: 19</p>\n<p># Comments: 7</p>",
+      "title": "Detecting scraper bots through scroll behaviour",
+      "link": "https://niki.cat/detecting-scraper-bots-through-scroll-behaviour",
+      "raw_summary": "<p>Article URL: <a href=\"https://niki.cat/detecting-scraper-bots-through-scroll-behaviour\">https://niki.cat/detecting-scraper-bots-through-scroll-behaviour</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49381311\">https://news.ycombinator.com/item?id=49381311</a></p>\n<p>Points: 20</p>\n<p># Comments: 7</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 20 Aug 2026 17:33:32 +0000",
-      "summary": "Show HN: We chased a weather balloon across Montana and never found it\n<p>Since April, I have been working with Sam Flynn (<a href=\"https://drook.dev\" rel=\"nofollow\">https://drook.dev</a>) to make this balloon payload, UpLink. We did a similar launch last year with Hack Club but this was our first i"
+      "published": "Thu, 20 Aug 2026 22:47:52 +0000",
+      "summary": "Detecting scraper bots through scroll behaviour\n<p>Article URL: <a href=\"https://niki.cat/detecting-scraper-bots-through-scroll-behaviour\">https://niki.cat/detecting-scraper-bots-through-scroll-behaviour</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49381311\">https://news.yc"
     },
     {
-      "title": "URL shortener links stored in your ATProto PDS",
-      "link": "https://atpr.to/",
-      "raw_summary": "<p>Article URL: <a href=\"https://atpr.to/\">https://atpr.to/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49377535\">https://news.ycombinator.com/item?id=49377535</a></p>\n<p>Points: 12</p>\n<p># Comments: 2</p>",
+      "title": "The Citizen Developer",
+      "link": "https://www.massdriver.cloud/blogs/the-citizen-developer",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.massdriver.cloud/blogs/the-citizen-developer\">https://www.massdriver.cloud/blogs/the-citizen-developer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49380491\">https://news.ycombinator.com/item?id=49380491</a></p>\n<p>Points: 39</p>\n<p># Comments: 60</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 20 Aug 2026 17:23:22 +0000",
-      "summary": "URL shortener links stored in your ATProto PDS\n<p>Article URL: <a href=\"https://atpr.to/\">https://atpr.to/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49377535\">https://news.ycombinator.com/item?id=49377535</a></p>\n<p>Points: 12</p>\n<p># Comments: 2</p>"
+      "published": "Thu, 20 Aug 2026 21:25:48 +0000",
+      "summary": "The Citizen Developer\n<p>Article URL: <a href=\"https://www.massdriver.cloud/blogs/the-citizen-developer\">https://www.massdriver.cloud/blogs/the-citizen-developer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49380491\">https://news.ycombinator.com/item?id=49380491</a></p>\n<p>"
     },
     {
-      "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
-      "link": "https://techcrunch.com/2026/08/20/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
-      "raw_summary": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
+      "title": "Tesla, Uber, and Waymo all get the OK to operate thousands of robotaxis in Nevada",
+      "link": "https://techcrunch.com/2026/08/20/tesla-uber-and-waymo-all-get-the-ok-to-operate-thousands-of-robotaxis-in-nevada/",
+      "raw_summary": "Together, these permits would allow up to 8,000 robotaxis to be deployed over the next 12 months.",
       "source": "TechCrunch",
-      "published": "Thu, 20 Aug 2026 18:20:35 +0000",
-      "summary": "Linkdaze’s smart calendar is built to run a household, not just track a schedule\nLinkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool."
+      "published": "Fri, 21 Aug 2026 00:23:36 +0000",
+      "summary": "Tesla, Uber, and Waymo all get the OK to operate thousands of robotaxis in Nevada\nTogether, these permits would allow up to 8,000 robotaxis to be deployed over the next 12 months."
     },
     {
-      "title": "Grok keeps sending gibberish responses to users",
-      "link": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
-      "raw_summary": "Affected users told TechCrunch they were using Grok Lite, and noticed the issues as early as Wednesday morning.",
+      "title": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
+      "link": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
+      "raw_summary": "Surging demand for AI training data is driving rapid growth for the startup and its rivals.",
       "source": "TechCrunch",
-      "published": "Thu, 20 Aug 2026 17:32:16 +0000",
-      "summary": "Grok keeps sending gibberish responses to users\nAffected users told TechCrunch they were using Grok Lite, and noticed the issues as early as Wednesday morning."
+      "published": "Fri, 21 Aug 2026 00:13:44 +0000",
+      "summary": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom\nSurging demand for AI training data is driving rapid growth for the startup and its rivals."
     },
     {
-      "title": "The investor’s guide to TechCrunch Disrupt 2026: Everything you need to know",
-      "link": "https://techcrunch.com/2026/08/20/the-investors-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/",
-      "raw_summary": "Year after year, investors who've explored the Expo Halls, met founders, and learned from peers have proven why you need to be on the ground at Disrupt this year.",
+      "title": "Learn what VCs actually want, from a founder who’s raised $1B",
+      "link": "https://techcrunch.com/video/learn-what-vcs-actually-want-from-a-founder-whos-raised-1b/",
+      "raw_summary": "Investors want founders who understand the financial reality of their business. Messy data, misunderstood metrics, or waiting until you’re nearly out of cash to start fundraising can cost founders leverage, valuation, and even a term sheet. In this episode of Build Mode, host Isabelle Johannessen sits down with Sasha Orloff, founder and CEO of Puzzle [&#8230;]",
       "source": "TechCrunch",
-      "published": "Thu, 20 Aug 2026 17:27:47 +0000",
-      "summary": "The investor’s guide to TechCrunch Disrupt 2026: Everything you need to know\nYear after year, investors who've explored the Expo Halls, met founders, and learned from peers have proven why you need to be on the ground at Disrupt this year."
+      "published": "Thu, 20 Aug 2026 23:32:27 +0000",
+      "summary": "Learn what VCs actually want, from a founder who’s raised $1B\nInvestors want founders who understand the financial reality of their business. Messy data, misunderstood metrics, or waiting until you’re nearly out of cash to start fundraising can cost founders leverage, valuation, and even a term shee"
     },
     {
-      "title": "A third of web pages published since ChatGPT’s launch show signs of AI authorship, study finds",
-      "link": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
-      "raw_summary": "ChatGPT and other AI models are now authoring and editing much of the new web.",
+      "title": "OpenAI is gaining on Anthropic with business users, new data indicates",
+      "link": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
+      "raw_summary": "Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies' investors pause about how \"sticky\" enterprise AI spending really is.",
       "source": "TechCrunch",
-      "published": "Thu, 20 Aug 2026 17:18:58 +0000",
-      "summary": "A third of web pages published since ChatGPT’s launch show signs of AI authorship, study finds\nChatGPT and other AI models are now authoring and editing much of the new web."
+      "published": "Thu, 20 Aug 2026 22:36:37 +0000",
+      "summary": "OpenAI is gaining on Anthropic with business users, new data indicates\nBusinesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies' investors pause about how \"sticky\" enterprise AI spending really is."
     },
     {
-      "title": "Early Cerebras investor Adit Singh joins Mayfield as infrastructure partner",
-      "link": "https://techcrunch.com/2026/08/20/early-cerebras-investor-adit-singh-joins-mayfield-as-infrastructure-partner/",
-      "raw_summary": "At Mayfield, Singh will focus on semiconductor, cybersecurity, and physical AI investments.",
+      "title": "ChatGPT can now send texts for you with new Apple Messages plug-in",
+      "link": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
+      "raw_summary": "Ever wanted someone else to do your texting for you? ChatGPT is being offered up as an automated text scribe via a new Apple Messages integration.",
       "source": "TechCrunch",
-      "published": "Thu, 20 Aug 2026 17:04:53 +0000",
-      "summary": "Early Cerebras investor Adit Singh joins Mayfield as infrastructure partner\nAt Mayfield, Singh will focus on semiconductor, cybersecurity, and physical AI investments."
+      "published": "Thu, 20 Aug 2026 22:09:51 +0000",
+      "summary": "ChatGPT can now send texts for you with new Apple Messages plug-in\nEver wanted someone else to do your texting for you? ChatGPT is being offered up as an automated text scribe via a new Apple Messages integration."
+    },
+    {
+      "title": "US distributor of China’s most popular humanoid robots pivots after US ban",
+      "link": "https://arstechnica.com/gadgets/2026/08/us-distributor-of-chinas-most-popular-humanoid-robots-pivots-after-us-ban/",
+      "raw_summary": "FCC ban on foreign-made robots accelerated RoboStore’s US manufacturing plans.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 20 Aug 2026 22:00:11 +0000",
+      "summary": "US distributor of China’s most popular humanoid robots pivots after US ban\nFCC ban on foreign-made robots accelerated RoboStore’s US manufacturing plans."
+    },
+    {
+      "title": "Europe cancels planned upgrades for Ariane 6 rocket",
+      "link": "https://arstechnica.com/space/2026/08/europe-cancels-planned-upgrades-for-ariane-6-rocket/",
+      "raw_summary": "Arianespace hasn’t publicly disclosed the cost for an Ariane 6 launch.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 20 Aug 2026 21:40:52 +0000",
+      "summary": "Europe cancels planned upgrades for Ariane 6 rocket\nArianespace hasn’t publicly disclosed the cost for an Ariane 6 launch."
+    },
+    {
+      "title": "They survived 9/11; 25 years later, their bonds remain unbroken",
+      "link": "https://arstechnica.com/culture/2026/08/new-9-11-documentary-finds-hope-in-the-horror/",
+      "raw_summary": "Survivors reconnect with those who saved them in National Geographic's <em>9/11: Reunited</em>.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 20 Aug 2026 21:25:25 +0000",
+      "summary": "They survived 9/11; 25 years later, their bonds remain unbroken\nSurvivors reconnect with those who saved them in National Geographic's <em>9/11: Reunited</em>."
+    },
+    {
+      "title": "Roblox must make changes after failing to block adults creeping on kids",
+      "link": "https://arstechnica.com/tech-policy/2026/08/weak-roblox-safeguards-failed-to-stop-adults-contacting-kids-regulator-says/",
+      "raw_summary": "Roblox is first platform to submit to independent audits under the Online Safety Act.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 20 Aug 2026 17:14:08 +0000",
+      "summary": "Roblox must make changes after failing to block adults creeping on kids\nRoblox is first platform to submit to independent audits under the Online Safety Act."
     },
     {
       "title": "Genesis joins the giant electric SUV club with new GV90",
@@ -171,116 +203,92 @@
       "summary": "Genesis joins the giant electric SUV club with new GV90\nA retractable screen, a huge heads-up display, and an optional 4-seat VIP interior."
     },
     {
-      "title": "SpaceX’s orbital data centers would create a new category of e-waste",
-      "link": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/",
-      "raw_summary": "The yeetcycling math resembles asteroid mining in reverse.",
-      "source": "Ars Technica - All content",
-      "published": "Thu, 20 Aug 2026 13:59:50 +0000",
-      "summary": "SpaceX’s orbital data centers would create a new category of e-waste\nThe yeetcycling math resembles asteroid mining in reverse."
-    },
-    {
-      "title": "Reverse-lookup service exposed millions of photos of people’s faces",
-      "link": "https://arstechnica.com/gadgets/2026/08/reverse-lookup-service-exposed-millions-of-photos-of-peoples-faces/",
-      "raw_summary": "People-search tool ClarityCheck left database containing more than 9M image files exposed.",
-      "source": "Ars Technica - All content",
-      "published": "Thu, 20 Aug 2026 13:29:54 +0000",
-      "summary": "Reverse-lookup service exposed millions of photos of people’s faces\nPeople-search tool ClarityCheck left database containing more than 9M image files exposed."
-    },
-    {
-      "title": "Grok exfiltrates user data when malicious instructions are encrypted",
-      "link": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
-      "raw_summary": "Cryptographic Context Injection is only the latest way to break an LLM safety guardrail.",
-      "source": "Ars Technica - All content",
-      "published": "Thu, 20 Aug 2026 13:00:35 +0000",
-      "summary": "Grok exfiltrates user data when malicious instructions are encrypted\nCryptographic Context Injection is only the latest way to break an LLM safety guardrail."
-    },
-    {
-      "title": "NASA calls off mission to rescue Swift gamma-ray observatory",
-      "link": "https://arstechnica.com/space/2026/08/nasa-calls-off-mission-to-rescue-swift-gamma-ray-observatory/",
-      "raw_summary": "Without a rescue, NASA's Swift Observatory is expected to reenter the atmosphere later this year.",
-      "source": "Ars Technica - All content",
-      "published": "Thu, 20 Aug 2026 00:18:48 +0000",
-      "summary": "NASA calls off mission to rescue Swift gamma-ray observatory\nWithout a rescue, NASA's Swift Observatory is expected to reenter the atmosphere later this year."
-    },
-    {
-      "title": "Brazilian municipalities join BHP and Vale dam collapse payout scheme",
-      "link": "https://www.ft.com/content/8bce59a1-d0e7-4f66-b2bd-da45de5a3c4e?syn-25a6b1a6=1",
-      "raw_summary": "Nineteen authorities reach agreement over 2015 disaster in blow to English High Court class action",
+      "title": "What is Bessent doing with the $32tn Treasury market — and will it work?",
+      "link": "https://www.ft.com/content/14b25583-c64d-4a97-9f6d-359908638e28?syn-25a6b1a6=1",
+      "raw_summary": "US Treasury secretary has made a high-stakes bet he can beat back soaring borrowing costs",
       "source": "World",
-      "published": "Thu, 20 Aug 2026 17:52:43 GMT",
-      "summary": "Brazilian municipalities join BHP and Vale dam collapse payout scheme\nNineteen authorities reach agreement over 2015 disaster in blow to English High Court class action"
+      "published": "Thu, 20 Aug 2026 23:08:14 GMT",
+      "summary": "What is Bessent doing with the $32tn Treasury market — and will it work?\nUS Treasury secretary has made a high-stakes bet he can beat back soaring borrowing costs"
+    },
+    {
+      "title": "UK consumer confidence rises to highest level for two years",
+      "link": "https://www.ft.com/content/50665033-4aed-43b0-a2e6-5c15c04e8c19?syn-25a6b1a6=1",
+      "raw_summary": "Good weather and the ‘Burnham bounce’ brought on by a new prime minister continued to have a positive effect in August",
+      "source": "World",
+      "published": "Thu, 20 Aug 2026 23:01:07 GMT",
+      "summary": "UK consumer confidence rises to highest level for two years\nGood weather and the ‘Burnham bounce’ brought on by a new prime minister continued to have a positive effect in August"
+    },
+    {
+      "title": "FirstFT: Scott Bessent’s intervention to prop up US market fails to soothe investors",
+      "link": "https://www.ft.com/content/130f404e-6303-49a8-89d6-3368e3fc70b6?syn-25a6b1a6=1",
+      "raw_summary": "Also in this newsletter: Loan to Guggenheim Partners falls to distressed territory and North Korea fires barrage of ballistic missiles",
+      "source": "World",
+      "published": "Thu, 20 Aug 2026 21:22:12 GMT",
+      "summary": "FirstFT: Scott Bessent’s intervention to prop up US market fails to soothe investors\nAlso in this newsletter: Loan to Guggenheim Partners falls to distressed territory and North Korea fires barrage of ballistic missiles"
     },
     {
       "title": "Walmart shares tumble as sales growth slows to six-year low",
       "link": "https://www.ft.com/content/79f1f638-1fd5-40e1-845b-b4a787a12883?syn-25a6b1a6=1",
       "raw_summary": "Retailer to use almost $2.9bn in tariff refunds to deliver price cuts for squeezed American consumers",
       "source": "World",
-      "published": "Thu, 20 Aug 2026 17:52:04 GMT",
+      "published": "Thu, 20 Aug 2026 20:52:26 GMT",
       "summary": "Walmart shares tumble as sales growth slows to six-year low\nRetailer to use almost $2.9bn in tariff refunds to deliver price cuts for squeezed American consumers"
     },
     {
-      "title": "Today’s China could learn from Jiang and Zhu",
-      "link": "https://www.ft.com/content/47c8bc3b-c1b6-4fae-add9-e55898778936?syn-25a6b1a6=1",
-      "raw_summary": "History might have been different had collegial, liberalising leadership continued",
+      "title": "Tory peer’s free speech group urged Vance to lobby UK government",
+      "link": "https://www.ft.com/content/402d716a-0cf1-46e6-b09b-e37d6ea428a5?syn-25a6b1a6=1",
+      "raw_summary": "Free Speech Union called on vice-president to focus on censorship at time of Starmer visit to US last year",
       "source": "World",
-      "published": "Thu, 20 Aug 2026 17:46:13 GMT",
-      "summary": "Today’s China could learn from Jiang and Zhu\nHistory might have been different had collegial, liberalising leadership continued"
+      "published": "Thu, 20 Aug 2026 18:59:48 GMT",
+      "summary": "Tory peer’s free speech group urged Vance to lobby UK government\nFree Speech Union called on vice-president to focus on censorship at time of Starmer visit to US last year"
     },
     {
-      "title": "The US Treasury is buying long bonds, but not very many",
-      "link": "https://www.ft.com/content/150aa8bf-54d1-448f-bdc9-14152ce3d76c",
-      "raw_summary": "Speaking loudly but wielding a teeny-tiny stick in",
-      "source": "World",
-      "published": "Thu, 20 Aug 2026 17:37:49 GMT",
-      "summary": "The US Treasury is buying long bonds, but not very many\nSpeaking loudly but wielding a teeny-tiny stick in"
-    },
-    {
-      "title": "Nvidia looks well placed to benefit from the next stage of the AI boom",
-      "link": "https://www.ft.com/content/b388be2e-67bd-4056-abd2-234e17819a98?syn-25a6b1a6=1",
-      "raw_summary": "The world’s biggest chip company is using its balance sheet to seed new markets and a new business model",
-      "source": "World",
-      "published": "Thu, 20 Aug 2026 17:17:16 GMT",
-      "summary": "Nvidia looks well placed to benefit from the next stage of the AI boom\nThe world’s biggest chip company is using its balance sheet to seed new markets and a new business model"
-    },
-    {
-      "title": "'Desperate Attempt' To Lower Yields: Jonathan Levin",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-20/-desperate-attempt-to-lower-yields-jonathan-levin-video",
-      "raw_summary": "Bloomberg Opinion's Jonathan Levin joins Scarlet Fu on \"Bloomberg Real Yield.\" Treasury Secretary Scott Bessent said today that he’s prepared to expand efforts to buy back costlier debt and that the administration will be unveiling a new fiscal initiative to address the highest borrowing costs in years. (Source: Bloomberg)",
+      "title": "Ten Cap's Jun Bei Liu on What Bessent Is Up Against",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-21/ten-cap-s-jun-bei-liu-on-what-bessent-is-up-against-video",
+      "raw_summary": "Ten Cap co-founder and Lead Portfolio Manager Jun Bei Liu breaks down the difficulty of intervening in the bond market at a time when AI firms are pouring massive capital into capital expenditure. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Thu, 20 Aug 2026 18:20:59 GMT",
-      "summary": "'Desperate Attempt' To Lower Yields: Jonathan Levin\nBloomberg Opinion's Jonathan Levin joins Scarlet Fu on \"Bloomberg Real Yield.\" Treasury Secretary Scott Bessent said today that he’s prepared to expand efforts to buy back costlier debt and that the administration will be unveiling a new fiscal ini"
+      "published": "Fri, 21 Aug 2026 00:41:50 GMT",
+      "summary": "Ten Cap's Jun Bei Liu on What Bessent Is Up Against\nTen Cap co-founder and Lead Portfolio Manager Jun Bei Liu breaks down the difficulty of intervening in the bond market at a time when AI firms are pouring massive capital into capital expenditure. (Source: Bloomberg)"
     },
     {
-      "title": "Stocks, Bonds Fall on Doubts Over Treasury’s Plan: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-19/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "A rally in bonds fizzled out and stocks fell on bets the Treasury’s plan to curb borrowing costs is just a short-term fix, with higher energy prices stoking worries about inflation.",
+      "title": "Gold Set for Third Weekly Gain on US Treasury Buyback Plans",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-21/gold-set-for-third-weekly-gain-on-us-treasury-buyback-plans",
+      "raw_summary": "Gold was on track for a third weekly gain after the US Treasury’s unexpected ramp-up in buybacks of long-dated government debt underscored concerns about its burden.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 19 Aug 2026 22:12:30 GMT",
-      "summary": "Stocks, Bonds Fall on Doubts Over Treasury’s Plan: Markets Wrap\nA rally in bonds fizzled out and stocks fell on bets the Treasury’s plan to curb borrowing costs is just a short-term fix, with higher energy prices stoking worries about inflation."
+      "published": "Fri, 21 Aug 2026 00:13:04 GMT",
+      "summary": "Gold Set for Third Weekly Gain on US Treasury Buyback Plans\nGold was on track for a third weekly gain after the US Treasury’s unexpected ramp-up in buybacks of long-dated government debt underscored concerns about its burden."
     },
     {
-      "title": "US Stocks Fall as Oil, Yields Climb While Walmart Slumps",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-20/us-stock-futures-fall-as-oil-yields-climb-while-walmart-slumps",
-      "raw_summary": "US stocks slid on Thursday as oil prices rose and a rally in government bonds sputtered, sending yields higher. Walmart Inc.’s earnings disappointed, pressuring shares of the retail giant and peers.",
+      "title": "Asian Bonds Follow Treasuries Lower, Dollar Slips: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-20/stock-market-today-dow-s-p-live-updates",
+      "raw_summary": "Asian bonds declined and the dollar remained under pressure after a rally in Treasuries faded, with investors betting that US efforts to contain borrowing costs through buybacks may offer only a temporary reprieve.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 20 Aug 2026 12:13:11 GMT",
-      "summary": "US Stocks Fall as Oil, Yields Climb While Walmart Slumps\nUS stocks slid on Thursday as oil prices rose and a rally in government bonds sputtered, sending yields higher. Walmart Inc.’s earnings disappointed, pressuring shares of the retail giant and peers."
+      "published": "Thu, 20 Aug 2026 22:05:51 GMT",
+      "summary": "Asian Bonds Follow Treasuries Lower, Dollar Slips: Markets Wrap\nAsian bonds declined and the dollar remained under pressure after a rally in Treasuries faded, with investors betting that US efforts to contain borrowing costs through buybacks may offer only a temporary reprieve."
     },
     {
-      "title": "US Housing Affordability Gauge Worsens for First Time Since 2023",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-20/us-housing-affordability-gauge-worsens-for-first-time-since-2023",
-      "raw_summary": "A key measure of US housing affordability worsened for the first time in almost three years, as higher borrowing costs soaked up a bigger chunk of earnings for new homebuyers.",
+      "title": "Mazumdar-Shaw’s Mission to Expand Access to Life-Saving Drugs",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-21/mazumdar-shaw-s-mission-to-expand-access-to-medicines-video",
+      "raw_summary": "Known as India’s ‘Queen of Biotech’, Kiran Mazumdar-Shaw built Biocon from a rented garage almost 50 years ago. Today, her multibillion-dollar company is one of the world’s biggest producers of insulin, and a leading force in biosimilars. \nAs she looks at handing over her life’s work to successors, Mazumdar-Shaw talks to Bloomberg’s Haslinda Amin about her pioneering journey as a female entrepreneur in India, her mission to deliver life-saving therapies to patients and what she believes India must do to tackle an AI future.  (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Thu, 20 Aug 2026 17:32:47 GMT",
-      "summary": "US Housing Affordability Gauge Worsens for First Time Since 2023\nA key measure of US housing affordability worsened for the first time in almost three years, as higher borrowing costs soaked up a bigger chunk of earnings for new homebuyers."
+      "published": "Fri, 21 Aug 2026 00:06:00 GMT",
+      "summary": "Mazumdar-Shaw’s Mission to Expand Access to Life-Saving Drugs\nKnown as India’s ‘Queen of Biotech’, Kiran Mazumdar-Shaw built Biocon from a rented garage almost 50 years ago. Today, her multibillion-dollar company is one of the world’s biggest producers of insulin, and a leading force in biosimilars."
     },
     {
-      "title": "Bessent’s Treasury Twist Clouds Warsh’s Plea to ‘Play the Ball’",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-20/bessent-s-treasury-twist-clouds-warsh-s-plea-to-play-the-ball",
-      "raw_summary": "Treasury Secretary Scott Bessent’s intervention to bring down long-term borrowing costs is another complication for the Federal Reserve as it grapples with whether to raise interest rates.",
+      "title": "Latest Oil Market News and Analysis for Aug. 21",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-20/latest-oil-market-news-and-analysis-for-aug-21",
+      "raw_summary": "Oil headed for a substantial weekly gain, as a US push to isolate Iran’s economy raised the specter of further market disruption.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 20 Aug 2026 17:27:03 GMT",
-      "summary": "Bessent’s Treasury Twist Clouds Warsh’s Plea to ‘Play the Ball’\nTreasury Secretary Scott Bessent’s intervention to bring down long-term borrowing costs is another complication for the Federal Reserve as it grapples with whether to raise interest rates."
+      "published": "Thu, 20 Aug 2026 22:02:51 GMT",
+      "summary": "Latest Oil Market News and Analysis for Aug. 21\nOil headed for a substantial weekly gain, as a US push to isolate Iran’s economy raised the specter of further market disruption."
+    },
+    {
+      "title": "U.S. CFTC chief puts staff on notice to create crypto regulations if Clarity Act fails",
+      "link": "https://www.coindesk.com/policy/2026/08/20/u-s-cftc-chief-puts-staff-on-notice-to-create-crypto-regulations-if-clarity-act-fails",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Thu, 20 Aug 2026 18:54:18 +0000",
+      "summary": "U.S. CFTC chief puts staff on notice to create crypto regulations if Clarity Act fails\n"
     },
     {
       "title": "Treasury buybacks could set up Bitcoin’s next move toward $180,000, says strategist",
@@ -313,14 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Thu, 20 Aug 2026 12:00:25 +0000",
       "summary": "Optimism-funded team's deciding vote shifts $49 million in OP tokens away from users\n"
-    },
-    {
-      "title": "Ripple-linked XRP jumps 15% as data shows 'banker hours' onchain pattern",
-      "link": "https://www.coindesk.com/markets/2026/08/20/ripple-linked-xrp-jumps-15-as-data-shows-banker-hours-onchain-pattern",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 20 Aug 2026 11:35:47 +0000",
-      "summary": "Ripple-linked XRP jumps 15% as data shows 'banker hours' onchain pattern\n"
     }
   ]
 }
