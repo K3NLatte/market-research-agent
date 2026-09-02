@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T10:17:09.541717+00:00",
+  "generated_at": "2026-09-02T15:42:41.332951+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,124 +43,156 @@
       "summary": "Canadian Man Pleads Guilty in Snowflake Extortions\nA 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider "
     },
     {
-      "title": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
-      "link": "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html",
-      "raw_summary": "Two vulnerabilities in GeoNetwork can be chained to achieve unauthenticated remote code execution (RCE) on the open-source geospatial metadata catalog, which sits behind many government and agency geoportals.\n\nThe project shipped fixes in versions 4.4.12 and 4.2.17 on July 8, 2026, and published the vulnerability details on August 31.\n\nGeoNetwork originated at the United Nations Food and",
+      "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
+      "link": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
+      "raw_summary": "Manifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository's own Git configuration names a command that the agent runs on the developer's machine, four of them still unpatched at publication.\n\nThe command executes as the user, outside the agent's sandbox and without an approval prompt, and exploitation requires the repository to arrive",
       "source": "The Hacker News",
-      "published": "Wed, 02 Sep 2026 14:48:02 +0530",
-      "summary": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends\nTwo vulnerabilities in GeoNetwork can be chained to achieve unauthenticated remote code execution (RCE) on the open-source geospatial metadata catalog, which sits behind many government and agency geoportals.\n\nThe pro"
+      "published": "Wed, 02 Sep 2026 19:36:59 +0530",
+      "summary": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code\nManifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository's own Git configuration names a command that the agent runs on the developer's machine, f"
     },
     {
-      "title": "Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands",
-      "link": "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
-      "raw_summary": "The U.S. Department of Justice (DoJ) has charged a Russian national, extradited from Cyprus on August 28, with using roughly 255 fake accounts on a freelance platform to send malware-laced Excel attachments to about 80,000 of its users in 2016 and 2017.\n\nSearzhudin Tamirlanovich Aktulaev, 40, was arrested in Cyprus in May 2025, the U.S. Attorney's Office for the Northern District of California",
+      "title": "Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages",
+      "link": "https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html",
+      "raw_summary": "A Chinese-speaking cybercrime cluster known as Gambling Goblin has been observed installing malicious Apache modules on compromised web servers run by Brazilian government and educational institutions, and using them to divert visitors to attacker-controlled pages promoting online gambling and sports betting.\n\nCheck Point Research said it has tracked the campaign since mid-2025.\n\nThe modules",
       "source": "The Hacker News",
-      "published": "Wed, 02 Sep 2026 14:40:23 +0530",
-      "summary": "Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands\nThe U.S. Department of Justice (DoJ) has charged a Russian national, extradited from Cyprus on August 28, with using roughly 255 fake accounts on a freelance platform to send malware-laced Excel attachments t"
+      "published": "Wed, 02 Sep 2026 19:14:16 +0530",
+      "summary": "Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages\nA Chinese-speaking cybercrime cluster known as Gambling Goblin has been observed installing malicious Apache modules on compromised web servers run by Brazilian government and educational institutions, and using "
     },
     {
-      "title": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
-      "link": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
-      "raw_summary": "Forescout Research - Vedere Labs said it used Anthropic's Claude to port a working pre-authentication remote code execution (RCE) exploit from one WAGO programmable logic controller (PLC) to another, executing attacker-supplied ARM shellcode on live hardware.\n\nThe exploit targets&nbsp;CVE-2021-31886, a stack-based buffer overflow in the Nucleus FTP server's handling of the&nbsp;USER&nbsp;command",
+      "title": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
+      "link": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html",
+      "raw_summary": "Virtualizor said hackers used a Border Gateway Protocol (BGP) hijack to divert Softaculous traffic. The hackers then used the diverted update traffic to deliver a malicious Virtualizor package to some installations. A hosting-provider account separately said 5 of its 34 checked Virtualizor hypervisors sustained root-level compromise.\n\nThe incident window ran from approximately August 28 at 20:57",
       "source": "The Hacker News",
-      "published": "Wed, 02 Sep 2026 13:17:13 +0530",
-      "summary": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another\nForescout Research - Vedere Labs said it used Anthropic's Claude to port a working pre-authentication remote code execution (RCE) exploit from one WAGO programmable logic controller (PLC) to another, executing attacker"
+      "published": "Wed, 02 Sep 2026 18:42:45 +0530",
+      "summary": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access\nVirtualizor said hackers used a Border Gateway Protocol (BGP) hijack to divert Softaculous traffic. The hackers then used the diverted update traffic to deliver a malicious Virtualizor package to some installati"
     },
     {
-      "title": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials",
-      "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html",
-      "raw_summary": "Threat actors are exploiting a severe security vulnerability in Sangoma Switchvox, an enterprise VoIP platform, that could allow unauthenticated remote code execution.\n\nThe vulnerability in question is CVE-2026-9586 (CVSS score: 9.3), a critical unauthenticated SQL injection vulnerability in Sangoma Switchvox SMB Edition 8.3 (104997) that can allow attackers to remotely execute arbitrary code as",
+      "title": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control",
+      "link": "https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html",
+      "raw_summary": "Cybersecurity researchers have disclosed details of a new Android banking trojan called StreamRat that was promoted to Spanish-speaking users through a fake television-streaming campaign on Meta and can give operators near-complete control of infected devices.\n\nThreatFabric said the campaign's advertisement focused on Spain and reached an estimated 570,950 Meta accounts in the European Union",
       "source": "The Hacker News",
-      "published": "Wed, 02 Sep 2026 12:38:50 +0530",
-      "summary": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials\nThreat actors are exploiting a severe security vulnerability in Sangoma Switchvox, an enterprise VoIP platform, that could allow unauthenticated remote code execution.\n\nThe vulnerability in question is CVE-2026-95"
+      "published": "Wed, 02 Sep 2026 17:52:02 +0530",
+      "summary": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control\nCybersecurity researchers have disclosed details of a new Android banking trojan called StreamRat that was promoted to Spanish-speaking users through a fake television-streaming campaign on Meta and can give operators "
     },
     {
-      "title": "Authorities Turn Sality's P2P Network Against Itself, Cutting Off New Malware Payloads",
-      "link": "https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html",
-      "raw_summary": "The U.S. Department of Justice (DoJ) on Tuesday announced the takedown of a long-standing peer-to-peer (P2P) botnet known as Sality as part of a coordinated law enforcement operation.\n\nThe effort was undertaken on August 31, 2026, by authorities from the U.S., Bulgaria, Hungary, and Romania, in collaboration with private industry partners CrowdStrike and the Shadowserver Foundation. To that",
+      "title": "How to Secure Enterprise AI: From Adoption to Incident Readiness",
+      "link": "https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html",
+      "raw_summary": "The debate about whether AI delivers business value is over. The challenge now is implementing it at scale and securely across every function while meeting board-level pressure to move fast. Organizations must focus on adopting AI at business speed without losing control of cyber risk. Download the full eBook here.&nbsp;\n\nThe Business Reality&nbsp;\n\nIn Sygnia’s 2026 CISO Survey Report, which",
       "source": "The Hacker News",
-      "published": "Wed, 02 Sep 2026 12:26:30 +0530",
-      "summary": "Authorities Turn Sality's P2P Network Against Itself, Cutting Off New Malware Payloads\nThe U.S. Department of Justice (DoJ) on Tuesday announced the takedown of a long-standing peer-to-peer (P2P) botnet known as Sality as part of a coordinated law enforcement operation.\n\nThe effort was undertaken on"
+      "published": "Wed, 02 Sep 2026 17:00:00 +0530",
+      "summary": "How to Secure Enterprise AI: From Adoption to Incident Readiness\nThe debate about whether AI delivers business value is over. The challenge now is implementing it at scale and securely across every function while meeting board-level pressure to move fast. Organizations must focus on adopting AI at b"
     },
     {
-      "title": "Telli (YC F24) is hiring engineers and designers [Berlin, on-site]",
-      "link": "https://careers.telli.com/",
-      "raw_summary": "<p>Article URL: <a href=\"https://careers.telli.com/\">https://careers.telli.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49533557\">https://news.ycombinator.com/item?id=49533557</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
+      "title": "Exit the Cave",
+      "link": "https://turtlespace.blog/p/exit-the-cave",
+      "raw_summary": "<p>Article URL: <a href=\"https://turtlespace.blog/p/exit-the-cave\">https://turtlespace.blog/p/exit-the-cave</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49536606\">https://news.ycombinator.com/item?id=49536606</a></p>\n<p>Points: 27</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 02 Sep 2026 08:43:49 +0000",
-      "summary": "Telli (YC F24) is hiring engineers and designers [Berlin, on-site]\n<p>Article URL: <a href=\"https://careers.telli.com/\">https://careers.telli.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49533557\">https://news.ycombinator.com/item?id=49533557</a></p>\n<p>Points: 0</p>\n<"
+      "published": "Wed, 02 Sep 2026 14:16:45 +0000",
+      "summary": "Exit the Cave\n<p>Article URL: <a href=\"https://turtlespace.blog/p/exit-the-cave\">https://turtlespace.blog/p/exit-the-cave</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49536606\">https://news.ycombinator.com/item?id=49536606</a></p>\n<p>Points: 27</p>\n<p># Comments: 3</p>"
     },
     {
-      "title": "Commodore 64 released September 1, 1982",
-      "link": "https://dfarq.homeip.net/commodore-64-released-september-1-1982/",
-      "raw_summary": "<p>Article URL: <a href=\"https://dfarq.homeip.net/commodore-64-released-september-1-1982/\">https://dfarq.homeip.net/commodore-64-released-september-1-1982/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49533497\">https://news.ycombinator.com/item?id=49533497</a></p>\n<p>Points: 55</p>\n<p># Comments: 6</p>",
+      "title": "WebLLM: high-performance in-browser LLM inference engine",
+      "link": "https://github.com/mlc-ai/web-llm",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/mlc-ai/web-llm\">https://github.com/mlc-ai/web-llm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49536411\">https://news.ycombinator.com/item?id=49536411</a></p>\n<p>Points: 15</p>\n<p># Comments: 7</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 02 Sep 2026 08:36:43 +0000",
-      "summary": "Commodore 64 released September 1, 1982\n<p>Article URL: <a href=\"https://dfarq.homeip.net/commodore-64-released-september-1-1982/\">https://dfarq.homeip.net/commodore-64-released-september-1-1982/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49533497\">https://news.ycombinato"
+      "published": "Wed, 02 Sep 2026 14:02:35 +0000",
+      "summary": "WebLLM: high-performance in-browser LLM inference engine\n<p>Article URL: <a href=\"https://github.com/mlc-ai/web-llm\">https://github.com/mlc-ai/web-llm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49536411\">https://news.ycombinator.com/item?id=49536411</a></p>\n<p>Points: 15<"
     },
     {
-      "title": "Ask HN: How do you survive a job you hate which is slowly making you sick?",
-      "link": "https://news.ycombinator.com/item?id=49533073",
-      "raw_summary": "<p>I started a new job a little less than a year ago as a product owner/manager for a legacy enterprise system. Unfortunately the job has not at all been what I expected and what was sold to me in the interview process for a number of reasons.<p>I don't want to get too much into it, but the main reason is that my job was supposed to be leading a modernization project to expand our legacy enterprise system with modern API-based integrations, but our development team simply does not have experience with building, testing, shipping, and maintaining APIs, which has made my job as a PO/PM considerably more difficult. Things I was used to taking a week or two max at other companies take many months to ship and aren't really built with the quality I would expect. This makes it really awkward for me when we have to meet with customers and mention that modernization and system integrations are our top priority according to the management team, yet we can't even ship a few GET endpoints after six months of work...<p>I could go on and on, but honestly I just strongly dislike this job. I'm trying my best to find another role, but the market is really competitive right now where I live (Sweden). I would say I have a quite decent CV, with a masters from an excellent university and around a decade of work experience in tech, but Sweden currently has the third highest unemployment rate in the EU so there is a huge amount of competition for each role. But of course, all I can do is do my best.<p>My main concern is that this job is slowly making me sick. I have started to have really concerning mental health symptoms, specifically severe anxiety, due to this job. I've also had some really dark thoughts which has scared me a lot. My doctor started me on some antidepressants and I am receiving therapy, but it's too early to say if it has helped or not.<p>I don't know how much more I can take before I end up on some kind of sick leave. But I'm trying to take it day by day and I am trying to stay positive. Hopefully I can find another job soon, but until then I am stuck in this job.<p>For those of you who have been stuck in jobs you strongly dislike, how did you manage to separate your work from your life so that you could survive the situation? Did you find something that worked for you to ease the situation until you could find another job?<p>Thanks for taking the time to read this. I really appreciate any feedback or advice.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49533073\">https://news.ycombinator.com/item?id=49533073</a></p>\n<p>Points: 31</p>\n<p># Comments: 39</p>",
+      "title": "GrapheneOS says Pixel 11 has MTE support after all",
+      "link": "https://grapheneos.social/@GrapheneOS/117194007157499435",
+      "raw_summary": "<p>Article URL: <a href=\"https://grapheneos.social/@GrapheneOS/117194007157499435\">https://grapheneos.social/@GrapheneOS/117194007157499435</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49536384\">https://news.ycombinator.com/item?id=49536384</a></p>\n<p>Points: 62</p>\n<p># Comments: 46</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 02 Sep 2026 07:43:49 +0000",
-      "summary": "Ask HN: How do you survive a job you hate which is slowly making you sick?\n<p>I started a new job a little less than a year ago as a product owner/manager for a legacy enterprise system. Unfortunately the job has not at all been what I expected and what was sold to me in the interview process for a "
+      "published": "Wed, 02 Sep 2026 14:00:28 +0000",
+      "summary": "GrapheneOS says Pixel 11 has MTE support after all\n<p>Article URL: <a href=\"https://grapheneos.social/@GrapheneOS/117194007157499435\">https://grapheneos.social/@GrapheneOS/117194007157499435</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49536384\">https://news.ycombinator.com"
     },
     {
-      "title": "The Emergent Symbolic Structure of Artificial Neural Networks",
-      "link": "https://arxiv.org/abs/2608.29530",
-      "raw_summary": "<p>Article URL: <a href=\"https://arxiv.org/abs/2608.29530\">https://arxiv.org/abs/2608.29530</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49531651\">https://news.ycombinator.com/item?id=49531651</a></p>\n<p>Points: 149</p>\n<p># Comments: 44</p>",
+      "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
+      "link": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+      "raw_summary": "<p>Article URL: <a href=\"https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/\">https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49536375\">https://news.ycombinator.com/item?id=49536375</a></p>\n<p>Points: 102</p>\n<p># Comments: 50</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 02 Sep 2026 04:15:56 +0000",
-      "summary": "The Emergent Symbolic Structure of Artificial Neural Networks\n<p>Article URL: <a href=\"https://arxiv.org/abs/2608.29530\">https://arxiv.org/abs/2608.29530</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49531651\">https://news.ycombinator.com/item?id=49531651</a></p>\n<p>Points: "
+      "published": "Wed, 02 Sep 2026 13:59:59 +0000",
+      "summary": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them\n<p>Article URL: <a href=\"https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/\">https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/</a></p>\n<p>Comments URL: <a href=\"https://n"
     },
     {
-      "title": "WebFPGA",
-      "link": "https://webfpga.io/",
-      "raw_summary": "<p>Article URL: <a href=\"https://webfpga.io/\">https://webfpga.io/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49531525\">https://news.ycombinator.com/item?id=49531525</a></p>\n<p>Points: 78</p>\n<p># Comments: 32</p>",
+      "title": "A third of Perplexity's citations don't contain the number they're cited for",
+      "link": "https://hausresearch.com/reports/perplexity-citation-audit/",
+      "raw_summary": "<p>Article URL: <a href=\"https://hausresearch.com/reports/perplexity-citation-audit/\">https://hausresearch.com/reports/perplexity-citation-audit/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49536201\">https://news.ycombinator.com/item?id=49536201</a></p>\n<p>Points: 19</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 02 Sep 2026 03:54:58 +0000",
-      "summary": "WebFPGA\n<p>Article URL: <a href=\"https://webfpga.io/\">https://webfpga.io/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49531525\">https://news.ycombinator.com/item?id=49531525</a></p>\n<p>Points: 78</p>\n<p># Comments: 32</p>"
+      "published": "Wed, 02 Sep 2026 13:49:23 +0000",
+      "summary": "A third of Perplexity's citations don't contain the number they're cited for\n<p>Article URL: <a href=\"https://hausresearch.com/reports/perplexity-citation-audit/\">https://hausresearch.com/reports/perplexity-citation-audit/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=495362"
     },
     {
-      "title": "Larry Page’s flying car company Pivotal loses its CEO",
-      "link": "https://techcrunch.com/2026/09/01/larry-pages-flying-car-company-pivotal-loses-its-ceo/",
-      "raw_summary": "The company told TechCrunch he is \"pursuing new endeavors.\" Karklin will be replaced on an interim basis by Mike Ross, an aviation executive who joined Pivotal's board of directors in November 2025.",
+      "title": "HiddenLayer nabs $100M as enterprises rush to secure their AI deployments",
+      "link": "https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments/",
+      "raw_summary": "HiddenLayer has raised a $100M Series B from Delta-v Capital, Ten Eleven Ventures, Morgan Stanley, Microsoft's M12, Booz Allen Hamilton, and others.",
       "source": "TechCrunch",
-      "published": "Tue, 01 Sep 2026 23:59:59 +0000",
-      "summary": "Larry Page’s flying car company Pivotal loses its CEO\nThe company told TechCrunch he is \"pursuing new endeavors.\" Karklin will be replaced on an interim basis by Mike Ross, an aviation executive who joined Pivotal's board of directors in November 2025."
+      "published": "Wed, 02 Sep 2026 15:01:23 +0000",
+      "summary": "HiddenLayer nabs $100M as enterprises rush to secure their AI deployments\nHiddenLayer has raised a $100M Series B from Delta-v Capital, Ten Eleven Ventures, Morgan Stanley, Microsoft's M12, Booz Allen Hamilton, and others."
     },
     {
-      "title": "Reliance’s JioHotstar takes its streaming empire global — without sports",
-      "link": "https://techcrunch.com/2026/09/01/reliances-jiohotstar-takes-its-streaming-empire-global-without-sports/",
-      "raw_summary": "JioHotstar will only have entertainment content when it launches in the UK, Canada, and Singapore.",
+      "title": "PSA: Amazon’s shopping AI can now tell you if that message is a scam",
+      "link": "https://techcrunch.com/2026/09/02/psa-amazons-shopping-ai-can-now-tell-you-if-that-message-is-a-scam/",
+      "raw_summary": "Amazon is adding a scam-detection feature to Alexa for Shopping that can verify whether suspicious emails, texts, and other messages actually came from the retailer.",
       "source": "TechCrunch",
-      "published": "Tue, 01 Sep 2026 23:00:00 +0000",
-      "summary": "Reliance’s JioHotstar takes its streaming empire global — without sports\nJioHotstar will only have entertainment content when it launches in the UK, Canada, and Singapore."
+      "published": "Wed, 02 Sep 2026 14:56:34 +0000",
+      "summary": "PSA: Amazon’s shopping AI can now tell you if that message is a scam\nAmazon is adding a scam-detection feature to Alexa for Shopping that can verify whether suspicious emails, texts, and other messages actually came from the retailer."
     },
     {
-      "title": "Apple follows Google in adopting Trump’s ‘Lake America’ name",
-      "link": "https://techcrunch.com/2026/09/01/apple-follows-google-in-adopting-trumps-lake-america-name/",
-      "raw_summary": "Apple Maps is following President Trump's executive order to change the name of Lake Ontario to Lake America.",
+      "title": "Adobe acquires Indian market intelligence startup Rilo",
+      "link": "https://techcrunch.com/2026/09/02/adobe-acquires-indian-market-intelligence-startup-rilo/",
+      "raw_summary": "This is Adobe's second acquisition out of India after Rephrase.ai in 2023",
       "source": "TechCrunch",
-      "published": "Tue, 01 Sep 2026 22:13:34 +0000",
-      "summary": "Apple follows Google in adopting Trump’s ‘Lake America’ name\nApple Maps is following President Trump's executive order to change the name of Lake Ontario to Lake America."
+      "published": "Wed, 02 Sep 2026 14:03:57 +0000",
+      "summary": "Adobe acquires Indian market intelligence startup Rilo\nThis is Adobe's second acquisition out of India after Rephrase.ai in 2023"
     },
     {
-      "title": "AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B",
-      "link": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/",
-      "raw_summary": "AI model-training startup AfterQuery has reportedly raised a round that valued it at $3.2 billion, just five months after announcing its $30 million Series A at a $300 million valuation in April.",
+      "title": "Norway considers ban on camera-enabled wearable ‘pervert glasses’",
+      "link": "https://techcrunch.com/2026/09/02/norway-considers-ban-on-camera-enabled-wearable-pervert-glasses/",
+      "raw_summary": "The Nordic country says wearable camera headsets need to be regulated given their privacy risks.",
       "source": "TechCrunch",
-      "published": "Tue, 01 Sep 2026 22:08:24 +0000",
-      "summary": "AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B\nAI model-training startup AfterQuery has reportedly raised a round that valued it at $3.2 billion, just five months after announcing its $30 million Series A at a $300 million valuation in April."
+      "published": "Wed, 02 Sep 2026 13:11:47 +0000",
+      "summary": "Norway considers ban on camera-enabled wearable ‘pervert glasses’\nThe Nordic country says wearable camera headsets need to be regulated given their privacy risks."
     },
     {
-      "title": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems",
-      "link": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
-      "raw_summary": "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM.",
+      "title": "Adobe is making its tools available in Slack",
+      "link": "https://techcrunch.com/2026/09/02/adobe-is-making-its-tools-available-in-slack/",
+      "raw_summary": "Users will be able to access Express, Premiere, and Acrobat in Slack",
       "source": "TechCrunch",
-      "published": "Tue, 01 Sep 2026 21:06:24 +0000",
-      "summary": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems\nOpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM."
+      "published": "Wed, 02 Sep 2026 13:09:27 +0000",
+      "summary": "Adobe is making its tools available in Slack\nUsers will be able to access Express, Premiere, and Acrobat in Slack"
+    },
+    {
+      "title": "Toyohiro Akiyama, first Japanese citizen and journalist in space, dies at 84",
+      "link": "https://arstechnica.com/space/2026/09/toyohiro-akiyama-first-japanese-citizen-and-journalist-in-space-dies-at-84/",
+      "raw_summary": "He reported from space that only \"fat\" Japanese tree frogs enjoyed weightlessness.",
+      "source": "Ars Technica - All content",
+      "published": "Wed, 02 Sep 2026 14:47:42 +0000",
+      "summary": "Toyohiro Akiyama, first Japanese citizen and journalist in space, dies at 84\nHe reported from space that only \"fat\" Japanese tree frogs enjoyed weightlessness."
+    },
+    {
+      "title": "The Army just used a 20-kilowatt laser to take out three drones",
+      "link": "https://arstechnica.com/gadgets/2026/09/the-army-just-used-a-20-kilowatt-laser-to-take-out-three-drones/",
+      "raw_summary": "The Army says its laser system can track and destroy hostile drones.",
+      "source": "Ars Technica - All content",
+      "published": "Wed, 02 Sep 2026 13:04:59 +0000",
+      "summary": "The Army just used a 20-kilowatt laser to take out three drones\nThe Army says its laser system can track and destroy hostile drones."
+    },
+    {
+      "title": "Is Russia's rival to Starlink failing? Here's what we know.",
+      "link": "https://arstechnica.com/space/2026/09/rassvet-russias-rival-to-starlink-is-getting-off-to-a-slow-start/",
+      "raw_summary": "At least three of the first 32 Rassvet satellites likely suffered outright failures, and more may be in trouble.",
+      "source": "Ars Technica - All content",
+      "published": "Wed, 02 Sep 2026 11:15:23 +0000",
+      "summary": "Is Russia's rival to Starlink failing? Here's what we know.\nAt least three of the first 32 Rassvet satellites likely suffered outright failures, and more may be in trouble."
+    },
+    {
+      "title": "BGP hijack infecting networks caused by a comedy of errors that’s not funny at all",
+      "link": "https://arstechnica.com/security/2026/09/well-executed-bgp-attack-uses-hijacked-ips-to-infect-real-networks/",
+      "raw_summary": "What can we learn from a BGP hijacking that poisoned production software? Plenty.",
+      "source": "Ars Technica - All content",
+      "published": "Wed, 02 Sep 2026 11:00:43 +0000",
+      "summary": "BGP hijack infecting networks caused by a comedy of errors that’s not funny at all\nWhat can we learn from a BGP hijacking that poisoned production software? Plenty."
     },
     {
       "title": "Here's our first look—and drive—of the 2027 Range Rover Electric",
@@ -171,156 +203,124 @@
       "summary": "Here's our first look—and drive—of the 2027 Range Rover Electric\n333 miles of real-world range with uncompromised comfort and off-road ability."
     },
     {
-      "title": "Research roundup: 7 cool science stories we almost missed",
-      "link": "https://arstechnica.com/science/2026/09/august-research-roundup-7-cool-science-stories-we-almost-missed/",
-      "raw_summary": "\"Black hole stars,\" making cookies from plastic, tiny sound-powered drones, and more.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 01 Sep 2026 19:06:10 +0000",
-      "summary": "Research roundup: 7 cool science stories we almost missed\n\"Black hole stars,\" making cookies from plastic, tiny sound-powered drones, and more."
-    },
-    {
-      "title": "A newborn and child reportedly died of measles; CDC isn't counting them",
-      "link": "https://arstechnica.com/health/2026/09/cdc-reported-then-deleted-two-measles-deaths-that-were-questioned-by-rfk-jr/",
-      "raw_summary": "Historically, state health departments determine cases and deaths, not the CDC.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 01 Sep 2026 18:21:16 +0000",
-      "summary": "A newborn and child reportedly died of measles; CDC isn't counting them\nHistorically, state health departments determine cases and deaths, not the CDC."
-    },
-    {
-      "title": "New Android Drop adds remembered items in Find Hub, makes anti-nausea dots official",
-      "link": "https://arstechnica.com/gadgets/2026/09/latest-android-drop-connects-gemini-to-find-hub-adds-keep-notes-and-themes-to-messages/",
-      "raw_summary": "New features are rolling out across the Android ecosystem starting today.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 01 Sep 2026 18:00:02 +0000",
-      "summary": "New Android Drop adds remembered items in Find Hub, makes anti-nausea dots official\nNew features are rolling out across the Android ecosystem starting today."
-    },
-    {
-      "title": "FTC alleges Amazon illegally made $20 billion by rigging billions of ad auctions",
-      "link": "https://arstechnica.com/tech-policy/2026/09/ftc-alleges-amazon-illegally-made-20-billion-by-rigging-billions-of-ad-auctions/",
-      "raw_summary": "FTC says firm replaces actual ad-auction results \"with higher prices set by Amazon.\"",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 01 Sep 2026 17:51:17 +0000",
-      "summary": "FTC alleges Amazon illegally made $20 billion by rigging billions of ad auctions\nFTC says firm replaces actual ad-auction results \"with higher prices set by Amazon.\""
-    },
-    {
-      "title": "FirstFT: US-Iran hostilities reignite surge in energy prices",
-      "link": "https://www.ft.com/content/bc2e4206-a702-4a66-8b94-2538fa249862?syn-25a6b1a6=1",
-      "raw_summary": "Also in today’s newsletter: Ed Markey sees off younger opponent, and China scuppers G20 consensus",
+      "title": "Dubai’s international schools reopen in test of confidence",
+      "link": "https://www.ft.com/content/1c964d75-039f-4669-ae25-12c6418c7826?syn-25a6b1a6=1",
+      "raw_summary": "Start of academic year a bellwether of emirate’s ability to keep attracting affluent expatriates in wake of US-Iran war",
       "source": "World",
-      "published": "Wed, 02 Sep 2026 09:59:38 GMT",
-      "summary": "FirstFT: US-Iran hostilities reignite surge in energy prices\nAlso in today’s newsletter: Ed Markey sees off younger opponent, and China scuppers G20 consensus"
+      "published": "Wed, 02 Sep 2026 14:55:43 GMT",
+      "summary": "Dubai’s international schools reopen in test of confidence\nStart of academic year a bellwether of emirate’s ability to keep attracting affluent expatriates in wake of US-Iran war"
     },
     {
-      "title": "Energy price surge hits bond markets as European gas reaches three-year high",
-      "link": "https://www.ft.com/content/f73c2c95-5c73-4b2f-9f00-9fa8c12c10c9?syn-25a6b1a6=1",
-      "raw_summary": "US 10-year borrowing costs touch highest since 2023 as fears of return to full-blown Iran conflict rise",
+      "title": "Uber to axe 10% of its workforce in biggest cuts since pandemic",
+      "link": "https://www.ft.com/content/5eda86fe-1d2c-4a4e-9563-24a50aa734a4?syn-25a6b1a6=1",
+      "raw_summary": "Ride-hailing group to eliminate 3,300 jobs as competition rises in food delivery sector and robotaxi race intensifies",
       "source": "World",
-      "published": "Wed, 02 Sep 2026 09:54:36 GMT",
-      "summary": "Energy price surge hits bond markets as European gas reaches three-year high\nUS 10-year borrowing costs touch highest since 2023 as fears of return to full-blown Iran conflict rise"
+      "published": "Wed, 02 Sep 2026 14:25:07 GMT",
+      "summary": "Uber to axe 10% of its workforce in biggest cuts since pandemic\nRide-hailing group to eliminate 3,300 jobs as competition rises in food delivery sector and robotaxi race intensifies"
     },
     {
       "title": "Ukraine tells airlines to stop using Russian airspace",
       "link": "https://www.ft.com/content/806ed56b-f5b2-4ae4-8164-231ccaebdd21?syn-25a6b1a6=1",
       "raw_summary": "Volodymyr Zelenskyy warns ‘safe days in Russia’s skies are over’ as he threatens more drone strikes",
       "source": "World",
-      "published": "Wed, 02 Sep 2026 08:57:13 GMT",
+      "published": "Wed, 02 Sep 2026 13:56:07 GMT",
       "summary": "Ukraine tells airlines to stop using Russian airspace\nVolodymyr Zelenskyy warns ‘safe days in Russia’s skies are over’ as he threatens more drone strikes"
     },
     {
-      "title": "How worried should Labour be about holding Keir Starmer’s seat?",
-      "link": "https://www.ft.com/content/980bd114-fb96-479c-ac30-41435a9f78d0?syn-25a6b1a6=1",
-      "raw_summary": "Party’s poll ratings have improved under Andy Burnham but this is uncharted territory for Labour and Zack Polanski’s Greens",
+      "title": "Energy price surge hits bond markets as European gas reaches three-year high",
+      "link": "https://www.ft.com/content/f73c2c95-5c73-4b2f-9f00-9fa8c12c10c9?syn-25a6b1a6=1",
+      "raw_summary": "US 10-year borrowing costs touch highest since 2023 as fears of return to full-blown Iran conflict rise",
       "source": "World",
-      "published": "Wed, 02 Sep 2026 08:30:08 GMT",
-      "summary": "How worried should Labour be about holding Keir Starmer’s seat?\nParty’s poll ratings have improved under Andy Burnham but this is uncharted territory for Labour and Zack Polanski’s Greens"
+      "published": "Wed, 02 Sep 2026 13:36:55 GMT",
+      "summary": "Energy price surge hits bond markets as European gas reaches three-year high\nUS 10-year borrowing costs touch highest since 2023 as fears of return to full-blown Iran conflict rise"
     },
     {
-      "title": "China’s Xi visits Egypt in rare foreign travel flurry ahead of Trump summit",
-      "link": "https://www.ft.com/content/69671716-02bb-496c-88ad-10befe4a9d63?syn-25a6b1a6=1",
-      "raw_summary": "Chinese leader’s overseas itinerary is his busiest since 2019 in campaign to erode US influence",
+      "title": "US launches further strikes on Iran as conflict flares up",
+      "link": "https://www.ft.com/content/c557ccc2-9fe7-4725-8a1c-c40a0948e8d3?syn-25a6b1a6=1",
+      "raw_summary": "Escalation pushes oil prices higher and sends Treasury yields to day’s highs as investors fret over new bout of inflation",
       "source": "World",
-      "published": "Wed, 02 Sep 2026 08:20:24 GMT",
-      "summary": "China’s Xi visits Egypt in rare foreign travel flurry ahead of Trump summit\nChinese leader’s overseas itinerary is his busiest since 2019 in campaign to erode US influence"
+      "published": "Wed, 02 Sep 2026 13:30:49 GMT",
+      "summary": "US launches further strikes on Iran as conflict flares up\nEscalation pushes oil prices higher and sends Treasury yields to day’s highs as investors fret over new bout of inflation"
     },
     {
-      "title": "Wall Street’s Direction Is Being Dictated by Oil",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-09-02/wall-street-s-direction-is-being-dictated-by-oil",
-      "raw_summary": "The impact of high oil is being felt across markets.",
+      "title": "Italy’s Eni Plans Major Increase in Venezuela Oil Production",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-02/italy-s-eni-plans-major-increase-in-venezuela-oil-production",
+      "raw_summary": "Italian energy producer Eni SpA aims to eventually lift its Venezuelan production to more than 1 million barrels a day, according to people familiar with the matter, a figure that includes volumes from state-owned Petróleos de Venezuela SA and would bolster US efforts to revive the country’s battered oil industry.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 02 Sep 2026 10:11:53 GMT",
-      "summary": "Wall Street’s Direction Is Being Dictated by Oil\nThe impact of high oil is being felt across markets."
+      "published": "Wed, 02 Sep 2026 14:36:50 GMT",
+      "summary": "Italy’s Eni Plans Major Increase in Venezuela Oil Production\nItalian energy producer Eni SpA aims to eventually lift its Venezuelan production to more than 1 million barrels a day, according to people familiar with the matter, a figure that includes volumes from state-owned Petróleos de Venezuela SA"
     },
     {
-      "title": "Global Debt Is Slumping But It’s Nothing Like the 2022 Rout",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-02/global-bonds-are-slumping-but-it-s-nothing-like-the-2022-wipeout",
-      "raw_summary": "The selloff sweeping global bond markets looks painful, but it’s nothing compared with the rout four years ago, when soaring inflation forced central banks into a series of rapid-fire interest-rate hikes.",
+      "title": "Latest Oil Market News and Analysis for Sept. 2",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-01/latest-oil-market-news-and-analysis-for-sept-2",
+      "raw_summary": "Oil steadied near the highest closing level in five weeks as hostilities broke out again between the US and Iran, renewing the threat to energy exports from the Middle East.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 02 Sep 2026 06:15:39 GMT",
-      "summary": "Global Debt Is Slumping But It’s Nothing Like the 2022 Rout\nThe selloff sweeping global bond markets looks painful, but it’s nothing compared with the rout four years ago, when soaring inflation forced central banks into a series of rapid-fire interest-rate hikes."
+      "published": "Tue, 01 Sep 2026 22:04:01 GMT",
+      "summary": "Latest Oil Market News and Analysis for Sept. 2\nOil steadied near the highest closing level in five weeks as hostilities broke out again between the US and Iran, renewing the threat to energy exports from the Middle East."
     },
     {
-      "title": "Brazil’s Global Beef Dominance Collides With Tougher EU Rules",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-02/brazil-s-global-beef-dominance-collides-with-tougher-eu-rules",
-      "raw_summary": "Brazil’s global dominance in the beef trade is clashing with tougher European standards, threatening exports as suppliers struggle to certify cattle under new restrictions on growth-promoting drugs.",
+      "title": "New Leaks Draw Brazil Top Court Judge Deeper Into Banco Master Scandal",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-01/new-leaks-draw-brazil-top-court-judge-deeper-into-banco-master-scandal",
+      "raw_summary": "A prominent Brazilian Supreme Court judge is facing renewed scrutiny over alleged ties to Banco Master SA after the release of text messages from the former owner of the failed lender.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 02 Sep 2026 10:00:00 GMT",
-      "summary": "Brazil’s Global Beef Dominance Collides With Tougher EU Rules\nBrazil’s global dominance in the beef trade is clashing with tougher European standards, threatening exports as suppliers struggle to certify cattle under new restrictions on growth-promoting drugs."
+      "published": "Tue, 01 Sep 2026 19:58:34 GMT",
+      "summary": "New Leaks Draw Brazil Top Court Judge Deeper Into Banco Master Scandal\nA prominent Brazilian Supreme Court judge is facing renewed scrutiny over alleged ties to Banco Master SA after the release of text messages from the former owner of the failed lender."
     },
     {
-      "title": "Gold Extends Decline as Inflation Risks Pull Yields Higher",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-01/gold-holds-drop-as-higher-oil-bond-selloff-raise-rate-hike-bets",
-      "raw_summary": "Gold fell for a fourth day as escalating attacks in the Middle East and concerns about inflation pushed bond yields higher and fueled further bets on interest rate hikes.",
+      "title": "The ‘Permission Bottleneck’ Coming for Stocks",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-09-02/the-permission-bottleneck-coming-for-stocks",
+      "raw_summary": "The AI buildout has been lifting all boats.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 01 Sep 2026 23:40:28 GMT",
-      "summary": "Gold Extends Decline as Inflation Risks Pull Yields Higher\nGold fell for a fourth day as escalating attacks in the Middle East and concerns about inflation pushed bond yields higher and fueled further bets on interest rate hikes."
+      "published": "Wed, 02 Sep 2026 15:13:51 GMT",
+      "summary": "The ‘Permission Bottleneck’ Coming for Stocks\nThe AI buildout has been lifting all boats."
     },
     {
-      "title": "JPMorgan’s Former Macro Credit Trading Co-Head Joins Redhedge",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-02/jpmorgan-s-former-macro-credit-trading-co-head-joins-redhedge",
-      "raw_summary": "The former co-head of global investment-grade and macro credit trading at JPMorgan Chase &amp; Co has resurfaced at London hedge fund Redhedge Asset Management.",
+      "title": "Yen Surges With Traders on Alert for Further Intervention",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-02/yen-surges-with-traders-on-high-alert-for-further-intervention",
+      "raw_summary": "The yen strengthened sharply against the US dollar, leaving traders hyper-vigilant for evidence that authorities are taking further action to support the Japanese currency.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 02 Sep 2026 09:39:16 GMT",
-      "summary": "JPMorgan’s Former Macro Credit Trading Co-Head Joins Redhedge\nThe former co-head of global investment-grade and macro credit trading at JPMorgan Chase &amp; Co has resurfaced at London hedge fund Redhedge Asset Management."
+      "published": "Wed, 02 Sep 2026 13:47:16 GMT",
+      "summary": "Yen Surges With Traders on Alert for Further Intervention\nThe yen strengthened sharply against the US dollar, leaving traders hyper-vigilant for evidence that authorities are taking further action to support the Japanese currency."
     },
     {
-      "title": "Live updates: BlackRock's IBIT drives $236 million bitcoin ETF outflow",
-      "link": "https://www.coindesk.com/business/2026/09/02/live-updates-blackrock-s-ibit-drives-usd236-million-bitcoin-etf-outflow",
+      "title": "Crypto Long & Short: Crypto VCs are mistaking consensus for discipline",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/09/02/crypto-long-and-short-crypto-vcs-are-mistaking-consensus-for-discipline",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 02 Sep 2026 08:31:00 +0000",
-      "summary": "Live updates: BlackRock's IBIT drives $236 million bitcoin ETF outflow\n"
+      "published": "Wed, 02 Sep 2026 15:15:02 +0000",
+      "summary": "Crypto Long & Short: Crypto VCs are mistaking consensus for discipline\n"
     },
     {
-      "title": "XRP ETFs pull in $170 million over eleven days. Goldman tops institutional holders",
-      "link": "https://www.coindesk.com/markets/2026/09/02/xrp-etfs-pull-in-usd160-million-over-nine-days-as-goldman-tops-institutional-holders",
+      "title": "CrowdStrike and federal authorities dismantle Russian malware that secretly stole crypto for 8 years",
+      "link": "https://www.coindesk.com/tech/2026/09/02/crowdstrike-and-federal-authorities-dismantle-russian-malware-that-secretly-stole-crypto-for-8-years",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 02 Sep 2026 07:20:03 +0000",
-      "summary": "XRP ETFs pull in $170 million over eleven days. Goldman tops institutional holders\n"
+      "published": "Wed, 02 Sep 2026 13:14:47 +0000",
+      "summary": "CrowdStrike and federal authorities dismantle Russian malware that secretly stole crypto for 8 years\n"
     },
     {
-      "title": "A China indicator that supports risk-taking in stocks and bitcoin is flashing red",
-      "link": "https://www.coindesk.com/markets/2026/09/02/a-china-indicator-that-greases-risk-taking-in-stocks-and-bitcoin-is-flashing-red",
+      "title": "The token supercycle: everything of value is becoming programmable",
+      "link": "https://www.coindesk.com/opinion/2026/09/02/the-token-supercycle-everything-of-value-is-becoming-programmable",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 02 Sep 2026 06:53:22 +0000",
-      "summary": "A China indicator that supports risk-taking in stocks and bitcoin is flashing red\n"
+      "published": "Wed, 02 Sep 2026 13:00:00 +0000",
+      "summary": "The token supercycle: everything of value is becoming programmable\n"
     },
     {
-      "title": "OpenAI says its new 'Astra' AI can build attacks without human help",
-      "link": "https://www.coindesk.com/tech/2026/09/02/openai-says-its-new-astra-ai-can-build-attacks-without-human-help",
+      "title": "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back",
+      "link": "https://www.coindesk.com/markets/2026/09/02/bitcoin-flashes-the-bart-simpsom-pattern-analyst-debate-whether-it-will-actually-form",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 02 Sep 2026 05:28:51 +0000",
-      "summary": "OpenAI says its new 'Astra' AI can build attacks without human help\n"
+      "published": "Wed, 02 Sep 2026 12:13:26 +0000",
+      "summary": "The bearish 'Bart Simpson' pattern is back as bitcoin and XRP prices pull back\n"
     },
     {
-      "title": "Solana, ether, xrp lead majors slide as Iran strikes drive a broad risk selloff",
-      "link": "https://www.coindesk.com/markets/2026/09/02/solana-ether-xrp-lead-majors-slide-as-iran-strikes-drive-a-broad-risk-selloff",
+      "title": "Capital B aims to add 376 BTC to bitcoin treasury following $8.8 million Adam Back investment",
+      "link": "https://www.coindesk.com/business/2026/08/29/capital-b-aims-to-add-376-btc-to-bitcoin-treasury-following-usd8-8-million-adam-back-investment",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 02 Sep 2026 05:01:25 +0000",
-      "summary": "Solana, ether, xrp lead majors slide as Iran strikes drive a broad risk selloff\n"
+      "published": "Wed, 02 Sep 2026 11:45:16 +0000",
+      "summary": "Capital B aims to add 376 BTC to bitcoin treasury following $8.8 million Adam Back investment\n"
     }
   ]
 }
