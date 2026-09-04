@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T15:31:06.445250+00:00",
+  "generated_at": "2026-09-04T20:05:28.521807+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,22 @@
       "summary": "Canadian Man Pleads Guilty in Snowflake Extortions\nA 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider "
     },
     {
+      "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
+      "link": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
+      "raw_summary": "Microsoft is alerting of a \"high-volume phishing campaign\" that's using invisible Unicode tag characters to bypass email filters.\n\n\"Instead of using these characters to hide instructions from people while exposing them to AI models, the attacker used them to split financial lure words such as 'funding' to prevent email filters from parsing them,\" the Microsoft Security Research team said.\n\nThe",
+      "source": "The Hacker News",
+      "published": "Fri, 04 Sep 2026 21:27:15 +0530",
+      "summary": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters\nMicrosoft is alerting of a \"high-volume phishing campaign\" that's using invisible Unicode tag characters to bypass email filters.\n\n\"Instead of using these characters to hide instructions from people while exposing th"
+    },
+    {
+      "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
+      "link": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
+      "raw_summary": "PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server.\n\nThe flaw, tracked as CVE-2026-6471 (CVSS score: 7.2), has been present since logical decoding was introduced in PostgreSQL 9.4 in 2014. Versions before PostgreSQL 18.6, 17.11, 16.15, 15.19, and 14.24 are",
+      "source": "The Hacker News",
+      "published": "Fri, 04 Sep 2026 20:50:19 +0530",
+      "summary": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution\nPostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server.\n\nThe flaw, trac"
+    },
+    {
       "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
       "link": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
       "raw_summary": "A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web traffic and served altered pages to selected visitors.\n\nThe attackers named the implant ted in debug strings left in the binary. It is not a HAProxy vulnerability, and installing it requires code execution on the host and",
@@ -67,60 +83,76 @@
       "summary": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws\nPlex is urging users to update their instances to the latest version following the release of an update that patches multiple security flaws.\n\nThe fixes are available in Plex Media Server 1.43.3 and Plex Desktop 1.115.0."
     },
     {
-      "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
-      "link": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
-      "raw_summary": "Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe high-severity vulnerability, tracked as CVE-2026-85046 (CVSS score: 8.8), has been described as a type confusion bug in V8, Chrome's JavaScript and WebAssembly engine.\n\n\"Type confusion in V8 in Google Chrome prior to 152.0.7977.82 allowed a remote",
-      "source": "The Hacker News",
-      "published": "Fri, 04 Sep 2026 12:48:47 +0530",
-      "summary": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day\nGoogle on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe high-severity vulnerability, tracked as CVE-2026-85046 (CVSS score: 8.8), has been d"
-    },
-    {
-      "title": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
-      "link": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
-      "raw_summary": "OpenAI on Thursday officially unveiled GPT‑6 Astra, which it described as the \"world's most intelligent and aligned model.\"\n\nThe development comes days after the artificial intelligence (AI) company said the model had reached the \"Critical\" cybersecurity capability threshold under its Preparedness Framework.\n\n\"Astra is state-of-the-art on computer use, browsing, software engineering,",
-      "source": "The Hacker News",
-      "published": "Fri, 04 Sep 2026 12:17:52 +0530",
-      "summary": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests\nOpenAI on Thursday officially unveiled GPT‑6 Astra, which it described as the \"world's most intelligent and aligned model.\"\n\nThe development comes days after the artificial intelligence (AI) company said the model had reac"
-    },
-    {
-      "title": "GMails custom domain \"send as\" discontinues January 2027",
-      "link": "https://support.google.com/mail/answer/22370?hl=en",
-      "raw_summary": "<p>Article URL: <a href=\"https://support.google.com/mail/answer/22370?hl=en\">https://support.google.com/mail/answer/22370?hl=en</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49565693\">https://news.ycombinator.com/item?id=49565693</a></p>\n<p>Points: 13</p>\n<p># Comments: 9</p>",
+      "title": "Can AI design circuit boards yet?",
+      "link": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
+      "raw_summary": "<p>Article URL: <a href=\"https://eebench.org/blog/can-ai-design-circuit-boards-yet/\">https://eebench.org/blog/can-ai-design-circuit-boards-yet/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49569366\">https://news.ycombinator.com/item?id=49569366</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 04 Sep 2026 15:03:03 +0000",
-      "summary": "GMails custom domain \"send as\" discontinues January 2027\n<p>Article URL: <a href=\"https://support.google.com/mail/answer/22370?hl=en\">https://support.google.com/mail/answer/22370?hl=en</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49565693\">https://news.ycombinator.com/item?"
+      "published": "Fri, 04 Sep 2026 19:48:29 +0000",
+      "summary": "Can AI design circuit boards yet?\n<p>Article URL: <a href=\"https://eebench.org/blog/can-ai-design-circuit-boards-yet/\">https://eebench.org/blog/can-ai-design-circuit-boards-yet/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49569366\">https://news.ycombinator.com/item?id=4956"
     },
     {
-      "title": "Burnt out on a three-day week",
-      "link": "https://jennywanger.com/articles/burnt-out-on-a-three-day-week/",
-      "raw_summary": "<p>Article URL: <a href=\"https://jennywanger.com/articles/burnt-out-on-a-three-day-week/\">https://jennywanger.com/articles/burnt-out-on-a-three-day-week/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49564960\">https://news.ycombinator.com/item?id=49564960</a></p>\n<p>Points: 54</p>\n<p># Comments: 39</p>",
+      "title": "Government Rails Site Hit Hours After CVE Patch",
+      "link": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/",
+      "raw_summary": "<p>Article URL: <a href=\"https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/\">https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49568828\">https://news.ycombinator.com/item?id=49568828</a></p>\n<p>Points: 19</p>\n<p># Comments: 6</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 04 Sep 2026 14:14:05 +0000",
-      "summary": "Burnt out on a three-day week\n<p>Article URL: <a href=\"https://jennywanger.com/articles/burnt-out-on-a-three-day-week/\">https://jennywanger.com/articles/burnt-out-on-a-three-day-week/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49564960\">https://news.ycombinator.com/item?i"
+      "published": "Fri, 04 Sep 2026 19:06:39 +0000",
+      "summary": "Government Rails Site Hit Hours After CVE Patch\n<p>Article URL: <a href=\"https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/\">https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49568828\">htt"
     },
     {
-      "title": "Top Pentagon Official Contracted Personal Lawyer to Handle Minerals Deal",
-      "link": "https://prospect.org/2026/08/21/pentagon-minerals-deal-department-defense-cerberus-capital-alan-waldenberg-stephen-feinberg/",
-      "raw_summary": "<p>Article URL: <a href=\"https://prospect.org/2026/08/21/pentagon-minerals-deal-department-defense-cerberus-capital-alan-waldenberg-stephen-feinberg/\">https://prospect.org/2026/08/21/pentagon-minerals-deal-department-defense-cerberus-capital-alan-waldenberg-stephen-feinberg/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49564714\">https://news.ycombinator.com/item?id=49564714</a></p>\n<p>Points: 43</p>\n<p># Comments: 2</p>",
+      "title": "Shutting down our public encrypted DNS",
+      "link": "https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead",
+      "raw_summary": "<p>Article URL: <a href=\"https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead\">https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49568579\">https://news.ycombinator.com/item?id=49568579</a></p>\n<p>Points: 77</p>\n<p># Comments: 14</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 04 Sep 2026 13:54:26 +0000",
-      "summary": "Top Pentagon Official Contracted Personal Lawyer to Handle Minerals Deal\n<p>Article URL: <a href=\"https://prospect.org/2026/08/21/pentagon-minerals-deal-department-defense-cerberus-capital-alan-waldenberg-stephen-feinberg/\">https://prospect.org/2026/08/21/pentagon-minerals-deal-department-defense-ce"
+      "published": "Fri, 04 Sep 2026 18:50:28 +0000",
+      "summary": "Shutting down our public encrypted DNS\n<p>Article URL: <a href=\"https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead\">https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead</a></p>\n<p>Comments URL: <a"
     },
     {
-      "title": "US Military disables ad trackers on troops' phones",
-      "link": "https://www.theguardian.com/us-news/2026/sep/04/military-disables-phone-ad-trackers",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.theguardian.com/us-news/2026/sep/04/military-disables-phone-ad-trackers\">https://www.theguardian.com/us-news/2026/sep/04/military-disables-phone-ad-trackers</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49564555\">https://news.ycombinator.com/item?id=49564555</a></p>\n<p>Points: 17</p>\n<p># Comments: 6</p>",
+      "title": "Formalizing Fermat's Last Theorem",
+      "link": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.anthropic.com/research/formalizing-fermats-last-theorem\">https://www.anthropic.com/research/formalizing-fermats-last-theorem</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49568506\">https://news.ycombinator.com/item?id=49568506</a></p>\n<p>Points: 160</p>\n<p># Comments: 88</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 04 Sep 2026 13:44:14 +0000",
-      "summary": "US Military disables ad trackers on troops' phones\n<p>Article URL: <a href=\"https://www.theguardian.com/us-news/2026/sep/04/military-disables-phone-ad-trackers\">https://www.theguardian.com/us-news/2026/sep/04/military-disables-phone-ad-trackers</a></p>\n<p>Comments URL: <a href=\"https://news.ycombina"
+      "published": "Fri, 04 Sep 2026 18:42:56 +0000",
+      "summary": "Formalizing Fermat's Last Theorem\n<p>Article URL: <a href=\"https://www.anthropic.com/research/formalizing-fermats-last-theorem\">https://www.anthropic.com/research/formalizing-fermats-last-theorem</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49568506\">https://news.ycombinato"
     },
     {
-      "title": "IBM Bob",
-      "link": "https://bob.ibm.com/",
-      "raw_summary": "<p>Article URL: <a href=\"https://bob.ibm.com/\">https://bob.ibm.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49563851\">https://news.ycombinator.com/item?id=49563851</a></p>\n<p>Points: 91</p>\n<p># Comments: 89</p>",
+      "title": "The Rust React Compiler is now native in Vite",
+      "link": "https://blog.master.dev/react-now-rusted-all-the-way-out/",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.master.dev/react-now-rusted-all-the-way-out/\">https://blog.master.dev/react-now-rusted-all-the-way-out/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49567873\">https://news.ycombinator.com/item?id=49567873</a></p>\n<p>Points: 40</p>\n<p># Comments: 5</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 04 Sep 2026 12:50:29 +0000",
-      "summary": "IBM Bob\n<p>Article URL: <a href=\"https://bob.ibm.com/\">https://bob.ibm.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49563851\">https://news.ycombinator.com/item?id=49563851</a></p>\n<p>Points: 91</p>\n<p># Comments: 89</p>"
+      "published": "Fri, 04 Sep 2026 17:49:09 +0000",
+      "summary": "The Rust React Compiler is now native in Vite\n<p>Article URL: <a href=\"https://blog.master.dev/react-now-rusted-all-the-way-out/\">https://blog.master.dev/react-now-rusted-all-the-way-out/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49567873\">https://news.ycombinator.com/it"
+    },
+    {
+      "title": "Judge blocks X rival from using Twitter name, but allows ‘Tweet’ for now",
+      "link": "https://techcrunch.com/2026/09/04/judge-blocks-x-rival-from-using-twitter-name-but-allows-tweet-for-now/",
+      "raw_summary": "A federal judge temporarily barred an X rival from using the Twitter name, but found that X was likely to have abandoned the “Tweet” trademark and bird logo. The startup has since relaunched as Tweet.app.",
+      "source": "TechCrunch",
+      "published": "Fri, 04 Sep 2026 17:52:05 +0000",
+      "summary": "Judge blocks X rival from using Twitter name, but allows ‘Tweet’ for now\nA federal judge temporarily barred an X rival from using the Twitter name, but found that X was likely to have abandoned the “Tweet” trademark and bird logo. The startup has since relaunched as Tweet.app."
+    },
+    {
+      "title": "What will Apple’s John Ternus era look like?",
+      "link": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/",
+      "raw_summary": "It&#8217;s&#160;officially the Ternus era at Apple.&#160;&#160; Tim Cook stepped down&#160;as CEO this week, handing the company to former hardware chief John Ternus, whose first memo&#160;promised a “huge launch next week”&#160;— timing that puts Apple&#8217;s next iPhone event on his desk before&#160;he&#8217;s&#160;even settled in. Cook&#160;isn&#8217;t&#160;going far, though:&#160;he&#8217;s&#160;staying on as Executive&#160;Chairman, focused on the kind of policy [&#8230;]",
+      "source": "TechCrunch",
+      "published": "Fri, 04 Sep 2026 17:18:00 +0000",
+      "summary": "What will Apple’s John Ternus era look like?\nIt&#8217;s&#160;officially the Ternus era at Apple.&#160;&#160; Tim Cook stepped down&#160;as CEO this week, handing the company to former hardware chief John Ternus, whose first memo&#160;promised a “huge launch next week”&#160;— timing that puts Apple&#"
+    },
+    {
+      "title": "No little kids allowed, and other new info about Tesla’s Cybercab",
+      "link": "https://techcrunch.com/2026/09/04/no-little-kids-allowed-and-other-new-info-about-teslas-cybercab/",
+      "raw_summary": "The company says no children under 13 can ride -- even with a parent. That's more restrictive than the Model Y SUVs it's using as robotaxis.",
+      "source": "TechCrunch",
+      "published": "Fri, 04 Sep 2026 16:51:23 +0000",
+      "summary": "No little kids allowed, and other new info about Tesla’s Cybercab\nThe company says no children under 13 can ride -- even with a parent. That's more restrictive than the Model Y SUVs it's using as robotaxis."
+    },
+    {
+      "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
+      "link": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+      "raw_summary": "It's the latest failure of OpenAI's internal monitoring and security systems.",
+      "source": "TechCrunch",
+      "published": "Fri, 04 Sep 2026 16:21:11 +0000",
+      "summary": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge\nIt's the latest failure of OpenAI's internal monitoring and security systems."
     },
     {
       "title": "CD sales are making an unexpected comeback amid a retro tech boom",
@@ -131,164 +163,132 @@
       "summary": "CD sales are making an unexpected comeback amid a retro tech boom\nU.S. CD revenue jumped 58.6% in the first half of 2026, reversing last year’s decline as interest in retro tech and physical media continues to grow."
     },
     {
-      "title": "Krafton doubles down on India with another $250M bet beyond gaming",
-      "link": "https://techcrunch.com/2026/09/04/krafton-doubles-down-on-india-with-another-250m-bet-beyond-gaming/",
-      "raw_summary": "Krafton's planned investment in India is set to surpass $500 million with its latest commitment.",
-      "source": "TechCrunch",
-      "published": "Fri, 04 Sep 2026 14:47:20 +0000",
-      "summary": "Krafton doubles down on India with another $250M bet beyond gaming\nKrafton's planned investment in India is set to surpass $500 million with its latest commitment."
-    },
-    {
-      "title": "Google’s Gemini Spark can now manage your Google Photos library",
-      "link": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-      "raw_summary": "Gemini Spark can edit and curate photo albums, create shared collections, turn photos into calendar events, and handle other Google Photos tasks for AI Pro and Ultra subscribers.",
-      "source": "TechCrunch",
-      "published": "Fri, 04 Sep 2026 14:47:11 +0000",
-      "summary": "Google’s Gemini Spark can now manage your Google Photos library\nGemini Spark can edit and curate photo albums, create shared collections, turn photos into calendar events, and handle other Google Photos tasks for AI Pro and Ultra subscribers."
-    },
-    {
-      "title": "Less than 24 hours to apply for your TechCrunch Disrupt 2026 Side Event",
-      "link": "https://techcrunch.com/2026/09/04/less-than-24-hours-to-apply-for-your-techcrunch-disrupt-2026-side-event/",
-      "raw_summary": "Less than 24 hours left to apply to host a Side Event during TechCrunch Disrupt 2026 and make your mark in the Silicon Valley scene. Apply before the application closes tonight at midnight PT.",
-      "source": "TechCrunch",
-      "published": "Fri, 04 Sep 2026 14:00:00 +0000",
-      "summary": "Less than 24 hours to apply for your TechCrunch Disrupt 2026 Side Event\nLess than 24 hours left to apply to host a Side Event during TechCrunch Disrupt 2026 and make your mark in the Silicon Valley scene. Apply before the application closes tonight at midnight PT."
-    },
-    {
-      "title": "US military disabled ad tracking on troops’ devices following reports of targeted attacks",
-      "link": "https://techcrunch.com/2026/09/04/us-military-disabled-ad-tracking-on-troops-devices-following-reports-of-targeted-attacks/",
-      "raw_summary": "A senator's letter confirms the U.S. military moved to prevent the tracking after foreign adversaries used location data to target troops.",
-      "source": "TechCrunch",
-      "published": "Fri, 04 Sep 2026 13:21:37 +0000",
-      "summary": "US military disabled ad tracking on troops’ devices following reports of targeted attacks\nA senator's letter confirms the U.S. military moved to prevent the tracking after foreign adversaries used location data to target troops."
-    },
-    {
-      "title": "Rocket Report: Engines installed for Artemis III; Long March 6C breakup in LEO",
-      "link": "https://arstechnica.com/space/2026/09/rocket-report-china-debuts-yet-another-new-rocket-nasa-considers-bulk-buys/",
-      "raw_summary": "Two of Europe's leading launch startups announced new fundraising this week.",
+      "title": "Medieval manuscripts are \"biological time capsules\" for deadly sheeppox virus",
+      "link": "https://arstechnica.com/science/2026/09/medieval-manuscripts-are-biological-time-capsules-for-deadly-sheeppox-virus/",
+      "raw_summary": "Other archives and libraries around the world may also contain genetic traces of past disease outbreaks.",
       "source": "Ars Technica - All content",
-      "published": "Fri, 04 Sep 2026 12:48:36 +0000",
-      "summary": "Rocket Report: Engines installed for Artemis III; Long March 6C breakup in LEO\nTwo of Europe's leading launch startups announced new fundraising this week."
+      "published": "Fri, 04 Sep 2026 19:01:02 +0000",
+      "summary": "Medieval manuscripts are \"biological time capsules\" for deadly sheeppox virus\nOther archives and libraries around the world may also contain genetic traces of past disease outbreaks."
     },
     {
-      "title": "Nearly impossible? How Fairphone built the ethical, repairable Fairphone Gen 6+.",
-      "link": "https://arstechnica.com/gadgets/2026/09/nearly-impossible-how-fairphone-built-the-ethical-repairable-fairphone-gen-6/",
-      "raw_summary": "Fairphone's CTO explains how and why the Dutch company builds a different kind of smartphone.",
+      "title": "“Trust, not features, is the real deficit”: VMware tries to appease SMBs",
+      "link": "https://arstechnica.com/information-technology/2026/09/trust-not-features-is-the-real-deficit-vmware-tries-to-appease-smbs/",
+      "raw_summary": "Broadcom admits it put “too big a focus on VCF.”",
       "source": "Ars Technica - All content",
-      "published": "Fri, 04 Sep 2026 11:00:05 +0000",
-      "summary": "Nearly impossible? How Fairphone built the ethical, repairable Fairphone Gen 6+.\nFairphone's CTO explains how and why the Dutch company builds a different kind of smartphone."
+      "published": "Fri, 04 Sep 2026 17:35:02 +0000",
+      "summary": "“Trust, not features, is the real deficit”: VMware tries to appease SMBs\nBroadcom admits it put “too big a focus on VCF.”"
     },
     {
-      "title": "Reports: RFK Jr. ordered measles deaths deletion; CDC still secretly counts them",
-      "link": "https://arstechnica.com/health/2026/09/reports-rfk-jr-ordered-measles-deaths-deletion-cdc-still-secretly-counts-them/",
-      "raw_summary": "CDC staff had already accepted the measles death reports when RFK Jr. meddled.",
+      "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
+      "link": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/",
+      "raw_summary": "A once-overlooked block of unicode that's invisible to humans is gaining ever wider use.",
       "source": "Ars Technica - All content",
-      "published": "Thu, 03 Sep 2026 22:13:50 +0000",
-      "summary": "Reports: RFK Jr. ordered measles deaths deletion; CDC still secretly counts them\nCDC staff had already accepted the measles death reports when RFK Jr. meddled."
+      "published": "Fri, 04 Sep 2026 17:18:12 +0000",
+      "summary": "Once popular for attacking AI, ASCII smuggling is embraced by spammers\nA once-overlooked block of unicode that's invisible to humans is gaining ever wider use."
     },
     {
-      "title": "Xbox imposes harsh new time limits for Game Pass game streaming",
-      "link": "https://arstechnica.com/gaming/2026/09/xbox-imposes-harsh-new-time-limits-for-game-pass-game-streaming/",
-      "raw_summary": "Over 1 million Game Pass subscribers will have to pay more for their heavy streaming use.",
+      "title": "Pentagon rescinds new testosterone screening policy without explanation",
+      "link": "https://arstechnica.com/health/2026/09/pentagon-releases-then-quickly-removes-testosterone-screening-policy/",
+      "raw_summary": "The Pentagon says the guidance is being updated after being online for one day.",
       "source": "Ars Technica - All content",
-      "published": "Thu, 03 Sep 2026 21:10:59 +0000",
-      "summary": "Xbox imposes harsh new time limits for Game Pass game streaming\nOver 1 million Game Pass subscribers will have to pay more for their heavy streaming use."
+      "published": "Fri, 04 Sep 2026 16:57:24 +0000",
+      "summary": "Pentagon rescinds new testosterone screening policy without explanation\nThe Pentagon says the guidance is being updated after being online for one day."
     },
     {
-      "title": "150 research primates got diarrhea, flooding lab with priceless vaccine data",
-      "link": "https://arstechnica.com/health/2026/09/150-research-primates-got-diarrhea-flooding-lab-with-priceless-vaccine-data/",
-      "raw_summary": "Researchers now have clear new targets and insights for developing a <em>Shigella</em> vaccine.",
+      "title": "A ratings board wouldn't let Valve release a trailer. It \"leaked\" it instead.",
+      "link": "https://arstechnica.com/gaming/2026/09/valve-secretly-leaked-a-left-4-dead-2-trailer-to-dodge-the-esrb/",
+      "raw_summary": "\"I think we can't get in trouble for that now. It's like 20 years ago.\"",
       "source": "Ars Technica - All content",
-      "published": "Thu, 03 Sep 2026 20:14:48 +0000",
-      "summary": "150 research primates got diarrhea, flooding lab with priceless vaccine data\nResearchers now have clear new targets and insights for developing a <em>Shigella</em> vaccine."
-    },
-    {
-      "title": "Venezuela’s jumbo oil deal does little to appease its creditors",
-      "link": "https://www.ft.com/content/f84c4053-3e14-4666-9543-7e958a1dadb2?syn-25a6b1a6=1",
-      "raw_summary": "Ordinary bondholders will want evidence that Caracas can produce and sell enough oil, in dollars, to repay what is left of their debt",
-      "source": "World",
-      "published": "Fri, 04 Sep 2026 14:13:26 GMT",
-      "summary": "Venezuela’s jumbo oil deal does little to appease its creditors\nOrdinary bondholders will want evidence that Caracas can produce and sell enough oil, in dollars, to repay what is left of their debt"
-    },
-    {
-      "title": "Pragmatism should define Burnham’s approach to business",
-      "link": "https://www.ft.com/content/c1d3bf1b-6a56-4271-ad33-d9279354f083?syn-25a6b1a6=1",
-      "raw_summary": "The prime minister needs to defy the vibes of tax-and-spend socialism",
-      "source": "World",
-      "published": "Fri, 04 Sep 2026 14:00:33 GMT",
-      "summary": "Pragmatism should define Burnham’s approach to business\nThe prime minister needs to defy the vibes of tax-and-spend socialism"
-    },
-    {
-      "title": "Farage insists Reform has ‘broken no law’",
-      "link": "https://www.ft.com/content/e252a325-8ee2-43d1-b2f5-002732210395",
-      "raw_summary": "Two key advisers stepped down following undercover sting that alleged party knowingly sought illegal overseas funding",
-      "source": "World",
-      "published": "Fri, 04 Sep 2026 13:40:02 GMT",
-      "summary": "Farage insists Reform has ‘broken no law’\nTwo key advisers stepped down following undercover sting that alleged party knowingly sought illegal overseas funding"
+      "published": "Fri, 04 Sep 2026 16:42:53 +0000",
+      "summary": "A ratings board wouldn't let Valve release a trailer. It \"leaked\" it instead.\n\"I think we can't get in trouble for that now. It's like 20 years ago.\""
     },
     {
       "title": "US economy smashes forecast with 162,000 jobs added in August",
       "link": "https://www.ft.com/content/a7ce8b2f-98f5-4e96-afa0-ccf4dceef8bd?syn-25a6b1a6=1",
       "raw_summary": "Expectations for Federal Reserve rate rise in September tick up after strong report",
       "source": "World",
-      "published": "Fri, 04 Sep 2026 13:34:56 GMT",
+      "published": "Fri, 04 Sep 2026 19:04:05 GMT",
       "summary": "US economy smashes forecast with 162,000 jobs added in August\nExpectations for Federal Reserve rate rise in September tick up after strong report"
     },
     {
-      "title": "Strong August US payrolls report bolsters odds of September rate rise",
-      "link": "https://www.ft.com/content/546c8b24-a1d6-46f1-a57f-62491c248487",
-      "raw_summary": "Job numbers well above consensus, adding to hawks’ argument that inflation is a bigger problem than the labour market",
+      "title": "Nigel Farage insists Reform has ‘broken no law’ after key advisers step down",
+      "link": "https://www.ft.com/content/5c4f86d2-411f-4b3b-9926-d27432ffc290?syn-25a6b1a6=1",
+      "raw_summary": "Party’s conference in Birmingham overshadowed by alleged attempts to seek illegal overseas funding",
       "source": "World",
-      "published": "Fri, 04 Sep 2026 13:29:51 GMT",
-      "summary": "Strong August US payrolls report bolsters odds of September rate rise\nJob numbers well above consensus, adding to hawks’ argument that inflation is a bigger problem than the labour market"
+      "published": "Fri, 04 Sep 2026 18:28:48 GMT",
+      "summary": "Nigel Farage insists Reform has ‘broken no law’ after key advisers step down\nParty’s conference in Birmingham overshadowed by alleged attempts to seek illegal overseas funding"
     },
     {
-      "title": "Blue Owl Tech Fund Raises $150 Million Through Private Placement",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-04/blue-owl-tech-fund-raises-150-million-through-private-placement",
-      "raw_summary": "Blue Owl Technology Finance Corp. raised $150 million through a private placement, its third financing since June, the software-focused private credit fund said Friday.",
+      "title": "Farage’s merry band used to enjoy conference. Not this year",
+      "link": "https://www.ft.com/content/7de897f0-a393-47f3-84ce-27aa64a67f07?syn-25a6b1a6=1",
+      "raw_summary": "After Reform UK was hit by an undercover sting, the old jokes did not land as they used to",
+      "source": "World",
+      "published": "Fri, 04 Sep 2026 17:40:55 GMT",
+      "summary": "Farage’s merry band used to enjoy conference. Not this year\nAfter Reform UK was hit by an undercover sting, the old jokes did not land as they used to"
+    },
+    {
+      "title": "Nigel Farage’s pile of financing scandals",
+      "link": "https://www.ft.com/content/27746b9a-de02-4a83-830a-11cd4b1b1fe4?syn-25a6b1a6=1",
+      "raw_summary": "Undercover report raises new questions over funding of Reform UK",
+      "source": "World",
+      "published": "Fri, 04 Sep 2026 17:37:22 GMT",
+      "summary": "Nigel Farage’s pile of financing scandals\nUndercover report raises new questions over funding of Reform UK"
+    },
+    {
+      "title": "‘Clear’ breaches of rules by Reform UK pollster, says industry body",
+      "link": "https://www.ft.com/content/89d8bb57-0e59-437e-a25d-d6556dcb42b0?syn-25a6b1a6=1",
+      "raw_summary": "British Polling Council seeking further information from JL Partners following Channel Four News investigation",
+      "source": "World",
+      "published": "Fri, 04 Sep 2026 17:35:35 GMT",
+      "summary": "‘Clear’ breaches of rules by Reform UK pollster, says industry body\nBritish Polling Council seeking further information from JL Partners following Channel Four News investigation"
+    },
+    {
+      "title": "Pulte’s Rewewed Attack on Credit Bureaus Sends FICO Plunging",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-04/fico-plunges-21-credit-bureaus-fall-as-pulte-renews-criticism",
+      "raw_summary": "Shares of Fair Isaac Corp., Equifax Inc. and TransUnion tumbled on Friday after Federal Housing Finance Agency Director Bill Pulte renewed his long-standing criticism of the costs of consumer credit scores.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 04 Sep 2026 15:21:56 GMT",
-      "summary": "Blue Owl Tech Fund Raises $150 Million Through Private Placement\nBlue Owl Technology Finance Corp. raised $150 million through a private placement, its third financing since June, the software-focused private credit fund said Friday."
+      "published": "Fri, 04 Sep 2026 14:17:14 GMT",
+      "summary": "Pulte’s Rewewed Attack on Credit Bureaus Sends FICO Plunging\nShares of Fair Isaac Corp., Equifax Inc. and TransUnion tumbled on Friday after Federal Housing Finance Agency Director Bill Pulte renewed his long-standing criticism of the costs of consumer credit scores."
     },
     {
-      "title": "Portugal to Negotiate With Lufthansa, Air France-KLM on TAP",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-04/portugal-to-negotiate-with-lufthansa-air-france-klm-on-tap-sale",
-      "raw_summary": "Portugal’s government will enter an additional round of negotiations with Deutsche Lufthansa AG and Air France-KLM over the sale of a minority stake in TAP as it seeks to secure improved offers from both airline groups.",
+      "title": "US Open Players Make Fashion Statements, Drive Retail",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-04/us-open-players-make-fashion-statements-drive-retail-video",
+      "raw_summary": "Dana Telsey, CEO & chief research officer at Telsey Advisory Group, joins Scarlet Fu and Tom Keene on \"Bloomberg Money.\" They discuss the fashion statements being made by players at the US Open and how that translates to consumers.\n (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Fri, 04 Sep 2026 14:43:26 GMT",
-      "summary": "Portugal to Negotiate With Lufthansa, Air France-KLM on TAP\nPortugal’s government will enter an additional round of negotiations with Deutsche Lufthansa AG and Air France-KLM over the sale of a minority stake in TAP as it seeks to secure improved offers from both airline groups."
+      "published": "Fri, 04 Sep 2026 19:48:26 GMT",
+      "summary": "US Open Players Make Fashion Statements, Drive Retail\nDana Telsey, CEO & chief research officer at Telsey Advisory Group, joins Scarlet Fu and Tom Keene on \"Bloomberg Money.\" They discuss the fashion statements being made by players at the US Open and how that translates to consumers.\n (Source: Bloo"
     },
     {
-      "title": "DoubleLine Sees Value in Big Tech (GOOGL), (AMZN) Bonds After AI Debt Selloff",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-04/doubleline-sees-value-in-big-tech-googl-amzn-bonds-after-ai-debt-selloff",
-      "raw_summary": "The debt of some technology behemoths is starting to look enticing after a borrowing binge to bankroll the artificial intelligence buildout battered valuations, according to DoubleLine’s Robert Cohen.",
+      "title": "Stocks Fall as Jobs Fuel Bets Fed Will Raise Rates: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-03/stock-market-today-dow-s-p-live-updates",
+      "raw_summary": "A stronger-than-anticipated increase in US jobs drove stocks and short-dated bonds lower, with traders boosting their bets the Federal Reserve will raise rates this month.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 04 Sep 2026 15:13:26 GMT",
-      "summary": "DoubleLine Sees Value in Big Tech (GOOGL), (AMZN) Bonds After AI Debt Selloff\nThe debt of some technology behemoths is starting to look enticing after a borrowing binge to bankroll the artificial intelligence buildout battered valuations, according to DoubleLine’s Robert Cohen."
+      "published": "Thu, 03 Sep 2026 22:14:26 GMT",
+      "summary": "Stocks Fall as Jobs Fuel Bets Fed Will Raise Rates: Markets Wrap\nA stronger-than-anticipated increase in US jobs drove stocks and short-dated bonds lower, with traders boosting their bets the Federal Reserve will raise rates this month."
     },
     {
-      "title": "Aptera's Plan to Beat EV Costs",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-04/aptera-s-plan-to-beat-ev-costs-video",
-      "raw_summary": "Aptera co-CEO Steve Fambro joins Bloomberg Open Interest to explain why the solar EV startup is betting on China to lower costs and accelerate production, despite tariffs and policy uncertainty. He lays out Aptera’s self-charging promise, its planned California-first rollout, and why he believes a globally sourced model can succeed where other EV startups have struggled. (Source: Bloomberg)",
+      "title": "Retail Stores More Relevant Than Ever: Telsey",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-04/retail-stores-more-relevant-than-ever-telsey-video",
+      "raw_summary": "Dana Telsey, CEO & chief research officer at Telsey Advisory Group, joins Scarlet Fu and Tom Keene on \"Bloomberg Money.\" They discuss the aspirational consumer, US Open fashion, and the premium shopper.\n (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Fri, 04 Sep 2026 15:06:55 GMT",
-      "summary": "Aptera's Plan to Beat EV Costs\nAptera co-CEO Steve Fambro joins Bloomberg Open Interest to explain why the solar EV startup is betting on China to lower costs and accelerate production, despite tariffs and policy uncertainty. He lays out Aptera’s self-charging promise, its planned California-first r"
+      "published": "Fri, 04 Sep 2026 19:32:03 GMT",
+      "summary": "Retail Stores More Relevant Than Ever: Telsey\nDana Telsey, CEO & chief research officer at Telsey Advisory Group, joins Scarlet Fu and Tom Keene on \"Bloomberg Money.\" They discuss the aspirational consumer, US Open fashion, and the premium shopper.\n (Source: Bloomberg)"
     },
     {
-      "title": "Could Bank Research Vanish From X?",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-04/could-bank-research-vanish-from-x-video",
-      "raw_summary": "Morgan Stanley is cracking down on X users sharing its research, filing copyright complaints against at least 16 posts and temporarily locking a prominent strategist’s account. The unusual move is raising fresh questions about fair use, and whether Wall Street’s favorite forum for sharing charts, research and market ideas could be forced to change. (Source: Bloomberg)",
+      "title": "Bond Traders Boost Fed-Hike Odds After Jobs, Await Inflation",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-04/treasuries-slide-after-strong-jobs-data-lift-fed-hike-wagers",
+      "raw_summary": "Treasuries capped a choppy week of trading with higher short-term yields after a stronger-than-expected employment report on Friday nudged up expectations for a Federal Reserve interest-rate hike this month. Next week, key inflation data looms.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 04 Sep 2026 15:05:53 GMT",
-      "summary": "Could Bank Research Vanish From X?\nMorgan Stanley is cracking down on X users sharing its research, filing copyright complaints against at least 16 posts and temporarily locking a prominent strategist’s account. The unusual move is raising fresh questions about fair use, and whether Wall Street’s fa"
+      "published": "Fri, 04 Sep 2026 12:43:21 GMT",
+      "summary": "Bond Traders Boost Fed-Hike Odds After Jobs, Await Inflation\nTreasuries capped a choppy week of trading with higher short-term yields after a stronger-than-expected employment report on Friday nudged up expectations for a Federal Reserve interest-rate hike this month. Next week, key inflation data l"
     },
     {
-      "title": "AMC CEO tells Robinhood to stop issuing stock token as industry executives weigh in",
+      "title": "Robinhood isn't backing down after AMC CEO demands halt to stock tokens",
       "link": "https://www.coindesk.com/business/2026/09/04/amc-ceo-tells-robinhood-to-stop-issuing-stock-token-as-industry-executives-weigh-in",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Fri, 04 Sep 2026 14:56:00 +0000",
-      "summary": "AMC CEO tells Robinhood to stop issuing stock token as industry executives weigh in\n"
+      "summary": "Robinhood isn't backing down after AMC CEO demands halt to stock tokens\n"
     },
     {
       "title": "From warning to listing: UK’s largest retail investment platform opens access to crypto ETNs",
