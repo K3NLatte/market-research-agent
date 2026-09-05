@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T14:18:54.967752+00:00",
+  "generated_at": "2026-09-05T19:45:12.262923+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "Canadian Man Pleads Guilty in Snowflake Extortions\nA 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider "
     },
     {
+      "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
+      "link": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
+      "raw_summary": "JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical vulnerability in TeamCity to breach its own environment.\n\n\"Cadence users should immediately revoke or rotate all credentials and secrets that may have been used to run their Cadence executions,\" JetBrains said.",
+      "source": "The Hacker News",
+      "published": "Sat, 05 Sep 2026 22:22:33 +0530",
+      "summary": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials\nJetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical vulnerability in TeamCit"
+    },
+    {
+      "title": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
+      "link": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
+      "raw_summary": "Broadcom has released security updates for two security flaws impacting VMware Workstation and Fusion, including one critical bug that could result in arbitrary code execution under certain conditions.\n\nThe vulnerability, tracked as CVE-2026-59346 (CVSS score: 9.3), is an integer-overflow vulnerability that a local attacker with elevated privileges can exploit to run arbitrary code.\n\n\"A",
+      "source": "The Hacker News",
+      "published": "Sat, 05 Sep 2026 21:35:08 +0530",
+      "summary": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code\nBroadcom has released security updates for two security flaws impacting VMware Workstation and Fusion, including one critical bug that could result in arbitrary code execution under certain conditions.\n\nThe vulnerability, t"
+    },
+    {
+      "title": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
+      "link": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
+      "raw_summary": "Hardware wallet manufacturer Trezor on Friday disclosed that another 67,000 customers from the U.S. have been impacted in a breach at its shipping provider ShipMonk.\n\nThe exposed information includes customer names, email addresses, phone numbers, shipping addresses, and order numbers between November 2019 and August 2021. The breach does not affect the security of the company's hardware wallets",
+      "source": "The Hacker News",
+      "published": "Sat, 05 Sep 2026 19:47:02 +0530",
+      "summary": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted\nHardware wallet manufacturer Trezor on Friday disclosed that another 67,000 customers from the U.S. have been impacted in a breach at its shipping provider ShipMonk.\n\nThe exposed information includes customer names, "
+    },
+    {
       "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
       "link": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
       "raw_summary": "A group of AI safety researchers says a fleet of autonomous agents that identified themselves as OpenAI systems left about 18,000 posts on a dormant 25-year-old German wiki between May and July 2026, using the site as a shared board to pool answers to a timed web task and pass around a way out of their sandbox.\n\nThe activity was concentrated on DSEwiki, a German software developer wiki that runs",
@@ -59,68 +83,76 @@
       "summary": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities\nThreat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe.\n\nThe Arctic Wolf Adversary Research Team said it observ"
     },
     {
-      "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
-      "link": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
-      "raw_summary": "Microsoft is alerting of a \"high-volume phishing campaign\" that's using invisible Unicode tag characters to bypass email filters.\n\n\"Instead of using these characters to hide instructions from people while exposing them to AI models, the attacker used them to split financial lure words such as 'funding' to prevent email filters from parsing them,\" the Microsoft Security Research team said.\n\nThe",
-      "source": "The Hacker News",
-      "published": "Fri, 04 Sep 2026 21:27:15 +0530",
-      "summary": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters\nMicrosoft is alerting of a \"high-volume phishing campaign\" that's using invisible Unicode tag characters to bypass email filters.\n\n\"Instead of using these characters to hide instructions from people while exposing th"
-    },
-    {
-      "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
-      "link": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
-      "raw_summary": "PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server.\n\nThe flaw, tracked as CVE-2026-6471 (CVSS score: 7.2), has been present since logical decoding was introduced in PostgreSQL 9.4 in 2014. Versions before PostgreSQL 18.6, 17.11, 16.15, 15.19, and 14.24 are",
-      "source": "The Hacker News",
-      "published": "Fri, 04 Sep 2026 20:50:19 +0530",
-      "summary": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution\nPostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server.\n\nThe flaw, trac"
-    },
-    {
-      "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
-      "link": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
-      "raw_summary": "A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web traffic and served altered pages to selected visitors.\n\nThe attackers named the implant ted in debug strings left in the binary. It is not a HAProxy vulnerability, and installing it requires code execution on the host and",
-      "source": "The Hacker News",
-      "published": "Fri, 04 Sep 2026 20:21:13 +0530",
-      "summary": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic\nA previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web traffic and served altered pages to selec"
-    },
-    {
-      "title": "Ig Nobel Prize Winners",
-      "link": "https://arstechnica.com/science/2026/09/meet-the-2026-ig-nobel-prize-winners/",
-      "raw_summary": "<p>Article URL: <a href=\"https://arstechnica.com/science/2026/09/meet-the-2026-ig-nobel-prize-winners/\">https://arstechnica.com/science/2026/09/meet-the-2026-ig-nobel-prize-winners/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49576611\">https://news.ycombinator.com/item?id=49576611</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "title": "The moral panic over data centres is foolish",
+      "link": "https://www.economist.com/leaders/2026/09/03/the-moral-panic-over-data-centres-is-foolish",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.economist.com/leaders/2026/09/03/the-moral-panic-over-data-centres-is-foolish\">https://www.economist.com/leaders/2026/09/03/the-moral-panic-over-data-centres-is-foolish</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49579714\">https://news.ycombinator.com/item?id=49579714</a></p>\n<p>Points: 29</p>\n<p># Comments: 26</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 05 Sep 2026 14:02:44 +0000",
-      "summary": "Ig Nobel Prize Winners\n<p>Article URL: <a href=\"https://arstechnica.com/science/2026/09/meet-the-2026-ig-nobel-prize-winners/\">https://arstechnica.com/science/2026/09/meet-the-2026-ig-nobel-prize-winners/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49576611\">https://news.y"
+      "published": "Sat, 05 Sep 2026 19:15:50 +0000",
+      "summary": "The moral panic over data centres is foolish\n<p>Article URL: <a href=\"https://www.economist.com/leaders/2026/09/03/the-moral-panic-over-data-centres-is-foolish\">https://www.economist.com/leaders/2026/09/03/the-moral-panic-over-data-centres-is-foolish</a></p>\n<p>Comments URL: <a href=\"https://news.yc"
     },
     {
-      "title": "The \"$60 Gaming PC\" – AMD BC-250 (2025)",
-      "link": "https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/",
-      "raw_summary": "<p>Article URL: <a href=\"https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/\">https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49576386\">https://news.ycombinator.com/item?id=49576386</a></p>\n<p>Points: 15</p>\n<p># Comments: 6</p>",
+      "title": "The Luxuries in Life",
+      "link": "https://feld.com/archives/2026/09/the-real-luxuries-in-life/",
+      "raw_summary": "<p>Article URL: <a href=\"https://feld.com/archives/2026/09/the-real-luxuries-in-life/\">https://feld.com/archives/2026/09/the-real-luxuries-in-life/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49578866\">https://news.ycombinator.com/item?id=49578866</a></p>\n<p>Points: 104</p>\n<p># Comments: 36</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 05 Sep 2026 13:36:38 +0000",
-      "summary": "The \"$60 Gaming PC\" – AMD BC-250 (2025)\n<p>Article URL: <a href=\"https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/\">https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49576386\">https://news.ycombinator.com/item"
+      "published": "Sat, 05 Sep 2026 17:46:16 +0000",
+      "summary": "The Luxuries in Life\n<p>Article URL: <a href=\"https://feld.com/archives/2026/09/the-real-luxuries-in-life/\">https://feld.com/archives/2026/09/the-real-luxuries-in-life/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49578866\">https://news.ycombinator.com/item?id=49578866</a><"
     },
     {
-      "title": "Pentagon rescinds new testosterone screening policy without explanation",
-      "link": "https://arstechnica.com/health/2026/09/pentagon-releases-then-quickly-removes-testosterone-screening-policy/",
-      "raw_summary": "<p>Article URL: <a href=\"https://arstechnica.com/health/2026/09/pentagon-releases-then-quickly-removes-testosterone-screening-policy/\">https://arstechnica.com/health/2026/09/pentagon-releases-then-quickly-removes-testosterone-screening-policy/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49576196\">https://news.ycombinator.com/item?id=49576196</a></p>\n<p>Points: 47</p>\n<p># Comments: 26</p>",
+      "title": "Learn Programming with OCaml",
+      "link": "https://usr.lmf.cnrs.fr/lpo/",
+      "raw_summary": "<p>Article URL: <a href=\"https://usr.lmf.cnrs.fr/lpo/\">https://usr.lmf.cnrs.fr/lpo/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49578280\">https://news.ycombinator.com/item?id=49578280</a></p>\n<p>Points: 48</p>\n<p># Comments: 12</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 05 Sep 2026 13:11:14 +0000",
-      "summary": "Pentagon rescinds new testosterone screening policy without explanation\n<p>Article URL: <a href=\"https://arstechnica.com/health/2026/09/pentagon-releases-then-quickly-removes-testosterone-screening-policy/\">https://arstechnica.com/health/2026/09/pentagon-releases-then-quickly-removes-testosterone-sc"
+      "published": "Sat, 05 Sep 2026 16:45:02 +0000",
+      "summary": "Learn Programming with OCaml\n<p>Article URL: <a href=\"https://usr.lmf.cnrs.fr/lpo/\">https://usr.lmf.cnrs.fr/lpo/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49578280\">https://news.ycombinator.com/item?id=49578280</a></p>\n<p>Points: 48</p>\n<p># Comments: 12</p>"
     },
     {
-      "title": "Terpstra Keyboard",
-      "link": "http://terpstrakeyboard.com/",
-      "raw_summary": "<p>Article URL: <a href=\"http://terpstrakeyboard.com/\">http://terpstrakeyboard.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49575150\">https://news.ycombinator.com/item?id=49575150</a></p>\n<p>Points: 17</p>\n<p># Comments: 6</p>",
+      "title": "How the Tobacco Industry Drove the Rise of Ultra-Processed Foods (2025)",
+      "link": "https://vcresearch.berkeley.edu/news/how-tobacco-industry-drove-rise-ultra-processed-foods",
+      "raw_summary": "<p>Article URL: <a href=\"https://vcresearch.berkeley.edu/news/how-tobacco-industry-drove-rise-ultra-processed-foods\">https://vcresearch.berkeley.edu/news/how-tobacco-industry-drove-rise-ultra-processed-foods</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49577985\">https://news.ycombinator.com/item?id=49577985</a></p>\n<p>Points: 118</p>\n<p># Comments: 75</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 05 Sep 2026 10:33:01 +0000",
-      "summary": "Terpstra Keyboard\n<p>Article URL: <a href=\"http://terpstrakeyboard.com/\">http://terpstrakeyboard.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49575150\">https://news.ycombinator.com/item?id=49575150</a></p>\n<p>Points: 17</p>\n<p># Comments: 6</p>"
+      "published": "Sat, 05 Sep 2026 16:14:34 +0000",
+      "summary": "How the Tobacco Industry Drove the Rise of Ultra-Processed Foods (2025)\n<p>Article URL: <a href=\"https://vcresearch.berkeley.edu/news/how-tobacco-industry-drove-rise-ultra-processed-foods\">https://vcresearch.berkeley.edu/news/how-tobacco-industry-drove-rise-ultra-processed-foods</a></p>\n<p>Comments "
     },
     {
-      "title": "Netherlands pulls gold out of the US for fears of 'geopolitical unrest'",
-      "link": "https://www.abc.net.au/news/2026-09-04/why-the-netherlands-moved-its-gold-from-us-and-canada/107111990",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.abc.net.au/news/2026-09-04/why-the-netherlands-moved-its-gold-from-us-and-canada/107111990\">https://www.abc.net.au/news/2026-09-04/why-the-netherlands-moved-its-gold-from-us-and-canada/107111990</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49575034\">https://news.ycombinator.com/item?id=49575034</a></p>\n<p>Points: 149</p>\n<p># Comments: 91</p>",
+      "title": "Wikimedia Foundation Workers Overwhelmingly Vote to Form Union with CWA",
+      "link": "https://wikiworkersunited.org/announcements/2026-09-04-us-wikimedia-foundation-workers-overwhelmingly-vote-to-form-union-with-cwa/",
+      "raw_summary": "<p>Article URL: <a href=\"https://wikiworkersunited.org/announcements/2026-09-04-us-wikimedia-foundation-workers-overwhelmingly-vote-to-form-union-with-cwa/\">https://wikiworkersunited.org/announcements/2026-09-04-us-wikimedia-foundation-workers-overwhelmingly-vote-to-form-union-with-cwa/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49577975\">https://news.ycombinator.com/item?id=49577975</a></p>\n<p>Points: 176</p>\n<p># Comments: 66</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 05 Sep 2026 10:14:28 +0000",
-      "summary": "Netherlands pulls gold out of the US for fears of 'geopolitical unrest'\n<p>Article URL: <a href=\"https://www.abc.net.au/news/2026-09-04/why-the-netherlands-moved-its-gold-from-us-and-canada/107111990\">https://www.abc.net.au/news/2026-09-04/why-the-netherlands-moved-its-gold-from-us-and-canada/107111"
+      "published": "Sat, 05 Sep 2026 16:13:57 +0000",
+      "summary": "Wikimedia Foundation Workers Overwhelmingly Vote to Form Union with CWA\n<p>Article URL: <a href=\"https://wikiworkersunited.org/announcements/2026-09-04-us-wikimedia-foundation-workers-overwhelmingly-vote-to-form-union-with-cwa/\">https://wikiworkersunited.org/announcements/2026-09-04-us-wikimedia-fou"
+    },
+    {
+      "title": "Hikers rescued after using Google Gemini for planning",
+      "link": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+      "raw_summary": "The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required.\"",
+      "source": "TechCrunch",
+      "published": "Sat, 05 Sep 2026 19:35:24 +0000",
+      "summary": "Hikers rescued after using Google Gemini for planning\nThe sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required.\""
+    },
+    {
+      "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
+      "link": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+      "raw_summary": "OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum.",
+      "source": "TechCrunch",
+      "published": "Sat, 05 Sep 2026 18:05:27 +0000",
+      "summary": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure\nOpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum."
+    },
+    {
+      "title": "Clucky’s new alarm app wakes you up with a crowing rooster",
+      "link": "https://techcrunch.com/2026/09/05/cluckys-new-alarm-app-wakes-you-up-with-a-crowing-rooster/",
+      "raw_summary": "Clucky's new alarm app has an option where users are woken up to the sound of a rooster. They then complete a mission to turn it off.",
+      "source": "TechCrunch",
+      "published": "Sat, 05 Sep 2026 17:00:00 +0000",
+      "summary": "Clucky’s new alarm app wakes you up with a crowing rooster\nClucky's new alarm app has an option where users are woken up to the sound of a rooster. They then complete a mission to turn it off."
+    },
+    {
+      "title": "Oura is going public, but these smart ring companies are coming for its crown",
+      "link": "https://techcrunch.com/2026/09/05/oura-is-going-public-but-these-smart-ring-companies-are-coming-for-its-crown/",
+      "raw_summary": "While Oura has largely dominated the smart ring market for years, a growing number of rivals are now racing to dethrone it by trying all sorts of approaches to get an edge over it.",
+      "source": "TechCrunch",
+      "published": "Sat, 05 Sep 2026 15:00:00 +0000",
+      "summary": "Oura is going public, but these smart ring companies are coming for its crown\nWhile Oura has largely dominated the smart ring market for years, a growing number of rivals are now racing to dethrone it by trying all sorts of approaches to get an edge over it."
     },
     {
       "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
@@ -131,36 +163,12 @@
       "summary": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation\nThe round is being raised just months after the robot data startup exited from stealth."
     },
     {
-      "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
-      "link": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
-      "raw_summary": "OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
-      "source": "TechCrunch",
-      "published": "Fri, 04 Sep 2026 23:15:11 +0000",
-      "summary": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them\nOpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews."
-    },
-    {
-      "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
-      "link": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
-      "raw_summary": "Nscale, which recently struck a $45 billion deal with Anthropic, is in talks to raise additional funds in anticipation of an upcoming IPO.",
-      "source": "TechCrunch",
-      "published": "Fri, 04 Sep 2026 21:12:11 +0000",
-      "summary": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing\nNscale, which recently struck a $45 billion deal with Anthropic, is in talks to raise additional funds in anticipation of an upcoming IPO."
-    },
-    {
-      "title": "Judge blocks X rival from using Twitter name, but allows ‘Tweet’ for now",
-      "link": "https://techcrunch.com/2026/09/04/judge-blocks-x-rival-from-using-twitter-name-but-allows-tweet-for-now/",
-      "raw_summary": "A federal judge temporarily barred an X rival from using the Twitter name, but found that X was likely to have abandoned the “Tweet” trademark and bird logo. The startup has since relaunched as Tweet.app.",
-      "source": "TechCrunch",
-      "published": "Fri, 04 Sep 2026 17:52:05 +0000",
-      "summary": "Judge blocks X rival from using Twitter name, but allows ‘Tweet’ for now\nA federal judge temporarily barred an X rival from using the Twitter name, but found that X was likely to have abandoned the “Tweet” trademark and bird logo. The startup has since relaunched as Tweet.app."
-    },
-    {
-      "title": "What will Apple’s John Ternus era look like?",
-      "link": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/",
-      "raw_summary": "It&#8217;s&#160;officially the Ternus era at Apple.&#160;&#160; Tim Cook stepped down&#160;as CEO this week, handing the company to former hardware chief John Ternus, whose first memo&#160;promised a “huge launch next week”&#160;— timing that puts Apple&#8217;s next iPhone event on his desk before&#160;he&#8217;s&#160;even settled in. Cook&#160;isn&#8217;t&#160;going far, though:&#160;he&#8217;s&#160;staying on as Executive&#160;Chairman, focused on the kind of policy [&#8230;]",
-      "source": "TechCrunch",
-      "published": "Fri, 04 Sep 2026 17:18:00 +0000",
-      "summary": "What will Apple’s John Ternus era look like?\nIt&#8217;s&#160;officially the Ternus era at Apple.&#160;&#160; Tim Cook stepped down&#160;as CEO this week, handing the company to former hardware chief John Ternus, whose first memo&#160;promised a “huge launch next week”&#160;— timing that puts Apple&#"
+      "title": "Tesla’s Cybercab has been deployed, and it’s already under investigation",
+      "link": "https://arstechnica.com/cars/2026/09/teslas-cybercab-has-been-deployed-and-its-already-under-investigation/",
+      "raw_summary": "The US government is investigating whether the Cybercab meets vehicle safety standards.",
+      "source": "Ars Technica - All content",
+      "published": "Sat, 05 Sep 2026 15:17:36 +0000",
+      "summary": "Tesla’s Cybercab has been deployed, and it’s already under investigation\nThe US government is investigating whether the Cybercab meets vehicle safety standards."
     },
     {
       "title": "After 8 years, Europe's BepiColombo mission is on final approach to Mercury",
@@ -195,92 +203,100 @@
       "summary": "Trump admin fights ABC lawsuit as watchdogs worry Disney will settle with FCC\nFCC tells court it is “open-minded\" about whether ABC should lose licenses."
     },
     {
-      "title": "Medieval manuscripts are \"biological time capsules\" for deadly sheeppox virus",
-      "link": "https://arstechnica.com/science/2026/09/medieval-manuscripts-are-biological-time-capsules-for-deadly-sheeppox-virus/",
-      "raw_summary": "Other archives and libraries around the world may also contain genetic traces of past disease outbreaks.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 04 Sep 2026 19:01:02 +0000",
-      "summary": "Medieval manuscripts are \"biological time capsules\" for deadly sheeppox virus\nOther archives and libraries around the world may also contain genetic traces of past disease outbreaks."
+      "title": "Trump envoys take Ukraine peace proposal to meeting with Putin",
+      "link": "https://www.ft.com/content/9ae2c655-bcf7-4ef2-9a9b-0855248d06a0?syn-25a6b1a6=1",
+      "raw_summary": "Russia and Ukraine announce pause in air strikes for duration of Jared Kushner and Steve Witkoff’s visit",
+      "source": "World",
+      "published": "Sat, 05 Sep 2026 18:23:47 GMT",
+      "summary": "Trump envoys take Ukraine peace proposal to meeting with Putin\nRussia and Ukraine announce pause in air strikes for duration of Jared Kushner and Steve Witkoff’s visit"
+    },
+    {
+      "title": "Trump and Musk Super Pacs boost spending on midterm elections",
+      "link": "https://www.ft.com/content/d8fa06e5-5929-47c9-815c-47d2221fc9e9?syn-25a6b1a6=1",
+      "raw_summary": "Maga Inc and America Pac drop millions on US House and Senate candidates to keep Republicans in control of Congress",
+      "source": "World",
+      "published": "Sat, 05 Sep 2026 17:37:49 GMT",
+      "summary": "Trump and Musk Super Pacs boost spending on midterm elections\nMaga Inc and America Pac drop millions on US House and Senate candidates to keep Republicans in control of Congress"
+    },
+    {
+      "title": "Russia-Ukraine peace talks could begin next year, ex-MI6 chief says",
+      "link": "https://www.ft.com/content/4826a106-9cd4-45bc-8436-69e2519d0205",
+      "raw_summary": "John Sawers tells FT Weekend Festival that enduring peace ‘not really conceivable’ while Vladimir Putin remains in office",
+      "source": "World",
+      "published": "Sat, 05 Sep 2026 15:50:30 GMT",
+      "summary": "Russia-Ukraine peace talks could begin next year, ex-MI6 chief says\nJohn Sawers tells FT Weekend Festival that enduring peace ‘not really conceivable’ while Vladimir Putin remains in office"
+    },
+    {
+      "title": "Jenrick seeks to get Reform back on track with tax pledge",
+      "link": "https://www.ft.com/content/82c20c2f-a3d2-45c0-be50-2bed0bfb52b0?syn-25a6b1a6=1",
+      "raw_summary": "Rightwing party’s Treasury spokesperson attempts to shift attention from illicit funding allegations",
+      "source": "World",
+      "published": "Sat, 05 Sep 2026 15:42:36 GMT",
+      "summary": "Jenrick seeks to get Reform back on track with tax pledge\nRightwing party’s Treasury spokesperson attempts to shift attention from illicit funding allegations"
     },
     {
       "title": "Masked protesters block Dover port roads",
       "link": "https://www.ft.com/content/53751b68-5af6-42ec-9d93-bf3daee6acdd?syn-25a6b1a6=1",
       "raw_summary": "Port operator says services back to normal after ‘public order incident’ affected ‘all routes in and out’",
       "source": "World",
-      "published": "Sat, 05 Sep 2026 13:19:32 GMT",
+      "published": "Sat, 05 Sep 2026 15:30:29 GMT",
       "summary": "Masked protesters block Dover port roads\nPort operator says services back to normal after ‘public order incident’ affected ‘all routes in and out’"
     },
     {
-      "title": "‘Sowing doubt’: Trump’s attempt to overhaul voting causes headaches for state officials",
-      "link": "https://www.ft.com/content/47ac914f-ab0e-441b-9152-9ef06dc17741?syn-25a6b1a6=1",
-      "raw_summary": "The US president has tried to impose new rules just weeks before election day",
-      "source": "World",
-      "published": "Sat, 05 Sep 2026 13:00:05 GMT",
-      "summary": "‘Sowing doubt’: Trump’s attempt to overhaul voting causes headaches for state officials\nThe US president has tried to impose new rules just weeks before election day"
-    },
-    {
-      "title": "Trump envoys arrive in Moscow with Ukraine peace proposal",
-      "link": "https://www.ft.com/content/9ae2c655-bcf7-4ef2-9a9b-0855248d06a0?syn-25a6b1a6=1",
-      "raw_summary": "Russia and Ukraine announce pause in air strikes for duration of Jared Kushner and Steve Witkoff’s visit",
-      "source": "World",
-      "published": "Sat, 05 Sep 2026 12:11:22 GMT",
-      "summary": "Trump envoys arrive in Moscow with Ukraine peace proposal\nRussia and Ukraine announce pause in air strikes for duration of Jared Kushner and Steve Witkoff’s visit"
-    },
-    {
-      "title": "Pro-Israel groups fight to help Republicans keep control of Congress",
-      "link": "https://www.ft.com/content/c98f4d9b-ec17-4bc0-a137-dbd12a23cba6?syn-25a6b1a6=1",
-      "raw_summary": "Supporters of Israel’s far-right government fear November’s midterm elections could mark major shift in country’s relationship with US",
-      "source": "World",
-      "published": "Sat, 05 Sep 2026 11:00:04 GMT",
-      "summary": "Pro-Israel groups fight to help Republicans keep control of Congress\nSupporters of Israel’s far-right government fear November’s midterm elections could mark major shift in country’s relationship with US"
-    },
-    {
-      "title": "Treasury sell-off piles pressure on weakest US borrowers",
-      "link": "https://www.ft.com/content/6e096712-5abe-48c5-8e4d-c0042f947639?syn-25a6b1a6=1",
-      "raw_summary": "Spreads on riskiest junk debt have climbed to their highest level since the market meltdown that followed last year’s ‘liberation day’ tariff blitz",
-      "source": "World",
-      "published": "Sat, 05 Sep 2026 11:00:04 GMT",
-      "summary": "Treasury sell-off piles pressure on weakest US borrowers\nSpreads on riskiest junk debt have climbed to their highest level since the market meltdown that followed last year’s ‘liberation day’ tariff blitz"
-    },
-    {
-      "title": "EU Envoy Urges Maximum Pressure on Russia",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-05/eu-envoy-urges-maximum-pressure-on-russia-video",
-      "raw_summary": "EU Ambassador to the United States Jovita Neliupšienė joins Bloomberg This Weekend and discusses with hosts Christina Ruffini and Jeff Mason that Europe must keep supporting Ukraine while applying “maximum pressure” on Moscow because Russia has not changed its war aims. The comments come as US envoys Steve Witkoff and Jared Kushner visit Moscow before heading to Kyiv in an effort to revive stalled peace negotiations. (Source: Bloomberg)",
+      "title": "Trump Renames Lake Ontario, Canada Responds",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-05/trump-renames-lake-ontario-canada-responds-video",
+      "raw_summary": "President Trump’s decision to rename Lake Ontario to Lake America is making waves on both sides of the border.\nBloomberg News Shaquille Omari looks at how Canada and tech companies are responding. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Sat, 05 Sep 2026 13:55:08 GMT",
-      "summary": "EU Envoy Urges Maximum Pressure on Russia\nEU Ambassador to the United States Jovita Neliupšienė joins Bloomberg This Weekend and discusses with hosts Christina Ruffini and Jeff Mason that Europe must keep supporting Ukraine while applying “maximum pressure” on Moscow because Russia has not changed i"
+      "published": "Sat, 05 Sep 2026 18:42:52 GMT",
+      "summary": "Trump Renames Lake Ontario, Canada Responds\nPresident Trump’s decision to rename Lake Ontario to Lake America is making waves on both sides of the border.\nBloomberg News Shaquille Omari looks at how Canada and tech companies are responding. (Source: Bloomberg)"
     },
     {
-      "title": "By The Way: Headlines You Should See",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-05/by-the-way-headlines-you-should-see-video",
-      "raw_summary": "Canned cocktails, the science behind the Gen Z stare and the US Open becoming a food fest: Join Bloomberg's Lisa Mateo, Christina Ruffini and Jeff Mason to hear about the headlines from this week you may have missed but need to check out. Watch, on Bloomberg This Weekend! Live Saturday and Sunday, 7am - 10am EST on Bloomberg.com  (Source: Bloomberg)",
+      "title": "Lutnick to Review Pentagon Deals Involving Cerberus Firms",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-04/lutnick-to-review-pentagon-deals-involving-cerberus-companies",
+      "raw_summary": "Commerce Secretary Howard Lutnick has been chosen by the Department of Defense to review any transactions between the Pentagon and companies associated with Cerberus Capital Management, according to a US official.",
       "source": "Bloomberg Markets",
-      "published": "Sat, 05 Sep 2026 13:20:13 GMT",
-      "summary": "By The Way: Headlines You Should See\nCanned cocktails, the science behind the Gen Z stare and the US Open becoming a food fest: Join Bloomberg's Lisa Mateo, Christina Ruffini and Jeff Mason to hear about the headlines from this week you may have missed but need to check out. Watch, on Bloomberg This"
+      "published": "Fri, 04 Sep 2026 20:27:13 GMT",
+      "summary": "Lutnick to Review Pentagon Deals Involving Cerberus Firms\nCommerce Secretary Howard Lutnick has been chosen by the Department of Defense to review any transactions between the Pentagon and companies associated with Cerberus Capital Management, according to a US official."
     },
     {
-      "title": "AI May Transform How Humans Understand Animals",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-05/ai-may-transform-how-humans-understand-animals-video",
-      "raw_summary": "Researchers are using AI to analyze vast collections of animal vocalizations, looking for patterns that could help humans better understand how species such as crows communicate. Bloomberg Weekend Senior Writer Morgan Meaker is on Bloomberg This Weekend and says the technology could reshape humans’ relationship with animals, but researchers warn it also raises ethical questions about privacy, exploitation and how those discoveries might be used. (Source: Bloomberg)",
+      "title": "Bloomberg This Weekend 09/05/2026",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-05/bloomberg-this-weekend-09-05-2026-video",
+      "raw_summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Sat, 05 Sep 2026 12:46:10 GMT",
-      "summary": "AI May Transform How Humans Understand Animals\nResearchers are using AI to analyze vast collections of animal vocalizations, looking for patterns that could help humans better understand how species such as crows communicate. Bloomberg Weekend Senior Writer Morgan Meaker is on Bloomberg This Weekend"
+      "published": "Sat, 05 Sep 2026 16:17:08 GMT",
+      "summary": "Bloomberg This Weekend 09/05/2026\nThe news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. (Source: Bloomberg)"
     },
     {
-      "title": "Singapore Government Won’t Interfere in Decisions on Air India",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-05/singapore-government-won-t-interfere-in-decisions-on-air-india",
-      "raw_summary": "The Singapore government said it will not interfere in any decision that Singapore Airlines Ltd. makes in Air India Ltd., which is said to be seeking financial aid from its shareholders.",
+      "title": "Jobs Surge Raises Odds of September Fed Hike",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-05/jobs-surge-raises-odds-of-september-fed-hike-video",
+      "raw_summary": "On Bloomberg This Weekend, Seaport Research Partner Managing Director & Chief Equity Strategist Jonathan Golub says a stronger-than-expected US jobs report reinforces the case for the Federal Reserve to raise interest rates, despite President Donald Trump’s calls for lower borrowing costs. Golub also says to hosts Christina Ruffini and Jeff Mason that his bigger concern is longer-term bond yields as heavy AI investment and government borrowing compete for capital. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Sat, 05 Sep 2026 12:45:15 GMT",
-      "summary": "Singapore Government Won’t Interfere in Decisions on Air India\nThe Singapore government said it will not interfere in any decision that Singapore Airlines Ltd. makes in Air India Ltd., which is said to be seeking financial aid from its shareholders."
+      "published": "Sat, 05 Sep 2026 15:37:28 GMT",
+      "summary": "Jobs Surge Raises Odds of September Fed Hike\nOn Bloomberg This Weekend, Seaport Research Partner Managing Director & Chief Equity Strategist Jonathan Golub says a stronger-than-expected US jobs report reinforces the case for the Federal Reserve to raise interest rates, despite President Donald Trump"
     },
     {
-      "title": "Energy Markets Strained by Iran, Ukraine Wars",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-05/energy-markets-strained-by-iran-ukraine-wars-video",
-      "raw_summary": "Renewed US-Iran fighting and uncertainty over shipping through the Strait of Hormuz are adding pressure to global energy markets, while the threat of mines continues to deter some traffic. Ukraine’s attacks on Russian refineries are compounding tight diesel supplies, creating what Bloomberg News Oil Products Reporter Will Kubzansky describes as a distillates crisis heading into peak demand season. Also joining Bloomberg This Weekend to discuss the situation is Bloomberg News Middle East Correspondent Abeer Abu Omar. (Source: Bloomberg)",
+      "title": "The Hidden Cost of America’s Bureaucracy",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-05/the-hidden-cost-of-america-s-bureaucracy-video",
+      "raw_summary": "In her new book The Time Tax, Atlantic staff writer Annie Lowrey examines how paperwork, delays and administrative hurdles consume Americans’ time and can make government benefits and services harder to access. Joining Christina Ruffini and Jeff Mason on Bloomberg This Weekend, Lowrey argues those burdens fall disproportionately on lower-income Americans and says simpler applications, better data sharing and streamlined tax filing could help reduce the cost. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Sat, 05 Sep 2026 11:54:03 GMT",
-      "summary": "Energy Markets Strained by Iran, Ukraine Wars\nRenewed US-Iran fighting and uncertainty over shipping through the Strait of Hormuz are adding pressure to global energy markets, while the threat of mines continues to deter some traffic. Ukraine’s attacks on Russian refineries are compounding tight die"
+      "published": "Sat, 05 Sep 2026 15:15:03 GMT",
+      "summary": "The Hidden Cost of America’s Bureaucracy\nIn her new book The Time Tax, Atlantic staff writer Annie Lowrey examines how paperwork, delays and administrative hurdles consume Americans’ time and can make government benefits and services harder to access. Joining Christina Ruffini and Jeff Mason on Bloo"
+    },
+    {
+      "title": "Why crypto experts say buying and holding bitcoin easily beats trying to time the market",
+      "link": "https://www.coindesk.com/markets/2026/09/05/why-crypto-experts-say-buying-and-holding-bitcoin-easily-beats-trying-to-time-the-market",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Sat, 05 Sep 2026 18:05:11 +0000",
+      "summary": "Why crypto experts say buying and holding bitcoin easily beats trying to time the market\n"
+    },
+    {
+      "title": "Dollar-backed stablecoins can push local currencies lower, Bank of Korea study finds",
+      "link": "https://www.coindesk.com/business/2026/09/05/dollar-backed-stablecoins-can-push-local-currencies-lower-bank-of-korea-study-finds",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Sat, 05 Sep 2026 16:43:13 +0000",
+      "summary": "Dollar-backed stablecoins can push local currencies lower, Bank of Korea study finds\n"
     },
     {
       "title": "British investor thought he lost $2,000 in bitcoin in 2012. He just recovered $4.5 million",
@@ -305,22 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Sat, 05 Sep 2026 05:00:00 +0000",
       "summary": "Southeast Asia’s crypto funding rebounds to $680 million as investors focus on mature firms\n"
-    },
-    {
-      "title": "Robinhood isn't backing down after AMC CEO demands halt to stock tokens",
-      "link": "https://www.coindesk.com/business/2026/09/04/amc-ceo-tells-robinhood-to-stop-issuing-stock-token-as-industry-executives-weigh-in",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 04 Sep 2026 14:56:00 +0000",
-      "summary": "Robinhood isn't backing down after AMC CEO demands halt to stock tokens\n"
-    },
-    {
-      "title": "From warning to listing: UK’s largest retail investment platform opens access to crypto ETNs",
-      "link": "https://www.coindesk.com/business/2026/09/04/from-warning-to-listing-uk-s-largest-wealth-platform-opens-access-to-crypto-etns",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 04 Sep 2026 14:23:11 +0000",
-      "summary": "From warning to listing: UK’s largest retail investment platform opens access to crypto ETNs\n"
     }
   ]
 }
