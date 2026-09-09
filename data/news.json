@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T02:22:37.426482+00:00",
+  "generated_at": "2026-09-09T10:29:45.403223+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,84 +43,100 @@
       "summary": "Microsoft Plugs Nearly 400 Security Holes\nMicrosoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to toda"
     },
     {
-      "title": "Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution",
-      "link": "https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html",
-      "raw_summary": "A previously undocumented financially motivated threat actor has been linked to attacks targeting Brazilian financial institutions since at least March 2026.\n\nCybersecurity company CrowdStrike is tracking the Brazil-based activity cluster under the name Slim Spider.\n\n\"The adversary demonstrates deep operational knowledge of Brazilian financial infrastructure, including the instant payment",
+      "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
+      "link": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
+      "raw_summary": "Google on Thursday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe medium-severity vulnerability, assigned the CVE identifier CVE-2026-87491 (CVSS score: N/A), has been described as an out-of-bounds bug in V8, Chrome's JavaScript and WebAssembly engine.\n\n\"Out-of-bounds write in V8 in Google Chrome prior to",
       "source": "The Hacker News",
-      "published": "Tue, 08 Sep 2026 21:50:23 +0530",
-      "summary": "Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution\nA previously undocumented financially motivated threat actor has been linked to attacks targeting Brazilian financial institutions since at least March 2026.\n\nCybersecurity company CrowdStrike is tracking the Brazil-based"
+      "published": "Wed, 09 Sep 2026 14:41:03 +0530",
+      "summary": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox\nGoogle on Thursday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe medium-severity vulnerability, assigned the CVE identifier CVE-2026-87491 "
     },
     {
-      "title": "Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC",
-      "link": "https://thehackernews.com/2026/09/liquid-hackers-return-3400-bitcoin.html",
-      "raw_summary": "Whoever took nearly 4,000 bitcoin from the Liquid Network on Sunday, September 6,&nbsp;returned 3,400 of it&nbsp;the next day, Bitcoin's public record shows. About 598.5 bitcoin has not come back.\n\nLiquid is a Bitcoin sidechain that holds real bitcoin to back a token called L-BTC. The network is still paused, so holders cannot turn that token back into bitcoin.\n\nThe 3,400 bitcoin was sent to a&",
+      "title": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root",
+      "link": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
+      "raw_summary": "cPanel has patched a flaw that it says lets a single hosting account take control of an entire server. An authenticated account holder with mail-related privileges can create files of their choosing on the server through EmailTrack and, from there, run code as the root user.\n\ncPanel published the&nbsp;advisory on September 8&nbsp;and says every supported version of cPanel and WHM is affected.",
       "source": "The Hacker News",
-      "published": "Tue, 08 Sep 2026 20:24:30 +0530",
-      "summary": "Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC\nWhoever took nearly 4,000 bitcoin from the Liquid Network on Sunday, September 6,&nbsp;returned 3,400 of it&nbsp;the next day, Bitcoin's public record shows. About 598.5 bitcoin has not come back.\n\nLiquid is a Bitc"
+      "published": "Wed, 09 Sep 2026 13:49:32 +0530",
+      "summary": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root\ncPanel has patched a flaw that it says lets a single hosting account take control of an entire server. An authenticated account holder with mail-related privileges can create files of their choosing on the server through Em"
     },
     {
-      "title": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
-      "link": "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html",
-      "raw_summary": "Check Point Research said in a&nbsp;report published today&nbsp;that a single instruction planted in a ChatGPT conversation could cause ChatGPT to quietly work for an attacker while answering the user's question as usual.\n\nIn the company's proof of concept, that hidden work read data from the user's connected Gmail account and passed it to a second ChatGPT account through a hidden channel",
+      "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
+      "link": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
+      "raw_summary": "Malware linked to break-ins at F5 BIG-IP Access Policy Manager appliances hides a PHP web shell in memory instead of in a file on disk, Sophos said in an&nbsp;analysis published on September 7.\n\nWhen Apache loads any of the three appliances' own PHP scripts, the malware adds the web shell to the copy held in memory, so a check of the file on disk can come back clean. Those three scripts are",
       "source": "The Hacker News",
-      "published": "Tue, 08 Sep 2026 19:49:17 +0530",
-      "summary": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account\nCheck Point Research said in a&nbsp;report published today&nbsp;that a single instruction planted in a ChatGPT conversation could cause ChatGPT to quietly work for an attacker while answering the user's question as usual"
+      "published": "Wed, 09 Sep 2026 13:06:49 +0530",
+      "summary": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans\nMalware linked to break-ins at F5 BIG-IP Access Policy Manager appliances hides a PHP web shell in memory instead of in a file on disk, Sophos said in an&nbsp;analysis published on September 7.\n\nWhen Apache loads any of th"
     },
     {
-      "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
-      "link": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html",
-      "raw_summary": "Threat actors are continuing to leverage artificial intelligence (AI) to streamline their operations, with one financially motivated hacking group employing an autonomous, multi-agent attack framework to carry out a large-scale credential harvesting campaign within six hours.\n\nGoogle Threat Intelligence Group (GTIG) said it has observed attackers with diverse motivations targeting proprietary AI",
+      "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
+      "link": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
+      "raw_summary": "The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender.\n\nThe vulnerability, codenamed ShieldCrash, is assessed to be a patch bypass for CVE-2026-69414 (CVSS score: 7.8), also called ShieldBreak, which the researcher reported last month.\n\n\"Microsoft has failed to properly patch ShieldBreak CVE-2026-69414,\" Chaotic",
       "source": "The Hacker News",
-      "published": "Tue, 08 Sep 2026 19:18:16 +0530",
-      "summary": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours\nThreat actors are continuing to leverage artificial intelligence (AI) to streamline their operations, with one financially motivated hacking group employing an autonomous, multi-agent attack framework to carry out a large-sc"
+      "published": "Wed, 09 Sep 2026 12:17:27 +0530",
+      "summary": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed\nThe security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender.\n\nThe vulnerability, codenamed ShieldCrash, is assessed to be a patch bypass for "
     },
     {
-      "title": "WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming Calls",
-      "link": "https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html",
-      "raw_summary": "Researchers at the security firm Calif have built a worm that takes over a WeChat account via an incoming call and&nbsp;demonstrated it spreading&nbsp;among three test phones.\n\nThe person being called does not have to answer or touch their phone for it to work, but the caller must already be one of their WeChat contacts. Calif reported the flaw to Tencent in July and says the company has since",
+      "title": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
+      "link": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html",
+      "raw_summary": "SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact on the confidentiality, integrity, and availability of the application\n\nThe vulnerability, tracked as CVE-2026-44756 (CVSS score: 10.0), has been described as a case of memory corruption. Discovered and reported by SAP",
       "source": "The Hacker News",
-      "published": "Tue, 08 Sep 2026 17:24:29 +0530",
-      "summary": "WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming Calls\nResearchers at the security firm Calif have built a worm that takes over a WeChat account via an incoming call and&nbsp;demonstrated it spreading&nbsp;among three test phones.\n\nThe person being called does not have to"
+      "published": "Wed, 09 Sep 2026 11:55:45 +0530",
+      "summary": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution\nSAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact on the confidentiality, integrity, and a"
     },
     {
-      "title": "27.5KB language-agnostic WebGPU syntax highlighter",
-      "link": "https://gpu-lexer.vercel.app/",
-      "raw_summary": "<p>Article URL: <a href=\"https://gpu-lexer.vercel.app/\">https://gpu-lexer.vercel.app/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49619464\">https://news.ycombinator.com/item?id=49619464</a></p>\n<p>Points: 7</p>\n<p># Comments: 1</p>",
+      "title": "How GPT‑5.6 Sol helps run quantum computing experiments",
+      "link": "https://openai.com/index/codex-quantum-computing-experiments/",
+      "raw_summary": "<p>Article URL: <a href=\"https://openai.com/index/codex-quantum-computing-experiments/\">https://openai.com/index/codex-quantum-computing-experiments/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49622561\">https://news.ycombinator.com/item?id=49622561</a></p>\n<p>Points: 61</p>\n<p># Comments: 47</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 09 Sep 2026 01:14:50 +0000",
-      "summary": "27.5KB language-agnostic WebGPU syntax highlighter\n<p>Article URL: <a href=\"https://gpu-lexer.vercel.app/\">https://gpu-lexer.vercel.app/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49619464\">https://news.ycombinator.com/item?id=49619464</a></p>\n<p>Points: 7</p>\n<p># Commen"
+      "published": "Wed, 09 Sep 2026 07:22:46 +0000",
+      "summary": "How GPT‑5.6 Sol helps run quantum computing experiments\n<p>Article URL: <a href=\"https://openai.com/index/codex-quantum-computing-experiments/\">https://openai.com/index/codex-quantum-computing-experiments/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49622561\">https://news."
     },
     {
-      "title": "US to ban Canadian dairy, alcohol, motor vehicle imports on September 29",
-      "link": "https://www.reuters.com/business/us-ban-canadian-dairy-alcohol-motor-vehicle-imports-september-29-2026-09-08/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.reuters.com/business/us-ban-canadian-dairy-alcohol-motor-vehicle-imports-september-29-2026-09-08/\">https://www.reuters.com/business/us-ban-canadian-dairy-alcohol-motor-vehicle-imports-september-29-2026-09-08/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49619457\">https://news.ycombinator.com/item?id=49619457</a></p>\n<p>Points: 26</p>\n<p># Comments: 12</p>",
+      "title": "On Really Trying (2009)",
+      "link": "https://gwern.net/on-really-trying",
+      "raw_summary": "<p>Article URL: <a href=\"https://gwern.net/on-really-trying\">https://gwern.net/on-really-trying</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49622305\">https://news.ycombinator.com/item?id=49622305</a></p>\n<p>Points: 54</p>\n<p># Comments: 28</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 09 Sep 2026 01:13:57 +0000",
-      "summary": "US to ban Canadian dairy, alcohol, motor vehicle imports on September 29\n<p>Article URL: <a href=\"https://www.reuters.com/business/us-ban-canadian-dairy-alcohol-motor-vehicle-imports-september-29-2026-09-08/\">https://www.reuters.com/business/us-ban-canadian-dairy-alcohol-motor-vehicle-imports-septem"
+      "published": "Wed, 09 Sep 2026 06:58:44 +0000",
+      "summary": "On Really Trying (2009)\n<p>Article URL: <a href=\"https://gwern.net/on-really-trying\">https://gwern.net/on-really-trying</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49622305\">https://news.ycombinator.com/item?id=49622305</a></p>\n<p>Points: 54</p>\n<p># Comments: 28</p>"
     },
     {
-      "title": "Codex silently begs agents to make arbitrary web requests",
-      "link": "https://spader.zone/wtf/",
-      "raw_summary": "<p>Article URL: <a href=\"https://spader.zone/wtf/\">https://spader.zone/wtf/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49619235\">https://news.ycombinator.com/item?id=49619235</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
+      "title": "Copyright does more harm than good and should be abolished",
+      "link": "https://grapheneos.social/@GrapheneOS/117231186011306184",
+      "raw_summary": "<p>Article URL: <a href=\"https://grapheneos.social/@GrapheneOS/117231186011306184\">https://grapheneos.social/@GrapheneOS/117231186011306184</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49622042\">https://news.ycombinator.com/item?id=49622042</a></p>\n<p>Points: 240</p>\n<p># Comments: 204</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 09 Sep 2026 00:41:22 +0000",
-      "summary": "Codex silently begs agents to make arbitrary web requests\n<p>Article URL: <a href=\"https://spader.zone/wtf/\">https://spader.zone/wtf/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49619235\">https://news.ycombinator.com/item?id=49619235</a></p>\n<p>Points: 8</p>\n<p># Comments:"
+      "published": "Wed, 09 Sep 2026 06:31:28 +0000",
+      "summary": "Copyright does more harm than good and should be abolished\n<p>Article URL: <a href=\"https://grapheneos.social/@GrapheneOS/117231186011306184\">https://grapheneos.social/@GrapheneOS/117231186011306184</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49622042\">https://news.ycombin"
     },
     {
-      "title": "A Topological Picture Book, Rendered",
-      "link": "https://e-infinity.space/picture-book/",
-      "raw_summary": "<p>Article URL: <a href=\"https://e-infinity.space/picture-book/\">https://e-infinity.space/picture-book/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49618050\">https://news.ycombinator.com/item?id=49618050</a></p>\n<p>Points: 55</p>\n<p># Comments: 7</p>",
+      "title": "“Tweet” and the bird logo apparently enter the public domain",
+      "link": "https://blog.ericgoldman.org/archives/2026/09/tweet-and-the-bird-logo-apparently-enter-the-public-domain-but-x-maintains-its-grip-on-the-twitter-mark-for-now-x-v-project-bluebird.htm",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.ericgoldman.org/archives/2026/09/tweet-and-the-bird-logo-apparently-enter-the-public-domain-but-x-maintains-its-grip-on-the-twitter-mark-for-now-x-v-project-bluebird.htm\">https://blog.ericgoldman.org/archives/2026/09/tweet-and-the-bird-logo-apparently-enter-the-public-domain-but-x-maintains-its-grip-on-the-twitter-mark-for-now-x-v-project-bluebird.htm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49621751\">https://news.ycombinator.com/item?id=49621751</a></p>\n<p>Points: 95</p>\n<p># Comments: 53</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 08 Sep 2026 22:28:14 +0000",
-      "summary": "A Topological Picture Book, Rendered\n<p>Article URL: <a href=\"https://e-infinity.space/picture-book/\">https://e-infinity.space/picture-book/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49618050\">https://news.ycombinator.com/item?id=49618050</a></p>\n<p>Points: 55</p>\n<p># C"
+      "published": "Wed, 09 Sep 2026 06:02:07 +0000",
+      "summary": "“Tweet” and the bird logo apparently enter the public domain\n<p>Article URL: <a href=\"https://blog.ericgoldman.org/archives/2026/09/tweet-and-the-bird-logo-apparently-enter-the-public-domain-but-x-maintains-its-grip-on-the-twitter-mark-for-now-x-v-project-bluebird.htm\">https://blog.ericgoldman.org/a"
     },
     {
-      "title": "Large language models develop novel social biases through adaptive exploration",
-      "link": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH",
-      "raw_summary": "<p>Article URL: <a href=\"https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH\">https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49617581\">https://news.ycombinator.com/item?id=49617581</a></p>\n<p>Points: 95</p>\n<p># Comments: 49</p>",
+      "title": "A Biography of Lee Holloway, the Architect of Cloudflare's Technology (Part 1)",
+      "link": "https://note.com/masakazu_urabe/n/n7815f5b64fab?hl=en",
+      "raw_summary": "<p>Article URL: <a href=\"https://note.com/masakazu_urabe/n/n7815f5b64fab?hl=en\">https://note.com/masakazu_urabe/n/n7815f5b64fab?hl=en</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49621102\">https://news.ycombinator.com/item?id=49621102</a></p>\n<p>Points: 55</p>\n<p># Comments: 13</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 08 Sep 2026 21:47:38 +0000",
-      "summary": "Large language models develop novel social biases through adaptive exploration\n<p>Article URL: <a href=\"https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH\">https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinato"
+      "published": "Wed, 09 Sep 2026 04:43:46 +0000",
+      "summary": "A Biography of Lee Holloway, the Architect of Cloudflare's Technology (Part 1)\n<p>Article URL: <a href=\"https://note.com/masakazu_urabe/n/n7815f5b64fab?hl=en\">https://note.com/masakazu_urabe/n/n7815f5b64fab?hl=en</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49621102\">https:"
+    },
+    {
+      "title": "Google DeepMind alumni are building tools to accelerate fusion power for the grid",
+      "link": "https://techcrunch.com/2026/09/08/google-deepmind-alumni-are-building-tools-to-accelerate-fusion-power-for-the-grid/",
+      "raw_summary": "Fusionality is developing control systems and simulation environments to help fusion power startups move faster.",
+      "source": "TechCrunch",
+      "published": "Wed, 09 Sep 2026 06:00:00 +0000",
+      "summary": "Google DeepMind alumni are building tools to accelerate fusion power for the grid\nFusionality is developing control systems and simulation environments to help fusion power startups move faster."
+    },
+    {
+      "title": "CloudNC raises $20M to automate manufacturing’s most pressing bottlenecks",
+      "link": "https://techcrunch.com/2026/09/08/cloudnc-raises-20m-to-automate-manufacturings-most-pressing-bottlenecks/",
+      "raw_summary": "UK-based manufacturing software startup CloudNC announced Wednesday a $20 million B extension round, bringing its lifetime total raised amount to $128 million.",
+      "source": "TechCrunch",
+      "published": "Wed, 09 Sep 2026 04:01:00 +0000",
+      "summary": "CloudNC raises $20M to automate manufacturing’s most pressing bottlenecks\nUK-based manufacturing software startup CloudNC announced Wednesday a $20 million B extension round, bringing its lifetime total raised amount to $128 million."
     },
     {
       "title": "White House takes down ‘Build the Wall’ game after the Tetris Company complains",
@@ -145,22 +161,6 @@
       "source": "TechCrunch",
       "published": "Tue, 08 Sep 2026 21:04:06 +0000",
       "summary": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market\nCognition's valuation multiple is higher than Cursor's was before selling to SpaceX."
-    },
-    {
-      "title": "The Exploration Company nabs $450 million to challenge SpaceX",
-      "link": "https://techcrunch.com/2026/09/08/the-exploration-company-nabs-450-million-to-challenge-spacex/",
-      "raw_summary": "The Exploration Company (TEC) has raised $450 million to build reusable spacecraft, in what it describes as “the largest-ever Series C by a European space company.”",
-      "source": "TechCrunch",
-      "published": "Tue, 08 Sep 2026 20:47:34 +0000",
-      "summary": "The Exploration Company nabs $450 million to challenge SpaceX\nThe Exploration Company (TEC) has raised $450 million to build reusable spacecraft, in what it describes as “the largest-ever Series C by a European space company.”"
-    },
-    {
-      "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
-      "link": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
-      "raw_summary": "Meta's new personal AI agent Muse wants access to users' email, calendars, payments, health services, and more — making the company's biggest consumer AI bet yet a major test of whether people still trust Meta with their data.",
-      "source": "TechCrunch",
-      "published": "Tue, 08 Sep 2026 19:00:00 +0000",
-      "summary": "Meta debuts its Muse AI agent. Will consumers trust it?\nMeta's new personal AI agent Muse wants access to users' email, calendars, payments, health services, and more — making the company's biggest consumer AI bet yet a major test of whether people still trust Meta with their data."
     },
     {
       "title": "LG TV shown scanning LAN for third-party phones and other devices",
@@ -203,124 +203,124 @@
       "summary": "NIH to use part of its budget to pay for Department of Defense research\nMoney would ostensibly fund research the NIH leadership said it no longer wanted."
     },
     {
-      "title": "DeepSeek fundraising frenzy spawns costly shadow market",
-      "link": "https://www.ft.com/content/5e23e1bc-e340-4c51-bcce-77cf2ec5ebe0?syn-25a6b1a6=1",
-      "raw_summary": "New investment round triggers rush of vehicles with escalating fees and five-year lock-ups",
+      "title": "FirstFT: Oil hits $100 as fears rise over global supplies",
+      "link": "https://www.ft.com/content/0715a142-311f-422f-a9dd-9e31bc3d7d61?syn-25a6b1a6=1",
+      "raw_summary": "Also in today’s newsletter: Anthropic researcher quits and warns labs are ‘gambling’ with humanity’s future and Bessent warns traders not to bet against the Treasury",
       "source": "World",
-      "published": "Wed, 09 Sep 2026 01:55:20 GMT",
-      "summary": "DeepSeek fundraising frenzy spawns costly shadow market\nNew investment round triggers rush of vehicles with escalating fees and five-year lock-ups"
+      "published": "Wed, 09 Sep 2026 10:28:11 GMT",
+      "summary": "FirstFT: Oil hits $100 as fears rise over global supplies\nAlso in today’s newsletter: Anthropic researcher quits and warns labs are ‘gambling’ with humanity’s future and Bessent warns traders not to bet against the Treasury"
     },
     {
-      "title": "CVC hires TPG’s second-in-command Todd Sisitsky as co-CEO",
-      "link": "https://www.ft.com/content/2b171670-c0ce-442f-85a0-2d475369ffa3?syn-25a6b1a6=1",
-      "raw_summary": "Private equity group brings on executive as part of succession plan for chief Rob Lucas",
+      "title": "China’s giant trade surplus has an increasingly geopolitical twist",
+      "link": "https://www.ft.com/content/b397ced1-b9bc-4fe6-8dc7-20f0752e2591?syn-25a6b1a6=1",
+      "raw_summary": "Partners are faced with a model that combines export-led growth with tech supremacy",
       "source": "World",
-      "published": "Wed, 09 Sep 2026 01:27:02 GMT",
-      "summary": "CVC hires TPG’s second-in-command Todd Sisitsky as co-CEO\nPrivate equity group brings on executive as part of succession plan for chief Rob Lucas"
+      "published": "Wed, 09 Sep 2026 10:00:08 GMT",
+      "summary": "China’s giant trade surplus has an increasingly geopolitical twist\nPartners are faced with a model that combines export-led growth with tech supremacy"
     },
     {
-      "title": "Last Seen — Patrick Brammall searches for his long-lost daughter in this Harlan Coben-esque thriller",
-      "link": "https://www.ft.com/content/61faf30d-751a-4537-b8c1-4ba5322107be",
-      "raw_summary": "Set in small-town Australia, this dreary Apple TV series is studded with explosive melodrama and preposterous plot twists",
+      "title": "How to make your retirement less of a (fiscal) drag",
+      "link": "https://www.ft.com/content/464142c6-7ba6-4bdb-83ca-6a4f18da4d96",
+      "raw_summary": "Keeping pension income under the higher or additional tax thresholds requires tactical planning",
       "source": "World",
-      "published": "Wed, 09 Sep 2026 01:00:04 GMT",
-      "summary": "Last Seen — Patrick Brammall searches for his long-lost daughter in this Harlan Coben-esque thriller\nSet in small-town Australia, this dreary Apple TV series is studded with explosive melodrama and preposterous plot twists"
+      "published": "Wed, 09 Sep 2026 10:00:08 GMT",
+      "summary": "How to make your retirement less of a (fiscal) drag\nKeeping pension income under the higher or additional tax thresholds requires tactical planning"
     },
     {
-      "title": "US bans Canadian dairy, motorcycles and most alcoholic beverages",
-      "link": "https://www.ft.com/content/639d8eac-fd8c-4557-a852-f826501681ad?syn-25a6b1a6=1",
-      "raw_summary": "Trump administration announces move day after Ottawa imposed US$20bn in retaliatory tariffs on US goods",
+      "title": "Tung Chee-hwa, Hong Kong’s first chief executive, 1937-2026",
+      "link": "https://www.ft.com/content/a943b766-c4f1-4417-8578-2c9f60ec6c11?syn-25a6b1a6=1",
+      "raw_summary": "Political leader whose administration was buffeted by the Asian financial crisis, Sars epidemic and a contentious security bill",
       "source": "World",
-      "published": "Wed, 09 Sep 2026 00:53:40 GMT",
-      "summary": "US bans Canadian dairy, motorcycles and most alcoholic beverages\nTrump administration announces move day after Ottawa imposed US$20bn in retaliatory tariffs on US goods"
+      "published": "Wed, 09 Sep 2026 09:59:26 GMT",
+      "summary": "Tung Chee-hwa, Hong Kong’s first chief executive, 1937-2026\nPolitical leader whose administration was buffeted by the Asian financial crisis, Sars epidemic and a contentious security bill"
     },
     {
-      "title": "OpenAI faces competing claims around maths breakthrough",
-      "link": "https://www.ft.com/content/4d6d28a0-4b12-438e-8850-4b3d49fc57f5?syn-25a6b1a6=1",
-      "raw_summary": "Chief executive Sam Altman says the lab was threatened with ‘unfounded accusations of plagiarism’",
+      "title": "Thiel-backed start-up to mass-produce ‘deep strike’ missiles in Europe and US",
+      "link": "https://www.ft.com/content/b66ff736-528b-4e3e-a43a-f06749d01991?syn-25a6b1a6=1",
+      "raw_summary": "Covenant to open factories in US, Germany and Israel as it looks to disrupt market for long-range weapons",
       "source": "World",
-      "published": "Tue, 08 Sep 2026 23:53:14 GMT",
-      "summary": "OpenAI faces competing claims around maths breakthrough\nChief executive Sam Altman says the lab was threatened with ‘unfounded accusations of plagiarism’"
+      "published": "Wed, 09 Sep 2026 09:53:08 GMT",
+      "summary": "Thiel-backed start-up to mass-produce ‘deep strike’ missiles in Europe and US\nCovenant to open factories in US, Germany and Israel as it looks to disrupt market for long-range weapons"
     },
     {
-      "title": "Japan’s Retail Traders Add to Yen Shorts as Currency Rallies",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-09/japan-s-retail-traders-add-to-yen-shorts-as-currency-rallies",
-      "raw_summary": "Japanese retail investors are betting against the yen’s sharp rally, adding to bearish wagers even as the currency climbs to its strongest levels in months.",
+      "title": "Bessent Turns Up the Heat to Steer Yen and Yields",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-09-09/bessent-turns-up-the-heat-to-steer-yen-and-yields",
+      "raw_summary": "Treasury secretary says ‘I am the house now’ and ‘you can bet against me if you want.’",
       "source": "Bloomberg Markets",
-      "published": "Wed, 09 Sep 2026 02:03:30 GMT",
-      "summary": "Japan’s Retail Traders Add to Yen Shorts as Currency Rallies\nJapanese retail investors are betting against the yen’s sharp rally, adding to bearish wagers even as the currency climbs to its strongest levels in months."
+      "published": "Wed, 09 Sep 2026 10:19:46 GMT",
+      "summary": "Bessent Turns Up the Heat to Steer Yen and Yields\nTreasury secretary says ‘I am the house now’ and ‘you can bet against me if you want.’"
     },
     {
-      "title": "Latest Oil Market News and Analysis for Sept. 9",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-08/latest-oil-market-news-and-analysis-for-sept-9",
-      "raw_summary": "Brent oil moved closer to $100 a barrel after the US struck Iranian tankers near the Kharg Island export hub and in the Gulf of Oman, stoking fears of deeper disruptions through the Strait of Hormuz.",
+      "title": "INR/USD: India RBI Uses Currency Swaps to Reduce $115 Billion Cash Surplus",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-09/inr-usd-india-rbi-uses-currency-swaps-to-reduce-115-billion-cash-surplus",
+      "raw_summary": "India’s central bank used currency swaps to drain cash from banks, according to people familiar with the matter, as excess funds in the financial system climbed to a record.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 08 Sep 2026 22:03:16 GMT",
-      "summary": "Latest Oil Market News and Analysis for Sept. 9\nBrent oil moved closer to $100 a barrel after the US struck Iranian tankers near the Kharg Island export hub and in the Gulf of Oman, stoking fears of deeper disruptions through the Strait of Hormuz."
+      "published": "Wed, 09 Sep 2026 09:30:06 GMT",
+      "summary": "INR/USD: India RBI Uses Currency Swaps to Reduce $115 Billion Cash Surplus\nIndia’s central bank used currency swaps to drain cash from banks, according to people familiar with the matter, as excess funds in the financial system climbed to a record."
     },
     {
-      "title": "Yuan Steps Into Carry Trade Spotlight Over Yen, Analysts Say",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-09/yuan-steps-into-carry-trade-spotlight-over-yen-strategists-say",
-      "raw_summary": "The Chinese yuan is gaining renewed attention as a currency to fund carry trades as a surging yen forces investors to seek alternatives, strategists say.",
+      "title": "Congo Cobalt Site Sees Return of Army-Backed Intruders, ERG Says",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-09/congo-cobalt-site-sees-return-of-army-backed-intruders-erg-says",
+      "raw_summary": "Intruders backed by soldiers are again operating illegally at one of the world’s biggest sources of cobalt in the Democratic Republic of Congo.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 09 Sep 2026 00:51:15 GMT",
-      "summary": "Yuan Steps Into Carry Trade Spotlight Over Yen, Analysts Say\nThe Chinese yuan is gaining renewed attention as a currency to fund carry trades as a surging yen forces investors to seek alternatives, strategists say."
+      "published": "Wed, 09 Sep 2026 09:56:56 GMT",
+      "summary": "Congo Cobalt Site Sees Return of Army-Backed Intruders, ERG Says\nIntruders backed by soldiers are again operating illegally at one of the world’s biggest sources of cobalt in the Democratic Republic of Congo."
     },
     {
-      "title": "Asian Chip Stocks Rise, Crude Climbs Toward $100: Markets Wrap",
+      "title": "Richemont Elevates Founder’s Son as Luxury Succession Gains Pace",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-09/richemont-promotes-founder-s-son-in-key-succession-planning-step",
+      "raw_summary": "Richemont Chairman Johann Rupert, the South African billionaire who tightly controls the Swiss luxury group, signaled long-awaited succession planning is underway.",
+      "source": "Bloomberg Markets",
+      "published": "Wed, 09 Sep 2026 06:29:07 GMT",
+      "summary": "Richemont Elevates Founder’s Son as Luxury Succession Gains Pace\nRichemont Chairman Johann Rupert, the South African billionaire who tightly controls the Swiss luxury group, signaled long-awaited succession planning is underway."
+    },
+    {
+      "title": "US Stocks Slip as $100 Brent Lifts Inflation Risk: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-09-08/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "Asian chip stocks extended their recent gains on sustained investor interest in the artificial-intelligence trade. Escalating hostilities in the Middle East pushed Brent crude toward $100 a barrel.",
+      "raw_summary": "US stock futures and Treasuries slipped in a market where inflation risks are the primary focus, with Brent crude topping $100 a barrel.",
       "source": "Bloomberg Markets",
       "published": "Tue, 08 Sep 2026 22:11:28 GMT",
-      "summary": "Asian Chip Stocks Rise, Crude Climbs Toward $100: Markets Wrap\nAsian chip stocks extended their recent gains on sustained investor interest in the artificial-intelligence trade. Escalating hostilities in the Middle East pushed Brent crude toward $100 a barrel."
+      "summary": "US Stocks Slip as $100 Brent Lifts Inflation Risk: Markets Wrap\nUS stock futures and Treasuries slipped in a market where inflation risks are the primary focus, with Brent crude topping $100 a barrel."
     },
     {
-      "title": "Ringgit Falls to Lowest Versus Singapore Dollar Since November",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-09/ringgit-falls-to-lowest-versus-singapore-dollar-since-november-mtteqtq8",
-      "raw_summary": "Malaysia’s ringgit fell to a 10-month low versus the Singapore dollar, weighed by foreign stock outflows while the island state’s currency is supported by a hawkish monetary policy stance.",
-      "source": "Bloomberg Markets",
-      "published": "Wed, 09 Sep 2026 01:16:22 GMT",
-      "summary": "Ringgit Falls to Lowest Versus Singapore Dollar Since November\nMalaysia’s ringgit fell to a 10-month low versus the Singapore dollar, weighed by foreign stock outflows while the island state’s currency is supported by a hawkish monetary policy stance."
-    },
-    {
-      "title": "Copper CEO Amar Kuchinad departs as search for a buyer enters a fourth month",
-      "link": "https://www.coindesk.com/business/2026/09/08/copper-ceo-amar-kuchinad-departs-as-search-for-a-buyer-enters-a-fourth-month",
+      "title": "Iran eases currency controls to let traders bring earnings home in crypto: FT",
+      "link": "https://www.coindesk.com/business/2026/09/09/iran-eases-currency-controls-to-let-traders-bring-earnings-home-in-crypto-ft",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 08 Sep 2026 15:23:46 +0000",
-      "summary": "Copper CEO Amar Kuchinad departs as search for a buyer enters a fourth month\n"
+      "published": "Wed, 09 Sep 2026 09:59:39 +0000",
+      "summary": "Iran eases currency controls to let traders bring earnings home in crypto: FT\n"
     },
     {
-      "title": "Circle agrees to buy cross-border payments firm Tazapay for $400 million",
-      "link": "https://www.coindesk.com/business/2026/09/08/circle-agrees-to-buy-cross-border-payments-firm-tazapay-for-usd400-million",
+      "title": "Singaporean 22-year old pleads guilty to being the ringleader in $245 million crypto fraud case",
+      "link": "https://www.coindesk.com/business/2026/09/09/singaporean-22-year-old-pleads-guilty-to-being-the-ringleader-in-usd245-million-crypto-fraud-case",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 08 Sep 2026 14:40:46 +0000",
-      "summary": "Circle agrees to buy cross-border payments firm Tazapay for $400 million\n"
+      "published": "Wed, 09 Sep 2026 09:54:42 +0000",
+      "summary": "Singaporean 22-year old pleads guilty to being the ringleader in $245 million crypto fraud case\n"
     },
     {
-      "title": "Strive’s SATA nears $1 billion market cap as Strategy’s STRC continues to underperform",
-      "link": "https://www.coindesk.com/markets/2026/09/08/strive-s-sata-nears-usd1-billion-market-cap-as-strategy-s-strc-continues-to-underperform",
+      "title": "India’s financial intelligence unit flags 15 crypto platforms for AML lapses",
+      "link": "https://www.coindesk.com/policy/2026/09/09/india-s-financial-intelligence-unit-flags-15-crypto-platforms-for-aml-lapses",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 08 Sep 2026 14:33:32 +0000",
-      "summary": "Strive’s SATA nears $1 billion market cap as Strategy’s STRC continues to underperform\n"
+      "published": "Wed, 09 Sep 2026 08:17:54 +0000",
+      "summary": "India’s financial intelligence unit flags 15 crypto platforms for AML lapses\n"
     },
     {
-      "title": "Visa combines VisaNet data with onchain lending to power stablecoin card working capital",
-      "link": "https://www.coindesk.com/business/2026/09/08/visa-opens-settlement-data-to-help-blockchain-lenders-finance-crypto-cards-as-volume-surges",
+      "title": "Live updates: Brent crude hits $100 for first time since July as bitcoin trades around $79,000",
+      "link": "https://www.coindesk.com/business/2026/09/09/live-updates-xrp-funds-stand-out-among-u-s-etfs-as-bitcoin-ether-solana-funds-see-outflows",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 08 Sep 2026 14:29:14 +0000",
-      "summary": "Visa combines VisaNet data with onchain lending to power stablecoin card working capital\n"
+      "published": "Wed, 09 Sep 2026 07:20:51 +0000",
+      "summary": "Live updates: Brent crude hits $100 for first time since July as bitcoin trades around $79,000\n"
     },
     {
-      "title": "Ethereum makes quantum resistance a top priority with a 2029 deadline",
-      "link": "https://www.coindesk.com/tech/2026/09/08/ethereum-makes-quantum-resistance-a-top-priority-with-a-2029-deadline",
+      "title": "AI could kill us, Anthropic researcher says after resigning",
+      "link": "https://www.coindesk.com/markets/2026/09/09/anthropic-researcher-quits-with-a-warning-on-ai-that-echoes-the-terminator-script",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 08 Sep 2026 13:18:24 +0000",
-      "summary": "Ethereum makes quantum resistance a top priority with a 2029 deadline\n"
+      "published": "Wed, 09 Sep 2026 06:20:38 +0000",
+      "summary": "AI could kill us, Anthropic researcher says after resigning\n"
     }
   ]
 }
