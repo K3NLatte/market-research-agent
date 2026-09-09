@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T10:29:45.403223+00:00",
+  "generated_at": "2026-09-09T15:39:38.896940+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,124 +43,140 @@
       "summary": "Microsoft Plugs Nearly 400 Security Holes\nMicrosoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to toda"
     },
     {
-      "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
-      "link": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
-      "raw_summary": "Google on Thursday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe medium-severity vulnerability, assigned the CVE identifier CVE-2026-87491 (CVSS score: N/A), has been described as an out-of-bounds bug in V8, Chrome's JavaScript and WebAssembly engine.\n\n\"Out-of-bounds write in V8 in Google Chrome prior to",
+      "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
+      "link": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
+      "raw_summary": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers like Google, Anthropic, and others.&nbsp;\n\nInformation stealers like Lumma Stealer or Vidar are equipped to harvest a wide range of data from compromised systems. This can include credential, session tokens, and API",
       "source": "The Hacker News",
-      "published": "Wed, 09 Sep 2026 14:41:03 +0530",
-      "summary": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox\nGoogle on Thursday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe medium-severity vulnerability, assigned the CVE identifier CVE-2026-87491 "
+      "published": "Wed, 09 Sep 2026 19:53:55 +0530",
+      "summary": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA\nCybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers like Google, Anthropic, and others.&nbsp;\n\nInformation"
     },
     {
-      "title": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root",
-      "link": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
-      "raw_summary": "cPanel has patched a flaw that it says lets a single hosting account take control of an entire server. An authenticated account holder with mail-related privileges can create files of their choosing on the server through EmailTrack and, from there, run code as the root user.\n\ncPanel published the&nbsp;advisory on September 8&nbsp;and says every supported version of cPanel and WHM is affected.",
+      "title": "Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE",
+      "link": "https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html",
+      "raw_summary": "A major vulnerability is disclosed. The alert lands immediately. Then comes the harder question: Are we actually exposed?\n\nFor many security teams, answering that means jumping between vulnerability scanners, endpoint tools, cloud inventories, SBOMs, repositories, and application data to build enough context to act.\n\nAs AI accelerates vulnerability discovery and research, that delay matters more",
       "source": "The Hacker News",
-      "published": "Wed, 09 Sep 2026 13:49:32 +0530",
-      "summary": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root\ncPanel has patched a flaw that it says lets a single hosting account take control of an entire server. An authenticated account holder with mail-related privileges can create files of their choosing on the server through Em"
+      "published": "Wed, 09 Sep 2026 17:27:36 +0530",
+      "summary": "Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE\nA major vulnerability is disclosed. The alert lands immediately. Then comes the harder question: Are we actually exposed?\n\nFor many security teams, answering that means jumping between vulnerability scanners, endpoint tools, cloud"
     },
     {
-      "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
-      "link": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
-      "raw_summary": "Malware linked to break-ins at F5 BIG-IP Access Policy Manager appliances hides a PHP web shell in memory instead of in a file on disk, Sophos said in an&nbsp;analysis published on September 7.\n\nWhen Apache loads any of the three appliances' own PHP scripts, the malware adds the web shell to the copy held in memory, so a check of the file on disk can come back clean. Those three scripts are",
+      "title": "DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval",
+      "link": "https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html",
+      "raw_summary": "A flaw in DeepSeek Harness, DeepSeek's open-source tool for running AI coding agents on a developer's machine, let a sandboxed agent turn off its own sandbox with a single command.\n\nThe tool runs an agent's commands inside an operating-system sandbox, so that an agent working on untrusted files cannot write outside its workspace. The agent could remove that limit by calling the tool's own web",
       "source": "The Hacker News",
-      "published": "Wed, 09 Sep 2026 13:06:49 +0530",
-      "summary": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans\nMalware linked to break-ins at F5 BIG-IP Access Policy Manager appliances hides a PHP web shell in memory instead of in a file on disk, Sophos said in an&nbsp;analysis published on September 7.\n\nWhen Apache loads any of th"
+      "published": "Wed, 09 Sep 2026 16:47:07 +0530",
+      "summary": "DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval\nA flaw in DeepSeek Harness, DeepSeek's open-source tool for running AI coding agents on a developer's machine, let a sandboxed agent turn off its own sandbox with a single command.\n\nThe tool runs an agent's commands "
     },
     {
-      "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
-      "link": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
-      "raw_summary": "The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender.\n\nThe vulnerability, codenamed ShieldCrash, is assessed to be a patch bypass for CVE-2026-69414 (CVSS score: 7.8), also called ShieldBreak, which the researcher reported last month.\n\n\"Microsoft has failed to properly patch ShieldBreak CVE-2026-69414,\" Chaotic",
+      "title": "Alby Hub Critical Flaw Could Let Attackers Take Over Internet-Exposed Bitcoin Wallets",
+      "link": "https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html",
+      "raw_summary": "Bitcoin wallet company Alby has&nbsp;warned of a critical flaw&nbsp;in Alby Hub that could have let an attacker take over a wallet and send its funds, but only where the owner had made the Hub reachable from the internet.\n\nAlby Hub is a self-hosted Lightning wallet, meaning the owner runs it on their own computer or server, and it holds their bitcoin. The flaw affects versions v1.7.0 through",
       "source": "The Hacker News",
-      "published": "Wed, 09 Sep 2026 12:17:27 +0530",
-      "summary": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed\nThe security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender.\n\nThe vulnerability, codenamed ShieldCrash, is assessed to be a patch bypass for "
+      "published": "Wed, 09 Sep 2026 16:13:04 +0530",
+      "summary": "Alby Hub Critical Flaw Could Let Attackers Take Over Internet-Exposed Bitcoin Wallets\nBitcoin wallet company Alby has&nbsp;warned of a critical flaw&nbsp;in Alby Hub that could have let an attacker take over a wallet and send its funds, but only where the owner had made the Hub reachable from the in"
     },
     {
-      "title": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
-      "link": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html",
-      "raw_summary": "SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact on the confidentiality, integrity, and availability of the application\n\nThe vulnerability, tracked as CVE-2026-44756 (CVSS score: 10.0), has been described as a case of memory corruption. Discovered and reported by SAP",
+      "title": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
+      "link": "https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html",
+      "raw_summary": "U.S. cybersecurity and intelligence agencies have accused China-based artificial intelligence (AI) companies of conducting \"systematic extraction\" of proprietary functionalities and capabilities of American frontier models through distillation attacks.\n\nThe activity has been described as occurring at an industrial-scale and one that forms the \"core\" of their AI development strategy, according to",
       "source": "The Hacker News",
-      "published": "Wed, 09 Sep 2026 11:55:45 +0530",
-      "summary": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution\nSAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact on the confidentiality, integrity, and a"
+      "published": "Wed, 09 Sep 2026 15:02:26 +0530",
+      "summary": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok\nU.S. cybersecurity and intelligence agencies have accused China-based artificial intelligence (AI) companies of conducting \"systematic extraction\" of proprietary functionalities and capabilities of American frontier mode"
     },
     {
-      "title": "How GPT‑5.6 Sol helps run quantum computing experiments",
-      "link": "https://openai.com/index/codex-quantum-computing-experiments/",
-      "raw_summary": "<p>Article URL: <a href=\"https://openai.com/index/codex-quantum-computing-experiments/\">https://openai.com/index/codex-quantum-computing-experiments/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49622561\">https://news.ycombinator.com/item?id=49622561</a></p>\n<p>Points: 61</p>\n<p># Comments: 47</p>",
+      "title": "Anthropic researcher says more than 10% chance AI \"could kill all humans\"",
+      "link": "https://www.cbsnews.com/news/ai-kill-humans-anthropic-researcher-more-than-ten-percent-chance/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.cbsnews.com/news/ai-kill-humans-anthropic-researcher-more-than-ten-percent-chance/\">https://www.cbsnews.com/news/ai-kill-humans-anthropic-researcher-more-than-ten-percent-chance/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49627887\">https://news.ycombinator.com/item?id=49627887</a></p>\n<p>Points: 12</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 09 Sep 2026 07:22:46 +0000",
-      "summary": "How GPT‑5.6 Sol helps run quantum computing experiments\n<p>Article URL: <a href=\"https://openai.com/index/codex-quantum-computing-experiments/\">https://openai.com/index/codex-quantum-computing-experiments/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49622561\">https://news."
+      "published": "Wed, 09 Sep 2026 15:10:39 +0000",
+      "summary": "Anthropic researcher says more than 10% chance AI \"could kill all humans\"\n<p>Article URL: <a href=\"https://www.cbsnews.com/news/ai-kill-humans-anthropic-researcher-more-than-ten-percent-chance/\">https://www.cbsnews.com/news/ai-kill-humans-anthropic-researcher-more-than-ten-percent-chance/</a></p>\n<p"
     },
     {
-      "title": "On Really Trying (2009)",
-      "link": "https://gwern.net/on-really-trying",
-      "raw_summary": "<p>Article URL: <a href=\"https://gwern.net/on-really-trying\">https://gwern.net/on-really-trying</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49622305\">https://news.ycombinator.com/item?id=49622305</a></p>\n<p>Points: 54</p>\n<p># Comments: 28</p>",
+      "title": "Show HN: Geiger – See every AI agent on your machine and what it can touch",
+      "link": "https://github.com/Atomburstofficial/geiger",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/Atomburstofficial/geiger\">https://github.com/Atomburstofficial/geiger</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49627646\">https://news.ycombinator.com/item?id=49627646</a></p>\n<p>Points: 14</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 09 Sep 2026 06:58:44 +0000",
-      "summary": "On Really Trying (2009)\n<p>Article URL: <a href=\"https://gwern.net/on-really-trying\">https://gwern.net/on-really-trying</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49622305\">https://news.ycombinator.com/item?id=49622305</a></p>\n<p>Points: 54</p>\n<p># Comments: 28</p>"
+      "published": "Wed, 09 Sep 2026 14:54:49 +0000",
+      "summary": "Show HN: Geiger – See every AI agent on your machine and what it can touch\n<p>Article URL: <a href=\"https://github.com/Atomburstofficial/geiger\">https://github.com/Atomburstofficial/geiger</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49627646\">https://news.ycombinator.com/i"
     },
     {
-      "title": "Copyright does more harm than good and should be abolished",
-      "link": "https://grapheneos.social/@GrapheneOS/117231186011306184",
-      "raw_summary": "<p>Article URL: <a href=\"https://grapheneos.social/@GrapheneOS/117231186011306184\">https://grapheneos.social/@GrapheneOS/117231186011306184</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49622042\">https://news.ycombinator.com/item?id=49622042</a></p>\n<p>Points: 240</p>\n<p># Comments: 204</p>",
+      "title": "The Ancient Greek Water Clock That Kept the Most Accurate Time for 1,800 Years",
+      "link": "https://www.openculture.com/2026/09/the-ancient-greek-water-clock-that-kept-the-most-accurate-time-for-1800-years.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.openculture.com/2026/09/the-ancient-greek-water-clock-that-kept-the-most-accurate-time-for-1800-years.html\">https://www.openculture.com/2026/09/the-ancient-greek-water-clock-that-kept-the-most-accurate-time-for-1800-years.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49626634\">https://news.ycombinator.com/item?id=49626634</a></p>\n<p>Points: 15</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 09 Sep 2026 06:31:28 +0000",
-      "summary": "Copyright does more harm than good and should be abolished\n<p>Article URL: <a href=\"https://grapheneos.social/@GrapheneOS/117231186011306184\">https://grapheneos.social/@GrapheneOS/117231186011306184</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49622042\">https://news.ycombin"
+      "published": "Wed, 09 Sep 2026 13:54:48 +0000",
+      "summary": "The Ancient Greek Water Clock That Kept the Most Accurate Time for 1,800 Years\n<p>Article URL: <a href=\"https://www.openculture.com/2026/09/the-ancient-greek-water-clock-that-kept-the-most-accurate-time-for-1800-years.html\">https://www.openculture.com/2026/09/the-ancient-greek-water-clock-that-kept-"
     },
     {
-      "title": "“Tweet” and the bird logo apparently enter the public domain",
-      "link": "https://blog.ericgoldman.org/archives/2026/09/tweet-and-the-bird-logo-apparently-enter-the-public-domain-but-x-maintains-its-grip-on-the-twitter-mark-for-now-x-v-project-bluebird.htm",
-      "raw_summary": "<p>Article URL: <a href=\"https://blog.ericgoldman.org/archives/2026/09/tweet-and-the-bird-logo-apparently-enter-the-public-domain-but-x-maintains-its-grip-on-the-twitter-mark-for-now-x-v-project-bluebird.htm\">https://blog.ericgoldman.org/archives/2026/09/tweet-and-the-bird-logo-apparently-enter-the-public-domain-but-x-maintains-its-grip-on-the-twitter-mark-for-now-x-v-project-bluebird.htm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49621751\">https://news.ycombinator.com/item?id=49621751</a></p>\n<p>Points: 95</p>\n<p># Comments: 53</p>",
+      "title": "Playing whack-a-mole is losing",
+      "link": "https://dadrian.io/blog/posts/whack-a-mole-is-losing/",
+      "raw_summary": "<p>Article URL: <a href=\"https://dadrian.io/blog/posts/whack-a-mole-is-losing/\">https://dadrian.io/blog/posts/whack-a-mole-is-losing/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49626429\">https://news.ycombinator.com/item?id=49626429</a></p>\n<p>Points: 18</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 09 Sep 2026 06:02:07 +0000",
-      "summary": "“Tweet” and the bird logo apparently enter the public domain\n<p>Article URL: <a href=\"https://blog.ericgoldman.org/archives/2026/09/tweet-and-the-bird-logo-apparently-enter-the-public-domain-but-x-maintains-its-grip-on-the-twitter-mark-for-now-x-v-project-bluebird.htm\">https://blog.ericgoldman.org/a"
+      "published": "Wed, 09 Sep 2026 13:41:53 +0000",
+      "summary": "Playing whack-a-mole is losing\n<p>Article URL: <a href=\"https://dadrian.io/blog/posts/whack-a-mole-is-losing/\">https://dadrian.io/blog/posts/whack-a-mole-is-losing/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49626429\">https://news.ycombinator.com/item?id=49626429</a></p>\n"
     },
     {
-      "title": "A Biography of Lee Holloway, the Architect of Cloudflare's Technology (Part 1)",
-      "link": "https://note.com/masakazu_urabe/n/n7815f5b64fab?hl=en",
-      "raw_summary": "<p>Article URL: <a href=\"https://note.com/masakazu_urabe/n/n7815f5b64fab?hl=en\">https://note.com/masakazu_urabe/n/n7815f5b64fab?hl=en</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49621102\">https://news.ycombinator.com/item?id=49621102</a></p>\n<p>Points: 55</p>\n<p># Comments: 13</p>",
+      "title": "What will our economic future look like?",
+      "link": "https://www.anthropic.com/institute/econ-scenarios",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.anthropic.com/institute/econ-scenarios\">https://www.anthropic.com/institute/econ-scenarios</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49626373\">https://news.ycombinator.com/item?id=49626373</a></p>\n<p>Points: 91</p>\n<p># Comments: 118</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 09 Sep 2026 04:43:46 +0000",
-      "summary": "A Biography of Lee Holloway, the Architect of Cloudflare's Technology (Part 1)\n<p>Article URL: <a href=\"https://note.com/masakazu_urabe/n/n7815f5b64fab?hl=en\">https://note.com/masakazu_urabe/n/n7815f5b64fab?hl=en</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49621102\">https:"
+      "published": "Wed, 09 Sep 2026 13:38:23 +0000",
+      "summary": "What will our economic future look like?\n<p>Article URL: <a href=\"https://www.anthropic.com/institute/econ-scenarios\">https://www.anthropic.com/institute/econ-scenarios</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49626373\">https://news.ycombinator.com/item?id=49626373</a><"
     },
     {
-      "title": "Google DeepMind alumni are building tools to accelerate fusion power for the grid",
-      "link": "https://techcrunch.com/2026/09/08/google-deepmind-alumni-are-building-tools-to-accelerate-fusion-power-for-the-grid/",
-      "raw_summary": "Fusionality is developing control systems and simulation environments to help fusion power startups move faster.",
+      "title": "Viral AI assistant Instinct now has its own email address",
+      "link": "https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address/",
+      "raw_summary": "Instinct’s new email feature lets the AI agent create and manage accounts, contact businesses, handle support requests, and do more on users' behalf.",
       "source": "TechCrunch",
-      "published": "Wed, 09 Sep 2026 06:00:00 +0000",
-      "summary": "Google DeepMind alumni are building tools to accelerate fusion power for the grid\nFusionality is developing control systems and simulation environments to help fusion power startups move faster."
+      "published": "Wed, 09 Sep 2026 15:13:12 +0000",
+      "summary": "Viral AI assistant Instinct now has its own email address\nInstinct’s new email feature lets the AI agent create and manage accounts, contact businesses, handle support requests, and do more on users' behalf."
     },
     {
-      "title": "CloudNC raises $20M to automate manufacturing’s most pressing bottlenecks",
-      "link": "https://techcrunch.com/2026/09/08/cloudnc-raises-20m-to-automate-manufacturings-most-pressing-bottlenecks/",
-      "raw_summary": "UK-based manufacturing software startup CloudNC announced Wednesday a $20 million B extension round, bringing its lifetime total raised amount to $128 million.",
+      "title": "Uber rival inDrive scales beyond ride-hailing to capture more consumer spending",
+      "link": "https://techcrunch.com/2026/09/09/uber-rival-indrive-scales-beyond-ride-hailing-to-capture-more-consumer-spending/",
+      "raw_summary": "inDrive's ad business, first piloted in July 2025, has served more than 2 billion impressions and attracted over 2,000 paying advertisers a month.",
       "source": "TechCrunch",
-      "published": "Wed, 09 Sep 2026 04:01:00 +0000",
-      "summary": "CloudNC raises $20M to automate manufacturing’s most pressing bottlenecks\nUK-based manufacturing software startup CloudNC announced Wednesday a $20 million B extension round, bringing its lifetime total raised amount to $128 million."
+      "published": "Wed, 09 Sep 2026 15:10:41 +0000",
+      "summary": "Uber rival inDrive scales beyond ride-hailing to capture more consumer spending\ninDrive's ad business, first piloted in July 2025, has served more than 2 billion impressions and attracted over 2,000 paying advertisers a month."
     },
     {
-      "title": "White House takes down ‘Build the Wall’ game after the Tetris Company complains",
-      "link": "https://techcrunch.com/2026/09/08/white-house-takes-down-build-the-wall-game-after-the-tetris-company-complains/",
-      "raw_summary": "The Trump administration's short-lived arcade game \"Build the Wall\" is now nowhere to be found after the Tetris Company posted that it takes \"copyright infringement very seriously.\"",
+      "title": "‘Gambling with our lives’: Anthropic researcher quits, warns against self-improving AI",
+      "link": "https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/",
+      "raw_summary": "Anthropic researcher Jacob Coxon resigned over AI extinction fears, calling for pacing agreements between labs.",
       "source": "TechCrunch",
-      "published": "Tue, 08 Sep 2026 23:23:23 +0000",
-      "summary": "White House takes down ‘Build the Wall’ game after the Tetris Company complains\nThe Trump administration's short-lived arcade game \"Build the Wall\" is now nowhere to be found after the Tetris Company posted that it takes \"copyright infringement very seriously.\""
+      "published": "Wed, 09 Sep 2026 15:02:47 +0000",
+      "summary": "‘Gambling with our lives’: Anthropic researcher quits, warns against self-improving AI\nAnthropic researcher Jacob Coxon resigned over AI extinction fears, calling for pacing agreements between labs."
     },
     {
-      "title": "Hackers are stealing Claude tokens from subscribers",
-      "link": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/",
-      "raw_summary": "Last month, a Claude user noticed his account was consuming tokens even though he wasn't working. Anthropic has since warned users about hackers.",
+      "title": "Shipt becomes the latest delivery app with an AI shopping assistant",
+      "link": "https://techcrunch.com/2026/09/09/shipt-becomes-the-latest-delivery-app-with-an-ai-shopping-assistant/",
+      "raw_summary": "Users can ask the assistant to do things like \"Create a cart for my Saturday tailgate for 25 people and include some brunch items,\" or \"Build a cart for easy school lunches and after-school snacks,\" Shipt says.",
       "source": "TechCrunch",
-      "published": "Tue, 08 Sep 2026 21:10:27 +0000",
-      "summary": "Hackers are stealing Claude tokens from subscribers\nLast month, a Claude user noticed his account was consuming tokens even though he wasn't working. Anthropic has since warned users about hackers."
+      "published": "Wed, 09 Sep 2026 14:51:45 +0000",
+      "summary": "Shipt becomes the latest delivery app with an AI shopping assistant\nUsers can ask the assistant to do things like \"Create a cart for my Saturday tailgate for 25 people and include some brunch items,\" or \"Build a cart for easy school lunches and after-school snacks,\" Shipt says."
     },
     {
-      "title": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
-      "link": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
-      "raw_summary": "Cognition's valuation multiple is higher than Cursor's was before selling to SpaceX.",
+      "title": "Uber invests $10M in Indian fleet operator Carrum at $168M valuation",
+      "link": "https://techcrunch.com/2026/09/09/uber-invests-10m-in-indian-fleet-operator-carrum-at-168m-valuation/",
+      "raw_summary": "Carrum Mobility operates about 5,100 vehicles in India and is Uber's largest fleet partner for its premium Uber Black service in the country.",
       "source": "TechCrunch",
-      "published": "Tue, 08 Sep 2026 21:04:06 +0000",
-      "summary": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market\nCognition's valuation multiple is higher than Cursor's was before selling to SpaceX."
+      "published": "Wed, 09 Sep 2026 14:38:41 +0000",
+      "summary": "Uber invests $10M in Indian fleet operator Carrum at $168M valuation\nCarrum Mobility operates about 5,100 vehicles in India and is Uber's largest fleet partner for its premium Uber Black service in the country."
+    },
+    {
+      "title": "NOAA is putting commercial fishing ahead of conservation",
+      "link": "https://arstechnica.com/science/2026/09/noaa-is-putting-commercial-fishing-ahead-of-conservation/",
+      "raw_summary": "Critics say the new agenda could weaken science-based rules and marine protections.",
+      "source": "Ars Technica - All content",
+      "published": "Wed, 09 Sep 2026 13:58:44 +0000",
+      "summary": "NOAA is putting commercial fishing ahead of conservation\nCritics say the new agenda could weaken science-based rules and marine protections."
+    },
+    {
+      "title": "Man told ChatGPT he was feeling delusional. ChatGPT insisted he was Jesus.",
+      "link": "https://arstechnica.com/tech-policy/2026/09/man-told-chatgpt-he-was-feeling-delusional-chatgpt-insisted-he-was-jesus/",
+      "raw_summary": "Man with bipolar disorder sued OpenAI after surviving ChatGPT-linked suicide attempt.",
+      "source": "Ars Technica - All content",
+      "published": "Wed, 09 Sep 2026 11:00:10 +0000",
+      "summary": "Man told ChatGPT he was feeling delusional. ChatGPT insisted he was Jesus.\nMan with bipolar disorder sued OpenAI after surviving ChatGPT-linked suicide attempt."
     },
     {
       "title": "LG TV shown scanning LAN for third-party phones and other devices",
@@ -173,10 +189,10 @@
     {
       "title": "GOG brings back \"big box\" PC games, one printable template at a time",
       "link": "https://arstechnica.com/gaming/2026/09/gog-brings-back-big-box-pc-games-one-printable-template-at-a-time/",
-      "raw_summary": "Preservation \"goodies\" also includes downloadable 3D models for desktop perusal.",
+      "raw_summary": "Preservation \"goodies\" also include downloadable 3D models for desktop perusal.",
       "source": "Ars Technica - All content",
       "published": "Tue, 08 Sep 2026 21:23:13 +0000",
-      "summary": "GOG brings back \"big box\" PC games, one printable template at a time\nPreservation \"goodies\" also includes downloadable 3D models for desktop perusal."
+      "summary": "GOG brings back \"big box\" PC games, one printable template at a time\nPreservation \"goodies\" also include downloadable 3D models for desktop perusal."
     },
     {
       "title": "Why this month's Microsoft patch release is a doozy",
@@ -187,140 +203,124 @@
       "summary": "Why this month's Microsoft patch release is a doozy\nSecurity gnomes are pumping out patches ahead of an expected onslaught of AI-assisted attacks."
     },
     {
-      "title": "The universal language of space is... Star Trek? Mais oui.",
-      "link": "https://arstechnica.com/space/2026/09/astronaut-on-iss-celebrates-60-years-of-star-trek-with-prop-badge/",
-      "raw_summary": "\"Science fiction imagines the future. We build it.\"",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 08 Sep 2026 20:20:20 +0000",
-      "summary": "The universal language of space is... Star Trek? Mais oui.\n\"Science fiction imagines the future. We build it.\""
-    },
-    {
-      "title": "NIH to use part of its budget to pay for Department of Defense research",
-      "link": "https://arstechnica.com/science/2026/09/nih-to-use-part-of-its-budget-to-pay-for-department-of-defense-research/",
-      "raw_summary": "Money would ostensibly fund research the NIH leadership said it no longer wanted.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 08 Sep 2026 20:06:44 +0000",
-      "summary": "NIH to use part of its budget to pay for Department of Defense research\nMoney would ostensibly fund research the NIH leadership said it no longer wanted."
-    },
-    {
-      "title": "FirstFT: Oil hits $100 as fears rise over global supplies",
-      "link": "https://www.ft.com/content/0715a142-311f-422f-a9dd-9e31bc3d7d61?syn-25a6b1a6=1",
-      "raw_summary": "Also in today’s newsletter: Anthropic researcher quits and warns labs are ‘gambling’ with humanity’s future and Bessent warns traders not to bet against the Treasury",
+      "title": "Number 10 backs UK air traffic control boss as airlines hit out at disruption",
+      "link": "https://www.ft.com/content/88614cc3-6769-47c2-8fcb-76784cef5fca?syn-25a6b1a6=1",
+      "raw_summary": "Pressure mounts on Martin Rolfe after software failure chaos that grounded flights on Tuesday stretches into second day",
       "source": "World",
-      "published": "Wed, 09 Sep 2026 10:28:11 GMT",
-      "summary": "FirstFT: Oil hits $100 as fears rise over global supplies\nAlso in today’s newsletter: Anthropic researcher quits and warns labs are ‘gambling’ with humanity’s future and Bessent warns traders not to bet against the Treasury"
+      "published": "Wed, 09 Sep 2026 15:31:40 GMT",
+      "summary": "Number 10 backs UK air traffic control boss as airlines hit out at disruption\nPressure mounts on Martin Rolfe after software failure chaos that grounded flights on Tuesday stretches into second day"
     },
     {
-      "title": "China’s giant trade surplus has an increasingly geopolitical twist",
-      "link": "https://www.ft.com/content/b397ced1-b9bc-4fe6-8dc7-20f0752e2591?syn-25a6b1a6=1",
-      "raw_summary": "Partners are faced with a model that combines export-led growth with tech supremacy",
+      "title": "Police investigate Reform UK over donor sting",
+      "link": "https://www.ft.com/content/73c6c2f1-349a-4aeb-9d90-0268e3dcdc65?syn-25a6b1a6=1",
+      "raw_summary": "Probe follows TV footage of Nigel Farage’s aides allegedly seeking illegal overseas funding",
       "source": "World",
-      "published": "Wed, 09 Sep 2026 10:00:08 GMT",
-      "summary": "China’s giant trade surplus has an increasingly geopolitical twist\nPartners are faced with a model that combines export-led growth with tech supremacy"
+      "published": "Wed, 09 Sep 2026 15:19:29 GMT",
+      "summary": "Police investigate Reform UK over donor sting\nProbe follows TV footage of Nigel Farage’s aides allegedly seeking illegal overseas funding"
     },
     {
-      "title": "How to make your retirement less of a (fiscal) drag",
-      "link": "https://www.ft.com/content/464142c6-7ba6-4bdb-83ca-6a4f18da4d96",
-      "raw_summary": "Keeping pension income under the higher or additional tax thresholds requires tactical planning",
+      "title": "US Treasury to buy back up to $6bn in long-term bonds",
+      "link": "https://www.ft.com/content/2476992f-c9fe-4992-887d-f34c81c100ab?syn-25a6b1a6=1",
+      "raw_summary": "Scott Bessent seeks to steady government debt market with expanded purchase programme",
       "source": "World",
-      "published": "Wed, 09 Sep 2026 10:00:08 GMT",
-      "summary": "How to make your retirement less of a (fiscal) drag\nKeeping pension income under the higher or additional tax thresholds requires tactical planning"
+      "published": "Wed, 09 Sep 2026 15:16:35 GMT",
+      "summary": "US Treasury to buy back up to $6bn in long-term bonds\nScott Bessent seeks to steady government debt market with expanded purchase programme"
     },
     {
-      "title": "Tung Chee-hwa, Hong Kong’s first chief executive, 1937-2026",
-      "link": "https://www.ft.com/content/a943b766-c4f1-4417-8578-2c9f60ec6c11?syn-25a6b1a6=1",
-      "raw_summary": "Political leader whose administration was buffeted by the Asian financial crisis, Sars epidemic and a contentious security bill",
+      "title": "The curse of Jets fandom",
+      "link": "https://www.ft.com/content/ad209e95-c5f2-4031-b207-7abaafe75d43?syn-25a6b1a6=1",
+      "raw_summary": "Supporting the least successful American professional sports team of the past 15 years requires dedication and tailgate parties",
       "source": "World",
-      "published": "Wed, 09 Sep 2026 09:59:26 GMT",
-      "summary": "Tung Chee-hwa, Hong Kong’s first chief executive, 1937-2026\nPolitical leader whose administration was buffeted by the Asian financial crisis, Sars epidemic and a contentious security bill"
+      "published": "Wed, 09 Sep 2026 15:09:35 GMT",
+      "summary": "The curse of Jets fandom\nSupporting the least successful American professional sports team of the past 15 years requires dedication and tailgate parties"
     },
     {
-      "title": "Thiel-backed start-up to mass-produce ‘deep strike’ missiles in Europe and US",
-      "link": "https://www.ft.com/content/b66ff736-528b-4e3e-a43a-f06749d01991?syn-25a6b1a6=1",
-      "raw_summary": "Covenant to open factories in US, Germany and Israel as it looks to disrupt market for long-range weapons",
+      "title": "France’s Le Pen stays silent on far-right victory in German election",
+      "link": "https://www.ft.com/content/8be9ce96-3307-43db-b755-c67f3c50be29?syn-25a6b1a6=1",
+      "raw_summary": "Rassemblement National distances itself from Alternative for Germany ahead of next year’s French presidential vote",
       "source": "World",
-      "published": "Wed, 09 Sep 2026 09:53:08 GMT",
-      "summary": "Thiel-backed start-up to mass-produce ‘deep strike’ missiles in Europe and US\nCovenant to open factories in US, Germany and Israel as it looks to disrupt market for long-range weapons"
+      "published": "Wed, 09 Sep 2026 15:01:46 GMT",
+      "summary": "France’s Le Pen stays silent on far-right victory in German election\nRassemblement National distances itself from Alternative for Germany ahead of next year’s French presidential vote"
     },
     {
-      "title": "Bessent Turns Up the Heat to Steer Yen and Yields",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-09-09/bessent-turns-up-the-heat-to-steer-yen-and-yields",
-      "raw_summary": "Treasury secretary says ‘I am the house now’ and ‘you can bet against me if you want.’",
+      "title": "Gold Trims Gains as Yields Push Higher After Treasury Buyback",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-08/gold-holds-decline-as-mideast-tensions-bolster-rate-hike-case",
+      "raw_summary": "Gold trimmed gains as bond yields and the dollar pushed higher after the US Treasury said it will triple its long-dated debt buyback to $6 billion.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 09 Sep 2026 10:19:46 GMT",
-      "summary": "Bessent Turns Up the Heat to Steer Yen and Yields\nTreasury secretary says ‘I am the house now’ and ‘you can bet against me if you want.’"
+      "published": "Tue, 08 Sep 2026 23:25:47 GMT",
+      "summary": "Gold Trims Gains as Yields Push Higher After Treasury Buyback\nGold trimmed gains as bond yields and the dollar pushed higher after the US Treasury said it will triple its long-dated debt buyback to $6 billion."
     },
     {
-      "title": "INR/USD: India RBI Uses Currency Swaps to Reduce $115 Billion Cash Surplus",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-09/inr-usd-india-rbi-uses-currency-swaps-to-reduce-115-billion-cash-surplus",
-      "raw_summary": "India’s central bank used currency swaps to drain cash from banks, according to people familiar with the matter, as excess funds in the financial system climbed to a record.",
+      "title": "Apple’s Rally Pressures New CEO to Deliver on Foldable iPhone",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-09/apple-s-rally-pressures-new-ceo-to-deliver-on-foldable-iphone",
+      "raw_summary": "Apple Inc.’s $570 billion summer surge is saddling new Chief Executive Officer John Ternus with high expectations heading into the company’s most anticipated event in years: the unveiling of the foldable iPhone on Wednesday.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 09 Sep 2026 09:30:06 GMT",
-      "summary": "INR/USD: India RBI Uses Currency Swaps to Reduce $115 Billion Cash Surplus\nIndia’s central bank used currency swaps to drain cash from banks, according to people familiar with the matter, as excess funds in the financial system climbed to a record."
+      "published": "Wed, 09 Sep 2026 08:43:39 GMT",
+      "summary": "Apple’s Rally Pressures New CEO to Deliver on Foldable iPhone\nApple Inc.’s $570 billion summer surge is saddling new Chief Executive Officer John Ternus with high expectations heading into the company’s most anticipated event in years: the unveiling of the foldable iPhone on Wednesday."
     },
     {
-      "title": "Congo Cobalt Site Sees Return of Army-Backed Intruders, ERG Says",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-09/congo-cobalt-site-sees-return-of-army-backed-intruders-erg-says",
-      "raw_summary": "Intruders backed by soldiers are again operating illegally at one of the world’s biggest sources of cobalt in the Democratic Republic of Congo.",
+      "title": "US Firms Unleash Record Wave of Bond Sales in Europe",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-09/us-firms-unleash-record-wave-of-bond-sales-in-european-markets",
+      "raw_summary": "An unprecedented number of US companies are selling bonds in Europe, drawn by liquidity and attractive terms as their home market strains under a deluge of AI-related debt.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 09 Sep 2026 09:56:56 GMT",
-      "summary": "Congo Cobalt Site Sees Return of Army-Backed Intruders, ERG Says\nIntruders backed by soldiers are again operating illegally at one of the world’s biggest sources of cobalt in the Democratic Republic of Congo."
+      "published": "Wed, 09 Sep 2026 12:08:39 GMT",
+      "summary": "US Firms Unleash Record Wave of Bond Sales in Europe\nAn unprecedented number of US companies are selling bonds in Europe, drawn by liquidity and attractive terms as their home market strains under a deluge of AI-related debt."
     },
     {
-      "title": "Richemont Elevates Founder’s Son as Luxury Succession Gains Pace",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-09/richemont-promotes-founder-s-son-in-key-succession-planning-step",
-      "raw_summary": "Richemont Chairman Johann Rupert, the South African billionaire who tightly controls the Swiss luxury group, signaled long-awaited succession planning is underway.",
+      "title": "US Treasury to Buy Up to $6 Billion in Long-Dated Debt",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-09/us-treasury-to-buy-up-to-6-billion-in-long-dated-debt-video",
+      "raw_summary": "The US Treasury will purchase up to $6 billion of longer-dated government debt in the first operation under an expanded buybacks program. It's part of Treasury Secretary Scott Bessent's effort to stem the rise in borrowing costs. Bloomberg's Michael McKee has the breaking news and immediate market reaction. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Wed, 09 Sep 2026 06:29:07 GMT",
-      "summary": "Richemont Elevates Founder’s Son as Luxury Succession Gains Pace\nRichemont Chairman Johann Rupert, the South African billionaire who tightly controls the Swiss luxury group, signaled long-awaited succession planning is underway."
+      "published": "Wed, 09 Sep 2026 15:24:31 GMT",
+      "summary": "US Treasury to Buy Up to $6 Billion in Long-Dated Debt\nThe US Treasury will purchase up to $6 billion of longer-dated government debt in the first operation under an expanded buybacks program. It's part of Treasury Secretary Scott Bessent's effort to stem the rise in borrowing costs. Bloomberg's Mic"
     },
     {
-      "title": "US Stocks Slip as $100 Brent Lifts Inflation Risk: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-08/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "US stock futures and Treasuries slipped in a market where inflation risks are the primary focus, with Brent crude topping $100 a barrel.",
+      "title": "US Treasury Triples Long-Dated Debt Buyback to $6 Billion",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-09/us-more-than-doubles-long-dated-debt-buyback-size-to-6-billion",
+      "raw_summary": "The US Treasury said it will purchase up to $6 billion of longer-dated government debt in the first operation under an expanded buybacks program, showcasing Secretary Scott Bessent’s resolve to stem the recent rise in borrowing costs.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 08 Sep 2026 22:11:28 GMT",
-      "summary": "US Stocks Slip as $100 Brent Lifts Inflation Risk: Markets Wrap\nUS stock futures and Treasuries slipped in a market where inflation risks are the primary focus, with Brent crude topping $100 a barrel."
+      "published": "Wed, 09 Sep 2026 15:02:22 GMT",
+      "summary": "US Treasury Triples Long-Dated Debt Buyback to $6 Billion\nThe US Treasury said it will purchase up to $6 billion of longer-dated government debt in the first operation under an expanded buybacks program, showcasing Secretary Scott Bessent’s resolve to stem the recent rise in borrowing costs."
     },
     {
-      "title": "Iran eases currency controls to let traders bring earnings home in crypto: FT",
-      "link": "https://www.coindesk.com/business/2026/09/09/iran-eases-currency-controls-to-let-traders-bring-earnings-home-in-crypto-ft",
+      "title": "Bitcoin and Ethereum race quantum clock as U.S. backs $300 million hardware push",
+      "link": "https://www.coindesk.com/tech/2026/09/09/bitcoin-and-ethereum-race-quantum-clock-as-u-s-backs-usd300-million-hardware-push",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 09 Sep 2026 09:59:39 +0000",
-      "summary": "Iran eases currency controls to let traders bring earnings home in crypto: FT\n"
+      "published": "Wed, 09 Sep 2026 15:30:00 +0000",
+      "summary": "Bitcoin and Ethereum race quantum clock as U.S. backs $300 million hardware push\n"
     },
     {
-      "title": "Singaporean 22-year old pleads guilty to being the ringleader in $245 million crypto fraud case",
-      "link": "https://www.coindesk.com/business/2026/09/09/singaporean-22-year-old-pleads-guilty-to-being-the-ringleader-in-usd245-million-crypto-fraud-case",
+      "title": "Consensys to split MetaMask into its own firm while staying silent on IPO",
+      "link": "https://www.coindesk.com/business/2026/09/09/consensys-to-split-metamask-into-its-own-firm-while-staying-silent-on-ipo",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 09 Sep 2026 09:54:42 +0000",
-      "summary": "Singaporean 22-year old pleads guilty to being the ringleader in $245 million crypto fraud case\n"
+      "published": "Wed, 09 Sep 2026 15:24:01 +0000",
+      "summary": "Consensys to split MetaMask into its own firm while staying silent on IPO\n"
     },
     {
-      "title": "India’s financial intelligence unit flags 15 crypto platforms for AML lapses",
-      "link": "https://www.coindesk.com/policy/2026/09/09/india-s-financial-intelligence-unit-flags-15-crypto-platforms-for-aml-lapses",
+      "title": "Crypto Long & Short:  Inside the 300-to-1 onchain gap between the dollar and euro",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/09/08/crypto-long-and-short-inside-the-300-to-1-onchain-gap-between-the-dollar-and-euro",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 09 Sep 2026 08:17:54 +0000",
-      "summary": "India’s financial intelligence unit flags 15 crypto platforms for AML lapses\n"
+      "published": "Wed, 09 Sep 2026 14:58:07 +0000",
+      "summary": "Crypto Long & Short:  Inside the 300-to-1 onchain gap between the dollar and euro\n"
     },
     {
-      "title": "Live updates: Brent crude hits $100 for first time since July as bitcoin trades around $79,000",
-      "link": "https://www.coindesk.com/business/2026/09/09/live-updates-xrp-funds-stand-out-among-u-s-etfs-as-bitcoin-ether-solana-funds-see-outflows",
+      "title": "Kalshi election data goes live on DoubleZero ahead of U.S. midterms",
+      "link": "https://www.coindesk.com/tech/2026/09/09/kalshi-election-data-goes-live-on-doublezero-ahead-of-u-s-midterms",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 09 Sep 2026 07:20:51 +0000",
-      "summary": "Live updates: Brent crude hits $100 for first time since July as bitcoin trades around $79,000\n"
+      "published": "Wed, 09 Sep 2026 14:00:00 +0000",
+      "summary": "Kalshi election data goes live on DoubleZero ahead of U.S. midterms\n"
     },
     {
-      "title": "AI could kill us, Anthropic researcher says after resigning",
-      "link": "https://www.coindesk.com/markets/2026/09/09/anthropic-researcher-quits-with-a-warning-on-ai-that-echoes-the-terminator-script",
+      "title": "PayPal expands stablecoin rails with custom token issuance platform",
+      "link": "https://www.coindesk.com/business/2026/09/09/paypal-expands-stablecoin-rails-with-launch-of-custom-token-issuance-platform",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 09 Sep 2026 06:20:38 +0000",
-      "summary": "AI could kill us, Anthropic researcher says after resigning\n"
+      "published": "Wed, 09 Sep 2026 14:00:00 +0000",
+      "summary": "PayPal expands stablecoin rails with custom token issuance platform\n"
     }
   ]
 }
