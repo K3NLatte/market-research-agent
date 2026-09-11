@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T10:19:33.073405+00:00",
+  "generated_at": "2026-09-11T15:36:54.711323+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "Microsoft Plugs Nearly 400 Security Holes\nMicrosoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to toda"
     },
     {
+      "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
+      "link": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
+      "raw_summary": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between December 2025 and August 2026.\n\nThe threat actors, which the artificial intelligence (AI) company has branded Generative Threat Groups (GTGs), span state-sponsored groups, financially motivated criminals, commercial",
+      "source": "The Hacker News",
+      "published": "Fri, 11 Sep 2026 19:59:47 +0530",
+      "summary": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims\nAnthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between December 2025 and August 2026.\n\nThe threat a"
+    },
+    {
+      "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
+      "link": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
+      "raw_summary": "Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of the detection curve.\n\nThe operation has been attributed to a cyber espionage group it calls GTG-20006 (where \"GTG\" stands for Generative Threat Group), which aligns with broader reporting linking the cluster to Midnight",
+      "source": "The Hacker News",
+      "published": "Fri, 11 Sep 2026 19:40:20 +0530",
+      "summary": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection\nAnthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of the detection curve.\n\nThe operation has bee"
+    },
+    {
+      "title": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
+      "link": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html",
+      "raw_summary": "Security teams have become exceptionally talented at finding vulnerabilities. Now, it’s time to turn our attention to optimizing the process for determining which of those vulnerabilities actually create a path to compromise.\n\nA critical vulnerability may look alarming on a scanner report, but if it sits behind strong segmentation, identity controls, and other defenses that prevent an attacker",
+      "source": "The Hacker News",
+      "published": "Fri, 11 Sep 2026 17:00:00 +0530",
+      "summary": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk\nSecurity teams have become exceptionally talented at finding vulnerabilities. Now, it’s time to turn our attention to optimizing the process for determining which of those vulnerabilities actually create a path to compromise.\n\nA critical v"
+    },
+    {
       "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
       "link": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
       "raw_summary": "Attackers have chained two flaws in JFrog Artifactory, the repository that software build pipelines pull from, to take administrator control of self-hosted servers and plant backdoors, cloud security company Wiz&nbsp;said in a report.\n\nWiz saw the attacks between August 15 and September 8. JFrog had fixed both flaws before then, so only servers that had not been updated were open to them.",
@@ -59,68 +83,60 @@
       "summary": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor\nA China-linked hacking group exploited a flaw in Sogou Input Method, one of the most widely used tools for typing Chinese characters on Windows, to install a backdoor on victims' computers, security company Gen Digi"
     },
     {
-      "title": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws",
-      "link": "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html",
-      "raw_summary": "PaperCut on Thursday released a new security maintenance release that replaces all previously published emergency patches that were pushed to address two security flaws that have come under active exploitation.\n\nThe software development company said PaperCut NG/MF versions 26.0.5, 25.0.13 and 24.1.10 are now available for customers to download.\n\n\"These are Regular Maintenance Releases (MR) that",
-      "source": "The Hacker News",
-      "published": "Fri, 11 Sep 2026 12:16:18 +0530",
-      "summary": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws\nPaperCut on Thursday released a new security maintenance release that replaces all previously published emergency patches that were pushed to address two security flaws that have come under active exploitation.\n\nThe soft"
-    },
-    {
-      "title": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
-      "link": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
-      "raw_summary": "Cisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center (FMC) vulnerabilities.\n\nThe attacks leverage CVE-2026-20079 (CVSS score: 10.0), an authentication bypass vulnerability in the web interface of FMC software that could allow an unauthenticated, remote attacker to bypass",
-      "source": "The Hacker News",
-      "published": "Fri, 11 Sep 2026 11:49:59 +0530",
-      "summary": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware\nCisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center (FMC) vulnerabilities.\n\nThe attacks leverage "
-    },
-    {
-      "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
-      "link": "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html",
-      "raw_summary": "A lot of this week’s security news has the same awkward answer to one question: “Why was that allowed to work?”\n\nAn extension asks for access and takes too much. A trusted service becomes part of a phishing chain. An old bug still gets results. An exposed system stays exposed. A package looks useful right up until it isn’t. Different stories, same basic problem: the path in was often already",
-      "source": "The Hacker News",
-      "published": "Thu, 10 Sep 2026 23:17:38 +0530",
-      "summary": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories\nA lot of this week’s security news has the same awkward answer to one question: “Why was that allowed to work?”\n\nAn extension asks for access and takes too much. A trusted service becomes part of a phishing chai"
-    },
-    {
-      "title": "Cherenkov Radiation - traveling faster than light",
-      "link": "http://www.iaea.org/newscenter/news/what-is-cherenkov-radiation",
-      "raw_summary": "<p>Article URL: <a href=\"http://www.iaea.org/newscenter/news/what-is-cherenkov-radiation\">http://www.iaea.org/newscenter/news/what-is-cherenkov-radiation</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49655286\">https://news.ycombinator.com/item?id=49655286</a></p>\n<p>Points: 38</p>\n<p># Comments: 26</p>",
+      "title": "HuggingFace: Security.txt",
+      "link": "https://huggingface.co/security.txt",
+      "raw_summary": "<p>Article URL: <a href=\"https://huggingface.co/security.txt\">https://huggingface.co/security.txt</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49659245\">https://news.ycombinator.com/item?id=49659245</a></p>\n<p>Points: 36</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 11 Sep 2026 08:42:04 +0000",
-      "summary": "Cherenkov Radiation - traveling faster than light\n<p>Article URL: <a href=\"http://www.iaea.org/newscenter/news/what-is-cherenkov-radiation\">http://www.iaea.org/newscenter/news/what-is-cherenkov-radiation</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49655286\">https://news.yc"
+      "published": "Fri, 11 Sep 2026 14:38:13 +0000",
+      "summary": "HuggingFace: Security.txt\n<p>Article URL: <a href=\"https://huggingface.co/security.txt\">https://huggingface.co/security.txt</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49659245\">https://news.ycombinator.com/item?id=49659245</a></p>\n<p>Points: 36</p>\n<p># Comments: 2</p>"
     },
     {
-      "title": "Neijuan",
-      "link": "https://en.wikipedia.org/wiki/Neijuan",
-      "raw_summary": "<p>Article URL: <a href=\"https://en.wikipedia.org/wiki/Neijuan\">https://en.wikipedia.org/wiki/Neijuan</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49655176\">https://news.ycombinator.com/item?id=49655176</a></p>\n<p>Points: 26</p>\n<p># Comments: 9</p>",
+      "title": "New York thoracic surgeon: \"For many patients 9/11 is not over\"",
+      "link": "https://www.statnews.com/2026/09/11/sept-11-25th-anniversary-ground-zero-exposure-cancer-moment-of-silence/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.statnews.com/2026/09/11/sept-11-25th-anniversary-ground-zero-exposure-cancer-moment-of-silence/\">https://www.statnews.com/2026/09/11/sept-11-25th-anniversary-ground-zero-exposure-cancer-moment-of-silence/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49658819\">https://news.ycombinator.com/item?id=49658819</a></p>\n<p>Points: 18</p>\n<p># Comments: 6</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 11 Sep 2026 08:26:56 +0000",
-      "summary": "Neijuan\n<p>Article URL: <a href=\"https://en.wikipedia.org/wiki/Neijuan\">https://en.wikipedia.org/wiki/Neijuan</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49655176\">https://news.ycombinator.com/item?id=49655176</a></p>\n<p>Points: 26</p>\n<p># Comments: 9</p>"
+      "published": "Fri, 11 Sep 2026 14:14:56 +0000",
+      "summary": "New York thoracic surgeon: \"For many patients 9/11 is not over\"\n<p>Article URL: <a href=\"https://www.statnews.com/2026/09/11/sept-11-25th-anniversary-ground-zero-exposure-cancer-moment-of-silence/\">https://www.statnews.com/2026/09/11/sept-11-25th-anniversary-ground-zero-exposure-cancer-moment-of-sil"
     },
     {
-      "title": "Astra for Coding: Why Are We Doing This Again?",
-      "link": "https://lucumr.pocoo.org/2026/9/7/astra-why/",
-      "raw_summary": "<p>Article URL: <a href=\"https://lucumr.pocoo.org/2026/9/7/astra-why/\">https://lucumr.pocoo.org/2026/9/7/astra-why/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49654229\">https://news.ycombinator.com/item?id=49654229</a></p>\n<p>Points: 327</p>\n<p># Comments: 242</p>",
+      "title": "If coding is solved, what now?: Measuring the sloppiness of code",
+      "link": "https://earendil.com/posts/measuring-code-sloppiness/",
+      "raw_summary": "<p>Article URL: <a href=\"https://earendil.com/posts/measuring-code-sloppiness/\">https://earendil.com/posts/measuring-code-sloppiness/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49658311\">https://news.ycombinator.com/item?id=49658311</a></p>\n<p>Points: 98</p>\n<p># Comments: 119</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 11 Sep 2026 06:23:06 +0000",
-      "summary": "Astra for Coding: Why Are We Doing This Again?\n<p>Article URL: <a href=\"https://lucumr.pocoo.org/2026/9/7/astra-why/\">https://lucumr.pocoo.org/2026/9/7/astra-why/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49654229\">https://news.ycombinator.com/item?id=49654229</a></p>\n<p"
+      "published": "Fri, 11 Sep 2026 13:42:28 +0000",
+      "summary": "If coding is solved, what now?: Measuring the sloppiness of code\n<p>Article URL: <a href=\"https://earendil.com/posts/measuring-code-sloppiness/\">https://earendil.com/posts/measuring-code-sloppiness/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49658311\">https://news.ycombin"
     },
     {
-      "title": "GPT‑Live‑1 in the API",
-      "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
-      "raw_summary": "<p>Article URL: <a href=\"https://openai.com/index/introducing-gpt-live-1-in-the-api/\">https://openai.com/index/introducing-gpt-live-1-in-the-api/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49653985\">https://news.ycombinator.com/item?id=49653985</a></p>\n<p>Points: 18</p>\n<p># Comments: 9</p>",
+      "title": "Re-Engineering YouTube for the Living Room: Bringing \"Chrobalt\" to RDK",
+      "link": "https://www.collabora.com/news-and-blog/news-and-events/re-engineering-youtube-for-the-living-room-bringing-%E2%80%9Cchrobalt%E2%80%9D-to-rdk.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.collabora.com/news-and-blog/news-and-events/re-engineering-youtube-for-the-living-room-bringing-%E2%80%9Cchrobalt%E2%80%9D-to-rdk.html\">https://www.collabora.com/news-and-blog/news-and-events/re-engineering-youtube-for-the-living-room-bringing-%E2%80%9Cchrobalt%E2%80%9D-to-rdk.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49658302\">https://news.ycombinator.com/item?id=49658302</a></p>\n<p>Points: 14</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 11 Sep 2026 05:45:19 +0000",
-      "summary": "GPT‑Live‑1 in the API\n<p>Article URL: <a href=\"https://openai.com/index/introducing-gpt-live-1-in-the-api/\">https://openai.com/index/introducing-gpt-live-1-in-the-api/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49653985\">https://news.ycombinator.com/item?id=49653985</a></"
+      "published": "Fri, 11 Sep 2026 13:41:58 +0000",
+      "summary": "Re-Engineering YouTube for the Living Room: Bringing \"Chrobalt\" to RDK\n<p>Article URL: <a href=\"https://www.collabora.com/news-and-blog/news-and-events/re-engineering-youtube-for-the-living-room-bringing-%E2%80%9Cchrobalt%E2%80%9D-to-rdk.html\">https://www.collabora.com/news-and-blog/news-and-events/"
     },
     {
-      "title": "The Gemini app is now available for Windows",
-      "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
-      "raw_summary": "<p>Article URL: <a href=\"https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/\">https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49653699\">https://news.ycombinator.com/item?id=49653699</a></p>\n<p>Points: 48</p>\n<p># Comments: 36</p>",
+      "title": "Houthis 'take control' of key island in global shipping route",
+      "link": "https://www.bbc.com/news/live/cmd683p01eljt",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.bbc.com/news/live/cmd683p01eljt\">https://www.bbc.com/news/live/cmd683p01eljt</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49658299\">https://news.ycombinator.com/item?id=49658299</a></p>\n<p>Points: 182</p>\n<p># Comments: 140</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 11 Sep 2026 04:52:20 +0000",
-      "summary": "The Gemini app is now available for Windows\n<p>Article URL: <a href=\"https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/\">https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.c"
+      "published": "Fri, 11 Sep 2026 13:41:38 +0000",
+      "summary": "Houthis 'take control' of key island in global shipping route\n<p>Article URL: <a href=\"https://www.bbc.com/news/live/cmd683p01eljt\">https://www.bbc.com/news/live/cmd683p01eljt</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49658299\">https://news.ycombinator.com/item?id=496582"
+    },
+    {
+      "title": "Matt Mullenweg tells Automattic staff in Slack he’s back in control after CEO ouster",
+      "link": "https://techcrunch.com/2026/09/11/matt-mullenweg-tells-automattic-staff-in-slack-hes-back-in-control-after-ceo-ouster/",
+      "raw_summary": "In a Slack message seen by TechCrunch, Matt Mullenweg told Automattic employees he’s back in control of the company, days after its board put him on leave. Automattic has not yet confirmed the apparent reversal.",
+      "source": "TechCrunch",
+      "published": "Fri, 11 Sep 2026 15:19:00 +0000",
+      "summary": "Matt Mullenweg tells Automattic staff in Slack he’s back in control after CEO ouster\nIn a Slack message seen by TechCrunch, Matt Mullenweg told Automattic employees he’s back in control of the company, days after its board put him on leave. Automattic has not yet confirmed the apparent reversal."
+    },
+    {
+      "title": "Scammers target hundreds of thousands of crypto owners after Trezor confirms data breach of email provider",
+      "link": "https://techcrunch.com/2026/09/11/scammers-target-hundreds-of-thousands-of-crypto-owners-after-trezor-confirms-data-breach-of-email-provider/",
+      "raw_summary": "This is the second data breach affecting a company that hardware crypto wallet maker Trezor relies on.",
+      "source": "TechCrunch",
+      "published": "Fri, 11 Sep 2026 13:32:54 +0000",
+      "summary": "Scammers target hundreds of thousands of crypto owners after Trezor confirms data breach of email provider\nThis is the second data breach affecting a company that hardware crypto wallet maker Trezor relies on."
     },
     {
       "title": "Thrive Capital led VCs into pro sports ownership; Collaborative Fund just upped that play",
@@ -147,180 +163,164 @@
       "summary": "Mark Wahlberg is coming to TechCrunch Disrupt 2026, and he wants to talk about your work, not his\nMark Wahlberg joins Bruce K. Lee at Disrupt to discuss investing, entrepreneurship, healthcare, wellness, and building businesses."
     },
     {
-      "title": "OpenAI puts Pro subscriptions on hold due to Astra demand",
-      "link": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
-      "raw_summary": "The company said Pro subscriptions put the most strain on its systems, so it's pausing sign-ups while adding more capacity.",
-      "source": "TechCrunch",
-      "published": "Thu, 10 Sep 2026 20:59:51 +0000",
-      "summary": "OpenAI puts Pro subscriptions on hold due to Astra demand\nThe company said Pro subscriptions put the most strain on its systems, so it's pausing sign-ups while adding more capacity."
-    },
-    {
-      "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
-      "link": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
-      "raw_summary": "A new report released Thursday by Anthropic alleges persistent distillation attacks by China-based AI companies, which have escalated in recent months as competition in the space has intensified.",
-      "source": "TechCrunch",
-      "published": "Thu, 10 Sep 2026 20:57:30 +0000",
-      "summary": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek\nA new report released Thursday by Anthropic alleges persistent distillation attacks by China-based AI companies, which have escalated in recent months as competition in the space has intensified."
-    },
-    {
-      "title": "Boy developed \"toasted skin\" condition from using a laptop every day",
-      "link": "https://arstechnica.com/health/2026/09/boy-developed-toasted-skin-condition-from-using-a-laptop-every-day/",
-      "raw_summary": "Laptops don't usually get hot enough to burn—but they can still be harmful.",
+      "title": "Claude users found ways around safeguards for bioweapons research",
+      "link": "https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research/",
+      "raw_summary": "Some dangerous biology looks much like legitimate research, complicating AI safeguards.",
       "source": "Ars Technica - All content",
-      "published": "Thu, 10 Sep 2026 22:16:05 +0000",
-      "summary": "Boy developed \"toasted skin\" condition from using a laptop every day\nLaptops don't usually get hot enough to burn—but they can still be harmful."
+      "published": "Fri, 11 Sep 2026 13:02:35 +0000",
+      "summary": "Claude users found ways around safeguards for bioweapons research\nSome dangerous biology looks much like legitimate research, complicating AI safeguards."
     },
     {
-      "title": "LinkedIn beats \"BrowserGate\" lawsuits over scanning users' Chrome extensions",
-      "link": "https://arstechnica.com/tech-policy/2026/09/linkedin-beats-browsergate-lawsuits-over-scanning-users-chrome-extensions/",
-      "raw_summary": "Judge tosses lawsuits, says plaintiffs didn't allege any real privacy violation.",
+      "title": "ClickFix attacks infecting PCs and Macs are going viral",
+      "link": "https://arstechnica.com/security/2026/09/clickfix-attacks-infecting-pcs-and-macs-are-going-viral/",
+      "raw_summary": "Simplicity—combined with the difficulty of getting stuff done—makes ClickFix ideal.",
       "source": "Ars Technica - All content",
-      "published": "Thu, 10 Sep 2026 20:55:29 +0000",
-      "summary": "LinkedIn beats \"BrowserGate\" lawsuits over scanning users' Chrome extensions\nJudge tosses lawsuits, says plaintiffs didn't allege any real privacy violation."
+      "published": "Fri, 11 Sep 2026 11:30:58 +0000",
+      "summary": "ClickFix attacks infecting PCs and Macs are going viral\nSimplicity—combined with the difficulty of getting stuff done—makes ClickFix ideal."
     },
     {
-      "title": "Europe will go it alone on Venus mission after NASA yanks radar instrument",
-      "link": "https://arstechnica.com/space/2026/09/europe-will-go-it-alone-on-venus-mission-after-nasa-yanks-radar-instrument/",
-      "raw_summary": "Europe is looking inward, and perhaps to China, as the White House tries to cancel some NASA partnerships.",
+      "title": "What happens when quantum mechanics and relativity meet?",
+      "link": "https://arstechnica.com/science/2026/09/what-happens-when-quantum-mechanics-and-relativity-meet/",
+      "raw_summary": "Experiment put atoms in a superposition of trajectories to find out.",
       "source": "Ars Technica - All content",
-      "published": "Thu, 10 Sep 2026 19:09:29 +0000",
-      "summary": "Europe will go it alone on Venus mission after NASA yanks radar instrument\nEurope is looking inward, and perhaps to China, as the White House tries to cancel some NASA partnerships."
+      "published": "Fri, 11 Sep 2026 11:20:02 +0000",
+      "summary": "What happens when quantum mechanics and relativity meet?\nExperiment put atoms in a superposition of trajectories to find out."
     },
     {
-      "title": "Android can now securely migrate your logins between password managers",
-      "link": "https://arstechnica.com/gadgets/2026/09/android-can-now-securely-migrate-your-logins-between-password-managers/",
-      "raw_summary": "App support is slim right now, but Google says more are coming.",
+      "title": "Could United Launch Alliance's money problems finally force its owners to sell?",
+      "link": "https://arstechnica.com/space/2026/09/could-united-launch-alliances-money-problems-finally-force-its-owners-to-sell/",
+      "raw_summary": "ULA is preparing to resume launching the Vulcan rocket in the coming weeks.",
       "source": "Ars Technica - All content",
-      "published": "Thu, 10 Sep 2026 18:41:09 +0000",
-      "summary": "Android can now securely migrate your logins between password managers\nApp support is slim right now, but Google says more are coming."
+      "published": "Fri, 11 Sep 2026 11:00:44 +0000",
+      "summary": "Could United Launch Alliance's money problems finally force its owners to sell?\nULA is preparing to resume launching the Vulcan rocket in the coming weeks."
     },
     {
-      "title": "Panic builds over bankrupt Spirit’s looming data sale to Google",
-      "link": "https://arstechnica.com/tech-policy/2026/09/panic-builds-over-bankrupt-spirits-looming-data-sale-to-google/",
-      "raw_summary": "\"Bankruptcy cannot become the new land grab for AI.”",
+      "title": "Rocket Report: Europe joins the commercial launch club; a Ravn X sighting?",
+      "link": "https://arstechnica.com/space/2026/09/rocket-report-europe-joins-the-commercial-launch-club-a-ravn-x-sighting/",
+      "raw_summary": "\"We felt like now is the time to pour gas on that fire.\"",
       "source": "Ars Technica - All content",
-      "published": "Thu, 10 Sep 2026 18:14:14 +0000",
-      "summary": "Panic builds over bankrupt Spirit’s looming data sale to Google\n\"Bankruptcy cannot become the new land grab for AI.”"
+      "published": "Fri, 11 Sep 2026 11:00:30 +0000",
+      "summary": "Rocket Report: Europe joins the commercial launch club; a Ravn X sighting?\n\"We felt like now is the time to pour gas on that fire.\""
     },
     {
-      "title": "IEA warns of ‘lost period’ in global oil demand",
-      "link": "https://www.ft.com/content/ab6f6433-1f23-4153-a02b-7984d14734c6?syn-25a6b1a6=1",
-      "raw_summary": "Strait of Hormuz will not reopen this year, agency says, warning of sharp drop in demand as refined product prices soar",
+      "title": "Inflation and interest rates tracker: see how your country compares",
+      "link": "https://www.ft.com/content/088d3368-bb8b-4ff3-9df7-a7680d4d81b2?syn-25a6b1a6=1",
+      "raw_summary": "Explore the latest data through interactive charts",
       "source": "World",
-      "published": "Fri, 11 Sep 2026 09:46:49 GMT",
-      "summary": "IEA warns of ‘lost period’ in global oil demand\nStrait of Hormuz will not reopen this year, agency says, warning of sharp drop in demand as refined product prices soar"
+      "published": "Fri, 11 Sep 2026 14:45:40 GMT",
+      "summary": "Inflation and interest rates tracker: see how your country compares\nExplore the latest data through interactive charts"
     },
     {
-      "title": "Scott Bessent fails to break ‘fever’ in US bond market",
-      "link": "https://www.ft.com/content/dd4cc4a0-844e-486a-b99c-b379d457019b?syn-25a6b1a6=1",
-      "raw_summary": "Treasury secretary’s $6bn bond operation is insufficient to stem the recent surge in borrowing costs, investors warn",
+      "title": "Warsh under mounting pressure to raise rates as US inflation persists",
+      "link": "https://www.ft.com/content/24646e74-9506-4718-b1be-789208db86d9?syn-25a6b1a6=1",
+      "raw_summary": "Inflation remained stubbornly elevated at 3.4% in August at the end of a week of surging oil prices",
       "source": "World",
-      "published": "Fri, 11 Sep 2026 09:40:33 GMT",
-      "summary": "Scott Bessent fails to break ‘fever’ in US bond market\nTreasury secretary’s $6bn bond operation is insufficient to stem the recent surge in borrowing costs, investors warn"
+      "published": "Fri, 11 Sep 2026 14:44:33 GMT",
+      "summary": "Warsh under mounting pressure to raise rates as US inflation persists\nInflation remained stubbornly elevated at 3.4% in August at the end of a week of surging oil prices"
     },
     {
-      "title": "UK economy unexpectedly grew 0.4% in July boosted by AI surge",
-      "link": "https://www.ft.com/content/e1aacb1c-45d1-4d21-b5e9-0166c12c54cd?syn-25a6b1a6=1",
-      "raw_summary": "Resilient start to third quarter comes as surging oil price reignites inflation fears",
+      "title": "Higher than expected core CPI gives Fed enough to tighten",
+      "link": "https://www.ft.com/content/25102821-d86d-4ef0-a858-903e270df3f9",
+      "raw_summary": "Next week’s decision remains a close call, but there is little sign in the inflation data of continued disinflation",
       "source": "World",
-      "published": "Fri, 11 Sep 2026 09:24:07 GMT",
-      "summary": "UK economy unexpectedly grew 0.4% in July boosted by AI surge\nResilient start to third quarter comes as surging oil price reignites inflation fears"
+      "published": "Fri, 11 Sep 2026 13:53:08 GMT",
+      "summary": "Higher than expected core CPI gives Fed enough to tighten\nNext week’s decision remains a close call, but there is little sign in the inflation data of continued disinflation"
     },
     {
-      "title": "Desperately seeking UK data centre data",
-      "link": "https://www.ft.com/content/495e1b57-9b1a-483d-b776-3ac4aa05764c",
-      "raw_summary": "[SIC]",
+      "title": "Bond markets stabilise after global sell-off",
+      "link": "https://www.ft.com/content/2c9ce5b0-32ae-4460-aa89-9c80eb05ee41?syn-25a6b1a6=1",
+      "raw_summary": "Decline in oil prices helps calm investor nerves but German borrowing costs hit highest level since 2009",
       "source": "World",
-      "published": "Fri, 11 Sep 2026 09:17:50 GMT",
-      "summary": "Desperately seeking UK data centre data\n[SIC]"
+      "published": "Fri, 11 Sep 2026 13:22:38 GMT",
+      "summary": "Bond markets stabilise after global sell-off\nDecline in oil prices helps calm investor nerves but German borrowing costs hit highest level since 2009"
     },
     {
-      "title": "Houthis used Anthropic AI to try to build ballistic missiles",
-      "link": "https://www.ft.com/content/8310cf56-ce60-4e6e-8254-5bb470e9a880",
-      "raw_summary": "Missile test by group apparently failed, but exposes limits of AI safeguards",
+      "title": "What we still haven’t learnt from 9/11",
+      "link": "https://www.ft.com/content/686b06a7-a041-49dc-88b1-2607a3ba8e11?syn-25a6b1a6=1",
+      "raw_summary": "Facing existential risks like superintelligent AI, we need bold and visionary leaders of the world’s great powers",
       "source": "World",
-      "published": "Fri, 11 Sep 2026 09:02:54 GMT",
-      "summary": "Houthis used Anthropic AI to try to build ballistic missiles\nMissile test by group apparently failed, but exposes limits of AI safeguards"
+      "published": "Fri, 11 Sep 2026 13:00:08 GMT",
+      "summary": "What we still haven’t learnt from 9/11\nFacing existential risks like superintelligent AI, we need bold and visionary leaders of the world’s great powers"
     },
     {
-      "title": "Centerbridge-Backed Aareal Bank Studies HCOB Acquisition",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-10/centerbridge-backed-aareal-bank-studies-hcob-acquisition",
-      "raw_summary": "Aareal Bank AG is discussing a potential deal to buy fellow private equity-backed real estate lender Hamburg Commercial Bank AG, people familiar with the matter said.",
+      "title": "Hassett Sees Fiscally Responsible Path to $5,000 Payment",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-11/hassett-sees-fiscally-responsible-path-to-5-000-payment-video",
+      "raw_summary": "White House National Economic Council Director Kevin Hassett says President Donald Trump’s suggestion of sending $5,000 checks to every adult US citizen “is a serious proposal” and can be done “in a fiscally responsible way.” (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Thu, 10 Sep 2026 15:04:15 GMT",
-      "summary": "Centerbridge-Backed Aareal Bank Studies HCOB Acquisition\nAareal Bank AG is discussing a potential deal to buy fellow private equity-backed real estate lender Hamburg Commercial Bank AG, people familiar with the matter said."
+      "published": "Fri, 11 Sep 2026 15:27:46 GMT",
+      "summary": "Hassett Sees Fiscally Responsible Path to $5,000 Payment\nWhite House National Economic Council Director Kevin Hassett says President Donald Trump’s suggestion of sending $5,000 checks to every adult US citizen “is a serious proposal” and can be done “in a fiscally responsible way.” (Source: Bloomber"
     },
     {
-      "title": "US Economy Probably Needs Three Fed Rate Hikes, BNP’s Mateos y Lago Says",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-11/us-probably-needs-three-fed-rate-hikes-bnp-paribas-video",
-      "raw_summary": "Isabelle Mateos y Lago, chief economist at BNP Paribas, discusses the weight of Friday’s US CPI report on the upcoming Federal Reserve interest-rate decision. She says her firm believes “monetary policy is not restrictive enough” and that the US economy “probably” needs three rate hikes, starting next week. (Source: Bloomberg)",
+      "title": "US Core CPI Tops Forecasts, Bolstering Case for Rate Hike",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-11/us-core-cpi-tops-forecasts-backing-case-for-rate-hike-video",
+      "raw_summary": "A key gauge of US consumer prices rose by more than expected last month, bolstering the case for Federal Reserve officials to raise interest rates next week. The consumer price index, excluding food and energy, climbed 0.3% in August from a month earlier, according to Bureau of Labor Statistics data out Friday. The median estimate in a Bloomberg survey called for a 0.2% increase. On an annual basis, it advanced 2.4%. Futures showed investors priced in a rate hike next week as a near certainty following the release, and put a high likelihood on a second increase before the end of the year.\n\nWe got reaction from Sarah Hunt, Chief Market Strategist at Alpine Saxon Woods. She speaks with Bloomberg's Paul Sweeney and Lisa Mateo. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Fri, 11 Sep 2026 10:10:26 GMT",
-      "summary": "US Economy Probably Needs Three Fed Rate Hikes, BNP’s Mateos y Lago Says\nIsabelle Mateos y Lago, chief economist at BNP Paribas, discusses the weight of Friday’s US CPI report on the upcoming Federal Reserve interest-rate decision. She says her firm believes “monetary policy is not restrictive enoug"
+      "published": "Fri, 11 Sep 2026 15:16:52 GMT",
+      "summary": "US Core CPI Tops Forecasts, Bolstering Case for Rate Hike\nA key gauge of US consumer prices rose by more than expected last month, bolstering the case for Federal Reserve officials to raise interest rates next week. The consumer price index, excluding food and energy, climbed 0.3% in August from a m"
     },
     {
-      "title": "UK Big Business Urges Treasury to Cut Levies on Energy Bills",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-11/uk-big-business-urges-chancellor-to-cut-levies-on-energy-bills",
-      "raw_summary": "A raft of British businesses urged Chancellor John Healey to move levies off electricity bills as rising energy costs squeeze industries from chemicals to steel.",
+      "title": "Gold Rises as Dollar and Yields Whipsaw After US Inflation Print",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-10/gold-holds-drop-as-rising-oil-inflation-bolster-rate-hike-bets",
+      "raw_summary": "Gold rose along with US stocks and bonds, despite hotter-than-expected inflation data that prompted traders to sharply increase bets on a Federal Reserve rate hike next week.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 11 Sep 2026 05:30:00 GMT",
-      "summary": "UK Big Business Urges Treasury to Cut Levies on Energy Bills\nA raft of British businesses urged Chancellor John Healey to move levies off electricity bills as rising energy costs squeeze industries from chemicals to steel."
+      "published": "Thu, 10 Sep 2026 23:34:43 GMT",
+      "summary": "Gold Rises as Dollar and Yields Whipsaw After US Inflation Print\nGold rose along with US stocks and bonds, despite hotter-than-expected inflation data that prompted traders to sharply increase bets on a Federal Reserve rate hike next week."
     },
     {
-      "title": "Lower Manhattan’s 25-Year Reinvention Creates a Neighborhood Beyond Wall Street",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-11/lower-manhattan-s-25-year-reinvention-creates-a-neighborhood-beyond-wall-street",
-      "raw_summary": "Twenty-five years after 9/11, New York City's Financial District is thriving again, transformed by housing, culture and business. Nacha Cattan reports.  (Source: Bloomberg)",
+      "title": "Dollar Wavers as CPI Adds to Fed Hike Bets While Oil Falls",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-11/dollar-wavers-as-inflation-aids-fed-hike-bets-while-oil-falls",
+      "raw_summary": "The dollar oscillated Friday after a key gauge of US consumer prices rose by more than expected, pushing traders to add to bets that the Federal Reserve will raise interest rates next week.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 11 Sep 2026 10:00:16 GMT",
-      "summary": "Lower Manhattan’s 25-Year Reinvention Creates a Neighborhood Beyond Wall Street\nTwenty-five years after 9/11, New York City's Financial District is thriving again, transformed by housing, culture and business. Nacha Cattan reports.  (Source: Bloomberg)"
+      "published": "Fri, 11 Sep 2026 13:21:27 GMT",
+      "summary": "Dollar Wavers as CPI Adds to Fed Hike Bets While Oil Falls\nThe dollar oscillated Friday after a key gauge of US consumer prices rose by more than expected, pushing traders to add to bets that the Federal Reserve will raise interest rates next week."
     },
     {
-      "title": "UBS Buys $7.9 Billion of Credit Suisse Bonds in Biggest Buyback",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-11/ubs-buys-7-9-billion-of-credit-suisse-bonds-in-biggest-buyback",
-      "raw_summary": "UBS Group AG is buying back $7.9 billion of old Credit Suisse bonds, its biggest move yet to shrink the debt load it inherited when taking over its crosstown rival.",
+      "title": "Stocks Climb as Oil Drop Outweighs Inflation Worry: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-10/stock-market-today-dow-s-p-live-updates",
+      "raw_summary": "The final stretch of a jittery week on Wall Street saw stocks rising, with a decline in oil prices tempering concerns about inflationary pressures that could make the Federal Reserve raise rates.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 11 Sep 2026 10:00:32 GMT",
-      "summary": "UBS Buys $7.9 Billion of Credit Suisse Bonds in Biggest Buyback\nUBS Group AG is buying back $7.9 billion of old Credit Suisse bonds, its biggest move yet to shrink the debt load it inherited when taking over its crosstown rival."
+      "published": "Thu, 10 Sep 2026 22:15:53 GMT",
+      "summary": "Stocks Climb as Oil Drop Outweighs Inflation Worry: Markets Wrap\nThe final stretch of a jittery week on Wall Street saw stocks rising, with a decline in oil prices tempering concerns about inflationary pressures that could make the Federal Reserve raise rates."
     },
     {
-      "title": "Bitcoin pulls back as another golden cross fails to deliver",
-      "link": "https://www.coindesk.com/markets/2026/09/11/bitcoin-pulls-back-as-another-golden-cross-fails-to-deliver",
+      "title": "India's richest state is exploring tokenizing its own assets to fund new infrastructure",
+      "link": "https://www.coindesk.com/markets/2026/09/11/india-s-richest-state-is-exploring-tokenizing-its-own-assets-to-fund-new-infrastructure",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 11 Sep 2026 10:13:44 +0000",
-      "summary": "Bitcoin pulls back as another golden cross fails to deliver\n"
+      "published": "Fri, 11 Sep 2026 15:17:08 +0000",
+      "summary": "India's richest state is exploring tokenizing its own assets to fund new infrastructure\n"
     },
     {
-      "title": "Kalshi wants 24/7 Tesla and Nvidia perps as Wall Street fights over who regulates them",
-      "link": "https://www.coindesk.com/markets/2026/09/11/kalshi-wants-24-7-tesla-and-nvidia-perps-as-wall-street-fights-over-who-regulates-them",
+      "title": "Metaplanet cuts executive reward pool by 41%, extinguishes $220 million in value",
+      "link": "https://www.coindesk.com/business/2026/09/11/metaplanet-cuts-executive-reward-pool-by-41-extinguishes-usd220-million-in-value",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 11 Sep 2026 06:17:31 +0000",
-      "summary": "Kalshi wants 24/7 Tesla and Nvidia perps as Wall Street fights over who regulates them\n"
+      "published": "Fri, 11 Sep 2026 13:46:51 +0000",
+      "summary": "Metaplanet cuts executive reward pool by 41%, extinguishes $220 million in value\n"
     },
     {
-      "title": "India starts tokenizing $620 billion corporate bond market with digital rupee settlement",
-      "link": "https://www.coindesk.com/markets/2026/09/11/india-starts-tokenizing-usd620-billion-corporate-bond-market-with-digital-rupee-settlement",
+      "title": "Zodia Custody CEO Julian Sawyer steps down, becomes adviser",
+      "link": "https://www.coindesk.com/business/2026/09/11/zodia-custody-ceo-julian-sawyer-steps-down-becomes-adviser",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 11 Sep 2026 05:13:15 +0000",
-      "summary": "India starts tokenizing $620 billion corporate bond market with digital rupee settlement\n"
+      "published": "Fri, 11 Sep 2026 13:32:52 +0000",
+      "summary": "Zodia Custody CEO Julian Sawyer steps down, becomes adviser\n"
     },
     {
-      "title": "Bitcoin below $77,000, Zcash leads losses as traders bet on a Fed rate hike",
-      "link": "https://www.coindesk.com/markets/2026/09/11/bitcoin-below-usd77-000-zcash-leads-losses-as-traders-bet-on-a-fed-rate-hike",
+      "title": "Core CPI rose a faster-than-forecast 0.3% in August, setting up possible Fed rate hike",
+      "link": "https://www.coindesk.com/markets/2026/09/11/core-cpi-rose-a-faster-than-forecast-0-3-in-august-setting-up-fed-rate-hike",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 11 Sep 2026 04:46:15 +0000",
-      "summary": "Bitcoin below $77,000, Zcash leads losses as traders bet on a Fed rate hike\n"
+      "published": "Fri, 11 Sep 2026 12:32:25 +0000",
+      "summary": "Core CPI rose a faster-than-forecast 0.3% in August, setting up possible Fed rate hike\n"
     },
     {
-      "title": "Ripple puts AI agents inside its $1 billion corporate treasury bet",
-      "link": "https://www.coindesk.com/markets/2026/09/11/ripple-puts-ai-agents-inside-its-usd1-billion-corporate-treasury-bet",
+      "title": "Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report",
+      "link": "https://www.coindesk.com/daybook-us/2026/09/11/rising-yields-oil-prices-leave-bitcoin-vulnerable-ahead-of-u-s-inflation-report",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 11 Sep 2026 04:25:21 +0000",
-      "summary": "Ripple puts AI agents inside its $1 billion corporate treasury bet\n"
+      "published": "Fri, 11 Sep 2026 11:20:26 +0000",
+      "summary": "Rising yields, oil prices leave bitcoin vulnerable ahead of U.S. inflation report\n"
     }
   ]
 }
