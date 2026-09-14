@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T17:19:30.610382+00:00",
+  "generated_at": "2026-09-14T21:13:36.632627+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "Microsoft Plugs Nearly 400 Security Holes\nMicrosoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to toda"
     },
     {
+      "title": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing",
+      "link": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
+      "raw_summary": "Researchers have disclosed a new hardware attack, called DDRop, that breaks the memory protection in Intel and AMD confidential computing by silently dropping writes to a server's memory, so the processor keeps reading old encrypted data as if it were current.\n\nThe attack requires an attacker who already controls the server's software and can briefly access the machine to insert a small circuit",
+      "source": "The Hacker News",
+      "published": "Mon, 14 Sep 2026 23:32:13 +0530",
+      "summary": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing\nResearchers have disclosed a new hardware attack, called DDRop, that breaks the memory protection in Intel and AMD confidential computing by silently dropping writes to a server's memory, so the processor keeps reading old encr"
+    },
+    {
+      "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
+      "link": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
+      "raw_summary": "An attacker was operating inside the network of 3BB, one of Thailand's largest broadband providers, and maintained remote control of internal machines using a legitimate management tool called MeshCentral, threat intelligence firm Hunt.io said.\n\nThe company uncovered the intrusion by examining a server the attacker had left open on the internet, which held the attacker's own tools and a list of",
+      "source": "The Hacker News",
+      "published": "Mon, 14 Sep 2026 23:31:49 +0530",
+      "summary": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials\nAn attacker was operating inside the network of 3BB, one of Thailand's largest broadband providers, and maintained remote control of internal machines using a legitimate management tool called MeshCentral, threat"
+    },
+    {
+      "title": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports",
+      "link": "https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html",
+      "raw_summary": "A flaw in Telegram Desktop let a bot's message plant hidden JavaScript inside chats that users exported to HTML files, security researchers at ExPatch said in a&nbsp;writeup&nbsp;published on September 12.\n\nIn Telegram, the message looked ordinary, with a link button, and the script ran only when someone opened the export file in a web browser. It could then copy every message in that file to",
+      "source": "The Hacker News",
+      "published": "Mon, 14 Sep 2026 23:28:16 +0530",
+      "summary": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports\nA flaw in Telegram Desktop let a bot's message plant hidden JavaScript inside chats that users exported to HTML files, security researchers at ExPatch said in a&nbsp;writeup&nbsp;published on September 12.\n\nIn Telegra"
+    },
+    {
+      "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
+      "link": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
+      "raw_summary": "A suspected Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to compromise internet-facing instances as part of a multi-national campaign.\n\n\"Red Heron scanned 1,386 Gitea instances across seven countries and maintained a separate dataset of 477 Taiwan-based systems,\" Acronis Threat Research Unit (TRU)",
+      "source": "The Hacker News",
+      "published": "Mon, 14 Sep 2026 22:26:30 +0530",
+      "summary": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries\nA suspected Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to compromise internet-facing instances as part of a multi-nati"
+    },
+    {
       "title": "WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution",
       "link": "https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html",
       "raw_summary": "WordPress has announced it's launching an automated security review for every release of a plugin before it's distributed through the WordPress.org update API so as to analyze it for potential security issues and ensure there are no risks involved.\n\n\"New plugins are reviewed before they enter the directory, but updates ship continuously after that,\" David Perez, WordPress Official Plugin",
@@ -51,236 +83,236 @@
       "summary": "WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution\nWordPress has announced it's launching an automated security review for every release of a plugin before it's distributed through the WordPress.org update API so as to analyze it for potential security issues and "
     },
     {
-      "title": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
-      "link": "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html",
-      "raw_summary": "AI keeps showing up in the wrong places. Attackers are using it to speed up exploits, test defenses, and automate more of the job. Some models are also crossing lines on their own. That is not a great combination.\n\nThe rest of the week is more familiar: old bugs still working, fresh exploit chains, exposed systems, weak defaults, and simple paths that should have been harder to abuse. A few of",
-      "source": "The Hacker News",
-      "published": "Mon, 14 Sep 2026 20:10:34 +0530",
-      "summary": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits\nAI keeps showing up in the wrong places. Attackers are using it to speed up exploits, test defenses, and automate more of the job. Some models are also crossing lines on their own. That is not a great combinat"
-    },
-    {
-      "title": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
-      "link": "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html",
-      "raw_summary": "There's a lot of noise around AI and cybersecurity right now. What’s actually important is far simpler, if often lost in the hubbub. Vulnerability discovery is getting faster and happening at a much greater scale, while defenders still have to work out which findings actually deserve their action.\n\nIn the first half of 2026, a whopping 35,853 CVEs were published, roughly 49% more than in the",
-      "source": "The Hacker News",
-      "published": "Mon, 14 Sep 2026 17:28:00 +0530",
-      "summary": "AI Changed the Exposure Problem. Validation Needs to Change With It.\nThere's a lot of noise around AI and cybersecurity right now. What’s actually important is far simpler, if often lost in the hubbub. Vulnerability discovery is getting faster and happening at a much greater scale, while defenders s"
-    },
-    {
-      "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
-      "link": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
-      "raw_summary": "A malicious cross-store Twitch browser extension has leaked OAuth tokens associated with nearly 31,000 users to proxy servers operated by a Russian commercial bot service.\n\nThe extension, named \"Twitch Enhanced Viewer | JeetBot,\" lists HISHIMIRO/jeetbot.cc as its developer and has the following identifiers on the Google Chrome Web Store and Mozilla Firefox Add-Ons store -\n\n\n  Chrome -",
-      "source": "The Hacker News",
-      "published": "Mon, 14 Sep 2026 12:54:39 +0530",
-      "summary": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users\nA malicious cross-store Twitch browser extension has leaked OAuth tokens associated with nearly 31,000 users to proxy servers operated by a Russian commercial bot service.\n\nThe extension, named \"Twitch Enhanced Viewer | J"
-    },
-    {
-      "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
-      "link": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
-      "raw_summary": "Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social engineering to breach cloud environments.\n\nThe first campaign, per the tech giant, involved sending over a million scam emails between August 3 and 5, 2026, by masquerading as chief executive officers",
-      "source": "The Hacker News",
-      "published": "Sun, 13 Sep 2026 15:41:48 +0530",
-      "summary": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data\nMicrosoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social engineering to br"
-    },
-    {
-      "title": "Cua (YC P25) Is Hiring a Founding Technical GTM Lead",
-      "link": "https://www.ycombinator.com/companies/cua/jobs/1IWEKVH-founding-technical-gtm-lead",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/cua/jobs/1IWEKVH-founding-technical-gtm-lead\">https://www.ycombinator.com/companies/cua/jobs/1IWEKVH-founding-technical-gtm-lead</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49700218\">https://news.ycombinator.com/item?id=49700218</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
+      "title": "A Beginning for Mathematics",
+      "link": "https://proofsandprompts.com/2026/09/14/a-beginning-for-mathematics/",
+      "raw_summary": "<p>Article URL: <a href=\"https://proofsandprompts.com/2026/09/14/a-beginning-for-mathematics/\">https://proofsandprompts.com/2026/09/14/a-beginning-for-mathematics/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49703276\">https://news.ycombinator.com/item?id=49703276</a></p>\n<p>Points: 18</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 14 Sep 2026 17:00:53 +0000",
-      "summary": "Cua (YC P25) Is Hiring a Founding Technical GTM Lead\n<p>Article URL: <a href=\"https://www.ycombinator.com/companies/cua/jobs/1IWEKVH-founding-technical-gtm-lead\">https://www.ycombinator.com/companies/cua/jobs/1IWEKVH-founding-technical-gtm-lead</a></p>\n<p>Comments URL: <a href=\"https://news.ycombina"
+      "published": "Mon, 14 Sep 2026 20:14:45 +0000",
+      "summary": "A Beginning for Mathematics\n<p>Article URL: <a href=\"https://proofsandprompts.com/2026/09/14/a-beginning-for-mathematics/\">https://proofsandprompts.com/2026/09/14/a-beginning-for-mathematics/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49703276\">https://news.ycombinator.co"
     },
     {
-      "title": "Fitting Neural Textures and PBR Material Maps with ES (No Backprop)",
-      "link": "http://richg42.blogspot.com/2026/09/fitting-neural-texture-and-pbr-material.html",
-      "raw_summary": "<p>Article URL: <a href=\"http://richg42.blogspot.com/2026/09/fitting-neural-texture-and-pbr-material.html\">http://richg42.blogspot.com/2026/09/fitting-neural-texture-and-pbr-material.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49699696\">https://news.ycombinator.com/item?id=49699696</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "title": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?",
+      "link": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
+      "raw_summary": "<p>Article URL: <a href=\"https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review\">https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49703003\">https://news.ycombinator.com/item?id=49703003</a></p>\n<p>Points: 55</p>\n<p># Comments: 60</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 14 Sep 2026 16:34:33 +0000",
-      "summary": "Fitting Neural Textures and PBR Material Maps with ES (No Backprop)\n<p>Article URL: <a href=\"http://richg42.blogspot.com/2026/09/fitting-neural-texture-and-pbr-material.html\">http://richg42.blogspot.com/2026/09/fitting-neural-texture-and-pbr-material.html</a></p>\n<p>Comments URL: <a href=\"https://ne"
+      "published": "Mon, 14 Sep 2026 19:56:20 +0000",
+      "summary": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?\n<p>Article URL: <a href=\"https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review\">https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-r"
     },
     {
-      "title": "Why don't machine learning research agents overfit?",
-      "link": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit\">https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49699648\">https://news.ycombinator.com/item?id=49699648</a></p>\n<p>Points: 11</p>\n<p># Comments: 1</p>",
+      "title": "Oracle's Cold 6AM Layoff Emails Hit Staff Amid New Wave of Cuts",
+      "link": "https://www.techtimes.co.uk/oracle-new-layoffs-restructuring-costs-2-8-billion-1808676",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.techtimes.co.uk/oracle-new-layoffs-restructuring-costs-2-8-billion-1808676\">https://www.techtimes.co.uk/oracle-new-layoffs-restructuring-costs-2-8-billion-1808676</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49702239\">https://news.ycombinator.com/item?id=49702239</a></p>\n<p>Points: 70</p>\n<p># Comments: 38</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 14 Sep 2026 16:32:23 +0000",
-      "summary": "Why don't machine learning research agents overfit?\n<p>Article URL: <a href=\"https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit\">https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator"
+      "published": "Mon, 14 Sep 2026 19:05:15 +0000",
+      "summary": "Oracle's Cold 6AM Layoff Emails Hit Staff Amid New Wave of Cuts\n<p>Article URL: <a href=\"https://www.techtimes.co.uk/oracle-new-layoffs-restructuring-costs-2-8-billion-1808676\">https://www.techtimes.co.uk/oracle-new-layoffs-restructuring-costs-2-8-billion-1808676</a></p>\n<p>Comments URL: <a href=\"ht"
     },
     {
-      "title": "When LLM judges agree, should we believe them?",
-      "link": "https://www.amazon.science/blog/when-llm-judges-agree-should-we-believe-them",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.amazon.science/blog/when-llm-judges-agree-should-we-believe-them\">https://www.amazon.science/blog/when-llm-judges-agree-should-we-believe-them</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49699590\">https://news.ycombinator.com/item?id=49699590</a></p>\n<p>Points: 8</p>\n<p># Comments: 1</p>",
+      "title": "iOS 27, iPadOS 27, and macOS 27",
+      "link": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/\">https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49701004\">https://news.ycombinator.com/item?id=49701004</a></p>\n<p>Points: 254</p>\n<p># Comments: 259</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 14 Sep 2026 16:29:30 +0000",
-      "summary": "When LLM judges agree, should we believe them?\n<p>Article URL: <a href=\"https://www.amazon.science/blog/when-llm-judges-agree-should-we-believe-them\">https://www.amazon.science/blog/when-llm-judges-agree-should-we-believe-them</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49"
+      "published": "Mon, 14 Sep 2026 17:50:29 +0000",
+      "summary": "iOS 27, iPadOS 27, and macOS 27\n<p>Article URL: <a href=\"https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/\">https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/</a></p>\n<p>Comments URL: <a href=\"http"
     },
     {
-      "title": "I stress-tested Meta Muse until its agent control plane started timing out",
-      "link": "https://blog.cygankiewicz.com/en/meta-muse-black-box-testing/",
-      "raw_summary": "<p>Article URL: <a href=\"https://blog.cygankiewicz.com/en/meta-muse-black-box-testing/\">https://blog.cygankiewicz.com/en/meta-muse-black-box-testing/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49699527\">https://news.ycombinator.com/item?id=49699527</a></p>\n<p>Points: 6</p>\n<p># Comments: 4</p>",
+      "title": "Steam Frame starts at $1059",
+      "link": "https://store.steampowered.com/hardware/steamframe",
+      "raw_summary": "<p>Article URL: <a href=\"https://store.steampowered.com/hardware/steamframe\">https://store.steampowered.com/hardware/steamframe</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49700661\">https://news.ycombinator.com/item?id=49700661</a></p>\n<p>Points: 366</p>\n<p># Comments: 233</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 14 Sep 2026 16:26:07 +0000",
-      "summary": "I stress-tested Meta Muse until its agent control plane started timing out\n<p>Article URL: <a href=\"https://blog.cygankiewicz.com/en/meta-muse-black-box-testing/\">https://blog.cygankiewicz.com/en/meta-muse-black-box-testing/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=4969"
+      "published": "Mon, 14 Sep 2026 17:27:55 +0000",
+      "summary": "Steam Frame starts at $1059\n<p>Article URL: <a href=\"https://store.steampowered.com/hardware/steamframe\">https://store.steampowered.com/hardware/steamframe</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49700661\">https://news.ycombinator.com/item?id=49700661</a></p>\n<p>Points"
     },
     {
-      "title": "With iOS 27, I’m actually using Siri again",
-      "link": "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/",
-      "raw_summary": "Apple’s long-delayed Siri overhaul is finally here with iOS 27, and it changes how useful the assistant feels day to day",
+      "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+      "link": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
+      "raw_summary": "Glass Imaging was founded by a pair of former Apple engineers who previously led the team that developed Apple's Portrait Mode.",
       "source": "TechCrunch",
-      "published": "Mon, 14 Sep 2026 17:10:30 +0000",
-      "summary": "With iOS 27, I’m actually using Siri again\nApple’s long-delayed Siri overhaul is finally here with iOS 27, and it changes how useful the assistant feels day to day"
+      "published": "Mon, 14 Sep 2026 20:44:14 +0000",
+      "summary": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says\nGlass Imaging was founded by a pair of former Apple engineers who previously led the team that developed Apple's Portrait Mode."
     },
     {
-      "title": "macOS 27: new Siri takes on AI productivity apps",
-      "link": "https://techcrunch.com/2026/09/14/macos-27-new-siri-takes-on-ai-productivity-apps/",
-      "raw_summary": "macOS 27 Goldgen Gate gets a new Spotlight Search with Siri integrated",
+      "title": "AI infrastructure company Cornelis raises $205M to chip away at Nvidia’s dominance",
+      "link": "https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance/",
+      "raw_summary": "The company also announced a product called Active Compute Fabric, a network technology that targets the fact that much GPU time is wasted waiting for data to arrive.",
       "source": "TechCrunch",
-      "published": "Mon, 14 Sep 2026 17:10:09 +0000",
-      "summary": "macOS 27: new Siri takes on AI productivity apps\nmacOS 27 Goldgen Gate gets a new Spotlight Search with Siri integrated"
+      "published": "Mon, 14 Sep 2026 20:07:37 +0000",
+      "summary": "AI infrastructure company Cornelis raises $205M to chip away at Nvidia’s dominance\nThe company also announced a product called Active Compute Fabric, a network technology that targets the fact that much GPU time is wasted waiting for data to arrive."
     },
     {
-      "title": "Fashion app Daydream uses Apple Intelligence to help you shop the outfits in your camera roll",
-      "link": "https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/",
-      "raw_summary": "Thanks to the launch of iOS 27, Daydream's app now includes features that can turn saved outfit photos into shoppable results and search for products through Siri without opening the app.",
+      "title": "Amazon Prime Video takes on TikTok with short-form news clips",
+      "link": "https://techcrunch.com/2026/09/14/amazon-prime-video-takes-on-tiktok-with-short-form-news-clips/",
+      "raw_summary": "Prime Video is adding on-demand local and national news clips as Amazon joins other streamers experimenting with short-form video to capture younger viewers.",
       "source": "TechCrunch",
-      "published": "Mon, 14 Sep 2026 17:00:00 +0000",
-      "summary": "Fashion app Daydream uses Apple Intelligence to help you shop the outfits in your camera roll\nThanks to the launch of iOS 27, Daydream's app now includes features that can turn saved outfit photos into shoppable results and search for products through Siri without opening the app."
+      "published": "Mon, 14 Sep 2026 18:14:29 +0000",
+      "summary": "Amazon Prime Video takes on TikTok with short-form news clips\nPrime Video is adding on-demand local and national news clips as Amazon joins other streamers experimenting with short-form video to capture younger viewers."
     },
     {
-      "title": "Microsoft’s new AI ‘code of conduct’ tells models not to hack systems or trick humans",
-      "link": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/",
-      "raw_summary": "The code of conduct lays out general principles that Microsoft AI models should uphold — supporting humans rather than replacing them, for instance, and accelerating human flourishing — as well as specific safety constraints meant to implement those principles.",
+      "title": "ClickFix attacks are tricking Mac and Windows users into hacking themselves",
+      "link": "https://techcrunch.com/2026/09/14/clickfix-attacks-are-tricking-mac-and-windows-users-into-hacking-themselves/",
+      "raw_summary": "If you clicked on a fake HBO Max ad on Reddit in the past week, you might have fallen victim to a rising \"ClickFix\" security threat.",
       "source": "TechCrunch",
-      "published": "Mon, 14 Sep 2026 16:27:53 +0000",
-      "summary": "Microsoft’s new AI ‘code of conduct’ tells models not to hack systems or trick humans\nThe code of conduct lays out general principles that Microsoft AI models should uphold — supporting humans rather than replacing them, for instance, and accelerating human flourishing — as well as specific safety c"
+      "published": "Mon, 14 Sep 2026 18:08:43 +0000",
+      "summary": "ClickFix attacks are tricking Mac and Windows users into hacking themselves\nIf you clicked on a fake HBO Max ad on Reddit in the past week, you might have fallen victim to a rising \"ClickFix\" security threat."
     },
     {
-      "title": "Waymo opens robotaxi service in Las Vegas",
-      "link": "https://techcrunch.com/2026/09/14/waymo-opens-robotaxi-service-in-las-vegas/",
-      "raw_summary": "Las Vegas will be Waymo's 15th commercial robotaxi market.",
+      "title": "Volkswagen’s crazy-efficient EV borrows an idea from Slate",
+      "link": "https://techcrunch.com/2026/09/14/volkswagens-crazy-efficient-ev-borrows-an-idea-from-slate/",
+      "raw_summary": "Volkswagen's new efficiency-minded halo car is almost twice as efficient as the most efficient production car, the Lucid Air.",
       "source": "TechCrunch",
-      "published": "Mon, 14 Sep 2026 16:04:16 +0000",
-      "summary": "Waymo opens robotaxi service in Las Vegas\nLas Vegas will be Waymo's 15th commercial robotaxi market."
+      "published": "Mon, 14 Sep 2026 17:41:20 +0000",
+      "summary": "Volkswagen’s crazy-efficient EV borrows an idea from Slate\nVolkswagen's new efficiency-minded halo car is almost twice as efficient as the most efficient production car, the Lucid Air."
     },
     {
-      "title": "Prehistoric builders transported Devil's Arrows 11 miles",
-      "link": "https://arstechnica.com/science/2026/09/prehistoric-builders-transported-devils-arrows-11-miles/",
-      "raw_summary": "Isotropic analysis revealed the most likely source to be Brimham Rocks, not the nearby Plumpton Rocks.",
+      "title": "OpenAI stuck fighting Musk antitrust suit after Apple finds a way out",
+      "link": "https://arstechnica.com/tech-policy/2026/09/musk-drops-apple-from-antitrust-suit-but-keeps-gunning-for-openai/",
+      "raw_summary": "Musk stops attacking Apple over ChatGPT integration but not OpenAI.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 14 Sep 2026 17:10:54 +0000",
-      "summary": "Prehistoric builders transported Devil's Arrows 11 miles\nIsotropic analysis revealed the most likely source to be Brimham Rocks, not the nearby Plumpton Rocks."
+      "published": "Mon, 14 Sep 2026 19:45:13 +0000",
+      "summary": "OpenAI stuck fighting Musk antitrust suit after Apple finds a way out\nMusk stops attacking Apple over ChatGPT integration but not OpenAI."
     },
     {
-      "title": "Steam Frame: The Ars Technica review",
-      "link": "https://arstechnica.com/gaming/2026/09/steam-frame-the-ars-technica-review/",
-      "raw_summary": "Valve's new $1,049 VR hardware tries to revive an abandoned VR \"revolution.\"",
+      "title": "Founder’s cost-cutting obsession drove Unitree lead in cheap humanoid robots",
+      "link": "https://arstechnica.com/ai/2026/09/founders-cost-cutting-obsession-drove-unitree-lead-in-cheap-humanoid-robots/",
+      "raw_summary": "Wang Xingxing micromanaged Unitree to success—will his leadership style scale?",
       "source": "Ars Technica - All content",
-      "published": "Mon, 14 Sep 2026 17:00:07 +0000",
-      "summary": "Steam Frame: The Ars Technica review\nValve's new $1,049 VR hardware tries to revive an abandoned VR \"revolution.\""
+      "published": "Mon, 14 Sep 2026 19:38:46 +0000",
+      "summary": "Founder’s cost-cutting obsession drove Unitree lead in cheap humanoid robots\nWang Xingxing micromanaged Unitree to success—will his leadership style scale?"
     },
     {
-      "title": "\"Offensively cheap\": Solar power is looking up",
-      "link": "https://arstechnica.com/gadgets/2026/09/offensively-cheap-solar-power-is-looking-up/",
-      "raw_summary": "Chinese-made panels on rooftops across the world are changing the facts of life for big utilities.",
+      "title": "Apple releases iOS 27, macOS Golden Gate 27 with Siri AI and Liquid Glass refinements",
+      "link": "https://arstechnica.com/apple/2026/09/apple-releases-ios-27-macos-golden-gate-27-with-siri-ai-and-liquid-glass-refinements/",
+      "raw_summary": "This is also the last version of macOS to support Rosetta for Intel apps.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 14 Sep 2026 16:29:18 +0000",
-      "summary": "\"Offensively cheap\": Solar power is looking up\nChinese-made panels on rooftops across the world are changing the facts of life for big utilities."
+      "published": "Mon, 14 Sep 2026 19:28:42 +0000",
+      "summary": "Apple releases iOS 27, macOS Golden Gate 27 with Siri AI and Liquid Glass refinements\nThis is also the last version of macOS to support Rosetta for Intel apps."
     },
     {
-      "title": "New corners, new lights for 2028 Volvo XC40",
-      "link": "https://arstechnica.com/cars/2026/09/how-to-make-a-small-suv-slightly-smaller-the-2028-volvo-xc40/",
-      "raw_summary": "The Swedish automaker gives its small SUV a sympathetic makeover.",
+      "title": "AI leaders want to hit the brakes after years of reckless speed",
+      "link": "https://arstechnica.com/ai/2026/09/ai-leaders-want-to-hit-the-brakes-after-years-of-reckless-speed/",
+      "raw_summary": "Safety is the watchword, but there could be ulterior benefits for the industry.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 14 Sep 2026 15:46:06 +0000",
-      "summary": "New corners, new lights for 2028 Volvo XC40\nThe Swedish automaker gives its small SUV a sympathetic makeover."
+      "published": "Mon, 14 Sep 2026 19:06:13 +0000",
+      "summary": "AI leaders want to hit the brakes after years of reckless speed\nSafety is the watchword, but there could be ulterior benefits for the industry."
     },
     {
-      "title": "F1 in Madrid: Like Monaco but twice as long and none of the glamour",
-      "link": "https://arstechnica.com/cars/2026/09/f1-in-madrid-like-monaco-but-twice-as-long-and-none-of-the-glamour/",
-      "raw_summary": "Formula 1’s latest venue might be fun to drive, but the race was processional and dull.",
+      "title": "Online hate researcher keeps hammering X despite deportation threat",
+      "link": "https://arstechnica.com/tech-policy/2026/09/online-hate-researcher-keeps-hammering-x-despite-deportation-threat/",
+      "raw_summary": "US won’t back down from fight to deport technology researchers.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 14 Sep 2026 14:32:35 +0000",
-      "summary": "F1 in Madrid: Like Monaco but twice as long and none of the glamour\nFormula 1’s latest venue might be fun to drive, but the race was processional and dull."
-    },
-    {
-      "title": "Ten-year Treasury yield hits 5% for first time since 2023",
-      "link": "https://www.ft.com/content/06cb850d-089a-4318-88d7-a410e9766b89?syn-25a6b1a6=1",
-      "raw_summary": "World’s most widely watched financial marker moves towards levels not seen in decades as inflation shock from Iran war lingers",
-      "source": "World",
-      "published": "Mon, 14 Sep 2026 16:41:40 GMT",
-      "summary": "Ten-year Treasury yield hits 5% for first time since 2023\nWorld’s most widely watched financial marker moves towards levels not seen in decades as inflation shock from Iran war lingers"
+      "published": "Mon, 14 Sep 2026 18:24:09 +0000",
+      "summary": "Online hate researcher keeps hammering X despite deportation threat\nUS won’t back down from fight to deport technology researchers."
     },
     {
       "title": "Oil hits $109 after Saudi Arabia closes vital export pipeline",
       "link": "https://www.ft.com/content/4845a503-3ddd-4bb7-a469-c51f275bc873?syn-25a6b1a6=1",
       "raw_summary": "Riyadh pulls out of regional talks to de-escalate hostilities over Strait of Hormuz in wake of drone attack last week",
       "source": "World",
-      "published": "Mon, 14 Sep 2026 16:31:56 GMT",
+      "published": "Mon, 14 Sep 2026 20:11:20 GMT",
       "summary": "Oil hits $109 after Saudi Arabia closes vital export pipeline\nRiyadh pulls out of regional talks to de-escalate hostilities over Strait of Hormuz in wake of drone attack last week"
     },
     {
-      "title": "We won’t solve young people’s worklessness without listening to them",
-      "link": "https://www.ft.com/content/7beb54c6-ed34-40d8-baa8-f1c0a2e8f0c3",
-      "raw_summary": "High-quality vocational options must be designed for all children and not as plan B for those who struggle academically",
+      "title": "US tech stocks fall after big AI groups call for slowdown",
+      "link": "https://www.ft.com/content/aa8a1be7-abe0-44b7-bcd3-31fd0a44de08?syn-25a6b1a6=1",
+      "raw_summary": "Memory-chip makers and Nvidia slide on Wall Street as warnings combine with backdrop of rising oil prices and higher borrowing costs",
       "source": "World",
-      "published": "Mon, 14 Sep 2026 16:29:58 GMT",
-      "summary": "We won’t solve young people’s worklessness without listening to them\nHigh-quality vocational options must be designed for all children and not as plan B for those who struggle academically"
+      "published": "Mon, 14 Sep 2026 20:10:48 GMT",
+      "summary": "US tech stocks fall after big AI groups call for slowdown\nMemory-chip makers and Nvidia slide on Wall Street as warnings combine with backdrop of rising oil prices and higher borrowing costs"
     },
     {
-      "title": "France in ‘astonishing’ push to lift EU sanctions on Russian oligarch",
-      "link": "https://www.ft.com/content/b01682ae-1d49-46bb-b23a-d6212574214d?syn-25a6b1a6=1",
-      "raw_summary": "Paris replicates Viktor Orbán’s tactics in bid to free French nationals from Azerbaijan",
+      "title": "Ten-year Treasury yield hits 5% for first time since 2023",
+      "link": "https://www.ft.com/content/06cb850d-089a-4318-88d7-a410e9766b89?syn-25a6b1a6=1",
+      "raw_summary": "World’s most widely watched financial marker moves towards levels not seen in decades as inflation shock from Iran war lingers",
       "source": "World",
-      "published": "Mon, 14 Sep 2026 16:19:28 GMT",
-      "summary": "France in ‘astonishing’ push to lift EU sanctions on Russian oligarch\nParis replicates Viktor Orbán’s tactics in bid to free French nationals from Azerbaijan"
+      "published": "Mon, 14 Sep 2026 20:08:17 GMT",
+      "summary": "Ten-year Treasury yield hits 5% for first time since 2023\nWorld’s most widely watched financial marker moves towards levels not seen in decades as inflation shock from Iran war lingers"
     },
     {
-      "title": "UK government to take over insolvent steelmaker",
-      "link": "https://www.ft.com/content/2b8c8997-0a76-4c48-9384-aac94904b7fb?syn-25a6b1a6=1",
-      "raw_summary": "Norwegian firm Blastr had been in talks to acquire Speciality Steel UK, once part of Sanjeev Gupta’s metals empire",
+      "title": "Tories look at ways to cut UK inheritance tax",
+      "link": "https://www.ft.com/content/a8789270-aeee-4bfd-89a3-207c0a46730d?syn-25a6b1a6=1",
+      "raw_summary": "Conservative leader Kemi Badenoch says the levy mainly caught ‘home-owning middle-class families’ instead of the super wealthy",
       "source": "World",
-      "published": "Mon, 14 Sep 2026 16:17:15 GMT",
-      "summary": "UK government to take over insolvent steelmaker\nNorwegian firm Blastr had been in talks to acquire Speciality Steel UK, once part of Sanjeev Gupta’s metals empire"
+      "published": "Mon, 14 Sep 2026 18:35:48 GMT",
+      "summary": "Tories look at ways to cut UK inheritance tax\nConservative leader Kemi Badenoch says the levy mainly caught ‘home-owning middle-class families’ instead of the super wealthy"
     },
     {
-      "title": "China Passes Halfway Mark of US Soybean Pledge Ahead of Xi Visit",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-14/china-passes-halfway-mark-of-us-soybean-pledge-ahead-of-xi-visit",
-      "raw_summary": "China has fulfilled more than half of its annual US soybean purchase pledge, offering a bright spot for trade between the world’s two largest economies ahead of President Xi Jinping’s visit to Washington.",
-      "source": "Bloomberg Markets",
-      "published": "Mon, 14 Sep 2026 08:05:38 GMT",
-      "summary": "China Passes Halfway Mark of US Soybean Pledge Ahead of Xi Visit\nChina has fulfilled more than half of its annual US soybean purchase pledge, offering a bright spot for trade between the world’s two largest economies ahead of President Xi Jinping’s visit to Washington."
+      "title": "Nigel Farage refuses to say if Reform UK’s £72mn gifts would comply with new cap",
+      "link": "https://www.ft.com/content/757da464-7102-4e69-9598-ba65b5a4c3e9?syn-25a6b1a6=1",
+      "raw_summary": "Under Labour’s proposed rules, overseas donors would be prevented from giving more than £100,000 a year, retrospective to March 25",
+      "source": "World",
+      "published": "Mon, 14 Sep 2026 18:06:45 GMT",
+      "summary": "Nigel Farage refuses to say if Reform UK’s £72mn gifts would comply with new cap\nUnder Labour’s proposed rules, overseas donors would be prevented from giving more than £100,000 a year, retrospective to March 25"
     },
     {
-      "title": "Chip Stocks Sink as AI Slowdown Fears Roil Trading: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-13/us-stock-futures-fall-on-ai-warning-oil-gains-markets-wrap",
-      "raw_summary": "A fresh bout of volatility gripped stocks as chipmakers got hit after leaders of artificial-intelligence giants proposed slowing the technology’s development, with elevated oil prices also weighing on sentiment.",
+      "title": "Boomer Candy Leads To Boomer Cavities: Huszczo",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-14/boomer-candy-leads-to-boomer-cavities-huszczo-video",
+      "raw_summary": "Sam Huszczo, founder & CIO of SGH Wealth Management, joins Scarlet Fu and Eric Balchunas on \"Bloomberg ETF IQ.\" They discuss how investors might be getting a bit overconfident amid this bull market. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Sun, 13 Sep 2026 22:06:01 GMT",
-      "summary": "Chip Stocks Sink as AI Slowdown Fears Roil Trading: Markets Wrap\nA fresh bout of volatility gripped stocks as chipmakers got hit after leaders of artificial-intelligence giants proposed slowing the technology’s development, with elevated oil prices also weighing on sentiment."
+      "published": "Mon, 14 Sep 2026 21:07:35 GMT",
+      "summary": "Boomer Candy Leads To Boomer Cavities: Huszczo\nSam Huszczo, founder & CIO of SGH Wealth Management, joins Scarlet Fu and Eric Balchunas on \"Bloomberg ETF IQ.\" They discuss how investors might be getting a bit overconfident amid this bull market. (Source: Bloomberg)"
     },
     {
-      "title": "US 10-Year Breaches 5% as Inflation, Supply Worries Mount",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-14/us-10-year-yield-breaches-5-as-inflation-supply-worries-mount",
-      "raw_summary": "The US 10-year Treasury yield briefly surpassed 5% for the first time since 2023 on Monday, as mounting inflation angst collided with swelling government and corporate borrowing needs.",
+      "title": "Sysco Seeks to Raise $1 Billion in Share Sale for Jetro Deal",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-14/sysco-to-raise-1-billion-in-share-sale-for-jetro-acquisition",
+      "raw_summary": "Sysco Corp. is seeking to raise $1 billion in a share sale to partially fund the food service firm’s $29.1 billion acquisition of Jetro Restaurant Depot LLC.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 14 Sep 2026 14:29:47 GMT",
-      "summary": "US 10-Year Breaches 5% as Inflation, Supply Worries Mount\nThe US 10-year Treasury yield briefly surpassed 5% for the first time since 2023 on Monday, as mounting inflation angst collided with swelling government and corporate borrowing needs."
+      "published": "Mon, 14 Sep 2026 20:36:27 GMT",
+      "summary": "Sysco Seeks to Raise $1 Billion in Share Sale for Jetro Deal\nSysco Corp. is seeking to raise $1 billion in a share sale to partially fund the food service firm’s $29.1 billion acquisition of Jetro Restaurant Depot LLC."
     },
     {
-      "title": "Junk Firms Plot $13 Billion Debt Refinancings as Rate Hikes Loom",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-14/junk-firms-are-refinancing-debt-early-on-fear-costs-will-rise",
-      "raw_summary": "Junk-rated borrowers across the globe are lining up at least $13 billion in refinancing deals, in a bid to lock in tighter credit spreads ahead of potential central bank interest-rate hikes.",
+      "title": "Crafting America’s Countertops is Killing Workers",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-14/crafting-america-s-countertops-is-killing-workers",
+      "raw_summary": "Silicosis is an incurable workplace disease. Countertop fabrication workers around the country who have contracted the illness are suing the artificial stone industry for billions. However, while California weighs a ban on the product, the manufacturers’ defenders in Congress are trying to ban the lawsuits. Josh Eidelson explains. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Mon, 14 Sep 2026 12:00:54 GMT",
-      "summary": "Junk Firms Plot $13 Billion Debt Refinancings as Rate Hikes Loom\nJunk-rated borrowers across the globe are lining up at least $13 billion in refinancing deals, in a bid to lock in tighter credit spreads ahead of potential central bank interest-rate hikes."
+      "published": "Mon, 14 Sep 2026 21:00:39 GMT",
+      "summary": "Crafting America’s Countertops is Killing Workers\nSilicosis is an incurable workplace disease. Countertop fabrication workers around the country who have contracted the illness are suing the artificial stone industry for billions. However, while California weighs a ban on the product, the manufactur"
     },
     {
-      "title": "Oil Tankers Earn $1 Million a Day as War Leaves Ship Shortage",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-14/oil-tankers-earn-1-million-a-day-as-war-leaves-ship-shortage",
-      "raw_summary": "The cost of hiring an oil tanker on the industry’s benchmark trade route topped $1 million a day for the first time, as the Iran war leaves too few ships willing to cross the Strait of Hormuz to collect cargoes.",
+      "title": "Tema Rolls 'DICE' On SpaceX, Prediction Markets",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-14/tema-rolls-dice-on-spacex-prediction-markets-video",
+      "raw_summary": "Paisley Nardini, head of investment strategy at Tema ETFs, joins Scarlet Fu and Eric Balchunas on \"Bloomberg ETF IQ.\" They discuss Tema Trading & Prediction Markets ETF (ticker: DICE) and Tema Space Innovators ETF (ticker: NASA). \n\n (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Mon, 14 Sep 2026 16:52:58 GMT",
-      "summary": "Oil Tankers Earn $1 Million a Day as War Leaves Ship Shortage\nThe cost of hiring an oil tanker on the industry’s benchmark trade route topped $1 million a day for the first time, as the Iran war leaves too few ships willing to cross the Strait of Hormuz to collect cargoes."
+      "published": "Mon, 14 Sep 2026 20:46:31 GMT",
+      "summary": "Tema Rolls 'DICE' On SpaceX, Prediction Markets\nPaisley Nardini, head of investment strategy at Tema ETFs, joins Scarlet Fu and Eric Balchunas on \"Bloomberg ETF IQ.\" They discuss Tema Trading & Prediction Markets ETF (ticker: DICE) and Tema Space Innovators ETF (ticker: NASA). \n\n (Source: Bloomberg)"
+    },
+    {
+      "title": "Emerging Markets Slide as Oil, AI Concerns Sap Risk Appetite",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-14/emerging-market-stocks-decline-on-mideast-tensions-rate-risks",
+      "raw_summary": "Emerging-market assets fell at the start of a key week for global markets, as elevated oil prices and concerns over the pace of artificial-intelligence development weighed on currencies and stocks ahead of an expected Federal Reserve interest-rate hike — its first since 2023.",
+      "source": "Bloomberg Markets",
+      "published": "Mon, 14 Sep 2026 04:26:21 GMT",
+      "summary": "Emerging Markets Slide as Oil, AI Concerns Sap Risk Appetite\nEmerging-market assets fell at the start of a key week for global markets, as elevated oil prices and concerns over the pace of artificial-intelligence development weighed on currencies and stocks ahead of an expected Federal Reserve inter"
+    },
+    {
+      "title": "Robinhood plans share redemptions, voting rights for stock tokens, after criticism",
+      "link": "https://www.coindesk.com/business/2026/09/14/robinhood-plans-share-redemptions-voting-rights-for-stock-tokens-after-criticism",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Mon, 14 Sep 2026 21:05:13 +0000",
+      "summary": "Robinhood plans share redemptions, voting rights for stock tokens, after criticism\n"
+    },
+    {
+      "title": "Trump's $800 million stake into World Liberty Financial's token now has a timeline to becoming sellable",
+      "link": "https://www.coindesk.com/business/2026/09/14/trump-s-usd800-million-stake-into-world-liberty-financial-s-token-now-has-a-timeline-to-becoming-sellable",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Mon, 14 Sep 2026 19:21:58 +0000",
+      "summary": "Trump's $800 million stake into World Liberty Financial's token now has a timeline to becoming sellable\n"
+    },
+    {
+      "title": "White House crypto adviser says Trump gave up 'historic' ethics powers in compromise",
+      "link": "https://www.coindesk.com/policy/2026/09/14/white-house-crypto-adviser-says-trump-gave-up-historic-ethics-powers-in-compromise",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Mon, 14 Sep 2026 18:34:09 +0000",
+      "summary": "White House crypto adviser says Trump gave up 'historic' ethics powers in compromise\n"
+    },
+    {
+      "title": "Banks escalate stablecoin rewards fight as Senate prepares for a Clarity Act vote",
+      "link": "https://www.coindesk.com/policy/2026/09/14/banks-escalate-stablecoin-rewards-fight-as-senate-prepares-for-a-clarity-act-vote",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Mon, 14 Sep 2026 17:51:20 +0000",
+      "summary": "Banks escalate stablecoin rewards fight as Senate prepares for a Clarity Act vote\n"
     },
     {
       "title": "A bipartisan coalition of 17 state attorneys generals urge Senate to reject Clarity Act",
@@ -289,38 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Mon, 14 Sep 2026 15:57:01 +0000",
       "summary": "A bipartisan coalition of 17 state attorneys generals urge Senate to reject Clarity Act\n"
-    },
-    {
-      "title": "Clarity Act odds surge on prediction markets, but crypto bill still faces long road",
-      "link": "https://www.coindesk.com/policy/2026/09/14/clarity-act-odds-surge-on-prediction-markets-but-crypto-bill-still-faces-long-road",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 14 Sep 2026 15:10:29 +0000",
-      "summary": "Clarity Act odds surge on prediction markets, but crypto bill still faces long road\n"
-    },
-    {
-      "title": "Consensus heads to Hong Kong for third year with expanded focus on AI",
-      "link": "https://www.coindesk.com/business/2026/09/14/consensus-heads-to-hong-kong-for-third-straight-year-with-expanded-focus-on-ai",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 14 Sep 2026 14:37:56 +0000",
-      "summary": "Consensus heads to Hong Kong for third year with expanded focus on AI\n"
-    },
-    {
-      "title": "Don’t let perfect be the enemy of Clarity",
-      "link": "https://www.coindesk.com/opinion/2026/09/14/don-t-let-perfect-be-the-enemy-of-clarity",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 14 Sep 2026 14:34:56 +0000",
-      "summary": "Don’t let perfect be the enemy of Clarity\n"
-    },
-    {
-      "title": "Here is the revised Clarity Act ethics provision Donald Trump has agreed to",
-      "link": "https://www.coindesk.com/policy/2026/09/14/here-is-the-revised-clarity-act-ethics-provision-donald-trump-has-agreed-to",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 14 Sep 2026 14:27:48 +0000",
-      "summary": "Here is the revised Clarity Act ethics provision Donald Trump has agreed to\n"
     }
   ]
 }
