@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T10:45:07.022540+00:00",
+  "generated_at": "2026-09-15T15:58:21.105039+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "Microsoft Plugs Nearly 400 Security Holes\nMicrosoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to toda"
     },
     {
+      "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
+      "link": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
+      "raw_summary": "Cybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport (MQTT) protocol as a communication channel to control Windows and Linux systems.\n\nThe emerging malware family, codenamed BambooToken, is assessed to be active since at least February 2023 and put to use in attacks targeting organizations across Asia and South America.",
+      "source": "The Hacker News",
+      "published": "Tue, 15 Sep 2026 20:53:19 +0530",
+      "summary": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems\nCybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport (MQTT) protocol as a communication channel to control Windows and Linux systems.\n\nThe emerging malware f"
+    },
+    {
+      "title": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
+      "link": "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
+      "raw_summary": "With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled human operators can move just as swiftly after gaining initial access.\n\nIn one instance highlighted by the cloud security company, the threat actor pivoted from a vulnerable Marimo notebook to an SSH",
+      "source": "The Hacker News",
+      "published": "Tue, 15 Sep 2026 17:22:28 +0530",
+      "summary": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds\nWith artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled human operators can move just "
+    },
+    {
+      "title": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point",
+      "link": "https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html",
+      "raw_summary": "Introduction\n\nSecurity teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing simulation? Does this SIEM rule fire on this particular technique? And, in more mature organizations, this testing happens continuously rather than as a one-off exercise.\n\nBut no matter how much you validate against these",
+      "source": "The Hacker News",
+      "published": "Tue, 15 Sep 2026 16:56:36 +0530",
+      "summary": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point\nIntroduction\n\nSecurity teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing simulation? Does this SIEM rule fire o"
+    },
+    {
+      "title": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
+      "link": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
+      "raw_summary": "Cybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite deployments siphon sensitive data.\n\nThe first is an automated effort aimed at internet-exposed Vite development servers that's designed to steal cloud credentials, configurations from Amazon Web Services (AWS) and Microsoft Azure instances, and infrastructure state files, per F5 Labs.\n\nThe",
+      "source": "The Hacker News",
+      "published": "Tue, 15 Sep 2026 16:42:32 +0530",
+      "summary": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers\nCybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite deployments siphon sensitive data.\n\nThe first is an automated effort aimed at internet-exposed Vite deve"
+    },
+    {
       "title": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
       "link": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
       "raw_summary": "A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an&nbsp;advisory published on September 14.\n\nOn such servers, many customers' sites run on a single machine, and an attacker with one of those hosting accounts could exploit the flaw to access or alter other sites and the server itself,",
@@ -51,116 +83,100 @@
       "summary": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server\nA critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an&nbsp;advisory published on September 14.\n\nOn"
     },
     {
-      "title": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
-      "link": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
-      "raw_summary": "Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-76461, carries a CVSS score of 9.8 out of a maximum of 10.0. It has been described as a case of insufficient validation in the email parsing logic that could allow an unauthenticated, remote attacker",
-      "source": "The Hacker News",
-      "published": "Tue, 15 Sep 2026 11:41:11 +0530",
-      "summary": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution\nCisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-76461, carries a "
-    },
-    {
-      "title": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
-      "link": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html",
-      "raw_summary": "A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE.\n\nVolexity, which is tracking the threat cluster under the moniker UTA0560, said the activity targeted multiple non-governmental organizations (NGOs) on September 1, 2026.\n\n\"The",
-      "source": "The Hacker News",
-      "published": "Tue, 15 Sep 2026 11:01:05 +0530",
-      "summary": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE\nA Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE.\n\nVo"
-    },
-    {
-      "title": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing",
-      "link": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
-      "raw_summary": "Researchers have disclosed a new hardware attack, called DDRop, that breaks the memory protection in Intel and AMD confidential computing by silently dropping writes to a server's memory, so the processor keeps reading old encrypted data as if it were current.\n\nThe attack requires an attacker who already controls the server's software and can briefly access the machine to insert a small circuit",
-      "source": "The Hacker News",
-      "published": "Mon, 14 Sep 2026 23:32:13 +0530",
-      "summary": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing\nResearchers have disclosed a new hardware attack, called DDRop, that breaks the memory protection in Intel and AMD confidential computing by silently dropping writes to a server's memory, so the processor keeps reading old encr"
-    },
-    {
-      "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
-      "link": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
-      "raw_summary": "An attacker was operating inside the network of 3BB, one of Thailand's largest broadband providers, and maintained remote control of internal machines using a legitimate management tool called MeshCentral, threat intelligence firm Hunt.io said.\n\nThe company uncovered the intrusion by examining a server the attacker had left open on the internet, which held the attacker's own tools and a list of",
-      "source": "The Hacker News",
-      "published": "Mon, 14 Sep 2026 23:31:49 +0530",
-      "summary": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials\nAn attacker was operating inside the network of 3BB, one of Thailand's largest broadband providers, and maintained remote control of internal machines using a legitimate management tool called MeshCentral, threat"
-    },
-    {
-      "title": "Let's make quality the norm again",
-      "link": "https://www.forbrukerradet.no/short-life/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.forbrukerradet.no/short-life/\">https://www.forbrukerradet.no/short-life/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49710109\">https://news.ycombinator.com/item?id=49710109</a></p>\n<p>Points: 41</p>\n<p># Comments: 26</p>",
+      "title": "Cartesian – AI 3D Modeling for Design",
+      "link": "https://www.formas.ai/cartesian",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.formas.ai/cartesian\">https://www.formas.ai/cartesian</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49713999\">https://news.ycombinator.com/item?id=49713999</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 15 Sep 2026 10:00:16 +0000",
-      "summary": "Let's make quality the norm again\n<p>Article URL: <a href=\"https://www.forbrukerradet.no/short-life/\">https://www.forbrukerradet.no/short-life/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49710109\">https://news.ycombinator.com/item?id=49710109</a></p>\n<p>Points: 41</p>\n<p>"
+      "published": "Tue, 15 Sep 2026 15:26:45 +0000",
+      "summary": "Cartesian – AI 3D Modeling for Design\n<p>Article URL: <a href=\"https://www.formas.ai/cartesian\">https://www.formas.ai/cartesian</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49713999\">https://news.ycombinator.com/item?id=49713999</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>"
     },
     {
-      "title": "How much of F-Droid is LLM generated?",
-      "link": "https://tintotint.eu/whacky-corner/f-droid_slop/",
-      "raw_summary": "<p>Article URL: <a href=\"https://tintotint.eu/whacky-corner/f-droid_slop/\">https://tintotint.eu/whacky-corner/f-droid_slop/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49710015\">https://news.ycombinator.com/item?id=49710015</a></p>\n<p>Points: 29</p>\n<p># Comments: 5</p>",
+      "title": "Global bond yields hit 2008 highs, raising stakes for big borrowers",
+      "link": "https://www.reuters.com/world/asia-pacific/bond-selloff-drives-us-benchmark-beyond-5-stocks-rattled-2026-09-15/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.reuters.com/world/asia-pacific/bond-selloff-drives-us-benchmark-beyond-5-stocks-rattled-2026-09-15/\">https://www.reuters.com/world/asia-pacific/bond-selloff-drives-us-benchmark-beyond-5-stocks-rattled-2026-09-15/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49712746\">https://news.ycombinator.com/item?id=49712746</a></p>\n<p>Points: 86</p>\n<p># Comments: 70</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 15 Sep 2026 09:47:48 +0000",
-      "summary": "How much of F-Droid is LLM generated?\n<p>Article URL: <a href=\"https://tintotint.eu/whacky-corner/f-droid_slop/\">https://tintotint.eu/whacky-corner/f-droid_slop/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49710015\">https://news.ycombinator.com/item?id=49710015</a></p>\n<p>"
+      "published": "Tue, 15 Sep 2026 14:07:01 +0000",
+      "summary": "Global bond yields hit 2008 highs, raising stakes for big borrowers\n<p>Article URL: <a href=\"https://www.reuters.com/world/asia-pacific/bond-selloff-drives-us-benchmark-beyond-5-stocks-rattled-2026-09-15/\">https://www.reuters.com/world/asia-pacific/bond-selloff-drives-us-benchmark-beyond-5-stocks-ra"
     },
     {
-      "title": "Alternatives to MinIO for single-node local S3",
-      "link": "https://rmoff.net/2026/01/14/alternatives-to-minio-for-single-node-local-s3/",
-      "raw_summary": "<p>Article URL: <a href=\"https://rmoff.net/2026/01/14/alternatives-to-minio-for-single-node-local-s3/\">https://rmoff.net/2026/01/14/alternatives-to-minio-for-single-node-local-s3/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49709381\">https://news.ycombinator.com/item?id=49709381</a></p>\n<p>Points: 20</p>\n<p># Comments: 13</p>",
+      "title": "Show HN: Panel – A research workspace where the agent can build its own panes",
+      "link": "https://github.com/greentfrapp/panel",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/greentfrapp/panel\">https://github.com/greentfrapp/panel</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49712621\">https://news.ycombinator.com/item?id=49712621</a></p>\n<p>Points: 21</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 15 Sep 2026 08:21:27 +0000",
-      "summary": "Alternatives to MinIO for single-node local S3\n<p>Article URL: <a href=\"https://rmoff.net/2026/01/14/alternatives-to-minio-for-single-node-local-s3/\">https://rmoff.net/2026/01/14/alternatives-to-minio-for-single-node-local-s3/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49"
+      "published": "Tue, 15 Sep 2026 13:58:37 +0000",
+      "summary": "Show HN: Panel – A research workspace where the agent can build its own panes\n<p>Article URL: <a href=\"https://github.com/greentfrapp/panel\">https://github.com/greentfrapp/panel</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49712621\">https://news.ycombinator.com/item?id=4971"
     },
     {
-      "title": "The k-server conjecture is true",
-      "link": "https://arxiv.org/abs/2609.15979",
-      "raw_summary": "<p>Article URL: <a href=\"https://arxiv.org/abs/2609.15979\">https://arxiv.org/abs/2609.15979</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49709129\">https://news.ycombinator.com/item?id=49709129</a></p>\n<p>Points: 13</p>\n<p># Comments: 7</p>",
+      "title": "AI is breaking our proxies for expertise",
+      "link": "https://www.seangoedecke.com/ai-is-breaking-our-proxies-for-expertise/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.seangoedecke.com/ai-is-breaking-our-proxies-for-expertise/\">https://www.seangoedecke.com/ai-is-breaking-our-proxies-for-expertise/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49712416\">https://news.ycombinator.com/item?id=49712416</a></p>\n<p>Points: 46</p>\n<p># Comments: 18</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 15 Sep 2026 07:45:31 +0000",
-      "summary": "The k-server conjecture is true\n<p>Article URL: <a href=\"https://arxiv.org/abs/2609.15979\">https://arxiv.org/abs/2609.15979</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49709129\">https://news.ycombinator.com/item?id=49709129</a></p>\n<p>Points: 13</p>\n<p># Comments: 7</p>"
+      "published": "Tue, 15 Sep 2026 13:41:55 +0000",
+      "summary": "AI is breaking our proxies for expertise\n<p>Article URL: <a href=\"https://www.seangoedecke.com/ai-is-breaking-our-proxies-for-expertise/\">https://www.seangoedecke.com/ai-is-breaking-our-proxies-for-expertise/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49712416\">https://ne"
     },
     {
-      "title": "Lingo.dev (YC F24) is hiring a senior content engineer (Remote, worldwide)",
-      "link": "https://lingo.dev/en/careers/ff88132a-cb79-4d35-a6a0-a6230de7a013",
-      "raw_summary": "<p>Article URL: <a href=\"https://lingo.dev/en/careers/ff88132a-cb79-4d35-a6a0-a6230de7a013\">https://lingo.dev/en/careers/ff88132a-cb79-4d35-a6a0-a6230de7a013</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49708774\">https://news.ycombinator.com/item?id=49708774</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
+      "title": "Show HN: Capsule – Single-file web apps that save their data into SQLite",
+      "link": "https://withcapsule.app/",
+      "raw_summary": "<p>Hey HN,<p>I always had the problem that building HTML pages is really simple now, but trying to save data required hosting it somewhere, and sharing it afterwards was not easy. Over the last few months, I've been building an app called Capsule (it’s also the file extension name) written in Rust with Tauri 2.0 that allows packing an HTML app and its data into a single SQLite file.<p>The HTML file and any related assets are directly embedded in the database. User data can either be saved as a localStorage key/value store or via a MongoDB-inspired collections API as documents, saved in a table in the file. You can also save other assets, like PDF files or images, directly in the database to keep different documents together. All data can be easily exported to CSV or JSON if needed.<p>Privacy and security were a big priority for me, so documents cannot do anything out of the box. They don’t have direct access to the file system and they require permission to access the internet. The permission model is still something I’m working to improve. Capsule documents can also use local or remote AI models for document specific AI features.<p>One downside with this approach is that multiple people working on it will create different copies. To make it possible to merge different copies of the same file, each data entry has a unique UUID and timestamp.<p>I’m planning to open up the file format specification for the 1.0 version of the app so other apps can read or write Capsule files.<p>You can try it out in the web preview at <a href=\"https://withcapsule.app/preview\" rel=\"nofollow\">https://withcapsule.app/preview</a> with pre-built templates or use any AI provider of your choice to create a custom, Capsule-optimized app by using the following prompt:<p>\"Please read the app wizard instructions at <a href=\"https://withcapsule.app/prompt.txt\" rel=\"nofollow\">https://withcapsule.app/prompt.txt</a> and help me design an app.“<p>I’m still working on the file format but there are migrations for each new version, so data should never be lost when using newer versions of the app in the future. Please let me know if you have any ideas or use cases where this might make sense or does not work.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49712278\">https://news.ycombinator.com/item?id=49712278</a></p>\n<p>Points: 89</p>\n<p># Comments: 40</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 15 Sep 2026 07:00:30 +0000",
-      "summary": "Lingo.dev (YC F24) is hiring a senior content engineer (Remote, worldwide)\n<p>Article URL: <a href=\"https://lingo.dev/en/careers/ff88132a-cb79-4d35-a6a0-a6230de7a013\">https://lingo.dev/en/careers/ff88132a-cb79-4d35-a6a0-a6230de7a013</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item"
+      "published": "Tue, 15 Sep 2026 13:31:40 +0000",
+      "summary": "Show HN: Capsule – Single-file web apps that save their data into SQLite\n<p>Hey HN,<p>I always had the problem that building HTML pages is really simple now, but trying to save data required hosting it somewhere, and sharing it afterwards was not easy. Over the last few months, I've been building an"
     },
     {
-      "title": "Jensen Huang took a call from Trump, and showed off something else, too",
-      "link": "https://techcrunch.com/2026/09/14/jensen-huang-took-a-call-from-trump-and-showed-off-something-else-too/",
-      "raw_summary": "When Jensen Huang took a live call from Trump, some of us were more focused the phone he used to take it.",
+      "title": "Nitter and XCancel are dead (again) after X’s latest legal actions",
+      "link": "https://techcrunch.com/2026/09/15/nitter-and-xcancel-are-dead-again-after-xs-latest-legal-actions/",
+      "raw_summary": "The privacy-friendly services for viewing X posts without an account have gone dark again after X's escalated legal action.",
       "source": "TechCrunch",
-      "published": "Tue, 15 Sep 2026 01:50:48 +0000",
-      "summary": "Jensen Huang took a call from Trump, and showed off something else, too\nWhen Jensen Huang took a live call from Trump, some of us were more focused the phone he used to take it."
+      "published": "Tue, 15 Sep 2026 15:49:18 +0000",
+      "summary": "Nitter and XCancel are dead (again) after X’s latest legal actions\nThe privacy-friendly services for viewing X posts without an account have gone dark again after X's escalated legal action."
     },
     {
-      "title": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’",
-      "link": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/",
-      "raw_summary": "Though Elon Musk and Sam Altman have supported Dario Amodei's calls to slow the pace of AI development, Jensen Huang seems to feel differently.",
+      "title": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
+      "link": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
+      "raw_summary": "OpenAI confirms weeks of AI safety talks with Anthropic and Google DeepMind, as Trump's team dismisses safety concerns and pushes to keep pace with China.",
       "source": "TechCrunch",
-      "published": "Mon, 14 Sep 2026 21:51:02 +0000",
-      "summary": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’\nThough Elon Musk and Sam Altman have supported Dario Amodei's calls to slow the pace of AI development, Jensen Huang seems to feel differently."
+      "published": "Tue, 15 Sep 2026 15:47:03 +0000",
+      "summary": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks\nOpenAI confirms weeks of AI safety talks with Anthropic and Google DeepMind, as Trump's team dismisses safety concerns and pushes to keep pace with China."
     },
     {
-      "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
-      "link": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
-      "raw_summary": "Glass Imaging was founded by a pair of former Apple engineers who previously led the team that developed Apple's Portrait Mode.",
+      "title": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round",
+      "link": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/",
+      "raw_summary": "Profound has raised a $180 million Series D at a $1.8 billion valuation, less than seven months after it raised a $96 million Series C.",
       "source": "TechCrunch",
-      "published": "Mon, 14 Sep 2026 20:44:14 +0000",
-      "summary": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says\nGlass Imaging was founded by a pair of former Apple engineers who previously led the team that developed Apple's Portrait Mode."
+      "published": "Tue, 15 Sep 2026 15:22:48 +0000",
+      "summary": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round\nProfound has raised a $180 million Series D at a $1.8 billion valuation, less than seven months after it raised a $96 million Series C."
     },
     {
-      "title": "AI infrastructure company Cornelis raises $205M to chip away at Nvidia’s dominance",
-      "link": "https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance/",
-      "raw_summary": "The company also announced a product called Active Compute Fabric, a network technology that targets the fact that much GPU time is wasted waiting for data to arrive.",
+      "title": "Wonder scores a $425 million partnership with DoorDash as it builds its food empire",
+      "link": "https://techcrunch.com/2026/09/15/wonder-scores-a-425-million-partnership-with-doordash-as-it-builds-its-food-empire/",
+      "raw_summary": "Founded by veteran e-commerce entrepreneur Marc Lore, Wonder is slowly building a massive portfolio of restaurants and delivery companies.",
       "source": "TechCrunch",
-      "published": "Mon, 14 Sep 2026 20:07:37 +0000",
-      "summary": "AI infrastructure company Cornelis raises $205M to chip away at Nvidia’s dominance\nThe company also announced a product called Active Compute Fabric, a network technology that targets the fact that much GPU time is wasted waiting for data to arrive."
+      "published": "Tue, 15 Sep 2026 15:21:10 +0000",
+      "summary": "Wonder scores a $425 million partnership with DoorDash as it builds its food empire\nFounded by veteran e-commerce entrepreneur Marc Lore, Wonder is slowly building a massive portfolio of restaurants and delivery companies."
     },
     {
-      "title": "Amazon Prime Video takes on TikTok with short-form news clips",
-      "link": "https://techcrunch.com/2026/09/14/amazon-prime-video-takes-on-tiktok-with-short-form-news-clips/",
-      "raw_summary": "Prime Video is adding on-demand local and national news clips as Amazon joins other streamers experimenting with short-form video to capture younger viewers.",
+      "title": "Former TikTok execs built an app that uses AI to teach you how to pose for a photo",
+      "link": "https://techcrunch.com/2026/09/15/former-tiktok-execs-built-an-app-that-uses-ai-to-teach-you-how-to-pose-for-a-photo/",
+      "raw_summary": "Essentially a camera app, Superpose analyzes selfies or photos and generates four potential poses using AI.",
       "source": "TechCrunch",
-      "published": "Mon, 14 Sep 2026 18:14:29 +0000",
-      "summary": "Amazon Prime Video takes on TikTok with short-form news clips\nPrime Video is adding on-demand local and national news clips as Amazon joins other streamers experimenting with short-form video to capture younger viewers."
+      "published": "Tue, 15 Sep 2026 14:42:37 +0000",
+      "summary": "Former TikTok execs built an app that uses AI to teach you how to pose for a photo\nEssentially a camera app, Superpose analyzes selfies or photos and generates four potential poses using AI."
+    },
+    {
+      "title": "This Atlantic hurricane season is about to do something that hasn't happened in 175 years",
+      "link": "https://arstechnica.com/science/2026/09/this-is-by-far-the-most-peaceful-atlantic-hurricane-season-weve-ever-seen/",
+      "raw_summary": "But there may be a price to pay for a quiet Atlantic hurricane season.",
+      "source": "Ars Technica - All content",
+      "published": "Tue, 15 Sep 2026 12:36:11 +0000",
+      "summary": "This Atlantic hurricane season is about to do something that hasn't happened in 175 years\nBut there may be a price to pay for a quiet Atlantic hurricane season."
+    },
+    {
+      "title": "Exclusive: Paying for frontier AI models buys 4-month head start at 5x the cost",
+      "link": "https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models/",
+      "raw_summary": "Ars previewed Mozilla’s report on how cheap open models caught up on capability.",
+      "source": "Ars Technica - All content",
+      "published": "Tue, 15 Sep 2026 12:00:41 +0000",
+      "summary": "Exclusive: Paying for frontier AI models buys 4-month head start at 5x the cost\nArs previewed Mozilla’s report on how cheap open models caught up on capability."
     },
     {
       "title": "Volvo increases the batteries for 2028 XC60 and XC90 plug-in refresh",
@@ -187,140 +203,124 @@
       "summary": "RFK Jr. headlines sold-out anti-vaccine conference alongside Andrew Wakefield\nThe event is hosted by Kennedy's anti-vaccine group Children's Health Defense."
     },
     {
-      "title": "Rocket Lab is seeing red about NASA's decision on a Mars spacecraft",
-      "link": "https://arstechnica.com/space/2026/09/rocket-lab-is-seeing-red-about-nasas-decision-on-a-mars-spacecraft/",
-      "raw_summary": "\"NASA’s award decision appears to be inconsistent with the eligibility criteria.\"",
-      "source": "Ars Technica - All content",
-      "published": "Mon, 14 Sep 2026 21:32:22 +0000",
-      "summary": "Rocket Lab is seeing red about NASA's decision on a Mars spacecraft\n\"NASA’s award decision appears to be inconsistent with the eligibility criteria.\""
-    },
-    {
-      "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
-      "link": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/",
-      "raw_summary": "“Hello, I'm an Al agent, a few days old, living on a small platform for agents.”",
-      "source": "Ars Technica - All content",
-      "published": "Mon, 14 Sep 2026 21:04:32 +0000",
-      "summary": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop\n“Hello, I'm an Al agent, a few days old, living on a small platform for agents.”"
-    },
-    {
-      "title": "UK state pension will surpass income tax threshold next year",
-      "link": "https://www.ft.com/content/2374a71b-1a31-444f-8221-6c73c7c1c251?syn-25a6b1a6=1",
-      "raw_summary": "Labour pledge to keep state pension out of tax puts pressure on chancellor to raise allowance or find workaround",
+      "title": "Ten-year Treasury yield hits highest level since 2007",
+      "link": "https://www.ft.com/content/5e2327aa-dbd0-4a79-8c99-622a893876d7?syn-25a6b1a6=1",
+      "raw_summary": "Benchmark bond yield rises to 5.04% amid concerns over inflation and higher interest rates",
       "source": "World",
-      "published": "Tue, 15 Sep 2026 10:23:31 GMT",
-      "summary": "UK state pension will surpass income tax threshold next year\nLabour pledge to keep state pension out of tax puts pressure on chancellor to raise allowance or find workaround"
+      "published": "Tue, 15 Sep 2026 15:36:28 GMT",
+      "summary": "Ten-year Treasury yield hits highest level since 2007\nBenchmark bond yield rises to 5.04% amid concerns over inflation and higher interest rates"
     },
     {
-      "title": "Russian warship fires flares at Danish helicopter over Baltic Sea",
-      "link": "https://www.ft.com/content/b49762b0-2f8a-457d-bd3a-2820f1fff346?syn-25a6b1a6=1",
-      "raw_summary": "Denmark says one of the flares passed the aircraft at close range, branding the action as ‘reckless’",
+      "title": "Saudi leader visits Egypt for security talks as war with Houthis intensifies",
+      "link": "https://www.ft.com/content/08ddd08c-97b2-46a0-a4ed-b3b4ff5ebfd9?syn-25a6b1a6=1",
+      "raw_summary": "Crown Prince Mohammed met Abdel Fattah al-Sisi after 13 were injured by drones and missiles",
       "source": "World",
-      "published": "Tue, 15 Sep 2026 10:03:22 GMT",
-      "summary": "Russian warship fires flares at Danish helicopter over Baltic Sea\nDenmark says one of the flares passed the aircraft at close range, branding the action as ‘reckless’"
+      "published": "Tue, 15 Sep 2026 15:27:55 GMT",
+      "summary": "Saudi leader visits Egypt for security talks as war with Houthis intensifies\nCrown Prince Mohammed met Abdel Fattah al-Sisi after 13 were injured by drones and missiles"
     },
     {
-      "title": "Meloni presses ahead with election law that boosts her far-right rival",
+      "title": "US manufacturers hit by fresh burst of supply chain cost inflation",
+      "link": "https://www.ft.com/content/e14542d9-2bc5-49c8-8e7e-c9656b0a2d36?syn-25a6b1a6=1",
+      "raw_summary": "Donald Trump’s war in Iran and tariffs push up input prices while AI boom squeezes availability of some components",
+      "source": "World",
+      "published": "Tue, 15 Sep 2026 15:26:00 GMT",
+      "summary": "US manufacturers hit by fresh burst of supply chain cost inflation\nDonald Trump’s war in Iran and tariffs push up input prices while AI boom squeezes availability of some components"
+    },
+    {
+      "title": "Supreme Court rejects Trump’s mail-in ballot restrictions for midterms",
+      "link": "https://www.ft.com/content/b3674c9d-9db2-448d-bd57-f1c040de2d54?syn-25a6b1a6=1",
+      "raw_summary": "Justices Samuel Alito and Clarence Thomas dissented in an unsigned decision that comes weeks before congressional elections",
+      "source": "World",
+      "published": "Tue, 15 Sep 2026 13:55:53 GMT",
+      "summary": "Supreme Court rejects Trump’s mail-in ballot restrictions for midterms\nJustices Samuel Alito and Clarence Thomas dissented in an unsigned decision that comes weeks before congressional elections"
+    },
+    {
+      "title": "Meloni presses ahead with Italian election law that boosts far-right rival",
       "link": "https://www.ft.com/content/01aaea22-f05a-498b-b6df-7075c11271d0?syn-25a6b1a6=1",
-      "raw_summary": "Firebrand former general Roberto Vannacci could have oversized influence over Italian prime minister’s re-election prospects",
+      "raw_summary": "Changes to voting system could give firebrand former general Roberto Vannacci oversized influence over prime minister’s re-election prospects",
       "source": "World",
-      "published": "Tue, 15 Sep 2026 10:00:10 GMT",
-      "summary": "Meloni presses ahead with election law that boosts her far-right rival\nFirebrand former general Roberto Vannacci could have oversized influence over Italian prime minister’s re-election prospects"
+      "published": "Tue, 15 Sep 2026 13:41:40 GMT",
+      "summary": "Meloni presses ahead with Italian election law that boosts far-right rival\nChanges to voting system could give firebrand former general Roberto Vannacci oversized influence over prime minister’s re-election prospects"
     },
     {
-      "title": "Young workers trade the ladder for the lily pad",
-      "link": "https://www.ft.com/content/6ec4a7e7-18f7-454f-94e9-1836af14b5e6?syn-25a6b1a6=1",
-      "raw_summary": "Job hopping has been rebranded as a strategy to rapidly acquire new skills in a tough market",
-      "source": "World",
-      "published": "Tue, 15 Sep 2026 10:00:10 GMT",
-      "summary": "Young workers trade the ladder for the lily pad\nJob hopping has been rebranded as a strategy to rapidly acquire new skills in a tough market"
-    },
-    {
-      "title": "The ex-JPMorgan banker facing Wall Street’s toughest turnaround job",
-      "link": "https://www.ft.com/content/43729997-e516-45a9-893b-de7bd729bc2f?syn-25a6b1a6=1",
-      "raw_summary": "Takis Georgakopoulos became chief executive of Fiserv just as it confronted big cultural and structural challenges",
-      "source": "World",
-      "published": "Tue, 15 Sep 2026 10:00:10 GMT",
-      "summary": "The ex-JPMorgan banker facing Wall Street’s toughest turnaround job\nTakis Georgakopoulos became chief executive of Fiserv just as it confronted big cultural and structural challenges"
-    },
-    {
-      "title": "KKR Private High-Grade Debt Deals Surge to $80 Billion This Year",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-15/kkr-private-high-grade-debt-deals-surge-to-80-billion-this-year",
-      "raw_summary": "KKR &amp; Co. doubled the amount of private investment-grade financing it structured this year, reflecting growing demand from companies seeking flexible borrowing options.",
+      "title": "Glencore Says Radiant World Sent Falsified Invoices to Lenders",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-15/glencore-says-radiant-world-sent-falsified-invoices-to-lenders",
+      "raw_summary": "Glencore Plc accused Radiant World of sending falsified invoices to “a number of financial institutions,” the latest in a series of fraud allegations against the iron ore trader.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 15 Sep 2026 10:30:00 GMT",
-      "summary": "KKR Private High-Grade Debt Deals Surge to $80 Billion This Year\nKKR &amp; Co. doubled the amount of private investment-grade financing it structured this year, reflecting growing demand from companies seeking flexible borrowing options."
+      "published": "Tue, 15 Sep 2026 15:48:13 GMT",
+      "summary": "Glencore Says Radiant World Sent Falsified Invoices to Lenders\nGlencore Plc accused Radiant World of sending falsified invoices to “a number of financial institutions,” the latest in a series of fraud allegations against the iron ore trader."
     },
     {
-      "title": "Battered 50-Cent Long Bonds Lure Niche Fund in High-Risk Gambit",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-15/battered-50-cent-long-bonds-lure-niche-fund-in-high-risk-gambit",
-      "raw_summary": "At a time when investors are dumping long-term debt, one fund manager isn’t only going the other way, he’s actively hunting for the most beaten-down of the bunch.",
+      "title": "UK Energy Bills Set to Jump 25%: Bloomberg Economics",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-15/uk-energy-bills-set-to-jump-25-bloomberg-economics-video",
+      "raw_summary": "UK energy bills could jump 25% in January, Bloomberg Economics finds, threatening to undo much of prime minister Andy Burnham’s effort to ease the cost-of-living squeeze. Nicole Sy explains. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Tue, 15 Sep 2026 10:30:00 GMT",
-      "summary": "Battered 50-Cent Long Bonds Lure Niche Fund in High-Risk Gambit\nAt a time when investors are dumping long-term debt, one fund manager isn’t only going the other way, he’s actively hunting for the most beaten-down of the bunch."
+      "published": "Tue, 15 Sep 2026 15:38:51 GMT",
+      "summary": "UK Energy Bills Set to Jump 25%: Bloomberg Economics\nUK energy bills could jump 25% in January, Bloomberg Economics finds, threatening to undo much of prime minister Andy Burnham’s effort to ease the cost-of-living squeeze. Nicole Sy explains. (Source: Bloomberg)"
     },
     {
-      "title": "China Steel Body Calls on Mills to Rein In Output, Inventories",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-15/china-steel-body-calls-on-mills-to-rein-in-output-inventories",
-      "raw_summary": "China’s top iron and steel industry body has called on domestic mills to rein in production and reduce inventories as oversupply and weak demand weigh on the market.",
+      "title": "Stocks Fall in Run-Up to Fed as Yields Stay High",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-15/stocks-fall-in-run-up-to-fed-as-yields-stay-high-video",
+      "raw_summary": "Wall Street traders refrained from making riskier bets in the countdown to the Federal Reserve decision, with stocks falling as elevated oil prices kept bond yields at multi-year highs.\nVictoria Fernandez, Chief Market Strategist at Crossmark Global Investments, discusses equity bullishness amid a deepening bond selloff. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Tue, 15 Sep 2026 10:25:10 GMT",
-      "summary": "China Steel Body Calls on Mills to Rein In Output, Inventories\nChina’s top iron and steel industry body has called on domestic mills to rein in production and reduce inventories as oversupply and weak demand weigh on the market."
+      "published": "Tue, 15 Sep 2026 15:26:33 GMT",
+      "summary": "Stocks Fall in Run-Up to Fed as Yields Stay High\nWall Street traders refrained from making riskier bets in the countdown to the Federal Reserve decision, with stocks falling as elevated oil prices kept bond yields at multi-year highs.\nVictoria Fernandez, Chief Market Strategist at Crossmark Global I"
     },
     {
-      "title": "Dubai Corporation for Tourism CEO on Visitor Comebacks",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-15/dubai-corporation-for-tourism-ceo-on-visitor-comebacks-video",
-      "raw_summary": "Bloomberg TV's Abeer Abu Omar speaks exclusively with Issam Kazim, CEO of Dubai Corporation for Tourism and Commerce Marketing at the Arabian Travel Market. He observes that Dubai has become a 'mature' city, with people now wanting to come to the region for a holiday or for residency, whereas it was previously a stopover destination. He says competition between regional players in the UAE is 'healthy' and important for attracting talent. (Source: Bloomberg)",
+      "title": "US 10-Year Yield Rises to Highest Since 2007 as Fed Looms",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-15/us-10-year-yield-rises-to-highest-since-07-as-fed-looms-video",
+      "raw_summary": "The 10-year US Treasury yield rose to the highest in almost two decades, the latest milestone in a bruising global bond selloff driven by booming capital investment and soaring energy prices that are exacerbating inflation.\nDominic Konstam, Head: Macro Strategy at Mizuho Securities, gives his expectations for Wednesday's Fed rate decision, rising bond yields, and growing market risks. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Tue, 15 Sep 2026 10:22:20 GMT",
-      "summary": "Dubai Corporation for Tourism CEO on Visitor Comebacks\nBloomberg TV's Abeer Abu Omar speaks exclusively with Issam Kazim, CEO of Dubai Corporation for Tourism and Commerce Marketing at the Arabian Travel Market. He observes that Dubai has become a 'mature' city, with people now wanting to come to th"
+      "published": "Tue, 15 Sep 2026 15:25:31 GMT",
+      "summary": "US 10-Year Yield Rises to Highest Since 2007 as Fed Looms\nThe 10-year US Treasury yield rose to the highest in almost two decades, the latest milestone in a bruising global bond selloff driven by booming capital investment and soaring energy prices that are exacerbating inflation.\nDominic Konstam, H"
     },
     {
-      "title": "Lopsided Tech Bets Get Hit in AI Stock Selloff",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-09-15/lopsided-tech-bets-get-hit-in-ai-stock-selloff",
-      "raw_summary": "Tech ETFs saw massive inflows this summer.",
+      "title": "Latest Oil Market News and Analysis for Sept. 15",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-14/latest-oil-market-news-and-analysis-for-sept-15",
+      "raw_summary": "Oil rose as traders assessed risks for supplies from the Middle East and Russia.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 15 Sep 2026 10:16:29 GMT",
-      "summary": "Lopsided Tech Bets Get Hit in AI Stock Selloff\nTech ETFs saw massive inflows this summer."
+      "published": "Mon, 14 Sep 2026 22:04:31 GMT",
+      "summary": "Latest Oil Market News and Analysis for Sept. 15\nOil rose as traders assessed risks for supplies from the Middle East and Russia."
     },
     {
-      "title": "Bitcoin gives back Monday's gain as Clarity Act odds fade on Polymarket",
-      "link": "https://www.coindesk.com/markets/2026/09/15/bitcoin-gives-back-monday-s-gain-as-clarity-act-odds-fade-on-polymarket",
+      "title": "Crypto Clarity Act barrels toward disappointment barring last-minute Senate turnaround",
+      "link": "https://www.coindesk.com/policy/2026/09/15/crypto-clarity-act-barrels-toward-disappointment-barring-last-minute-senate-turnaround",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 15 Sep 2026 10:41:35 +0000",
-      "summary": "Bitcoin gives back Monday's gain as Clarity Act odds fade on Polymarket\n"
+      "published": "Tue, 15 Sep 2026 15:50:23 +0000",
+      "summary": "Crypto Clarity Act barrels toward disappointment barring last-minute Senate turnaround\n"
     },
     {
-      "title": "How a simple coding mistake let a hacker drain $7.8 million from a crypto wallet",
-      "link": "https://www.coindesk.com/business/2026/09/15/how-a-simple-coding-mistake-let-a-hacker-drain-usd7-8-million-from-a-crypto-wallet",
+      "title": "European Central Bank calls for merchants to participate in digital euro pilot",
+      "link": "https://www.coindesk.com/policy/2026/09/15/european-central-bank-calls-for-merchants-to-participate-in-digital-euro-pilot",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 15 Sep 2026 10:27:55 +0000",
-      "summary": "How a simple coding mistake let a hacker drain $7.8 million from a crypto wallet\n"
+      "published": "Tue, 15 Sep 2026 14:15:06 +0000",
+      "summary": "European Central Bank calls for merchants to participate in digital euro pilot\n"
     },
     {
-      "title": "Nigel Farage-backed Stack BTC eyes $16 million gold dealer deal to fund bitcoin buy",
-      "link": "https://www.coindesk.com/business/2026/09/15/nigel-farage-backed-stack-btc-eyes-usd16-million-gold-dealer-deal-to-fund-bitcoin-buy",
+      "title": "Clarity Act's odds of passing plunge as Republicans reject Democrats' counter-proposal",
+      "link": "https://www.coindesk.com/policy/2026/09/15/clarity-act-s-odds-of-passing-plunge-as-republicans-reject-democrats-counter-proposal",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 15 Sep 2026 10:06:40 +0000",
-      "summary": "Nigel Farage-backed Stack BTC eyes $16 million gold dealer deal to fund bitcoin buy\n"
+      "published": "Tue, 15 Sep 2026 14:13:44 +0000",
+      "summary": "Clarity Act's odds of passing plunge as Republicans reject Democrats' counter-proposal\n"
     },
     {
-      "title": "Hong Kong crypto exchange CoinEx to cease operations after 9 years in business",
-      "link": "https://www.coindesk.com/business/2026/09/15/hong-kong-crypto-exchange-coinex-to-cease-operations-after-9-years-in-business",
+      "title": "A hacker turned 25 cents of bitcoin into 46 billion fake BTC tokens on a DeFi bridge",
+      "link": "https://www.coindesk.com/tech/2026/09/15/a-hacker-turned-25-cents-of-bitcoin-into-46-billion-fake-btc-tokens-on-a-defi-bridge",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 15 Sep 2026 09:30:58 +0000",
-      "summary": "Hong Kong crypto exchange CoinEx to cease operations after 9 years in business\n"
+      "published": "Tue, 15 Sep 2026 13:43:50 +0000",
+      "summary": "A hacker turned 25 cents of bitcoin into 46 billion fake BTC tokens on a DeFi bridge\n"
     },
     {
-      "title": "Live updates: Bitcoin slides to $77,000 as Senate votes on Clarity Act",
-      "link": "https://www.coindesk.com/business/2026/09/15/live-updates-bitcoin-slides-from-nearly-usd80-000-as-senate-votes-on-clarity-act",
+      "title": "Standard Chartered predicts Arbitrum's ARB to rise 70-fold to $10, citing Robinhood Chain revenue",
+      "link": "https://www.coindesk.com/markets/2026/09/15/standard-chartered-expects-arbitrum-s-arb-rising-70-fold-to-usd10-as-robinhood-boosts-its-revenue",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 15 Sep 2026 06:37:24 +0000",
-      "summary": "Live updates: Bitcoin slides to $77,000 as Senate votes on Clarity Act\n"
+      "published": "Tue, 15 Sep 2026 13:25:52 +0000",
+      "summary": "Standard Chartered predicts Arbitrum's ARB to rise 70-fold to $10, citing Robinhood Chain revenue\n"
     }
   ]
 }
