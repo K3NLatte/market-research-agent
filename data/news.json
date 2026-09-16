@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T02:37:36.754271+00:00",
+  "generated_at": "2026-09-16T10:33:41.842412+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,22 @@
       "summary": "Microsoft Plugs Nearly 400 Security Holes\nMicrosoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to toda"
     },
     {
+      "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
+      "link": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
+      "raw_summary": "Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs.\n\n\"This vulnerability can be leveraged by unauthenticated attackers to upload arbitrary files, including PHP backdoors, and achieve remote code execution,\" Wordfence said.\n\nThe WordPress security company said it has blocked over",
+      "source": "The Hacker News",
+      "published": "Wed, 16 Sep 2026 11:18:28 +0530",
+      "summary": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells\nThreat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs.\n\n\"This vulnerability can be leveraged by unauthenticated"
+    },
+    {
+      "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
+      "link": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
+      "raw_summary": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr.\n\nThe vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0), is a case of improper verification of a cryptographic signature that could result in account takeover. Hacktron Team has been credited with discovering and reporting the flaw.\n\n\"JWT authentication",
+      "source": "The Hacker News",
+      "published": "Wed, 16 Sep 2026 10:48:06 +0530",
+      "summary": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens\nA critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr.\n\nThe vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0), is a case o"
+    },
+    {
       "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
       "link": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
       "raw_summary": "Cybersecurity researchers have shed light on a previously undocumented Brazilian banking malware operation that delivers a toolkit called KREMLIN.\n\nElastic Security Labs is tracking the activity under the moniker REF9334. Active since at least May 2025, the threat actor has used lures that impersonate a dozen Brazilian banks and install a malicious browser extension on Google Chrome and",
@@ -67,60 +83,44 @@
       "summary": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems\nCybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport (MQTT) protocol as a communication channel to control Windows and Linux systems.\n\nThe emerging malware f"
     },
     {
-      "title": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
-      "link": "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
-      "raw_summary": "With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled human operators can move just as swiftly after gaining initial access.\n\nIn one instance highlighted by the cloud security company, the threat actor pivoted from a vulnerable Marimo notebook to an SSH",
-      "source": "The Hacker News",
-      "published": "Tue, 15 Sep 2026 17:22:28 +0530",
-      "summary": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds\nWith artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled human operators can move just "
-    },
-    {
-      "title": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point",
-      "link": "https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html",
-      "raw_summary": "Introduction\n\nSecurity teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing simulation? Does this SIEM rule fire on this particular technique? And, in more mature organizations, this testing happens continuously rather than as a one-off exercise.\n\nBut no matter how much you validate against these",
-      "source": "The Hacker News",
-      "published": "Tue, 15 Sep 2026 16:56:36 +0530",
-      "summary": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point\nIntroduction\n\nSecurity teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing simulation? Does this SIEM rule fire o"
-    },
-    {
-      "title": "Cloudflare: Stay discoverable in search while disallowing AI training",
-      "link": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
-      "raw_summary": "<p>Article URL: <a href=\"https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/\">https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49721435\">https://news.ycombinator.com/item?id=49721435</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "title": "Learning Programming in an Age of LLMs",
+      "link": "https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/\">https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49723873\">https://news.ycombinator.com/item?id=49723873</a></p>\n<p>Points: 26</p>\n<p># Comments: 8</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 16 Sep 2026 02:25:18 +0000",
-      "summary": "Cloudflare: Stay discoverable in search while disallowing AI training\n<p>Article URL: <a href=\"https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/\">https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=4972143"
+      "published": "Wed, 16 Sep 2026 09:12:34 +0000",
+      "summary": "Learning Programming in an Age of LLMs\n<p>Article URL: <a href=\"https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/\">https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49723873\">ht"
     },
     {
-      "title": "Saving Jet Fuel",
-      "link": "https://tech.marksblogg.com/scikit-decide-openap-optimal-flight-planning.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://tech.marksblogg.com/scikit-decide-openap-optimal-flight-planning.html\">https://tech.marksblogg.com/scikit-decide-openap-optimal-flight-planning.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49720164\">https://news.ycombinator.com/item?id=49720164</a></p>\n<p>Points: 36</p>\n<p># Comments: 15</p>",
+      "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
+      "link": "https://mistral.ai/news/mistral-x-mozilla/",
+      "raw_summary": "<p>Article URL: <a href=\"https://mistral.ai/news/mistral-x-mozilla/\">https://mistral.ai/news/mistral-x-mozilla/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49723408\">https://news.ycombinator.com/item?id=49723408</a></p>\n<p>Points: 35</p>\n<p># Comments: 8</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 15 Sep 2026 23:17:20 +0000",
-      "summary": "Saving Jet Fuel\n<p>Article URL: <a href=\"https://tech.marksblogg.com/scikit-decide-openap-optimal-flight-planning.html\">https://tech.marksblogg.com/scikit-decide-openap-optimal-flight-planning.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49720164\">https://news.ycombina"
+      "published": "Wed, 16 Sep 2026 08:08:57 +0000",
+      "summary": "Mistral X Mozilla: Private, Multilingual AI Browsing\n<p>Article URL: <a href=\"https://mistral.ai/news/mistral-x-mozilla/\">https://mistral.ai/news/mistral-x-mozilla/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49723408\">https://news.ycombinator.com/item?id=49723408</a></p>\n"
     },
     {
-      "title": "Recreating Voodoo Graphics and a Late-1990s Gaming PC on an FPGA",
-      "link": "https://nand2mario.github.io/posts/2026/zsst-voodoo/",
-      "raw_summary": "<p>Article URL: <a href=\"https://nand2mario.github.io/posts/2026/zsst-voodoo/\">https://nand2mario.github.io/posts/2026/zsst-voodoo/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49719938\">https://news.ycombinator.com/item?id=49719938</a></p>\n<p>Points: 42</p>\n<p># Comments: 9</p>",
+      "title": "MartyPC – A Cycle-Accurate IBM PC/XT Emulator",
+      "link": "https://github.com/dbalsom/martypc",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/dbalsom/martypc\">https://github.com/dbalsom/martypc</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49722591\">https://news.ycombinator.com/item?id=49722591</a></p>\n<p>Points: 17</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 15 Sep 2026 22:50:55 +0000",
-      "summary": "Recreating Voodoo Graphics and a Late-1990s Gaming PC on an FPGA\n<p>Article URL: <a href=\"https://nand2mario.github.io/posts/2026/zsst-voodoo/\">https://nand2mario.github.io/posts/2026/zsst-voodoo/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49719938\">https://news.ycombinat"
+      "published": "Wed, 16 Sep 2026 05:56:02 +0000",
+      "summary": "MartyPC – A Cycle-Accurate IBM PC/XT Emulator\n<p>Article URL: <a href=\"https://github.com/dbalsom/martypc\">https://github.com/dbalsom/martypc</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49722591\">https://news.ycombinator.com/item?id=49722591</a></p>\n<p>Points: 17</p>\n<p># "
     },
     {
-      "title": "German Rheinmetall open-sources its Battlesuite connected weapon system protcol",
-      "link": "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html\">https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49718928\">https://news.ycombinator.com/item?id=49718928</a></p>\n<p>Points: 135</p>\n<p># Comments: 41</p>",
+      "title": "A software thing I built: GPS on a 25MHz 486-SX",
+      "link": "https://forum.vcfed.org/index.php?threads/a-software-thing-i-built-gps-on-a-25mhz-486-sx.1258966/",
+      "raw_summary": "<p>Article URL: <a href=\"https://forum.vcfed.org/index.php?threads/a-software-thing-i-built-gps-on-a-25mhz-486-sx.1258966/\">https://forum.vcfed.org/index.php?threads/a-software-thing-i-built-gps-on-a-25mhz-486-sx.1258966/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49722521\">https://news.ycombinator.com/item?id=49722521</a></p>\n<p>Points: 29</p>\n<p># Comments: 6</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 15 Sep 2026 21:07:47 +0000",
-      "summary": "German Rheinmetall open-sources its Battlesuite connected weapon system protcol\n<p>Article URL: <a href=\"https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html\">https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html</a></p>\n<p>Comments URL: <a href=\"https://news.y"
+      "published": "Wed, 16 Sep 2026 05:43:44 +0000",
+      "summary": "A software thing I built: GPS on a 25MHz 486-SX\n<p>Article URL: <a href=\"https://forum.vcfed.org/index.php?threads/a-software-thing-i-built-gps-on-a-25mhz-486-sx.1258966/\">https://forum.vcfed.org/index.php?threads/a-software-thing-i-built-gps-on-a-25mhz-486-sx.1258966/</a></p>\n<p>Comments URL: <a hr"
     },
     {
-      "title": "Jean-Pierre Serre is 100 years old today",
-      "link": "https://mathshistory.st-andrews.ac.uk/Biographies/Serre/",
-      "raw_summary": "<p>Article URL: <a href=\"https://mathshistory.st-andrews.ac.uk/Biographies/Serre/\">https://mathshistory.st-andrews.ac.uk/Biographies/Serre/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49718822\">https://news.ycombinator.com/item?id=49718822</a></p>\n<p>Points: 96</p>\n<p># Comments: 15</p>",
+      "title": "Datamimic – don't let your coding agent invent its own test world",
+      "link": "https://github.com/rapiddweller/datamimic",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/rapiddweller/datamimic\">https://github.com/rapiddweller/datamimic</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49722276\">https://news.ycombinator.com/item?id=49722276</a></p>\n<p>Points: 40</p>\n<p># Comments: 6</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 15 Sep 2026 20:57:18 +0000",
-      "summary": "Jean-Pierre Serre is 100 years old today\n<p>Article URL: <a href=\"https://mathshistory.st-andrews.ac.uk/Biographies/Serre/\">https://mathshistory.st-andrews.ac.uk/Biographies/Serre/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49718822\">https://news.ycombinator.com/item?id=4"
+      "published": "Wed, 16 Sep 2026 04:58:36 +0000",
+      "summary": "Datamimic – don't let your coding agent invent its own test world\n<p>Article URL: <a href=\"https://github.com/rapiddweller/datamimic\">https://github.com/rapiddweller/datamimic</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49722276\">https://news.ycombinator.com/item?id=497222"
     },
     {
       "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
@@ -163,6 +163,14 @@
       "summary": "US data centers could consume more natural gas than Germany and Japan combined by 2035\nThe AI frenzy could push U.S. data centers to become one of the largest consumers of natural gas in the world."
     },
     {
+      "title": "How chimps teach their kids tool tricks",
+      "link": "https://arstechnica.com/science/2026/09/how-chimps-teach-their-kids-tool-tricks/",
+      "raw_summary": "Adults first demonstrate tool use, then hand over the implements to their infants, who copy the behavior.",
+      "source": "Ars Technica - All content",
+      "published": "Wed, 16 Sep 2026 04:00:39 +0000",
+      "summary": "How chimps teach their kids tool tricks\nAdults first demonstrate tool use, then hand over the implements to their infants, who copy the behavior."
+    },
+    {
       "title": "The Roman telescope has enough gas for 22 years, double NASA's expectations",
       "link": "https://arstechnica.com/space/2026/09/the-roman-telescope-has-enough-gas-for-22-years-double-nasas-expectations/",
       "raw_summary": "The Nancy Grace Roman Space Telescope is the first NASA observatory designed for in-space refueling.",
@@ -195,132 +203,124 @@
       "summary": "SpaceX declares Starship ready for orbit, sets launch date next week\nReaching orbit would mark a significant milestone."
     },
     {
-      "title": "Agility’s new humanoid robot will stop, squat to avoid harming human coworkers",
-      "link": "https://arstechnica.com/ai/2026/09/agilitys-new-humanoid-robot-will-stop-squat-to-avoid-harming-human-coworkers/",
-      "raw_summary": "Robots can start working outside physical cages and without safety barriers.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 15 Sep 2026 18:33:02 +0000",
-      "summary": "Agility’s new humanoid robot will stop, squat to avoid harming human coworkers\nRobots can start working outside physical cages and without safety barriers."
-    },
-    {
-      "title": "Nvidia and Meta bosses reject efforts to co-ordinate AI slowdown",
-      "link": "https://www.ft.com/content/2e20c674-3386-46ad-b07f-5cd8a013f67e?syn-25a6b1a6=1",
-      "raw_summary": "Jensen Huang and Mark Zuckerberg distance themselves from safety proposals from leaders of OpenAI, Anthropic and SpaceX",
+      "title": "FirstFT: US mega-donors overwhelmingly back Republicans, FT analysis shows",
+      "link": "https://www.ft.com/content/96ea6daf-086f-49ff-bbe3-c42cf63561ec?syn-25a6b1a6=1",
+      "raw_summary": "Also in today’s newsletter: European Commission president endorses Canada’s ‘associate member’ pitch, and the Fed should defy Trump and raise rates, say economists",
       "source": "World",
-      "published": "Wed, 16 Sep 2026 01:55:23 GMT",
-      "summary": "Nvidia and Meta bosses reject efforts to co-ordinate AI slowdown\nJensen Huang and Mark Zuckerberg distance themselves from safety proposals from leaders of OpenAI, Anthropic and SpaceX"
+      "published": "Wed, 16 Sep 2026 10:28:23 GMT",
+      "summary": "FirstFT: US mega-donors overwhelmingly back Republicans, FT analysis shows\nAlso in today’s newsletter: European Commission president endorses Canada’s ‘associate member’ pitch, and the Fed should defy Trump and raise rates, say economists"
     },
     {
-      "title": "Can the US and China work together on AI risks?",
-      "link": "https://www.ft.com/content/83023f2f-0c12-4239-bf27-99d8e378ec5d?syn-25a6b1a6=1",
-      "raw_summary": "Technological rivalry between Washington and Beijing makes it harder to agree how to manage potentially existential dangers",
+      "title": "Burnham considers plan to give mayors greater oversight of water companies",
+      "link": "https://www.ft.com/content/1655b0eb-5f54-4ad0-afbb-cf9ffb09bc32?syn-25a6b1a6=1",
+      "raw_summary": "UK prime minister looks at proposal to create nine regional bodies that would set objectives for industry",
       "source": "World",
-      "published": "Wed, 16 Sep 2026 01:18:40 GMT",
-      "summary": "Can the US and China work together on AI risks?\nTechnological rivalry between Washington and Beijing makes it harder to agree how to manage potentially existential dangers"
+      "published": "Wed, 16 Sep 2026 10:24:19 GMT",
+      "summary": "Burnham considers plan to give mayors greater oversight of water companies\nUK prime minister looks at proposal to create nine regional bodies that would set objectives for industry"
     },
     {
-      "title": "The Indian business empire being forced to list against its will",
-      "link": "https://www.ft.com/content/bbc9d181-9cce-4b5f-af4a-bf87f3dfca93?syn-25a6b1a6=1",
-      "raw_summary": "A flotation of Tata Sons could open some of the country’s most valuable companies to rivals and raiders",
+      "title": "Scientists test new (and old) navigation systems to end GPS dependence",
+      "link": "https://www.ft.com/content/bad109a9-1a34-4663-9dd8-e757b3f38c62?syn-25a6b1a6=1",
+      "raw_summary": "Military operations and civilian air traffic have been hit by satellite jamming and spoofing in modern wars",
       "source": "World",
-      "published": "Wed, 16 Sep 2026 01:00:33 GMT",
-      "summary": "The Indian business empire being forced to list against its will\nA flotation of Tata Sons could open some of the country’s most valuable companies to rivals and raiders"
+      "published": "Wed, 16 Sep 2026 10:00:08 GMT",
+      "summary": "Scientists test new (and old) navigation systems to end GPS dependence\nMilitary operations and civilian air traffic have been hit by satellite jamming and spoofing in modern wars"
     },
     {
-      "title": "US charges five people linked to Russian ‘assassination network’",
-      "link": "https://www.ft.com/content/30b8d485-dfce-4b0e-912b-d32a4b5f9018?syn-25a6b1a6=1",
-      "raw_summary": "Indictment marks a rare accusation of Kremlin-backed plots on American soil",
+      "title": "Schostal, the store keeping the stars in pyjamas",
+      "link": "https://www.ft.com/content/885dc9fe-d877-47c5-941d-fd271f1a3f0c",
+      "raw_summary": "When in Rome, head to the 155-year-old haberdashery",
       "source": "World",
-      "published": "Wed, 16 Sep 2026 00:38:09 GMT",
-      "summary": "US charges five people linked to Russian ‘assassination network’\nIndictment marks a rare accusation of Kremlin-backed plots on American soil"
+      "published": "Wed, 16 Sep 2026 10:00:07 GMT",
+      "summary": "Schostal, the store keeping the stars in pyjamas\nWhen in Rome, head to the 155-year-old haberdashery"
     },
     {
-      "title": "Nissan to invest £170mn to build a new hybrid SUV at Sunderland plant",
-      "link": "https://www.ft.com/content/cc6a47b8-2c37-4755-b63a-727565c50260?syn-25a6b1a6=1",
-      "raw_summary": "The addition of a fourth model comes as carmaker looks to boost factory’s utilisation rate, which is hovering at about 50%",
+      "title": "Inflation and interest rates tracker: see how your country compares",
+      "link": "https://www.ft.com/content/088d3368-bb8b-4ff3-9df7-a7680d4d81b2?syn-25a6b1a6=1",
+      "raw_summary": "Explore the latest data through interactive charts",
       "source": "World",
-      "published": "Tue, 15 Sep 2026 23:40:07 GMT",
-      "summary": "Nissan to invest £170mn to build a new hybrid SUV at Sunderland plant\nThe addition of a fourth model comes as carmaker looks to boost factory’s utilisation rate, which is hovering at about 50%"
+      "published": "Wed, 16 Sep 2026 09:26:28 GMT",
+      "summary": "Inflation and interest rates tracker: see how your country compares\nExplore the latest data through interactive charts"
     },
     {
-      "title": "Indian Bonds Feel the Heat From Global Yield Surge",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-09-16/indian-bonds-feel-the-heat-from-global-yield-surge",
-      "raw_summary": "The RBI’s planned bond sales are likely to put more upward pressure on yields.",
+      "title": "Copper Gains as Treasury Yields Ease Before Fed Rate Decision",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-16/copper-steadies-ahead-of-fed-decision-as-supply-concerns-ease",
+      "raw_summary": "Copper edged higher as US stocks and bonds found relief ahead of the Federal Reserve’s decision later Wednesday on whether to raise interest rates.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 16 Sep 2026 02:31:03 GMT",
-      "summary": "Indian Bonds Feel the Heat From Global Yield Surge\nThe RBI’s planned bond sales are likely to put more upward pressure on yields."
+      "published": "Wed, 16 Sep 2026 02:29:19 GMT",
+      "summary": "Copper Gains as Treasury Yields Ease Before Fed Rate Decision\nCopper edged higher as US stocks and bonds found relief ahead of the Federal Reserve’s decision later Wednesday on whether to raise interest rates."
     },
     {
-      "title": "Asian Stocks Steady in Runup to Fed, Oil Declines: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-15/asian-stocks-to-edge-higher-as-traders-await-fed-markets-wrap",
-      "raw_summary": "Asian stocks steadied after four days of losses as investors held back ahead of the Federal Reserve’s interest-rate decision, with markets expecting its first hike since 2023. Oil declined, supporting gains in regional bonds.",
+      "title": "Meta’s Zuckerberg, Nvidia’s Huang Push Alternatives to AI Slowdown",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-16/the-pulse-9-16-2026-video",
+      "raw_summary": "\"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story is, bringing you exclusive interviews and market-moving scoops.\n\nToday's guests:  Iain Stealey, JPMorgan Asset Management International CIO for Global Fixed Income; Livia Gallarati, Energy Aspects Global Head of Gas; Cristina Scocchia, illycaffè CEO  (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Tue, 15 Sep 2026 22:11:24 GMT",
-      "summary": "Asian Stocks Steady in Runup to Fed, Oil Declines: Markets Wrap\nAsian stocks steadied after four days of losses as investors held back ahead of the Federal Reserve’s interest-rate decision, with markets expecting its first hike since 2023. Oil declined, supporting gains in regional bonds."
+      "published": "Wed, 16 Sep 2026 10:11:30 GMT",
+      "summary": "Meta’s Zuckerberg, Nvidia’s Huang Push Alternatives to AI Slowdown\n\"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story is, bringing you exclusive inter"
     },
     {
-      "title": "HSBC, ICICI Propel India Finance Hub With FX Loans for Diaspora",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-16/hsbc-icici-propel-india-finance-hub-with-fx-loans-for-diaspora",
-      "raw_summary": "HSBC Holdings Plc and ICICI Bank Ltd. in GIFT City have emerged as the biggest lenders to India’s vast diaspora under a special foreign-exchange swap program, signaling the financial hub’s growing role in channeling global capital into the country.",
+      "title": "Bond Traders Are Convinced the Fed Will Hike Interest Rates",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-09-16/bond-traders-are-convinced-the-fed-will-hike-interest-rates",
+      "raw_summary": "Markets put the chance of increase at about 94%.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 16 Sep 2026 01:30:00 GMT",
-      "summary": "HSBC, ICICI Propel India Finance Hub With FX Loans for Diaspora\nHSBC Holdings Plc and ICICI Bank Ltd. in GIFT City have emerged as the biggest lenders to India’s vast diaspora under a special foreign-exchange swap program, signaling the financial hub’s growing role in channeling global capital into "
+      "published": "Wed, 16 Sep 2026 10:08:32 GMT",
+      "summary": "Bond Traders Are Convinced the Fed Will Hike Interest Rates\nMarkets put the chance of increase at about 94%."
     },
     {
-      "title": "Bond Market’s ‘Extreme’ Short Counts on Fed to Deliver Rate Hike",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-15/bond-market-s-extreme-short-counts-on-fed-to-deliver-rate-hike",
-      "raw_summary": "Bond traders have piled into bearish positions ahead of Wednesday’s Federal Reserve meeting, betting that the Treasury selloff driving yields to their highest in almost two decades will continue.",
+      "title": "Investors Look Past Romania Risk to Pocket Junk-Like Yields",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-16/investors-look-past-romania-risk-to-pocket-junk-like-yields",
+      "raw_summary": "Traders are treating Romanian bonds as the European Union’s only junk-rated sovereign debt, with the country’s high yields luring investors despite a protracted political crisis in Bucharest.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 15 Sep 2026 20:30:09 GMT",
-      "summary": "Bond Market’s ‘Extreme’ Short Counts on Fed to Deliver Rate Hike\nBond traders have piled into bearish positions ahead of Wednesday’s Federal Reserve meeting, betting that the Treasury selloff driving yields to their highest in almost two decades will continue."
+      "published": "Wed, 16 Sep 2026 04:30:00 GMT",
+      "summary": "Investors Look Past Romania Risk to Pocket Junk-Like Yields\nTraders are treating Romanian bonds as the European Union’s only junk-rated sovereign debt, with the country’s high yields luring investors despite a protracted political crisis in Bucharest."
     },
     {
-      "title": "Traders Brace for Fed Hike With Equities Under Pressure",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-16/traders-brace-for-fed-hike-with-equities-under-pressure-video",
-      "raw_summary": "Bond traders have piled into bearish positions ahead of Wednesday’s Federal Reserve meeting. Bloomberg's Sunny Bangia and Tom Orlik break down the pressures weighing on equities as traders await the Fed's rate decision. (Source: Bloomberg)",
+      "title": "Fed Rate Hike to Be One and Done, Says Citi’s Hollenhorst",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-16/fed-rate-hike-to-be-one-and-done-citi-s-hollenhorst-video",
+      "raw_summary": "“It’s hard to make a strong case for a rate hike in this environment,” says Andrew Hollenhorst, chief US economist at Citi. \"I just don't see the momentum in the data for further hikes here,\" he adds. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Wed, 16 Sep 2026 00:58:43 GMT",
-      "summary": "Traders Brace for Fed Hike With Equities Under Pressure\nBond traders have piled into bearish positions ahead of Wednesday’s Federal Reserve meeting. Bloomberg's Sunny Bangia and Tom Orlik break down the pressures weighing on equities as traders await the Fed's rate decision. (Source: Bloomberg)"
+      "published": "Wed, 16 Sep 2026 10:03:28 GMT",
+      "summary": "Fed Rate Hike to Be One and Done, Says Citi’s Hollenhorst\n“It’s hard to make a strong case for a rate hike in this environment,” says Andrew Hollenhorst, chief US economist at Citi. \"I just don't see the momentum in the data for further hikes here,\" he adds. (Source: Bloomberg)"
     },
     {
-      "title": "Inside the last-minute political breakdown that doomed the Clarity Act vote",
-      "link": "https://www.coindesk.com/news-analysis/2026/09/15/there-were-many-conductors-in-the-derailment-of-the-crypto-industry-s-clarity-act",
+      "title": "Circle debuts Arc blockchain which Jeremy Allaire calls ‘more consequential’ than USDC",
+      "link": "https://www.coindesk.com/business/2026/09/15/circle-debuts-arc-blockchain-which-jeremy-allaire-calls-more-consequential-than-usdc",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 15 Sep 2026 21:58:48 +0000",
-      "summary": "Inside the last-minute political breakdown that doomed the Clarity Act vote\n"
+      "published": "Wed, 16 Sep 2026 10:30:00 +0000",
+      "summary": "Circle debuts Arc blockchain which Jeremy Allaire calls ‘more consequential’ than USDC\n"
     },
     {
-      "title": "Crypto stocks sink after Senate rejects Clarity Act",
-      "link": "https://www.coindesk.com/markets/2026/09/15/crypto-stocks-sink-after-senate-rejects-clarity-act",
+      "title": "Bitcoin's Coinbase premium sinks to one-month low, here’s why",
+      "link": "https://www.coindesk.com/markets/2026/09/16/bitcoin-s-coinbase-premium-sinks-to-one-month-low-here-s-why",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 15 Sep 2026 20:03:17 +0000",
-      "summary": "Crypto stocks sink after Senate rejects Clarity Act\n"
+      "published": "Wed, 16 Sep 2026 09:57:12 +0000",
+      "summary": "Bitcoin's Coinbase premium sinks to one-month low, here’s why\n"
     },
     {
-      "title": "Crypto industry reacts after Clarity Act fails Senate vote",
-      "link": "https://www.coindesk.com/policy/2026/09/15/clarity-act-fails-in-senate-here-is-how-the-crypto-industry-is-reacting",
+      "title": "Two Robinhood engineers charged with insider trading using Hyperliquid perpetuals",
+      "link": "https://www.coindesk.com/business/2026/09/16/two-robinhood-engineers-charged-with-insider-trading-using-hyperliquid-perpetuals",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 15 Sep 2026 19:06:31 +0000",
-      "summary": "Crypto industry reacts after Clarity Act fails Senate vote\n"
+      "published": "Wed, 16 Sep 2026 09:42:37 +0000",
+      "summary": "Two Robinhood engineers charged with insider trading using Hyperliquid perpetuals\n"
     },
     {
-      "title": "Crypto Clarity Act flames out in failed U.S. Senate vote",
-      "link": "https://www.coindesk.com/policy/2026/09/15/crypto-clarity-act-flames-out-in-failed-u-s-senate-vote",
+      "title": "Ethereum, Base give up on common wallet standard after months of talks",
+      "link": "https://www.coindesk.com/tech/2026/09/16/ethereum-base-give-up-on-common-wallet-standard-after-months-of-talks",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 15 Sep 2026 18:50:58 +0000",
-      "summary": "Crypto Clarity Act flames out in failed U.S. Senate vote\n"
+      "published": "Wed, 16 Sep 2026 08:07:59 +0000",
+      "summary": "Ethereum, Base give up on common wallet standard after months of talks\n"
     },
     {
-      "title": "Solana lender Kamino taps fintech veteran Michael Weisz as CEO for massive U.S. expansion",
-      "link": "https://www.coindesk.com/business/2026/09/15/solana-lender-kamino-taps-yieldstreet-co-founder-as-ceo-in-wall-street-expansion",
+      "title": "Fed meeting is shaping up to be a nightmare for Warsh. Bitcoin might still shine",
+      "link": "https://www.coindesk.com/markets/2026/09/16/fed-meeting-is-shaping-up-to-be-a-nightmare-for-warsh-bitcoin-might-still-shine",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 15 Sep 2026 18:02:05 +0000",
-      "summary": "Solana lender Kamino taps fintech veteran Michael Weisz as CEO for massive U.S. expansion\n"
+      "published": "Wed, 16 Sep 2026 06:42:22 +0000",
+      "summary": "Fed meeting is shaping up to be a nightmare for Warsh. Bitcoin might still shine\n"
     }
   ]
 }
