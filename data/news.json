@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T10:18:48.822599+00:00",
+  "generated_at": "2026-09-18T15:32:03.597161+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "Who’s Tracking You? Use This New Service to Find Out\nIt can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much"
     },
     {
+      "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
+      "link": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
+      "raw_summary": "Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required.\n\nThe vulnerability, tracked as CVE-2026-85889, carries a CVSS score of 10.0.\n\n\"Missing authentication for critical function in Azure AI Foundry allows an unauthorized attacker to elevate privileges over a network,\"",
+      "source": "The Hacker News",
+      "published": "Fri, 18 Sep 2026 18:17:04 +0530",
+      "summary": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation\nMicrosoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required.\n\nThe vulnerability, tracked as C"
+    },
+    {
+      "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
+      "link": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
+      "raw_summary": "In July 2025, someone registered a domain that used to belong to a content delivery network.&nbsp; The CDN had been wound down years earlier, and the domain it served assets from was allowed to expire. What it had not lost were its callers. Thousands of websites, code repositories, and documentation pages still carry hard-coded references to hostnames beneath it.&nbsp;\n\nThe new owner holds",
+      "source": "The Hacker News",
+      "published": "Fri, 18 Sep 2026 16:31:16 +0530",
+      "summary": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.\nIn July 2025, someone registered a domain that used to belong to a content delivery network.&nbsp; The CDN had been wound down years earlier, and the domain it served assets from was allowed to expire. What it had not lost "
+    },
+    {
+      "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
+      "link": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
+      "raw_summary": "A flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a malicious one, even when the agent locked that plugin to a specific reviewed version, security firm&nbsp;Air Security said on Thursday.\n\nThe firm said Anthropic has patched the flaw in Claude Code 2.1.179 and OpenAI in Codex 0.146.0, that GitHub Copilot has no",
+      "source": "The Hacker News",
+      "published": "Fri, 18 Sep 2026 16:31:01 +0530",
+      "summary": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents\nA flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a malicious one, even when the agent locked that plugin to a specific review"
+    },
+    {
+      "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
+      "link": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
+      "raw_summary": "Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit.\n\nThe new malware family, per OpenSourceMalware, exhibits functional overlaps with two malware strains associated with the Democratic People's Republic of Korea's (DPRK) Contagious Interview campaign: BeaverTail and",
+      "source": "The Hacker News",
+      "published": "Fri, 18 Sep 2026 16:10:06 +0530",
+      "summary": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage\nCybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit.\n\nThe new malware family, per OpenSourceMa"
+    },
+    {
       "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
       "link": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
       "raw_summary": "A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package registry.\n\n\"The developer likely wrote the malware using a large language model (LLM), an assessment made with high confidence based on verbose comments, placeholder code, and statistical token-analysis patterns,\"",
@@ -51,124 +83,116 @@
       "summary": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer\nA financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package registry.\n\n\"The developer likely wrote the mal"
     },
     {
-      "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
-      "link": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
-      "raw_summary": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control compromised devices.\n\n\n\"Distributed primarily via targeted smishing (SMS/text phishing) and malvertising campaigns leading to deceptive third-party download portals, RatHat uses",
-      "source": "The Hacker News",
-      "published": "Fri, 18 Sep 2026 11:47:25 +0530",
-      "summary": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall\nCybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to navigate and control compromi"
-    },
-    {
-      "title": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
-      "link": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
-      "raw_summary": "A critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code as root on those servers over the network.\n\nThe Security Management Server is the system that controls firewall policy and administrator access. Check Point has released a fix through its LivePatch update channel and says it has no indication that the flaw",
-      "source": "The Hacker News",
-      "published": "Thu, 17 Sep 2026 23:38:28 +0530",
-      "summary": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root\nA critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code as root on those servers over the network.\n\nThe Security Management Server "
-    },
-    {
-      "title": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
-      "link": "https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html",
-      "raw_summary": "Attackers keep finding new keys. The funny part is that defenders keep inventing where to store them.\n\nThis week, those keys sit in AI tools, exposed services, old bugs, weak logins, and software sold like a monthly subscription. Some attacks use new tricks. Others just reuse what was already lying around. Both work often enough.\n\nSo the threat landscape is not getting cleaner. It is just",
-      "source": "The Hacker News",
-      "published": "Thu, 17 Sep 2026 23:02:22 +0530",
-      "summary": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories\nAttackers keep finding new keys. The funny part is that defenders keep inventing where to store them.\n\nThis week, those keys sit in AI tools, exposed services, old bugs, weak logins, and software sold li"
-    },
-    {
-      "title": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
-      "link": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
-      "raw_summary": "Malicious code running inside a Docker Sandboxes virtual machine on macOS could escape the project directory shared into it and read or change files anywhere else on the host, Docker warns in a&nbsp;security announcement&nbsp;on September 15.\n\nThe escape runs with the rights of the host account that runs the virtual machine. The flaw,&nbsp;CVE-2026-77179, is rated Critical, affects versions",
-      "source": "The Hacker News",
-      "published": "Thu, 17 Sep 2026 21:07:56 +0530",
-      "summary": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files\nMalicious code running inside a Docker Sandboxes virtual machine on macOS could escape the project directory shared into it and read or change files anywhere else on the host, Docker warns in a&nbsp;security an"
-    },
-    {
-      "title": "Microsoft exec called AI scraping 'the largest theft of labor in human history'",
-      "link": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
-      "raw_summary": "<p>Article URL: <a href=\"https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/\">https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49752056\">https://news.ycombinator.com/item?id=49752056</a></p>\n<p>Points: 26</p>\n<p># Comments: 2</p>",
+      "title": "AI Protest in Montreal",
+      "link": "https://montrealgazette.com/news/photos-anti-ai-protest-in-montreal/",
+      "raw_summary": "<p>Article URL: <a href=\"https://montrealgazette.com/news/photos-anti-ai-protest-in-montreal/\">https://montrealgazette.com/news/photos-anti-ai-protest-in-montreal/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49755162\">https://news.ycombinator.com/item?id=49755162</a></p>\n<p>Points: 31</p>\n<p># Comments: 22</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 18 Sep 2026 09:45:07 +0000",
-      "summary": "Microsoft exec called AI scraping 'the largest theft of labor in human history'\n<p>Article URL: <a href=\"https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/\">https://techcrunch.com/2026/09/17/microsoft-exec-ca"
+      "published": "Fri, 18 Sep 2026 14:45:41 +0000",
+      "summary": "AI Protest in Montreal\n<p>Article URL: <a href=\"https://montrealgazette.com/news/photos-anti-ai-protest-in-montreal/\">https://montrealgazette.com/news/photos-anti-ai-protest-in-montreal/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49755162\">https://news.ycombinator.com/ite"
     },
     {
-      "title": "OpenJev",
-      "link": "https://openjev.com/",
-      "raw_summary": "<p>Article URL: <a href=\"https://openjev.com/\">https://openjev.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49752041\">https://news.ycombinator.com/item?id=49752041</a></p>\n<p>Points: 30</p>\n<p># Comments: 6</p>",
+      "title": "North Korean nuclear test sets off years of earthquakes – Science – AAAS",
+      "link": "https://www.science.org/content/article/north-korean-nuclear-test-sets-years-earthquakes",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.science.org/content/article/north-korean-nuclear-test-sets-years-earthquakes\">https://www.science.org/content/article/north-korean-nuclear-test-sets-years-earthquakes</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49755160\">https://news.ycombinator.com/item?id=49755160</a></p>\n<p>Points: 16</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 18 Sep 2026 09:42:22 +0000",
-      "summary": "OpenJev\n<p>Article URL: <a href=\"https://openjev.com/\">https://openjev.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49752041\">https://news.ycombinator.com/item?id=49752041</a></p>\n<p>Points: 30</p>\n<p># Comments: 6</p>"
+      "published": "Fri, 18 Sep 2026 14:45:32 +0000",
+      "summary": "North Korean nuclear test sets off years of earthquakes – Science – AAAS\n<p>Article URL: <a href=\"https://www.science.org/content/article/north-korean-nuclear-test-sets-years-earthquakes\">https://www.science.org/content/article/north-korean-nuclear-test-sets-years-earthquakes</a></p>\n<p>Comments URL"
     },
     {
-      "title": "Jemalloc 5.4.0",
-      "link": "https://github.com/jemalloc/jemalloc/releases/tag/5.4.0",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/jemalloc/jemalloc/releases/tag/5.4.0\">https://github.com/jemalloc/jemalloc/releases/tag/5.4.0</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49750152\">https://news.ycombinator.com/item?id=49750152</a></p>\n<p>Points: 149</p>\n<p># Comments: 40</p>",
+      "title": "Mathematicians Build Long-Awaited Graph Sandwich",
+      "link": "https://www.quantamagazine.org/mathematicians-build-long-awaited-graph-sandwich-20260918/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.quantamagazine.org/mathematicians-build-long-awaited-graph-sandwich-20260918/\">https://www.quantamagazine.org/mathematicians-build-long-awaited-graph-sandwich-20260918/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49755095\">https://news.ycombinator.com/item?id=49755095</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 18 Sep 2026 04:20:24 +0000",
-      "summary": "Jemalloc 5.4.0\n<p>Article URL: <a href=\"https://github.com/jemalloc/jemalloc/releases/tag/5.4.0\">https://github.com/jemalloc/jemalloc/releases/tag/5.4.0</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49750152\">https://news.ycombinator.com/item?id=49750152</a></p>\n<p>Points: 1"
+      "published": "Fri, 18 Sep 2026 14:41:02 +0000",
+      "summary": "Mathematicians Build Long-Awaited Graph Sandwich\n<p>Article URL: <a href=\"https://www.quantamagazine.org/mathematicians-build-long-awaited-graph-sandwich-20260918/\">https://www.quantamagazine.org/mathematicians-build-long-awaited-graph-sandwich-20260918/</a></p>\n<p>Comments URL: <a href=\"https://new"
     },
     {
-      "title": "The scourge of x86 emulation",
-      "link": "https://fex-emu.com/Scourge-of-emulation/",
-      "raw_summary": "<p>Article URL: <a href=\"https://fex-emu.com/Scourge-of-emulation/\">https://fex-emu.com/Scourge-of-emulation/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49750094\">https://news.ycombinator.com/item?id=49750094</a></p>\n<p>Points: 149</p>\n<p># Comments: 26</p>",
+      "title": "I Vibed a Proof of Conway's Conjecture",
+      "link": "https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/",
+      "raw_summary": "<p>Article URL: <a href=\"https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/\">https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49755024\">https://news.ycombinator.com/item?id=49755024</a></p>\n<p>Points: 48</p>\n<p># Comments: 31</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 18 Sep 2026 04:09:48 +0000",
-      "summary": "The scourge of x86 emulation\n<p>Article URL: <a href=\"https://fex-emu.com/Scourge-of-emulation/\">https://fex-emu.com/Scourge-of-emulation/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49750094\">https://news.ycombinator.com/item?id=49750094</a></p>\n<p>Points: 149</p>\n<p># Co"
+      "published": "Fri, 18 Sep 2026 14:36:10 +0000",
+      "summary": "I Vibed a Proof of Conway's Conjecture\n<p>Article URL: <a href=\"https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/\">https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49755024\">https://news.ycombinat"
     },
     {
-      "title": "Pre-Greek: The lost language hidden within Ancient Greek",
-      "link": "https://linguisticdiscovery.com/posts/pre-greek/",
-      "raw_summary": "<p>Article URL: <a href=\"https://linguisticdiscovery.com/posts/pre-greek/\">https://linguisticdiscovery.com/posts/pre-greek/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49749771\">https://news.ycombinator.com/item?id=49749771</a></p>\n<p>Points: 83</p>\n<p># Comments: 34</p>",
+      "title": "BeanShell3 in Development",
+      "link": "https://beanshell.github.io/home.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://beanshell.github.io/home.html\">https://beanshell.github.io/home.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49754823\">https://news.ycombinator.com/item?id=49754823</a></p>\n<p>Points: 8</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 18 Sep 2026 03:04:38 +0000",
-      "summary": "Pre-Greek: The lost language hidden within Ancient Greek\n<p>Article URL: <a href=\"https://linguisticdiscovery.com/posts/pre-greek/\">https://linguisticdiscovery.com/posts/pre-greek/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49749771\">https://news.ycombinator.com/item?id=4"
+      "published": "Fri, 18 Sep 2026 14:21:24 +0000",
+      "summary": "BeanShell3 in Development\n<p>Article URL: <a href=\"https://beanshell.github.io/home.html\">https://beanshell.github.io/home.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49754823\">https://news.ycombinator.com/item?id=49754823</a></p>\n<p>Points: 8</p>\n<p># Comments: 3</p>"
     },
     {
-      "title": "Khosla-backed Mazama Energy just raised $135M to drill deeper into super-hot-rock geothermal",
-      "link": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/",
-      "raw_summary": "Geothermal startup Mazama is drilling three miles underground to tap superhot rock, with one well capable of generating 15 MW of electricity 24/7.",
+      "title": "Open or closed AI? Nvidia’s Nader Khalil and Sydney Sykes take on one of the decisions shaping next-gen startups at TechCrunch Disrupt 2026",
+      "link": "https://techcrunch.com/2026/09/18/open-or-closed-ai-nvidias-nader-khalil-and-sydney-sykes-take-on-one-of-the-decisions-shaping-next-gen-startups-at-techcrunch-disrupt-2026/",
+      "raw_summary": "Nvidia's Nader Khalil and Sydney Sykes discuss one of the decisions shaping next-gen startups on the Builders Stage at TechCrunch Disrupt 2026.",
       "source": "TechCrunch",
-      "published": "Fri, 18 Sep 2026 00:02:36 +0000",
-      "summary": "Khosla-backed Mazama Energy just raised $135M to drill deeper into super-hot-rock geothermal\nGeothermal startup Mazama is drilling three miles underground to tap superhot rock, with one well capable of generating 15 MW of electricity 24/7."
+      "published": "Fri, 18 Sep 2026 15:30:00 +0000",
+      "summary": "Open or closed AI? Nvidia’s Nader Khalil and Sydney Sykes take on one of the decisions shaping next-gen startups at TechCrunch Disrupt 2026\nNvidia's Nader Khalil and Sydney Sykes discuss one of the decisions shaping next-gen startups on the Builders Stage at TechCrunch Disrupt 2026."
     },
     {
-      "title": "Crusoe raises $3.9B to build massive data centers and small modular ‘AI factories’",
-      "link": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
-      "raw_summary": "The round values the data center giant at $30.9 billion.",
+      "title": "Meta’s Muse hits Mac, letting the AI take actions on your computer",
+      "link": "https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/",
+      "raw_summary": "Muse is now available on the Mac, where it can work with your files and apps to take action on your behalf.",
       "source": "TechCrunch",
-      "published": "Thu, 17 Sep 2026 23:25:52 +0000",
-      "summary": "Crusoe raises $3.9B to build massive data centers and small modular ‘AI factories’\nThe round values the data center giant at $30.9 billion."
+      "published": "Fri, 18 Sep 2026 15:22:48 +0000",
+      "summary": "Meta’s Muse hits Mac, letting the AI take actions on your computer\nMuse is now available on the Mac, where it can work with your files and apps to take action on your behalf."
     },
     {
-      "title": "Google DeepMind launches institute to widen the AGI debate",
-      "link": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/",
-      "raw_summary": "The new institute aims to surface differing views between Google, Google DeepMind, and the broader global research community around AGI. \"They will not always agree, and they will likely change their minds, as more data and information comes to light at the fast-moving frontier.\"",
+      "title": "I’m so mad that I love Orion’s $2,195 AI mattress pad",
+      "link": "https://techcrunch.com/2026/09/18/im-so-mad-that-i-love-orions-2195-ai-mattress-pad/",
+      "raw_summary": "Sleeping on the Orion is like flipping your pillow to find “the cool side,” except that your whole entire bed is the cool side.",
       "source": "TechCrunch",
-      "published": "Thu, 17 Sep 2026 23:21:17 +0000",
-      "summary": "Google DeepMind launches institute to widen the AGI debate\nThe new institute aims to surface differing views between Google, Google DeepMind, and the broader global research community around AGI. \"They will not always agree, and they will likely change their minds, as more data and information comes"
+      "published": "Fri, 18 Sep 2026 15:22:16 +0000",
+      "summary": "I’m so mad that I love Orion’s $2,195 AI mattress pad\nSleeping on the Orion is like flipping your pillow to find “the cool side,” except that your whole entire bed is the cool side."
     },
     {
-      "title": "Amazon-owned Zoox’s 100-robotaxi limit in Nevada is about to disappear",
-      "link": "https://techcrunch.com/2026/09/17/amazon-owned-zooxs-100-robotaxi-limit-in-nevada-is-about-to-disappear/",
-      "raw_summary": "An updated permit shows the 100-cap will expire later this month just as competition in Las Vegas heats up.",
+      "title": "Robinhood’s Abhishek Fatehpuria on winning the modern financial consumer at TechCrunch Disrupt 2026",
+      "link": "https://techcrunch.com/2026/09/18/robinhoods-abhishek-fatehpuria-on-winning-the-modern-financial-consumer-at-techcrunch-disrupt-2026/",
+      "raw_summary": "Robinhood’s Abhishek Fatehpuria on winning the modern financial consumer at TechCrunch Disrupt 2026. Register now to save up to $200 before September 25 at 11:59 p.m. PT.",
       "source": "TechCrunch",
-      "published": "Thu, 17 Sep 2026 23:08:24 +0000",
-      "summary": "Amazon-owned Zoox’s 100-robotaxi limit in Nevada is about to disappear\nAn updated permit shows the 100-cap will expire later this month just as competition in Las Vegas heats up."
+      "published": "Fri, 18 Sep 2026 15:00:00 +0000",
+      "summary": "Robinhood’s Abhishek Fatehpuria on winning the modern financial consumer at TechCrunch Disrupt 2026\nRobinhood’s Abhishek Fatehpuria on winning the modern financial consumer at TechCrunch Disrupt 2026. Register now to save up to $200 before September 25 at 11:59 p.m. PT."
     },
     {
-      "title": "PrismML hopes its tiny LLM will change how we all use AI",
-      "link": "https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/",
-      "raw_summary": "If AI lab PrismML isn't on your radar yet, it should be.",
+      "title": "Inertia co-founder Jeff Lawson’s next big bet is fusion: Go inside it at TechCrunch Disrupt 2026",
+      "link": "https://techcrunch.com/2026/09/18/jeff-lawsons-next-big-bet-is-fusion-go-inside-it-at-techcrunch-disrupt-2026/",
+      "raw_summary": "Inertia co-founder and CEO Jeff Lawson joins the Smart Systems Stage at TechCrunch Disrupt 2026. Register now to save up to $200 by September 25.",
       "source": "TechCrunch",
-      "published": "Thu, 17 Sep 2026 22:34:09 +0000",
-      "summary": "PrismML hopes its tiny LLM will change how we all use AI\nIf AI lab PrismML isn't on your radar yet, it should be."
+      "published": "Fri, 18 Sep 2026 14:30:00 +0000",
+      "summary": "Inertia co-founder Jeff Lawson’s next big bet is fusion: Go inside it at TechCrunch Disrupt 2026\nInertia co-founder and CEO Jeff Lawson joins the Smart Systems Stage at TechCrunch Disrupt 2026. Register now to save up to $200 by September 25."
+    },
+    {
+      "title": "Meet the winner of Nikon's Small World in Motion video contest",
+      "link": "https://arstechnica.com/science/2026/09/meet-the-winner-of-nikons-small-world-in-motion-video-contest/",
+      "raw_summary": "Ning Xu of Tsinghua University captured tiny cilia beating in airways of a child with rare respiratory disorder.",
+      "source": "Ars Technica - All content",
+      "published": "Fri, 18 Sep 2026 13:56:57 +0000",
+      "summary": "Meet the winner of Nikon's Small World in Motion video contest\nNing Xu of Tsinghua University captured tiny cilia beating in airways of a child with rare respiratory disorder."
+    },
+    {
+      "title": "Researchers used Claude to hack OpenAI",
+      "link": "https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai/",
+      "raw_summary": "Researchers used Claude to reach an OpenAI employee account and sensitive GitHub data.",
+      "source": "Ars Technica - All content",
+      "published": "Fri, 18 Sep 2026 13:30:12 +0000",
+      "summary": "Researchers used Claude to hack OpenAI\nResearchers used Claude to reach an OpenAI employee account and sensitive GitHub data."
+    },
+    {
+      "title": "Rocket Report: China wants a Raptor 3 engine; SpaceX set for big Starship test",
+      "link": "https://arstechnica.com/space/2026/09/rocket-report-ula-flies-into-uncertain-future-falcon-9-family-hits-700-launches/",
+      "raw_summary": "“I can tell you SpaceX has already gone captive.\"",
+      "source": "Ars Technica - All content",
+      "published": "Fri, 18 Sep 2026 11:00:11 +0000",
+      "summary": "Rocket Report: China wants a Raptor 3 engine; SpaceX set for big Starship test\n“I can tell you SpaceX has already gone captive.\""
     },
     {
       "title": "RFK Jr. names 8 new members to influential preventive medicine task force",
       "link": "https://arstechnica.com/health/2026/09/rfk-jr-stacks-another-influential-federal-panel-with-questionable-picks/",
-      "raw_summary": "The USPSTF sets insurance coverage from preventive services, like colonoscopies.",
+      "raw_summary": "The USPSTF sets insurance coverage for preventive services, like colonoscopies.",
       "source": "Ars Technica - All content",
       "published": "Thu, 17 Sep 2026 22:31:28 +0000",
-      "summary": "RFK Jr. names 8 new members to influential preventive medicine task force\nThe USPSTF sets insurance coverage from preventive services, like colonoscopies."
+      "summary": "RFK Jr. names 8 new members to influential preventive medicine task force\nThe USPSTF sets insurance coverage for preventive services, like colonoscopies."
     },
     {
       "title": "Small AI models let drones autonomously identify and attack battlefield targets",
@@ -179,148 +203,124 @@
       "summary": "Small AI models let drones autonomously identify and attack battlefield targets\nScaleout deploys decentralized AI-driven learning to military bases and drones."
     },
     {
-      "title": "Google announces new experimental \"CC\" AI agent for families",
-      "link": "https://arstechnica.com/google/2026/09/google-announces-new-experimental-cc-ai-agent-for-families/",
-      "raw_summary": "Multiple family members can share data to help the agent make plans and complete tasks.",
-      "source": "Ars Technica - All content",
-      "published": "Thu, 17 Sep 2026 20:24:34 +0000",
-      "summary": "Google announces new experimental \"CC\" AI agent for families\nMultiple family members can share data to help the agent make plans and complete tasks."
-    },
-    {
-      "title": "Microsoft exec called AI scraping the “largest theft of labor in human history”",
-      "link": "https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history/",
-      "raw_summary": "Microsoft, OpenAI emails reveal fear of AI “doom loop” killing news orgs.",
-      "source": "Ars Technica - All content",
-      "published": "Thu, 17 Sep 2026 20:10:41 +0000",
-      "summary": "Microsoft exec called AI scraping the “largest theft of labor in human history”\nMicrosoft, OpenAI emails reveal fear of AI “doom loop” killing news orgs."
-    },
-    {
-      "title": "Republican bill would order ISPs, DNS providers, and VPNs to block piracy sites",
-      "link": "https://arstechnica.com/tech-policy/2026/09/republican-bill-would-order-isps-dns-providers-and-vpns-to-block-piracy-sites/",
-      "raw_summary": "Bill would help rightsholders obtain court orders to block foreign piracy sites.",
-      "source": "Ars Technica - All content",
-      "published": "Thu, 17 Sep 2026 19:07:28 +0000",
-      "summary": "Republican bill would order ISPs, DNS providers, and VPNs to block piracy sites\nBill would help rightsholders obtain court orders to block foreign piracy sites."
-    },
-    {
-      "title": "FirstFT: Venezuela nears deal to transfer $4bn gold reserve to New York",
-      "link": "https://www.ft.com/content/f89ed081-c025-4d69-bc41-9f5564c8b441?syn-25a6b1a6=1",
-      "raw_summary": "Also in today’s newsletter: top Republican warns Hispanic voters feel ‘betrayed’ by Trump and Wall Street trading boom fades",
+      "title": "Howard Buffett to succeed father Warren as Berkshire Hathaway chair",
+      "link": "https://www.ft.com/content/e26d8335-426a-4405-ae4c-433bd2696994?syn-25a6b1a6=1",
+      "raw_summary": "Conglomerate says the elder Buffett will take on role of chair emeritus",
       "source": "World",
-      "published": "Fri, 18 Sep 2026 09:57:32 GMT",
-      "summary": "FirstFT: Venezuela nears deal to transfer $4bn gold reserve to New York\nAlso in today’s newsletter: top Republican warns Hispanic voters feel ‘betrayed’ by Trump and Wall Street trading boom fades"
+      "published": "Fri, 18 Sep 2026 14:25:42 GMT",
+      "summary": "Howard Buffett to succeed father Warren as Berkshire Hathaway chair\nConglomerate says the elder Buffett will take on role of chair emeritus"
     },
     {
-      "title": "Inflation and interest rates tracker: see how your country compares",
-      "link": "https://www.ft.com/content/088d3368-bb8b-4ff3-9df7-a7680d4d81b2?syn-25a6b1a6=1",
-      "raw_summary": "Explore the latest data through interactive charts",
+      "title": "Former Wells Fargo asset manager Allspring explores $4bn sale",
+      "link": "https://www.ft.com/content/1270032d-25e9-4be0-aa2f-5205b9bedd08?syn-25a6b1a6=1",
+      "raw_summary": "Deal by private equity owners would follow a string of transactions that have reshaped the industry",
       "source": "World",
-      "published": "Fri, 18 Sep 2026 09:57:22 GMT",
-      "summary": "Inflation and interest rates tracker: see how your country compares\nExplore the latest data through interactive charts"
+      "published": "Fri, 18 Sep 2026 14:12:56 GMT",
+      "summary": "Former Wells Fargo asset manager Allspring explores $4bn sale\nDeal by private equity owners would follow a string of transactions that have reshaped the industry"
     },
     {
-      "title": "Yen sinks after BoJ raises rates to highest level since 1995",
-      "link": "https://www.ft.com/content/97a0bed5-0580-4ccc-bd3c-fe9a714259e2?syn-25a6b1a6=1",
-      "raw_summary": "Hawkish comments by BoJ governor fail to arrest renewed slide in currency after borrowing costs lifted to 1.25%",
+      "title": "Labour conference set to vote on new AI regulator as cabinet concerns grow",
+      "link": "https://www.ft.com/content/2660e844-6aaa-49a4-ab7a-aafdf6a3d805?syn-25a6b1a6=1",
+      "raw_summary": "Motion brought by union to replace AI Security Institute comes as minister opens door to strengthening legislation",
       "source": "World",
-      "published": "Fri, 18 Sep 2026 09:46:57 GMT",
-      "summary": "Yen sinks after BoJ raises rates to highest level since 1995\nHawkish comments by BoJ governor fail to arrest renewed slide in currency after borrowing costs lifted to 1.25%"
+      "published": "Fri, 18 Sep 2026 14:01:45 GMT",
+      "summary": "Labour conference set to vote on new AI regulator as cabinet concerns grow\nMotion brought by union to replace AI Security Institute comes as minister opens door to strengthening legislation"
     },
     {
-      "title": "Fuel queues and conscription fears unsettle Russian voters",
-      "link": "https://www.ft.com/content/b1bf57db-c66f-4086-a0be-531e7a5dcd31?syn-25a6b1a6=1",
-      "raw_summary": "Fallout from the Ukraine war shapes first State Duma election since the start of the conflict",
+      "title": "Why Scott Bessent should pay attention to Turkey’s market scandal",
+      "link": "https://www.ft.com/content/d6adb7bb-72b4-47d1-b3bd-11e908d06b60?syn-25a6b1a6=1",
+      "raw_summary": "It does not take a fraud to cause problems when markets get overstretched",
       "source": "World",
-      "published": "Fri, 18 Sep 2026 09:38:41 GMT",
-      "summary": "Fuel queues and conscription fears unsettle Russian voters\nFallout from the Ukraine war shapes first State Duma election since the start of the conflict"
+      "published": "Fri, 18 Sep 2026 13:45:54 GMT",
+      "summary": "Why Scott Bessent should pay attention to Turkey’s market scandal\nIt does not take a fraud to cause problems when markets get overstretched"
     },
     {
-      "title": "Bank of Japan raises rates and accelerates tightening",
-      "link": "https://www.ft.com/content/14f9df6a-5a70-42d9-86ee-37e6242aae6e",
-      "raw_summary": "Rates increased to 1.25% as expected and indicate quarterly pace of tightening will continue",
+      "title": "Business and unions clash over how to fix UK’s youth jobs shortage",
+      "link": "https://www.ft.com/content/1785c976-109d-47b4-9aa3-1c4d839086c6?syn-25a6b1a6=1",
+      "raw_summary": "TUC calls for £1bn expansion of jobs guarantee while employers push for tax cuts",
       "source": "World",
-      "published": "Fri, 18 Sep 2026 09:32:39 GMT",
-      "summary": "Bank of Japan raises rates and accelerates tightening\nRates increased to 1.25% as expected and indicate quarterly pace of tightening will continue"
+      "published": "Fri, 18 Sep 2026 13:32:15 GMT",
+      "summary": "Business and unions clash over how to fix UK’s youth jobs shortage\nTUC calls for £1bn expansion of jobs guarantee while employers push for tax cuts"
     },
     {
-      "title": "Amundi’s Berardi: Global Markets Still Face Pockets of Fragility",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-18/berardi-global-markets-still-face-pockets-of-fragility-video",
-      "raw_summary": "Alessia Berardi, Head of Global Macroeconomics and Emerging Markets Strategy at the Amundi Investment Institute, discusses the outlook for global bonds after a week in which the Federal Reserve and Bank of Japan hiked interest rates, amid elevated energy prices and fiscal risks. Berardi joined \"The Pulse with Francine Lacqua\" on Bloomberg TV.  (Source: Bloomberg)",
+      "title": "FTSE Russell Flags Energy Risks",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-18/ftse-russell-flags-energy-risks-video",
+      "raw_summary": "FTSE Russell’s Indrani De says resilient earnings and AI-driven investment continue to support markets, but investors are becoming more selective. She says capital is increasingly balancing growth exposure with investment-grade debt, while rising refining constraints and energy costs remain key risks heading into winter. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Fri, 18 Sep 2026 10:14:28 GMT",
-      "summary": "Amundi’s Berardi: Global Markets Still Face Pockets of Fragility\nAlessia Berardi, Head of Global Macroeconomics and Emerging Markets Strategy at the Amundi Investment Institute, discusses the outlook for global bonds after a week in which the Federal Reserve and Bank of Japan hiked interest rates, a"
+      "published": "Fri, 18 Sep 2026 15:10:29 GMT",
+      "summary": "FTSE Russell Flags Energy Risks\nFTSE Russell’s Indrani De says resilient earnings and AI-driven investment continue to support markets, but investors are becoming more selective. She says capital is increasingly balancing growth exposure with investment-grade debt, while rising refining constraints "
     },
     {
-      "title": "Bilfinger CEO on Trimmed Outlook, Job Cuts",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-18/bilfinger-ceo-on-trimmed-outlook-job-cuts-video",
-      "raw_summary": "German industrial services giant Bilfinger has had a tough week after delivering a surprise guidance cut. The firm is blaming uncertainty coming from the Iran conflict for the warning and is now saying that it may cut 1500 jobs. CEO Thomas Schulz spoke exclusively with Guy Johnson on \"Bloomberg Brief.\" (Source: Bloomberg)",
+      "title": "S&P 500 Wavers as Fed-Hike Bets Boost Bond Yields: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-17/stock-market-today-dow-s-p-live-updates",
+      "raw_summary": "The last stretch of a busy week for markets saw stocks churning as bond yields rose, with traders also facing the expiration of a pile of options that threatens to trigger sudden price swings.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 18 Sep 2026 10:10:40 GMT",
-      "summary": "Bilfinger CEO on Trimmed Outlook, Job Cuts\nGerman industrial services giant Bilfinger has had a tough week after delivering a surprise guidance cut. The firm is blaming uncertainty coming from the Iran conflict for the warning and is now saying that it may cut 1500 jobs. CEO Thomas Schulz spoke excl"
+      "published": "Thu, 17 Sep 2026 22:14:33 GMT",
+      "summary": "S&P 500 Wavers as Fed-Hike Bets Boost Bond Yields: Markets Wrap\nThe last stretch of a busy week for markets saw stocks churning as bond yields rose, with traders also facing the expiration of a pile of options that threatens to trigger sudden price swings."
     },
     {
-      "title": "Bond Rout’s Silver Lining Emerges With Chance to Grab 5% Yields",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-18/bond-rout-s-silver-lining-emerges-with-chance-to-grab-5-yields",
-      "raw_summary": "For all the anxiety that’s been gripping the world’s biggest bond market, some investors see a compelling reason to buy: income.",
+      "title": "Buffett Steps Down as Berkshire Chair, Ending Six-Decade Run",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-18/buffett-steps-down-as-berkshire-chair-video",
+      "raw_summary": "Berkshire Hathaway Inc. founder Warren Buffett is stepping down as the company’s chairman to be replaced by his son Howard, effectively ending roughly six decades at the helm of the conglomerate. \nBloomberg Intelligence Senior P&amp;C Insurance Analyst Matt Palazola discusses the move and Buffett's legacy with the company. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Fri, 18 Sep 2026 10:10:00 GMT",
-      "summary": "Bond Rout’s Silver Lining Emerges With Chance to Grab 5% Yields\nFor all the anxiety that’s been gripping the world’s biggest bond market, some investors see a compelling reason to buy: income."
+      "published": "Fri, 18 Sep 2026 15:05:40 GMT",
+      "summary": "Buffett Steps Down as Berkshire Chair, Ending Six-Decade Run\nBerkshire Hathaway Inc. founder Warren Buffett is stepping down as the company’s chairman to be replaced by his son Howard, effectively ending roughly six decades at the helm of the conglomerate. \nBloomberg Intelligence Senior P&amp;C Insu"
     },
     {
-      "title": "Mozambique, Senegal Eurobonds Top Emerging Market Returns",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-17/mozambique-senegal-eurobonds-top-emerging-market-returns-lifted-by-imf-talks",
-      "raw_summary": "Mozambique and Senegal’s eurobonds are topping returns across emerging markets, spurred by progress in talks with the International Monetary Fund over new programs.",
+      "title": "New SVB Review Finds Fed Missed Repeated Warnings",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-18/new-svb-review-finds-fed-missed-repeated-warnings-video",
+      "raw_summary": "A new draft report found that Federal Reserve officials failed to adequately respond to repeated warnings about Silicon Valley Bank’s deteriorating financial condition before its 2023 failure. The report by Starling Trust Sciences was commissioned by Federal Reserve Vice Chair for Supervision Michelle Bowman, who has long pushed for an outside review of SVB’s failure. Michael McKee reports on Bloomberg Television. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Thu, 17 Sep 2026 13:54:53 GMT",
-      "summary": "Mozambique, Senegal Eurobonds Top Emerging Market Returns\nMozambique and Senegal’s eurobonds are topping returns across emerging markets, spurred by progress in talks with the International Monetary Fund over new programs."
+      "published": "Fri, 18 Sep 2026 15:02:23 GMT",
+      "summary": "New SVB Review Finds Fed Missed Repeated Warnings\nA new draft report found that Federal Reserve officials failed to adequately respond to repeated warnings about Silicon Valley Bank’s deteriorating financial condition before its 2023 failure. The report by Starling Trust Sciences was commissioned by"
     },
     {
-      "title": "Poland Says Russia Plans to Strike Ukraine’s NATO Allies",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-17/poland-warns-that-russia-plans-to-strike-ukraine-s-nato-allies",
-      "raw_summary": "Polish Prime Minister Donald Tusk said Russia plans to launch “hybrid-style” drone and missile strikes against nations supporting Ukraine, including NATO-member Poland, as the war enters its most crucial phase.",
+      "title": "On Holdings New Partner; Netflix Analyst Downgrade | Stock Movers",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-18/on-holdings-new-partner-netflix-analyst-downgrade-video",
+      "raw_summary": "On this episode of Stock Movers:\n\n- On Holding (ONON) is higher after it signed Kylian Mbappé as a partner in developing football products and representing the brand. The move marks On mounting a bold challenge to Nike and Adidas’ dominance of the sport.\n- Xenon Pharmaceuticals (XENE) is in a steep decline after it voluntarily halted a trial enrollment of azetukalner, which treats depression and bipolar, after studies showed adverse events.\n- Netflix (NFLX) shares are lower after Wells Fargo downgraded the stock to underweight, citing concerns about user engagement. Analyst Steven Cahall wrote that Netflix \"has lacked big original series and it's showing\" and that \"breakout hits\" are necessary for the stock to work again. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Thu, 17 Sep 2026 16:30:32 GMT",
-      "summary": "Poland Says Russia Plans to Strike Ukraine’s NATO Allies\nPolish Prime Minister Donald Tusk said Russia plans to launch “hybrid-style” drone and missile strikes against nations supporting Ukraine, including NATO-member Poland, as the war enters its most crucial phase."
+      "published": "Fri, 18 Sep 2026 15:00:46 GMT",
+      "summary": "On Holdings New Partner; Netflix Analyst Downgrade | Stock Movers\nOn this episode of Stock Movers:\n\n- On Holding (ONON) is higher after it signed Kylian Mbappé as a partner in developing football products and representing the brand. The move marks On mounting a bold challenge to Nike and Adidas’ dom"
     },
     {
-      "title": "Bitcoin weathers September storm as rate hikes and Clarity act setback test bulls",
-      "link": "https://www.coindesk.com/markets/2026/09/18/bitcoin-weathers-september-storm-as-rate-hikes-and-clarity-act-setback-test-bulls",
+      "title": "CFTC sends crypto rules to White House to review as Congress stalls on Clarity Act",
+      "link": "https://www.coindesk.com/policy/2026/09/18/cftc-sends-crypto-rules-to-white-house-to-review-as-congress-stalls-on-clarity-act",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 18 Sep 2026 10:07:33 +0000",
-      "summary": "Bitcoin weathers September storm as rate hikes and Clarity act setback test bulls\n"
+      "published": "Fri, 18 Sep 2026 15:16:37 +0000",
+      "summary": "CFTC sends crypto rules to White House to review as Congress stalls on Clarity Act\n"
     },
     {
-      "title": "Live updates: HYPE leads altcoin rally as bitcoin recovers toward $78,000",
-      "link": "https://www.coindesk.com/tech/2026/09/18/live-updates-hype-leads-altcoin-rally-as-bitcoin-recovers-toward-usd78-000",
+      "title": "Crypto tech provider Haruko hit by cyberattack affecting 15 clients, some funds lost",
+      "link": "https://www.coindesk.com/business/2026/09/18/crypto-tech-provider-haruko-hit-by-cyberattack-affecting-15-clients-some-funds-lost",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 18 Sep 2026 09:49:51 +0000",
-      "summary": "Live updates: HYPE leads altcoin rally as bitcoin recovers toward $78,000\n"
+      "published": "Fri, 18 Sep 2026 15:06:31 +0000",
+      "summary": "Crypto tech provider Haruko hit by cyberattack affecting 15 clients, some funds lost\n"
     },
     {
-      "title": "SBI Group backs payments firm dtcpay in $25 million funding round",
-      "link": "https://www.coindesk.com/markets/2026/09/18/sbi-group-backs-payments-firm-dtcpay-in-usd25-million-funding-round",
+      "title": "DHS’s predictive policing is unconstitutional, un-American and should be stopped",
+      "link": "https://www.coindesk.com/opinion/2026/09/18/dhs-s-predictive-policing-is-unconstitutional-un-american-and-should-be-stopped",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 18 Sep 2026 07:37:32 +0000",
-      "summary": "SBI Group backs payments firm dtcpay in $25 million funding round\n"
+      "published": "Fri, 18 Sep 2026 13:00:00 +0000",
+      "summary": "DHS’s predictive policing is unconstitutional, un-American and should be stopped\n"
     },
     {
-      "title": "Iran’s Strait of Hormuz toll booth ran through a bitcoin exchange, U.S. says",
-      "link": "https://www.coindesk.com/policy/2026/09/18/iran-s-strait-of-hormuz-toll-booth-ran-through-a-bitcoin-exchange-u-s-says",
+      "title": "ECB President Christine Lagarde intervened to block Binance’s EU MiCA license: WSJ",
+      "link": "https://www.coindesk.com/policy/2026/09/18/ecb-president-christine-lagarde-intervened-to-block-binance-s-eu-mica-license-wsj",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 18 Sep 2026 06:52:23 +0000",
-      "summary": "Iran’s Strait of Hormuz toll booth ran through a bitcoin exchange, U.S. says\n"
+      "published": "Fri, 18 Sep 2026 12:57:06 +0000",
+      "summary": "ECB President Christine Lagarde intervened to block Binance’s EU MiCA license: WSJ\n"
     },
     {
-      "title": "Solana speeds up blocks by 17%, but transaction capacity stays the same",
-      "link": "https://www.coindesk.com/tech/2026/09/18/solana-speeds-up-blocks-by-17-but-transaction-capacity-stays-the-same",
+      "title": "Zcash targets November upgrade to make private payments up to three times faster",
+      "link": "https://www.coindesk.com/tech/2026/09/18/zcash-targets-november-upgrade-to-make-private-payments-up-to-three-times-faster",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 18 Sep 2026 06:16:57 +0000",
-      "summary": "Solana speeds up blocks by 17%, but transaction capacity stays the same\n"
+      "published": "Fri, 18 Sep 2026 12:50:01 +0000",
+      "summary": "Zcash targets November upgrade to make private payments up to three times faster\n"
     }
   ]
 }
