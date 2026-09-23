@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T15:51:23.701138+00:00",
+  "generated_at": "2026-09-23T20:54:15.465961+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "Who’s Tracking You? Use This New Service to Find Out\nIt can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much"
     },
     {
+      "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
+      "link": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
+      "raw_summary": "Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a distribution vector for malicious payloads.\n\nAccording to Aikido, the list of Terraform providers and Go modules is below -\n\n\n  gocommunity-io/dockerd (222 downloads)\n  kreuzwenker/",
+      "source": "The Hacker News",
+      "published": "Wed, 23 Sep 2026 23:36:30 +0530",
+      "summary": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry\nCybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp"
+    },
+    {
+      "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
+      "link": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+      "raw_summary": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you.\n\nGitLab shows each user this address behind a button labeled \"Email work item to this project.\" Mail sent to it opens an issue in that project, authored",
+      "source": "The Hacker News",
+      "published": "Wed, 23 Sep 2026 22:23:10 +0530",
+      "summary": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You\nThe private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start "
+    },
+    {
+      "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
+      "link": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
+      "raw_summary": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication.\n\nThe chain, which CERT Polska calls MikroTrick, combines an SSH state-machine flaw (CVE-2026-67279) with an argument-injection bug in the RouterOS login process (CVE-2026-86060). Attack logs date to at",
+      "source": "The Hacker News",
+      "published": "Wed, 23 Sep 2026 21:36:41 +0530",
+      "summary": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key\nTwo MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication.\n\nThe chain, which CE"
+    },
+    {
       "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
       "link": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
       "raw_summary": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server,&nbsp;Cisco Talos said&nbsp;on September 22.\n\nThe models can choose to steal Windows credentials, saved browser passwords, and crypto wallet data. Talos has not seen this setup work from start to finish, and the public version of the malware does not work as it is.",
@@ -59,212 +83,188 @@
       "summary": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI\nUnknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit designed for Windo"
     },
     {
-      "title": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
-      "link": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
-      "raw_summary": "A flaw in cPanel's&nbsp;CalDAV and CardDAV service&nbsp;lets anyone with a cPanel hosting account run code as root and take \"full control of the server,\" the company said on September 22.\n\nA&nbsp;second bug in the WP Toolkit plugin, used to install and manage WordPress sites, allows an account holder to change databases that belong to other accounts.\n\ncPanel has released fixed versions for both,",
-      "source": "The Hacker News",
-      "published": "Wed, 23 Sep 2026 17:46:00 +0530",
-      "summary": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control\nA flaw in cPanel's&nbsp;CalDAV and CardDAV service&nbsp;lets anyone with a cPanel hosting account run code as root and take \"full control of the server,\" the company said on September 22.\n\nA&nbsp;second bug in the WP T"
-    },
-    {
-      "title": "545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent",
-      "link": "https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html",
-      "raw_summary": "Autonomous security agents are getting good at finding bugs. Nobody has a good way to measure how good. Point one at a realistic target and what comes back is a report the agent wrote about itself: confident prose, a list of findings, and no way to tell which of them happened. Someone with a security background then sits down and checks every claim against the target. Which findings are real,",
-      "source": "The Hacker News",
-      "published": "Wed, 23 Sep 2026 17:17:19 +0530",
-      "summary": "545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent\nAutonomous security agents are getting good at finding bugs. Nobody has a good way to measure how good. Point one at a realistic target and what comes back is a report the agent wrote about itself: confident prose, a list of "
-    },
-    {
-      "title": "Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests",
-      "link": "https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html",
-      "raw_summary": "Anthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to invest in improving alignment to combat risky behavior.\n\nOpus 5.5, per Anthropic, is a \"major step up from Opus 5,\" and \"achieves the best scores of any model to date on our automated behavioral audit, our alignment suite that tests Claude across thousands",
-      "source": "The Hacker News",
-      "published": "Wed, 23 Sep 2026 17:17:13 +0530",
-      "summary": "Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests\nAnthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to invest in improving alignment to combat risky behavior.\n\nOpus 5.5, per Anthropic, is "
-    },
-    {
-      "title": "Fixing the Portobello Police Station Clock",
-      "link": "https://pointinthecloud.com/2026-04-11-211700.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://pointinthecloud.com/2026-04-11-211700.html\">https://pointinthecloud.com/2026-04-11-211700.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49817469\">https://news.ycombinator.com/item?id=49817469</a></p>\n<p>Points: 20</p>\n<p># Comments: 3</p>",
+      "title": "How can this Amazon scammer keep going, not shipping any goods?",
+      "link": "https://www.amazon.de/sp?language=en&ie=UTF8&seller=A29EBN4DXM8UCL&asin=B0CGBFF8K9&ref_=dp_merchant_link",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.amazon.de/sp?language=en&amp;ie=UTF8&amp;seller=A29EBN4DXM8UCL&amp;asin=B0CGBFF8K9&amp;ref_=dp_merchant_link\">https://www.amazon.de/sp?language=en&amp;ie=UTF8&amp;seller=A29EBN4DXM8UCL&amp;asin=B0CGBFF8K9&amp;ref_=dp_merchant_link</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49821925\">https://news.ycombinator.com/item?id=49821925</a></p>\n<p>Points: 17</p>\n<p># Comments: 9</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 23 Sep 2026 15:18:53 +0000",
-      "summary": "Fixing the Portobello Police Station Clock\n<p>Article URL: <a href=\"https://pointinthecloud.com/2026-04-11-211700.html\">https://pointinthecloud.com/2026-04-11-211700.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49817469\">https://news.ycombinator.com/item?id=49817469</a"
+      "published": "Wed, 23 Sep 2026 20:19:24 +0000",
+      "summary": "How can this Amazon scammer keep going, not shipping any goods?\n<p>Article URL: <a href=\"https://www.amazon.de/sp?language=en&amp;ie=UTF8&amp;seller=A29EBN4DXM8UCL&amp;asin=B0CGBFF8K9&amp;ref_=dp_merchant_link\">https://www.amazon.de/sp?language=en&amp;ie=UTF8&amp;seller=A29EBN4DXM8UCL&amp;asin=B0CGB"
     },
     {
-      "title": "GPT-6 Astra has gained the ability to drive a car",
-      "link": "https://drivingbench.com/",
-      "raw_summary": "<p>Article URL: <a href=\"https://drivingbench.com/\">https://drivingbench.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49817404\">https://news.ycombinator.com/item?id=49817404</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "title": "DoorDash Spent $1.4M Trying to Stop Mamdani from Becoming Mayor. Now We Know Why",
+      "link": "https://theintercept.com/2026/09/23/doordash-delivery-nyc-mamdani-wage-theft-settlement/",
+      "raw_summary": "<p>Article URL: <a href=\"https://theintercept.com/2026/09/23/doordash-delivery-nyc-mamdani-wage-theft-settlement/\">https://theintercept.com/2026/09/23/doordash-delivery-nyc-mamdani-wage-theft-settlement/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49821608\">https://news.ycombinator.com/item?id=49821608</a></p>\n<p>Points: 96</p>\n<p># Comments: 30</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 23 Sep 2026 15:14:22 +0000",
-      "summary": "GPT-6 Astra has gained the ability to drive a car\n<p>Article URL: <a href=\"https://drivingbench.com/\">https://drivingbench.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49817404\">https://news.ycombinator.com/item?id=49817404</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>"
+      "published": "Wed, 23 Sep 2026 19:55:14 +0000",
+      "summary": "DoorDash Spent $1.4M Trying to Stop Mamdani from Becoming Mayor. Now We Know Why\n<p>Article URL: <a href=\"https://theintercept.com/2026/09/23/doordash-delivery-nyc-mamdani-wage-theft-settlement/\">https://theintercept.com/2026/09/23/doordash-delivery-nyc-mamdani-wage-theft-settlement/</a></p>\n<p>Comm"
     },
     {
-      "title": "Strands Harness",
-      "link": "https://strandsagents.com/blog/introducing-strands-harness/",
-      "raw_summary": "<p>Article URL: <a href=\"https://strandsagents.com/blog/introducing-strands-harness/\">https://strandsagents.com/blog/introducing-strands-harness/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49817289\">https://news.ycombinator.com/item?id=49817289</a></p>\n<p>Points: 29</p>\n<p># Comments: 16</p>",
+      "title": "How we made claude.ai 3x faster in two weeks",
+      "link": "https://claude.dev/blog/how-we-made-claude-ai-faster/",
+      "raw_summary": "<p>Article URL: <a href=\"https://claude.dev/blog/how-we-made-claude-ai-faster/\">https://claude.dev/blog/how-we-made-claude-ai-faster/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49821196\">https://news.ycombinator.com/item?id=49821196</a></p>\n<p>Points: 74</p>\n<p># Comments: 45</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 23 Sep 2026 15:05:46 +0000",
-      "summary": "Strands Harness\n<p>Article URL: <a href=\"https://strandsagents.com/blog/introducing-strands-harness/\">https://strandsagents.com/blog/introducing-strands-harness/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49817289\">https://news.ycombinator.com/item?id=49817289</a></p>\n<p>"
+      "published": "Wed, 23 Sep 2026 19:23:40 +0000",
+      "summary": "How we made claude.ai 3x faster in two weeks\n<p>Article URL: <a href=\"https://claude.dev/blog/how-we-made-claude-ai-faster/\">https://claude.dev/blog/how-we-made-claude-ai-faster/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49821196\">https://news.ycombinator.com/item?id=498"
     },
     {
-      "title": "Why is Hacker News like that?",
-      "link": "https://drewdevault.com/blog/Why-is-HN-like-that/",
-      "raw_summary": "<p>Article URL: <a href=\"https://drewdevault.com/blog/Why-is-HN-like-that/\">https://drewdevault.com/blog/Why-is-HN-like-that/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49817280\">https://news.ycombinator.com/item?id=49817280</a></p>\n<p>Points: 21</p>\n<p># Comments: 4</p>",
+      "title": "Show HN: I built a post-mortem debugger for native Windows x64/x86 crashes",
+      "link": "https://www.forensicdbg.com",
+      "raw_summary": "<p>Hello HN!<p>I've spent years debugging Windows crashes with tools that were either friendly but limited (e.g. Visual Studio) or powerful but archaic (e.g. WinDbg). I developed patterns and methods for understanding what was going on, and decided to build it into a much more effective debugging tool called ForensicDbg.<p>I built a modern interface to minimize the friction when debugging. All of the data shown to you is analyzed, interpreted, and presented to you clearly, so you can focus on what matters. Everything is interlinked so you can quickly and intuitivly navigate through the process space.<p>ForensicDbg comes with an MCP server which allows for agenic debugging. The work done to interpret and interlink your data also benefits AI tools. It removes the risk of hallucinations while building a stable foundation for them to work from without spending tokens.<p>If you want to try it out you can sign up and get a free beta license here: <a href=\"https://www.forensicdbg.com/beta\" rel=\"nofollow\">https://www.forensicdbg.com/beta</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49821086\">https://news.ycombinator.com/item?id=49821086</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 23 Sep 2026 15:05:20 +0000",
-      "summary": "Why is Hacker News like that?\n<p>Article URL: <a href=\"https://drewdevault.com/blog/Why-is-HN-like-that/\">https://drewdevault.com/blog/Why-is-HN-like-that/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49817280\">https://news.ycombinator.com/item?id=49817280</a></p>\n<p>Points"
+      "published": "Wed, 23 Sep 2026 19:15:55 +0000",
+      "summary": "Show HN: I built a post-mortem debugger for native Windows x64/x86 crashes\n<p>Hello HN!<p>I've spent years debugging Windows crashes with tools that were either friendly but limited (e.g. Visual Studio) or powerful but archaic (e.g. WinDbg). I developed patterns and methods for understanding what wa"
     },
     {
-      "title": "Montreal adopts bylaw banning insults against police, municipal employees",
-      "link": "https://www.cbc.ca/news/canada/montreal/montreal-city-council-police-9.7352920",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.cbc.ca/news/canada/montreal/montreal-city-council-police-9.7352920\">https://www.cbc.ca/news/canada/montreal/montreal-city-council-police-9.7352920</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49816658\">https://news.ycombinator.com/item?id=49816658</a></p>\n<p>Points: 55</p>\n<p># Comments: 49</p>",
+      "title": "Cloud Agents Are Inevitable AI Prisons",
+      "link": "https://normanponte.io/19df691f",
+      "raw_summary": "<p>Article URL: <a href=\"https://normanponte.io/19df691f\">https://normanponte.io/19df691f</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49820267\">https://news.ycombinator.com/item?id=49820267</a></p>\n<p>Points: 43</p>\n<p># Comments: 51</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 23 Sep 2026 14:22:54 +0000",
-      "summary": "Montreal adopts bylaw banning insults against police, municipal employees\n<p>Article URL: <a href=\"https://www.cbc.ca/news/canada/montreal/montreal-city-council-police-9.7352920\">https://www.cbc.ca/news/canada/montreal/montreal-city-council-police-9.7352920</a></p>\n<p>Comments URL: <a href=\"https://"
+      "published": "Wed, 23 Sep 2026 18:16:41 +0000",
+      "summary": "Cloud Agents Are Inevitable AI Prisons\n<p>Article URL: <a href=\"https://normanponte.io/19df691f\">https://normanponte.io/19df691f</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49820267\">https://news.ycombinator.com/item?id=49820267</a></p>\n<p>Points: 43</p>\n<p># Comments: 51<"
     },
     {
-      "title": "YouTube’s conversational video editing tool lets creators make edits in natural language",
-      "link": "https://techcrunch.com/2026/09/23/youtubes-conversational-video-editing-tool-lets-creators-make-edits-in-natural-language/",
-      "raw_summary": "Creators will be able to use AI in a conversational chat interface to help them edit videos.",
+      "title": "VC firm Bessemer now has another $5.75B to invest in (what else?) AI",
+      "link": "https://techcrunch.com/2026/09/23/vc-firm-bessemer-now-has-another-5-75b-to-invest-in-what-else-ai/",
+      "raw_summary": "The VC firm says that AI-native companies are growing faster than any technology, ever.",
       "source": "TechCrunch",
-      "published": "Wed, 23 Sep 2026 15:46:57 +0000",
-      "summary": "YouTube’s conversational video editing tool lets creators make edits in natural language\nCreators will be able to use AI in a conversational chat interface to help them edit videos."
+      "published": "Wed, 23 Sep 2026 20:35:17 +0000",
+      "summary": "VC firm Bessemer now has another $5.75B to invest in (what else?) AI\nThe VC firm says that AI-native companies are growing faster than any technology, ever."
     },
     {
-      "title": "YouTube Music gets more conversational with new AI features",
-      "link": "https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features/",
-      "raw_summary": "YouTube is adding new AI-powered features to YouTube Music that aim to make it easier for listeners to discover music, explore artists, and find podcasts they may otherwise miss. Announced at this year’s Made On YouTube event, the updates include “Ask Music,” a conversational tool for music and podcasts, and “Your Podcast Lineup,” a personalized [&#8230;]",
+      "title": "Enveda secures $311M to bring more nature-derived AI drugs into clinical trials",
+      "link": "https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials/",
+      "raw_summary": "The round valued the AI biotech at $2 billion. It is currently testing drugs that treat skin conditions and preserve weight loss after stopping GLP-1s.",
       "source": "TechCrunch",
-      "published": "Wed, 23 Sep 2026 15:19:30 +0000",
-      "summary": "YouTube Music gets more conversational with new AI features\nYouTube is adding new AI-powered features to YouTube Music that aim to make it easier for listeners to discover music, explore artists, and find podcasts they may otherwise miss. Announced at this year’s Made On YouTube event, the updates i"
+      "published": "Wed, 23 Sep 2026 19:31:28 +0000",
+      "summary": "Enveda secures $311M to bring more nature-derived AI drugs into clinical trials\nThe round valued the AI biotech at $2 billion. It is currently testing drugs that treat skin conditions and preserve weight loss after stopping GLP-1s."
     },
     {
-      "title": "Eight Sleep’s new Pod 6 comes in smaller and solo sizes, starting at $1,999",
-      "link": "https://techcrunch.com/2026/09/23/eight-sleeps-new-pod-6-comes-in-smaller-and-solo-sizes-starting-at-1999/",
-      "raw_summary": "Eight Sleep said the new pod is now 20% faster than the previous generation",
+      "title": "Modal Motors is trying to cut China out of electric motors entirely",
+      "link": "https://techcrunch.com/2026/09/23/modal-motors-is-trying-to-cut-china-out-of-electric-motors-entirely/",
+      "raw_summary": "The startup is working on small, light motors with no rare-earth magnets that are suited for drones, fans, and robots.",
       "source": "TechCrunch",
-      "published": "Wed, 23 Sep 2026 14:45:00 +0000",
-      "summary": "Eight Sleep’s new Pod 6 comes in smaller and solo sizes, starting at $1,999\nEight Sleep said the new pod is now 20% faster than the previous generation"
+      "published": "Wed, 23 Sep 2026 19:05:00 +0000",
+      "summary": "Modal Motors is trying to cut China out of electric motors entirely\nThe startup is working on small, light motors with no rare-earth magnets that are suited for drones, fans, and robots."
     },
     {
-      "title": "YouTube releases new AI features for creators within its Studio app",
-      "link": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/",
-      "raw_summary": "YouTube is adding new features to generate ideas and monitor the performance of thumbnails.",
+      "title": "Disney+ and Hulu add to the growing trend of streaming inflation",
+      "link": "https://techcrunch.com/2026/09/23/disney-and-hulu-add-to-the-growing-trend-of-streaming-inflation/",
+      "raw_summary": "At the same time, Disney appears to be exploring new ways to expand its streaming business beyond simply raising subscription prices.",
       "source": "TechCrunch",
-      "published": "Wed, 23 Sep 2026 14:30:00 +0000",
-      "summary": "YouTube releases new AI features for creators within its Studio app\nYouTube is adding new features to generate ideas and monitor the performance of thumbnails."
+      "published": "Wed, 23 Sep 2026 18:06:27 +0000",
+      "summary": "Disney+ and Hulu add to the growing trend of streaming inflation\nAt the same time, Disney appears to be exploring new ways to expand its streaming business beyond simply raising subscription prices."
     },
     {
-      "title": "YouTube’s new ‘Short series’ feature brings episodic viewing to Shorts",
-      "link": "https://techcrunch.com/2026/09/23/youtubes-new-short-series-feature-brings-episodic-viewing-to-shorts/",
-      "raw_summary": "Other Made On YouTube announcements are also designed to help creators grow and engage audiences.",
+      "title": "The old cybersecurity model is breaking",
+      "link": "https://techcrunch.com/video/the-old-cybersecurity-model-is-breaking/",
+      "raw_summary": "As concern over AI safety and rogue agents continue to make headlines, it’s no surprise that cybersecurity stocks are rising, or that investors are pouring massive amounts of capital into startups trying to build the next generation of security for an AI-native world.&#160;We’re&#160;even seeing companies like&#160;Instinct&#160;and&#160;Simile&#160;bring in nine-figure checks and valuations that&#160;wouldn&#8217;t&#160;have made sense a [&#8230;]",
       "source": "TechCrunch",
-      "published": "Wed, 23 Sep 2026 14:30:00 +0000",
-      "summary": "YouTube’s new ‘Short series’ feature brings episodic viewing to Shorts\nOther Made On YouTube announcements are also designed to help creators grow and engage audiences."
+      "published": "Wed, 23 Sep 2026 17:44:02 +0000",
+      "summary": "The old cybersecurity model is breaking\nAs concern over AI safety and rogue agents continue to make headlines, it’s no surprise that cybersecurity stocks are rising, or that investors are pouring massive amounts of capital into startups trying to build the next generation of security for an AI-nativ"
     },
     {
-      "title": "After multiple deaths and injuries, NHTSA is investigating comma.ai",
-      "link": "https://arstechnica.com/cars/2026/09/aftermarket-driver-assist-under-federal-probe-following-fatal-crashes/",
-      "raw_summary": "Feds know of 5 crashes where cars using comma.ai devices hit slow or stopped vehicles.",
+      "title": "XPRIZE Wildfire winners spotted fires within 10 min—but couldn’t stop them",
+      "link": "https://arstechnica.com/gadgets/2026/09/xprize-wildfire-winners-spotted-fires-within-10-min-but-couldnt-stop-them/",
+      "raw_summary": "$11M competition showed wildfire detection is still easier than stopping fires.",
       "source": "Ars Technica - All content",
-      "published": "Wed, 23 Sep 2026 14:20:23 +0000",
-      "summary": "After multiple deaths and injuries, NHTSA is investigating comma.ai\nFeds know of 5 crashes where cars using comma.ai devices hit slow or stopped vehicles."
+      "published": "Wed, 23 Sep 2026 20:28:42 +0000",
+      "summary": "XPRIZE Wildfire winners spotted fires within 10 min—but couldn’t stop them\n$11M competition showed wildfire detection is still easier than stopping fires."
     },
     {
-      "title": "America gave up its rare earth edge. China took full advantage.",
-      "link": "https://arstechnica.com/reviews/2026/09/how-the-us-handed-china-control-of-the-rare-earth-supply-chain/",
-      "raw_summary": "Decades of cheaper imports left US dependent on China for crucial rare earth processing.",
+      "title": "Discord age verification rolls out today with changes spurred by user backlash",
+      "link": "https://arstechnica.com/tech-policy/2026/09/discord-age-verification-rolls-out-today-with-changes-spurred-by-user-backlash/",
+      "raw_summary": "Discord will try to automatically estimate ages, require verification when it can't.",
       "source": "Ars Technica - All content",
-      "published": "Wed, 23 Sep 2026 13:37:05 +0000",
-      "summary": "America gave up its rare earth edge. China took full advantage.\nDecades of cheaper imports left US dependent on China for crucial rare earth processing."
+      "published": "Wed, 23 Sep 2026 20:05:13 +0000",
+      "summary": "Discord age verification rolls out today with changes spurred by user backlash\nDiscord will try to automatically estimate ages, require verification when it can't."
     },
     {
-      "title": "Small undersea volcanoes may unleash outsized tsunamis",
-      "link": "https://arstechnica.com/science/2026/09/small-undersea-volcanoes-may-unleash-outsized-tsunamis/",
-      "raw_summary": "Post-eruption imaging of the Hunga caldera gives new details of its collapse.",
+      "title": "YouTube promises custom feeds and a lot more AI later this year",
+      "link": "https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year/",
+      "raw_summary": "YouTube's next year could change the content you see with a big focus on AI and livestreams.",
       "source": "Ars Technica - All content",
-      "published": "Wed, 23 Sep 2026 11:15:30 +0000",
-      "summary": "Small undersea volcanoes may unleash outsized tsunamis\nPost-eruption imaging of the Hunga caldera gives new details of its collapse."
+      "published": "Wed, 23 Sep 2026 19:35:53 +0000",
+      "summary": "YouTube promises custom feeds and a lot more AI later this year\nYouTube's next year could change the content you see with a big focus on AI and livestreams."
     },
     {
-      "title": "A new report from Europe raises serious alarms about orbital collisions",
-      "link": "https://arstechnica.com/space/2026/09/there-are-now-17000-satellites-in-orbit-and-growing-should-we-be-concerned/",
-      "raw_summary": "\"I think we are going to lose the ability to use certain orbits.\"",
+      "title": "Contrary to some reports, you don't have two brains",
+      "link": "https://arstechnica.com/science/2026/09/contrary-to-some-reports-you-dont-have-two-brains/",
+      "raw_summary": "A bad press release makes a good excuse to look at how developmental biology works.",
       "source": "Ars Technica - All content",
-      "published": "Wed, 23 Sep 2026 11:00:17 +0000",
-      "summary": "A new report from Europe raises serious alarms about orbital collisions\n\"I think we are going to lose the ability to use certain orbits.\""
+      "published": "Wed, 23 Sep 2026 18:47:36 +0000",
+      "summary": "Contrary to some reports, you don't have two brains\nA bad press release makes a good excuse to look at how developmental biology works."
     },
     {
-      "title": "Woman's brain worm infection confirmed after eggs grow tails in lab test",
-      "link": "https://arstechnica.com/health/2026/09/womans-brain-worm-infection-confirmed-after-eggs-grow-tails-in-lab-test/",
-      "raw_summary": "There is no single definitive test for these worms, but the tail is fairly convincing.",
+      "title": "Netflix releases trailer for Brad Bird's Ray Gunn",
+      "link": "https://arstechnica.com/culture/2026/09/netflix-drops-trailer-for-brad-birds-ray-gunn/",
+      "raw_summary": "\"It’s film noir and a hard-boiled detective story, but it’s got a lot more comedy and a lot more action.\"",
       "source": "Ars Technica - All content",
-      "published": "Tue, 22 Sep 2026 21:42:14 +0000",
-      "summary": "Woman's brain worm infection confirmed after eggs grow tails in lab test\nThere is no single definitive test for these worms, but the tail is fairly convincing."
+      "published": "Wed, 23 Sep 2026 18:26:50 +0000",
+      "summary": "Netflix releases trailer for Brad Bird's Ray Gunn\n\"It’s film noir and a hard-boiled detective story, but it’s got a lot more comedy and a lot more action.\""
     },
     {
-      "title": "McDonald’s bets on chicken to win back diners as beef prices soar",
-      "link": "https://www.ft.com/content/1d7daa8f-e8bb-436c-ad8b-b6d097e4107f?syn-25a6b1a6=1",
-      "raw_summary": "Fast-food chain aims to grow share in booming chicken market in bid to kick-start sluggish US sales",
-      "source": "World",
-      "published": "Wed, 23 Sep 2026 15:44:55 GMT",
-      "summary": "McDonald’s bets on chicken to win back diners as beef prices soar\nFast-food chain aims to grow share in booming chicken market in bid to kick-start sluggish US sales"
-    },
-    {
-      "title": "Trump lays a new trap for Takaichi",
-      "link": "https://www.ft.com/content/8dfae006-c1ac-4713-8497-0e0e59e419f6?syn-25a6b1a6=1",
-      "raw_summary": "The threat of appearing as a vassal state is growing ever more real for middle powers",
-      "source": "World",
-      "published": "Wed, 23 Sep 2026 15:39:32 GMT",
-      "summary": "Trump lays a new trap for Takaichi\nThe threat of appearing as a vassal state is growing ever more real for middle powers"
-    },
-    {
-      "title": "Trump’s diesel ban would hurt America and help China",
-      "link": "https://www.ft.com/content/3e480031-4ee7-4ded-9893-75c060aeef1a?syn-25a6b1a6=1",
-      "raw_summary": "Suspending foreign sales of the vital fuel may look good in the short term but the US would soon suffer",
-      "source": "World",
-      "published": "Wed, 23 Sep 2026 15:37:23 GMT",
-      "summary": "Trump’s diesel ban would hurt America and help China\nSuspending foreign sales of the vital fuel may look good in the short term but the US would soon suffer"
-    },
-    {
-      "title": "US Treasury yields soar after strong data fuels bets on further rate rises",
+      "title": "US Treasury yields soar most since ‘liberation day’ tariffs shook markets",
       "link": "https://www.ft.com/content/5b11b598-7c77-4bdf-82bf-a763adf71a72?syn-25a6b1a6=1",
-      "raw_summary": "Closely followed survey underscores worries parts of the world’s biggest economy are overheating",
+      "raw_summary": "Traders crank up bets on Federal Reserve rate rises after data fuels worries economy is overheating",
       "source": "World",
-      "published": "Wed, 23 Sep 2026 15:33:30 GMT",
-      "summary": "US Treasury yields soar after strong data fuels bets on further rate rises\nClosely followed survey underscores worries parts of the world’s biggest economy are overheating"
+      "published": "Wed, 23 Sep 2026 20:32:00 GMT",
+      "summary": "US Treasury yields soar most since ‘liberation day’ tariffs shook markets\nTraders crank up bets on Federal Reserve rate rises after data fuels worries economy is overheating"
     },
     {
-      "title": "Italy clears path for nuclear power revival",
-      "link": "https://www.ft.com/content/c5215e50-446c-45e5-a2ec-36e3e30d0310?syn-25a6b1a6=1",
-      "raw_summary": "Senate approves law that will allow a new generation of reactors decades after previous plants were shut down",
+      "title": "Rosneft billions fed Kremlin-backed money laundering network",
+      "link": "https://www.ft.com/content/fb42c5dd-1550-402c-8881-49a3902710a0?syn-25a6b1a6=1",
+      "raw_summary": "FT investigation shows the state oil group’s hard currency was at heart of Russia’s efforts to circumvent sanctions",
       "source": "World",
-      "published": "Wed, 23 Sep 2026 15:17:30 GMT",
-      "summary": "Italy clears path for nuclear power revival\nSenate approves law that will allow a new generation of reactors decades after previous plants were shut down"
+      "published": "Wed, 23 Sep 2026 20:00:08 GMT",
+      "summary": "Rosneft billions fed Kremlin-backed money laundering network\nFT investigation shows the state oil group’s hard currency was at heart of Russia’s efforts to circumvent sanctions"
     },
     {
-      "title": "Activist Investor Jana Again Pushes Six Flags to Explore Sale",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-23/activist-investor-jana-again-pushes-six-flags-to-explore-sale",
-      "raw_summary": "Activist investor Jana Partners is again urging the board of amusement park operator Six Flags Entertainment Corp. to explore a sale, according to a person familiar with the matter.",
-      "source": "Bloomberg Markets",
-      "published": "Wed, 23 Sep 2026 15:43:21 GMT",
-      "summary": "Activist Investor Jana Again Pushes Six Flags to Explore Sale\nActivist investor Jana Partners is again urging the board of amusement park operator Six Flags Entertainment Corp. to explore a sale, according to a person familiar with the matter."
+      "title": "Anthropic’s Dario Amodei calls for ‘narrow’ AI safety agreements",
+      "link": "https://www.ft.com/content/31a27312-8032-4957-be69-ba32561e8db3",
+      "raw_summary": "Head of one of US’s top artificial intelligence companies calls for common model testing standards and a notification system for internationally significant AI incidents",
+      "source": "World",
+      "published": "Wed, 23 Sep 2026 19:57:38 GMT",
+      "summary": "Anthropic’s Dario Amodei calls for ‘narrow’ AI safety agreements\nHead of one of US’s top artificial intelligence companies calls for common model testing standards and a notification system for internationally significant AI incidents"
     },
     {
-      "title": "Gold Falls as Traders Weigh US-Iran Talk Progress, Fedspeak",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-22/gold-steadies-as-iran-talks-temper-concerns-over-fed-rate-path",
-      "raw_summary": "Gold fell as traders monitored progress in talks between the US and Iran and comments by Federal Reserve officials for clues on how energy costs will influence the path forward for interest rates.",
-      "source": "Bloomberg Markets",
-      "published": "Tue, 22 Sep 2026 23:56:43 GMT",
-      "summary": "Gold Falls as Traders Weigh US-Iran Talk Progress, Fedspeak\nGold fell as traders monitored progress in talks between the US and Iran and comments by Federal Reserve officials for clues on how energy costs will influence the path forward for interest rates."
+      "title": "Israeli election committee bars main Arab parties from next month’s poll",
+      "link": "https://www.ft.com/content/05ffcb10-869e-4857-bed7-fcb025f8e02f?syn-25a6b1a6=1",
+      "raw_summary": "Members of Prime Minister Benjamin Netanyahu’s far-right coalition lead campaign to exclude Ra’am and Joint List",
+      "source": "World",
+      "published": "Wed, 23 Sep 2026 19:00:05 GMT",
+      "summary": "Israeli election committee bars main Arab parties from next month’s poll\nMembers of Prime Minister Benjamin Netanyahu’s far-right coalition lead campaign to exclude Ra’am and Joint List"
     },
     {
-      "title": "Turkey Arrests Tera Chairman at Heart of Funds Scandal",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-22/turkey-arrests-tera-chairman-tezmen-at-heart-of-funds-scandal",
-      "raw_summary": "Turkey arrested the brokerage founder at the center of an investigation into imploded stock funds that have caused billions of dollars of investors’ money to evaporate.",
+      "title": "How besieged billionaires are turning the tables on litigious shareholders",
+      "link": "https://www.ft.com/content/05c5f945-c75a-4adb-a189-121a05b3686a?syn-25a6b1a6=1",
+      "raw_summary": "Hollywood super-agent Ari Emanuel has accused funds of illegal anti-competitive conduct over his take-private of Endeavor",
+      "source": "World",
+      "published": "Wed, 23 Sep 2026 17:27:49 GMT",
+      "summary": "How besieged billionaires are turning the tables on litigious shareholders\nHollywood super-agent Ari Emanuel has accused funds of illegal anti-competitive conduct over his take-private of Endeavor"
+    },
+    {
+      "title": "Sheinbaum Boosts Lula Before Vote as Leftist Allies Grow Scarce",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-23/sheinbaum-boosts-lula-before-vote-as-leftist-allies-grow-scarce",
+      "raw_summary": "Less than two weeks before Brazil’s election, Mexico’s Claudia Sheinbaum offered a strong public show of support for Luiz Inácio Lula da Silva, as Latin America’s two most prominent leftist leaders find themselves increasingly isolated amid a wave of conservative victories across the region.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 22 Sep 2026 21:27:41 GMT",
-      "summary": "Turkey Arrests Tera Chairman at Heart of Funds Scandal\nTurkey arrested the brokerage founder at the center of an investigation into imploded stock funds that have caused billions of dollars of investors’ money to evaporate."
+      "published": "Wed, 23 Sep 2026 20:40:29 GMT",
+      "summary": "Sheinbaum Boosts Lula Before Vote as Leftist Allies Grow Scarce\nLess than two weeks before Brazil’s election, Mexico’s Claudia Sheinbaum offered a strong public show of support for Luiz Inácio Lula da Silva, as Latin America’s two most prominent leftist leaders find themselves increasingly isolated "
+    },
+    {
+      "title": "Venezuela Spot Oil Sales Snarled by Surging Freight Costs",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-23/venezuela-spot-oil-sales-snarled-by-surging-freight-costs",
+      "raw_summary": "Sales of Venezuelan oil for loading in October stalled after a surge in shipping costs muddled negotiations between the country’s state oil company and buyers of its oil.",
+      "source": "Bloomberg Markets",
+      "published": "Wed, 23 Sep 2026 20:39:16 GMT",
+      "summary": "Venezuela Spot Oil Sales Snarled by Surging Freight Costs\nSales of Venezuelan oil for loading in October stalled after a surge in shipping costs muddled negotiations between the country’s state oil company and buyers of its oil."
+    },
+    {
+      "title": "Stocks Fall as Inflation Jitters Boost Bond Yields: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-22/stock-market-today-dow-s-p-live-updates",
+      "raw_summary": "Stocks joined bonds lower as a rally in oil prices stoked worries about inflationary pressures, which were further reinforced by data showing jump in US business activity at the fastest pace since 2021.",
+      "source": "Bloomberg Markets",
+      "published": "Tue, 22 Sep 2026 22:15:07 GMT",
+      "summary": "Stocks Fall as Inflation Jitters Boost Bond Yields: Markets Wrap\nStocks joined bonds lower as a rally in oil prices stoked worries about inflationary pressures, which were further reinforced by data showing jump in US business activity at the fastest pace since 2021."
     },
     {
       "title": "USD rallies after US data aided case for Federal Reserve increases",
@@ -275,12 +275,36 @@
       "summary": "USD rallies after US data aided case for Federal Reserve increases\nThe dollar jumped Wednesday after US business activity rose at the fastest pace in more than five years, fortifying the case for the Federal Reserve to continue raising interest rates."
     },
     {
-      "title": "Thames Creditors Plan New Rescue Deal to Avert State Control",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-23/thames-creditors-plan-revised-rescue-deal-to-avert-state-control",
-      "raw_summary": "Thames Water’s senior creditors are preparing to write off more debt and put more money into the utility in a renewed effort to avoid the UK government taking temporary control.",
+      "title": "Biggest Long-Bond ETF Hits Record Low as Traders Dump Treasuries",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-23/biggest-long-bond-etf-hits-record-low-as-traders-dump-treasuries",
+      "raw_summary": "Shares of the largest exchange-traded fund tracking long-dated Treasuries closed at a record low as the yearslong bond market selloff shows few signs of relenting.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 23 Sep 2026 14:49:24 GMT",
-      "summary": "Thames Creditors Plan New Rescue Deal to Avert State Control\nThames Water’s senior creditors are preparing to write off more debt and put more money into the utility in a renewed effort to avoid the UK government taking temporary control."
+      "published": "Wed, 23 Sep 2026 20:13:09 GMT",
+      "summary": "Biggest Long-Bond ETF Hits Record Low as Traders Dump Treasuries\nShares of the largest exchange-traded fund tracking long-dated Treasuries closed at a record low as the yearslong bond market selloff shows few signs of relenting."
+    },
+    {
+      "title": "Kalshi says it is not being investigated by the CFTC over trading activity",
+      "link": "https://www.coindesk.com/markets/2026/09/23/kalshi-says-it-is-not-being-investigated-by-the-cftc-over-trading-activity",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 23 Sep 2026 19:04:52 +0000",
+      "summary": "Kalshi says it is not being investigated by the CFTC over trading activity\n"
+    },
+    {
+      "title": "Former Hack VC partner Hsin-Ju Chuang found dead following public dispute with the firm",
+      "link": "https://www.coindesk.com/business/2026/09/23/former-hack-vc-partner-hsin-ju-chuang-found-dead-following-public-dispute-with-firm",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 23 Sep 2026 18:59:36 +0000",
+      "summary": "Former Hack VC partner Hsin-Ju Chuang found dead following public dispute with the firm\n"
+    },
+    {
+      "title": "White House adviser defends President Trump's crypto ties in wake of Clarity Act defeat",
+      "link": "https://www.coindesk.com/policy/2026/09/23/white-house-adviser-defends-president-trump-s-crypto-ties-in-wake-of-clarity-act-defeat",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 23 Sep 2026 18:04:11 +0000",
+      "summary": "White House adviser defends President Trump's crypto ties in wake of Clarity Act defeat\n"
     },
     {
       "title": "Inside the FBI’s little-known annual crypto crime gathering",
@@ -297,30 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Wed, 23 Sep 2026 15:07:21 +0000",
       "summary": "Crypto Long & Short: Inside the chain settling $150 billion of stablecoins a week\n"
-    },
-    {
-      "title": "Bitcoin's $16 billion quarterly options settlement arrives with a 'call-heavy' book",
-      "link": "https://www.coindesk.com/markets/2026/09/23/bitcoin-s-usd16-billion-quarterly-options-settlement-arrives-with-a-call-heavy-book",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 23 Sep 2026 13:02:43 +0000",
-      "summary": "Bitcoin's $16 billion quarterly options settlement arrives with a 'call-heavy' book\n"
-    },
-    {
-      "title": "MoonPay to acquire SEC-registered North Capital in $60 million all-stock deal",
-      "link": "https://www.coindesk.com/business/2026/09/23/moonpay-to-acquire-sec-registered-north-capital-in-usd60-million-all-stock-deal",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 23 Sep 2026 13:00:00 +0000",
-      "summary": "MoonPay to acquire SEC-registered North Capital in $60 million all-stock deal\n"
-    },
-    {
-      "title": "Live updates: Bitcoin slips as higher rates and dollar pressure markets",
-      "link": "https://www.coindesk.com/business/2026/09/23/live-updates-bitcoin-slips-under-usd86-000-as-money-rotates-into-bch-and-zec",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 23 Sep 2026 11:29:30 +0000",
-      "summary": "Live updates: Bitcoin slips as higher rates and dollar pressure markets\n"
     }
   ]
 }
