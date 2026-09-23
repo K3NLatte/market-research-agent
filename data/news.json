@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T02:38:42.519119+00:00",
+  "generated_at": "2026-09-23T10:32:15.015094+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "Who’s Tracking You? Use This New Service to Find Out\nIt can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much"
     },
     {
+      "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
+      "link": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
+      "raw_summary": "Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says.\n\nThe flaw,&nbsp;CVE-2026-94127, affects only systems in which APM serves as an OAuth authorization server, issuing access tokens to applications. F5 disclosed it in&nbsp;an advisory&nbsp;on September 22 and has released engineering hotfixes.",
+      "source": "The Hacker News",
+      "published": "Wed, 23 Sep 2026 13:59:48 +0530",
+      "summary": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers\nAttackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says.\n\nThe flaw,&nbsp;CVE-2026-94127, affects only systems in"
+    },
+    {
+      "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
+      "link": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
+      "raw_summary": "A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites.\n\nThe attacks, detected on September 3 and 4, 2026, involved the chaining of two vulnerabilities in Chrome (CVE-2026-85046, CVE-2026-87491) and one impacting Windows Advanced Local Procedure Call (CVE-2026-85880) to break",
+      "source": "The Hacker News",
+      "published": "Wed, 23 Sep 2026 13:59:24 +0530",
+      "summary": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware\nA Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites.\n\nThe attacks, detected on September 3 and 4"
+    },
+    {
+      "title": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
+      "link": "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
+      "raw_summary": "A new security vulnerability in Next.js could allow attackers to run code on a server via&nbsp;ImageResponse, the feature that generates Open Graph and other social preview images, Vercel said.\n\nThe risk applies when an app puts values an attacker controls, such as text read from the request URL, into the image. Vercel, which develops Next.js,&nbsp;fixed the flaw&nbsp;on September 22 in version",
+      "source": "The Hacker News",
+      "published": "Wed, 23 Sep 2026 12:34:40 +0530",
+      "summary": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input\nA new security vulnerability in Next.js could allow attackers to run code on a server via&nbsp;ImageResponse, the feature that generates Open Graph and other social preview images, Vercel said.\n\nThe risk appl"
+    },
+    {
+      "title": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
+      "link": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
+      "raw_summary": "The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency.\n\n\"We have compromised the FBI. We hold very sensitive data on almost ALL FBI Agents and individuals who filed an application with the FBI for a job,\" the group said in a statement posted on their dark",
+      "source": "The Hacker News",
+      "published": "Wed, 23 Sep 2026 11:00:09 +0530",
+      "summary": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants\nThe cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency.\n\n\"We have compromised t"
+    },
+    {
       "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
       "link": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
       "raw_summary": "Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23,&nbsp;the company said.\n\nThe flaw, CVE-2026-93616, allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point",
@@ -51,76 +83,60 @@
       "summary": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks\nAttackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23,&nbsp;the company said.\n\nThe flaw, CVE-2026-93616, allows an attacker who can access the"
     },
     {
-      "title": "WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers",
-      "link": "https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html",
-      "raw_summary": "WordPress has fixed a critical flaw in its core software that lets an attacker with no account make a site load a PHP file from outside its theme folders.\n\nOn some servers, that can go further, allowing the attacker to run their own code. The fix shipped on September 22 in WordPress 7.1.2, with fixes for every branch the project still supports, back to 4.7, and WordPress is telling site owners",
-      "source": "The Hacker News",
-      "published": "Tue, 22 Sep 2026 23:33:10 +0530",
-      "summary": "WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers\nWordPress has fixed a critical flaw in its core software that lets an attacker with no account make a site load a PHP file from outside its theme folders.\n\nOn some servers, that can go further, allowing the attac"
-    },
-    {
-      "title": "Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials",
-      "link": "https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html",
-      "raw_summary": "Cybersecurity researchers have disclosed details of a malicious npm package named \"tw-pkgprobe-7731\" that masquerades as a security tool targeting developers integrating Twilio into their applications, while stealthily attempting to harvest sensitive data.\n\nThe package, named \"tw-pkgprobe-7731,\" was first uploaded to the npm registry in mid-August 2026 by an npm account named \"twdepprobe7731.\"",
-      "source": "The Hacker News",
-      "published": "Tue, 22 Sep 2026 23:28:15 +0530",
-      "summary": "Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials\nCybersecurity researchers have disclosed details of a malicious npm package named \"tw-pkgprobe-7731\" that masquerades as a security tool targeting developers integrating Twilio into their applications, while stealthil"
-    },
-    {
-      "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
-      "link": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
-      "raw_summary": "Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) \"at every step of the attack chain.\"\n\nThe action, carried out with authorization from the U.S. District Court for the Eastern District of Virginia, involved the efforts of Health-ISAC, alongside Cloudflare, Coinbase, OpenAI, Railway, SpyCloud, The Shadowserver",
-      "source": "The Hacker News",
-      "published": "Tue, 22 Sep 2026 22:33:31 +0530",
-      "summary": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises\nMicrosoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) \"at every step of the attack chain.\"\n\nThe action, carried out with a"
-    },
-    {
-      "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
-      "link": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
-      "raw_summary": "A critical vulnerability in&nbsp;Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request.\n\nThe flaw, tracked as&nbsp;CVE-2026-90898&nbsp;(CVSS score: 9.8), affects all versions of the Bifrost HTTP transport before 2.1.0 when management authentication is",
-      "source": "The Hacker News",
-      "published": "Tue, 22 Sep 2026 22:11:12 +0530",
-      "summary": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials\nA critical vulnerability in&nbsp;Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HT"
-    },
-    {
-      "title": "The current balance of power in open models",
-      "link": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.interconnects.ai/p/the-current-balance-of-power-in-open\">https://www.interconnects.ai/p/the-current-balance-of-power-in-open</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49808816\">https://news.ycombinator.com/item?id=49808816</a></p>\n<p>Points: 49</p>\n<p># Comments: 15</p>",
+      "title": "Netherlands bracing for potentially devastating US sanctions against the ICC",
+      "link": "https://apnews.com/article/icc-trump-sanctions-eu-israel-netherlands-2c1cc314732f920c2de59396d3b556f6",
+      "raw_summary": "<p>Article URL: <a href=\"https://apnews.com/article/icc-trump-sanctions-eu-israel-netherlands-2c1cc314732f920c2de59396d3b556f6\">https://apnews.com/article/icc-trump-sanctions-eu-israel-netherlands-2c1cc314732f920c2de59396d3b556f6</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49813419\">https://news.ycombinator.com/item?id=49813419</a></p>\n<p>Points: 76</p>\n<p># Comments: 58</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 22 Sep 2026 22:03:46 +0000",
-      "summary": "The current balance of power in open models\n<p>Article URL: <a href=\"https://www.interconnects.ai/p/the-current-balance-of-power-in-open\">https://www.interconnects.ai/p/the-current-balance-of-power-in-open</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49808816\">https://news."
+      "published": "Wed, 23 Sep 2026 09:09:49 +0000",
+      "summary": "Netherlands bracing for potentially devastating US sanctions against the ICC\n<p>Article URL: <a href=\"https://apnews.com/article/icc-trump-sanctions-eu-israel-netherlands-2c1cc314732f920c2de59396d3b556f6\">https://apnews.com/article/icc-trump-sanctions-eu-israel-netherlands-2c1cc314732f920c2de59396d3"
     },
     {
-      "title": "The UV index is not the warm sensation of sunlight on bare skin",
-      "link": "https://blog.asciitweezers.com/the-uv-index-is-not-the-warm-sensation-of-sunlight-on-bare-skin/",
-      "raw_summary": "<p>Article URL: <a href=\"https://blog.asciitweezers.com/the-uv-index-is-not-the-warm-sensation-of-sunlight-on-bare-skin/\">https://blog.asciitweezers.com/the-uv-index-is-not-the-warm-sensation-of-sunlight-on-bare-skin/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49808109\">https://news.ycombinator.com/item?id=49808109</a></p>\n<p>Points: 68</p>\n<p># Comments: 58</p>",
+      "title": "Abandoning Scientific Linux Was a Mistake",
+      "link": "https://blog.melashri.net/posts/scientific-linux-mistake/",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.melashri.net/posts/scientific-linux-mistake/\">https://blog.melashri.net/posts/scientific-linux-mistake/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49813286\">https://news.ycombinator.com/item?id=49813286</a></p>\n<p>Points: 60</p>\n<p># Comments: 25</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 22 Sep 2026 21:06:40 +0000",
-      "summary": "The UV index is not the warm sensation of sunlight on bare skin\n<p>Article URL: <a href=\"https://blog.asciitweezers.com/the-uv-index-is-not-the-warm-sensation-of-sunlight-on-bare-skin/\">https://blog.asciitweezers.com/the-uv-index-is-not-the-warm-sensation-of-sunlight-on-bare-skin/</a></p>\n<p>Comment"
+      "published": "Wed, 23 Sep 2026 08:46:39 +0000",
+      "summary": "Abandoning Scientific Linux Was a Mistake\n<p>Article URL: <a href=\"https://blog.melashri.net/posts/scientific-linux-mistake/\">https://blog.melashri.net/posts/scientific-linux-mistake/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49813286\">https://news.ycombinator.com/item?i"
     },
     {
-      "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
-      "link": "https://foxscript.org/",
-      "raw_summary": "<p>Visual FoxPro stopped at version 9 in 2007. A surprising amount of it is still running, in 32 bits, because rewriting a 20-year-old business app is how you lose the business. A customer wanted to keep milking their app for the foreseeable future, so here it is: the same language on a new runtime (Rust, compiled to wasm, checked against the real vfp9.exe), tables no longer stopped at 2 GB, the old 32-bit .fll add-ins still loading, and lambdas, JSON and an HTTP server bolted on for good measure. Reports are not done and the builds are unsigned. MIT because why not?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49808023\">https://news.ycombinator.com/item?id=49808023</a></p>\n<p>Points: 194</p>\n<p># Comments: 133</p>",
+      "title": "Jev in 25 Lines of Python",
+      "link": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.nobodywho.ai/posts/jev-in-25-lines/\">https://www.nobodywho.ai/posts/jev-in-25-lines/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49812769\">https://news.ycombinator.com/item?id=49812769</a></p>\n<p>Points: 161</p>\n<p># Comments: 50</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 22 Sep 2026 21:00:30 +0000",
-      "summary": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived\n<p>Visual FoxPro stopped at version 9 in 2007. A surprising amount of it is still running, in 32 bits, because rewriting a 20-year-old business app is how you lose the business. A customer wanted to keep milking their app for the foresee"
+      "published": "Wed, 23 Sep 2026 07:26:23 +0000",
+      "summary": "Jev in 25 Lines of Python\n<p>Article URL: <a href=\"https://www.nobodywho.ai/posts/jev-in-25-lines/\">https://www.nobodywho.ai/posts/jev-in-25-lines/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49812769\">https://news.ycombinator.com/item?id=49812769</a></p>\n<p>Points: 161</p"
     },
     {
-      "title": "The JavaScript Midlife Crisis",
-      "link": "https://maroun-baydoun.com/blog/javascript-midlife-crisis/",
-      "raw_summary": "<p>Article URL: <a href=\"https://maroun-baydoun.com/blog/javascript-midlife-crisis/\">https://maroun-baydoun.com/blog/javascript-midlife-crisis/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49807248\">https://news.ycombinator.com/item?id=49807248</a></p>\n<p>Points: 45</p>\n<p># Comments: 29</p>",
+      "title": "How often do you think about the 1893 World's Fair?",
+      "link": "https://www.thebirthofacapital.info/chicago-worlds-fair-tataria-ware-larsen/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.thebirthofacapital.info/chicago-worlds-fair-tataria-ware-larsen/\">https://www.thebirthofacapital.info/chicago-worlds-fair-tataria-ware-larsen/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49812023\">https://news.ycombinator.com/item?id=49812023</a></p>\n<p>Points: 19</p>\n<p># Comments: 5</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 22 Sep 2026 19:58:47 +0000",
-      "summary": "The JavaScript Midlife Crisis\n<p>Article URL: <a href=\"https://maroun-baydoun.com/blog/javascript-midlife-crisis/\">https://maroun-baydoun.com/blog/javascript-midlife-crisis/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49807248\">https://news.ycombinator.com/item?id=49807248"
+      "published": "Wed, 23 Sep 2026 05:32:51 +0000",
+      "summary": "How often do you think about the 1893 World's Fair?\n<p>Article URL: <a href=\"https://www.thebirthofacapital.info/chicago-worlds-fair-tataria-ware-larsen/\">https://www.thebirthofacapital.info/chicago-worlds-fair-tataria-ware-larsen/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?"
     },
     {
-      "title": "Native apps written in TypeScript and CSS",
-      "link": "https://github.com/geastack/examples",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/geastack/examples\">https://github.com/geastack/examples</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49807021\">https://news.ycombinator.com/item?id=49807021</a></p>\n<p>Points: 84</p>\n<p># Comments: 28</p>",
+      "title": "Grammarly will send unhinged messages to all your users if you try to cancel",
+      "link": "https://www.reddit.com/r/sysadmin/comments/1wjdpgx/psa_grammarly_will_send_unhinged_messages_to_all/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.reddit.com/r/sysadmin/comments/1wjdpgx/psa_grammarly_will_send_unhinged_messages_to_all/\">https://www.reddit.com/r/sysadmin/comments/1wjdpgx/psa_grammarly_will_send_unhinged_messages_to_all/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49811484\">https://news.ycombinator.com/item?id=49811484</a></p>\n<p>Points: 160</p>\n<p># Comments: 43</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 22 Sep 2026 19:42:20 +0000",
-      "summary": "Native apps written in TypeScript and CSS\n<p>Article URL: <a href=\"https://github.com/geastack/examples\">https://github.com/geastack/examples</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49807021\">https://news.ycombinator.com/item?id=49807021</a></p>\n<p>Points: 84</p>\n<p># "
+      "published": "Wed, 23 Sep 2026 04:00:43 +0000",
+      "summary": "Grammarly will send unhinged messages to all your users if you try to cancel\n<p>Article URL: <a href=\"https://www.reddit.com/r/sysadmin/comments/1wjdpgx/psa_grammarly_will_send_unhinged_messages_to_all/\">https://www.reddit.com/r/sysadmin/comments/1wjdpgx/psa_grammarly_will_send_unhinged_messages_to_"
+    },
+    {
+      "title": "‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI",
+      "link": "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai/",
+      "raw_summary": "Most leaders on a trade mission stick to the pitch, but when I interviewed Greek Prime Minister Kyriakos Mitsotakis this week, he also admitted that no government is ready for what AI is about to do.",
+      "source": "TechCrunch",
+      "published": "Wed, 23 Sep 2026 04:59:08 +0000",
+      "summary": "‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI\nMost leaders on a trade mission stick to the pitch, but when I interviewed Greek Prime Minister Kyriakos Mitsotakis this week, he also admitted that no government is ready for what AI is about to do."
+    },
+    {
+      "title": "Discord’s age verification era is upon us, despite community backlash",
+      "link": "https://techcrunch.com/2026/09/22/discords-age-verification-era-is-upon-us-despite-community-backlash/",
+      "raw_summary": "According to Discord, 90% of users will not have to verify their age.",
+      "source": "TechCrunch",
+      "published": "Wed, 23 Sep 2026 03:31:12 +0000",
+      "summary": "Discord’s age verification era is upon us, despite community backlash\nAccording to Discord, 90% of users will not have to verify their age."
     },
     {
       "title": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
@@ -145,22 +161,6 @@
       "source": "TechCrunch",
       "published": "Tue, 22 Sep 2026 20:00:00 +0000",
       "summary": "Qualcomm launches two new smartphone chips with emphasis on AI\nQualcomm said that its new top chip can run 30B mixture-of-expert model locally."
-    },
-    {
-      "title": "Apple could take on Whoop with a new fitness tracker, report says",
-      "link": "https://techcrunch.com/2026/09/22/apple-could-take-on-whoop-with-a-new-fitness-tracker-report-says/",
-      "raw_summary": "Apple may be developing a new fitness tracker as part of its new generation of hardware devices.",
-      "source": "TechCrunch",
-      "published": "Tue, 22 Sep 2026 19:27:57 +0000",
-      "summary": "Apple could take on Whoop with a new fitness tracker, report says\nApple may be developing a new fitness tracker as part of its new generation of hardware devices."
-    },
-    {
-      "title": "Meta admits Muse’s likeness to OpenClaw isn’t a coincidence",
-      "link": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
-      "raw_summary": "Meta says Muse was built from scratch, but acknowledges the AI assistant was \"heavily inspired\" by OpenClaw — down to some of its workspace filenames and content.",
-      "source": "TechCrunch",
-      "published": "Tue, 22 Sep 2026 19:09:11 +0000",
-      "summary": "Meta admits Muse’s likeness to OpenClaw isn’t a coincidence\nMeta says Muse was built from scratch, but acknowledges the AI assistant was \"heavily inspired\" by OpenClaw — down to some of its workspace filenames and content."
     },
     {
       "title": "Woman's brain worm infection confirmed after eggs grow tails in lab test",
@@ -203,124 +203,124 @@
       "summary": "Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting\nBritish Columbia sues OpenAI, demands Tumbler Ridge shooter’s ChatGPT logs."
     },
     {
-      "title": "US and Iran hold first talks since June as Trump threatens ‘annihilation’",
-      "link": "https://www.ft.com/content/1434496d-0eaf-4270-8ad3-87724cd3721e?syn-25a6b1a6=1",
-      "raw_summary": "Oil prices flat as president says Steve Witkoff and Jared Kushner had ‘good meeting’ with Iranian delegation on the sidelines of the UN gathering",
+      "title": "Swiss lawmakers back tougher bank capital rules in blow to UBS",
+      "link": "https://www.ft.com/content/9bc23f86-f977-408e-b32f-2917fd4a2267?syn-25a6b1a6=1",
+      "raw_summary": "Parliament’s upper house rejects compromise proposal in battle between lender and Bern",
       "source": "World",
-      "published": "Wed, 23 Sep 2026 02:04:20 GMT",
-      "summary": "US and Iran hold first talks since June as Trump threatens ‘annihilation’\nOil prices flat as president says Steve Witkoff and Jared Kushner had ‘good meeting’ with Iranian delegation on the sidelines of the UN gathering"
+      "published": "Wed, 23 Sep 2026 10:22:11 GMT",
+      "summary": "Swiss lawmakers back tougher bank capital rules in blow to UBS\nParliament’s upper house rejects compromise proposal in battle between lender and Bern"
     },
     {
-      "title": "Trump rejects ‘globalist scheme’ to control AI in blow to Burnham",
-      "link": "https://www.ft.com/content/0e03521f-c4f1-4242-8fff-0e34a27a26db?syn-25a6b1a6=1",
-      "raw_summary": "President says US is ‘leading over China by a lot and everyone else, and we’re going to keep it that way’",
+      "title": "FirstFT: Oil on track for sixth consecutive day of falls",
+      "link": "https://www.ft.com/content/d85c9ab3-9b77-4b96-9321-c548bbbfd07a?syn-25a6b1a6=1",
+      "raw_summary": "Also in today’s newsletter: financier Todd Boehly leads consortium to buy Lukoil’s international assets, and OECD warns on surging government bond yields",
       "source": "World",
-      "published": "Tue, 22 Sep 2026 23:42:36 GMT",
-      "summary": "Trump rejects ‘globalist scheme’ to control AI in blow to Burnham\nPresident says US is ‘leading over China by a lot and everyone else, and we’re going to keep it that way’"
+      "published": "Wed, 23 Sep 2026 10:07:40 GMT",
+      "summary": "FirstFT: Oil on track for sixth consecutive day of falls\nAlso in today’s newsletter: financier Todd Boehly leads consortium to buy Lukoil’s international assets, and OECD warns on surging government bond yields"
     },
     {
-      "title": "Qantas pushes ahead with new ultra-long flights despite high fuel prices",
-      "link": "https://www.ft.com/content/276f5264-c3e1-418b-8acc-cd3d4f1ed31b?syn-25a6b1a6=1",
-      "raw_summary": "Chief executive Vanessa Hudson says Australian airline is confident demand for nonstop services is strong",
+      "title": "Why Germany’s ‘chancellor-in-waiting’ bides his time",
+      "link": "https://www.ft.com/content/7c1a2718-b0a4-4dda-8c3a-c36ff6792e2b?syn-25a6b1a6=1",
+      "raw_summary": "Hendrik Wüst, the popular premier of North Rhine-Westphalia, is seen as the most likely successor to Friedrich Merz",
       "source": "World",
-      "published": "Tue, 22 Sep 2026 23:18:27 GMT",
-      "summary": "Qantas pushes ahead with new ultra-long flights despite high fuel prices\nChief executive Vanessa Hudson says Australian airline is confident demand for nonstop services is strong"
+      "published": "Wed, 23 Sep 2026 10:00:06 GMT",
+      "summary": "Why Germany’s ‘chancellor-in-waiting’ bides his time\nHendrik Wüst, the popular premier of North Rhine-Westphalia, is seen as the most likely successor to Friedrich Merz"
     },
     {
-      "title": "Why EU companies are helping their Chinese rivals",
-      "link": "https://www.ft.com/content/44ef48c9-13a4-4823-aa8f-cc9e2dfb5d17?syn-25a6b1a6=1",
-      "raw_summary": "Many multinationals seem to be adopting an approach of ‘if you can’t beat them, join them’",
+      "title": "Azerbaijan pardons French national as part of secret prisoner release deal",
+      "link": "https://www.ft.com/content/b05367af-5236-4aca-99e7-ec1e8968f08a?syn-25a6b1a6=1",
+      "raw_summary": "Paris blindsided allies when it pushed for Russian oligarch to be exempt from EU sanctions as part of its deal with Baku",
       "source": "World",
-      "published": "Tue, 22 Sep 2026 23:01:06 GMT",
-      "summary": "Why EU companies are helping their Chinese rivals\nMany multinationals seem to be adopting an approach of ‘if you can’t beat them, join them’"
+      "published": "Wed, 23 Sep 2026 09:40:31 GMT",
+      "summary": "Azerbaijan pardons French national as part of secret prisoner release deal\nParis blindsided allies when it pushed for Russian oligarch to be exempt from EU sanctions as part of its deal with Baku"
     },
     {
-      "title": "Labour MPs call for end to loophole that trimmed billionaire’s tax bill by £18mn",
-      "link": "https://www.ft.com/content/1ca67e27-b6b6-454a-8d37-b957835201d7?syn-25a6b1a6=1",
-      "raw_summary": "Quadrature Capital’s Suneil Setiya would have been liable for higher rate of stamp duty had he not bought five flats together with London mansion",
+      "title": "Bank of England does not need to raise interest rates, says OECD",
+      "link": "https://www.ft.com/content/8cefcdba-2d5b-421b-969e-1a302b660fe5?syn-25a6b1a6=1",
+      "raw_summary": "Paris-based group says the UK is ‘starting from a different position’ on monetary policy compared with other countries",
       "source": "World",
-      "published": "Tue, 22 Sep 2026 21:36:59 GMT",
-      "summary": "Labour MPs call for end to loophole that trimmed billionaire’s tax bill by £18mn\nQuadrature Capital’s Suneil Setiya would have been liable for higher rate of stamp duty had he not bought five flats together with London mansion"
+      "published": "Wed, 23 Sep 2026 09:36:38 GMT",
+      "summary": "Bank of England does not need to raise interest rates, says OECD\nParis-based group says the UK is ‘starting from a different position’ on monetary policy compared with other countries"
     },
     {
-      "title": "India Consumer Stocks Draw Bullish Bets on Festive Spending",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-09-23/india-consumer-stocks-draw-bullish-bets-on-festive-spending",
-      "raw_summary": "The MSCI India Consumer Discretionary Index is up more than 3% this quarter.",
+      "title": "AI Agents Are Upending a Big Slice of the Stock Market",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-09-23/ai-agents-are-upending-a-big-slice-of-the-stock-market",
+      "raw_summary": "Banks, brokers, travel booking companies hit by threat to ‘consumer inertia.’",
       "source": "Bloomberg Markets",
-      "published": "Wed, 23 Sep 2026 02:30:53 GMT",
-      "summary": "India Consumer Stocks Draw Bullish Bets on Festive Spending\nThe MSCI India Consumer Discretionary Index is up more than 3% this quarter."
+      "published": "Wed, 23 Sep 2026 10:19:07 GMT",
+      "summary": "AI Agents Are Upending a Big Slice of the Stock Market\nBanks, brokers, travel booking companies hit by threat to ‘consumer inertia.’"
     },
     {
-      "title": "Asian Stocks’ Early Momentum Fades, Oil Declines: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-22/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "An early advance in Asian stocks, fueled by gains in chipmakers, lost some ground as Hong Kong technology shares retreated. Falling oil prices offered support.",
+      "title": "Bloomberg News Now",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-23/bloomberg-news-now-video",
+      "raw_summary": "Trump Hails Iran Talks Even as Tehran Sets ‘Firm Positions’\nTrump & Burnham Exchanged ‘Warm Words’\nXi & Trump Seek Safe AI Without Tech Race Slowing\nSen. Wicker Warns of Xi’s Visit\nTrump Plans Two Military Bases in Greenland\nAI Safety Top Agenda at UN General Assembly (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Tue, 22 Sep 2026 22:15:07 GMT",
-      "summary": "Asian Stocks’ Early Momentum Fades, Oil Declines: Markets Wrap\nAn early advance in Asian stocks, fueled by gains in chipmakers, lost some ground as Hong Kong technology shares retreated. Falling oil prices offered support."
+      "published": "Wed, 23 Sep 2026 10:16:59 GMT",
+      "summary": "Bloomberg News Now\nTrump Hails Iran Talks Even as Tehran Sets ‘Firm Positions’\nTrump & Burnham Exchanged ‘Warm Words’\nXi & Trump Seek Safe AI Without Tech Race Slowing\nSen. Wicker Warns of Xi’s Visit\nTrump Plans Two Military Bases in Greenland\nAI Safety Top Agenda at UN General Assembly (Source: Blo"
     },
     {
-      "title": "Goldman Sees China Oil Imports Staying Subdued in Fourth Quarter",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-23/goldman-sees-china-oil-imports-staying-subdued-in-fourth-quarter",
-      "raw_summary": "China’s oil imports are likely to remain subdued in the coming months if crude prices stay elevated, according to Goldman Sachs Group Inc., which could keep a lid on further gains.",
+      "title": "Obscure UAE Firms Hold Key to Radiant’s $1 Billion in Assets",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-23/hunt-for-bigbubble-casts-doubt-on-radiant-s-1-billion-in-assets",
+      "raw_summary": "As creditors, counterparties and lawyers pore over the business of embattled commodity trader Radiant World, a low-rise office building in the emirate of Ajman, just north of Dubai, may contain one key piece of the puzzle.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 23 Sep 2026 02:19:40 GMT",
-      "summary": "Goldman Sees China Oil Imports Staying Subdued in Fourth Quarter\nChina’s oil imports are likely to remain subdued in the coming months if crude prices stay elevated, according to Goldman Sachs Group Inc., which could keep a lid on further gains."
+      "published": "Wed, 23 Sep 2026 06:23:56 GMT",
+      "summary": "Obscure UAE Firms Hold Key to Radiant’s $1 Billion in Assets\nAs creditors, counterparties and lawyers pore over the business of embattled commodity trader Radiant World, a low-rise office building in the emirate of Ajman, just north of Dubai, may contain one key piece of the puzzle."
     },
     {
-      "title": "Burnham Warns UN About Russian Disinformation",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-23/burnham-warns-un-about-russian-disinformation-video",
-      "raw_summary": "UK Prime Minister Andy Burnham accused Russia of spreading lies and disinformation in an \"attack\" on society. (Source: Bloomberg)",
+      "title": "Gold Falls as Traders Weigh Fedspeak and US-Iran Talks",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-22/gold-steadies-as-iran-talks-temper-concerns-over-fed-rate-path",
+      "raw_summary": "Gold fell as traders monitored progress in talks between the US and Iran and comments by Federal Reserve officials for clues on how energy costs will influence the path forward for interest rates.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 23 Sep 2026 02:15:50 GMT",
-      "summary": "Burnham Warns UN About Russian Disinformation\nUK Prime Minister Andy Burnham accused Russia of spreading lies and disinformation in an \"attack\" on society. (Source: Bloomberg)"
+      "published": "Tue, 22 Sep 2026 23:56:43 GMT",
+      "summary": "Gold Falls as Traders Weigh Fedspeak and US-Iran Talks\nGold fell as traders monitored progress in talks between the US and Iran and comments by Federal Reserve officials for clues on how energy costs will influence the path forward for interest rates."
     },
     {
-      "title": "India’s NSE IPO: How the National Stock Exchange Listing Will Work",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-23/india-s-nse-ipo-how-the-national-stock-exchange-listing-will-work",
-      "raw_summary": "India’s largest stock exchange, National Stock Exchange of India Ltd. is preparing for its own market debut on Sept. 24, after investors bid for more than five times the shares available in its 226 billion rupees ($2.4 billion) initial public offering.",
+      "title": "Chinese Exchange May List Lithium Hydroxide Futures This Year",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-23/chinese-exchange-may-list-lithium-hydroxide-futures-this-year",
+      "raw_summary": "The Guangzhou Futures Exchange is planning to list lithium hydroxide contracts as soon as this year, according to people familiar with the matter.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 23 Sep 2026 01:50:43 GMT",
-      "summary": "India’s NSE IPO: How the National Stock Exchange Listing Will Work\nIndia’s largest stock exchange, National Stock Exchange of India Ltd. is preparing for its own market debut on Sept. 24, after investors bid for more than five times the shares available in its 226 billion rupees ($2.4 billion) initi"
+      "published": "Wed, 23 Sep 2026 10:06:09 GMT",
+      "summary": "Chinese Exchange May List Lithium Hydroxide Futures This Year\nThe Guangzhou Futures Exchange is planning to list lithium hydroxide contracts as soon as this year, according to people familiar with the matter."
     },
     {
-      "title": "U.S. regulator warns about cheating risks in 'mention markets' on prediction platforms",
-      "link": "https://www.coindesk.com/policy/2026/09/22/u-s-regulator-warns-about-cheating-risks-in-mention-markets-on-prediction-platforms",
+      "title": "Bitcoin consolidates near $86,000 as rally narrows and Brent slips below $100",
+      "link": "https://www.coindesk.com/markets/2026/09/23/bitcoin-consolidates-near-usd86-000-as-rally-narrows-and-brent-slips-below-usd100",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 23 Sep 2026 00:00:45 +0000",
-      "summary": "U.S. regulator warns about cheating risks in 'mention markets' on prediction platforms\n"
+      "published": "Wed, 23 Sep 2026 10:28:11 +0000",
+      "summary": "Bitcoin consolidates near $86,000 as rally narrows and Brent slips below $100\n"
     },
     {
-      "title": "Democrats 'chose visceral hatred for' Donald Trump over crypto Clarity Act, Lummis says",
-      "link": "https://www.coindesk.com/policy/2026/09/22/democrats-chose-visceral-hatred-for-donald-trump-over-crypto-clarity-act-lummis-says",
+      "title": "BitMEX shuts down: perpetuals pioneer officially closes it doors after 11 years",
+      "link": "https://www.coindesk.com/business/2026/09/23/bitmex-shuts-down-trading-after-11-years-leaves-withdrawals-open",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 22 Sep 2026 21:29:05 +0000",
-      "summary": "Democrats 'chose visceral hatred for' Donald Trump over crypto Clarity Act, Lummis says\n"
+      "published": "Wed, 23 Sep 2026 10:24:44 +0000",
+      "summary": "BitMEX shuts down: perpetuals pioneer officially closes it doors after 11 years\n"
     },
     {
-      "title": "Crypto market structure can't wait for shot at post-election Clarity Act surge: White House",
-      "link": "https://www.coindesk.com/policy/2026/09/22/crypto-market-structure-can-t-wait-for-shot-at-post-election-clarity-act-surge-white-house",
+      "title": "FTX, Alameda-linked wallets send $75 million in ether to Wintermute, onchain data shows",
+      "link": "https://www.coindesk.com/business/2026/09/23/ftx-alameda-linked-wallets-send-usd75-million-in-ether-to-wintermute-onchain-data-shows",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 22 Sep 2026 20:31:02 +0000",
-      "summary": "Crypto market structure can't wait for shot at post-election Clarity Act surge: White House\n"
+      "published": "Wed, 23 Sep 2026 09:57:24 +0000",
+      "summary": "FTX, Alameda-linked wallets send $75 million in ether to Wintermute, onchain data shows\n"
     },
     {
-      "title": "Canada's 'Big Six' banks to launch interbank tokenized deposit initiative",
-      "link": "https://www.coindesk.com/business/2026/09/22/canada-s-big-six-banks-unite-to-launch-interbank-tokenized-deposit-initiative",
+      "title": "AI agents will soon buy their own computing power and data using stablecoins, according to BlackRock",
+      "link": "https://www.coindesk.com/markets/2026/09/23/ai-agents-will-soon-buy-their-own-computing-power-and-data-using-stablecoins-according-to-blackrock",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 22 Sep 2026 17:34:03 +0000",
-      "summary": "Canada's 'Big Six' banks to launch interbank tokenized deposit initiative\n"
+      "published": "Wed, 23 Sep 2026 09:17:53 +0000",
+      "summary": "AI agents will soon buy their own computing power and data using stablecoins, according to BlackRock\n"
     },
     {
-      "title": "Next for the U.S. SEC: Agency's chief crypto counsel illuminates path for custody",
-      "link": "https://www.coindesk.com/policy/2026/09/22/next-for-the-u-s-sec-agency-s-chief-crypto-counsel-illuminates-path-for-custody",
+      "title": "Coinbase users can now borrow USDC against bitcoin at a fixed rate",
+      "link": "https://www.coindesk.com/markets/2026/09/23/coinbase-users-can-now-borrow-usdc-against-bitcoin-at-a-fixed-rate",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 22 Sep 2026 15:21:28 +0000",
-      "summary": "Next for the U.S. SEC: Agency's chief crypto counsel illuminates path for custody\n"
+      "published": "Wed, 23 Sep 2026 07:49:23 +0000",
+      "summary": "Coinbase users can now borrow USDC against bitcoin at a fixed rate\n"
     }
   ]
 }
