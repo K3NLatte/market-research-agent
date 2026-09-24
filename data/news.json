@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T02:28:06.240125+00:00",
+  "generated_at": "2026-09-24T10:50:20.213217+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "Who’s Tracking You? Use This New Service to Find Out\nIt can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much"
     },
     {
+      "title": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
+      "link": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html",
+      "raw_summary": "An AI agent on an internal OpenAI research task bypassed access controls on an Australian government Medicare statistics portal in June, Prime Minister&nbsp;Anthony Albanese said.\n\nThe portal publishes aggregate figures, such as spending, and is separate from the systems that handle Medicare claims and personal records. The agent reached files on it that were not public, but no personal",
+      "source": "The Hacker News",
+      "published": "Thu, 24 Sep 2026 12:37:25 +0530",
+      "summary": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files\nAn AI agent on an internal OpenAI research task bypassed access controls on an Australian government Medicare statistics portal in June, Prime Minister&nbsp;Anthony Albanese said.\n\nThe portal publishes aggregate fig"
+    },
+    {
+      "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
+      "link": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html",
+      "raw_summary": "Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants.\n\nAccording to Proofpoint, the activity has primarily focused on Chilean retail and financial institutions. It originated from 1,487 unique AWS EC2 source IP addresses.\n\n\"The campaign compromised 7 accounts –",
+      "source": "The Hacker News",
+      "published": "Thu, 24 Sep 2026 12:02:03 +0530",
+      "summary": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords\nCybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants.\n\nAccording to Proofpoin"
+    },
+    {
+      "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
+      "link": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
+      "raw_summary": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure.\n\nThe vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could allow an unauthenticated attacker to obtain remote code execution (RCE).\n\n\"An unauthenticated attacker can make get_page_template() page-template resolution include a chosen readable local .php file",
+      "source": "The Hacker News",
+      "published": "Thu, 24 Sep 2026 11:06:18 +0530",
+      "summary": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure\nThreat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure.\n\nThe vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could allow an unauthenticated attacke"
+    },
+    {
       "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
       "link": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
       "raw_summary": "Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a distribution vector for malicious payloads.\n\nAccording to Aikido, the list of Terraform providers and Go modules is below -\n\n\n  gocommunity-io/dockerd (222 downloads)\n  kreuzwenker/",
@@ -59,68 +83,44 @@
       "summary": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You\nThe private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start "
     },
     {
-      "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
-      "link": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
-      "raw_summary": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication.\n\nThe chain, which CERT Polska calls MikroTrick, combines an SSH state-machine flaw (CVE-2026-67279) with an argument-injection bug in the RouterOS login process (CVE-2026-86060). Attack logs date to at",
-      "source": "The Hacker News",
-      "published": "Wed, 23 Sep 2026 21:36:41 +0530",
-      "summary": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key\nTwo MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication.\n\nThe chain, which CE"
-    },
-    {
-      "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
-      "link": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
-      "raw_summary": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server,&nbsp;Cisco Talos said&nbsp;on September 22.\n\nThe models can choose to steal Windows credentials, saved browser passwords, and crypto wallet data. Talos has not seen this setup work from start to finish, and the public version of the malware does not work as it is.",
-      "source": "The Hacker News",
-      "published": "Wed, 23 Sep 2026 19:47:58 +0530",
-      "summary": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move\nA Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server,&nbsp;Cisco Talos said&nbsp;on September 22.\n\nThe models can choose to steal Windows crede"
-    },
-    {
-      "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
-      "link": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
-      "raw_summary": "Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit designed for Windows, Linux, and macOS.\n\nAccording to reports from Aikido, SafeDep, Socket, and StepSecurity, the libraries in question below -\n\n\n  @memtensor/memos-cloud-openclaw-plugin versions",
-      "source": "The Hacker News",
-      "published": "Wed, 23 Sep 2026 19:22:46 +0530",
-      "summary": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI\nUnknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit designed for Windo"
-    },
-    {
-      "title": "Australia says OpenAI agent hacked into government website",
-      "link": "https://www.channelnewsasia.com/world/australia-openai-agent-breach-government-portal-6406411",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.channelnewsasia.com/world/australia-openai-agent-breach-government-portal-6406411\">https://www.channelnewsasia.com/world/australia-openai-agent-breach-government-portal-6406411</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49825024\">https://news.ycombinator.com/item?id=49825024</a></p>\n<p>Points: 16</p>\n<p># Comments: 6</p>",
+      "title": "Starlink ground station in Poland hit by fire in suspected arson attack",
+      "link": "https://notesfrompoland.com/2026/09/24/starlink-ground-station-in-poland-hit-by-fire-in-suspected-arson-attack/",
+      "raw_summary": "<p>Article URL: <a href=\"https://notesfrompoland.com/2026/09/24/starlink-ground-station-in-poland-hit-by-fire-in-suspected-arson-attack/\">https://notesfrompoland.com/2026/09/24/starlink-ground-station-in-poland-hit-by-fire-in-suspected-arson-attack/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49828409\">https://news.ycombinator.com/item?id=49828409</a></p>\n<p>Points: 10</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 24 Sep 2026 01:24:00 +0000",
-      "summary": "Australia says OpenAI agent hacked into government website\n<p>Article URL: <a href=\"https://www.channelnewsasia.com/world/australia-openai-agent-breach-government-portal-6406411\">https://www.channelnewsasia.com/world/australia-openai-agent-breach-government-portal-6406411</a></p>\n<p>Comments URL: <a"
+      "published": "Thu, 24 Sep 2026 09:52:29 +0000",
+      "summary": "Starlink ground station in Poland hit by fire in suspected arson attack\n<p>Article URL: <a href=\"https://notesfrompoland.com/2026/09/24/starlink-ground-station-in-poland-hit-by-fire-in-suspected-arson-attack/\">https://notesfrompoland.com/2026/09/24/starlink-ground-station-in-poland-hit-by-fire-in-su"
     },
     {
-      "title": "FLAWED's Flaws and What This Means for Industry Research",
-      "link": "https://suhacker.ai/p/flaweds-flaws-and-what-this-means-for-industry-research/",
-      "raw_summary": "<p>Article URL: <a href=\"https://suhacker.ai/p/flaweds-flaws-and-what-this-means-for-industry-research/\">https://suhacker.ai/p/flaweds-flaws-and-what-this-means-for-industry-research/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49824969\">https://news.ycombinator.com/item?id=49824969</a></p>\n<p>Points: 11</p>\n<p># Comments: 1</p>",
+      "title": "Nokia Design Archive",
+      "link": "https://nokiadesignarchive.aalto.fi/index.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://nokiadesignarchive.aalto.fi/index.html\">https://nokiadesignarchive.aalto.fi/index.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49828385\">https://news.ycombinator.com/item?id=49828385</a></p>\n<p>Points: 34</p>\n<p># Comments: 12</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 24 Sep 2026 01:16:33 +0000",
-      "summary": "FLAWED's Flaws and What This Means for Industry Research\n<p>Article URL: <a href=\"https://suhacker.ai/p/flaweds-flaws-and-what-this-means-for-industry-research/\">https://suhacker.ai/p/flaweds-flaws-and-what-this-means-for-industry-research/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator."
+      "published": "Thu, 24 Sep 2026 09:49:33 +0000",
+      "summary": "Nokia Design Archive\n<p>Article URL: <a href=\"https://nokiadesignarchive.aalto.fi/index.html\">https://nokiadesignarchive.aalto.fi/index.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49828385\">https://news.ycombinator.com/item?id=49828385</a></p>\n<p>Points: 34</p>\n<p># C"
     },
     {
-      "title": "Virtio-nvgpu: Near-native Nvidia GPU access inside a KVM guest",
-      "link": "https://github.com/nestrilabs/virtio-nvgpu",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/nestrilabs/virtio-nvgpu\">https://github.com/nestrilabs/virtio-nvgpu</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49824864\">https://news.ycombinator.com/item?id=49824864</a></p>\n<p>Points: 10</p>\n<p># Comments: 3</p>",
+      "title": "AI has no intent and no motivation",
+      "link": "https://www.i-programmer.info/news/245-view-point/19164-ai-has-no-motivation.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.i-programmer.info/news/245-view-point/19164-ai-has-no-motivation.html\">https://www.i-programmer.info/news/245-view-point/19164-ai-has-no-motivation.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49828133\">https://news.ycombinator.com/item?id=49828133</a></p>\n<p>Points: 26</p>\n<p># Comments: 29</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 24 Sep 2026 01:02:23 +0000",
-      "summary": "Virtio-nvgpu: Near-native Nvidia GPU access inside a KVM guest\n<p>Article URL: <a href=\"https://github.com/nestrilabs/virtio-nvgpu\">https://github.com/nestrilabs/virtio-nvgpu</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49824864\">https://news.ycombinator.com/item?id=4982486"
+      "published": "Thu, 24 Sep 2026 09:13:25 +0000",
+      "summary": "AI has no intent and no motivation\n<p>Article URL: <a href=\"https://www.i-programmer.info/news/245-view-point/19164-ai-has-no-motivation.html\">https://www.i-programmer.info/news/245-view-point/19164-ai-has-no-motivation.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=4982"
     },
     {
-      "title": "Show HN: An open-source manufacturing ERP/MES/QMS",
-      "link": "https://carbon.ms/self-hosted",
-      "raw_summary": "<p>Article URL: <a href=\"https://carbon.ms/self-hosted\">https://carbon.ms/self-hosted</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49824715\">https://news.ycombinator.com/item?id=49824715</a></p>\n<p>Points: 10</p>\n<p># Comments: 5</p>",
+      "title": "Meta takes down a critical video about meta AI Glasses after filming at Meta",
+      "link": "https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/\">https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49827794\">https://news.ycombinator.com/item?id=49827794</a></p>\n<p>Points: 131</p>\n<p># Comments: 58</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 24 Sep 2026 00:45:17 +0000",
-      "summary": "Show HN: An open-source manufacturing ERP/MES/QMS\n<p>Article URL: <a href=\"https://carbon.ms/self-hosted\">https://carbon.ms/self-hosted</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49824715\">https://news.ycombinator.com/item?id=49824715</a></p>\n<p>Points: 10</p>\n<p># Commen"
+      "published": "Thu, 24 Sep 2026 08:23:03 +0000",
+      "summary": "Meta takes down a critical video about meta AI Glasses after filming at Meta\n<p>Article URL: <a href=\"https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/\">https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/"
     },
     {
-      "title": "Feds Target AI Critics as \"Foreign Agents\"",
-      "link": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign\">https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49824686\">https://news.ycombinator.com/item?id=49824686</a></p>\n<p>Points: 17</p>\n<p># Comments: 4</p>",
+      "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+      "link": "https://transluce.org/agent-activity",
+      "raw_summary": "<p>Article URL: <a href=\"https://transluce.org/agent-activity\">https://transluce.org/agent-activity</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49826565\">https://news.ycombinator.com/item?id=49826565</a></p>\n<p>Points: 139</p>\n<p># Comments: 103</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 24 Sep 2026 00:41:31 +0000",
-      "summary": "Feds Target AI Critics as \"Foreign Agents\"\n<p>Article URL: <a href=\"https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign\">https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49824686\">https://news.y"
+      "published": "Thu, 24 Sep 2026 05:21:10 +0000",
+      "summary": "Early rogue AI agent activity and attempts to hack found on urlquery.net\n<p>Article URL: <a href=\"https://transluce.org/agent-activity\">https://transluce.org/agent-activity</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49826565\">https://news.ycombinator.com/item?id=49826565<"
     },
     {
       "title": "Everything new coming to Meta’s AI agent Muse",
@@ -203,124 +203,124 @@
       "summary": "Trump’s China rivalry and “AI race” delusion may endanger US, experts say\nTrump focus on winning “AI race” may deter China from sharing safety intel."
     },
     {
-      "title": "Why Pakistan’s military cannot solve its Imran Khan problem",
-      "link": "https://www.ft.com/content/c44c9d18-020c-4dcf-a167-a5cac2e62c7f?syn-25a6b1a6=1",
-      "raw_summary": "Even behind bars, the former prime minister’s popularity is the greatest threat to Field Marshal Asim Munir",
+      "title": "Russia could attack Nato country within months, Denmark warns",
+      "link": "https://www.ft.com/content/b4141b98-0118-4624-8cb0-5d158ba0751d?syn-25a6b1a6=1",
+      "raw_summary": "Intelligence service cites ‘low but growing risk’ of troop movement into neighbouring country or attack on infrastructure",
       "source": "World",
-      "published": "Thu, 24 Sep 2026 02:05:15 GMT",
-      "summary": "Why Pakistan’s military cannot solve its Imran Khan problem\nEven behind bars, the former prime minister’s popularity is the greatest threat to Field Marshal Asim Munir"
+      "published": "Thu, 24 Sep 2026 10:44:08 GMT",
+      "summary": "Russia could attack Nato country within months, Denmark warns\nIntelligence service cites ‘low but growing risk’ of troop movement into neighbouring country or attack on infrastructure"
     },
     {
-      "title": "OpenAI ‘agent’ hacked an Australian health service website",
-      "link": "https://www.ft.com/content/56133ef4-377b-4e35-a939-f199ceb64507?syn-25a6b1a6=1",
-      "raw_summary": "AI lab took months to spot the problem, which Prime Minister Anthony Albanese called ‘obviously unacceptable’",
+      "title": "UK bank tax receipts jump 20% following surge in profits",
+      "link": "https://www.ft.com/content/c9ae9433-50e0-4711-90fa-d1e5aeb15eaf?syn-25a6b1a6=1",
+      "raw_summary": "Industry is bracing for a possible raid in next month’s Budget",
       "source": "World",
-      "published": "Thu, 24 Sep 2026 01:25:44 GMT",
-      "summary": "OpenAI ‘agent’ hacked an Australian health service website\nAI lab took months to spot the problem, which Prime Minister Anthony Albanese called ‘obviously unacceptable’"
+      "published": "Thu, 24 Sep 2026 10:34:37 GMT",
+      "summary": "UK bank tax receipts jump 20% following surge in profits\nIndustry is bracing for a possible raid in next month’s Budget"
     },
     {
-      "title": "Diller abandons $18bn takeover bid for MGM Resorts",
-      "link": "https://www.ft.com/content/1f55518f-dad5-4c7b-8c81-ba82196dd747?syn-25a6b1a6=1",
-      "raw_summary": "Media mogul says ‘we didn’t feel the mix was coming together in the way we had hoped’ after going public with offer in June",
+      "title": "FirstFT: OpenAI ‘agent’ hacks Australian government website",
+      "link": "https://www.ft.com/content/916603fa-c0c4-49e9-911a-a536ec3e245d?syn-25a6b1a6=1",
+      "raw_summary": "Also in today’s newsletter: Treasury yields surge above 5% and judge orders Trump administration to temporarily restore White House access for news outlets",
       "source": "World",
-      "published": "Wed, 23 Sep 2026 23:47:13 GMT",
-      "summary": "Diller abandons $18bn takeover bid for MGM Resorts\nMedia mogul says ‘we didn’t feel the mix was coming together in the way we had hoped’ after going public with offer in June"
+      "published": "Thu, 24 Sep 2026 10:10:04 GMT",
+      "summary": "FirstFT: OpenAI ‘agent’ hacks Australian government website\nAlso in today’s newsletter: Treasury yields surge above 5% and judge orders Trump administration to temporarily restore White House access for news outlets"
     },
     {
-      "title": "US oil industry pushes back against proposed diesel export ban",
-      "link": "https://www.ft.com/content/c902e192-8bbb-4f32-813c-ee255d3aebd0?syn-25a6b1a6=1",
-      "raw_summary": "Groups say there is no ‘silver bullet’ to fuel price crisis after president signals willingness to halt shipments abroad",
+      "title": "Global bond sell-off deepens as oil climbs back to $105",
+      "link": "https://www.ft.com/content/2d87f8bf-d529-4997-90c5-393ef65d280c?syn-25a6b1a6=1",
+      "raw_summary": "Rising yields strain public finances after brutal sell-off in US Treasuries market",
       "source": "World",
-      "published": "Wed, 23 Sep 2026 23:44:57 GMT",
-      "summary": "US oil industry pushes back against proposed diesel export ban\nGroups say there is no ‘silver bullet’ to fuel price crisis after president signals willingness to halt shipments abroad"
+      "published": "Thu, 24 Sep 2026 10:03:23 GMT",
+      "summary": "Global bond sell-off deepens as oil climbs back to $105\nRising yields strain public finances after brutal sell-off in US Treasuries market"
     },
     {
-      "title": "Xi arrives for high-stakes summit with Trump as leaders extend trade truce",
-      "link": "https://www.ft.com/content/8ff1b8fd-ff58-42a4-8e44-6a31f6db8154?syn-25a6b1a6=1",
-      "raw_summary": "Treasury secretary Scott Bessent says the countries have agreed to January 10 extension",
+      "title": "Notes on living in a dangerous world",
+      "link": "https://www.ft.com/content/4194904d-d041-46b9-a606-d0580137a8a3?syn-25a6b1a6=1",
+      "raw_summary": "Central banks and state-directed capital; Europe and great power rivalry",
       "source": "World",
-      "published": "Wed, 23 Sep 2026 23:04:18 GMT",
-      "summary": "Xi arrives for high-stakes summit with Trump as leaders extend trade truce\nTreasury secretary Scott Bessent says the countries have agreed to January 10 extension"
+      "published": "Thu, 24 Sep 2026 10:00:13 GMT",
+      "summary": "Notes on living in a dangerous world\nCentral banks and state-directed capital; Europe and great power rivalry"
     },
     {
-      "title": "Tokyo Used Condo Prices Drop for First Time in Over Two Years",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-24/tokyo-used-condo-prices-drop-for-first-time-in-over-two-years",
-      "raw_summary": "Used condominium prices in Tokyo dropped for the first time in more than two years in August as rising mortgage rates start to weigh on sentiment among home buyers, according to a research firm.",
+      "title": "Gold Falls as Traders Monitor Oil Rebound and Fed Rate Path",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-24/gold-holds-drop-as-higher-oil-and-hot-us-data-fan-rate-hike-bets",
+      "raw_summary": "Gold fell as rebounding oil prices helped reinforce expectations that the Federal Reserve will need to continue raising interest rates in order to quell above-target inflation.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 24 Sep 2026 02:00:00 GMT",
-      "summary": "Tokyo Used Condo Prices Drop for First Time in Over Two Years\nUsed condominium prices in Tokyo dropped for the first time in more than two years in August as rising mortgage rates start to weigh on sentiment among home buyers, according to a research firm."
+      "published": "Thu, 24 Sep 2026 00:12:14 GMT",
+      "summary": "Gold Falls as Traders Monitor Oil Rebound and Fed Rate Path\nGold fell as rebounding oil prices helped reinforce expectations that the Federal Reserve will need to continue raising interest rates in order to quell above-target inflation."
     },
     {
-      "title": "Australian Unemployment Climbs to 4.6% Even as Jobs Gain",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-24/australian-unemployment-surprisingly-rises-despite-job-gains",
-      "raw_summary": "Australian unemployment climbed further in August as more people sought work, overshadowing a jump in hiring just days before the Reserve Bank meets to weigh resuming interest-rate increases.",
-      "source": "Bloomberg Markets",
-      "published": "Thu, 24 Sep 2026 01:33:46 GMT",
-      "summary": "Australian Unemployment Climbs to 4.6% Even as Jobs Gain\nAustralian unemployment climbed further in August as more people sought work, overshadowing a jump in hiring just days before the Reserve Bank meets to weigh resuming interest-rate increases."
-    },
-    {
-      "title": "Bond Selloff Deepens as Fed Rate-Hike Bets Build: Markets Wrap",
+      "title": "US Stocks Fall as 30-Year Yield Hits 2004 High: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-09-23/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "A global selloff in bonds intensified, jolting investors as robust US economic data and weak demand at a debt auction drove Treasury yields across much of the curve to their highest levels in almost two decades.",
+      "raw_summary": "Stocks fell after fresh gains in oil prices fueled further selling in bonds and lifted 30-year Treasury yields to the highest since 2004.",
       "source": "Bloomberg Markets",
       "published": "Wed, 23 Sep 2026 22:17:23 GMT",
-      "summary": "Bond Selloff Deepens as Fed Rate-Hike Bets Build: Markets Wrap\nA global selloff in bonds intensified, jolting investors as robust US economic data and weak demand at a debt auction drove Treasury yields across much of the curve to their highest levels in almost two decades."
+      "summary": "US Stocks Fall as 30-Year Yield Hits 2004 High: Markets Wrap\nStocks fell after fresh gains in oil prices fueled further selling in bonds and lifted 30-year Treasury yields to the highest since 2004."
     },
     {
-      "title": "Latest Oil Market News and Analysis for Sept. 24",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-23/latest-oil-market-news-and-analysis-for-sept-24",
-      "raw_summary": "Oil fell — following a surge of almost 4% on Wednesday — as the US again suggested that major volumes of crude are getting through the Strait of Hormuz despite risks to shipping.",
+      "title": "NSE Shares Rise in Debut, Defying Broader India Market Selloff",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-24/nse-to-debut-in-test-of-india-investor-faith-in-long-term-growth",
+      "raw_summary": "National Stock Exchange of India Ltd.’s shares gained in their debut on the BSE Ltd. after the company raised $2.4 billion in one of the biggest initial public offerings in the country’s history.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 23 Sep 2026 22:09:08 GMT",
-      "summary": "Latest Oil Market News and Analysis for Sept. 24\nOil fell — following a surge of almost 4% on Wednesday — as the US again suggested that major volumes of crude are getting through the Strait of Hormuz despite risks to shipping."
+      "published": "Thu, 24 Sep 2026 01:00:00 GMT",
+      "summary": "NSE Shares Rise in Debut, Defying Broader India Market Selloff\nNational Stock Exchange of India Ltd.’s shares gained in their debut on the BSE Ltd. after the company raised $2.4 billion in one of the biggest initial public offerings in the country’s history."
     },
     {
-      "title": "Tumbling Global Government Bonds Put Yields on Brink of 4%",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-24/tumbling-global-government-bonds-put-yields-on-brink-of-4",
-      "raw_summary": "A worsening bond selloff is pushing the average yield on global government debt to within a whisker of 4%, a level not seen since 2007.",
+      "title": "Singapore Court Appoints KPMG to Manage Trader Radiant World",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-24/singapore-court-appoints-kpmg-to-manage-trader-radiant-world",
+      "raw_summary": "A Singapore court appointed KPMG restructuring executives to take control of Radiant World on Thursday, granting an application by creditor Mizuho Bank Ltd., which has accused the trader of an alleged fraud linked to iron ore receivables.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 24 Sep 2026 01:42:42 GMT",
-      "summary": "Tumbling Global Government Bonds Put Yields on Brink of 4%\nA worsening bond selloff is pushing the average yield on global government debt to within a whisker of 4%, a level not seen since 2007."
+      "published": "Thu, 24 Sep 2026 10:10:21 GMT",
+      "summary": "Singapore Court Appoints KPMG to Manage Trader Radiant World\nA Singapore court appointed KPMG restructuring executives to take control of Radiant World on Thursday, granting an application by creditor Mizuho Bank Ltd., which has accused the trader of an alleged fraud linked to iron ore receivables."
     },
     {
-      "title": "Kalshi says it is not being investigated by the CFTC over trading activity",
-      "link": "https://www.coindesk.com/markets/2026/09/23/kalshi-says-it-is-not-being-investigated-by-the-cftc-over-trading-activity",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 23 Sep 2026 19:04:52 +0000",
-      "summary": "Kalshi says it is not being investigated by the CFTC over trading activity\n"
+      "title": "Ken Griffin’s Miami Beach Helipad Plan Faces Resident Pushback",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-24/ken-griffin-s-miami-beach-helipad-plan-faces-resident-pushback",
+      "raw_summary": "Ken Griffin is running into opposition to his plans to build a personal heliport in Miami Beach, in a rare instance of pushback to the financier’s South Florida development spree.",
+      "source": "Bloomberg Markets",
+      "published": "Thu, 24 Sep 2026 10:30:00 GMT",
+      "summary": "Ken Griffin’s Miami Beach Helipad Plan Faces Resident Pushback\nKen Griffin is running into opposition to his plans to build a personal heliport in Miami Beach, in a rare instance of pushback to the financier’s South Florida development spree."
     },
     {
-      "title": "Former Hack VC partner Hsin-Ju Chuang found dead following public dispute with the firm",
-      "link": "https://www.coindesk.com/business/2026/09/23/former-hack-vc-partner-hsin-ju-chuang-found-dead-following-public-dispute-with-firm",
+      "title": "Bitcoin slides to $83,300 as bond yields hit highest level since 2007",
+      "link": "https://www.coindesk.com/markets/2026/09/24/bitcoin-steadies-near-usd84-000-after-bond-yields-hit-a-2007-high",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 23 Sep 2026 18:59:36 +0000",
-      "summary": "Former Hack VC partner Hsin-Ju Chuang found dead following public dispute with the firm\n"
+      "published": "Thu, 24 Sep 2026 10:30:28 +0000",
+      "summary": "Bitcoin slides to $83,300 as bond yields hit highest level since 2007\n"
     },
     {
-      "title": "White House adviser defends President Trump's crypto ties in wake of Clarity Act defeat",
-      "link": "https://www.coindesk.com/policy/2026/09/23/white-house-adviser-defends-president-trump-s-crypto-ties-in-wake-of-clarity-act-defeat",
+      "title": "Traders price in 4 Fed rate hikes by June 2027 as bitcoin slides below $83,000",
+      "link": "https://www.coindesk.com/markets/2026/09/24/traders-are-pricing-in-4-fed-rate-hikes-as-bitcoin-slides-below-usd83-000",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 23 Sep 2026 18:04:11 +0000",
-      "summary": "White House adviser defends President Trump's crypto ties in wake of Clarity Act defeat\n"
+      "published": "Thu, 24 Sep 2026 10:11:51 +0000",
+      "summary": "Traders price in 4 Fed rate hikes by June 2027 as bitcoin slides below $83,000\n"
     },
     {
-      "title": "Inside the FBI’s little-known annual crypto crime gathering",
-      "link": "https://www.coindesk.com/business/2026/09/23/inside-the-fbi-s-little-known-annual-crypto-crime-gathering",
+      "title": "The data proves it: Bitcoin doesn't care about rising bond yields over long-term",
+      "link": "https://www.coindesk.com/markets/2026/09/24/the-data-proves-it-bitcoin-doesn-t-care-about-rising-bond-yields-over-long-term",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 23 Sep 2026 15:26:35 +0000",
-      "summary": "Inside the FBI’s little-known annual crypto crime gathering\n"
+      "published": "Thu, 24 Sep 2026 09:48:09 +0000",
+      "summary": "The data proves it: Bitcoin doesn't care about rising bond yields over long-term\n"
     },
     {
-      "title": "Crypto Long & Short: Inside the chain settling $150 billion of stablecoins a week",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/09/23/crypto-long-and-short-inside-the-chain-settling-usd150-billion-of-stablecoins-a-week",
+      "title": "EU financial watchdogs warn quantum computing poses imminent threat to blockchain encryption",
+      "link": "https://www.coindesk.com/tech/2026/09/24/eu-financial-watchdogs-warn-quantum-computing-poses-imminent-threat-to-blockchain-encryption",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 23 Sep 2026 15:07:21 +0000",
-      "summary": "Crypto Long & Short: Inside the chain settling $150 billion of stablecoins a week\n"
+      "published": "Thu, 24 Sep 2026 09:32:48 +0000",
+      "summary": "EU financial watchdogs warn quantum computing poses imminent threat to blockchain encryption\n"
+    },
+    {
+      "title": "Trump administration weighs a global stablecoin plan to cement dollar's dominance",
+      "link": "https://www.coindesk.com/markets/2026/09/24/trump-administration-weighs-a-global-stablecoin-plan-to-cement-dollar-s-dominance",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Thu, 24 Sep 2026 06:33:23 +0000",
+      "summary": "Trump administration weighs a global stablecoin plan to cement dollar's dominance\n"
     }
   ]
 }
