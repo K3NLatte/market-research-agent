@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T11:39:54.213370+00:00",
+  "generated_at": "2026-09-30T17:19:57.947067+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "FBI Probes Service Selling 153M+ Drivers Licenses\nA new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purc"
     },
     {
+      "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
+      "link": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+      "raw_summary": "Attackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an&nbsp;advisory&nbsp;on September 30.\n\nThe flaw, CVE-2026-76504, could allow a remote attacker with no login access to use the Manager's API as the admin user. Fixed releases are available, and there is no workaround. It carries a",
+      "source": "The Hacker News",
+      "published": "Wed, 30 Sep 2026 20:54:54 +0530",
+      "summary": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager\nAttackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an&nbsp;advisory&nbsp;on September 30.\n\nThe flaw,"
+    },
+    {
+      "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
+      "link": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+      "raw_summary": "Threat actors are abusing ChatGPT Custom GPTs to disguise them as legitimate product offerings and direct unsuspecting victims to malicious sites that employ ClickFix lures to deliver malware.\n\nHuntress, which observed the activity in late September 2026, said it marks the abuse of yet another feature in trusted artificial intelligence (AI) platforms. Prior campaigns have weaponized shared",
+      "source": "The Hacker News",
+      "published": "Wed, 30 Sep 2026 20:30:15 +0530",
+      "summary": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures\nThreat actors are abusing ChatGPT Custom GPTs to disguise them as legitimate product offerings and direct unsuspecting victims to malicious sites that employ ClickFix lures to deliver malware.\n\nHuntress, which observed the activit"
+    },
+    {
+      "title": "Know Your Enemy: Browser-Based Attack Techniques in 2026",
+      "link": "https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html",
+      "raw_summary": "Given that the browser is where business apps are accessed and used, it makes sense that attacks are happening there too. Most breaches today begin in a browser session. Often, they never leave it, with the entire attack chain from initial access to exfiltration playing out in the browser.\n\nHere are the six most dangerous techniques that should be on every security team's radar in 2026.\n\n1.",
+      "source": "The Hacker News",
+      "published": "Wed, 30 Sep 2026 17:28:00 +0530",
+      "summary": "Know Your Enemy: Browser-Based Attack Techniques in 2026\nGiven that the browser is where business apps are accessed and used, it makes sense that attacks are happening there too. Most breaches today begin in a browser session. Often, they never leave it, with the entire attack chain from initial acc"
+    },
+    {
       "title": "AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub",
       "link": "https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html",
       "raw_summary": "AI coding agents asked to share screenshots of code changes for review have put internal company images in public GitHub repositories, security company Glow said.\n\nIts researchers found more than 13,000 internal images from developers at over 300 organizations, including customer billing records and screens of features not yet released. In most cases, they sat under developers' personal accounts",
@@ -59,108 +83,92 @@
       "summary": "US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access\nANY.RUN researchers traced a US-focused CSuite phishing campaign across 351 sandbox analyses, with 51% of submissions coming from the United States. Technology, manufacturing, government, and consulting "
     },
     {
-      "title": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT",
-      "link": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
-      "raw_summary": "Unknown threat actors have been observed exploiting a newly patched security flaw in Citrix NetScaler ADC and NetScaler Gateway appliances to target organizations in North America and Europe.\n\nThe activity, observed by Mandiant Consulting and Google Threat Intelligence Group (GTIG) in September 2026, has targeted government, financial services, technology, education, and legal and professional",
-      "source": "The Hacker News",
-      "published": "Wed, 30 Sep 2026 13:54:35 +0530",
-      "summary": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT\nUnknown threat actors have been observed exploiting a newly patched security flaw in Citrix NetScaler ADC and NetScaler Gateway appliances to target organizations in North America and Europe.\n\nThe activity, observed by Ma"
-    },
-    {
-      "title": "OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted",
-      "link": "https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html",
-      "raw_summary": "A High-severity OpenSSL flaw can leak heap memory to the other side of a DTLS connection or crash the program,&nbsp;OpenSSL said&nbsp;on September 29 as it released fixes.\n\nDTLS, the TLS variant used for UDP traffic, resends a handshake message if no reply arrives before the timer expires. The leak or crash can happen when such a resend starts while a larger handshake message is stuck part-way",
-      "source": "The Hacker News",
-      "published": "Wed, 30 Sep 2026 13:39:28 +0530",
-      "summary": "OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted\nA High-severity OpenSSL flaw can leak heap memory to the other side of a DTLS connection or crash the program,&nbsp;OpenSSL said&nbsp;on September 29 as it released fixes.\n\nDTLS, the TLS variant used for UDP traffic, resends"
-    },
-    {
-      "title": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
-      "link": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
-      "raw_summary": "Cybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway that has come under active exploitation in the wild.\n\nThe vulnerability, tracked as CVE-2026-88772 (CVSS score: 9.5), has been described as a memory overflow bug in the Datagram Transport Layer Security (DTLS) protocol handling that's rooted in the NetScaler",
-      "source": "The Hacker News",
-      "published": "Wed, 30 Sep 2026 11:00:30 +0530",
-      "summary": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution\nCybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway that has come under active exploitation in the wild.\n\nThe vulnerabilit"
-    },
-    {
-      "title": "GPT-6.1 Sol replaces GPT-6 Sol after just 7 days, with near-Astra intelligence",
-      "link": "https://artificialanalysis.ai/articles/gpt-6-1-sol-replaces-gpt-6-sol-after-just-7-days-with-near-astra-intelligence",
-      "raw_summary": "<p>Article URL: <a href=\"https://artificialanalysis.ai/articles/gpt-6-1-sol-replaces-gpt-6-sol-after-just-7-days-with-near-astra-intelligence\">https://artificialanalysis.ai/articles/gpt-6-1-sol-replaces-gpt-6-sol-after-just-7-days-with-near-astra-intelligence</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49906669\">https://news.ycombinator.com/item?id=49906669</a></p>\n<p>Points: 49</p>\n<p># Comments: 62</p>",
+      "title": "Bild AI (YC W25) Is Hiring a Founding Product Engineer",
+      "link": "https://www.ycombinator.com/companies/bild-ai/jobs/dAbC3Gd-founding-product-engineer",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/bild-ai/jobs/dAbC3Gd-founding-product-engineer\">https://www.ycombinator.com/companies/bild-ai/jobs/dAbC3Gd-founding-product-engineer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49911531\">https://news.ycombinator.com/item?id=49911531</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 30 Sep 2026 09:59:03 +0000",
-      "summary": "GPT-6.1 Sol replaces GPT-6 Sol after just 7 days, with near-Astra intelligence\n<p>Article URL: <a href=\"https://artificialanalysis.ai/articles/gpt-6-1-sol-replaces-gpt-6-sol-after-just-7-days-with-near-astra-intelligence\">https://artificialanalysis.ai/articles/gpt-6-1-sol-replaces-gpt-6-sol-after-ju"
+      "published": "Wed, 30 Sep 2026 17:00:20 +0000",
+      "summary": "Bild AI (YC W25) Is Hiring a Founding Product Engineer\n<p>Article URL: <a href=\"https://www.ycombinator.com/companies/bild-ai/jobs/dAbC3Gd-founding-product-engineer\">https://www.ycombinator.com/companies/bild-ai/jobs/dAbC3Gd-founding-product-engineer</a></p>\n<p>Comments URL: <a href=\"https://news.yc"
     },
     {
-      "title": "Pi.dev: You Said No MCP",
-      "link": "https://earendil.com/posts/you-said-no-mcp/",
-      "raw_summary": "<p>Article URL: <a href=\"https://earendil.com/posts/you-said-no-mcp/\">https://earendil.com/posts/you-said-no-mcp/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49906637\">https://news.ycombinator.com/item?id=49906637</a></p>\n<p>Points: 122</p>\n<p># Comments: 47</p>",
+      "title": "Moist-Electric Wallpaper for Indoor Energy Harvesting and Humidity Management",
+      "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71603",
+      "raw_summary": "<p>Article URL: <a href=\"https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71603\">https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71603</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49910613\">https://news.ycombinator.com/item?id=49910613</a></p>\n<p>Points: 17</p>\n<p># Comments: 7</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 30 Sep 2026 09:55:23 +0000",
-      "summary": "Pi.dev: You Said No MCP\n<p>Article URL: <a href=\"https://earendil.com/posts/you-said-no-mcp/\">https://earendil.com/posts/you-said-no-mcp/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49906637\">https://news.ycombinator.com/item?id=49906637</a></p>\n<p>Points: 122</p>\n<p># Com"
+      "published": "Wed, 30 Sep 2026 15:54:59 +0000",
+      "summary": "Moist-Electric Wallpaper for Indoor Energy Harvesting and Humidity Management\n<p>Article URL: <a href=\"https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71603\">https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.71603</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?"
     },
     {
-      "title": "September 2026: The world today, as seen by one Polish guy",
-      "link": "https://tomwojcik.com/posts/2026-09-21/september-2026-the-world-today/",
-      "raw_summary": "<p>Article URL: <a href=\"https://tomwojcik.com/posts/2026-09-21/september-2026-the-world-today/\">https://tomwojcik.com/posts/2026-09-21/september-2026-the-world-today/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49905487\">https://news.ycombinator.com/item?id=49905487</a></p>\n<p>Points: 299</p>\n<p># Comments: 169</p>",
+      "title": "The AI Race Just Got Awkward",
+      "link": "https://insufferable.dev/posts/the-ai-race-just-got-awkward/",
+      "raw_summary": "<p>Article URL: <a href=\"https://insufferable.dev/posts/the-ai-race-just-got-awkward/\">https://insufferable.dev/posts/the-ai-race-just-got-awkward/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49910553\">https://news.ycombinator.com/item?id=49910553</a></p>\n<p>Points: 303</p>\n<p># Comments: 273</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 30 Sep 2026 07:12:31 +0000",
-      "summary": "September 2026: The world today, as seen by one Polish guy\n<p>Article URL: <a href=\"https://tomwojcik.com/posts/2026-09-21/september-2026-the-world-today/\">https://tomwojcik.com/posts/2026-09-21/september-2026-the-world-today/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49"
+      "published": "Wed, 30 Sep 2026 15:50:11 +0000",
+      "summary": "The AI Race Just Got Awkward\n<p>Article URL: <a href=\"https://insufferable.dev/posts/the-ai-race-just-got-awkward/\">https://insufferable.dev/posts/the-ai-race-just-got-awkward/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49910553\">https://news.ycombinator.com/item?id=49910"
     },
     {
-      "title": "RSS Feeds for Last.fm",
-      "link": "https://lfm.xiffy.nl/",
-      "raw_summary": "<p>Article URL: <a href=\"https://lfm.xiffy.nl/\">https://lfm.xiffy.nl/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49903862\">https://news.ycombinator.com/item?id=49903862</a></p>\n<p>Points: 85</p>\n<p># Comments: 18</p>",
+      "title": "SDF Public Access Unix System ... est. 1987",
+      "link": "https://sdf.org/",
+      "raw_summary": "<p>Article URL: <a href=\"https://sdf.org/\">https://sdf.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49909610\">https://news.ycombinator.com/item?id=49909610</a></p>\n<p>Points: 17</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 30 Sep 2026 03:00:05 +0000",
-      "summary": "RSS Feeds for Last.fm\n<p>Article URL: <a href=\"https://lfm.xiffy.nl/\">https://lfm.xiffy.nl/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49903862\">https://news.ycombinator.com/item?id=49903862</a></p>\n<p>Points: 85</p>\n<p># Comments: 18</p>"
+      "published": "Wed, 30 Sep 2026 14:36:02 +0000",
+      "summary": "SDF Public Access Unix System ... est. 1987\n<p>Article URL: <a href=\"https://sdf.org/\">https://sdf.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49909610\">https://news.ycombinator.com/item?id=49909610</a></p>\n<p>Points: 17</p>\n<p># Comments: 1</p>"
     },
     {
-      "title": "Floppy Emu Hardware Failure Analysis Results",
-      "link": "https://www.bigmessowires.com/2026/09/29/floppy-emu-hardware-failure-analysis-results/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.bigmessowires.com/2026/09/29/floppy-emu-hardware-failure-analysis-results/\">https://www.bigmessowires.com/2026/09/29/floppy-emu-hardware-failure-analysis-results/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49902093\">https://news.ycombinator.com/item?id=49902093</a></p>\n<p>Points: 15</p>\n<p># Comments: 3</p>",
+      "title": "A Brief History of the Bloomberg Terminal",
+      "link": "https://spectrum.ieee.org/bloomberg-terminal",
+      "raw_summary": "<p>Article URL: <a href=\"https://spectrum.ieee.org/bloomberg-terminal\">https://spectrum.ieee.org/bloomberg-terminal</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49909583\">https://news.ycombinator.com/item?id=49909583</a></p>\n<p>Points: 59</p>\n<p># Comments: 15</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 29 Sep 2026 23:10:26 +0000",
-      "summary": "Floppy Emu Hardware Failure Analysis Results\n<p>Article URL: <a href=\"https://www.bigmessowires.com/2026/09/29/floppy-emu-hardware-failure-analysis-results/\">https://www.bigmessowires.com/2026/09/29/floppy-emu-hardware-failure-analysis-results/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombina"
+      "published": "Wed, 30 Sep 2026 14:34:07 +0000",
+      "summary": "A Brief History of the Bloomberg Terminal\n<p>Article URL: <a href=\"https://spectrum.ieee.org/bloomberg-terminal\">https://spectrum.ieee.org/bloomberg-terminal</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49909583\">https://news.ycombinator.com/item?id=49909583</a></p>\n<p>Poin"
     },
     {
-      "title": "Apple Pay finally launches in India after years on the sidelines",
-      "link": "https://techcrunch.com/2026/09/29/apple-pay-set-to-launch-in-india-with-axis-bank-today-sources-say/",
-      "raw_summary": "Some of India's largest banks are holding off on supporting Apple Pay initially.",
+      "title": "Meta disputes claim that Muse read a user’s private messages without permission",
+      "link": "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/",
+      "raw_summary": "Meta says its Muse AI agent cannot access a user’s Messages without explicit permission, disputing a journalist’s account that the agent read his private messages while the required Mac setting was turned off.",
       "source": "TechCrunch",
-      "published": "Wed, 30 Sep 2026 04:08:00 +0000",
-      "summary": "Apple Pay finally launches in India after years on the sidelines\nSome of India's largest banks are holding off on supporting Apple Pay initially."
+      "published": "Wed, 30 Sep 2026 16:24:23 +0000",
+      "summary": "Meta disputes claim that Muse read a user’s private messages without permission\nMeta says its Muse AI agent cannot access a user’s Messages without explicit permission, disputing a journalist’s account that the agent read his private messages while the required Mac setting was turned off."
     },
     {
-      "title": "America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch",
-      "link": "https://techcrunch.com/2026/09/29/america-gov-gets-really-weird-when-you-ask-it-about-minecraft-but-its-not-a-glitch/",
-      "raw_summary": "For the sake of national security, it's a relief to learn that America.gov is not hallucinating to the point that it's penning lengthy poetry.",
+      "title": "DoorDash launches an AI agent you can text to order food",
+      "link": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/",
+      "raw_summary": "By launching an AI agent for food ordering, DoorDash is looking to gain an edge over rivals Uber Eats and Grubhub.",
       "source": "TechCrunch",
-      "published": "Tue, 29 Sep 2026 23:30:55 +0000",
-      "summary": "America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch\nFor the sake of national security, it's a relief to learn that America.gov is not hallucinating to the point that it's penning lengthy poetry."
+      "published": "Wed, 30 Sep 2026 16:00:24 +0000",
+      "summary": "DoorDash launches an AI agent you can text to order food\nBy launching an AI agent for food ordering, DoorDash is looking to gain an edge over rivals Uber Eats and Grubhub."
     },
     {
-      "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
-      "link": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
-      "raw_summary": "Before OpenAI launched its new AI agent, Dots, on Tuesday, Elon Musk's xAI had already acquired the domain name \"dot.com,\" which now redirects to the Grok chatbot download page.",
+      "title": "Destro AI’s secret sauce is getting robots and humans on the same page",
+      "link": "https://techcrunch.com/2026/09/30/destro-ais-secret-sauce-is-getting-robots-and-humans-on-the-same-page/",
+      "raw_summary": "\"One of the biggest reasons we are winning against robotics companies is because we are not a robotics company.\"",
       "source": "TechCrunch",
-      "published": "Tue, 29 Sep 2026 22:20:59 +0000",
-      "summary": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch\nBefore OpenAI launched its new AI agent, Dots, on Tuesday, Elon Musk's xAI had already acquired the domain name \"dot.com,\" which now redirects to the Grok chatbot download page."
+      "published": "Wed, 30 Sep 2026 16:00:00 +0000",
+      "summary": "Destro AI’s secret sauce is getting robots and humans on the same page\n\"One of the biggest reasons we are winning against robotics companies is because we are not a robotics company.\""
     },
     {
-      "title": "Your car and its mobile app are probably handing over all kinds of data to tech companies",
-      "link": "https://techcrunch.com/2026/09/29/your-car-and-its-mobile-app-are-probably-handing-over-all-kinds-of-data-to-tech-companies/",
-      "raw_summary": "Researchers at Northeastern University found vehicles and their companion apps regularly shared detailed data with some of the largest tech companies.",
+      "title": "Instinct’s new product recommendations are giving some users the ick",
+      "link": "https://techcrunch.com/2026/09/30/instincts-new-product-recommendations-are-giving-some-users-the-ick/",
+      "raw_summary": "Instinct is rolling out human-curated product and travel recommendations, but some users aren’t happy about getting suggestions they never asked for.",
       "source": "TechCrunch",
-      "published": "Tue, 29 Sep 2026 22:18:35 +0000",
-      "summary": "Your car and its mobile app are probably handing over all kinds of data to tech companies\nResearchers at Northeastern University found vehicles and their companion apps regularly shared detailed data with some of the largest tech companies."
+      "published": "Wed, 30 Sep 2026 15:56:28 +0000",
+      "summary": "Instinct’s new product recommendations are giving some users the ick\nInstinct is rolling out human-curated product and travel recommendations, but some users aren’t happy about getting suggestions they never asked for."
     },
     {
-      "title": "a16z-backed EliseAI raises $350M, doubles valuation to $4B",
-      "link": "https://techcrunch.com/2026/09/29/a16z-backed-eliseai-raises-350m-doubles-valuation-to-4b/",
-      "raw_summary": "EliseAI raises $350M, doubles valuation in a year.",
+      "title": "FedEx orders 2,000 electric trucks from Harbinger in $300M deal",
+      "link": "https://techcrunch.com/2026/09/30/fedex-orders-2000-electric-trucks-from-harbinger-in-300m-deal/",
+      "raw_summary": "The order -- Harbinger's biggest ever -- comes as the startup is reportedly considering an IPO.",
       "source": "TechCrunch",
-      "published": "Tue, 29 Sep 2026 21:51:36 +0000",
-      "summary": "a16z-backed EliseAI raises $350M, doubles valuation to $4B\nEliseAI raises $350M, doubles valuation in a year."
+      "published": "Wed, 30 Sep 2026 15:26:02 +0000",
+      "summary": "FedEx orders 2,000 electric trucks from Harbinger in $300M deal\nThe order -- Harbinger's biggest ever -- comes as the startup is reportedly considering an IPO."
+    },
+    {
+      "title": "Cloudflare plans to issue quantum-safe TLS certificates",
+      "link": "https://arstechnica.com/security/2026/09/cloudflare-plans-to-issue-quantum-safe-tls-certificates/",
+      "raw_summary": "The move will be part of a major overhaul of the ecosystem for website authentication.",
+      "source": "Ars Technica - All content",
+      "published": "Wed, 30 Sep 2026 11:15:14 +0000",
+      "summary": "Cloudflare plans to issue quantum-safe TLS certificates\nThe move will be part of a major overhaul of the ecosystem for website authentication."
     },
     {
       "title": "Most powerful obesity drug yet: People lost up to 25% of weight in trial",
@@ -195,132 +203,124 @@
       "summary": "Trump ads paid for by US government allegedly violate anti-propaganda laws\nFCC unlikely to stop Trump ads described as illegal taxpayer-funded propaganda."
     },
     {
-      "title": "NASA has a Dragon dilemma, and there appear to be no good answers",
-      "link": "https://arstechnica.com/space/2026/09/nasa-has-a-dragon-dilemma-and-there-appear-to-be-no-good-answers/",
-      "raw_summary": "So is SpaceX just being selfish or what?",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 29 Sep 2026 18:34:00 +0000",
-      "summary": "NASA has a Dragon dilemma, and there appear to be no good answers\nSo is SpaceX just being selfish or what?"
-    },
-    {
-      "title": "Burnham says rejoining EU an option for UK",
-      "link": "https://www.ft.com/content/d740f13d-38bc-4460-bcd5-2922472fc209?syn-25a6b1a6=1",
-      "raw_summary": "Prime minister says ‘going all the way’ is a possibility as government reviews relations with 27-country bloc",
+      "title": "To fix housing affordability, build more homes",
+      "link": "https://www.ft.com/content/f5e98843-7625-4999-9b99-c03f2ec26c4c?syn-25a6b1a6=1",
+      "raw_summary": "Faced with rising mortgage costs, governments should resist stoking demand",
       "source": "World",
-      "published": "Wed, 30 Sep 2026 11:36:50 GMT",
-      "summary": "Burnham says rejoining EU an option for UK\nPrime minister says ‘going all the way’ is a possibility as government reviews relations with 27-country bloc"
+      "published": "Wed, 30 Sep 2026 16:44:30 GMT",
+      "summary": "To fix housing affordability, build more homes\nFaced with rising mortgage costs, governments should resist stoking demand"
     },
     {
-      "title": "Russia threatens nuclear strikes on Nato countries over Kaliningrad",
-      "link": "https://www.ft.com/content/1bb7ec8d-7252-4fa3-8c4a-81fa5b6906a2?syn-25a6b1a6=1",
-      "raw_summary": "Kremlin accuses western defence alliance of preparing to blockade Russian exclave on Baltic Sea",
+      "title": "ECB ‘cannot wait’ for high energy prices to fuel wider inflation, top policymaker warns",
+      "link": "https://www.ft.com/content/ec98b9b5-6677-4b26-b892-82aaac034143?syn-25a6b1a6=1",
+      "raw_summary": "Isabel Schnabel calls for pre-emptive action as price growth accelerates faster than expected in Eurozone’s biggest economies",
       "source": "World",
-      "published": "Wed, 30 Sep 2026 11:35:42 GMT",
-      "summary": "Russia threatens nuclear strikes on Nato countries over Kaliningrad\nKremlin accuses western defence alliance of preparing to blockade Russian exclave on Baltic Sea"
+      "published": "Wed, 30 Sep 2026 16:44:09 GMT",
+      "summary": "ECB ‘cannot wait’ for high energy prices to fuel wider inflation, top policymaker warns\nIsabel Schnabel calls for pre-emptive action as price growth accelerates faster than expected in Eurozone’s biggest economies"
     },
     {
-      "title": "Brazil election roiled by row over Flávio Bolsonaro and patron saint",
-      "link": "https://www.ft.com/content/bc1dd9d4-39ed-4aa2-a11d-89be1b6f3844?syn-25a6b1a6=1",
-      "raw_summary": "False allegation involving Our Lady of Aparecida puts religion at centre of race days before vote",
+      "title": "MI5 warns universities to cut ties with Chinese institute",
+      "link": "https://www.ft.com/content/f71120fb-266f-42fb-8042-dbeccfd9cf0c?syn-25a6b1a6=1",
+      "raw_summary": "China General Technology Research Institute has ‘very strong ties’ to Chinese intelligence, says UK agency in unusual espionage alert",
       "source": "World",
-      "published": "Wed, 30 Sep 2026 11:34:03 GMT",
-      "summary": "Brazil election roiled by row over Flávio Bolsonaro and patron saint\nFalse allegation involving Our Lady of Aparecida puts religion at centre of race days before vote"
+      "published": "Wed, 30 Sep 2026 16:22:48 GMT",
+      "summary": "MI5 warns universities to cut ties with Chinese institute\nChina General Technology Research Institute has ‘very strong ties’ to Chinese intelligence, says UK agency in unusual espionage alert"
     },
     {
-      "title": "US withdraws remaining troops from Iraq",
-      "link": "https://www.ft.com/content/043221b2-d06c-4171-aa50-eeaebaf7674a?syn-25a6b1a6=1",
-      "raw_summary": "Pullback marks end of more than two decades of US involvement as Iran-backed militias battle for influence in country",
+      "title": "US oil industry warns diesel prices will not return to normal for a year",
+      "link": "https://www.ft.com/content/0d74d66a-a9ee-4c22-83ab-9df6452117de?syn-25a6b1a6=1",
+      "raw_summary": "Dallas Fed survey finds energy executives believe high cost of fuel will persist",
       "source": "World",
-      "published": "Wed, 30 Sep 2026 11:28:13 GMT",
-      "summary": "US withdraws remaining troops from Iraq\nPullback marks end of more than two decades of US involvement as Iran-backed militias battle for influence in country"
+      "published": "Wed, 30 Sep 2026 16:20:52 GMT",
+      "summary": "US oil industry warns diesel prices will not return to normal for a year\nDallas Fed survey finds energy executives believe high cost of fuel will persist"
     },
     {
-      "title": "Russia extends diesel export ban",
-      "link": "https://www.ft.com/content/fc705366-9a91-4e99-9c07-e962dca6354b?syn-25a6b1a6=1",
-      "raw_summary": "Curbs imposed in response to Ukrainian drone strikes on refineries threaten to worsen global supply crunch",
+      "title": "National care service may not launch until late 2030s, suggests Burnham",
+      "link": "https://www.ft.com/content/e9f2345f-6d7b-4fbb-831a-5fe576317701?syn-25a6b1a6=1",
+      "raw_summary": "Prime minister admits scrapping pensions triple lock will not fund social care reforms until later next decade",
       "source": "World",
-      "published": "Wed, 30 Sep 2026 11:24:00 GMT",
-      "summary": "Russia extends diesel export ban\nCurbs imposed in response to Ukrainian drone strikes on refineries threaten to worsen global supply crunch"
+      "published": "Wed, 30 Sep 2026 16:11:49 GMT",
+      "summary": "National care service may not launch until late 2030s, suggests Burnham\nPrime minister admits scrapping pensions triple lock will not fund social care reforms until later next decade"
     },
     {
-      "title": "Coal Buyers Resist High Prices Despite Costly Alternatives",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-09-30/coal-buyers-resist-high-prices-despite-costly-alternatives",
-      "raw_summary": "Expensive gas has done little to spur demand for the dirtier power-plant fuel.",
+      "title": "JPMorgan Hires Three for Natural Resources Banking",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-29/jpmorgan-hires-three-for-natural-resources-banking-team",
+      "raw_summary": "JPMorgan Chase &amp; Co. is hiring three bankers for its natural resources investment banking team, according to a memo reviewed by Bloomberg News.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 30 Sep 2026 11:30:49 GMT",
-      "summary": "Coal Buyers Resist High Prices Despite Costly Alternatives\nExpensive gas has done little to spur demand for the dirtier power-plant fuel."
+      "published": "Tue, 29 Sep 2026 15:15:41 GMT",
+      "summary": "JPMorgan Hires Three for Natural Resources Banking\nJPMorgan Chase &amp; Co. is hiring three bankers for its natural resources investment banking team, according to a memo reviewed by Bloomberg News."
     },
     {
-      "title": "US Mortgage Rates Rise to an Almost Three-Year High of 7.3%",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-30/us-mortgage-rates-increase-to-an-almost-three-year-high-of-7-3",
-      "raw_summary": "US mortgage rates climbed for a sixth straight week to an almost three-year high, thwarting would-be homebuyers.",
+      "title": "FlyDubai Crash Averted After Pilot Stabbed Colleague",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-30/flydubai-crash-averted-after-pilot-stabbed-colleague-video",
+      "raw_summary": "The flight narrowly avoided catastrophe after one of the pilots attacked their colleague, forcing the plane into a steep plunge and an emergency landing in Saudi Arabia. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Wed, 30 Sep 2026 11:00:00 GMT",
-      "summary": "US Mortgage Rates Rise to an Almost Three-Year High of 7.3%\nUS mortgage rates climbed for a sixth straight week to an almost three-year high, thwarting would-be homebuyers."
+      "published": "Wed, 30 Sep 2026 16:08:35 GMT",
+      "summary": "FlyDubai Crash Averted After Pilot Stabbed Colleague\nThe flight narrowly avoided catastrophe after one of the pilots attacked their colleague, forcing the plane into a steep plunge and an emergency landing in Saudi Arabia. (Source: Bloomberg)"
     },
     {
-      "title": "Deutsche Bank Plans Risk Trade Tied to $2 Billion in Fund Loans",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-30/deutsche-bank-plans-risk-trade-tied-to-2-billion-in-fund-loans",
-      "raw_summary": "Deutsche Bank AG is working on a significant risk transfer tied to fund financing as the lender widens the range of assets it hedges via the booming securitization trade.",
+      "title": "Convicted Insider Trader Arrested in Dubai After Fleeing France",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-30/convicted-insider-trader-arrested-in-dubai-after-fleeing-france",
+      "raw_summary": "A trader convicted of insider dealing was arrested in Dubai on Wednesday after French authorities issued an arrest warrant to force him to serve a three year jail sentence, according to a government official.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 30 Sep 2026 11:19:02 GMT",
-      "summary": "Deutsche Bank Plans Risk Trade Tied to $2 Billion in Fund Loans\nDeutsche Bank AG is working on a significant risk transfer tied to fund financing as the lender widens the range of assets it hedges via the booming securitization trade."
+      "published": "Wed, 30 Sep 2026 17:05:26 GMT",
+      "summary": "Convicted Insider Trader Arrested in Dubai After Fleeing France\nA trader convicted of insider dealing was arrested in Dubai on Wednesday after French authorities issued an arrest warrant to force him to serve a three year jail sentence, according to a government official."
     },
     {
-      "title": "PCE Data Could Spark Improved Bonds Sentiment: Manulife",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-30/pce-data-could-spark-improved-bonds-sentiment-manulife-video",
-      "raw_summary": "Matthew Miskin, co-chief investment strategist at Manulife JH Investments, says at the moment “every stock on the planet is loved, every bond on the planet is disliked,” and sees PCE data as a potential catalyst for bond investors to step back into the market. He speaks on “Bloomberg Surveillance.” (Source: Bloomberg)",
+      "title": "Stocks Rise as Inflation Surprise Curbs Fed Bets: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-29/stock-market-today-dow-s-p-live-updates",
+      "raw_summary": "Wall Street traders drove stocks higher after slower-than-anticipated inflation data reinforced bets the Federal Reserve will refrain from raising interest rates in October.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 30 Sep 2026 11:16:07 GMT",
-      "summary": "PCE Data Could Spark Improved Bonds Sentiment: Manulife\nMatthew Miskin, co-chief investment strategist at Manulife JH Investments, says at the moment “every stock on the planet is loved, every bond on the planet is disliked,” and sees PCE data as a potential catalyst for bond investors to step back "
+      "published": "Tue, 29 Sep 2026 22:12:50 GMT",
+      "summary": "Stocks Rise as Inflation Surprise Curbs Fed Bets: Markets Wrap\nWall Street traders drove stocks higher after slower-than-anticipated inflation data reinforced bets the Federal Reserve will refrain from raising interest rates in October."
     },
     {
-      "title": "Iraq Deepens October Crude Price Discounts to as Much as $37",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-30/iraq-deepens-october-crude-price-discounts-to-as-much-as-37",
-      "raw_summary": "Iraq’s state oil marketer offered buyers contractual crude supplies for October at discounts of as much as $37 a barrel to regional benchmarks, according to a document obtained by Bloomberg.",
+      "title": "Ackman Talks Howard Hughes Plans, IPOs and Anthropic",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-30/ackman-talks-howard-hughes-plans-ipos-and-anthropic-video",
+      "raw_summary": "Pershing Square founder and CEO Bill Ackman discusses his plans for Howard Hughes, the state of the IPO market and his views on AI and Anthropic. Speaking with Dani Burger on \"Bloomberg Deals,\" Ackman also comments on his daughter's illness, which inspired him to invest in a new medical institute. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Wed, 30 Sep 2026 11:09:57 GMT",
-      "summary": "Iraq Deepens October Crude Price Discounts to as Much as $37\nIraq’s state oil marketer offered buyers contractual crude supplies for October at discounts of as much as $37 a barrel to regional benchmarks, according to a document obtained by Bloomberg."
+      "published": "Wed, 30 Sep 2026 16:51:02 GMT",
+      "summary": "Ackman Talks Howard Hughes Plans, IPOs and Anthropic\nPershing Square founder and CEO Bill Ackman discusses his plans for Howard Hughes, the state of the IPO market and his views on AI and Anthropic. Speaking with Dani Burger on \"Bloomberg Deals,\" Ackman also comments on his daughter's illness, which"
     },
     {
-      "title": "A stronger dollar is a weaker threat to bitcoin than traders think",
-      "link": "https://www.coindesk.com/daybook-us/2026/09/30/a-stronger-dollar-is-a-weaker-threat-to-bitcoin-than-traders-think",
+      "title": "Crypto industry gave $8 million to Clarity Act lobbyists who didn't close the deal",
+      "link": "https://www.coindesk.com/news-analysis/2026/09/30/crypto-industry-gave-usd8-million-to-clarity-act-lobbyists-who-didn-t-close-the-deal",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 30 Sep 2026 11:20:09 +0000",
-      "summary": "A stronger dollar is a weaker threat to bitcoin than traders think\n"
+      "published": "Wed, 30 Sep 2026 17:16:31 +0000",
+      "summary": "Crypto industry gave $8 million to Clarity Act lobbyists who didn't close the deal\n"
     },
     {
-      "title": "Bitget hackers move $4 million into Zcash’s private pool, making funds harder to trace",
-      "link": "https://www.coindesk.com/markets/2026/09/30/bitget-hackers-move-usd4-million-into-zcash-s-private-pool-making-funds-harder-to-trace",
+      "title": "Open USD takes on Tether, Circle with a different stablecoin model that's 'building money'",
+      "link": "https://www.coindesk.com/business/2026/09/24/open-usd-takes-on-tether-circle-with-a-different-stablecoin-model-that-s-building-money",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 30 Sep 2026 11:04:09 +0000",
-      "summary": "Bitget hackers move $4 million into Zcash’s private pool, making funds harder to trace\n"
+      "published": "Wed, 30 Sep 2026 15:34:50 +0000",
+      "summary": "Open USD takes on Tether, Circle with a different stablecoin model that's 'building money'\n"
     },
     {
-      "title": "The SEC Is finally modernizing transfer-agent rules. Wall Street must not repeat the ‘paperwork crisis’",
-      "link": "https://www.coindesk.com/opinion/2026/09/30/the-sec-is-finally-modernizing-transfer-agent-rules-wall-street-must-not-repeat-the-paperwork-crisis",
+      "title": "U.S. CFTC  seeks event contract definitions that may defy states' gambling claims",
+      "link": "https://www.coindesk.com/policy/2026/09/30/u-s-cftc-seeks-event-contract-definitions-that-may-defy-states-gambling-claims",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 30 Sep 2026 11:00:00 +0000",
-      "summary": "The SEC Is finally modernizing transfer-agent rules. Wall Street must not repeat the ‘paperwork crisis’\n"
+      "published": "Wed, 30 Sep 2026 15:19:36 +0000",
+      "summary": "U.S. CFTC  seeks event contract definitions that may defy states' gambling claims\n"
     },
     {
-      "title": "OpenAI, Google and Meta pledge outside AI audits under voluntary White House deal",
-      "link": "https://www.coindesk.com/tech/2026/09/30/openai-google-and-meta-pledge-outside-ai-audits-under-voluntary-white-house-deal",
+      "title": "Crypto Long & Short: What will the AI agents run on?",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/09/30/crypto-long-and-short-what-will-the-ai-agents-run-on",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 30 Sep 2026 10:43:43 +0000",
-      "summary": "OpenAI, Google and Meta pledge outside AI audits under voluntary White House deal\n"
+      "published": "Wed, 30 Sep 2026 14:56:07 +0000",
+      "summary": "Crypto Long & Short: What will the AI agents run on?\n"
     },
     {
-      "title": "Metaplanet directors push back against shareholder fury over a controversial executive payout plan",
-      "link": "https://www.coindesk.com/markets/2026/09/30/metaplanet-directors-push-back-against-shareholder-fury-over-a-controversial-executive-payout-plan",
+      "title": "Clock's ticking: UK's crypto regulatory application window opens with February deadline",
+      "link": "https://www.coindesk.com/policy/2026/09/30/the-clock-s-ticking-uk-s-crypto-regulatory-application-window-opens-with-february-deadline",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 30 Sep 2026 10:28:24 +0000",
-      "summary": "Metaplanet directors push back against shareholder fury over a controversial executive payout plan\n"
+      "published": "Wed, 30 Sep 2026 14:04:19 +0000",
+      "summary": "Clock's ticking: UK's crypto regulatory application window opens with February deadline\n"
     }
   ]
 }
