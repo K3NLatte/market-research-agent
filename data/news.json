@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T21:38:32.916655+00:00",
+  "generated_at": "2026-10-03T03:07:47.211012+00:00",
   "count": 40,
   "articles": [
     {
@@ -83,44 +83,60 @@
       "summary": "Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report\nThe quarterly board meeting is two weeks out. The security team is pulling exports from the identity provider, the cloud posture tool, the vulnerability scanner, the SIEM and the EDR console. Someone is build"
     },
     {
-      "title": "Zig v0.17.0",
-      "link": "https://ziglang.org/download/0.17.0/release-notes.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://ziglang.org/download/0.17.0/release-notes.html\">https://ziglang.org/download/0.17.0/release-notes.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49938521\">https://news.ycombinator.com/item?id=49938521</a></p>\n<p>Points: 60</p>\n<p># Comments: 19</p>",
+      "title": "NTSB Preliminary Report: Prime Air 767 Runway Overrun [pdf]",
+      "link": "https://www.ntsb.gov/investigations/Documents/DCA26MA352%20Prelim.pdf",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.ntsb.gov/investigations/Documents/DCA26MA352%20Prelim.pdf\">https://www.ntsb.gov/investigations/Documents/DCA26MA352%20Prelim.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49940467\">https://news.ycombinator.com/item?id=49940467</a></p>\n<p>Points: 16</p>\n<p># Comments: 9</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 02 Oct 2026 20:56:36 +0000",
-      "summary": "Zig v0.17.0\n<p>Article URL: <a href=\"https://ziglang.org/download/0.17.0/release-notes.html\">https://ziglang.org/download/0.17.0/release-notes.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49938521\">https://news.ycombinator.com/item?id=49938521</a></p>\n<p>Points: 60</p>"
+      "published": "Sat, 03 Oct 2026 01:09:01 +0000",
+      "summary": "NTSB Preliminary Report: Prime Air 767 Runway Overrun [pdf]\n<p>Article URL: <a href=\"https://www.ntsb.gov/investigations/Documents/DCA26MA352%20Prelim.pdf\">https://www.ntsb.gov/investigations/Documents/DCA26MA352%20Prelim.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=499"
     },
     {
-      "title": "Everyone's Packing Up",
-      "link": "https://widdershins.verja.net/everyones-packing-up/",
-      "raw_summary": "<p>Article URL: <a href=\"https://widdershins.verja.net/everyones-packing-up/\">https://widdershins.verja.net/everyones-packing-up/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49938047\">https://news.ycombinator.com/item?id=49938047</a></p>\n<p>Points: 39</p>\n<p># Comments: 16</p>",
+      "title": "Newgrounds.com – A community of games, music, and art",
+      "link": "https://www.newgrounds.com/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.newgrounds.com/\">https://www.newgrounds.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49940394\">https://news.ycombinator.com/item?id=49940394</a></p>\n<p>Points: 26</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 02 Oct 2026 20:13:04 +0000",
-      "summary": "Everyone's Packing Up\n<p>Article URL: <a href=\"https://widdershins.verja.net/everyones-packing-up/\">https://widdershins.verja.net/everyones-packing-up/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49938047\">https://news.ycombinator.com/item?id=49938047</a></p>\n<p>Points: 39"
+      "published": "Sat, 03 Oct 2026 00:55:25 +0000",
+      "summary": "Newgrounds.com – A community of games, music, and art\n<p>Article URL: <a href=\"https://www.newgrounds.com/\">https://www.newgrounds.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49940394\">https://news.ycombinator.com/item?id=49940394</a></p>\n<p>Points: 26</p>\n<p># Commen"
     },
     {
-      "title": "Show HN: Made an open-source Lego AI generator",
-      "link": "https://github.com/anteloc/ldraw-nova",
-      "raw_summary": "<p>Hi there :-) New on HN, first time posting.<p>Past year, around December, I started experimenting with making ChatGPT and Claude generate source code in LDraw language.<p>This LDraw is literally an \"assembly\" language, a low-level programming language that describes how to assemble LEGO pieces together into models, one placement instruction at a time.<p>When executed by specific tools, like e.g. LDView, LeoCAD, Studio... these instructions become LEGO CAD models, that can be interacted with, modified, etc.<p>Or, in other words: one LDraw source file in .mpd or .ldr format is equivalent to one LEGO CAD model.<p>So, the idea I had was: if I manage for maybe ChatGPT or Claude to generate high-quality LDraw source files... then, they would actually be generating high-quality LEGO CAD models, right?<p>Then, after months of iterations and trying one thing after the other... it worked!!!<p>Long story short: using GPT-6 Astra and Opus 5.5, I've managed to create a python toolset, instructions, and docs for agents in general. Now, these can be used by them to generate LDraw models.<p>I've packed it all as a dockerized web app for others to try and experiment, with several providers (and agents) to choose from: OpenAI, Claude and OpenRouter.<p>I'd really appreciate feedback and comments, let's see where this goes =)</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49937916\">https://news.ycombinator.com/item?id=49937916</a></p>\n<p>Points: 36</p>\n<p># Comments: 21</p>",
+      "title": "Where Is the Planet",
+      "link": "http://whereistheplanet.com",
+      "raw_summary": "<p>Article URL: <a href=\"http://whereistheplanet.com\">http://whereistheplanet.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49940233\">https://news.ycombinator.com/item?id=49940233</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 02 Oct 2026 20:00:15 +0000",
-      "summary": "Show HN: Made an open-source Lego AI generator\n<p>Hi there :-) New on HN, first time posting.<p>Past year, around December, I started experimenting with making ChatGPT and Claude generate source code in LDraw language.<p>This LDraw is literally an \"assembly\" language, a low-level programming languag"
+      "published": "Sat, 03 Oct 2026 00:26:19 +0000",
+      "summary": "Where Is the Planet\n<p>Article URL: <a href=\"http://whereistheplanet.com\">http://whereistheplanet.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49940233\">https://news.ycombinator.com/item?id=49940233</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>"
     },
     {
-      "title": "GrapheneOS has fixed the Android 17 QPR1 kernel performance regression",
-      "link": "https://discuss.grapheneos.org/d/42511-grapheneos-has-fixed-the-massive-android-17-qpr1-kernel-performance-regression",
-      "raw_summary": "<p>Article URL: <a href=\"https://discuss.grapheneos.org/d/42511-grapheneos-has-fixed-the-massive-android-17-qpr1-kernel-performance-regression\">https://discuss.grapheneos.org/d/42511-grapheneos-has-fixed-the-massive-android-17-qpr1-kernel-performance-regression</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49937718\">https://news.ycombinator.com/item?id=49937718</a></p>\n<p>Points: 69</p>\n<p># Comments: 17</p>",
+      "title": "Things that apparently cause cancer",
+      "link": "https://www.breakthroughjournal.org/p/things-that-apparently-cause-cancer",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.breakthroughjournal.org/p/things-that-apparently-cause-cancer\">https://www.breakthroughjournal.org/p/things-that-apparently-cause-cancer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49940219\">https://news.ycombinator.com/item?id=49940219</a></p>\n<p>Points: 93</p>\n<p># Comments: 36</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 02 Oct 2026 19:45:06 +0000",
-      "summary": "GrapheneOS has fixed the Android 17 QPR1 kernel performance regression\n<p>Article URL: <a href=\"https://discuss.grapheneos.org/d/42511-grapheneos-has-fixed-the-massive-android-17-qpr1-kernel-performance-regression\">https://discuss.grapheneos.org/d/42511-grapheneos-has-fixed-the-massive-android-17-qp"
+      "published": "Sat, 03 Oct 2026 00:23:11 +0000",
+      "summary": "Things that apparently cause cancer\n<p>Article URL: <a href=\"https://www.breakthroughjournal.org/p/things-that-apparently-cause-cancer\">https://www.breakthroughjournal.org/p/things-that-apparently-cause-cancer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49940219\">https://n"
     },
     {
-      "title": "Muse Gadgets",
-      "link": "https://gadgets.muse.ai",
-      "raw_summary": "<p>Article URL: <a href=\"https://gadgets.muse.ai\">https://gadgets.muse.ai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49937504\">https://news.ycombinator.com/item?id=49937504</a></p>\n<p>Points: 42</p>\n<p># Comments: 29</p>",
+      "title": "Every SaaS business will become a harness around a model",
+      "link": "https://blog.sshh.io/p/the-harness-is-the-company",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.sshh.io/p/the-harness-is-the-company\">https://blog.sshh.io/p/the-harness-is-the-company</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49938616\">https://news.ycombinator.com/item?id=49938616</a></p>\n<p>Points: 106</p>\n<p># Comments: 79</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 02 Oct 2026 19:26:54 +0000",
-      "summary": "Muse Gadgets\n<p>Article URL: <a href=\"https://gadgets.muse.ai\">https://gadgets.muse.ai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49937504\">https://news.ycombinator.com/item?id=49937504</a></p>\n<p>Points: 42</p>\n<p># Comments: 29</p>"
+      "published": "Fri, 02 Oct 2026 21:06:56 +0000",
+      "summary": "Every SaaS business will become a harness around a model\n<p>Article URL: <a href=\"https://blog.sshh.io/p/the-harness-is-the-company\">https://blog.sshh.io/p/the-harness-is-the-company</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49938616\">https://news.ycombinator.com/item?id"
+    },
+    {
+      "title": "Meta wants your next gadget to be Muse-infused",
+      "link": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+      "raw_summary": "Meta wants Muse in your TV and your toaster, so it's giving the code away for free.",
+      "source": "TechCrunch",
+      "published": "Sat, 03 Oct 2026 00:45:39 +0000",
+      "summary": "Meta wants your next gadget to be Muse-infused\nMeta wants Muse in your TV and your toaster, so it's giving the code away for free."
+    },
+    {
+      "title": "Sanders introduces bill to ban the federal government from using Flock",
+      "link": "https://techcrunch.com/2026/10/02/sanders-introduces-bill-to-ban-the-federal-government-from-using-flock/",
+      "raw_summary": "The proposed legislation would extend to all automotica license plate readers.",
+      "source": "TechCrunch",
+      "published": "Sat, 03 Oct 2026 00:21:57 +0000",
+      "summary": "Sanders introduces bill to ban the federal government from using Flock\nThe proposed legislation would extend to all automotica license plate readers."
     },
     {
       "title": "Sean Parker is rebuilding Stability AI around music",
@@ -147,20 +163,20 @@
       "summary": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents\nApple says it will add new controls around macOS’s Full Disk Access permission, warning that increasingly capable AI agents make broad access to users’ files, messages, mail, and browsing history riskier."
     },
     {
-      "title": "It’s not AI anymore, it’s ‘super intelligence’ (according to the White House)",
-      "link": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
-      "raw_summary": "This week, the White House got&#160;nearly every&#160;major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them —&#160;to sign an AI safety pledge&#160;that President&#160;Donald&#160;Trump called “morally binding.”&#160;Trump&#160;also&#160;signed an&#160;executive order&#160;officially rebranding AI as “super intelligence,” and meanwhile,&#160;Meta and OpenAI are putting&#160;friendlier faces on their AI products, even as the biggest money [&#8230;]",
-      "source": "TechCrunch",
-      "published": "Fri, 02 Oct 2026 17:48:16 +0000",
-      "summary": "It’s not AI anymore, it’s ‘super intelligence’ (according to the White House)\nThis week, the White House got&#160;nearly every&#160;major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them —&#160;to sign an AI safety pledge&#160;that President&#160;Donald&#160;Tr"
+      "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+      "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+      "raw_summary": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.",
+      "source": "Ars Technica - All content",
+      "published": "Fri, 02 Oct 2026 23:03:16 +0000",
+      "summary": "Apple changes full-disk access permissions to curb abuse from AI agents\nMeta says FDA isn't sufficient to Muse reading messages. Apple begs to differ."
     },
     {
-      "title": "TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants",
-      "link": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
-      "raw_summary": "Blackstone's Jas Khaira will take the Builders Stage at TechCrunch Disrupt 2026 on building next-gen AI. Register for your pass and get 50% off a second.",
-      "source": "TechCrunch",
-      "published": "Fri, 02 Oct 2026 17:32:05 +0000",
-      "summary": "TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants\nBlackstone's Jas Khaira will take the Builders Stage at TechCrunch Disrupt 2026 on building next-gen AI. Register for your pass and get 50% off a second."
+      "title": "Someone got Doom in an SQL database",
+      "link": "https://arstechnica.com/gaming/2026/10/can-it-run-doom-sql-database-edition/",
+      "raw_summary": "1,300 lines of SQL querying renders accurate bitmapped views of Hell at 35 fps.",
+      "source": "Ars Technica - All content",
+      "published": "Fri, 02 Oct 2026 21:19:05 +0000",
+      "summary": "Someone got Doom in an SQL database\n1,300 lines of SQL querying renders accurate bitmapped views of Hell at 35 fps."
     },
     {
       "title": "Amazon’s $1B plan to combat data center backlash draws more backlash",
@@ -187,28 +203,28 @@
       "summary": "Lyft settles landmark driver misclassification lawsuit for $272.5M\nCritics say workers are still owed far more."
     },
     {
-      "title": "The 2008 economic crisis changed the US's relationship with energy",
-      "link": "https://arstechnica.com/science/2026/10/the-2008-economic-crisis-changed-the-uss-relationship-to-energy/",
-      "raw_summary": "It wasn't obvious at the time, but the US uncoupled carbon emissions and GDP growth.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 02 Oct 2026 18:56:21 +0000",
-      "summary": "The 2008 economic crisis changed the US's relationship with energy\nIt wasn't obvious at the time, but the US uncoupled carbon emissions and GDP growth."
+      "title": "India throws Modi a month-long birthday",
+      "link": "https://www.ft.com/content/5135405d-f0da-4d30-80da-17379566a7ba?syn-25a6b1a6=1",
+      "raw_summary": "Nationwide festivities celebrating the prime minister come under a cloud of protests and youth discontent",
+      "source": "World",
+      "published": "Sat, 03 Oct 2026 01:09:15 GMT",
+      "summary": "India throws Modi a month-long birthday\nNationwide festivities celebrating the prime minister come under a cloud of protests and youth discontent"
     },
     {
-      "title": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China",
-      "link": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/",
-      "raw_summary": "Nvidia’s chip-smuggling problem won’t go away as arrests continue.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 02 Oct 2026 18:39:36 +0000",
-      "summary": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China\nNvidia’s chip-smuggling problem won’t go away as arrests continue."
+      "title": "Chill out: Japan’s top vending machine maker now cools data centres",
+      "link": "https://www.ft.com/content/f76adfdd-295e-4d00-ad90-b52b7aab098c?syn-25a6b1a6=1",
+      "raw_summary": "Fuji Electric reworks its refrigeration technology into energy-efficient cooling system for servers",
+      "source": "World",
+      "published": "Sat, 03 Oct 2026 01:00:07 GMT",
+      "summary": "Chill out: Japan’s top vending machine maker now cools data centres\nFuji Electric reworks its refrigeration technology into energy-efficient cooling system for servers"
     },
     {
       "title": "Two Iranian small-boat migrants charged with plotting attack on Jewish targets in Manchester",
       "link": "https://www.ft.com/content/05fd286f-6fac-4479-b560-848970f32af5?syn-25a6b1a6=1",
-      "raw_summary": "UK’s Counter Terrorism Policing said Salam Ahmadyan and Rahman Salehi may have been directed from Iran",
+      "raw_summary": "UK’s Counter Terrorism Policing said Salam Ahmadyan and Rahman Salehi may have been directed from Tehran",
       "source": "World",
-      "published": "Fri, 02 Oct 2026 21:34:22 GMT",
-      "summary": "Two Iranian small-boat migrants charged with plotting attack on Jewish targets in Manchester\nUK’s Counter Terrorism Policing said Salam Ahmadyan and Rahman Salehi may have been directed from Iran"
+      "published": "Fri, 02 Oct 2026 21:56:54 GMT",
+      "summary": "Two Iranian small-boat migrants charged with plotting attack on Jewish targets in Manchester\nUK’s Counter Terrorism Policing said Salam Ahmadyan and Rahman Salehi may have been directed from Tehran"
     },
     {
       "title": "Widdecombe murder suspect charged with preparing terror acts against Farage",
@@ -227,60 +243,44 @@
       "summary": "US justice department will not reopen criminal probe of Fed’s Jay Powell\nUS attorney-general Todd Blanche says not having ‘any oversight’ of the central bank’s $2.5bn renovation project ‘isn’t necessarily a crime’"
     },
     {
-      "title": "Healey set to delay difficult choices with ‘breathing space’ UK Budget",
-      "link": "https://www.ft.com/content/9df55c2e-e9c8-4a5a-a025-99fb459721d3?syn-25a6b1a6=1",
-      "raw_summary": "Chancellor expected to focus statement on targeted help for households and businesses rather than tax rises on the scale of recent budgets",
-      "source": "World",
-      "published": "Fri, 02 Oct 2026 20:41:15 GMT",
-      "summary": "Healey set to delay difficult choices with ‘breathing space’ UK Budget\nChancellor expected to focus statement on targeted help for households and businesses rather than tax rises on the scale of recent budgets"
-    },
-    {
-      "title": "US backs down from fuel export ban threat as G7 agrees to release 100mn barrels",
-      "link": "https://www.ft.com/content/97200b07-755c-40ce-a50b-b51666bd4b7e?syn-25a6b1a6=1",
-      "raw_summary": "Donald Trump calls decision by European nations to release diesel from strategic reserves a ‘great thing’",
-      "source": "World",
-      "published": "Fri, 02 Oct 2026 20:31:49 GMT",
-      "summary": "US backs down from fuel export ban threat as G7 agrees to release 100mn barrels\nDonald Trump calls decision by European nations to release diesel from strategic reserves a ‘great thing’"
-    },
-    {
-      "title": "Former Labor Secretary Rob Reich on Sept. Jobs Report",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-02/former-labor-secretary-rob-reich-on-sept-jobs-report-video",
-      "raw_summary": "Robert Reich, former US Labor Secretary, discusses persistent inflation, very slow hiring, and wages that trail prices. He speaks with Romaine Bostick on Bloomberg's \"The Close.\" (Source: Bloomberg)",
+      "title": "IMF Approves Bolivia Loan Deal to Support Paz’s Economic Reforms",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-03/imf-approves-bolivia-loan-deal-to-support-paz-s-economic-reforms",
+      "raw_summary": "The International Monetary Fund approved a $1.9 billion financing program for Bolivia, including an immediate $214 million disbursement, in a package designed to help President Rodrigo Paz reverse a sharp economic slump.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 02 Oct 2026 21:32:22 GMT",
-      "summary": "Former Labor Secretary Rob Reich on Sept. Jobs Report\nRobert Reich, former US Labor Secretary, discusses persistent inflation, very slow hiring, and wages that trail prices. He speaks with Romaine Bostick on Bloomberg's \"The Close.\" (Source: Bloomberg)"
+      "published": "Sat, 03 Oct 2026 00:55:49 GMT",
+      "summary": "IMF Approves Bolivia Loan Deal to Support Paz’s Economic Reforms\nThe International Monetary Fund approved a $1.9 billion financing program for Bolivia, including an immediate $214 million disbursement, in a package designed to help President Rodrigo Paz reverse a sharp economic slump."
     },
     {
-      "title": "CME Shelves Plans for 24/7 Oil Contract Amid Industry Qualms",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-02/cme-shelves-plans-for-24-7-oil-contract-after-industry-pushback",
-      "raw_summary": "CME Group Inc. is shelving plans to launch a round-the-clock oil contract following industry pushback.",
+      "title": "Wall Street Week | Your Brain on AI, Rare Earth Race, College Enrollment Cliff",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-02/wall-street-week-rare-earth-race-enrollment-cliff-video",
+      "raw_summary": "This week, National Economic Council Director Kevin Hassett says AI’s productivity boost may be much larger than official economic data currently indicate. And, AI companies are largely in agreement that the technology needs guardrails, but the ethical implications of AI could also create new opportunities for liberal arts education. Plus, America is rebuilding a critical minerals supply chain after decades of Chinese dominance. Later, America’s shrinking college-age population is forcing universities to compete for fewer students.\n (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Fri, 02 Oct 2026 20:34:44 GMT",
-      "summary": "CME Shelves Plans for 24/7 Oil Contract Amid Industry Qualms\nCME Group Inc. is shelving plans to launch a round-the-clock oil contract following industry pushback."
+      "published": "Fri, 02 Oct 2026 23:12:45 GMT",
+      "summary": "Wall Street Week | Your Brain on AI, Rare Earth Race, College Enrollment Cliff\nThis week, National Economic Council Director Kevin Hassett says AI’s productivity boost may be much larger than official economic data currently indicate. And, AI companies are largely in agreement that the technology ne"
     },
     {
-      "title": "Dollar Falls as Soft Job Data Roils Timing of Fed Rate-Hike Bets",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-02/dollar-falls-as-traders-pare-fed-hike-bets-after-soft-jobs-data",
-      "raw_summary": "The dollar posted its worst day in a month on Friday after a report showed the US added fewer jobs than expected in September, briefly leading traders to waver on bets the Federal Reserve will raise interest rates again this year.",
+      "title": "Stocks Rise As Jobs Report Eases Fed-Hike Worries",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-02/the-close-10-2-2026-video",
+      "raw_summary": "Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Chris Phelan CEA Chairman, Robert Reich, Former US Labor Secretary, Alex Straton, Morgan Stanley Equity Research Managing Director,  Gary Marcus, Robust AI Inc. CEO&amp;Founder, Veronica Willis is an Investment Strategy Analyst, Dr Cecilia Elena Rouse, The President of Brookings Institution, Atsi Sheth, Moody’s Chief Credit Officer, Brendan McKenna, Societe Generale Emerging Markets Strategist (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Fri, 02 Oct 2026 13:00:28 GMT",
-      "summary": "Dollar Falls as Soft Job Data Roils Timing of Fed Rate-Hike Bets\nThe dollar posted its worst day in a month on Friday after a report showed the US added fewer jobs than expected in September, briefly leading traders to waver on bets the Federal Reserve will raise interest rates again this year."
+      "published": "Fri, 02 Oct 2026 23:45:17 GMT",
+      "summary": "Stocks Rise As Jobs Report Eases Fed-Hike Worries\nBloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are Chris Phelan CEA Chairman, Robert Reich, Former US Labor Secretary, Alex Str"
     },
     {
-      "title": "Wall Street Tries to Live With 5% Yields as Market Cracks Grow",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-02/wall-street-tries-to-live-with-5-yields-as-market-cracks-grow",
-      "raw_summary": "Wall Street has spent weeks trying to make peace with the great bond selloff. Friday offered some short-lived relief — along with a warning about the damage from stubbornly high yields across investment strategies of all stripes.",
+      "title": "Former CEA Chair on Jobs Report, GDP Growth",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-02/former-cea-chair-on-jobs-report-gdp-growth-video",
+      "raw_summary": "Former CEA Chair Cecilia Rouse believes that we may be 'entering a new normal' of the jobs report, with the break even potentially settling in around 50,000. She speaks with Romaine Bostick on Bloomberg's \"The Close.\" (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Fri, 02 Oct 2026 20:40:38 GMT",
-      "summary": "Wall Street Tries to Live With 5% Yields as Market Cracks Grow\nWall Street has spent weeks trying to make peace with the great bond selloff. Friday offered some short-lived relief — along with a warning about the damage from stubbornly high yields across investment strategies of all stripes."
+      "published": "Fri, 02 Oct 2026 22:17:57 GMT",
+      "summary": "Former CEA Chair on Jobs Report, GDP Growth\nFormer CEA Chair Cecilia Rouse believes that we may be 'entering a new normal' of the jobs report, with the break even potentially settling in around 50,000. She speaks with Romaine Bostick on Bloomberg's \"The Close.\" (Source: Bloomberg)"
     },
     {
-      "title": "Treasury Yields Climb, Adding to Weekly Gains | Closing Bell",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-02/treasury-yields-climb-add-to-weekly-gains-closing-bell-video",
-      "raw_summary": "Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Katie Greifeld, Carol Massar and Tim Stenovec. (Source: Bloomberg)",
+      "title": "Morgan Stanley's Nike Analyst on quarterly earnings",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-02/morgan-stanley-s-nike-analyst-on-quarterly-earnings-video",
+      "raw_summary": "Morgan Stanley's Alex Straton sees Nike sales and earnings softening as the company deals with inventory gluts in North America and China. She speaks with Romaine Bostick on Bloomberg's \"The Close.\" (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Fri, 02 Oct 2026 20:37:40 GMT",
-      "summary": "Treasury Yields Climb, Adding to Weekly Gains | Closing Bell\nComprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Katie Greifeld, Carol Massar and Tim Stenovec. (Source: Bloomberg)"
+      "published": "Fri, 02 Oct 2026 21:55:08 GMT",
+      "summary": "Morgan Stanley's Nike Analyst on quarterly earnings\nMorgan Stanley's Alex Straton sees Nike sales and earnings softening as the company deals with inventory gluts in North America and China. She speaks with Romaine Bostick on Bloomberg's \"The Close.\" (Source: Bloomberg)"
     },
     {
       "title": "Bank group sues U.S. regulator over granting crypto trust charters",
