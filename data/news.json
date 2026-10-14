@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-10-13T18:42:26.205928+00:00",
+  "generated_at": "2026-10-14T02:55:08.227782+00:00",
   "count": 40,
   "articles": [
+    {
+      "title": "Microsoft Patches More Than 1,400 Security Flaws",
+      "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+      "raw_summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond.",
+      "source": "Krebs on Security",
+      "published": "Tue, 13 Oct 2026 23:24:53 +0000",
+      "summary": "Microsoft Patches More Than 1,400 Security Flaws\nMicrosoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal "
+    },
     {
       "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
       "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
@@ -35,12 +43,36 @@
       "summary": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions\nA U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&#038;T customers in 2024 was sentenced to 70 months in federal priso"
     },
     {
-      "title": "Data Broker Radaris Loses Domains in Privacy Fight",
-      "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
-      "raw_summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris violated a New Jersey privacy law that provides for hefty fines against data brokers that publish personal information on state law enforcement officials. In the face of repeated stonewalling and prevarication by attorneys for Radaris, the judge in the case ordered that radaris.com and more than a dozen other data broker domains be transferred to the plaintiffs.",
-      "source": "Krebs on Security",
-      "published": "Wed, 16 Sep 2026 18:14:22 +0000",
-      "summary": "Data Broker Radaris Loses Domains in Privacy Fight\nThe consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Rada"
+      "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
+      "link": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
+      "raw_summary": "Small artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes, according to a warning from Anthropic.\n\nThe frontier AI lab said small AI models could form autonomous, self-propagating worm botnets that are \"challenging to shut down,\" since \"there's no centralized point to shut off.\"",
+      "source": "The Hacker News",
+      "published": "Tue, 13 Oct 2026 23:50:57 +0530",
+      "summary": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets\nSmall artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes, according to a warning from Anthropic.\n\nThe frontie"
+    },
+    {
+      "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
+      "link": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
+      "raw_summary": "A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it found no evidence that anyone exploited it.\n\nThe flaw was in the feature that&nbsp;converts a personal account&nbsp;into an organization, Docker said in a&nbsp;security advisory&nbsp;on October 12.",
+      "source": "The Hacker News",
+      "published": "Tue, 13 Oct 2026 23:33:18 +0530",
+      "summary": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another\nA flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it found no evidence "
+    },
+    {
+      "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
+      "link": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
+      "raw_summary": "An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm&nbsp;Volexity said&nbsp;on October 13. Ivanti has released fixes for two of the flaws and told customers on affected versions to \"act immediately.\" A fix for the third is still pending, according to Volexity.\n\nVolexity, which reported the flaws to Ivanti,",
+      "source": "The Hacker News",
+      "published": "Tue, 13 Oct 2026 23:03:11 +0530",
+      "summary": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far\nAn attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm&nbsp;Volexity said&nbsp;on October 13. Ivanti has released fixe"
+    },
+    {
+      "title": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft",
+      "link": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
+      "raw_summary": "A flaw in SAP's&nbsp;Cloud SDK for Python&nbsp;can send an application's OAuth2 client credentials to a server an attacker controls, SAP said in a&nbsp;security advisory&nbsp;on October 13. The flaw affects multi-tenant applications on SAP Business Technology Platform (BTP) that use the SDK, SAP's official Python client for BTP services. An attacker must be able to control the tenant subdomain,",
+      "source": "The Hacker News",
+      "published": "Tue, 13 Oct 2026 22:58:50 +0530",
+      "summary": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft\nA flaw in SAP's&nbsp;Cloud SDK for Python&nbsp;can send an application's OAuth2 client credentials to a server an attacker controls, SAP said in a&nbsp;security advisory&nbsp;on October 13. The flaw affects "
     },
     {
       "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
@@ -51,236 +83,228 @@
       "summary": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking\nGitHub has taken the step of expiring unvalidated npm trusted publishing configurations 48 hours after creation after researchers found that it was possible for an attacker to push new versions of a different user"
     },
     {
-      "title": "Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation",
-      "link": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html",
-      "raw_summary": "The Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, €8.6 million ($9.62 million) for illegally relaying ​Grindr users' sensitive data to advertisers.\n\nThe administrative penalty is the largest issued by the data protection watchdog, arguing the case merited a high fine because of the \"very serious\" nature of the breach. The infringements",
-      "source": "The Hacker News",
-      "published": "Tue, 13 Oct 2026 18:42:32 +0530",
-      "summary": "Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation\nThe Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, €8.6 million ($9.62 million) for illegally relaying ​Grindr users' sensitive data to advertisers.\n\nThe admini"
-    },
-    {
-      "title": "[Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls",
-      "link": "https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html",
-      "raw_summary": "The dangerous part of a stolen identity isn't always the initial login. It's what an attacker can do with that access next.\n\nWith AI accelerating reconnaissance, exploitation of vulnerabilities, and privilege escalation, attackers can move through systems faster than security teams can investigate. A compromised account that looks legitimate at first could become the starting point for a much",
-      "source": "The Hacker News",
-      "published": "Tue, 13 Oct 2026 17:27:06 +0530",
-      "summary": "[Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls\nThe dangerous part of a stolen identity isn't always the initial login. It's what an attacker can do with that access next.\n\nWith AI accelerating reconnaissance, exploitation of vulnerabilities, and privilege escalat"
-    },
-    {
-      "title": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
-      "link": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
-      "raw_summary": "Three vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a PIN or any interaction from the owner.\n\nLG has issued a fix, according to&nbsp;an advisory published by SSD Secure Disclosure&nbsp;on October 12.\n\nThe chain was tested on two TV models, the 32LQ636BPSA and the 27TQ600SW, running webOS 7.5.7-25 on firmware",
-      "source": "The Hacker News",
-      "published": "Tue, 13 Oct 2026 16:39:10 +0530",
-      "summary": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network\nThree vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a PIN or any interaction from the owner.\n\nLG has issued a fix, according to&nbsp;an advisory "
-    },
-    {
-      "title": "Product Walkthrough: Bitdefender AI Visibility and Control",
-      "link": "https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html",
-      "raw_summary": "A user opens a browser tab, pastes data into a chat assistant, and nothing is installed.\n\nA developer adds a coding&nbsp;assistant as an editor extension, and nothing shows up in the installed programs list.\n\nSomeone downloads a local model runtime, a program that runs models directly on the machine instead of sending data to an external service, because they were told not to send company data",
-      "source": "The Hacker News",
-      "published": "Tue, 13 Oct 2026 16:00:00 +0530",
-      "summary": "Product Walkthrough: Bitdefender AI Visibility and Control\nA user opens a browser tab, pastes data into a chat assistant, and nothing is installed.\n\nA developer adds a coding&nbsp;assistant as an editor extension, and nothing shows up in the installed programs list.\n\nSomeone downloads a local model "
-    },
-    {
-      "title": "Show HN: XY Music Notation",
-      "link": "https://music.xy.dev/",
-      "raw_summary": "<p>I've been playing around with a new kind of isomorphic music keyboard that uses a base-12 notation, and wanted some sheet music to learn some new music for it.<p>The idea is to represent each note in 12-TET as a number, so  N ∈ (0,1,2,3,4,5,6,7,8,9,X,Y).<p>I used codex to build a music score rendering backend based on MuseScore with custom note heads that display the pitch class of each note.<p>I've found it pretty helpful for learning how to play my own instrument, so wanted to share in case anyone else was interested.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50075665\">https://news.ycombinator.com/item?id=50075665</a></p>\n<p>Points: 5</p>\n<p># Comments: 1</p>",
+      "title": "I built a tool to track what AI leaders say and how their views change on video",
+      "link": "https://blumify.io/people",
+      "raw_summary": "<p>Article URL: <a href=\"https://blumify.io/people\">https://blumify.io/people</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50081151\">https://news.ycombinator.com/item?id=50081151</a></p>\n<p>Points: 15</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 13 Oct 2026 17:43:05 +0000",
-      "summary": "Show HN: XY Music Notation\n<p>I've been playing around with a new kind of isomorphic music keyboard that uses a base-12 notation, and wanted some sheet music to learn some new music for it.<p>The idea is to represent each note in 12-TET as a number, so  N ∈ (0,1,2,3,4,5,6,7,8,9,X,Y).<p>I used codex "
+      "published": "Wed, 14 Oct 2026 01:09:13 +0000",
+      "summary": "I built a tool to track what AI leaders say and how their views change on video\n<p>Article URL: <a href=\"https://blumify.io/people\">https://blumify.io/people</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50081151\">https://news.ycombinator.com/item?id=50081151</a></p>\n<p>Poin"
     },
     {
-      "title": "Coris (YC S22) Is Hiring Back End Engineer",
-      "link": "https://www.ycombinator.com/companies/coris/jobs/h0nDly8-backend-engineer-ai-native-risk-infrastructure-integrations",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/coris/jobs/h0nDly8-backend-engineer-ai-native-risk-infrastructure-integrations\">https://www.ycombinator.com/companies/coris/jobs/h0nDly8-backend-engineer-ai-native-risk-infrastructure-integrations</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50074969\">https://news.ycombinator.com/item?id=50074969</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
+      "title": "High-speed video reveals how honey bee stingers pump venom",
+      "link": "https://arstechnica.com/science/2026/10/honey-bee-stingers-are-double-piston-venom-pumps/",
+      "raw_summary": "<p>Article URL: <a href=\"https://arstechnica.com/science/2026/10/honey-bee-stingers-are-double-piston-venom-pumps/\">https://arstechnica.com/science/2026/10/honey-bee-stingers-are-double-piston-venom-pumps/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50081133\">https://news.ycombinator.com/item?id=50081133</a></p>\n<p>Points: 16</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 13 Oct 2026 17:00:39 +0000",
-      "summary": "Coris (YC S22) Is Hiring Back End Engineer\n<p>Article URL: <a href=\"https://www.ycombinator.com/companies/coris/jobs/h0nDly8-backend-engineer-ai-native-risk-infrastructure-integrations\">https://www.ycombinator.com/companies/coris/jobs/h0nDly8-backend-engineer-ai-native-risk-infrastructure-integratio"
+      "published": "Wed, 14 Oct 2026 01:05:23 +0000",
+      "summary": "High-speed video reveals how honey bee stingers pump venom\n<p>Article URL: <a href=\"https://arstechnica.com/science/2026/10/honey-bee-stingers-are-double-piston-venom-pumps/\">https://arstechnica.com/science/2026/10/honey-bee-stingers-are-double-piston-venom-pumps/</a></p>\n<p>Comments URL: <a href=\"h"
     },
     {
-      "title": "Show HN: How Random Are You?",
-      "link": "https://lab.specr.net/rigged-draw/",
-      "raw_summary": "<p>Article URL: <a href=\"https://lab.specr.net/rigged-draw/\">https://lab.specr.net/rigged-draw/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50074909\">https://news.ycombinator.com/item?id=50074909</a></p>\n<p>Points: 19</p>\n<p># Comments: 8</p>",
+      "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+      "link": "https://pulseos.finance",
+      "raw_summary": "<p>Hi HN, I'm Niz. Pulse Local is a budgeting app for Mac (Apple Silicon, beta) that answers questions about your spending with models that run on your machine. Local mode needs no account. The ledger and your questions stay on the machine, and the app sends no analytics or crash logs.<p>I felt there are not enough consumer apps that run locally with no calls to the outside world that help us manage sensitive corners of our lives. This app in its local variant only downloads a couple of models and occasional updates, it does not send any analytics nor data.<p>Features-wise, Pulse local is a complete budgeting app that offers an assistant built on top of a fine-tuned model and thousands of rules embedded in the code itself. I'm sharing it for free with options to help me continue experimenting with fine-tuning and expanding along this direction.<p>How it works: you import a CSV from any bank, in any currency. When you ask a question, a tuned Qwen3 0.6B model reads it into a structured query, and code, not the model, does the money math against the ledger. A 4B checker model double-checks each money answer; when the two readings disagree, the app says it is not sure instead of guessing. That change took wrong answers from about one in five to 5 in 494 questions across our last three tests. The write-up covers how we test, the designs that failed, and the limits of the claim: <a href=\"https://pulseos.finance/pulse-local/writing/agree-or-not-sure\" rel=\"nofollow\">https://pulseos.finance/pulse-local/writing/agree-or-not-sur...</a><p>The tuned weights are on Hugging Face (PulseOS/pulse-local-qwen3-0.6b).<p>Limitations: the first start downloads about 2.9 GB of models. With the checker on, a money answer takes 12 to 14 seconds (you can turn the checker off). Small models can still misread an open-ended question. The app answers in English. Mac only for now; Windows is next.<p>The app is free. An optional Connected mode (Sync Pass, $29/year) syncs US banks through Plaid; transactions pass through our server's memory and are not stored.<p>Feedback welcome, especially on wrong answers and on questions it should handle but does not.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50080275\">https://news.ycombinator.com/item?id=50080275</a></p>\n<p>Points: 64</p>\n<p># Comments: 31</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 13 Oct 2026 16:57:57 +0000",
-      "summary": "Show HN: How Random Are You?\n<p>Article URL: <a href=\"https://lab.specr.net/rigged-draw/\">https://lab.specr.net/rigged-draw/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50074909\">https://news.ycombinator.com/item?id=50074909</a></p>\n<p>Points: 19</p>\n<p># Comments: 8</p>"
+      "published": "Tue, 13 Oct 2026 23:13:23 +0000",
+      "summary": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine\n<p>Hi HN, I'm Niz. Pulse Local is a budgeting app for Mac (Apple Silicon, beta) that answers questions about your spending with models that run on your machine. Local mode needs no account. The ledger and your questions st"
     },
     {
-      "title": "Gemini 4 Argon for Robotics",
-      "link": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
-      "raw_summary": "<p>Article URL: <a href=\"https://developers.googleblog.com/gemini-4-argon-for-robotics/\">https://developers.googleblog.com/gemini-4-argon-for-robotics/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50074869\">https://news.ycombinator.com/item?id=50074869</a></p>\n<p>Points: 57</p>\n<p># Comments: 10</p>",
+      "title": "Recreational Programming",
+      "link": "https://www.cphiri.dev/presentations/recreational-programming",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.cphiri.dev/presentations/recreational-programming\">https://www.cphiri.dev/presentations/recreational-programming</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50079865\">https://news.ycombinator.com/item?id=50079865</a></p>\n<p>Points: 71</p>\n<p># Comments: 25</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 13 Oct 2026 16:55:47 +0000",
-      "summary": "Gemini 4 Argon for Robotics\n<p>Article URL: <a href=\"https://developers.googleblog.com/gemini-4-argon-for-robotics/\">https://developers.googleblog.com/gemini-4-argon-for-robotics/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50074869\">https://news.ycombinator.com/item?id=50"
+      "published": "Tue, 13 Oct 2026 22:33:33 +0000",
+      "summary": "Recreational Programming\n<p>Article URL: <a href=\"https://www.cphiri.dev/presentations/recreational-programming\">https://www.cphiri.dev/presentations/recreational-programming</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50079865\">https://news.ycombinator.com/item?id=5007986"
     },
     {
-      "title": "Cyberattack halts construction of tunnel between Denmark and Germany",
-      "link": "https://ua.news/en/world/kiberataka-zupinila-budivnitstvo-tuneliu-mizh-daniieiu-ta-nimechchinoiu-rmf24",
-      "raw_summary": "<p>Article URL: <a href=\"https://ua.news/en/world/kiberataka-zupinila-budivnitstvo-tuneliu-mizh-daniieiu-ta-nimechchinoiu-rmf24\">https://ua.news/en/world/kiberataka-zupinila-budivnitstvo-tuneliu-mizh-daniieiu-ta-nimechchinoiu-rmf24</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50074289\">https://news.ycombinator.com/item?id=50074289</a></p>\n<p>Points: 81</p>\n<p># Comments: 39</p>",
+      "title": "AlphaNIST",
+      "link": "https://alpha-nist.github.io/",
+      "raw_summary": "<p>Article URL: <a href=\"https://alpha-nist.github.io/\">https://alpha-nist.github.io/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50079464\">https://news.ycombinator.com/item?id=50079464</a></p>\n<p>Points: 47</p>\n<p># Comments: 14</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 13 Oct 2026 16:24:15 +0000",
-      "summary": "Cyberattack halts construction of tunnel between Denmark and Germany\n<p>Article URL: <a href=\"https://ua.news/en/world/kiberataka-zupinila-budivnitstvo-tuneliu-mizh-daniieiu-ta-nimechchinoiu-rmf24\">https://ua.news/en/world/kiberataka-zupinila-budivnitstvo-tuneliu-mizh-daniieiu-ta-nimechchinoiu-rmf24"
+      "published": "Tue, 13 Oct 2026 21:57:29 +0000",
+      "summary": "AlphaNIST\n<p>Article URL: <a href=\"https://alpha-nist.github.io/\">https://alpha-nist.github.io/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50079464\">https://news.ycombinator.com/item?id=50079464</a></p>\n<p>Points: 47</p>\n<p># Comments: 14</p>"
     },
     {
-      "title": "Rivian spinoff Mind Robotics hires former Ford EV chief Doug Field",
-      "link": "https://techcrunch.com/2026/10/13/rivian-spinoff-mind-robotics-hires-former-ford-ev-chief-doug-field/",
-      "raw_summary": "Field also worked on Apple's secretive car project and oversaw development of the Tesla Model 3.",
+      "title": "Justice Department says North Koreans have infiltrated dozens of U.S. companies",
+      "link": "https://techcrunch.com/2026/10/13/justice-department-says-north-koreans-have-infiltrated-dozens-of-u-s-companies/",
+      "raw_summary": "U.S. authorities warn that sanctioned hackers are increasingly targeting Americans to act as facilitators between breached U.S. companies and Pyongyang.",
       "source": "TechCrunch",
-      "published": "Tue, 13 Oct 2026 18:30:03 +0000",
-      "summary": "Rivian spinoff Mind Robotics hires former Ford EV chief Doug Field\nField also worked on Apple's secretive car project and oversaw development of the Tesla Model 3."
+      "published": "Wed, 14 Oct 2026 01:30:42 +0000",
+      "summary": "Justice Department says North Koreans have infiltrated dozens of U.S. companies\nU.S. authorities warn that sanctioned hackers are increasingly targeting Americans to act as facilitators between breached U.S. companies and Pyongyang."
     },
     {
-      "title": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
-      "link": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/",
-      "raw_summary": "Flox's edge devices can identify animals and use species-specific sounds to drive them away from critical infrastructure.",
+      "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
+      "link": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
+      "raw_summary": "Max Hodak, the former president and co-founder of Neuralink, detailed on stage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI).",
       "source": "TechCrunch",
-      "published": "Tue, 13 Oct 2026 18:30:00 +0000",
-      "summary": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads\nFlox's edge devices can identify animals and use species-specific sounds to drive them away from critical infrastructure."
+      "published": "Tue, 13 Oct 2026 23:13:31 +0000",
+      "summary": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient\nMax Hodak, the former president and co-founder of Neuralink, detailed on stage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI)."
     },
     {
-      "title": "Facebook is giving users more control over their algorithm",
-      "link": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
-      "raw_summary": "Meta announced the launch of its new AI-powered feature, “Your Algorithm,” a feature it first launched on Instagram.",
+      "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
+      "link": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+      "raw_summary": "Cerebras CEO Andrew Feldman predicts a future where personal AI assistants become as commonplace as household appliances, running partly on local devices and partly in the cloud.",
       "source": "TechCrunch",
-      "published": "Tue, 13 Oct 2026 18:05:24 +0000",
-      "summary": "Facebook is giving users more control over their algorithm\nMeta announced the launch of its new AI-powered feature, “Your Algorithm,” a feature it first launched on Instagram."
+      "published": "Tue, 13 Oct 2026 23:05:34 +0000",
+      "summary": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home\nCerebras CEO Andrew Feldman predicts a future where personal AI assistants become as commonplace as household appliances, running partly on local devices and partly in the cloud."
     },
     {
-      "title": "Forget rockets — Longshot wants to fire cargo into space from a gun. See it at TechCrunch Disrupt 2026",
-      "link": "https://techcrunch.com/2026/10/13/forget-rockets-longshot-wants-to-fire-cargo-into-space-from-a-gun-see-it-at-techcrunch-disrupt-2026/",
-      "raw_summary": "Longshot is trying to build a gun big enough to make space data centers a reality.",
+      "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
+      "link": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
+      "raw_summary": "Industrial Next helps manufacturers automate complex, delicate tasks that have traditionally required human labor.",
       "source": "TechCrunch",
-      "published": "Tue, 13 Oct 2026 18:05:00 +0000",
-      "summary": "Forget rockets — Longshot wants to fire cargo into space from a gun. See it at TechCrunch Disrupt 2026\nLongshot is trying to build a gun big enough to make space data centers a reality."
+      "published": "Tue, 13 Oct 2026 23:00:00 +0000",
+      "summary": "Industrial Next wants factory robots to switch tasks in minutes, not weeks\nIndustrial Next helps manufacturers automate complex, delicate tasks that have traditionally required human labor."
     },
     {
-      "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
-      "link": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
-      "raw_summary": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco.",
+      "title": "Cerebras CEO pushes back on AI doomsday warnings",
+      "link": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
+      "raw_summary": "Cerebras CEO Andrew Feldman has a message for AI leaders spreading doomsday warnings: Maybe stop talking? At TechCrunch Disrupt, he argued that the industry's focus on AI's risks is drowning out its potential benefits.",
       "source": "TechCrunch",
-      "published": "Tue, 13 Oct 2026 17:30:00 +0000",
-      "summary": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world\nUniversity of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup B"
+      "published": "Tue, 13 Oct 2026 22:36:59 +0000",
+      "summary": "Cerebras CEO pushes back on AI doomsday warnings\nCerebras CEO Andrew Feldman has a message for AI leaders spreading doomsday warnings: Maybe stop talking? At TechCrunch Disrupt, he argued that the industry's focus on AI's risks is drowning out its potential benefits."
     },
     {
-      "title": "The Paris Auto Show is full of interesting cars Americans can’t have",
-      "link": "https://arstechnica.com/cars/2026/10/europe-shows-a-better-alternative-to-big-suvs-at-the-paris-auto-show/",
-      "raw_summary": "Small EVs and efficient people carriers update familiar names for the modern age.",
+      "title": "Martin Shkreli livestreamed himself violating lifetime pharma ban, FTC says",
+      "link": "https://arstechnica.com/health/2026/10/martin-shkreli-livestreamed-himself-violating-lifetime-pharma-ban-ftc-says/",
+      "raw_summary": "\"I can always find a couple of biotech stocks to smoke,\" Shkreli said in a livestream.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 13 Oct 2026 17:33:20 +0000",
-      "summary": "The Paris Auto Show is full of interesting cars Americans can’t have\nSmall EVs and efficient people carriers update familiar names for the modern age."
+      "published": "Tue, 13 Oct 2026 22:48:12 +0000",
+      "summary": "Martin Shkreli livestreamed himself violating lifetime pharma ban, FTC says\n\"I can always find a couple of biotech stocks to smoke,\" Shkreli said in a livestream."
     },
     {
-      "title": "Google wants to host your personal vibe-coded apps in the Play Store",
-      "link": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
-      "raw_summary": "Google plans to help turn those personal AI-generated apps into wide releases.",
+      "title": "ESA targets Anbernic emulation handhelds as \"superfake\" piracy enablers",
+      "link": "https://arstechnica.com/gaming/2026/10/esa-targets-anbernic-emulation-handhelds-as-superfake-piracy-enablers/",
+      "raw_summary": "But third-party sellers, not Anbernic, are the ones routinely selling ROM-filled SD cards.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 13 Oct 2026 17:00:39 +0000",
-      "summary": "Google wants to host your personal vibe-coded apps in the Play Store\nGoogle plans to help turn those personal AI-generated apps into wide releases."
+      "published": "Tue, 13 Oct 2026 21:55:49 +0000",
+      "summary": "ESA targets Anbernic emulation handhelds as \"superfake\" piracy enablers\nBut third-party sellers, not Anbernic, are the ones routinely selling ROM-filled SD cards."
     },
     {
-      "title": "Gemini 4 Argon begins rolling out in Gemini app and Antigravity, but only if you pay",
-      "link": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
-      "raw_summary": "Developers will get 50 percent discounted API rates through November.",
+      "title": "Topgolf saved over $11.3 million after leaving VMware",
+      "link": "https://arstechnica.com/information-technology/2026/10/topgolf-saved-over-11-3-million-after-leaving-vmware/",
+      "raw_summary": "Topgolf and VMware \"ran deep\" before the migration.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 13 Oct 2026 16:00:02 +0000",
-      "summary": "Gemini 4 Argon begins rolling out in Gemini app and Antigravity, but only if you pay\nDevelopers will get 50 percent discounted API rates through November."
+      "published": "Tue, 13 Oct 2026 21:33:43 +0000",
+      "summary": "Topgolf saved over $11.3 million after leaving VMware\nTopgolf and VMware \"ran deep\" before the migration."
     },
     {
-      "title": "Apple’s first smart display is the 7-inch HomeView for $299",
-      "link": "https://arstechnica.com/apple/2026/10/apple-homeview-smart-home-hub-opens-for-preorders-at-299/",
-      "raw_summary": "It can recognize up to six users with its camera.",
+      "title": "Trump commercial railing against his enemies kept airing after court blocked it",
+      "link": "https://arstechnica.com/tech-policy/2026/10/trumps-taxpayer-funded-ads-kept-airing-on-tv-the-day-after-judge-blocked-them/",
+      "raw_summary": "US attorney apologized to court, said government has stopped running Trump ads.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 13 Oct 2026 15:29:17 +0000",
-      "summary": "Apple’s first smart display is the 7-inch HomeView for $299\nIt can recognize up to six users with its camera."
+      "published": "Tue, 13 Oct 2026 19:50:37 +0000",
+      "summary": "Trump commercial railing against his enemies kept airing after court blocked it\nUS attorney apologized to court, said government has stopped running Trump ads."
     },
     {
-      "title": "They war-gamed dimming the Sun. It went even worse than you think.",
-      "link": "https://arstechnica.com/science/2026/10/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/",
-      "raw_summary": "Solar geoengineering simulation shows what happens when geopolitics takes over.",
+      "title": "Disney offers $20M for Character.AI’s scandal-plagued chatbot tech",
+      "link": "https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/",
+      "raw_summary": "Disney may acquire tech from one of the first chatbot makers linked to child suicide.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 13 Oct 2026 15:17:59 +0000",
-      "summary": "They war-gamed dimming the Sun. It went even worse than you think.\nSolar geoengineering simulation shows what happens when geopolitics takes over."
+      "published": "Tue, 13 Oct 2026 18:23:33 +0000",
+      "summary": "Disney offers $20M for Character.AI’s scandal-plagued chatbot tech\nDisney may acquire tech from one of the first chatbot makers linked to child suicide."
     },
     {
-      "title": "Chip stocks slide after Broadcom boss warns of ‘casino’ mentality in AI investing",
-      "link": "https://www.ft.com/content/e16f0422-cf75-4cc9-962d-4605e421dc63?syn-25a6b1a6=1",
-      "raw_summary": "Declines for Samsung and SK Hynix drag Kospi sharply lower as investors fret over the scale of AI investment",
+      "title": "Saudi Aramco HQ attacked in suspected Houthi strike",
+      "link": "https://www.ft.com/content/a25417b3-d4e4-4b89-b14d-6370a85ce3c4?syn-25a6b1a6=1",
+      "raw_summary": "Iran-backed militants retaliate after Riyadh-led coalition targets sites in Yemen’s capital",
       "source": "World",
-      "published": "Tue, 13 Oct 2026 17:47:51 GMT",
-      "summary": "Chip stocks slide after Broadcom boss warns of ‘casino’ mentality in AI investing\nDeclines for Samsung and SK Hynix drag Kospi sharply lower as investors fret over the scale of AI investment"
+      "published": "Wed, 14 Oct 2026 02:20:48 GMT",
+      "summary": "Saudi Aramco HQ attacked in suspected Houthi strike\nIran-backed militants retaliate after Riyadh-led coalition targets sites in Yemen’s capital"
     },
     {
-      "title": "Modi cannot silence India’s disaffected youth",
-      "link": "https://www.ft.com/content/9c5501bc-7297-4864-a5a7-b2f2001e2dd9?syn-25a6b1a6=1",
-      "raw_summary": "The BJP must address young people’s political and economic frustrations",
+      "title": "US arrests Saudi employee of OpenAI for allegedly bugging its offices",
+      "link": "https://www.ft.com/content/2c3b583a-3ddc-4920-a350-9698c119435c?syn-25a6b1a6=1",
+      "raw_summary": "AI lab discovered a recording device concealed behind a television in a conference room",
       "source": "World",
-      "published": "Tue, 13 Oct 2026 17:28:44 GMT",
-      "summary": "Modi cannot silence India’s disaffected youth\nThe BJP must address young people’s political and economic frustrations"
+      "published": "Wed, 14 Oct 2026 01:59:24 GMT",
+      "summary": "US arrests Saudi employee of OpenAI for allegedly bugging its offices\nAI lab discovered a recording device concealed behind a television in a conference room"
     },
     {
-      "title": "‘Pro-business’ Burnham reassures chief executives on tax",
-      "link": "https://www.ft.com/content/e582246d-c869-46dc-a8a5-5ea52fa689e7?syn-25a6b1a6=1",
-      "raw_summary": "Prime minister and chancellor host roundtable meetings with leading business figures to calm nerves ahead of the Budget",
+      "title": "Russia arrests Japanese journalist on espionage charges",
+      "link": "https://www.ft.com/content/b77a0094-c6f1-449a-9323-2b4d16696cb7?syn-25a6b1a6=1",
+      "raw_summary": "Detention of Hokkaido Shimbun reporter follows series of arrests denounced as politically motivated",
       "source": "World",
-      "published": "Tue, 13 Oct 2026 17:28:36 GMT",
-      "summary": "‘Pro-business’ Burnham reassures chief executives on tax\nPrime minister and chancellor host roundtable meetings with leading business figures to calm nerves ahead of the Budget"
+      "published": "Wed, 14 Oct 2026 01:20:47 GMT",
+      "summary": "Russia arrests Japanese journalist on espionage charges\nDetention of Hokkaido Shimbun reporter follows series of arrests denounced as politically motivated"
     },
     {
-      "title": "Number of UK Isa millionaires jumps 50 per cent in a year",
-      "link": "https://www.ft.com/content/9fcf1e27-e0b7-4016-bf19-2f87ac62a13b",
-      "raw_summary": "Number of investors with more than £1mn in their account tops 7,700",
+      "title": "Home of London’s oldest restaurant, Rules, given to National Trust",
+      "link": "https://www.ft.com/content/1386e75c-d292-4e56-a6c5-c69b0b77ad7c?syn-25a6b1a6=1",
+      "raw_summary": "Building in Covent Garden bequeathed to heritage charity to ensure 228-year institution remains ‘part of the city’s cultural life’",
       "source": "World",
-      "published": "Tue, 13 Oct 2026 16:56:14 GMT",
-      "summary": "Number of UK Isa millionaires jumps 50 per cent in a year\nNumber of investors with more than £1mn in their account tops 7,700"
+      "published": "Tue, 13 Oct 2026 23:01:08 GMT",
+      "summary": "Home of London’s oldest restaurant, Rules, given to National Trust\nBuilding in Covent Garden bequeathed to heritage charity to ensure 228-year institution remains ‘part of the city’s cultural life’"
     },
     {
-      "title": "Will bank earnings growth become a thing of the past?",
-      "link": "https://www.ft.com/content/9f6ec5b2-4f0b-4ed3-9541-588d49e3ad7e?syn-25a6b1a6=1",
-      "raw_summary": "It would be foolish to think the Wall Street giants can’t outrun the threat of AI",
+      "title": "Tougher competition for internships strains UK graduate jobs market",
+      "link": "https://www.ft.com/content/3a3d3eb8-ff86-418e-9704-c1ff601718c4?syn-25a6b1a6=1",
+      "raw_summary": "Applications for summer internships rise 27% as students face ‘day zero’ fight to get ahead in increasingly automated recruitment process",
       "source": "World",
-      "published": "Tue, 13 Oct 2026 16:49:43 GMT",
-      "summary": "Will bank earnings growth become a thing of the past?\nIt would be foolish to think the Wall Street giants can’t outrun the threat of AI"
+      "published": "Tue, 13 Oct 2026 23:01:08 GMT",
+      "summary": "Tougher competition for internships strains UK graduate jobs market\nApplications for summer internships rise 27% as students face ‘day zero’ fight to get ahead in increasingly automated recruitment process"
     },
     {
-      "title": "Stocks Bounce From Lows on Williams’ Rate Remarks: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-12/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "Stocks bounced from session lows as speculation the Federal Reserve won’t be forced to raise rates aggressively offset lingering worries about elevated oil prices and the outlook for artificial intelligence.",
+      "title": "Speculation Over STT Cut Lifts Sentiment for Indian Stocks",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-10-14/speculation-over-stt-cut-lifts-sentiment-for-indian-stocks",
+      "raw_summary": "Nifty jumps as traders seize on a rather noncommittal remark by Sitharaman about the securities transaction tax.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 12 Oct 2026 22:04:35 GMT",
-      "summary": "Stocks Bounce From Lows on Williams’ Rate Remarks: Markets Wrap\nStocks bounced from session lows as speculation the Federal Reserve won’t be forced to raise rates aggressively offset lingering worries about elevated oil prices and the outlook for artificial intelligence."
+      "published": "Wed, 14 Oct 2026 02:30:01 GMT",
+      "summary": "Speculation Over STT Cut Lifts Sentiment for Indian Stocks\nNifty jumps as traders seize on a rather noncommittal remark by Sitharaman about the securities transaction tax."
     },
     {
-      "title": "Sheinbaum Vows to Buy More Goods From the US to Sign Trade Deal",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-13/sheinbaum-vows-to-buy-more-goods-from-the-us-to-sign-trade-deal",
-      "raw_summary": "Mexican President Claudia Sheinbaum said she’s addressing Trump administration concerns about the growing US trade deficit with its southern neighbor in order to ink a bilateral deal, primarily by buying more American goods.",
+      "title": "Latest Oil Market News and Analysis for Oct. 14",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-13/latest-oil-market-news-and-analysis-for-oct-14",
+      "raw_summary": "Oil climbed as a flare-up in attacks in the Middle East increased uncertainty over a recovery in Persian Gulf energy flows.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 13 Oct 2026 18:34:41 GMT",
-      "summary": "Sheinbaum Vows to Buy More Goods From the US to Sign Trade Deal\nMexican President Claudia Sheinbaum said she’s addressing Trump administration concerns about the growing US trade deficit with its southern neighbor in order to ink a bilateral deal, primarily by buying more American goods."
+      "published": "Tue, 13 Oct 2026 22:02:59 GMT",
+      "summary": "Latest Oil Market News and Analysis for Oct. 14\nOil climbed as a flare-up in attacks in the Middle East increased uncertainty over a recovery in Persian Gulf energy flows."
     },
     {
-      "title": "Ancora Is Said to Push UK’s Big Yellow Group to Explore Sale",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-13/ancora-is-said-to-push-uk-s-big-yellow-group-to-explore-sale",
-      "raw_summary": "Activist investor Ancora Holdings Group has built a stake in UK-listed Big Yellow Group Plc and is pushing the self-storage company to explore a sale, according to a presentation reviewed by Bloomberg News.",
+      "title": "How HSBC Is Pivoting to Indian Growth Opportunities",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-14/how-hsbc-is-pivoting-to-indian-growth-opportunities-video",
+      "raw_summary": "Surendra Rosha, HSBC Asia & Middle East Co-Chief Executive, discusses growth opportunities in India including infrastructure buildout. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Tue, 13 Oct 2026 18:18:18 GMT",
-      "summary": "Ancora Is Said to Push UK’s Big Yellow Group to Explore Sale\nActivist investor Ancora Holdings Group has built a stake in UK-listed Big Yellow Group Plc and is pushing the self-storage company to explore a sale, according to a presentation reviewed by Bloomberg News."
+      "published": "Wed, 14 Oct 2026 02:23:24 GMT",
+      "summary": "How HSBC Is Pivoting to Indian Growth Opportunities\nSurendra Rosha, HSBC Asia & Middle East Co-Chief Executive, discusses growth opportunities in India including infrastructure buildout. (Source: Bloomberg)"
     },
     {
-      "title": "EPA Proposes 100% Reallocation for Refinery Biofuel Breaks",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-13/epa-confirms-100-reallocation-for-refinery-biofuel-exemptions",
-      "raw_summary": "The Trump administration said it will make up for lost biofuels demand after the biggest breaks from blending mandates for refiners in nearly a decade, providing a boost for American farmers.",
+      "title": "Olympus Shares Slump on FDA Warning Letter on Six Facilities",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-14/olympus-shares-plunge-after-fda-warning-letter-on-six-facilities",
+      "raw_summary": "Olympus Corp. shares tumbled the most since April 2025 after the US Food and Drug Administration issued a warning letter to the Japanese medical device maker following inspections the agency previously conducted at six facilities.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 13 Oct 2026 15:00:11 GMT",
-      "summary": "EPA Proposes 100% Reallocation for Refinery Biofuel Breaks\nThe Trump administration said it will make up for lost biofuels demand after the biggest breaks from blending mandates for refiners in nearly a decade, providing a boost for American farmers."
+      "published": "Wed, 14 Oct 2026 01:00:17 GMT",
+      "summary": "Olympus Shares Slump on FDA Warning Letter on Six Facilities\nOlympus Corp. shares tumbled the most since April 2025 after the US Food and Drug Administration issued a warning letter to the Japanese medical device maker following inspections the agency previously conducted at six facilities."
     },
     {
-      "title": "Rosenberg Sees Most Dangerous US Market of His 40-Year Career",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-13/rosenberg-sees-most-dangerous-us-market-of-his-40-year-career",
-      "raw_summary": "David Rosenberg said the US stock market was increasingly looking like a bubble, with valuations, leverage and investor positioning at extremes unseen in his 40-year career.",
+      "title": "Asian Stocks Gain Before US CPI Data, Oil Climbs: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-13/stock-market-today-dow-s-p-live-updates",
+      "raw_summary": "Asian stocks posted a modest gain ahead of key US inflation data as expectations grew that the Federal Reserve may not need to raise interest rates aggressively next year. Crude oil advanced.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 13 Oct 2026 17:38:42 GMT",
-      "summary": "Rosenberg Sees Most Dangerous US Market of His 40-Year Career\nDavid Rosenberg said the US stock market was increasingly looking like a bubble, with valuations, leverage and investor positioning at extremes unseen in his 40-year career."
+      "published": "Tue, 13 Oct 2026 22:03:38 GMT",
+      "summary": "Asian Stocks Gain Before US CPI Data, Oil Climbs: Markets Wrap\nAsian stocks posted a modest gain ahead of key US inflation data as expectations grew that the Federal Reserve may not need to raise interest rates aggressively next year. Crude oil advanced."
+    },
+    {
+      "title": "Largest Philippines crypto exchange, Coins.ph, said to face central bank regulatory action",
+      "link": "https://www.coindesk.com/policy/2026/10/13/largest-philippines-crypto-exchange-coins-ph-said-to-face-central-bank-regulatory-action",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 14 Oct 2026 01:00:00 +0000",
+      "summary": "Largest Philippines crypto exchange, Coins.ph, said to face central bank regulatory action\n"
+    },
+    {
+      "title": "Strive raising $500 million to buy additional bitcoin with new preferred share class",
+      "link": "https://www.coindesk.com/markets/2026/10/13/strive-to-ipo-second-preferred-share-class-as-it-looks-to-further-build-bitcoin-treasury",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Tue, 13 Oct 2026 23:23:05 +0000",
+      "summary": "Strive raising $500 million to buy additional bitcoin with new preferred share class\n"
+    },
+    {
+      "title": "BNY, Citadel Securities test tokenized U.S. Treasuries to speed up Wall Street financing",
+      "link": "https://www.coindesk.com/business/2026/10/13/bny-citadel-securities-test-tokenized-u-s-treasuries-to-speed-up-wall-street-financing",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Tue, 13 Oct 2026 21:52:00 +0000",
+      "summary": "BNY, Citadel Securities test tokenized U.S. Treasuries to speed up Wall Street financing\n"
     },
     {
       "title": "Crypto exchange MNX takes on OKX, Bitget offering pre-IPO futures for AI giants",
@@ -297,30 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Tue, 13 Oct 2026 15:24:52 +0000",
       "summary": "UK crypto trader says almost $800,000 lost in knife assault as wrench attacks proliferate\n"
-    },
-    {
-      "title": "South Korea blocks 27 crypto exchanges, including Bitmart and Kucoin",
-      "link": "https://www.coindesk.com/policy/2026/10/13/south-korea-blocks-27-crypto-exchanges-including-bitmart-and-kucoin",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 13 Oct 2026 11:58:04 +0000",
-      "summary": "South Korea blocks 27 crypto exchanges, including Bitmart and Kucoin\n"
-    },
-    {
-      "title": "Federated Hermes joins Wall Street's tokenization push with plans for first onchain fund shares",
-      "link": "https://www.coindesk.com/business/2026/10/13/federated-hermes-joins-wall-street-s-tokenization-push-with-plans-for-first-onchain-fund-shares",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 13 Oct 2026 11:56:04 +0000",
-      "summary": "Federated Hermes joins Wall Street's tokenization push with plans for first onchain fund shares\n"
-    },
-    {
-      "title": "Stacks' STX, a Bitcoin layer-2 token, has surged by 50% in four weeks",
-      "link": "https://www.coindesk.com/daybook-us/2026/10/13/stacks-stx-a-bitcoin-layer-2-token-has-surged-by-50-in-four-weeks",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 13 Oct 2026 11:26:45 +0000",
-      "summary": "Stacks' STX, a Bitcoin layer-2 token, has surged by 50% in four weeks\n"
     }
   ]
 }
