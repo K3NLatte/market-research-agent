@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T02:55:08.227782+00:00",
+  "generated_at": "2026-10-14T10:55:39.757423+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions\nA U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&#038;T customers in 2024 was sentenced to 70 months in federal priso"
     },
     {
+      "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
+      "link": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
+      "raw_summary": "A flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted virtual machine write to the host's memory and hijack the program that runs the virtual machine.\n\nThe bug is tracked as&nbsp;CVE-2026-74580&nbsp;and named Vghost. Tencent Zhuque Lab, which found the",
+      "source": "The Hacker News",
+      "published": "Wed, 14 Oct 2026 13:16:57 +0530",
+      "summary": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host\nA flaw in Linux's vhost subsystem lets a local user read and write kernel memory at will and become root across nearly a decade of kernel versions. In one virtualization setup, it lets an untrusted virtual machi"
+    },
+    {
+      "title": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
+      "link": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
+      "raw_summary": "Security researchers ran their own code inside a protected part of Windows that is meant to stay sealed off even when the rest of the computer is taken over.\n\nThe protected area is a VBS enclave, an isolated slice of memory the operating system uses to guard secrets, and the one they broke into handles passwords for a Windows anti-phishing feature.\n\nThe work was done in a lab as a proof of",
+      "source": "The Hacker News",
+      "published": "Wed, 14 Oct 2026 11:22:28 +0530",
+      "summary": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave\nSecurity researchers ran their own code inside a protected part of Windows that is meant to stay sealed off even when the rest of the computer is taken over.\n\nThe protected area is a VBS enclave, an isolated slice"
+    },
+    {
+      "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
+      "link": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html",
+      "raw_summary": "Microsoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities, including one that it said has come under active exploitation.\n\nThese include 1,102 flaws in Windows, 134 in Office, 61 in Developer Tools, 36 in SharePoint Server, and 22 in SQL Server. Of these, more than 670 relate to privilege escalation, followed by over 300 remote code",
+      "source": "The Hacker News",
+      "published": "Wed, 14 Oct 2026 10:04:43 +0530",
+      "summary": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug\nMicrosoft on Tuesday shattered its own Patch Tuesday record by shipping patches for a whopping 1,413 vulnerabilities, including one that it said has come under active exploitation.\n\nThese include 1,102 flaws in Windows, 134 "
+    },
+    {
+      "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
+      "link": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
+      "raw_summary": "A Saudi National and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive conversations.\n\nAbdulrahman Alfozan, 35, has been charged with using or endeavoring to use an electronic, mechanical, or other device to intercept oral communications. He was arrested by",
+      "source": "The Hacker News",
+      "published": "Wed, 14 Oct 2026 07:29:25 +0530",
+      "summary": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room\nA Saudi National and employee of OpenAI has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to covertly record sensitive "
+    },
+    {
       "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
       "link": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
       "raw_summary": "Small artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes, according to a warning from Anthropic.\n\nThe frontier AI lab said small AI models could form autonomous, self-propagating worm botnets that are \"challenging to shut down,\" since \"there's no centralized point to shut off.\"",
@@ -51,76 +83,44 @@
       "summary": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets\nSmall artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes, according to a warning from Anthropic.\n\nThe frontie"
     },
     {
-      "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
-      "link": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
-      "raw_summary": "A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it found no evidence that anyone exploited it.\n\nThe flaw was in the feature that&nbsp;converts a personal account&nbsp;into an organization, Docker said in a&nbsp;security advisory&nbsp;on October 12.",
-      "source": "The Hacker News",
-      "published": "Tue, 13 Oct 2026 23:33:18 +0530",
-      "summary": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another\nA flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it found no evidence "
-    },
-    {
-      "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
-      "link": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
-      "raw_summary": "An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm&nbsp;Volexity said&nbsp;on October 13. Ivanti has released fixes for two of the flaws and told customers on affected versions to \"act immediately.\" A fix for the third is still pending, according to Volexity.\n\nVolexity, which reported the flaws to Ivanti,",
-      "source": "The Hacker News",
-      "published": "Tue, 13 Oct 2026 23:03:11 +0530",
-      "summary": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far\nAn attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm&nbsp;Volexity said&nbsp;on October 13. Ivanti has released fixe"
-    },
-    {
-      "title": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft",
-      "link": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
-      "raw_summary": "A flaw in SAP's&nbsp;Cloud SDK for Python&nbsp;can send an application's OAuth2 client credentials to a server an attacker controls, SAP said in a&nbsp;security advisory&nbsp;on October 13. The flaw affects multi-tenant applications on SAP Business Technology Platform (BTP) that use the SDK, SAP's official Python client for BTP services. An attacker must be able to control the tenant subdomain,",
-      "source": "The Hacker News",
-      "published": "Tue, 13 Oct 2026 22:58:50 +0530",
-      "summary": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft\nA flaw in SAP's&nbsp;Cloud SDK for Python&nbsp;can send an application's OAuth2 client credentials to a server an attacker controls, SAP said in a&nbsp;security advisory&nbsp;on October 13. The flaw affects "
-    },
-    {
-      "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
-      "link": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
-      "raw_summary": "GitHub has taken the step of expiring unvalidated npm trusted publishing configurations 48 hours after creation after researchers found that it was possible for an attacker to push new versions of a different user's package without having to steal their credentials.\n\n\"Your configuration becomes validated and exempt from expiry after its first successful publish,\" the Microsoft-owned subsidiary",
-      "source": "The Hacker News",
-      "published": "Tue, 13 Oct 2026 21:48:18 +0530",
-      "summary": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking\nGitHub has taken the step of expiring unvalidated npm trusted publishing configurations 48 hours after creation after researchers found that it was possible for an attacker to push new versions of a different user"
-    },
-    {
-      "title": "I built a tool to track what AI leaders say and how their views change on video",
-      "link": "https://blumify.io/people",
-      "raw_summary": "<p>Article URL: <a href=\"https://blumify.io/people\">https://blumify.io/people</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50081151\">https://news.ycombinator.com/item?id=50081151</a></p>\n<p>Points: 15</p>\n<p># Comments: 4</p>",
+      "title": "Show HN: Building an LLM from Scratch in TypeScript",
+      "link": "https://book.humanexperiences.io/",
+      "raw_summary": "<p>I wanted to understand transformers at a level where nothing is magic, so I'm building a ChatGPT-style model from first principles in TypeScript. Why not Python? I've found that reimplementing concepts in a different language forces me to grasp the nuance of the implementation. Chapters cover dataloaders, embeddings, and the attention mechanism so far. Feedback welcome if anything's unclear.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50085332\">https://news.ycombinator.com/item?id=50085332</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 14 Oct 2026 01:09:13 +0000",
-      "summary": "I built a tool to track what AI leaders say and how their views change on video\n<p>Article URL: <a href=\"https://blumify.io/people\">https://blumify.io/people</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50081151\">https://news.ycombinator.com/item?id=50081151</a></p>\n<p>Poin"
+      "published": "Wed, 14 Oct 2026 10:29:56 +0000",
+      "summary": "Show HN: Building an LLM from Scratch in TypeScript\n<p>I wanted to understand transformers at a level where nothing is magic, so I'm building a ChatGPT-style model from first principles in TypeScript. Why not Python? I've found that reimplementing concepts in a different language forces me to grasp "
     },
     {
-      "title": "High-speed video reveals how honey bee stingers pump venom",
-      "link": "https://arstechnica.com/science/2026/10/honey-bee-stingers-are-double-piston-venom-pumps/",
-      "raw_summary": "<p>Article URL: <a href=\"https://arstechnica.com/science/2026/10/honey-bee-stingers-are-double-piston-venom-pumps/\">https://arstechnica.com/science/2026/10/honey-bee-stingers-are-double-piston-venom-pumps/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50081133\">https://news.ycombinator.com/item?id=50081133</a></p>\n<p>Points: 16</p>\n<p># Comments: 0</p>",
+      "title": "Pulsar at ESUG 2026 (new Smalltalk IDE)",
+      "link": "https://blog.lorenzano.eu/pulsar-at-esug-2026/",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.lorenzano.eu/pulsar-at-esug-2026/\">https://blog.lorenzano.eu/pulsar-at-esug-2026/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50085306\">https://news.ycombinator.com/item?id=50085306</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 14 Oct 2026 01:05:23 +0000",
-      "summary": "High-speed video reveals how honey bee stingers pump venom\n<p>Article URL: <a href=\"https://arstechnica.com/science/2026/10/honey-bee-stingers-are-double-piston-venom-pumps/\">https://arstechnica.com/science/2026/10/honey-bee-stingers-are-double-piston-venom-pumps/</a></p>\n<p>Comments URL: <a href=\"h"
+      "published": "Wed, 14 Oct 2026 10:26:53 +0000",
+      "summary": "Pulsar at ESUG 2026 (new Smalltalk IDE)\n<p>Article URL: <a href=\"https://blog.lorenzano.eu/pulsar-at-esug-2026/\">https://blog.lorenzano.eu/pulsar-at-esug-2026/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50085306\">https://news.ycombinator.com/item?id=50085306</a></p>\n<p>Po"
     },
     {
-      "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
-      "link": "https://pulseos.finance",
-      "raw_summary": "<p>Hi HN, I'm Niz. Pulse Local is a budgeting app for Mac (Apple Silicon, beta) that answers questions about your spending with models that run on your machine. Local mode needs no account. The ledger and your questions stay on the machine, and the app sends no analytics or crash logs.<p>I felt there are not enough consumer apps that run locally with no calls to the outside world that help us manage sensitive corners of our lives. This app in its local variant only downloads a couple of models and occasional updates, it does not send any analytics nor data.<p>Features-wise, Pulse local is a complete budgeting app that offers an assistant built on top of a fine-tuned model and thousands of rules embedded in the code itself. I'm sharing it for free with options to help me continue experimenting with fine-tuning and expanding along this direction.<p>How it works: you import a CSV from any bank, in any currency. When you ask a question, a tuned Qwen3 0.6B model reads it into a structured query, and code, not the model, does the money math against the ledger. A 4B checker model double-checks each money answer; when the two readings disagree, the app says it is not sure instead of guessing. That change took wrong answers from about one in five to 5 in 494 questions across our last three tests. The write-up covers how we test, the designs that failed, and the limits of the claim: <a href=\"https://pulseos.finance/pulse-local/writing/agree-or-not-sure\" rel=\"nofollow\">https://pulseos.finance/pulse-local/writing/agree-or-not-sur...</a><p>The tuned weights are on Hugging Face (PulseOS/pulse-local-qwen3-0.6b).<p>Limitations: the first start downloads about 2.9 GB of models. With the checker on, a money answer takes 12 to 14 seconds (you can turn the checker off). Small models can still misread an open-ended question. The app answers in English. Mac only for now; Windows is next.<p>The app is free. An optional Connected mode (Sync Pass, $29/year) syncs US banks through Plaid; transactions pass through our server's memory and are not stored.<p>Feedback welcome, especially on wrong answers and on questions it should handle but does not.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50080275\">https://news.ycombinator.com/item?id=50080275</a></p>\n<p>Points: 64</p>\n<p># Comments: 31</p>",
+      "title": "AI Laser Locking for Quantum Computers: How QuEra Automates It",
+      "link": "https://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers\">https://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50085302\">https://news.ycombinator.com/item?id=50085302</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 13 Oct 2026 23:13:23 +0000",
-      "summary": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine\n<p>Hi HN, I'm Niz. Pulse Local is a budgeting app for Mac (Apple Silicon, beta) that answers questions about your spending with models that run on your machine. Local mode needs no account. The ledger and your questions st"
+      "published": "Wed, 14 Oct 2026 10:26:24 +0000",
+      "summary": "AI Laser Locking for Quantum Computers: How QuEra Automates It\n<p>Article URL: <a href=\"https://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers\">https://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-comp"
     },
     {
-      "title": "Recreational Programming",
-      "link": "https://www.cphiri.dev/presentations/recreational-programming",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.cphiri.dev/presentations/recreational-programming\">https://www.cphiri.dev/presentations/recreational-programming</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50079865\">https://news.ycombinator.com/item?id=50079865</a></p>\n<p>Points: 71</p>\n<p># Comments: 25</p>",
+      "title": "I let an AI run my startup for a week",
+      "link": "https://daily.tinyprojects.dev/221",
+      "raw_summary": "<p>Article URL: <a href=\"https://daily.tinyprojects.dev/221\">https://daily.tinyprojects.dev/221</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50085296\">https://news.ycombinator.com/item?id=50085296</a></p>\n<p>Points: 23</p>\n<p># Comments: 5</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 13 Oct 2026 22:33:33 +0000",
-      "summary": "Recreational Programming\n<p>Article URL: <a href=\"https://www.cphiri.dev/presentations/recreational-programming\">https://www.cphiri.dev/presentations/recreational-programming</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50079865\">https://news.ycombinator.com/item?id=5007986"
+      "published": "Wed, 14 Oct 2026 10:25:48 +0000",
+      "summary": "I let an AI run my startup for a week\n<p>Article URL: <a href=\"https://daily.tinyprojects.dev/221\">https://daily.tinyprojects.dev/221</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50085296\">https://news.ycombinator.com/item?id=50085296</a></p>\n<p>Points: 23</p>\n<p># Comments"
     },
     {
-      "title": "AlphaNIST",
-      "link": "https://alpha-nist.github.io/",
-      "raw_summary": "<p>Article URL: <a href=\"https://alpha-nist.github.io/\">https://alpha-nist.github.io/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50079464\">https://news.ycombinator.com/item?id=50079464</a></p>\n<p>Points: 47</p>\n<p># Comments: 14</p>",
+      "title": "Agent erased full season of \"The Challenge Swe\": \"Hundreds of days of work gone\"",
+      "link": "https://www.aviaduct.com/?l=og+en&u=https%3A%2F%2Fwww.aftonbladet.se%2Fnojesbladet%2Fa%2F31oE8A%2Fthe-challenge-sverige-raderad-av-ai-bara-veckor-innan-premiaren",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.aviaduct.com/?l=og+en&amp;u=https%3A%2F%2Fwww.aftonbladet.se%2Fnojesbladet%2Fa%2F31oE8A%2Fthe-challenge-sverige-raderad-av-ai-bara-veckor-innan-premiaren\">https://www.aviaduct.com/?l=og+en&amp;u=https%3A%2F%2Fwww.aftonbladet.se%2Fnojesbladet%2Fa%2F31oE8A%2Fthe-challenge-sverige-raderad-av-ai-bara-veckor-innan-premiaren</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50085259\">https://news.ycombinator.com/item?id=50085259</a></p>\n<p>Points: 12</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 13 Oct 2026 21:57:29 +0000",
-      "summary": "AlphaNIST\n<p>Article URL: <a href=\"https://alpha-nist.github.io/\">https://alpha-nist.github.io/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50079464\">https://news.ycombinator.com/item?id=50079464</a></p>\n<p>Points: 47</p>\n<p># Comments: 14</p>"
+      "published": "Wed, 14 Oct 2026 10:21:13 +0000",
+      "summary": "Agent erased full season of \"The Challenge Swe\": \"Hundreds of days of work gone\"\n<p>Article URL: <a href=\"https://www.aviaduct.com/?l=og+en&amp;u=https%3A%2F%2Fwww.aftonbladet.se%2Fnojesbladet%2Fa%2F31oE8A%2Fthe-challenge-sverige-raderad-av-ai-bara-veckor-innan-premiaren\">https://www.aviaduct.com/?l"
     },
     {
       "title": "Justice Department says North Koreans have infiltrated dozens of U.S. companies",
@@ -133,10 +133,10 @@
     {
       "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
       "link": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
-      "raw_summary": "Max Hodak, the former president and co-founder of Neuralink, detailed on stage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI).",
+      "raw_summary": "Max Hodak, the former president and co-founder of Neuralink, detailed onstage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI).",
       "source": "TechCrunch",
       "published": "Tue, 13 Oct 2026 23:13:31 +0000",
-      "summary": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient\nMax Hodak, the former president and co-founder of Neuralink, detailed on stage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI)."
+      "summary": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient\nMax Hodak, the former president and co-founder of Neuralink, detailed onstage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI)."
     },
     {
       "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
@@ -203,124 +203,124 @@
       "summary": "Disney offers $20M for Character.AI’s scandal-plagued chatbot tech\nDisney may acquire tech from one of the first chatbot makers linked to child suicide."
     },
     {
-      "title": "Saudi Aramco HQ attacked in suspected Houthi strike",
-      "link": "https://www.ft.com/content/a25417b3-d4e4-4b89-b14d-6370a85ce3c4?syn-25a6b1a6=1",
-      "raw_summary": "Iran-backed militants retaliate after Riyadh-led coalition targets sites in Yemen’s capital",
+      "title": "Who should we leave our pensions to?",
+      "link": "https://www.ft.com/content/f8f302b1-3859-45dd-9e45-b5e9149c6f51?syn-25a6b1a6=1",
+      "raw_summary": "Inheritance tax rules are changing next year — but you need to balance tax efficiency with fairness",
       "source": "World",
-      "published": "Wed, 14 Oct 2026 02:20:48 GMT",
-      "summary": "Saudi Aramco HQ attacked in suspected Houthi strike\nIran-backed militants retaliate after Riyadh-led coalition targets sites in Yemen’s capital"
+      "published": "Wed, 14 Oct 2026 10:37:36 GMT",
+      "summary": "Who should we leave our pensions to?\nInheritance tax rules are changing next year — but you need to balance tax efficiency with fairness"
     },
     {
-      "title": "US arrests Saudi employee of OpenAI for allegedly bugging its offices",
-      "link": "https://www.ft.com/content/2c3b583a-3ddc-4920-a350-9698c119435c?syn-25a6b1a6=1",
-      "raw_summary": "AI lab discovered a recording device concealed behind a television in a conference room",
+      "title": "BlackRock pulls in $205bn to take assets to record high",
+      "link": "https://www.ft.com/content/63e3c39b-357f-4a87-adf0-090c60c929a7?syn-25a6b1a6=1",
+      "raw_summary": "World’s largest asset manager has become an increasingly powerful force in private capital after acquisitions of HPS and Global Infrastructure Partners",
       "source": "World",
-      "published": "Wed, 14 Oct 2026 01:59:24 GMT",
-      "summary": "US arrests Saudi employee of OpenAI for allegedly bugging its offices\nAI lab discovered a recording device concealed behind a television in a conference room"
+      "published": "Wed, 14 Oct 2026 10:33:32 GMT",
+      "summary": "BlackRock pulls in $205bn to take assets to record high\nWorld’s largest asset manager has become an increasingly powerful force in private capital after acquisitions of HPS and Global Infrastructure Partners"
     },
     {
-      "title": "Russia arrests Japanese journalist on espionage charges",
-      "link": "https://www.ft.com/content/b77a0094-c6f1-449a-9323-2b4d16696cb7?syn-25a6b1a6=1",
-      "raw_summary": "Detention of Hokkaido Shimbun reporter follows series of arrests denounced as politically motivated",
+      "title": "FirstFT: Marine Le Pen gears up for EU fight",
+      "link": "https://www.ft.com/content/25c6e29b-f6e6-40a4-b9df-cd0883e9234f?syn-25a6b1a6=1",
+      "raw_summary": "Also in today’s newsletter: Saudi Aramco HQ attacked, and China’s exports surge",
       "source": "World",
-      "published": "Wed, 14 Oct 2026 01:20:47 GMT",
-      "summary": "Russia arrests Japanese journalist on espionage charges\nDetention of Hokkaido Shimbun reporter follows series of arrests denounced as politically motivated"
+      "published": "Wed, 14 Oct 2026 10:02:13 GMT",
+      "summary": "FirstFT: Marine Le Pen gears up for EU fight\nAlso in today’s newsletter: Saudi Aramco HQ attacked, and China’s exports surge"
     },
     {
-      "title": "Home of London’s oldest restaurant, Rules, given to National Trust",
-      "link": "https://www.ft.com/content/1386e75c-d292-4e56-a6c5-c69b0b77ad7c?syn-25a6b1a6=1",
-      "raw_summary": "Building in Covent Garden bequeathed to heritage charity to ensure 228-year institution remains ‘part of the city’s cultural life’",
+      "title": "General Atlantic plans early 2027 IPO at up to $10bn valuation",
+      "link": "https://www.ft.com/content/0f7511ee-efb1-4bf0-8f87-67f572193fd3?syn-25a6b1a6=1",
+      "raw_summary": "Private capital group looks to fund ambitious expansion plan to keep pace with rivals Blackstone and Apollo Global",
       "source": "World",
-      "published": "Tue, 13 Oct 2026 23:01:08 GMT",
-      "summary": "Home of London’s oldest restaurant, Rules, given to National Trust\nBuilding in Covent Garden bequeathed to heritage charity to ensure 228-year institution remains ‘part of the city’s cultural life’"
+      "published": "Wed, 14 Oct 2026 10:00:02 GMT",
+      "summary": "General Atlantic plans early 2027 IPO at up to $10bn valuation\nPrivate capital group looks to fund ambitious expansion plan to keep pace with rivals Blackstone and Apollo Global"
     },
     {
-      "title": "Tougher competition for internships strains UK graduate jobs market",
-      "link": "https://www.ft.com/content/3a3d3eb8-ff86-418e-9704-c1ff601718c4?syn-25a6b1a6=1",
-      "raw_summary": "Applications for summer internships rise 27% as students face ‘day zero’ fight to get ahead in increasingly automated recruitment process",
+      "title": "CoreWeave targets ‘unlimited’ insurance money to fund AI build-out",
+      "link": "https://www.ft.com/content/4ffa1853-0e2c-424f-b941-88c6bcac5765?syn-25a6b1a6=1",
+      "raw_summary": "Co-founder eyes insurers’ vast capital for loans as the Nvidia-backed cloud provider seeks to fund the data centre build-out",
       "source": "World",
-      "published": "Tue, 13 Oct 2026 23:01:08 GMT",
-      "summary": "Tougher competition for internships strains UK graduate jobs market\nApplications for summer internships rise 27% as students face ‘day zero’ fight to get ahead in increasingly automated recruitment process"
+      "published": "Wed, 14 Oct 2026 09:58:48 GMT",
+      "summary": "CoreWeave targets ‘unlimited’ insurance money to fund AI build-out\nCo-founder eyes insurers’ vast capital for loans as the Nvidia-backed cloud provider seeks to fund the data centre build-out"
     },
     {
-      "title": "Speculation Over STT Cut Lifts Sentiment for Indian Stocks",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-10-14/speculation-over-stt-cut-lifts-sentiment-for-indian-stocks",
-      "raw_summary": "Nifty jumps as traders seize on a rather noncommittal remark by Sitharaman about the securities transaction tax.",
+      "title": "How to Survive in a World Reshaped by Trump",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-14/how-to-survive-in-a-world-reshaped-by-trump-video",
+      "raw_summary": "The rules of engagement between countries are changing in a world increasingly shaped by Donald Trump and China. What does it take to survive? Rebecca Choong Wilkins explains from Bloomberg New Economy Forum in New Delhi. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Wed, 14 Oct 2026 02:30:01 GMT",
-      "summary": "Speculation Over STT Cut Lifts Sentiment for Indian Stocks\nNifty jumps as traders seize on a rather noncommittal remark by Sitharaman about the securities transaction tax."
+      "published": "Wed, 14 Oct 2026 10:48:35 GMT",
+      "summary": "How to Survive in a World Reshaped by Trump\nThe rules of engagement between countries are changing in a world increasingly shaped by Donald Trump and China. What does it take to survive? Rebecca Choong Wilkins explains from Bloomberg New Economy Forum in New Delhi. (Source: Bloomberg)"
     },
     {
-      "title": "Latest Oil Market News and Analysis for Oct. 14",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-13/latest-oil-market-news-and-analysis-for-oct-14",
-      "raw_summary": "Oil climbed as a flare-up in attacks in the Middle East increased uncertainty over a recovery in Persian Gulf energy flows.",
+      "title": "India's Mittal Says His Satellite Venture Is Ahead of Musk's Starlink",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-14/the-pulse-10-14-2026-video",
+      "raw_summary": "\"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story is, bringing you exclusive interviews and market-moving scoops.\n\nToday's guests: Helene Budliger Artieda, Switzerland's State Secretary for Economic Affairs; Kevin Sneader, Goldman Sachs President of Asia Pacific Ex-Japan (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Tue, 13 Oct 2026 22:02:59 GMT",
-      "summary": "Latest Oil Market News and Analysis for Oct. 14\nOil climbed as a flare-up in attacks in the Middle East increased uncertainty over a recovery in Persian Gulf energy flows."
+      "published": "Wed, 14 Oct 2026 10:42:27 GMT",
+      "summary": "India's Mittal Says His Satellite Venture Is Ahead of Musk's Starlink\n\"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story is, bringing you exclusive in"
     },
     {
-      "title": "How HSBC Is Pivoting to Indian Growth Opportunities",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-14/how-hsbc-is-pivoting-to-indian-growth-opportunities-video",
-      "raw_summary": "Surendra Rosha, HSBC Asia & Middle East Co-Chief Executive, discusses growth opportunities in India including infrastructure buildout. (Source: Bloomberg)",
+      "title": "Copper Edges Towards Record High as Aurubis Sees Tight Market",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-14/copper-climbs-to-three-week-high-on-strike-threat-fed-comments",
+      "raw_summary": "Copper climbed towards a record high, with Europe’s top producer Aurubis AG stating that huge shipments of metal to the US are fueling tight market conditions.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 14 Oct 2026 02:23:24 GMT",
-      "summary": "How HSBC Is Pivoting to Indian Growth Opportunities\nSurendra Rosha, HSBC Asia & Middle East Co-Chief Executive, discusses growth opportunities in India including infrastructure buildout. (Source: Bloomberg)"
+      "published": "Wed, 14 Oct 2026 04:37:20 GMT",
+      "summary": "Copper Edges Towards Record High as Aurubis Sees Tight Market\nCopper climbed towards a record high, with Europe’s top producer Aurubis AG stating that huge shipments of metal to the US are fueling tight market conditions."
     },
     {
-      "title": "Olympus Shares Slump on FDA Warning Letter on Six Facilities",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-14/olympus-shares-plunge-after-fda-warning-letter-on-six-facilities",
-      "raw_summary": "Olympus Corp. shares tumbled the most since April 2025 after the US Food and Drug Administration issued a warning letter to the Japanese medical device maker following inspections the agency previously conducted at six facilities.",
-      "source": "Bloomberg Markets",
-      "published": "Wed, 14 Oct 2026 01:00:17 GMT",
-      "summary": "Olympus Shares Slump on FDA Warning Letter on Six Facilities\nOlympus Corp. shares tumbled the most since April 2025 after the US Food and Drug Administration issued a warning letter to the Japanese medical device maker following inspections the agency previously conducted at six facilities."
-    },
-    {
-      "title": "Asian Stocks Gain Before US CPI Data, Oil Climbs: Markets Wrap",
+      "title": "US Stocks Edge Higher in Countdown to Inflation: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-10-13/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "Asian stocks posted a modest gain ahead of key US inflation data as expectations grew that the Federal Reserve may not need to raise interest rates aggressively next year. Crude oil advanced.",
+      "raw_summary": "US stocks rose modestly as traders stayed cautious ahead of the latest US inflation reading alongside a busy slate of corporate events spanning artificial intelligence and banking.",
       "source": "Bloomberg Markets",
       "published": "Tue, 13 Oct 2026 22:03:38 GMT",
-      "summary": "Asian Stocks Gain Before US CPI Data, Oil Climbs: Markets Wrap\nAsian stocks posted a modest gain ahead of key US inflation data as expectations grew that the Federal Reserve may not need to raise interest rates aggressively next year. Crude oil advanced."
+      "summary": "US Stocks Edge Higher in Countdown to Inflation: Markets Wrap\nUS stocks rose modestly as traders stayed cautious ahead of the latest US inflation reading alongside a busy slate of corporate events spanning artificial intelligence and banking."
     },
     {
-      "title": "Largest Philippines crypto exchange, Coins.ph, said to face central bank regulatory action",
-      "link": "https://www.coindesk.com/policy/2026/10/13/largest-philippines-crypto-exchange-coins-ph-said-to-face-central-bank-regulatory-action",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 14 Oct 2026 01:00:00 +0000",
-      "summary": "Largest Philippines crypto exchange, Coins.ph, said to face central bank regulatory action\n"
+      "title": "BHP, Escondida Workers Near Deal to Avert Copper Mine Strike",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-14/world-s-top-copper-mine-faces-strike-as-wage-talks-break-down",
+      "raw_summary": "A deal to avert a strike at BHP Group’s Escondida in Chile is “virtually done,” according to a union leader, signaling a breakthrough in eleventh-hour wage talks at the world’s biggest copper mine.",
+      "source": "Bloomberg Markets",
+      "published": "Wed, 14 Oct 2026 01:05:52 GMT",
+      "summary": "BHP, Escondida Workers Near Deal to Avert Copper Mine Strike\nA deal to avert a strike at BHP Group’s Escondida in Chile is “virtually done,” according to a union leader, signaling a breakthrough in eleventh-hour wage talks at the world’s biggest copper mine."
     },
     {
-      "title": "Strive raising $500 million to buy additional bitcoin with new preferred share class",
-      "link": "https://www.coindesk.com/markets/2026/10/13/strive-to-ipo-second-preferred-share-class-as-it-looks-to-further-build-bitcoin-treasury",
+      "title": "Bitcoin holds above $83,000 ahead of U.S. inflation data as altcoins lag",
+      "link": "https://www.coindesk.com/markets/2026/10/14/bitcoin-holds-above-usd83-000-ahead-of-u-s-inflation-data-as-altcoins-lag",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 13 Oct 2026 23:23:05 +0000",
-      "summary": "Strive raising $500 million to buy additional bitcoin with new preferred share class\n"
+      "published": "Wed, 14 Oct 2026 10:51:39 +0000",
+      "summary": "Bitcoin holds above $83,000 ahead of U.S. inflation data as altcoins lag\n"
     },
     {
-      "title": "BNY, Citadel Securities test tokenized U.S. Treasuries to speed up Wall Street financing",
-      "link": "https://www.coindesk.com/business/2026/10/13/bny-citadel-securities-test-tokenized-u-s-treasuries-to-speed-up-wall-street-financing",
+      "title": "S&P 500 options are the hottest bet on this Hyperliquid exchange",
+      "link": "https://www.coindesk.com/markets/2026/10/14/s-and-p-500-options-are-the-hottest-bet-on-this-hyperliquid-exchange",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 13 Oct 2026 21:52:00 +0000",
-      "summary": "BNY, Citadel Securities test tokenized U.S. Treasuries to speed up Wall Street financing\n"
+      "published": "Wed, 14 Oct 2026 10:38:47 +0000",
+      "summary": "S&P 500 options are the hottest bet on this Hyperliquid exchange\n"
     },
     {
-      "title": "Crypto exchange MNX takes on OKX, Bitget offering pre-IPO futures for AI giants",
-      "link": "https://www.coindesk.com/business/2026/10/13/new-crypto-exchange-takes-on-okx-bitget-with-unique-way-to-trade-ai-giants",
+      "title": "Live updates: Bitcoin tumbles from near $84,000 ahead of U.S. inflation data",
+      "link": "https://www.coindesk.com/business/2026/10/14/live-updates-bitcoin-tumbles-from-near-usd84-000-ahead-of-u-s-inflation-data",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 13 Oct 2026 15:52:09 +0000",
-      "summary": "Crypto exchange MNX takes on OKX, Bitget offering pre-IPO futures for AI giants\n"
+      "published": "Wed, 14 Oct 2026 09:45:53 +0000",
+      "summary": "Live updates: Bitcoin tumbles from near $84,000 ahead of U.S. inflation data\n"
     },
     {
-      "title": "UK crypto trader says almost $800,000 lost in knife assault as wrench attacks proliferate",
-      "link": "https://www.coindesk.com/policy/2026/10/13/why-self-custody-and-hardware-wallets-cannot-prevent-physical-crypto-extortion",
+      "title": "Proposed 31.4% French tax on regulated stablecoins could drive crypto traders offshore",
+      "link": "https://www.coindesk.com/policy/2026/10/14/proposed-french-tax-on-regulated-stablecoins-could-drive-crypto-traders-offshore",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 13 Oct 2026 15:24:52 +0000",
-      "summary": "UK crypto trader says almost $800,000 lost in knife assault as wrench attacks proliferate\n"
+      "published": "Wed, 14 Oct 2026 08:48:11 +0000",
+      "summary": "Proposed 31.4% French tax on regulated stablecoins could drive crypto traders offshore\n"
+    },
+    {
+      "title": "Standard Chartered unlocks direct bitcoin and ether trading for affluent UAE clients",
+      "link": "https://www.coindesk.com/business/2026/10/14/standard-chartered-unlocks-direct-bitcoin-and-ether-trading-for-affluent-uae-clients",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 14 Oct 2026 08:10:07 +0000",
+      "summary": "Standard Chartered unlocks direct bitcoin and ether trading for affluent UAE clients\n"
     }
   ]
 }
