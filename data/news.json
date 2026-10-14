@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T16:14:35.732140+00:00",
+  "generated_at": "2026-10-14T21:08:42.888875+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation\nAuthorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arre"
     },
     {
+      "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
+      "link": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
+      "raw_summary": "Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco&nbsp;said in an advisory&nbsp;on Wednesday.\n\nThe attacker sends an email with a crafted attachment through the gateway and, if it succeeds, could then run commands as root. The appliance filters an organization's email for spam, malware,",
+      "source": "The Hacker News",
+      "published": "Thu, 15 Oct 2026 00:08:56 +0530",
+      "summary": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability\nAttackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco&nbsp;said in an advisory&nbsp;on Wednesday.\n\nThe att"
+    },
+    {
+      "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
+      "link": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
+      "raw_summary": "Attackers exploited a flaw in an optional Nextcloud app,&nbsp;Collabora Online - Built-in CODE Server, to plant web shells on Nextcloud servers. Three administrators&nbsp;reported the issue on GitHub, with the first logged attack on September 10.\n\nA web shell is a small file that executes any command an attacker sends via a web request, with the rights of the web server account. The flaw",
+      "source": "The Hacker News",
+      "published": "Wed, 14 Oct 2026 23:08:31 +0530",
+      "summary": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App\nAttackers exploited a flaw in an optional Nextcloud app,&nbsp;Collabora Online - Built-in CODE Server, to plant web shells on Nextcloud servers. Three administrators&nbsp;reported the issue on GitHub, with the "
+    },
+    {
+      "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
+      "link": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
+      "raw_summary": "Microsoft and Health-ISAC, along with the Japan Cybercrime Control Center (JC3) and a coalition of private sector companies, such as Resecurity, Cloudflare, Oracle, Proofpoint, and TRM Labs, announced the disruption of three phishing kits, CoGUI (aka NX or FA), Haozi (aka Phoenix), and Iron Man System.\n\n\"Since January 2026, the threat actors behind these kits have been responsible for",
+      "source": "The Hacker News",
+      "published": "Wed, 14 Oct 2026 22:39:15 +0530",
+      "summary": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages\nMicrosoft and Health-ISAC, along with the Japan Cybercrime Control Center (JC3) and a coalition of private sector companies, such as Resecurity, Cloudflare, Oracle, Proofpoint, and TRM Labs, announced the disruption of three p"
+    },
+    {
+      "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
+      "link": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
+      "raw_summary": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme.\n\nThe indictment charges a mix of U.S. citizens and Chinese nationals for their roles in an IT worker conspiracy affecting more than 70 U.S. companies, charging them with wire fraud conspiracy, money",
+      "source": "The Hacker News",
+      "published": "Wed, 14 Oct 2026 22:04:31 +0530",
+      "summary": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud\nThe U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme.\n\nThe indictment charges "
+    },
+    {
       "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
       "link": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
       "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an actively exploited vulnerability.\n\nThe security flaw, tracked as CVE-2026-104935 (CVSS score: 8.6), is a case of authentication bypass impacting ICS",
@@ -51,236 +83,212 @@
       "summary": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest vers"
     },
     {
-      "title": "curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution",
-      "link": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
-      "raw_summary": "A flaw in how curl handles HTTP/2 uploads lets a malicious server receiving an upload corrupt the client's memory, and the researcher who reported it turned that into code execution on the uploading machine.\n\nThe curl project fixed it on October 14 in&nbsp;curl 8.23.0. Taking over a client needs exact knowledge of its build and memory layout, and curl expects a real attack to end in a crash",
-      "source": "The Hacker News",
-      "published": "Wed, 14 Oct 2026 17:43:36 +0530",
-      "summary": "curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution\nA flaw in how curl handles HTTP/2 uploads lets a malicious server receiving an upload corrupt the client's memory, and the researcher who reported it turned that into code execution on the uploading machine.\n\nThe curl "
-    },
-    {
-      "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
-      "link": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
-      "raw_summary": "Cloned voices and synthetic video calls now show up in payment fraud, help desk resets, and access requests. A structured drill shows security teams exactly where verification breaks down, while nothing is at stake.\n\nThe call comes in at 4:40 on a Friday. It's the CFO, or it sounds exactly like her, asking the controller to push a supplier payment out before the weekend because a deal closes",
-      "source": "The Hacker News",
-      "published": "Wed, 14 Oct 2026 17:20:00 +0530",
-      "summary": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team\nCloned voices and synthetic video calls now show up in payment fraud, help desk resets, and access requests. A structured drill shows security teams exactly where verification breaks down, while nothing is at stake.\n\nThe cal"
-    },
-    {
-      "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
-      "link": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
-      "raw_summary": "A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said.\n\nIts researchers built the attack in six days by directing AI agents running OpenAI's publicly available GPT-5.6 Sol model. Google has since confirmed all three bugs,&nbsp;fixed them, and paid XBOW its top $",
-      "source": "The Hacker News",
-      "published": "Wed, 14 Oct 2026 16:49:02 +0530",
-      "summary": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days\nA team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said.\n\nIts researcher"
-    },
-    {
-      "title": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
-      "link": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
-      "raw_summary": "Cybersecurity researchers have disclosed details of a new Android banking trojan called Hirudo that works by replacing legitimate banking apps with purpose-built patched versions designed to bypass security checks from inside the app itself, marking a new escalation in financial fraud.&nbsp;\n\nDutch mobile security company ThreatFabric said it identified replacements for eight Indonesian banking",
-      "source": "The Hacker News",
-      "published": "Wed, 14 Oct 2026 16:38:22 +0530",
-      "summary": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks\nCybersecurity researchers have disclosed details of a new Android banking trojan called Hirudo that works by replacing legitimate banking apps with purpose-built patched versions designed to bypass security chec"
-    },
-    {
-      "title": "Shit Flow Diagram",
-      "link": "https://en.wikipedia.org/wiki/Shit_flow_diagram",
-      "raw_summary": "<p>Article URL: <a href=\"https://en.wikipedia.org/wiki/Shit_flow_diagram\">https://en.wikipedia.org/wiki/Shit_flow_diagram</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50089624\">https://news.ycombinator.com/item?id=50089624</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
+      "title": "OpenCode 2.0",
+      "link": "https://anoma.ly/notes/opencode-2-0/",
+      "raw_summary": "<p>Article URL: <a href=\"https://anoma.ly/notes/opencode-2-0/\">https://anoma.ly/notes/opencode-2-0/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50094994\">https://news.ycombinator.com/item?id=50094994</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 14 Oct 2026 15:51:40 +0000",
-      "summary": "Shit Flow Diagram\n<p>Article URL: <a href=\"https://en.wikipedia.org/wiki/Shit_flow_diagram\">https://en.wikipedia.org/wiki/Shit_flow_diagram</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50089624\">https://news.ycombinator.com/item?id=50089624</a></p>\n<p>Points: 6</p>\n<p># Com"
+      "published": "Wed, 14 Oct 2026 20:48:24 +0000",
+      "summary": "OpenCode 2.0\n<p>Article URL: <a href=\"https://anoma.ly/notes/opencode-2-0/\">https://anoma.ly/notes/opencode-2-0/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50094994\">https://news.ycombinator.com/item?id=50094994</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>"
     },
     {
-      "title": "Character.ai's Bankruptcy Documents Show the Economics of AI Don't Work",
-      "link": "https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/\">https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50089395\">https://news.ycombinator.com/item?id=50089395</a></p>\n<p>Points: 14</p>\n<p># Comments: 5</p>",
+      "title": "Anthropic's Scion is heavily inspired by Mononoke",
+      "link": "https://sunshowers.io/posts/anthropic-mononoke/",
+      "raw_summary": "<p>Article URL: <a href=\"https://sunshowers.io/posts/anthropic-mononoke/\">https://sunshowers.io/posts/anthropic-mononoke/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50094694\">https://news.ycombinator.com/item?id=50094694</a></p>\n<p>Points: 57</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 14 Oct 2026 15:39:45 +0000",
-      "summary": "Character.ai's Bankruptcy Documents Show the Economics of AI Don't Work\n<p>Article URL: <a href=\"https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/\">https://www.404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work/</a></p>\n<p>C"
+      "published": "Wed, 14 Oct 2026 20:30:54 +0000",
+      "summary": "Anthropic's Scion is heavily inspired by Mononoke\n<p>Article URL: <a href=\"https://sunshowers.io/posts/anthropic-mononoke/\">https://sunshowers.io/posts/anthropic-mononoke/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50094694\">https://news.ycombinator.com/item?id=50094694</"
     },
     {
-      "title": "Submarine Cable Resilience",
-      "link": "https://blog.apnic.net/2026/10/14/submarine-cable-resilience/",
-      "raw_summary": "<p>Article URL: <a href=\"https://blog.apnic.net/2026/10/14/submarine-cable-resilience/\">https://blog.apnic.net/2026/10/14/submarine-cable-resilience/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50089229\">https://news.ycombinator.com/item?id=50089229</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "title": "Yandex outage: data shows that instead of going dark, malicious bots moved",
+      "link": "https://blog.cloudflare.com/yandex-outage/",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.cloudflare.com/yandex-outage/\">https://blog.cloudflare.com/yandex-outage/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50094673\">https://news.ycombinator.com/item?id=50094673</a></p>\n<p>Points: 57</p>\n<p># Comments: 13</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 14 Oct 2026 15:31:15 +0000",
-      "summary": "Submarine Cable Resilience\n<p>Article URL: <a href=\"https://blog.apnic.net/2026/10/14/submarine-cable-resilience/\">https://blog.apnic.net/2026/10/14/submarine-cable-resilience/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50089229\">https://news.ycombinator.com/item?id=50089"
+      "published": "Wed, 14 Oct 2026 20:29:13 +0000",
+      "summary": "Yandex outage: data shows that instead of going dark, malicious bots moved\n<p>Article URL: <a href=\"https://blog.cloudflare.com/yandex-outage/\">https://blog.cloudflare.com/yandex-outage/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50094673\">https://news.ycombinator.com/ite"
     },
     {
-      "title": "Passkeys Are Not a Trap",
-      "link": "https://scotthelme.co.uk/passkeys-are-not-a-trap/",
-      "raw_summary": "<p>Article URL: <a href=\"https://scotthelme.co.uk/passkeys-are-not-a-trap/\">https://scotthelme.co.uk/passkeys-are-not-a-trap/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50088935\">https://news.ycombinator.com/item?id=50088935</a></p>\n<p>Points: 188</p>\n<p># Comments: 234</p>",
+      "title": "Fancy Curl Sites",
+      "link": "https://nytpu.com/gemlog/2026-03-18",
+      "raw_summary": "<p>Article URL: <a href=\"https://nytpu.com/gemlog/2026-03-18\">https://nytpu.com/gemlog/2026-03-18</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50093612\">https://news.ycombinator.com/item?id=50093612</a></p>\n<p>Points: 25</p>\n<p># Comments: 6</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 14 Oct 2026 15:15:45 +0000",
-      "summary": "Passkeys Are Not a Trap\n<p>Article URL: <a href=\"https://scotthelme.co.uk/passkeys-are-not-a-trap/\">https://scotthelme.co.uk/passkeys-are-not-a-trap/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50088935\">https://news.ycombinator.com/item?id=50088935</a></p>\n<p>Points: 188<"
+      "published": "Wed, 14 Oct 2026 19:29:12 +0000",
+      "summary": "Fancy Curl Sites\n<p>Article URL: <a href=\"https://nytpu.com/gemlog/2026-03-18\">https://nytpu.com/gemlog/2026-03-18</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50093612\">https://news.ycombinator.com/item?id=50093612</a></p>\n<p>Points: 25</p>\n<p># Comments: 6</p>"
     },
     {
-      "title": "Show HN: Graphicle, a Rust port of Graphify with memory for coding agents",
-      "link": "https://github.com/graphicle-ai/graphicle",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/graphicle-ai/graphicle\">https://github.com/graphicle-ai/graphicle</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50088713\">https://news.ycombinator.com/item?id=50088713</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "title": "Things to know if you get cancer in 2026",
+      "link": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
+      "raw_summary": "<p>Article URL: <a href=\"https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/\">https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50093568\">https://news.ycombinator.com/item?id=50093568</a></p>\n<p>Points: 284</p>\n<p># Comments: 50</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 14 Oct 2026 15:00:41 +0000",
-      "summary": "Show HN: Graphicle, a Rust port of Graphify with memory for coding agents\n<p>Article URL: <a href=\"https://github.com/graphicle-ai/graphicle\">https://github.com/graphicle-ai/graphicle</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50088713\">https://news.ycombinator.com/item?i"
+      "published": "Wed, 14 Oct 2026 19:26:30 +0000",
+      "summary": "Things to know if you get cancer in 2026\n<p>Article URL: <a href=\"https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/\">https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50093568\">https://news.ycomb"
     },
     {
-      "title": "Prismm helps banks keep inherited money in-house",
-      "link": "https://techcrunch.com/2026/10/14/prismm-helps-banks-keep-inherited-money-in-house/",
-      "raw_summary": "With Prismm, account holders can give designated family members access to their accounts and documents ahead of time.",
+      "title": "Colossal Biosciences announces new AI platform to help accelerate de-extinction efforts",
+      "link": "https://techcrunch.com/2026/10/14/colossal-biosciences-announces-new-ai-platform-to-help-accelerate-de-extinction-efforts/",
+      "raw_summary": "Colossal announced a new AI platform to help accelerate its de-extinction efforts and  Peter Diamandis has launched a new fund to back startups who use it.",
       "source": "TechCrunch",
-      "published": "Wed, 14 Oct 2026 16:00:00 +0000",
-      "summary": "Prismm helps banks keep inherited money in-house\nWith Prismm, account holders can give designated family members access to their accounts and documents ahead of time."
+      "published": "Wed, 14 Oct 2026 21:00:00 +0000",
+      "summary": "Colossal Biosciences announces new AI platform to help accelerate de-extinction efforts\nColossal announced a new AI platform to help accelerate its de-extinction efforts and  Peter Diamandis has launched a new fund to back startups who use it."
     },
     {
-      "title": "Deezer will soon let you filter out AI-generated music",
-      "link": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
-      "raw_summary": "Deezer said that the new toggle will be rolled out by the end of the year.",
+      "title": "Flock CEO: We haven’t ‘fired’ any police departments as customers",
+      "link": "https://techcrunch.com/2026/10/14/flock-ceo-we-havent-fired-any-police-departments-as-customers/",
+      "raw_summary": "Flock CEO Garrett Langley said that the surveillance company has not canceled contracts of any police department or law enforcement agency, despite reports of abuse.",
       "source": "TechCrunch",
-      "published": "Wed, 14 Oct 2026 15:16:04 +0000",
-      "summary": "Deezer will soon let you filter out AI-generated music\nDeezer said that the new toggle will be rolled out by the end of the year."
+      "published": "Wed, 14 Oct 2026 20:26:25 +0000",
+      "summary": "Flock CEO: We haven’t ‘fired’ any police departments as customers\nFlock CEO Garrett Langley said that the surveillance company has not canceled contracts of any police department or law enforcement agency, despite reports of abuse."
     },
     {
-      "title": "Save 50% on your TechCrunch Disrupt 2026 ticket and join the last 2 days in San Francisco’s Moscone West",
-      "link": "https://techcrunch.com/2026/10/14/save-50-on-your-techcrunch-disrupt-2026-ticket-and-join-the-last-two-days-in-san-francisco/",
-      "raw_summary": "Get a 50% discount on the last two days of TechCrunch Disrupt 2026, October 14-15, in San Francisco's Moscone West. Register now and join the rest of the startup ecosystem. Today, it's all about physical and software AI.",
+      "title": "Electric vehicle sales in the US are showing signs of life",
+      "link": "https://techcrunch.com/2026/10/14/electric-vehicle-sales-in-the-u-s-are-showing-signs-of-life/",
+      "raw_summary": "The electric vehicle market in the U.S. has been growing for the last three consecutive quarters.",
       "source": "TechCrunch",
-      "published": "Wed, 14 Oct 2026 15:13:24 +0000",
-      "summary": "Save 50% on your TechCrunch Disrupt 2026 ticket and join the last 2 days in San Francisco’s Moscone West\nGet a 50% discount on the last two days of TechCrunch Disrupt 2026, October 14-15, in San Francisco's Moscone West. Register now and join the rest of the startup ecosystem. Today, it's all about "
+      "published": "Wed, 14 Oct 2026 20:12:07 +0000",
+      "summary": "Electric vehicle sales in the US are showing signs of life\nThe electric vehicle market in the U.S. has been growing for the last three consecutive quarters."
     },
     {
-      "title": "Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace",
-      "link": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/",
-      "raw_summary": "Zenzap is used by organizations including Starbucks and Taco Bell.",
+      "title": "TimeTeller puts our internal clocks at the center of personalized medicine",
+      "link": "https://techcrunch.com/2026/10/14/timeteller-puts-our-internal-clocks-at-the-center-of-personalized-medicine/",
+      "raw_summary": "German startup TimeTeller has developed a saliva test kit to help anyone understand their circadian rhythm; it aims to reduce side effects from cancer treatments.",
       "source": "TechCrunch",
-      "published": "Wed, 14 Oct 2026 15:08:00 +0000",
-      "summary": "Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace\nZenzap is used by organizations including Starbucks and Taco Bell."
+      "published": "Wed, 14 Oct 2026 20:00:00 +0000",
+      "summary": "TimeTeller puts our internal clocks at the center of personalized medicine\nGerman startup TimeTeller has developed a saliva test kit to help anyone understand their circadian rhythm; it aims to reduce side effects from cancer treatments."
     },
     {
-      "title": "Floqer’s AI agents research sales prospects so teams don’t have to",
-      "link": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/",
-      "raw_summary": "The problem Floqer is trying to solve is familiar to anyone who has worked in sales or revenue operations.",
+      "title": "Ambrosia Energy will build a 10 GWh factory in Texas to make batteries for off-grid data centers",
+      "link": "https://techcrunch.com/2026/10/14/ambrosia-energy-will-build-a-10-gwh-factory-in-texas-to-make-batteries-for-off-grid-data-centers/",
+      "raw_summary": "Startup Ambrosia Energy will build a massive factory to crank out batteries to augment solar panels, creating a round-the-clock clean power plant.",
       "source": "TechCrunch",
-      "published": "Wed, 14 Oct 2026 15:00:00 +0000",
-      "summary": "Floqer’s AI agents research sales prospects so teams don’t have to\nThe problem Floqer is trying to solve is familiar to anyone who has worked in sales or revenue operations."
+      "published": "Wed, 14 Oct 2026 19:51:34 +0000",
+      "summary": "Ambrosia Energy will build a 10 GWh factory in Texas to make batteries for off-grid data centers\nStartup Ambrosia Energy will build a massive factory to crank out batteries to augment solar panels, creating a round-the-clock clean power plant."
     },
     {
-      "title": "Ukraine blindsided by Starlink throttling restrictions and intelligence gaps",
-      "link": "https://arstechnica.com/gadgets/2026/10/ukraine-blindsided-by-starlink-throttling-restrictions-and-intelligence-gaps/",
-      "raw_summary": "Kyiv’s forces experience connectivity problems on Elon Musk’s satellite network.",
+      "title": "Things are finally looking up for NASA's first missions to Venus in a generation",
+      "link": "https://arstechnica.com/space/2026/10/nasas-embattled-venus-missions-are-back-on-track-after-cancellation-threat/",
+      "raw_summary": "\"This is great news for us. We're staffing up. We're accelerating.\"",
       "source": "Ars Technica - All content",
-      "published": "Wed, 14 Oct 2026 13:56:11 +0000",
-      "summary": "Ukraine blindsided by Starlink throttling restrictions and intelligence gaps\nKyiv’s forces experience connectivity problems on Elon Musk’s satellite network."
+      "published": "Wed, 14 Oct 2026 20:48:07 +0000",
+      "summary": "Things are finally looking up for NASA's first missions to Venus in a generation\n\"This is great news for us. We're staffing up. We're accelerating.\""
     },
     {
-      "title": "Anthropic warns small AI models could self-replicate through IoT devices",
-      "link": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
-      "raw_summary": "\"Small weight-based replicators\" could usher in a new generation of computer worms.",
+      "title": "Schools across US protest FCC plan that could disconnect kids from Internet",
+      "link": "https://arstechnica.com/tech-policy/2026/10/schools-libraries-plead-with-fcc-to-scrap-idea-of-killing-2b-broadband-program/",
+      "raw_summary": "FCC chair threatens E-Rate fund, blames schools for kids' excessive screen time.",
       "source": "Ars Technica - All content",
-      "published": "Wed, 14 Oct 2026 12:55:06 +0000",
-      "summary": "Anthropic warns small AI models could self-replicate through IoT devices\n\"Small weight-based replicators\" could usher in a new generation of computer worms."
+      "published": "Wed, 14 Oct 2026 20:15:56 +0000",
+      "summary": "Schools across US protest FCC plan that could disconnect kids from Internet\nFCC chair threatens E-Rate fund, blames schools for kids' excessive screen time."
     },
     {
-      "title": "The Internet’s undersea backbone is slipping into the danger zone",
-      "link": "https://arstechnica.com/gadgets/2026/10/the-internets-undersea-backbone-is-slipping-into-to-the-danger-zone/",
-      "raw_summary": "Elisabeth Braw’s book <em>Undersea War</em> on rising risks for undersea infrastructure.",
+      "title": "Georgia man sues Flock, sheriff's office over alleged ALPR-fueled retaliation",
+      "link": "https://arstechnica.com/tech-policy/2026/10/georgia-man-sues-flock-sheriffs-office-over-alleged-alpr-fueled-retaliation/",
+      "raw_summary": "Plaintiff claims cameras enabled warrantless tracking and monitoring after he previously sued over excessive force.",
       "source": "Ars Technica - All content",
-      "published": "Wed, 14 Oct 2026 11:15:24 +0000",
-      "summary": "The Internet’s undersea backbone is slipping into the danger zone\nElisabeth Braw’s book <em>Undersea War</em> on rising risks for undersea infrastructure."
+      "published": "Wed, 14 Oct 2026 19:53:01 +0000",
+      "summary": "Georgia man sues Flock, sheriff's office over alleged ALPR-fueled retaliation\nPlaintiff claims cameras enabled warrantless tracking and monitoring after he previously sued over excessive force."
     },
     {
-      "title": "OpenAI, Google pushing new AI models easily tricked into making nudes, researchers say",
-      "link": "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/",
-      "raw_summary": "Attack method exposes flaws in OpenAI, Google safeguards against AI nudes.",
+      "title": "Software development and rules stability: Prototype racing in 2030",
+      "link": "https://arstechnica.com/cars/2026/10/software-development-and-rules-stability-prototype-racing-in-2030/",
+      "raw_summary": "With the end of IMSA’s 2026 season, we have thoughts about the future of the sport.",
       "source": "Ars Technica - All content",
-      "published": "Wed, 14 Oct 2026 11:00:30 +0000",
-      "summary": "OpenAI, Google pushing new AI models easily tricked into making nudes, researchers say\nAttack method exposes flaws in OpenAI, Google safeguards against AI nudes."
+      "published": "Wed, 14 Oct 2026 19:44:26 +0000",
+      "summary": "Software development and rules stability: Prototype racing in 2030\nWith the end of IMSA’s 2026 season, we have thoughts about the future of the sport."
     },
     {
-      "title": "Martin Shkreli livestreamed himself violating lifetime pharma ban, FTC says",
-      "link": "https://arstechnica.com/health/2026/10/martin-shkreli-livestreamed-himself-violating-lifetime-pharma-ban-ftc-says/",
-      "raw_summary": "\"I can always find a couple of biotech stocks to smoke,\" Shkreli said in a livestream.",
+      "title": "Greta Gerwig channels Bowie in psychedelic The Magician's Nephew trailer",
+      "link": "https://arstechnica.com/culture/2026/10/greta-gerwig-channels-bowie-in-psychedelic-the-magicians-nephew-trailer/",
+      "raw_summary": "\"Have you ever seen a world born?\"",
       "source": "Ars Technica - All content",
-      "published": "Tue, 13 Oct 2026 22:48:12 +0000",
-      "summary": "Martin Shkreli livestreamed himself violating lifetime pharma ban, FTC says\n\"I can always find a couple of biotech stocks to smoke,\" Shkreli said in a livestream."
+      "published": "Wed, 14 Oct 2026 19:10:58 +0000",
+      "summary": "Greta Gerwig channels Bowie in psychedelic The Magician's Nephew trailer\n\"Have you ever seen a world born?\""
     },
     {
-      "title": "Burnham wants to ‘repair bridges’ between Trump and Zelenskyy",
-      "link": "https://www.ft.com/content/16ceb1fb-662c-4379-8187-0a51a7f4106f?syn-25a6b1a6=1",
-      "raw_summary": "UK prime minister holds talks with Ukraine’s president in Downing Street following US diesel deal with Russia",
+      "title": "US chip stocks slide as inflation and AI debt fears unsettle investors",
+      "link": "https://www.ft.com/content/fb258413-e88d-47fe-98c8-f645adaea1e1?syn-25a6b1a6=1",
+      "raw_summary": "Investors rush into Treasuries as sell-off triggers demand for haven assets",
       "source": "World",
-      "published": "Wed, 14 Oct 2026 15:39:55 GMT",
-      "summary": "Burnham wants to ‘repair bridges’ between Trump and Zelenskyy\nUK prime minister holds talks with Ukraine’s president in Downing Street following US diesel deal with Russia"
+      "published": "Wed, 14 Oct 2026 20:36:40 GMT",
+      "summary": "US chip stocks slide as inflation and AI debt fears unsettle investors\nInvestors rush into Treasuries as sell-off triggers demand for haven assets"
     },
     {
-      "title": "Transcription: Marine Le Pen en entretien avec le Financial Times",
-      "link": "https://www.ft.com/content/9acc4f6f-2faa-4ac1-aa7b-42166d677316?syn-25a6b1a6=1",
-      "raw_summary": "Roula Khalaf, Leila Abboud et Ben Hall interrogent la candidate à la présidentielle de 2027 sur l’Europe, Donald Trump et l’Ukraine",
+      "title": "Perella Weinberg and Piper Sandler abandon merger talks",
+      "link": "https://www.ft.com/content/dadac221-a4dd-4935-897e-7f7faebe8f17?syn-25a6b1a6=1",
+      "raw_summary": "A deal would have created an independent investment bank with an equity value of more than $6bn",
       "source": "World",
-      "published": "Wed, 14 Oct 2026 15:35:15 GMT",
-      "summary": "Transcription: Marine Le Pen en entretien avec le Financial Times\nRoula Khalaf, Leila Abboud et Ben Hall interrogent la candidate à la présidentielle de 2027 sur l’Europe, Donald Trump et l’Ukraine"
-    },
-    {
-      "title": "OpenAI claims employee sent secret device information to Apple",
-      "link": "https://www.ft.com/content/18b65495-9e2a-45d6-be85-7641442ab61a?syn-25a6b1a6=1",
-      "raw_summary": "Tech companies face off in court as ChatGPT maker prepares to unveil AI device designed by Sir Jony Ive",
-      "source": "World",
-      "published": "Wed, 14 Oct 2026 15:33:08 GMT",
-      "summary": "OpenAI claims employee sent secret device information to Apple\nTech companies face off in court as ChatGPT maker prepares to unveil AI device designed by Sir Jony Ive"
+      "published": "Wed, 14 Oct 2026 20:16:29 GMT",
+      "summary": "Perella Weinberg and Piper Sandler abandon merger talks\nA deal would have created an independent investment bank with an equity value of more than $6bn"
     },
     {
       "title": "Berkshire Hathaway adds $330mn to stake in tech group Bending Spoons",
       "link": "https://www.ft.com/content/3f821be4-f137-4cc9-b0b0-b2014f2607c2?syn-25a6b1a6=1",
       "raw_summary": "Shares of conglomerate that owns AOL and Vimeo jumped more than 40% on news of expanded investment before dropping back",
       "source": "World",
-      "published": "Wed, 14 Oct 2026 15:23:53 GMT",
+      "published": "Wed, 14 Oct 2026 20:08:42 GMT",
       "summary": "Berkshire Hathaway adds $330mn to stake in tech group Bending Spoons\nShares of conglomerate that owns AOL and Vimeo jumped more than 40% on news of expanded investment before dropping back"
     },
     {
-      "title": "Netflix to cut 1,000 jobs as growth concerns mount",
-      "link": "https://www.ft.com/content/5f1b2f31-2067-4c3a-8093-54210a7c0e72?syn-25a6b1a6=1",
-      "raw_summary": "Streaming group faces pressure to boost viewer engagement after shares fall more than 40% in a year",
+      "title": "OpenAI claims employee sent secret device information to Apple",
+      "link": "https://www.ft.com/content/18b65495-9e2a-45d6-be85-7641442ab61a?syn-25a6b1a6=1",
+      "raw_summary": "Tech companies face off in court as ChatGPT maker prepares to unveil AI device designed by Sir Jony Ive",
       "source": "World",
-      "published": "Wed, 14 Oct 2026 14:57:17 GMT",
-      "summary": "Netflix to cut 1,000 jobs as growth concerns mount\nStreaming group faces pressure to boost viewer engagement after shares fall more than 40% in a year"
+      "published": "Wed, 14 Oct 2026 20:07:06 GMT",
+      "summary": "OpenAI claims employee sent secret device information to Apple\nTech companies face off in court as ChatGPT maker prepares to unveil AI device designed by Sir Jony Ive"
     },
     {
-      "title": "Treasuries Slump as Hot Inflation Lifts Fed Rate-Hike Bets",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-14/us-treasuries-slump-as-hot-inflation-lifts-fed-rate-hike-bets",
-      "raw_summary": "US Treasuries slumped after hotter-than-expected inflation prompted traders to add to wagers that Federal Reserve officials will raise interest rates later this month and next year.",
-      "source": "Bloomberg Markets",
-      "published": "Wed, 14 Oct 2026 12:44:25 GMT",
-      "summary": "Treasuries Slump as Hot Inflation Lifts Fed Rate-Hike Bets\nUS Treasuries slumped after hotter-than-expected inflation prompted traders to add to wagers that Federal Reserve officials will raise interest rates later this month and next year."
+      "title": "US inflation jumps to 3.7% as Iran war drives up prices",
+      "link": "https://www.ft.com/content/c1e4c8b1-8fe0-414d-b52f-c74a6d927b3d?syn-25a6b1a6=1",
+      "raw_summary": "Rebound in fuel costs has piled pressure on voters ahead of midterm elections",
+      "source": "World",
+      "published": "Wed, 14 Oct 2026 20:06:12 GMT",
+      "summary": "US inflation jumps to 3.7% as Iran war drives up prices\nRebound in fuel costs has piled pressure on voters ahead of midterm elections"
     },
     {
-      "title": "In Credit, Volatility Is An Opportunity: McKnight",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-14/in-credit-volatility-is-an-opportunity-mcknight-video",
-      "raw_summary": "Drew McKnight, Co-CEO and managing partner of Fortress Investment Group, joins Dani Burger on \"Bloomberg Deals.\" They speak CAIS Summit in Beverly Hills, California about the immense capital needed for data centers, the performance of private credit investments, and the potential defaults and restructurings due to stresses in the economy.  (Source: Bloomberg)",
+      "title": "Container Ship Sinks in Strait of Hormuz as Attacks Ramp Up",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-14/cargo-ship-sinks-in-strait-of-hormuz-after-strike-triggers-fire",
+      "raw_summary": "A cargo ship sank in the Strait of Hormuz after a strike that sparked a fire and the evacuation of crew members, the Maritime and Port Authority of Singapore said.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 14 Oct 2026 16:00:20 GMT",
-      "summary": "In Credit, Volatility Is An Opportunity: McKnight\nDrew McKnight, Co-CEO and managing partner of Fortress Investment Group, joins Dani Burger on \"Bloomberg Deals.\" They speak CAIS Summit in Beverly Hills, California about the immense capital needed for data centers, the performance of private credit "
+      "published": "Wed, 14 Oct 2026 18:38:29 GMT",
+      "summary": "Container Ship Sinks in Strait of Hormuz as Attacks Ramp Up\nA cargo ship sank in the Strait of Hormuz after a strike that sparked a fire and the evacuation of crew members, the Maritime and Port Authority of Singapore said."
+    },
+    {
+      "title": "Bitcoin Slides as Wall Street Risk Pullback Tests Bullish Turn",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-14/bitcoin-hits-lower-end-of-trading-range-as-risk-appetite-wanes",
+      "raw_summary": "Bitcoin fell as much as 2.3% toward the lower end of its recent trading range, caught in a broader retreat from risk assets even as crypto analysts have turned sharply more bullish on the token.",
+      "source": "Bloomberg Markets",
+      "published": "Wed, 14 Oct 2026 18:19:38 GMT",
+      "summary": "Bitcoin Slides as Wall Street Risk Pullback Tests Bullish Turn\nBitcoin fell as much as 2.3% toward the lower end of its recent trading range, caught in a broader retreat from risk assets even as crypto analysts have turned sharply more bullish on the token."
+    },
+    {
+      "title": "Oil Gains as Middle East, Russia Hostilities Imperil Flows",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-14/oil-gains-as-middle-east-russia-risks-imperil-flows-video",
+      "raw_summary": "Oil gained Wednesday as hostilities intensified from Russia to the Middle East, threatening supply flows that only recently recovered to near pre-war levels.\n\nBrent traded above $106 after Iran-backed Houthi rebels launched missile and drone strikes across Saudi Arabia, including a hit that damaged Saudi Aramco’s headquarters. That added to an escalation in Iranian attacks on tankers in the Strait of Hormuz that’s threatening a rebound in Gulf supply. We discuss the latest energy headlines with Rob Barnett, Senior Energy Analyst for Bloomberg Intelligence. (Source: Bloomberg)",
+      "source": "Bloomberg Markets",
+      "published": "Wed, 14 Oct 2026 20:54:40 GMT",
+      "summary": "Oil Gains as Middle East, Russia Hostilities Imperil Flows\nOil gained Wednesday as hostilities intensified from Russia to the Middle East, threatening supply flows that only recently recovered to near pre-war levels.\n\nBrent traded above $106 after Iran-backed Houthi rebels launched missile and drone"
     },
     {
       "title": "Stocks Fall on Inflation Woes as Chip Rout Deepens: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-10-13/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "Stocks joined bonds lower as the fastest increase in inflation since April bolstered bets the Federal Reserve will keep lifting interest rates amid elevated energy costs.",
+      "raw_summary": "Stocks fell the most since July as a selloff in chipmakers extended a decline that was fueled by wagers the Federal Reserve will keep lifting interest rates to fight inflation.",
       "source": "Bloomberg Markets",
       "published": "Tue, 13 Oct 2026 22:03:38 GMT",
-      "summary": "Stocks Fall on Inflation Woes as Chip Rout Deepens: Markets Wrap\nStocks joined bonds lower as the fastest increase in inflation since April bolstered bets the Federal Reserve will keep lifting interest rates amid elevated energy costs."
+      "summary": "Stocks Fall on Inflation Woes as Chip Rout Deepens: Markets Wrap\nStocks fell the most since July as a selloff in chipmakers extended a decline that was fueled by wagers the Federal Reserve will keep lifting interest rates to fight inflation."
     },
     {
-      "title": "Latest Oil Market News and Analysis for Oct. 14",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-13/latest-oil-market-news-and-analysis-for-oct-14",
-      "raw_summary": "Oil swung, with benchmarks diverging for another session, as hostilities intensified from Russia to the Middle East while a breathless rally in freight ran into resistance.",
+      "title": "Gold Slumps as Faster US Inflation Stokes Fed Rate Hike Wagers",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-14/gold-steady-as-fed-official-s-remarks-temper-rate-hike-bets",
+      "raw_summary": "Gold slumped after US consumer prices jumped the most in five months, reigniting worries that the Federal Reserve will need to raise interest rates further to combat inflation.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 13 Oct 2026 22:02:59 GMT",
-      "summary": "Latest Oil Market News and Analysis for Oct. 14\nOil swung, with benchmarks diverging for another session, as hostilities intensified from Russia to the Middle East while a breathless rally in freight ran into resistance."
+      "published": "Wed, 14 Oct 2026 00:08:05 GMT",
+      "summary": "Gold Slumps as Faster US Inflation Stokes Fed Rate Hike Wagers\nGold slumped after US consumer prices jumped the most in five months, reigniting worries that the Federal Reserve will need to raise interest rates further to combat inflation."
     },
     {
-      "title": "Phosphate Giant Seeks Foreign Investors as War Hits Finances",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-14/phosphate-giant-seeks-foreign-investors-as-war-squeezes-finances",
-      "raw_summary": "Morocco’s phosphate giant OCP SA is looking to attract foreign investors for some of its businesses, as supply disruptions caused by the Iran war hit profits at the state-owned company.",
-      "source": "Bloomberg Markets",
-      "published": "Wed, 14 Oct 2026 13:38:11 GMT",
-      "summary": "Phosphate Giant Seeks Foreign Investors as War Hits Finances\nMorocco’s phosphate giant OCP SA is looking to attract foreign investors for some of its businesses, as supply disruptions caused by the Iran war hit profits at the state-owned company."
+      "title": "Kalshi CEO says state-led oversight of U.S. prediction markets would push them out",
+      "link": "https://www.coindesk.com/policy/2026/10/14/kalshi-ceo-says-state-led-oversight-of-u-s-prediction-markets-would-push-them-out",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 14 Oct 2026 16:34:53 +0000",
+      "summary": "Kalshi CEO says state-led oversight of U.S. prediction markets would push them out\n"
     },
     {
       "title": "AI agents make 138 million crypto payments as U.S. dominates spending on AI models",
@@ -313,14 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Wed, 14 Oct 2026 14:31:14 +0000",
       "summary": "BlackRock's crypto ETF assets surge 63% but remain far below 2025 peak\n"
-    },
-    {
-      "title": "Former FTX Europe chief targets U.S. tokenized stock trading with new SEC exemption",
-      "link": "https://www.coindesk.com/business/2026/10/14/former-ftx-europe-chief-targets-u-s-stock-tokenization-with-new-sec-exemption",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 14 Oct 2026 14:08:43 +0000",
-      "summary": "Former FTX Europe chief targets U.S. tokenized stock trading with new SEC exemption\n"
     }
   ]
 }
