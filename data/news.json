@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T16:02:21.473753+00:00",
+  "generated_at": "2026-10-15T20:46:24.415101+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation\nAuthorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arre"
     },
     {
+      "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+      "link": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+      "raw_summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it.\n\nThe flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape, is in the Linux kernel's networking code, not in any one cloud's setup, so it reaches the shared",
+      "source": "The Hacker News",
+      "published": "Fri, 16 Oct 2026 01:54:36 +0530",
+      "summary": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory\nA newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel "
+    },
+    {
+      "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
+      "link": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
+      "raw_summary": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories.\n\nThe rest gets interesting in different ways. A small permission can lead to a big theft. A trusted login can hide the wrong person. Old bugs are finding new victims, familiar tools are being put to strange uses, and",
+      "source": "The Hacker News",
+      "published": "Fri, 16 Oct 2026 00:19:33 +0530",
+      "summary": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More\nSomeone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories.\n\nThe rest gets intere"
+    },
+    {
+      "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
+      "link": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
+      "raw_summary": "Candiru, an Israeli maker of spyware sold to governments, infected devices at the news network Al Jazeera through ordinary online ads, in attacks that needed no click or other action from the user, researchers at&nbsp;the Citizen Lab&nbsp;said Thursday.\n\nThe hidden attack code ran the moment an ad loaded on the screen, and in some cases the ad loaded out of sight, in the background.\n\nThe Citizen",
+      "source": "The Hacker News",
+      "published": "Thu, 15 Oct 2026 21:31:57 +0530",
+      "summary": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads\nCandiru, an Israeli maker of spyware sold to governments, infected devices at the news network Al Jazeera through ordinary online ads, in attacks that needed no click or other action from the user, research"
+    },
+    {
+      "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
+      "link": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
+      "raw_summary": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS).\n\nThe activity, observed from June 2025 through August 2026, involves four different infection chains that make use of macro-enabled documents, PS2EXE downloaders, GitHub-hosted PowerShell, and crafted WinRAR archives",
+      "source": "The Hacker News",
+      "published": "Thu, 15 Oct 2026 21:30:26 +0530",
+      "summary": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks\nThe threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS).\n\nThe activity, observed from June 2025 throug"
+    },
+    {
       "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
       "link": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
       "raw_summary": "A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to be a rebrand of a traffic monetization operation dubbed ROI777.\n\nHelp TDS is assessed to be active since at least 2017, offering PHP code templates to partners and affiliates that are installed into compromised websites with an aim to direct unsuspecting",
@@ -51,236 +83,212 @@
       "summary": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams\nA long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to be a rebrand of a traffic monetization operation dubbed ROI777.\n\nHelp TDS"
     },
     {
-      "title": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
-      "link": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
-      "raw_summary": "NGINX released&nbsp;versions 1.30.6 and 1.31.7&nbsp;on October 14 to fix five vulnerabilities, one of them present in every release since May 2005.\n\nThere are three memory bugs that F5, the company behind NGINX, says could crash a worker process or possibly let an attacker run code, and each requires a specific configuration to exploit.\n\nA fourth lets an attacker forge a TLS session that could",
-      "source": "The Hacker News",
-      "published": "Thu, 15 Oct 2026 18:28:05 +0530",
-      "summary": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks\nNGINX released&nbsp;versions 1.30.6 and 1.31.7&nbsp;on October 14 to fix five vulnerabilities, one of them present in every release since May 2005.\n\nThere are three memory bugs that F5, the company behind NGIN"
-    },
-    {
-      "title": "Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing",
-      "link": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
-      "raw_summary": "Next.js released an&nbsp;out-of-band security update&nbsp;on October 14 that fixes two critical flaws allowing unauthenticated remote code execution, along with a high-severity denial-of-service flaw.\n\nOne code-execution flaw is in React Server Components, and the other in librsvg, the open-source library Next.js uses through the&nbsp;sharp&nbsp;package to handle SVG images.\n\nThe fixes are in",
-      "source": "The Hacker News",
-      "published": "Thu, 15 Oct 2026 17:58:13 +0530",
-      "summary": "Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing\nNext.js released an&nbsp;out-of-band security update&nbsp;on October 14 that fixes two critical flaws allowing unauthenticated remote code execution, along with a high-severity denial-of-service flaw.\n\nOne code-"
-    },
-    {
-      "title": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
-      "link": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
-      "raw_summary": "Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19.\n\nAn attacker cannot reach the flaw through core alone, the Drupal Security Team said in&nbsp;its advisory. Several exploit paths exist through contributed modules, and at least one known path needs no login.",
-      "source": "The Hacker News",
-      "published": "Thu, 15 Oct 2026 17:37:20 +0530",
-      "summary": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules\nDrupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19.\n\nAn attacker cann"
-    },
-    {
-      "title": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
-      "link": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html",
-      "raw_summary": "Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns between April and October of 2026.&nbsp;\n\nThe campaigns also increase operational pressure on MSSPs serving US businesses, which accounted for 16% of country-attributed targets.&nbsp;\n\nSimilar attacks",
-      "source": "The Hacker News",
-      "published": "Thu, 15 Oct 2026 17:16:59 +0530",
-      "summary": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early\nAttackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns between April and October "
-    },
-    {
-      "title": "I designed a nose guard for my dog and gave it away. Now 500 dogs wear one",
-      "link": "https://snoutcover.com/one-year",
-      "raw_summary": "<p>Article URL: <a href=\"https://snoutcover.com/one-year\">https://snoutcover.com/one-year</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50105344\">https://news.ycombinator.com/item?id=50105344</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>",
+      "title": "Why are we even doing all this?",
+      "link": "https://terrytao.wordpress.com/2026/10/15/why-are-we-even-doing-all-this/",
+      "raw_summary": "<p>Article URL: <a href=\"https://terrytao.wordpress.com/2026/10/15/why-are-we-even-doing-all-this/\">https://terrytao.wordpress.com/2026/10/15/why-are-we-even-doing-all-this/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50109707\">https://news.ycombinator.com/item?id=50109707</a></p>\n<p>Points: 6</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 15 Oct 2026 15:44:36 +0000",
-      "summary": "I designed a nose guard for my dog and gave it away. Now 500 dogs wear one\n<p>Article URL: <a href=\"https://snoutcover.com/one-year\">https://snoutcover.com/one-year</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50105344\">https://news.ycombinator.com/item?id=50105344</a></p>\n"
+      "published": "Thu, 15 Oct 2026 20:22:50 +0000",
+      "summary": "Why are we even doing all this?\n<p>Article URL: <a href=\"https://terrytao.wordpress.com/2026/10/15/why-are-we-even-doing-all-this/\">https://terrytao.wordpress.com/2026/10/15/why-are-we-even-doing-all-this/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50109707\">https://news."
     },
     {
-      "title": "Celebrating 70 Years of Fortran",
-      "link": "https://fortran-lang.org/news/2026/09-15-Fortran-birthday/",
-      "raw_summary": "<p>Article URL: <a href=\"https://fortran-lang.org/news/2026/09-15-Fortran-birthday/\">https://fortran-lang.org/news/2026/09-15-Fortran-birthday/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50104726\">https://news.ycombinator.com/item?id=50104726</a></p>\n<p>Points: 35</p>\n<p># Comments: 11</p>",
+      "title": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
+      "link": "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
+      "raw_summary": "<p>Article URL: <a href=\"https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts\">https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50109375\">https://news.ycombinator.com/item?id=50109375</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 15 Oct 2026 15:03:17 +0000",
-      "summary": "Celebrating 70 Years of Fortran\n<p>Article URL: <a href=\"https://fortran-lang.org/news/2026/09-15-Fortran-birthday/\">https://fortran-lang.org/news/2026/09-15-Fortran-birthday/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50104726\">https://news.ycombinator.com/item?id=501047"
+      "published": "Thu, 15 Oct 2026 19:55:49 +0000",
+      "summary": "New Withings Users Must Pay $99/Year for Apple Health Syncing\n<p>Article URL: <a href=\"https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts\">https://support.withings.com/hc/en-us/community/posts/518870471"
     },
     {
-      "title": "Simons Foundation Launches $15M Effort to Help Mathematicians Navigate AI Era",
-      "link": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/\">https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50104654\">https://news.ycombinator.com/item?id=50104654</a></p>\n<p>Points: 56</p>\n<p># Comments: 21</p>",
+      "title": "Someone on Torrent Sites Kept Fucking with My Sonarr",
+      "link": "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
+      "raw_summary": "<p>Article URL: <a href=\"https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup\">https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50108872\">https://news.ycombinator.com/item?id=50108872</a></p>\n<p>Points: 62</p>\n<p># Comments: 23</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 15 Oct 2026 14:58:48 +0000",
-      "summary": "Simons Foundation Launches $15M Effort to Help Mathematicians Navigate AI Era\n<p>Article URL: <a href=\"https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/\">https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-h"
+      "published": "Thu, 15 Oct 2026 19:21:38 +0000",
+      "summary": "Someone on Torrent Sites Kept Fucking with My Sonarr\n<p>Article URL: <a href=\"https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup\">https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup</a></p>\n<p>Comments URL: <a href=\"https://news.yc"
     },
     {
-      "title": "Siri is so bad at everything",
-      "link": "https://www.reddit.com/r/apple/comments/1x6gz83/siri_is_so_bad_at_everything/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.reddit.com/r/apple/comments/1x6gz83/siri_is_so_bad_at_everything/\">https://www.reddit.com/r/apple/comments/1x6gz83/siri_is_so_bad_at_everything/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50104465\">https://news.ycombinator.com/item?id=50104465</a></p>\n<p>Points: 63</p>\n<p># Comments: 41</p>",
+      "title": "E Ink Kaleido 4",
+      "link": "https://www.eink.com/news/detail/EInk-Launches-Latest-Version-of-Color-ePaper-Platform-E-Ink-Kaleido-4",
+      "raw_summary": "<p><a href=\"https://web.archive.org/web/20261015180401/https://www.eink.com/news/detail/EInk-Launches-Latest-Version-of-Color-ePaper-Platform-E-Ink-Kaleido-4\" rel=\"nofollow\">https://web.archive.org/web/20261015180401/https://www.eink....</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50108229\">https://news.ycombinator.com/item?id=50108229</a></p>\n<p>Points: 63</p>\n<p># Comments: 24</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 15 Oct 2026 14:47:39 +0000",
-      "summary": "Siri is so bad at everything\n<p>Article URL: <a href=\"https://www.reddit.com/r/apple/comments/1x6gz83/siri_is_so_bad_at_everything/\">https://www.reddit.com/r/apple/comments/1x6gz83/siri_is_so_bad_at_everything/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50104465\">https://"
+      "published": "Thu, 15 Oct 2026 18:38:16 +0000",
+      "summary": "E Ink Kaleido 4\n<p><a href=\"https://web.archive.org/web/20261015180401/https://www.eink.com/news/detail/EInk-Launches-Latest-Version-of-Color-ePaper-Platform-E-Ink-Kaleido-4\" rel=\"nofollow\">https://web.archive.org/web/20261015180401/https://www.eink....</a></p>\n<hr />\n<p>Comments URL: <a href=\"https"
     },
     {
-      "title": "Prompt injection in HTTP headers: what 217M web responses show",
-      "link": "https://www.signalscorps.com/blog/prompt-injection-in-http-headers/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.signalscorps.com/blog/prompt-injection-in-http-headers/\">https://www.signalscorps.com/blog/prompt-injection-in-http-headers/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50104310\">https://news.ycombinator.com/item?id=50104310</a></p>\n<p>Points: 27</p>\n<p># Comments: 8</p>",
+      "title": "Muse Spark Open",
+      "link": "https://research.meta.ai/blog/muse-spark-open",
+      "raw_summary": "<p><a href=\"https://dev.meta.ai/resources/blog/build-with-muse-spark-open\" rel=\"nofollow\">https://dev.meta.ai/resources/blog/build-with-muse-spark-ope...</a><p><a href=\"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B\" rel=\"nofollow\">https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B</a><p><a href=\"https://9to5mac.com/2026/10/15/meta-launches-new-muse-spark-open-model-optimized-to-run-on-mac-studio/\" rel=\"nofollow\">https://9to5mac.com/2026/10/15/meta-launches-new-muse-spark-...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50107379\">https://news.ycombinator.com/item?id=50107379</a></p>\n<p>Points: 415</p>\n<p># Comments: 261</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 15 Oct 2026 14:36:22 +0000",
-      "summary": "Prompt injection in HTTP headers: what 217M web responses show\n<p>Article URL: <a href=\"https://www.signalscorps.com/blog/prompt-injection-in-http-headers/\">https://www.signalscorps.com/blog/prompt-injection-in-http-headers/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=5010"
+      "published": "Thu, 15 Oct 2026 17:47:39 +0000",
+      "summary": "Muse Spark Open\n<p><a href=\"https://dev.meta.ai/resources/blog/build-with-muse-spark-open\" rel=\"nofollow\">https://dev.meta.ai/resources/blog/build-with-muse-spark-ope...</a><p><a href=\"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B\" rel=\"nofollow\">https://huggingface.co/meta-models/Mus"
     },
     {
-      "title": "AI agents are coming to Rivian’s cars",
-      "link": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
-      "raw_summary": "We'll likely learn more about how this will work at the company's upcoming \"AI &#038; Autonomy Day\" event in December.",
+      "title": "Amazon devices chief Panos Panay on the importance of failure and bouncing back from it",
+      "link": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-on-the-importance-of-failure-and-bouncing-back-from-it/",
+      "raw_summary": "Panay said that it's possible to recover and learn from all sorts of failures, even catastrophic ones, when building products.",
       "source": "TechCrunch",
-      "published": "Thu, 15 Oct 2026 15:02:36 +0000",
-      "summary": "AI agents are coming to Rivian’s cars\nWe'll likely learn more about how this will work at the company's upcoming \"AI &#038; Autonomy Day\" event in December."
+      "published": "Thu, 15 Oct 2026 20:38:13 +0000",
+      "summary": "Amazon devices chief Panos Panay on the importance of failure and bouncing back from it\nPanay said that it's possible to recover and learn from all sorts of failures, even catastrophic ones, when building products."
     },
     {
-      "title": "Ramp reaches $60B valuation as it pushes deeper into AI",
-      "link": "https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai/",
-      "raw_summary": "The funding comes as Ramp's annualized revenue crosses $2B, and its customer count reaches 85,000.",
+      "title": "Meta launches an open-weight AI model that runs on Macs",
+      "link": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+      "raw_summary": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
       "source": "TechCrunch",
-      "published": "Thu, 15 Oct 2026 14:47:09 +0000",
-      "summary": "Ramp reaches $60B valuation as it pushes deeper into AI\nThe funding comes as Ramp's annualized revenue crosses $2B, and its customer count reaches 85,000."
+      "published": "Thu, 15 Oct 2026 20:04:53 +0000",
+      "summary": "Meta launches an open-weight AI model that runs on Macs\nMeta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon."
     },
     {
-      "title": "Google’s Universal Cart shopping tool launches in the US",
-      "link": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
-      "raw_summary": "The new shopping tool is available in the U.S. across Google Search and the Gemini app.",
+      "title": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
+      "link": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+      "raw_summary": "Speaking at TechCrunch Disrupt, Amazon devices chief Panos Panay described a future where ambient AI devices work in the background, anticipating users' needs instead of waiting for commands.",
       "source": "TechCrunch",
-      "published": "Thu, 15 Oct 2026 14:29:33 +0000",
-      "summary": "Google’s Universal Cart shopping tool launches in the US\nThe new shopping tool is available in the U.S. across Google Search and the Gemini app."
+      "published": "Thu, 15 Oct 2026 19:55:25 +0000",
+      "summary": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps\nSpeaking at TechCrunch Disrupt, Amazon devices chief Panos Panay described a future where ambient AI devices work in the background, anticipating users' needs instead of waiting for commands."
     },
     {
-      "title": "TechCrunch Disrupt 2026: Last day",
-      "link": "https://techcrunch.com/2026/10/15/techcrunch-disrupt-2026-last-day/",
-      "raw_summary": "Last day to join TechCrunch Disrupt 2026. Join 10,000+ tech leaders for a day of connections and insights. Save 75% on your pass now.",
+      "title": "Bluesky wants to make it easier to buy, sell, and fundraise on the network",
+      "link": "https://techcrunch.com/2026/10/15/bluesky-wants-to-make-it-easier-to-buy-sell-and-fundraise-on-the-network/",
+      "raw_summary": "The executives argued that advertising isn’t the only path to monetization, and that there are alternative models that are feasible when it comes to monetization.",
       "source": "TechCrunch",
-      "published": "Thu, 15 Oct 2026 14:00:00 +0000",
-      "summary": "TechCrunch Disrupt 2026: Last day\nLast day to join TechCrunch Disrupt 2026. Join 10,000+ tech leaders for a day of connections and insights. Save 75% on your pass now."
+      "published": "Thu, 15 Oct 2026 19:29:05 +0000",
+      "summary": "Bluesky wants to make it easier to buy, sell, and fundraise on the network\nThe executives argued that advertising isn’t the only path to monetization, and that there are alternative models that are feasible when it comes to monetization."
     },
     {
-      "title": "Amazon’s Bee launches two new personal AI devices, starting at $75",
-      "link": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
-      "raw_summary": "Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize conversations, create to-do lists, and integrate with Alexa and Amazon shopping, with prices starting at $74.99.",
+      "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+      "link": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+      "raw_summary": "METR will publish its own assessments of Anthropic’s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them.",
       "source": "TechCrunch",
-      "published": "Thu, 15 Oct 2026 12:00:00 +0000",
-      "summary": "Amazon’s Bee launches two new personal AI devices, starting at $75\nAmazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize conversations, create to-do lists, a"
+      "published": "Thu, 15 Oct 2026 19:14:26 +0000",
+      "summary": "Anthropic is letting METR researchers look under the hood with employee-level access\nMETR will publish its own assessments of Anthropic’s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them."
     },
     {
-      "title": "Fridge hack costing millions and sparking fires stemmed from poor security",
-      "link": "https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/",
-      "raw_summary": "Incident hitting 700 supermarkets exploited outdated devices exposed to the Internet.",
+      "title": "What did the Liberty Bell sound like? Science is on the case.",
+      "link": "https://arstechnica.com/science/2026/10/what-did-the-liberty-bell-sound-like-science-is-on-the-case/",
+      "raw_summary": "Researchers hunted for clues in modal analysis of 20th-century replica bell at Penn State Behrend.",
       "source": "Ars Technica - All content",
-      "published": "Wed, 14 Oct 2026 21:35:09 +0000",
-      "summary": "Fridge hack costing millions and sparking fires stemmed from poor security\nIncident hitting 700 supermarkets exploited outdated devices exposed to the Internet."
+      "published": "Thu, 15 Oct 2026 19:10:03 +0000",
+      "summary": "What did the Liberty Bell sound like? Science is on the case.\nResearchers hunted for clues in modal analysis of 20th-century replica bell at Penn State Behrend."
     },
     {
-      "title": "Epic says its new vibe-coded Epic Games Launcher is faster than Steam",
-      "link": "https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/",
-      "raw_summary": "But the new \"Preview\" app \"will have some bugs,\" Epic warns.",
+      "title": "Black Sea drone attacks enter NATO country's territorial waters for first time",
+      "link": "https://arstechnica.com/gadgets/2026/10/black-sea-drone-attacks-enter-nato-countrys-territorial-waters-for-first-time/",
+      "raw_summary": "Suspected Russian drones attack chemical tanker within Romanian waters.",
       "source": "Ars Technica - All content",
-      "published": "Wed, 14 Oct 2026 21:15:56 +0000",
-      "summary": "Epic says its new vibe-coded Epic Games Launcher is faster than Steam\nBut the new \"Preview\" app \"will have some bugs,\" Epic warns."
+      "published": "Thu, 15 Oct 2026 18:48:11 +0000",
+      "summary": "Black Sea drone attacks enter NATO country's territorial waters for first time\nSuspected Russian drones attack chemical tanker within Romanian waters."
     },
     {
-      "title": "NATO may redeploy anti-drone defenses as attacks sink more Black Sea shipping",
-      "link": "https://arstechnica.com/gadgets/2026/10/nato-may-redeploy-anti-drone-defenses-as-attacks-sink-more-black-sea-shipping/",
-      "raw_summary": "Suspected Russian drones have sunk or damaged 5 ships near Bulgaria and Romania.",
+      "title": "Microplastics in water aren’t inert and make damaging chemicals on their own",
+      "link": "https://arstechnica.com/science/2026/10/microplastics-in-water-arent-inert-and-make-damaging-chemicals-on-their-own/",
+      "raw_summary": "Its effect on people remains an ongoing question.",
       "source": "Ars Technica - All content",
-      "published": "Wed, 14 Oct 2026 21:03:11 +0000",
-      "summary": "NATO may redeploy anti-drone defenses as attacks sink more Black Sea shipping\nSuspected Russian drones have sunk or damaged 5 ships near Bulgaria and Romania."
+      "published": "Thu, 15 Oct 2026 18:39:17 +0000",
+      "summary": "Microplastics in water aren’t inert and make damaging chemicals on their own\nIts effect on people remains an ongoing question."
     },
     {
-      "title": "Things are finally looking up for NASA's first missions to Venus in a generation",
-      "link": "https://arstechnica.com/space/2026/10/nasas-embattled-venus-missions-are-back-on-track-after-cancellation-threat/",
-      "raw_summary": "\"This is great news for us. We're staffing up. We're accelerating.\"",
+      "title": "Trump cancels Pentagon plans to livestream firing squad execution",
+      "link": "https://arstechnica.com/tech-policy/2026/10/trump-cancels-pentagon-plans-to-livestream-firing-squad-execution/",
+      "raw_summary": "8 in 10 Americans opposed the Pentagon's plans, a Thursday poll showed.",
       "source": "Ars Technica - All content",
-      "published": "Wed, 14 Oct 2026 20:48:07 +0000",
-      "summary": "Things are finally looking up for NASA's first missions to Venus in a generation\n\"This is great news for us. We're staffing up. We're accelerating.\""
+      "published": "Thu, 15 Oct 2026 18:16:36 +0000",
+      "summary": "Trump cancels Pentagon plans to livestream firing squad execution\n8 in 10 Americans opposed the Pentagon's plans, a Thursday poll showed."
     },
     {
-      "title": "Schools across US protest FCC plan that could disconnect kids from Internet",
-      "link": "https://arstechnica.com/tech-policy/2026/10/schools-libraries-plead-with-fcc-to-scrap-idea-of-killing-2b-broadband-program/",
-      "raw_summary": "FCC chair threatens E-Rate fund, blames schools for kids' excessive screen time.",
+      "title": "Neutron's first launch slips again amid trouble with carbon composites",
+      "link": "https://arstechnica.com/space/2026/10/rocket-lab-announces-another-delay-for-its-medium-lift-neutron-rocket/",
+      "raw_summary": "Rocket Lab announced the Neutron rocket in 2021, aiming for a first flight in 2024.",
       "source": "Ars Technica - All content",
-      "published": "Wed, 14 Oct 2026 20:15:56 +0000",
-      "summary": "Schools across US protest FCC plan that could disconnect kids from Internet\nFCC chair threatens E-Rate fund, blames schools for kids' excessive screen time."
+      "published": "Thu, 15 Oct 2026 16:57:24 +0000",
+      "summary": "Neutron's first launch slips again amid trouble with carbon composites\nRocket Lab announced the Neutron rocket in 2021, aiming for a first flight in 2024."
     },
     {
-      "title": "Mercuria adds first copper to US Project Vault stockpile",
-      "link": "https://www.ft.com/content/37d24217-acd8-4f84-a298-4f1ccc359a27?syn-25a6b1a6=1",
-      "raw_summary": "Trading house confirms 12,000-tonne delivery to Washington’s new $12bn reserve of strategic metals and minerals",
-      "source": "World",
-      "published": "Thu, 15 Oct 2026 15:43:26 GMT",
-      "summary": "Mercuria adds first copper to US Project Vault stockpile\nTrading house confirms 12,000-tonne delivery to Washington’s new $12bn reserve of strategic metals and minerals"
-    },
-    {
-      "title": "Hold philanthropists accountable when their projects fail",
-      "link": "https://www.ft.com/content/fff4d860-5652-427a-b99d-19ce370d2dc3",
-      "raw_summary": "Despite disappointing results, an African agricultural initiative funded by prominent foundations is being recapitalised",
-      "source": "World",
-      "published": "Thu, 15 Oct 2026 15:34:46 GMT",
-      "summary": "Hold philanthropists accountable when their projects fail\nDespite disappointing results, an African agricultural initiative funded by prominent foundations is being recapitalised"
-    },
-    {
-      "title": "Former Everton bidder Josh Wander to plead guilty in US fraud case",
+      "title": "777 Partners’ Josh Wander pleads guilty to fraud charges",
       "link": "https://www.ft.com/content/0a436452-c1a1-492a-b5be-92848ed5e6e7?syn-25a6b1a6=1",
-      "raw_summary": "777 Partners co-founder expected to change plea one day before trial over alleged scheme to defraud investors and lenders",
+      "raw_summary": "Financier who tried to buy Everton FC changes plea on eve of trial",
       "source": "World",
-      "published": "Thu, 15 Oct 2026 15:33:40 GMT",
-      "summary": "Former Everton bidder Josh Wander to plead guilty in US fraud case\n777 Partners co-founder expected to change plea one day before trial over alleged scheme to defraud investors and lenders"
+      "published": "Thu, 15 Oct 2026 20:29:47 GMT",
+      "summary": "777 Partners’ Josh Wander pleads guilty to fraud charges\nFinancier who tried to buy Everton FC changes plea on eve of trial"
     },
     {
-      "title": "Trump cancels Hegseth’s plan to livestream execution after backlash",
-      "link": "https://www.ft.com/content/064f7a19-c495-4ba0-a5e5-a6c4bb764ddb?syn-25a6b1a6=1",
-      "raw_summary": "US president overrules decision to broadcast execution of former soldier who carried out Texas mass shooting in 2009",
+      "title": "Treasuries rally as investors seek shelter from AI turbulence",
+      "link": "https://www.ft.com/content/cf5f1209-da29-4ce1-b425-0e83818bf9ec?syn-25a6b1a6=1",
+      "raw_summary": "Global chip stocks caught up in volatile trading amid fears over sustainability of AI boom",
       "source": "World",
-      "published": "Thu, 15 Oct 2026 15:23:39 GMT",
-      "summary": "Trump cancels Hegseth’s plan to livestream execution after backlash\nUS president overrules decision to broadcast execution of former soldier who carried out Texas mass shooting in 2009"
+      "published": "Thu, 15 Oct 2026 20:20:36 GMT",
+      "summary": "Treasuries rally as investors seek shelter from AI turbulence\nGlobal chip stocks caught up in volatile trading amid fears over sustainability of AI boom"
     },
     {
-      "title": "Saudi events delayed after Houthi attacks",
-      "link": "https://www.ft.com/content/0be97035-3854-4b6c-8191-98f486862b02?syn-25a6b1a6=1",
-      "raw_summary": "EU-Gulf meeting and Formula 1 race among those postponed following missile strikes on Riyadh airport",
+      "title": "Commercial goods blocked from entry into Gaza",
+      "link": "https://www.ft.com/content/f60aaf56-a712-43a4-971d-6f1c8815bafa?syn-25a6b1a6=1",
+      "raw_summary": "Israelis and Palestinians trade blame for the cut-off of new goods from the devastated enclave",
       "source": "World",
-      "published": "Thu, 15 Oct 2026 15:04:46 GMT",
-      "summary": "Saudi events delayed after Houthi attacks\nEU-Gulf meeting and Formula 1 race among those postponed following missile strikes on Riyadh airport"
+      "published": "Thu, 15 Oct 2026 19:51:28 GMT",
+      "summary": "Commercial goods blocked from entry into Gaza\nIsraelis and Palestinians trade blame for the cut-off of new goods from the devastated enclave"
     },
     {
-      "title": "S&P 500 Bounces as Chip Drop Spurs Stock Rotation: Markets Wrap",
+      "title": "Anthropic grants non-profit METR ‘employee-like’ access to monitor AI risks",
+      "link": "https://www.ft.com/content/a3a389d2-7796-4f40-98d3-8986f26f6513?syn-25a6b1a6=1",
+      "raw_summary": "CEO Dario Amodei has made bringing in external evaluators one of his main proposals to address safety concerns",
+      "source": "World",
+      "published": "Thu, 15 Oct 2026 19:12:29 GMT",
+      "summary": "Anthropic grants non-profit METR ‘employee-like’ access to monitor AI risks\nCEO Dario Amodei has made bringing in external evaluators one of his main proposals to address safety concerns"
+    },
+    {
+      "title": "Healey signals bank tax raid in UK Budget",
+      "link": "https://www.ft.com/content/09e07278-8479-49bb-a145-51e5d93828a2?syn-25a6b1a6=1",
+      "raw_summary": "Chancellor points to looming ‘decisions’ as financial services sector braces for higher levies",
+      "source": "World",
+      "published": "Thu, 15 Oct 2026 17:53:10 GMT",
+      "summary": "Healey signals bank tax raid in UK Budget\nChancellor points to looming ‘decisions’ as financial services sector braces for higher levies"
+    },
+    {
+      "title": "Stock Buyers Step In to Power Wall Street Rebound: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-10-14/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "Wall Street traders drove a rotation out of high-profile chipmakers and into a broader category of stocks while fueling a push toward the safety of bonds.",
+      "raw_summary": "Wall Street staged a comeback after losses driven by concerns about the sustainability of the artificial-intelligence trade that has powered the bull market in stocks.",
       "source": "Bloomberg Markets",
       "published": "Wed, 14 Oct 2026 22:04:59 GMT",
-      "summary": "S&P 500 Bounces as Chip Drop Spurs Stock Rotation: Markets Wrap\nWall Street traders drove a rotation out of high-profile chipmakers and into a broader category of stocks while fueling a push toward the safety of bonds."
+      "summary": "Stock Buyers Step In to Power Wall Street Rebound: Markets Wrap\nWall Street staged a comeback after losses driven by concerns about the sustainability of the artificial-intelligence trade that has powered the bull market in stocks."
     },
     {
-      "title": "Peru’s Economy Expanded Faster Than 3% for Second Month",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-15/peru-s-economy-expanded-faster-than-3-for-second-month",
-      "raw_summary": "Peru’s economy grew more than 3% for a second straight month, in line with expectations, driven by strong performance in most sectors.",
+      "title": "Still In Early Innings of AI Issuance: Doyle",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-15/still-in-early-innings-of-ai-issuance-doyle-video",
+      "raw_summary": "Neha Khoda, head of US credit strategy at BofA Securities, and Stephanie Doyle, fixed income portfolio manager at JPMorgan Investment Management, join Scarlet Fu on \"Bloomberg Real Yield.\"\n (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Thu, 15 Oct 2026 15:49:39 GMT",
-      "summary": "Peru’s Economy Expanded Faster Than 3% for Second Month\nPeru’s economy grew more than 3% for a second straight month, in line with expectations, driven by strong performance in most sectors."
+      "published": "Thu, 15 Oct 2026 20:21:16 GMT",
+      "summary": "Still In Early Innings of AI Issuance: Doyle\nNeha Khoda, head of US credit strategy at BofA Securities, and Stephanie Doyle, fixed income portfolio manager at JPMorgan Investment Management, join Scarlet Fu on \"Bloomberg Real Yield.\"\n (Source: Bloomberg)"
     },
     {
-      "title": "Nigeria Tycoon Sees $15 Billion Project Pipeline for West Africa",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-15/nigeria-tycoon-sees-15-billion-project-pipeline-for-west-africa",
-      "raw_summary": "Nigerian tycoon Tony Elumelu is part of a team considering a $15 billion pipeline of investment projects across West Africa to help curb the region’s infrastructure deficit.",
+      "title": "Dollar Wraps Its Worst Day in Over a Month on AI Risk Concerns",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-15/dollar-wraps-its-worst-day-in-over-a-month-on-ai-risk-concerns",
+      "raw_summary": "The dollar fell the most in more than a month, erasing gains fueled by hotter-than-expected inflation data.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 15 Oct 2026 15:46:17 GMT",
-      "summary": "Nigeria Tycoon Sees $15 Billion Project Pipeline for West Africa\nNigerian tycoon Tony Elumelu is part of a team considering a $15 billion pipeline of investment projects across West Africa to help curb the region’s infrastructure deficit."
+      "published": "Thu, 15 Oct 2026 20:14:05 GMT",
+      "summary": "Dollar Wraps Its Worst Day in Over a Month on AI Risk Concerns\nThe dollar fell the most in more than a month, erasing gains fueled by hotter-than-expected inflation data."
     },
     {
-      "title": "Aussie Dollar Falls to Lowest Since July as RBA Hike Bets Fade",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-15/aussie-dollar-falls-to-lowest-since-july-as-rba-hike-bets-fade",
-      "raw_summary": "The Australian dollar touched the lowest level since early July, extending its decline after domestic labor data pushed traders to scale back expectations of interest rate increases from the Reserve Bank of Australia.",
+      "title": "Nvidia-Backed Biotech Iambic Up 18% After $150 Million IPO",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-15/nvidia-backed-ai-biotech-iambic-up-16-after-150-million-ipo",
+      "raw_summary": "Iambic Therapeutics Inc. climbed 18% in its trading debut after the clinical-stage cancer drugmaker and technology firm raised $150 million in a US initial public offering.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 15 Oct 2026 15:38:05 GMT",
-      "summary": "Aussie Dollar Falls to Lowest Since July as RBA Hike Bets Fade\nThe Australian dollar touched the lowest level since early July, extending its decline after domestic labor data pushed traders to scale back expectations of interest rate increases from the Reserve Bank of Australia."
+      "published": "Thu, 15 Oct 2026 16:31:00 GMT",
+      "summary": "Nvidia-Backed Biotech Iambic Up 18% After $150 Million IPO\nIambic Therapeutics Inc. climbed 18% in its trading debut after the clinical-stage cancer drugmaker and technology firm raised $150 million in a US initial public offering."
     },
     {
-      "title": "There's Not Going to Be a Sharp Downturn in Jobs, Says Lakshman Achuthan",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-15/there-won-t-be-a-sharp-downturn-in-jobs-says-achuthan-video",
-      "raw_summary": "Initial jobless claims were little changed in early-October, reinforcing the view that the labor market is cooling through slower hiring rather than rising layoffs. \nThe report gives the Fed little reason to worry about an abrupt deterioration in employment, but it doesn’t ease broader concerns about weak job creation. \nLakshman Achuthan, COO and co-founder at ECRI, gives his outlook on employment and reacts to inflation data. (Source: Bloomberg)",
+      "title": "Latest Oil Market News and Analysis for Oct. 15",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-14/latest-oil-market-news-and-analysis-for-oct-15",
+      "raw_summary": "Brent crude fluctuated as news of a fresh release from emergency reserves helped offset increasing supply risks stretching from the Strait of Hormuz to the Black Sea.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 15 Oct 2026 15:34:00 GMT",
-      "summary": "There's Not Going to Be a Sharp Downturn in Jobs, Says Lakshman Achuthan\nInitial jobless claims were little changed in early-October, reinforcing the view that the labor market is cooling through slower hiring rather than rising layoffs. \nThe report gives the Fed little reason to worry about an abru"
+      "published": "Wed, 14 Oct 2026 22:02:40 GMT",
+      "summary": "Latest Oil Market News and Analysis for Oct. 15\nBrent crude fluctuated as news of a fresh release from emergency reserves helped offset increasing supply risks stretching from the Strait of Hormuz to the Black Sea."
+    },
+    {
+      "title": "At the White House, crypto policy vacancy looms large",
+      "link": "https://www.coindesk.com/news-analysis/2026/10/15/at-the-white-house-crypto-policy-vacancy-looms-large",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Thu, 15 Oct 2026 18:48:02 +0000",
+      "summary": "At the White House, crypto policy vacancy looms large\n"
     },
     {
       "title": "Crypto for Advisors: Wall Street is done waiting on Congress for crypto rules",
@@ -313,14 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Thu, 15 Oct 2026 11:15:00 +0000",
       "summary": "Bitcoin, copper, stocks, yields all fall; gold rises\n"
-    },
-    {
-      "title": "Altcoins lead crypto declines as Asian stocks drop; bitcoin little changed since midnight",
-      "link": "https://www.coindesk.com/markets/2026/10/15/bitcoin-holds-above-usd80-000-as-an-asian-stock-rout-drags-altcoins-lower",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 15 Oct 2026 10:52:11 +0000",
-      "summary": "Altcoins lead crypto declines as Asian stocks drop; bitcoin little changed since midnight\n"
     }
   ]
 }
