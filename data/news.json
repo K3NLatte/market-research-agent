@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T02:34:14.841649+00:00",
+  "generated_at": "2026-10-15T10:37:21.955217+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation\nAuthorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arre"
     },
     {
+      "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
+      "link": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
+      "raw_summary": "The credential-theft campaign known as GhostAction has ramped up, targeting more than 30,000 repositories across 3,000 users and organizations.\n\nThe spike, according to GitGuardian, was observed on October 8 and 9, 2026.\n\n\"This resulted from compromising the GitHub accounts of about 1,900 users. It attempted to extract 3,174 secrets from public repositories' CI,\" security researchers Gaetan",
+      "source": "The Hacker News",
+      "published": "Thu, 15 Oct 2026 14:15:10 +0530",
+      "summary": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories\nThe credential-theft campaign known as GhostAction has ramped up, targeting more than 30,000 repositories across 3,000 users and organizations.\n\nThe spike, according to GitGuardian, was observed on October 8 and 9,"
+    },
+    {
+      "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
+      "link": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
+      "raw_summary": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian.\n\nLangflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows. In February 2025, DataStax, the parent company of Langflow, was acquired by IBM.\n\nThe vulnerability in question is CVE-2026-105740 (CVSS score: 9.9), a case of",
+      "source": "The Hacker News",
+      "published": "Thu, 15 Oct 2026 12:37:05 +0530",
+      "summary": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts\nThreat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian.\n\nLangflow is an open-source platform that allows developers to build artificial intelligence (AI) applicatio"
+    },
+    {
+      "title": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
+      "link": "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
+      "raw_summary": "Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners.\n\nThe vulnerabilities in question are CVE-2026-105133 and CVE-2026-105134, which could be chained to sidestep authentication and execute arbitrary commands on affected systems.\n\nIn a report published earlier",
+      "source": "The Hacker News",
+      "published": "Thu, 15 Oct 2026 12:13:08 +0530",
+      "summary": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches\nSingapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners.\n\nThe vulnerabilities in"
+    },
+    {
+      "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
+      "link": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
+      "raw_summary": "Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation.\n\nThe vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of remote code execution in the management interface.\n\n\"A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS software enables an",
+      "source": "The Hacker News",
+      "published": "Thu, 15 Oct 2026 11:47:58 +0530",
+      "summary": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation\nPalo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation.\n\nThe vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of "
+    },
+    {
       "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
       "link": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
       "raw_summary": "Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco&nbsp;said in an advisory&nbsp;on Wednesday.\n\nThe attacker sends an email with a crafted attachment through the gateway and, if it succeeds, could then run commands as root. The appliance filters an organization's email for spam, malware,",
@@ -51,76 +83,52 @@
       "summary": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability\nAttackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco&nbsp;said in an advisory&nbsp;on Wednesday.\n\nThe att"
     },
     {
-      "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
-      "link": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
-      "raw_summary": "Attackers exploited a flaw in an optional Nextcloud app,&nbsp;Collabora Online - Built-in CODE Server, to plant web shells on Nextcloud servers. Three administrators&nbsp;reported the issue on GitHub, with the first logged attack on September 10.\n\nA web shell is a small file that executes any command an attacker sends via a web request, with the rights of the web server account. The flaw",
-      "source": "The Hacker News",
-      "published": "Wed, 14 Oct 2026 23:08:31 +0530",
-      "summary": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App\nAttackers exploited a flaw in an optional Nextcloud app,&nbsp;Collabora Online - Built-in CODE Server, to plant web shells on Nextcloud servers. Three administrators&nbsp;reported the issue on GitHub, with the "
+      "title": "The cost of getting a job today",
+      "link": "https://weli.dev/blog/the-cost-of-getting-a-job-today/",
+      "raw_summary": "<p>Article URL: <a href=\"https://weli.dev/blog/the-cost-of-getting-a-job-today/\">https://weli.dev/blog/the-cost-of-getting-a-job-today/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50101149\">https://news.ycombinator.com/item?id=50101149</a></p>\n<p>Points: 22</p>\n<p># Comments: 20</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Thu, 15 Oct 2026 09:13:20 +0000",
+      "summary": "The cost of getting a job today\n<p>Article URL: <a href=\"https://weli.dev/blog/the-cost-of-getting-a-job-today/\">https://weli.dev/blog/the-cost-of-getting-a-job-today/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50101149\">https://news.ycombinator.com/item?id=50101149</a></"
     },
     {
-      "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
-      "link": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
-      "raw_summary": "Microsoft and Health-ISAC, along with the Japan Cybercrime Control Center (JC3) and a coalition of private sector companies, such as Resecurity, Cloudflare, Oracle, Proofpoint, and TRM Labs, announced the disruption of three phishing kits, CoGUI (aka NX or FA), Haozi (aka Phoenix), and Iron Man System.\n\n\"Since January 2026, the threat actors behind these kits have been responsible for",
-      "source": "The Hacker News",
-      "published": "Wed, 14 Oct 2026 22:39:15 +0530",
-      "summary": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages\nMicrosoft and Health-ISAC, along with the Japan Cybercrime Control Center (JC3) and a coalition of private sector companies, such as Resecurity, Cloudflare, Oracle, Proofpoint, and TRM Labs, announced the disruption of three p"
+      "title": "AI was great until it was not",
+      "link": "https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not",
+      "raw_summary": "<p>Article URL: <a href=\"https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not\">https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50100791\">https://news.ycombinator.com/item?id=50100791</a></p>\n<p>Points: 67</p>\n<p># Comments: 43</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Thu, 15 Oct 2026 08:18:38 +0000",
+      "summary": "AI was great until it was not\n<p>Article URL: <a href=\"https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not\">https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50100791\">https://news.ycombinator."
     },
     {
-      "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
-      "link": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
-      "raw_summary": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme.\n\nThe indictment charges a mix of U.S. citizens and Chinese nationals for their roles in an IT worker conspiracy affecting more than 70 U.S. companies, charging them with wire fraud conspiracy, money",
-      "source": "The Hacker News",
-      "published": "Wed, 14 Oct 2026 22:04:31 +0530",
-      "summary": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud\nThe U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme.\n\nThe indictment charges "
+      "title": "Aidlc: Adaptive workflow steering rules for AI coding agents",
+      "link": "https://github.com/awslabs/aidlc-workflows",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/awslabs/aidlc-workflows\">https://github.com/awslabs/aidlc-workflows</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50100387\">https://news.ycombinator.com/item?id=50100387</a></p>\n<p>Points: 10</p>\n<p># Comments: 9</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Thu, 15 Oct 2026 07:20:39 +0000",
+      "summary": "Aidlc: Adaptive workflow steering rules for AI coding agents\n<p>Article URL: <a href=\"https://github.com/awslabs/aidlc-workflows\">https://github.com/awslabs/aidlc-workflows</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50100387\">https://news.ycombinator.com/item?id=50100387<"
     },
     {
-      "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
-      "link": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
-      "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an actively exploited vulnerability.\n\nThe security flaw, tracked as CVE-2026-104935 (CVSS score: 8.6), is a case of authentication bypass impacting ICS",
-      "source": "The Hacker News",
-      "published": "Wed, 14 Oct 2026 18:00:42 +0530",
-      "summary": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest vers"
+      "title": "Show HN: Flipflop, Iroh-powered persistent tunnels for filesharing",
+      "link": "https://github.com/andunieee/flipflop",
+      "raw_summary": "<p>This is a project that spun from my frustrations of using LocalSend and DashBeam to transfer stuff between devices, and with the extra goal of being fast, trying out the Slint framework and, most importantly, establishing a communication channel with trusted external people that can be left always on.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50099136\">https://news.ycombinator.com/item?id=50099136</a></p>\n<p>Points: 43</p>\n<p># Comments: 12</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Thu, 15 Oct 2026 04:25:28 +0000",
+      "summary": "Show HN: Flipflop, Iroh-powered persistent tunnels for filesharing\n<p>This is a project that spun from my frustrations of using LocalSend and DashBeam to transfer stuff between devices, and with the extra goal of being fast, trying out the Slint framework and, most importantly, establishing a commun"
     },
     {
       "title": "The Double Headed Stack Allocator",
       "link": "https://blog.demofox.org/2026/10/03/the-double-headed-stack-allocator/",
-      "raw_summary": "<p>Article URL: <a href=\"https://blog.demofox.org/2026/10/03/the-double-headed-stack-allocator/\">https://blog.demofox.org/2026/10/03/the-double-headed-stack-allocator/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50098274\">https://news.ycombinator.com/item?id=50098274</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.demofox.org/2026/10/03/the-double-headed-stack-allocator/\">https://blog.demofox.org/2026/10/03/the-double-headed-stack-allocator/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50098274\">https://news.ycombinator.com/item?id=50098274</a></p>\n<p>Points: 66</p>\n<p># Comments: 20</p>",
       "source": "Hacker News: Front Page",
       "published": "Thu, 15 Oct 2026 02:06:36 +0000",
       "summary": "The Double Headed Stack Allocator\n<p>Article URL: <a href=\"https://blog.demofox.org/2026/10/03/the-double-headed-stack-allocator/\">https://blog.demofox.org/2026/10/03/the-double-headed-stack-allocator/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50098274\">https://news.ycom"
     },
     {
-      "title": "Capsem – a Rust hypervisor sandboxing AI agents in air-gapped Linux VMs",
-      "link": "https://capsem.org/",
-      "raw_summary": "<p>Article URL: <a href=\"https://capsem.org/\">https://capsem.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50097811\">https://news.ycombinator.com/item?id=50097811</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Thu, 15 Oct 2026 00:58:26 +0000",
-      "summary": "Capsem – a Rust hypervisor sandboxing AI agents in air-gapped Linux VMs\n<p>Article URL: <a href=\"https://capsem.org/\">https://capsem.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50097811\">https://news.ycombinator.com/item?id=50097811</a></p>\n<p>Points: 3</p>\n<p># Comme"
-    },
-    {
-      "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
-      "link": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.liquid.ai/blog/lfm2-5-24b-a2b\">https://www.liquid.ai/blog/lfm2-5-24b-a2b</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50097369\">https://news.ycombinator.com/item?id=50097369</a></p>\n<p>Points: 83</p>\n<p># Comments: 19</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Wed, 14 Oct 2026 23:59:37 +0000",
-      "summary": "LFM2.5-24B-A2B: Built for fast on-device agents\n<p>Article URL: <a href=\"https://www.liquid.ai/blog/lfm2-5-24b-a2b\">https://www.liquid.ai/blog/lfm2-5-24b-a2b</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50097369\">https://news.ycombinator.com/item?id=50097369</a></p>\n<p>Poin"
-    },
-    {
-      "title": "Tiny Little Office",
-      "link": "https://tinylittleoffice.com/",
-      "raw_summary": "<p>Article URL: <a href=\"https://tinylittleoffice.com/\">https://tinylittleoffice.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50096142\">https://news.ycombinator.com/item?id=50096142</a></p>\n<p>Points: 159</p>\n<p># Comments: 24</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Wed, 14 Oct 2026 22:10:08 +0000",
-      "summary": "Tiny Little Office\n<p>Article URL: <a href=\"https://tinylittleoffice.com/\">https://tinylittleoffice.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50096142\">https://news.ycombinator.com/item?id=50096142</a></p>\n<p>Points: 159</p>\n<p># Comments: 24</p>"
-    },
-    {
-      "title": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
-      "link": "https://typesafe.ai/blog/jev-1-14",
-      "raw_summary": "<p>Article URL: <a href=\"https://typesafe.ai/blog/jev-1-14\">https://typesafe.ai/blog/jev-1-14</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50095353\">https://news.ycombinator.com/item?id=50095353</a></p>\n<p>Points: 202</p>\n<p># Comments: 62</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Wed, 14 Oct 2026 21:11:03 +0000",
-      "summary": "We’re releasing Jev 1.14.0 along with experimental features for dreamers\n<p>Article URL: <a href=\"https://typesafe.ai/blog/jev-1-14\">https://typesafe.ai/blog/jev-1-14</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50095353\">https://news.ycombinator.com/item?id=50095353</a></p"
+      "title": "Figma announces new features to define how agents work on its platform",
+      "link": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+      "raw_summary": "Figma is also releasing its code layers feature in open beta.",
+      "source": "TechCrunch",
+      "published": "Thu, 15 Oct 2026 04:30:00 +0000",
+      "summary": "Figma announces new features to define how agents work on its platform\nFigma is also releasing its code layers feature in open beta."
     },
     {
       "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
@@ -153,14 +161,6 @@
       "source": "TechCrunch",
       "published": "Thu, 15 Oct 2026 00:00:00 +0000",
       "summary": "Gudea leverages AI to help organizations prevent social media crises before they erupt\nEvery day, conversations unfold across social media and websites around the world. A seemingly insignificant post—whether it involves AI-generated misinformation, hate speech, or a damaging rumor—can quickly snowb"
-    },
-    {
-      "title": "Intero Biosystems wants drugmakers to test on mini human intestines, not animals",
-      "link": "https://techcrunch.com/2026/10/14/intero-biosystems-wants-drugmakers-to-test-on-mini-human-intestines-not-animals/",
-      "raw_summary": "Intero Biosystems is selling lab-grown human intestines to drugmakers as regulators push for alternatives to animal testing, while the startup looks to scale production and expand its organoid technology.",
-      "source": "TechCrunch",
-      "published": "Wed, 14 Oct 2026 23:00:00 +0000",
-      "summary": "Intero Biosystems wants drugmakers to test on mini human intestines, not animals\nIntero Biosystems is selling lab-grown human intestines to drugmakers as regulators push for alternatives to animal testing, while the startup looks to scale production and expand its organoid technology."
     },
     {
       "title": "Fridge hack costing millions and sparking fires stemmed from poor security",
@@ -203,124 +203,124 @@
       "summary": "Schools across US protest FCC plan that could disconnect kids from Internet\nFCC chair threatens E-Rate fund, blames schools for kids' excessive screen time."
     },
     {
-      "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
-      "link": "https://www.ft.com/content/11632d03-358c-454b-af95-d06d4072932b?syn-25a6b1a6=1",
-      "raw_summary": "Rapid growth is slower than some anticipated as fears about the AI trade rattle markets",
+      "title": "Ukraine to resume strikes on Russian refineries, Zelenskyy says",
+      "link": "https://www.ft.com/content/4d79b52f-1f0d-4739-82ab-7ecfb4251326?syn-25a6b1a6=1",
+      "raw_summary": "Ukrainian president expresses anger in FT interview at ‘dangerous’ withdrawal of US intelligence sharing and weakening of Starlink satellite internet service",
       "source": "World",
-      "published": "Thu, 15 Oct 2026 00:59:36 GMT",
-      "summary": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO\nRapid growth is slower than some anticipated as fears about the AI trade rattle markets"
+      "published": "Thu, 15 Oct 2026 10:32:33 GMT",
+      "summary": "Ukraine to resume strikes on Russian refineries, Zelenskyy says\nUkrainian president expresses anger in FT interview at ‘dangerous’ withdrawal of US intelligence sharing and weakening of Starlink satellite internet service"
     },
     {
-      "title": "US floats unfreezing some Russian assets to restart Ukraine peace talks",
-      "link": "https://www.ft.com/content/54353d3a-afed-4fec-985a-50f3dfb9be8e?syn-25a6b1a6=1",
-      "raw_summary": "European officials balked at proposal made by Donald Trump’s negotiators during meeting in Miami",
+      "title": "EU leaders to urge Zelenskyy to rein in criticism of Trump",
+      "link": "https://www.ft.com/content/fb2110b4-50d2-4ff9-9886-f7b42c5b4579?syn-25a6b1a6=1",
+      "raw_summary": "Ukrainian leader’s comments about US president alarm European capitals",
       "source": "World",
-      "published": "Wed, 14 Oct 2026 23:09:30 GMT",
-      "summary": "US floats unfreezing some Russian assets to restart Ukraine peace talks\nEuropean officials balked at proposal made by Donald Trump’s negotiators during meeting in Miami"
+      "published": "Thu, 15 Oct 2026 10:05:55 GMT",
+      "summary": "EU leaders to urge Zelenskyy to rein in criticism of Trump\nUkrainian leader’s comments about US president alarm European capitals"
     },
     {
-      "title": "Tata battle has potential to reshape India Inc",
-      "link": "https://www.ft.com/content/7ac46092-8397-4121-bdac-cf1ff6580054",
-      "raw_summary": "If ties between key charitable trusts and the conglomerate’s holding company are loosened, will the group lose its distinctive ethos?",
+      "title": "Reform UK councillors and candidates filmed making racist remarks",
+      "link": "https://www.ft.com/content/317796f3-af18-4acb-a482-ec0bdd0edf45?syn-25a6b1a6=1",
+      "raw_summary": "Undercover footage reveals racist and graphic sexual comments, leading to several resignations as party comes under fresh scrutiny",
       "source": "World",
-      "published": "Wed, 14 Oct 2026 23:01:06 GMT",
-      "summary": "Tata battle has potential to reshape India Inc\nIf ties between key charitable trusts and the conglomerate’s holding company are loosened, will the group lose its distinctive ethos?"
+      "published": "Thu, 15 Oct 2026 10:02:28 GMT",
+      "summary": "Reform UK councillors and candidates filmed making racist remarks\nUndercover footage reveals racist and graphic sexual comments, leading to several resignations as party comes under fresh scrutiny"
     },
     {
-      "title": "One in 6 UK disability benefit claimants should not receive cash, says think-tank",
-      "link": "https://www.ft.com/content/e5f80295-1357-4ea3-8074-373e184785c5?syn-25a6b1a6=1",
-      "raw_summary": "Shift to offering more practical, social and employment support would save £4.4bn a year, argues Resolution Foundation",
+      "title": "Macroeconomic policy must now do many things at once",
+      "link": "https://www.ft.com/content/825b0ed4-060e-49dd-8199-b6accc393ff1?syn-25a6b1a6=1",
+      "raw_summary": "Is it possible to contain debt and inflation without damaging the investment needed to restructure the economy?",
       "source": "World",
-      "published": "Wed, 14 Oct 2026 23:01:06 GMT",
-      "summary": "One in 6 UK disability benefit claimants should not receive cash, says think-tank\nShift to offering more practical, social and employment support would save £4.4bn a year, argues Resolution Foundation"
+      "published": "Thu, 15 Oct 2026 10:00:09 GMT",
+      "summary": "Macroeconomic policy must now do many things at once\nIs it possible to contain debt and inflation without damaging the investment needed to restructure the economy?"
     },
     {
-      "title": "Top UK law firms pull away from smaller rivals in race for profits",
-      "link": "https://www.ft.com/content/d685e248-058e-475c-8dd7-053b491e35ab?syn-25a6b1a6=1",
-      "raw_summary": "Biggest firms for the first time took home more than half of the revenue pool of the top 100",
+      "title": "How to host a tea ceremony – Korean style",
+      "link": "https://www.ft.com/content/6a5f8dce-f276-417a-b904-44d6f2390b68",
+      "raw_summary": "Tokkia’s Sooji Im makes matcha, plum blossom and mugwort in Seoul",
       "source": "World",
-      "published": "Wed, 14 Oct 2026 23:01:06 GMT",
-      "summary": "Top UK law firms pull away from smaller rivals in race for profits\nBiggest firms for the first time took home more than half of the revenue pool of the top 100"
+      "published": "Thu, 15 Oct 2026 10:00:09 GMT",
+      "summary": "How to host a tea ceremony – Korean style\nTokkia’s Sooji Im makes matcha, plum blossom and mugwort in Seoul"
     },
     {
-      "title": "India’s Bond Market Shows Bets Building for More RBI Rate Hikes",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-10-15/india-s-bond-market-shows-bets-building-for-more-rbi-rate-hikes",
-      "raw_summary": "The 10-year bond yield climbed to a more than three-year high of 7.41% on Wednesday.",
+      "title": "Lufthansa Says ‘Couldn’t Miss’ TAP Deal Has €450 Million Upside",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-15/lufthansa-says-couldn-t-miss-tap-deal-has-450-million-upside",
+      "raw_summary": "Deutsche Lufthansa AG outlined the benefits of a “couldn’t miss” opportunity to buy a minority stake in Portuguese airline TAP SA, including catching up with European rivals in Latin America and finding as much as €450 million ($505 million) in annual synergies.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 15 Oct 2026 02:31:04 GMT",
-      "summary": "India’s Bond Market Shows Bets Building for More RBI Rate Hikes\nThe 10-year bond yield climbed to a more than three-year high of 7.41% on Wednesday."
+      "published": "Thu, 15 Oct 2026 10:25:23 GMT",
+      "summary": "Lufthansa Says ‘Couldn’t Miss’ TAP Deal Has €450 Million Upside\nDeutsche Lufthansa AG outlined the benefits of a “couldn’t miss” opportunity to buy a minority stake in Portuguese airline TAP SA, including catching up with European rivals in Latin America and finding as much as €450 million ($505 mil"
     },
     {
-      "title": "Inflation Raises Stakes for Warsh’s Final Word in Bangkok",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-14/fed-s-warsh-to-get-final-word-in-bangkok-as-inflation-roars-back",
-      "raw_summary": "September’s hot inflation data lit up expectations that the Federal Reserve may raise interest rates this month, a prospect that appeared unlikely after policymakers in recent weeks signaled they had time to wait.",
+      "title": "Stocks Slide as AI Rout Drives Investors to Bonds: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-14/stock-market-today-dow-s-p-live-updates",
+      "raw_summary": "Global equities fell as a selloff in the artificial-intelligence trade gathered speed and pushed investors toward the safety of bonds.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 14 Oct 2026 17:43:06 GMT",
-      "summary": "Inflation Raises Stakes for Warsh’s Final Word in Bangkok\nSeptember’s hot inflation data lit up expectations that the Federal Reserve may raise interest rates this month, a prospect that appeared unlikely after policymakers in recent weeks signaled they had time to wait."
+      "published": "Wed, 14 Oct 2026 22:04:59 GMT",
+      "summary": "Stocks Slide as AI Rout Drives Investors to Bonds: Markets Wrap\nGlobal equities fell as a selloff in the artificial-intelligence trade gathered speed and pushed investors toward the safety of bonds."
     },
     {
-      "title": "SK Hynix’s 57% Drop From Peak Shows Rapid Unwind of AI Excesses",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-15/chip-stocks-deepen-losses-as-concerns-mount-over-rates-ai-debt",
-      "raw_summary": "A global selloff in semiconductor stocks has dragged shares of SK Hynix Inc. down 57% from their peak four months ago, underscoring the scale of an investor exodus from the frothiest corners of the AI trade.",
-      "source": "Bloomberg Markets",
-      "published": "Thu, 15 Oct 2026 00:08:40 GMT",
-      "summary": "SK Hynix’s 57% Drop From Peak Shows Rapid Unwind of AI Excesses\nA global selloff in semiconductor stocks has dragged shares of SK Hynix Inc. down 57% from their peak four months ago, underscoring the scale of an investor exodus from the frothiest corners of the AI trade."
-    },
-    {
-      "title": "Gold Rises as Treasury Yields Erase Gain After Inflation Data",
+      "title": "Gold Rallies With Treasuries as AI Selloff Boosts Haven Assets",
       "link": "https://www.bloomberg.com/news/articles/2026-10-14/gold-holds-loss-as-hot-inflation-lifts-october-rate-hike-bets",
-      "raw_summary": "Gold advanced, boosted by lower US Treasury yields as investors sought safety in bonds after hot inflation data bolstered rate-hike bets and triggered an equity selloff.",
+      "raw_summary": "Gold rallied, bolstered by lower US Treasury yields as investors sought safety in bonds following an equity selloff.",
       "source": "Bloomberg Markets",
       "published": "Wed, 14 Oct 2026 23:33:01 GMT",
-      "summary": "Gold Rises as Treasury Yields Erase Gain After Inflation Data\nGold advanced, boosted by lower US Treasury yields as investors sought safety in bonds after hot inflation data bolstered rate-hike bets and triggered an equity selloff."
+      "summary": "Gold Rallies With Treasuries as AI Selloff Boosts Haven Assets\nGold rallied, bolstered by lower US Treasury yields as investors sought safety in bonds following an equity selloff."
     },
     {
-      "title": "Latest Oil Market News and Analysis for Oct. 15",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-14/latest-oil-market-news-and-analysis-for-oct-15",
-      "raw_summary": "Oil fell as concerns over Middle East supply disruptions eased and the International Energy Agency raised its forecast for the war’s impact on supply.",
+      "title": "Europe’s Leaders Lack Tools to Ease War-Driven Energy Shock",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-15/europe-s-leaders-have-few-tools-to-ease-war-driven-energy-shock",
+      "raw_summary": "European Union leaders are searching for ways to ease soaring energy prices, but President Donald Trump’s war against Iran has left them with few affordable options.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 14 Oct 2026 22:02:40 GMT",
-      "summary": "Latest Oil Market News and Analysis for Oct. 15\nOil fell as concerns over Middle East supply disruptions eased and the International Energy Agency raised its forecast for the war’s impact on supply."
+      "published": "Thu, 15 Oct 2026 05:00:00 GMT",
+      "summary": "Europe’s Leaders Lack Tools to Ease War-Driven Energy Shock\nEuropean Union leaders are searching for ways to ease soaring energy prices, but President Donald Trump’s war against Iran has left them with few affordable options."
     },
     {
-      "title": "Kalshi CEO says state-led oversight of U.S. prediction markets would push them out",
-      "link": "https://www.coindesk.com/policy/2026/10/14/kalshi-ceo-says-state-led-oversight-of-u-s-prediction-markets-would-push-them-out",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 14 Oct 2026 16:34:53 +0000",
-      "summary": "Kalshi CEO says state-led oversight of U.S. prediction markets would push them out\n"
+      "title": "Dangote Pushes African Market Access for IPO With Egypt Visit",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-15/dangote-pushes-african-market-access-for-ipo-with-egypt-visit",
+      "raw_summary": "Aliko Dangote is pushing the expansion of capital markets as Africa’s richest man readies to offer global depository receipts in Egypt.",
+      "source": "Bloomberg Markets",
+      "published": "Thu, 15 Oct 2026 09:45:10 GMT",
+      "summary": "Dangote Pushes African Market Access for IPO With Egypt Visit\nAliko Dangote is pushing the expansion of capital markets as Africa’s richest man readies to offer global depository receipts in Egypt."
     },
     {
-      "title": "AI agents make 138 million crypto payments as U.S. dominates spending on AI models",
-      "link": "https://www.coindesk.com/business/2026/10/14/ai-agents-make-138-million-crypto-payments-as-u-s-dominates-spending-on-ai-models",
+      "title": "Live updates: Bitcoin back under $81,000 as AI selloff worsens",
+      "link": "https://www.coindesk.com/business/2026/10/15/live-updates-bitcoin-back-under-usd81-000-as-ai-selloff-worsens",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 14 Oct 2026 15:35:36 +0000",
-      "summary": "AI agents make 138 million crypto payments as U.S. dominates spending on AI models\n"
+      "published": "Thu, 15 Oct 2026 10:16:15 +0000",
+      "summary": "Live updates: Bitcoin back under $81,000 as AI selloff worsens\n"
     },
     {
-      "title": "Crypto Long & Short: Why gold and bitcoin belong in the same portfolio",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/10/14/crypto-long-and-short-why-gold-and-bitcoin-belong-in-the-same-portfolio",
+      "title": "Hyperliquid founder wants U.S. oversight of trading platforms, not his blockchain",
+      "link": "https://www.coindesk.com/policy/2026/10/15/hyperliquid-founder-wants-u-s-oversight-of-trading-platforms-not-his-blockchain",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 14 Oct 2026 15:05:15 +0000",
-      "summary": "Crypto Long & Short: Why gold and bitcoin belong in the same portfolio\n"
+      "published": "Thu, 15 Oct 2026 10:00:56 +0000",
+      "summary": "Hyperliquid founder wants U.S. oversight of trading platforms, not his blockchain\n"
     },
     {
-      "title": "EasyA hits $1.1 billion valuation, targets 2027 public listing and tokenized shares",
-      "link": "https://www.coindesk.com/business/2026/10/14/easya-hits-usd1-1-billion-valuation-targets-2027-public-listing-and-tokenized-shares",
+      "title": "Australia’s financial watchdog seeks stiffer rules for crypto exchanges ahead of licensing deadline",
+      "link": "https://www.coindesk.com/policy/2026/10/15/australia-s-financial-watchdog-seeks-stiffer-rules-for-crypto-exchanges-ahead-of-licensing-deadline",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 14 Oct 2026 14:49:32 +0000",
-      "summary": "EasyA hits $1.1 billion valuation, targets 2027 public listing and tokenized shares\n"
+      "published": "Thu, 15 Oct 2026 09:53:37 +0000",
+      "summary": "Australia’s financial watchdog seeks stiffer rules for crypto exchanges ahead of licensing deadline\n"
     },
     {
-      "title": "BlackRock's crypto ETF assets surge 63% but remain far below 2025 peak",
-      "link": "https://www.coindesk.com/markets/2026/10/14/blackrock-s-crypto-etf-assets-surge-63-but-remain-far-below-2025-peak",
+      "title": "Hex founder Richard Heart arrested in Istanbul, Turkish media report",
+      "link": "https://www.coindesk.com/policy/2026/10/15/hex-founder-richard-heart-arrested-in-istanbul-turkish-media-report",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 14 Oct 2026 14:31:14 +0000",
-      "summary": "BlackRock's crypto ETF assets surge 63% but remain far below 2025 peak\n"
+      "published": "Thu, 15 Oct 2026 09:20:57 +0000",
+      "summary": "Hex founder Richard Heart arrested in Istanbul, Turkish media report\n"
+    },
+    {
+      "title": "BlackRock's Fink names a U.S. recession trigger, sounds alarm over $40 trillion national debt",
+      "link": "https://www.coindesk.com/markets/2026/10/15/blackrock-s-larry-fink-names-a-u-s-recession-trigger-and-its-tied-to-ai",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Thu, 15 Oct 2026 06:17:58 +0000",
+      "summary": "BlackRock's Fink names a U.S. recession trigger, sounds alarm over $40 trillion national debt\n"
     }
   ]
 }
