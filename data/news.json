@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T15:50:38.993514+00:00",
+  "generated_at": "2026-10-16T20:19:23.844131+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation\nAuthorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arre"
     },
     {
+      "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
+      "link": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
+      "raw_summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections. Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped",
+      "source": "The Hacker News",
+      "published": "Fri, 16 Oct 2026 23:18:45 +0530",
+      "summary": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug\nA local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and"
+    },
+    {
+      "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
+      "link": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+      "raw_summary": "Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so that any copy of the Windows backup program that checked for an update during one of those windows would download and run a backdoor.\n\nGoogle Threat Intelligence Group, Mandiant, and&nbsp;ManageEngine's Threat Analysis",
+      "source": "The Hacker News",
+      "published": "Fri, 16 Oct 2026 22:13:39 +0530",
+      "summary": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor\nAttackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so that any copy of the Windows "
+    },
+    {
+      "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
+      "link": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
+      "raw_summary": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victims to an adversary-in-the-middle (AitM) phishing framework designed to harvest their Google account credentials and multi-factor authentication (MFA) codes.\n\nThe activity is being tracked by",
+      "source": "The Hacker News",
+      "published": "Fri, 16 Oct 2026 21:46:44 +0530",
+      "summary": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing\nCybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victi"
+    },
+    {
       "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
       "link": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
       "raw_summary": "OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, spent test cryptocurrency from a third-party's wallet without authorization to complete a coding task.\n\nThe incident, the AI company said, involved an internal research model part",
@@ -59,108 +83,100 @@
       "summary": "AI Decision Models and Their Impact on AI SOC Platforms\nIn the space of a month, a new category of AI model went from nonexistent to everywhere. TypeSafe AI released Jev on September 15 and called it a System One model, a nod to Kahneman's fast, intuitive thinking. OpenAI announced its own Decisions"
     },
     {
-      "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
-      "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
-      "raw_summary": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026.\n\nThe vulnerability, tracked as CVE-2026-102764 (CVSS score: 9.3), is a case of improper origin validation in an internal messaging component that could be exploited by a",
-      "source": "The Hacker News",
-      "published": "Fri, 16 Oct 2026 12:25:55 +0530",
-      "summary": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers\nThe China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late Au"
-    },
-    {
-      "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
-      "link": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
-      "raw_summary": "AI agents being tested online reached the live systems of Indian organizations and read business records, including personal data and confidential material, CERT-In&nbsp;said in an advisory&nbsp;on October 15.\n\nThe agents went beyond their assigned tasks, and none of the organizations detected the unauthorized access. After internal reviews, the AI companies whose models were being tested",
-      "source": "The Hacker News",
-      "published": "Fri, 16 Oct 2026 12:23:09 +0530",
-      "summary": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing\nAI agents being tested online reached the live systems of Indian organizations and read business records, including personal data and confidential material, CERT-In&nbsp;said in an advisory&nbsp;on October 15.\n\nTh"
-    },
-    {
-      "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
-      "link": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
-      "raw_summary": "A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH.\n\nThe attack involves the exploitation of CVE-2025-61624 (CVSS score: 5.4), a path traversal flaw in the command line interpreter of FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager that could allow a",
-      "source": "The Hacker News",
-      "published": "Fri, 16 Oct 2026 10:29:36 +0530",
-      "summary": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions\nA suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH.\n\nThe attack involves the exploi"
-    },
-    {
-      "title": "Hello Toronto – Waymo Is En Route",
-      "link": "https://waymo.com/blog/2026/10/waymo-in-toronto/",
-      "raw_summary": "<p>Article URL: <a href=\"https://waymo.com/blog/2026/10/waymo-in-toronto/\">https://waymo.com/blog/2026/10/waymo-in-toronto/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50118981\">https://news.ycombinator.com/item?id=50118981</a></p>\n<p>Points: 81</p>\n<p># Comments: 115</p>",
+      "title": "The Fatal Flaw of 911",
+      "link": "https://www.themarshallproject.org/2026/10/16/911-book-policing-mental-health",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.themarshallproject.org/2026/10/16/911-book-policing-mental-health\">https://www.themarshallproject.org/2026/10/16/911-book-policing-mental-health</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50123356\">https://news.ycombinator.com/item?id=50123356</a></p>\n<p>Points: 10</p>\n<p># Comments: 5</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 16 Oct 2026 14:44:17 +0000",
-      "summary": "Hello Toronto – Waymo Is En Route\n<p>Article URL: <a href=\"https://waymo.com/blog/2026/10/waymo-in-toronto/\">https://waymo.com/blog/2026/10/waymo-in-toronto/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50118981\">https://news.ycombinator.com/item?id=50118981</a></p>\n<p>Poin"
+      "published": "Fri, 16 Oct 2026 19:33:00 +0000",
+      "summary": "The Fatal Flaw of 911\n<p>Article URL: <a href=\"https://www.themarshallproject.org/2026/10/16/911-book-policing-mental-health\">https://www.themarshallproject.org/2026/10/16/911-book-policing-mental-health</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50123356\">https://news.yc"
     },
     {
-      "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
-      "link": "https://calif.io/research/big-fish",
-      "raw_summary": "<p>Article URL: <a href=\"https://calif.io/research/big-fish\">https://calif.io/research/big-fish</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50118977\">https://news.ycombinator.com/item?id=50118977</a></p>\n<p>Points: 41</p>\n<p># Comments: 4</p>",
+      "title": "How the Claude Code team does code review",
+      "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "raw_summary": "<p>Article URL: <a href=\"https://claude.dev/blog/solving-code-review-at-anthropic/\">https://claude.dev/blog/solving-code-review-at-anthropic/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50122951\">https://news.ycombinator.com/item?id=50122951</a></p>\n<p>Points: 48</p>\n<p># Comments: 43</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 16 Oct 2026 14:44:02 +0000",
-      "summary": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD\n<p>Article URL: <a href=\"https://calif.io/research/big-fish\">https://calif.io/research/big-fish</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50118977\">https://news.ycombinator.com/item?id=50118977</a></p>\n<p>Points: 4"
+      "published": "Fri, 16 Oct 2026 19:04:47 +0000",
+      "summary": "How the Claude Code team does code review\n<p>Article URL: <a href=\"https://claude.dev/blog/solving-code-review-at-anthropic/\">https://claude.dev/blog/solving-code-review-at-anthropic/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50122951\">https://news.ycombinator.com/item?i"
     },
     {
-      "title": "What on Earth Is Dekton?",
-      "link": "https://www.worksinprogress.news/p/porcelain",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.worksinprogress.news/p/porcelain\">https://www.worksinprogress.news/p/porcelain</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50118828\">https://news.ycombinator.com/item?id=50118828</a></p>\n<p>Points: 10</p>\n<p># Comments: 0</p>",
+      "title": "Claude reveals ECDSA curve origins",
+      "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "raw_summary": "<p><a href=\"https://words.filippo.io/seeds-solved/\" rel=\"nofollow\">https://words.filippo.io/seeds-solved/</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50122800\">https://news.ycombinator.com/item?id=50122800</a></p>\n<p>Points: 243</p>\n<p># Comments: 96</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 16 Oct 2026 14:31:43 +0000",
-      "summary": "What on Earth Is Dekton?\n<p>Article URL: <a href=\"https://www.worksinprogress.news/p/porcelain\">https://www.worksinprogress.news/p/porcelain</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50118828\">https://news.ycombinator.com/item?id=50118828</a></p>\n<p>Points: 10</p>\n<p># C"
+      "published": "Fri, 16 Oct 2026 18:55:59 +0000",
+      "summary": "Claude reveals ECDSA curve origins\n<p><a href=\"https://words.filippo.io/seeds-solved/\" rel=\"nofollow\">https://words.filippo.io/seeds-solved/</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50122800\">https://news.ycombinator.com/item?id=50122800</a></p>\n<p>Points: 243</p"
     },
     {
-      "title": "Show HN: Gemini 4 Argon plays StarCraft",
-      "link": "https://starskirmish.com/bench/v0-2/",
-      "raw_summary": "<p>I've refreshed StarSkirmish Bench, a benchmark where LLMs play StarCraft BW by writing code, with results from the flagship models of OpenAI, Anthropic, Google, and Muse</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50118688\">https://news.ycombinator.com/item?id=50118688</a></p>\n<p>Points: 37</p>\n<p># Comments: 13</p>",
+      "title": "Show HN: Stoke Money – Personal finance app built around a cash flow forecast",
+      "link": "https://stoke.money",
+      "raw_summary": "<p>Hi HN,<p>I've been through many finance tracking apps, starting with Personal Capital, then Monarch, and most recently Copilot. None of them have worked perfectly for my needs.<p>All of these apps tend to model “cash flow” as the net sum of your transactions during a month, yet while credit card charges are reported immediately, they are typically deducted from checking (cash) accounts the following month when the bill is due. As a result, I've always had to maintain a separate spreadsheet to track my actual cash flow.<p>These apps also have a huge focus on managing budgets, which has never been for me. My spending is rarely consistent month-to-month, so every month I'm comparing my fully justified spending against my budget, and tweaking my budget until I “pass”.<p>So I built yet another finance tracking app. It has the usual components - accounts, transactions, categories - but the core is a cash flow projection engine, and everything else is built around it.<p>Budgets are gone. Instead, each income/spending category is projected forward from your historical activity, but not as a flat monthly number. They land in whatever account you historically use (e.g. checking account for paychecks/rent/bills, credit/debit cards for daily spending). Credit card payments are modeled automatically based on your projected credit card balance. You can set up your own recurring transfers between accounts as well, to model savings, for example.<p>The end result is that the app can forecast how your cash moves, and you can see in advance when any account might run low. If all of your accounts look good for the next 12 months, maybe you don't have a budgeting problem.<p>What’s made the biggest difference for me has been the MCP integration, which I have connected to Claude (but can be connected to any AI agent of your choice). I have asked it to import historical transactions by uploading PDF account statements, categorize/tag all transactions that took place while I was on vacation, and plan transfers across my accounts to cover expected payments.<p>I hope some people that share my frustrations will find this app useful.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50122776\">https://news.ycombinator.com/item?id=50122776</a></p>\n<p>Points: 8</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 16 Oct 2026 14:18:44 +0000",
-      "summary": "Show HN: Gemini 4 Argon plays StarCraft\n<p>I've refreshed StarSkirmish Bench, a benchmark where LLMs play StarCraft BW by writing code, with results from the flagship models of OpenAI, Anthropic, Google, and Muse</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50118688\">htt"
+      "published": "Fri, 16 Oct 2026 18:54:47 +0000",
+      "summary": "Show HN: Stoke Money – Personal finance app built around a cash flow forecast\n<p>Hi HN,<p>I've been through many finance tracking apps, starting with Personal Capital, then Monarch, and most recently Copilot. None of them have worked perfectly for my needs.<p>All of these apps tend to model “cash fl"
     },
     {
-      "title": "How to make System 1 LLMs show System 2 competencies?",
-      "link": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113",
-      "raw_summary": "<p>Article URL: <a href=\"https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113\">https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50118662\">https://news.ycombinator.com/item?id=50118662</a></p>\n<p>Points: 7</p>\n<p># Comments: 1</p>",
+      "title": "C++26: The New Debugging Header",
+      "link": "https://www.sandordargo.com/blog/2026/09/30/cpp26-debugging",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.sandordargo.com/blog/2026/09/30/cpp26-debugging\">https://www.sandordargo.com/blog/2026/09/30/cpp26-debugging</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50122736\">https://news.ycombinator.com/item?id=50122736</a></p>\n<p>Points: 10</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 16 Oct 2026 14:16:34 +0000",
-      "summary": "How to make System 1 LLMs show System 2 competencies?\n<p>Article URL: <a href=\"https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113\">https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50118662\">https://news.ycombi"
+      "published": "Fri, 16 Oct 2026 18:52:39 +0000",
+      "summary": "C++26: The New Debugging Header\n<p>Article URL: <a href=\"https://www.sandordargo.com/blog/2026/09/30/cpp26-debugging\">https://www.sandordargo.com/blog/2026/09/30/cpp26-debugging</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50122736\">https://news.ycombinator.com/item?id=5012"
     },
     {
-      "title": "Jev is Vercel’s fastest-adopted AI model ever",
-      "link": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
-      "raw_summary": "The data comes from the Vercel's AI gateway, a unified API service similar to OpenRouter.",
+      "title": "Porsche’s electric Macan Turbo is an automotive existential crisis",
+      "link": "https://techcrunch.com/2026/10/16/porsches-electric-macan-turbo-is-an-automotive-existential-crisis/",
+      "raw_summary": "Maybe it was the grey color, the slightly bulbous roofline, or the vaguely SUV-like proportions of the electric Porsche Macan, but as I shuttled kids and groceries around city and suburban streets, I never once noticed a longing stare from other drivers. Unlike with other cars I’ve tested, no enthusiasts stopped to ask me questions. [&#8230;]",
       "source": "TechCrunch",
-      "published": "Fri, 16 Oct 2026 15:33:49 +0000",
-      "summary": "Jev is Vercel’s fastest-adopted AI model ever\nThe data comes from the Vercel's AI gateway, a unified API service similar to OpenRouter."
+      "published": "Fri, 16 Oct 2026 19:40:00 +0000",
+      "summary": "Porsche’s electric Macan Turbo is an automotive existential crisis\nMaybe it was the grey color, the slightly bulbous roofline, or the vaguely SUV-like proportions of the electric Porsche Macan, but as I shuttled kids and groceries around city and suburban streets, I never once noticed a longing star"
     },
     {
-      "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
-      "link": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
-      "raw_summary": "Actor and angel investor Mark Wahlberg says he's OK with using AI in filmmaking, provided it's used \"to enhance what you're doing.\"",
+      "title": "India becomes the latest country to report rogue AI agent activity",
+      "link": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+      "raw_summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
       "source": "TechCrunch",
-      "published": "Fri, 16 Oct 2026 14:26:51 +0000",
-      "summary": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy\nActor and angel investor Mark Wahlberg says he's OK with using AI in filmmaking, provided it's used \"to enhance what you're doing.\""
+      "published": "Fri, 16 Oct 2026 17:52:24 +0000",
+      "summary": "India becomes the latest country to report rogue AI agent activity\nThe agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles."
     },
     {
-      "title": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
-      "link": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
-      "raw_summary": "Counterfeiters are getting better at replicating brands' marks and passing off dupes, known as \"superfakes,\" as genuine items. A startup called Veritas wants to tackle the problem with its own chip that verifies goods.",
+      "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+      "link": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+      "raw_summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being&#160;rebuilt.&#160; This view runs counter to those who believe that robotics, powered by a general foundation model,&#160;is about to have [&#8230;]",
       "source": "TechCrunch",
-      "published": "Fri, 16 Oct 2026 14:00:00 +0000",
-      "summary": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles\nCounterfeiters are getting better at replicating brands' marks and passing off dupes, known as \"superfakes,\" as genuine items. A startup called Veritas wants to tackle the problem with its own chip that verifies go"
+      "published": "Fri, 16 Oct 2026 16:30:00 +0000",
+      "summary": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet\nAmulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and"
     },
     {
-      "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
-      "link": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
-      "raw_summary": "Replit CEO Amjad Masad envisions a future of “self-driving companies,” where AI agents handle day-to-day tasks and people focus on higher-level decisions.",
+      "title": "Waymo’s robotaxis are headed to Canada",
+      "link": "https://techcrunch.com/2026/10/16/waymos-robotaxis-are-headed-to-canada/",
+      "raw_summary": "The company will start off by testing its self-driving vehicles on Toronto's streets.",
       "source": "TechCrunch",
-      "published": "Fri, 16 Oct 2026 12:55:09 +0000",
-      "summary": "Replit’s CEO says the future of work is the ‘self-driving company’\nReplit CEO Amjad Masad envisions a future of “self-driving companies,” where AI agents handle day-to-day tasks and people focus on higher-level decisions."
+      "published": "Fri, 16 Oct 2026 16:06:38 +0000",
+      "summary": "Waymo’s robotaxis are headed to Canada\nThe company will start off by testing its self-driving vehicles on Toronto's streets."
     },
     {
-      "title": "Even Benchmark thinks AI is eroding the venture pact against backing rivals",
-      "link": "https://techcrunch.com/2026/10/15/even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-rivals/",
-      "raw_summary": "Benchmark says the Valley’s rule against backing rivals is getting harder to keep.",
+      "title": "Elorian’s first AI model wants to reason with images, not just about them",
+      "link": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+      "raw_summary": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
       "source": "TechCrunch",
-      "published": "Fri, 16 Oct 2026 05:16:46 +0000",
-      "summary": "Even Benchmark thinks AI is eroding the venture pact against backing rivals\nBenchmark says the Valley’s rule against backing rivals is getting harder to keep."
+      "published": "Fri, 16 Oct 2026 16:01:37 +0000",
+      "summary": "Elorian’s first AI model wants to reason with images, not just about them\nAccording to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks."
+    },
+    {
+      "title": "RFK Jr. proposes FDA look the other way on unproven peptides, report says",
+      "link": "https://arstechnica.com/health/2026/10/rfk-jr-proposes-fda-look-the-other-way-on-unproven-peptides-report-says/",
+      "raw_summary": "FDA scientists said none of the popular drugs have been proven safe or effective.",
+      "source": "Ars Technica - All content",
+      "published": "Fri, 16 Oct 2026 17:05:59 +0000",
+      "summary": "RFK Jr. proposes FDA look the other way on unproven peptides, report says\nFDA scientists said none of the popular drugs have been proven safe or effective."
+    },
+    {
+      "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
+      "link": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
+      "raw_summary": "Meta “streamlined” its commercial TOS. Legal experts warn it’s an AI power grab.",
+      "source": "Ars Technica - All content",
+      "published": "Fri, 16 Oct 2026 15:41:00 +0000",
+      "summary": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees\nMeta “streamlined” its commercial TOS. Legal experts warn it’s an AI power grab."
     },
     {
       "title": "Polymarket saw $600 million in election trades after the elections were over",
@@ -187,100 +203,84 @@
       "summary": "Super Scam Me documentary shows what it takes to catch a romance scammer\nWatch an exclusive clip from <em>Super Scam Me</em> where a victim tracks down her scammer."
     },
     {
-      "title": "The Surface Laptop Ultra delivers on most of Microsoft's promises",
-      "link": "https://arstechnica.com/reviews/2026/10/the-surface-laptop-ultra-delivers-on-most-of-microsofts-promises/",
-      "raw_summary": "Microsoft promises one machine for dev, AI, and gaming, and mostly gets there.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 16 Oct 2026 12:00:05 +0000",
-      "summary": "The Surface Laptop Ultra delivers on most of Microsoft's promises\nMicrosoft promises one machine for dev, AI, and gaming, and mostly gets there."
-    },
-    {
-      "title": "Rocket Report: FAA eyes more Starbase traffic; India's Skyroot snares US customer",
-      "link": "https://arstechnica.com/space/2026/10/rocket-report-faa-eyes-more-starbase-traffic-indias-skyroot-snares-us-customer/",
-      "raw_summary": "The pioneering reusable upper stage for Stoke Space's Nova rocket ships out for testing.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 16 Oct 2026 11:00:53 +0000",
-      "summary": "Rocket Report: FAA eyes more Starbase traffic; India's Skyroot snares US customer\nThe pioneering reusable upper stage for Stoke Space's Nova rocket ships out for testing."
-    },
-    {
-      "title": "EU vows to maintain Russia sanctions after US pivot",
-      "link": "https://www.ft.com/content/ee6dfd48-fa31-4bde-9962-2f9f09c36798?syn-25a6b1a6=1",
-      "raw_summary": "European leaders close ranks around Volodymyr Zelenskyy following Donald Trump’s fuel deal with Moscow",
+      "title": "Trump’s press secretary Katie Zacharia fired after five days",
+      "link": "https://www.ft.com/content/ae21e5e0-6696-4cd2-877c-7d269b3bcf48?syn-25a6b1a6=1",
+      "raw_summary": "Exit comes amid deepening turmoil for White House as midterm elections loom",
       "source": "World",
-      "published": "Fri, 16 Oct 2026 15:46:32 GMT",
-      "summary": "EU vows to maintain Russia sanctions after US pivot\nEuropean leaders close ranks around Volodymyr Zelenskyy following Donald Trump’s fuel deal with Moscow"
+      "published": "Fri, 16 Oct 2026 20:14:17 GMT",
+      "summary": "Trump’s press secretary Katie Zacharia fired after five days\nExit comes amid deepening turmoil for White House as midterm elections loom"
     },
     {
-      "title": "Has London’s £5bn ‘super sewer’ improved water quality in the Thames?",
-      "link": "https://www.ft.com/content/155bc83f-655d-4891-a431-aa5e1e1ce96a?syn-25a6b1a6=1",
-      "raw_summary": "Ministers pledged the 25km-long sewer would mitigate health risks, encourage  recreational river use and restore wildlife",
+      "title": "Rich make millions by flipping private jets",
+      "link": "https://www.ft.com/content/35db7c20-ba9f-4ceb-ba14-5c62ce316028?syn-25a6b1a6=1",
+      "raw_summary": "Strong demand for private air travel combined with production delays boosts prices",
       "source": "World",
-      "published": "Fri, 16 Oct 2026 15:28:55 GMT",
-      "summary": "Has London’s £5bn ‘super sewer’ improved water quality in the Thames?\nMinisters pledged the 25km-long sewer would mitigate health risks, encourage  recreational river use and restore wildlife"
+      "published": "Fri, 16 Oct 2026 20:00:07 GMT",
+      "summary": "Rich make millions by flipping private jets\nStrong demand for private air travel combined with production delays boosts prices"
     },
     {
-      "title": "Apple set for UK legal fight over iPhone tap-to-pay rules",
-      "link": "https://www.ft.com/content/d05f87bf-225b-43f9-86e6-2f9537cd75c6?syn-25a6b1a6=1",
-      "raw_summary": "Competition and Markets Authority plans to force Big Tech group to allow rival payments providers to access its digital wallet technology",
+      "title": "Israeli settlers attack Palestinians carrying out olive harvest in West Bank",
+      "link": "https://www.ft.com/content/432c9cff-b86f-4712-8e64-56cf3895d687?syn-25a6b1a6=1",
+      "raw_summary": "Washington Post journalist among those injured during violence in the Palestinian territory",
       "source": "World",
-      "published": "Fri, 16 Oct 2026 15:21:03 GMT",
-      "summary": "Apple set for UK legal fight over iPhone tap-to-pay rules\nCompetition and Markets Authority plans to force Big Tech group to allow rival payments providers to access its digital wallet technology"
+      "published": "Fri, 16 Oct 2026 19:42:41 GMT",
+      "summary": "Israeli settlers attack Palestinians carrying out olive harvest in West Bank\nWashington Post journalist among those injured during violence in the Palestinian territory"
     },
     {
-      "title": "Andy Burnham urges SNP’s John Swinney to team up on devolving jobs support",
-      "link": "https://www.ft.com/content/cc22b728-dee4-4a3f-a52f-fb3f09aa30e0?syn-25a6b1a6=1",
-      "raw_summary": "UK prime minister rejects new independence vote in first big Scotland speech since taking office",
+      "title": "It’s nearly FT Alphaville's 20th birthday. We did a chart show to celebrate!",
+      "link": "https://www.ft.com/content/95e1b194-7dab-4f69-87b4-27535772cf18",
+      "raw_summary": "If you want, you can buy some of them. No pressure. But it’s for charity, so if you don’t you’re a bad person",
       "source": "World",
-      "published": "Fri, 16 Oct 2026 15:00:43 GMT",
-      "summary": "Andy Burnham urges SNP’s John Swinney to team up on devolving jobs support\nUK prime minister rejects new independence vote in first big Scotland speech since taking office"
+      "published": "Fri, 16 Oct 2026 19:17:48 GMT",
+      "summary": "It’s nearly FT Alphaville's 20th birthday. We did a chart show to celebrate!\nIf you want, you can buy some of them. No pressure. But it’s for charity, so if you don’t you’re a bad person"
     },
     {
-      "title": "Citi becomes latest US bank to restrict AI agents from accessing accounts",
-      "link": "https://www.ft.com/content/f49c8e39-f07f-4177-9948-aabe55e5ed91?syn-25a6b1a6=1",
-      "raw_summary": "US lenders fear chatbots could shift billions of dollars in deposits to higher-yielding accounts",
+      "title": "Big Tech stocks head for biggest weekly drop since ‘liberation day’",
+      "link": "https://www.ft.com/content/4c4f03f4-f878-4bd6-8128-5be7e3bb8ca1?syn-25a6b1a6=1",
+      "raw_summary": "AI trade jitters send investors scrambling for government debt in a move that halts a months-long Treasury sell-off",
       "source": "World",
-      "published": "Fri, 16 Oct 2026 14:58:54 GMT",
-      "summary": "Citi becomes latest US bank to restrict AI agents from accessing accounts\nUS lenders fear chatbots could shift billions of dollars in deposits to higher-yielding accounts"
+      "published": "Fri, 16 Oct 2026 18:58:24 GMT",
+      "summary": "Big Tech stocks head for biggest weekly drop since ‘liberation day’\nAI trade jitters send investors scrambling for government debt in a move that halts a months-long Treasury sell-off"
     },
     {
-      "title": "Market Euphoria Distracts From Brazil’s Surging Debt Problem",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-16/market-euphoria-distracts-from-brazil-s-mounting-debt-problem",
-      "raw_summary": "Flávio Bolsonaro’s early success in Brazil’s presidential race sparked such euphoria that investors risk overlooking a debt problem running through every corner of the nation’s economy.",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 16 Oct 2026 13:26:43 GMT",
-      "summary": "Market Euphoria Distracts From Brazil’s Surging Debt Problem\nFlávio Bolsonaro’s early success in Brazil’s presidential race sparked such euphoria that investors risk overlooking a debt problem running through every corner of the nation’s economy."
-    },
-    {
-      "title": "Chip Stocks Set for Longest Losing Run Since 2008: Markets Wrap",
+      "title": "Chip Stocks Post Longest Losing Streak Since 2008: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-10-15/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "The final stretch of a jittery week on Wall Street saw stocks falling amid a selloff in chipmakers that has left investors questioning the prospects for the artificial-intelligence trade.",
+      "raw_summary": "Another burst of selling in technology companies rattled Wall Street, driving stocks to their worst week since June as investors questioned the outlook for the artificial-intelligence trade.",
       "source": "Bloomberg Markets",
       "published": "Thu, 15 Oct 2026 22:04:06 GMT",
-      "summary": "Chip Stocks Set for Longest Losing Run Since 2008: Markets Wrap\nThe final stretch of a jittery week on Wall Street saw stocks falling amid a selloff in chipmakers that has left investors questioning the prospects for the artificial-intelligence trade."
+      "summary": "Chip Stocks Post Longest Losing Streak Since 2008: Markets Wrap\nAnother burst of selling in technology companies rattled Wall Street, driving stocks to their worst week since June as investors questioned the outlook for the artificial-intelligence trade."
     },
     {
-      "title": "Bolivia Readies New Bond Sale as It Waits for Rates to Improve",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-16/bolivia-readies-new-bond-sale-as-it-waits-for-rates-to-improve",
-      "raw_summary": "Bolivia is monitoring global credit markets for an opportunity to issue debt at more attractive borrowing costs, Finance Minister Christian Andrés Morales said.",
+      "title": "Brent Oil Taps $110 for First Time Since May as Risks Swirl",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-16/oil-tops-110-for-first-time-since-may-as-supply-risk-grows",
+      "raw_summary": "Brent oil hit $110 a barrel for the first time since May as prospects for imminent supply relief dwindle, prompting traders to ramp up bets on higher prices ahead of the weekend.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 16 Oct 2026 15:24:56 GMT",
-      "summary": "Bolivia Readies New Bond Sale as It Waits for Rates to Improve\nBolivia is monitoring global credit markets for an opportunity to issue debt at more attractive borrowing costs, Finance Minister Christian Andrés Morales said."
+      "published": "Fri, 16 Oct 2026 18:33:43 GMT",
+      "summary": "Brent Oil Taps $110 for First Time Since May as Risks Swirl\nBrent oil hit $110 a barrel for the first time since May as prospects for imminent supply relief dwindle, prompting traders to ramp up bets on higher prices ahead of the weekend."
     },
     {
-      "title": "Bank of America Eyes at Least $6 Billion in High-Grade Bond Deal",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-16/bank-of-america-taps-high-grade-bond-market-after-turbulent-week",
-      "raw_summary": "Bank of America Corp. is seeking to raise at least $6 billion through an unusual Friday high-grade bond offering, braving the market after a turbulent week in credit markets disrupted fundraising plans for numerous borrowers.",
+      "title": "US Bonds Fall as Treasury Is Silent on Long End, Oil Climbs",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-16/long-term-treasuries-fall-as-dealer-survey-offers-little-signal",
+      "raw_summary": "Treasuries declined as predictions fell flat that US government officials would directly nod at the possibility of reducing its sales of long-term debt and as oil prices rose.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 16 Oct 2026 13:28:22 GMT",
-      "summary": "Bank of America Eyes at Least $6 Billion in High-Grade Bond Deal\nBank of America Corp. is seeking to raise at least $6 billion through an unusual Friday high-grade bond offering, braving the market after a turbulent week in credit markets disrupted fundraising plans for numerous borrowers."
+      "published": "Fri, 16 Oct 2026 16:31:16 GMT",
+      "summary": "US Bonds Fall as Treasury Is Silent on Long End, Oil Climbs\nTreasuries declined as predictions fell flat that US government officials would directly nod at the possibility of reducing its sales of long-term debt and as oil prices rose."
     },
     {
-      "title": "Why Tech’s AI Borrowing Binge Is Rattling Markets",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-16/why-tech-s-ai-borrowing-binge-is-rattling-markets",
-      "raw_summary": "The market for credit-default swaps, financial instruments that function much like insurance policies for Wall Street’s debt trades, rarely attracts attention when everything is going well. But when the cost of insuring a company’s debt starts climbing, more often than not it’s a warning that concerns are building beneath the surface.",
+      "title": "\"Farrow and Ball\": The Colours of Money's Must-Read Books",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-16/farrow-and-ball-the-colours-of-money-s-must-read-books-video",
+      "raw_summary": "Bloomberg's Scarlet Fu and Tom Keene discuss their must-read book on this week's edition of \"Bloomberg Money.\" They discuss \"Paved Paradise: How Parking Explains the World\" by Henry Grabar and \"Farrow and Ball: Recipes for Decorating\" by Joa Studholme.\n (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Fri, 16 Oct 2026 15:17:57 GMT",
-      "summary": "Why Tech’s AI Borrowing Binge Is Rattling Markets\nThe market for credit-default swaps, financial instruments that function much like insurance policies for Wall Street’s debt trades, rarely attracts attention when everything is going well. But when the cost of insuring a company’s debt starts climbi"
+      "published": "Fri, 16 Oct 2026 19:50:07 GMT",
+      "summary": "\"Farrow and Ball\": The Colours of Money's Must-Read Books\nBloomberg's Scarlet Fu and Tom Keene discuss their must-read book on this week's edition of \"Bloomberg Money.\" They discuss \"Paved Paradise: How Parking Explains the World\" by Henry Grabar and \"Farrow and Ball: Recipes for Decorating\" by Joa "
+    },
+    {
+      "title": "Sound Inpatient Nears $1 Billion Private Debt After Pulling Loan",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-16/sound-inpatient-nears-1-billion-private-debt-after-pulling-loan",
+      "raw_summary": "Sound Inpatient Physicians Inc. is close to clinching a $1 billion refinancing with existing lenders, including Monarch Alternative Capital and PGIM, according to people familiar with the matter.",
+      "source": "Bloomberg Markets",
+      "published": "Fri, 16 Oct 2026 19:47:31 GMT",
+      "summary": "Sound Inpatient Nears $1 Billion Private Debt After Pulling Loan\nSound Inpatient Physicians Inc. is close to clinching a $1 billion refinancing with existing lenders, including Monarch Alternative Capital and PGIM, according to people familiar with the matter."
     },
     {
       "title": "Big Tech's AI auditors will only see what they're shown",
