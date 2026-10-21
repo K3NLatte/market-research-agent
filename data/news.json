@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-10-21T10:54:47.692984+00:00",
+  "generated_at": "2026-10-21T16:22:08.328749+00:00",
   "count": 40,
   "articles": [
+    {
+      "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+      "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+      "raw_summary": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working exploits for the flaws, and that these critical bugs are already being exploited in the wild.",
+      "source": "Krebs on Security",
+      "published": "Wed, 21 Oct 2026 15:26:07 +0000",
+      "summary": "Widespread PHP Flaw May Cause Many Site Outages Today\nExpect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected server"
+    },
     {
       "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
       "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
@@ -35,92 +43,116 @@
       "summary": "FBI Arrests Executive at Ransomware Negotiation Firm\nAgents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on "
     },
     {
-      "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-      "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
-      "raw_summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the hacker handle \"Rey,\" was detained as ShinyHunters was in the process of extorting a business unit recently divested by the global aerospace company Boeing, which manufactures the fleet of planes used by the employer of Rey's father -- Royal Jordanian Airlines.",
-      "source": "Krebs on Security",
-      "published": "Wed, 07 Oct 2026 13:48:45 +0000",
-      "summary": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests\nA teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned t"
-    },
-    {
-      "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
-      "link": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
-      "raw_summary": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory.\n\nPHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described.",
+      "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
+      "link": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+      "raw_summary": "PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the PHP team says only updating fully protects a server.\n\nThe flaws, together called PHP2Shell, sit in the PHP runtime, not in any application, so a site is exposed even when its own",
       "source": "The Hacker News",
-      "published": "Wed, 21 Oct 2026 14:35:17 +0530",
-      "summary": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert\nThis story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory.\n\nPHP wil"
+      "published": "Wed, 21 Oct 2026 19:30:00 +0530",
+      "summary": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge\nPHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35,"
     },
     {
-      "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
-      "link": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
-      "raw_summary": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites.\n\nTeamUpdraft is the developer behind UpdraftPlus, a popular WordPress backup plugin with over four million active installations. The vendor also offers UpdraftCentral, a remote",
+      "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
+      "link": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
+      "raw_summary": "Google on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Protection is enabled.\n\nClickFix is a popular social engineering technique in which bad actors trick users into copying and pasting malicious code directly into their computer's operating system, thereby bypassing conventional security controls.\n\nAs part of",
       "source": "The Hacker News",
-      "published": "Wed, 21 Oct 2026 14:31:12 +0530",
-      "summary": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites\nUnknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites.\n\nTeamUpd"
+      "published": "Wed, 21 Oct 2026 18:45:09 +0530",
+      "summary": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands\nGoogle on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Protection is enabled.\n\nClickFix is a popular social engineering technique in wh"
     },
     {
-      "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
-      "link": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
-      "raw_summary": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of Homeland Security order.\n\nThey may also no longer buy information technology products or services from the Chinese AI developer or its affiliates\n\nHomeland Security Secretary",
+      "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
+      "link": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
+      "raw_summary": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025.\n\n\"The most distinctive technical marker for Bronze Sandcastle is its consistent use of Sandboxie DLL sideloading,\" Sophos security researcher Gabor Szappanos said in a post published",
       "source": "The Hacker News",
-      "published": "Wed, 21 Oct 2026 13:34:17 +0530",
-      "summary": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases\nU.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of Hom"
+      "published": "Wed, 21 Oct 2026 17:35:00 +0530",
+      "summary": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors\nCybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025."
     },
     {
-      "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
-      "link": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
-      "raw_summary": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from.\n\nThe state-owned bank, India's largest, said in a&nbsp;stock-exchange filing&nbsp;dated October 21 that it \"has experienced an incident involving the loss of certain data.\" The count is",
+      "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
+      "link": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
+      "raw_summary": "Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive fluent, personalized, and unique to each recipient, and the behavioral signals email filters have relied on for years are fading as a result.\n\nProofpoint shared several examples of the shift at its Protect 2026 conference.",
       "source": "The Hacker News",
-      "published": "Wed, 21 Oct 2026 13:14:22 +0530",
-      "summary": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web\nState Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from.\n\nThe state-o"
+      "published": "Wed, 21 Oct 2026 17:23:34 +0530",
+      "summary": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports\nGenerative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive fluent, personalized, and un"
     },
     {
-      "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
-      "link": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
-      "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-96652 (CVSS score: 5.3) - Plex Media Server Server-Side Request Forgery (SSRF)",
+      "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
+      "link": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
+      "raw_summary": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now says.\n\nPHP will release the fix at&nbsp;14:00 UTC on October 21&nbsp;for two flaws it rates 9.2 out of 10, and has given no workaround of its own. Until you can install it, what lowers your",
       "source": "The Hacker News",
-      "published": "Wed, 21 Oct 2026 12:56:49 +0530",
-      "summary": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Se"
+      "published": "Wed, 21 Oct 2026 16:06:53 +0530",
+      "summary": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't\nYou cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now "
     },
     {
-      "title": "Whatever Happened to Fire Escapes",
-      "link": "https://practical.engineering/blog/2026/10/20/whatever-happened-to-fire-escapes",
-      "raw_summary": "<p>Article URL: <a href=\"https://practical.engineering/blog/2026/10/20/whatever-happened-to-fire-escapes\">https://practical.engineering/blog/2026/10/20/whatever-happened-to-fire-escapes</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50178455\">https://news.ycombinator.com/item?id=50178455</a></p>\n<p>Points: 10</p>\n<p># Comments: 1</p>",
+      "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+      "link": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+      "raw_summary": "<p>Article URL: <a href=\"https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/\">https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50182987\">https://news.ycombinator.com/item?id=50182987</a></p>\n<p>Points: 41</p>\n<p># Comments: 7</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 21 Oct 2026 10:14:43 +0000",
-      "summary": "Whatever Happened to Fire Escapes\n<p>Article URL: <a href=\"https://practical.engineering/blog/2026/10/20/whatever-happened-to-fire-escapes\">https://practical.engineering/blog/2026/10/20/whatever-happened-to-fire-escapes</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50178455\""
+      "published": "Wed, 21 Oct 2026 15:48:56 +0000",
+      "summary": "Today's PHP Security Release, and How We're Strengthening PHP Security\n<p>Article URL: <a href=\"https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/\">https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthe"
     },
     {
-      "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
-      "link": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
-      "raw_summary": "<p>Article URL: <a href=\"https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/\">https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50177916\">https://news.ycombinator.com/item?id=50177916</a></p>\n<p>Points: 122</p>\n<p># Comments: 52</p>",
+      "title": "Oregon lawmakers approve money to buy an iconic waterfall listed on Redfin",
+      "link": "https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488",
+      "raw_summary": "<p>Article URL: <a href=\"https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488\">https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50182526\">https://news.ycombinator.com/item?id=50182526</a></p>\n<p>Points: 35</p>\n<p># Comments: 20</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 21 Oct 2026 09:08:08 +0000",
-      "summary": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds\n<p>Article URL: <a href=\"https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/\">https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/</a></p>\n<p>Comments URL: <a href=\"htt"
+      "published": "Wed, 21 Oct 2026 15:20:04 +0000",
+      "summary": "Oregon lawmakers approve money to buy an iconic waterfall listed on Redfin\n<p>Article URL: <a href=\"https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488\">https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488</a></p>"
     },
     {
-      "title": "The 1.5°C goal of the Paris Agreement is no longer viable",
-      "link": "https://unric.org/en/unep-emissions-gap-report-2026-1-5-degree-overshoot/",
-      "raw_summary": "<p>Article URL: <a href=\"https://unric.org/en/unep-emissions-gap-report-2026-1-5-degree-overshoot/\">https://unric.org/en/unep-emissions-gap-report-2026-1-5-degree-overshoot/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50177911\">https://news.ycombinator.com/item?id=50177911</a></p>\n<p>Points: 226</p>\n<p># Comments: 233</p>",
+      "title": "Delays for Pull Requests and Webhook deliveries",
+      "link": "https://www.githubstatus.com/incidents/nms1dpzmh9d9",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.githubstatus.com/incidents/nms1dpzmh9d9\">https://www.githubstatus.com/incidents/nms1dpzmh9d9</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50182130\">https://news.ycombinator.com/item?id=50182130</a></p>\n<p>Points: 45</p>\n<p># Comments: 9</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 21 Oct 2026 09:07:49 +0000",
-      "summary": "The 1.5°C goal of the Paris Agreement is no longer viable\n<p>Article URL: <a href=\"https://unric.org/en/unep-emissions-gap-report-2026-1-5-degree-overshoot/\">https://unric.org/en/unep-emissions-gap-report-2026-1-5-degree-overshoot/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?"
+      "published": "Wed, 21 Oct 2026 14:56:57 +0000",
+      "summary": "Delays for Pull Requests and Webhook deliveries\n<p>Article URL: <a href=\"https://www.githubstatus.com/incidents/nms1dpzmh9d9\">https://www.githubstatus.com/incidents/nms1dpzmh9d9</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50182130\">https://news.ycombinator.com/item?id=5018"
     },
     {
-      "title": "Battlezone Online: BZFlag in the Browser",
-      "link": "https://github.com/timriker/bzo",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/timriker/bzo\">https://github.com/timriker/bzo</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50176298\">https://news.ycombinator.com/item?id=50176298</a></p>\n<p>Points: 32</p>\n<p># Comments: 23</p>",
+      "title": "Cloudflare deploys protections against php2shell vulnerability",
+      "link": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.cloudflare.com/php-vulnerabilities-waf-protection/\">https://blog.cloudflare.com/php-vulnerabilities-waf-protection/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50181326\">https://news.ycombinator.com/item?id=50181326</a></p>\n<p>Points: 24</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 21 Oct 2026 05:05:19 +0000",
-      "summary": "Battlezone Online: BZFlag in the Browser\n<p>Article URL: <a href=\"https://github.com/timriker/bzo\">https://github.com/timriker/bzo</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50176298\">https://news.ycombinator.com/item?id=50176298</a></p>\n<p>Points: 32</p>\n<p># Comments: 2"
+      "published": "Wed, 21 Oct 2026 14:11:14 +0000",
+      "summary": "Cloudflare deploys protections against php2shell vulnerability\n<p>Article URL: <a href=\"https://blog.cloudflare.com/php-vulnerabilities-waf-protection/\">https://blog.cloudflare.com/php-vulnerabilities-waf-protection/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50181326\">ht"
     },
     {
-      "title": "Setting Up SSH Keys on macOS with Touch ID",
-      "link": "https://nmattia.com/posts/2026-10-19-setting-up-ssh-keys-touch-id/",
-      "raw_summary": "<p>Article URL: <a href=\"https://nmattia.com/posts/2026-10-19-setting-up-ssh-keys-touch-id/\">https://nmattia.com/posts/2026-10-19-setting-up-ssh-keys-touch-id/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50175882\">https://news.ycombinator.com/item?id=50175882</a></p>\n<p>Points: 62</p>\n<p># Comments: 39</p>",
+      "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+      "link": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+      "raw_summary": "<p><a href=\"https://patchtheplanet.org/\" rel=\"nofollow\">https://patchtheplanet.org/</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50181175\">https://news.ycombinator.com/item?id=50181175</a></p>\n<p>Points: 112</p>\n<p># Comments: 60</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 21 Oct 2026 03:51:25 +0000",
-      "summary": "Setting Up SSH Keys on macOS with Touch ID\n<p>Article URL: <a href=\"https://nmattia.com/posts/2026-10-19-setting-up-ssh-keys-touch-id/\">https://nmattia.com/posts/2026-10-19-setting-up-ssh-keys-touch-id/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50175882\">https://news.yco"
+      "published": "Wed, 21 Oct 2026 14:03:43 +0000",
+      "summary": "Patch the Planet: global response coordination as agents uncover vulnerabilities\n<p><a href=\"https://patchtheplanet.org/\" rel=\"nofollow\">https://patchtheplanet.org/</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50181175\">https://news.ycombinator.com/item?id=50181175</"
+    },
+    {
+      "title": "Foursquare co-founder says equity holders saw no returns from the company’s acquisition",
+      "link": "https://techcrunch.com/2026/10/21/foursquare-co-founder-says-equity-holders-saw-no-returns-from-the-companys-acquisition/",
+      "raw_summary": "Foursquare raised $411 million in funding according to PitchBook data, but its equity holders saw no returns from its final acquisition.",
+      "source": "TechCrunch",
+      "published": "Wed, 21 Oct 2026 14:03:11 +0000",
+      "summary": "Foursquare co-founder says equity holders saw no returns from the company’s acquisition\nFoursquare raised $411 million in funding according to PitchBook data, but its equity holders saw no returns from its final acquisition."
+    },
+    {
+      "title": "AI promises productivity, but for managers, it’s mostly a headache for now",
+      "link": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
+      "raw_summary": "More than 50% of managers say they're finding it harder to evaluate employees' work after adopting AI, according to a new survey.",
+      "source": "TechCrunch",
+      "published": "Wed, 21 Oct 2026 14:00:00 +0000",
+      "summary": "AI promises productivity, but for managers, it’s mostly a headache for now\nMore than 50% of managers say they're finding it harder to evaluate employees' work after adopting AI, according to a new survey."
+    },
+    {
+      "title": "Heat pump tech is 170 years old. Pascal thinks it’s time for an update.",
+      "link": "https://techcrunch.com/2026/10/21/heat-pump-tech-is-170-years-old-pascal-thinks-its-time-for-an-update/",
+      "raw_summary": "Refrigerants startup Pascal has a new take on heat pump and cooling tech using a sponge-like material that promises to be 20% more efficient.",
+      "source": "TechCrunch",
+      "published": "Wed, 21 Oct 2026 13:30:00 +0000",
+      "summary": "Heat pump tech is 170 years old. Pascal thinks it’s time for an update.\nRefrigerants startup Pascal has a new take on heat pump and cooling tech using a sponge-like material that promises to be 20% more efficient."
+    },
+    {
+      "title": "Mach9 raises $34M after pivoting to AI CAD software",
+      "link": "https://techcrunch.com/2026/10/21/mach9-raises-34m-after-pivoting-to-ai-cad-software/",
+      "raw_summary": "The startup initially set out to build better, faster, and cheaper surveying hardware in 2021.",
+      "source": "TechCrunch",
+      "published": "Wed, 21 Oct 2026 13:00:00 +0000",
+      "summary": "Mach9 raises $34M after pivoting to AI CAD software\nThe startup initially set out to build better, faster, and cheaper surveying hardware in 2021."
     },
     {
       "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
@@ -129,38 +161,6 @@
       "source": "TechCrunch",
       "published": "Tue, 20 Oct 2026 23:01:23 +0000",
       "summary": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed\nThe proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge."
-    },
-    {
-      "title": "SpaceX and Tesla boards form special committees to review merger",
-      "link": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/",
-      "raw_summary": "Elon Musk likes the idea but says he is not on either committee, which is made up of independent directors.",
-      "source": "TechCrunch",
-      "published": "Tue, 20 Oct 2026 22:57:57 +0000",
-      "summary": "SpaceX and Tesla boards form special committees to review merger\nElon Musk likes the idea but says he is not on either committee, which is made up of independent directors."
-    },
-    {
-      "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
-      "link": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
-      "raw_summary": "Before you share the Netflix documentary \"AI Gone Rogue,\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
-      "source": "TechCrunch",
-      "published": "Tue, 20 Oct 2026 22:24:02 +0000",
-      "summary": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate\nBefore you share the Netflix documentary \"AI Gone Rogue,\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate."
-    },
-    {
-      "title": "Anthropic’s cloud partnerships are getting messy",
-      "link": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
-      "raw_summary": "Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO.",
-      "source": "TechCrunch",
-      "published": "Tue, 20 Oct 2026 21:25:22 +0000",
-      "summary": "Anthropic’s cloud partnerships are getting messy\nAnthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO."
-    },
-    {
-      "title": "SpaceX’s AI business is beating expectations",
-      "link": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
-      "raw_summary": "SpaceX hit profitability in the third quarter, with net income of $4.4 billion. AI was the engine.",
-      "source": "TechCrunch",
-      "published": "Tue, 20 Oct 2026 20:40:41 +0000",
-      "summary": "SpaceX’s AI business is beating expectations\nSpaceX hit profitability in the third quarter, with net income of $4.4 billion. AI was the engine."
     },
     {
       "title": "PHP warns it plans to release 2 emergency patches imminently",
@@ -203,124 +203,124 @@
       "summary": "JustWatch, which tackles streaming fragmentation, launches own streaming service\nA lifetime ad-free subscription is available."
     },
     {
-      "title": "Russia releases US citizen as Trump’s envoy visits",
-      "link": "https://www.ft.com/content/d7345d46-f000-49b1-99f6-57edfbd5f0af?syn-25a6b1a6=1",
-      "raw_summary": "Steve Witkoff meets Russian President Vladimir Putin in fresh drive to end war in Ukraine",
+      "title": "Macron hits out at ‘stupid’ Trump remarks about riots in France",
+      "link": "https://www.ft.com/content/57e14c61-a1ac-46ef-8bf2-c40e5286546e?syn-25a6b1a6=1",
+      "raw_summary": "French president expresses anger after US and other rightwing leaders blame migrants for violence and looting",
       "source": "World",
-      "published": "Wed, 21 Oct 2026 10:50:29 GMT",
-      "summary": "Russia releases US citizen as Trump’s envoy visits\nSteve Witkoff meets Russian President Vladimir Putin in fresh drive to end war in Ukraine"
+      "published": "Wed, 21 Oct 2026 16:12:37 GMT",
+      "summary": "Macron hits out at ‘stupid’ Trump remarks about riots in France\nFrench president expresses anger after US and other rightwing leaders blame migrants for violence and looting"
     },
     {
-      "title": "Musk’s SpaceX ambitions may be ‘dangerous’ for Europe, warns EU lawmaker",
-      "link": "https://www.ft.com/content/f9e4ddf8-5fd4-43e6-bca2-62d1067c4c48?syn-25a6b1a6=1",
-      "raw_summary": "EU must protect sector from foreign rivals, says parliament’s lead negotiator on telecoms reform",
+      "title": "Abbott to spin off nutrition unit at centre of baby formula lawsuits",
+      "link": "https://www.ft.com/content/7f407bde-ef26-4914-bcbe-baf858bc81d7?syn-25a6b1a6=1",
+      "raw_summary": "US healthcare group plans to create standalone public company with $8.5bn in annual sales",
       "source": "World",
-      "published": "Wed, 21 Oct 2026 10:45:04 GMT",
-      "summary": "Musk’s SpaceX ambitions may be ‘dangerous’ for Europe, warns EU lawmaker\nEU must protect sector from foreign rivals, says parliament’s lead negotiator on telecoms reform"
+      "published": "Wed, 21 Oct 2026 15:54:56 GMT",
+      "summary": "Abbott to spin off nutrition unit at centre of baby formula lawsuits\nUS healthcare group plans to create standalone public company with $8.5bn in annual sales"
     },
     {
-      "title": "The rise of index vigilantes",
-      "link": "https://www.ft.com/content/b3544087-2673-4e90-9192-342c6b1a6a03",
-      "raw_summary": "Not the regulators we want, or the regulators we need. But at least it’s something?",
+      "title": "Could Michigan elect America’s first Muslim senator?",
+      "link": "https://www.ft.com/content/a6972433-c303-4ace-affd-cc3ab54a3cf3?syn-25a6b1a6=1",
+      "raw_summary": "Democrat Abdul El-Sayed could make history — or scupper his party’s hopes of taking control of the Senate in midterm elections",
       "source": "World",
-      "published": "Wed, 21 Oct 2026 10:37:05 GMT",
-      "summary": "The rise of index vigilantes\nNot the regulators we want, or the regulators we need. But at least it’s something?"
+      "published": "Wed, 21 Oct 2026 15:52:15 GMT",
+      "summary": "Could Michigan elect America’s first Muslim senator?\nDemocrat Abdul El-Sayed could make history — or scupper his party’s hopes of taking control of the Senate in midterm elections"
     },
     {
-      "title": "WHO issues alert as Ebola spreads to west Africa",
-      "link": "https://www.ft.com/content/fe7fa078-8aa5-4802-963d-d88d3013c158?syn-25a6b1a6=1",
-      "raw_summary": "Nigeria is urgently tracing dozens of contacts of person who tested positive for virus",
+      "title": "Fridge hackers exploited ‘basic security flaws’ at French retailers",
+      "link": "https://www.ft.com/content/89a3b7e8-beee-464b-b398-2709be815982?syn-25a6b1a6=1",
+      "raw_summary": "Head of France’s cyber security agency said lack of protection and weak passwords helped criminals seize control of systems",
       "source": "World",
-      "published": "Wed, 21 Oct 2026 10:23:04 GMT",
-      "summary": "WHO issues alert as Ebola spreads to west Africa\nNigeria is urgently tracing dozens of contacts of person who tested positive for virus"
+      "published": "Wed, 21 Oct 2026 15:38:55 GMT",
+      "summary": "Fridge hackers exploited ‘basic security flaws’ at French retailers\nHead of France’s cyber security agency said lack of protection and weak passwords helped criminals seize control of systems"
     },
     {
-      "title": "Iran FM: We are ready for diplomacy, but will defend ourselves",
-      "link": "https://www.ft.com/content/61bf9676-ea46-4956-b87f-6ab096accafa",
-      "raw_summary": "A way forward can only materialise once the US administration genuinely accepts that it has no military options",
+      "title": "France’s borrowing costs hit 5% for first time since 2002",
+      "link": "https://www.ft.com/content/76f076e4-9db2-4971-8ac9-73d9f39e4876?syn-25a6b1a6=1",
+      "raw_summary": "Concerns over public finances and political stability have helped push up 10-year bond yields from 3.2% in late February",
       "source": "World",
-      "published": "Wed, 21 Oct 2026 10:22:06 GMT",
-      "summary": "Iran FM: We are ready for diplomacy, but will defend ourselves\nA way forward can only materialise once the US administration genuinely accepts that it has no military options"
+      "published": "Wed, 21 Oct 2026 15:29:06 GMT",
+      "summary": "France’s borrowing costs hit 5% for first time since 2002\nConcerns over public finances and political stability have helped push up 10-year bond yields from 3.2% in late February"
     },
     {
-      "title": "RBI Turns Away All Bids at Treasury Bill Sale Amid Bond Selloff",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-21/rbi-turns-away-all-bids-at-treasury-bill-sale-amid-bond-selloff",
-      "raw_summary": "India’s central bank rejected all bids at a sale of federal treasury bills for the first time in seven months amid a bond selloff that pushed borrowing costs to multi-year highs.",
+      "title": "Latest Oil Market News and Analysis for Oct. 21",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-20/latest-oil-market-news-and-analysis-for-oct-21",
+      "raw_summary": "Oil swung, with attacks in the Strait of Hormuz menacing global supplies though flows through the waterway remain robust.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 21 Oct 2026 09:45:01 GMT",
-      "summary": "RBI Turns Away All Bids at Treasury Bill Sale Amid Bond Selloff\nIndia’s central bank rejected all bids at a sale of federal treasury bills for the first time in seven months amid a bond selloff that pushed borrowing costs to multi-year highs."
+      "published": "Tue, 20 Oct 2026 22:04:52 GMT",
+      "summary": "Latest Oil Market News and Analysis for Oct. 21\nOil swung, with attacks in the Strait of Hormuz menacing global supplies though flows through the waterway remain robust."
     },
     {
-      "title": "Wheat Hits 11-Week Low as Risk Premiums Ease on Ukraine Talks",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-21/wheat-hits-11-week-low-as-risk-premiums-ease-on-ukraine-talks",
-      "raw_summary": "Wheat hit an 11—week low in Chicago, as traders wound back risk premiums after US President Donald Trump increased pressure on Ukraine to strike a peace agreement with Russia.",
+      "title": "Ken Griffin’s NYC Tower Gets $3.3 Billion Construction Loan",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-21/ken-griffin-s-new-nyc-tower-gets-3-3-billion-construction-loan",
+      "raw_summary": "Ken Griffin, Vornado Realty Trust and Rudin landed a $3.3 billion construction loan for a new office tower on Manhattan’s Park Avenue, a project whose future was clouded earlier this year after New York Mayor Zohran Mamdani provoked Griffin’s ire.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 21 Oct 2026 04:37:11 GMT",
-      "summary": "Wheat Hits 11-Week Low as Risk Premiums Ease on Ukraine Talks\nWheat hit an 11—week low in Chicago, as traders wound back risk premiums after US President Donald Trump increased pressure on Ukraine to strike a peace agreement with Russia."
+      "published": "Wed, 21 Oct 2026 13:55:09 GMT",
+      "summary": "Ken Griffin’s NYC Tower Gets $3.3 Billion Construction Loan\nKen Griffin, Vornado Realty Trust and Rudin landed a $3.3 billion construction loan for a new office tower on Manhattan’s Park Avenue, a project whose future was clouded earlier this year after New York Mayor Zohran Mamdani provoked Griffin"
     },
     {
-      "title": "Elon Musk Thinks $3.5 Trillion Tesla-SpaceX Mashup Is a Good Idea",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-10-21/elon-musk-thinks-3-5-trillion-tesla-spacex-mashup-is-a-good-idea",
-      "raw_summary": "Elon Musk said it’s a “good idea” to combine his rocket and car companies.",
+      "title": "Stocks Climb as SpaceX’s Earnings Rekindle AI Bets: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-20/stock-market-today-dow-s-p-live-updates",
+      "raw_summary": "A blockbuster earnings report from SpaceX spurred a rally in technology stocks, easing concerns over whether a global investment spree in artificial intelligence can prove sustainable.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 21 Oct 2026 10:26:44 GMT",
-      "summary": "Elon Musk Thinks $3.5 Trillion Tesla-SpaceX Mashup Is a Good Idea\nElon Musk said it’s a “good idea” to combine his rocket and car companies."
+      "published": "Tue, 20 Oct 2026 22:05:51 GMT",
+      "summary": "Stocks Climb as SpaceX’s Earnings Rekindle AI Bets: Markets Wrap\nA blockbuster earnings report from SpaceX spurred a rally in technology stocks, easing concerns over whether a global investment spree in artificial intelligence can prove sustainable."
     },
     {
-      "title": "KKR’s Freise Says Firm 'Is Very Positive on Germany'",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-21/kkr-s-freise-says-firm-is-very-positive-on-germany-video",
-      "raw_summary": "KKR & Co.’s co-head of European private equity, Philipp Freise says Germany is offering a safe and stable environment for investment while other parts of the world face crises. Speaking to Bloomberg's Francine Lacqua on the sidelines of the Berlin Global Dialogue, Freise pointed to positive signs from Chancellor Friedrich Merz’s reform on pensions. (Source: Bloomberg)",
+      "title": "A Daily Pill to Keep Breast Cancer Away Is Roche’s Next Frontier Drug",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-21/a-daily-breast-cancer-pill-is-roche-s-next-frontier-drug-video",
+      "raw_summary": "A daily pill to keep breast cancer away?\n\nSwiss drugmaker Roche is betting on a new frontier drug after losing its lead in the booming cancer treatment market, explains Sarah Muller. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Wed, 21 Oct 2026 10:26:11 GMT",
-      "summary": "KKR’s Freise Says Firm 'Is Very Positive on Germany'\nKKR & Co.’s co-head of European private equity, Philipp Freise says Germany is offering a safe and stable environment for investment while other parts of the world face crises. Speaking to Bloomberg's Francine Lacqua on the sidelines of the Berlin"
+      "published": "Wed, 21 Oct 2026 15:51:38 GMT",
+      "summary": "A Daily Pill to Keep Breast Cancer Away Is Roche’s Next Frontier Drug\nA daily pill to keep breast cancer away?\n\nSwiss drugmaker Roche is betting on a new frontier drug after losing its lead in the booming cancer treatment market, explains Sarah Muller. (Source: Bloomberg)"
     },
     {
-      "title": "Nickel Rallies Past $16,000 on Prospect of Indonesia Output Cuts",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-21/nickel-extends-rebound-on-prospect-of-indonesian-production-cuts",
-      "raw_summary": "Nickel rose for a fourth day as the prospect of coordinated output cuts by Chinese producers in Indonesia raised expectations of tighter supply. Copper dropped after a large delivery into exchange warehouses.",
+      "title": "Gold Wavers as Oil Eases With Traders Focused on Fed Rate Path",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-21/gold-steadies-as-conflicting-iran-signals-cloud-path-for-rates",
+      "raw_summary": "Gold swung as oil’s rally cooled and US Treasury yields retreated, with traders focused on the outlook for inflation and the Federal Reserve’s path for interest rates.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 21 Oct 2026 04:02:23 GMT",
-      "summary": "Nickel Rallies Past $16,000 on Prospect of Indonesia Output Cuts\nNickel rose for a fourth day as the prospect of coordinated output cuts by Chinese producers in Indonesia raised expectations of tighter supply. Copper dropped after a large delivery into exchange warehouses."
+      "published": "Wed, 21 Oct 2026 00:13:21 GMT",
+      "summary": "Gold Wavers as Oil Eases With Traders Focused on Fed Rate Path\nGold swung as oil’s rally cooled and US Treasury yields retreated, with traders focused on the outlook for inflation and the Federal Reserve’s path for interest rates."
     },
     {
-      "title": "Crypto rises with Asian tech stocks, zcash extends gain after setting upgrade date",
-      "link": "https://www.coindesk.com/markets/2026/10/21/crypto-rises-with-asian-tech-stocks-zcash-extends-gain-after-setting-upgrade-date",
+      "title": "How a16z-backed DATA is rethinking its blockchain strategy after $30 million Sui deal",
+      "link": "https://www.coindesk.com/business/2026/10/21/how-a16z-backed-data-is-rethinking-its-blockchain-strategy-after-usd30-million-sui-deal",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 21 Oct 2026 10:34:37 +0000",
-      "summary": "Crypto rises with Asian tech stocks, zcash extends gain after setting upgrade date\n"
+      "published": "Wed, 21 Oct 2026 15:22:46 +0000",
+      "summary": "How a16z-backed DATA is rethinking its blockchain strategy after $30 million Sui deal\n"
     },
     {
-      "title": "Live updates: Bitcoin clings to $82,500 as SpaceX results lift stock futures",
-      "link": "https://www.coindesk.com/markets/2026/10/21/live-updates-bitcoin-clings-to-usd82-500-as-spacex-results-lift-stock-futures",
+      "title": "Bybit will look for big broker partnerships to take on Robinhood in the U.S.",
+      "link": "https://www.coindesk.com/business/2026/10/16/bybit-will-look-for-big-broker-partnerships-to-take-on-robinhood-in-the-u-s",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 21 Oct 2026 10:30:40 +0000",
-      "summary": "Live updates: Bitcoin clings to $82,500 as SpaceX results lift stock futures\n"
+      "published": "Wed, 21 Oct 2026 15:09:22 +0000",
+      "summary": "Bybit will look for big broker partnerships to take on Robinhood in the U.S.\n"
     },
     {
-      "title": "SpaceX and Tesla explore merger that would unite more than 30,000 bitcoin",
-      "link": "https://www.coindesk.com/markets/2026/10/21/spacex-and-tesla-explore-merger-that-would-unite-more-than-30-000-bitcoin",
+      "title": "Crypto Long & Short: Why real-world assets need fixed-rate loans onchain",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/10/21/crypto-long-and-short-why-real-world-assets-need-fixed-rate-loans-onchain",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 21 Oct 2026 09:23:00 +0000",
-      "summary": "SpaceX and Tesla explore merger that would unite more than 30,000 bitcoin\n"
+      "published": "Wed, 21 Oct 2026 15:00:53 +0000",
+      "summary": "Crypto Long & Short: Why real-world assets need fixed-rate loans onchain\n"
     },
     {
-      "title": "Monero futures are again heating with leverage, raising volatility risks",
-      "link": "https://www.coindesk.com/markets/2026/10/21/monero-futures-are-again-heating-with-leverage-raising-volatility-risks",
+      "title": "Why centralized exchanges refuse to list legacy crypto tokens without explicit SEC immunity",
+      "link": "https://www.coindesk.com/policy/2026/10/21/why-centralized-exchanges-refuse-to-list-legacy-crypto-tokens-without-explicit-sec-immunity",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 21 Oct 2026 08:57:29 +0000",
-      "summary": "Monero futures are again heating with leverage, raising volatility risks\n"
+      "published": "Wed, 21 Oct 2026 12:12:36 +0000",
+      "summary": "Why centralized exchanges refuse to list legacy crypto tokens without explicit SEC immunity\n"
     },
     {
-      "title": "Tether leads $15 million funding round for AI-focused payment startup Mural",
-      "link": "https://www.coindesk.com/business/2026/10/21/tether-leads-usd15-million-series-a-for-ai-focused-payment-startup-mural",
+      "title": "Japanese visitors may be able to pay with yen stablecoins in South Korea under Shinhan-SBI pact",
+      "link": "https://www.coindesk.com/business/2026/10/21/japanese-visitors-may-be-able-to-pay-with-yen-stablecoins-in-south-korea-under-shinhan-sbi-pact",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 21 Oct 2026 08:47:11 +0000",
-      "summary": "Tether leads $15 million funding round for AI-focused payment startup Mural\n"
+      "published": "Wed, 21 Oct 2026 12:10:39 +0000",
+      "summary": "Japanese visitors may be able to pay with yen stablecoins in South Korea under Shinhan-SBI pact\n"
     }
   ]
 }
