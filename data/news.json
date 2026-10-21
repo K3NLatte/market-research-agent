@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T16:22:08.328749+00:00",
+  "generated_at": "2026-10-21T21:04:15.979744+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "FBI Arrests Executive at Ransomware Negotiation Firm\nAgents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on "
     },
     {
+      "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
+      "link": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+      "raw_summary": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014.\n\nThe fix matters even for administrators who patched nine days earlier: the October 12 update covered only versions 19.2 and later, and the new fixed versions sit one patch above it, so an",
+      "source": "The Hacker News",
+      "published": "Thu, 22 Oct 2026 00:27:34 +0530",
+      "summary": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases\nGitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014.\n\nT"
+    },
+    {
+      "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+      "link": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+      "raw_summary": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind.\n\nThe compromise affects LiteLLM 1.107.0, distributed through PyPI wheels and Docker images. The Python package has since been quarantined on Python Package Index (PyPI), and the",
+      "source": "The Hacker News",
+      "published": "Wed, 21 Oct 2026 23:31:57 +0530",
+      "summary": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor\nThe popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upw"
+    },
+    {
+      "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
+      "link": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
+      "raw_summary": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and one GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks.\n\nThe AI company said the incident took place on October 3 and 6, 2026, for Sol and Astra, respectively, as part of an internal deployment.\n\n\"A GPT-6.1 Sol agent repairing an",
+      "source": "The Hacker News",
+      "published": "Wed, 21 Oct 2026 22:03:47 +0530",
+      "summary": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So\nOpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and one GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks.\n\nThe AI "
+    },
+    {
       "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
       "link": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
       "raw_summary": "PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the PHP team says only updating fully protects a server.\n\nThe flaws, together called PHP2Shell, sit in the PHP runtime, not in any application, so a site is exposed even when its own",
@@ -59,228 +83,212 @@
       "summary": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands\nGoogle on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Protection is enabled.\n\nClickFix is a popular social engineering technique in wh"
     },
     {
-      "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
-      "link": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
-      "raw_summary": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025.\n\n\"The most distinctive technical marker for Bronze Sandcastle is its consistent use of Sandboxie DLL sideloading,\" Sophos security researcher Gabor Szappanos said in a post published",
-      "source": "The Hacker News",
-      "published": "Wed, 21 Oct 2026 17:35:00 +0530",
-      "summary": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors\nCybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025."
-    },
-    {
-      "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
-      "link": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
-      "raw_summary": "Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive fluent, personalized, and unique to each recipient, and the behavioral signals email filters have relied on for years are fading as a result.\n\nProofpoint shared several examples of the shift at its Protect 2026 conference.",
-      "source": "The Hacker News",
-      "published": "Wed, 21 Oct 2026 17:23:34 +0530",
-      "summary": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports\nGenerative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive fluent, personalized, and un"
-    },
-    {
-      "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
-      "link": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
-      "raw_summary": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now says.\n\nPHP will release the fix at&nbsp;14:00 UTC on October 21&nbsp;for two flaws it rates 9.2 out of 10, and has given no workaround of its own. Until you can install it, what lowers your",
-      "source": "The Hacker News",
-      "published": "Wed, 21 Oct 2026 16:06:53 +0530",
-      "summary": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't\nYou cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now "
-    },
-    {
-      "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
-      "link": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
-      "raw_summary": "<p>Article URL: <a href=\"https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/\">https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50182987\">https://news.ycombinator.com/item?id=50182987</a></p>\n<p>Points: 41</p>\n<p># Comments: 7</p>",
+      "title": "After automation: Solo founding will be the default",
+      "link": "https://every.to/thesis-statements/julian-weisser",
+      "raw_summary": "<p>Article URL: <a href=\"https://every.to/thesis-statements/julian-weisser\">https://every.to/thesis-statements/julian-weisser</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50186518\">https://news.ycombinator.com/item?id=50186518</a></p>\n<p>Points: 24</p>\n<p># Comments: 19</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 21 Oct 2026 15:48:56 +0000",
-      "summary": "Today's PHP Security Release, and How We're Strengthening PHP Security\n<p>Article URL: <a href=\"https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/\">https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthe"
+      "published": "Wed, 21 Oct 2026 19:44:49 +0000",
+      "summary": "After automation: Solo founding will be the default\n<p>Article URL: <a href=\"https://every.to/thesis-statements/julian-weisser\">https://every.to/thesis-statements/julian-weisser</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50186518\">https://news.ycombinator.com/item?id=5018"
     },
     {
-      "title": "Oregon lawmakers approve money to buy an iconic waterfall listed on Redfin",
-      "link": "https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488",
-      "raw_summary": "<p>Article URL: <a href=\"https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488\">https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50182526\">https://news.ycombinator.com/item?id=50182526</a></p>\n<p>Points: 35</p>\n<p># Comments: 20</p>",
+      "title": "Claude Duet",
+      "link": "https://claude.com/resources/articles/claude-duet",
+      "raw_summary": "<p>Article URL: <a href=\"https://claude.com/resources/articles/claude-duet\">https://claude.com/resources/articles/claude-duet</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50186455\">https://news.ycombinator.com/item?id=50186455</a></p>\n<p>Points: 17</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 21 Oct 2026 15:20:04 +0000",
-      "summary": "Oregon lawmakers approve money to buy an iconic waterfall listed on Redfin\n<p>Article URL: <a href=\"https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488\">https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488</a></p>"
+      "published": "Wed, 21 Oct 2026 19:40:18 +0000",
+      "summary": "Claude Duet\n<p>Article URL: <a href=\"https://claude.com/resources/articles/claude-duet\">https://claude.com/resources/articles/claude-duet</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50186455\">https://news.ycombinator.com/item?id=50186455</a></p>\n<p>Points: 17</p>\n<p># Comm"
     },
     {
-      "title": "Delays for Pull Requests and Webhook deliveries",
-      "link": "https://www.githubstatus.com/incidents/nms1dpzmh9d9",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.githubstatus.com/incidents/nms1dpzmh9d9\">https://www.githubstatus.com/incidents/nms1dpzmh9d9</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50182130\">https://news.ycombinator.com/item?id=50182130</a></p>\n<p>Points: 45</p>\n<p># Comments: 9</p>",
+      "title": "Meta hit with $25B penalty for deceiving users about privacy on Facebook",
+      "link": "https://nmdoj.gov/press-release/the-new-mexico-department-of-justice-secures-another-landmark-victory-against-big-tech-with-historic-25-billion-penalty-against-facebook/",
+      "raw_summary": "<p>Article URL: <a href=\"https://nmdoj.gov/press-release/the-new-mexico-department-of-justice-secures-another-landmark-victory-against-big-tech-with-historic-25-billion-penalty-against-facebook/\">https://nmdoj.gov/press-release/the-new-mexico-department-of-justice-secures-another-landmark-victory-against-big-tech-with-historic-25-billion-penalty-against-facebook/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50186215\">https://news.ycombinator.com/item?id=50186215</a></p>\n<p>Points: 78</p>\n<p># Comments: 12</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 21 Oct 2026 14:56:57 +0000",
-      "summary": "Delays for Pull Requests and Webhook deliveries\n<p>Article URL: <a href=\"https://www.githubstatus.com/incidents/nms1dpzmh9d9\">https://www.githubstatus.com/incidents/nms1dpzmh9d9</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50182130\">https://news.ycombinator.com/item?id=5018"
+      "published": "Wed, 21 Oct 2026 19:26:20 +0000",
+      "summary": "Meta hit with $25B penalty for deceiving users about privacy on Facebook\n<p>Article URL: <a href=\"https://nmdoj.gov/press-release/the-new-mexico-department-of-justice-secures-another-landmark-victory-against-big-tech-with-historic-25-billion-penalty-against-facebook/\">https://nmdoj.gov/press-release"
     },
     {
-      "title": "Cloudflare deploys protections against php2shell vulnerability",
-      "link": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
-      "raw_summary": "<p>Article URL: <a href=\"https://blog.cloudflare.com/php-vulnerabilities-waf-protection/\">https://blog.cloudflare.com/php-vulnerabilities-waf-protection/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50181326\">https://news.ycombinator.com/item?id=50181326</a></p>\n<p>Points: 24</p>\n<p># Comments: 2</p>",
+      "title": "Mistral Large 4",
+      "link": "https://docs.mistral.ai/models/mistral-large-4-0",
+      "raw_summary": "<p>Article URL: <a href=\"https://docs.mistral.ai/models/mistral-large-4-0\">https://docs.mistral.ai/models/mistral-large-4-0</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50186129\">https://news.ycombinator.com/item?id=50186129</a></p>\n<p>Points: 252</p>\n<p># Comments: 60</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 21 Oct 2026 14:11:14 +0000",
-      "summary": "Cloudflare deploys protections against php2shell vulnerability\n<p>Article URL: <a href=\"https://blog.cloudflare.com/php-vulnerabilities-waf-protection/\">https://blog.cloudflare.com/php-vulnerabilities-waf-protection/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50181326\">ht"
+      "published": "Wed, 21 Oct 2026 19:20:55 +0000",
+      "summary": "Mistral Large 4\n<p>Article URL: <a href=\"https://docs.mistral.ai/models/mistral-large-4-0\">https://docs.mistral.ai/models/mistral-large-4-0</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50186129\">https://news.ycombinator.com/item?id=50186129</a></p>\n<p>Points: 252</p>\n<p># C"
     },
     {
-      "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
-      "link": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
-      "raw_summary": "<p><a href=\"https://patchtheplanet.org/\" rel=\"nofollow\">https://patchtheplanet.org/</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50181175\">https://news.ycombinator.com/item?id=50181175</a></p>\n<p>Points: 112</p>\n<p># Comments: 60</p>",
+      "title": "Claude Duet",
+      "link": "https://claude.com/product/claude-duet",
+      "raw_summary": "<p>Article URL: <a href=\"https://claude.com/product/claude-duet\">https://claude.com/product/claude-duet</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50186037\">https://news.ycombinator.com/item?id=50186037</a></p>\n<p>Points: 149</p>\n<p># Comments: 136</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 21 Oct 2026 14:03:43 +0000",
-      "summary": "Patch the Planet: global response coordination as agents uncover vulnerabilities\n<p><a href=\"https://patchtheplanet.org/\" rel=\"nofollow\">https://patchtheplanet.org/</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50181175\">https://news.ycombinator.com/item?id=50181175</"
+      "published": "Wed, 21 Oct 2026 19:14:01 +0000",
+      "summary": "Claude Duet\n<p>Article URL: <a href=\"https://claude.com/product/claude-duet\">https://claude.com/product/claude-duet</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50186037\">https://news.ycombinator.com/item?id=50186037</a></p>\n<p>Points: 149</p>\n<p># Comments: 136</p>"
     },
     {
-      "title": "Foursquare co-founder says equity holders saw no returns from the company’s acquisition",
-      "link": "https://techcrunch.com/2026/10/21/foursquare-co-founder-says-equity-holders-saw-no-returns-from-the-companys-acquisition/",
-      "raw_summary": "Foursquare raised $411 million in funding according to PitchBook data, but its equity holders saw no returns from its final acquisition.",
+      "title": "Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation",
+      "link": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/",
+      "raw_summary": "Just 9 months after raising an $180 million seed round, Flapping Airplanes has landed $1 billion Series A for its mission to build AI models \"without ingesting half the internet.\"",
       "source": "TechCrunch",
-      "published": "Wed, 21 Oct 2026 14:03:11 +0000",
-      "summary": "Foursquare co-founder says equity holders saw no returns from the company’s acquisition\nFoursquare raised $411 million in funding according to PitchBook data, but its equity holders saw no returns from its final acquisition."
+      "published": "Wed, 21 Oct 2026 20:57:40 +0000",
+      "summary": "Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation\nJust 9 months after raising an $180 million seed round, Flapping Airplanes has landed $1 billion Series A for its mission to build AI models \"without ingesting half the internet.\""
     },
     {
-      "title": "AI promises productivity, but for managers, it’s mostly a headache for now",
-      "link": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/",
-      "raw_summary": "More than 50% of managers say they're finding it harder to evaluate employees' work after adopting AI, according to a new survey.",
+      "title": "Tesla stars Optimus robot production in California as profit falls 43%",
+      "link": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
+      "raw_summary": "Tesla's revenue was flat and its expenses skyrocketed as it pressed the accelerator on its Optimus robots, AI, and autonomous driving.",
       "source": "TechCrunch",
-      "published": "Wed, 21 Oct 2026 14:00:00 +0000",
-      "summary": "AI promises productivity, but for managers, it’s mostly a headache for now\nMore than 50% of managers say they're finding it harder to evaluate employees' work after adopting AI, according to a new survey."
+      "published": "Wed, 21 Oct 2026 20:33:09 +0000",
+      "summary": "Tesla stars Optimus robot production in California as profit falls 43%\nTesla's revenue was flat and its expenses skyrocketed as it pressed the accelerator on its Optimus robots, AI, and autonomous driving."
     },
     {
-      "title": "Heat pump tech is 170 years old. Pascal thinks it’s time for an update.",
-      "link": "https://techcrunch.com/2026/10/21/heat-pump-tech-is-170-years-old-pascal-thinks-its-time-for-an-update/",
-      "raw_summary": "Refrigerants startup Pascal has a new take on heat pump and cooling tech using a sponge-like material that promises to be 20% more efficient.",
+      "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+      "link": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+      "raw_summary": "Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself.",
       "source": "TechCrunch",
-      "published": "Wed, 21 Oct 2026 13:30:00 +0000",
-      "summary": "Heat pump tech is 170 years old. Pascal thinks it’s time for an update.\nRefrigerants startup Pascal has a new take on heat pump and cooling tech using a sponge-like material that promises to be 20% more efficient."
+      "published": "Wed, 21 Oct 2026 20:27:41 +0000",
+      "summary": "Recursive launches Flint, a laptop coding model it says was largely built by AI\nStartup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself."
     },
     {
-      "title": "Mach9 raises $34M after pivoting to AI CAD software",
-      "link": "https://techcrunch.com/2026/10/21/mach9-raises-34m-after-pivoting-to-ai-cad-software/",
-      "raw_summary": "The startup initially set out to build better, faster, and cheaper surveying hardware in 2021.",
+      "title": "Automattic begins layoffs following board upheaval and executive departures",
+      "link": "https://techcrunch.com/2026/10/21/automattic-begins-layoffs-following-board-upheaval-and-executive-departures/",
+      "raw_summary": "Automattic has begun laying off employees across multiple teams, including WordPress.com and its enterprise business, following a board shakeup and a series of executive departures. Sources say more cuts could follow as the company looks to improve its finances.",
       "source": "TechCrunch",
-      "published": "Wed, 21 Oct 2026 13:00:00 +0000",
-      "summary": "Mach9 raises $34M after pivoting to AI CAD software\nThe startup initially set out to build better, faster, and cheaper surveying hardware in 2021."
+      "published": "Wed, 21 Oct 2026 20:15:00 +0000",
+      "summary": "Automattic begins layoffs following board upheaval and executive departures\nAutomattic has begun laying off employees across multiple teams, including WordPress.com and its enterprise business, following a board shakeup and a series of executive departures. Sources say more cuts could follow as the "
     },
     {
-      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
-      "link": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
-      "raw_summary": "The proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
+      "title": "GM is betting compute and AI will help it compete with Chinese automakers",
+      "link": "https://techcrunch.com/2026/10/21/gm-is-betting-compute-and-ai-will-help-it-compete-with-chinese-automakers/",
+      "raw_summary": "To compete with Tesla, Rivian, and a host of Chinese automakers, GM’s fourth-gen EV platform will roll out a new central computer and electrical architecture that will debut in 2028 in the Cadillac Escalade IQ.",
       "source": "TechCrunch",
-      "published": "Tue, 20 Oct 2026 23:01:23 +0000",
-      "summary": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed\nThe proposed policy seems to offer protections against AI running amok but actually forbids federal agencies from blocking a model's release without the permission of a judge."
+      "published": "Wed, 21 Oct 2026 19:52:20 +0000",
+      "summary": "GM is betting compute and AI will help it compete with Chinese automakers\nTo compete with Tesla, Rivian, and a host of Chinese automakers, GM’s fourth-gen EV platform will roll out a new central computer and electrical architecture that will debut in 2028 in the Cadillac Escalade IQ."
     },
     {
-      "title": "PHP warns it plans to release 2 emergency patches imminently",
-      "link": "https://arstechnica.com/security/2026/10/php-maintainers-tell-web-devs-to-prepare-themselves-for-critical-security-patches/",
-      "raw_summary": "Unconfirmed report claims PHP2Shell exploit remotely executes code on PHP sites.",
+      "title": "The new human-crafted Apple Music brand matters in an AI world",
+      "link": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/",
+      "raw_summary": "Opinion: In a world of AI slop, showing the human hands making things helps.",
       "source": "Ars Technica - All content",
-      "published": "Wed, 21 Oct 2026 02:12:18 +0000",
-      "summary": "PHP warns it plans to release 2 emergency patches imminently\nUnconfirmed report claims PHP2Shell exploit remotely executes code on PHP sites."
+      "published": "Wed, 21 Oct 2026 19:44:40 +0000",
+      "summary": "The new human-crafted Apple Music brand matters in an AI world\nOpinion: In a world of AI slop, showing the human hands making things helps."
     },
     {
-      "title": "Merging SpaceX and Tesla would be a \"good idea,\" Musk says",
-      "link": "https://arstechnica.com/space/2026/10/spacex-and-tesla-into-a-single-company-has-a-lot-of-merit-musk-says/",
-      "raw_summary": "\"I do think there's a lot of merit to combining the companies.\"",
+      "title": "RIP BioWare: EA shuts down storied RPG studio after over three decades",
+      "link": "https://arstechnica.com/gaming/2026/10/rip-bioware-ea-shuts-down-storied-rpg-studio-after-over-three-decades/",
+      "raw_summary": "Next <em>Mass Effect</em> project canceled as parent company lays off 400.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 20 Oct 2026 22:04:54 +0000",
-      "summary": "Merging SpaceX and Tesla would be a \"good idea,\" Musk says\n\"I do think there's a lot of merit to combining the companies.\""
+      "published": "Wed, 21 Oct 2026 19:12:16 +0000",
+      "summary": "RIP BioWare: EA shuts down storied RPG studio after over three decades\nNext <em>Mass Effect</em> project canceled as parent company lays off 400."
     },
     {
-      "title": "Cops raid office of RFK Jr. allies planning “unethical” vaccine trial on babies",
-      "link": "https://arstechnica.com/health/2026/10/cops-raid-office-of-rfk-jr-allies-planning-unethical-vaccine-trial-on-babies/",
-      "raw_summary": "Guinea-Bissau police said hepatitis B vaccine doses were taken as part of an investigation.",
+      "title": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
+      "link": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
+      "raw_summary": "Google Cloud will have GPT 6.1 Astra, Sol, and Luna in the coming weeks.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 20 Oct 2026 21:44:34 +0000",
-      "summary": "Cops raid office of RFK Jr. allies planning “unethical” vaccine trial on babies\nGuinea-Bissau police said hepatitis B vaccine doses were taken as part of an investigation."
+      "published": "Wed, 21 Oct 2026 18:51:42 +0000",
+      "summary": "OpenAI's latest AI models are coming to Google Cloud and Antigravity\nGoogle Cloud will have GPT 6.1 Astra, Sol, and Luna in the coming weeks."
     },
     {
-      "title": "Microsoft reportedly projects $1,200 to $1,800 price for 2028 Project Helix",
-      "link": "https://arstechnica.com/gaming/2026/10/report-microsofts-project-helix-planned-for-2028-at-1200-to-1800-price/",
-      "raw_summary": "Xbox maker is also apparently planning its own gaming handheld for next year.",
+      "title": "Report: Musk ordered Starlink slowdown in Ukraine, then blamed it on Trump",
+      "link": "https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/",
+      "raw_summary": "Musk and Trump both denied ordering Starlink slowdown. WSJ reports it was Musk.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 20 Oct 2026 21:14:33 +0000",
-      "summary": "Microsoft reportedly projects $1,200 to $1,800 price for 2028 Project Helix\nXbox maker is also apparently planning its own gaming handheld for next year."
+      "published": "Wed, 21 Oct 2026 18:35:38 +0000",
+      "summary": "Report: Musk ordered Starlink slowdown in Ukraine, then blamed it on Trump\nMusk and Trump both denied ordering Starlink slowdown. WSJ reports it was Musk."
     },
     {
-      "title": "JustWatch, which tackles streaming fragmentation, launches own streaming service",
-      "link": "https://arstechnica.com/gadgets/2026/10/justwatch-which-tackles-streaming-fragmentation-launches-own-streaming-service/",
-      "raw_summary": "A lifetime ad-free subscription is available.",
+      "title": "Judge rejects Trump’s wild claim EPA can dismiss data center pollution lawsuits",
+      "link": "https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/",
+      "raw_summary": "Trump’s EPA can't unilaterally dismiss SpaceXAI pollution lawsuit, court rules.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 20 Oct 2026 20:20:12 +0000",
-      "summary": "JustWatch, which tackles streaming fragmentation, launches own streaming service\nA lifetime ad-free subscription is available."
+      "published": "Wed, 21 Oct 2026 18:20:40 +0000",
+      "summary": "Judge rejects Trump’s wild claim EPA can dismiss data center pollution lawsuits\nTrump’s EPA can't unilaterally dismiss SpaceXAI pollution lawsuit, court rules."
     },
     {
-      "title": "Macron hits out at ‘stupid’ Trump remarks about riots in France",
-      "link": "https://www.ft.com/content/57e14c61-a1ac-46ef-8bf2-c40e5286546e?syn-25a6b1a6=1",
-      "raw_summary": "French president expresses anger after US and other rightwing leaders blame migrants for violence and looting",
+      "title": "Tesla’s profits slip on weaker vehicle sales",
+      "link": "https://www.ft.com/content/16bdf332-2a75-4e57-81ea-a37caf50ec0f?syn-25a6b1a6=1",
+      "raw_summary": "Musk’s carmaker reports flat revenue as it considers merger with SpaceX",
       "source": "World",
-      "published": "Wed, 21 Oct 2026 16:12:37 GMT",
-      "summary": "Macron hits out at ‘stupid’ Trump remarks about riots in France\nFrench president expresses anger after US and other rightwing leaders blame migrants for violence and looting"
+      "published": "Wed, 21 Oct 2026 20:44:43 GMT",
+      "summary": "Tesla’s profits slip on weaker vehicle sales\nMusk’s carmaker reports flat revenue as it considers merger with SpaceX"
+    },
+    {
+      "title": "Meta to create new non-voting share class to enable AI fundraising",
+      "link": "https://www.ft.com/content/b34502b6-38dc-4a46-a8e7-d9131726cd31?syn-25a6b1a6=1",
+      "raw_summary": "Change would enable the social media group to sell shares to fund AI investment without reducing Mark Zuckerberg’s control",
+      "source": "World",
+      "published": "Wed, 21 Oct 2026 20:27:39 GMT",
+      "summary": "Meta to create new non-voting share class to enable AI fundraising\nChange would enable the social media group to sell shares to fund AI investment without reducing Mark Zuckerberg’s control"
+    },
+    {
+      "title": "Republicans head into midterms with huge spending advantage",
+      "link": "https://www.ft.com/content/637bb10e-b5b4-4db2-ac7c-b42348595c4c?syn-25a6b1a6=1",
+      "raw_summary": "Filings show the party and its affiliated groups have amassed a big war chest but polling favours Democrats in many races",
+      "source": "World",
+      "published": "Wed, 21 Oct 2026 20:26:09 GMT",
+      "summary": "Republicans head into midterms with huge spending advantage\nFilings show the party and its affiliated groups have amassed a big war chest but polling favours Democrats in many races"
     },
     {
       "title": "Abbott to spin off nutrition unit at centre of baby formula lawsuits",
       "link": "https://www.ft.com/content/7f407bde-ef26-4914-bcbe-baf858bc81d7?syn-25a6b1a6=1",
       "raw_summary": "US healthcare group plans to create standalone public company with $8.5bn in annual sales",
       "source": "World",
-      "published": "Wed, 21 Oct 2026 15:54:56 GMT",
+      "published": "Wed, 21 Oct 2026 20:15:48 GMT",
       "summary": "Abbott to spin off nutrition unit at centre of baby formula lawsuits\nUS healthcare group plans to create standalone public company with $8.5bn in annual sales"
     },
     {
-      "title": "Could Michigan elect America’s first Muslim senator?",
-      "link": "https://www.ft.com/content/a6972433-c303-4ace-affd-cc3ab54a3cf3?syn-25a6b1a6=1",
-      "raw_summary": "Democrat Abdul El-Sayed could make history — or scupper his party’s hopes of taking control of the Senate in midterm elections",
+      "title": "GM aims to leapfrog rivals with new generation of autonomous cars",
+      "link": "https://www.ft.com/content/5eb997eb-6031-40c4-b2f3-e2a09f4d64f1?syn-25a6b1a6=1",
+      "raw_summary": "Detroit automaker’s chief product officer Sterling Anderson plans to put fully self-driving private autos on the road by 2028",
       "source": "World",
-      "published": "Wed, 21 Oct 2026 15:52:15 GMT",
-      "summary": "Could Michigan elect America’s first Muslim senator?\nDemocrat Abdul El-Sayed could make history — or scupper his party’s hopes of taking control of the Senate in midterm elections"
+      "published": "Wed, 21 Oct 2026 20:10:13 GMT",
+      "summary": "GM aims to leapfrog rivals with new generation of autonomous cars\nDetroit automaker’s chief product officer Sterling Anderson plans to put fully self-driving private autos on the road by 2028"
     },
     {
-      "title": "Fridge hackers exploited ‘basic security flaws’ at French retailers",
-      "link": "https://www.ft.com/content/89a3b7e8-beee-464b-b398-2709be815982?syn-25a6b1a6=1",
-      "raw_summary": "Head of France’s cyber security agency said lack of protection and weak passwords helped criminals seize control of systems",
-      "source": "World",
-      "published": "Wed, 21 Oct 2026 15:38:55 GMT",
-      "summary": "Fridge hackers exploited ‘basic security flaws’ at French retailers\nHead of France’s cyber security agency said lack of protection and weak passwords helped criminals seize control of systems"
-    },
-    {
-      "title": "France’s borrowing costs hit 5% for first time since 2002",
-      "link": "https://www.ft.com/content/76f076e4-9db2-4971-8ac9-73d9f39e4876?syn-25a6b1a6=1",
-      "raw_summary": "Concerns over public finances and political stability have helped push up 10-year bond yields from 3.2% in late February",
-      "source": "World",
-      "published": "Wed, 21 Oct 2026 15:29:06 GMT",
-      "summary": "France’s borrowing costs hit 5% for first time since 2002\nConcerns over public finances and political stability have helped push up 10-year bond yields from 3.2% in late February"
-    },
-    {
-      "title": "Latest Oil Market News and Analysis for Oct. 21",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-20/latest-oil-market-news-and-analysis-for-oct-21",
-      "raw_summary": "Oil swung, with attacks in the Strait of Hormuz menacing global supplies though flows through the waterway remain robust.",
+      "title": "The Two Cities Fighting for Asia’s Cash Crown",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-21/the-battle-for-asia-s-money-video",
+      "raw_summary": "Hong Kong and Singapore are locked in a fight for Asia’s billionaires and fund managers. Now, with an IPO boom and Mainland China’s backing, Hong Kong is making a move with tax exemptions on carried interest. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Tue, 20 Oct 2026 22:04:52 GMT",
-      "summary": "Latest Oil Market News and Analysis for Oct. 21\nOil swung, with attacks in the Strait of Hormuz menacing global supplies though flows through the waterway remain robust."
+      "published": "Wed, 21 Oct 2026 21:01:00 GMT",
+      "summary": "The Two Cities Fighting for Asia’s Cash Crown\nHong Kong and Singapore are locked in a fight for Asia’s billionaires and fund managers. Now, with an IPO boom and Mainland China’s backing, Hong Kong is making a move with tax exemptions on carried interest. (Source: Bloomberg)"
     },
     {
-      "title": "Ken Griffin’s NYC Tower Gets $3.3 Billion Construction Loan",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-21/ken-griffin-s-new-nyc-tower-gets-3-3-billion-construction-loan",
-      "raw_summary": "Ken Griffin, Vornado Realty Trust and Rudin landed a $3.3 billion construction loan for a new office tower on Manhattan’s Park Avenue, a project whose future was clouded earlier this year after New York Mayor Zohran Mamdani provoked Griffin’s ire.",
-      "source": "Bloomberg Markets",
-      "published": "Wed, 21 Oct 2026 13:55:09 GMT",
-      "summary": "Ken Griffin’s NYC Tower Gets $3.3 Billion Construction Loan\nKen Griffin, Vornado Realty Trust and Rudin landed a $3.3 billion construction loan for a new office tower on Manhattan’s Park Avenue, a project whose future was clouded earlier this year after New York Mayor Zohran Mamdani provoked Griffin"
-    },
-    {
-      "title": "Stocks Climb as SpaceX’s Earnings Rekindle AI Bets: Markets Wrap",
+      "title": "Stocks Climb in Late Hours on Tesla, Meta Results: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-10-20/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "A blockbuster earnings report from SpaceX spurred a rally in technology stocks, easing concerns over whether a global investment spree in artificial intelligence can prove sustainable.",
+      "raw_summary": "Wall Street’s wagers on artificial intelligence regained traction, with stocks rising in late hours as solid tech results bolstered confidence in the trade that has powered the bull market.",
       "source": "Bloomberg Markets",
       "published": "Tue, 20 Oct 2026 22:05:51 GMT",
-      "summary": "Stocks Climb as SpaceX’s Earnings Rekindle AI Bets: Markets Wrap\nA blockbuster earnings report from SpaceX spurred a rally in technology stocks, easing concerns over whether a global investment spree in artificial intelligence can prove sustainable."
+      "summary": "Stocks Climb in Late Hours on Tesla, Meta Results: Markets Wrap\nWall Street’s wagers on artificial intelligence regained traction, with stocks rising in late hours as solid tech results bolstered confidence in the trade that has powered the bull market."
     },
     {
-      "title": "A Daily Pill to Keep Breast Cancer Away Is Roche’s Next Frontier Drug",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-21/a-daily-breast-cancer-pill-is-roche-s-next-frontier-drug-video",
-      "raw_summary": "A daily pill to keep breast cancer away?\n\nSwiss drugmaker Roche is betting on a new frontier drug after losing its lead in the booming cancer treatment market, explains Sarah Muller. (Source: Bloomberg)",
+      "title": "Let’s Talk About the PMH (the Politics Matter Hypothesis)",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-10-21/let-s-talk-about-the-pmh-the-politics-matter-hypothesis",
+      "raw_summary": "When economics are downstream from politics.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 21 Oct 2026 15:51:38 GMT",
-      "summary": "A Daily Pill to Keep Breast Cancer Away Is Roche’s Next Frontier Drug\nA daily pill to keep breast cancer away?\n\nSwiss drugmaker Roche is betting on a new frontier drug after losing its lead in the booming cancer treatment market, explains Sarah Muller. (Source: Bloomberg)"
+      "published": "Wed, 21 Oct 2026 20:23:04 GMT",
+      "summary": "Let’s Talk About the PMH (the Politics Matter Hypothesis)\nWhen economics are downstream from politics."
     },
     {
-      "title": "Gold Wavers as Oil Eases With Traders Focused on Fed Rate Path",
+      "title": "'Less Bluster' In Private Talks: Sidley's Liekefett",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-21/-less-bluster-in-private-talks-sidley-s-liekefett-video",
+      "raw_summary": "Kai Liekefett, partner & co-chair of shareholder activism practice at Sidley Austin, and Rebecca Van Derlaske, partner in the shareholder activism group at Olshan Frome Wolosky, join Dani Burger on \"Bloomberg Deals.\" They take us inside what really happens amid activism fights.\n\n (Source: Bloomberg)",
+      "source": "Bloomberg Markets",
+      "published": "Wed, 21 Oct 2026 20:17:37 GMT",
+      "summary": "'Less Bluster' In Private Talks: Sidley's Liekefett\nKai Liekefett, partner & co-chair of shareholder activism practice at Sidley Austin, and Rebecca Van Derlaske, partner in the shareholder activism group at Olshan Frome Wolosky, join Dani Burger on \"Bloomberg Deals.\" They take us inside what really"
+    },
+    {
+      "title": "Gold Swings as Traders Assess Fed Rate Path Amid Mideast Worries",
       "link": "https://www.bloomberg.com/news/articles/2026-10-21/gold-steadies-as-conflicting-iran-signals-cloud-path-for-rates",
-      "raw_summary": "Gold swung as oil’s rally cooled and US Treasury yields retreated, with traders focused on the outlook for inflation and the Federal Reserve’s path for interest rates.",
+      "raw_summary": "Gold fluctuated as traders assessed the outlook for the Federal Reserve’s interest-rate path on the back of potential renewed hositilities in the Middle East.",
       "source": "Bloomberg Markets",
       "published": "Wed, 21 Oct 2026 00:13:21 GMT",
-      "summary": "Gold Wavers as Oil Eases With Traders Focused on Fed Rate Path\nGold swung as oil’s rally cooled and US Treasury yields retreated, with traders focused on the outlook for inflation and the Federal Reserve’s path for interest rates."
+      "summary": "Gold Swings as Traders Assess Fed Rate Path Amid Mideast Worries\nGold fluctuated as traders assessed the outlook for the Federal Reserve’s interest-rate path on the back of potential renewed hositilities in the Middle East."
+    },
+    {
+      "title": "Trump to throw spotlight on overseas crypto abuses at White House event",
+      "link": "https://www.coindesk.com/policy/2026/10/21/trump-to-throw-spotlight-on-overseas-crypto-abuses-in-white-house-event",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 21 Oct 2026 16:23:44 +0000",
+      "summary": "Trump to throw spotlight on overseas crypto abuses at White House event\n"
     },
     {
       "title": "How a16z-backed DATA is rethinking its blockchain strategy after $30 million Sui deal",
@@ -313,14 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Wed, 21 Oct 2026 12:12:36 +0000",
       "summary": "Why centralized exchanges refuse to list legacy crypto tokens without explicit SEC immunity\n"
-    },
-    {
-      "title": "Japanese visitors may be able to pay with yen stablecoins in South Korea under Shinhan-SBI pact",
-      "link": "https://www.coindesk.com/business/2026/10/21/japanese-visitors-may-be-able-to-pay-with-yen-stablecoins-in-south-korea-under-shinhan-sbi-pact",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 21 Oct 2026 12:10:39 +0000",
-      "summary": "Japanese visitors may be able to pay with yen stablecoins in South Korea under Shinhan-SBI pact\n"
     }
   ]
 }
