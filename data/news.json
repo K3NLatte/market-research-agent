@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T10:54:54.577831+00:00",
+  "generated_at": "2026-10-22T16:22:25.354881+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "FBI Arrests Executive at Ransomware Negotiation Firm\nAgents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on "
     },
     {
+      "title": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown",
+      "link": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
+      "raw_summary": "INTERPOL on Thursday announced that a coordinated law enforcement action has disrupted 10,909 malicious networks and recovered more than $105 million in illicit funds.\n\nIn tandem, the effort saw law enforcement agencies from 21 countries arrest 1,462 suspects. Codenamed Operation Serengeti III, the cybercrime crackdown took place between June 29 and August 31, 2026.\n\n\"Authorities identified",
+      "source": "The Hacker News",
+      "published": "Thu, 22 Oct 2026 19:08:22 +0530",
+      "summary": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown\nINTERPOL on Thursday announced that a coordinated law enforcement action has disrupted 10,909 malicious networks and recovered more than $105 million in illicit funds.\n\nIn tandem, the effort saw law enforcement "
+    },
+    {
+      "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+      "link": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+      "raw_summary": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching.\n\nNobody reviewed its access. Nobody owns it.\n\nIf an employee had that much reach with that little oversight, you would call it an insider risk. So why do we still call the agent a productivity tool?",
+      "source": "The Hacker News",
+      "published": "Thu, 22 Oct 2026 17:15:00 +0530",
+      "summary": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat\nRight now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching.\n\nNobody reviewed its ac"
+    },
+    {
+      "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
+      "link": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
+      "raw_summary": "Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed \"anomalous activity\" related to systems that store customer environment variables.\n\nUpon further investigation, the company found that an unauthorized third party may have gained access to encrypted environment variables, and, in some cases, obtained the decrypted contents. The impact, it said, is limited to a \"subset of users,",
+      "source": "The Hacker News",
+      "published": "Thu, 22 Oct 2026 16:45:42 +0530",
+      "summary": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation\nPlatform-as-a-Service (PaaS) provider Railway on Wednesday disclosed \"anomalous activity\" related to systems that store customer environment variables.\n\nUpon further investigation, the company found that an unauthori"
+    },
+    {
+      "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
+      "link": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
+      "raw_summary": "A flaw in the OpenCode AI coding agent allowed a malicious or hijacked MCP server to run code on a developer's Windows or WSL machine when the developer signed in. OpenCode connects to MCP (Model Context Protocol) servers to add outside tools, and such code would run with the developer's own access.\n\nAnomaly, the company behind OpenCode, fixed the flaw in&nbsp;version 1.18.33&nbsp;on September",
+      "source": "The Hacker News",
+      "published": "Thu, 22 Oct 2026 16:14:05 +0530",
+      "summary": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL\nA flaw in the OpenCode AI coding agent allowed a malicious or hijacked MCP server to run code on a developer's Windows or WSL machine when the developer signed in. OpenCode connects to MCP (Model Context Protocol"
+    },
+    {
       "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
       "link": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
       "raw_summary": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor.\n\nOn October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.0 to the Docker Hub registry and the Python Package Index (PyPI) repository. The incident took place around 4:00 a.m.",
@@ -51,116 +83,108 @@
       "summary": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release\nLiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor.\n\nOn October "
     },
     {
-      "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
-      "link": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
-      "raw_summary": "Node.js released&nbsp;security updates&nbsp;on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow remote code execution, meaning an attacker could run code of their choosing on the affected system.\n\nEach supported line has one fixed version:&nbsp;",
-      "source": "The Hacker News",
-      "published": "Thu, 22 Oct 2026 13:17:22 +0530",
-      "summary": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions\nNode.js released&nbsp;security updates&nbsp;on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundle"
-    },
-    {
-      "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
-      "link": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
-      "raw_summary": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO&nbsp;disclosed, releasing working proof-of-concept code.\n\nBy sending a small batch of compressed HTTP headers that expands in memory to a much larger set, the attacker can force the server to use thousands of times more memory than it received, enough to run a default server",
-      "source": "The Hacker News",
-      "published": "Thu, 22 Oct 2026 12:08:31 +0530",
-      "summary": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification\nA remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO&nbsp;disclosed, releasing working proof-of-concept code.\n\nBy sending a small batch of compre"
-    },
-    {
-      "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
-      "link": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
-      "raw_summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches.\n\n\"The exploit attempt originated from an IP address associated with a commercial anonymization network,\" CJ Moses,",
-      "source": "The Hacker News",
-      "published": "Thu, 22 Oct 2026 12:04:10 +0530",
-      "summary": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed\nAmazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come"
-    },
-    {
-      "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
-      "link": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
-      "raw_summary": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application.\n\nDuring the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was made closed-source in the wake of its abuse in cyber attacks targeting South Korean financial institutions, to speed",
-      "source": "The Hacker News",
-      "published": "Thu, 22 Oct 2026 09:51:26 +0530",
-      "summary": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack\nMicrosoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application.\n\nDuring the incident, Storm-0940 used ARTEX, a Go"
-    },
-    {
-      "title": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
-      "link": "https://globus.software/blog/2026/10/16/cutting-map-polygons/",
-      "raw_summary": "<p>Article URL: <a href=\"https://globus.software/blog/2026/10/16/cutting-map-polygons/\">https://globus.software/blog/2026/10/16/cutting-map-polygons/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50193170\">https://news.ycombinator.com/item?id=50193170</a></p>\n<p>Points: 36</p>\n<p># Comments: 2</p>",
+      "title": "Google cleared 300 hectares of Finnish forest",
+      "link": "https://www.techspot.com/news/114100-google-cleared-300-hectares-finnish-forest-data-center.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.techspot.com/news/114100-google-cleared-300-hectares-finnish-forest-data-center.html\">https://www.techspot.com/news/114100-google-cleared-300-hectares-finnish-forest-data-center.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50196837\">https://news.ycombinator.com/item?id=50196837</a></p>\n<p>Points: 41</p>\n<p># Comments: 14</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 22 Oct 2026 09:31:18 +0000",
-      "summary": "Faster than earcut: triangulating 3.7M map polygons in 489 ms\n<p>Article URL: <a href=\"https://globus.software/blog/2026/10/16/cutting-map-polygons/\">https://globus.software/blog/2026/10/16/cutting-map-polygons/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50193170\">https:/"
+      "published": "Thu, 22 Oct 2026 15:32:46 +0000",
+      "summary": "Google cleared 300 hectares of Finnish forest\n<p>Article URL: <a href=\"https://www.techspot.com/news/114100-google-cleared-300-hectares-finnish-forest-data-center.html\">https://www.techspot.com/news/114100-google-cleared-300-hectares-finnish-forest-data-center.html</a></p>\n<p>Comments URL: <a href=\""
     },
     {
-      "title": "CVE-2026-111943: Compromised Intermediate Certificate Authority",
-      "link": "https://nvd.nist.gov/vuln/detail/cve-2026-111943",
-      "raw_summary": "<p>Article URL: <a href=\"https://nvd.nist.gov/vuln/detail/cve-2026-111943\">https://nvd.nist.gov/vuln/detail/cve-2026-111943</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50192900\">https://news.ycombinator.com/item?id=50192900</a></p>\n<p>Points: 115</p>\n<p># Comments: 30</p>",
+      "title": "Show HN: Run full iOS 16.5 firmware on Android Devices",
+      "link": "https://github.com/oosexgang/hackios-xnu-kernel",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/oosexgang/hackios-xnu-kernel\">https://github.com/oosexgang/hackios-xnu-kernel</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50196718\">https://news.ycombinator.com/item?id=50196718</a></p>\n<p>Points: 25</p>\n<p># Comments: 6</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 22 Oct 2026 08:51:31 +0000",
-      "summary": "CVE-2026-111943: Compromised Intermediate Certificate Authority\n<p>Article URL: <a href=\"https://nvd.nist.gov/vuln/detail/cve-2026-111943\">https://nvd.nist.gov/vuln/detail/cve-2026-111943</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50192900\">https://news.ycombinator.com/it"
+      "published": "Thu, 22 Oct 2026 15:26:22 +0000",
+      "summary": "Show HN: Run full iOS 16.5 firmware on Android Devices\n<p>Article URL: <a href=\"https://github.com/oosexgang/hackios-xnu-kernel\">https://github.com/oosexgang/hackios-xnu-kernel</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50196718\">https://news.ycombinator.com/item?id=50196"
     },
     {
-      "title": "Achieving AI-style reasoning without an LLM",
-      "link": "https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model/",
-      "raw_summary": "<p>Article URL: <a href=\"https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model/\">https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50192868\">https://news.ycombinator.com/item?id=50192868</a></p>\n<p>Points: 34</p>\n<p># Comments: 11</p>",
+      "title": "Quad9 (DNS Resolver) to Exit France",
+      "link": "https://quad9.net/news/blog/au-revoir-france/",
+      "raw_summary": "<p>Article URL: <a href=\"https://quad9.net/news/blog/au-revoir-france/\">https://quad9.net/news/blog/au-revoir-france/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50195959\">https://news.ycombinator.com/item?id=50195959</a></p>\n<p>Points: 181</p>\n<p># Comments: 51</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 22 Oct 2026 08:46:58 +0000",
-      "summary": "Achieving AI-style reasoning without an LLM\n<p>Article URL: <a href=\"https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model/\">https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model/</a></p>\n<p>Comments URL: <a href=\"http"
+      "published": "Thu, 22 Oct 2026 14:32:38 +0000",
+      "summary": "Quad9 (DNS Resolver) to Exit France\n<p>Article URL: <a href=\"https://quad9.net/news/blog/au-revoir-france/\">https://quad9.net/news/blog/au-revoir-france/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50195959\">https://news.ycombinator.com/item?id=50195959</a></p>\n<p>Points: "
     },
     {
-      "title": "OpenAI CLI",
-      "link": "https://github.com/openai/openai-cli",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/openai/openai-cli\">https://github.com/openai/openai-cli</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50191507\">https://news.ycombinator.com/item?id=50191507</a></p>\n<p>Points: 131</p>\n<p># Comments: 73</p>",
+      "title": "MPs moving to restrict gambling ads in Canada amid mounting harms",
+      "link": "https://www.cbc.ca/news/investigates/gambling-ads-restrictions-canada-9.7388888",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.cbc.ca/news/investigates/gambling-ads-restrictions-canada-9.7388888\">https://www.cbc.ca/news/investigates/gambling-ads-restrictions-canada-9.7388888</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50195873\">https://news.ycombinator.com/item?id=50195873</a></p>\n<p>Points: 36</p>\n<p># Comments: 9</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 22 Oct 2026 05:23:11 +0000",
-      "summary": "OpenAI CLI\n<p>Article URL: <a href=\"https://github.com/openai/openai-cli\">https://github.com/openai/openai-cli</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50191507\">https://news.ycombinator.com/item?id=50191507</a></p>\n<p>Points: 131</p>\n<p># Comments: 73</p>"
+      "published": "Thu, 22 Oct 2026 14:26:40 +0000",
+      "summary": "MPs moving to restrict gambling ads in Canada amid mounting harms\n<p>Article URL: <a href=\"https://www.cbc.ca/news/investigates/gambling-ads-restrictions-canada-9.7388888\">https://www.cbc.ca/news/investigates/gambling-ads-restrictions-canada-9.7388888</a></p>\n<p>Comments URL: <a href=\"https://news.y"
     },
     {
-      "title": "The recently proposed o(n log n) integer multiplication algorithm [pdf]",
-      "link": "https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf",
-      "raw_summary": "<p>Article URL: <a href=\"https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf\">https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50190455\">https://news.ycombinator.com/item?id=50190455</a></p>\n<p>Points: 213</p>\n<p># Comments: 144</p>",
+      "title": "What's Getting Pwned",
+      "link": "https://pwn.watch/",
+      "raw_summary": "<p>Article URL: <a href=\"https://pwn.watch/\">https://pwn.watch/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50195543\">https://news.ycombinator.com/item?id=50195543</a></p>\n<p>Points: 122</p>\n<p># Comments: 80</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 22 Oct 2026 02:30:52 +0000",
-      "summary": "The recently proposed o(n log n) integer multiplication algorithm [pdf]\n<p>Article URL: <a href=\"https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf\">https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=5"
+      "published": "Thu, 22 Oct 2026 14:08:12 +0000",
+      "summary": "What's Getting Pwned\n<p>Article URL: <a href=\"https://pwn.watch/\">https://pwn.watch/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50195543\">https://news.ycombinator.com/item?id=50195543</a></p>\n<p>Points: 122</p>\n<p># Comments: 80</p>"
     },
     {
-      "title": "Tesla says it will start selling Cybercabs by end of year",
-      "link": "https://techcrunch.com/2026/10/21/tesla-says-it-will-start-selling-cybercabs-by-end-of-year/",
-      "raw_summary": "Tesla said Wednesday it will start selling its Cybercab to customers by the end of the year, even as federal regulators investigate whether the vehicle meets vehicle safety standards. The gold-hued, autonomous two-seater lacks a steering wheel and other traditional controls. During the company&#8217;s third-quarter earnings call, Lars Moravy, vice president of engineering at Tesla, [&#8230;]",
+      "title": "TechCrunch Disrupt 2026 Startup Battlefield 200: Celebrating outstanding achievements",
+      "link": "https://techcrunch.com/2026/10/22/techcrunch-disrupt-2026-startup-battlefield-200-celebrating-outstanding-achievements/",
+      "raw_summary": "Among the Startup Battlefield 200 were many industry-defining companies exhibiting and pitching on the Showcase Stage. Here are the standouts.",
       "source": "TechCrunch",
-      "published": "Thu, 22 Oct 2026 00:17:54 +0000",
-      "summary": "Tesla says it will start selling Cybercabs by end of year\nTesla said Wednesday it will start selling its Cybercab to customers by the end of the year, even as federal regulators investigate whether the vehicle meets vehicle safety standards. The gold-hued, autonomous two-seater lacks a steering whee"
+      "published": "Thu, 22 Oct 2026 16:00:00 +0000",
+      "summary": "TechCrunch Disrupt 2026 Startup Battlefield 200: Celebrating outstanding achievements\nAmong the Startup Battlefield 200 were many industry-defining companies exhibiting and pitching on the Showcase Stage. Here are the standouts."
     },
     {
-      "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
-      "link": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
-      "raw_summary": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters.",
+      "title": "Uber puts all 30,000 employees on ChatGPT Work",
+      "link": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+      "raw_summary": "The ride share giant previously deployed a much smaller pilot for ChatGPT Work, but is now taking the enterprise agent company-wide.",
       "source": "TechCrunch",
-      "published": "Wed, 21 Oct 2026 22:51:22 +0000",
-      "summary": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown\nBlackstone’s AI head on why the PE giant isn't panicked by market jitters."
+      "published": "Thu, 22 Oct 2026 16:00:00 +0000",
+      "summary": "Uber puts all 30,000 employees on ChatGPT Work\nThe ride share giant previously deployed a much smaller pilot for ChatGPT Work, but is now taking the enterprise agent company-wide."
     },
     {
-      "title": "Meta wants to pay for its broad AI buildout with a newly created class of stock",
-      "link": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock/",
-      "raw_summary": "The social media giant is planning a new stock strategy to help power its broad investments in AI models and services.",
+      "title": "Tesla is prepping a Cybercab onslaught",
+      "link": "https://techcrunch.com/2026/10/22/tesla-is-prepping-a-cybercab-onslaught/",
+      "raw_summary": "The company is looking to roll the gold two-seater robotaxis out to other U.S. cities this year, even as it goes mum on the number of paid rides.",
       "source": "TechCrunch",
-      "published": "Wed, 21 Oct 2026 22:45:34 +0000",
-      "summary": "Meta wants to pay for its broad AI buildout with a newly created class of stock\nThe social media giant is planning a new stock strategy to help power its broad investments in AI models and services."
+      "published": "Thu, 22 Oct 2026 15:44:39 +0000",
+      "summary": "Tesla is prepping a Cybercab onslaught\nThe company is looking to roll the gold two-seater robotaxis out to other U.S. cities this year, even as it goes mum on the number of paid rides."
     },
     {
-      "title": "Airbnb limits chores for guests, sparking backlash from hosts",
-      "link": "https://techcrunch.com/2026/10/21/airbnb-limits-chores-for-guests-sparking-backlash-from-hosts/",
-      "raw_summary": "Hosts are threatening to leave the platform after Airbnb says that they can no longer require guests to strip beds or do other time-consuming cleaning chores.",
+      "title": "Spotify confirms Family Plan crackdown, but calls it a ‘routine improvement’",
+      "link": "https://techcrunch.com/2026/10/22/spotify-confirms-family-plan-crackdown-but-calls-it-a-routine-improvement/",
+      "raw_summary": "Spotify told investors its roll out of QR code verification to ensure Family Plan members live in the same household is not a \"crackdown,\" just a routine improvement.",
       "source": "TechCrunch",
-      "published": "Wed, 21 Oct 2026 22:16:05 +0000",
-      "summary": "Airbnb limits chores for guests, sparking backlash from hosts\nHosts are threatening to leave the platform after Airbnb says that they can no longer require guests to strip beds or do other time-consuming cleaning chores."
+      "published": "Thu, 22 Oct 2026 15:24:32 +0000",
+      "summary": "Spotify confirms Family Plan crackdown, but calls it a ‘routine improvement’\nSpotify told investors its roll out of QR code verification to ensure Family Plan members live in the same household is not a \"crackdown,\" just a routine improvement."
     },
     {
-      "title": "TechCrunch Founder Summit 2026: Everything you need to know",
-      "link": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
-      "raw_summary": "TechCrunch Founder Summit is a full-day gathering in Boston on November 4 where founders across all stages connect with top VCs and experienced entrepreneurs to gain tactical insights on building and scaling their companies.",
+      "title": "Investors break down how founders can raise a Series A today",
+      "link": "https://techcrunch.com/2026/10/22/investors-break-down-how-founders-can-raise-a-series-a-today/",
+      "raw_summary": "Raising a Series A these days isn't so simple — top investors break down what founders need to know now.",
       "source": "TechCrunch",
-      "published": "Wed, 21 Oct 2026 21:16:20 +0000",
-      "summary": "TechCrunch Founder Summit 2026: Everything you need to know\nTechCrunch Founder Summit is a full-day gathering in Boston on November 4 where founders across all stages connect with top VCs and experienced entrepreneurs to gain tactical insights on building and scaling their companies."
+      "published": "Thu, 22 Oct 2026 15:15:00 +0000",
+      "summary": "Investors break down how founders can raise a Series A today\nRaising a Series A these days isn't so simple — top investors break down what founders need to know now."
+    },
+    {
+      "title": "Forget \"Malaise 2.0,\" GM says it's still all-in on EVs and autonomy",
+      "link": "https://arstechnica.com/cars/2026/10/forget-malaise-2-0-gm-says-its-still-all-in-on-evs-and-autonomy/",
+      "raw_summary": "General Motors' plans will require quite a lot of customers' trust.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 22 Oct 2026 13:04:32 +0000",
+      "summary": "Forget \"Malaise 2.0,\" GM says it's still all-in on EVs and autonomy\nGeneral Motors' plans will require quite a lot of customers' trust."
+    },
+    {
+      "title": "333 Tor exit nodes hijacked to intercept SSH traffic and retrieve plaintext email",
+      "link": "https://arstechnica.com/information-technology/2026/10/300-tor-exit-nodes-hijacked-to-intercept-ssh-traffic-and-retrieve-plaintext-email/",
+      "raw_summary": "For 3 days this month, 333 exit nodes were hacked in hopes of stealing sensitive data.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 22 Oct 2026 11:30:33 +0000",
+      "summary": "333 Tor exit nodes hijacked to intercept SSH traffic and retrieve plaintext email\nFor 3 days this month, 333 exit nodes were hacked in hopes of stealing sensitive data."
+    },
+    {
+      "title": "UN says we're going to blow past 1.5º warming, offers a \"now what?\" answer",
+      "link": "https://arstechnica.com/science/2026/10/un-accepts-the-obvious-were-not-going-to-avoid-a-1-5o-c-warming/",
+      "raw_summary": "Best case is now an overshoot to 1.8º C, accompanied by massive carbon removal.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 22 Oct 2026 11:15:36 +0000",
+      "summary": "UN says we're going to blow past 1.5º warming, offers a \"now what?\" answer\nBest case is now an overshoot to 1.8º C, accompanied by massive carbon removal."
     },
     {
       "title": "FCC chair warns media not to run the \"fake polls\" Trump keeps complaining about",
@@ -179,148 +203,124 @@
       "summary": "Xbox wants you to pay 24 to 40 cents per hour to stream games you already bought\nTime-based a la carte charges come on top of the purchase price for the games themselves."
     },
     {
-      "title": "Enterprises keep buying software upgrades that IT thinks will make things worse",
-      "link": "https://arstechnica.com/information-technology/2026/10/survey-enterprises-waste-28-percent-of-software-budgets-on-unwanted-upgrades/",
-      "raw_summary": "Survey of 2,018 IT heads at big firms points to a lack of leverage.",
-      "source": "Ars Technica - All content",
-      "published": "Wed, 21 Oct 2026 21:48:52 +0000",
-      "summary": "Enterprises keep buying software upgrades that IT thinks will make things worse\nSurvey of 2,018 IT heads at big firms points to a lack of leverage."
-    },
-    {
-      "title": "Tesla profits drop 43% in Q3",
-      "link": "https://arstechnica.com/cars/2026/10/tesla-profits-drop-43-in-q3/",
-      "raw_summary": "Tesla’s once-booming energy storage business also shrunk in Q3 2026.",
-      "source": "Ars Technica - All content",
-      "published": "Wed, 21 Oct 2026 21:35:07 +0000",
-      "summary": "Tesla profits drop 43% in Q3\nTesla’s once-booming energy storage business also shrunk in Q3 2026."
-    },
-    {
-      "title": "The new human-crafted Apple Music brand matters in an AI world",
-      "link": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/",
-      "raw_summary": "Opinion: In a world of AI slop, showing the human hands making things helps.",
-      "source": "Ars Technica - All content",
-      "published": "Wed, 21 Oct 2026 19:44:40 +0000",
-      "summary": "The new human-crafted Apple Music brand matters in an AI world\nOpinion: In a world of AI slop, showing the human hands making things helps."
-    },
-    {
-      "title": "FirstFT: Global equities hit by rise in oil prices",
-      "link": "https://www.ft.com/content/b739c6e8-5b77-46e3-91a5-382fd52389bc?syn-25a6b1a6=1",
-      "raw_summary": "Also in today’s newsletter: Barclays axes 5,000 jobs and companies race to protect their websites",
+      "title": "Macron warns some protests will be banned",
+      "link": "https://www.ft.com/content/43f3144f-7aa8-4821-b5c6-0da470b9af34?syn-25a6b1a6=1",
+      "raw_summary": "French president says labour unions can hold marches on Saturday but not other activists, in an effort to prevent more looting and rioting",
       "source": "World",
-      "published": "Thu, 22 Oct 2026 10:14:05 GMT",
-      "summary": "FirstFT: Global equities hit by rise in oil prices\nAlso in today’s newsletter: Barclays axes 5,000 jobs and companies race to protect their websites"
+      "published": "Thu, 22 Oct 2026 15:34:56 GMT",
+      "summary": "Macron warns some protests will be banned\nFrench president says labour unions can hold marches on Saturday but not other activists, in an effort to prevent more looting and rioting"
     },
     {
-      "title": "Websites taken offline in race to patch PHP security flaw",
-      "link": "https://www.ft.com/content/d438af1e-a48c-4aeb-8c84-00cdb5e741e3?syn-25a6b1a6=1",
-      "raw_summary": "Government security agencies warn companies to take immediate action after AI uncovers widespread vulnerabilities",
+      "title": "Meta sell-off drags US tech stocks lower as AI spending fears flare up",
+      "link": "https://www.ft.com/content/6e318b81-a771-4842-9754-e265fef2852f?syn-25a6b1a6=1",
+      "raw_summary": "Social media group’s market value tumbles more than $100bn after it forecasts ‘hundreds of billions of dollars’ in spending",
       "source": "World",
-      "published": "Thu, 22 Oct 2026 10:13:57 GMT",
-      "summary": "Websites taken offline in race to patch PHP security flaw\nGovernment security agencies warn companies to take immediate action after AI uncovers widespread vulnerabilities"
+      "published": "Thu, 22 Oct 2026 14:58:27 GMT",
+      "summary": "Meta sell-off drags US tech stocks lower as AI spending fears flare up\nSocial media group’s market value tumbles more than $100bn after it forecasts ‘hundreds of billions of dollars’ in spending"
     },
     {
-      "title": "Europe’s bracing reality on US bond yields",
-      "link": "https://www.ft.com/content/92e1700d-7990-4c6a-bd3f-63685df2fdf6?syn-25a6b1a6=1",
-      "raw_summary": "The region cannot just hope for a fall in borrowing costs across the Atlantic - it must tackle its own problems",
+      "title": "Germany’s Merz warns of ‘intense’ Russian espionage after arrest",
+      "link": "https://www.ft.com/content/6517874d-25b5-446f-9c9a-9326ab30dfa9?syn-25a6b1a6=1",
+      "raw_summary": "German authorities detain Ukrainian national suspected of passing on intelligence about military sites and arms manufacturers to the Kremlin",
       "source": "World",
-      "published": "Thu, 22 Oct 2026 10:07:31 GMT",
-      "summary": "Europe’s bracing reality on US bond yields\nThe region cannot just hope for a fall in borrowing costs across the Atlantic - it must tackle its own problems"
+      "published": "Thu, 22 Oct 2026 14:24:12 GMT",
+      "summary": "Germany’s Merz warns of ‘intense’ Russian espionage after arrest\nGerman authorities detain Ukrainian national suspected of passing on intelligence about military sites and arms manufacturers to the Kremlin"
     },
     {
-      "title": "‘I don’t lose’: Rahm Emanuel makes an early pitch for the White House",
-      "link": "https://www.ft.com/content/09d62b14-3541-48de-9a8c-f198cbe0220b?syn-25a6b1a6=1",
-      "raw_summary": "Barack Obama’s famously foul-mouthed former chief of staff thinks he has a message to win over America",
+      "title": "Trump’s tourism push fails to lure visitors",
+      "link": "https://www.ft.com/content/9ddd1583-9296-4264-8ddd-dbf11469def9?syn-25a6b1a6=1",
+      "raw_summary": "Number of tourist arrivals in US continues to drop following football World Cup",
       "source": "World",
-      "published": "Thu, 22 Oct 2026 10:00:03 GMT",
-      "summary": "‘I don’t lose’: Rahm Emanuel makes an early pitch for the White House\nBarack Obama’s famously foul-mouthed former chief of staff thinks he has a message to win over America"
+      "published": "Thu, 22 Oct 2026 13:54:59 GMT",
+      "summary": "Trump’s tourism push fails to lure visitors\nNumber of tourist arrivals in US continues to drop following football World Cup"
     },
     {
-      "title": "Europe’s underrated digital trailblazing",
-      "link": "https://www.ft.com/content/120fad19-1279-4e3c-8f60-2319acc21d11?syn-25a6b1a6=1",
-      "raw_summary": "At the frontier of public digital money, the EU is slowly developing a geopolitical monetary strategy",
+      "title": "Meta agrees deal to keep Zuckerberg in California despite wealth tax proposal",
+      "link": "https://www.ft.com/content/b34502b6-38dc-4a46-a8e7-d9131726cd31?syn-25a6b1a6=1",
+      "raw_summary": "Group to create new class of non-voting shares to allow stock sales without diluting founder’s control",
       "source": "World",
-      "published": "Thu, 22 Oct 2026 10:00:03 GMT",
-      "summary": "Europe’s underrated digital trailblazing\nAt the frontier of public digital money, the EU is slowly developing a geopolitical monetary strategy"
+      "published": "Thu, 22 Oct 2026 13:40:22 GMT",
+      "summary": "Meta agrees deal to keep Zuckerberg in California despite wealth tax proposal\nGroup to create new class of non-voting shares to allow stock sales without diluting founder’s control"
     },
     {
-      "title": "Oil Climbs as Houthi Attacks on Saudi Arabia Continue",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-22/oil-climbs-as-houthi-attacks-on-saudi-arabia-continue-video",
-      "raw_summary": "Three people were killed in two attacks on an Aramco oil field and an airport in Saudi Arabia’s Eastern Province Wednesday. The US State Department issued an ordered departure for non-emergency personnel and their families from the kingdom. The US move comes due to the growing threat from Houthi militants in neighboring Yemen. Abeer Abu Omar reports on Bloomberg Television. (Source: Bloomberg)",
+      "title": "Stocks Drop as Risk-Off Views Dominate With Oil Up, Meta Falling",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-22/us-futures-slip-as-risk-off-sentiment-dominates-with-oil-rising",
+      "raw_summary": "Stocks were lower Thursday as escalating concern about Mideast conflict pushed oil futures higher, spurring inflation fears with US midterm elections less than two weeks away. Meta Platforms Inc. tumbled as investors parsed its results along with the rest of the latest batch of technology earnings for evidence that massive spending on AI is paying off.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 22 Oct 2026 10:50:24 GMT",
-      "summary": "Oil Climbs as Houthi Attacks on Saudi Arabia Continue\nThree people were killed in two attacks on an Aramco oil field and an airport in Saudi Arabia’s Eastern Province Wednesday. The US State Department issued an ordered departure for non-emergency personnel and their families from the kingdom. The U"
+      "published": "Thu, 22 Oct 2026 11:29:09 GMT",
+      "summary": "Stocks Drop as Risk-Off Views Dominate With Oil Up, Meta Falling\nStocks were lower Thursday as escalating concern about Mideast conflict pushed oil futures higher, spurring inflation fears with US midterm elections less than two weeks away. Meta Platforms Inc. tumbled as investors parsed its results"
     },
     {
-      "title": "Kashagan Arbitration Court Invalidates $12 Billion of Cost Claim",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-22/kashagan-arbitration-court-invalidates-12-billion-of-cost-claim",
-      "raw_summary": "An international court of arbitration invalidated about $12 billion of Kazakhstan’s claims against oil majors for disputed costs at the Kashagan field, according to people familiar with the matter.",
+      "title": "US 10-Year Yield Falls Below 5% as Investors Flock to Havens",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-22/long-end-us-yield-hits-one-month-low-as-ai-fears-fuel-haven-bid",
+      "raw_summary": "Treasuries surged — sending the US 10-year yield back below 5% — as investors sought shelter from tumbling share prices for companies leading the boom in spending on artificial intelligence.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 22 Oct 2026 10:37:34 GMT",
-      "summary": "Kashagan Arbitration Court Invalidates $12 Billion of Cost Claim\nAn international court of arbitration invalidated about $12 billion of Kazakhstan’s claims against oil majors for disputed costs at the Kashagan field, according to people familiar with the matter."
+      "published": "Thu, 22 Oct 2026 03:46:59 GMT",
+      "summary": "US 10-Year Yield Falls Below 5% as Investors Flock to Havens\nTreasuries surged — sending the US 10-year yield back below 5% — as investors sought shelter from tumbling share prices for companies leading the boom in spending on artificial intelligence."
     },
     {
-      "title": "AI Spending Isn’t Enough for Investors",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-10-22/ai-spending-isn-t-enough-for-investors",
-      "raw_summary": "Markets want evidence that AI investments are generating revenue.",
+      "title": "Stocks Fall as AI, Oil Risks Spur Flight to Bonds: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-21/stock-market-today-dow-s-p-live-updates",
+      "raw_summary": "A rout in technology giants and escalating Middle East hostilities sent stocks lower, pushing investors toward the safety of bonds.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 22 Oct 2026 10:34:21 GMT",
-      "summary": "AI Spending Isn’t Enough for Investors\nMarkets want evidence that AI investments are generating revenue."
+      "published": "Wed, 21 Oct 2026 22:13:33 GMT",
+      "summary": "Stocks Fall as AI, Oil Risks Spur Flight to Bonds: Markets Wrap\nA rout in technology giants and escalating Middle East hostilities sent stocks lower, pushing investors toward the safety of bonds."
     },
     {
-      "title": "Bayern Munich Sells Stake to Family Office at $4.5 Billion Value",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-22/bayern-munich-sells-stake-to-family-office-at-4-5-billion-value",
-      "raw_summary": "The family behind a German heating equipment fortune has bought a stake in FC Bayern München AG, becoming only the fourth outside shareholder in the famous football team.",
+      "title": "Oil Stocks Are Looking Stretched to Traders as Earnings Loom",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-22/oil-stocks-are-looking-stretched-to-traders-as-earnings-loom",
+      "raw_summary": "Shares of oil and gas companies are rallying this year, powered by windfall profit growth as the war in the Middle East pushes crude prices higher. Yet, their momentum has Wall Street traders expecting a pullback.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 22 Oct 2026 10:30:43 GMT",
-      "summary": "Bayern Munich Sells Stake to Family Office at $4.5 Billion Value\nThe family behind a German heating equipment fortune has bought a stake in FC Bayern München AG, becoming only the fourth outside shareholder in the famous football team."
+      "published": "Thu, 22 Oct 2026 15:47:54 GMT",
+      "summary": "Oil Stocks Are Looking Stretched to Traders as Earnings Loom\nShares of oil and gas companies are rallying this year, powered by windfall profit growth as the war in the Middle East pushes crude prices higher. Yet, their momentum has Wall Street traders expecting a pullback."
     },
     {
-      "title": "Saudi Attacks Push Oil Higher as Stocks Slide on Tech Earnings",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-22/the-pulse-10-22-2026-video",
-      "raw_summary": "\"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story is, bringing you exclusive interviews and market-moving scoops.\n\nToday's guests: Wei Li, BlackRock Global Chief Investment Strategist; Joseph Pinto, M&amp;G Asset Management CEO (Source: Bloomberg)",
+      "title": "New ETFs to Watch: A $2.5 Billion Launch, Anthropic and S&P 10,000, Anyone?",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-22/new-etfs-to-watch-a-2-5-billion-launch-anthropic-and-s-p-10-000-anyone",
+      "raw_summary": "<p>In this episode of <em>Trillions</em>, we look at a fund that echoes Warren Buffett’s advice and a European product offering synthetic exposure to&nbsp;Anthropic.</p>",
       "source": "Bloomberg Markets",
-      "published": "Thu, 22 Oct 2026 10:29:47 GMT",
-      "summary": "Saudi Attacks Push Oil Higher as Stocks Slide on Tech Earnings\n\"The Pulse With Francine Lacqua\" is all about conversations with high profile guests in the beating heart of global business, economics, finance and politics. Based in London, we go wherever the story is, bringing you exclusive interview"
+      "published": "Thu, 22 Oct 2026 15:43:54 GMT",
+      "summary": "New ETFs to Watch: A $2.5 Billion Launch, Anthropic and S&P 10,000, Anyone?\n<p>In this episode of <em>Trillions</em>, we look at a fund that echoes Warren Buffett’s advice and a European product offering synthetic exposure to&nbsp;Anthropic.</p>"
     },
     {
-      "title": "Bitcoin slides below $82,000 as AI doubts return, with DeFi tokens leading declines",
-      "link": "https://www.coindesk.com/markets/2026/10/22/bitcoin-slides-below-usd82-000-as-ai-doubts-return-with-defi-tokens-leading-declines",
+      "title": "Irish central bank fines Coinbase Ireland $3.6 million over fund safeguarding failures",
+      "link": "https://www.coindesk.com/policy/2026/10/22/irish-central-bank-fines-coinbase-ireland-usd3-6-million-over-fund-safeguarding-failures",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 22 Oct 2026 10:50:04 +0000",
-      "summary": "Bitcoin slides below $82,000 as AI doubts return, with DeFi tokens leading declines\n"
+      "published": "Thu, 22 Oct 2026 15:40:25 +0000",
+      "summary": "Irish central bank fines Coinbase Ireland $3.6 million over fund safeguarding failures\n"
     },
     {
-      "title": "Crypto traders price India telecoms company Reliance Jio's IPO at about $110 billion",
-      "link": "https://www.coindesk.com/markets/2026/10/22/crypto-traders-price-india-telecoms-company-reliance-jio-s-ipo-at-about-usd110-billion",
+      "title": "Crypto for Advisors: Stablecoins are ready for prime time",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/10/22/crypto-for-advisors-stablecoins-are-ready-for-prime-time",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 22 Oct 2026 10:18:28 +0000",
-      "summary": "Crypto traders price India telecoms company Reliance Jio's IPO at about $110 billion\n"
+      "published": "Thu, 22 Oct 2026 14:58:31 +0000",
+      "summary": "Crypto for Advisors: Stablecoins are ready for prime time\n"
     },
     {
-      "title": "Live updates: Bitcoin’s round trip to $85,000 burns traders on both sides",
-      "link": "https://www.coindesk.com/business/2026/10/22/live-updates-bitcoin-s-round-trip-to-usd85-000-burns-traders-on-both-sides",
+      "title": "Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa",
+      "link": "https://www.coindesk.com/business/2026/10/22/crypto-custody-specialist-fireblocks-denies-its-in-talks-to-be-acquired-by-visa",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 22 Oct 2026 09:54:26 +0000",
-      "summary": "Live updates: Bitcoin’s round trip to $85,000 burns traders on both sides\n"
+      "published": "Thu, 22 Oct 2026 14:37:12 +0000",
+      "summary": "Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa\n"
     },
     {
-      "title": "Asian stocks tumble, bitcoin retreats as China enters bear market",
-      "link": "https://www.coindesk.com/markets/2026/10/22/asian-stocks-tumble-bitcoin-retreats-as-china-enters-bear-market",
+      "title": "Crypto is making a splash in U.S. elections — but chiefly in jabs about industry influence",
+      "link": "https://www.coindesk.com/news-analysis/2026/10/21/crypto-is-making-a-splash-in-u-s-elections-but-chiefly-in-jabs-about-industry-influence",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 22 Oct 2026 08:49:08 +0000",
-      "summary": "Asian stocks tumble, bitcoin retreats as China enters bear market\n"
+      "published": "Thu, 22 Oct 2026 13:00:00 +0000",
+      "summary": "Crypto is making a splash in U.S. elections — but chiefly in jabs about industry influence\n"
     },
     {
-      "title": "China seeks to seize 61,800 BTC tied to $5.7 billion fraud scheme",
-      "link": "https://www.coindesk.com/markets/2026/10/22/china-seeks-to-seize-61-800-btc-tied-to-usd5-7-billion-fraud-scheme",
+      "title": "Ethereum’s four-minute settlement plan could lower the cost of moving crypto",
+      "link": "https://www.coindesk.com/tech/2026/10/22/ethereum-s-four-minute-settlement-plan-could-lower-the-cost-of-moving-crypto",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 22 Oct 2026 06:24:10 +0000",
-      "summary": "China seeks to seize 61,800 BTC tied to $5.7 billion fraud scheme\n"
+      "published": "Thu, 22 Oct 2026 12:14:29 +0000",
+      "summary": "Ethereum’s four-minute settlement plan could lower the cost of moving crypto\n"
     }
   ]
 }
