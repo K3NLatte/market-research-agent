@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T02:45:17.791649+00:00",
+  "generated_at": "2026-10-23T10:46:28.585210+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "FBI Arrests Executive at Ransomware Negotiation Firm\nAgents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on "
     },
     {
+      "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+      "link": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+      "raw_summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open.\n\nThe flaw,&nbsp;CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separate program it runs to turn the image into pixels, without checking the name first.",
+      "source": "The Hacker News",
+      "published": "Fri, 23 Oct 2026 15:06:00 +0530",
+      "summary": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image\nPillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open.\n\nThe flaw,&nbsp;CVE-2026-112900, is in"
+    },
+    {
+      "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+      "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+      "raw_summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have&nbsp;demonstrated.\n\nTheir \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497). Node.js disclosed the flaw",
+      "source": "The Hacker News",
+      "published": "Fri, 23 Oct 2026 14:10:43 +0530",
+      "summary": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data\nMalicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have&nbsp;demonstrated.\n\nTheir \"Node2Shell\" proof of concept ran code on"
+    },
+    {
+      "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
+      "link": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+      "raw_summary": "AI agents paying for API calls with the&nbsp;x402 SDKs&nbsp;could sign a payment for their full balance of a supported token if a malicious API asked for it,&nbsp;security firm V12 said&nbsp;on October 22.\n\nThe cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to agents who automatically signed payments and whose apps set",
+      "source": "The Hacker News",
+      "published": "Fri, 23 Oct 2026 14:05:45 +0530",
+      "summary": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances\nAI agents paying for API calls with the&nbsp;x402 SDKs&nbsp;could sign a payment for their full balance of a supported token if a malicious API asked for it,&nbsp;security firm V12 said&nbsp;on October 22.\n\nThe cause was"
+    },
+    {
+      "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+      "link": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+      "raw_summary": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought.\n\nThe attacks aim to exploit CVE-2026-109618 and CVE-2026-109619 (CVSS scores: 9.2), which can result in unauthenticated remote",
+      "source": "The Hacker News",
+      "published": "Fri, 23 Oct 2026 13:10:45 +0530",
+      "summary": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware\nThreat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing t"
+    },
+    {
       "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
       "link": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
       "raw_summary": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching.\n\nNobody reviewed its access. Nobody owns it.\n\nIf an employee had that much reach with that little oversight, you would call it an insider risk. So why do we still call the agent a productivity tool?",
@@ -51,76 +83,60 @@
       "summary": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat\nRight now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching.\n\nNobody reviewed its ac"
     },
     {
-      "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
-      "link": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
-      "raw_summary": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the&nbsp;central management system&nbsp;for VeloCloud SD-WAN networks, the company said in an&nbsp;advisory&nbsp;on October 22.\n\nThe flaw lets anyone who can log in to the orchestrator, even with a read-only customer account, gain operator privileges, the top level of control over it.\n\nFor",
-      "source": "The Hacker News",
-      "published": "Fri, 23 Oct 2026 00:35:17 +0530",
-      "summary": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks\nAttackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the&nbsp;central management system&nbsp;for VeloCloud SD-WAN networks, the company said in an&nbsp;advisory&nbsp;on October "
+      "title": "France needs to read my paper",
+      "link": "https://wilsoniumite.com/2026/10/23/france-needs-to-read-my-paper/",
+      "raw_summary": "<p>Article URL: <a href=\"https://wilsoniumite.com/2026/10/23/france-needs-to-read-my-paper/\">https://wilsoniumite.com/2026/10/23/france-needs-to-read-my-paper/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50206586\">https://news.ycombinator.com/item?id=50206586</a></p>\n<p>Points: 31</p>\n<p># Comments: 13</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Fri, 23 Oct 2026 09:54:40 +0000",
+      "summary": "France needs to read my paper\n<p>Article URL: <a href=\"https://wilsoniumite.com/2026/10/23/france-needs-to-read-my-paper/\">https://wilsoniumite.com/2026/10/23/france-needs-to-read-my-paper/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50206586\">https://news.ycombinator.com/"
     },
     {
-      "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
-      "link": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
-      "raw_summary": "eMudhra, an Indian certificate authority (CA), will withdraw from its global SSL/TLS certificate business,&nbsp;its board decided on Thursday. The decision came five days after a researcher&nbsp;reported recovering the private keys&nbsp;of eight of its intermediate CA certificates.\n\neMudhra said it will replace affected customers' certificates with free ones from partners, though its",
-      "source": "The Hacker News",
-      "published": "Thu, 22 Oct 2026 23:42:43 +0530",
-      "summary": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable\neMudhra, an Indian certificate authority (CA), will withdraw from its global SSL/TLS certificate business,&nbsp;its board decided on Thursday. The decision came five days after a researcher&nbsp;reported reco"
+      "title": "The Rise and Fall of Jev",
+      "link": "https://blog.alexewerlof.com/p/rise-and-fall-of-jev-eval-hype-vs-llm",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.alexewerlof.com/p/rise-and-fall-of-jev-eval-hype-vs-llm\">https://blog.alexewerlof.com/p/rise-and-fall-of-jev-eval-hype-vs-llm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50206361\">https://news.ycombinator.com/item?id=50206361</a></p>\n<p>Points: 10</p>\n<p># Comments: 3</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Fri, 23 Oct 2026 09:21:00 +0000",
+      "summary": "The Rise and Fall of Jev\n<p>Article URL: <a href=\"https://blog.alexewerlof.com/p/rise-and-fall-of-jev-eval-hype-vs-llm\">https://blog.alexewerlof.com/p/rise-and-fall-of-jev-eval-hype-vs-llm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50206361\">https://news.ycombinator.com/i"
     },
     {
-      "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
-      "link": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
-      "raw_summary": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That's a lot to deal with in just a few days. And the week isn't even over yet.\n\nBut those big headlines are only half the story. Stolen passwords, exposed",
-      "source": "The Hacker News",
-      "published": "Thu, 22 Oct 2026 23:15:44 +0530",
-      "summary": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More\nThis week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, an"
+      "title": "Remove pgrust: the entry is cheating",
+      "link": "https://github.com/ClickHouse/ClickBench/pull/2165",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/ClickHouse/ClickBench/pull/2165\">https://github.com/ClickHouse/ClickBench/pull/2165</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50205816\">https://news.ycombinator.com/item?id=50205816</a></p>\n<p>Points: 7</p>\n<p># Comments: 1</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Fri, 23 Oct 2026 08:05:33 +0000",
+      "summary": "Remove pgrust: the entry is cheating\n<p>Article URL: <a href=\"https://github.com/ClickHouse/ClickBench/pull/2165\">https://github.com/ClickHouse/ClickBench/pull/2165</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50205816\">https://news.ycombinator.com/item?id=50205816</a></p>\n"
     },
     {
-      "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
-      "link": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
-      "raw_summary": "Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by&nbsp;Trend Micro's Zero Day Initiative, with no fix yet in the mainline kernel.\n\nOne of them, ZDI-CAN-33774, can be triggered before any network authentication. The other, ZDI-CAN-33549, requires the SMB Direct transport and an RDMA-capable network",
-      "source": "The Hacker News",
-      "published": "Thu, 22 Oct 2026 22:31:53 +0530",
-      "summary": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes\nLinux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by&nbsp;Trend Micro's Zero Day Initiative, with no fix yet in the mainlin"
+      "title": "This I Believe (1952)",
+      "link": "https://www.awakin.org/v2/read/view.php?tid=468",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.awakin.org/v2/read/view.php?tid=468\">https://www.awakin.org/v2/read/view.php?tid=468</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50203759\">https://news.ycombinator.com/item?id=50203759</a></p>\n<p>Points: 92</p>\n<p># Comments: 36</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Fri, 23 Oct 2026 02:19:38 +0000",
+      "summary": "This I Believe (1952)\n<p>Article URL: <a href=\"https://www.awakin.org/v2/read/view.php?tid=468\">https://www.awakin.org/v2/read/view.php?tid=468</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50203759\">https://news.ycombinator.com/item?id=50203759</a></p>\n<p>Points: 92</p>\n<p>"
     },
     {
       "title": "The foolishness of \"natural language programming\" (1978)",
       "link": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html\">https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50203161\">https://news.ycombinator.com/item?id=50203161</a></p>\n<p>Points: 38</p>\n<p># Comments: 37</p>",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html\">https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50203161\">https://news.ycombinator.com/item?id=50203161</a></p>\n<p>Points: 189</p>\n<p># Comments: 112</p>",
       "source": "Hacker News: Front Page",
       "published": "Fri, 23 Oct 2026 00:52:01 +0000",
       "summary": "The foolishness of \"natural language programming\" (1978)\n<p>Article URL: <a href=\"https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html\">https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50203161\">http"
     },
     {
-      "title": "Mapping the Northern Sky",
-      "link": "https://www.maps.com/star-map-charts-stars-and-constellations-of-northern-hemisphere/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.maps.com/star-map-charts-stars-and-constellations-of-northern-hemisphere/\">https://www.maps.com/star-map-charts-stars-and-constellations-of-northern-hemisphere/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50202766\">https://news.ycombinator.com/item?id=50202766</a></p>\n<p>Points: 17</p>\n<p># Comments: 4</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Thu, 22 Oct 2026 23:56:39 +0000",
-      "summary": "Mapping the Northern Sky\n<p>Article URL: <a href=\"https://www.maps.com/star-map-charts-stars-and-constellations-of-northern-hemisphere/\">https://www.maps.com/star-map-charts-stars-and-constellations-of-northern-hemisphere/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=502027"
+      "title": "Oura sues rival Ultrahuman again, threatening its U.S. smart ring comeback",
+      "link": "https://techcrunch.com/2026/10/22/oura-sues-rival-ultrahuman-again-threatening-its-u-s-smart-ring-comeback/",
+      "raw_summary": "Oura alleges in its newest lawsuit that Ultrahuman's Ring Pro infringes two of its patents.",
+      "source": "TechCrunch",
+      "published": "Fri, 23 Oct 2026 04:22:57 +0000",
+      "summary": "Oura sues rival Ultrahuman again, threatening its U.S. smart ring comeback\nOura alleges in its newest lawsuit that Ultrahuman's Ring Pro infringes two of its patents."
     },
     {
-      "title": "Jank – The native Clojure dialect with seamless C++ interop",
-      "link": "https://jank-lang.org/",
-      "raw_summary": "<p>Article URL: <a href=\"https://jank-lang.org/\">https://jank-lang.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50202762\">https://news.ycombinator.com/item?id=50202762</a></p>\n<p>Points: 19</p>\n<p># Comments: 1</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Thu, 22 Oct 2026 23:56:36 +0000",
-      "summary": "Jank – The native Clojure dialect with seamless C++ interop\n<p>Article URL: <a href=\"https://jank-lang.org/\">https://jank-lang.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50202762\">https://news.ycombinator.com/item?id=50202762</a></p>\n<p>Points: 19</p>\n<p># Comments: "
-    },
-    {
-      "title": "Docker is weird",
-      "link": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
-      "raw_summary": "<p>Article URL: <a href=\"https://codeandcake.dev/posts/2026-10-22-docker-is-weird\">https://codeandcake.dev/posts/2026-10-22-docker-is-weird</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50202681\">https://news.ycombinator.com/item?id=50202681</a></p>\n<p>Points: 162</p>\n<p># Comments: 70</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Thu, 22 Oct 2026 23:45:56 +0000",
-      "summary": "Docker is weird\n<p>Article URL: <a href=\"https://codeandcake.dev/posts/2026-10-22-docker-is-weird\">https://codeandcake.dev/posts/2026-10-22-docker-is-weird</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50202681\">https://news.ycombinator.com/item?id=50202681</a></p>\n<p>Points"
-    },
-    {
-      "title": "AI compute is the new oil–and needs a new market",
-      "link": "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market\">https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50202671\">https://news.ycombinator.com/item?id=50202671</a></p>\n<p>Points: 25</p>\n<p># Comments: 16</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Thu, 22 Oct 2026 23:45:16 +0000",
-      "summary": "AI compute is the new oil–and needs a new market\n<p>Article URL: <a href=\"https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market\">https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market</a></p>\n<"
+      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+      "link": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+      "raw_summary": "inDrive plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
+      "source": "TechCrunch",
+      "published": "Fri, 23 Oct 2026 04:00:00 +0000",
+      "summary": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia\ninDrive plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027."
     },
     {
       "title": "Left alone with nothing to do, AI agents started playing",
@@ -145,22 +161,6 @@
       "source": "TechCrunch",
       "published": "Thu, 22 Oct 2026 23:15:00 +0000",
       "summary": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear\nWarhound, the brainchild of Ben Lamm and Palmer Luckey, emerges from stealth to genetically engineer dogs for military and law enforcement."
-    },
-    {
-      "title": "As blockchain investing falls out of vogue, a16z Crypto rebrands as a16z Frontier",
-      "link": "https://techcrunch.com/2026/10/22/as-blockchain-investing-falls-out-of-vogue-a16z-crypto-rebrands-as-a16z-frontier/",
-      "raw_summary": "The digital asset unit, helmed by Chris Dixon, broadens its scope.",
-      "source": "TechCrunch",
-      "published": "Thu, 22 Oct 2026 22:34:54 +0000",
-      "summary": "As blockchain investing falls out of vogue, a16z Crypto rebrands as a16z Frontier\nThe digital asset unit, helmed by Chris Dixon, broadens its scope."
-    },
-    {
-      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-      "link": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-      "raw_summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
-      "source": "TechCrunch",
-      "published": "Thu, 22 Oct 2026 22:08:24 +0000",
-      "summary": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO\nShould OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever."
     },
     {
       "title": "Switch 2 security takes a hit as hackers unlock homebrew access",
@@ -203,124 +203,124 @@
       "summary": "Disgraced eMudhra drops out of TLS business after using cert private key of 4\nFlubbed key signing \"ceremony\" allowed minting of web credentials for any site."
     },
     {
-      "title": "Bids roll in for Jio’s ‘jumbo’ IPO",
-      "link": "https://www.ft.com/content/5ebcd319-2e36-4a38-8086-8d9d00ff1e99?syn-25a6b1a6=1",
-      "raw_summary": "Plus, the RBI’s costly game of whack-a-mole",
+      "title": "FirstFT: AI doubts fuel tech sell-off",
+      "link": "https://www.ft.com/content/5587abab-d5c8-480d-923d-b7b68afcb3f0?syn-25a6b1a6=1",
+      "raw_summary": "Also in today’s newsletter: Oil price surges and luxury goods group Kerring hit by falling demand",
       "source": "World",
-      "published": "Fri, 23 Oct 2026 01:30:07 GMT",
-      "summary": "Bids roll in for Jio’s ‘jumbo’ IPO\nPlus, the RBI’s costly game of whack-a-mole"
-    },
-    {
-      "title": "US Treasury proposes tighter rules on investing in sensitive Chinese tech",
-      "link": "https://www.ft.com/content/f57a1f1c-60ce-432d-a901-673ae7d1241e?syn-25a6b1a6=1",
-      "raw_summary": "Restrictions would apply to investments in areas including AI, hypersonic weapons and biotech",
-      "source": "World",
-      "published": "Thu, 22 Oct 2026 23:13:15 GMT",
-      "summary": "US Treasury proposes tighter rules on investing in sensitive Chinese tech\nRestrictions would apply to investments in areas including AI, hypersonic weapons and biotech"
+      "published": "Fri, 23 Oct 2026 10:32:55 GMT",
+      "summary": "FirstFT: AI doubts fuel tech sell-off\nAlso in today’s newsletter: Oil price surges and luxury goods group Kerring hit by falling demand"
     },
     {
       "title": "‘Relentless’ cost of living pressures behind collapse in UK consumer confidence",
       "link": "https://www.ft.com/content/74bb3555-6f29-4ff9-bcaf-6cd20a9a3b1b?syn-25a6b1a6=1",
       "raw_summary": "Index measuring how people view their finances and economic prospects suffers largest monthly drop since onset of Covid in 2020",
       "source": "World",
-      "published": "Thu, 22 Oct 2026 23:01:05 GMT",
+      "published": "Fri, 23 Oct 2026 10:31:45 GMT",
       "summary": "‘Relentless’ cost of living pressures behind collapse in UK consumer confidence\nIndex measuring how people view their finances and economic prospects suffers largest monthly drop since onset of Covid in 2020"
     },
     {
-      "title": "FirstFT: Meta rekindles AI spending fears",
-      "link": "https://www.ft.com/content/5587abab-d5c8-480d-923d-b7b68afcb3f0?syn-25a6b1a6=1",
-      "raw_summary": "Also in today’s newsletter: China steps up ‘grey zone’ tactics against Taiwan and India mounts costly defence of rupee",
+      "title": "US nuclear revival faces scrutiny after incidents at flagship plant",
+      "link": "https://www.ft.com/content/bcc464cc-9d12-4b15-866d-64642de66ca8?syn-25a6b1a6=1",
+      "raw_summary": "Michigan reactor restart is delayed as Trump administration champions nuclear energy to meet booming AI power demand",
       "source": "World",
-      "published": "Thu, 22 Oct 2026 21:46:58 GMT",
-      "summary": "FirstFT: Meta rekindles AI spending fears\nAlso in today’s newsletter: China steps up ‘grey zone’ tactics against Taiwan and India mounts costly defence of rupee"
+      "published": "Fri, 23 Oct 2026 10:00:02 GMT",
+      "summary": "US nuclear revival faces scrutiny after incidents at flagship plant\nMichigan reactor restart is delayed as Trump administration champions nuclear energy to meet booming AI power demand"
     },
     {
-      "title": "UK urges public and business to better prepare for emergencies",
-      "link": "https://www.ft.com/content/925486f3-1dd4-462a-ba1b-794efd2d6429?syn-25a6b1a6=1",
-      "raw_summary": "Ministers urge households to stock up on essential items amid growing risk of natural disasters, cyber attacks or state-sponsored terrorism",
+      "title": "Volvo Cars shares plunge as much as 30% after it swings to loss",
+      "link": "https://www.ft.com/content/deb209b5-a5ed-4d24-a470-636ecc1e3668?syn-25a6b1a6=1",
+      "raw_summary": "Swedish carmaker to cut another 2,500 jobs  and warns that the market ‘has not reached the bottom’",
       "source": "World",
-      "published": "Thu, 22 Oct 2026 21:43:45 GMT",
-      "summary": "UK urges public and business to better prepare for emergencies\nMinisters urge households to stock up on essential items amid growing risk of natural disasters, cyber attacks or state-sponsored terrorism"
+      "published": "Fri, 23 Oct 2026 09:19:08 GMT",
+      "summary": "Volvo Cars shares plunge as much as 30% after it swings to loss\nSwedish carmaker to cut another 2,500 jobs  and warns that the market ‘has not reached the bottom’"
     },
     {
-      "title": "Temasek Executive to Join CapitaLand Board as Chair Retires",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-22/temasek-s-png-is-said-to-join-capitaland-investment-s-board",
-      "raw_summary": "Temasek Singapore President Png Chin Yee is set to join the board of CapitaLand Investment Ltd., while Chairman Miguel Ko is retiring from the real estate asset manager.",
+      "title": "Oil hits $114 for first time since May as global stocks knocked by AI fears",
+      "link": "https://www.ft.com/content/8948193b-438b-4d71-a0b1-31dff56fc308?syn-25a6b1a6=1",
+      "raw_summary": "Markets face twin threats of surging crude prices and concern over durability of AI boom",
+      "source": "World",
+      "published": "Fri, 23 Oct 2026 09:14:36 GMT",
+      "summary": "Oil hits $114 for first time since May as global stocks knocked by AI fears\nMarkets face twin threats of surging crude prices and concern over durability of AI boom"
+    },
+    {
+      "title": "Chipotle’s Softening Sales Force Analyst to Throw in the Towel",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-23/chipotle-s-softening-sales-force-analyst-to-throw-in-the-towel",
+      "raw_summary": "A long-standing Chipotle Mexican Grill Inc. bull has moved to the sidelines, citing concern that a slow start to the fourth quarter suggests softer sales for the year ahead.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 22 Oct 2026 10:16:12 GMT",
-      "summary": "Temasek Executive to Join CapitaLand Board as Chair Retires\nTemasek Singapore President Png Chin Yee is set to join the board of CapitaLand Investment Ltd., while Chairman Miguel Ko is retiring from the real estate asset manager."
+      "published": "Fri, 23 Oct 2026 10:30:00 GMT",
+      "summary": "Chipotle’s Softening Sales Force Analyst to Throw in the Towel\nA long-standing Chipotle Mexican Grill Inc. bull has moved to the sidelines, citing concern that a slow start to the fourth quarter suggests softer sales for the year ahead."
     },
     {
-      "title": "Tech Stock Selloff Deepens, Crude Oil Extends Gain: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-22/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "The global rout in technology stocks this week deepened as investors rotated out of the hottest trade of the year and sought safety in Treasuries and currencies such as the yen. Crude oil extended its gains.",
+      "title": "Riskiest Bank Securities Lose Luster as Investors Get Picky",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-23/at1s-easy-money-run-fades-as-banks-pay-up-for-riskiest-debt",
+      "raw_summary": "Investors in the riskiest instruments sold by US and European banks are starting to demand more compensation on new deals.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 22 Oct 2026 22:05:06 GMT",
-      "summary": "Tech Stock Selloff Deepens, Crude Oil Extends Gain: Markets Wrap\nThe global rout in technology stocks this week deepened as investors rotated out of the hottest trade of the year and sought safety in Treasuries and currencies such as the yen. Crude oil extended its gains."
+      "published": "Fri, 23 Oct 2026 10:02:44 GMT",
+      "summary": "Riskiest Bank Securities Lose Luster as Investors Get Picky\nInvestors in the riskiest instruments sold by US and European banks are starting to demand more compensation on new deals."
     },
     {
-      "title": "India Retail Traders Cut Back on Leveraged Bets as Stocks Slide",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-10-23/india-retail-traders-cut-back-on-leveraged-bets-as-stocks-slide",
-      "raw_summary": "Zerodha founder Nithin Kamath has repeatedly voiced concerns about the use of margin loans by clients to buy stocks.",
-      "source": "Bloomberg Markets",
-      "published": "Fri, 23 Oct 2026 02:34:49 GMT",
-      "summary": "India Retail Traders Cut Back on Leveraged Bets as Stocks Slide\nZerodha founder Nithin Kamath has repeatedly voiced concerns about the use of margin loans by clients to buy stocks."
-    },
-    {
-      "title": "Gold Drops Below $4,000 as Deepening Stock Rout Fuels Volatility",
+      "title": "Gold Hovers Near $4,000 an Ounce After Steep Loss in Rocky Week",
       "link": "https://www.bloomberg.com/news/articles/2026-10-23/gold-holds-near-three-month-low-as-ai-jitters-fuel-volatility",
-      "raw_summary": "Gold fell below $4,000 an ounce, sliding to the lowest in more than three months, as investors sold the precious metal in a cross-market stock rout.",
+      "raw_summary": "Gold fluctuated near $4,000 an ounce after touching a three-month low, capping a volatile week that saw oil surge, stocks plunge and investors seek safety in US bonds.",
       "source": "Bloomberg Markets",
       "published": "Fri, 23 Oct 2026 00:15:37 GMT",
-      "summary": "Gold Drops Below $4,000 as Deepening Stock Rout Fuels Volatility\nGold fell below $4,000 an ounce, sliding to the lowest in more than three months, as investors sold the precious metal in a cross-market stock rout."
+      "summary": "Gold Hovers Near $4,000 an Ounce After Steep Loss in Rocky Week\nGold fluctuated near $4,000 an ounce after touching a three-month low, capping a volatile week that saw oil surge, stocks plunge and investors seek safety in US bonds."
     },
     {
-      "title": "HSBC, Standard Chartered Face Cost Test as Rates, Wealth Support Earnings",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-23/hsbc-standard-chartered-face-cost-test-as-rates-wealth-support-earnings",
-      "raw_summary": "HSBC Holdings Plc and Standard Chartered Plc are expected to sustain strong returns on higher rates and Asian wealth fees, though China’s tighter capital-flow rules and cost pressures cloud the outlook.",
+      "title": "Bitcoin Billionaires Are Racing to Ride a 3,000% Crypto Boom",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-23/bitcoin-billionaires-are-racing-to-ride-a-3-000-crypto-boom",
+      "raw_summary": "Some of the most prominent early investors in Bitcoin are squaring off again. This time they are seeking to capitalize on a massive rally in the year’s standout major cryptocurrency.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 23 Oct 2026 02:19:05 GMT",
-      "summary": "HSBC, Standard Chartered Face Cost Test as Rates, Wealth Support Earnings\nHSBC Holdings Plc and Standard Chartered Plc are expected to sustain strong returns on higher rates and Asian wealth fees, though China’s tighter capital-flow rules and cost pressures cloud the outlook."
+      "published": "Fri, 23 Oct 2026 10:15:00 GMT",
+      "summary": "Bitcoin Billionaires Are Racing to Ride a 3,000% Crypto Boom\nSome of the most prominent early investors in Bitcoin are squaring off again. This time they are seeking to capitalize on a massive rally in the year’s standout major cryptocurrency."
     },
     {
-      "title": "Senate's top Democratic investigator looking into Tether payments to Bo Hines' firm",
-      "link": "https://www.coindesk.com/policy/2026/10/22/senate-s-top-democratic-investigator-looking-into-tether-payments-to-bo-hines-firm",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 22 Oct 2026 22:43:36 +0000",
-      "summary": "Senate's top Democratic investigator looking into Tether payments to Bo Hines' firm\n"
+      "title": "De olho nas eleições",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-23/de-olho-nas-eleicoes-video",
+      "raw_summary": "Daniel Carvalho conta sobre os últimos atos dos candidatos antes do segundo turno e da cobertura da eleição pela Bloomberg. Produção de Gisele Fernandes e edição de Mariana Lumy.  (Source: Bloomberg)",
+      "source": "Bloomberg Markets",
+      "published": "Fri, 23 Oct 2026 10:08:56 GMT",
+      "summary": "De olho nas eleições\nDaniel Carvalho conta sobre os últimos atos dos candidatos antes do segundo turno e da cobertura da eleição pela Bloomberg. Produção de Gisele Fernandes e edição de Mariana Lumy.  (Source: Bloomberg)"
     },
     {
-      "title": "A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech",
-      "link": "https://www.coindesk.com/business/2026/10/22/a16z-is-the-latest-vc-giant-to-widen-bets-beyond-crypto-and-into-ai-and-emerging-tech",
+      "title": "HSBC rolls out its first stablecoin to over 3 million everyday app users",
+      "link": "https://www.coindesk.com/business/2026/10/23/hsbc-rolls-out-its-first-stablecoin-to-over-3-million-everyday-app-users",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 22 Oct 2026 18:30:57 +0000",
-      "summary": "A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech\n"
+      "published": "Fri, 23 Oct 2026 10:22:56 +0000",
+      "summary": "HSBC rolls out its first stablecoin to over 3 million everyday app users\n"
     },
     {
-      "title": "Irish central bank fines Coinbase Ireland $3.6 million over fund safeguarding failures",
-      "link": "https://www.coindesk.com/policy/2026/10/22/irish-central-bank-fines-coinbase-ireland-usd3-6-million-over-fund-safeguarding-failures",
+      "title": "Sweden’s central bank revives e-krona debate as stablecoins and digital euro loom",
+      "link": "https://www.coindesk.com/business/2026/10/23/sweden-s-central-bank-revives-e-krona-debate-as-stablecoins-and-digital-euro-loom",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 22 Oct 2026 15:40:25 +0000",
-      "summary": "Irish central bank fines Coinbase Ireland $3.6 million over fund safeguarding failures\n"
+      "published": "Fri, 23 Oct 2026 08:57:34 +0000",
+      "summary": "Sweden’s central bank revives e-krona debate as stablecoins and digital euro loom\n"
     },
     {
-      "title": "Crypto for Advisors: Stablecoins are ready for prime time",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/10/22/crypto-for-advisors-stablecoins-are-ready-for-prime-time",
+      "title": "India's largest exchange denies hack after sleuths pointed to $16 million in suspicious outflows",
+      "link": "https://www.coindesk.com/markets/2026/10/23/india-s-largest-exchange-denies-hack-after-blockchain-sleuths-pointed-to-usd16-million-in-suspicious-outflows",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 22 Oct 2026 14:58:31 +0000",
-      "summary": "Crypto for Advisors: Stablecoins are ready for prime time\n"
+      "published": "Fri, 23 Oct 2026 08:02:35 +0000",
+      "summary": "India's largest exchange denies hack after sleuths pointed to $16 million in suspicious outflows\n"
     },
     {
-      "title": "Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa",
-      "link": "https://www.coindesk.com/business/2026/10/22/crypto-custody-specialist-fireblocks-denies-its-in-talks-to-be-acquired-by-visa",
+      "title": "Polymarket has reportedly fired its marketing chief, also a close friend of the CEO",
+      "link": "https://www.coindesk.com/markets/2026/10/23/polymarket-has-reportedly-fired-its-marketing-chief-also-a-close-friend-of-the-ceo",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 22 Oct 2026 14:37:12 +0000",
-      "summary": "Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa\n"
+      "published": "Fri, 23 Oct 2026 05:01:19 +0000",
+      "summary": "Polymarket has reportedly fired its marketing chief, also a close friend of the CEO\n"
+    },
+    {
+      "title": "Ethereum delays Glamsterdam test after security devs flag risk to existing contracts",
+      "link": "https://www.coindesk.com/tech/2026/10/23/ethereum-delays-glamsterdam-test-after-security-devs-flag-risk-to-existing-contracts",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Fri, 23 Oct 2026 04:59:34 +0000",
+      "summary": "Ethereum delays Glamsterdam test after security devs flag risk to existing contracts\n"
     }
   ]
 }
