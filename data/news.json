@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T10:02:34.204215+00:00",
+  "generated_at": "2026-10-24T15:07:54.842718+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "FBI Arrests Executive at Ransomware Negotiation Firm\nAgents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on "
     },
     {
+      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+      "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+      "raw_summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli.\n\nTracked as&nbsp;CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially",
+      "source": "The Hacker News",
+      "published": "Sat, 24 Oct 2026 16:39:29 +0530",
+      "summary": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software\nA memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxie"
+    },
+    {
+      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+      "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+      "raw_summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package.\n\n\"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of",
+      "source": "The Hacker News",
+      "published": "Sat, 24 Oct 2026 16:33:33 +0530",
+      "summary": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline\nLiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Py"
+    },
+    {
+      "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+      "link": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+      "raw_summary": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services.\n\n\"You may choose to allow certain Google services, including services like Search or Gemini Apps, to access data from other Google services you use,",
+      "source": "The Hacker News",
+      "published": "Sat, 24 Oct 2026 16:06:33 +0530",
+      "summary": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads\nGoogle has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity o"
+    },
+    {
+      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+      "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+      "raw_summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine.\n\nThe updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a free app that streamed pirated films and TV over BitTorrent.\n\nPopcorn Time was",
+      "source": "The Hacker News",
+      "published": "Sat, 24 Oct 2026 14:34:24 +0530",
+      "summary": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet\nBetween November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could ha"
+    },
+    {
       "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
       "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
       "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild.\n\nThe critical-severity vulnerabilities are listed below -\n\n\n  CVE-2026-110447 (CVSS score: 9.2) - An operating",
@@ -51,76 +83,76 @@
       "summary": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploite"
     },
     {
-      "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
-      "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
-      "raw_summary": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX.\n\nThe activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a China-linked state-sponsored hacking group known as APT41, Kaspersky said in a technical report",
-      "source": "The Hacker News",
-      "published": "Sat, 24 Oct 2026 00:20:13 +0530",
-      "summary": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations\nDiplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX.\n\nThe activity, which singled out diplomatic entities in Tajik"
-    },
-    {
-      "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
-      "link": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
-      "raw_summary": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month.\n\nGitLab found that a specially crafted pattern could corrupt memory while Ruby compiles it, potentially leading to code execution on its own servers.\n\nRuby says any",
-      "source": "The Hacker News",
-      "published": "Fri, 23 Oct 2026 23:24:08 +0530",
-      "summary": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws\nRuby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the pas"
-    },
-    {
-      "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
-      "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-      "raw_summary": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups.\n\nCentral to the operation is an \"Autonomous Red Team Kill Chain Framework\" referred to as Phantom. The threat actor is assessed to be Russian-speaking and functions both as an intrusion and data-extortion operator, as well as an",
-      "source": "The Hacker News",
-      "published": "Fri, 23 Oct 2026 23:20:47 +0530",
-      "summary": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions\nCybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups.\n\nCentral to the operation is an \"Autono"
-    },
-    {
-      "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
-      "link": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
-      "raw_summary": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls.\n\n\"Artifacts from this investigation also indicate that operators in this campaign have obtained access to numerous organizations worldwide, and have attempted to further compromise some victims,",
-      "source": "The Hacker News",
-      "published": "Fri, 23 Oct 2026 19:20:56 +0530",
-      "summary": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials\nCybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls.\n\n\"Artifacts from this in"
-    },
-    {
-      "title": "I Don't Understand Quantum Physics",
-      "link": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.southampton.ac.uk/~doug/quantum_physics/index.html\">https://www.southampton.ac.uk/~doug/quantum_physics/index.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50219666\">https://news.ycombinator.com/item?id=50219666</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>",
+      "title": "Google illegally cut down 250K trees in Finland for data center",
+      "link": "https://nypost.com/2026/10/24/business/google-illegally-tore-down-250k-trees-for-finland-data-center-infuriating-locals-report/",
+      "raw_summary": "<p>Article URL: <a href=\"https://nypost.com/2026/10/24/business/google-illegally-tore-down-250k-trees-for-finland-data-center-infuriating-locals-report/\">https://nypost.com/2026/10/24/business/google-illegally-tore-down-250k-trees-for-finland-data-center-infuriating-locals-report/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50221676\">https://news.ycombinator.com/item?id=50221676</a></p>\n<p>Points: 31</p>\n<p># Comments: 6</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 24 Oct 2026 09:53:26 +0000",
-      "summary": "I Don't Understand Quantum Physics\n<p>Article URL: <a href=\"https://www.southampton.ac.uk/~doug/quantum_physics/index.html\">https://www.southampton.ac.uk/~doug/quantum_physics/index.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50219666\">https://news.ycombinator.com/ite"
+      "published": "Sat, 24 Oct 2026 14:38:34 +0000",
+      "summary": "Google illegally cut down 250K trees in Finland for data center\n<p>Article URL: <a href=\"https://nypost.com/2026/10/24/business/google-illegally-tore-down-250k-trees-for-finland-data-center-infuriating-locals-report/\">https://nypost.com/2026/10/24/business/google-illegally-tore-down-250k-trees-for-f"
     },
     {
-      "title": "ThinkRail from JetBrains",
-      "link": "https://thinkrail.ai/",
-      "raw_summary": "<p>Article URL: <a href=\"https://thinkrail.ai/\">https://thinkrail.ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50219186\">https://news.ycombinator.com/item?id=50219186</a></p>\n<p>Points: 17</p>\n<p># Comments: 1</p>",
+      "title": "Elon Musk Just Gave Europe a Reason to Replace American Technology",
+      "link": "https://steveblank.com/2026/10/24/europe-gets-a-wake-up-call/",
+      "raw_summary": "<p>Article URL: <a href=\"https://steveblank.com/2026/10/24/europe-gets-a-wake-up-call/\">https://steveblank.com/2026/10/24/europe-gets-a-wake-up-call/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50220913\">https://news.ycombinator.com/item?id=50220913</a></p>\n<p>Points: 265</p>\n<p># Comments: 267</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 24 Oct 2026 08:08:42 +0000",
-      "summary": "ThinkRail from JetBrains\n<p>Article URL: <a href=\"https://thinkrail.ai/\">https://thinkrail.ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50219186\">https://news.ycombinator.com/item?id=50219186</a></p>\n<p>Points: 17</p>\n<p># Comments: 1</p>"
+      "published": "Sat, 24 Oct 2026 13:09:28 +0000",
+      "summary": "Elon Musk Just Gave Europe a Reason to Replace American Technology\n<p>Article URL: <a href=\"https://steveblank.com/2026/10/24/europe-gets-a-wake-up-call/\">https://steveblank.com/2026/10/24/europe-gets-a-wake-up-call/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50220913\">ht"
     },
     {
-      "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
-      "link": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/\">https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50218633\">https://news.ycombinator.com/item?id=50218633</a></p>\n<p>Points: 132</p>\n<p># Comments: 23</p>",
+      "title": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist",
+      "link": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
+      "raw_summary": "<p>Article URL: <a href=\"https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/\">https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50220204\">https://news.ycombinator.com/item?id=50220204</a></p>\n<p>Points: 63</p>\n<p># Comments: 20</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 24 Oct 2026 05:49:57 +0000",
-      "summary": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended\n<p>Article URL: <a href=\"https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/\">https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_"
+      "published": "Sat, 24 Oct 2026 11:18:54 +0000",
+      "summary": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist\n<p>Article URL: <a href=\"https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/\">https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-d"
     },
     {
-      "title": "OBS Studio 33",
-      "link": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/obsproject/obs-studio/releases/tag/33.0.0\">https://github.com/obsproject/obs-studio/releases/tag/33.0.0</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50218430\">https://news.ycombinator.com/item?id=50218430</a></p>\n<p>Points: 153</p>\n<p># Comments: 41</p>",
+      "title": "Show HN: Autonomous root for Tcl Android TV via CVE-2022-22706",
+      "link": "https://gitlab.com/c4psu13/mali-pagecache-root",
+      "raw_summary": "<p>Article URL: <a href=\"https://gitlab.com/c4psu13/mali-pagecache-root\">https://gitlab.com/c4psu13/mali-pagecache-root</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50220042\">https://news.ycombinator.com/item?id=50220042</a></p>\n<p>Points: 17</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 24 Oct 2026 04:49:58 +0000",
-      "summary": "OBS Studio 33\n<p>Article URL: <a href=\"https://github.com/obsproject/obs-studio/releases/tag/33.0.0\">https://github.com/obsproject/obs-studio/releases/tag/33.0.0</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50218430\">https://news.ycombinator.com/item?id=50218430</a></p>\n<p>"
+      "published": "Sat, 24 Oct 2026 10:51:35 +0000",
+      "summary": "Show HN: Autonomous root for Tcl Android TV via CVE-2022-22706\n<p>Article URL: <a href=\"https://gitlab.com/c4psu13/mali-pagecache-root\">https://gitlab.com/c4psu13/mali-pagecache-root</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50220042\">https://news.ycombinator.com/item?id"
     },
     {
-      "title": "How close can pure functional programming get to C?",
-      "link": "https://rtfeldman.com/fp-vs-c",
-      "raw_summary": "<p>Article URL: <a href=\"https://rtfeldman.com/fp-vs-c\">https://rtfeldman.com/fp-vs-c</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50218195\">https://news.ycombinator.com/item?id=50218195</a></p>\n<p>Points: 120</p>\n<p># Comments: 12</p>",
+      "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+      "link": "https://github.com/Zagitta/gpu-unlock",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/Zagitta/gpu-unlock\">https://github.com/Zagitta/gpu-unlock</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50219700\">https://news.ycombinator.com/item?id=50219700</a></p>\n<p>Points: 20</p>\n<p># Comments: 12</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 24 Oct 2026 03:43:54 +0000",
-      "summary": "How close can pure functional programming get to C?\n<p>Article URL: <a href=\"https://rtfeldman.com/fp-vs-c\">https://rtfeldman.com/fp-vs-c</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50218195\">https://news.ycombinator.com/item?id=50218195</a></p>\n<p>Points: 120</p>\n<p># Com"
+      "published": "Sat, 24 Oct 2026 09:58:27 +0000",
+      "summary": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards\n<p>Article URL: <a href=\"https://github.com/Zagitta/gpu-unlock\">https://github.com/Zagitta/gpu-unlock</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50219700\">https://news.ycombinator.com/item?id=50219700</a></"
+    },
+    {
+      "title": "These clever apps show off the iPhone Duo’s potential",
+      "link": "https://techcrunch.com/2026/10/24/these-clever-apps-show-off-the-iphone-duos-potential/",
+      "raw_summary": "From retro cassette players and virtual notebooks to flight trackers and even a digital toaster, developers are finding creative ways to take advantage of Apple's first foldable iPhone.",
+      "source": "TechCrunch",
+      "published": "Sat, 24 Oct 2026 15:00:00 +0000",
+      "summary": "These clever apps show off the iPhone Duo’s potential\nFrom retro cassette players and virtual notebooks to flight trackers and even a digital toaster, developers are finding creative ways to take advantage of Apple's first foldable iPhone."
+    },
+    {
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "link": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "raw_summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
+      "source": "TechCrunch",
+      "published": "Sat, 24 Oct 2026 15:00:00 +0000",
+      "summary": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.\nA new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races."
+    },
+    {
+      "title": "The Boox Palma 2 Pro finally got me to stop reading on my phone",
+      "link": "https://techcrunch.com/2026/10/24/the-boox-palma-2-pro-finally-got-me-to-stop-reading-on-my-phone/",
+      "raw_summary": "The $400 Boox Palma 2 Pro is a smartphone-sized e-reader designed for people who want to read books, articles, and documents on a small E Ink display.",
+      "source": "TechCrunch",
+      "published": "Sat, 24 Oct 2026 14:15:00 +0000",
+      "summary": "The Boox Palma 2 Pro finally got me to stop reading on my phone\nThe $400 Boox Palma 2 Pro is a smartphone-sized e-reader designed for people who want to read books, articles, and documents on a small E Ink display."
+    },
+    {
+      "title": "Here are the top AI agents that can live in your text messages",
+      "link": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "raw_summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "source": "TechCrunch",
+      "published": "Sat, 24 Oct 2026 14:00:00 +0000",
+      "summary": "Here are the top AI agents that can live in your text messages\nWe created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work."
     },
     {
       "title": "Startups don’t need to go viral to win customers",
@@ -131,36 +163,20 @@
       "summary": "Startups don’t need to go viral to win customers\nAt TechCrunch Disrupt last week, two founders and a VC discussed how to not just gain an early following but keep one."
     },
     {
-      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
-      "link": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-      "raw_summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
-      "source": "TechCrunch",
-      "published": "Fri, 23 Oct 2026 23:05:49 +0000",
-      "summary": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”\nOpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work."
+      "title": "A 1,000-mile cloud on Mars may reveal physics never seen in nature",
+      "link": "https://arstechnica.com/science/2026/10/a-1000-mile-cloud-on-mars-may-reveal-physics-never-seen-in-nature/",
+      "raw_summary": "A new model suggests Mars may host ice-forming physics never directly observed before.",
+      "source": "Ars Technica - All content",
+      "published": "Sat, 24 Oct 2026 11:50:28 +0000",
+      "summary": "A 1,000-mile cloud on Mars may reveal physics never seen in nature\nA new model suggests Mars may host ice-forming physics never directly observed before."
     },
     {
-      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
-      "link": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
-      "raw_summary": "The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a \"nap,\" and summersaulted on voice command.",
-      "source": "TechCrunch",
-      "published": "Fri, 23 Oct 2026 21:59:19 +0000",
-      "summary": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell\nThe robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a \"nap,\" and summersaulted on voice command."
-    },
-    {
-      "title": "VCs, Superhuman Mail founder share red flags about product-market fit",
-      "link": "https://techcrunch.com/2026/10/23/vcs-superhuman-mail-founder-share-red-flags-about-product-market-fit/",
-      "raw_summary": "Top investors from Iconiq and Sapphire Ventures, along with Rahul Vohra, the founder of Superhuman Mail, share the do's and don'ts for building hit products.",
-      "source": "TechCrunch",
-      "published": "Fri, 23 Oct 2026 20:57:13 +0000",
-      "summary": "VCs, Superhuman Mail founder share red flags about product-market fit\nTop investors from Iconiq and Sapphire Ventures, along with Rahul Vohra, the founder of Superhuman Mail, share the do's and don'ts for building hit products."
-    },
-    {
-      "title": "TechCrunch Founder Summit 2026 roundtables: Go deeper on the challenges founders are solving right now",
-      "link": "https://techcrunch.com/2026/10/23/techcrunch-founder-summit-2026-roundtables-go-deeper-on-the-challenges-founders-are-solving-right-now/",
-      "raw_summary": "TechCrunch Founder Summit 2026 is coming to SoWa Power Station in Boston on November 4, bringing founders, investors, and operators together for a full day of candid conversations, practical sessions, live pitching, networking, and smaller roundtables built for deeper discussion.",
-      "source": "TechCrunch",
-      "published": "Fri, 23 Oct 2026 20:03:14 +0000",
-      "summary": "TechCrunch Founder Summit 2026 roundtables: Go deeper on the challenges founders are solving right now\nTechCrunch Founder Summit 2026 is coming to SoWa Power Station in Boston on November 4, bringing founders, investors, and operators together for a full day of candid conversations, practical sessio"
+      "title": "Ice sheet expansion may have started 2,000 years ago, but we canceled that",
+      "link": "https://arstechnica.com/science/2026/10/ice-sheet-expansion-may-have-started-2000-years-go-but-we-canceled-that/",
+      "raw_summary": "The tiny remains of the Laurentide Ice Sheet began getting somewhat less tiny.",
+      "source": "Ars Technica - All content",
+      "published": "Sat, 24 Oct 2026 11:00:09 +0000",
+      "summary": "Ice sheet expansion may have started 2,000 years ago, but we canceled that\nThe tiny remains of the Laurentide Ice Sheet began getting somewhat less tiny."
     },
     {
       "title": "NASA updates lander plans for Moon landings, finally solves long-festering Orion issue",
@@ -187,28 +203,36 @@
       "summary": "Updated Google privacy policy says your Gmail might be used for advertising\nTurning on Personal Intelligence gives the company more data for ad targeting."
     },
     {
-      "title": "Inside the Pentagon, the pressure is on to find a home for a new spaceport",
-      "link": "https://arstechnica.com/space/2026/10/senior-commander-says-space-force-needs-new-spaceport-by-2030/",
-      "raw_summary": "Space Force considering options: public-private, federal installation, state land.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 23 Oct 2026 19:33:58 +0000",
-      "summary": "Inside the Pentagon, the pressure is on to find a home for a new spaceport\nSpace Force considering options: public-private, federal installation, state land."
-    },
-    {
-      "title": "Spotify ramps up policy enforcement on family plans",
-      "link": "https://arstechnica.com/gadgets/2026/10/spotify-ramps-up-policy-enforcement-on-family-plans/",
-      "raw_summary": "If you share Spotify sub with family, you may need to scan QR code to prove it.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 23 Oct 2026 19:20:27 +0000",
-      "summary": "Spotify ramps up policy enforcement on family plans\nIf you share Spotify sub with family, you may need to scan QR code to prove it."
-    },
-    {
-      "title": "France prepares for more protests with big police deployment",
+      "title": "France deploys 70,000 officers to police latest protests",
       "link": "https://www.ft.com/content/643b2bc6-2963-4759-82ae-03db082c71f7?syn-25a6b1a6=1",
-      "raw_summary": "Government puts 20% more officers on the streets for Saturday to boost security following last weekend’s riots",
+      "raw_summary": "Government puts 20% more officers on the streets to boost security following last weekend’s riots",
       "source": "World",
-      "published": "Sat, 24 Oct 2026 09:21:27 GMT",
-      "summary": "France prepares for more protests with big police deployment\nGovernment puts 20% more officers on the streets for Saturday to boost security following last weekend’s riots"
+      "published": "Sat, 24 Oct 2026 13:52:48 GMT",
+      "summary": "France deploys 70,000 officers to police latest protests\nGovernment puts 20% more officers on the streets to boost security following last weekend’s riots"
+    },
+    {
+      "title": "Mayfair club Maison Estelle set to reopen after alleged firearm incident",
+      "link": "https://www.ft.com/content/d8758ccc-e6d7-40fb-bba9-50b01cc62623?syn-25a6b1a6=1",
+      "raw_summary": "Luxury venue closed in September after police asked Westminster council to review its licence",
+      "source": "World",
+      "published": "Sat, 24 Oct 2026 13:27:08 GMT",
+      "summary": "Mayfair club Maison Estelle set to reopen after alleged firearm incident\nLuxury venue closed in September after police asked Westminster council to review its licence"
+    },
+    {
+      "title": "Ukraine military says Starlink service restrictions have been lifted",
+      "link": "https://www.ft.com/content/5b5592f4-c59d-4eb1-af78-078dc32fcab8",
+      "raw_summary": "Slowdown in drone communication system hampered Kyiv’s ability to defend itself against Russian strikes",
+      "source": "World",
+      "published": "Sat, 24 Oct 2026 13:16:04 GMT",
+      "summary": "Ukraine military says Starlink service restrictions have been lifted\nSlowdown in drone communication system hampered Kyiv’s ability to defend itself against Russian strikes"
+    },
+    {
+      "title": "Davos in the Desert’s ‘old fox’ Richard Attias faces his latest test",
+      "link": "https://www.ft.com/content/47073bc4-f176-4fbe-b277-30e93007fbb1?syn-25a6b1a6=1",
+      "raw_summary": "Power broker behind kingdom’s flagship investment conference has weathered scandal and setbacks. Now he must contend with war and spending cuts",
+      "source": "World",
+      "published": "Sat, 24 Oct 2026 11:00:04 GMT",
+      "summary": "Davos in the Desert’s ‘old fox’ Richard Attias faces his latest test\nPower broker behind kingdom’s flagship investment conference has weathered scandal and setbacks. Now he must contend with war and spending cuts"
     },
     {
       "title": "Netanyahu threatens ‘aggressive’ offensive after West Bank shooting",
@@ -219,108 +243,84 @@
       "summary": "Netanyahu threatens ‘aggressive’ offensive after West Bank shooting\nTwo soldiers killed and three injured by Palestinian gunmen in attack that has stoked tensions before Israeli elections next week"
     },
     {
-      "title": "UK mortgage market ‘failing to adapt to new patterns of work’",
-      "link": "https://www.ft.com/content/6a940d99-579a-481c-953e-a61cc23486e5?syn-25a6b1a6=1",
-      "raw_summary": "Lenders’ affordability criteria lead many self-employed borrowers to give up seeking a home loan",
-      "source": "World",
-      "published": "Sat, 24 Oct 2026 04:00:42 GMT",
-      "summary": "UK mortgage market ‘failing to adapt to new patterns of work’\nLenders’ affordability criteria lead many self-employed borrowers to give up seeking a home loan"
-    },
-    {
-      "title": "Gadi Eisenkot, the Israeli ex-military chief challenging Netanyahu",
-      "link": "https://www.ft.com/content/5e9fc2a9-975b-46eb-ab5a-11615ca40459?syn-25a6b1a6=1",
-      "raw_summary": "The grizzled 66-year-old who heads the centrist Yashar party is in a knife-edge race to oust the premier",
-      "source": "World",
-      "published": "Sat, 24 Oct 2026 04:00:33 GMT",
-      "summary": "Gadi Eisenkot, the Israeli ex-military chief challenging Netanyahu\nThe grizzled 66-year-old who heads the centrist Yashar party is in a knife-edge race to oust the premier"
-    },
-    {
-      "title": "Country music and cowboy hats: Brazil’s rightward shift",
-      "link": "https://www.ft.com/content/40a3e26b-a4ca-40f3-ae06-2d1ec7346134?syn-25a6b1a6=1",
-      "raw_summary": "A conservative identity with heavy American influence has developed in Brazilian politics over the past decade",
-      "source": "World",
-      "published": "Sat, 24 Oct 2026 04:00:33 GMT",
-      "summary": "Country music and cowboy hats: Brazil’s rightward shift\nA conservative identity with heavy American influence has developed in Brazilian politics over the past decade"
-    },
-    {
-      "title": "Mauritius Carrier Looks at Narrow-Body Jets in Fleet Overhaul",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-24/mauritius-carrier-looks-at-narrow-body-jets-in-fleet-overhaul",
-      "raw_summary": "Mauritius’ state-owned carrier is planning to add single-aisle aircraft and review the planned acquisition of wide-body planes as part of a long-term strategy review.",
+      "title": "Metals Traders Reap Bonanza With Another Year of Record Profits",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-24/metals-traders-reap-bonanza-with-another-year-of-record-profits",
+      "raw_summary": "Metals traders are earning billions of dollars in a second consecutive blowout year for the sector, with several top trading houses notching up record profits.",
       "source": "Bloomberg Markets",
-      "published": "Sat, 24 Oct 2026 08:59:12 GMT",
-      "summary": "Mauritius Carrier Looks at Narrow-Body Jets in Fleet Overhaul\nMauritius’ state-owned carrier is planning to add single-aisle aircraft and review the planned acquisition of wide-body planes as part of a long-term strategy review."
+      "published": "Sat, 24 Oct 2026 14:45:05 GMT",
+      "summary": "Metals Traders Reap Bonanza With Another Year of Record Profits\nMetals traders are earning billions of dollars in a second consecutive blowout year for the sector, with several top trading houses notching up record profits."
     },
     {
-      "title": "Odd Lots: How to Run a Restaurant For Three Decades (Podcast)",
-      "link": "https://www.bloomberg.com/news/audio/2026-10-24/odd-lots-how-to-run-a-restaurant-for-three-decades-podcast",
-      "raw_summary": "Richard Mott's first foray into hospitality was in the 1980s at the University of Chicago, where he started running a coffee shop in the basement of the business school when he was a grad student. By the time he graduated, he helped grow that single coffee shop into four locations across campus. He's a longtime Chicago-based restaurateur and his farm-to-table restaurant North Pond has been around since the late 1990s. Lately, he's expanded his business to include Spark Shared Kitchen, a catering",
+      "title": "The Real Medical Detective Who Inspired Sherlock Holmes",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-24/the-real-medical-detective-who-inspired-sherlock-holmes-video",
+      "raw_summary": "Medical historian Lindsey Fitzharris tells Bloomberg This Weekend how Scottish surgeon Joseph Bell’s remarkable powers of observation inspired his student Arthur Conan Doyle to create Sherlock Holmes. Speaking with hosts Christina Ruffini and Lisa Mateo, Fitzharris discusses her new book, Sleuth-Hound: The Case of the Real Sherlock Holmes, and Bell’s largely forgotten work applying his diagnostic skills to real criminal investigations. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Sat, 24 Oct 2026 08:00:00 GMT",
-      "summary": "Odd Lots: How to Run a Restaurant For Three Decades (Podcast)\nRichard Mott's first foray into hospitality was in the 1980s at the University of Chicago, where he started running a coffee shop in the basement of the business school when he was a grad student. By the time he graduated, he helped grow "
+      "published": "Sat, 24 Oct 2026 14:36:22 GMT",
+      "summary": "The Real Medical Detective Who Inspired Sherlock Holmes\nMedical historian Lindsey Fitzharris tells Bloomberg This Weekend how Scottish surgeon Joseph Bell’s remarkable powers of observation inspired his student Arthur Conan Doyle to create Sherlock Holmes. Speaking with hosts Christina Ruffini and L"
     },
     {
-      "title": "Indonesia Begins Trimming Pipeline Gas Exports to Singapore",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-24/indonesia-begins-trimming-pipeline-gas-exports-to-singapore",
-      "raw_summary": "Indonesia is reducing natural gas exports to neighboring Singapore as President Prabowo Subianto seeks to shore up domestic supply and strengthen energy security for Southeast Asia’s largest economy.",
+      "title": "Venezuela to Restart a Crucial Power Plant With China’s Help",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-24/venezuela-to-restart-a-crucial-power-plant-with-china-s-help",
+      "raw_summary": "A Chinese engineering company is on the cusp of partially restarting a massive Venezuelan power plant that’s been largely idle for years, a crucial step toward fixing the nation’s dilapidated grid.",
       "source": "Bloomberg Markets",
-      "published": "Sat, 24 Oct 2026 07:48:56 GMT",
-      "summary": "Indonesia Begins Trimming Pipeline Gas Exports to Singapore\nIndonesia is reducing natural gas exports to neighboring Singapore as President Prabowo Subianto seeks to shore up domestic supply and strengthen energy security for Southeast Asia’s largest economy."
+      "published": "Sat, 24 Oct 2026 14:30:00 GMT",
+      "summary": "Venezuela to Restart a Crucial Power Plant With China’s Help\nA Chinese engineering company is on the cusp of partially restarting a massive Venezuelan power plant that’s been largely idle for years, a crucial step toward fixing the nation’s dilapidated grid."
     },
     {
-      "title": "Swiss Stocks Are Becoming a Haven From AI Fears Roiling Markets",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-24/swiss-stocks-are-becoming-a-haven-from-ai-fears-roiling-markets",
-      "raw_summary": "Shares of Switzerland’s ultra-defensive big companies are a bright spot in a tumultuous period for European equity markets.",
+      "title": "Dalmore Said to Express Interest in Cinven-Owned UK Supplier JLA",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-24/dalmore-said-to-express-interest-in-cinven-owned-uk-supplier-jla",
+      "raw_summary": "Dalmore Capital is among parties that have expressed interest in acquiring UK commercial equipment supplier and services provider JLA Group from buyout firm Cinven, according to people with knowledge of the matter.",
       "source": "Bloomberg Markets",
-      "published": "Sat, 24 Oct 2026 07:00:00 GMT",
-      "summary": "Swiss Stocks Are Becoming a Haven From AI Fears Roiling Markets\nShares of Switzerland’s ultra-defensive big companies are a bright spot in a tumultuous period for European equity markets."
+      "published": "Sat, 24 Oct 2026 14:08:54 GMT",
+      "summary": "Dalmore Said to Express Interest in Cinven-Owned UK Supplier JLA\nDalmore Capital is among parties that have expressed interest in acquiring UK commercial equipment supplier and services provider JLA Group from buyout firm Cinven, according to people with knowledge of the matter."
     },
     {
-      "title": "US LNG Project Developer Funded by Russia’s Novatek, FT Says",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-24/us-lng-project-developer-funded-by-russia-s-novatek-ft-says",
-      "raw_summary": "A developer of a liquefied natural gas facility in Alaska received financing from Russia-based Novatek PJSC, an energy giant that is subject to US sanctions, the Financial Times reported.",
+      "title": "How This County Made the Data Center Boom Pay Off",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-24/how-this-county-made-the-data-center-boom-pay-off-video",
+      "raw_summary": "AI is driving a wave of new data centers, but communities are increasingly asking what they get in return. Virginia’s Loudoun County turned the industry into a major tax base that helped fund schools, parks and infrastructure, yet even there, officials are now putting limits on further growth. The bigger lesson may be that towns have more bargaining power than they think. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Sat, 24 Oct 2026 04:24:04 GMT",
-      "summary": "US LNG Project Developer Funded by Russia’s Novatek, FT Says\nA developer of a liquefied natural gas facility in Alaska received financing from Russia-based Novatek PJSC, an energy giant that is subject to US sanctions, the Financial Times reported."
+      "published": "Sat, 24 Oct 2026 14:03:23 GMT",
+      "summary": "How This County Made the Data Center Boom Pay Off\nAI is driving a wave of new data centers, but communities are increasingly asking what they get in return. Virginia’s Loudoun County turned the industry into a major tax base that helped fund schools, parks and infrastructure, yet even there, officia"
     },
     {
-      "title": "Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet",
-      "link": "https://www.coindesk.com/markets/2026/10/24/franklin-templeton-adds-usd150-million-in-fund-shares-to-xrp-ledger-all-in-one-wallet",
+      "title": "Why McDonalds, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker",
+      "link": "https://www.coindesk.com/business/2026/10/23/why-mcdonalds-microsoft-and-google-saying-no-to-tokenized-stocks-isn-t-a-dealbreaker",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sat, 24 Oct 2026 04:45:43 +0000",
-      "summary": "Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet\n"
+      "published": "Sat, 24 Oct 2026 15:00:00 +0000",
+      "summary": "Why McDonalds, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker\n"
     },
     {
-      "title": "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports",
-      "link": "https://www.coindesk.com/markets/2026/10/23/robinhood-sees-surge-in-bitcoin-gold-prediction-markets-as-traders-move-beyond-sports",
+      "title": "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA",
+      "link": "https://www.coindesk.com/business/2026/10/24/argentina-drops-criminal-probe-into-president-milei-over-crashed-memecoin-libra",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 23 Oct 2026 13:58:56 +0000",
-      "summary": "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports\n"
+      "published": "Sat, 24 Oct 2026 14:38:47 +0000",
+      "summary": "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA\n"
     },
     {
-      "title": "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy",
-      "link": "https://www.coindesk.com/tech/2026/10/23/bitcoin-will-now-stop-hiding-bugs-an-ai-can-find-in-one-prompt",
+      "title": "Wells Fargo, Cisco, Marvell among latest firms objecting to OKXICE's tokenized stock plan",
+      "link": "https://www.coindesk.com/business/2026/10/24/wells-fargo-cisco-marvell-among-latest-firms-objecting-to-okxice-s-tokenized-stock-plan",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 23 Oct 2026 12:03:53 +0000",
-      "summary": "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy\n"
+      "published": "Sat, 24 Oct 2026 14:06:24 +0000",
+      "summary": "Wells Fargo, Cisco, Marvell among latest firms objecting to OKXICE's tokenized stock plan\n"
     },
     {
-      "title": "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro",
-      "link": "https://www.coindesk.com/daybook-us/2026/10/23/bitcoin-s-volatility-is-well-above-euro-dollar-gyrations-though-it-has-calmed-to-rival-nvidia-s",
+      "title": "Bitcoin’s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO",
+      "link": "https://www.coindesk.com/",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 23 Oct 2026 11:22:33 +0000",
-      "summary": "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro\n"
+      "published": "Sat, 24 Oct 2026 14:00:00 +0000",
+      "summary": "Bitcoin’s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO\n"
     },
     {
-      "title": "Live updates: Bitcoin holds above $81,000 as oil prices hit six-month high",
-      "link": "https://www.coindesk.com/markets/2026/10/23/live-updates-bitcoin-holds-above-usd81-000-as-the-ai-rout-fades-and-oil-climbs",
+      "title": "U.S. Clarity Act failure gives Asia and Middle East a competitive edge, says Apex Group CEO",
+      "link": "https://www.coindesk.com/policy/2026/10/24/u-s-clarity-act-failure-gives-asia-and-middle-east-a-competitive-edge-says-apex-group-ceo",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 23 Oct 2026 11:13:01 +0000",
-      "summary": "Live updates: Bitcoin holds above $81,000 as oil prices hit six-month high\n"
+      "published": "Sat, 24 Oct 2026 12:00:00 +0000",
+      "summary": "U.S. Clarity Act failure gives Asia and Middle East a competitive edge, says Apex Group CEO\n"
     }
   ]
 }
