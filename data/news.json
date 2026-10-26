@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T11:58:29.721423+00:00",
+  "generated_at": "2026-10-26T18:21:21.122263+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "FBI Arrests Executive at Ransomware Negotiation Firm\nAgents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on "
     },
     {
+      "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+      "link": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+      "raw_summary": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and potentially run code.\n\nPHP says the flaw can be reached through the cURL extension when the extension decompresses HTTP responses automatically. cURL leaves that off by default, but",
+      "source": "The Hacker News",
+      "published": "Mon, 26 Oct 2026 23:15:57 +0530",
+      "summary": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw\nPHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and p"
+    },
+    {
+      "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
+      "link": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+      "raw_summary": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct impersonation scams or to deliver malware.\n\n\"A consistent pattern of attacker behavior has emerged across these incidents: the use of the same throwaway tenants, the same 'IT",
+      "source": "The Hacker News",
+      "published": "Mon, 26 Oct 2026 21:22:40 +0530",
+      "summary": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware\nCybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct "
+    },
+    {
+      "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
+      "link": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+      "raw_summary": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already being used in attacks, and security teams have more urgent patches than they can keep up with.\n\nAnd that's not even the full story. A leaked key led to a software supply-chain",
+      "source": "The Hacker News",
+      "published": "Mon, 26 Oct 2026 19:36:13 +0530",
+      "summary": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More\nThis2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some"
+    },
+    {
+      "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
+      "link": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
+      "raw_summary": "Two critical flaws in&nbsp;Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say.\n\nAn attacker would first need a vulnerable Wasmtime build to compile a module they control, and one of the flaws affects only ARM64 systems. Fixed versions were released on",
+      "source": "The Hacker News",
+      "published": "Mon, 26 Oct 2026 17:22:41 +0530",
+      "summary": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes\nTwo critical flaws in&nbsp;Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers sa"
+    },
+    {
       "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
       "link": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
       "raw_summary": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform, connects individual alerts into one timeline, and it feeds the defensive systems that can tie all events together into one coordinated view.\n\nSOC teams often first see the shape of an intrusion",
@@ -51,116 +83,108 @@
       "summary": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses\nEvery SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform, connects individual alerts i"
     },
     {
-      "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
-      "link": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
-      "raw_summary": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these tampered copies, spread outside the official app stores, or who run WeChat inside the kit makers' own container app.\n\nThe kit's Telegram part matches Baohuo, a backdoor that Doctor",
-      "source": "The Hacker News",
-      "published": "Mon, 26 Oct 2026 15:24:02 +0530",
-      "summary": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts\nA rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these t"
-    },
-    {
-      "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
-      "link": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
-      "raw_summary": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations.\n\nHuntress, which observed the activity between July 14 and September 22, 2026, said it detected 497 successful Microsoft 365 sign-in events across",
-      "source": "The Hacker News",
-      "published": "Mon, 26 Oct 2026 14:05:51 +0530",
-      "summary": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations\nCybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email "
-    },
-    {
-      "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
-      "link": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
-      "raw_summary": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have succeeded in private repositories and GitHub Enterprise environments, according to&nbsp;an analysis&nbsp;by cloud security company Wiz.\n\nA&nbsp;GitHub safeguard&nbsp;that pauses",
-      "source": "The Hacker News",
-      "published": "Mon, 26 Oct 2026 13:19:46 +0530",
-      "summary": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs\nAn automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have su"
-    },
-    {
-      "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
-      "link": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
-      "raw_summary": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm&nbsp;Forever Security said&nbsp;in a report published last week.\n\nThe company caught the attempt on a real customer's machine and stopped the agent before any code ran. It could not determine how the file got into the folder.\n\nThe file",
-      "source": "The Hacker News",
-      "published": "Mon, 26 Oct 2026 11:33:48 +0530",
-      "summary": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware\nA malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm&nbsp;Forever Security said&nbsp;in a report publis"
-    },
-    {
-      "title": "Switzerland. Block by block. At 1:1 scale",
-      "link": "https://blocks.manifold3d.ch/",
-      "raw_summary": "<p>Article URL: <a href=\"https://blocks.manifold3d.ch/\">https://blocks.manifold3d.ch/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50240922\">https://news.ycombinator.com/item?id=50240922</a></p>\n<p>Points: 192</p>\n<p># Comments: 73</p>",
+      "title": "GPT-6.1 Terra",
+      "link": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "raw_summary": "<p>Article URL: <a href=\"https://openai.com/index/introducing-gpt-6-1-terra/\">https://openai.com/index/introducing-gpt-6-1-terra/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50248124\">https://news.ycombinator.com/item?id=50248124</a></p>\n<p>Points: 17</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 26 Oct 2026 08:46:09 +0000",
-      "summary": "Switzerland. Block by block. At 1:1 scale\n<p>Article URL: <a href=\"https://blocks.manifold3d.ch/\">https://blocks.manifold3d.ch/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50240922\">https://news.ycombinator.com/item?id=50240922</a></p>\n<p>Points: 192</p>\n<p># Comments: 73<"
+      "published": "Mon, 26 Oct 2026 18:01:17 +0000",
+      "summary": "GPT-6.1 Terra\n<p>Article URL: <a href=\"https://openai.com/index/introducing-gpt-6-1-terra/\">https://openai.com/index/introducing-gpt-6-1-terra/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50248124\">https://news.ycombinator.com/item?id=50248124</a></p>\n<p>Points: 17</p>\n<p>"
     },
     {
-      "title": "Behind the scenes at the NeXT Computer office",
-      "link": "https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&sort=pub_year_isi+asc%2C+title_sort+asc&view=masonry",
-      "raw_summary": "<p>Article URL: <a href=\"https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&amp;sort=pub_year_isi+asc%2C+title_sort+asc&amp;view=masonry\">https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&amp;sort=pub_year_isi+asc%2C+title_sort+asc&amp;view=masonry</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50238763\">https://news.ycombinator.com/item?id=50238763</a></p>\n<p>Points: 147</p>\n<p># Comments: 73</p>",
+      "title": "Meta Employees Denounce Interference in Brazilian Elections",
+      "link": "https://www.panamericandispatch.org/p/meta-employees-denounce-interference",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.panamericandispatch.org/p/meta-employees-denounce-interference\">https://www.panamericandispatch.org/p/meta-employees-denounce-interference</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50248061\">https://news.ycombinator.com/item?id=50248061</a></p>\n<p>Points: 32</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 26 Oct 2026 03:31:11 +0000",
-      "summary": "Behind the scenes at the NeXT Computer office\n<p>Article URL: <a href=\"https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&amp;sort=pub_year_isi+asc%2C+title_sort+asc&amp;view=masonry\">https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&amp;sort=pub_year_i"
+      "published": "Mon, 26 Oct 2026 17:57:29 +0000",
+      "summary": "Meta Employees Denounce Interference in Brazilian Elections\n<p>Article URL: <a href=\"https://www.panamericandispatch.org/p/meta-employees-denounce-interference\">https://www.panamericandispatch.org/p/meta-employees-denounce-interference</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/i"
     },
     {
-      "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
-      "link": "https://github.com/KrushnaVardhanReddy/PaperPilot",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/KrushnaVardhanReddy/PaperPilot\">https://github.com/KrushnaVardhanReddy/PaperPilot</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50238739\">https://news.ycombinator.com/item?id=50238739</a></p>\n<p>Points: 159</p>\n<p># Comments: 51</p>",
+      "title": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems",
+      "link": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/\">https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50247630\">https://news.ycombinator.com/item?id=50247630</a></p>\n<p>Points: 46</p>\n<p># Comments: 6</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 26 Oct 2026 03:29:05 +0000",
-      "summary": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP\n<p>Article URL: <a href=\"https://github.com/KrushnaVardhanReddy/PaperPilot\">https://github.com/KrushnaVardhanReddy/PaperPilot</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50238739\">https://news.ycombinator.com/"
+      "published": "Mon, 26 Oct 2026 17:32:16 +0000",
+      "summary": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems\n<p>Article URL: <a href=\"https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/\">https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-pro"
     },
     {
-      "title": "Show HN: TitleArt – Make text like it's 1997",
-      "link": "https://titleart.dvy.io/",
-      "raw_summary": "<p>Article URL: <a href=\"https://titleart.dvy.io/\">https://titleart.dvy.io/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50238708\">https://news.ycombinator.com/item?id=50238708</a></p>\n<p>Points: 269</p>\n<p># Comments: 44</p>",
+      "title": "Nietzschian Debugger",
+      "link": "https://github.com/DilawarShafiq/nietzschian-debugger",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/DilawarShafiq/nietzschian-debugger\">https://github.com/DilawarShafiq/nietzschian-debugger</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50247493\">https://news.ycombinator.com/item?id=50247493</a></p>\n<p>Points: 13</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 26 Oct 2026 03:23:57 +0000",
-      "summary": "Show HN: TitleArt – Make text like it's 1997\n<p>Article URL: <a href=\"https://titleart.dvy.io/\">https://titleart.dvy.io/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50238708\">https://news.ycombinator.com/item?id=50238708</a></p>\n<p>Points: 269</p>\n<p># Comments: 44</p>"
+      "published": "Mon, 26 Oct 2026 17:25:30 +0000",
+      "summary": "Nietzschian Debugger\n<p>Article URL: <a href=\"https://github.com/DilawarShafiq/nietzschian-debugger\">https://github.com/DilawarShafiq/nietzschian-debugger</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50247493\">https://news.ycombinator.com/item?id=50247493</a></p>\n<p>Points:"
     },
     {
-      "title": "IBM CEO says open weight models are now good and cheap on-prem",
-      "link": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640\">https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50238088\">https://news.ycombinator.com/item?id=50238088</a></p>\n<p>Points: 287</p>\n<p># Comments: 189</p>",
+      "title": "The Git Forge for Agent-Human Collaboration",
+      "link": "https://entire.com/blog/the-git-forge-for-agent-human-collaboration",
+      "raw_summary": "<p>Article URL: <a href=\"https://entire.com/blog/the-git-forge-for-agent-human-collaboration\">https://entire.com/blog/the-git-forge-for-agent-human-collaboration</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50247453\">https://news.ycombinator.com/item?id=50247453</a></p>\n<p>Points: 34</p>\n<p># Comments: 13</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 26 Oct 2026 01:47:46 +0000",
-      "summary": "IBM CEO says open weight models are now good and cheap on-prem\n<p>Article URL: <a href=\"https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640\">https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-a"
+      "published": "Mon, 26 Oct 2026 17:23:11 +0000",
+      "summary": "The Git Forge for Agent-Human Collaboration\n<p>Article URL: <a href=\"https://entire.com/blog/the-git-forge-for-agent-human-collaboration\">https://entire.com/blog/the-git-forge-for-agent-human-collaboration</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50247453\">https://news."
     },
     {
-      "title": "The best apps for tracking your reading and discovering new books",
-      "link": "https://techcrunch.com/2026/10/25/5-best-apps-track-reading-discover-new-books/",
-      "raw_summary": "There are numerous apps on the market that promise to do just that, so we’ve compiled a list of some of the best ones to help you pick the right one for you.",
+      "title": "This startup’s self-driving excavators help dig up $600M in new funding",
+      "link": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/",
+      "raw_summary": "Bedrock Robotics, which is now valued at $4.1 billion, is particularly focused on autonomous excavators, in part because of a growing shortage of skilled operators.",
       "source": "TechCrunch",
-      "published": "Mon, 26 Oct 2026 01:10:00 +0000",
-      "summary": "The best apps for tracking your reading and discovering new books\nThere are numerous apps on the market that promise to do just that, so we’ve compiled a list of some of the best ones to help you pick the right one for you."
+      "published": "Mon, 26 Oct 2026 17:45:00 +0000",
+      "summary": "This startup’s self-driving excavators help dig up $600M in new funding\nBedrock Robotics, which is now valued at $4.1 billion, is particularly focused on autonomous excavators, in part because of a growing shortage of skilled operators."
     },
     {
-      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-      "link": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
-      "raw_summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+      "link": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+      "raw_summary": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier.",
       "source": "TechCrunch",
-      "published": "Sun, 25 Oct 2026 21:31:16 +0000",
-      "summary": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’\nThe footage looks okay, as long as you're not seeking artistry, inspiration, or human interest."
+      "published": "Mon, 26 Oct 2026 16:49:42 +0000",
+      "summary": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked\nAnthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier."
     },
     {
-      "title": "‘Cyberselfish’ author takes aim at techno-libertarianism as her book returns from the dead",
-      "link": "https://techcrunch.com/2026/10/25/cyberselfish-author-takes-aim-at-techno-libertarianism-as-her-book-returns-from-the-dead/",
-      "raw_summary": "\"That's a 12-year-old view of the world.\"",
+      "title": "SpaceX locks in $40B GPU financing deal with Apollo",
+      "link": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+      "raw_summary": "SpaceX has locked in a binding commitment for roughly $40 billion in financing to pay for AI chips and related data center equipment, the company disclosed in a regulatory filing Monday. In a statement, SpaceX called it the “largest committed GPU financing” ever.",
       "source": "TechCrunch",
-      "published": "Sun, 25 Oct 2026 20:20:08 +0000",
-      "summary": "‘Cyberselfish’ author takes aim at techno-libertarianism as her book returns from the dead\n\"That's a 12-year-old view of the world.\""
+      "published": "Mon, 26 Oct 2026 16:46:36 +0000",
+      "summary": "SpaceX locks in $40B GPU financing deal with Apollo\nSpaceX has locked in a binding commitment for roughly $40 billion in financing to pay for AI chips and related data center equipment, the company disclosed in a regulatory filing Monday. In a statement, SpaceX called it the “largest committed GPU f"
     },
     {
-      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
-      "link": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-      "raw_summary": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+      "title": "Microsoft offers buyouts to around 60,000 employees, reports say",
+      "link": "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/",
+      "raw_summary": "The buyout offers mark Microsoft's latest efforts to cut costs and rework its workforce.",
       "source": "TechCrunch",
-      "published": "Sun, 25 Oct 2026 16:57:32 +0000",
-      "summary": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says\n\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\""
+      "published": "Mon, 26 Oct 2026 15:58:25 +0000",
+      "summary": "Microsoft offers buyouts to around 60,000 employees, reports say\nThe buyout offers mark Microsoft's latest efforts to cut costs and rework its workforce."
     },
     {
-      "title": "TechCrunch Mobility: Blue-green is the color of autonomy",
-      "link": "https://techcrunch.com/2026/10/25/techcrunch-mobility-blue-green-is-the-color-of-autonomy/",
-      "raw_summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+      "title": "Anthropic officially files for its public debut",
+      "link": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+      "raw_summary": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
       "source": "TechCrunch",
-      "published": "Sun, 25 Oct 2026 16:05:00 +0000",
-      "summary": "TechCrunch Mobility: Blue-green is the color of autonomy\nWelcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it."
+      "published": "Mon, 26 Oct 2026 14:35:22 +0000",
+      "summary": "Anthropic officially files for its public debut\nAnthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission."
+    },
+    {
+      "title": "F1 in Texas: The American race that fans love to attend",
+      "link": "https://arstechnica.com/cars/2026/10/f1-in-texas-one-more-race-and-well-have-a-new-champion/",
+      "raw_summary": "Ars spends the weekend with the Audi Revolut F1 team at the Circuit of the Americas.",
+      "source": "Ars Technica - All content",
+      "published": "Mon, 26 Oct 2026 14:48:24 +0000",
+      "summary": "F1 in Texas: The American race that fans love to attend\nArs spends the weekend with the Audi Revolut F1 team at the Circuit of the Americas."
+    },
+    {
+      "title": "Tesla gave up the EV crown. Now it wants to win the autonomy race",
+      "link": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/",
+      "raw_summary": "Tesla hopes autonomy subscriptions can deliver the margins car sales cannot.",
+      "source": "Ars Technica - All content",
+      "published": "Mon, 26 Oct 2026 14:30:27 +0000",
+      "summary": "Tesla gave up the EV crown. Now it wants to win the autonomy race\nTesla hopes autonomy subscriptions can deliver the margins car sales cannot."
+    },
+    {
+      "title": "From impulse purchase to pocket studio: The M-Vave FM-1",
+      "link": "https://arstechnica.com/gadgets/2026/10/from-impulse-purchase-to-pocket-studio-the-m-vave-fm-1/",
+      "raw_summary": "M-Vave's cheap FM-1 pocket synth has exploded as a community firmware playground.",
+      "source": "Ars Technica - All content",
+      "published": "Mon, 26 Oct 2026 11:00:15 +0000",
+      "summary": "From impulse purchase to pocket studio: The M-Vave FM-1\nM-Vave's cheap FM-1 pocket synth has exploded as a community firmware playground."
     },
     {
       "title": "A 1,000-mile cloud on Mars may reveal physics never seen in nature",
@@ -179,148 +203,124 @@
       "summary": "Ice sheet expansion may have started 2,000 years ago, but we canceled that\nThe tiny remains of the Laurentide Ice Sheet began getting somewhat less tiny."
     },
     {
-      "title": "NASA updates lander plans for Moon landings, finally solves long-festering Orion issue",
-      "link": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
-      "raw_summary": "\"We have the mandate, we have the resources, and the support from our stakeholders.\"",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 23 Oct 2026 22:48:25 +0000",
-      "summary": "NASA updates lander plans for Moon landings, finally solves long-festering Orion issue\n\"We have the mandate, we have the resources, and the support from our stakeholders.\""
-    },
-    {
-      "title": "Hegseth warns prediction market bets warp military judgment, endanger troops",
-      "link": "https://arstechnica.com/tech-policy/2026/10/pentagon-memo-on-prediction-markets-says-insider-bets-put-troops-lives-at-risk/",
-      "raw_summary": "Pentagon memo: Insider trading gives US enemies key intel on military operations.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 23 Oct 2026 20:28:43 +0000",
-      "summary": "Hegseth warns prediction market bets warp military judgment, endanger troops\nPentagon memo: Insider trading gives US enemies key intel on military operations."
-    },
-    {
-      "title": "Updated Google privacy policy says your Gmail might be used for advertising",
-      "link": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
-      "raw_summary": "Turning on Personal Intelligence gives the company more data for ad targeting.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 23 Oct 2026 20:19:55 +0000",
-      "summary": "Updated Google privacy policy says your Gmail might be used for advertising\nTurning on Personal Intelligence gives the company more data for ad targeting."
-    },
-    {
-      "title": "Meta plans $95bn stock offering to bankroll AI expansion",
-      "link": "https://www.ft.com/content/94e5a0ae-874d-447a-bbfc-cd465a1a7555?syn-25a6b1a6=1",
-      "raw_summary": "Chipmakers Nvidia, AMD and Broadcom will act as cornerstone investors",
+      "title": "Trump administration illegally fired Maurene Comey, judge rules",
+      "link": "https://www.ft.com/content/627ed704-f736-4fa2-91c9-67e53577fb7f?syn-25a6b1a6=1",
+      "raw_summary": "Ruling deals a blow to the US government’s claims of sweeping presidential power to sack officials",
       "source": "World",
-      "published": "Mon, 26 Oct 2026 11:58:00 GMT",
-      "summary": "Meta plans $95bn stock offering to bankroll AI expansion\nChipmakers Nvidia, AMD and Broadcom will act as cornerstone investors"
+      "published": "Mon, 26 Oct 2026 18:05:21 GMT",
+      "summary": "Trump administration illegally fired Maurene Comey, judge rules\nRuling deals a blow to the US government’s claims of sweeping presidential power to sack officials"
     },
     {
-      "title": "EQT to buy Range Resources in natural gas megadeal",
-      "link": "https://www.ft.com/content/b4526650-49b6-4f88-ab95-4bde1cf4ad9c?syn-25a6b1a6=1",
-      "raw_summary": "Combination set to create largest natural gas producer in the US",
+      "title": "The five policy splits emerging in Andy Burnham’s cabinet",
+      "link": "https://www.ft.com/content/b04b46d0-8d02-4169-8159-04972931b747?syn-25a6b1a6=1",
+      "raw_summary": "Prime minister faces many of the same problems that undermined his predecessor Sir Keir Starmer despite a pledge to end factionalism",
       "source": "World",
-      "published": "Mon, 26 Oct 2026 11:57:49 GMT",
-      "summary": "EQT to buy Range Resources in natural gas megadeal\nCombination set to create largest natural gas producer in the US"
+      "published": "Mon, 26 Oct 2026 17:42:02 GMT",
+      "summary": "The five policy splits emerging in Andy Burnham’s cabinet\nPrime minister faces many of the same problems that undermined his predecessor Sir Keir Starmer despite a pledge to end factionalism"
     },
     {
-      "title": "Saudi utility price increases add to economic uncertainty in wartime",
-      "link": "https://www.ft.com/content/2f6bee27-293f-4a8e-a718-56e14c3d5b28?syn-25a6b1a6=1",
-      "raw_summary": "Electricity and water tariffs will rise from January as part of long-planned economic reforms",
-      "source": "World",
-      "published": "Mon, 26 Oct 2026 11:50:06 GMT",
-      "summary": "Saudi utility price increases add to economic uncertainty in wartime\nElectricity and water tariffs will rise from January as part of long-planned economic reforms"
-    },
-    {
-      "title": "Brazil’s markets set to tumble as investors bet Lula will add to fiscal pain",
+      "title": "Lula’s surprise victory triggers worst rout in decades for Brazilian markets",
       "link": "https://www.ft.com/content/bffe028e-838d-4e74-b05e-62f6db4978db?syn-25a6b1a6=1",
       "raw_summary": "Investors had been positioned for victory by rightwing Bolsonaro, seen as more willing to tackle budget deficit",
       "source": "World",
-      "published": "Mon, 26 Oct 2026 11:41:31 GMT",
-      "summary": "Brazil’s markets set to tumble as investors bet Lula will add to fiscal pain\nInvestors had been positioned for victory by rightwing Bolsonaro, seen as more willing to tackle budget deficit"
+      "published": "Mon, 26 Oct 2026 17:32:09 GMT",
+      "summary": "Lula’s surprise victory triggers worst rout in decades for Brazilian markets\nInvestors had been positioned for victory by rightwing Bolsonaro, seen as more willing to tackle budget deficit"
     },
     {
-      "title": "Trump, Netanyahu and the politics of escalation against Iran",
-      "link": "https://www.ft.com/content/7b3c17e7-c0bf-4e93-bc5d-17f86fa1b2a5?syn-25a6b1a6=1",
-      "raw_summary": "Electoral defeat for the leaders of Israel and the US may not stand in the way of plans for a renewed assault",
+      "title": "Why you shouldn’t bother reading the Anthropic IPO filing",
+      "link": "https://www.ft.com/content/d2faa674-766b-4699-83d0-d1f9ed65edbf?syn-25a6b1a6=1",
+      "raw_summary": "Valuing AI lab based on its historic reported numbers is a fool’s errand",
       "source": "World",
-      "published": "Mon, 26 Oct 2026 11:37:21 GMT",
-      "summary": "Trump, Netanyahu and the politics of escalation against Iran\nElectoral defeat for the leaders of Israel and the US may not stand in the way of plans for a renewed assault"
+      "published": "Mon, 26 Oct 2026 17:29:42 GMT",
+      "summary": "Why you shouldn’t bother reading the Anthropic IPO filing\nValuing AI lab based on its historic reported numbers is a fool’s errand"
     },
     {
-      "title": "Stocks Gain Before Tech Earnings as Oil Declines: Markets Wrap",
+      "title": "Nigeria evacuates Ebola patient to Switzerland",
+      "link": "https://www.ft.com/content/083251a0-d5ab-48be-8295-41c9860963fd?syn-25a6b1a6=1",
+      "raw_summary": "Authorities work to contain deadly Bundibugyo virus after wife of Abuja-based Swiss diplomat became country’s first confirmed case",
+      "source": "World",
+      "published": "Mon, 26 Oct 2026 17:23:29 GMT",
+      "summary": "Nigeria evacuates Ebola patient to Switzerland\nAuthorities work to contain deadly Bundibugyo virus after wife of Abuja-based Swiss diplomat became country’s first confirmed case"
+    },
+    {
+      "title": "Stocks Get Tech Boost as Anthropic Files for IPO: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-10-25/us-equity-futures-climb-as-crude-oil-price-dips-markets-wrap",
-      "raw_summary": "Stocks started the week on a positive note as crude oil retreated from a six-month high and investors awaited a busy slate of tech earnings for a steer on the artificial intelligence trade.",
+      "raw_summary": "A revival of the artificial-intelligence trade fueled gains in stocks as Anthropic PBC filed for an IPO, with investors bracing for this week’s results from tech giants and the Federal Reserve decision.",
       "source": "Bloomberg Markets",
       "published": "Sun, 25 Oct 2026 22:09:07 GMT",
-      "summary": "Stocks Gain Before Tech Earnings as Oil Declines: Markets Wrap\nStocks started the week on a positive note as crude oil retreated from a six-month high and investors awaited a busy slate of tech earnings for a steer on the artificial intelligence trade."
+      "summary": "Stocks Get Tech Boost as Anthropic Files for IPO: Markets Wrap\nA revival of the artificial-intelligence trade fueled gains in stocks as Anthropic PBC filed for an IPO, with investors bracing for this week’s results from tech giants and the Federal Reserve decision."
     },
     {
-      "title": "Gulf Oil Bargains Lure India Away From Russia as Freight Soars",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-26/gulf-oil-bargains-lure-india-away-from-russia-as-freight-soars",
-      "raw_summary": "Indian refiners are increasingly turning to Persian Gulf crude and pulling back from their mainstay supplier Russia, as sky-high freight costs erode the economics of long-haul shipments.",
+      "title": "US Stocks Gain as Investors Parse Anthropic IPO Filing",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-26/us-stock-futures-gain-ahead-of-big-tech-earnings-fed-decision",
+      "raw_summary": "US stocks gained on Monday as investors digest Anthropic PBC’s filing for its initial public offering and look forward to key big tech earnings this week as well as the Federal Reserve’s next decision on Wednesday.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 26 Oct 2026 11:37:41 GMT",
-      "summary": "Gulf Oil Bargains Lure India Away From Russia as Freight Soars\nIndian refiners are increasingly turning to Persian Gulf crude and pulling back from their mainstay supplier Russia, as sky-high freight costs erode the economics of long-haul shipments."
+      "published": "Mon, 26 Oct 2026 12:38:56 GMT",
+      "summary": "US Stocks Gain as Investors Parse Anthropic IPO Filing\nUS stocks gained on Monday as investors digest Anthropic PBC’s filing for its initial public offering and look forward to key big tech earnings this week as well as the Federal Reserve’s next decision on Wednesday."
     },
     {
-      "title": "Soybeans and Coffee Slump as Brazilian Election Hits Currency",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-26/soybeans-hit-2-month-low-as-lula-s-win-lifts-china-trade-outlook",
-      "raw_summary": "Soybean futures fell to a two-month low in Chicago, while coffee and sugar slumped as President Luiz Inácio Lula da Silva’s surprise election win in Brazil hit the nation’s currency, boosting export prospects for the commodity powerhouse.",
+      "title": "Marathon’s Richards Warns ‘No Way Out’ for Beaten-Down CCC Debt",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-26/marathon-s-richards-warns-no-way-out-for-beaten-down-ccc-debt",
+      "raw_summary": "A big swath of the riskiest borrowers have few options other than defaulting on their piling debt as it’s getting increasingly expensive to refinance, CVC Marathon Chief Executive Officer Bruce Richards warned.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 26 Oct 2026 03:18:39 GMT",
-      "summary": "Soybeans and Coffee Slump as Brazilian Election Hits Currency\nSoybean futures fell to a two-month low in Chicago, while coffee and sugar slumped as President Luiz Inácio Lula da Silva’s surprise election win in Brazil hit the nation’s currency, boosting export prospects for the commodity powerhouse."
+      "published": "Mon, 26 Oct 2026 17:51:58 GMT",
+      "summary": "Marathon’s Richards Warns ‘No Way Out’ for Beaten-Down CCC Debt\nA big swath of the riskiest borrowers have few options other than defaulting on their piling debt as it’s getting increasingly expensive to refinance, CVC Marathon Chief Executive Officer Bruce Richards warned."
     },
     {
-      "title": "Egypt’s Banque du Caire Prices IPO at Top End, Eyes $648 Million",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-26/banque-du-caire-says-ipo-priced-at-top-end-of-range",
-      "raw_summary": "Banque du Caire priced its initial public offering at the top end of the marketed range, signaling strong demand for one of Egypt’s biggest-ever listings, which could raise around $648 million.",
+      "title": "Morgan Stanley Expects Data-Center ABS Spreads to Widen Further",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-26/morgan-stanley-expects-data-center-abs-spreads-to-widen-further",
+      "raw_summary": "Spreads on asset backed securities funding data-center developments will continue to widen as companies rush to tap different debt markets to finance their artificial intelligence endeavors, according to Morgan Stanley strategists.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 26 Oct 2026 07:26:47 GMT",
-      "summary": "Egypt’s Banque du Caire Prices IPO at Top End, Eyes $648 Million\nBanque du Caire priced its initial public offering at the top end of the marketed range, signaling strong demand for one of Egypt’s biggest-ever listings, which could raise around $648 million."
+      "published": "Mon, 26 Oct 2026 17:46:52 GMT",
+      "summary": "Morgan Stanley Expects Data-Center ABS Spreads to Widen Further\nSpreads on asset backed securities funding data-center developments will continue to widen as companies rush to tap different debt markets to finance their artificial intelligence endeavors, according to Morgan Stanley strategists."
     },
     {
-      "title": "Brazil Markets Set to Plunge on Lula’s Improbable Election Win",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-26/brazil-markets-brace-for-rout-on-lula-s-improbable-election-win",
-      "raw_summary": "Brazilian markets are heading for a major rout when local trading begins after President Luiz Inácio Lula da Silva pulled off a stunning comeback to defeat Flávio Bolsonaro, the right-wing candidate that many investors preferred.",
+      "title": "Latest Oil Market News and Analysis for Oct. 26",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-25/latest-oil-market-news-and-analysis-for-oct-26",
+      "raw_summary": "Oil hovered near a six-month high as Mideast security officials flew to Tehran in a bid to revive peace talks against the backdrop of escalating conflict.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 26 Oct 2026 01:21:55 GMT",
-      "summary": "Brazil Markets Set to Plunge on Lula’s Improbable Election Win\nBrazilian markets are heading for a major rout when local trading begins after President Luiz Inácio Lula da Silva pulled off a stunning comeback to defeat Flávio Bolsonaro, the right-wing candidate that many investors preferred."
+      "published": "Sun, 25 Oct 2026 22:04:00 GMT",
+      "summary": "Latest Oil Market News and Analysis for Oct. 26\nOil hovered near a six-month high as Mideast security officials flew to Tehran in a bid to revive peace talks against the backdrop of escalating conflict."
     },
     {
-      "title": "A $68 million bitcoin bet is targeting a post-midterm election breakout to $90,000",
-      "link": "https://www.coindesk.com/daybook-us/2026/10/26/a-usd68-million-bitcoin-bet-is-targeting-a-post-midterm-election-breakout-to-usd90-000",
+      "title": "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines",
+      "link": "https://www.coindesk.com/business/2026/10/26/tom-lee-s-bitmine-favors-share-buybacks-to-ether-purchases-as-crypto-declines",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 26 Oct 2026 11:53:07 +0000",
-      "summary": "A $68 million bitcoin bet is targeting a post-midterm election breakout to $90,000\n"
+      "published": "Mon, 26 Oct 2026 16:05:12 +0000",
+      "summary": "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines\n"
     },
     {
-      "title": "Bitcoin holds near $80,000 as oil retreats and the Fed decision looms",
-      "link": "https://www.coindesk.com/markets/2026/10/26/bitcoin-holds-near-usd80-000-as-oil-retreats-and-the-fed-decision-looms",
+      "title": "NBA joins pro sports leagues on CFTC prediction markets bandwagon while NFL balks",
+      "link": "https://www.coindesk.com/policy/2026/10/26/nba-joins-pro-sports-leagues-on-cftc-prediction-markets-bandwagon-while-nfl-balks",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 26 Oct 2026 11:24:33 +0000",
-      "summary": "Bitcoin holds near $80,000 as oil retreats and the Fed decision looms\n"
+      "published": "Mon, 26 Oct 2026 15:59:55 +0000",
+      "summary": "NBA joins pro sports leagues on CFTC prediction markets bandwagon while NFL balks\n"
     },
     {
-      "title": "Live news: Bitcoin barely holding $80,000 ahead of Fed on Wednesday, tech earnings this week",
-      "link": "https://www.coindesk.com/tech/2026/10/26/live-news-brent-crude-slides-below-usd110-as-iran-deal-hopes-grow-and-brazil-stocks-sink",
+      "title": "OCC calls on community banks to enter the stablecoin payments market",
+      "link": "https://www.coindesk.com/policy/2026/10/26/occ-calls-on-community-banks-to-enter-the-stablecoin-payments-market",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 26 Oct 2026 11:05:31 +0000",
-      "summary": "Live news: Bitcoin barely holding $80,000 ahead of Fed on Wednesday, tech earnings this week\n"
+      "published": "Mon, 26 Oct 2026 15:45:51 +0000",
+      "summary": "OCC calls on community banks to enter the stablecoin payments market\n"
     },
     {
-      "title": "Calpers pulls back from big tech as AI jitters deepen neocloud sell-off",
-      "link": "https://www.coindesk.com/markets/2026/10/26/calpers-pulls-back-from-big-tech-as-ai-jitters-deepen-neocloud-sell-off",
+      "title": "South Korea weighs fourth delay on its crypto gains tax, pushing it to 2029",
+      "link": "https://www.coindesk.com/policy/2026/10/26/south-korea-weighs-fourth-delay-on-its-crypto-gains-tax-pushing-it-to-2029",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 26 Oct 2026 10:33:00 +0000",
-      "summary": "Calpers pulls back from big tech as AI jitters deepen neocloud sell-off\n"
+      "published": "Mon, 26 Oct 2026 14:51:07 +0000",
+      "summary": "South Korea weighs fourth delay on its crypto gains tax, pushing it to 2029\n"
     },
     {
-      "title": "Fed, ECB and BOJ interest-rate decisions, Coinbase earnings: Crypto Week Ahead",
-      "link": "https://www.coindesk.com/markets/2026/10/26/fed-ecb-and-boj-interest-rate-decisions-coinbase-earnings-crypto-week-ahead",
+      "title": "Canada opens consultation on draft stablecoin rules, maintains ban on yields",
+      "link": "https://www.coindesk.com/policy/2026/10/26/canada-opens-consultation-on-draft-stablecoin-rules-maintains-ban-on-yields",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 26 Oct 2026 09:14:47 +0000",
-      "summary": "Fed, ECB and BOJ interest-rate decisions, Coinbase earnings: Crypto Week Ahead\n"
+      "published": "Mon, 26 Oct 2026 14:23:41 +0000",
+      "summary": "Canada opens consultation on draft stablecoin rules, maintains ban on yields\n"
     }
   ]
 }
