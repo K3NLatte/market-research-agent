@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T18:21:21.122263+00:00",
+  "generated_at": "2026-10-27T03:06:08.427075+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,14 @@
       "summary": "FBI Arrests Executive at Ransomware Negotiation Firm\nAgents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on "
     },
     {
+      "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+      "link": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+      "raw_summary": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025.\n\nAccording to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to the store's pages that, when visited by unsuspecting users, serves malicious JavaScript loader code through Magento CMS blocks.\n\n\"When you",
+      "source": "The Hacker News",
+      "published": "Mon, 26 Oct 2026 23:42:22 +0530",
+      "summary": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento\nAn unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025.\n\nAccording to Dutch e-commerce security company Sansec, the activity is"
+    },
+    {
       "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
       "link": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
       "raw_summary": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and potentially run code.\n\nPHP says the flaw can be reached through the cURL extension when the extension decompresses HTTP responses automatically. cURL leaves that off by default, but",
@@ -75,212 +83,204 @@
       "summary": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes\nTwo critical flaws in&nbsp;Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers sa"
     },
     {
-      "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
-      "link": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
-      "raw_summary": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform, connects individual alerts into one timeline, and it feeds the defensive systems that can tie all events together into one coordinated view.\n\nSOC teams often first see the shape of an intrusion",
-      "source": "The Hacker News",
-      "published": "Mon, 26 Oct 2026 16:53:56 +0530",
-      "summary": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses\nEvery SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform, connects individual alerts i"
-    },
-    {
-      "title": "GPT-6.1 Terra",
-      "link": "https://openai.com/index/introducing-gpt-6-1-terra/",
-      "raw_summary": "<p>Article URL: <a href=\"https://openai.com/index/introducing-gpt-6-1-terra/\">https://openai.com/index/introducing-gpt-6-1-terra/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50248124\">https://news.ycombinator.com/item?id=50248124</a></p>\n<p>Points: 17</p>\n<p># Comments: 3</p>",
+      "title": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows",
+      "link": "https://github.com/otya128/winevdm",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/otya128/winevdm\">https://github.com/otya128/winevdm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50253529\">https://news.ycombinator.com/item?id=50253529</a></p>\n<p>Points: 26</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 26 Oct 2026 18:01:17 +0000",
-      "summary": "GPT-6.1 Terra\n<p>Article URL: <a href=\"https://openai.com/index/introducing-gpt-6-1-terra/\">https://openai.com/index/introducing-gpt-6-1-terra/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50248124\">https://news.ycombinator.com/item?id=50248124</a></p>\n<p>Points: 17</p>\n<p>"
+      "published": "Tue, 27 Oct 2026 01:15:04 +0000",
+      "summary": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows\n<p>Article URL: <a href=\"https://github.com/otya128/winevdm\">https://github.com/otya128/winevdm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50253529\">https://news.ycombinator.com/item?id=50253529</a></p>\n<"
     },
     {
-      "title": "Meta Employees Denounce Interference in Brazilian Elections",
-      "link": "https://www.panamericandispatch.org/p/meta-employees-denounce-interference",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.panamericandispatch.org/p/meta-employees-denounce-interference\">https://www.panamericandispatch.org/p/meta-employees-denounce-interference</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50248061\">https://news.ycombinator.com/item?id=50248061</a></p>\n<p>Points: 32</p>\n<p># Comments: 3</p>",
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+      "link": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.cloudflare.com/kv-cache-exposure-remediation/\">https://blog.cloudflare.com/kv-cache-exposure-remediation/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50252159\">https://news.ycombinator.com/item?id=50252159</a></p>\n<p>Points: 87</p>\n<p># Comments: 23</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 26 Oct 2026 17:57:29 +0000",
-      "summary": "Meta Employees Denounce Interference in Brazilian Elections\n<p>Article URL: <a href=\"https://www.panamericandispatch.org/p/meta-employees-denounce-interference\">https://www.panamericandispatch.org/p/meta-employees-denounce-interference</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/i"
+      "published": "Mon, 26 Oct 2026 22:41:48 +0000",
+      "summary": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)\n<p>Article URL: <a href=\"https://blog.cloudflare.com/kv-cache-exposure-remediation/\">https://blog.cloudflare.com/kv-cache-exposure-remediation/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50252"
     },
     {
-      "title": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems",
-      "link": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/\">https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50247630\">https://news.ycombinator.com/item?id=50247630</a></p>\n<p>Points: 46</p>\n<p># Comments: 6</p>",
+      "title": "Is PHP Running on Your ColdFusion Server? How to Check, and Remove It",
+      "link": "https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it\">https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50252008\">https://news.ycombinator.com/item?id=50252008</a></p>\n<p>Points: 29</p>\n<p># Comments: 18</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 26 Oct 2026 17:32:16 +0000",
-      "summary": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems\n<p>Article URL: <a href=\"https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/\">https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-pro"
+      "published": "Mon, 26 Oct 2026 22:27:17 +0000",
+      "summary": "Is PHP Running on Your ColdFusion Server? How to Check, and Remove It\n<p>Article URL: <a href=\"https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it\">https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your"
     },
     {
-      "title": "Nietzschian Debugger",
-      "link": "https://github.com/DilawarShafiq/nietzschian-debugger",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/DilawarShafiq/nietzschian-debugger\">https://github.com/DilawarShafiq/nietzschian-debugger</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50247493\">https://news.ycombinator.com/item?id=50247493</a></p>\n<p>Points: 13</p>\n<p># Comments: 3</p>",
+      "title": "The Exponential Time Hypothesis Is False [pdf]",
+      "link": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "raw_summary": "<p>See also: <i>Announcing three new discoveries in mathematics, computer science, and physics</i> - <a href=\"https://news.ycombinator.com/item?id=50251344\">https://news.ycombinator.com/item?id=50251344</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50251661\">https://news.ycombinator.com/item?id=50251661</a></p>\n<p>Points: 357</p>\n<p># Comments: 138</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 26 Oct 2026 17:25:30 +0000",
-      "summary": "Nietzschian Debugger\n<p>Article URL: <a href=\"https://github.com/DilawarShafiq/nietzschian-debugger\">https://github.com/DilawarShafiq/nietzschian-debugger</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50247493\">https://news.ycombinator.com/item?id=50247493</a></p>\n<p>Points:"
+      "published": "Mon, 26 Oct 2026 21:59:15 +0000",
+      "summary": "The Exponential Time Hypothesis Is False [pdf]\n<p>See also: <i>Announcing three new discoveries in mathematics, computer science, and physics</i> - <a href=\"https://news.ycombinator.com/item?id=50251344\">https://news.ycombinator.com/item?id=50251344</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://n"
     },
     {
-      "title": "The Git Forge for Agent-Human Collaboration",
-      "link": "https://entire.com/blog/the-git-forge-for-agent-human-collaboration",
-      "raw_summary": "<p>Article URL: <a href=\"https://entire.com/blog/the-git-forge-for-agent-human-collaboration\">https://entire.com/blog/the-git-forge-for-agent-human-collaboration</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50247453\">https://news.ycombinator.com/item?id=50247453</a></p>\n<p>Points: 34</p>\n<p># Comments: 13</p>",
+      "title": "Three new discoveries in mathematics, computer science, and physics",
+      "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "raw_summary": "<p>Related:<p><i>The Exponential Time Hypothesis Is False [pdf]</i> - <a href=\"https://news.ycombinator.com/item?id=50251661\">https://news.ycombinator.com/item?id=50251661</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50251344\">https://news.ycombinator.com/item?id=50251344</a></p>\n<p>Points: 556</p>\n<p># Comments: 230</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 26 Oct 2026 17:23:11 +0000",
-      "summary": "The Git Forge for Agent-Human Collaboration\n<p>Article URL: <a href=\"https://entire.com/blog/the-git-forge-for-agent-human-collaboration\">https://entire.com/blog/the-git-forge-for-agent-human-collaboration</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50247453\">https://news."
+      "published": "Mon, 26 Oct 2026 21:35:28 +0000",
+      "summary": "Three new discoveries in mathematics, computer science, and physics\n<p>Related:<p><i>The Exponential Time Hypothesis Is False [pdf]</i> - <a href=\"https://news.ycombinator.com/item?id=50251661\">https://news.ycombinator.com/item?id=50251661</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombi"
     },
     {
-      "title": "This startup’s self-driving excavators help dig up $600M in new funding",
-      "link": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/",
-      "raw_summary": "Bedrock Robotics, which is now valued at $4.1 billion, is particularly focused on autonomous excavators, in part because of a growing shortage of skilled operators.",
+      "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+      "link": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+      "raw_summary": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
       "source": "TechCrunch",
-      "published": "Mon, 26 Oct 2026 17:45:00 +0000",
-      "summary": "This startup’s self-driving excavators help dig up $600M in new funding\nBedrock Robotics, which is now valued at $4.1 billion, is particularly focused on autonomous excavators, in part because of a growing shortage of skilled operators."
+      "published": "Tue, 27 Oct 2026 02:00:00 +0000",
+      "summary": "How OpenAI turned its coding tools into dots, an always-on personal assistant\nAlexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent."
     },
     {
-      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
-      "link": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
-      "raw_summary": "Anthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier.",
+      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+      "link": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+      "raw_summary": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI.",
       "source": "TechCrunch",
-      "published": "Mon, 26 Oct 2026 16:49:42 +0000",
-      "summary": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked\nAnthropic’s S-1 shows more than half of its $100,000-plus customers now use both the Claude Platform and a first-party app, a cross-selling playbook reminiscent of Amazon that’s making enterprise customers stickier."
+      "published": "Tue, 27 Oct 2026 01:12:21 +0000",
+      "summary": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing\nAn AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust fre"
     },
     {
-      "title": "SpaceX locks in $40B GPU financing deal with Apollo",
-      "link": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
-      "raw_summary": "SpaceX has locked in a binding commitment for roughly $40 billion in financing to pay for AI chips and related data center equipment, the company disclosed in a regulatory filing Monday. In a statement, SpaceX called it the “largest committed GPU financing” ever.",
+      "title": "Databricks co-founder shares his secrets for winning big enterprise customers",
+      "link": "https://techcrunch.com/2026/10/26/databricks-co-founder-shares-his-secrets-for-winning-big-enterprises-customers/",
+      "raw_summary": "Turns out selling to big companies isn’t about having the shiniest tech: It’s about hitching a ride on a giant’s sales team.",
       "source": "TechCrunch",
-      "published": "Mon, 26 Oct 2026 16:46:36 +0000",
-      "summary": "SpaceX locks in $40B GPU financing deal with Apollo\nSpaceX has locked in a binding commitment for roughly $40 billion in financing to pay for AI chips and related data center equipment, the company disclosed in a regulatory filing Monday. In a statement, SpaceX called it the “largest committed GPU f"
+      "published": "Mon, 26 Oct 2026 22:00:00 +0000",
+      "summary": "Databricks co-founder shares his secrets for winning big enterprise customers\nTurns out selling to big companies isn’t about having the shiniest tech: It’s about hitching a ride on a giant’s sales team."
     },
     {
-      "title": "Microsoft offers buyouts to around 60,000 employees, reports say",
-      "link": "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/",
-      "raw_summary": "The buyout offers mark Microsoft's latest efforts to cut costs and rework its workforce.",
+      "title": "Watch out, YouTube — Instagram goes from short-form to 90-minute videos",
+      "link": "https://techcrunch.com/2026/10/26/watch-out-youtube-instagram-goes-from-short-form-to-90-minute-videos/",
+      "raw_summary": "After years in which every social platform (even LinkedIn!) aggressively pursued short-form video, this is a notable shift in strategy for Instagram.",
       "source": "TechCrunch",
-      "published": "Mon, 26 Oct 2026 15:58:25 +0000",
-      "summary": "Microsoft offers buyouts to around 60,000 employees, reports say\nThe buyout offers mark Microsoft's latest efforts to cut costs and rework its workforce."
+      "published": "Mon, 26 Oct 2026 21:05:11 +0000",
+      "summary": "Watch out, YouTube — Instagram goes from short-form to 90-minute videos\nAfter years in which every social platform (even LinkedIn!) aggressively pursued short-form video, this is a notable shift in strategy for Instagram."
     },
     {
-      "title": "Anthropic officially files for its public debut",
-      "link": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
-      "raw_summary": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
+      "title": "Uh-oh, it sounds like the iPhone Duo keeps cracking and users aren’t happy about it",
+      "link": "https://techcrunch.com/2026/10/26/uh-oh-it-sounds-like-the-iphone-duo-keeps-cracking-and-users-arent-happy-about-it/",
+      "raw_summary": "A small number of early adopters of the much-hyped new foldable phone from Apple have complained of screens cracking.",
       "source": "TechCrunch",
-      "published": "Mon, 26 Oct 2026 14:35:22 +0000",
-      "summary": "Anthropic officially files for its public debut\nAnthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission."
+      "published": "Mon, 26 Oct 2026 19:22:40 +0000",
+      "summary": "Uh-oh, it sounds like the iPhone Duo keeps cracking and users aren’t happy about it\nA small number of early adopters of the much-hyped new foldable phone from Apple have complained of screens cracking."
     },
     {
-      "title": "F1 in Texas: The American race that fans love to attend",
-      "link": "https://arstechnica.com/cars/2026/10/f1-in-texas-one-more-race-and-well-have-a-new-champion/",
-      "raw_summary": "Ars spends the weekend with the Audi Revolut F1 team at the Circuit of the Americas.",
+      "title": "Microsoft offers to buy out a quarter of its workforce",
+      "link": "https://arstechnica.com/gadgets/2026/10/microsoft-offers-voluntary-buyouts-to-60000-employees/",
+      "raw_summary": "Employees in the US, Canada, India, and the UK may receive offers to leave MS today.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 26 Oct 2026 14:48:24 +0000",
-      "summary": "F1 in Texas: The American race that fans love to attend\nArs spends the weekend with the Audi Revolut F1 team at the Circuit of the Americas."
+      "published": "Mon, 26 Oct 2026 22:36:06 +0000",
+      "summary": "Microsoft offers to buy out a quarter of its workforce\nEmployees in the US, Canada, India, and the UK may receive offers to leave MS today."
     },
     {
-      "title": "Tesla gave up the EV crown. Now it wants to win the autonomy race",
-      "link": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/",
-      "raw_summary": "Tesla hopes autonomy subscriptions can deliver the margins car sales cannot.",
+      "title": "Worms mate in man's eyes, get plucked out right before larvae burst out",
+      "link": "https://arstechnica.com/health/2026/10/whats-worse-than-having-eye-worms-having-eye-worms-with-babies/",
+      "raw_summary": "Case study gives a whole new meaning to \"bedroom eyes.\"",
       "source": "Ars Technica - All content",
-      "published": "Mon, 26 Oct 2026 14:30:27 +0000",
-      "summary": "Tesla gave up the EV crown. Now it wants to win the autonomy race\nTesla hopes autonomy subscriptions can deliver the margins car sales cannot."
+      "published": "Mon, 26 Oct 2026 20:27:00 +0000",
+      "summary": "Worms mate in man's eyes, get plucked out right before larvae burst out\nCase study gives a whole new meaning to \"bedroom eyes.\""
     },
     {
-      "title": "From impulse purchase to pocket studio: The M-Vave FM-1",
-      "link": "https://arstechnica.com/gadgets/2026/10/from-impulse-purchase-to-pocket-studio-the-m-vave-fm-1/",
-      "raw_summary": "M-Vave's cheap FM-1 pocket synth has exploded as a community firmware playground.",
+      "title": "Meet the real-life Scottish surgeon who inspired Sherlock Holmes",
+      "link": "https://arstechnica.com/science/2026/10/meet-the-real-life-scottish-surgeon-who-inspired-sherlock-holmes/",
+      "raw_summary": "Lindsey Fitzharris chats with Ars about her new book, <em>Sleuth-Hound: The Case of the Real Sherlock Holmes</em>.",
       "source": "Ars Technica - All content",
-      "published": "Mon, 26 Oct 2026 11:00:15 +0000",
-      "summary": "From impulse purchase to pocket studio: The M-Vave FM-1\nM-Vave's cheap FM-1 pocket synth has exploded as a community firmware playground."
+      "published": "Mon, 26 Oct 2026 20:15:07 +0000",
+      "summary": "Meet the real-life Scottish surgeon who inspired Sherlock Holmes\nLindsey Fitzharris chats with Ars about her new book, <em>Sleuth-Hound: The Case of the Real Sherlock Holmes</em>."
     },
     {
-      "title": "A 1,000-mile cloud on Mars may reveal physics never seen in nature",
-      "link": "https://arstechnica.com/science/2026/10/a-1000-mile-cloud-on-mars-may-reveal-physics-never-seen-in-nature/",
-      "raw_summary": "A new model suggests Mars may host ice-forming physics never directly observed before.",
+      "title": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
+      "link": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
+      "raw_summary": "Included is the ability to limit which applications Siri can directly access.",
       "source": "Ars Technica - All content",
-      "published": "Sat, 24 Oct 2026 11:50:28 +0000",
-      "summary": "A 1,000-mile cloud on Mars may reveal physics never seen in nature\nA new model suggests Mars may host ice-forming physics never directly observed before."
+      "published": "Mon, 26 Oct 2026 20:04:16 +0000",
+      "summary": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo\nIncluded is the ability to limit which applications Siri can directly access."
     },
     {
-      "title": "Ice sheet expansion may have started 2,000 years ago, but we canceled that",
-      "link": "https://arstechnica.com/science/2026/10/ice-sheet-expansion-may-have-started-2000-years-go-but-we-canceled-that/",
-      "raw_summary": "The tiny remains of the Laurentide Ice Sheet began getting somewhat less tiny.",
+      "title": "Apple reveals updated iPad mini with a bigger OLED screen for $700",
+      "link": "https://arstechnica.com/apple/2026/10/apple-reveals-updated-ipad-mini-with-a-bigger-oled-screen-for-700/",
+      "raw_summary": "Apple claims this is the most significant update ever for the iPad mini line.",
       "source": "Ars Technica - All content",
-      "published": "Sat, 24 Oct 2026 11:00:09 +0000",
-      "summary": "Ice sheet expansion may have started 2,000 years ago, but we canceled that\nThe tiny remains of the Laurentide Ice Sheet began getting somewhat less tiny."
+      "published": "Mon, 26 Oct 2026 19:04:40 +0000",
+      "summary": "Apple reveals updated iPad mini with a bigger OLED screen for $700\nApple claims this is the most significant update ever for the iPad mini line."
     },
     {
-      "title": "Trump administration illegally fired Maurene Comey, judge rules",
-      "link": "https://www.ft.com/content/627ed704-f736-4fa2-91c9-67e53577fb7f?syn-25a6b1a6=1",
-      "raw_summary": "Ruling deals a blow to the US government’s claims of sweeping presidential power to sack officials",
+      "title": "India moves to tweak jobs data",
+      "link": "https://www.ft.com/content/2eed6610-6ab0-4682-b754-3e673bc4d779?syn-25a6b1a6=1",
+      "raw_summary": "Also, multinationals face more pressure from food safety regulator",
       "source": "World",
-      "published": "Mon, 26 Oct 2026 18:05:21 GMT",
-      "summary": "Trump administration illegally fired Maurene Comey, judge rules\nRuling deals a blow to the US government’s claims of sweeping presidential power to sack officials"
+      "published": "Tue, 27 Oct 2026 02:30:07 GMT",
+      "summary": "India moves to tweak jobs data\nAlso, multinationals face more pressure from food safety regulator"
     },
     {
-      "title": "The five policy splits emerging in Andy Burnham’s cabinet",
-      "link": "https://www.ft.com/content/b04b46d0-8d02-4169-8159-04972931b747?syn-25a6b1a6=1",
-      "raw_summary": "Prime minister faces many of the same problems that undermined his predecessor Sir Keir Starmer despite a pledge to end factionalism",
+      "title": "Bolsonaro’s Liberal Party accepts defeat in Brazil as Trump calls result ‘rigged’",
+      "link": "https://www.ft.com/content/ae37754c-6200-425d-8f8f-ce0b0f7cc250?syn-25a6b1a6=1",
+      "raw_summary": "US president casts doubt on integrity of election result over extension of voting hours",
       "source": "World",
-      "published": "Mon, 26 Oct 2026 17:42:02 GMT",
-      "summary": "The five policy splits emerging in Andy Burnham’s cabinet\nPrime minister faces many of the same problems that undermined his predecessor Sir Keir Starmer despite a pledge to end factionalism"
+      "published": "Tue, 27 Oct 2026 00:54:15 GMT",
+      "summary": "Bolsonaro’s Liberal Party accepts defeat in Brazil as Trump calls result ‘rigged’\nUS president casts doubt on integrity of election result over extension of voting hours"
     },
     {
-      "title": "Lula’s surprise victory triggers worst rout in decades for Brazilian markets",
-      "link": "https://www.ft.com/content/bffe028e-838d-4e74-b05e-62f6db4978db?syn-25a6b1a6=1",
-      "raw_summary": "Investors had been positioned for victory by rightwing Bolsonaro, seen as more willing to tackle budget deficit",
+      "title": "Channel 4 strikes streaming deal with Disney",
+      "link": "https://www.ft.com/content/ae3a1dfb-d7ba-4c88-a6da-cb28b2a1139a?syn-25a6b1a6=1",
+      "raw_summary": "Agreement comes as linear broadcasters struggle to compete with US media giants",
       "source": "World",
-      "published": "Mon, 26 Oct 2026 17:32:09 GMT",
-      "summary": "Lula’s surprise victory triggers worst rout in decades for Brazilian markets\nInvestors had been positioned for victory by rightwing Bolsonaro, seen as more willing to tackle budget deficit"
+      "published": "Tue, 27 Oct 2026 00:01:06 GMT",
+      "summary": "Channel 4 strikes streaming deal with Disney\nAgreement comes as linear broadcasters struggle to compete with US media giants"
     },
     {
-      "title": "Why you shouldn’t bother reading the Anthropic IPO filing",
-      "link": "https://www.ft.com/content/d2faa674-766b-4699-83d0-d1f9ed65edbf?syn-25a6b1a6=1",
-      "raw_summary": "Valuing AI lab based on its historic reported numbers is a fool’s errand",
+      "title": "England captain Harry Kane wins Ballon d’Or",
+      "link": "https://www.ft.com/content/0139bf89-1906-460b-a976-663a36010889?syn-25a6b1a6=1",
+      "raw_summary": "Bayern Munich forward recognised as world’s best-performing footballer — the first British player to win the award in 25 years",
       "source": "World",
-      "published": "Mon, 26 Oct 2026 17:29:42 GMT",
-      "summary": "Why you shouldn’t bother reading the Anthropic IPO filing\nValuing AI lab based on its historic reported numbers is a fool’s errand"
+      "published": "Mon, 26 Oct 2026 23:32:54 GMT",
+      "summary": "England captain Harry Kane wins Ballon d’Or\nBayern Munich forward recognised as world’s best-performing footballer — the first British player to win the award in 25 years"
     },
     {
-      "title": "Nigeria evacuates Ebola patient to Switzerland",
-      "link": "https://www.ft.com/content/083251a0-d5ab-48be-8295-41c9860963fd?syn-25a6b1a6=1",
-      "raw_summary": "Authorities work to contain deadly Bundibugyo virus after wife of Abuja-based Swiss diplomat became country’s first confirmed case",
+      "title": "Healey poised to increase adult minimum wage in UK Budget",
+      "link": "https://www.ft.com/content/63b0768d-0cdc-4ce1-b3e2-1e15df44dabc?syn-25a6b1a6=1",
+      "raw_summary": "Chancellor will hold back from bigger increases in the rate for younger workers despite Labour manifesto pledge",
       "source": "World",
-      "published": "Mon, 26 Oct 2026 17:23:29 GMT",
-      "summary": "Nigeria evacuates Ebola patient to Switzerland\nAuthorities work to contain deadly Bundibugyo virus after wife of Abuja-based Swiss diplomat became country’s first confirmed case"
+      "published": "Mon, 26 Oct 2026 23:19:17 GMT",
+      "summary": "Healey poised to increase adult minimum wage in UK Budget\nChancellor will hold back from bigger increases in the rate for younger workers despite Labour manifesto pledge"
     },
     {
-      "title": "Stocks Get Tech Boost as Anthropic Files for IPO: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-25/us-equity-futures-climb-as-crude-oil-price-dips-markets-wrap",
-      "raw_summary": "A revival of the artificial-intelligence trade fueled gains in stocks as Anthropic PBC filed for an IPO, with investors bracing for this week’s results from tech giants and the Federal Reserve decision.",
+      "title": "AI Trade Bounces Back as Anthropic IPO Eases Funding Jitters",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-27/asian-chip-stocks-rise-as-anthropic-ipo-filing-rekindles-ai-bets",
+      "raw_summary": "Anthropic PBC’s initial public offering filing offered a much-needed sentiment boost to the AI trade, bolstering semiconductor stocks in South Korea and Japan.",
       "source": "Bloomberg Markets",
-      "published": "Sun, 25 Oct 2026 22:09:07 GMT",
-      "summary": "Stocks Get Tech Boost as Anthropic Files for IPO: Markets Wrap\nA revival of the artificial-intelligence trade fueled gains in stocks as Anthropic PBC filed for an IPO, with investors bracing for this week’s results from tech giants and the Federal Reserve decision."
+      "published": "Tue, 27 Oct 2026 01:00:52 GMT",
+      "summary": "AI Trade Bounces Back as Anthropic IPO Eases Funding Jitters\nAnthropic PBC’s initial public offering filing offered a much-needed sentiment boost to the AI trade, bolstering semiconductor stocks in South Korea and Japan."
     },
     {
-      "title": "US Stocks Gain as Investors Parse Anthropic IPO Filing",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-26/us-stock-futures-gain-ahead-of-big-tech-earnings-fed-decision",
-      "raw_summary": "US stocks gained on Monday as investors digest Anthropic PBC’s filing for its initial public offering and look forward to key big tech earnings this week as well as the Federal Reserve’s next decision on Wednesday.",
+      "title": "Tech Rally Extends to Asia on Anthropic, Oil Falls: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-26/stock-market-today-dow-s-p-live-updates",
+      "raw_summary": "A rally in Wall Street tech stocks following Anthropic PBC’s filing for an initial public offering carried into Asia, reviving enthusiasm for the artificial intelligence trade after recent strains. Crude oil extended its decline.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 26 Oct 2026 12:38:56 GMT",
-      "summary": "US Stocks Gain as Investors Parse Anthropic IPO Filing\nUS stocks gained on Monday as investors digest Anthropic PBC’s filing for its initial public offering and look forward to key big tech earnings this week as well as the Federal Reserve’s next decision on Wednesday."
+      "published": "Mon, 26 Oct 2026 22:03:56 GMT",
+      "summary": "Tech Rally Extends to Asia on Anthropic, Oil Falls: Markets Wrap\nA rally in Wall Street tech stocks following Anthropic PBC’s filing for an initial public offering carried into Asia, reviving enthusiasm for the artificial intelligence trade after recent strains. Crude oil extended its decline."
     },
     {
-      "title": "Marathon’s Richards Warns ‘No Way Out’ for Beaten-Down CCC Debt",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-26/marathon-s-richards-warns-no-way-out-for-beaten-down-ccc-debt",
-      "raw_summary": "A big swath of the riskiest borrowers have few options other than defaulting on their piling debt as it’s getting increasingly expensive to refinance, CVC Marathon Chief Executive Officer Bruce Richards warned.",
+      "title": "Iron Ore Declines to Two-Year Low as Demand Outlook Weakens",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-27/iron-ore-declines-to-two-year-low-as-demand-outlook-weakens",
+      "raw_summary": "Iron ore dropped to the lowest level in more than two years on a weaker demand outlook and rising supply through year-end.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 26 Oct 2026 17:51:58 GMT",
-      "summary": "Marathon’s Richards Warns ‘No Way Out’ for Beaten-Down CCC Debt\nA big swath of the riskiest borrowers have few options other than defaulting on their piling debt as it’s getting increasingly expensive to refinance, CVC Marathon Chief Executive Officer Bruce Richards warned."
+      "published": "Tue, 27 Oct 2026 02:46:20 GMT",
+      "summary": "Iron Ore Declines to Two-Year Low as Demand Outlook Weakens\nIron ore dropped to the lowest level in more than two years on a weaker demand outlook and rising supply through year-end."
     },
     {
-      "title": "Morgan Stanley Expects Data-Center ABS Spreads to Widen Further",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-26/morgan-stanley-expects-data-center-abs-spreads-to-widen-further",
-      "raw_summary": "Spreads on asset backed securities funding data-center developments will continue to widen as companies rush to tap different debt markets to finance their artificial intelligence endeavors, according to Morgan Stanley strategists.",
+      "title": "Japan Life Insurers Swap Into Higher-Yield Bonds to Lift Returns",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-27/japan-life-insurers-swap-into-higher-yield-bonds-to-lift-returns",
+      "raw_summary": "Japan’s life insurers are swapping out of lower-yielding bonds into higher-yielding debt as elevated yields create opportunities to boost portfolio returns.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 26 Oct 2026 17:46:52 GMT",
-      "summary": "Morgan Stanley Expects Data-Center ABS Spreads to Widen Further\nSpreads on asset backed securities funding data-center developments will continue to widen as companies rush to tap different debt markets to finance their artificial intelligence endeavors, according to Morgan Stanley strategists."
+      "published": "Tue, 27 Oct 2026 02:43:26 GMT",
+      "summary": "Japan Life Insurers Swap Into Higher-Yield Bonds to Lift Returns\nJapan’s life insurers are swapping out of lower-yielding bonds into higher-yielding debt as elevated yields create opportunities to boost portfolio returns."
     },
     {
-      "title": "Latest Oil Market News and Analysis for Oct. 26",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-25/latest-oil-market-news-and-analysis-for-oct-26",
-      "raw_summary": "Oil hovered near a six-month high as Mideast security officials flew to Tehran in a bid to revive peace talks against the backdrop of escalating conflict.",
+      "title": "BlackRock's Rieder on Global Bonds, AI",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-27/blackrock-s-rieder-on-global-bonds-ai-video",
+      "raw_summary": "Rick Rieder, CIO for Global Fixed Income at BlackRock, discusses his outlook for global rates and bonds, as well as the outlook for the fundraising on AI, as companies look to raise capital for infrastructure build-out. He speaks exclusively with Paul Allen and Haidi Stroud Watts on \"Bloomberg: The Asia Trade.\" (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Sun, 25 Oct 2026 22:04:00 GMT",
-      "summary": "Latest Oil Market News and Analysis for Oct. 26\nOil hovered near a six-month high as Mideast security officials flew to Tehran in a bid to revive peace talks against the backdrop of escalating conflict."
+      "published": "Tue, 27 Oct 2026 02:39:29 GMT",
+      "summary": "BlackRock's Rieder on Global Bonds, AI\nRick Rieder, CIO for Global Fixed Income at BlackRock, discusses his outlook for global rates and bonds, as well as the outlook for the fundraising on AI, as companies look to raise capital for infrastructure build-out. He speaks exclusively with Paul Allen and"
     },
     {
       "title": "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines",
