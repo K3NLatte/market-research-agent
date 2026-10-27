@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T03:06:08.427075+00:00",
+  "generated_at": "2026-10-27T11:19:49.319448+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "FBI Arrests Executive at Ransomware Negotiation Firm\nAgents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on "
     },
     {
+      "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
+      "link": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+      "raw_summary": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators gained access to the criminal's operation's backend and cut it off from those computers.\n\n\"The next steps that we took were to disconnect that Amadey controller from all those",
+      "source": "The Hacker News",
+      "published": "Tue, 27 Oct 2026 15:03:06 +0530",
+      "summary": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers\nA criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's "
+    },
+    {
+      "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
+      "link": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+      "raw_summary": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text,&nbsp;security firm Xint&nbsp;has shown.\n\nOpenAI's reasoning models work through a problem before answering, and the service normally returns only the raw reasoning as&nbsp;an encrypted item&nbsp;the user cannot read. The method got past",
+      "source": "The Hacker News",
+      "published": "Tue, 27 Oct 2026 13:52:43 +0530",
+      "summary": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections\nOpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text,&nbsp;security firm Xint&nbsp;has shown.\n\nOpenAI's reasoning models"
+    },
+    {
+      "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
+      "link": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+      "raw_summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua.\n\n\"Cases of compromising IP cameras and DVRs with access to the video stream, changing the device configuration and creating third-party accounts have been recorded,\" the State Special Communications Service of Ukraine (SSSCIP)",
+      "source": "The Hacker News",
+      "published": "Tue, 27 Oct 2026 12:04:47 +0530",
+      "summary": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses\nThe Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua.\n\n\"Cases of compromising IP cameras and DVRs with "
+    },
+    {
+      "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+      "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+      "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog.\n\nThe PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate unauthenticated remote code execution on affected deployments -\n\n\n  CVE-2026-109618 - An out-of-memory",
+      "source": "The Hacker News",
+      "published": "Tue, 27 Oct 2026 10:07:59 +0530",
+      "summary": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog"
+    },
+    {
       "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
       "link": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
       "raw_summary": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025.\n\nAccording to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to the store's pages that, when visited by unsuspecting users, serves malicious JavaScript loader code through Magento CMS blocks.\n\n\"When you",
@@ -51,76 +83,60 @@
       "summary": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento\nAn unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025.\n\nAccording to Dutch e-commerce security company Sansec, the activity is"
     },
     {
-      "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
-      "link": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
-      "raw_summary": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and potentially run code.\n\nPHP says the flaw can be reached through the cURL extension when the extension decompresses HTTP responses automatically. cURL leaves that off by default, but",
-      "source": "The Hacker News",
-      "published": "Mon, 26 Oct 2026 23:15:57 +0530",
-      "summary": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw\nPHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and p"
-    },
-    {
-      "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
-      "link": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
-      "raw_summary": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct impersonation scams or to deliver malware.\n\n\"A consistent pattern of attacker behavior has emerged across these incidents: the use of the same throwaway tenants, the same 'IT",
-      "source": "The Hacker News",
-      "published": "Mon, 26 Oct 2026 21:22:40 +0530",
-      "summary": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware\nCybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct "
-    },
-    {
-      "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
-      "link": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
-      "raw_summary": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already being used in attacks, and security teams have more urgent patches than they can keep up with.\n\nAnd that's not even the full story. A leaked key led to a software supply-chain",
-      "source": "The Hacker News",
-      "published": "Mon, 26 Oct 2026 19:36:13 +0530",
-      "summary": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More\nThis2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some"
-    },
-    {
-      "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
-      "link": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
-      "raw_summary": "Two critical flaws in&nbsp;Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say.\n\nAn attacker would first need a vulnerable Wasmtime build to compile a module they control, and one of the flaws affects only ARM64 systems. Fixed versions were released on",
-      "source": "The Hacker News",
-      "published": "Mon, 26 Oct 2026 17:22:41 +0530",
-      "summary": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes\nTwo critical flaws in&nbsp;Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers sa"
-    },
-    {
-      "title": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows",
-      "link": "https://github.com/otya128/winevdm",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/otya128/winevdm\">https://github.com/otya128/winevdm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50253529\">https://news.ycombinator.com/item?id=50253529</a></p>\n<p>Points: 26</p>\n<p># Comments: 1</p>",
+      "title": "Roblox downloaded 145GB models from us (including adult content) without asking",
+      "link": "https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/",
+      "raw_summary": "<p>Article URL: <a href=\"https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/\">https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50256985\">https://news.ycombinator.com/item?id=50256985</a></p>\n<p>Points: 54</p>\n<p># Comments: 15</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 27 Oct 2026 01:15:04 +0000",
-      "summary": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows\n<p>Article URL: <a href=\"https://github.com/otya128/winevdm\">https://github.com/otya128/winevdm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50253529\">https://news.ycombinator.com/item?id=50253529</a></p>\n<"
+      "published": "Tue, 27 Oct 2026 10:27:50 +0000",
+      "summary": "Roblox downloaded 145GB models from us (including adult content) without asking\n<p>Article URL: <a href=\"https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/\">https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/</a></p>\n<p>Comments URL: <a href=\"http"
     },
     {
-      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
-      "link": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
-      "raw_summary": "<p>Article URL: <a href=\"https://blog.cloudflare.com/kv-cache-exposure-remediation/\">https://blog.cloudflare.com/kv-cache-exposure-remediation/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50252159\">https://news.ycombinator.com/item?id=50252159</a></p>\n<p>Points: 87</p>\n<p># Comments: 23</p>",
+      "title": "I will no longer upload to NEW",
+      "link": "https://lists.debian.org/debian-devel/2026/10/msg00263.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://lists.debian.org/debian-devel/2026/10/msg00263.html\">https://lists.debian.org/debian-devel/2026/10/msg00263.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50256738\">https://news.ycombinator.com/item?id=50256738</a></p>\n<p>Points: 65</p>\n<p># Comments: 15</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 26 Oct 2026 22:41:48 +0000",
-      "summary": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)\n<p>Article URL: <a href=\"https://blog.cloudflare.com/kv-cache-exposure-remediation/\">https://blog.cloudflare.com/kv-cache-exposure-remediation/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50252"
+      "published": "Tue, 27 Oct 2026 09:59:05 +0000",
+      "summary": "I will no longer upload to NEW\n<p>Article URL: <a href=\"https://lists.debian.org/debian-devel/2026/10/msg00263.html\">https://lists.debian.org/debian-devel/2026/10/msg00263.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50256738\">https://news.ycombinator.com/item?id=50256"
     },
     {
-      "title": "Is PHP Running on Your ColdFusion Server? How to Check, and Remove It",
-      "link": "https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it\">https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50252008\">https://news.ycombinator.com/item?id=50252008</a></p>\n<p>Points: 29</p>\n<p># Comments: 18</p>",
+      "title": "The Mythical Man-Month in the Age of AI",
+      "link": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "raw_summary": "<p>Article URL: <a href=\"https://j11g.com/the-mythical-man-month-in-the-age-of-ai\">https://j11g.com/the-mythical-man-month-in-the-age-of-ai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50255298\">https://news.ycombinator.com/item?id=50255298</a></p>\n<p>Points: 175</p>\n<p># Comments: 125</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 26 Oct 2026 22:27:17 +0000",
-      "summary": "Is PHP Running on Your ColdFusion Server? How to Check, and Remove It\n<p>Article URL: <a href=\"https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it\">https://www.gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your"
+      "published": "Tue, 27 Oct 2026 06:25:37 +0000",
+      "summary": "The Mythical Man-Month in the Age of AI\n<p>Article URL: <a href=\"https://j11g.com/the-mythical-man-month-in-the-age-of-ai\">https://j11g.com/the-mythical-man-month-in-the-age-of-ai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50255298\">https://news.ycombinator.com/item?id=50"
     },
     {
-      "title": "The Exponential Time Hypothesis Is False [pdf]",
-      "link": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
-      "raw_summary": "<p>See also: <i>Announcing three new discoveries in mathematics, computer science, and physics</i> - <a href=\"https://news.ycombinator.com/item?id=50251344\">https://news.ycombinator.com/item?id=50251344</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50251661\">https://news.ycombinator.com/item?id=50251661</a></p>\n<p>Points: 357</p>\n<p># Comments: 138</p>",
+      "title": "Writing about pratt parsing so I remember it",
+      "link": "https://www.unix.dog/~yosh/blog/2026-10-25_pratt-parsing.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.unix.dog/~yosh/blog/2026-10-25_pratt-parsing.html\">https://www.unix.dog/~yosh/blog/2026-10-25_pratt-parsing.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50255177\">https://news.ycombinator.com/item?id=50255177</a></p>\n<p>Points: 40</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 26 Oct 2026 21:59:15 +0000",
-      "summary": "The Exponential Time Hypothesis Is False [pdf]\n<p>See also: <i>Announcing three new discoveries in mathematics, computer science, and physics</i> - <a href=\"https://news.ycombinator.com/item?id=50251344\">https://news.ycombinator.com/item?id=50251344</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://n"
+      "published": "Tue, 27 Oct 2026 06:02:23 +0000",
+      "summary": "Writing about pratt parsing so I remember it\n<p>Article URL: <a href=\"https://www.unix.dog/~yosh/blog/2026-10-25_pratt-parsing.html\">https://www.unix.dog/~yosh/blog/2026-10-25_pratt-parsing.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50255177\">https://news.ycombinator"
     },
     {
-      "title": "Three new discoveries in mathematics, computer science, and physics",
-      "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-      "raw_summary": "<p>Related:<p><i>The Exponential Time Hypothesis Is False [pdf]</i> - <a href=\"https://news.ycombinator.com/item?id=50251661\">https://news.ycombinator.com/item?id=50251661</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50251344\">https://news.ycombinator.com/item?id=50251344</a></p>\n<p>Points: 556</p>\n<p># Comments: 230</p>",
+      "title": "I still teach OpenGL ES 3.0",
+      "link": "https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html\">https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50253939\">https://news.ycombinator.com/item?id=50253939</a></p>\n<p>Points: 73</p>\n<p># Comments: 45</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 26 Oct 2026 21:35:28 +0000",
-      "summary": "Three new discoveries in mathematics, computer science, and physics\n<p>Related:<p><i>The Exponential Time Hypothesis Is False [pdf]</i> - <a href=\"https://news.ycombinator.com/item?id=50251661\">https://news.ycombinator.com/item?id=50251661</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombi"
+      "published": "Tue, 27 Oct 2026 02:15:10 +0000",
+      "summary": "I still teach OpenGL ES 3.0\n<p>Article URL: <a href=\"https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html\">https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50253939\">https://news.ycombi"
+    },
+    {
+      "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+      "link": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+      "raw_summary": "Simplismart says its annualized revenue run rate has grown 14-fold in six months, with the U.S. accounting for more than half its revenue.",
+      "source": "TechCrunch",
+      "published": "Tue, 27 Oct 2026 11:00:00 +0000",
+      "summary": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs\nSimplismart says its annualized revenue run rate has grown 14-fold in six months, with the U.S. accounting for more than half its revenue."
+    },
+    {
+      "title": "X is nudging users to promote their posts with a pointing hand, and people are confused",
+      "link": "https://techcrunch.com/2026/10/26/x-is-nudging-users-to-promote-their-posts-with-a-pointing-hand-and-people-are-confused/",
+      "raw_summary": "Whose hand is behind this travesty?",
+      "source": "TechCrunch",
+      "published": "Tue, 27 Oct 2026 06:34:44 +0000",
+      "summary": "X is nudging users to promote their posts with a pointing hand, and people are confused\nWhose hand is behind this travesty?"
     },
     {
       "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
@@ -145,22 +161,6 @@
       "source": "TechCrunch",
       "published": "Mon, 26 Oct 2026 22:00:00 +0000",
       "summary": "Databricks co-founder shares his secrets for winning big enterprise customers\nTurns out selling to big companies isn’t about having the shiniest tech: It’s about hitching a ride on a giant’s sales team."
-    },
-    {
-      "title": "Watch out, YouTube — Instagram goes from short-form to 90-minute videos",
-      "link": "https://techcrunch.com/2026/10/26/watch-out-youtube-instagram-goes-from-short-form-to-90-minute-videos/",
-      "raw_summary": "After years in which every social platform (even LinkedIn!) aggressively pursued short-form video, this is a notable shift in strategy for Instagram.",
-      "source": "TechCrunch",
-      "published": "Mon, 26 Oct 2026 21:05:11 +0000",
-      "summary": "Watch out, YouTube — Instagram goes from short-form to 90-minute videos\nAfter years in which every social platform (even LinkedIn!) aggressively pursued short-form video, this is a notable shift in strategy for Instagram."
-    },
-    {
-      "title": "Uh-oh, it sounds like the iPhone Duo keeps cracking and users aren’t happy about it",
-      "link": "https://techcrunch.com/2026/10/26/uh-oh-it-sounds-like-the-iphone-duo-keeps-cracking-and-users-arent-happy-about-it/",
-      "raw_summary": "A small number of early adopters of the much-hyped new foldable phone from Apple have complained of screens cracking.",
-      "source": "TechCrunch",
-      "published": "Mon, 26 Oct 2026 19:22:40 +0000",
-      "summary": "Uh-oh, it sounds like the iPhone Duo keeps cracking and users aren’t happy about it\nA small number of early adopters of the much-hyped new foldable phone from Apple have complained of screens cracking."
     },
     {
       "title": "Microsoft offers to buy out a quarter of its workforce",
@@ -203,124 +203,124 @@
       "summary": "Apple reveals updated iPad mini with a bigger OLED screen for $700\nApple claims this is the most significant update ever for the iPad mini line."
     },
     {
-      "title": "India moves to tweak jobs data",
-      "link": "https://www.ft.com/content/2eed6610-6ab0-4682-b754-3e673bc4d779?syn-25a6b1a6=1",
-      "raw_summary": "Also, multinationals face more pressure from food safety regulator",
+      "title": "Chinese brands put boot into Mbappé after viral ‘dictator’ meme",
+      "link": "https://www.ft.com/content/ff1cb60c-3c35-4109-aaa5-33c86a5884f5?syn-25a6b1a6=1",
+      "raw_summary": "Real Madrid footballer’s comment on image sparks online backlash in world’s second-biggest economy",
       "source": "World",
-      "published": "Tue, 27 Oct 2026 02:30:07 GMT",
-      "summary": "India moves to tweak jobs data\nAlso, multinationals face more pressure from food safety regulator"
+      "published": "Tue, 27 Oct 2026 11:05:33 GMT",
+      "summary": "Chinese brands put boot into Mbappé after viral ‘dictator’ meme\nReal Madrid footballer’s comment on image sparks online backlash in world’s second-biggest economy"
     },
     {
-      "title": "Bolsonaro’s Liberal Party accepts defeat in Brazil as Trump calls result ‘rigged’",
-      "link": "https://www.ft.com/content/ae37754c-6200-425d-8f8f-ce0b0f7cc250?syn-25a6b1a6=1",
-      "raw_summary": "US president casts doubt on integrity of election result over extension of voting hours",
+      "title": "Dirty tricks and Maga theatrics shake up bruising battle for Texas Senate",
+      "link": "https://www.ft.com/content/e9475864-d8ae-401e-8a3e-e3a7fa75f0c1?syn-25a6b1a6=1",
+      "raw_summary": "Scandal-prone Trump pick goes head-to-head with seminarian Democrat in race that could determine control of the upper house of Congress",
       "source": "World",
-      "published": "Tue, 27 Oct 2026 00:54:15 GMT",
-      "summary": "Bolsonaro’s Liberal Party accepts defeat in Brazil as Trump calls result ‘rigged’\nUS president casts doubt on integrity of election result over extension of voting hours"
+      "published": "Tue, 27 Oct 2026 11:00:08 GMT",
+      "summary": "Dirty tricks and Maga theatrics shake up bruising battle for Texas Senate\nScandal-prone Trump pick goes head-to-head with seminarian Democrat in race that could determine control of the upper house of Congress"
     },
     {
-      "title": "Channel 4 strikes streaming deal with Disney",
-      "link": "https://www.ft.com/content/ae3a1dfb-d7ba-4c88-a6da-cb28b2a1139a?syn-25a6b1a6=1",
-      "raw_summary": "Agreement comes as linear broadcasters struggle to compete with US media giants",
+      "title": "Why the world went batty for Rye and its $60 bread",
+      "link": "https://www.ft.com/content/9979fecf-e18b-4ca0-b6bc-3224696f20c4",
+      "raw_summary": "Inside the NYC food store with the four-ingredient bake",
       "source": "World",
-      "published": "Tue, 27 Oct 2026 00:01:06 GMT",
-      "summary": "Channel 4 strikes streaming deal with Disney\nAgreement comes as linear broadcasters struggle to compete with US media giants"
+      "published": "Tue, 27 Oct 2026 11:00:08 GMT",
+      "summary": "Why the world went batty for Rye and its $60 bread\nInside the NYC food store with the four-ingredient bake"
     },
     {
-      "title": "England captain Harry Kane wins Ballon d’Or",
-      "link": "https://www.ft.com/content/0139bf89-1906-460b-a976-663a36010889?syn-25a6b1a6=1",
-      "raw_summary": "Bayern Munich forward recognised as world’s best-performing footballer — the first British player to win the award in 25 years",
+      "title": "Inflation and interest rates tracker: see how your country compares",
+      "link": "https://www.ft.com/content/088d3368-bb8b-4ff3-9df7-a7680d4d81b2?syn-25a6b1a6=1",
+      "raw_summary": "Explore the latest data through interactive charts",
       "source": "World",
-      "published": "Mon, 26 Oct 2026 23:32:54 GMT",
-      "summary": "England captain Harry Kane wins Ballon d’Or\nBayern Munich forward recognised as world’s best-performing footballer — the first British player to win the award in 25 years"
+      "published": "Tue, 27 Oct 2026 10:52:14 GMT",
+      "summary": "Inflation and interest rates tracker: see how your country compares\nExplore the latest data through interactive charts"
     },
     {
-      "title": "Healey poised to increase adult minimum wage in UK Budget",
-      "link": "https://www.ft.com/content/63b0768d-0cdc-4ce1-b3e2-1e15df44dabc?syn-25a6b1a6=1",
-      "raw_summary": "Chancellor will hold back from bigger increases in the rate for younger workers despite Labour manifesto pledge",
+      "title": "Tech stocks rally as AI trade revives",
+      "link": "https://www.ft.com/content/a4f9f81e-df30-4669-9eca-865d9d14e441?syn-25a6b1a6=1",
+      "raw_summary": "Asia follows Wall Street higher in wake of Anthropic’s long-awaited IPO filing",
       "source": "World",
-      "published": "Mon, 26 Oct 2026 23:19:17 GMT",
-      "summary": "Healey poised to increase adult minimum wage in UK Budget\nChancellor will hold back from bigger increases in the rate for younger workers despite Labour manifesto pledge"
+      "published": "Tue, 27 Oct 2026 10:23:40 GMT",
+      "summary": "Tech stocks rally as AI trade revives\nAsia follows Wall Street higher in wake of Anthropic’s long-awaited IPO filing"
     },
     {
-      "title": "AI Trade Bounces Back as Anthropic IPO Eases Funding Jitters",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-27/asian-chip-stocks-rise-as-anthropic-ipo-filing-rekindles-ai-bets",
-      "raw_summary": "Anthropic PBC’s initial public offering filing offered a much-needed sentiment boost to the AI trade, bolstering semiconductor stocks in South Korea and Japan.",
+      "title": "GM to Leave NYSE for Stock Listing on Tech-Focused Nasdaq",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-27/gm-to-move-stock-listing-to-tech-focused-nasdaq-leaving-nyse",
+      "raw_summary": "General Motors Co. plans to shift its stock listing to the Nasdaq Global Select Market from the New York Stock Exchange, positioning the old-school automaker as a tech-forward company as it embraces automated driving and electric vehicles.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 27 Oct 2026 01:00:52 GMT",
-      "summary": "AI Trade Bounces Back as Anthropic IPO Eases Funding Jitters\nAnthropic PBC’s initial public offering filing offered a much-needed sentiment boost to the AI trade, bolstering semiconductor stocks in South Korea and Japan."
+      "published": "Tue, 27 Oct 2026 10:45:04 GMT",
+      "summary": "GM to Leave NYSE for Stock Listing on Tech-Focused Nasdaq\nGeneral Motors Co. plans to shift its stock listing to the Nasdaq Global Select Market from the New York Stock Exchange, positioning the old-school automaker as a tech-forward company as it embraces automated driving and electric vehicles."
     },
     {
-      "title": "Tech Rally Extends to Asia on Anthropic, Oil Falls: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-26/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "A rally in Wall Street tech stocks following Anthropic PBC’s filing for an initial public offering carried into Asia, reviving enthusiasm for the artificial intelligence trade after recent strains. Crude oil extended its decline.",
+      "title": "Maruti Suzuki Profit Slips 27% as Input Costs Squeeze Margins",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-27/maruti-suzuki-profit-misses-estimate-as-costs-squeeze-margins",
+      "raw_summary": "Maruti Suzuki India Ltd. reported lower-than-expected quarterly profit, as rising input costs weighed on profitability at India’s largest carmaker.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 26 Oct 2026 22:03:56 GMT",
-      "summary": "Tech Rally Extends to Asia on Anthropic, Oil Falls: Markets Wrap\nA rally in Wall Street tech stocks following Anthropic PBC’s filing for an initial public offering carried into Asia, reviving enthusiasm for the artificial intelligence trade after recent strains. Crude oil extended its decline."
+      "published": "Tue, 27 Oct 2026 10:08:59 GMT",
+      "summary": "Maruti Suzuki Profit Slips 27% as Input Costs Squeeze Margins\nMaruti Suzuki India Ltd. reported lower-than-expected quarterly profit, as rising input costs weighed on profitability at India’s largest carmaker."
     },
     {
-      "title": "Iron Ore Declines to Two-Year Low as Demand Outlook Weakens",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-27/iron-ore-declines-to-two-year-low-as-demand-outlook-weakens",
-      "raw_summary": "Iron ore dropped to the lowest level in more than two years on a weaker demand outlook and rising supply through year-end.",
+      "title": "AI Talent War Has Quant Firms Racing to Fund PhDs, Build Labs",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-27/ai-talent-war-has-quant-firms-racing-to-fund-phds-build-labs",
+      "raw_summary": "Wall Street’s quant firms have long been among the most lucrative destinations for the world’s top scientific minds. The AI boom has given those mathematicians and physicists another set of deep-pocketed suitors — and sent some of finance’s most secretive employers on an increasingly public recruitment drive.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 27 Oct 2026 02:46:20 GMT",
-      "summary": "Iron Ore Declines to Two-Year Low as Demand Outlook Weakens\nIron ore dropped to the lowest level in more than two years on a weaker demand outlook and rising supply through year-end."
+      "published": "Tue, 27 Oct 2026 11:15:00 GMT",
+      "summary": "AI Talent War Has Quant Firms Racing to Fund PhDs, Build Labs\nWall Street’s quant firms have long been among the most lucrative destinations for the world’s top scientific minds. The AI boom has given those mathematicians and physicists another set of deep-pocketed suitors — and sent some of finance"
     },
     {
-      "title": "Japan Life Insurers Swap Into Higher-Yield Bonds to Lift Returns",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-27/japan-life-insurers-swap-into-higher-yield-bonds-to-lift-returns",
-      "raw_summary": "Japan’s life insurers are swapping out of lower-yielding bonds into higher-yielding debt as elevated yields create opportunities to boost portfolio returns.",
+      "title": "Morocco Tops South Africa in RMB Continental Investment Rank",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-27/morocco-tops-south-africa-in-rmb-continental-investment-ranking",
+      "raw_summary": "Morocco overtook South Africa to become the continent’s fourth-most attractive investment destination as years of industrialization and faster growth propelled it ahead of the region’s biggest economy, FirstRand Ltd.’s Rand Merchant Bank said.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 27 Oct 2026 02:43:26 GMT",
-      "summary": "Japan Life Insurers Swap Into Higher-Yield Bonds to Lift Returns\nJapan’s life insurers are swapping out of lower-yielding bonds into higher-yielding debt as elevated yields create opportunities to boost portfolio returns."
+      "published": "Tue, 27 Oct 2026 08:49:15 GMT",
+      "summary": "Morocco Tops South Africa in RMB Continental Investment Rank\nMorocco overtook South Africa to become the continent’s fourth-most attractive investment destination as years of industrialization and faster growth propelled it ahead of the region’s biggest economy, FirstRand Ltd.’s Rand Merchant Bank s"
     },
     {
-      "title": "BlackRock's Rieder on Global Bonds, AI",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-27/blackrock-s-rieder-on-global-bonds-ai-video",
-      "raw_summary": "Rick Rieder, CIO for Global Fixed Income at BlackRock, discusses his outlook for global rates and bonds, as well as the outlook for the fundraising on AI, as companies look to raise capital for infrastructure build-out. He speaks exclusively with Paul Allen and Haidi Stroud Watts on \"Bloomberg: The Asia Trade.\" (Source: Bloomberg)",
+      "title": "Indonesia Bond Yield Hits Four-Year High as MSCI Risk, Oil Weigh",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-27/indonesia-10-year-yield-at-four-year-high-on-msci-risk-oil",
+      "raw_summary": "Indonesia’s 10-year government bond yield climbed to a four-year high and the rupiah weakened toward a record low as elevated oil prices and MSCI Inc.’s threat of a stocks downgrade hurt investor sentiment.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 27 Oct 2026 02:39:29 GMT",
-      "summary": "BlackRock's Rieder on Global Bonds, AI\nRick Rieder, CIO for Global Fixed Income at BlackRock, discusses his outlook for global rates and bonds, as well as the outlook for the fundraising on AI, as companies look to raise capital for infrastructure build-out. He speaks exclusively with Paul Allen and"
+      "published": "Tue, 27 Oct 2026 06:52:38 GMT",
+      "summary": "Indonesia Bond Yield Hits Four-Year High as MSCI Risk, Oil Weigh\nIndonesia’s 10-year government bond yield climbed to a four-year high and the rupiah weakened toward a record low as elevated oil prices and MSCI Inc.’s threat of a stocks downgrade hurt investor sentiment."
     },
     {
-      "title": "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines",
-      "link": "https://www.coindesk.com/business/2026/10/26/tom-lee-s-bitmine-favors-share-buybacks-to-ether-purchases-as-crypto-declines",
+      "title": "Crypto wallet maker Keystone to destroy almost 19,000 devices after security breach",
+      "link": "https://www.coindesk.com/business/2026/10/27/crypto-wallet-maker-keystone-to-destroy-almost-19-000-devices-after-security-breach",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 26 Oct 2026 16:05:12 +0000",
-      "summary": "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines\n"
+      "published": "Tue, 27 Oct 2026 11:13:54 +0000",
+      "summary": "Crypto wallet maker Keystone to destroy almost 19,000 devices after security breach\n"
     },
     {
-      "title": "NBA joins pro sports leagues on CFTC prediction markets bandwagon while NFL balks",
-      "link": "https://www.coindesk.com/policy/2026/10/26/nba-joins-pro-sports-leagues-on-cftc-prediction-markets-bandwagon-while-nfl-balks",
+      "title": "Investor who called for AI pivot in 2023 says bitcoin is going to $57,000",
+      "link": "https://www.coindesk.com/markets/2026/10/27/investor-who-called-for-ai-pivot-in-2023-says-bitcoin-is-going-to-usd57-000",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 26 Oct 2026 15:59:55 +0000",
-      "summary": "NBA joins pro sports leagues on CFTC prediction markets bandwagon while NFL balks\n"
+      "published": "Tue, 27 Oct 2026 10:57:51 +0000",
+      "summary": "Investor who called for AI pivot in 2023 says bitcoin is going to $57,000\n"
     },
     {
-      "title": "OCC calls on community banks to enter the stablecoin payments market",
-      "link": "https://www.coindesk.com/policy/2026/10/26/occ-calls-on-community-banks-to-enter-the-stablecoin-payments-market",
+      "title": "Now is the time to accumulate bitcoin, Galaxy says",
+      "link": "https://www.coindesk.com/markets/2026/10/27/now-is-the-time-to-accumulate-bitcoin-galaxy-says",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 26 Oct 2026 15:45:51 +0000",
-      "summary": "OCC calls on community banks to enter the stablecoin payments market\n"
+      "published": "Tue, 27 Oct 2026 09:42:46 +0000",
+      "summary": "Now is the time to accumulate bitcoin, Galaxy says\n"
     },
     {
-      "title": "South Korea weighs fourth delay on its crypto gains tax, pushing it to 2029",
-      "link": "https://www.coindesk.com/policy/2026/10/26/south-korea-weighs-fourth-delay-on-its-crypto-gains-tax-pushing-it-to-2029",
+      "title": "An AI label alone no longer wins lenders, JPMorgan says",
+      "link": "https://www.coindesk.com/markets/2026/10/27/an-ai-label-alone-no-longer-wins-lenders-jpmorgan-says",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 26 Oct 2026 14:51:07 +0000",
-      "summary": "South Korea weighs fourth delay on its crypto gains tax, pushing it to 2029\n"
+      "published": "Tue, 27 Oct 2026 08:24:39 +0000",
+      "summary": "An AI label alone no longer wins lenders, JPMorgan says\n"
     },
     {
-      "title": "Canada opens consultation on draft stablecoin rules, maintains ban on yields",
-      "link": "https://www.coindesk.com/policy/2026/10/26/canada-opens-consultation-on-draft-stablecoin-rules-maintains-ban-on-yields",
+      "title": "Solana bug reports now cost 1 SOL as AI floods security teams with spam",
+      "link": "https://www.coindesk.com/tech/2026/10/27/solana-bug-reports-now-cost-1-sol-as-ai-floods-security-teams-with-spam",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 26 Oct 2026 14:23:41 +0000",
-      "summary": "Canada opens consultation on draft stablecoin rules, maintains ban on yields\n"
+      "published": "Tue, 27 Oct 2026 07:44:04 +0000",
+      "summary": "Solana bug reports now cost 1 SOL as AI floods security teams with spam\n"
     }
   ]
 }
