@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T11:19:49.319448+00:00",
+  "generated_at": "2026-10-27T17:06:50.266021+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,124 +43,156 @@
       "summary": "FBI Arrests Executive at Ransomware Negotiation Firm\nAgents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on "
     },
     {
-      "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
-      "link": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
-      "raw_summary": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators gained access to the criminal's operation's backend and cut it off from those computers.\n\n\"The next steps that we took were to disconnect that Amadey controller from all those",
+      "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+      "link": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+      "raw_summary": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups.\n\nThe flaw is in builds that use the OpenSSL backend with mutual-TLS, where the server checks a client certificate and vice versa, and a revocation list is configured to block revoked",
       "source": "The Hacker News",
-      "published": "Tue, 27 Oct 2026 15:03:06 +0530",
-      "summary": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers\nA criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's "
+      "published": "Tue, 27 Oct 2026 19:29:48 +0530",
+      "summary": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption\nThe GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups.\n\nThe"
     },
     {
-      "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
-      "link": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
-      "raw_summary": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text,&nbsp;security firm Xint&nbsp;has shown.\n\nOpenAI's reasoning models work through a problem before answering, and the service normally returns only the raw reasoning as&nbsp;an encrypted item&nbsp;the user cannot read. The method got past",
+      "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+      "link": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+      "raw_summary": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices.\n\nThe vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could result in arbitrary code execution when processing a maliciously crafted file.\n\nPatches for the flaw were released last month by Apple in",
       "source": "The Hacker News",
-      "published": "Tue, 27 Oct 2026 13:52:43 +0530",
-      "summary": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections\nOpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text,&nbsp;security firm Xint&nbsp;has shown.\n\nOpenAI's reasoning models"
+      "published": "Tue, 27 Oct 2026 19:29:09 +0530",
+      "summary": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads\nApple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices.\n\nThe vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds writ"
     },
     {
-      "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
-      "link": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
-      "raw_summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua.\n\n\"Cases of compromising IP cameras and DVRs with access to the video stream, changing the device configuration and creating third-party accounts have been recorded,\" the State Special Communications Service of Ukraine (SSSCIP)",
+      "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+      "link": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+      "raw_summary": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account.\n\nMicrosoft tracks the flaw as&nbsp;CVE-2026-80097&nbsp;and fixed it in Authenticator for Android version 6.2606.4246, so anyone using the app should update.\n\nIn the researchers' tests,",
       "source": "The Hacker News",
-      "published": "Tue, 27 Oct 2026 12:04:47 +0530",
-      "summary": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses\nThe Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua.\n\n\"Cases of compromising IP cameras and DVRs with "
+      "published": "Tue, 27 Oct 2026 17:39:50 +0530",
+      "summary": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens\nMicrosoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account.\n"
     },
     {
-      "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
-      "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
-      "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog.\n\nThe PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate unauthenticated remote code execution on affected deployments -\n\n\n  CVE-2026-109618 - An out-of-memory",
+      "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+      "link": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+      "raw_summary": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a&nbsp;statement&nbsp;on October 26.\n\nSomeone with that key could build counterfeit devices that pass the online check owners use to verify a Keystone. A buyer who trusted a counterfeit could have their crypto stolen, but the incident did not involve",
       "source": "The Hacker News",
-      "published": "Tue, 27 Oct 2026 10:07:59 +0530",
-      "summary": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog"
+      "published": "Tue, 27 Oct 2026 17:16:00 +0530",
+      "summary": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key\nAn attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a&nbsp;statement&nbsp;on October 26.\n\nSomeone with that key could "
     },
     {
-      "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
-      "link": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
-      "raw_summary": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025.\n\nAccording to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to the store's pages that, when visited by unsuspecting users, serves malicious JavaScript loader code through Magento CMS blocks.\n\n\"When you",
+      "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+      "link": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
+      "raw_summary": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing attempts to specific employees or organizations.&nbsp;\n\nSome fake login pages go beyond stealing passwords. They can also capture MFA codes or hijack authenticated sessions, allowing attackers to gain",
       "source": "The Hacker News",
-      "published": "Mon, 26 Oct 2026 23:42:22 +0530",
-      "summary": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento\nAn unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025.\n\nAccording to Dutch e-commerce security company Sansec, the activity is"
+      "published": "Tue, 27 Oct 2026 17:02:46 +0530",
+      "summary": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier\nFake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing attempts to specific employees or or"
     },
     {
-      "title": "Roblox downloaded 145GB models from us (including adult content) without asking",
-      "link": "https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/",
-      "raw_summary": "<p>Article URL: <a href=\"https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/\">https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50256985\">https://news.ycombinator.com/item?id=50256985</a></p>\n<p>Points: 54</p>\n<p># Comments: 15</p>",
+      "title": "Police Are Using AI to Pull over Drivers for 'Suspicious' Behavior",
+      "link": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
+      "raw_summary": "<p>Article URL: <a href=\"https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220\">https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50261819\">https://news.ycombinator.com/item?id=50261819</a></p>\n<p>Points: 5</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 27 Oct 2026 10:27:50 +0000",
-      "summary": "Roblox downloaded 145GB models from us (including adult content) without asking\n<p>Article URL: <a href=\"https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/\">https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/</a></p>\n<p>Comments URL: <a href=\"http"
+      "published": "Tue, 27 Oct 2026 16:40:15 +0000",
+      "summary": "Police Are Using AI to Pull over Drivers for 'Suspicious' Behavior\n<p>Article URL: <a href=\"https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220\">https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220</a></p>\n<p>Comm"
     },
     {
-      "title": "I will no longer upload to NEW",
-      "link": "https://lists.debian.org/debian-devel/2026/10/msg00263.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://lists.debian.org/debian-devel/2026/10/msg00263.html\">https://lists.debian.org/debian-devel/2026/10/msg00263.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50256738\">https://news.ycombinator.com/item?id=50256738</a></p>\n<p>Points: 65</p>\n<p># Comments: 15</p>",
+      "title": "A 28-Year-Old DOGE Operative Gutted USAID. HR Had No Record of Him Working There",
+      "link": "https://www.wired.com/story/a-28-year-old-doge-operative-gutted-usaid-hr-had-no-record-of-him-working-there/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.wired.com/story/a-28-year-old-doge-operative-gutted-usaid-hr-had-no-record-of-him-working-there/\">https://www.wired.com/story/a-28-year-old-doge-operative-gutted-usaid-hr-had-no-record-of-him-working-there/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50261784\">https://news.ycombinator.com/item?id=50261784</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 27 Oct 2026 09:59:05 +0000",
-      "summary": "I will no longer upload to NEW\n<p>Article URL: <a href=\"https://lists.debian.org/debian-devel/2026/10/msg00263.html\">https://lists.debian.org/debian-devel/2026/10/msg00263.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50256738\">https://news.ycombinator.com/item?id=50256"
+      "published": "Tue, 27 Oct 2026 16:38:08 +0000",
+      "summary": "A 28-Year-Old DOGE Operative Gutted USAID. HR Had No Record of Him Working There\n<p>Article URL: <a href=\"https://www.wired.com/story/a-28-year-old-doge-operative-gutted-usaid-hr-had-no-record-of-him-working-there/\">https://www.wired.com/story/a-28-year-old-doge-operative-gutted-usaid-hr-had-no-reco"
     },
     {
-      "title": "The Mythical Man-Month in the Age of AI",
-      "link": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
-      "raw_summary": "<p>Article URL: <a href=\"https://j11g.com/the-mythical-man-month-in-the-age-of-ai\">https://j11g.com/the-mythical-man-month-in-the-age-of-ai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50255298\">https://news.ycombinator.com/item?id=50255298</a></p>\n<p>Points: 175</p>\n<p># Comments: 125</p>",
+      "title": "Classification of Finite Simple Groups Formalized in Lean",
+      "link": "https://cfsg.axiommath.ai/",
+      "raw_summary": "<p>Article URL: <a href=\"https://cfsg.axiommath.ai/\">https://cfsg.axiommath.ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50261647\">https://news.ycombinator.com/item?id=50261647</a></p>\n<p>Points: 11</p>\n<p># Comments: 6</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 27 Oct 2026 06:25:37 +0000",
-      "summary": "The Mythical Man-Month in the Age of AI\n<p>Article URL: <a href=\"https://j11g.com/the-mythical-man-month-in-the-age-of-ai\">https://j11g.com/the-mythical-man-month-in-the-age-of-ai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50255298\">https://news.ycombinator.com/item?id=50"
+      "published": "Tue, 27 Oct 2026 16:29:02 +0000",
+      "summary": "Classification of Finite Simple Groups Formalized in Lean\n<p>Article URL: <a href=\"https://cfsg.axiommath.ai/\">https://cfsg.axiommath.ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50261647\">https://news.ycombinator.com/item?id=50261647</a></p>\n<p>Points: 11</p>\n<p># Comm"
     },
     {
-      "title": "Writing about pratt parsing so I remember it",
-      "link": "https://www.unix.dog/~yosh/blog/2026-10-25_pratt-parsing.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.unix.dog/~yosh/blog/2026-10-25_pratt-parsing.html\">https://www.unix.dog/~yosh/blog/2026-10-25_pratt-parsing.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50255177\">https://news.ycombinator.com/item?id=50255177</a></p>\n<p>Points: 40</p>\n<p># Comments: 3</p>",
+      "title": "Vicious Cycles: Theses on a philosophy of news",
+      "link": "https://harpers.org/archive/2020/01/vicious-cycles-theses-on-a-philosophy-of-news/",
+      "raw_summary": "<p>Article URL: <a href=\"https://harpers.org/archive/2020/01/vicious-cycles-theses-on-a-philosophy-of-news/\">https://harpers.org/archive/2020/01/vicious-cycles-theses-on-a-philosophy-of-news/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50261623\">https://news.ycombinator.com/item?id=50261623</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 27 Oct 2026 06:02:23 +0000",
-      "summary": "Writing about pratt parsing so I remember it\n<p>Article URL: <a href=\"https://www.unix.dog/~yosh/blog/2026-10-25_pratt-parsing.html\">https://www.unix.dog/~yosh/blog/2026-10-25_pratt-parsing.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50255177\">https://news.ycombinator"
+      "published": "Tue, 27 Oct 2026 16:27:29 +0000",
+      "summary": "Vicious Cycles: Theses on a philosophy of news\n<p>Article URL: <a href=\"https://harpers.org/archive/2020/01/vicious-cycles-theses-on-a-philosophy-of-news/\">https://harpers.org/archive/2020/01/vicious-cycles-theses-on-a-philosophy-of-news/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.co"
     },
     {
-      "title": "I still teach OpenGL ES 3.0",
-      "link": "https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html\">https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50253939\">https://news.ycombinator.com/item?id=50253939</a></p>\n<p>Points: 73</p>\n<p># Comments: 45</p>",
+      "title": "We let our cloud agents query prod (with OIDC, not secrets)",
+      "link": "https://www.formal.ai/blog/cloud-agents-oidc-infrastructure/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.formal.ai/blog/cloud-agents-oidc-infrastructure/\">https://www.formal.ai/blog/cloud-agents-oidc-infrastructure/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50261584\">https://news.ycombinator.com/item?id=50261584</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 27 Oct 2026 02:15:10 +0000",
-      "summary": "I still teach OpenGL ES 3.0\n<p>Article URL: <a href=\"https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html\">https://eliasfarhan.ch/graphics/cpp/2026/01/27/why-i-teach-opengles.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50253939\">https://news.ycombi"
+      "published": "Tue, 27 Oct 2026 16:25:12 +0000",
+      "summary": "We let our cloud agents query prod (with OIDC, not secrets)\n<p>Article URL: <a href=\"https://www.formal.ai/blog/cloud-agents-oidc-infrastructure/\">https://www.formal.ai/blog/cloud-agents-oidc-infrastructure/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50261584\">https://new"
     },
     {
-      "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
-      "link": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
-      "raw_summary": "Simplismart says its annualized revenue run rate has grown 14-fold in six months, with the U.S. accounting for more than half its revenue.",
+      "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+      "link": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+      "raw_summary": "Google DeepMind released Genie 4, a world model with real-time audio, more realistic simulations, and mid-simulation text prompts, in research preview for trusted testers.",
       "source": "TechCrunch",
-      "published": "Tue, 27 Oct 2026 11:00:00 +0000",
-      "summary": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs\nSimplismart says its annualized revenue run rate has grown 14-fold in six months, with the U.S. accounting for more than half its revenue."
+      "published": "Tue, 27 Oct 2026 16:30:57 +0000",
+      "summary": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering\nGoogle DeepMind released Genie 4, a world model with real-time audio, more realistic simulations, and mid-simulation text prompts, in research preview for trusted testers."
     },
     {
-      "title": "X is nudging users to promote their posts with a pointing hand, and people are confused",
-      "link": "https://techcrunch.com/2026/10/26/x-is-nudging-users-to-promote-their-posts-with-a-pointing-hand-and-people-are-confused/",
-      "raw_summary": "Whose hand is behind this travesty?",
+      "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+      "link": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+      "raw_summary": "Rohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. His startup, Ndoc, aims to take on Microsoft Office Suite.",
       "source": "TechCrunch",
-      "published": "Tue, 27 Oct 2026 06:34:44 +0000",
-      "summary": "X is nudging users to promote their posts with a pointing hand, and people are confused\nWhose hand is behind this travesty?"
+      "published": "Tue, 27 Oct 2026 14:59:09 +0000",
+      "summary": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace\nRohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. His startup, Ndoc, aims to take on Microsoft Office Suite."
     },
     {
-      "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
-      "link": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
-      "raw_summary": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
+      "title": "Ford Fathom will be the cheapest American EV capable of powering a house",
+      "link": "https://techcrunch.com/2026/10/27/ford-fathom-will-be-the-cheapest-american-ev-capable-of-powering-a-house/",
+      "raw_summary": "Ford is rolling out two new chargers capable of powering a home or the grid — so-called V2X capability.",
       "source": "TechCrunch",
-      "published": "Tue, 27 Oct 2026 02:00:00 +0000",
-      "summary": "How OpenAI turned its coding tools into dots, an always-on personal assistant\nAlexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent."
+      "published": "Tue, 27 Oct 2026 14:51:33 +0000",
+      "summary": "Ford Fathom will be the cheapest American EV capable of powering a house\nFord is rolling out two new chargers capable of powering a home or the grid — so-called V2X capability."
     },
     {
-      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
-      "link": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
-      "raw_summary": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI.",
+      "title": "US government says hackers are now exploiting critical PHP web bugs",
+      "link": "https://techcrunch.com/2026/10/27/us-government-says-hackers-are-now-exploiting-critical-php-web-bugs/",
+      "raw_summary": "The U.S. government cyber agency warns that hackers have figured out a way to exploit the popular PHP software, used in 70% of the web's software.",
       "source": "TechCrunch",
-      "published": "Tue, 27 Oct 2026 01:12:21 +0000",
-      "summary": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing\nAn AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust fre"
+      "published": "Tue, 27 Oct 2026 14:40:39 +0000",
+      "summary": "US government says hackers are now exploiting critical PHP web bugs\nThe U.S. government cyber agency warns that hackers have figured out a way to exploit the popular PHP software, used in 70% of the web's software."
     },
     {
-      "title": "Databricks co-founder shares his secrets for winning big enterprise customers",
-      "link": "https://techcrunch.com/2026/10/26/databricks-co-founder-shares-his-secrets-for-winning-big-enterprises-customers/",
-      "raw_summary": "Turns out selling to big companies isn’t about having the shiniest tech: It’s about hitching a ride on a giant’s sales team.",
+      "title": "Apple unveils new 14-inch MacBook Pro with M6 chip",
+      "link": "https://techcrunch.com/2026/10/27/apple-unveils-new-14-inch-macbook-pro-with-m6-chip/",
+      "raw_summary": "The new MacBook Pro comes with 24 hours of battery life, and now features support for Wi-Fi 7 and Bluetooth 6 connectivity.",
       "source": "TechCrunch",
-      "published": "Mon, 26 Oct 2026 22:00:00 +0000",
-      "summary": "Databricks co-founder shares his secrets for winning big enterprise customers\nTurns out selling to big companies isn’t about having the shiniest tech: It’s about hitching a ride on a giant’s sales team."
+      "published": "Tue, 27 Oct 2026 14:25:11 +0000",
+      "summary": "Apple unveils new 14-inch MacBook Pro with M6 chip\nThe new MacBook Pro comes with 24 hours of battery life, and now features support for Wi-Fi 7 and Bluetooth 6 connectivity."
+    },
+    {
+      "title": "Apple iPhone Duo review: Two screens, two experiences, two thousand dollars",
+      "link": "https://arstechnica.com/gadgets/2026/10/apple-iphone-duo-review-two-screens-two-experiences-two-thousand-dollars/",
+      "raw_summary": "I <em>respect</em> Apple's first crack at a foldable phone, but I'm not sure I <em>like</em> it.",
+      "source": "Ars Technica - All content",
+      "published": "Tue, 27 Oct 2026 14:20:26 +0000",
+      "summary": "Apple iPhone Duo review: Two screens, two experiences, two thousand dollars\nI <em>respect</em> Apple's first crack at a foldable phone, but I'm not sure I <em>like</em> it."
+    },
+    {
+      "title": "Some iPhone Duo screens are already failing, Apple says only a \"small number\" are affected",
+      "link": "https://arstechnica.com/gadgets/2026/10/some-iphone-duo-screens-are-already-failing/",
+      "raw_summary": "Apple's \"precision-engineered\" hinge is apparently damaging some iPhone Duo screens.",
+      "source": "Ars Technica - All content",
+      "published": "Tue, 27 Oct 2026 14:00:49 +0000",
+      "summary": "Some iPhone Duo screens are already failing, Apple says only a \"small number\" are affected\nApple's \"precision-engineered\" hinge is apparently damaging some iPhone Duo screens."
+    },
+    {
+      "title": "Sculpture recreates odd optical effects of famed Lycurgus Cup",
+      "link": "https://arstechnica.com/science/2026/10/scientists-recreate-the-1600-year-old-recipe-of-lycurgus-cup/",
+      "raw_summary": "University of Sheffield researchers figured out how to recreate the 1600-year-old glass recipe.",
+      "source": "Ars Technica - All content",
+      "published": "Tue, 27 Oct 2026 13:32:35 +0000",
+      "summary": "Sculpture recreates odd optical effects of famed Lycurgus Cup\nUniversity of Sheffield researchers figured out how to recreate the 1600-year-old glass recipe."
+    },
+    {
+      "title": "US officials want Section 702 renewed before damaging court ruling goes public",
+      "link": "https://arstechnica.com/tech-policy/2026/10/us-officials-want-section-702-renewed-before-damaging-court-ruling-goes-public/",
+      "raw_summary": "Senators say officials hid a ruling on warrantless searches past its release deadline.",
+      "source": "Ars Technica - All content",
+      "published": "Tue, 27 Oct 2026 13:22:16 +0000",
+      "summary": "US officials want Section 702 renewed before damaging court ruling goes public\nSenators say officials hid a ruling on warrantless searches past its release deadline."
     },
     {
       "title": "Microsoft offers to buy out a quarter of its workforce",
@@ -171,156 +203,124 @@
       "summary": "Microsoft offers to buy out a quarter of its workforce\nEmployees in the US, Canada, India, and the UK may receive offers to leave MS today."
     },
     {
-      "title": "Worms mate in man's eyes, get plucked out right before larvae burst out",
-      "link": "https://arstechnica.com/health/2026/10/whats-worse-than-having-eye-worms-having-eye-worms-with-babies/",
-      "raw_summary": "Case study gives a whole new meaning to \"bedroom eyes.\"",
-      "source": "Ars Technica - All content",
-      "published": "Mon, 26 Oct 2026 20:27:00 +0000",
-      "summary": "Worms mate in man's eyes, get plucked out right before larvae burst out\nCase study gives a whole new meaning to \"bedroom eyes.\""
-    },
-    {
-      "title": "Meet the real-life Scottish surgeon who inspired Sherlock Holmes",
-      "link": "https://arstechnica.com/science/2026/10/meet-the-real-life-scottish-surgeon-who-inspired-sherlock-holmes/",
-      "raw_summary": "Lindsey Fitzharris chats with Ars about her new book, <em>Sleuth-Hound: The Case of the Real Sherlock Holmes</em>.",
-      "source": "Ars Technica - All content",
-      "published": "Mon, 26 Oct 2026 20:15:07 +0000",
-      "summary": "Meet the real-life Scottish surgeon who inspired Sherlock Holmes\nLindsey Fitzharris chats with Ars about her new book, <em>Sleuth-Hound: The Case of the Real Sherlock Holmes</em>."
-    },
-    {
-      "title": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
-      "link": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
-      "raw_summary": "Included is the ability to limit which applications Siri can directly access.",
-      "source": "Ars Technica - All content",
-      "published": "Mon, 26 Oct 2026 20:04:16 +0000",
-      "summary": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo\nIncluded is the ability to limit which applications Siri can directly access."
-    },
-    {
-      "title": "Apple reveals updated iPad mini with a bigger OLED screen for $700",
-      "link": "https://arstechnica.com/apple/2026/10/apple-reveals-updated-ipad-mini-with-a-bigger-oled-screen-for-700/",
-      "raw_summary": "Apple claims this is the most significant update ever for the iPad mini line.",
-      "source": "Ars Technica - All content",
-      "published": "Mon, 26 Oct 2026 19:04:40 +0000",
-      "summary": "Apple reveals updated iPad mini with a bigger OLED screen for $700\nApple claims this is the most significant update ever for the iPad mini line."
-    },
-    {
-      "title": "Chinese brands put boot into Mbappé after viral ‘dictator’ meme",
-      "link": "https://www.ft.com/content/ff1cb60c-3c35-4109-aaa5-33c86a5884f5?syn-25a6b1a6=1",
-      "raw_summary": "Real Madrid footballer’s comment on image sparks online backlash in world’s second-biggest economy",
-      "source": "World",
-      "published": "Tue, 27 Oct 2026 11:05:33 GMT",
-      "summary": "Chinese brands put boot into Mbappé after viral ‘dictator’ meme\nReal Madrid footballer’s comment on image sparks online backlash in world’s second-biggest economy"
-    },
-    {
-      "title": "Dirty tricks and Maga theatrics shake up bruising battle for Texas Senate",
-      "link": "https://www.ft.com/content/e9475864-d8ae-401e-8a3e-e3a7fa75f0c1?syn-25a6b1a6=1",
-      "raw_summary": "Scandal-prone Trump pick goes head-to-head with seminarian Democrat in race that could determine control of the upper house of Congress",
-      "source": "World",
-      "published": "Tue, 27 Oct 2026 11:00:08 GMT",
-      "summary": "Dirty tricks and Maga theatrics shake up bruising battle for Texas Senate\nScandal-prone Trump pick goes head-to-head with seminarian Democrat in race that could determine control of the upper house of Congress"
-    },
-    {
-      "title": "Why the world went batty for Rye and its $60 bread",
-      "link": "https://www.ft.com/content/9979fecf-e18b-4ca0-b6bc-3224696f20c4",
-      "raw_summary": "Inside the NYC food store with the four-ingredient bake",
-      "source": "World",
-      "published": "Tue, 27 Oct 2026 11:00:08 GMT",
-      "summary": "Why the world went batty for Rye and its $60 bread\nInside the NYC food store with the four-ingredient bake"
-    },
-    {
-      "title": "Inflation and interest rates tracker: see how your country compares",
-      "link": "https://www.ft.com/content/088d3368-bb8b-4ff3-9df7-a7680d4d81b2?syn-25a6b1a6=1",
-      "raw_summary": "Explore the latest data through interactive charts",
-      "source": "World",
-      "published": "Tue, 27 Oct 2026 10:52:14 GMT",
-      "summary": "Inflation and interest rates tracker: see how your country compares\nExplore the latest data through interactive charts"
-    },
-    {
-      "title": "Tech stocks rally as AI trade revives",
+      "title": "Tech stocks gain as AI trade revives",
       "link": "https://www.ft.com/content/a4f9f81e-df30-4669-9eca-865d9d14e441?syn-25a6b1a6=1",
       "raw_summary": "Asia follows Wall Street higher in wake of Anthropic’s long-awaited IPO filing",
       "source": "World",
-      "published": "Tue, 27 Oct 2026 10:23:40 GMT",
-      "summary": "Tech stocks rally as AI trade revives\nAsia follows Wall Street higher in wake of Anthropic’s long-awaited IPO filing"
+      "published": "Tue, 27 Oct 2026 16:38:55 GMT",
+      "summary": "Tech stocks gain as AI trade revives\nAsia follows Wall Street higher in wake of Anthropic’s long-awaited IPO filing"
     },
     {
-      "title": "GM to Leave NYSE for Stock Listing on Tech-Focused Nasdaq",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-27/gm-to-move-stock-listing-to-tech-focused-nasdaq-leaving-nyse",
-      "raw_summary": "General Motors Co. plans to shift its stock listing to the Nasdaq Global Select Market from the New York Stock Exchange, positioning the old-school automaker as a tech-forward company as it embraces automated driving and electric vehicles.",
+      "title": "Boeing shares slump as planemaker cuts 737 jet delivery target",
+      "link": "https://www.ft.com/content/f8c1c655-bb55-4ee1-bc8c-8315a6f6821f?syn-25a6b1a6=1",
+      "raw_summary": "Stock falls 10% after chief executive Kelly Ortberg admits group is behind schedule in production of airliner",
+      "source": "World",
+      "published": "Tue, 27 Oct 2026 16:38:23 GMT",
+      "summary": "Boeing shares slump as planemaker cuts 737 jet delivery target\nStock falls 10% after chief executive Kelly Ortberg admits group is behind schedule in production of airliner"
+    },
+    {
+      "title": "There is more Oxford Street can do to get tills ringing",
+      "link": "https://www.ft.com/content/44ff901d-8087-4a2a-989d-7bfe05ae7d9e?syn-25a6b1a6=1",
+      "raw_summary": "Longer opening hours and nationwide measures such as reintroducing tax-free spending for tourists would provide a boost",
+      "source": "World",
+      "published": "Tue, 27 Oct 2026 16:28:16 GMT",
+      "summary": "There is more Oxford Street can do to get tills ringing\nLonger opening hours and nationwide measures such as reintroducing tax-free spending for tourists would provide a boost"
+    },
+    {
+      "title": "EU pressures allies over looming Ukraine funding crunch",
+      "link": "https://www.ft.com/content/8aba217f-064f-4193-89fc-3565bd2ee910?syn-25a6b1a6=1",
+      "raw_summary": "European Commission forecasts suggest non-EU partners have pledged just €4bn in aid for Kyiv next year, down from €19bn in 2026",
+      "source": "World",
+      "published": "Tue, 27 Oct 2026 16:04:26 GMT",
+      "summary": "EU pressures allies over looming Ukraine funding crunch\nEuropean Commission forecasts suggest non-EU partners have pledged just €4bn in aid for Kyiv next year, down from €19bn in 2026"
+    },
+    {
+      "title": "Two British men appear in court after being charged over plot at RAF Fairford",
+      "link": "https://www.ft.com/content/71286e07-9552-4a12-b8f8-5492000d0330?syn-25a6b1a6=1",
+      "raw_summary": "Mohmed Abdulkarim and Nouman Essghir both charged under National Security Act",
+      "source": "World",
+      "published": "Tue, 27 Oct 2026 15:58:52 GMT",
+      "summary": "Two British men appear in court after being charged over plot at RAF Fairford\nMohmed Abdulkarim and Nouman Essghir both charged under National Security Act"
+    },
+    {
+      "title": "A Visit to the AI Model Retirement Home",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-10-27/a-visit-to-the-ai-model-retirement-home",
+      "raw_summary": "Another use of compute.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 27 Oct 2026 10:45:04 GMT",
-      "summary": "GM to Leave NYSE for Stock Listing on Tech-Focused Nasdaq\nGeneral Motors Co. plans to shift its stock listing to the Nasdaq Global Select Market from the New York Stock Exchange, positioning the old-school automaker as a tech-forward company as it embraces automated driving and electric vehicles."
+      "published": "Tue, 27 Oct 2026 17:04:41 GMT",
+      "summary": "A Visit to the AI Model Retirement Home\nAnother use of compute."
     },
     {
-      "title": "Maruti Suzuki Profit Slips 27% as Input Costs Squeeze Margins",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-27/maruti-suzuki-profit-misses-estimate-as-costs-squeeze-margins",
-      "raw_summary": "Maruti Suzuki India Ltd. reported lower-than-expected quarterly profit, as rising input costs weighed on profitability at India’s largest carmaker.",
+      "title": "Millennium Taps Prediction Markets Data for Trading Edge",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-27/millennium-taps-prediction-markets-data-in-hunt-for-trading-edge",
+      "raw_summary": "Millennium Management is exploring ways to use prediction markets to inform its trading strategies, joining a growing roster of Wall Street firms dipping their toes into the space.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 27 Oct 2026 10:08:59 GMT",
-      "summary": "Maruti Suzuki Profit Slips 27% as Input Costs Squeeze Margins\nMaruti Suzuki India Ltd. reported lower-than-expected quarterly profit, as rising input costs weighed on profitability at India’s largest carmaker."
+      "published": "Tue, 27 Oct 2026 15:46:00 GMT",
+      "summary": "Millennium Taps Prediction Markets Data for Trading Edge\nMillennium Management is exploring ways to use prediction markets to inform its trading strategies, joining a growing roster of Wall Street firms dipping their toes into the space."
     },
     {
-      "title": "AI Talent War Has Quant Firms Racing to Fund PhDs, Build Labs",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-27/ai-talent-war-has-quant-firms-racing-to-fund-phds-build-labs",
-      "raw_summary": "Wall Street’s quant firms have long been among the most lucrative destinations for the world’s top scientific minds. The AI boom has given those mathematicians and physicists another set of deep-pocketed suitors — and sent some of finance’s most secretive employers on an increasingly public recruitment drive.",
+      "title": "Scotiabank Plans SRT Transaction Tied to $2 Billion of Loans",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-27/scotiabank-plans-srt-transaction-tied-to-2-billion-of-loans",
+      "raw_summary": "Bank of Nova Scotia is working on a significant risk transfer tied to around $2 billion of loans, joining a growing list of lenders looking to take advantage of strong demand to wrap up deals before year-end.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 27 Oct 2026 11:15:00 GMT",
-      "summary": "AI Talent War Has Quant Firms Racing to Fund PhDs, Build Labs\nWall Street’s quant firms have long been among the most lucrative destinations for the world’s top scientific minds. The AI boom has given those mathematicians and physicists another set of deep-pocketed suitors — and sent some of finance"
+      "published": "Tue, 27 Oct 2026 16:57:28 GMT",
+      "summary": "Scotiabank Plans SRT Transaction Tied to $2 Billion of Loans\nBank of Nova Scotia is working on a significant risk transfer tied to around $2 billion of loans, joining a growing list of lenders looking to take advantage of strong demand to wrap up deals before year-end."
     },
     {
-      "title": "Morocco Tops South Africa in RMB Continental Investment Rank",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-27/morocco-tops-south-africa-in-rmb-continental-investment-ranking",
-      "raw_summary": "Morocco overtook South Africa to become the continent’s fourth-most attractive investment destination as years of industrialization and faster growth propelled it ahead of the region’s biggest economy, FirstRand Ltd.’s Rand Merchant Bank said.",
+      "title": "Anglo American’s (AAL LN) Sanches Says Brazil Needs to ‘Negotiate With Everyone’",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-27/anglo-american-s-aal-ln-sanches-says-brazil-needs-to-negotiate-with-everyone",
+      "raw_summary": "Anglo American Plc’s top executive in Brazil says the nation should avoid picking sides in the global race for critical minerals and seek to supply nations across geopolitical blocs.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 27 Oct 2026 08:49:15 GMT",
-      "summary": "Morocco Tops South Africa in RMB Continental Investment Rank\nMorocco overtook South Africa to become the continent’s fourth-most attractive investment destination as years of industrialization and faster growth propelled it ahead of the region’s biggest economy, FirstRand Ltd.’s Rand Merchant Bank s"
+      "published": "Tue, 27 Oct 2026 15:39:12 GMT",
+      "summary": "Anglo American’s (AAL LN) Sanches Says Brazil Needs to ‘Negotiate With Everyone’\nAnglo American Plc’s top executive in Brazil says the nation should avoid picking sides in the global race for critical minerals and seek to supply nations across geopolitical blocs."
     },
     {
-      "title": "Indonesia Bond Yield Hits Four-Year High as MSCI Risk, Oil Weigh",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-27/indonesia-10-year-yield-at-four-year-high-on-msci-risk-oil",
-      "raw_summary": "Indonesia’s 10-year government bond yield climbed to a four-year high and the rupiah weakened toward a record low as elevated oil prices and MSCI Inc.’s threat of a stocks downgrade hurt investor sentiment.",
+      "title": "Crusoe CEO on AI Energy Demand and Building in Texas",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-27/crusoe-ceo-on-ai-energy-demand-and-building-in-texas-video",
+      "raw_summary": "Crusoe Co-Founder & CEO, Chase Lochmiller discusses the infrastructure and energy required to meet growing AI computing demand, including the company’s Abilene-based Stargate Project, with Bloomberg’s Dina Bass at Bloomberg Invest Dallas 2026. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Tue, 27 Oct 2026 06:52:38 GMT",
-      "summary": "Indonesia Bond Yield Hits Four-Year High as MSCI Risk, Oil Weigh\nIndonesia’s 10-year government bond yield climbed to a four-year high and the rupiah weakened toward a record low as elevated oil prices and MSCI Inc.’s threat of a stocks downgrade hurt investor sentiment."
+      "published": "Tue, 27 Oct 2026 16:51:04 GMT",
+      "summary": "Crusoe CEO on AI Energy Demand and Building in Texas\nCrusoe Co-Founder & CEO, Chase Lochmiller discusses the infrastructure and energy required to meet growing AI computing demand, including the company’s Abilene-based Stargate Project, with Bloomberg’s Dina Bass at Bloomberg Invest Dallas 2026. (So"
     },
     {
-      "title": "Crypto wallet maker Keystone to destroy almost 19,000 devices after security breach",
-      "link": "https://www.coindesk.com/business/2026/10/27/crypto-wallet-maker-keystone-to-destroy-almost-19-000-devices-after-security-breach",
+      "title": "Brazilian companies turned to stablecoins on election day to dodge a currency crash",
+      "link": "https://www.coindesk.com/business/2026/10/27/brazilian-companies-turned-to-stablecoins-on-election-day-to-dodge-a-currency-crash",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 27 Oct 2026 11:13:54 +0000",
-      "summary": "Crypto wallet maker Keystone to destroy almost 19,000 devices after security breach\n"
+      "published": "Tue, 27 Oct 2026 16:59:07 +0000",
+      "summary": "Brazilian companies turned to stablecoins on election day to dodge a currency crash\n"
     },
     {
-      "title": "Investor who called for AI pivot in 2023 says bitcoin is going to $57,000",
-      "link": "https://www.coindesk.com/markets/2026/10/27/investor-who-called-for-ai-pivot-in-2023-says-bitcoin-is-going-to-usd57-000",
+      "title": "Nasdaq-100 comes onchain as Janus Henderson and Centrifuge launch first licensed fund",
+      "link": "https://www.coindesk.com/business/2026/10/27/nasdaq-100-comes-onchain-as-janus-henderson-and-centrifuge-launch-first-licensed-fund",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 27 Oct 2026 10:57:51 +0000",
-      "summary": "Investor who called for AI pivot in 2023 says bitcoin is going to $57,000\n"
+      "published": "Tue, 27 Oct 2026 14:21:10 +0000",
+      "summary": "Nasdaq-100 comes onchain as Janus Henderson and Centrifuge launch first licensed fund\n"
     },
     {
-      "title": "Now is the time to accumulate bitcoin, Galaxy says",
-      "link": "https://www.coindesk.com/markets/2026/10/27/now-is-the-time-to-accumulate-bitcoin-galaxy-says",
+      "title": "CF Benchmarks brings Wall Street pricing infrastructure onchain, including data used by BlackRock",
+      "link": "https://www.coindesk.com/markets/2026/10/27/cf-benchmarks-brings-wall-street-pricing-infrastructure-onchain-including-data-used-by-blackrock",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 27 Oct 2026 09:42:46 +0000",
-      "summary": "Now is the time to accumulate bitcoin, Galaxy says\n"
+      "published": "Tue, 27 Oct 2026 14:00:00 +0000",
+      "summary": "CF Benchmarks brings Wall Street pricing infrastructure onchain, including data used by BlackRock\n"
     },
     {
-      "title": "An AI label alone no longer wins lenders, JPMorgan says",
-      "link": "https://www.coindesk.com/markets/2026/10/27/an-ai-label-alone-no-longer-wins-lenders-jpmorgan-says",
+      "title": "Bitcoin miners' move into AI is creating a new market for trading computing power",
+      "link": "https://www.coindesk.com/business/2026/10/27/bitcoin-miners-move-into-ai-is-creating-a-new-market-for-trading-computing-power",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 27 Oct 2026 08:24:39 +0000",
-      "summary": "An AI label alone no longer wins lenders, JPMorgan says\n"
+      "published": "Tue, 27 Oct 2026 13:13:50 +0000",
+      "summary": "Bitcoin miners' move into AI is creating a new market for trading computing power\n"
     },
     {
-      "title": "Solana bug reports now cost 1 SOL as AI floods security teams with spam",
-      "link": "https://www.coindesk.com/tech/2026/10/27/solana-bug-reports-now-cost-1-sol-as-ai-floods-security-teams-with-spam",
+      "title": "Bitcoin shows signs of weakness while Ripple's bank win fails to bolster XRP",
+      "link": "https://www.coindesk.com/daybook-us/2026/10/27/bitcoin-shows-signs-of-weakness-while-ripple-s-bank-win-fails-to-bolster-xrp",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 27 Oct 2026 07:44:04 +0000",
-      "summary": "Solana bug reports now cost 1 SOL as AI floods security teams with spam\n"
+      "published": "Tue, 27 Oct 2026 12:00:39 +0000",
+      "summary": "Bitcoin shows signs of weakness while Ripple's bank win fails to bolster XRP\n"
     }
   ]
 }
