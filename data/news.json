@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T11:53:44.339736+00:00",
+  "generated_at": "2026-10-28T17:42:51.370430+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "FBI Arrests Executive at Ransomware Negotiation Firm\nAgents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on "
     },
     {
+      "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+      "link": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+      "raw_summary": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems.\n\nThe activity, which was observed on October 25, 2026, involved an attacker combining PHP2Shell with a kernel privilege escalation exploit to root",
+      "source": "The Hacker News",
+      "published": "Wed, 28 Oct 2026 21:32:45 +0530",
+      "summary": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network\nCybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities "
+    },
+    {
+      "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+      "link": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+      "raw_summary": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber.\n\nThe vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) in the Oracle Application Object Library of Oracle E-Business Suite. It was patched by Oracle last week as part of its Critical Patch Update.\n\nSecurity researchers",
+      "source": "The Hacker News",
+      "published": "Wed, 28 Oct 2026 18:18:03 +0530",
+      "summary": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch\nThreat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber.\n\nThe vulnerability in question is CVE-2026-101767 "
+    },
+    {
+      "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
+      "link": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+      "raw_summary": "A critical 16-year-old flaw in EDK II, the open-source code that most hardware makers use to build UEFI firmware, can allow an attacker to run code on a machine before its operating system loads, but only while the machine is booting over the network.\n\nUEFI firmware is the software that runs first when a computer is switched on, before the operating system. An attacker who can reach the machine",
+      "source": "The Hacker News",
+      "published": "Wed, 28 Oct 2026 17:20:00 +0530",
+      "summary": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers\nA critical 16-year-old flaw in EDK II, the open-source code that most hardware makers use to build UEFI firmware, can allow an attacker to run code on a machine before its operating system loads, but only while"
+    },
+    {
+      "title": "Wazuh and AI for Enhanced SOC Workflows",
+      "link": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
+      "raw_summary": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making. Cybersecurity has experienced a similar transformation. While attackers employ AI to automate",
+      "source": "The Hacker News",
+      "published": "Wed, 28 Oct 2026 17:00:00 +0530",
+      "summary": "Wazuh and AI for Enhanced SOC Workflows\nArtificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, a"
+    },
+    {
       "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
       "link": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
       "raw_summary": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation.\n\nThe list of eight vulnerabilities is as follows -\n\n\n  CVE-2026-104351 (CVSS score: 9.9) - A code injection vulnerability that could lead to arbitrary code execution.",
@@ -51,116 +83,100 @@
       "summary": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass\nAdobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escal"
     },
     {
-      "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
-      "link": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
-      "raw_summary": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to gain access to corporate accounts while leaving fewer obvious signs behind.\n\nANY.RUN's analysis of Skyw4lker, a device code phishing campaign primarily targeting U.S. organizations",
-      "source": "The Hacker News",
-      "published": "Wed, 28 Oct 2026 16:00:00 +0530",
-      "summary": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed\nModern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows "
-    },
-    {
-      "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
-      "link": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
-      "raw_summary": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report.\n\nThe exploits were built in the lab after the model was prompted, not seen in any real attack, and Anthropic reported every flaw to the vendor first, so all of them are already patched. One proof of",
-      "source": "The Hacker News",
-      "published": "Wed, 28 Oct 2026 13:45:07 +0530",
-      "summary": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits\nAn unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report.\n\nT"
-    },
-    {
-      "title": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
-      "link": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
-      "raw_summary": "The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named Virtualine.\n\nThe move was in response to the service being used to commit and facilitate prolific criminal activity, including \"the advertisement of sexually explicit images of minors, the intentional disclosure of nonconsensual intimate visual depictions",
-      "source": "The Hacker News",
-      "published": "Wed, 28 Oct 2026 13:07:50 +0530",
-      "summary": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering\nThe U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named Virtualine.\n\nThe move was in response to the service being used to comm"
-    },
-    {
-      "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
-      "link": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
-      "raw_summary": "Japan's GMO Internet Group is&nbsp;offering up to $1 million in total&nbsp;for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand.\n\nThe reward program opened on October 28 and pays only if a tip helps lead to an arrest or an international wanted notice. The service&nbsp;hosts Windows desktops&nbsp;used for FX trading,",
-      "source": "The Hacker News",
-      "published": "Wed, 28 Oct 2026 12:43:21 +0530",
-      "summary": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach\nJapan's GMO Internet Group is&nbsp;offering up to $1 million in total&nbsp;for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand.\n\nThe re"
-    },
-    {
-      "title": "Ten days later, Git on macOS still trusts the compromised eMudhra certificates",
-      "link": "https://emudhra.we-have-a-problem.com/apple.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://emudhra.we-have-a-problem.com/apple.html\">https://emudhra.we-have-a-problem.com/apple.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50271640\">https://news.ycombinator.com/item?id=50271640</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>",
+      "title": "MacBook Pro with PROLED XDR Display and Touch",
+      "link": "https://www.apple.com/macbook-pro/proled-xdr-display/",
+      "raw_summary": "<p><a href=\"https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/\" rel=\"nofollow\">https://www.apple.com/newsroom/2026/10/apple-unveils-groundb...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50276940\">https://news.ycombinator.com/item?id=50276940</a></p>\n<p>Points: 116</p>\n<p># Comments: 150</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 28 Oct 2026 11:03:40 +0000",
-      "summary": "Ten days later, Git on macOS still trusts the compromised eMudhra certificates\n<p>Article URL: <a href=\"https://emudhra.we-have-a-problem.com/apple.html\">https://emudhra.we-have-a-problem.com/apple.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50271640\">https://news.yco"
+      "published": "Wed, 28 Oct 2026 17:10:37 +0000",
+      "summary": "MacBook Pro with PROLED XDR Display and Touch\n<p><a href=\"https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/\" rel=\"nofollow\">https://www.apple.com/newsroom/2026/10/apple-unveils-groundb...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.yco"
     },
     {
-      "title": "Barcelona unrest: how to fabricate a protest in the age of TikTok",
-      "link": "https://theconversation.com/barcelona-unrest-how-to-fabricate-a-protest-in-the-age-of-tiktok-295263",
-      "raw_summary": "<p>Article URL: <a href=\"https://theconversation.com/barcelona-unrest-how-to-fabricate-a-protest-in-the-age-of-tiktok-295263\">https://theconversation.com/barcelona-unrest-how-to-fabricate-a-protest-in-the-age-of-tiktok-295263</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50271457\">https://news.ycombinator.com/item?id=50271457</a></p>\n<p>Points: 32</p>\n<p># Comments: 19</p>",
+      "title": "Show HN: SlideBySide – Present slides without sharing your screen",
+      "link": "https://slidebyside.com/",
+      "raw_summary": "<p>Why is it useful?\n- Present slides without sharing the screen and have every one be on the same page.\n- Present together with other cohosts and all control the current page.\n- Other features such as presentation collab features.<p>Why should I not just vibe code my own solution?\n- Its a hassle to maintain a version online.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50276883\">https://news.ycombinator.com/item?id=50276883</a></p>\n<p>Points: 7</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 28 Oct 2026 10:41:27 +0000",
-      "summary": "Barcelona unrest: how to fabricate a protest in the age of TikTok\n<p>Article URL: <a href=\"https://theconversation.com/barcelona-unrest-how-to-fabricate-a-protest-in-the-age-of-tiktok-295263\">https://theconversation.com/barcelona-unrest-how-to-fabricate-a-protest-in-the-age-of-tiktok-295263</a></p>\n"
+      "published": "Wed, 28 Oct 2026 17:07:09 +0000",
+      "summary": "Show HN: SlideBySide – Present slides without sharing your screen\n<p>Why is it useful?\n- Present slides without sharing the screen and have every one be on the same page.\n- Present together with other cohosts and all control the current page.\n- Other features such as presentation collab features.<p>"
     },
     {
-      "title": "Billion-query-per-second lookup tables in C++",
-      "link": "https://lemire.me/blog/2026/10/26/billion-query-per-second-lookup-tables-in-c/",
-      "raw_summary": "<p>Article URL: <a href=\"https://lemire.me/blog/2026/10/26/billion-query-per-second-lookup-tables-in-c/\">https://lemire.me/blog/2026/10/26/billion-query-per-second-lookup-tables-in-c/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50271088\">https://news.ycombinator.com/item?id=50271088</a></p>\n<p>Points: 17</p>\n<p># Comments: 2</p>",
+      "title": "Gemini 4 Carbon",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/\">https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50276792\">https://news.ycombinator.com/item?id=50276792</a></p>\n<p>Points: 196</p>\n<p># Comments: 125</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 28 Oct 2026 09:43:44 +0000",
-      "summary": "Billion-query-per-second lookup tables in C++\n<p>Article URL: <a href=\"https://lemire.me/blog/2026/10/26/billion-query-per-second-lookup-tables-in-c/\">https://lemire.me/blog/2026/10/26/billion-query-per-second-lookup-tables-in-c/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id"
+      "published": "Wed, 28 Oct 2026 17:01:23 +0000",
+      "summary": "Gemini 4 Carbon\n<p>Article URL: <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/\">https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinat"
     },
     {
-      "title": "Git for the US Code",
-      "link": "https://lexifina.com/blog/git-for-the-us-code",
-      "raw_summary": "<p>Article URL: <a href=\"https://lexifina.com/blog/git-for-the-us-code\">https://lexifina.com/blog/git-for-the-us-code</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50268380\">https://news.ycombinator.com/item?id=50268380</a></p>\n<p>Points: 300</p>\n<p># Comments: 144</p>",
+      "title": "Converge (YC S23) Is Hiring a Founding Platform Engineer",
+      "link": "https://www.runconverge.com/careers/founding-platform-engineer",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.runconverge.com/careers/founding-platform-engineer\">https://www.runconverge.com/careers/founding-platform-engineer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50276779\">https://news.ycombinator.com/item?id=50276779</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 28 Oct 2026 01:47:50 +0000",
-      "summary": "Git for the US Code\n<p>Article URL: <a href=\"https://lexifina.com/blog/git-for-the-us-code\">https://lexifina.com/blog/git-for-the-us-code</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50268380\">https://news.ycombinator.com/item?id=50268380</a></p>\n<p>Points: 300</p>\n<p># Com"
+      "published": "Wed, 28 Oct 2026 17:00:24 +0000",
+      "summary": "Converge (YC S23) Is Hiring a Founding Platform Engineer\n<p>Article URL: <a href=\"https://www.runconverge.com/careers/founding-platform-engineer\">https://www.runconverge.com/careers/founding-platform-engineer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50276779\">https://ne"
     },
     {
-      "title": "Moxnox 1.0: NT-Like, POSIX-Compatible OS Running Atop Btrfs",
-      "link": "https://github.com/maharmstone/moxnox",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/maharmstone/moxnox\">https://github.com/maharmstone/moxnox</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50267569\">https://news.ycombinator.com/item?id=50267569</a></p>\n<p>Points: 77</p>\n<p># Comments: 17</p>",
+      "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+      "link": "https://surgehq.ai/blog/dayjob-tax",
+      "raw_summary": "<p>Article URL: <a href=\"https://surgehq.ai/blog/dayjob-tax\">https://surgehq.ai/blog/dayjob-tax</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50275626\">https://news.ycombinator.com/item?id=50275626</a></p>\n<p>Points: 65</p>\n<p># Comments: 40</p>",
       "source": "Hacker News: Front Page",
-      "published": "Tue, 27 Oct 2026 23:53:41 +0000",
-      "summary": "Moxnox 1.0: NT-Like, POSIX-Compatible OS Running Atop Btrfs\n<p>Article URL: <a href=\"https://github.com/maharmstone/moxnox\">https://github.com/maharmstone/moxnox</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50267569\">https://news.ycombinator.com/item?id=50267569</a></p>\n<p>"
+      "published": "Wed, 28 Oct 2026 15:46:30 +0000",
+      "summary": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments\n<p>Article URL: <a href=\"https://surgehq.ai/blog/dayjob-tax\">https://surgehq.ai/blog/dayjob-tax</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50275626\">https://news.ycombinator.com/item?id=50275626</a></p>"
     },
     {
-      "title": "Jio shares surge 21% in market debut after blockbuster India IPO",
-      "link": "https://techcrunch.com/2026/10/27/jio-shares-surge-21-in-market-debut-after-blockbuster-india-ipo/",
-      "raw_summary": "Jio has debuted as India's second-most valuable listed company, behind its parent, Reliance Industries.",
+      "title": "Apple launches its new touchscreen MacBook Pro",
+      "link": "https://techcrunch.com/2026/10/28/apple-launches-its-new-touchscreen-macbook-pro/",
+      "raw_summary": "Apple's new touchscreen MacBook Pro starts at $2,899",
       "source": "TechCrunch",
-      "published": "Wed, 28 Oct 2026 05:20:32 +0000",
-      "summary": "Jio shares surge 21% in market debut after blockbuster India IPO\nJio has debuted as India's second-most valuable listed company, behind its parent, Reliance Industries."
+      "published": "Wed, 28 Oct 2026 17:26:10 +0000",
+      "summary": "Apple launches its new touchscreen MacBook Pro\nApple's new touchscreen MacBook Pro starts at $2,899"
     },
     {
-      "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
-      "link": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
-      "raw_summary": "Massive note conversions reveal the true extent of Amazon's ownership in Anthropic.",
+      "title": "Xreal Aura is a new wired headset powered by Android XR",
+      "link": "https://techcrunch.com/2026/10/28/xreal-aura-is-a-new-wired-headset-powered-by-android-xr/",
+      "raw_summary": "Xreal Aura will start at $1,279 and will have multiple XR specific launch apps at launch",
       "source": "TechCrunch",
-      "published": "Wed, 28 Oct 2026 01:15:28 +0000",
-      "summary": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more\nMassive note conversions reveal the true extent of Amazon's ownership in Anthropic."
+      "published": "Wed, 28 Oct 2026 17:00:00 +0000",
+      "summary": "Xreal Aura is a new wired headset powered by Android XR\nXreal Aura will start at $1,279 and will have multiple XR specific launch apps at launch"
     },
     {
-      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
-      "link": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
-      "raw_summary": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
+      "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+      "link": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+      "raw_summary": "A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
       "source": "TechCrunch",
-      "published": "Tue, 27 Oct 2026 23:34:27 +0000",
-      "summary": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication\nA family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February."
+      "published": "Wed, 28 Oct 2026 17:00:00 +0000",
+      "summary": "As AI agents reshape the web, Google opens Gemini and Search to more apps\nA new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps."
     },
     {
-      "title": "The data center boom has an upside: innovation for the US grid",
-      "link": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
-      "raw_summary": "As the AI boom stresses the existing power grid, all sorts of new opportunities for grid modernization are also emerging as a result, industry insiders say.",
+      "title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
+      "link": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+      "raw_summary": "The autofill update lets Chrome pull flight confirmations, tracking info, order details, and other information from your inbox, with your permission.",
       "source": "TechCrunch",
-      "published": "Tue, 27 Oct 2026 22:55:41 +0000",
-      "summary": "The data center boom has an upside: innovation for the US grid\nAs the AI boom stresses the existing power grid, all sorts of new opportunities for grid modernization are also emerging as a result, industry insiders say."
+      "published": "Wed, 28 Oct 2026 17:00:00 +0000",
+      "summary": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms\nThe autofill update lets Chrome pull flight confirmations, tracking info, order details, and other information from your inbox, with your permission."
     },
     {
-      "title": "Guidewire buys Hyperexponential for $1.7B in cash",
-      "link": "https://techcrunch.com/2026/10/27/guidewire-buys-hyperexponential-for-1-7b-in-cash/",
-      "raw_summary": "The deal, expected to close sometime next year, is to help bring AI agents to work alongside humans to underwrite, analyze, and price decisions.",
+      "title": "Reddit is the latest platform to embrace the ‘For You’ feed",
+      "link": "https://techcrunch.com/2026/10/28/reddit-is-the-latest-platform-to-embrace-the-for-you-feed/",
+      "raw_summary": "The For You feed combines posts from communities users have joined with recommendations tailored to their interests.",
       "source": "TechCrunch",
-      "published": "Tue, 27 Oct 2026 22:26:03 +0000",
-      "summary": "Guidewire buys Hyperexponential for $1.7B in cash\nThe deal, expected to close sometime next year, is to help bring AI agents to work alongside humans to underwrite, analyze, and price decisions."
+      "published": "Wed, 28 Oct 2026 16:00:00 +0000",
+      "summary": "Reddit is the latest platform to embrace the ‘For You’ feed\nThe For You feed combines posts from communities users have joined with recommendations tailored to their interests."
+    },
+    {
+      "title": "Buckle up for more body-swapping hijinks in Jumanji: Open World trailer",
+      "link": "https://arstechnica.com/culture/2026/10/buckle-up-for-more-body-swapping-hijinks-in-jumanji-open-world-trailer/",
+      "raw_summary": "\"We have to be ready for whatever's coming next. If we lose in here, there won't be a home to go back to.\"",
+      "source": "Ars Technica - All content",
+      "published": "Wed, 28 Oct 2026 15:48:12 +0000",
+      "summary": "Buckle up for more body-swapping hijinks in Jumanji: Open World trailer\n\"We have to be ready for whatever's coming next. If we lose in here, there won't be a home to go back to.\""
+    },
+    {
+      "title": "A hidden ocean change near Antarctica could have global consequences",
+      "link": "https://arstechnica.com/science/2026/10/antarctic-sea-ice-loss-could-reshape-weather-far-beyond-the-pole/",
+      "raw_summary": "Antarctic waters are getting saltier as sea-ice loss reshapes ocean circulation.",
+      "source": "Ars Technica - All content",
+      "published": "Wed, 28 Oct 2026 13:38:53 +0000",
+      "summary": "A hidden ocean change near Antarctica could have global consequences\nAntarctic waters are getting saltier as sea-ice loss reshapes ocean circulation."
     },
     {
       "title": "China’s snooping around Pacific undersea cables raises risks for Big Tech",
@@ -187,140 +203,124 @@
       "summary": "South Carolina's measles outbreak jumped to Washington state 5 times in 2 weeks\nInternational travel used to be the main risk of measles cases in the US—not anymore."
     },
     {
-      "title": "China's top-secret spaceplane can't hide in low-Earth orbit",
-      "link": "https://arstechnica.com/space/2026/10/chinas-top-secret-spaceplane-cant-hide-in-low-earth-orbit/",
-      "raw_summary": "The DIA's threat assessment suggests China may soon place directed energy weapons in space.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 27 Oct 2026 22:04:50 +0000",
-      "summary": "China's top-secret spaceplane can't hide in low-Earth orbit\nThe DIA's threat assessment suggests China may soon place directed energy weapons in space."
-    },
-    {
-      "title": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
-      "link": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
-      "raw_summary": "Owners of AI-run firms would evade liability for \"reckless\" AI, US Rep. Comer says.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 27 Oct 2026 21:50:04 +0000",
-      "summary": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses\nOwners of AI-run firms would evade liability for \"reckless\" AI, US Rep. Comer says."
-    },
-    {
-      "title": "Iran threatens South Korean shipping group over Hormuz transits",
-      "link": "https://www.ft.com/content/171ffdaa-e3e7-41b9-a4c6-09c9ace3f719?syn-25a6b1a6=1",
-      "raw_summary": "Sinokor accused of repeated ‘crossing violations’ by regime that has only enforced its rules through military action",
+      "title": "Healey avoids bond market wobble with ‘uneventful’ first Budget",
+      "link": "https://www.ft.com/content/d7788234-ffaf-49a5-9528-cff0a1685fe9?syn-25a6b1a6=1",
+      "raw_summary": "Gilts hold on to pre-Budget gains following modest package of tax and spending changes",
       "source": "World",
-      "published": "Wed, 28 Oct 2026 11:51:33 GMT",
-      "summary": "Iran threatens South Korean shipping group over Hormuz transits\nSinokor accused of repeated ‘crossing violations’ by regime that has only enforced its rules through military action"
+      "published": "Wed, 28 Oct 2026 17:16:15 GMT",
+      "summary": "Healey avoids bond market wobble with ‘uneventful’ first Budget\nGilts hold on to pre-Budget gains following modest package of tax and spending changes"
     },
     {
-      "title": "At least 30 killed in collision of high-speed trains in Spain",
-      "link": "https://www.ft.com/content/3500a00d-d676-4460-83f8-8ea2bfce1049?syn-25a6b1a6=1",
-      "raw_summary": "Crash near Toledo south of Madrid follows death of 46 in Andalusia rail accident in January",
+      "title": "The thwarted Budget of a thwarted government",
+      "link": "https://www.ft.com/content/de0f2126-01ac-4a25-a04b-5376b3540584?syn-25a6b1a6=1",
+      "raw_summary": "While the political plan is obvious, the economic strategy is harder to discern",
       "source": "World",
-      "published": "Wed, 28 Oct 2026 11:45:20 GMT",
-      "summary": "At least 30 killed in collision of high-speed trains in Spain\nCrash near Toledo south of Madrid follows death of 46 in Andalusia rail accident in January"
+      "published": "Wed, 28 Oct 2026 17:15:32 GMT",
+      "summary": "The thwarted Budget of a thwarted government\nWhile the political plan is obvious, the economic strategy is harder to discern"
     },
     {
-      "title": "Israel’s election: what happens next?",
-      "link": "https://www.ft.com/content/4f122702-3765-4e9f-a94f-4b786bc2af15",
-      "raw_summary": "Partial results suggest neither Prime Minister Benjamin Netanyahu nor his rivals have a simple path to form a government",
+      "title": "Finally, after Liz Truss, an actual mini-Budget",
+      "link": "https://www.ft.com/content/e34efd2f-107c-410c-9976-d0b8c5b156e0?syn-25a6b1a6=1",
+      "raw_summary": "Nosferatu lookalike John Healey is a modest Labour man. He trades in dull old HP sauce, not hot exciting blood",
       "source": "World",
-      "published": "Wed, 28 Oct 2026 11:32:37 GMT",
-      "summary": "Israel’s election: what happens next?\nPartial results suggest neither Prime Minister Benjamin Netanyahu nor his rivals have a simple path to form a government"
+      "published": "Wed, 28 Oct 2026 17:03:15 GMT",
+      "summary": "Finally, after Liz Truss, an actual mini-Budget\nNosferatu lookalike John Healey is a modest Labour man. He trades in dull old HP sauce, not hot exciting blood"
     },
     {
-      "title": "Iranians face energy squeeze from war as natural gas runs short",
-      "link": "https://www.ft.com/content/77e4e4a5-a041-4d59-9d8c-0a7af9ef6d25",
-      "raw_summary": "Tehran tells citizens to curb consumption and urges civil servants to work from home to avert crisis",
+      "title": "European gas prices jump above €100 on fears of Iran war escalation",
+      "link": "https://www.ft.com/content/afe6e244-8433-4371-a26f-7aacbc9b8dcd?syn-25a6b1a6=1",
+      "raw_summary": "Traders are also concerned by forecasts of cold winter at a time when gas storage levels are low",
       "source": "World",
-      "published": "Wed, 28 Oct 2026 11:00:06 GMT",
-      "summary": "Iranians face energy squeeze from war as natural gas runs short\nTehran tells citizens to curb consumption and urges civil servants to work from home to avert crisis"
+      "published": "Wed, 28 Oct 2026 17:00:05 GMT",
+      "summary": "European gas prices jump above €100 on fears of Iran war escalation\nTraders are also concerned by forecasts of cold winter at a time when gas storage levels are low"
     },
     {
-      "title": "The great American investment boom",
-      "link": "https://www.ft.com/content/8c40598a-a946-4901-a59c-c513689a5351",
-      "raw_summary": "This is a sign of an economy that is prioritising the future over the present",
+      "title": "Fed to decide on interest rates as US midterm elections loom",
+      "link": "https://www.ft.com/content/516063c6-3820-4803-836a-73e24ebee0da?syn-25a6b1a6=1",
+      "raw_summary": "Policymakers weigh whether to deliver back-to-back increases in effort to tame inflation exacerbated by Donald Trump’s war against Iran",
       "source": "World",
-      "published": "Wed, 28 Oct 2026 11:00:05 GMT",
-      "summary": "The great American investment boom\nThis is a sign of an economy that is prioritising the future over the present"
+      "published": "Wed, 28 Oct 2026 16:51:06 GMT",
+      "summary": "Fed to decide on interest rates as US midterm elections loom\nPolicymakers weigh whether to deliver back-to-back increases in effort to tame inflation exacerbated by Donald Trump’s war against Iran"
     },
     {
-      "title": "Fed Communication Has Gotten Confusing, Economist Sahm Says",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-28/fed-communication-has-gotten-confusing-economist-sahm-video",
-      "raw_summary": "“I think there is a strong economic argument for raising rates today by a quarter point,” says Claudia Sahm, chief economist at New Century Advisors. She examines the level of confusion around the Federal Reserve’s communication strategy on “Bloomberg Surveillance.” (Source: Bloomberg)",
+      "title": "How Extreme Wealth Is Remaking the South",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-20/how-extreme-wealth-is-remaking-the-south-video",
+      "raw_summary": "Nashville has always had rich residents, but the money arriving now is on a different level. An influx of ultrawealthy transplants is rapidly remaking the region, part of a broader southern wealth migration. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Wed, 28 Oct 2026 11:27:03 GMT",
-      "summary": "Fed Communication Has Gotten Confusing, Economist Sahm Says\n“I think there is a strong economic argument for raising rates today by a quarter point,” says Claudia Sahm, chief economist at New Century Advisors. She examines the level of confusion around the Federal Reserve’s communication strategy on"
+      "published": "Tue, 20 Oct 2026 08:30:59 GMT",
+      "summary": "How Extreme Wealth Is Remaking the South\nNashville has always had rich residents, but the money arriving now is on a different level. An influx of ultrawealthy transplants is rapidly remaking the region, part of a broader southern wealth migration. (Source: Bloomberg)"
     },
     {
-      "title": "Trans-Oil Bonds Drop as Agricultural Firm Delays Audited Results",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-28/trans-oil-bonds-drop-as-agricultural-firm-delays-audited-results",
-      "raw_summary": "Trans-Oil Group’s bonds fell after the agricultural commodity firm told bondholders it would have to delay its audited full-year results.",
+      "title": "DFW’s $12 Billion Transformation",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-28/dfw-s-12-billion-transformation-video",
+      "raw_summary": "One of the world’s busiest airports, Dallas-Fort Worth International Airport, is undergoing a $12 billion transformation. CEO Chris McLaughlin discusses the massive expansion as DFW targets 100 million annual passengers by 2030. He speaks on Bloomberg Open Interest. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Wed, 28 Oct 2026 11:26:50 GMT",
-      "summary": "Trans-Oil Bonds Drop as Agricultural Firm Delays Audited Results\nTrans-Oil Group’s bonds fell after the agricultural commodity firm told bondholders it would have to delay its audited full-year results."
+      "published": "Wed, 28 Oct 2026 17:26:02 GMT",
+      "summary": "DFW’s $12 Billion Transformation\nOne of the world’s busiest airports, Dallas-Fort Worth International Airport, is undergoing a $12 billion transformation. CEO Chris McLaughlin discusses the massive expansion as DFW targets 100 million annual passengers by 2030. He speaks on Bloomberg Open Interest. "
     },
     {
-      "title": "Jio’s IPO Surge Ends Tata’s Reign as Most Valuable India Group",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-28/jio-s-ipo-surge-ends-tata-s-reign-as-most-valuable-india-group",
-      "raw_summary": "Jio Platforms Ltd.’s blockbuster stock market debut has propelled the digital company as well as its parent Reliance Industries Ltd. into rarified air. It also helped Mukesh Ambani’s conglomerate topple Tata Group as India’s largest conglomerate by market value.",
+      "title": "Anthropic Is Said to Plan UK Share Offering Via RetailBook",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-28/anthropic-is-said-to-plan-uk-share-offering-via-retailbook",
+      "raw_summary": "Anthropic PBC is working with investment platform RetailBook to market its shares to UK retail traders as part of its mammoth initial public offering, according to people familiar with the matter.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 28 Oct 2026 07:07:16 GMT",
-      "summary": "Jio’s IPO Surge Ends Tata’s Reign as Most Valuable India Group\nJio Platforms Ltd.’s blockbuster stock market debut has propelled the digital company as well as its parent Reliance Industries Ltd. into rarified air. It also helped Mukesh Ambani’s conglomerate topple Tata Group as India’s largest cong"
+      "published": "Wed, 28 Oct 2026 17:24:05 GMT",
+      "summary": "Anthropic Is Said to Plan UK Share Offering Via RetailBook\nAnthropic PBC is working with investment platform RetailBook to market its shares to UK retail traders as part of its mammoth initial public offering, according to people familiar with the matter."
     },
     {
-      "title": "Pimco Would Welcome 2027 UK Fiscal Deficit of Around 3.5%",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-28/pimco-would-welcome-uk-2027-fiscal-deficit-around-3-5-video",
-      "raw_summary": "Pimco economist Peder Beck-Friis looks ahead to UK Chancellor John Healey’s budget announcement, highlighting the Office for Budget Responsibility’s (OBR) fiscal deficit forecast for next year as the critical metric for the gilt market. \"If that comes in in the mid-threes, I think that will be welcome news for the bond market,\" Beck-Friis tells Bloomberg Television. (Source: Bloomberg)",
+      "title": "Spanish Train Crash Kills at Least 68 People South of Madrid",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-28/spanish-train-crash-kills-at-least-64-people-south-of-madrid",
+      "raw_summary": "A high-speed rail service slammed into another train about 60 miles south of Madrid on Wednesday, killing at least 68 people — the second major accident on Spain’s rail network this year and the deadliest crash in over a decade. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Wed, 28 Oct 2026 11:05:11 GMT",
-      "summary": "Pimco Would Welcome 2027 UK Fiscal Deficit of Around 3.5%\nPimco economist Peder Beck-Friis looks ahead to UK Chancellor John Healey’s budget announcement, highlighting the Office for Budget Responsibility’s (OBR) fiscal deficit forecast for next year as the critical metric for the gilt market. \"If t"
+      "published": "Wed, 28 Oct 2026 17:05:53 GMT",
+      "summary": "Spanish Train Crash Kills at Least 68 People South of Madrid\nA high-speed rail service slammed into another train about 60 miles south of Madrid on Wednesday, killing at least 68 people — the second major accident on Spain’s rail network this year and the deadliest crash in over a decade. (Source: B"
     },
     {
-      "title": "US Stocks Drift as Traders Await Tech Results, Fed: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-27/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "US stock futures struggled for traction ahead of megacap tech earnings and the Federal Reserve’s interest-rate decision later Wednesday.",
+      "title": "Sandoz Warns EU May Scrap Antibiotic Protection, Harm Plant",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-28/sandoz-warns-eu-may-scrap-antibiotic-protection-risking-plant",
+      "raw_summary": "Sandoz Group AG said Europe’s medicines regulator is proposing to pull amoxicillin from its list of critical medicines, a potential death blow to the last European factory to make the antibiotic from scratch.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 27 Oct 2026 22:09:07 GMT",
-      "summary": "US Stocks Drift as Traders Await Tech Results, Fed: Markets Wrap\nUS stock futures struggled for traction ahead of megacap tech earnings and the Federal Reserve’s interest-rate decision later Wednesday."
+      "published": "Wed, 28 Oct 2026 09:34:29 GMT",
+      "summary": "Sandoz Warns EU May Scrap Antibiotic Protection, Harm Plant\nSandoz Group AG said Europe’s medicines regulator is proposing to pull amoxicillin from its list of critical medicines, a potential death blow to the last European factory to make the antibiotic from scratch."
     },
     {
-      "title": "XRP Ledger developers propose creating wallets with zero XRP for stablecoin payments",
-      "link": "https://www.coindesk.com/tech/2026/10/28/xrp-ledger-developers-propose-creating-wallets-with-zero-xrp-for-stablecoin-payments",
+      "title": "Coinbase earnings: Wall Street divided on trading rebound after Robinhood crypto revenue sinks 55%",
+      "link": "https://www.coindesk.com/markets/2026/10/28/coinbase-earnings-wall-street-divided-on-trading-rebound-as-robinhood-crypto-revenue-sinks-55",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 28 Oct 2026 11:52:14 +0000",
-      "summary": "XRP Ledger developers propose creating wallets with zero XRP for stablecoin payments\n"
+      "published": "Wed, 28 Oct 2026 17:02:57 +0000",
+      "summary": "Coinbase earnings: Wall Street divided on trading rebound after Robinhood crypto revenue sinks 55%\n"
     },
     {
-      "title": "Bitcoin rebounds above $81,000 as Asian chip rally spills into crypto, pepe jumps 9%",
-      "link": "https://www.coindesk.com/markets/2026/10/28/bitcoin-rebounds-above-usd81-000-as-asian-chip-rally-spills-into-crypto-pepe-jumps-9",
+      "title": "Crypto Long & Short: What happens when an AI agent pays for the wrong thing",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/10/28/crypto-long-and-short-what-happens-when-an-ai-agent-pays-for-the-wrong-thing",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 28 Oct 2026 11:32:31 +0000",
-      "summary": "Bitcoin rebounds above $81,000 as Asian chip rally spills into crypto, pepe jumps 9%\n"
+      "published": "Wed, 28 Oct 2026 16:01:36 +0000",
+      "summary": "Crypto Long & Short: What happens when an AI agent pays for the wrong thing\n"
     },
     {
-      "title": "Live updates: Bitcoin climbs above $81,000 as majors rally ahead of Fed decision",
-      "link": "https://www.coindesk.com/business/2026/10/28/live-updates-bitcoin-climbs-above-usd81-000-as-majors-rally-ahead-of-fed-decision",
+      "title": "Wall Street backbone DTCC brings $30 trillion securities closer to blockchain with major banks",
+      "link": "https://www.coindesk.com/business/2026/10/28/wall-street-backbone-dtcc-brings-usd30-trillion-securities-closer-to-blockchain-with-major-banks",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 28 Oct 2026 11:23:34 +0000",
-      "summary": "Live updates: Bitcoin climbs above $81,000 as majors rally ahead of Fed decision\n"
+      "published": "Wed, 28 Oct 2026 13:14:37 +0000",
+      "summary": "Wall Street backbone DTCC brings $30 trillion securities closer to blockchain with major banks\n"
     },
     {
-      "title": "Google to preview crypto custody security system as AI threats grow",
-      "link": "https://www.coindesk.com/tech/2026/10/28/google-to-preview-crypto-custody-security-system-as-ai-threats-grow",
+      "title": "JPMorgan, Coca-Cola, Dell also say 'no' to OKX-ICE tokenized tock trading plan",
+      "link": "https://www.coindesk.com/business/2026/10/28/jpmorgan-coca-cola-dell-also-say-no-to-okx-ice-tokenized-tock-trading-plan",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 28 Oct 2026 11:00:00 +0000",
-      "summary": "Google to preview crypto custody security system as AI threats grow\n"
+      "published": "Wed, 28 Oct 2026 12:59:36 +0000",
+      "summary": "JPMorgan, Coca-Cola, Dell also say 'no' to OKX-ICE tokenized tock trading plan\n"
     },
     {
-      "title": "Nearly 90% of large businesses are embracing tokenized cash to speed up payments: DBS",
-      "link": "https://www.coindesk.com/business/2026/10/28/nearly-90-of-large-businesses-are-embracing-tokenized-cash-to-speed-up-payments-dbs",
+      "title": "Dissent and more: 3 things to watch for at the Fed meeting",
+      "link": "https://www.coindesk.com/daybook-us/2026/10/28/dissent-and-more-3-things-to-watch-for-at-the-fed-meeting",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 28 Oct 2026 10:41:51 +0000",
-      "summary": "Nearly 90% of large businesses are embracing tokenized cash to speed up payments: DBS\n"
+      "published": "Wed, 28 Oct 2026 11:57:26 +0000",
+      "summary": "Dissent and more: 3 things to watch for at the Fed meeting\n"
     }
   ]
 }
