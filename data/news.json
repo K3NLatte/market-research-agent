@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T03:18:52.507447+00:00",
+  "generated_at": "2026-10-28T11:53:44.339736+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,84 +43,92 @@
       "summary": "FBI Arrests Executive at Ransomware Negotiation Firm\nAgents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on "
     },
     {
-      "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
-      "link": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
-      "raw_summary": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator.\n\nTrendAI, which analyzed three exposed server environments used by threat actors to conduct the malicious cyber operations, described them as distinct from previously published",
+      "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+      "link": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+      "raw_summary": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation.\n\nThe list of eight vulnerabilities is as follows -\n\n\n  CVE-2026-104351 (CVSS score: 9.9) - A code injection vulnerability that could lead to arbitrary code execution.",
       "source": "The Hacker News",
-      "published": "Tue, 27 Oct 2026 23:56:46 +0530",
-      "summary": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets\nCybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human opera"
+      "published": "Wed, 28 Oct 2026 16:45:51 +0530",
+      "summary": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass\nAdobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escal"
     },
     {
-      "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
-      "link": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
-      "raw_summary": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups.\n\nThe flaw is in builds that use the OpenSSL backend with mutual-TLS, where the server checks a client certificate and vice versa, and a revocation list is configured to block revoked",
+      "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
+      "link": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
+      "raw_summary": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to gain access to corporate accounts while leaving fewer obvious signs behind.\n\nANY.RUN's analysis of Skyw4lker, a device code phishing campaign primarily targeting U.S. organizations",
       "source": "The Hacker News",
-      "published": "Tue, 27 Oct 2026 19:29:48 +0530",
-      "summary": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption\nThe GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups.\n\nThe"
+      "published": "Wed, 28 Oct 2026 16:00:00 +0530",
+      "summary": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed\nModern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows "
     },
     {
-      "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
-      "link": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
-      "raw_summary": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices.\n\nThe vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could result in arbitrary code execution when processing a maliciously crafted file.\n\nPatches for the flaw were released last month by Apple in",
+      "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
+      "link": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+      "raw_summary": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report.\n\nThe exploits were built in the lab after the model was prompted, not seen in any real attack, and Anthropic reported every flaw to the vendor first, so all of them are already patched. One proof of",
       "source": "The Hacker News",
-      "published": "Tue, 27 Oct 2026 19:29:09 +0530",
-      "summary": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads\nApple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices.\n\nThe vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds writ"
+      "published": "Wed, 28 Oct 2026 13:45:07 +0530",
+      "summary": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits\nAn unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report.\n\nT"
     },
     {
-      "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
-      "link": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
-      "raw_summary": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account.\n\nMicrosoft tracks the flaw as&nbsp;CVE-2026-80097&nbsp;and fixed it in Authenticator for Android version 6.2606.4246, so anyone using the app should update.\n\nIn the researchers' tests,",
+      "title": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
+      "link": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
+      "raw_summary": "The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named Virtualine.\n\nThe move was in response to the service being used to commit and facilitate prolific criminal activity, including \"the advertisement of sexually explicit images of minors, the intentional disclosure of nonconsensual intimate visual depictions",
       "source": "The Hacker News",
-      "published": "Tue, 27 Oct 2026 17:39:50 +0530",
-      "summary": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens\nMicrosoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account.\n"
+      "published": "Wed, 28 Oct 2026 13:07:50 +0530",
+      "summary": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering\nThe U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named Virtualine.\n\nThe move was in response to the service being used to comm"
     },
     {
-      "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
-      "link": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
-      "raw_summary": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a&nbsp;statement&nbsp;on October 26.\n\nSomeone with that key could build counterfeit devices that pass the online check owners use to verify a Keystone. A buyer who trusted a counterfeit could have their crypto stolen, but the incident did not involve",
+      "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
+      "link": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
+      "raw_summary": "Japan's GMO Internet Group is&nbsp;offering up to $1 million in total&nbsp;for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand.\n\nThe reward program opened on October 28 and pays only if a tip helps lead to an arrest or an international wanted notice. The service&nbsp;hosts Windows desktops&nbsp;used for FX trading,",
       "source": "The Hacker News",
-      "published": "Tue, 27 Oct 2026 17:16:00 +0530",
-      "summary": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key\nAn attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a&nbsp;statement&nbsp;on October 26.\n\nSomeone with that key could "
+      "published": "Wed, 28 Oct 2026 12:43:21 +0530",
+      "summary": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach\nJapan's GMO Internet Group is&nbsp;offering up to $1 million in total&nbsp;for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand.\n\nThe re"
     },
     {
-      "title": "Git for US Legislation",
+      "title": "Ten days later, Git on macOS still trusts the compromised eMudhra certificates",
+      "link": "https://emudhra.we-have-a-problem.com/apple.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://emudhra.we-have-a-problem.com/apple.html\">https://emudhra.we-have-a-problem.com/apple.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50271640\">https://news.ycombinator.com/item?id=50271640</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Wed, 28 Oct 2026 11:03:40 +0000",
+      "summary": "Ten days later, Git on macOS still trusts the compromised eMudhra certificates\n<p>Article URL: <a href=\"https://emudhra.we-have-a-problem.com/apple.html\">https://emudhra.we-have-a-problem.com/apple.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50271640\">https://news.yco"
+    },
+    {
+      "title": "Barcelona unrest: how to fabricate a protest in the age of TikTok",
+      "link": "https://theconversation.com/barcelona-unrest-how-to-fabricate-a-protest-in-the-age-of-tiktok-295263",
+      "raw_summary": "<p>Article URL: <a href=\"https://theconversation.com/barcelona-unrest-how-to-fabricate-a-protest-in-the-age-of-tiktok-295263\">https://theconversation.com/barcelona-unrest-how-to-fabricate-a-protest-in-the-age-of-tiktok-295263</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50271457\">https://news.ycombinator.com/item?id=50271457</a></p>\n<p>Points: 32</p>\n<p># Comments: 19</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Wed, 28 Oct 2026 10:41:27 +0000",
+      "summary": "Barcelona unrest: how to fabricate a protest in the age of TikTok\n<p>Article URL: <a href=\"https://theconversation.com/barcelona-unrest-how-to-fabricate-a-protest-in-the-age-of-tiktok-295263\">https://theconversation.com/barcelona-unrest-how-to-fabricate-a-protest-in-the-age-of-tiktok-295263</a></p>\n"
+    },
+    {
+      "title": "Billion-query-per-second lookup tables in C++",
+      "link": "https://lemire.me/blog/2026/10/26/billion-query-per-second-lookup-tables-in-c/",
+      "raw_summary": "<p>Article URL: <a href=\"https://lemire.me/blog/2026/10/26/billion-query-per-second-lookup-tables-in-c/\">https://lemire.me/blog/2026/10/26/billion-query-per-second-lookup-tables-in-c/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50271088\">https://news.ycombinator.com/item?id=50271088</a></p>\n<p>Points: 17</p>\n<p># Comments: 2</p>",
+      "source": "Hacker News: Front Page",
+      "published": "Wed, 28 Oct 2026 09:43:44 +0000",
+      "summary": "Billion-query-per-second lookup tables in C++\n<p>Article URL: <a href=\"https://lemire.me/blog/2026/10/26/billion-query-per-second-lookup-tables-in-c/\">https://lemire.me/blog/2026/10/26/billion-query-per-second-lookup-tables-in-c/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id"
+    },
+    {
+      "title": "Git for the US Code",
       "link": "https://lexifina.com/blog/git-for-the-us-code",
-      "raw_summary": "<p>Article URL: <a href=\"https://lexifina.com/blog/git-for-the-us-code\">https://lexifina.com/blog/git-for-the-us-code</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50268380\">https://news.ycombinator.com/item?id=50268380</a></p>\n<p>Points: 31</p>\n<p># Comments: 13</p>",
+      "raw_summary": "<p>Article URL: <a href=\"https://lexifina.com/blog/git-for-the-us-code\">https://lexifina.com/blog/git-for-the-us-code</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50268380\">https://news.ycombinator.com/item?id=50268380</a></p>\n<p>Points: 300</p>\n<p># Comments: 144</p>",
       "source": "Hacker News: Front Page",
       "published": "Wed, 28 Oct 2026 01:47:50 +0000",
-      "summary": "Git for US Legislation\n<p>Article URL: <a href=\"https://lexifina.com/blog/git-for-the-us-code\">https://lexifina.com/blog/git-for-the-us-code</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50268380\">https://news.ycombinator.com/item?id=50268380</a></p>\n<p>Points: 31</p>\n<p># C"
+      "summary": "Git for the US Code\n<p>Article URL: <a href=\"https://lexifina.com/blog/git-for-the-us-code\">https://lexifina.com/blog/git-for-the-us-code</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50268380\">https://news.ycombinator.com/item?id=50268380</a></p>\n<p>Points: 300</p>\n<p># Com"
     },
     {
       "title": "Moxnox 1.0: NT-Like, POSIX-Compatible OS Running Atop Btrfs",
       "link": "https://github.com/maharmstone/moxnox",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/maharmstone/moxnox\">https://github.com/maharmstone/moxnox</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50267569\">https://news.ycombinator.com/item?id=50267569</a></p>\n<p>Points: 18</p>\n<p># Comments: 3</p>",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/maharmstone/moxnox\">https://github.com/maharmstone/moxnox</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50267569\">https://news.ycombinator.com/item?id=50267569</a></p>\n<p>Points: 77</p>\n<p># Comments: 17</p>",
       "source": "Hacker News: Front Page",
       "published": "Tue, 27 Oct 2026 23:53:41 +0000",
       "summary": "Moxnox 1.0: NT-Like, POSIX-Compatible OS Running Atop Btrfs\n<p>Article URL: <a href=\"https://github.com/maharmstone/moxnox\">https://github.com/maharmstone/moxnox</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50267569\">https://news.ycombinator.com/item?id=50267569</a></p>\n<p>"
     },
     {
-      "title": "Reviewers rarely talk about reliability. Owners bring it up twice as often",
-      "link": "https://www.bettascore.ai/research/reliability-reviewers-vs-owners",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.bettascore.ai/research/reliability-reviewers-vs-owners\">https://www.bettascore.ai/research/reliability-reviewers-vs-owners</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50266780\">https://news.ycombinator.com/item?id=50266780</a></p>\n<p>Points: 70</p>\n<p># Comments: 69</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Tue, 27 Oct 2026 22:31:15 +0000",
-      "summary": "Reviewers rarely talk about reliability. Owners bring it up twice as often\n<p>Article URL: <a href=\"https://www.bettascore.ai/research/reliability-reviewers-vs-owners\">https://www.bettascore.ai/research/reliability-reviewers-vs-owners</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/it"
-    },
-    {
-      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
-      "link": "https://www.anthropic.com/news/expanding-partnership-gsa",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.anthropic.com/news/expanding-partnership-gsa\">https://www.anthropic.com/news/expanding-partnership-gsa</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50266701\">https://news.ycombinator.com/item?id=50266701</a></p>\n<p>Points: 28</p>\n<p># Comments: 15</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Tue, 27 Oct 2026 22:23:37 +0000",
-      "summary": "Expanding our partnership with GSA to bring Claude to all levels of government\n<p>Article URL: <a href=\"https://www.anthropic.com/news/expanding-partnership-gsa\">https://www.anthropic.com/news/expanding-partnership-gsa</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50266701\">"
-    },
-    {
-      "title": "Early progress on accelerating drug development with Claude",
-      "link": "https://www.anthropic.com/research/early-progress-drug-development",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.anthropic.com/research/early-progress-drug-development\">https://www.anthropic.com/research/early-progress-drug-development</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50265609\">https://news.ycombinator.com/item?id=50265609</a></p>\n<p>Points: 153</p>\n<p># Comments: 132</p>",
-      "source": "Hacker News: Front Page",
-      "published": "Tue, 27 Oct 2026 20:50:42 +0000",
-      "summary": "Early progress on accelerating drug development with Claude\n<p>Article URL: <a href=\"https://www.anthropic.com/research/early-progress-drug-development\">https://www.anthropic.com/research/early-progress-drug-development</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50265609\""
+      "title": "Jio shares surge 21% in market debut after blockbuster India IPO",
+      "link": "https://techcrunch.com/2026/10/27/jio-shares-surge-21-in-market-debut-after-blockbuster-india-ipo/",
+      "raw_summary": "Jio has debuted as India's second-most valuable listed company, behind its parent, Reliance Industries.",
+      "source": "TechCrunch",
+      "published": "Wed, 28 Oct 2026 05:20:32 +0000",
+      "summary": "Jio shares surge 21% in market debut after blockbuster India IPO\nJio has debuted as India's second-most valuable listed company, behind its parent, Reliance Industries."
     },
     {
       "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
@@ -155,12 +163,12 @@
       "summary": "Guidewire buys Hyperexponential for $1.7B in cash\nThe deal, expected to close sometime next year, is to help bring AI agents to work alongside humans to underwrite, analyze, and price decisions."
     },
     {
-      "title": "From 8VC to Benchmark, here’s what’s hiding in October SEC filings",
-      "link": "https://techcrunch.com/2026/10/27/from-8vc-to-benchmark-heres-whats-hiding-in-october-sec-filings/",
-      "raw_summary": "A whole crop of venture capital firms  are raising significant new funds.",
-      "source": "TechCrunch",
-      "published": "Tue, 27 Oct 2026 22:17:18 +0000",
-      "summary": "From 8VC to Benchmark, here’s what’s hiding in October SEC filings\nA whole crop of venture capital firms  are raising significant new funds."
+      "title": "China’s snooping around Pacific undersea cables raises risks for Big Tech",
+      "link": "https://arstechnica.com/gadgets/2026/10/google-and-meta-subsea-cables-among-most-at-risk-from-sabotage-in-pacific/",
+      "raw_summary": "US-owned trans-Pacific cables face growing risks from sabotage and China.",
+      "source": "Ars Technica - All content",
+      "published": "Wed, 28 Oct 2026 11:00:49 +0000",
+      "summary": "China’s snooping around Pacific undersea cables raises risks for Big Tech\nUS-owned trans-Pacific cables face growing risks from sabotage and China."
     },
     {
       "title": "Apple refreshes the iMac, entry-level MacBook Pro with the M6 chip",
@@ -195,132 +203,124 @@
       "summary": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses\nOwners of AI-run firms would evade liability for \"reckless\" AI, US Rep. Comer says."
     },
     {
-      "title": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
-      "link": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
-      "raw_summary": "Seven potential AI nightmares pulled from Anthropic's 93-page \"Risk Factor\" tome.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 27 Oct 2026 21:31:14 +0000",
-      "summary": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity\nSeven potential AI nightmares pulled from Anthropic's 93-page \"Risk Factor\" tome."
-    },
-    {
-      "title": "No clear winner in Israeli parliamentary election, exit polls suggest",
-      "link": "https://www.ft.com/content/6dab34da-a039-46e6-9547-0c7213a00001?syn-25a6b1a6=1",
-      "raw_summary": "Benjamin Netanyahu urges rivals to join Jewish coalition and shun Arab parties as neither bloc set for majority",
+      "title": "Iran threatens South Korean shipping group over Hormuz transits",
+      "link": "https://www.ft.com/content/171ffdaa-e3e7-41b9-a4c6-09c9ace3f719?syn-25a6b1a6=1",
+      "raw_summary": "Sinokor accused of repeated ‘crossing violations’ by regime that has only enforced its rules through military action",
       "source": "World",
-      "published": "Wed, 28 Oct 2026 02:43:22 GMT",
-      "summary": "No clear winner in Israeli parliamentary election, exit polls suggest\nBenjamin Netanyahu urges rivals to join Jewish coalition and shun Arab parties as neither bloc set for majority"
+      "published": "Wed, 28 Oct 2026 11:51:33 GMT",
+      "summary": "Iran threatens South Korean shipping group over Hormuz transits\nSinokor accused of repeated ‘crossing violations’ by regime that has only enforced its rules through military action"
     },
     {
-      "title": "Sizewell nuclear plant is ‘terrible deal’ for British taxpayers, MPs conclude",
-      "link": "https://www.ft.com/content/bc330ee4-f151-4552-88a8-8879a26d8fdd?syn-25a6b1a6=1",
-      "raw_summary": "Parliamentary inquiry says consumers are carrying ‘extraordinary’ financial risk and footing most of the £40bn bill as private investors ‘cash in’",
+      "title": "At least 30 killed in collision of high-speed trains in Spain",
+      "link": "https://www.ft.com/content/3500a00d-d676-4460-83f8-8ea2bfce1049?syn-25a6b1a6=1",
+      "raw_summary": "Crash near Toledo south of Madrid follows death of 46 in Andalusia rail accident in January",
       "source": "World",
-      "published": "Wed, 28 Oct 2026 00:01:00 GMT",
-      "summary": "Sizewell nuclear plant is ‘terrible deal’ for British taxpayers, MPs conclude\nParliamentary inquiry says consumers are carrying ‘extraordinary’ financial risk and footing most of the £40bn bill as private investors ‘cash in’"
+      "published": "Wed, 28 Oct 2026 11:45:20 GMT",
+      "summary": "At least 30 killed in collision of high-speed trains in Spain\nCrash near Toledo south of Madrid follows death of 46 in Andalusia rail accident in January"
     },
     {
-      "title": "Healey puts UK energy reform at centre of his ‘do no harm’ Budget",
-      "link": "https://www.ft.com/content/427a7624-d710-4078-9a7e-d23fdb0b2975?syn-25a6b1a6=1",
-      "raw_summary": "Chancellor to pledge extra support for businesses, entrepreneurs and households during ‘difficult moment’",
+      "title": "Israel’s election: what happens next?",
+      "link": "https://www.ft.com/content/4f122702-3765-4e9f-a94f-4b786bc2af15",
+      "raw_summary": "Partial results suggest neither Prime Minister Benjamin Netanyahu nor his rivals have a simple path to form a government",
       "source": "World",
-      "published": "Tue, 27 Oct 2026 23:35:42 GMT",
-      "summary": "Healey puts UK energy reform at centre of his ‘do no harm’ Budget\nChancellor to pledge extra support for businesses, entrepreneurs and households during ‘difficult moment’"
+      "published": "Wed, 28 Oct 2026 11:32:37 GMT",
+      "summary": "Israel’s election: what happens next?\nPartial results suggest neither Prime Minister Benjamin Netanyahu nor his rivals have a simple path to form a government"
     },
     {
-      "title": "Healey to reverse cuts to cash Isa allowance",
-      "link": "https://www.ft.com/content/619978f5-4400-4bf0-8b1f-4cf62bee9774?syn-25a6b1a6=1",
-      "raw_summary": "Chancellor will use Wednesday’s Budget to maintain tax-free limit at £20,000 a year, reversing plan by predecessor Rachel Reeves",
+      "title": "Iranians face energy squeeze from war as natural gas runs short",
+      "link": "https://www.ft.com/content/77e4e4a5-a041-4d59-9d8c-0a7af9ef6d25",
+      "raw_summary": "Tehran tells citizens to curb consumption and urges civil servants to work from home to avert crisis",
       "source": "World",
-      "published": "Tue, 27 Oct 2026 22:39:52 GMT",
-      "summary": "Healey to reverse cuts to cash Isa allowance\nChancellor will use Wednesday’s Budget to maintain tax-free limit at £20,000 a year, reversing plan by predecessor Rachel Reeves"
+      "published": "Wed, 28 Oct 2026 11:00:06 GMT",
+      "summary": "Iranians face energy squeeze from war as natural gas runs short\nTehran tells citizens to curb consumption and urges civil servants to work from home to avert crisis"
     },
     {
-      "title": "FirstFT: Israeli exit polls show no clear winner in parliamentary election",
-      "link": "https://www.ft.com/content/fadbee3f-16cd-4892-a41f-7d6682b77e4d?syn-25a6b1a6=1",
-      "raw_summary": "Also in today’s newsletter: US and Russia discuss potential oil deals and law firm Weil prepares for possible wind-down",
+      "title": "The great American investment boom",
+      "link": "https://www.ft.com/content/8c40598a-a946-4901-a59c-c513689a5351",
+      "raw_summary": "This is a sign of an economy that is prioritising the future over the present",
       "source": "World",
-      "published": "Tue, 27 Oct 2026 22:11:08 GMT",
-      "summary": "FirstFT: Israeli exit polls show no clear winner in parliamentary election\nAlso in today’s newsletter: US and Russia discuss potential oil deals and law firm Weil prepares for possible wind-down"
+      "published": "Wed, 28 Oct 2026 11:00:05 GMT",
+      "summary": "The great American investment boom\nThis is a sign of an economy that is prioritising the future over the present"
     },
     {
-      "title": "Asian Stocks Climb on AI Trade Optimism, Oil Gains: Markets Wrap",
+      "title": "Fed Communication Has Gotten Confusing, Economist Sahm Says",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-28/fed-communication-has-gotten-confusing-economist-sahm-video",
+      "raw_summary": "“I think there is a strong economic argument for raising rates today by a quarter point,” says Claudia Sahm, chief economist at New Century Advisors. She examines the level of confusion around the Federal Reserve’s communication strategy on “Bloomberg Surveillance.” (Source: Bloomberg)",
+      "source": "Bloomberg Markets",
+      "published": "Wed, 28 Oct 2026 11:27:03 GMT",
+      "summary": "Fed Communication Has Gotten Confusing, Economist Sahm Says\n“I think there is a strong economic argument for raising rates today by a quarter point,” says Claudia Sahm, chief economist at New Century Advisors. She examines the level of confusion around the Federal Reserve’s communication strategy on"
+    },
+    {
+      "title": "Trans-Oil Bonds Drop as Agricultural Firm Delays Audited Results",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-28/trans-oil-bonds-drop-as-agricultural-firm-delays-audited-results",
+      "raw_summary": "Trans-Oil Group’s bonds fell after the agricultural commodity firm told bondholders it would have to delay its audited full-year results.",
+      "source": "Bloomberg Markets",
+      "published": "Wed, 28 Oct 2026 11:26:50 GMT",
+      "summary": "Trans-Oil Bonds Drop as Agricultural Firm Delays Audited Results\nTrans-Oil Group’s bonds fell after the agricultural commodity firm told bondholders it would have to delay its audited full-year results."
+    },
+    {
+      "title": "Jio’s IPO Surge Ends Tata’s Reign as Most Valuable India Group",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-28/jio-s-ipo-surge-ends-tata-s-reign-as-most-valuable-india-group",
+      "raw_summary": "Jio Platforms Ltd.’s blockbuster stock market debut has propelled the digital company as well as its parent Reliance Industries Ltd. into rarified air. It also helped Mukesh Ambani’s conglomerate topple Tata Group as India’s largest conglomerate by market value.",
+      "source": "Bloomberg Markets",
+      "published": "Wed, 28 Oct 2026 07:07:16 GMT",
+      "summary": "Jio’s IPO Surge Ends Tata’s Reign as Most Valuable India Group\nJio Platforms Ltd.’s blockbuster stock market debut has propelled the digital company as well as its parent Reliance Industries Ltd. into rarified air. It also helped Mukesh Ambani’s conglomerate topple Tata Group as India’s largest cong"
+    },
+    {
+      "title": "Pimco Would Welcome 2027 UK Fiscal Deficit of Around 3.5%",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-28/pimco-would-welcome-uk-2027-fiscal-deficit-around-3-5-video",
+      "raw_summary": "Pimco economist Peder Beck-Friis looks ahead to UK Chancellor John Healey’s budget announcement, highlighting the Office for Budget Responsibility’s (OBR) fiscal deficit forecast for next year as the critical metric for the gilt market. \"If that comes in in the mid-threes, I think that will be welcome news for the bond market,\" Beck-Friis tells Bloomberg Television. (Source: Bloomberg)",
+      "source": "Bloomberg Markets",
+      "published": "Wed, 28 Oct 2026 11:05:11 GMT",
+      "summary": "Pimco Would Welcome 2027 UK Fiscal Deficit of Around 3.5%\nPimco economist Peder Beck-Friis looks ahead to UK Chancellor John Healey’s budget announcement, highlighting the Office for Budget Responsibility’s (OBR) fiscal deficit forecast for next year as the critical metric for the gilt market. \"If t"
+    },
+    {
+      "title": "US Stocks Drift as Traders Await Tech Results, Fed: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-10-27/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "Asian stocks advanced for a second day as enthusiasm over the artificial intelligence trade lifted equities ahead of earnings from tech megacaps and the Federal Reserve’s interest-rate decision. Crude oil rose.",
+      "raw_summary": "US stock futures struggled for traction ahead of megacap tech earnings and the Federal Reserve’s interest-rate decision later Wednesday.",
       "source": "Bloomberg Markets",
       "published": "Tue, 27 Oct 2026 22:09:07 GMT",
-      "summary": "Asian Stocks Climb on AI Trade Optimism, Oil Gains: Markets Wrap\nAsian stocks advanced for a second day as enthusiasm over the artificial intelligence trade lifted equities ahead of earnings from tech megacaps and the Federal Reserve’s interest-rate decision. Crude oil rose."
+      "summary": "US Stocks Drift as Traders Await Tech Results, Fed: Markets Wrap\nUS stock futures struggled for traction ahead of megacap tech earnings and the Federal Reserve’s interest-rate decision later Wednesday."
     },
     {
-      "title": "Latest Oil Market News and Analysis for Oct. 28",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-27/latest-oil-market-news-and-analysis-for-oct-28",
-      "raw_summary": "Oil rose as traders tracked a tight Israeli election, and the Wall Street Journal reported the US has told several Persian Gulf nations to be prepared for a fresh military campaign against Iran after the midterms.",
-      "source": "Bloomberg Markets",
-      "published": "Tue, 27 Oct 2026 22:04:57 GMT",
-      "summary": "Latest Oil Market News and Analysis for Oct. 28\nOil rose as traders tracked a tight Israeli election, and the Wall Street Journal reported the US has told several Persian Gulf nations to be prepared for a fresh military campaign against Iran after the midterms."
-    },
-    {
-      "title": "Jio Looks to Break India Mega-IPO Jinx With a Blockbuster Stock-Market Debut",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-10-28/jio-looks-to-break-india-mega-ipo-jinx-with-a-blockbuster-stock-market-debut",
-      "raw_summary": "A gray-market premium of about 22% suggests investors are betting on a strong start.",
-      "source": "Bloomberg Markets",
-      "published": "Wed, 28 Oct 2026 02:35:31 GMT",
-      "summary": "Jio Looks to Break India Mega-IPO Jinx With a Blockbuster Stock-Market Debut\nA gray-market premium of about 22% suggests investors are betting on a strong start."
-    },
-    {
-      "title": "India’s Record Bank Cash Surplus Fades as RBI Curbs Rupee Bets",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-28/india-s-record-bank-cash-surplus-fades-as-rbi-curbs-rupee-bets",
-      "raw_summary": "A record cash surplus at Indian banks is fading quickly as the central bank keeps liquidity tight to curb bets against the currency.",
-      "source": "Bloomberg Markets",
-      "published": "Wed, 28 Oct 2026 01:51:10 GMT",
-      "summary": "India’s Record Bank Cash Surplus Fades as RBI Curbs Rupee Bets\nA record cash surplus at Indian banks is fading quickly as the central bank keeps liquidity tight to curb bets against the currency."
-    },
-    {
-      "title": "New Zealand Dollar Slides Most Versus Aussie Since 2017 on RBNZ",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-28/new-zealand-dollar-slides-most-versus-aussie-since-2017-on-rbnz",
-      "raw_summary": "The New Zealand dollar tumbled after the central bank unexpectedly kept its policy rate on hold, defying economists’ forecasts for an interest-rate hike.",
-      "source": "Bloomberg Markets",
-      "published": "Wed, 28 Oct 2026 01:50:36 GMT",
-      "summary": "New Zealand Dollar Slides Most Versus Aussie Since 2017 on RBNZ\nThe New Zealand dollar tumbled after the central bank unexpectedly kept its policy rate on hold, defying economists’ forecasts for an interest-rate hike."
-    },
-    {
-      "title": "Coinbase says user funds are safe after third-party vendor exposes customer contact info",
-      "link": "https://www.coindesk.com/tech/2026/10/28/coinbase-says-customer-funds-are-safe-after-third-party-vendor-exposes-customer-contact-info",
+      "title": "XRP Ledger developers propose creating wallets with zero XRP for stablecoin payments",
+      "link": "https://www.coindesk.com/tech/2026/10/28/xrp-ledger-developers-propose-creating-wallets-with-zero-xrp-for-stablecoin-payments",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 28 Oct 2026 03:11:14 +0000",
-      "summary": "Coinbase says user funds are safe after third-party vendor exposes customer contact info\n"
+      "published": "Wed, 28 Oct 2026 11:52:14 +0000",
+      "summary": "XRP Ledger developers propose creating wallets with zero XRP for stablecoin payments\n"
     },
     {
-      "title": "Treasury's Bessent sees crypto as America's next tool for keeping the U.S. dollar on top",
-      "link": "https://www.coindesk.com/policy/2026/10/27/treasury-s-bessent-sees-crypto-as-america-s-next-tool-for-keeping-the-u-s-dollar-on-top",
+      "title": "Bitcoin rebounds above $81,000 as Asian chip rally spills into crypto, pepe jumps 9%",
+      "link": "https://www.coindesk.com/markets/2026/10/28/bitcoin-rebounds-above-usd81-000-as-asian-chip-rally-spills-into-crypto-pepe-jumps-9",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 27 Oct 2026 20:41:33 +0000",
-      "summary": "Treasury's Bessent sees crypto as America's next tool for keeping the U.S. dollar on top\n"
+      "published": "Wed, 28 Oct 2026 11:32:31 +0000",
+      "summary": "Bitcoin rebounds above $81,000 as Asian chip rally spills into crypto, pepe jumps 9%\n"
     },
     {
-      "title": "Robinhood's crypto revenue fell 55% from last year, but topped Street forecasts",
-      "link": "https://www.coindesk.com/markets/2026/10/27/robinhood-s-crypto-revenue-plunges-55-even-as-trading-platform-posts-record-sales",
+      "title": "Live updates: Bitcoin climbs above $81,000 as majors rally ahead of Fed decision",
+      "link": "https://www.coindesk.com/business/2026/10/28/live-updates-bitcoin-climbs-above-usd81-000-as-majors-rally-ahead-of-fed-decision",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 27 Oct 2026 20:32:21 +0000",
-      "summary": "Robinhood's crypto revenue fell 55% from last year, but topped Street forecasts\n"
+      "published": "Wed, 28 Oct 2026 11:23:34 +0000",
+      "summary": "Live updates: Bitcoin climbs above $81,000 as majors rally ahead of Fed decision\n"
     },
     {
-      "title": "U.S. agency hits Utah with lawsuit to shield Kalshi's ability to offer betting there",
-      "link": "https://www.coindesk.com/policy/2026/10/27/u-s-agency-hits-utah-with-lawsuit-to-shield-kalshi-s-ability-to-offer-betting-there",
+      "title": "Google to preview crypto custody security system as AI threats grow",
+      "link": "https://www.coindesk.com/tech/2026/10/28/google-to-preview-crypto-custody-security-system-as-ai-threats-grow",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 27 Oct 2026 19:07:59 +0000",
-      "summary": "U.S. agency hits Utah with lawsuit to shield Kalshi's ability to offer betting there\n"
+      "published": "Wed, 28 Oct 2026 11:00:00 +0000",
+      "summary": "Google to preview crypto custody security system as AI threats grow\n"
     },
     {
-      "title": "Intel, Oracle, IBM join growing list of firms objecting to OKX–ICE tokenized stock plans",
-      "link": "https://www.coindesk.com/business/2026/10/27/intel-oracle-ibm-join-growing-list-of-firms-objecting-to-okx-ice-tokenized-stock-plans",
+      "title": "Nearly 90% of large businesses are embracing tokenized cash to speed up payments: DBS",
+      "link": "https://www.coindesk.com/business/2026/10/28/nearly-90-of-large-businesses-are-embracing-tokenized-cash-to-speed-up-payments-dbs",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 27 Oct 2026 18:13:02 +0000",
-      "summary": "Intel, Oracle, IBM join growing list of firms objecting to OKX–ICE tokenized stock plans\n"
+      "published": "Wed, 28 Oct 2026 10:41:51 +0000",
+      "summary": "Nearly 90% of large businesses are embracing tokenized cash to speed up payments: DBS\n"
     }
   ]
 }
