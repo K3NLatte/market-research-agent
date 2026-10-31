@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T03:29:34.808662+00:00",
+  "generated_at": "2026-10-31T11:28:47.320110+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,30 @@
       "summary": "FBI Arrests Executive at Ransomware Negotiation Firm\nAgents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on "
     },
     {
+      "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+      "link": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+      "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-111357 (CVSS score: 8.8) - A missing authentication for a critical function vulnerability that could allow a",
+      "source": "The Hacker News",
+      "published": "Sat, 31 Oct 2026 13:57:43 +0530",
+      "summary": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active explo"
+    },
+    {
+      "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+      "link": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+      "raw_summary": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at&nbsp;the security firm Parameter&nbsp;showed.\n\nThe researchers reported the flaw through&nbsp;OpenAI's bug bounty program&nbsp;on October 18, and OpenAI fixed it eight days later and rated it P1, its most serious category.",
+      "source": "The Hacker News",
+      "published": "Sat, 31 Oct 2026 11:03:41 +0530",
+      "summary": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats\nA malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at&nbsp;the security firm Parameter&nbsp;s"
+    },
+    {
+      "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+      "link": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+      "raw_summary": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday.\n\nThe web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in the third quarter of 2026. That amounts to 197,400 attacks per day, or one attack every 0.44",
+      "source": "The Hacker News",
+      "published": "Sat, 31 Oct 2026 10:26:12 +0530",
+      "summary": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%\nThreat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday.\n\nThe web infrastructure and security company said it autonomously mitigated 18.2 million"
+    },
+    {
       "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
       "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
       "raw_summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously.\n\nThe activity has been attributed by CrowdStrike to a China-based \"targeted intrusion adversary\" it tracks under the moniker Vapor Panda (previously VexatiousTemper). First identified in",
@@ -59,68 +83,52 @@
       "summary": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them\nTeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer,"
     },
     {
-      "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
-      "link": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
-      "raw_summary": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released.\n\nThe vulnerability, which does not have a CVE identifier, relates to a case of remote code execution impacting WordPress Core versions 4.7 through 7.1.3. It carries a CVSS score of 8.1 on the CVSS scoring system. Patches for the flaw were released on October",
-      "source": "The Hacker News",
-      "published": "Fri, 30 Oct 2026 19:38:14 +0530",
-      "summary": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours\nThreat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released.\n\nThe vulnerability, which does not have a CVE identifier, relates to a case of remote co"
-    },
-    {
-      "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
-      "link": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
-      "raw_summary": "A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported.\n\nTrezor has not yet examined the device. It is telling everyone who bought a Trezor from CryptoBilis since March 2026 to move their funds to a new wallet with a new recovery phrase.\n\nTrezor said in a&nbsp;blog post&nbsp",
-      "source": "The Hacker News",
-      "published": "Fri, 30 Oct 2026 17:51:56 +0530",
-      "summary": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis\nA Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported.\n\nTrezor has not yet examined the dev"
-    },
-    {
-      "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
-      "link": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
-      "raw_summary": "The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t break anything.&nbsp;\n\nTheir concerns are practical. An IPS protection could block legitimate traffic. A configuration change could interrupt a service. An endpoint policy could affect an application",
-      "source": "The Hacker News",
-      "published": "Fri, 30 Oct 2026 17:28:53 +0530",
-      "summary": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving\nThe alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t break anything.&"
-    },
-    {
-      "title": "Tell HN: Scribd Breached",
-      "link": "https://news.ycombinator.com/item?id=50312756",
-      "raw_summary": "<p>Not seeing anything posted about this anywhere, received on Monday, 26th of Oct 2026:<p>Subject: Notice of Security Incident<p>This notice is being sent on behalf of Scribd, Inc., the parent company of Scribd, Slideshare, Everand, and Fable, by Epiq, Scribd Inc.’s notification partner.<p>Hello,<p>We are writing to let you know that Scribd, Inc. recently experienced a security incident that may have affected your data.<p>We detected that an unauthorized third party may have gained access to certain user data in one of our systems. After investigating this activity, we found that the third party may have accessed your email address and the following of your information: last 4 digits of your credit card and country, credit card issuer, credit card expiry date, payment history (not including credit card details).<p>We have no evidence that this data has been misused, but we are notifying you out of an abundance of caution so that you can take steps to protect your information.<p>Watch for phishing<p>We encourage you to stay vigilant for phishing attempts by bad actors pretending to be Scribd, Inc. or Scribd, Slideshare, Everand or Fable.<p>Remember that Scribd, Inc. will never ask you for your username and password or other sensitive information via email or text. If you did receive a message like that:<p><pre><code>    Don't click on any links in it. Instead type scribd.com, slideshare.net, everand.com, or fable.co directly into your browser.\n    Call us at: +1-877-361-9887. Hours of operation are Monday-Friday, 11:00 a.m.-11:00 p.m., Central European Time.\n    Report it through Scribd, Inc.'s Help Center.\n</code></pre>\nFor more information<p>We regret that this incident occurred and any concern it may cause you. If you have additional questions, contact the dedicated call center at +1-877-361-9887. Hours of operation are Monday-Friday, 11:00 a.m.-11:00 p.m. Central European Time.<p>The National Cyber Security Center has helpful guidance on how to recognize and avoid phishing scams here.<p>What Scribd, Inc. is doing<p><pre><code>    We have secured the affected system and ended the unauthorized access.\n    We have notified law enforcement as well as the relevant data protection authorities.\n    We are working with an expert third party cybersecurity firm to strengthen our access controls and monitoring.\n</code></pre>\nWe value the trust you place in us with your information, and don’t take that lightly. We are deeply sorry this happened and will keep you updated if anything further changes.<p>Scribd, Inc.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50312756\">https://news.ycombinator.com/item?id=50312756</a></p>\n<p>Points: 19</p>\n<p># Comments: 1</p>",
+      "title": "Molly(Signal fork) has not been updated since 3 months and is vulnerable",
+      "link": "https://piefed.world/post/1503394",
+      "raw_summary": "<p>Article URL: <a href=\"https://piefed.world/post/1503394\">https://piefed.world/post/1503394</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50314666\">https://news.ycombinator.com/item?id=50314666</a></p>\n<p>Points: 6</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 31 Oct 2026 02:46:36 +0000",
-      "summary": "Tell HN: Scribd Breached\n<p>Not seeing anything posted about this anywhere, received on Monday, 26th of Oct 2026:<p>Subject: Notice of Security Incident<p>This notice is being sent on behalf of Scribd, Inc., the parent company of Scribd, Slideshare, Everand, and Fable, by Epiq, Scribd Inc.’s notific"
+      "published": "Sat, 31 Oct 2026 10:23:41 +0000",
+      "summary": "Molly(Signal fork) has not been updated since 3 months and is vulnerable\n<p>Article URL: <a href=\"https://piefed.world/post/1503394\">https://piefed.world/post/1503394</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50314666\">https://news.ycombinator.com/item?id=50314666</a></p"
     },
     {
-      "title": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
-      "link": "https://tng.episodle.com/",
-      "raw_summary": "<p>Article URL: <a href=\"https://tng.episodle.com/\">https://tng.episodle.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50311686\">https://news.ycombinator.com/item?id=50311686</a></p>\n<p>Points: 97</p>\n<p># Comments: 26</p>",
+      "title": "Serbia just elected the world's brainiest parliament",
+      "link": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament\">https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50314654\">https://news.ycombinator.com/item?id=50314654</a></p>\n<p>Points: 138</p>\n<p># Comments: 86</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 30 Oct 2026 23:51:24 +0000",
-      "summary": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game\n<p>Article URL: <a href=\"https://tng.episodle.com/\">https://tng.episodle.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50311686\">https://news.ycombinator.com/item?id=50311686</a></p>\n<p>Points: 9"
+      "published": "Sat, 31 Oct 2026 10:21:30 +0000",
+      "summary": "Serbia just elected the world's brainiest parliament\n<p>Article URL: <a href=\"https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament\">https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament</a></p>\n<p>Comments URL: <a href=\"https://n"
     },
     {
-      "title": "Linode Security Incident",
-      "link": "https://status.linode.com/incidents/nt58zhx3pmgm",
-      "raw_summary": "<p>Article URL: <a href=\"https://status.linode.com/incidents/nt58zhx3pmgm\">https://status.linode.com/incidents/nt58zhx3pmgm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50310687\">https://news.ycombinator.com/item?id=50310687</a></p>\n<p>Points: 163</p>\n<p># Comments: 88</p>",
+      "title": "How long do you need to hold down the power button to turn off a PC?",
+      "link": "https://www.osnews.com/story/146273/how-long-do-you-need-to-hold-down-the-power-button-to-turn-off-a-pc/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.osnews.com/story/146273/how-long-do-you-need-to-hold-down-the-power-button-to-turn-off-a-pc/\">https://www.osnews.com/story/146273/how-long-do-you-need-to-hold-down-the-power-button-to-turn-off-a-pc/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50314243\">https://news.ycombinator.com/item?id=50314243</a></p>\n<p>Points: 27</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 30 Oct 2026 21:57:40 +0000",
-      "summary": "Linode Security Incident\n<p>Article URL: <a href=\"https://status.linode.com/incidents/nt58zhx3pmgm\">https://status.linode.com/incidents/nt58zhx3pmgm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50310687\">https://news.ycombinator.com/item?id=50310687</a></p>\n<p>Points: 163</"
+      "published": "Sat, 31 Oct 2026 08:43:32 +0000",
+      "summary": "How long do you need to hold down the power button to turn off a PC?\n<p>Article URL: <a href=\"https://www.osnews.com/story/146273/how-long-do-you-need-to-hold-down-the-power-button-to-turn-off-a-pc/\">https://www.osnews.com/story/146273/how-long-do-you-need-to-hold-down-the-power-button-to-turn-off-a"
     },
     {
-      "title": "sanstun: A sans-IO, parallel-friendly WireGuard implementation in Rust",
-      "link": "https://www.firezone.dev/blog/introducing-sanstun",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.firezone.dev/blog/introducing-sanstun\">https://www.firezone.dev/blog/introducing-sanstun</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50310398\">https://news.ycombinator.com/item?id=50310398</a></p>\n<p>Points: 78</p>\n<p># Comments: 14</p>",
+      "title": "Switch Lowering in GCC",
+      "link": "https://xoranth.net/gcc-switch/",
+      "raw_summary": "<p>Article URL: <a href=\"https://xoranth.net/gcc-switch/\">https://xoranth.net/gcc-switch/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50314085\">https://news.ycombinator.com/item?id=50314085</a></p>\n<p>Points: 74</p>\n<p># Comments: 7</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 30 Oct 2026 21:30:00 +0000",
-      "summary": "sanstun: A sans-IO, parallel-friendly WireGuard implementation in Rust\n<p>Article URL: <a href=\"https://www.firezone.dev/blog/introducing-sanstun\">https://www.firezone.dev/blog/introducing-sanstun</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50310398\">https://news.ycombinat"
+      "published": "Sat, 31 Oct 2026 08:02:26 +0000",
+      "summary": "Switch Lowering in GCC\n<p>Article URL: <a href=\"https://xoranth.net/gcc-switch/\">https://xoranth.net/gcc-switch/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50314085\">https://news.ycombinator.com/item?id=50314085</a></p>\n<p>Points: 74</p>\n<p># Comments: 7</p>"
     },
     {
-      "title": "AO3 Down for Maintenance",
-      "link": "https://www.otwstatus.org",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.otwstatus.org\">https://www.otwstatus.org</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50310258\">https://news.ycombinator.com/item?id=50310258</a></p>\n<p>Points: 105</p>\n<p># Comments: 30</p>",
+      "title": "Digital Minimalism",
+      "link": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html\">https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50313661\">https://news.ycombinator.com/item?id=50313661</a></p>\n<p>Points: 72</p>\n<p># Comments: 41</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 30 Oct 2026 21:17:23 +0000",
-      "summary": "AO3 Down for Maintenance\n<p>Article URL: <a href=\"https://www.otwstatus.org\">https://www.otwstatus.org</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50310258\">https://news.ycombinator.com/item?id=50310258</a></p>\n<p>Points: 105</p>\n<p># Comments: 30</p>"
+      "published": "Sat, 31 Oct 2026 06:16:36 +0000",
+      "summary": "Digital Minimalism\n<p>Article URL: <a href=\"https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html\">https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50313661\">https://news.ycombinator.com/item?id=5"
+    },
+    {
+      "title": "Pile-ins, payouts, and pacing pressure: the investors behind the VCs open up",
+      "link": "https://techcrunch.com/2026/10/30/pile-ins-payouts-and-pacing-pressure-the-investors-behind-the-vcs-open-up/",
+      "raw_summary": "The money behind the money is thrilled, mostly.",
+      "source": "TechCrunch",
+      "published": "Sat, 31 Oct 2026 04:16:50 +0000",
+      "summary": "Pile-ins, payouts, and pacing pressure: the investors behind the VCs open up\nThe money behind the money is thrilled, mostly."
     },
     {
       "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
@@ -153,14 +161,6 @@
       "source": "TechCrunch",
       "published": "Fri, 30 Oct 2026 21:54:34 +0000",
       "summary": "Intel’s stock crashes, knocking $12B from government’s stake\nIntel is being hurt by PC sales as the AI industry gobbles memory and other components causing PC prices to rise."
-    },
-    {
-      "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
-      "link": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
-      "raw_summary": "Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business.",
-      "source": "TechCrunch",
-      "published": "Fri, 30 Oct 2026 21:52:03 +0000",
-      "summary": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says\nBlackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has u"
     },
     {
       "title": "Once again, NASA is asking for ideas to rescue Hubble from certain death",
@@ -203,68 +203,60 @@
       "summary": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours\nIt's still unknown how attackers got access to Anthropic's verified Cursor account."
     },
     {
-      "title": "Muji takes its China playbook global",
-      "link": "https://www.ft.com/content/e0484ec6-f370-476f-8763-309f3d746ba9?syn-25a6b1a6=1",
-      "raw_summary": "Localising products is key to minimalist Japanese retailer’s plan to expand in Europe and US",
+      "title": "Rating agency Fitch hits France with surprise outlook downgrade",
+      "link": "https://www.ft.com/content/852b05a1-4090-4aee-afc6-4d4c353ef3cf?syn-25a6b1a6=1",
+      "raw_summary": "Move comes hours after data showed an unexpected contraction in third-quarter economic output",
       "source": "World",
-      "published": "Sat, 31 Oct 2026 00:40:33 GMT",
-      "summary": "Muji takes its China playbook global\nLocalising products is key to minimalist Japanese retailer’s plan to expand in Europe and US"
+      "published": "Sat, 31 Oct 2026 09:36:34 GMT",
+      "summary": "Rating agency Fitch hits France with surprise outlook downgrade\nMove comes hours after data showed an unexpected contraction in third-quarter economic output"
     },
     {
-      "title": "OpenAI slashes funding target by $10bn as tech anxieties mount",
-      "link": "https://www.ft.com/content/7a3ad950-1b3b-4d9e-8c15-65a61ae6180f?syn-25a6b1a6=1",
-      "raw_summary": "ChatGPT maker is now seeking about $20bn at a $1.25tn valuation as it tempers its ambitions",
-      "source": "World",
-      "published": "Sat, 31 Oct 2026 00:05:08 GMT",
-      "summary": "OpenAI slashes funding target by $10bn as tech anxieties mount\nChatGPT maker is now seeking about $20bn at a $1.25tn valuation as it tempers its ambitions"
-    },
-    {
-      "title": "Poland suspends top judges as battle over rule of law escalates",
-      "link": "https://www.ft.com/content/1be69ebe-0c55-446e-9abf-84ac9e99c51e?syn-25a6b1a6=1",
-      "raw_summary": "President and prime minister are embroiled in a bitter dispute over appointments to country’s constitutional court",
-      "source": "World",
-      "published": "Fri, 30 Oct 2026 23:32:09 GMT",
-      "summary": "Poland suspends top judges as battle over rule of law escalates\nPresident and prime minister are embroiled in a bitter dispute over appointments to country’s constitutional court"
-    },
-    {
-      "title": "US greenlights $2.1bn sale of Patriot interceptors to Ukraine",
+      "title": "US approves $2.1bn sale of Patriot interceptors to Ukraine",
       "link": "https://www.ft.com/content/321cf4f9-d236-4b50-a52c-c2a21f7c447b?syn-25a6b1a6=1",
-      "raw_summary": "Volodymyr Zelenskyy had accused Trump administration of delaying the weapons as  relations deteriorated between the countries",
+      "raw_summary": "Volodymyr Zelenskyy welcomes ‘strong decision’ but calls for the missiles to be provided  immediately",
       "source": "World",
-      "published": "Fri, 30 Oct 2026 21:28:58 GMT",
-      "summary": "US greenlights $2.1bn sale of Patriot interceptors to Ukraine\nVolodymyr Zelenskyy had accused Trump administration of delaying the weapons as  relations deteriorated between the countries"
+      "published": "Sat, 31 Oct 2026 07:04:09 GMT",
+      "summary": "US approves $2.1bn sale of Patriot interceptors to Ukraine\nVolodymyr Zelenskyy welcomes ‘strong decision’ but calls for the missiles to be provided  immediately"
     },
     {
-      "title": "US tech stocks tumble as concerns over AI spending intensify",
-      "link": "https://www.ft.com/content/3ba953ae-84bb-4de4-959e-baec3e908fb3?syn-25a6b1a6=1",
-      "raw_summary": "Revelations that Anthropic could receive junk rating after IPO add to concerns over industry borrowing spree",
+      "title": "Fiscal drifting: why the Budget won’t leave you better off",
+      "link": "https://www.ft.com/content/2d7ef638-2efb-42ec-a433-bef55f61d2e1?syn-25a6b1a6=1",
+      "raw_summary": "Frozen thresholds and higher inflation forecasts mean thousands more could be dragged into the £100,000 tax trap than previously thought",
       "source": "World",
-      "published": "Fri, 30 Oct 2026 21:13:50 GMT",
-      "summary": "US tech stocks tumble as concerns over AI spending intensify\nRevelations that Anthropic could receive junk rating after IPO add to concerns over industry borrowing spree"
+      "published": "Sat, 31 Oct 2026 05:12:54 GMT",
+      "summary": "Fiscal drifting: why the Budget won’t leave you better off\nFrozen thresholds and higher inflation forecasts mean thousands more could be dragged into the £100,000 tax trap than previously thought"
     },
     {
-      "title": "BOJ’s Faster ETF Sales May Help Takaichi’s Spending Plan",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-31/boj-faster-etf-sales-may-help-takaichi-spending-plan-non-tax-revenue",
-      "raw_summary": "The Bank of Japan’s decision to accelerate sales of exchange-traded funds could boost its payments to the government, potentially helping Prime Minister Sanae Takaichi finance her costly policy agenda.",
-      "source": "Bloomberg Markets",
-      "published": "Sat, 31 Oct 2026 02:32:32 GMT",
-      "summary": "BOJ’s Faster ETF Sales May Help Takaichi’s Spending Plan\nThe Bank of Japan’s decision to accelerate sales of exchange-traded funds could boost its payments to the government, potentially helping Prime Minister Sanae Takaichi finance her costly policy agenda."
+      "title": "The rightward march of Israel",
+      "link": "https://www.ft.com/content/a4978448-b5ab-4890-9ce5-596f4883816e?syn-25a6b1a6=1",
+      "raw_summary": "Netanyahu lost his majority. Why is he so hard to defeat?",
+      "source": "World",
+      "published": "Sat, 31 Oct 2026 05:00:40 GMT",
+      "summary": "The rightward march of Israel\nNetanyahu lost his majority. Why is he so hard to defeat?"
     },
     {
-      "title": "Rubio and Brazil Foreign Minister to Meet After Election Tension",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-31/rubio-meet-brazil-foreign-minister-mauro-vieira-luiz-inacio-lula-flavio-bolsonaro-trump",
-      "raw_summary": "Secretary of State Marco Rubio and his Brazilian counterpart agreed to meet in the coming weeks, according to people familiar with the matter, after President Donald Trump’s decision to grant the nation’s defeated right-wing candidate Flávio Bolsonaro refuge inflamed tensions.",
-      "source": "Bloomberg Markets",
-      "published": "Sat, 31 Oct 2026 02:13:04 GMT",
-      "summary": "Rubio and Brazil Foreign Minister to Meet After Election Tension\nSecretary of State Marco Rubio and his Brazilian counterpart agreed to meet in the coming weeks, according to people familiar with the matter, after President Donald Trump’s decision to grant the nation’s defeated right-wing candidate "
+      "title": "French protests show BNP Paribas what’s in a name",
+      "link": "https://www.ft.com/content/5719a0b6-80cb-415c-b349-c1e07dd46c36?syn-25a6b1a6=1",
+      "raw_summary": "Despite a strong third quarter, a bumpy journey lies ahead for investors",
+      "source": "World",
+      "published": "Sat, 31 Oct 2026 05:00:40 GMT",
+      "summary": "French protests show BNP Paribas what’s in a name\nDespite a strong third quarter, a bumpy journey lies ahead for investors"
     },
     {
-      "title": "Australian PM Set to Visit Beijing After APEC Meeting, SCMP Says",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-31/australia-pm-anthony-albanese-xi-jinping-visit-beijing-apec-meeting",
-      "raw_summary": "Australian Prime Minister Anthony Albanese is set to visit Beijing next month, seeking to stabilize the nations’ relationship, the South China Morning Post reported, citing unidentified people.",
+      "title": "AI Policy Risks Loom Over Stock, Bond Traders Ahead of Midterms",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-30/ai-policy-fears-grip-stock-bond-traders-with-midterms-days-away",
+      "raw_summary": "Wall Street expects Democrats to win at least one of the houses of Congress in the US midterm elections on Tuesday, setting the stage for a potentially volatile ride in the stock and bond markets with artificial intelligence oversight, defense spending and crypto legislation on the table.",
       "source": "Bloomberg Markets",
-      "published": "Sat, 31 Oct 2026 01:27:39 GMT",
-      "summary": "Australian PM Set to Visit Beijing After APEC Meeting, SCMP Says\nAustralian Prime Minister Anthony Albanese is set to visit Beijing next month, seeking to stabilize the nations’ relationship, the South China Morning Post reported, citing unidentified people."
+      "published": "Fri, 30 Oct 2026 11:00:00 GMT",
+      "summary": "AI Policy Risks Loom Over Stock, Bond Traders Ahead of Midterms\nWall Street expects Democrats to win at least one of the houses of Congress in the US midterm elections on Tuesday, setting the stage for a potentially volatile ride in the stock and bond markets with artificial intelligence oversight, "
+    },
+    {
+      "title": "Angola Plans to Cut Fuel Subsidies Without Price Increases",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-31/angola-plans-to-cut-fuel-subsidies-without-price-increases",
+      "raw_summary": "Angola, sub-Saharan Africa’s second-largest oil producer, plans to cut spending on fuel subsidies in 2027 without significant increases in pump prices, relying instead on other measures to reduce costs.",
+      "source": "Bloomberg Markets",
+      "published": "Sat, 31 Oct 2026 09:39:45 GMT",
+      "summary": "Angola Plans to Cut Fuel Subsidies Without Price Increases\nAngola, sub-Saharan Africa’s second-largest oil producer, plans to cut spending on fuel subsidies in 2027 without significant increases in pump prices, relying instead on other measures to reduce costs."
     },
     {
       "title": "Stocks Slump as Wall Street Gets AI Wake-Up Call: Markets Wrap",
@@ -281,6 +273,22 @@
       "source": "Bloomberg Markets",
       "published": "Fri, 30 Oct 2026 22:21:45 GMT",
       "summary": "Chocolate Price Spook Families for Halloween\nHalloween candy is getting more expensive as higher labor, energy and transportation costs continue to pressure food prices. Stew Leonard Jr., CEO of Stew Leonard’s, says bags of popular candy are up about 50 cents from last year, prompting some shoppers "
+    },
+    {
+      "title": "Crypto Hack Reignites Regulatory Debate",
+      "link": "https://www.bloomberg.com/news/videos/2026-10-30/crypto-hack-reignites-regulatory-debate-video",
+      "raw_summary": "A $6 billion crypto hack is putting digital-asset security back in the spotlight. Former CFTC chairman J. Christopher Giancarlo, known as “CryptoDad”, argues the attack exposed vulnerabilities at an individual firm rather than a failure of underlying blockchain technology. He is also calling for the US to take a more aggressive approach to state-sponsored cyberattacks. He joins Bloomberg Businessweek Daily to discuss the fallout from the hack and why he believes prediction markets should be regulated federally by the CFTC rather than by individual states. (Source: Bloomberg)",
+      "source": "Bloomberg Markets",
+      "published": "Fri, 30 Oct 2026 22:08:41 GMT",
+      "summary": "Crypto Hack Reignites Regulatory Debate\nA $6 billion crypto hack is putting digital-asset security back in the spotlight. Former CFTC chairman J. Christopher Giancarlo, known as “CryptoDad”, argues the attack exposed vulnerabilities at an individual firm rather than a failure of underlying blockchai"
+    },
+    {
+      "title": "Bitcoin stolen from Binance tops Tesla’s holdings and is over twice El Salvador’s reserve",
+      "link": "https://www.coindesk.com/markets/2026/10/31/bitcoin-stolen-from-binance-tops-tesla-s-holdings-and-is-over-twice-el-salvador-s-reserve",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Sat, 31 Oct 2026 05:01:32 +0000",
+      "summary": "Bitcoin stolen from Binance tops Tesla’s holdings and is over twice El Salvador’s reserve\n"
     },
     {
       "title": "OpenAI reportedly cuts fundraising and valuation targets amid AI jitters",
@@ -313,14 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Fri, 30 Oct 2026 14:13:34 +0000",
       "summary": "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack\n"
-    },
-    {
-      "title": "Binance arranges $6.34 billion to cover losses from record crypto hack",
-      "link": "https://www.coindesk.com/business/2026/10/30/binance-arranges-usd6-34-billion-to-cover-losses-from-record-crypto-hack",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 30 Oct 2026 12:13:02 +0000",
-      "summary": "Binance arranges $6.34 billion to cover losses from record crypto hack\n"
     }
   ]
 }
