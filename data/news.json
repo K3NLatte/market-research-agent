@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T03:34:01.905418+00:00",
+  "generated_at": "2026-11-01T12:24:48.990174+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "FBI Arrests Executive at Ransomware Negotiation Firm\nAgents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on "
     },
     {
+      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+      "link": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+      "raw_summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate.\n\nOnce in, the attacker would act as that client, with access to the cluster and its virtual machines. If the impersonated account is",
+      "source": "The Hacker News",
+      "published": "Sun, 01 Nov 2026 14:21:31 +0530",
+      "summary": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key\nA critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network"
+    },
+    {
+      "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+      "link": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+      "raw_summary": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company.\n\nPolymarket says&nbsp;it is refunding about $2.7 million to 726 affected wallets.&nbsp;Blockchain records&nbsp;show crypto worth about $2.64 million reached",
+      "source": "The Hacker News",
+      "published": "Sun, 01 Nov 2026 12:55:40 +0530",
+      "summary": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script\nMalicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site load"
+    },
+    {
+      "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+      "link": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+      "raw_summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899.\n\nThe FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI), said it",
+      "source": "The Hacker News",
+      "published": "Sun, 01 Nov 2026 12:33:00 +0530",
+      "summary": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist\nThe U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pres"
+    },
+    {
+      "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+      "link": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+      "raw_summary": "Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia.\n\nThe activity, detailed by Kaspersky this week, targeted a custom Windows 10 build used exclusively by government entities in Asia and involves the deployment of a previously undocumented .NET assembly-loading framework codenamed",
+      "source": "The Hacker News",
+      "published": "Sun, 01 Nov 2026 12:32:58 +0530",
+      "summary": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection\nCybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia.\n\nThe activity, detailed by Kaspersky this week, tar"
+    },
+    {
       "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
       "link": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
       "raw_summary": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data.\n\nHowever, the company noted that the breach did not result in unauthorized access to its investigation content, authentication credentials, or session tokens.\n\n\"This month, Chainalysis detected an external actor using offensive agentic",
@@ -51,76 +83,44 @@
       "summary": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data\nAmerican blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data.\n\nHowever, the company noted that the breach did "
     },
     {
-      "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
-      "link": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
-      "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-111357 (CVSS score: 8.8) - A missing authentication for a critical function vulnerability that could allow a",
-      "source": "The Hacker News",
-      "published": "Sat, 31 Oct 2026 13:57:43 +0530",
-      "summary": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active explo"
-    },
-    {
-      "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
-      "link": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
-      "raw_summary": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at&nbsp;the security firm Parameter&nbsp;showed.\n\nThe researchers reported the flaw through&nbsp;OpenAI's bug bounty program&nbsp;on October 18, and OpenAI fixed it eight days later and rated it P1, its most serious category.",
-      "source": "The Hacker News",
-      "published": "Sat, 31 Oct 2026 11:03:41 +0530",
-      "summary": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats\nA malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at&nbsp;the security firm Parameter&nbsp;s"
-    },
-    {
-      "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
-      "link": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
-      "raw_summary": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday.\n\nThe web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in the third quarter of 2026. That amounts to 197,400 attacks per day, or one attack every 0.44",
-      "source": "The Hacker News",
-      "published": "Sat, 31 Oct 2026 10:26:12 +0530",
-      "summary": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%\nThreat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday.\n\nThe web infrastructure and security company said it autonomously mitigated 18.2 million"
-    },
-    {
-      "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
-      "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
-      "raw_summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously.\n\nThe activity has been attributed by CrowdStrike to a China-based \"targeted intrusion adversary\" it tracks under the moniker Vapor Panda (previously VexatiousTemper). First identified in",
-      "source": "The Hacker News",
-      "published": "Fri, 30 Oct 2026 22:28:44 +0530",
-      "summary": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide\nChinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously.\n\nThe activi"
-    },
-    {
-      "title": "Hermantown approves controversial Google Data Center during late night meeting",
-      "link": "https://www.mprnews.org/story/2026/10/31/hermantown-approves-controversial-google-data-center-during-late-night-meeting",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.mprnews.org/story/2026/10/31/hermantown-approves-controversial-google-data-center-during-late-night-meeting\">https://www.mprnews.org/story/2026/10/31/hermantown-approves-controversial-google-data-center-during-late-night-meeting</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50322155\">https://news.ycombinator.com/item?id=50322155</a></p>\n<p>Points: 12</p>\n<p># Comments: 0</p>",
+      "title": "Norway makes shithouses great again",
+      "link": "https://www.visitnorway.com/plan-your-trip/travel-tips-a-z/norwegian-scenic-routes/worlds-best-toilets/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.visitnorway.com/plan-your-trip/travel-tips-a-z/norwegian-scenic-routes/worlds-best-toilets/\">https://www.visitnorway.com/plan-your-trip/travel-tips-a-z/norwegian-scenic-routes/worlds-best-toilets/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50324388\">https://news.ycombinator.com/item?id=50324388</a></p>\n<p>Points: 166</p>\n<p># Comments: 62</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 01 Nov 2026 02:15:59 +0000",
-      "summary": "Hermantown approves controversial Google Data Center during late night meeting\n<p>Article URL: <a href=\"https://www.mprnews.org/story/2026/10/31/hermantown-approves-controversial-google-data-center-during-late-night-meeting\">https://www.mprnews.org/story/2026/10/31/hermantown-approves-controversial-"
+      "published": "Sun, 01 Nov 2026 10:47:58 +0000",
+      "summary": "Norway makes shithouses great again\n<p>Article URL: <a href=\"https://www.visitnorway.com/plan-your-trip/travel-tips-a-z/norwegian-scenic-routes/worlds-best-toilets/\">https://www.visitnorway.com/plan-your-trip/travel-tips-a-z/norwegian-scenic-routes/worlds-best-toilets/</a></p>\n<p>Comments URL: <a hr"
     },
     {
-      "title": "Show HN: BBRouter – Ben Eater's 8-bit computer, simulated on 3D breadboards",
-      "link": "https://bbrouter.com/bbrouter/ben-eater-sap-1",
-      "raw_summary": "<p>Hi HN,<p>I kept wiring Ben Eater's 8-bit computer wrong, so I built a realistic virtual breadboard editor.<p>Some of the nice features are side-by-side diff, scope, schematics auto-sync, auto-router (BBRouter stands for breadboard router), and my favorites: upload from the real Arduino IDE and connect to your AI with MCP, let Claude & co build it or help you troubleshoot.<p>The link is the SAP-1 running. You can orbit it, probe a hole with the scope, slow the clock down, play with the virtual displays for debugging, then you can actually build it following the step-by-step instructions.<p>A side-goal is to create a community, there are quite a lot of simulators out there but mostly offline / too abstract to realistically use it for a real build. I also never found one that had a decent UI/UX and worked well on mobile or with a trackpad.<p>Happy to answer anything, and tell me what breaks.<p>p.s. Maker plan is $7/month; code HACKERNEWS makes the first month free and then $5/month for as long as you keep it.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50321522\">https://news.ycombinator.com/item?id=50321522</a></p>\n<p>Points: 11</p>\n<p># Comments: 4</p>",
+      "title": "Domain hacks with unusual Unicode characters (2018)",
+      "link": "https://xn--69f31l4t57c0mag4b613h.xn--7uh4898msjaso/🆆🆃🅵/",
+      "raw_summary": "<p>Article URL: <a href=\"https://xn--69f31l4t57c0mag4b613h.xn--7uh4898msjaso/🆆🆃🅵/\">https://xn--69f31l4t57c0mag4b613h.xn--7uh4898msjaso/🆆🆃🅵/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50324371\">https://news.ycombinator.com/item?id=50324371</a></p>\n<p>Points: 9</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 01 Nov 2026 00:10:30 +0000",
-      "summary": "Show HN: BBRouter – Ben Eater's 8-bit computer, simulated on 3D breadboards\n<p>Hi HN,<p>I kept wiring Ben Eater's 8-bit computer wrong, so I built a realistic virtual breadboard editor.<p>Some of the nice features are side-by-side diff, scope, schematics auto-sync, auto-router (BBRouter stands for b"
+      "published": "Sun, 01 Nov 2026 10:44:20 +0000",
+      "summary": "Domain hacks with unusual Unicode characters (2018)\n<p>Article URL: <a href=\"https://xn--69f31l4t57c0mag4b613h.xn--7uh4898msjaso/🆆🆃🅵/\">https://xn--69f31l4t57c0mag4b613h.xn--7uh4898msjaso/🆆🆃🅵/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50324371\">https://news.ycombinator.co"
     },
     {
-      "title": "Constructing a Quine from Kleene's Second Recursion Theorem",
-      "link": "https://emarzion.github.io/KSRT/",
-      "raw_summary": "<p>Article URL: <a href=\"https://emarzion.github.io/KSRT/\">https://emarzion.github.io/KSRT/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50321436\">https://news.ycombinator.com/item?id=50321436</a></p>\n<p>Points: 10</p>\n<p># Comments: 1</p>",
+      "title": "A tiny Pacific country rolls out universal basic income",
+      "link": "https://www.economist.com/asia/2026/10/29/a-tiny-pacific-country-rolls-out-universal-basic-income",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.economist.com/asia/2026/10/29/a-tiny-pacific-country-rolls-out-universal-basic-income\">https://www.economist.com/asia/2026/10/29/a-tiny-pacific-country-rolls-out-universal-basic-income</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50324118\">https://news.ycombinator.com/item?id=50324118</a></p>\n<p>Points: 37</p>\n<p># Comments: 7</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 31 Oct 2026 23:55:21 +0000",
-      "summary": "Constructing a Quine from Kleene's Second Recursion Theorem\n<p>Article URL: <a href=\"https://emarzion.github.io/KSRT/\">https://emarzion.github.io/KSRT/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50321436\">https://news.ycombinator.com/item?id=50321436</a></p>\n<p>Points: 10"
+      "published": "Sun, 01 Nov 2026 10:05:09 +0000",
+      "summary": "A tiny Pacific country rolls out universal basic income\n<p>Article URL: <a href=\"https://www.economist.com/asia/2026/10/29/a-tiny-pacific-country-rolls-out-universal-basic-income\">https://www.economist.com/asia/2026/10/29/a-tiny-pacific-country-rolls-out-universal-basic-income</a></p>\n<p>Comments UR"
     },
     {
-      "title": "When electric cars were for women",
-      "link": "https://spectrum.ieee.org/early-electric-vehicles",
-      "raw_summary": "<p>Article URL: <a href=\"https://spectrum.ieee.org/early-electric-vehicles\">https://spectrum.ieee.org/early-electric-vehicles</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50321130\">https://news.ycombinator.com/item?id=50321130</a></p>\n<p>Points: 47</p>\n<p># Comments: 24</p>",
+      "title": "Pac-Man's Siren Call",
+      "link": "https://unsung.aresluna.org/pac-mans-siren-call/",
+      "raw_summary": "<p>Article URL: <a href=\"https://unsung.aresluna.org/pac-mans-siren-call/\">https://unsung.aresluna.org/pac-mans-siren-call/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50323187\">https://news.ycombinator.com/item?id=50323187</a></p>\n<p>Points: 29</p>\n<p># Comments: 7</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 31 Oct 2026 23:08:12 +0000",
-      "summary": "When electric cars were for women\n<p>Article URL: <a href=\"https://spectrum.ieee.org/early-electric-vehicles\">https://spectrum.ieee.org/early-electric-vehicles</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50321130\">https://news.ycombinator.com/item?id=50321130</a></p>\n<p>Po"
+      "published": "Sun, 01 Nov 2026 06:29:49 +0000",
+      "summary": "Pac-Man's Siren Call\n<p>Article URL: <a href=\"https://unsung.aresluna.org/pac-mans-siren-call/\">https://unsung.aresluna.org/pac-mans-siren-call/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50323187\">https://news.ycombinator.com/item?id=50323187</a></p>\n<p>Points: 29</p>\n<p"
     },
     {
-      "title": "Altoids Project",
-      "link": "https://uvdn7.github.io/altoids-project/",
-      "raw_summary": "<p>Article URL: <a href=\"https://uvdn7.github.io/altoids-project/\">https://uvdn7.github.io/altoids-project/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50321048\">https://news.ycombinator.com/item?id=50321048</a></p>\n<p>Points: 62</p>\n<p># Comments: 4</p>",
+      "title": "The AI cost of JavaScript frameworks",
+      "link": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "raw_summary": "<p>Article URL: <a href=\"https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/\">https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50323088\">https://news.ycombinator.com/item?id=50323088</a></p>\n<p>Points: 113</p>\n<p># Comments: 61</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sat, 31 Oct 2026 22:54:55 +0000",
-      "summary": "Altoids Project\n<p>Article URL: <a href=\"https://uvdn7.github.io/altoids-project/\">https://uvdn7.github.io/altoids-project/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50321048\">https://news.ycombinator.com/item?id=50321048</a></p>\n<p>Points: 62</p>\n<p># Comments: 4</p>"
+      "published": "Sun, 01 Nov 2026 06:06:19 +0000",
+      "summary": "The AI cost of JavaScript frameworks\n<p>Article URL: <a href=\"https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/\">https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50323088\">https://ne"
     },
     {
       "title": "Data centers are now a midterm issue, even in Brooklyn",
@@ -203,84 +203,92 @@
       "summary": "Oh captain, our captain: Ars staff remembers Patrick Stewart\n\"For huge numbers of people, I will always be Jean-Luc Picard. ... We created an admirable individual.\""
     },
     {
-      "title": "Toyota-backed truckmaker bets on aftersales service to fend off Chinese EV rivals",
-      "link": "https://www.ft.com/content/7e749777-dcee-4c11-9bdc-7f81bee80455?syn-25a6b1a6=1",
-      "raw_summary": "Archion chief says repair network offers competitive strength  after Thai floods bring service quality to fore",
+      "title": "The new Bristol town that could give Burnham a blueprint for devolution",
+      "link": "https://www.ft.com/content/3da634d6-59de-4474-b2fc-b6b1b580b1dc?syn-25a6b1a6=1",
+      "raw_summary": "Malaysian-owned development’s bid to transform a 450-acre former airfield will test whether local leaders can deliver",
       "source": "World",
-      "published": "Sun, 01 Nov 2026 01:00:06 GMT",
-      "summary": "Toyota-backed truckmaker bets on aftersales service to fend off Chinese EV rivals\nArchion chief says repair network offers competitive strength  after Thai floods bring service quality to fore"
+      "published": "Sun, 01 Nov 2026 05:00:18 GMT",
+      "summary": "The new Bristol town that could give Burnham a blueprint for devolution\nMalaysian-owned development’s bid to transform a 450-acre former airfield will test whether local leaders can deliver"
     },
     {
-      "title": "Michigan feud threatens Democratic unity in key Senate race",
-      "link": "https://www.ft.com/content/d77e4c6f-0ac7-49ce-bca8-b30080bf9797?syn-25a6b1a6=1",
-      "raw_summary": "Abdul El-Sayed disinvites former primary rival Haley Stevens from campaign event amid war of words over Israel",
+      "title": "Quant hedge fund to spin out of Tudor in record $9bn launch",
+      "link": "https://www.ft.com/content/8ee19897-1d15-4dd7-8ca8-162c4ea22b3a?syn-25a6b1a6=1",
+      "raw_summary": "Xantium to separate from company controlled by billionaire Paul Tudor Jones II next year",
       "source": "World",
-      "published": "Sat, 31 Oct 2026 23:57:07 GMT",
-      "summary": "Michigan feud threatens Democratic unity in key Senate race\nAbdul El-Sayed disinvites former primary rival Haley Stevens from campaign event amid war of words over Israel"
+      "published": "Sun, 01 Nov 2026 05:00:18 GMT",
+      "summary": "Quant hedge fund to spin out of Tudor in record $9bn launch\nXantium to separate from company controlled by billionaire Paul Tudor Jones II next year"
     },
     {
-      "title": "Tusk vows to press on with overhaul of Poland’s judiciary",
-      "link": "https://www.ft.com/content/d49a7943-fc11-45cb-bcf2-f5876c3c381d?syn-25a6b1a6=1",
-      "raw_summary": "Prime minister defends suspension of constitutional court’s president as opposition accuses him of staging an institutional coup",
+      "title": "The age of prepping is here",
+      "link": "https://www.ft.com/content/395f68ac-a40b-4c2c-a4df-4db6fceef28a?syn-25a6b1a6=1",
+      "raw_summary": "And it could seriously frazzle how we get along at work",
       "source": "World",
-      "published": "Sat, 31 Oct 2026 22:51:11 GMT",
-      "summary": "Tusk vows to press on with overhaul of Poland’s judiciary\nPrime minister defends suspension of constitutional court’s president as opposition accuses him of staging an institutional coup"
+      "published": "Sun, 01 Nov 2026 05:00:18 GMT",
+      "summary": "The age of prepping is here\nAnd it could seriously frazzle how we get along at work"
     },
     {
-      "title": "Evacuees from Russian-occupied city arrive in Ukraine",
-      "link": "https://www.ft.com/content/55dfa145-4078-450f-a853-5f2d551260f1",
-      "raw_summary": "Complex humanitarian mission extracted hundreds of people from Oleshky during rare local ceasefire between Moscow and Kyiv",
+      "title": "Bond investors sit out ‘most consequential’ US midterm elections in years",
+      "link": "https://www.ft.com/content/937308d7-aa2e-4dac-b19b-423d83bc1253?syn-25a6b1a6=1",
+      "raw_summary": "Big fund managers are pressing ‘pause’ as vote and economic data releases loom",
       "source": "World",
-      "published": "Sat, 31 Oct 2026 15:17:34 GMT",
-      "summary": "Evacuees from Russian-occupied city arrive in Ukraine\nComplex humanitarian mission extracted hundreds of people from Oleshky during rare local ceasefire between Moscow and Kyiv"
+      "published": "Sun, 01 Nov 2026 05:00:17 GMT",
+      "summary": "Bond investors sit out ‘most consequential’ US midterm elections in years\nBig fund managers are pressing ‘pause’ as vote and economic data releases loom"
     },
     {
-      "title": "Investors trim growth bets over fears of US economy’s AI exposure",
-      "link": "https://www.ft.com/content/56b0d5fa-829c-47b1-b07b-b4be18f60151?syn-25a6b1a6=1",
-      "raw_summary": "Return to bonds after long sell-off comes as concern rises about over-reliance on tech spending",
+      "title": "Germany fails to meet winter gas storage target",
+      "link": "https://www.ft.com/content/99b0bbf1-4604-4e56-bc66-9f49d2814737?syn-25a6b1a6=1",
+      "raw_summary": "Prices could rise for other EU countries as bloc’s biggest economy will be forced to rely on more spot market purchases",
       "source": "World",
-      "published": "Sat, 31 Oct 2026 14:00:02 GMT",
-      "summary": "Investors trim growth bets over fears of US economy’s AI exposure\nReturn to bonds after long sell-off comes as concern rises about over-reliance on tech spending"
+      "published": "Sun, 01 Nov 2026 05:00:17 GMT",
+      "summary": "Germany fails to meet winter gas storage target\nPrices could rise for other EU countries as bloc’s biggest economy will be forced to rely on more spot market purchases"
     },
     {
-      "title": "An Asian Stock Trader’s Guide Ahead of the US Midterm Elections",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-01/an-asian-stock-trader-s-guide-ahead-of-the-us-midterm-elections",
-      "raw_summary": "Asia’s AI-heavy stock markets face a new US policy wildcard in the midterm elections, with the outcome potentially reshaping the tech trade and sectors from clean energy to defense.",
+      "title": "Germany Misses Gas Storage Target as Cold Snap Sets In",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-01/germany-misses-gas-storage-target-as-cold-snap-sets-in",
+      "raw_summary": "Germany is set to miss its official target for filling natural gas storage sites, leaving it with a reduced buffer against surging winter demand.",
       "source": "Bloomberg Markets",
-      "published": "Sun, 01 Nov 2026 00:00:00 GMT",
-      "summary": "An Asian Stock Trader’s Guide Ahead of the US Midterm Elections\nAsia’s AI-heavy stock markets face a new US policy wildcard in the midterm elections, with the outcome potentially reshaping the tech trade and sectors from clean energy to defense."
+      "published": "Sun, 01 Nov 2026 09:29:41 GMT",
+      "summary": "Germany Misses Gas Storage Target as Cold Snap Sets In\nGermany is set to miss its official target for filling natural gas storage sites, leaving it with a reduced buffer against surging winter demand."
     },
     {
-      "title": "Turkey Appoints New Top Market Regulator in Fund Crisis Response",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-31/turkey-appoints-new-top-market-regulator-in-fund-crisis-response",
-      "raw_summary": "Turkish President Recep Tayyip Erdogan appointed Muhsin Atci, head of the nation’s tax inspection board, as chief of Turkey’s market regulator to help deal with an investment fund crisis that rocked financial markets.",
+      "title": "Serbia’s Banks Urged to Scrutinize Money Flows Amid Power Shift",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-01/serbia-s-banks-urged-to-scrutinize-money-flows-amid-power-shift",
+      "raw_summary": "Serbia’s student-led movement that’s poised to take power after last month’s election, is urging banks to step up scrutiny of capital flows from the country during the transition period to a new government.",
       "source": "Bloomberg Markets",
-      "published": "Sat, 31 Oct 2026 21:50:23 GMT",
-      "summary": "Turkey Appoints New Top Market Regulator in Fund Crisis Response\nTurkish President Recep Tayyip Erdogan appointed Muhsin Atci, head of the nation’s tax inspection board, as chief of Turkey’s market regulator to help deal with an investment fund crisis that rocked financial markets."
+      "published": "Sun, 01 Nov 2026 10:41:04 GMT",
+      "summary": "Serbia’s Banks Urged to Scrutinize Money Flows Amid Power Shift\nSerbia’s student-led movement that’s poised to take power after last month’s election, is urging banks to step up scrutiny of capital flows from the country during the transition period to a new government."
     },
     {
-      "title": "Rubio Defends Russian G20 Presence Despite Criticism From Allies",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-31/rubio-defends-russian-g20-presence-despite-criticism-from-allies",
-      "raw_summary": "Secretary of State Marco Rubio defended the US decision to include Russia in this year’s Group of 20 meetings after criticism from the European Union and other allies, calling dialogue the only way to end the war in Ukraine.",
+      "title": "China’s Top Regulators to Address Global Bankers at HK Summit",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-01/china-s-top-regulators-to-address-global-bankers-at-hk-summit",
+      "raw_summary": "China is sending senior regulators to address some of the world’s biggest bankers in Hong Kong this week, offering an insight on Beijing’s policy priorities amid uneven growth and an expected meeting between Presidents Donald Trump and Xi Jinping later this month.",
       "source": "Bloomberg Markets",
-      "published": "Sat, 31 Oct 2026 20:41:04 GMT",
-      "summary": "Rubio Defends Russian G20 Presence Despite Criticism From Allies\nSecretary of State Marco Rubio defended the US decision to include Russia in this year’s Group of 20 meetings after criticism from the European Union and other allies, calling dialogue the only way to end the war in Ukraine."
+      "published": "Sun, 01 Nov 2026 10:39:33 GMT",
+      "summary": "China’s Top Regulators to Address Global Bankers at HK Summit\nChina is sending senior regulators to address some of the world’s biggest bankers in Hong Kong this week, offering an insight on Beijing’s policy priorities amid uneven growth and an expected meeting between Presidents Donald Trump and Xi"
     },
     {
-      "title": "Senegal Lawmakers Reject Budget Again, Risking IMF Deal",
-      "link": "https://www.bloomberg.com/news/articles/2026-10-31/senegal-lawmakers-reject-budget-again-putting-imf-deal-at-risk",
-      "raw_summary": "Senegalese lawmakers have again rejected the government’s revised 2026 finance law, prolonging a standoff that threatens to delay approval of a crucial International Monetary Fund program.",
+      "title": "China to Convene Meeting on Supporting Stock Market, Reports Say",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-01/china-to-convene-meeting-on-supporting-stock-market-reports-say",
+      "raw_summary": "China’s central bank and its securities regulator will hold a meeting on Monday to discuss the use of tools designed to support the country’s capital market, according to local media.",
       "source": "Bloomberg Markets",
-      "published": "Sat, 31 Oct 2026 12:27:56 GMT",
-      "summary": "Senegal Lawmakers Reject Budget Again, Risking IMF Deal\nSenegalese lawmakers have again rejected the government’s revised 2026 finance law, prolonging a standoff that threatens to delay approval of a crucial International Monetary Fund program."
+      "published": "Sun, 01 Nov 2026 10:08:49 GMT",
+      "summary": "China to Convene Meeting on Supporting Stock Market, Reports Say\nChina’s central bank and its securities regulator will hold a meeting on Monday to discuss the use of tools designed to support the country’s capital market, according to local media."
     },
     {
-      "title": "Final Countdown to Midterm Elections, Tech Stocks Tank",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-31/bloomberg-this-weekend-10-31-2026-video",
-      "raw_summary": "The news doesn’t stop when markets close. Hosts David Gura, Lisa Mateo and Nathan Hager bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Medical Historian and “Sleuth-Hound” Author Lindsey Fitzharris, European Commission Vice-President and Fmr. PM of Estonia Kaja Kallas, Writer & Journalist Benton Graham, NY Rep. Gregory Meeks and Journalist and Bioethicist Elizabeth Yuko. (Source: Bloomberg)",
+      "title": "Pakistan LNG Cargo Attacked Near Hormuz Had Iranian Approval",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-01/pakistan-lng-cargo-attacked-near-hormuz-had-iranian-approval",
+      "raw_summary": "Pakistan negotiated with Iran to secure safe passage for liquefied natural gas carrier Al Mayeda before the ship was attacked near the Strait of Hormuz on Friday, according to people with direct knowledge of the matter.",
       "source": "Bloomberg Markets",
-      "published": "Sat, 31 Oct 2026 16:13:35 GMT",
-      "summary": "Final Countdown to Midterm Elections, Tech Stocks Tank\nThe news doesn’t stop when markets close. Hosts David Gura, Lisa Mateo and Nathan Hager bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Medical Historian and “Sleuth-Hound” Author Linds"
+      "published": "Sun, 01 Nov 2026 09:23:14 GMT",
+      "summary": "Pakistan LNG Cargo Attacked Near Hormuz Had Iranian Approval\nPakistan negotiated with Iran to secure safe passage for liquefied natural gas carrier Al Mayeda before the ship was attacked near the Strait of Hormuz on Friday, according to people with direct knowledge of the matter."
+    },
+    {
+      "title": "Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack",
+      "link": "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Sun, 01 Nov 2026 10:35:42 +0000",
+      "summary": "Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack\n"
     },
     {
       "title": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
@@ -313,14 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Sat, 31 Oct 2026 16:00:00 +0000",
       "summary": "Traders are already placing leveraged bets on Anthropic’s IPO using crypto contracts\n"
-    },
-    {
-      "title": "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach",
-      "link": "https://www.coindesk.com/business/2026/10/31/binance-says-it-has-replaced-90-of-stolen-crypto-after-massive-usd6-3-billion-breach",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sat, 31 Oct 2026 15:24:10 +0000",
-      "summary": "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach\n"
     }
   ]
 }
