@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T03:41:12.324589+00:00",
+  "generated_at": "2026-11-02T14:21:27.465876+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,124 +43,132 @@
       "summary": "FBI Arrests Executive at Ransomware Negotiation Firm\nAgents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on "
     },
     {
-      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
-      "link": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
-      "raw_summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate.\n\nOnce in, the attacker would act as that client, with access to the cluster and its virtual machines. If the impersonated account is",
+      "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
+      "link": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
+      "raw_summary": "Two critical flaws in Langflow could let a remote attacker with no account bypass authentication or run arbitrary code,&nbsp;IBM said last week.\n\nLangflow is an open-source tool for building AI agents and workflows, and&nbsp;its vulnerability reports go to IBM. Every release from 1.0.0 through 1.12.8 has the flaws, and the only fix is version 1.13.0.\n\nNeither flaw is in CISA's&nbsp;Known",
       "source": "The Hacker News",
-      "published": "Sun, 01 Nov 2026 14:21:31 +0530",
-      "summary": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key\nA critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network"
+      "published": "Mon, 02 Nov 2026 17:20:00 +0530",
+      "summary": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers\nTwo critical flaws in Langflow could let a remote attacker with no account bypass authentication or run arbitrary code,&nbsp;IBM said last week.\n\nLangflow is an open-source tool for building AI agents and workflows, and&"
     },
     {
-      "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
-      "link": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
-      "raw_summary": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company.\n\nPolymarket says&nbsp;it is refunding about $2.7 million to 726 affected wallets.&nbsp;Blockchain records&nbsp;show crypto worth about $2.64 million reached",
+      "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
+      "link": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
+      "raw_summary": "Forty percent of security teams now use AI every day, and another 56% are testing it. Only 4% have no plans to adopt it, according to Prophet Security's State of AI in Security Operations 2026 survey of more than 250 CISOs, SOC leaders and practitioners. For the teams still testing, the next decision is whether their own SOC is ready.\n\nAI SOC readiness has two parts: whether a SOC has the",
       "source": "The Hacker News",
-      "published": "Sun, 01 Nov 2026 12:55:40 +0530",
-      "summary": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script\nMalicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site load"
+      "published": "Mon, 02 Nov 2026 17:00:00 +0530",
+      "summary": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy\nForty percent of security teams now use AI every day, and another 56% are testing it. Only 4% have no plans to adopt it, according to Prophet Security's State of AI in Security Operations 2026 survey of more than 250 CISOs, SOC lead"
     },
     {
-      "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
-      "link": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
-      "raw_summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899.\n\nThe FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI), said it",
+      "title": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
+      "link": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
+      "raw_summary": "Attackers posing as IT support on Microsoft Teams talked employees into giving them remote control of their PCs. They then used insecure Active Directory Certificate Services (AD CS) settings to obtain login certificates for privileged accounts, including one for a domain controller.\n\nMicrosoft said in&nbsp;a report&nbsp;that it investigated two such intrusions, one of which resulted in company",
       "source": "The Hacker News",
-      "published": "Sun, 01 Nov 2026 12:33:00 +0530",
-      "summary": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist\nThe U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pres"
+      "published": "Mon, 02 Nov 2026 16:38:45 +0530",
+      "summary": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data\nAttackers posing as IT support on Microsoft Teams talked employees into giving them remote control of their PCs. They then used insecure Active Directory Certificate Services (AD CS) settings to obtain login certifica"
     },
     {
-      "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
-      "link": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
-      "raw_summary": "Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia.\n\nThe activity, detailed by Kaspersky this week, targeted a custom Windows 10 build used exclusively by government entities in Asia and involves the deployment of a previously undocumented .NET assembly-loading framework codenamed",
+      "title": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
+      "link": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
+      "raw_summary": "Cybersecurity researchers have disclosed details of a cyber espionage campaign specifically targeting Linux infrastructure associated with government entities and state-affiliated infrastructure.\n\nThe activity, observed by Palo Alto Networks Unit 42 between October 2025 and April 2026, has been tracked under the moniker CL-UNK-1211, where \"CL\" refers to cluster and \"UNK\" stands for unknown",
       "source": "The Hacker News",
-      "published": "Sun, 01 Nov 2026 12:32:58 +0530",
-      "summary": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection\nCybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia.\n\nThe activity, detailed by Kaspersky this week, tar"
+      "published": "Mon, 02 Nov 2026 16:19:59 +0530",
+      "summary": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts\nCybersecurity researchers have disclosed details of a cyber espionage campaign specifically targeting Linux infrastructure associated with government entities and state-affiliated infrastructure.\n\nThe activity, observ"
     },
     {
-      "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
-      "link": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
-      "raw_summary": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data.\n\nHowever, the company noted that the breach did not result in unauthorized access to its investigation content, authentication credentials, or session tokens.\n\n\"This month, Chainalysis detected an external actor using offensive agentic",
+      "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+      "link": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+      "raw_summary": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value.\n\nLike other typical stealer families, VOLTA is equipped to harvest passwords and cookies from Chromium-based web browsers; data from Outlook profiles and Slack workspaces;",
       "source": "The Hacker News",
-      "published": "Sat, 31 Oct 2026 17:31:56 +0530",
-      "summary": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data\nAmerican blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data.\n\nHowever, the company noted that the breach did "
+      "published": "Mon, 02 Nov 2026 11:21:07 +0530",
+      "summary": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value\nCybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization"
     },
     {
-      "title": "F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix",
-      "link": "https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/",
-      "raw_summary": "<p>Article URL: <a href=\"https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/\">https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50332163\">https://news.ycombinator.com/item?id=50332163</a></p>\n<p>Points: 16</p>\n<p># Comments: 2</p>",
+      "title": "Pray for Chaos",
+      "link": "https://geohot.github.io//blog/jekyll/update/2026/11/01/pray-for-chaos.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://geohot.github.io//blog/jekyll/update/2026/11/01/pray-for-chaos.html\">https://geohot.github.io//blog/jekyll/update/2026/11/01/pray-for-chaos.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50336921\">https://news.ycombinator.com/item?id=50336921</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 02 Nov 2026 01:59:38 +0000",
-      "summary": "F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix\n<p>Article URL: <a href=\"https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/\">https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/</a></p>\n<p>Comm"
+      "published": "Mon, 02 Nov 2026 14:02:53 +0000",
+      "summary": "Pray for Chaos\n<p>Article URL: <a href=\"https://geohot.github.io//blog/jekyll/update/2026/11/01/pray-for-chaos.html\">https://geohot.github.io//blog/jekyll/update/2026/11/01/pray-for-chaos.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50336921\">https://news.ycombinator.c"
     },
     {
-      "title": "AI fan wikis riddled with errors are muddying the waters of games culture",
-      "link": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture\">https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50332086\">https://news.ycombinator.com/item?id=50332086</a></p>\n<p>Points: 23</p>\n<p># Comments: 7</p>",
+      "title": "Last night an AI agent performed brain surgery on a mouse",
+      "link": "https://twitter.com/OcanaSantero/status/2115442964574908902",
+      "raw_summary": "<p>Article URL: <a href=\"https://twitter.com/OcanaSantero/status/2115442964574908902\">https://twitter.com/OcanaSantero/status/2115442964574908902</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50336138\">https://news.ycombinator.com/item?id=50336138</a></p>\n<p>Points: 27</p>\n<p># Comments: 25</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 02 Nov 2026 01:47:07 +0000",
-      "summary": "AI fan wikis riddled with errors are muddying the waters of games culture\n<p>Article URL: <a href=\"https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture\">https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture</a></p>\n<p>Comments URL: <a href=\"https://news.ycombin"
+      "published": "Mon, 02 Nov 2026 12:50:59 +0000",
+      "summary": "Last night an AI agent performed brain surgery on a mouse\n<p>Article URL: <a href=\"https://twitter.com/OcanaSantero/status/2115442964574908902\">https://twitter.com/OcanaSantero/status/2115442964574908902</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50336138\">https://news.yc"
     },
     {
-      "title": "Trigger.dev customer environment variables exposed",
-      "link": "https://trigger.dev/blog/security-incident-nov-2026",
-      "raw_summary": "<p>Article URL: <a href=\"https://trigger.dev/blog/security-incident-nov-2026\">https://trigger.dev/blog/security-incident-nov-2026</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50331784\">https://news.ycombinator.com/item?id=50331784</a></p>\n<p>Points: 10</p>\n<p># Comments: 1</p>",
+      "title": "Never Complain, Never Explain",
+      "link": "https://en.wikipedia.org/wiki/Never_complain,_never_explain",
+      "raw_summary": "<p>Article URL: <a href=\"https://en.wikipedia.org/wiki/Never_complain,_never_explain\">https://en.wikipedia.org/wiki/Never_complain,_never_explain</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50335659\">https://news.ycombinator.com/item?id=50335659</a></p>\n<p>Points: 47</p>\n<p># Comments: 14</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 02 Nov 2026 01:09:16 +0000",
-      "summary": "Trigger.dev customer environment variables exposed\n<p>Article URL: <a href=\"https://trigger.dev/blog/security-incident-nov-2026\">https://trigger.dev/blog/security-incident-nov-2026</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50331784\">https://news.ycombinator.com/item?id=5"
+      "published": "Mon, 02 Nov 2026 11:55:48 +0000",
+      "summary": "Never Complain, Never Explain\n<p>Article URL: <a href=\"https://en.wikipedia.org/wiki/Never_complain,_never_explain\">https://en.wikipedia.org/wiki/Never_complain,_never_explain</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50335659\">https://news.ycombinator.com/item?id=503356"
     },
     {
-      "title": "OccupySaaS",
-      "link": "https://occupysaas.com/",
-      "raw_summary": "<p>Article URL: <a href=\"https://occupysaas.com/\">https://occupysaas.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50331402\">https://news.ycombinator.com/item?id=50331402</a></p>\n<p>Points: 97</p>\n<p># Comments: 63</p>",
+      "title": "Supermarket freezers across Europe hit by second suspected cyber-attack",
+      "link": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack\">https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50335615\">https://news.ycombinator.com/item?id=50335615</a></p>\n<p>Points: 92</p>\n<p># Comments: 76</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 02 Nov 2026 00:17:27 +0000",
-      "summary": "OccupySaaS\n<p>Article URL: <a href=\"https://occupysaas.com/\">https://occupysaas.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50331402\">https://news.ycombinator.com/item?id=50331402</a></p>\n<p>Points: 97</p>\n<p># Comments: 63</p>"
+      "published": "Mon, 02 Nov 2026 11:50:13 +0000",
+      "summary": "Supermarket freezers across Europe hit by second suspected cyber-attack\n<p>Article URL: <a href=\"https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack\">https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit"
     },
     {
-      "title": "Ask HN: Which TV do you recommend for privacy?",
-      "link": "https://news.ycombinator.com/item?id=50328896",
-      "raw_summary": "<p>I haven’t owned a TV in years and would like one that respects my privacy. Are there any TV’s which do this well? I am looking for something in the 60”to 80”range and would like a 4k display with at least 60hz display. I don’t mind paying a premium.<p>I have heard good things about Apple TV as a better alternative to most smart TV native apps. Would some TV’s pair better with this than others for privacy? I don’t want the TV doing anything other than being the display for Apple TV.<p>I am curious what success others have had.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50328896\">https://news.ycombinator.com/item?id=50328896</a></p>\n<p>Points: 180</p>\n<p># Comments: 342</p>",
+      "title": "Supermarket freezers in Belgium and Sweden hit by suspected cyber-attack",
+      "link": "https://www.bbc.com/news/articles/cq1kd1nee80eo",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.bbc.com/news/articles/cq1kd1nee80eo\">https://www.bbc.com/news/articles/cq1kd1nee80eo</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50335602\">https://news.ycombinator.com/item?id=50335602</a></p>\n<p>Points: 74</p>\n<p># Comments: 76</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 01 Nov 2026 19:35:27 +0000",
-      "summary": "Ask HN: Which TV do you recommend for privacy?\n<p>I haven’t owned a TV in years and would like one that respects my privacy. Are there any TV’s which do this well? I am looking for something in the 60”to 80”range and would like a 4k display with at least 60hz display. I don’t mind paying a premium.<"
+      "published": "Mon, 02 Nov 2026 11:48:02 +0000",
+      "summary": "Supermarket freezers in Belgium and Sweden hit by suspected cyber-attack\n<p>Article URL: <a href=\"https://www.bbc.com/news/articles/cq1kd1nee80eo\">https://www.bbc.com/news/articles/cq1kd1nee80eo</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50335602\">https://news.ycombinator"
     },
     {
-      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-      "link": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
-      "raw_summary": "Data centers are deeply unpopular. But what if we called them something else?",
+      "title": "A fresh wave of cyberattacks has hit Europe’s supermarket refrigerators, destroying food across countries",
+      "link": "https://techcrunch.com/2026/11/02/a-fresh-wave-of-cyberattacks-has-hit-europes-supermarket-refrigerators-destroying-food-across-countries/",
+      "raw_summary": "This is the second wave of cyberattacks to hit supermarket refrigerators in a month, spoiling food and disrupting supplies.",
       "source": "TechCrunch",
-      "published": "Sun, 01 Nov 2026 21:55:23 +0000",
-      "summary": "OpenAI might rebrand its data centers as ‘AI compute campuses’\nData centers are deeply unpopular. But what if we called them something else?"
+      "published": "Mon, 02 Nov 2026 14:08:52 +0000",
+      "summary": "A fresh wave of cyberattacks has hit Europe’s supermarket refrigerators, destroying food across countries\nThis is the second wave of cyberattacks to hit supermarket refrigerators in a month, spoiling food and disrupting supplies."
     },
     {
-      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
-      "link": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
-      "raw_summary": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
+      "title": "2 days till TechCrunch Founder Summit: Boston founders don’t need a Silicon Valley address to build something big",
+      "link": "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big/",
+      "raw_summary": "TechCrunch Founder Summit happens on November 4 in Boston for a founder-focused agenda and impactful connections. Save up to $100 or get discounts with group passes.",
       "source": "TechCrunch",
-      "published": "Sun, 01 Nov 2026 20:57:58 +0000",
-      "summary": "AI can make tech CEOs’ lives easier. What about everyone else?\nOn Equity, we discuss why tech CEO statements can seem so tone deaf."
+      "published": "Mon, 02 Nov 2026 14:00:00 +0000",
+      "summary": "2 days till TechCrunch Founder Summit: Boston founders don’t need a Silicon Valley address to build something big\nTechCrunch Founder Summit happens on November 4 in Boston for a founder-focused agenda and impactful connections. Save up to $100 or get discounts with group passes."
     },
     {
-      "title": "TechCrunch Mobility: A new, bigger AV boom is here",
-      "link": "https://techcrunch.com/2026/11/01/techcrunch-mobility-a-new-bigger-av-boom-is-here/",
-      "raw_summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+      "title": "OpenAI is finally merging ChatGPT’s chat and Work tabs",
+      "link": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+      "raw_summary": "OpenAI said that ChatGPT and Codex will draw usage from the same allocation pool after this change.",
       "source": "TechCrunch",
-      "published": "Sun, 01 Nov 2026 17:04:00 +0000",
-      "summary": "TechCrunch Mobility: A new, bigger AV boom is here\nWelcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it."
+      "published": "Mon, 02 Nov 2026 13:57:53 +0000",
+      "summary": "OpenAI is finally merging ChatGPT’s chat and Work tabs\nOpenAI said that ChatGPT and Codex will draw usage from the same allocation pool after this change."
     },
     {
-      "title": "Binance resumes withdrawals following $6.3 billion breach",
-      "link": "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/",
-      "raw_summary": "The cryptocurrency exchange said it's now covered 95% of the stolen assets.",
+      "title": "Ford launches a ‘privacy promise’ and explains how and why it uses customer data",
+      "link": "https://techcrunch.com/2026/11/02/ford-launches-a-privacy-promise-and-explains-how-and-why-it-uses-a-customers-data/",
+      "raw_summary": "Ford said it's making an \"explicit commitment\" to its customers that \"their vehicle data is safe\" with the company.",
       "source": "TechCrunch",
-      "published": "Sun, 01 Nov 2026 16:20:10 +0000",
-      "summary": "Binance resumes withdrawals following $6.3 billion breach\nThe cryptocurrency exchange said it's now covered 95% of the stolen assets."
+      "published": "Mon, 02 Nov 2026 11:00:00 +0000",
+      "summary": "Ford launches a ‘privacy promise’ and explains how and why it uses customer data\nFord said it's making an \"explicit commitment\" to its customers that \"their vehicle data is safe\" with the company."
     },
     {
-      "title": "Pixel 11 Pro Fold: Sturdy rectangle in a wide wide world",
-      "link": "https://techcrunch.com/2026/11/01/pixel-11-pro-fold-sturdy-rectengale-in-a-wide-wide-world/",
-      "raw_summary": "Google made a sturdy phone, but there is increasing competition in the foldable world.",
+      "title": "Borrowed reading: stories from our extended colleagues",
+      "link": "https://techcrunch.com/2026/11/01/borrowed-reading-stories-from-our-extended-colleagues/",
+      "raw_summary": "Five stories worth your time from our extended colleagues at CIO, Computerworld, Macworld, and PCWorld.",
       "source": "TechCrunch",
-      "published": "Sun, 01 Nov 2026 15:00:00 +0000",
-      "summary": "Pixel 11 Pro Fold: Sturdy rectangle in a wide wide world\nGoogle made a sturdy phone, but there is increasing competition in the foldable world."
+      "published": "Mon, 02 Nov 2026 04:23:48 +0000",
+      "summary": "Borrowed reading: stories from our extended colleagues\nFive stories worth your time from our extended colleagues at CIO, Computerworld, Macworld, and PCWorld."
+    },
+    {
+      "title": "This $48 e-paper display can be whatever you want it to be",
+      "link": "https://arstechnica.com/gadgets/2026/11/this-48-e-paper-display-can-be-whatever-you-want-it-to-be/",
+      "raw_summary": "This DIY e-paper display works in two official ecosystems or on your own server.",
+      "source": "Ars Technica - All content",
+      "published": "Mon, 02 Nov 2026 12:00:07 +0000",
+      "summary": "This $48 e-paper display can be whatever you want it to be\nThis DIY e-paper display works in two official ecosystems or on your own server."
     },
     {
       "title": "Seabirds racing home over the ocean can get jet-lagged",
@@ -195,132 +203,124 @@
       "summary": "Flesh-eating screwworms spread to third state and are attacking pets\nUSDA has identified 74 animal cases in US since parasitic flies invaded in June."
     },
     {
-      "title": "Oh captain, our captain: Ars staff remembers Patrick Stewart",
-      "link": "https://arstechnica.com/culture/2026/10/oh-captain-our-captain-ars-staff-remembers-patrick-stewart/",
-      "raw_summary": "\"For huge numbers of people, I will always be Jean-Luc Picard. ... We created an admirable individual.\"",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 30 Oct 2026 22:21:05 +0000",
-      "summary": "Oh captain, our captain: Ars staff remembers Patrick Stewart\n\"For huge numbers of people, I will always be Jean-Luc Picard. ... We created an admirable individual.\""
-    },
-    {
-      "title": "Trump makes final pitch to restive voters in midterms campaign",
-      "link": "https://www.ft.com/content/75e8405b-124f-44aa-9c5e-0a33d0ee5b92?syn-25a6b1a6=1",
-      "raw_summary": "Republican Party is defending its control of Congress against signs of backlash against president",
+      "title": "Marvell to buy data centre component maker Lumentum in $115bn AI bet",
+      "link": "https://www.ft.com/content/92322fad-f293-48b8-a14b-00506d78eb3b?syn-25a6b1a6=1",
+      "raw_summary": "Silicon Valley companies said all-stock deal would create a ‘leader in AI connectivity’",
       "source": "World",
-      "published": "Mon, 02 Nov 2026 01:47:26 GMT",
-      "summary": "Trump makes final pitch to restive voters in midterms campaign\nRepublican Party is defending its control of Congress against signs of backlash against president"
+      "published": "Mon, 02 Nov 2026 14:07:40 GMT",
+      "summary": "Marvell to buy data centre component maker Lumentum in $115bn AI bet\nSilicon Valley companies said all-stock deal would create a ‘leader in AI connectivity’"
     },
     {
-      "title": "Gulf braced for escalation of war between US-Israel alliance and Iran",
-      "link": "https://www.ft.com/content/efaa2962-1acb-45cf-afb4-d0088f0a1046?syn-25a6b1a6=1",
-      "raw_summary": "Diplomats warn that renewed conflict would be even more damaging than previous rounds of fighting",
+      "title": "The midterms and the world",
+      "link": "https://www.ft.com/content/15d1bd16-058e-4123-9fba-88307df73aef?syn-25a6b1a6=1",
+      "raw_summary": "A Democratic sweep of both houses of Congress would see big changes on energy and trade in particular",
       "source": "World",
-      "published": "Mon, 02 Nov 2026 01:36:43 GMT",
-      "summary": "Gulf braced for escalation of war between US-Israel alliance and Iran\nDiplomats warn that renewed conflict would be even more damaging than previous rounds of fighting"
+      "published": "Mon, 02 Nov 2026 14:00:06 GMT",
+      "summary": "The midterms and the world\nA Democratic sweep of both houses of Congress would see big changes on energy and trade in particular"
     },
     {
-      "title": "Michigan Democrat endorses Republican as feud roils key Senate race",
-      "link": "https://www.ft.com/content/d77e4c6f-0ac7-49ce-bca8-b30080bf9797?syn-25a6b1a6=1",
-      "raw_summary": "Unity between Democratic progressives and moderates collapses in war of words over Israel",
+      "title": "Burnham signals softer tone on legal migration to Britain",
+      "link": "https://www.ft.com/content/04772b49-0aec-4acc-b2cb-1fae192a5f60?syn-25a6b1a6=1",
+      "raw_summary": "Prime minister’s comments come ahead of statement by home secretary Shabana Mahmood on immigration policy",
       "source": "World",
-      "published": "Mon, 02 Nov 2026 00:51:53 GMT",
-      "summary": "Michigan Democrat endorses Republican as feud roils key Senate race\nUnity between Democratic progressives and moderates collapses in war of words over Israel"
+      "published": "Mon, 02 Nov 2026 13:43:27 GMT",
+      "summary": "Burnham signals softer tone on legal migration to Britain\nPrime minister’s comments come ahead of statement by home secretary Shabana Mahmood on immigration policy"
     },
     {
-      "title": "Nine killed as business jet crashes in Florida",
-      "link": "https://www.ft.com/content/2bd1e339-98b2-43a9-a0e6-812736abedf8?syn-25a6b1a6=1",
-      "raw_summary": "Aviation authorities to investigate after Learjet plunges into street eight miles from Donald Trump’s Mar-a-Lago resort",
+      "title": "Submit a question: How will the midterms change US politics?",
+      "link": "https://www.ft.com/content/01048d5b-9886-4247-b14a-8c738edba5e3?syn-25a6b1a6=1",
+      "raw_summary": "Take part in a live Ask an Expert Q&amp;A with the FT’s senior US columnists Edward Luce and Rana Foroohar on Friday November 6 at 1pm (ET) / 6pm (GMT)",
       "source": "World",
-      "published": "Sun, 01 Nov 2026 23:25:46 GMT",
-      "summary": "Nine killed as business jet crashes in Florida\nAviation authorities to investigate after Learjet plunges into street eight miles from Donald Trump’s Mar-a-Lago resort"
+      "published": "Mon, 02 Nov 2026 13:15:38 GMT",
+      "summary": "Submit a question: How will the midterms change US politics?\nTake part in a live Ask an Expert Q&amp;A with the FT’s senior US columnists Edward Luce and Rana Foroohar on Friday November 6 at 1pm (ET) / 6pm (GMT)"
     },
     {
-      "title": "What’s the risk of political violence? | Martin Wolf on the US midterms",
-      "link": "https://www.ft.com/video/32bfcd99-db49-4f9c-9eeb-20978b496972?syn-25a6b1a6=1",
-      "raw_summary": "Can American democracy emerge from the midterms stronger rather than more divided?",
+      "title": "Online betting companies wager big money on US state elections",
+      "link": "https://www.ft.com/content/13bce257-b287-4d03-bf43-e894c3ef421f?syn-25a6b1a6=1",
+      "raw_summary": "Tuesday’s midterm polls offer an opportunity for gambling and predictions businesses to shape how they are regulated",
       "source": "World",
-      "published": "Sun, 01 Nov 2026 22:35:19 GMT",
-      "summary": "What’s the risk of political violence? | Martin Wolf on the US midterms\nCan American democracy emerge from the midterms stronger rather than more divided?"
+      "published": "Mon, 02 Nov 2026 13:00:21 GMT",
+      "summary": "Online betting companies wager big money on US state elections\nTuesday’s midterm polls offer an opportunity for gambling and predictions businesses to shape how they are regulated"
     },
     {
-      "title": "Weak China PMIs Spark Fresh Stimulus Bets",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-02/weak-china-pmis-spark-fresh-stimulus-bets-video",
-      "raw_summary": "Bloomberg's Minmin Low breaks down why developments in China’s official manufacturing gauge are fueling expectations for another PBOC interest rate cut. (Source: Bloomberg)",
+      "title": "Alphabet Is Paying Up to Entice Buyers to €6 Billion Bond Sale",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-02/alphabet-kicks-off-sale-of-its-second-euro-bond-this-year",
+      "raw_summary": "Alphabet Inc. is set to raise €6 billion ($6.7 billion) in its second euro bond sale this year, offering considerably higher yields than in its offering in May after concerns over the pace of AI spending drove a credit-market selloff.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 02 Nov 2026 03:28:07 GMT",
-      "summary": "Weak China PMIs Spark Fresh Stimulus Bets\nBloomberg's Minmin Low breaks down why developments in China’s official manufacturing gauge are fueling expectations for another PBOC interest rate cut. (Source: Bloomberg)"
+      "published": "Mon, 02 Nov 2026 07:17:51 GMT",
+      "summary": "Alphabet Is Paying Up to Entice Buyers to €6 Billion Bond Sale\nAlphabet Inc. is set to raise €6 billion ($6.7 billion) in its second euro bond sale this year, offering considerably higher yields than in its offering in May after concerns over the pace of AI spending drove a credit-market selloff."
     },
     {
-      "title": "Stock Selloff Eases in Asian Trade, Crude Falls: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-01/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "A selloff in stocks eased during Asian trading on Monday as regional equities fell less than their Wall Street peers and US equity futures turned higher. Oil declined.",
+      "title": "How Ethiopia’s Gas-Car Ban Sparked an EV Boom",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-02/how-ethiopia-s-gas-car-ban-sparked-an-ev-boom-video",
+      "raw_summary": "Ethiopia became the first country to ban imports of gasoline-powered cars in 2024. Today, its EV share outpaces the global average, but the road ahead is uncertain. Can Ethiopia’s bet on EVs pay off? (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Sun, 01 Nov 2026 21:28:04 GMT",
-      "summary": "Stock Selloff Eases in Asian Trade, Crude Falls: Markets Wrap\nA selloff in stocks eased during Asian trading on Monday as regional equities fell less than their Wall Street peers and US equity futures turned higher. Oil declined."
+      "published": "Mon, 02 Nov 2026 14:03:58 GMT",
+      "summary": "How Ethiopia’s Gas-Car Ban Sparked an EV Boom\nEthiopia became the first country to ban imports of gasoline-powered cars in 2024. Today, its EV share outpaces the global average, but the road ahead is uncertain. Can Ethiopia’s bet on EVs pay off? (Source: Bloomberg)"
     },
     {
-      "title": "Millennium’s Raiskin Says Asia Markets Enjoying Regulatory Aid",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-02/millennium-s-raiskin-says-asia-markets-enjoying-regulatory-aid",
-      "raw_summary": "Asia’s public markets are enjoying a slew of measures from regulators, offering support they haven’t had for many years, Millennium Management’s regional co-CEO Julia Raiskin said.",
+      "title": "Oracle Kicks Off $20 Billion Capital Raise to Fund AI Spending",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-02/oracle-is-offering-10-billion-of-high-grade-dollar-bonds",
+      "raw_summary": "Oracle Corp. has kicked off an effort to raise $20 billion in debt and equity, just days after unveiling a long-term fundraising plan to finance its artificial intelligence infrastructure spending spree.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 02 Nov 2026 03:22:58 GMT",
-      "summary": "Millennium’s Raiskin Says Asia Markets Enjoying Regulatory Aid\nAsia’s public markets are enjoying a slew of measures from regulators, offering support they haven’t had for many years, Millennium Management’s regional co-CEO Julia Raiskin said."
+      "published": "Mon, 02 Nov 2026 12:45:05 GMT",
+      "summary": "Oracle Kicks Off $20 Billion Capital Raise to Fund AI Spending\nOracle Corp. has kicked off an effort to raise $20 billion in debt and equity, just days after unveiling a long-term fundraising plan to finance its artificial intelligence infrastructure spending spree."
+    },
+    {
+      "title": "Marvell’s AI Megadeal Hands Wall Street Multiple M&A Milestones",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-02/marvell-s-ai-megadeal-hands-wall-street-multiple-m-a-milestones",
+      "raw_summary": "Marvell Technology Inc.’s $115 billion takeover of data center laser maker Lumentum Holdings Inc. will move Wall Street past a number of mergers and acquisitions milestones in a year already chock-full of megadeals.",
+      "source": "Bloomberg Markets",
+      "published": "Mon, 02 Nov 2026 13:58:59 GMT",
+      "summary": "Marvell’s AI Megadeal Hands Wall Street Multiple M&A Milestones\nMarvell Technology Inc.’s $115 billion takeover of data center laser maker Lumentum Holdings Inc. will move Wall Street past a number of mergers and acquisitions milestones in a year already chock-full of megadeals."
     },
     {
       "title": "Latest Oil Market News and Analysis for Nov. 2",
       "link": "https://www.bloomberg.com/news/articles/2026-11-01/latest-oil-market-news-and-analysis-for-nov-2",
-      "raw_summary": "Oil declined after a report said US President Donald Trump wants to give diplomacy with Iran more time before potentially resuming strikes following Tuesday’s midterm elections.",
+      "raw_summary": "Oil extended losses after Iran’s supreme leader gave the government approval to pursue talks that could resolve the months-long conflict roiling Middle East supplies.",
       "source": "Bloomberg Markets",
       "published": "Sun, 01 Nov 2026 23:11:50 GMT",
-      "summary": "Latest Oil Market News and Analysis for Nov. 2\nOil declined after a report said US President Donald Trump wants to give diplomacy with Iran more time before potentially resuming strikes following Tuesday’s midterm elections."
+      "summary": "Latest Oil Market News and Analysis for Nov. 2\nOil extended losses after Iran’s supreme leader gave the government approval to pursue talks that could resolve the months-long conflict roiling Middle East supplies."
     },
     {
-      "title": "Foreigners Make Record Withdrawal From Taiwan Stocks on AI Rout",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-02/foreigners-make-record-withdrawal-from-taiwan-stocks-on-ai-rout",
-      "raw_summary": "Foreign outflows from Taiwanese stocks hit a record in October as a global selloff in artificial intelligence play pushed the island’s benchmark closer to a technical correction.",
-      "source": "Bloomberg Markets",
-      "published": "Mon, 02 Nov 2026 01:00:27 GMT",
-      "summary": "Foreigners Make Record Withdrawal From Taiwan Stocks on AI Rout\nForeign outflows from Taiwanese stocks hit a record in October as a global selloff in artificial intelligence play pushed the island’s benchmark closer to a technical correction."
-    },
-    {
-      "title": "The crypto reader's guide to the 2026 midterm election: State of Crypto",
-      "link": "https://www.coindesk.com/policy/2026/11/01/the-crypto-reader-s-guide-to-the-2026-midterm-election-state-of-crypto",
+      "title": "Tokenization firm tZERO plans to go public in $350 million SPAC deal",
+      "link": "https://www.coindesk.com/business/2026/11/01/tokenization-firm-tzero-plans-to-go-public-in-usd350-million-spac-deal",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 01 Nov 2026 19:30:00 +0000",
-      "summary": "The crypto reader's guide to the 2026 midterm election: State of Crypto\n"
+      "published": "Mon, 02 Nov 2026 14:00:00 +0000",
+      "summary": "Tokenization firm tZERO plans to go public in $350 million SPAC deal\n"
     },
     {
-      "title": "AI agents bypassed crypto spending limits without human approval, researchers find in a new test",
-      "link": "https://www.coindesk.com/tech/2026/11/01/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test",
+      "title": "XRP Ledger set to fix flaw that could let stablecoin partners print new tokens",
+      "link": "https://www.coindesk.com/tech/2026/11/02/xrp-ledger-set-to-fix-flaw-that-could-let-stablecoin-partners-print-new-tokens",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 01 Nov 2026 17:00:00 +0000",
-      "summary": "AI agents bypassed crypto spending limits without human approval, researchers find in a new test\n"
+      "published": "Mon, 02 Nov 2026 12:37:24 +0000",
+      "summary": "XRP Ledger set to fix flaw that could let stablecoin partners print new tokens\n"
     },
     {
-      "title": "The key races to watch for the 2026 election",
-      "link": "https://www.coindesk.com/policy/2026/11/01/the-key-races-to-watch-for-the-2026-election",
+      "title": "Bitcoin's 'volatility curve' has a midterm bump",
+      "link": "https://www.coindesk.com/daybook-us/2026/11/02/bitcoin-s-volatility-curve-has-a-midterm-bump",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 01 Nov 2026 15:00:00 +0000",
-      "summary": "The key races to watch for the 2026 election\n"
+      "published": "Mon, 02 Nov 2026 12:30:17 +0000",
+      "summary": "Bitcoin's 'volatility curve' has a midterm bump\n"
     },
     {
-      "title": "Crypto card startups are racking up losses just to buy your loyalty with big rewards",
-      "link": "https://www.coindesk.com/business/2026/11/01/crypto-card-startups-are-racking-up-losses-just-to-buy-your-loyalty-with-big-rewards",
+      "title": "No proof of AI in North Korean hackers move of stolen Binance funds",
+      "link": "https://www.coindesk.com/tech/2026/11/02/no-proof-of-ai-in-north-korean-hackers-move-of-stolen-binance-funds-through-thousands-of-wallets",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 01 Nov 2026 15:00:00 +0000",
-      "summary": "Crypto card startups are racking up losses just to buy your loyalty with big rewards\n"
+      "published": "Mon, 02 Nov 2026 11:57:45 +0000",
+      "summary": "No proof of AI in North Korean hackers move of stolen Binance funds\n"
     },
     {
-      "title": "Crypto PACs made big Republican push in final weeks before November 3 election",
-      "link": "https://www.coindesk.com/policy/2026/11/01/crypto-pacs-made-big-republican-push-in-final-weeks-before-november-3-election",
+      "title": "Bitcoin eases to $77,900 as Binance customers pull $3.6 billion after withdrawals reopen",
+      "link": "https://www.coindesk.com/markets/2026/11/02/bitcoin-eases-to-usd77-900-as-binance-customers-pull-usd3-6-billion-after-withdrawals-reopen",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 01 Nov 2026 14:00:00 +0000",
-      "summary": "Crypto PACs made big Republican push in final weeks before November 3 election\n"
+      "published": "Mon, 02 Nov 2026 11:30:00 +0000",
+      "summary": "Bitcoin eases to $77,900 as Binance customers pull $3.6 billion after withdrawals reopen\n"
     }
   ]
 }
