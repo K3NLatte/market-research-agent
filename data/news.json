@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T13:32:15.015841+00:00",
+  "generated_at": "2026-11-04T23:01:26.588369+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "Microsoft Patches More Than 1,400 Security Flaws\nMicrosoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal "
     },
     {
+      "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+      "link": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+      "raw_summary": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own.\n\nThe attacker's code then runs as root, according to advisories that&nbsp;Debian,&nbsp;Ubuntu, and&nbsp;APT's developers&nbsp;published on November 4. The attack needs APT to retry failed downloads, which it does by default from Debian 12 and",
+      "source": "The Hacker News",
+      "published": "Wed, 04 Nov 2026 22:30:46 +0530",
+      "summary": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root\nA flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own.\n\nThe attacker's code then runs as root, according to advis"
+    },
+    {
+      "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+      "link": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+      "raw_summary": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched.\n\nDetails of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below -\n\n\n  CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files,",
+      "source": "The Hacker News",
+      "published": "Wed, 04 Nov 2026 22:30:38 +0530",
+      "summary": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records\nSonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched.\n\nDetails of the security flaws, which affect SonicWall GMS 9.5.2 and earlier "
+    },
+    {
+      "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+      "link": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+      "raw_summary": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway.\n\nThe phenomenon has been codenamed prompt adware by Check Point Research.\n\nCalled Haiou (meaning Seagull in Chinese), the jailbreak modifies OpenAI Codex's configuration",
+      "source": "The Hacker News",
+      "published": "Wed, 04 Nov 2026 21:36:43 +0530",
+      "summary": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit\nCybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway"
+    },
+    {
+      "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+      "link": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+      "raw_summary": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker.\n\n\"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and",
+      "source": "The Hacker News",
+      "published": "Wed, 04 Nov 2026 19:57:52 +0530",
+      "summary": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits\nThe Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving"
+    },
+    {
       "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
       "link": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
       "raw_summary": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in&nbsp;an advisory&nbsp;and fixed it in versions 8.1.4.1 and 8.0.5.2.\n\nThe flaw is in Active Storage, the part of Rails that handles file uploads. Some apps store",
@@ -51,276 +83,244 @@
       "summary": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads\nA critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project dis"
     },
     {
-      "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
-      "link": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
-      "raw_summary": "Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0.\n\nDom0 is the VM that, by default, has full permissions and manages the others. Patches are out, and there is no known mitigation, the Xen Project said in an&nbsp;advisory&nbsp;on November 3.\n\nAll Xen versions from 4.6 onward are vulnerable,",
-      "source": "The Hacker News",
-      "published": "Wed, 04 Nov 2026 17:16:27 +0530",
-      "summary": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory\nTwo flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0.\n\nDom0 is the VM that, by default, has full permissions and manages t"
-    },
-    {
-      "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
-      "link": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
-      "raw_summary": "Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise owns. Most agents never touch one.\n\nOne recent case shows what that gap looks like in practice. An employee asked an AI assistant to trigger a mass-email automation. The automation",
-      "source": "The Hacker News",
-      "published": "Wed, 04 Nov 2026 17:04:20 +0530",
-      "summary": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It\nNearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise o"
-    },
-    {
-      "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
-      "link": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
-      "raw_summary": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP).\n\nThe campaign, observed starting July 1, 2026, is assessed to have targeted organizations and",
-      "source": "The Hacker News",
-      "published": "Wed, 04 Nov 2026 16:54:31 +0530",
-      "summary": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor\nA China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part"
-    },
-    {
-      "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
-      "link": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
-      "raw_summary": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure.\n\nAlso known as Fluffy Wolf, the threat actor has a history of targeting Russian and international companies since 2016.\n\nThe Ministry of Internal Affairs of the Russian Federation (MVD) said members of the group are \"suspected of embezzling funds from the",
-      "source": "The Hacker News",
-      "published": "Wed, 04 Nov 2026 13:47:11 +0530",
-      "summary": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure\nRussian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure.\n\nAlso known as Fluffy Wolf, the threat actor has a history of targeting Russ"
-    },
-    {
-      "title": "Debian apt security update: man-in-the-middle arbitrary code execution",
-      "link": "https://lists.debian.org/debian-security-announce/2026/msg00526.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://lists.debian.org/debian-security-announce/2026/msg00526.html\">https://lists.debian.org/debian-security-announce/2026/msg00526.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50364814\">https://news.ycombinator.com/item?id=50364814</a></p>\n<p>Points: 24</p>\n<p># Comments: 11</p>",
+      "title": "Ask HN: What your experience with the monthly \"who wants to be hired\" thread?",
+      "link": "https://news.ycombinator.com/item?id=50372294",
+      "raw_summary": "<p>I recently commented on the \"who wants to be hired\" this month and so far have only received spam. Has anyone had any success with this, or is it just a way to subscribe to junk mail and automated marketing?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50372294\">https://news.ycombinator.com/item?id=50372294</a></p>\n<p>Points: 25</p>\n<p># Comments: 10</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 04 Nov 2026 12:46:58 +0000",
-      "summary": "Debian apt security update: man-in-the-middle arbitrary code execution\n<p>Article URL: <a href=\"https://lists.debian.org/debian-security-announce/2026/msg00526.html\">https://lists.debian.org/debian-security-announce/2026/msg00526.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/it"
+      "published": "Wed, 04 Nov 2026 22:18:21 +0000",
+      "summary": "Ask HN: What your experience with the monthly \"who wants to be hired\" thread?\n<p>I recently commented on the \"who wants to be hired\" this month and so far have only received spam. Has anyone had any success with this, or is it just a way to subscribe to junk mail and automated marketing?</p>\n<hr />\n"
     },
     {
-      "title": "A map of 5000+ midterm ads",
-      "link": "https://admap.org/",
-      "raw_summary": "<p>Article URL: <a href=\"https://admap.org/\">https://admap.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50364561\">https://news.ycombinator.com/item?id=50364561</a></p>\n<p>Points: 33</p>\n<p># Comments: 6</p>",
+      "title": "Hacking the Xbox 360 Hypervisor Part 3: Bad Update Improvements",
+      "link": "https://icode4.coffee/?p=1746",
+      "raw_summary": "<p>Article URL: <a href=\"https://icode4.coffee/?p=1746\">https://icode4.coffee/?p=1746</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50372164\">https://news.ycombinator.com/item?id=50372164</a></p>\n<p>Points: 17</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 04 Nov 2026 12:18:35 +0000",
-      "summary": "A map of 5000+ midterm ads\n<p>Article URL: <a href=\"https://admap.org/\">https://admap.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50364561\">https://news.ycombinator.com/item?id=50364561</a></p>\n<p>Points: 33</p>\n<p># Comments: 6</p>"
+      "published": "Wed, 04 Nov 2026 22:01:49 +0000",
+      "summary": "Hacking the Xbox 360 Hypervisor Part 3: Bad Update Improvements\n<p>Article URL: <a href=\"https://icode4.coffee/?p=1746\">https://icode4.coffee/?p=1746</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50372164\">https://news.ycombinator.com/item?id=50372164</a></p>\n<p>Points: 17</"
     },
     {
-      "title": "Hackers hit French national blood bank",
-      "link": "https://www.telegraph.co.uk/world-news/2026/11/04/hackers-hit-french-blood-bank/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.telegraph.co.uk/world-news/2026/11/04/hackers-hit-french-blood-bank/\">https://www.telegraph.co.uk/world-news/2026/11/04/hackers-hit-french-blood-bank/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50364478\">https://news.ycombinator.com/item?id=50364478</a></p>\n<p>Points: 54</p>\n<p># Comments: 42</p>",
+      "title": "Everything is an AI scam now",
+      "link": "https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/\">https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50371508\">https://news.ycombinator.com/item?id=50371508</a></p>\n<p>Points: 101</p>\n<p># Comments: 29</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 04 Nov 2026 12:08:35 +0000",
-      "summary": "Hackers hit French national blood bank\n<p>Article URL: <a href=\"https://www.telegraph.co.uk/world-news/2026/11/04/hackers-hit-french-blood-bank/\">https://www.telegraph.co.uk/world-news/2026/11/04/hackers-hit-french-blood-bank/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50"
+      "published": "Wed, 04 Nov 2026 21:05:19 +0000",
+      "summary": "Everything is an AI scam now\n<p>Article URL: <a href=\"https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/\">https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50371508\">https://news.ycombinator"
     },
     {
-      "title": "AI is forcing us to pay off 40 years of technical debt",
-      "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-      "raw_summary": "<p>Article URL: <a href=\"https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability\">https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50364336\">https://news.ycombinator.com/item?id=50364336</a></p>\n<p>Points: 197</p>\n<p># Comments: 99</p>",
+      "title": "If you're on Replit Pro, you have until November 8 to opt out of arbitration",
+      "link": "https://readthediff.substack.com/p/replit-pro-arbitration-opt-out-november-8",
+      "raw_summary": "<p>Article URL: <a href=\"https://readthediff.substack.com/p/replit-pro-arbitration-opt-out-november-8\">https://readthediff.substack.com/p/replit-pro-arbitration-opt-out-november-8</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50371346\">https://news.ycombinator.com/item?id=50371346</a></p>\n<p>Points: 40</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 04 Nov 2026 11:52:17 +0000",
-      "summary": "AI is forcing us to pay off 40 years of technical debt\n<p>Article URL: <a href=\"https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability\">https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50364336"
+      "published": "Wed, 04 Nov 2026 20:52:53 +0000",
+      "summary": "If you're on Replit Pro, you have until November 8 to opt out of arbitration\n<p>Article URL: <a href=\"https://readthediff.substack.com/p/replit-pro-arbitration-opt-out-november-8\">https://readthediff.substack.com/p/replit-pro-arbitration-opt-out-november-8</a></p>\n<p>Comments URL: <a href=\"https://n"
     },
     {
-      "title": "Synaptics Appears to Use Legal Threats to Block Open-Source DisplayLink Driver",
-      "link": "https://www.phoronix.com/news/Synaptics-Blocks-Vino-Driver",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.phoronix.com/news/Synaptics-Blocks-Vino-Driver\">https://www.phoronix.com/news/Synaptics-Blocks-Vino-Driver</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50363968\">https://news.ycombinator.com/item?id=50363968</a></p>\n<p>Points: 42</p>\n<p># Comments: 2</p>",
+      "title": "Residential proxies detected on White House network",
+      "link": "https://layer3intel.com/blog/residential-proxies-white-house-network",
+      "raw_summary": "<p>Article URL: <a href=\"https://layer3intel.com/blog/residential-proxies-white-house-network\">https://layer3intel.com/blog/residential-proxies-white-house-network</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50371246\">https://news.ycombinator.com/item?id=50371246</a></p>\n<p>Points: 401</p>\n<p># Comments: 111</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 04 Nov 2026 11:14:12 +0000",
-      "summary": "Synaptics Appears to Use Legal Threats to Block Open-Source DisplayLink Driver\n<p>Article URL: <a href=\"https://www.phoronix.com/news/Synaptics-Blocks-Vino-Driver\">https://www.phoronix.com/news/Synaptics-Blocks-Vino-Driver</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=503639"
+      "published": "Wed, 04 Nov 2026 20:45:18 +0000",
+      "summary": "Residential proxies detected on White House network\n<p>Article URL: <a href=\"https://layer3intel.com/blog/residential-proxies-white-house-network\">https://layer3intel.com/blog/residential-proxies-white-house-network</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50371246\">htt"
     },
     {
-      "title": "TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston",
-      "link": "https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day/",
-      "raw_summary": "Today is the day to join TechCrunch Founder Summit 2026 in Boston's SoWa Power Station. Register now to join this founder-focused conference today.",
+      "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+      "link": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+      "raw_summary": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle.",
       "source": "TechCrunch",
-      "published": "Wed, 04 Nov 2026 13:00:00 +0000",
-      "summary": "TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston\nToday is the day to join TechCrunch Founder Summit 2026 in Boston's SoWa Power Station. Register now to join this founder-focused conference today."
+      "published": "Wed, 04 Nov 2026 22:45:09 +0000",
+      "summary": "AI PACs spent millions trying to shape Congress — here’s how they fared\nAI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle."
     },
     {
-      "title": "Canva lays off over 1,200 people amid slowing growth",
-      "link": "https://techcrunch.com/2026/11/04/canva-lays-off-over-1200-people-amid-slowing-growth/",
-      "raw_summary": "Canva is cutting 22% of its staff as it faces its 'hardest year' yet.",
+      "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
+      "link": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+      "raw_summary": "While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains.",
       "source": "TechCrunch",
-      "published": "Wed, 04 Nov 2026 11:59:00 +0000",
-      "summary": "Canva lays off over 1,200 people amid slowing growth\nCanva is cutting 22% of its staff as it faces its 'hardest year' yet."
+      "published": "Wed, 04 Nov 2026 22:13:16 +0000",
+      "summary": "Nothing CEO says company’s mysterious AI-first device is dropping next month\nWhile it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains."
     },
     {
-      "title": "India’s EloElo nabs $80M from NBCUniversal to bet on the country’s rising microdrama market",
-      "link": "https://techcrunch.com/2026/11/03/indias-eloelo-nabs-80m-from-nbc-universal-to-bet-on-the-countrys-rising-microdrama-market/",
-      "raw_summary": "StoryTV has more than 33 million monthly active users according to Sensor Tower figures",
+      "title": "Almost no one uses AI agents to book their Uber, company says",
+      "link": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+      "raw_summary": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.",
       "source": "TechCrunch",
-      "published": "Wed, 04 Nov 2026 04:45:00 +0000",
-      "summary": "India’s EloElo nabs $80M from NBCUniversal to bet on the country’s rising microdrama market\nStoryTV has more than 33 million monthly active users according to Sensor Tower figures"
+      "published": "Wed, 04 Nov 2026 21:56:01 +0000",
+      "summary": "Almost no one uses AI agents to book their Uber, company says\nDuring its busiest week last quarter, Uber said only four people booked a ride using an AI agent."
     },
     {
-      "title": "Anthropic is working on a system to prove AI models’ identity",
-      "link": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
-      "raw_summary": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
+      "title": "Snapchat surpasses 30M paid subscribers",
+      "link": "https://techcrunch.com/2026/11/04/snapchat-surpasses-30m-paid-subscribers/",
+      "raw_summary": "The milestone comes a year after Snapchat announced a controversial limit on free storage for its Memories feature and informed users it would start requiring users to pay $1.99 per month for additional storage or subscribe to Snapchat+ to retain their Memories.",
       "source": "TechCrunch",
-      "published": "Tue, 03 Nov 2026 22:41:03 +0000",
-      "summary": "Anthropic is working on a system to prove AI models’ identity\nCalled FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from."
+      "published": "Wed, 04 Nov 2026 21:49:29 +0000",
+      "summary": "Snapchat surpasses 30M paid subscribers\nThe milestone comes a year after Snapchat announced a controversial limit on free storage for its Memories feature and informed users it would start requiring users to pay $1.99 per month for additional storage or subscribe to Snapchat+ to retain their Memorie"
     },
     {
-      "title": "Data centers are turning to old jet engines as the wait for power grows",
-      "link": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
-      "raw_summary": "The years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less-efficient and less environmentally friendly solution: once-discarded jet engines.",
+      "title": "OpenAI is already trying to shape the 2028 election",
+      "link": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+      "raw_summary": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.",
       "source": "TechCrunch",
-      "published": "Tue, 03 Nov 2026 22:19:53 +0000",
-      "summary": "Data centers are turning to old jet engines as the wait for power grows\nThe years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less-efficient and less environmentally friendly solution: once-discarded jet engines."
+      "published": "Wed, 04 Nov 2026 21:25:44 +0000",
+      "summary": "OpenAI is already trying to shape the 2028 election\nOpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests."
     },
     {
-      "title": "California fights \"preposterous\" Trump admin demand to scrap state broadband laws",
-      "link": "https://arstechnica.com/tech-policy/2026/11/california-fights-preposterous-trump-admin-demand-to-scrap-state-broadband-laws/",
-      "raw_summary": "State tries to obtain broadband funds despite rejecting Trump admin condition.",
+      "title": "VMware releases vSphere Express for virtualization on up to 128 cores",
+      "link": "https://arstechnica.com/information-technology/2026/11/vmware-releases-vsphere-express-for-virtualization-on-up-to-128-cores/",
+      "raw_summary": "“We started listening to a lot of our lower-end customers,\" VMware exec says.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 03 Nov 2026 22:39:37 +0000",
-      "summary": "California fights \"preposterous\" Trump admin demand to scrap state broadband laws\nState tries to obtain broadband funds despite rejecting Trump admin condition."
+      "published": "Wed, 04 Nov 2026 21:38:49 +0000",
+      "summary": "VMware releases vSphere Express for virtualization on up to 128 cores\n“We started listening to a lot of our lower-end customers,\" VMware exec says."
     },
     {
-      "title": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers",
-      "link": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
-      "raw_summary": "Russia tries to fix exposed digital infrastructure as data center war backfires.",
+      "title": "AMD's record quarter: Data center business doubles, while gaming craters",
+      "link": "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters/",
+      "raw_summary": "AMD's gaming revenue fell 40 percent in an otherwise record $13.4 billion quarter.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 03 Nov 2026 20:39:55 +0000",
-      "summary": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers\nRussia tries to fix exposed digital infrastructure as data center war backfires."
+      "published": "Wed, 04 Nov 2026 21:29:46 +0000",
+      "summary": "AMD's record quarter: Data center business doubles, while gaming craters\nAMD's gaming revenue fell 40 percent in an otherwise record $13.4 billion quarter."
     },
     {
-      "title": "NYT demands Brave shut down its paywall blocker and end deals with AI firms",
-      "link": "https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms/",
-      "raw_summary": "Lawsuit calls Brave \"supplier, dealer, and distributor\" of stolen news content.",
+      "title": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”",
+      "link": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
+      "raw_summary": "Tech industry in denial as US overwhelmingly votes to restrict AI, data centers.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 03 Nov 2026 18:30:27 +0000",
-      "summary": "NYT demands Brave shut down its paywall blocker and end deals with AI firms\nLawsuit calls Brave \"supplier, dealer, and distributor\" of stolen news content."
+      "published": "Wed, 04 Nov 2026 20:55:50 +0000",
+      "summary": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”\nTech industry in denial as US overwhelmingly votes to restrict AI, data centers."
     },
     {
-      "title": "Buttons are back and storage is king when it comes to car interiors",
-      "link": "https://arstechnica.com/cars/2026/11/yes-to-storage-no-to-piano-black-how-car-interior-design-is-changing/",
-      "raw_summary": "We talk with Nissan designer Hiren Patel about how vehicle interior designs are changing.",
+      "title": "After Texas' blue wave, what happens to Elon Musk and SpaceX?",
+      "link": "https://arstechnica.com/space/2026/11/elon-musk-moved-spacex-to-red-texas-now-its-blue-what-happens-next/",
+      "raw_summary": "\"Data centers in space looking pretty appealing right now.\"",
       "source": "Ars Technica - All content",
-      "published": "Tue, 03 Nov 2026 18:19:31 +0000",
-      "summary": "Buttons are back and storage is king when it comes to car interiors\nWe talk with Nissan designer Hiren Patel about how vehicle interior designs are changing."
+      "published": "Wed, 04 Nov 2026 20:36:05 +0000",
+      "summary": "After Texas' blue wave, what happens to Elon Musk and SpaceX?\n\"Data centers in space looking pretty appealing right now.\""
     },
     {
-      "title": "Google will let schools skip AI tools, but they have to give up search, too",
-      "link": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
-      "raw_summary": "Google will offer schools AI tools that purportedly don't give away the answers.",
+      "title": "Ted Cruz aims to stack FCC with Republicans before Democrats take Senate control",
+      "link": "https://arstechnica.com/tech-policy/2026/11/ted-cruz-aims-to-put-another-republican-on-fcc-in-senates-lame-duck-session/",
+      "raw_summary": "Cruz and Trump seem to have no plans to fill FCC's empty Democratic seat.",
       "source": "Ars Technica - All content",
-      "published": "Tue, 03 Nov 2026 17:54:43 +0000",
-      "summary": "Google will let schools skip AI tools, but they have to give up search, too\nGoogle will offer schools AI tools that purportedly don't give away the answers."
+      "published": "Wed, 04 Nov 2026 19:08:23 +0000",
+      "summary": "Ted Cruz aims to stack FCC with Republicans before Democrats take Senate control\nCruz and Trump seem to have no plans to fill FCC's empty Democratic seat."
     },
     {
-      "title": "CVS Health to break up $117bn healthcare empire",
-      "link": "https://www.ft.com/content/2478a5ea-263a-4f4f-ac96-7d619fb39bb8?syn-25a6b1a6=1",
-      "raw_summary": "Spin-off of roughly 9,000 pharmacies comes as political pressure mounts on pharmacy benefit managers and health insurers",
+      "title": "FirstFT: Republican infighting erupts  after landslide midterms defeat",
+      "link": "https://www.ft.com/content/e7e1345b-7d9a-4d14-a726-33cee30f189a?syn-25a6b1a6=1",
+      "raw_summary": "Also in today’s newsletter: wiretapping scandal rocks Indonesia and Oracle cancels $7bn Tencent AI deal under Trump pressure",
       "source": "World",
-      "published": "Wed, 04 Nov 2026 12:46:20 GMT",
-      "summary": "CVS Health to break up $117bn healthcare empire\nSpin-off of roughly 9,000 pharmacies comes as political pressure mounts on pharmacy benefit managers and health insurers"
+      "published": "Wed, 04 Nov 2026 21:52:36 GMT",
+      "summary": "FirstFT: Republican infighting erupts  after landslide midterms defeat\nAlso in today’s newsletter: wiretapping scandal rocks Indonesia and Oracle cancels $7bn Tencent AI deal under Trump pressure"
     },
     {
-      "title": "Stocks rebound after Democrats’ sweep",
+      "title": "Vance blames Iran war for crushing Republican midterms defeat",
+      "link": "https://www.ft.com/content/6bc8be51-5bd8-468c-bd3c-82bbc2866ba1?syn-25a6b1a6=1",
+      "raw_summary": "Oil prices tumble as Democrats’ landslide victory piles pressure on Donald Trump to end Middle East conflict",
+      "source": "World",
+      "published": "Wed, 04 Nov 2026 21:34:58 GMT",
+      "summary": "Vance blames Iran war for crushing Republican midterms defeat\nOil prices tumble as Democrats’ landslide victory piles pressure on Donald Trump to end Middle East conflict"
+    },
+    {
+      "title": "US stocks post best day since August after Democrats sweep midterms",
       "link": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
-      "raw_summary": "US futures reverse early losses as analysts say divided government reduces policymaking risks",
+      "raw_summary": "Hyperscalers surge and chipmakers fall as investors bet on winners and losers from expected backlash against the AI boom",
       "source": "World",
-      "published": "Wed, 04 Nov 2026 12:42:07 GMT",
-      "summary": "Stocks rebound after Democrats’ sweep\nUS futures reverse early losses as analysts say divided government reduces policymaking risks"
+      "published": "Wed, 04 Nov 2026 21:33:37 GMT",
+      "summary": "US stocks post best day since August after Democrats sweep midterms\nHyperscalers surge and chipmakers fall as investors bet on winners and losers from expected backlash against the AI boom"
     },
     {
-      "title": "Trump admits Iran war hurt Republicans as blame game erupts",
-      "link": "https://www.ft.com/content/6bc8be51-5bd8-468c-bd3c-82bbc2866ba1",
-      "raw_summary": "Democrats deliver crushing defeat as voters punish administration for high cost of living",
+      "title": "‘Rupert does not want to be with a loser’: Murdoch’s media empire cools on Trump",
+      "link": "https://www.ft.com/content/ead0309f-537a-4cc1-9d65-a3b9de01e69d?syn-25a6b1a6=1",
+      "raw_summary": "Fox News hosts question Iran war strategy while New York Post has ‘Blue Tsunami’ on front page after Republicans’ defeat",
       "source": "World",
-      "published": "Wed, 04 Nov 2026 12:38:04 GMT",
-      "summary": "Trump admits Iran war hurt Republicans as blame game erupts\nDemocrats deliver crushing defeat as voters punish administration for high cost of living"
+      "published": "Wed, 04 Nov 2026 20:58:24 GMT",
+      "summary": "‘Rupert does not want to be with a loser’: Murdoch’s media empire cools on Trump\nFox News hosts question Iran war strategy while New York Post has ‘Blue Tsunami’ on front page after Republicans’ defeat"
     },
     {
-      "title": "How the Trump era crashed",
-      "link": "https://www.ft.com/content/637bfe05-69f9-4650-b043-731c1ebb4be6?syn-25a6b1a6=1",
-      "raw_summary": "The US president forgot the economic bit of populism",
+      "title": "Oil tumbles below $100 on post-election peace hopes",
+      "link": "https://www.ft.com/content/b526f876-810a-4e74-8b8d-4ffca04b29c7?syn-25a6b1a6=1",
+      "raw_summary": "US vice-president JD Vance blames Republicans’ midterm defeat on anger over Iran war",
       "source": "World",
-      "published": "Wed, 04 Nov 2026 12:22:14 GMT",
-      "summary": "How the Trump era crashed\nThe US president forgot the economic bit of populism"
+      "published": "Wed, 04 Nov 2026 20:18:53 GMT",
+      "summary": "Oil tumbles below $100 on post-election peace hopes\nUS vice-president JD Vance blames Republicans’ midterm defeat on anger over Iran war"
     },
     {
-      "title": "Five takeaways from the midterm results",
-      "link": "https://www.ft.com/content/2bfbe464-f070-44bb-a761-fecad1cde4d4?syn-25a6b1a6=1",
-      "raw_summary": "Democrats record broad gains from almost all demographic groups",
-      "source": "World",
-      "published": "Wed, 04 Nov 2026 12:15:44 GMT",
-      "summary": "Five takeaways from the midterm results\nDemocrats record broad gains from almost all demographic groups"
-    },
-    {
-      "title": "Latest Oil Market News and Analysis for Nov. 4",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-03/latest-oil-market-news-and-analysis-for-nov-4",
-      "raw_summary": "Oil fell, extending a two-day decline as traders weighed signs of de-escalation in the Iran conflict from President Donald Trump after his Republican party suffered stinging losses in midterm elections.",
+      "title": "Election Night TV Viewers Rise With NBC in Lead, Fox Falling",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-04/election-night-tv-viewers-rise-with-nbc-in-the-lead-fox-falling",
+      "raw_summary": "Nearly 27.1 million people watched primetime news coverage of the 2026 midterm elections across the six largest TV networks, according to preliminary Nielsen data.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 03 Nov 2026 23:08:04 GMT",
-      "summary": "Latest Oil Market News and Analysis for Nov. 4\nOil fell, extending a two-day decline as traders weighed signs of de-escalation in the Iran conflict from President Donald Trump after his Republican party suffered stinging losses in midterm elections."
+      "published": "Wed, 04 Nov 2026 22:03:01 GMT",
+      "summary": "Election Night TV Viewers Rise With NBC in Lead, Fox Falling\nNearly 27.1 million people watched primetime news coverage of the 2026 midterm elections across the six largest TV networks, according to preliminary Nielsen data."
     },
     {
-      "title": "India Plans to Retain More Short-Term Military Recruits",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-04/india-approves-plan-to-absorb-more-short-term-military-recruits",
-      "raw_summary": "India overhauled a short-term military recruitment plan by extending conscripts’ tenure and offering a path to permanent employment as border tensions with China and Pakistan continue to pressure the country’s defense establishment.",
+      "title": "Host Hotels & Resorts CEO on 3Q Quarterly Results",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-04/host-hotels-resorts-ceo-on-3q-quarterly-results-video",
+      "raw_summary": "Host Hotels & Resorts  raised its full-year outlook, including adjusted EBITDA and comparable hotel RevPAR growth. CEO and President Jim Risoleo discussed the acquisition of 1 Hotel Brooklyn Bridge, the fourth 1e Hotel in Host’s portfolio. He cited its 2017 opening, lack of deferred capital expenditures, 175 rooms, meeting space, dining options and waterfront location overlooking Manhattan. He speaks with Romaine Bostick on \"The Close.\" (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Wed, 04 Nov 2026 11:19:47 GMT",
-      "summary": "India Plans to Retain More Short-Term Military Recruits\nIndia overhauled a short-term military recruitment plan by extending conscripts’ tenure and offering a path to permanent employment as border tensions with China and Pakistan continue to pressure the country’s defense establishment."
+      "published": "Wed, 04 Nov 2026 22:48:47 GMT",
+      "summary": "Host Hotels & Resorts CEO on 3Q Quarterly Results\nHost Hotels & Resorts  raised its full-year outlook, including adjusted EBITDA and comparable hotel RevPAR growth. CEO and President Jim Risoleo discussed the acquisition of 1 Hotel Brooklyn Bridge, the fourth 1e Hotel in Host’s portfolio. He cited i"
     },
     {
-      "title": "US, Europe Defense Stocks Slide After Democrats’ Election Sweep",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-04/european-defense-stocks-slide-as-democrats-sweep-dents-optimism",
-      "raw_summary": "Defense stocks slid on both sides of the Atlantic as the Democrats’ landslide win in US midterm elections dented expectations of a further ramp-up in the country’s military spending.",
+      "title": "Sony Needs More Than ‘GTA’ and Spider-Man to Lift Stock Further",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-04/sony-needs-more-than-gta-and-spider-man-to-lift-stock-further",
+      "raw_summary": "Investors are looking for reassurance on longer term earnings stability from Sony Group Corp. to help extend the nascent rebound in its shares.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 04 Nov 2026 11:27:31 GMT",
-      "summary": "US, Europe Defense Stocks Slide After Democrats’ Election Sweep\nDefense stocks slid on both sides of the Atlantic as the Democrats’ landslide win in US midterm elections dented expectations of a further ramp-up in the country’s military spending."
+      "published": "Wed, 04 Nov 2026 22:30:00 GMT",
+      "summary": "Sony Needs More Than ‘GTA’ and Spider-Man to Lift Stock Further\nInvestors are looking for reassurance on longer term earnings stability from Sony Group Corp. to help extend the nascent rebound in its shares."
     },
     {
-      "title": "US Stock Futures Rebound as Election Uncertainty Evaporates",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-04/us-equity-futures-inch-higher-as-investors-await-midterm-results",
-      "raw_summary": "US equity index futures rallied, reversing earlier losses, after the Democrats swept to power in Congress and President Donald Trump said he would accept the results, easing uncertainty and prompting investors to buy the recent dip in stocks.",
+      "title": "Asian Stocks to Rise as Oil Slides After US Vote: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-04/stock-market-today-dow-s-p-live-updates",
+      "raw_summary": "Asian stocks were poised to follow Wall Street higher after a Democratic sweep in the US midterm elections sent oil plunging on hopes the monthslong conflict with Iran may end sooner.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 04 Nov 2026 00:01:14 GMT",
-      "summary": "US Stock Futures Rebound as Election Uncertainty Evaporates\nUS equity index futures rallied, reversing earlier losses, after the Democrats swept to power in Congress and President Donald Trump said he would accept the results, easing uncertainty and prompting investors to buy the recent dip in stock"
+      "published": "Wed, 04 Nov 2026 22:15:04 GMT",
+      "summary": "Asian Stocks to Rise as Oil Slides After US Vote: Markets Wrap\nAsian stocks were poised to follow Wall Street higher after a Democratic sweep in the US midterm elections sent oil plunging on hopes the monthslong conflict with Iran may end sooner."
     },
     {
-      "title": "Crop Trader Olam Agri Is Boosting Bet on Africa’s Diet Shift",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-04/crop-trader-olam-to-bet-400-million-more-on-africa-s-diet-shift",
-      "raw_summary": "Agricultural commodities trader Olam Agri is boosting investment in African food supply chains to tap the continent’s dietary shift toward more meat and processed products.",
+      "title": "Wall Street Trading Desks Bet on US Stock Rally After Midterms",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-04/wall-street-trading-desks-bet-on-us-stock-rally-after-midterms",
+      "raw_summary": "Wall Street’s biggest trading desks are urging clients to increase their exposure to US stocks, betting that lackluster investor positioning leading up to the midterm elections has created room for a year-end rally.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 04 Nov 2026 08:55:49 GMT",
-      "summary": "Crop Trader Olam Agri Is Boosting Bet on Africa’s Diet Shift\nAgricultural commodities trader Olam Agri is boosting investment in African food supply chains to tap the continent’s dietary shift toward more meat and processed products."
+      "published": "Wed, 04 Nov 2026 22:02:58 GMT",
+      "summary": "Wall Street Trading Desks Bet on US Stock Rally After Midterms\nWall Street’s biggest trading desks are urging clients to increase their exposure to US stocks, betting that lackluster investor positioning leading up to the midterm elections has created room for a year-end rally."
     },
     {
-      "title": "Global asset manager Schroders brings emerging market bond fund to Solana",
-      "link": "https://www.coindesk.com/business/2026/11/04/global-asset-manager-schroders-brings-emerging-market-bond-fund-to-solana",
+      "title": "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty",
+      "link": "https://www.coindesk.com/policy/2026/11/04/tokenization-and-stablecoins-may-weather-democrats-sweep-as-broader-crypto-rules-face-uncertainty",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 04 Nov 2026 13:00:00 +0000",
-      "summary": "Global asset manager Schroders brings emerging market bond fund to Solana\n"
+      "published": "Wed, 04 Nov 2026 22:55:00 +0000",
+      "summary": "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty\n"
     },
     {
-      "title": "THORChain's RUNE jumps 10% as North Korean hackers resume laundering Binance loot",
-      "link": "https://www.coindesk.com/markets/2026/11/04/thorchain-s-rune-jumps-10-as-north-korean-hackers-resume-laundering-binance-loot",
+      "title": "Crypto's Washington hopes fade, but Grayscale and BlackRock see growth ahead",
+      "link": "https://www.coindesk.com/business/2026/11/04/crypto-s-washington-hopes-fade-but-grayscale-and-blackrock-see-growth-ahead",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 04 Nov 2026 12:49:56 +0000",
-      "summary": "THORChain's RUNE jumps 10% as North Korean hackers resume laundering Binance loot\n"
+      "published": "Wed, 04 Nov 2026 22:51:42 +0000",
+      "summary": "Crypto's Washington hopes fade, but Grayscale and BlackRock see growth ahead\n"
     },
     {
-      "title": "Circle beats earnings expectations on strong revenue, but cuts 5% of its workforce",
-      "link": "https://www.coindesk.com/business/2026/11/04/circle-beats-earnings-and-revenue-estimates-on-soaring-usdc-transaction-volume",
+      "title": "Crypto's powerhouse super PAC suffers costly setback as Democrats sweep Congress",
+      "link": "https://www.coindesk.com/news-analysis/2026/11/04/crypto-s-powerhouse-super-pac-fairshake-found-its-kryptonite",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 04 Nov 2026 12:33:54 +0000",
-      "summary": "Circle beats earnings expectations on strong revenue, but cuts 5% of its workforce\n"
+      "published": "Wed, 04 Nov 2026 20:29:12 +0000",
+      "summary": "Crypto's powerhouse super PAC suffers costly setback as Democrats sweep Congress\n"
     },
     {
-      "title": "Here's how analysts are reacting to the new blue Congress",
-      "link": "https://www.coindesk.com/daybook-us/2026/11/04/here-s-how-analysts-are-reacting-to-the-new-blue-congress",
+      "title": "U.S. Democratic sweep could be the final nail in the ‘Clarity Act’s coffin’",
+      "link": "https://www.coindesk.com/policy/2026/11/04/u-s-democratic-sweep-could-be-the-final-nail-in-the-clarity-act-s-coffin",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 04 Nov 2026 12:14:11 +0000",
-      "summary": "Here's how analysts are reacting to the new blue Congress\n"
+      "published": "Wed, 04 Nov 2026 16:11:29 +0000",
+      "summary": "U.S. Democratic sweep could be the final nail in the ‘Clarity Act’s coffin’\n"
     },
     {
-      "title": "Bitcoin rebounds from midterm dip as DeFi leads gains",
-      "link": "https://www.coindesk.com/markets/2026/11/04/bitcoin-rebounds-from-midterm-dip-as-defi-leads-gains",
+      "title": "Wall Street rethinks AI data center boom as Texas election raises new risks",
+      "link": "https://www.coindesk.com/markets/2026/11/04/wall-street-cuts-bitcoin-miner-price-targets-after-democrats-texas-win-threatens-ai-data-center-boom",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 04 Nov 2026 10:38:58 +0000",
-      "summary": "Bitcoin rebounds from midterm dip as DeFi leads gains\n"
+      "published": "Wed, 04 Nov 2026 16:08:14 +0000",
+      "summary": "Wall Street rethinks AI data center boom as Texas election raises new risks\n"
     }
   ]
 }
