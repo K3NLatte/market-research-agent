@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-11-05T04:29:30.562407+00:00",
+  "generated_at": "2026-11-05T13:46:22.423086+00:00",
   "count": 40,
   "articles": [
+    {
+      "title": "Want to Rent an Internet Address at the White House?",
+      "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+      "raw_summary": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is a Russian company whose founder's web hosting business was ground zero for cyberattacks against election systems in Arizona and Illinois in 2016.",
+      "source": "Krebs on Security",
+      "published": "Thu, 05 Nov 2026 04:36:17 +0000",
+      "summary": "Want to Rent an Internet Address at the White House?\nSeveral staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is a Russi"
+    },
     {
       "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
       "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
@@ -35,92 +43,108 @@
       "summary": "U.K. Sanctions Cryptomus for RU Money Laundering\nThe United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are"
     },
     {
-      "title": "Microsoft Patches More Than 1,400 Security Flaws",
-      "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
-      "raw_summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond.",
-      "source": "Krebs on Security",
-      "published": "Tue, 13 Oct 2026 23:24:53 +0000",
-      "summary": "Microsoft Patches More Than 1,400 Security Flaws\nMicrosoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal "
-    },
-    {
-      "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
-      "link": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
-      "raw_summary": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own.\n\nThe attacker's code then runs as root, according to advisories that&nbsp;Debian,&nbsp;Ubuntu, and&nbsp;APT's developers&nbsp;published on November 4. The attack needs APT to retry failed downloads, which it does by default from Debian 12 and",
+      "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
+      "link": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
+      "raw_summary": "A critical finding can move through several security tools and still leave the organization exposed.&nbsp;\n\nThe vulnerability has a severity score, and a ticket has reached the queue. Progress then depends on information the finding may lack: who owns the system, whether attackers can reach it, what protection exists, and how a change could affect the business.&nbsp;\n\nEach missing detail creates",
       "source": "The Hacker News",
-      "published": "Wed, 04 Nov 2026 22:30:46 +0530",
-      "summary": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root\nA flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own.\n\nThe attacker's code then runs as root, according to advis"
+      "published": "Thu, 05 Nov 2026 17:55:00 +0530",
+      "summary": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out\nA critical finding can move through several security tools and still leave the organization exposed.&nbsp;\n\nThe vulnerability has a severity score, and a ticket has reached the queue. Progress then depends on informatio"
     },
     {
-      "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
-      "link": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
-      "raw_summary": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched.\n\nDetails of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below -\n\n\n  CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files,",
+      "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+      "link": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+      "raw_summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs.\n\n\"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)",
       "source": "The Hacker News",
-      "published": "Wed, 04 Nov 2026 22:30:38 +0530",
-      "summary": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records\nSonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched.\n\nDetails of the security flaws, which affect SonicWall GMS 9.5.2 and earlier "
+      "published": "Thu, 05 Nov 2026 17:38:54 +0530",
+      "summary": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run\nOpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API cost"
     },
     {
-      "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
-      "link": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
-      "raw_summary": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway.\n\nThe phenomenon has been codenamed prompt adware by Check Point Research.\n\nCalled Haiou (meaning Seagull in Chinese), the jailbreak modifies OpenAI Codex's configuration",
+      "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
+      "link": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
+      "raw_summary": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise the stakes beyond individual security incidents, increasing the risk of financial losses, data breaches, and costly operational disruption.\n\nBelow, we examine five",
       "source": "The Hacker News",
-      "published": "Wed, 04 Nov 2026 21:36:43 +0530",
-      "summary": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit\nCybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway"
+      "published": "Thu, 05 Nov 2026 15:36:19 +0530",
+      "summary": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026\nOctober 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise"
     },
     {
-      "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-      "link": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-      "raw_summary": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker.\n\n\"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and",
+      "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
+      "link": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
+      "raw_summary": "Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3.\n\nThe change specifically applies to scenarios where users share iCloud content, such as photos in iCloud Photos or files in iCloud Drive, by sharing a link and making it accessible to \"Anyone with the link.\"\n\nWhen users choose this option,",
       "source": "The Hacker News",
-      "published": "Wed, 04 Nov 2026 19:57:52 +0530",
-      "summary": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits\nThe Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving"
+      "published": "Thu, 05 Nov 2026 14:43:28 +0530",
+      "summary": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content\nApple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3.\n\nThe change specifically applies to scenarios where users"
     },
     {
-      "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
-      "link": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
-      "raw_summary": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in&nbsp;an advisory&nbsp;and fixed it in versions 8.1.4.1 and 8.0.5.2.\n\nThe flaw is in Active Storage, the part of Rails that handles file uploads. Some apps store",
+      "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+      "link": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+      "raw_summary": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) sectors in the country.\n\nDescribing the threat as active and ongoing, the activity involves the use of publicly-available AI-driven offensive security tools",
       "source": "The Hacker News",
-      "published": "Wed, 04 Nov 2026 17:37:04 +0530",
-      "summary": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads\nA critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project dis"
+      "published": "Thu, 05 Nov 2026 14:12:03 +0530",
+      "summary": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access\nThe Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Servic"
     },
     {
-      "title": "Starfall – Affordable, routine access to microgravity",
-      "link": "https://www.spacex.com/starfall",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.spacex.com/starfall\">https://www.spacex.com/starfall</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50373308\">https://news.ycombinator.com/item?id=50373308</a></p>\n<p>Points: 149</p>\n<p># Comments: 87</p>",
+      "title": "Sshole",
+      "link": "https://sshhole.com",
+      "raw_summary": "<p>Article URL: <a href=\"https://sshhole.com\">https://sshhole.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50378228\">https://news.ycombinator.com/item?id=50378228</a></p>\n<p>Points: 348</p>\n<p># Comments: 75</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 05 Nov 2026 00:18:18 +0000",
-      "summary": "Starfall – Affordable, routine access to microgravity\n<p>Article URL: <a href=\"https://www.spacex.com/starfall\">https://www.spacex.com/starfall</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50373308\">https://news.ycombinator.com/item?id=50373308</a></p>\n<p>Points: 149</p>\n<p"
+      "published": "Thu, 05 Nov 2026 12:19:02 +0000",
+      "summary": "Sshole\n<p>Article URL: <a href=\"https://sshhole.com\">https://sshhole.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50378228\">https://news.ycombinator.com/item?id=50378228</a></p>\n<p>Points: 348</p>\n<p># Comments: 75</p>"
     },
     {
-      "title": "Images 2.6",
-      "link": "https://openai.com/index/introducing-images-2-6/",
-      "raw_summary": "<p>Article URL: <a href=\"https://openai.com/index/introducing-images-2-6/\">https://openai.com/index/introducing-images-2-6/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50372945\">https://news.ycombinator.com/item?id=50372945</a></p>\n<p>Points: 177</p>\n<p># Comments: 118</p>",
+      "title": "OpenSSH 10.6p2 Critical workaround for alpine without PAM",
+      "link": "https://www.openssh.org/releasenotes.html#10.6p2",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.openssh.org/releasenotes.html#10.6p2\">https://www.openssh.org/releasenotes.html#10.6p2</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50377976\">https://news.ycombinator.com/item?id=50377976</a></p>\n<p>Points: 28</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 04 Nov 2026 23:35:44 +0000",
-      "summary": "Images 2.6\n<p>Article URL: <a href=\"https://openai.com/index/introducing-images-2-6/\">https://openai.com/index/introducing-images-2-6/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50372945\">https://news.ycombinator.com/item?id=50372945</a></p>\n<p>Points: 177</p>\n<p># Commen"
+      "published": "Thu, 05 Nov 2026 11:40:30 +0000",
+      "summary": "OpenSSH 10.6p2 Critical workaround for alpine without PAM\n<p>Article URL: <a href=\"https://www.openssh.org/releasenotes.html#10.6p2\">https://www.openssh.org/releasenotes.html#10.6p2</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50377976\">https://news.ycombinator.com/item?id="
     },
     {
-      "title": "A thousand fewer paths to root",
-      "link": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
-      "raw_summary": "<p>Article URL: <a href=\"https://openai.com/index/a-thousand-fewer-paths-to-root/\">https://openai.com/index/a-thousand-fewer-paths-to-root/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50372929\">https://news.ycombinator.com/item?id=50372929</a></p>\n<p>Points: 203</p>\n<p># Comments: 118</p>",
+      "title": "Awesome repositories are no longer awesome",
+      "link": "https://erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome/",
+      "raw_summary": "<p>Article URL: <a href=\"https://erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome/\">https://erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50377821\">https://news.ycombinator.com/item?id=50377821</a></p>\n<p>Points: 89</p>\n<p># Comments: 47</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 04 Nov 2026 23:33:14 +0000",
-      "summary": "A thousand fewer paths to root\n<p>Article URL: <a href=\"https://openai.com/index/a-thousand-fewer-paths-to-root/\">https://openai.com/index/a-thousand-fewer-paths-to-root/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50372929\">https://news.ycombinator.com/item?id=50372929</a"
+      "published": "Thu, 05 Nov 2026 11:16:51 +0000",
+      "summary": "Awesome repositories are no longer awesome\n<p>Article URL: <a href=\"https://erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome/\">https://erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/"
     },
     {
-      "title": "Hacking the Xbox 360 Hypervisor Part 3: Bad Update Improvements",
-      "link": "https://icode4.coffee/?p=1746",
-      "raw_summary": "<p>Article URL: <a href=\"https://icode4.coffee/?p=1746\">https://icode4.coffee/?p=1746</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50372164\">https://news.ycombinator.com/item?id=50372164</a></p>\n<p>Points: 82</p>\n<p># Comments: 4</p>",
+      "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
+      "link": "https://hachyderm.io/@damienmiller/117563026759098135",
+      "raw_summary": "<p>Article URL: <a href=\"https://hachyderm.io/@damienmiller/117563026759098135\">https://hachyderm.io/@damienmiller/117563026759098135</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50377221\">https://news.ycombinator.com/item?id=50377221</a></p>\n<p>Points: 107</p>\n<p># Comments: 38</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 04 Nov 2026 22:01:49 +0000",
-      "summary": "Hacking the Xbox 360 Hypervisor Part 3: Bad Update Improvements\n<p>Article URL: <a href=\"https://icode4.coffee/?p=1746\">https://icode4.coffee/?p=1746</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50372164\">https://news.ycombinator.com/item?id=50372164</a></p>\n<p>Points: 82</"
+      "published": "Thu, 05 Nov 2026 09:46:17 +0000",
+      "summary": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability\n<p>Article URL: <a href=\"https://hachyderm.io/@damienmiller/117563026759098135\">https://hachyderm.io/@damienmiller/117563026759098135</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50377221\">https"
     },
     {
-      "title": "Residential proxies detected on White House network",
-      "link": "https://layer3intel.com/blog/residential-proxies-white-house-network",
-      "raw_summary": "<p>Article URL: <a href=\"https://layer3intel.com/blog/residential-proxies-white-house-network\">https://layer3intel.com/blog/residential-proxies-white-house-network</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50371246\">https://news.ycombinator.com/item?id=50371246</a></p>\n<p>Points: 798</p>\n<p># Comments: 253</p>",
+      "title": "Baidu released ERNIE 5.5 Flash Base",
+      "link": "https://ernie.baidu.com/release/ernie-5-5-flash-base/",
+      "raw_summary": "<p>Article URL: <a href=\"https://ernie.baidu.com/release/ernie-5-5-flash-base/\">https://ernie.baidu.com/release/ernie-5-5-flash-base/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50377078\">https://news.ycombinator.com/item?id=50377078</a></p>\n<p>Points: 99</p>\n<p># Comments: 50</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 04 Nov 2026 20:45:18 +0000",
-      "summary": "Residential proxies detected on White House network\n<p>Article URL: <a href=\"https://layer3intel.com/blog/residential-proxies-white-house-network\">https://layer3intel.com/blog/residential-proxies-white-house-network</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50371246\">htt"
+      "published": "Thu, 05 Nov 2026 09:29:12 +0000",
+      "summary": "Baidu released ERNIE 5.5 Flash Base\n<p>Article URL: <a href=\"https://ernie.baidu.com/release/ernie-5-5-flash-base/\">https://ernie.baidu.com/release/ernie-5-5-flash-base/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50377078\">https://news.ycombinator.com/item?id=50377078</a>"
+    },
+    {
+      "title": "A YC startup is putting $1M behind five unsolved materials science problems for AI",
+      "link": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
+      "raw_summary": "Discovered Materials, a months-old YC startup that uses AI to find chip materials, is offering $200,000 for each solution to five open materials science problems.",
+      "source": "TechCrunch",
+      "published": "Thu, 05 Nov 2026 13:00:00 +0000",
+      "summary": "A YC startup is putting $1M behind five unsolved materials science problems for AI\nDiscovered Materials, a months-old YC startup that uses AI to find chip materials, is offering $200,000 for each solution to five open materials science problems."
+    },
+    {
+      "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
+      "link": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/",
+      "raw_summary": "Agility arrives on the Nasdaq today as the first publicly-traded pure-play humanoid robotics company.",
+      "source": "TechCrunch",
+      "published": "Thu, 05 Nov 2026 12:00:00 +0000",
+      "summary": "Agility is the first pure humanoid robot company on the stock market. Are you buying?\nAgility arrives on the Nasdaq today as the first publicly-traded pure-play humanoid robotics company."
+    },
+    {
+      "title": "Amazon ditches GrubHub, taps Uber Eats for Prime",
+      "link": "https://techcrunch.com/2026/11/05/amazon-ditches-grubhub-taps-uber-eats-for-prime/",
+      "raw_summary": "Amazon has made Uber Eats its official restaurant delivery partner for Prime members in the United States.",
+      "source": "TechCrunch",
+      "published": "Thu, 05 Nov 2026 11:00:00 +0000",
+      "summary": "Amazon ditches GrubHub, taps Uber Eats for Prime\nAmazon has made Uber Eats its official restaurant delivery partner for Prime members in the United States."
     },
     {
       "title": "Apple is reportedly cutting budgets for its internal AI usage",
@@ -139,28 +163,12 @@
       "summary": "After the midterms, a bigger clash over data centers could be coming\nData center opposition crossed party lines in Tuesday’s midterms."
     },
     {
-      "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
-      "link": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
-      "raw_summary": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle.",
-      "source": "TechCrunch",
-      "published": "Wed, 04 Nov 2026 22:45:09 +0000",
-      "summary": "AI PACs spent millions trying to shape Congress — here’s how they fared\nAI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle."
-    },
-    {
-      "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
-      "link": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
-      "raw_summary": "While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains.",
-      "source": "TechCrunch",
-      "published": "Wed, 04 Nov 2026 22:13:16 +0000",
-      "summary": "Nothing CEO says company’s mysterious AI-first device is dropping next month\nWhile it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains."
-    },
-    {
-      "title": "Almost no one uses AI agents to book their Uber, company says",
-      "link": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
-      "raw_summary": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.",
-      "source": "TechCrunch",
-      "published": "Wed, 04 Nov 2026 21:56:01 +0000",
-      "summary": "Almost no one uses AI agents to book their Uber, company says\nDuring its busiest week last quarter, Uber said only four people booked a ride using an AI agent."
+      "title": "Mercedes-AMG GT 4-Door Coupe first drive: Where tech and fun collide",
+      "link": "https://arstechnica.com/cars/2026/11/mercedes-amg-gt-4-door-coupe-first-drive-where-tech-and-fun-collide/",
+      "raw_summary": "The spirit of AMG is alive via three axial flux electric motors.",
+      "source": "Ars Technica - All content",
+      "published": "Thu, 05 Nov 2026 09:00:13 +0000",
+      "summary": "Mercedes-AMG GT 4-Door Coupe first drive: Where tech and fun collide\nThe spirit of AMG is alive via three axial flux electric motors."
     },
     {
       "title": "Nintendo's biggest ROM chip supplier is bowing out of the business",
@@ -195,132 +203,124 @@
       "summary": "VMware releases vSphere Express for virtualization on up to 128 cores\n“We started listening to a lot of our lower-end customers,\" VMware exec says."
     },
     {
-      "title": "AMD's record quarter: Data center business doubles, while gaming craters",
-      "link": "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters/",
-      "raw_summary": "AMD's gaming revenue fell 40 percent in an otherwise record $13.4 billion quarter.",
-      "source": "Ars Technica - All content",
-      "published": "Wed, 04 Nov 2026 21:29:46 +0000",
-      "summary": "AMD's record quarter: Data center business doubles, while gaming craters\nAMD's gaming revenue fell 40 percent in an otherwise record $13.4 billion quarter."
-    },
-    {
-      "title": "US stocks post best day since August after Democrats sweep midterms",
-      "link": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
-      "raw_summary": "Hyperscalers surge and chipmakers fall as investors bet on winners and losers from expected backlash against the AI boom",
+      "title": "French bank Crédit Mutuel Arkéa seeks to recover funds after €100mn hack",
+      "link": "https://www.ft.com/content/3f6ef089-f478-4d00-a080-21a88ffd721b?syn-25a6b1a6=1",
+      "raw_summary": "Attack on institution’s own account used techniques that echo the hit on crypto exchange Binance last week",
       "source": "World",
-      "published": "Thu, 05 Nov 2026 03:11:55 GMT",
-      "summary": "US stocks post best day since August after Democrats sweep midterms\nHyperscalers surge and chipmakers fall as investors bet on winners and losers from expected backlash against the AI boom"
+      "published": "Thu, 05 Nov 2026 13:28:53 GMT",
+      "summary": "French bank Crédit Mutuel Arkéa seeks to recover funds after €100mn hack\nAttack on institution’s own account used techniques that echo the hit on crypto exchange Binance last week"
     },
     {
-      "title": "China blocks SoftBank’s $5.4bn takeover of ABB’s robotics division",
-      "link": "https://www.ft.com/content/f10c3e24-45e4-47ff-bde2-24a8de90aec4?syn-25a6b1a6=1",
-      "raw_summary": "Swiss-Swedish company’s unit is focused on Chinese market and has mega-factory in Pudong",
+      "title": "Crude awakening: how oil has fuelled 150 years of conflict",
+      "link": "https://www.ft.com/content/9c6a400c-2207-4b68-8fda-080f1cc30260",
+      "raw_summary": "From the earliest commercial wells to the Strait of Hormuz, two new books look at how empires, states and companies have used black gold to shape global politics",
       "source": "World",
-      "published": "Thu, 05 Nov 2026 03:02:02 GMT",
-      "summary": "China blocks SoftBank’s $5.4bn takeover of ABB’s robotics division\nSwiss-Swedish company’s unit is focused on Chinese market and has mega-factory in Pudong"
+      "published": "Thu, 05 Nov 2026 13:12:42 GMT",
+      "summary": "Crude awakening: how oil has fuelled 150 years of conflict\nFrom the earliest commercial wells to the Strait of Hormuz, two new books look at how empires, states and companies have used black gold to shape global politics"
     },
     {
-      "title": "Oil tumbles below $100 on post-election peace hopes",
-      "link": "https://www.ft.com/content/b526f876-810a-4e74-8b8d-4ffca04b29c7?syn-25a6b1a6=1",
-      "raw_summary": "US vice-president JD Vance blames Republicans’ midterm defeat on anger over Iran war",
+      "title": "Can a veteran defender of the UAE’s record lead the UN?",
+      "link": "https://www.ft.com/content/145d971b-d8bc-451c-8187-60155442983b?syn-25a6b1a6=1",
+      "raw_summary": "Lana Nusseibeh insists she would be independent of Abu Dhabi but critics say her career as an Emirati diplomat makes her unfit to be secretary-general",
       "source": "World",
-      "published": "Thu, 05 Nov 2026 03:01:11 GMT",
-      "summary": "Oil tumbles below $100 on post-election peace hopes\nUS vice-president JD Vance blames Republicans’ midterm defeat on anger over Iran war"
+      "published": "Thu, 05 Nov 2026 13:08:21 GMT",
+      "summary": "Can a veteran defender of the UAE’s record lead the UN?\nLana Nusseibeh insists she would be independent of Abu Dhabi but critics say her career as an Emirati diplomat makes her unfit to be secretary-general"
     },
     {
-      "title": "Australian department store chain enters administration after 188 years",
-      "link": "https://www.ft.com/content/271a287d-2585-42aa-9dc8-4760b979c825?syn-25a6b1a6=1",
-      "raw_summary": "Landlords pull plug on upmarket David Jones with process providing ‘breathing space’ while buyer sought",
+      "title": "If migrants want better lives for their kids, where do they get them?",
+      "link": "https://www.ft.com/content/bde948d6-f3ed-4a7a-a055-871d12b2fdc7?syn-25a6b1a6=1",
+      "raw_summary": "In continental Europe, migrants’ daughters are more mobile than their sons",
       "source": "World",
-      "published": "Thu, 05 Nov 2026 01:47:41 GMT",
-      "summary": "Australian department store chain enters administration after 188 years\nLandlords pull plug on upmarket David Jones with process providing ‘breathing space’ while buyer sought"
+      "published": "Thu, 05 Nov 2026 13:00:08 GMT",
+      "summary": "If migrants want better lives for their kids, where do they get them?\nIn continental Europe, migrants’ daughters are more mobile than their sons"
     },
     {
-      "title": "US midterm results herald upheaval in Middle East policy",
-      "link": "https://www.ft.com/content/3dee82bf-3bbe-4075-8bfd-4001ddb689ae?syn-25a6b1a6=1",
-      "raw_summary": "American voters — including vice-president JD Vance — want an end to Trump’s Iran war and Washington’s proximity to Israel",
+      "title": "Politicians, voters really don’t care about your broad statistics",
+      "link": "https://www.ft.com/content/004c0408-c81f-4104-a514-ed307df8890d?syn-25a6b1a6=1",
+      "raw_summary": "Positive facts mean nothing if people are not personally experiencing solid real income growth",
       "source": "World",
-      "published": "Thu, 05 Nov 2026 01:33:29 GMT",
-      "summary": "US midterm results herald upheaval in Middle East policy\nAmerican voters — including vice-president JD Vance — want an end to Trump’s Iran war and Washington’s proximity to Israel"
+      "published": "Thu, 05 Nov 2026 13:00:08 GMT",
+      "summary": "Politicians, voters really don’t care about your broad statistics\nPositive facts mean nothing if people are not personally experiencing solid real income growth"
     },
     {
-      "title": "Gold Extends Rebound Above $4,100 as Dollar and Yields Decline",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-04/gold-holds-above-4-000-as-dollar-yields-fall-on-midterm-result",
-      "raw_summary": "Gold extended gains — after jumping more than 3% on Wednesday — as a Democratic sweep of Congress in the US midterm elections sent the dollar and Treasury yields lower.",
+      "title": "Stock Rotation Rolls On as Chipmakers Lose Ground: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-04/stock-market-today-dow-s-p-live-updates",
+      "raw_summary": "A rotation trade fueled by the US midterm elections entered a second day, with previously unfavored markets and economically sensitive stocks outperforming at the expense of chipmakers.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 04 Nov 2026 23:58:33 GMT",
-      "summary": "Gold Extends Rebound Above $4,100 as Dollar and Yields Decline\nGold extended gains — after jumping more than 3% on Wednesday — as a Democratic sweep of Congress in the US midterm elections sent the dollar and Treasury yields lower."
+      "published": "Wed, 04 Nov 2026 22:15:04 GMT",
+      "summary": "Stock Rotation Rolls On as Chipmakers Lose Ground: Markets Wrap\nA rotation trade fueled by the US midterm elections entered a second day, with previously unfavored markets and economically sensitive stocks outperforming at the expense of chipmakers."
     },
     {
-      "title": "Hong Kong Stocks Roar Back as Value Rotation Boosts China Tech",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-05/hong-kong-stocks-roar-back-as-investors-rotate-away-from-ai",
-      "raw_summary": "After languishing for much of the year in a prolonged slump, Hong Kong stocks are staging a fierce comeback as part of a rotation away from frothy hardware stocks into undervalued Chinese internet platforms.",
+      "title": "BVK Pension Fund Raided Over US Investments, Prosecutors Say",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-05/bvk-pension-fund-raided-over-us-business-munich-prosecutors-say",
+      "raw_summary": "Munich prosecutors raided German pension fund group BVK over its troubled US property investments just two days after the investigators had searched asset manager Deutsche Finance Group as part of the investigation.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 05 Nov 2026 03:35:41 GMT",
-      "summary": "Hong Kong Stocks Roar Back as Value Rotation Boosts China Tech\nAfter languishing for much of the year in a prolonged slump, Hong Kong stocks are staging a fierce comeback as part of a rotation away from frothy hardware stocks into undervalued Chinese internet platforms."
+      "published": "Thu, 05 Nov 2026 13:13:24 GMT",
+      "summary": "BVK Pension Fund Raided Over US Investments, Prosecutors Say\nMunich prosecutors raided German pension fund group BVK over its troubled US property investments just two days after the investigators had searched asset manager Deutsche Finance Group as part of the investigation."
     },
     {
-      "title": "Deborah Elms: Global Trade Is Being Reshaped at Higher Cost",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-05/deborah-elms-on-trade-reshuffling-and-rising-costs-video",
-      "raw_summary": "Hinrich Foundation Trade Policy Head Deborah Elms says geopolitical conflicts and trade tensions are accelerating the rerouting of global commerce. She argues that corporate diversification and friend-shoring efforts will continue but without necessarily guaranteeing supply chain stability. (Source: Bloomberg)",
+      "title": "US Labor Productivity Increases at Fastest Pace in a Year",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-05/us-labor-productivity-increases-at-fastest-pace-in-a-year",
+      "raw_summary": "US labor productivity accelerated in the third quarter at the fastest pace in a year as employers strive to ease the burden of higher costs.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 05 Nov 2026 04:17:55 GMT",
-      "summary": "Deborah Elms: Global Trade Is Being Reshaped at Higher Cost\nHinrich Foundation Trade Policy Head Deborah Elms says geopolitical conflicts and trade tensions are accelerating the rerouting of global commerce. She argues that corporate diversification and friend-shoring efforts will continue but witho"
+      "published": "Thu, 05 Nov 2026 13:34:11 GMT",
+      "summary": "US Labor Productivity Increases at Fastest Pace in a Year\nUS labor productivity accelerated in the third quarter at the fastest pace in a year as employers strive to ease the burden of higher costs."
     },
     {
-      "title": "Japan’s 10-Year Bond Auction Sees Softer Demand as Yields Drop",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-05/japan-s-10-year-bond-sale-demand-in-line-with-12-month-average",
-      "raw_summary": "Japan’s 10-year government bond auction Thursday saw slightly weaker demand than the 12-month average, reflecting softer investor appetite after a recent decline in yields.",
+      "title": "BofA’s Cabana Says It’s Premature to Call End to Fed’s Hiking Cycle",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-05/bofa-s-cabana-premature-to-call-end-of-fed-hiking-cycle-video",
+      "raw_summary": "Mark Cabana, co-head of global rates strategy at BofA Securities, explains what he sees markets getting wrong on pricing in interest-rate hikes from the Federal Reserve as he expects the Fed to potentially need to go beyond three hikes. He speaks on “Bloomberg Surveillance.” (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Thu, 05 Nov 2026 03:39:30 GMT",
-      "summary": "Japan’s 10-Year Bond Auction Sees Softer Demand as Yields Drop\nJapan’s 10-year government bond auction Thursday saw slightly weaker demand than the 12-month average, reflecting softer investor appetite after a recent decline in yields."
+      "published": "Thu, 05 Nov 2026 13:33:57 GMT",
+      "summary": "BofA’s Cabana Says It’s Premature to Call End to Fed’s Hiking Cycle\nMark Cabana, co-head of global rates strategy at BofA Securities, explains what he sees markets getting wrong on pricing in interest-rate hikes from the Federal Reserve as he expects the Fed to potentially need to go beyond three hi"
     },
     {
-      "title": "Treasuries Gain as US Vote Fuels Hopes for Curbing Bond Supply",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-05/treasuries-gain-as-us-vote-fuels-hopes-for-curbing-bond-supply",
-      "raw_summary": "Treasuries headed for a second day of gains, after a Democratic sweep in the midterms fueled expectations that the Trump administration’s tax and spending plans may be contained.",
+      "title": "Election Raises Hurdle for Data Center IPOs After Peers Tumble",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-05/election-raises-hurdle-for-data-center-ipos-after-peers-tumble",
+      "raw_summary": "A flash of anger from voters toward artificial intelligence infrastructure raised the bar for IPO candidates providing computing power to fuel the technology’s surging growth.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 05 Nov 2026 03:12:09 GMT",
-      "summary": "Treasuries Gain as US Vote Fuels Hopes for Curbing Bond Supply\nTreasuries headed for a second day of gains, after a Democratic sweep in the midterms fueled expectations that the Trump administration’s tax and spending plans may be contained."
+      "published": "Thu, 05 Nov 2026 13:30:10 GMT",
+      "summary": "Election Raises Hurdle for Data Center IPOs After Peers Tumble\nA flash of anger from voters toward artificial intelligence infrastructure raised the bar for IPO candidates providing computing power to fuel the technology’s surging growth."
     },
     {
-      "title": "Trump Media moves $342 million in bitcoin to Crypto.com, blockchain data show",
-      "link": "https://www.coindesk.com/markets/2026/11/05/trump-media-moves-usd434-million-in-bitcoin-to-crypto-com-blockchain-data-show",
+      "title": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
+      "link": "https://www.coindesk.com/tech/2026/11/05/google-could-take-ownership-stake-in-bitcoin-miner-terawulf-s-ai-project-if-anthropic-defaults",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 05 Nov 2026 04:11:33 +0000",
-      "summary": "Trump Media moves $342 million in bitcoin to Crypto.com, blockchain data show\n"
+      "published": "Thu, 05 Nov 2026 13:29:40 +0000",
+      "summary": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults\n"
     },
     {
-      "title": "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty",
-      "link": "https://www.coindesk.com/policy/2026/11/04/tokenization-and-stablecoins-may-weather-democrats-sweep-as-broader-crypto-rules-face-uncertainty",
+      "title": "Binance cuts SignalPlus access after security warning, urges users to check accounts",
+      "link": "https://www.coindesk.com/tech/2026/11/05/binance-cuts-signalplus-access-after-security-warning-urges-users-to-check-accounts",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 04 Nov 2026 22:55:00 +0000",
-      "summary": "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty\n"
+      "published": "Thu, 05 Nov 2026 12:55:03 +0000",
+      "summary": "Binance cuts SignalPlus access after security warning, urges users to check accounts\n"
     },
     {
-      "title": "Crypto's Washington hopes fade, but Grayscale and BlackRock see growth ahead",
-      "link": "https://www.coindesk.com/business/2026/11/04/crypto-s-washington-hopes-fade-but-grayscale-and-blackrock-see-growth-ahead",
+      "title": "Ukraine’s central bank opposes crypto bill, citing monetary sovereignty concerns",
+      "link": "https://www.coindesk.com/business/2026/11/05/ukraine-s-central-bank-opposes-crypto-bill-citing-monetary-sovereignty-concerns",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 04 Nov 2026 22:51:42 +0000",
-      "summary": "Crypto's Washington hopes fade, but Grayscale and BlackRock see growth ahead\n"
+      "published": "Thu, 05 Nov 2026 12:50:57 +0000",
+      "summary": "Ukraine’s central bank opposes crypto bill, citing monetary sovereignty concerns\n"
     },
     {
-      "title": "Crypto's powerhouse super PAC suffers costly setback as Democrats sweep Congress",
-      "link": "https://www.coindesk.com/news-analysis/2026/11/04/crypto-s-powerhouse-super-pac-fairshake-found-its-kryptonite",
+      "title": "Bitcoin is resilient, but leverage is missing and demand still tepid",
+      "link": "https://www.coindesk.com/daybook-us/2026/11/05/bitcoin-is-resilient-but-leverage-is-missing-and-demand-still-tepid",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 04 Nov 2026 20:29:12 +0000",
-      "summary": "Crypto's powerhouse super PAC suffers costly setback as Democrats sweep Congress\n"
+      "published": "Thu, 05 Nov 2026 12:27:04 +0000",
+      "summary": "Bitcoin is resilient, but leverage is missing and demand still tepid\n"
     },
     {
-      "title": "U.S. Democratic sweep could be the final nail in the ‘Clarity Act’s coffin’",
-      "link": "https://www.coindesk.com/policy/2026/11/04/u-s-democratic-sweep-could-be-the-final-nail-in-the-clarity-act-s-coffin",
+      "title": "Bitcoin miners are oversold following 35% October rout, VanEck says",
+      "link": "https://www.coindesk.com/markets/2026/11/05/bitcoin-miners-are-oversold-following-35-october-rout-says-vaneck",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 04 Nov 2026 16:11:29 +0000",
-      "summary": "U.S. Democratic sweep could be the final nail in the ‘Clarity Act’s coffin’\n"
+      "published": "Thu, 05 Nov 2026 11:49:23 +0000",
+      "summary": "Bitcoin miners are oversold following 35% October rout, VanEck says\n"
     }
   ]
 }
