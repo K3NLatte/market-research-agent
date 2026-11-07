@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T22:35:17.283036+00:00",
+  "generated_at": "2026-11-07T03:55:04.875163+00:00",
   "count": 40,
   "articles": [
     {
@@ -83,52 +83,68 @@
       "summary": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers\nA browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test.\n\nThe attack needs D"
     },
     {
-      "title": "AI is dramatically accelerating AI research",
-      "link": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai\">https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50397994\">https://news.ycombinator.com/item?id=50397994</a></p>\n<p>Points: 104</p>\n<p># Comments: 55</p>",
+      "title": "Lighting the Skies",
+      "link": "https://computer.rip/2026-10-25-searchlights.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://computer.rip/2026-10-25-searchlights.html\">https://computer.rip/2026-10-25-searchlights.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50401414\">https://news.ycombinator.com/item?id=50401414</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 06 Nov 2026 20:27:23 +0000",
-      "summary": "AI is dramatically accelerating AI research\n<p>Article URL: <a href=\"https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai\">https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50397994\">h"
+      "published": "Sat, 07 Nov 2026 03:40:34 +0000",
+      "summary": "Lighting the Skies\n<p>Article URL: <a href=\"https://computer.rip/2026-10-25-searchlights.html\">https://computer.rip/2026-10-25-searchlights.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50401414\">https://news.ycombinator.com/item?id=50401414</a></p>\n<p>Points: 5</p>\n<p>"
     },
     {
-      "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
-      "link": "https://hightouch.com/blog/llm-judges-identity-resolution",
-      "raw_summary": "<p>Article URL: <a href=\"https://hightouch.com/blog/llm-judges-identity-resolution\">https://hightouch.com/blog/llm-judges-identity-resolution</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50397429\">https://news.ycombinator.com/item?id=50397429</a></p>\n<p>Points: 202</p>\n<p># Comments: 43</p>",
+      "title": "Show HN: Backwords – Let AI teach you how to speak in reverse",
+      "link": "https://backwords.greg.technology/",
+      "raw_summary": "<p>Article URL: <a href=\"https://backwords.greg.technology/\">https://backwords.greg.technology/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50401409\">https://news.ycombinator.com/item?id=50401409</a></p>\n<p>Points: 7</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 06 Nov 2026 19:48:51 +0000",
-      "summary": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost\n<p>Article URL: <a href=\"https://hightouch.com/blog/llm-judges-identity-resolution\">https://hightouch.com/blog/llm-judges-identity-resolution</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50397429\">https:/"
+      "published": "Sat, 07 Nov 2026 03:39:46 +0000",
+      "summary": "Show HN: Backwords – Let AI teach you how to speak in reverse\n<p>Article URL: <a href=\"https://backwords.greg.technology/\">https://backwords.greg.technology/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50401409\">https://news.ycombinator.com/item?id=50401409</a></p>\n<p>Poin"
     },
     {
-      "title": "Show HN: Agents infer Lego mechanisms from sources, then animate them",
-      "link": "https://github.com/anteloc/ldraw-mecha/tree/v0.5.0",
-      "raw_summary": "<p>Hi there :)<p>Around a month ago, I released LDraw Nova, an agentic toolset for assembling LEGO CAD models by generating LDraw source code files.<p>For more details, here's the Show HN post:<p><a href=\"https://news.ycombinator.com/item?id=49937916\">https://news.ycombinator.com/item?id=49937916</a><p>From the comments, I got the impression that there was quite an interest in seeing not only AI-generated LEGO models, but also AI-animated LEGO ones.<p>I took a look at results from past experiments, and found it feasible to use agentic LLMs for:<p>- analyzing the LDraw source code for LEGO models\n- reverse-engineer! the mechanisms present by reading the descriptions and sequence for the parts there\n- and then, animate them via Blender!<p>This new project I'm presenting, LDraw Mecha, is the end result and proof that can be done:<p>- Read specially annotated LDraw LEGO models .mpd source files\n- Infer the model structure in terms of submodels\n- Select from those the ones that are mechanisms\n- Plan animations\n- Execute them in Blender<p>In summary, from an initial .mpd source file, get a rigged and animated version for the model as a Blender (.blend) file.<p>See the results here:<p>- Repo (v0.5.0): <a href=\"https://github.com/anteloc/ldraw-mecha/tree/v0.5.0\" rel=\"nofollow\">https://github.com/anteloc/ldraw-mecha/tree/v0.5.0</a>\n- Gallery: <a href=\"https://github.com/anteloc/ldraw-mecha/blob/v0.5.0/GALLERY.md\" rel=\"nofollow\">https://github.com/anteloc/ldraw-mecha/blob/v0.5.0/GALLERY.m...</a>\n- Process: <a href=\"https://github.com/anteloc/ldraw-mecha/blob/v0.5.0/PROCESS.md\" rel=\"nofollow\">https://github.com/anteloc/ldraw-mecha/blob/v0.5.0/PROCESS.m...</a><p>This project is very unusual, I'd really appreciate some feedback from the community.<p>Cheers!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50397325\">https://news.ycombinator.com/item?id=50397325</a></p>\n<p>Points: 17</p>\n<p># Comments: 0</p>",
+      "title": "The AI sell-off compared to well-known stock market crashes",
+      "link": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.kadoa.com/companies/insights/ai-selloff-perspective\">https://www.kadoa.com/companies/insights/ai-selloff-perspective</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50401029\">https://news.ycombinator.com/item?id=50401029</a></p>\n<p>Points: 8</p>\n<p># Comments: 1</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 06 Nov 2026 19:41:20 +0000",
-      "summary": "Show HN: Agents infer Lego mechanisms from sources, then animate them\n<p>Hi there :)<p>Around a month ago, I released LDraw Nova, an agentic toolset for assembling LEGO CAD models by generating LDraw source code files.<p>For more details, here's the Show HN post:<p><a href=\"https://news.ycombinator."
+      "published": "Sat, 07 Nov 2026 02:20:06 +0000",
+      "summary": "The AI sell-off compared to well-known stock market crashes\n<p>Article URL: <a href=\"https://www.kadoa.com/companies/insights/ai-selloff-perspective\">https://www.kadoa.com/companies/insights/ai-selloff-perspective</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50401029\">https"
     },
     {
-      "title": "As the Japanese countryside empties out, wildlife is disappearing",
-      "link": "https://e360.yale.edu/digest/japan-depopulation-biodiversity",
-      "raw_summary": "<p>Article URL: <a href=\"https://e360.yale.edu/digest/japan-depopulation-biodiversity\">https://e360.yale.edu/digest/japan-depopulation-biodiversity</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50397264\">https://news.ycombinator.com/item?id=50397264</a></p>\n<p>Points: 62</p>\n<p># Comments: 33</p>",
+      "title": "I Toured Unitree's Factory. I'm More Bullish on the West",
+      "link": "https://josef.cn/blog/unitree",
+      "raw_summary": "<p>Article URL: <a href=\"https://josef.cn/blog/unitree\">https://josef.cn/blog/unitree</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50400597\">https://news.ycombinator.com/item?id=50400597</a></p>\n<p>Points: 56</p>\n<p># Comments: 33</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 06 Nov 2026 19:36:16 +0000",
-      "summary": "As the Japanese countryside empties out, wildlife is disappearing\n<p>Article URL: <a href=\"https://e360.yale.edu/digest/japan-depopulation-biodiversity\">https://e360.yale.edu/digest/japan-depopulation-biodiversity</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50397264\">https"
+      "published": "Sat, 07 Nov 2026 01:05:16 +0000",
+      "summary": "I Toured Unitree's Factory. I'm More Bullish on the West\n<p>Article URL: <a href=\"https://josef.cn/blog/unitree\">https://josef.cn/blog/unitree</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50400597\">https://news.ycombinator.com/item?id=50400597</a></p>\n<p>Points: 56</p>\n<p>#"
     },
     {
-      "title": "Firecracker VM Escape: PwnEscape Part 2",
-      "link": "https://pwn.ai/blog/firecracker-escape",
-      "raw_summary": "<p>Article URL: <a href=\"https://pwn.ai/blog/firecracker-escape\">https://pwn.ai/blog/firecracker-escape</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50397219\">https://news.ycombinator.com/item?id=50397219</a></p>\n<p>Points: 116</p>\n<p># Comments: 60</p>",
+      "title": "RealPage rent-pricing case wraps with nearly $360M to renters",
+      "link": "https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/\">https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50399991\">https://news.ycombinator.com/item?id=50399991</a></p>\n<p>Points: 55</p>\n<p># Comments: 18</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 06 Nov 2026 19:33:38 +0000",
-      "summary": "Firecracker VM Escape: PwnEscape Part 2\n<p>Article URL: <a href=\"https://pwn.ai/blog/firecracker-escape\">https://pwn.ai/blog/firecracker-escape</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50397219\">https://news.ycombinator.com/item?id=50397219</a></p>\n<p>Points: 116</p>\n<p"
+      "published": "Fri, 06 Nov 2026 23:37:19 +0000",
+      "summary": "RealPage rent-pricing case wraps with nearly $360M to renters\n<p>Article URL: <a href=\"https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/\">https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/</a></p>\n<p>Comments URL: <a href=\"https://"
+    },
+    {
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "link": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "raw_summary": "The deal highlights the challenges of developing massive AI data centers.",
+      "source": "TechCrunch",
+      "published": "Sat, 07 Nov 2026 01:40:28 +0000",
+      "summary": "Crusoe sells troubled Wyoming data center project to Google\nThe deal highlights the challenges of developing massive AI data centers."
+    },
+    {
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "raw_summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+      "source": "TechCrunch",
+      "published": "Fri, 06 Nov 2026 22:53:46 +0000",
+      "summary": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation\nOpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks."
     },
     {
       "title": "The Duo apps are coming, says Apple",
       "link": "https://techcrunch.com/2026/11/06/the-duo-apps-are-coming-says-apple/",
-      "raw_summary": "There are now 100K Duo-optimized apps, says Apple, and thousands more arrive daily.",
+      "raw_summary": "There are now 100,000 Duo-optimized apps, says Apple, and thousands more arrive daily.",
       "source": "TechCrunch",
       "published": "Fri, 06 Nov 2026 21:38:05 +0000",
-      "summary": "The Duo apps are coming, says Apple\nThere are now 100K Duo-optimized apps, says Apple, and thousands more arrive daily."
+      "summary": "The Duo apps are coming, says Apple\nThere are now 100,000 Duo-optimized apps, says Apple, and thousands more arrive daily."
     },
     {
       "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
@@ -147,20 +163,28 @@
       "summary": "Meta introduces Spaces, a new way to collaborate with your Muse agent\nMeta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers."
     },
     {
-      "title": "After the midterms, is the AI industry in for a rough two years?",
-      "link": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
-      "raw_summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot directly, they were a [&#8230;]",
-      "source": "TechCrunch",
-      "published": "Fri, 06 Nov 2026 17:23:52 +0000",
-      "summary": "After the midterms, is the AI industry in for a rough two years?\nDemocrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restr"
+      "title": "Doctors pull knife from man's eye that went through his brain—and he's fine now",
+      "link": "https://arstechnica.com/health/2026/11/man-unexpectedly-recovers-from-a-knife-wound-through-his-eye-and-brain/",
+      "raw_summary": "It's the exact path, not the apparent severity that matters most, doctors say.",
+      "source": "Ars Technica - All content",
+      "published": "Fri, 06 Nov 2026 23:09:45 +0000",
+      "summary": "Doctors pull knife from man's eye that went through his brain—and he's fine now\nIt's the exact path, not the apparent severity that matters most, doctors say."
     },
     {
-      "title": "Pentagon offers battery startup 6K $250M loan to build US factory",
-      "link": "https://techcrunch.com/2026/11/06/pentagon-offers-battery-startup-6k-250m-loan-to-build-u-s-factory/",
-      "raw_summary": "The Pentagon has conditionally approved a $250 million loan to help 6K scale up its microwave-plasma battery material manufacturing process.",
-      "source": "TechCrunch",
-      "published": "Fri, 06 Nov 2026 16:50:01 +0000",
-      "summary": "Pentagon offers battery startup 6K $250M loan to build US factory\nThe Pentagon has conditionally approved a $250 million loan to help 6K scale up its microwave-plasma battery material manufacturing process."
+      "title": "Ships loiter near subsea cables amid Iran's warnings to Trump",
+      "link": "https://arstechnica.com/gadgets/2026/11/ships-loiter-near-subsea-cables-amid-irans-warnings-to-trump/",
+      "raw_summary": "Iran threatened to attack subsea cables if US escalates military strikes again.",
+      "source": "Ars Technica - All content",
+      "published": "Fri, 06 Nov 2026 22:41:37 +0000",
+      "summary": "Ships loiter near subsea cables amid Iran's warnings to Trump\nIran threatened to attack subsea cables if US escalates military strikes again."
+    },
+    {
+      "title": "Re-releases of Wing Commander, Ultima titles hit Steam and GOG",
+      "link": "https://arstechnica.com/gaming/2026/11/ea-producer-tells-the-inside-story-behind-new-wing-commander-remasters/",
+      "raw_summary": "It's mostly bad news from EA lately, but preservation efforts are nice to see.",
+      "source": "Ars Technica - All content",
+      "published": "Fri, 06 Nov 2026 22:08:47 +0000",
+      "summary": "Re-releases of Wing Commander, Ultima titles hit Steam and GOG\nIt's mostly bad news from EA lately, but preservation efforts are nice to see."
     },
     {
       "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
@@ -179,28 +203,28 @@
       "summary": "Earth's churning mantle may have created the Great Unconformity\nExplaining the Great Unconformity, where Cambrian deposits sit on top of older rocks."
     },
     {
-      "title": "Nvidia hardware worth $11.4M vanished between Oakland and Texas",
-      "link": "https://arstechnica.com/gadgets/2026/11/nvidia-hardware-worth-11-4m-vanished-between-oakland-and-texas/",
-      "raw_summary": "6 pallets of hardware vanished en route to Texas, with no arrests 2 months later.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 06 Nov 2026 20:05:30 +0000",
-      "summary": "Nvidia hardware worth $11.4M vanished between Oakland and Texas\n6 pallets of hardware vanished en route to Texas, with no arrests 2 months later."
+      "title": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
+      "link": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1",
+      "raw_summary": "American intelligence warned the tech boss was involved with executive recruited by China to gather information on US group",
+      "source": "World",
+      "published": "Sat, 07 Nov 2026 02:33:26 GMT",
+      "summary": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy\nAmerican intelligence warned the tech boss was involved with executive recruited by China to gather information on US group"
     },
     {
-      "title": "Developer ends lucrative screensaver deal with Roku because Fox bought it",
-      "link": "https://arstechnica.com/gadgets/2026/11/artist-pulls-popular-screensaver-from-roku-os-because-of-fox-acquisition/",
-      "raw_summary": "Developer: “I can’t be part of the Fox world.”",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 06 Nov 2026 19:50:18 +0000",
-      "summary": "Developer ends lucrative screensaver deal with Roku because Fox bought it\nDeveloper: “I can’t be part of the Fox world.”"
+      "title": "‘It’s almost like a nightclub’: Hyrox takes off in China amid fitness frenzy",
+      "link": "https://www.ft.com/content/ac76efa6-a309-41c6-ab51-b64225f2c18b?syn-25a6b1a6=1",
+      "raw_summary": "Group behind gruelling competitive races faces challenges from Chinese rivals",
+      "source": "World",
+      "published": "Sat, 07 Nov 2026 01:00:00 GMT",
+      "summary": "‘It’s almost like a nightclub’: Hyrox takes off in China amid fitness frenzy\nGroup behind gruelling competitive races faces challenges from Chinese rivals"
     },
     {
-      "title": "FAA to finally ditch floppy disks in what it calls \"historic\" tech upgrade",
-      "link": "https://arstechnica.com/tech-policy/2026/11/faa-to-finally-ditch-floppy-disks-in-what-it-calls-historic-tech-upgrade/",
-      "raw_summary": "FAA information display systems to be floppy-free at 435 sites by end of 2028.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 06 Nov 2026 19:12:28 +0000",
-      "summary": "FAA to finally ditch floppy disks in what it calls \"historic\" tech upgrade\nFAA information display systems to be floppy-free at 435 sites by end of 2028."
+      "title": "US warns China it must ‘immediately’ meet terms of Busan trade deal",
+      "link": "https://www.ft.com/content/391bb785-0247-4c39-b53b-35007187d603?syn-25a6b1a6=1",
+      "raw_summary": "Washington says Beijing is not fulfilling commitments to increase supply of rare earths and other critical products",
+      "source": "World",
+      "published": "Fri, 06 Nov 2026 22:53:51 GMT",
+      "summary": "US warns China it must ‘immediately’ meet terms of Busan trade deal\nWashington says Beijing is not fulfilling commitments to increase supply of rare earths and other critical products"
     },
     {
       "title": "US stocks recover after tech rout",
@@ -219,68 +243,44 @@
       "summary": "US economy outstrips forecasts to add 165,000 jobs in October\nHiring rebound reinforces expectations Federal Reserve will raise interest rates"
     },
     {
-      "title": "Trump taps immigration hardliner Stephen Miller as chief of staff",
-      "link": "https://www.ft.com/content/6e8f2244-0e39-45cd-b415-e0be54b0351f?syn-25a6b1a6=1",
-      "raw_summary": "Decision to replace Susie Wiles comes days after Republican Party’s resounding midterm election defeat",
-      "source": "World",
-      "published": "Fri, 06 Nov 2026 22:09:58 GMT",
-      "summary": "Trump taps immigration hardliner Stephen Miller as chief of staff\nDecision to replace Susie Wiles comes days after Republican Party’s resounding midterm election defeat"
-    },
-    {
-      "title": "US stocks stage tepid recovery after $3.2tn rout fuelled by AI fears",
-      "link": "https://www.ft.com/content/088ed252-ea9c-4b61-b2d1-37295fd0f7c2?syn-25a6b1a6=1",
-      "raw_summary": "Magnitude of rebound was feeble compared with historic recoveries from severe sell-offs",
-      "source": "World",
-      "published": "Fri, 06 Nov 2026 22:00:56 GMT",
-      "summary": "US stocks stage tepid recovery after $3.2tn rout fuelled by AI fears\nMagnitude of rebound was feeble compared with historic recoveries from severe sell-offs"
-    },
-    {
-      "title": "Voters take their pick in New Zealand’s ‘supermarket election’",
-      "link": "https://www.ft.com/content/1e80651b-14f3-4cf0-9b47-2f6dee158496?syn-25a6b1a6=1",
-      "raw_summary": "Christopher Luxon tries to hang on as cost of living crisis and high energy prices weigh on consumers",
-      "source": "World",
-      "published": "Fri, 06 Nov 2026 21:00:10 GMT",
-      "summary": "Voters take their pick in New Zealand’s ‘supermarket election’\nChristopher Luxon tries to hang on as cost of living crisis and high energy prices weigh on consumers"
-    },
-    {
-      "title": "Canadian Dollar Notches Worst Week Since September on Weak Jobs",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-06/canadian-dollar-set-for-worst-week-since-september-on-weak-jobs",
-      "raw_summary": "The Canadian dollar posted its biggest weekly loss since late September after weaker-than-expected domestic employment data reinforced concerns about the outlook for the country’s economy.",
+      "title": "China Extends Gold-Buying Streak to Two Years as Prices Drop",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-07/china-extends-gold-buying-streak-to-two-years-as-prices-drop",
+      "raw_summary": "China’s central bank added to its gold reserves in October — extending a buying streak to two years — as the precious metal fell almost 7% to end the month below the $4,000-an-ounce support threshold.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 06 Nov 2026 18:48:22 GMT",
-      "summary": "Canadian Dollar Notches Worst Week Since September on Weak Jobs\nThe Canadian dollar posted its biggest weekly loss since late September after weaker-than-expected domestic employment data reinforced concerns about the outlook for the country’s economy."
+      "published": "Sat, 07 Nov 2026 02:26:22 GMT",
+      "summary": "China Extends Gold-Buying Streak to Two Years as Prices Drop\nChina’s central bank added to its gold reserves in October — extending a buying streak to two years — as the precious metal fell almost 7% to end the month below the $4,000-an-ounce support threshold."
     },
     {
-      "title": "Ann Berry on the Importance of Learning AI",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-06/ann-berry-on-the-importance-of-learning-ai-video",
-      "raw_summary": "Barry speaks with Ann Berry, founder and managing partner of Threadneedle. They discuss her path from Goldman Sachs M&amp;A and private equity to running a hospitality services company through the pandemic. They also discuss Ann's early-stage bets on AI and deepfake detection, and surveying the expanding IPO landscape. (Source: Bloomberg)",
+      "title": "Beijing Vows to Hit Back Against US Sanctions on China Companies",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-07/beijing-vows-to-hit-back-against-us-sanctions-on-china-companies",
+      "raw_summary": "China strongly opposes US sanctions on two Chinese companies over their dealings with a third party and reserves the right to take “necessary measures” to protect its interests, China’s Ministry of Commerce said on Saturday.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 06 Nov 2026 22:01:25 GMT",
-      "summary": "Ann Berry on the Importance of Learning AI\nBarry speaks with Ann Berry, founder and managing partner of Threadneedle. They discuss her path from Goldman Sachs M&amp;A and private equity to running a hospitality services company through the pandemic. They also discuss Ann's early-stage bets on AI and"
+      "published": "Sat, 07 Nov 2026 01:54:36 GMT",
+      "summary": "Beijing Vows to Hit Back Against US Sanctions on China Companies\nChina strongly opposes US sanctions on two Chinese companies over their dealings with a third party and reserves the right to take “necessary measures” to protect its interests, China’s Ministry of Commerce said on Saturday."
     },
     {
-      "title": "Airbnb Surges 12% as Growth Accelerates and Outlook Rises | Closing Bell",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-06/airbnb-surges-on-growth-outlook-closing-bell-video",
-      "raw_summary": "Comprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Kailey Leinz, Carol Massar and Tim Stenovec. (Source: Bloomberg)",
+      "title": "How a Bank Scandal Is Taking Down Trump’s Ally in Paraguay",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-06/how-a-banking-scandal-is-taking-down-trump-s-ally-in-paraguay",
+      "raw_summary": "Officials at the Inter-American Development Bank’s investment arm suspected something was off almost as soon as they walked through the doors of Paraguay’s Ueno Bank SA.",
       "source": "Bloomberg Markets",
-      "published": "Fri, 06 Nov 2026 21:32:56 GMT",
-      "summary": "Airbnb Surges 12% as Growth Accelerates and Outlook Rises | Closing Bell\nComprehensive cross-platform coverage of the U.S. market close on Bloomberg Television, Bloomberg Radio, and YouTube with Romaine Bostick, Kailey Leinz, Carol Massar and Tim Stenovec. (Source: Bloomberg)"
+      "published": "Fri, 06 Nov 2026 00:24:58 GMT",
+      "summary": "How a Bank Scandal Is Taking Down Trump’s Ally in Paraguay\nOfficials at the Inter-American Development Bank’s investment arm suspected something was off almost as soon as they walked through the doors of Paraguay’s Ueno Bank SA."
     },
     {
-      "title": "Hedge Funds Fled Bullish Oil Bets Ahead of Election Day Drop",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-06/hedge-funds-fled-bullish-oil-bets-ahead-of-election-day-drop",
-      "raw_summary": "Hedge funds cut bullish crude bets by the most since June as the US and Iran struck rare de-escalatory notes, positioning them to profit from the selloff after the Democratic sweep of Congress.",
+      "title": "The Corner Store Brings Its New York Experience to the Las Vegas Strip",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-06/the-corner-store-brings-nyc-experience-to-vegas-strip-video",
+      "raw_summary": "Catch Hospitality Group is opening a Las Vegas location of The Corner Store at the Cosmopolitan. Co-Founder and Partner Eugene Remm says the 150-seat restaurant will preserve the intimacy and authentic SoHo experience of its 75-seat New York original, rather than offer a Vegas-specific or watered-down version. He speaks with Romaine Bostick on \"The Close.\" (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Fri, 06 Nov 2026 21:29:28 GMT",
-      "summary": "Hedge Funds Fled Bullish Oil Bets Ahead of Election Day Drop\nHedge funds cut bullish crude bets by the most since June as the US and Iran struck rare de-escalatory notes, positioning them to profit from the selloff after the Democratic sweep of Congress."
+      "published": "Fri, 06 Nov 2026 23:49:39 GMT",
+      "summary": "The Corner Store Brings Its New York Experience to the Las Vegas Strip\nCatch Hospitality Group is opening a Las Vegas location of The Corner Store at the Cosmopolitan. Co-Founder and Partner Eugene Remm says the 150-seat restaurant will preserve the intimacy and authentic SoHo experience of its 75-s"
     },
     {
-      "title": "Gold Extends Drop on Stronger-Than-Expected US Employment Data",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-06/gold-set-for-biggest-weekly-gain-since-august-after-us-midterms",
-      "raw_summary": "Gold fell after a hot US nonfarm payrolls print added fuel to speculations that the Federal Reserve will seek to raise interest rates to contain inflation.",
+      "title": "Elanco Shares Jump After Q3 Beat and Outlook Raise",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-06/elanco-shares-jump-after-q3-beat-and-outlook-raise-video",
+      "raw_summary": "Elanco Animal Health shares rose nearly 8% after the company reported third-quarter earnings above expectations and raised its full-year outlook. Jeff Simmons, Elanco’s President and CEO, called it a high-quality quarter, citing 11% reported growth and broad strength across markets and product lines. He speaks with Romaine Bostick & Kailey Leinz on \"The Close.\" (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Fri, 06 Nov 2026 00:09:55 GMT",
-      "summary": "Gold Extends Drop on Stronger-Than-Expected US Employment Data\nGold fell after a hot US nonfarm payrolls print added fuel to speculations that the Federal Reserve will seek to raise interest rates to contain inflation."
+      "published": "Fri, 06 Nov 2026 23:30:58 GMT",
+      "summary": "Elanco Shares Jump After Q3 Beat and Outlook Raise\nElanco Animal Health shares rose nearly 8% after the company reported third-quarter earnings above expectations and raised its full-year outlook. Jeff Simmons, Elanco’s President and CEO, called it a high-quality quarter, citing 11% reported growth "
     },
     {
       "title": "Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch",
