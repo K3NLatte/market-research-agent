@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T03:52:44.566789+00:00",
+  "generated_at": "2026-11-09T14:48:05.129950+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,124 +43,132 @@
       "summary": "U.K. Sanctions Cryptomus for RU Money Laundering\nThe United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are"
     },
     {
-      "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
-      "link": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
-      "raw_summary": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them.\n\nWhen a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings file.\n\nSoftware security company Apiiro said yesterday that 1,122 public",
+      "title": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
+      "link": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
+      "raw_summary": "A system doesn't always need a complicated bug to let someone in. Sometimes, a blank password is enough. That's one of the bigger stories this week. And it gets worse when the tools meant to keep systems updated or running safely become part of the attack.\n\nElsewhere, attackers are hiding inside normal web traffic, stealing credentials from network devices, and finding new uses for exposed",
       "source": "The Hacker News",
-      "published": "Sat, 07 Nov 2026 12:14:17 +0530",
-      "summary": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub\nPasswords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them.\n\nWhen a user selects \"Yes, and don't ask aga"
+      "published": "Mon, 09 Nov 2026 18:58:25 +0530",
+      "summary": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More\nA system doesn't always need a complicated bug to let someone in. Sometimes, a blank password is enough. That's one of the bigger stories this week. And it gets worse when the tools meant to keep systems upda"
     },
     {
-      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
-      "link": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
-      "raw_summary": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it.\n\nThe update that installs the fix still unpacks its files using the site's old, unpatched code, so an attacker who strikes at the right moment can run code on the server. The researcher advises blocking web access to the",
+      "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
+      "link": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
+      "raw_summary": "The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access any customer's account and, for an owner with a connected car, unlock the doors and start the engine.\n\nBoth apps signed customers in through ForgeRock, an identity platform now part of Ping Identity, and on those servers the researchers reached an",
       "source": "The Hacker News",
-      "published": "Fri, 06 Nov 2026 21:38:38 +0530",
-      "summary": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time\nSome WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it.\n\nThe update that installs the fix still u"
+      "published": "Mon, 09 Nov 2026 16:57:53 +0530",
+      "summary": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars\nThe login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access any customer's account and, for an owner with a connected ca"
     },
     {
-      "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
-      "link": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
-      "raw_summary": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian.\n\nThe vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux systems that run OpenSSH on the musl C library with Pluggable Authentication Modules (PAM) disabled,",
+      "title": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
+      "link": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
+      "raw_summary": "Some people who set up a Keplr crypto wallet with their Google or Apple account have had money stolen by an attacker.\n\nKeplr uses a company called Web3Auth to run that Google and Apple sign-in. The attacker used a security flaw at that company to reach the wallets, both companies said late last week.\n\nWeb3Auth then used the attacker's own route to empty other at-risk wallets before the attacker",
       "source": "The Hacker News",
-      "published": "Fri, 06 Nov 2026 20:51:49 +0530",
-      "summary": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot\nThreat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian.\n\nThe vulnerability, tracked as CVE"
+      "published": "Mon, 09 Nov 2026 16:26:25 +0530",
+      "summary": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety\nSome people who set up a Keplr crypto wallet with their Google or Apple account have had money stolen by an attacker.\n\nKeplr uses a company called Web3Auth to run that Google and Apple sign-in. The attacker used"
     },
     {
-      "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
-      "link": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
-      "raw_summary": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment.\n\nThe new model is \"more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set,\" OpenAI said. It has classified the model as",
+      "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
+      "link": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
+      "raw_summary": "Everyone running LNbits, a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attacks, the project said yesterday.\n\nIt has several security fixes to release and asked operators to be careful until they are out. One operator said new accounts used an exploit to withdraw 2,285,545 satoshis, about 0.023 bitcoin, from his server before he could",
       "source": "The Hacker News",
-      "published": "Fri, 06 Nov 2026 20:28:32 +0530",
-      "summary": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits\nOpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment.\n\nT"
+      "published": "Mon, 09 Nov 2026 15:31:21 +0530",
+      "summary": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks\nEveryone running LNbits, a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attacks, the project said yesterday.\n\nIt has several security fixes to rel"
     },
     {
-      "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
-      "link": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-      "raw_summary": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates.\n\nThe fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today.\n\nThe flaw is an out-of-bounds read that could let an attacker run code over a network. Microsoft rates",
+      "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
+      "link": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
+      "raw_summary": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week.\n\nThe agents also found a Taipei fire department platform exposing patient data from 2018, including ECG readings and ambulance video footage, without a login.\n\nThe researchers are highly confident that the attacker is a single person",
       "source": "The Hacker News",
-      "published": "Fri, 06 Nov 2026 17:36:43 +0530",
-      "summary": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It\nA fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates.\n\nThe fixed build, 11.2609.401.0, was the ne"
+      "published": "Mon, 09 Nov 2026 14:31:50 +0530",
+      "summary": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records\nA single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week.\n\nThe agents also found a Taipei fire department plat"
     },
     {
-      "title": "The Qlobe: Rotating Quine (2010)",
-      "link": "http://mamememo.blogspot.com/2010/09/qlobe.html",
-      "raw_summary": "<p>Article URL: <a href=\"http://mamememo.blogspot.com/2010/09/qlobe.html\">http://mamememo.blogspot.com/2010/09/qlobe.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50420599\">https://news.ycombinator.com/item?id=50420599</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "title": "Children of Men: The Future Is a Mirror for the Present",
+      "link": "https://reactormag.com/children-of-men-the-future-is-a-mirror-for-the-present/",
+      "raw_summary": "<p>Article URL: <a href=\"https://reactormag.com/children-of-men-the-future-is-a-mirror-for-the-present/\">https://reactormag.com/children-of-men-the-future-is-a-mirror-for-the-present/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50425303\">https://news.ycombinator.com/item?id=50425303</a></p>\n<p>Points: 44</p>\n<p># Comments: 16</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 09 Nov 2026 03:15:17 +0000",
-      "summary": "The Qlobe: Rotating Quine (2010)\n<p>Article URL: <a href=\"http://mamememo.blogspot.com/2010/09/qlobe.html\">http://mamememo.blogspot.com/2010/09/qlobe.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50420599\">https://news.ycombinator.com/item?id=50420599</a></p>\n<p>Points:"
+      "published": "Mon, 09 Nov 2026 13:27:01 +0000",
+      "summary": "Children of Men: The Future Is a Mirror for the Present\n<p>Article URL: <a href=\"https://reactormag.com/children-of-men-the-future-is-a-mirror-for-the-present/\">https://reactormag.com/children-of-men-the-future-is-a-mirror-for-the-present/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.c"
     },
     {
-      "title": "A Bit about Email",
-      "link": "https://maurycyz.com/misc/email/",
-      "raw_summary": "<p>Article URL: <a href=\"https://maurycyz.com/misc/email/\">https://maurycyz.com/misc/email/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50420383\">https://news.ycombinator.com/item?id=50420383</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>",
+      "title": "Humans will never again create a project like Wikipedia",
+      "link": "https://www.economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia\">https://www.economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50424704\">https://news.ycombinator.com/item?id=50424704</a></p>\n<p>Points: 217</p>\n<p># Comments: 152</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 09 Nov 2026 02:46:21 +0000",
-      "summary": "A Bit about Email\n<p>Article URL: <a href=\"https://maurycyz.com/misc/email/\">https://maurycyz.com/misc/email/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50420383\">https://news.ycombinator.com/item?id=50420383</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>"
+      "published": "Mon, 09 Nov 2026 12:30:20 +0000",
+      "summary": "Humans will never again create a project like Wikipedia\n<p>Article URL: <a href=\"https://www.economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia\">https://www.economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia</a><"
     },
     {
-      "title": "RIP, Harvest",
-      "link": "https://aphyr.com/posts/427-rip-harvest",
-      "raw_summary": "<p>Article URL: <a href=\"https://aphyr.com/posts/427-rip-harvest\">https://aphyr.com/posts/427-rip-harvest</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50420035\">https://news.ycombinator.com/item?id=50420035</a></p>\n<p>Points: 55</p>\n<p># Comments: 18</p>",
+      "title": "Fold Epic Paper Airplanes",
+      "link": "https://www.foldableflight.com",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.foldableflight.com\">https://www.foldableflight.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50424581\">https://news.ycombinator.com/item?id=50424581</a></p>\n<p>Points: 243</p>\n<p># Comments: 51</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 09 Nov 2026 01:58:21 +0000",
-      "summary": "RIP, Harvest\n<p>Article URL: <a href=\"https://aphyr.com/posts/427-rip-harvest\">https://aphyr.com/posts/427-rip-harvest</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50420035\">https://news.ycombinator.com/item?id=50420035</a></p>\n<p>Points: 55</p>\n<p># Comments: 18</p>"
+      "published": "Mon, 09 Nov 2026 12:19:22 +0000",
+      "summary": "Fold Epic Paper Airplanes\n<p>Article URL: <a href=\"https://www.foldableflight.com\">https://www.foldableflight.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50424581\">https://news.ycombinator.com/item?id=50424581</a></p>\n<p>Points: 243</p>\n<p># Comments: 51</p>"
     },
     {
-      "title": "Unlocking any car from X brand in most of the world",
-      "link": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
-      "raw_summary": "<p>Article URL: <a href=\"https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/\">https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50419215\">https://news.ycombinator.com/item?id=50419215</a></p>\n<p>Points: 132</p>\n<p># Comments: 47</p>",
+      "title": "6 Hours of YouTube and 85 handtyped pages of notes on LLM Inference – Start here",
+      "link": "https://github.com/samir-sarwar/samir-vllm",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/samir-sarwar/samir-vllm\">https://github.com/samir-sarwar/samir-vllm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50424199\">https://news.ycombinator.com/item?id=50424199</a></p>\n<p>Points: 56</p>\n<p># Comments: 9</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 09 Nov 2026 00:10:50 +0000",
-      "summary": "Unlocking any car from X brand in most of the world\n<p>Article URL: <a href=\"https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/\">https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50419215\">h"
+      "published": "Mon, 09 Nov 2026 11:36:55 +0000",
+      "summary": "6 Hours of YouTube and 85 handtyped pages of notes on LLM Inference – Start here\n<p>Article URL: <a href=\"https://github.com/samir-sarwar/samir-vllm\">https://github.com/samir-sarwar/samir-vllm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50424199\">https://news.ycombinator.c"
     },
     {
-      "title": "Herb Sutter: When a language's creator and its owners strongly disagree [pdf]",
-      "link": "https://isocpp.org/files/papers/P4454R0.pdf",
-      "raw_summary": "<p>Article URL: <a href=\"https://isocpp.org/files/papers/P4454R0.pdf\">https://isocpp.org/files/papers/P4454R0.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50418818\">https://news.ycombinator.com/item?id=50418818</a></p>\n<p>Points: 89</p>\n<p># Comments: 70</p>",
+      "title": "What is malloc doing, anyway?",
+      "link": "https://benmandrew.com/articles/what-is-malloc-doing-anyway",
+      "raw_summary": "<p>Article URL: <a href=\"https://benmandrew.com/articles/what-is-malloc-doing-anyway\">https://benmandrew.com/articles/what-is-malloc-doing-anyway</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50424157\">https://news.ycombinator.com/item?id=50424157</a></p>\n<p>Points: 58</p>\n<p># Comments: 10</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 08 Nov 2026 23:28:01 +0000",
-      "summary": "Herb Sutter: When a language's creator and its owners strongly disagree [pdf]\n<p>Article URL: <a href=\"https://isocpp.org/files/papers/P4454R0.pdf\">https://isocpp.org/files/papers/P4454R0.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50418818\">https://news.ycombinator.co"
+      "published": "Mon, 09 Nov 2026 11:31:05 +0000",
+      "summary": "What is malloc doing, anyway?\n<p>Article URL: <a href=\"https://benmandrew.com/articles/what-is-malloc-doing-anyway\">https://benmandrew.com/articles/what-is-malloc-doing-anyway</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50424157\">https://news.ycombinator.com/item?id=504241"
     },
     {
-      "title": "Apps to distract you from the endless cycle of doomscrolling",
-      "link": "https://techcrunch.com/2026/11/08/apps-to-distract-you-from-the-endless-cycle-of-doomscrolling/",
-      "raw_summary": "It's hard to break the cycle of doomscrolling, but there are plenty of apps that can help you spend more time on content that’s engaging and productive.",
+      "title": "Meet Drops, the new music app bringing back the fun of sharing songs with friends",
+      "link": "https://techcrunch.com/2026/11/09/meet-drops-the-new-music-app-bringing-back-the-fun-of-sharing-songs-with-friends/",
+      "raw_summary": "The new music discovery app lets users scroll through 10-to-30-second snippets of songs, comment, and share with friends.",
       "source": "TechCrunch",
-      "published": "Sun, 08 Nov 2026 22:00:00 +0000",
-      "summary": "Apps to distract you from the endless cycle of doomscrolling\nIt's hard to break the cycle of doomscrolling, but there are plenty of apps that can help you spend more time on content that’s engaging and productive."
+      "published": "Mon, 09 Nov 2026 14:00:00 +0000",
+      "summary": "Meet Drops, the new music app bringing back the fun of sharing songs with friends\nThe new music discovery app lets users scroll through 10-to-30-second snippets of songs, comment, and share with friends."
     },
     {
-      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
-      "link": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
-      "raw_summary": "In a memo to the company, Huang admitted that he had an affair.",
+      "title": "Automattic debuts a platform to deploy vibe coding apps amid a changing internet",
+      "link": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
+      "raw_summary": "Automattic aims to compete with likes of Lovable with Spacefast",
       "source": "TechCrunch",
-      "published": "Sun, 08 Nov 2026 21:00:11 +0000",
-      "summary": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy\nIn a memo to the company, Huang admitted that he had an affair."
+      "published": "Mon, 09 Nov 2026 14:00:00 +0000",
+      "summary": "Automattic debuts a platform to deploy vibe coding apps amid a changing internet\nAutomattic aims to compete with likes of Lovable with Spacefast"
     },
     {
-      "title": "If Snap’s Specs are still ridiculously expensive, they’re also a lot more comfortable than they used to be",
-      "link": "https://techcrunch.com/2026/11/08/if-snaps-specs-are-still-ridiculously-expensive-theyre-also-a-lot-more-comfortable-than-they-used-to-be/",
-      "raw_summary": "Snap's Specs, which have been in development for many years now, are going to market this fall. Will they be a hit with users?",
+      "title": "Musk says Tesla will refund some Cybertruck deposits, defends decision to end production",
+      "link": "https://techcrunch.com/2026/11/09/musk-says-tesla-will-refund-some-cybertruck-deposits-defends-decision-to-end-production/",
+      "raw_summary": "Elon Musk defended the company's decision to stop making the Cybertruck, which will go out of production in around 8 months.",
       "source": "TechCrunch",
-      "published": "Sun, 08 Nov 2026 21:00:00 +0000",
-      "summary": "If Snap’s Specs are still ridiculously expensive, they’re also a lot more comfortable than they used to be\nSnap's Specs, which have been in development for many years now, are going to market this fall. Will they be a hit with users?"
+      "published": "Mon, 09 Nov 2026 13:43:28 +0000",
+      "summary": "Musk says Tesla will refund some Cybertruck deposits, defends decision to end production\nElon Musk defended the company's decision to stop making the Cybertruck, which will go out of production in around 8 months."
     },
     {
-      "title": "Coordinated disturbances haunt grids worldwide. Here’s how researchers solved the mystery.",
-      "link": "https://techcrunch.com/2026/11/08/coordinated-disturbances-haunt-grids-worldwide-heres-how-researchers-solved-the-mystery/",
-      "raw_summary": "Mystery solved: Coordinated power drops have been haunting power grid worldwide, but a team of researchers in Germany found the culprit.",
+      "title": "Tesla expands robotaxi service to San Antonio",
+      "link": "https://techcrunch.com/2026/11/09/tesla-expands-robotaxi-service-to-san-antonio/",
+      "raw_summary": "This will be the fourth Texas city in which Tesla will launch robotaxis.",
       "source": "TechCrunch",
-      "published": "Sun, 08 Nov 2026 20:30:00 +0000",
-      "summary": "Coordinated disturbances haunt grids worldwide. Here’s how researchers solved the mystery.\nMystery solved: Coordinated power drops have been haunting power grid worldwide, but a team of researchers in Germany found the culprit."
+      "published": "Mon, 09 Nov 2026 11:30:24 +0000",
+      "summary": "Tesla expands robotaxi service to San Antonio\nThis will be the fourth Texas city in which Tesla will launch robotaxis."
     },
     {
-      "title": "Sequoia partners reportedly blindsided when Roelof Botha joined SpaceX board",
-      "link": "https://techcrunch.com/2026/11/08/sequoia-partners-reportedly-blindsided-when-roelof-botha-joined-spacex-board/",
-      "raw_summary": "A new report claims Sequoia's recent changes undo the legacy of the firm's former steward.",
+      "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+      "link": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+      "raw_summary": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
       "source": "TechCrunch",
-      "published": "Sun, 08 Nov 2026 19:51:30 +0000",
-      "summary": "Sequoia partners reportedly blindsided when Roelof Botha joined SpaceX board\nA new report claims Sequoia's recent changes undo the legacy of the firm's former steward."
+      "published": "Mon, 09 Nov 2026 05:26:29 +0000",
+      "summary": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”\nNvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO."
+    },
+    {
+      "title": "New Democratic Congress will likely strip the gilding from Trump's Golden Dome",
+      "link": "https://arstechnica.com/space/2026/11/new-democratic-congress-will-likely-strip-the-gilding-from-trumps-golden-dome/",
+      "raw_summary": "\"There’s no doubt that whatever it’s going to be called, it won’t be called Golden Dome.\"",
+      "source": "Ars Technica - All content",
+      "published": "Mon, 09 Nov 2026 12:00:05 +0000",
+      "summary": "New Democratic Congress will likely strip the gilding from Trump's Golden Dome\n\"There’s no doubt that whatever it’s going to be called, it won’t be called Golden Dome.\""
     },
     {
       "title": "Physicists listened to electrical noise to crack a superconductor mystery",
@@ -189,138 +197,130 @@
     {
       "title": "Doctors pull knife from man's eye that went through his brain—and he's fine now",
       "link": "https://arstechnica.com/health/2026/11/man-unexpectedly-recovers-from-a-knife-wound-through-his-eye-and-brain/",
-      "raw_summary": "It's the exact path, not the apparent severity that matters most, doctors say.",
+      "raw_summary": "It's the exact path, not the apparent severity, that matters most, doctors say.",
       "source": "Ars Technica - All content",
       "published": "Fri, 06 Nov 2026 23:09:45 +0000",
-      "summary": "Doctors pull knife from man's eye that went through his brain—and he's fine now\nIt's the exact path, not the apparent severity that matters most, doctors say."
+      "summary": "Doctors pull knife from man's eye that went through his brain—and he's fine now\nIt's the exact path, not the apparent severity, that matters most, doctors say."
     },
     {
-      "title": "Ships loiter near subsea cables amid Iran's warnings to Trump",
-      "link": "https://arstechnica.com/gadgets/2026/11/ships-loiter-near-subsea-cables-amid-irans-warnings-to-trump/",
-      "raw_summary": "Iran threatened to attack subsea cables if US escalates military strikes again.",
-      "source": "Ars Technica - All content",
-      "published": "Fri, 06 Nov 2026 22:41:37 +0000",
-      "summary": "Ships loiter near subsea cables amid Iran's warnings to Trump\nIran threatened to attack subsea cables if US escalates military strikes again."
-    },
-    {
-      "title": "Trump says he was ‘too tough’ on immigrants as he floats amnesty deal",
-      "link": "https://www.ft.com/content/c82ac9a2-617e-400a-a5b7-e8d6674a80d4?syn-25a6b1a6=1",
-      "raw_summary": "President concedes US voters were turned off by deportations, Iran war and ‘bad messaging’ on the economy in midterm elections",
+      "title": "US stocks rebound after AI rout",
+      "link": "https://www.ft.com/content/b8644327-86e7-4d1c-a71f-3fb1d552723b?syn-25a6b1a6=1",
+      "raw_summary": "Lower oil prices help equity indices shrug off fall in Nvidia shares",
       "source": "World",
-      "published": "Mon, 09 Nov 2026 02:54:00 GMT",
-      "summary": "Trump says he was ‘too tough’ on immigrants as he floats amnesty deal\nPresident concedes US voters were turned off by deportations, Iran war and ‘bad messaging’ on the economy in midterm elections"
+      "published": "Mon, 09 Nov 2026 14:43:13 GMT",
+      "summary": "US stocks rebound after AI rout\nLower oil prices help equity indices shrug off fall in Nvidia shares"
     },
     {
-      "title": "China’s inflation edges lower in October",
-      "link": "https://www.ft.com/content/085c4610-143a-47ad-b546-0587695294b5?syn-25a6b1a6=1",
-      "raw_summary": "Weak domestic demand weighs on prices in world’s second-largest economy even as higher energy prices drive up costs for producers",
+      "title": "Russell Brand jailed for 10 years and six months for rape and sexual assault",
+      "link": "https://www.ft.com/content/f80afff9-fa3a-4b7e-a3ac-42c1c8f0319e?syn-25a6b1a6=1",
+      "raw_summary": "Former comedian is the latest celebrity found to have exploited his fame for sexual gratification",
       "source": "World",
-      "published": "Mon, 09 Nov 2026 02:01:28 GMT",
-      "summary": "China’s inflation edges lower in October\nWeak domestic demand weighs on prices in world’s second-largest economy even as higher energy prices drive up costs for producers"
+      "published": "Mon, 09 Nov 2026 14:28:56 GMT",
+      "summary": "Russell Brand jailed for 10 years and six months for rape and sexual assault\nFormer comedian is the latest celebrity found to have exploited his fame for sexual gratification"
     },
     {
-      "title": "Trump says he was ‘only kidding’ about asking UFC boss to be spokesperson",
-      "link": "https://www.ft.com/content/b3acb746-76c0-46de-879a-990602b27a6a?syn-25a6b1a6=1",
-      "raw_summary": "US president caused a media flurry by announcing he had invited Dana White to be White House press secretary",
+      "title": "Germany issues ultimatum to secure Ukraine funding",
+      "link": "https://www.ft.com/content/ec66a5d6-70f1-47fc-b573-067dd96dc913?syn-25a6b1a6=1",
+      "raw_summary": "Chancellor Friedrich Merz threatens to withhold agreement on EU’s next budget unless bloc can unanimously agree on additional financial support for Kyiv",
       "source": "World",
-      "published": "Mon, 09 Nov 2026 01:15:06 GMT",
-      "summary": "Trump says he was ‘only kidding’ about asking UFC boss to be spokesperson\nUS president caused a media flurry by announcing he had invited Dana White to be White House press secretary"
+      "published": "Mon, 09 Nov 2026 14:09:33 GMT",
+      "summary": "Germany issues ultimatum to secure Ukraine funding\nChancellor Friedrich Merz threatens to withhold agreement on EU’s next budget unless bloc can unanimously agree on additional financial support for Kyiv"
     },
     {
-      "title": "Nvidia’s Huang admits to affair after allegations of relationship with Chinese spy",
-      "link": "https://www.ft.com/content/1397e2f4-d7f5-4cbb-a4d9-04ecf661d1aa?syn-25a6b1a6=1",
-      "raw_summary": "Silicon Valley chipmaker opens investigation into chief executive as he confirms extramarital liaison in message to employees",
+      "title": "The labour left is back in America",
+      "link": "https://www.ft.com/content/091b0dd0-fea9-4bda-8cd9-32640f8de733?syn-25a6b1a6=1",
+      "raw_summary": "Candidates backed by unions helped the Democrats win in some of their former heartlands",
       "source": "World",
-      "published": "Mon, 09 Nov 2026 01:08:15 GMT",
-      "summary": "Nvidia’s Huang admits to affair after allegations of relationship with Chinese spy\nSilicon Valley chipmaker opens investigation into chief executive as he confirms extramarital liaison in message to employees"
+      "published": "Mon, 09 Nov 2026 14:00:08 GMT",
+      "summary": "The labour left is back in America\nCandidates backed by unions helped the Democrats win in some of their former heartlands"
     },
     {
-      "title": "Pope Leo and Javier Milei offer duelling visions for Argentina",
-      "link": "https://www.ft.com/content/67575be7-5801-481e-9097-a1c0ba3ebf36?syn-25a6b1a6=1",
-      "raw_summary": "Pontiff’s speech included what many interpreted as veiled criticism of the president’s austerity measures",
+      "title": "Alleged Chinese spy linked to Nvidia chief pitched AI chips deals to investors",
+      "link": "https://www.ft.com/content/5d8c1e1d-6ce0-4eb4-9f5c-722fa5c4841d?syn-25a6b1a6=1",
+      "raw_summary": "Alice Huang boasted of having access to Nvidia GPUs and her connection to Alibaba in bid to secure investment for major data centre project",
       "source": "World",
-      "published": "Mon, 09 Nov 2026 00:38:18 GMT",
-      "summary": "Pope Leo and Javier Milei offer duelling visions for Argentina\nPontiff’s speech included what many interpreted as veiled criticism of the president’s austerity measures"
+      "published": "Mon, 09 Nov 2026 13:50:36 GMT",
+      "summary": "Alleged Chinese spy linked to Nvidia chief pitched AI chips deals to investors\nAlice Huang boasted of having access to Nvidia GPUs and her connection to Alibaba in bid to secure investment for major data centre project"
     },
     {
-      "title": "Philippine Economic Slump Worsens on Iran War, Bad Weather",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-09/philippine-economy-slows-further-adding-to-pressure-on-marcos",
-      "raw_summary": "The Philippine economy unexpectedly slowed for a fifth straight quarter, raising questions about the central bank’s rate-hike cycle and heaping pressure on President Ferdinand Marcos Jr.",
+      "title": "Fox Holds Investor Calls Before Planned Bond Sale for Roku Deal",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-09/fox-holds-investor-calls-before-planned-bond-sale-for-roku-deal",
+      "raw_summary": "Fox Corp. is holding investor calls on Monday ahead of an expected multipart sale of bonds to help fund its cash-and-stock acquisition of Roku Inc.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 09 Nov 2026 02:03:44 GMT",
-      "summary": "Philippine Economic Slump Worsens on Iran War, Bad Weather\nThe Philippine economy unexpectedly slowed for a fifth straight quarter, raising questions about the central bank’s rate-hike cycle and heaping pressure on President Ferdinand Marcos Jr."
+      "published": "Mon, 09 Nov 2026 14:43:09 GMT",
+      "summary": "Fox Holds Investor Calls Before Planned Bond Sale for Roku Deal\nFox Corp. is holding investor calls on Monday ahead of an expected multipart sale of bonds to help fund its cash-and-stock acquisition of Roku Inc."
     },
     {
-      "title": "Asian Stocks Advance on Tech Rebound, Oil Falls: Markets Wrap",
+      "title": "Stocks Climb as Buyers Step In Despite Nvidia Woes: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-11-08/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "Asian stocks rebounded from their biggest selloff in more than 18 months, with Taiwan leading gains after local authorities introduced measures to restore investor confidence. Crude oil fell, adding to the positive tone.",
+      "raw_summary": "A renewed wave of dip buying lifted stocks in the wake of a technology rout that roiled Wall Street, with the equity market also rising as oil prices tumbled.",
       "source": "Bloomberg Markets",
       "published": "Sun, 08 Nov 2026 22:20:51 GMT",
-      "summary": "Asian Stocks Advance on Tech Rebound, Oil Falls: Markets Wrap\nAsian stocks rebounded from their biggest selloff in more than 18 months, with Taiwan leading gains after local authorities introduced measures to restore investor confidence. Crude oil fell, adding to the positive tone."
+      "summary": "Stocks Climb as Buyers Step In Despite Nvidia Woes: Markets Wrap\nA renewed wave of dip buying lifted stocks in the wake of a technology rout that roiled Wall Street, with the equity market also rising as oil prices tumbled."
     },
     {
-      "title": "Latest Oil Market News and Analysis for Nov. 9",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-08/latest-oil-market-news-and-analysis-for-nov-9",
-      "raw_summary": "Oil steadied after its biggest weekly drop since April 2020 as traders weighed diplomatic efforts to end the US-Iran conflict against fresh attacks in the region.",
+      "title": "Peloton Taps Junk-Bond Market for First Time in Refinancing Deal",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-09/peloton-taps-junk-bond-market-for-first-time-in-refinancing-deal",
+      "raw_summary": "Peloton Interactive Inc. is tapping the junk-bond market for the first time, looking to raise about $600 million from a new offering.",
       "source": "Bloomberg Markets",
-      "published": "Sun, 08 Nov 2026 23:03:27 GMT",
-      "summary": "Latest Oil Market News and Analysis for Nov. 9\nOil steadied after its biggest weekly drop since April 2020 as traders weighed diplomatic efforts to end the US-Iran conflict against fresh attacks in the region."
+      "published": "Mon, 09 Nov 2026 14:21:43 GMT",
+      "summary": "Peloton Taps Junk-Bond Market for First Time in Refinancing Deal\nPeloton Interactive Inc. is tapping the junk-bond market for the first time, looking to raise about $600 million from a new offering."
     },
     {
-      "title": "Foreign Funds Pile Into India as AI Trade Falters",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-11-09/foreign-funds-pile-into-india-as-ai-trade-falters",
-      "raw_summary": "Including Friday’s provisional figures, foreign funds were net buyers of close to $5 billion of stocks last week.",
+      "title": "Anthropic IPO’s Moment of Truth Nears as Waiting Period Expires",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-09/anthropic-ipo-s-moment-of-truth-nears-as-waiting-period-expires",
+      "raw_summary": "Anthropic PBC can begin formally marketing its much-anticipated IPO as early as Tuesday, enabling it to make the case to investors that now is the right time to go public despite last week’s swoon in artificial intelligence-related stocks.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 09 Nov 2026 02:45:32 GMT",
-      "summary": "Foreign Funds Pile Into India as AI Trade Falters\nIncluding Friday’s provisional figures, foreign funds were net buyers of close to $5 billion of stocks last week."
+      "published": "Mon, 09 Nov 2026 14:20:12 GMT",
+      "summary": "Anthropic IPO’s Moment of Truth Nears as Waiting Period Expires\nAnthropic PBC can begin formally marketing its much-anticipated IPO as early as Tuesday, enabling it to make the case to investors that now is the right time to go public despite last week’s swoon in artificial intelligence-related stoc"
     },
     {
-      "title": "China’s Cheap Domestic Gas Curbs LNG Buying as Winter Nears",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-09/china-s-cheap-domestic-gas-curbs-lng-buying-as-winter-nears",
-      "raw_summary": "China’s domestic natural gas prices are weakening, curbing the world’s biggest importer’s appetite for expensive seaborne supplies and potentially freeing up cargoes for Europe and other Asian markets during the peak winter demand season.",
+      "title": "China Draws Robust Demand for Debut Green Bond Sale in Canada",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-09/china-starts-marketing-green-bonds-for-debut-sales-in-canada",
+      "raw_summary": "China has attracted robust demand for its debut yuan-denominated green bonds in Canada, expanding its offshore debt footprint to finance sustainable projects as ties between the two nations warm.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 09 Nov 2026 02:20:24 GMT",
-      "summary": "China’s Cheap Domestic Gas Curbs LNG Buying as Winter Nears\nChina’s domestic natural gas prices are weakening, curbing the world’s biggest importer’s appetite for expensive seaborne supplies and potentially freeing up cargoes for Europe and other Asian markets during the peak winter demand season."
+      "published": "Mon, 09 Nov 2026 04:02:05 GMT",
+      "summary": "China Draws Robust Demand for Debut Green Bond Sale in Canada\nChina has attracted robust demand for its debut yuan-denominated green bonds in Canada, expanding its offshore debt footprint to finance sustainable projects as ties between the two nations warm."
     },
     {
-      "title": "Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility",
-      "link": "https://www.coindesk.com/markets/2026/11/09/bitcoin-drops-then-pops-as-nvidia-cheating-scandal-and-failed-iran-talks-trigger-volatility",
+      "title": "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race",
+      "link": "https://www.coindesk.com/business/2026/11/09/nyse-picks-avalanche-to-settle-tokenized-stocks-amid-wall-street-s-blockchain-race",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Mon, 09 Nov 2026 03:21:49 +0000",
-      "summary": "Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility\n"
+      "published": "Mon, 09 Nov 2026 13:40:06 +0000",
+      "summary": "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race\n"
     },
     {
-      "title": "What the election results mean for crypto: State of Crypto",
-      "link": "https://www.coindesk.com/policy/2026/11/08/what-the-election-results-mean-for-crypto-state-of-crypto",
+      "title": "Solana set for its first tokenized stock venue under SEC framework, listing Galaxy",
+      "link": "https://www.coindesk.com/business/2026/11/06/solana-lset-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 08 Nov 2026 19:30:00 +0000",
-      "summary": "What the election results mean for crypto: State of Crypto\n"
+      "published": "Mon, 09 Nov 2026 12:41:35 +0000",
+      "summary": "Solana set for its first tokenized stock venue under SEC framework, listing Galaxy\n"
     },
     {
-      "title": "Stablecoin growth has stalled. The payments boom hasn't",
-      "link": "https://www.coindesk.com/business/2026/11/08/stablecoin-growth-has-stalled-the-payments-boom-hasn-t",
+      "title": "Trump says he knows ‘nothing’ about World Liberty’s UAE ties as Justin Sun challenges filings",
+      "link": "https://www.coindesk.com/business/2026/11/09/trump-says-he-knows-nothing-about-world-liberty-s-uae-ties-as-justin-sun-challenges-filings",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 08 Nov 2026 19:16:42 +0000",
-      "summary": "Stablecoin growth has stalled. The payments boom hasn't\n"
+      "published": "Mon, 09 Nov 2026 12:37:13 +0000",
+      "summary": "Trump says he knows ‘nothing’ about World Liberty’s UAE ties as Justin Sun challenges filings\n"
     },
     {
-      "title": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)",
-      "link": "https://www.coindesk.com/markets/2026/11/08/these-finland-homes-get-free-heat-from-bitcoin-miners-as-long-as-btc-stays-above-usd70-000",
+      "title": "Bitcoin bulls can't rely on ETF flows",
+      "link": "https://www.coindesk.com/daybook-us/2026/11/09/bitcoin-bulls-can-t-rely-on-etf-flows",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 08 Nov 2026 12:55:59 +0000",
-      "summary": "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000)\n"
+      "published": "Mon, 09 Nov 2026 12:30:00 +0000",
+      "summary": "Bitcoin bulls can't rely on ETF flows\n"
     },
     {
-      "title": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
-      "link": "https://www.coindesk.com/business/2026/11/07/binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end",
+      "title": "Nvidia-led tech selloff weighs on crypto majors",
+      "link": "https://www.coindesk.com/markets/2026/11/09/tech-selloff-weighs-on-crypto-majors",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sat, 07 Nov 2026 19:13:16 +0000",
-      "summary": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end\n"
+      "published": "Mon, 09 Nov 2026 11:42:04 +0000",
+      "summary": "Nvidia-led tech selloff weighs on crypto majors\n"
     }
   ]
 }
