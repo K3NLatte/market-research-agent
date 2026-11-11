@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T03:57:12.142759+00:00",
+  "generated_at": "2026-11-11T13:18:07.606137+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,84 +43,92 @@
       "summary": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site\nU.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations w"
     },
     {
-      "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
-      "link": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
-      "raw_summary": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55 series in 2.50.2, 2.51.3, 2.52.1, 2.53.1, 2.54.1 and 2.55.1.\n\nThe flaw, tracked as CVE-2026-111760, is an integer truncation in how Git handles its index. An",
+      "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+      "link": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+      "raw_summary": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday.\n\nThey included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the Grok AI assistant. Most of the open apps were games, landing pages, and calculators, but about 1 in 10 contained internal business or",
       "source": "The Hacker News",
-      "published": "Wed, 11 Nov 2026 00:53:10 +0530",
-      "summary": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones\nA flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for"
+      "published": "Wed, 11 Nov 2026 17:49:40 +0530",
+      "summary": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords\nOf the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday.\n\nThey included 24 apps built by staff at the social network "
     },
     {
-      "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
-      "link": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
-      "raw_summary": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday.\n\nThe attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the company said earlier this week. That mode processes requests inside a trusted execution environment (TEE",
+      "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+      "link": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+      "raw_summary": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default.\n\nThis helped us think through how such agents should be defended. When a browser agent acts inside a user’s authenticated",
       "source": "The Hacker News",
-      "published": "Wed, 11 Nov 2026 00:49:39 +0530",
-      "summary": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users\nAn attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday.\n\nThe attacker could also have seen requests being process"
+      "published": "Wed, 11 Nov 2026 17:31:59 +0530",
+      "summary": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.\nWe tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. T"
     },
     {
-      "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
-      "raw_summary": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild.\n\nThe authentication bypass flaw, which does not yet have a CVE identifier, is tracked as VSA-2026-062.\n\n\"REST cookie parsing turns authenticationToken=j:%7B%7D into {},\" Vates VMS said in an alert. \"REST authentication passes that object to the",
+      "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
+      "link": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+      "raw_summary": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys.\n\nEach intermediate CA has its own private key, which the company uses to sign the certificates it issues. The 8 intermediate CAs compromised in October had a different problem: a single line in the script",
       "source": "The Hacker News",
-      "published": "Tue, 10 Nov 2026 23:42:21 +0530",
-      "summary": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access\nFrench software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild.\n\nThe authentication bypass flaw, which does not yet have a CVE identif"
+      "published": "Wed, 11 Nov 2026 17:30:53 +0530",
+      "summary": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise\nThe in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys.\n\nEach intermediate CA has its"
     },
     {
-      "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
-      "link": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
-      "raw_summary": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical infrastructure across Latin America, Asia, and Europe over the past year.\n\nCheck Point Research is tracking the clusters under the names SilentDelivery,",
+      "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+      "link": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+      "raw_summary": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws.\n\nThese cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53 in Developer Tools, and 27 in SharePoint Server. The patches also include 165 non-Microsoft-issued CVE identifiers.",
       "source": "The Hacker News",
-      "published": "Tue, 10 Nov 2026 23:13:23 +0530",
-      "summary": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem\nThree distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institution"
+      "published": "Wed, 11 Nov 2026 13:47:53 +0530",
+      "summary": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes\nMicrosoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws.\n\nThese cover 726 flaw"
     },
     {
-      "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
-      "link": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
-      "raw_summary": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant.\n\nThe activity, observed by Huntress in early October 2026, involves the exploitation of a chain comprising CVE-2026-105133 and CVE-2026-105134 to bypass authentication and execute arbitrary commands on affected systems. Patches for the two",
+      "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+      "link": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+      "raw_summary": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not refund them.\n\nThe company builds and runs apps for its customers and stores their secrets, such as API keys and database",
       "source": "The Hacker News",
-      "published": "Tue, 10 Nov 2026 21:30:55 +0530",
-      "summary": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor\nCybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant.\n\nThe activity, observed by Huntress in early October 2026, involves t"
+      "published": "Wed, 11 Nov 2026 13:19:04 +0530",
+      "summary": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges\nAI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has"
     },
     {
-      "title": "To deter bioterrorism, U.S. imposes new rules on ordering synthetic DNA",
-      "link": "https://www.science.org/content/article/deter-bioterrorism-u-s-imposes-new-rules-ordering-synthetic-dna",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.science.org/content/article/deter-bioterrorism-u-s-imposes-new-rules-ordering-synthetic-dna\">https://www.science.org/content/article/deter-bioterrorism-u-s-imposes-new-rules-ordering-synthetic-dna</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50449275\">https://news.ycombinator.com/item?id=50449275</a></p>\n<p>Points: 6</p>\n<p># Comments: 1</p>",
+      "title": "Can a Linear Program Do Weight-Space Programming?",
+      "link": "https://nathan.rs/posts/weight-space-lp/",
+      "raw_summary": "<p>Article URL: <a href=\"https://nathan.rs/posts/weight-space-lp/\">https://nathan.rs/posts/weight-space-lp/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50452655\">https://news.ycombinator.com/item?id=50452655</a></p>\n<p>Points: 17</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 11 Nov 2026 02:57:08 +0000",
-      "summary": "To deter bioterrorism, U.S. imposes new rules on ordering synthetic DNA\n<p>Article URL: <a href=\"https://www.science.org/content/article/deter-bioterrorism-u-s-imposes-new-rules-ordering-synthetic-dna\">https://www.science.org/content/article/deter-bioterrorism-u-s-imposes-new-rules-ordering-syntheti"
+      "published": "Wed, 11 Nov 2026 12:30:17 +0000",
+      "summary": "Can a Linear Program Do Weight-Space Programming?\n<p>Article URL: <a href=\"https://nathan.rs/posts/weight-space-lp/\">https://nathan.rs/posts/weight-space-lp/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50452655\">https://news.ycombinator.com/item?id=50452655</a></p>\n<p>Poin"
     },
     {
-      "title": "Hooked on Tuna",
-      "link": "https://blue-continuum.com/hooked-on-tuna",
-      "raw_summary": "<p>Article URL: <a href=\"https://blue-continuum.com/hooked-on-tuna\">https://blue-continuum.com/hooked-on-tuna</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50449080\">https://news.ycombinator.com/item?id=50449080</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
+      "title": "Next-Level Benchmarking Overfitting – Thomas Neumann",
+      "link": "http://databasearchitects.blogspot.com/2026/11/next-level-benchmarking-overfitting.html",
+      "raw_summary": "<p>Article URL: <a href=\"http://databasearchitects.blogspot.com/2026/11/next-level-benchmarking-overfitting.html\">http://databasearchitects.blogspot.com/2026/11/next-level-benchmarking-overfitting.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50452496\">https://news.ycombinator.com/item?id=50452496</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 11 Nov 2026 02:23:25 +0000",
-      "summary": "Hooked on Tuna\n<p>Article URL: <a href=\"https://blue-continuum.com/hooked-on-tuna\">https://blue-continuum.com/hooked-on-tuna</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50449080\">https://news.ycombinator.com/item?id=50449080</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>"
+      "published": "Wed, 11 Nov 2026 12:09:49 +0000",
+      "summary": "Next-Level Benchmarking Overfitting – Thomas Neumann\n<p>Article URL: <a href=\"http://databasearchitects.blogspot.com/2026/11/next-level-benchmarking-overfitting.html\">http://databasearchitects.blogspot.com/2026/11/next-level-benchmarking-overfitting.html</a></p>\n<p>Comments URL: <a href=\"https://new"
     },
     {
-      "title": "A great old-timey game-programming hack (2013)",
-      "link": "https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html",
-      "raw_summary": "<p>Article URL: <a href=\"https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html\">https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50448921\">https://news.ycombinator.com/item?id=50448921</a></p>\n<p>Points: 42</p>\n<p># Comments: 7</p>",
+      "title": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+      "link": "https://pietromiotti.com/latest/maya-site/?maya",
+      "raw_summary": "<p>Article URL: <a href=\"https://pietromiotti.com/latest/maya-site/?maya\">https://pietromiotti.com/latest/maya-site/?maya</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50452455\">https://news.ycombinator.com/item?id=50452455</a></p>\n<p>Points: 48</p>\n<p># Comments: 13</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 11 Nov 2026 01:56:31 +0000",
-      "summary": "A great old-timey game-programming hack (2013)\n<p>Article URL: <a href=\"https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html\">https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinato"
+      "published": "Wed, 11 Nov 2026 12:05:22 +0000",
+      "summary": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h\n<p>Article URL: <a href=\"https://pietromiotti.com/latest/maya-site/?maya\">https://pietromiotti.com/latest/maya-site/?maya</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50452455\">https://news.yco"
     },
     {
-      "title": "LLMs Play Zachtronics' TIS-100",
-      "link": "https://tis-100.wincon.dev/",
-      "raw_summary": "<p>Article URL: <a href=\"https://tis-100.wincon.dev/\">https://tis-100.wincon.dev/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50448340\">https://news.ycombinator.com/item?id=50448340</a></p>\n<p>Points: 17</p>\n<p># Comments: 2</p>",
+      "title": "Tinfoil (YC P25) is hiring an applied AI security engineer in San Francisco",
+      "link": "https://news.ycombinator.com/item?id=50452404",
+      "raw_summary": "<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50452404\">https://news.ycombinator.com/item?id=50452404</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 11 Nov 2026 00:37:05 +0000",
-      "summary": "LLMs Play Zachtronics' TIS-100\n<p>Article URL: <a href=\"https://tis-100.wincon.dev/\">https://tis-100.wincon.dev/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50448340\">https://news.ycombinator.com/item?id=50448340</a></p>\n<p>Points: 17</p>\n<p># Comments: 2</p>"
+      "published": "Wed, 11 Nov 2026 12:00:35 +0000",
+      "summary": "Tinfoil (YC P25) is hiring an applied AI security engineer in San Francisco\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50452404\">https://news.ycombinator.com/item?id=50452404</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>"
     },
     {
-      "title": "AI is an information gateway. Audiences still don't want it making their news",
-      "link": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/\">https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50448174\">https://news.ycombinator.com/item?id=50448174</a></p>\n<p>Points: 17</p>\n<p># Comments: 9</p>",
+      "title": "The Housing Market Is Nuts",
+      "link": "https://nuts.logical.li/",
+      "raw_summary": "<p>Article URL: <a href=\"https://nuts.logical.li/\">https://nuts.logical.li/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50451985\">https://news.ycombinator.com/item?id=50451985</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 11 Nov 2026 00:15:33 +0000",
-      "summary": "AI is an information gateway. Audiences still don't want it making their news\n<p>Article URL: <a href=\"https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/\">https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audi"
+      "published": "Wed, 11 Nov 2026 11:02:46 +0000",
+      "summary": "The Housing Market Is Nuts\n<p>Article URL: <a href=\"https://nuts.logical.li/\">https://nuts.logical.li/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50451985\">https://news.ycombinator.com/item?id=50451985</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>"
+    },
+    {
+      "title": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
+      "link": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
+      "raw_summary": "The governance experts we talked to say nobody has seen anything like what's unfolding right now.",
+      "source": "TechCrunch",
+      "published": "Wed, 11 Nov 2026 07:30:51 +0000",
+      "summary": "Nvidia’s crisis has corporate governance experts reaching for the popcorn\nThe governance experts we talked to say nobody has seen anything like what's unfolding right now."
     },
     {
       "title": "X launches its own clipping feature to spur influencer engagement",
@@ -153,14 +161,6 @@
       "source": "TechCrunch",
       "published": "Tue, 10 Nov 2026 20:47:05 +0000",
       "summary": "Proximal Ventures raises debut fund to back startups bringing AI to drug development\nFormer SignalFire investor Sahir Raoof raises $27.5 million for new fund targeting AI in pharma."
-    },
-    {
-      "title": "X-energy gets green light to build its first small modular nuclear reactors",
-      "link": "https://techcrunch.com/2026/11/10/x-energy-gets-green-light-to-build-its-first-small-modular-nuclear-reactors/",
-      "raw_summary": "X-energy received a construction permit from the U.S. Nuclear Regulatory Commission to build four reactors in Texas.",
-      "source": "TechCrunch",
-      "published": "Tue, 10 Nov 2026 20:43:55 +0000",
-      "summary": "X-energy gets green light to build its first small modular nuclear reactors\nX-energy received a construction permit from the U.S. Nuclear Regulatory Commission to build four reactors in Texas."
     },
     {
       "title": "Seagate's new hybrid drive raises some old questions",
@@ -203,124 +203,124 @@
       "summary": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI\nResearcher finds 35,000 Grok Build apps wide open to anyone who looked for them."
     },
     {
-      "title": "Toyota brings Japan’s tiny trucks that Trump loves to America",
-      "link": "https://www.ft.com/content/64d03218-063b-4972-bc69-5a1898899e22?syn-25a6b1a6=1",
-      "raw_summary": "World’s biggest carmaker to start selling ‘kei’ cars in US under revived Scion brand",
+      "title": "The wonderful shallowness of Andy Burnham",
+      "link": "https://www.ft.com/content/978493a9-7c1c-4ec6-9310-9d17b92acb12?syn-25a6b1a6=1",
+      "raw_summary": "He makes leftwing gestures to avoid taking leftwing action. Britain should thank its stars",
       "source": "World",
-      "published": "Wed, 11 Nov 2026 02:47:59 GMT",
-      "summary": "Toyota brings Japan’s tiny trucks that Trump loves to America\nWorld’s biggest carmaker to start selling ‘kei’ cars in US under revived Scion brand"
+      "published": "Wed, 11 Nov 2026 12:38:42 GMT",
+      "summary": "The wonderful shallowness of Andy Burnham\nHe makes leftwing gestures to avoid taking leftwing action. Britain should thank its stars"
     },
     {
-      "title": "Anthropic bankers prepare to increase IPO valuation to $1.5tn or more",
-      "link": "https://www.ft.com/content/68bcba57-0575-44ee-80f4-2e5ea23a431e?syn-25a6b1a6=1",
-      "raw_summary": "Claude maker’s listing price expected to rise after strong demand from investors",
+      "title": "US tech stocks set to extend rebound",
+      "link": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd?syn-25a6b1a6=1",
+      "raw_summary": "Sentiment boosted by better than expected CoreWeave results and the prospect of a higher IPO valuation for Anthropic",
       "source": "World",
-      "published": "Wed, 11 Nov 2026 00:27:38 GMT",
-      "summary": "Anthropic bankers prepare to increase IPO valuation to $1.5tn or more\nClaude maker’s listing price expected to rise after strong demand from investors"
+      "published": "Wed, 11 Nov 2026 12:36:14 GMT",
+      "summary": "US tech stocks set to extend rebound\nSentiment boosted by better than expected CoreWeave results and the prospect of a higher IPO valuation for Anthropic"
     },
     {
-      "title": "House blocks impeachment of US defence secretary Pete Hegseth",
-      "link": "https://www.ft.com/content/38100c3c-af0d-440b-8350-823c5e8c80d9?syn-25a6b1a6=1",
-      "raw_summary": "Congressional effort to unseat incumbent over conduct of Iran war fails at first hurdle",
+      "title": "Hundreds of schools across Italy, Scotland and Ireland receive bomb threats",
+      "link": "https://www.ft.com/content/7bbc0a5e-b7e2-4a3f-874f-a63de94e922d?syn-25a6b1a6=1",
+      "raw_summary": "Incidents appear to be latest co-ordinated attack aimed at disrupting life in Europe",
       "source": "World",
-      "published": "Wed, 11 Nov 2026 00:01:42 GMT",
-      "summary": "House blocks impeachment of US defence secretary Pete Hegseth\nCongressional effort to unseat incumbent over conduct of Iran war fails at first hurdle"
+      "published": "Wed, 11 Nov 2026 12:28:56 GMT",
+      "summary": "Hundreds of schools across Italy, Scotland and Ireland receive bomb threats\nIncidents appear to be latest co-ordinated attack aimed at disrupting life in Europe"
     },
     {
-      "title": "Embrace paper exams to combat AI cheating, warns UK universities regulator",
-      "link": "https://www.ft.com/content/2ada6998-26d2-4aab-89ad-11a50f0eb65a?syn-25a6b1a6=1",
-      "raw_summary": "Office for Students says technology poses ‘generational risk’ to sector’s integrity and reputation",
+      "title": "Eisen by Guzel Yakhina — the man behind the montage",
+      "link": "https://www.ft.com/content/52b69e5d-09f5-4ec4-9dec-e5e8681d8a07",
+      "raw_summary": "A fictionalised biography of Sergei Einstein turns the Soviet film-maker’s life into a study of art, censorship and psychological torment",
       "source": "World",
-      "published": "Wed, 11 Nov 2026 00:01:09 GMT",
-      "summary": "Embrace paper exams to combat AI cheating, warns UK universities regulator\nOffice for Students says technology poses ‘generational risk’ to sector’s integrity and reputation"
+      "published": "Wed, 11 Nov 2026 12:17:13 GMT",
+      "summary": "Eisen by Guzel Yakhina — the man behind the montage\nA fictionalised biography of Sergei Einstein turns the Soviet film-maker’s life into a study of art, censorship and psychological torment"
     },
     {
-      "title": "Senior US soldier arrested in UK on suspicion of spying for Russia",
-      "link": "https://www.ft.com/content/94aa4846-58c6-4c17-b25a-095f122b4809?syn-25a6b1a6=1",
-      "raw_summary": "British Counter Terrorism Policing’s investigation involves the FBI and American military",
+      "title": "FirstFT: Anthropic bankers prepare to increase IPO valuation to $1.5tn",
+      "link": "https://www.ft.com/content/cb451a27-481d-4106-b40f-4a83e3e361fd?syn-25a6b1a6=1",
+      "raw_summary": "Also in today’s newsletter: Hegseth survives impeachment vote and more on Alice Huang’s background",
       "source": "World",
-      "published": "Tue, 10 Nov 2026 23:36:56 GMT",
-      "summary": "Senior US soldier arrested in UK on suspicion of spying for Russia\nBritish Counter Terrorism Policing’s investigation involves the FBI and American military"
+      "published": "Wed, 11 Nov 2026 11:08:38 GMT",
+      "summary": "FirstFT: Anthropic bankers prepare to increase IPO valuation to $1.5tn\nAlso in today’s newsletter: Hegseth survives impeachment vote and more on Alice Huang’s background"
     },
     {
-      "title": "US Aim Is to De-Risk Not Decouple With China, Bessent Says",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-11/us-aim-is-to-de-risk-with-china-bessent-says-video",
-      "raw_summary": "US Treasury Secretary Scott Bessent, speaking in New York at the National Committee on United States-China Relations, said that the aim of the US is to de-risk, not de-couple from China. Bessent added that the US is working to establish a \"direct channel\" that will allow both nations to alert the other to incidents involving their “super intelligence” — or AI —  models. (Source: Bloomberg)",
+      "title": "Qatar’s Loss of Polish LNG Deal Is a Serious Blow to Expansion Plans",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-11-11/qatar-s-loss-of-polish-lng-deal-is-a-serious-blow-to-expansion-plans",
+      "raw_summary": "The Gulf state’s ambition to almost double its liquefied natural gas export capacity has suffered a major setback.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 11 Nov 2026 03:49:08 GMT",
-      "summary": "US Aim Is to De-Risk Not Decouple With China, Bessent Says\nUS Treasury Secretary Scott Bessent, speaking in New York at the National Committee on United States-China Relations, said that the aim of the US is to de-risk, not de-couple from China. Bessent added that the US is working to establish a \"d"
+      "published": "Wed, 11 Nov 2026 12:46:40 GMT",
+      "summary": "Qatar’s Loss of Polish LNG Deal Is a Serious Blow to Expansion Plans\nThe Gulf state’s ambition to almost double its liquefied natural gas export capacity has suffered a major setback."
     },
     {
-      "title": "Power Turbine Stocks Dip as SoftBank Loss Fuels Fears",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-10/power-turbine-stocks-dip-as-softbank-writedown-fuels-demand-fear",
-      "raw_summary": "Shares of power and equipment firms like GE Vernova Inc. and Bloom Energy Corp. fell on Tuesday after SoftBank Group Corp. wrote down $3.7 billion in data center projects.",
-      "source": "Bloomberg Markets",
-      "published": "Tue, 10 Nov 2026 15:48:25 GMT",
-      "summary": "Power Turbine Stocks Dip as SoftBank Loss Fuels Fears\nShares of power and equipment firms like GE Vernova Inc. and Bloom Energy Corp. fell on Tuesday after SoftBank Group Corp. wrote down $3.7 billion in data center projects."
-    },
-    {
-      "title": "Asian Stocks Climb for a Third Day, Bonds Slump: Markets Wrap",
+      "title": "US Stocks Rally as CoreWeave Reignites AI Trade: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-11-10/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "Asian stocks rose as optimism around the artificial intelligence trade persisted despite hotter-than-expected US inflation data that bolstered the case for the Federal Reserve to raise interest rates. Regional bonds slumped.",
+      "raw_summary": "Traders piled back into the artificial intelligence trade, lifting US stock futures following strong results from beaten-down neocloud firm CoreWeave Inc. and robust demand for Anthropic PBC’s initial public offering.",
       "source": "Bloomberg Markets",
       "published": "Tue, 10 Nov 2026 22:32:05 GMT",
-      "summary": "Asian Stocks Climb for a Third Day, Bonds Slump: Markets Wrap\nAsian stocks rose as optimism around the artificial intelligence trade persisted despite hotter-than-expected US inflation data that bolstered the case for the Federal Reserve to raise interest rates. Regional bonds slumped."
+      "summary": "US Stocks Rally as CoreWeave Reignites AI Trade: Markets Wrap\nTraders piled back into the artificial intelligence trade, lifting US stock futures following strong results from beaten-down neocloud firm CoreWeave Inc. and robust demand for Anthropic PBC’s initial public offering."
     },
     {
-      "title": "US Ambassador to China on US-China Relations",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-11/us-ambassador-to-china-on-us-china-relations-video",
-      "raw_summary": "David Perdue, US Ambassador to China, says relations with Beijing remain bumpy, but stresses that Washington wants to diversify rather than decouple from China. He speaks exclusively on the sidelines of the Citi China Conference in Shanghai. (Source: Bloomberg)",
+      "title": "VW Scraps Advanced Factory Plan in Blow to Made in Germany",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-11/vw-scraps-advanced-factory-plan-in-blow-to-made-in-germany",
+      "raw_summary": "Volkswagen AG is scrapping a major advanced-manufacturing project at its sprawling headquarter as falling profits force Europe’s biggest carmaker to rethink investment across its German factories.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 11 Nov 2026 03:20:30 GMT",
-      "summary": "US Ambassador to China on US-China Relations\nDavid Perdue, US Ambassador to China, says relations with Beijing remain bumpy, but stresses that Washington wants to diversify rather than decouple from China. He speaks exclusively on the sidelines of the Citi China Conference in Shanghai. (Source: Bloo"
+      "published": "Wed, 11 Nov 2026 12:22:44 GMT",
+      "summary": "VW Scraps Advanced Factory Plan in Blow to Made in Germany\nVolkswagen AG is scrapping a major advanced-manufacturing project at its sprawling headquarter as falling profits force Europe’s biggest carmaker to rethink investment across its German factories."
     },
     {
-      "title": "Korea Fines Bond Dealers Record $1.2 Billion Over Collusion",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-11/korea-fines-bond-dealers-record-1-2-billion-over-collusion",
-      "raw_summary": "South Korea’s antitrust regulator imposed a record 1.63 trillion won ($1.2 billion) fine on more than a dozen domestic banks and brokerages for colluding in government bond auctions over more than three years, following a yearlong investigation.",
+      "title": "AI Stocks Rally After Coreweave's Results; Treasury Market Closed",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-11/bloomberg-brief-11-11-2026-video",
+      "raw_summary": "US equity futures rise after Coreweave's strong results and robust demand for Anthropic's IPO. US Treasury futures fall after a hot inflation print fueled Fed rate-hike bets and fueled a spike in yields. Cash Treasury market is closed for Veterans Day holiday. Olaolu Aganga of Citi discusses the sustainability of the AI-driven tech rally. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Wed, 11 Nov 2026 03:00:00 GMT",
-      "summary": "Korea Fines Bond Dealers Record $1.2 Billion Over Collusion\nSouth Korea’s antitrust regulator imposed a record 1.63 trillion won ($1.2 billion) fine on more than a dozen domestic banks and brokerages for colluding in government bond auctions over more than three years, following a yearlong investiga"
+      "published": "Wed, 11 Nov 2026 12:19:50 GMT",
+      "summary": "AI Stocks Rally After Coreweave's Results; Treasury Market Closed\nUS equity futures rise after Coreweave's strong results and robust demand for Anthropic's IPO. US Treasury futures fall after a hot inflation print fueled Fed rate-hike bets and fueled a spike in yields. Cash Treasury market is closed"
     },
     {
-      "title": "Warren: What is White House doing to prevent a repeat of teleprompter's Trump bets?",
-      "link": "https://www.coindesk.com/policy/2026/11/10/warren-what-is-white-house-doing-to-prevent-a-repeat-of-teleprompter-s-trump-bets",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 10 Nov 2026 20:36:33 +0000",
-      "summary": "Warren: What is White House doing to prevent a repeat of teleprompter's Trump bets?\n"
+      "title": "Euro-Pound Options Turn Bullish as Traders Bet on Bigger Rebound",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-11/euro-pound-options-turn-bullish-as-traders-bet-on-bigger-rebound",
+      "raw_summary": "Options traders are positioning for a further rebound in the euro against sterling after a historically sharp selloff, betting the single currency has priced in too much risk around France.",
+      "source": "Bloomberg Markets",
+      "published": "Wed, 11 Nov 2026 12:06:15 GMT",
+      "summary": "Euro-Pound Options Turn Bullish as Traders Bet on Bigger Rebound\nOptions traders are positioning for a further rebound in the euro against sterling after a historically sharp selloff, betting the single currency has priced in too much risk around France."
     },
     {
-      "title": "Former NYSE president says stock issuers hold the key to tokenization as Bullish builds its platform",
-      "link": "https://www.coindesk.com/business/2026/11/10/former-nyse-president-says-stock-issuers-hold-the-key-to-tokenization-as-bullish-builds-its-platform",
+      "title": "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month",
+      "link": "https://www.coindesk.com/business/2026/11/10/okxice-to-debut-tokenized-stock-trading-with-strategy-coinbase-circle-this-month",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 10 Nov 2026 20:15:08 +0000",
-      "summary": "Former NYSE president says stock issuers hold the key to tokenization as Bullish builds its platform\n"
+      "published": "Wed, 11 Nov 2026 13:00:00 +0000",
+      "summary": "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month\n"
     },
     {
-      "title": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture",
-      "link": "https://www.coindesk.com/business/2026/11/10/goldman-sachs-citi-among-banks-said-to-commit-usd270-million-to-stablecoin-venture",
+      "title": "Meet Spiko, the largest tokenized fund in the world you’ve probably never heard about",
+      "link": "https://www.coindesk.com/business/2026/11/11/meet-spiko-the-largest-tokenized-fund-in-the-world-you-ve-probably-never-heard-about",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 10 Nov 2026 17:32:22 +0000",
-      "summary": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture\n"
+      "published": "Wed, 11 Nov 2026 12:57:36 +0000",
+      "summary": "Meet Spiko, the largest tokenized fund in the world you’ve probably never heard about\n"
     },
     {
-      "title": "Crypto is now teamed up with U.S. government in two legal battles over perps",
-      "link": "https://www.coindesk.com/news-analysis/2026/11/10/crypto-teams-up-with-u-s-government-to-defend-stock-perps-in-legal-fight",
+      "title": "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
+      "link": "https://www.coindesk.com/tech/2026/11/11/live-news-coreweave-jumps-14-as-earnings-fuel-rebound-across-battered-ai-stocks",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 10 Nov 2026 17:07:22 +0000",
-      "summary": "Crypto is now teamed up with U.S. government in two legal battles over perps\n"
+      "published": "Wed, 11 Nov 2026 12:21:24 +0000",
+      "summary": "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound\n"
     },
     {
-      "title": "Plume affiliate lands broker-dealer license to bring real U.S. assets onchain",
-      "link": "https://www.coindesk.com/markets/2026/11/10/emb-10-am-et-plume-affiliate-gets-the-legal-green-light-to-trade-regulated-security-entitlements-onchain",
+      "title": "Bitcoin barely flinches at hot CPI as ETF selling slows",
+      "link": "https://www.coindesk.com/daybook-us/2026/11/11/bitcoin-barely-flinches-at-hot-cpi-as-etf-selling-slows",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Tue, 10 Nov 2026 15:51:56 +0000",
-      "summary": "Plume affiliate lands broker-dealer license to bring real U.S. assets onchain\n"
+      "published": "Wed, 11 Nov 2026 12:19:30 +0000",
+      "summary": "Bitcoin barely flinches at hot CPI as ETF selling slows\n"
+    },
+    {
+      "title": "Bitcoin sits out stock rebound as ETF outflows extend to fourth day",
+      "link": "https://www.coindesk.com/markets/2026/11/11/bitcoin-sits-out-stock-rebound-as-etf-outflows-extend-to-fourth-day",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 11 Nov 2026 11:37:04 +0000",
+      "summary": "Bitcoin sits out stock rebound as ETF outflows extend to fourth day\n"
     }
   ]
 }
