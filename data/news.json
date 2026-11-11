@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-11-11T13:18:07.606137+00:00",
+  "generated_at": "2026-11-11T23:53:58.473386+00:00",
   "count": 40,
   "articles": [
+    {
+      "title": "Who Runs the Ransomware Group Qilin?",
+      "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+      "raw_summary": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational security mistakes, and the administrator of Qilin has made a few key missteps over the last decade that all point to a 36-year-old man living in St. Petersburg, Russia.",
+      "source": "Krebs on Security",
+      "published": "Wed, 11 Nov 2026 18:06:01 +0000",
+      "summary": "Who Runs the Ransomware Group Qilin?\nThe cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational security mistakes, and the administrator of Qi"
+    },
     {
       "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
       "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
@@ -35,12 +43,28 @@
       "summary": "Widespread PHP Flaw May Cause Many Site Outages Today\nExpect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected server"
     },
     {
-      "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
-      "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
-      "raw_summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources close to the investigation say one of the executives in the United States even helped ShinyHunters operate a website that pressured victims into paying a ransom.",
-      "source": "Krebs on Security",
-      "published": "Mon, 19 Oct 2026 13:48:56 +0000",
-      "summary": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site\nU.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations w"
+      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+      "link": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+      "raw_summary": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-108186 (CVSS score: 9.6) - An improper input validation vulnerability that could allow an unauthenticated user to conduct an escalation of privilege via",
+      "source": "The Hacker News",
+      "published": "Wed, 11 Nov 2026 21:42:46 +0530",
+      "summary": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation\nZoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems.\n\nThe vulnerabilities are"
+    },
+    {
+      "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+      "link": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+      "raw_summary": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments.\n\n\"In several recently observed intrusions, Alibaba Cloud systems hosting AntiFox interfaces were associated with confirmed malicious actions against",
+      "source": "The Hacker News",
+      "published": "Wed, 11 Nov 2026 21:04:27 +0530",
+      "summary": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets\nCybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot lateral"
+    },
+    {
+      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+      "link": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+      "raw_summary": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026.\n\nCynet's CyOps and Research teams said they identified the suspicious activity in October 2026 against several E.U.-based customers within a narrow window of just over three minutes.\n\nThe activity has been found to share some",
+      "source": "The Hacker News",
+      "published": "Wed, 11 Nov 2026 19:31:00 +0530",
+      "summary": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits\nThreat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026.\n\nCynet's CyOps and Research teams said the"
     },
     {
       "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
@@ -59,228 +83,212 @@
       "summary": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.\nWe tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. T"
     },
     {
-      "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
-      "link": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
-      "raw_summary": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys.\n\nEach intermediate CA has its own private key, which the company uses to sign the certificates it issues. The 8 intermediate CAs compromised in October had a different problem: a single line in the script",
-      "source": "The Hacker News",
-      "published": "Wed, 11 Nov 2026 17:30:53 +0530",
-      "summary": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise\nThe in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys.\n\nEach intermediate CA has its"
-    },
-    {
-      "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
-      "link": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
-      "raw_summary": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws.\n\nThese cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53 in Developer Tools, and 27 in SharePoint Server. The patches also include 165 non-Microsoft-issued CVE identifiers.",
-      "source": "The Hacker News",
-      "published": "Wed, 11 Nov 2026 13:47:53 +0530",
-      "summary": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes\nMicrosoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws.\n\nThese cover 726 flaw"
-    },
-    {
-      "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
-      "link": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
-      "raw_summary": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not refund them.\n\nThe company builds and runs apps for its customers and stores their secrets, such as API keys and database",
-      "source": "The Hacker News",
-      "published": "Wed, 11 Nov 2026 13:19:04 +0530",
-      "summary": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges\nAI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has"
-    },
-    {
-      "title": "Can a Linear Program Do Weight-Space Programming?",
-      "link": "https://nathan.rs/posts/weight-space-lp/",
-      "raw_summary": "<p>Article URL: <a href=\"https://nathan.rs/posts/weight-space-lp/\">https://nathan.rs/posts/weight-space-lp/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50452655\">https://news.ycombinator.com/item?id=50452655</a></p>\n<p>Points: 17</p>\n<p># Comments: 2</p>",
+      "title": "Modern Web Guidance 1.0: The web platform expertise your coding agent is missing",
+      "link": "https://developer.chrome.com/blog/modern-web-guidance-v1",
+      "raw_summary": "<p>Article URL: <a href=\"https://developer.chrome.com/blog/modern-web-guidance-v1\">https://developer.chrome.com/blog/modern-web-guidance-v1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50460398\">https://news.ycombinator.com/item?id=50460398</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 11 Nov 2026 12:30:17 +0000",
-      "summary": "Can a Linear Program Do Weight-Space Programming?\n<p>Article URL: <a href=\"https://nathan.rs/posts/weight-space-lp/\">https://nathan.rs/posts/weight-space-lp/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50452655\">https://news.ycombinator.com/item?id=50452655</a></p>\n<p>Poin"
+      "published": "Wed, 11 Nov 2026 23:22:29 +0000",
+      "summary": "Modern Web Guidance 1.0: The web platform expertise your coding agent is missing\n<p>Article URL: <a href=\"https://developer.chrome.com/blog/modern-web-guidance-v1\">https://developer.chrome.com/blog/modern-web-guidance-v1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50460398"
     },
     {
-      "title": "Next-Level Benchmarking Overfitting – Thomas Neumann",
-      "link": "http://databasearchitects.blogspot.com/2026/11/next-level-benchmarking-overfitting.html",
-      "raw_summary": "<p>Article URL: <a href=\"http://databasearchitects.blogspot.com/2026/11/next-level-benchmarking-overfitting.html\">http://databasearchitects.blogspot.com/2026/11/next-level-benchmarking-overfitting.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50452496\">https://news.ycombinator.com/item?id=50452496</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
+      "title": "A general purpose Apple Silicon layer for x86-64 PCs",
+      "link": "https://github.com/tylertms/Stela",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/tylertms/Stela\">https://github.com/tylertms/Stela</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50460154\">https://news.ycombinator.com/item?id=50460154</a></p>\n<p>Points: 5</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 11 Nov 2026 12:09:49 +0000",
-      "summary": "Next-Level Benchmarking Overfitting – Thomas Neumann\n<p>Article URL: <a href=\"http://databasearchitects.blogspot.com/2026/11/next-level-benchmarking-overfitting.html\">http://databasearchitects.blogspot.com/2026/11/next-level-benchmarking-overfitting.html</a></p>\n<p>Comments URL: <a href=\"https://new"
+      "published": "Wed, 11 Nov 2026 23:02:38 +0000",
+      "summary": "A general purpose Apple Silicon layer for x86-64 PCs\n<p>Article URL: <a href=\"https://github.com/tylertms/Stela\">https://github.com/tylertms/Stela</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50460154\">https://news.ycombinator.com/item?id=50460154</a></p>\n<p>Points: 5</p>\n<"
     },
     {
-      "title": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
-      "link": "https://pietromiotti.com/latest/maya-site/?maya",
-      "raw_summary": "<p>Article URL: <a href=\"https://pietromiotti.com/latest/maya-site/?maya\">https://pietromiotti.com/latest/maya-site/?maya</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50452455\">https://news.ycombinator.com/item?id=50452455</a></p>\n<p>Points: 48</p>\n<p># Comments: 13</p>",
+      "title": "Nvidia prepares to fire CEO Jensen Huang, WSJ reports",
+      "link": "https://twitter.com/watcherguru/status/2120645607866188008",
+      "raw_summary": "<p>Article URL: <a href=\"https://twitter.com/watcherguru/status/2120645607866188008\">https://twitter.com/watcherguru/status/2120645607866188008</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50459776\">https://news.ycombinator.com/item?id=50459776</a></p>\n<p>Points: 71</p>\n<p># Comments: 12</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 11 Nov 2026 12:05:22 +0000",
-      "summary": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h\n<p>Article URL: <a href=\"https://pietromiotti.com/latest/maya-site/?maya\">https://pietromiotti.com/latest/maya-site/?maya</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50452455\">https://news.yco"
+      "published": "Wed, 11 Nov 2026 22:36:35 +0000",
+      "summary": "Nvidia prepares to fire CEO Jensen Huang, WSJ reports\n<p>Article URL: <a href=\"https://twitter.com/watcherguru/status/2120645607866188008\">https://twitter.com/watcherguru/status/2120645607866188008</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50459776\">https://news.ycombina"
     },
     {
-      "title": "Tinfoil (YC P25) is hiring an applied AI security engineer in San Francisco",
-      "link": "https://news.ycombinator.com/item?id=50452404",
-      "raw_summary": "<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50452404\">https://news.ycombinator.com/item?id=50452404</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
+      "title": "93% of Paint Splatters Are Valid Perl Programs (2019)",
+      "link": "https://www.mcmillen.dev/sigbovik/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.mcmillen.dev/sigbovik/\">https://www.mcmillen.dev/sigbovik/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50459745\">https://news.ycombinator.com/item?id=50459745</a></p>\n<p>Points: 41</p>\n<p># Comments: 9</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 11 Nov 2026 12:00:35 +0000",
-      "summary": "Tinfoil (YC P25) is hiring an applied AI security engineer in San Francisco\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50452404\">https://news.ycombinator.com/item?id=50452404</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>"
+      "published": "Wed, 11 Nov 2026 22:34:23 +0000",
+      "summary": "93% of Paint Splatters Are Valid Perl Programs (2019)\n<p>Article URL: <a href=\"https://www.mcmillen.dev/sigbovik/\">https://www.mcmillen.dev/sigbovik/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50459745\">https://news.ycombinator.com/item?id=50459745</a></p>\n<p>Points: 41</"
     },
     {
-      "title": "The Housing Market Is Nuts",
-      "link": "https://nuts.logical.li/",
-      "raw_summary": "<p>Article URL: <a href=\"https://nuts.logical.li/\">https://nuts.logical.li/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50451985\">https://news.ycombinator.com/item?id=50451985</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
+      "title": "Lock Your GitHub Actions",
+      "link": "https://hugovk.dev/blog/2026/lock-github-actions/",
+      "raw_summary": "<p>Article URL: <a href=\"https://hugovk.dev/blog/2026/lock-github-actions/\">https://hugovk.dev/blog/2026/lock-github-actions/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50459485\">https://news.ycombinator.com/item?id=50459485</a></p>\n<p>Points: 59</p>\n<p># Comments: 12</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 11 Nov 2026 11:02:46 +0000",
-      "summary": "The Housing Market Is Nuts\n<p>Article URL: <a href=\"https://nuts.logical.li/\">https://nuts.logical.li/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50451985\">https://news.ycombinator.com/item?id=50451985</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>"
+      "published": "Wed, 11 Nov 2026 22:16:41 +0000",
+      "summary": "Lock Your GitHub Actions\n<p>Article URL: <a href=\"https://hugovk.dev/blog/2026/lock-github-actions/\">https://hugovk.dev/blog/2026/lock-github-actions/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50459485\">https://news.ycombinator.com/item?id=50459485</a></p>\n<p>Points: 59<"
     },
     {
-      "title": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
-      "link": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
-      "raw_summary": "The governance experts we talked to say nobody has seen anything like what's unfolding right now.",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "link": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "raw_summary": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
       "source": "TechCrunch",
-      "published": "Wed, 11 Nov 2026 07:30:51 +0000",
-      "summary": "Nvidia’s crisis has corporate governance experts reaching for the popcorn\nThe governance experts we talked to say nobody has seen anything like what's unfolding right now."
+      "published": "Wed, 11 Nov 2026 23:50:00 +0000",
+      "summary": "The unfolding Jensen Huang scandal: a timeline\nThe affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure."
     },
     {
-      "title": "X launches its own clipping feature to spur influencer engagement",
-      "link": "https://techcrunch.com/2026/11/10/x-launches-its-own-clipping-feature-to-spur-influencer-engagement/",
-      "raw_summary": "X is jumping into clipping, the popular practice of cutting long videos into short, shareable clips that can go viral.",
+      "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+      "link": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+      "raw_summary": "As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.",
       "source": "TechCrunch",
-      "published": "Wed, 11 Nov 2026 01:02:13 +0000",
-      "summary": "X launches its own clipping feature to spur influencer engagement\nX is jumping into clipping, the popular practice of cutting long videos into short, shareable clips that can go viral."
+      "published": "Wed, 11 Nov 2026 23:28:45 +0000",
+      "summary": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang\nAs soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years."
     },
     {
-      "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
-      "link": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
-      "raw_summary": "OpenAI has not yet said what its plans are for the future of travel. But Sonder founder Francis Davidson is a well-known figure in the travel industry.",
+      "title": "Jensen Huang accused of having another affair — with a Nvidia exec",
+      "link": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+      "raw_summary": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
       "source": "TechCrunch",
-      "published": "Tue, 10 Nov 2026 21:08:52 +0000",
-      "summary": "OpenAI acquires Odessia, travel startup created by Sonder founder\nOpenAI has not yet said what its plans are for the future of travel. But Sonder founder Francis Davidson is a well-known figure in the travel industry."
+      "published": "Wed, 11 Nov 2026 23:17:05 +0000",
+      "summary": "Jensen Huang accused of having another affair — with a Nvidia exec\nJensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate."
     },
     {
-      "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
-      "link": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
-      "raw_summary": "New York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines.",
+      "title": "Why the data center you dread might never even be built",
+      "link": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+      "raw_summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity.&#160;Before those challenges even come into play, though, there&#8217;s a more basic problem: A lot of the projects being announced may never get built in the first place.&#160;With billions of dollars in AI infrastructure [&#8230;]",
       "source": "TechCrunch",
-      "published": "Tue, 10 Nov 2026 20:52:13 +0000",
-      "summary": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect\nNew York is preparing to enforce its sweeping AI safety law, requiring major developers like OpenAI and Anthropic to register, disclose safety practices, and report critical incidents or face fines."
+      "published": "Wed, 11 Nov 2026 20:15:15 +0000",
+      "summary": "Why the data center you dread might never even be built\nThe data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity.&#160;Before those challenges even come into play, though, there&#8217;s a more basic proble"
     },
     {
-      "title": "Proximal Ventures raises debut fund to back startups bringing AI to drug development",
-      "link": "https://techcrunch.com/2026/11/10/proximal-ventures-raises-debut-fund-to-back-startups-bringing-ai-to-drug-development/",
-      "raw_summary": "Former SignalFire investor Sahir Raoof raises $27.5 million for new fund targeting AI in pharma.",
+      "title": "Meta is losing its longtime head of  infrastructure",
+      "link": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+      "raw_summary": "Santosh Janardhan, who originally joined the company in 2009, will be stepping down from his role.",
       "source": "TechCrunch",
-      "published": "Tue, 10 Nov 2026 20:47:05 +0000",
-      "summary": "Proximal Ventures raises debut fund to back startups bringing AI to drug development\nFormer SignalFire investor Sahir Raoof raises $27.5 million for new fund targeting AI in pharma."
+      "published": "Wed, 11 Nov 2026 20:12:01 +0000",
+      "summary": "Meta is losing its longtime head of  infrastructure\nSantosh Janardhan, who originally joined the company in 2009, will be stepping down from his role."
     },
     {
-      "title": "Seagate's new hybrid drive raises some old questions",
-      "link": "https://arstechnica.com/gadgets/2026/11/seagate-resurrects-the-ssd-hdd-hybrid-drive/",
-      "raw_summary": "The FireCuda Forge revisits an old idea, with some familiar questions.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 10 Nov 2026 23:30:56 +0000",
-      "summary": "Seagate's new hybrid drive raises some old questions\nThe FireCuda Forge revisits an old idea, with some familiar questions."
+      "title": "CEO Jensen Huang's job is suddenly on the line at Nvidia",
+      "link": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/",
+      "raw_summary": "The FBI is investigating as Nvidia’s board holds urgent talks over Huang’s future.",
+      "source": "Ars Technica",
+      "published": "Wed, 11 Nov 2026 23:10:17 +0000",
+      "summary": "CEO Jensen Huang's job is suddenly on the line at Nvidia\nThe FBI is investigating as Nvidia’s board holds urgent talks over Huang’s future."
     },
     {
-      "title": "The US military seems to be getting nervous about the launch supply crunch",
-      "link": "https://arstechnica.com/space/2026/11/the-us-military-seems-to-be-getting-nervous-about-the-launch-supply-crunch/",
-      "raw_summary": "\"Launch is extremely constrained and that is exactly the situation we predicted.\"",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 10 Nov 2026 23:02:39 +0000",
-      "summary": "The US military seems to be getting nervous about the launch supply crunch\n\"Launch is extremely constrained and that is exactly the situation we predicted.\""
+      "title": "T-Mobile illegally imposed 50GB cap on low-income home Internet plan, NY says",
+      "link": "https://arstechnica.com/tech-policy/2026/11/t-mobile-illegally-imposed-50-gb-cap-on-low-income-home-internet-plan-ny-says/",
+      "raw_summary": "Law requires 25Mbps home Internet. T-Mobile lowers speed to 600Kbps after 50GB cap.",
+      "source": "Ars Technica",
+      "published": "Wed, 11 Nov 2026 20:32:21 +0000",
+      "summary": "T-Mobile illegally imposed 50GB cap on low-income home Internet plan, NY says\nLaw requires 25Mbps home Internet. T-Mobile lowers speed to 600Kbps after 50GB cap."
     },
     {
-      "title": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
-      "link": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
-      "raw_summary": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 10 Nov 2026 22:35:01 +0000",
-      "summary": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot\nAmazon's roaming Ring Robotics devices will debut in late 2026 and early 2027."
+      "title": "Anduril says its first satellite can see adversaries maneuver in orbital night",
+      "link": "https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness/",
+      "raw_summary": "\"What's unique is it's got a huge dynamic range. We can see things in full dark.\"",
+      "source": "Ars Technica",
+      "published": "Wed, 11 Nov 2026 20:22:03 +0000",
+      "summary": "Anduril says its first satellite can see adversaries maneuver in orbital night\n\"What's unique is it's got a huge dynamic range. We can see things in full dark.\""
     },
     {
-      "title": "Democrats oppose plan to stack FCC with Republicans, plan probes of Chairman Carr",
-      "link": "https://arstechnica.com/tech-policy/2026/11/democrats-oppose-plan-to-stack-fcc-with-republicans-plan-probes-of-chairman-carr/",
-      "raw_summary": "Democrats accuse FCC nominee of evading questions about Carr, her current boss.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 10 Nov 2026 21:55:26 +0000",
-      "summary": "Democrats oppose plan to stack FCC with Republicans, plan probes of Chairman Carr\nDemocrats accuse FCC nominee of evading questions about Carr, her current boss."
+      "title": "NASA's secret weapon in the lunar space race may be ... procurement reform?",
+      "link": "https://arstechnica.com/space/2026/11/nasa-takes-an-all-hands-on-deck-approach-in-its-return-to-the-moon/",
+      "raw_summary": "\"The pace that's occurring, and the nature of the procurements, is unprecedented.\"",
+      "source": "Ars Technica",
+      "published": "Wed, 11 Nov 2026 19:00:26 +0000",
+      "summary": "NASA's secret weapon in the lunar space race may be ... procurement reform?\n\"The pace that's occurring, and the nature of the procurements, is unprecedented.\""
     },
     {
-      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
-      "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
-      "raw_summary": "Researcher finds 35,000 Grok Build apps wide open to anyone who looked for them.",
-      "source": "Ars Technica - All content",
-      "published": "Tue, 10 Nov 2026 21:12:59 +0000",
-      "summary": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI\nResearcher finds 35,000 Grok Build apps wide open to anyone who looked for them."
+      "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+      "link": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+      "raw_summary": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
+      "source": "Ars Technica",
+      "published": "Wed, 11 Nov 2026 18:16:40 +0000",
+      "summary": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI\nLatest example of the AI boom’s circular financing comes as AI trade wobbles."
     },
     {
-      "title": "The wonderful shallowness of Andy Burnham",
-      "link": "https://www.ft.com/content/978493a9-7c1c-4ec6-9310-9d17b92acb12?syn-25a6b1a6=1",
-      "raw_summary": "He makes leftwing gestures to avoid taking leftwing action. Britain should thank its stars",
+      "title": "Scott Colom wins historic Senate race in Mississippi",
+      "link": "https://www.ft.com/content/ed93bd25-3ae4-4845-ac2e-ccb6e9c741e6?syn-25a6b1a6=1",
+      "raw_summary": "Democrat becomes the first Black man to represent the state since Reconstruction era",
       "source": "World",
-      "published": "Wed, 11 Nov 2026 12:38:42 GMT",
-      "summary": "The wonderful shallowness of Andy Burnham\nHe makes leftwing gestures to avoid taking leftwing action. Britain should thank its stars"
+      "published": "Wed, 11 Nov 2026 23:49:57 GMT",
+      "summary": "Scott Colom wins historic Senate race in Mississippi\nDemocrat becomes the first Black man to represent the state since Reconstruction era"
     },
     {
-      "title": "US tech stocks set to extend rebound",
+      "title": "Nvidia board set to meet after revelations Huang had affair with top company executive",
+      "link": "https://www.ft.com/content/d3838274-a055-4d5d-a1ff-48f2979a08f0?syn-25a6b1a6=1",
+      "raw_summary": "Head of US chip giant comes under mounting pressure days after claims he had affair with alleged Chinese spy",
+      "source": "World",
+      "published": "Wed, 11 Nov 2026 22:56:26 GMT",
+      "summary": "Nvidia board set to meet after revelations Huang had affair with top company executive\nHead of US chip giant comes under mounting pressure days after claims he had affair with alleged Chinese spy"
+    },
+    {
+      "title": "ExxonMobil launches legal challenge to EU carbon capture rules",
+      "link": "https://www.ft.com/content/377d2ae5-112f-411f-bfc1-5e498948cb7b?syn-25a6b1a6=1",
+      "raw_summary": "US oil company invokes investment treaty to challenge Brussels’ green regulations and seek suspension of timing requirements",
+      "source": "World",
+      "published": "Wed, 11 Nov 2026 21:26:48 GMT",
+      "summary": "ExxonMobil launches legal challenge to EU carbon capture rules\nUS oil company invokes investment treaty to challenge Brussels’ green regulations and seek suspension of timing requirements"
+    },
+    {
+      "title": "Ukraine peace talks end with prisoner swap but no breakthrough",
+      "link": "https://www.ft.com/content/39254048-0d84-47b8-bb97-4b9d9e1f2b92?syn-25a6b1a6=1",
+      "raw_summary": "Discussions involving Kyiv as well as Russia and the US focus on postwar security guarantees",
+      "source": "World",
+      "published": "Wed, 11 Nov 2026 21:09:30 GMT",
+      "summary": "Ukraine peace talks end with prisoner swap but no breakthrough\nDiscussions involving Kyiv as well as Russia and the US focus on postwar security guarantees"
+    },
+    {
+      "title": "US tech stocks rally as AI trade revives",
       "link": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd?syn-25a6b1a6=1",
-      "raw_summary": "Sentiment boosted by better than expected CoreWeave results and the prospect of a higher IPO valuation for Anthropic",
+      "raw_summary": "Nasdaq erases last week’s losses as CoreWeave results and prospect of higher Anthropic IPO valuation boost sentiment",
       "source": "World",
-      "published": "Wed, 11 Nov 2026 12:36:14 GMT",
-      "summary": "US tech stocks set to extend rebound\nSentiment boosted by better than expected CoreWeave results and the prospect of a higher IPO valuation for Anthropic"
+      "published": "Wed, 11 Nov 2026 21:04:17 GMT",
+      "summary": "US tech stocks rally as AI trade revives\nNasdaq erases last week’s losses as CoreWeave results and prospect of higher Anthropic IPO valuation boost sentiment"
     },
     {
-      "title": "Hundreds of schools across Italy, Scotland and Ireland receive bomb threats",
-      "link": "https://www.ft.com/content/7bbc0a5e-b7e2-4a3f-874f-a63de94e922d?syn-25a6b1a6=1",
-      "raw_summary": "Incidents appear to be latest co-ordinated attack aimed at disrupting life in Europe",
-      "source": "World",
-      "published": "Wed, 11 Nov 2026 12:28:56 GMT",
-      "summary": "Hundreds of schools across Italy, Scotland and Ireland receive bomb threats\nIncidents appear to be latest co-ordinated attack aimed at disrupting life in Europe"
-    },
-    {
-      "title": "Eisen by Guzel Yakhina — the man behind the montage",
-      "link": "https://www.ft.com/content/52b69e5d-09f5-4ec4-9dec-e5e8681d8a07",
-      "raw_summary": "A fictionalised biography of Sergei Einstein turns the Soviet film-maker’s life into a study of art, censorship and psychological torment",
-      "source": "World",
-      "published": "Wed, 11 Nov 2026 12:17:13 GMT",
-      "summary": "Eisen by Guzel Yakhina — the man behind the montage\nA fictionalised biography of Sergei Einstein turns the Soviet film-maker’s life into a study of art, censorship and psychological torment"
-    },
-    {
-      "title": "FirstFT: Anthropic bankers prepare to increase IPO valuation to $1.5tn",
-      "link": "https://www.ft.com/content/cb451a27-481d-4106-b40f-4a83e3e361fd?syn-25a6b1a6=1",
-      "raw_summary": "Also in today’s newsletter: Hegseth survives impeachment vote and more on Alice Huang’s background",
-      "source": "World",
-      "published": "Wed, 11 Nov 2026 11:08:38 GMT",
-      "summary": "FirstFT: Anthropic bankers prepare to increase IPO valuation to $1.5tn\nAlso in today’s newsletter: Hegseth survives impeachment vote and more on Alice Huang’s background"
-    },
-    {
-      "title": "Qatar’s Loss of Polish LNG Deal Is a Serious Blow to Expansion Plans",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-11-11/qatar-s-loss-of-polish-lng-deal-is-a-serious-blow-to-expansion-plans",
-      "raw_summary": "The Gulf state’s ambition to almost double its liquefied natural gas export capacity has suffered a major setback.",
+      "title": "Pivotal Advisors CEO: Investors Should See AI as Part of Portfolio",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-11/mcghee-investors-should-see-ai-as-part-of-portfolio-video",
+      "raw_summary": "Tiffany McGhee, CEO and CIO of Pivotal Advisors, discusses last week’s sharp stock selloff and says AI demand remains strong, with hyperscalers reporting demand above supply and cloud growth accelerating. She speaks with Romaine Bostick and Vonnie Quinn on The Close before the news of Nvidia potentially ousting CEO Jensen Huang. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Wed, 11 Nov 2026 12:46:40 GMT",
-      "summary": "Qatar’s Loss of Polish LNG Deal Is a Serious Blow to Expansion Plans\nThe Gulf state’s ambition to almost double its liquefied natural gas export capacity has suffered a major setback."
+      "published": "Wed, 11 Nov 2026 23:48:05 GMT",
+      "summary": "Pivotal Advisors CEO: Investors Should See AI as Part of Portfolio\nTiffany McGhee, CEO and CIO of Pivotal Advisors, discusses last week’s sharp stock selloff and says AI demand remains strong, with hyperscalers reporting demand above supply and cloud growth accelerating. She speaks with Romaine Bost"
     },
     {
-      "title": "US Stocks Rally as CoreWeave Reignites AI Trade: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-10/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "Traders piled back into the artificial intelligence trade, lifting US stock futures following strong results from beaten-down neocloud firm CoreWeave Inc. and robust demand for Anthropic PBC’s initial public offering.",
+      "title": "US Stock Futures Fall as Nvidia Turmoil Deepens: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-11/stock-market-today-dow-s-p-live-updates",
+      "raw_summary": "US stock index futures fell after a report that Nvidia Corp.’s board was considering the removal of Chief Executive Officer Jensen Huang, tempering an earlier rally in technology shares.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 10 Nov 2026 22:32:05 GMT",
-      "summary": "US Stocks Rally as CoreWeave Reignites AI Trade: Markets Wrap\nTraders piled back into the artificial intelligence trade, lifting US stock futures following strong results from beaten-down neocloud firm CoreWeave Inc. and robust demand for Anthropic PBC’s initial public offering."
+      "published": "Wed, 11 Nov 2026 22:08:05 GMT",
+      "summary": "US Stock Futures Fall as Nvidia Turmoil Deepens: Markets Wrap\nUS stock index futures fell after a report that Nvidia Corp.’s board was considering the removal of Chief Executive Officer Jensen Huang, tempering an earlier rally in technology shares."
     },
     {
-      "title": "VW Scraps Advanced Factory Plan in Blow to Made in Germany",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-11/vw-scraps-advanced-factory-plan-in-blow-to-made-in-germany",
-      "raw_summary": "Volkswagen AG is scrapping a major advanced-manufacturing project at its sprawling headquarter as falling profits force Europe’s biggest carmaker to rethink investment across its German factories.",
+      "title": "Dana Telsey on the Future of Department Stores",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-11/dana-telsey-on-the-future-of-department-stores-video",
+      "raw_summary": "Dana Telsey, CEO and chief research officer of Telsey Advisory Group, says Nordstrom’s transition to private ownership was the right decision. Telsey points to improving business performance, a wider range of brands in stores, and faster growth at Nordstrom Rack. She speaks with Romaine Bostick on The Close. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Wed, 11 Nov 2026 12:22:44 GMT",
-      "summary": "VW Scraps Advanced Factory Plan in Blow to Made in Germany\nVolkswagen AG is scrapping a major advanced-manufacturing project at its sprawling headquarter as falling profits force Europe’s biggest carmaker to rethink investment across its German factories."
+      "published": "Wed, 11 Nov 2026 23:35:13 GMT",
+      "summary": "Dana Telsey on the Future of Department Stores\nDana Telsey, CEO and chief research officer of Telsey Advisory Group, says Nordstrom’s transition to private ownership was the right decision. Telsey points to improving business performance, a wider range of brands in stores, and faster growth at Nords"
     },
     {
-      "title": "AI Stocks Rally After Coreweave's Results; Treasury Market Closed",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-11/bloomberg-brief-11-11-2026-video",
-      "raw_summary": "US equity futures rise after Coreweave's strong results and robust demand for Anthropic's IPO. US Treasury futures fall after a hot inflation print fueled Fed rate-hike bets and fueled a spike in yields. Cash Treasury market is closed for Veterans Day holiday. Olaolu Aganga of Citi discusses the sustainability of the AI-driven tech rally. (Source: Bloomberg)",
+      "title": "Nvidia Falls as Investors Consider Future Without CEO Huang",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-11/nvidia-tumbles-as-investors-consider-future-without-ceo-huang",
+      "raw_summary": "Nvidia Corp. stock sank in extended trading Wednesday as investors grappled with the possibility of the company without Chief Executive Officer Jensen Huang at the helm.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 11 Nov 2026 12:19:50 GMT",
-      "summary": "AI Stocks Rally After Coreweave's Results; Treasury Market Closed\nUS equity futures rise after Coreweave's strong results and robust demand for Anthropic's IPO. US Treasury futures fall after a hot inflation print fueled Fed rate-hike bets and fueled a spike in yields. Cash Treasury market is closed"
+      "published": "Wed, 11 Nov 2026 22:48:40 GMT",
+      "summary": "Nvidia Falls as Investors Consider Future Without CEO Huang\nNvidia Corp. stock sank in extended trading Wednesday as investors grappled with the possibility of the company without Chief Executive Officer Jensen Huang at the helm."
     },
     {
-      "title": "Euro-Pound Options Turn Bullish as Traders Bet on Bigger Rebound",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-11/euro-pound-options-turn-bullish-as-traders-bet-on-bigger-rebound",
-      "raw_summary": "Options traders are positioning for a further rebound in the euro against sterling after a historically sharp selloff, betting the single currency has priced in too much risk around France.",
+      "title": "Latest Oil Market News and Analysis for Nov. 12",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-11/latest-oil-market-news-and-analysis-for-nov-12",
+      "raw_summary": "Oil steadied as hostilities between Iran and the US remained muted with no indication of progress in peace talks.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 11 Nov 2026 12:06:15 GMT",
-      "summary": "Euro-Pound Options Turn Bullish as Traders Bet on Bigger Rebound\nOptions traders are positioning for a further rebound in the euro against sterling after a historically sharp selloff, betting the single currency has priced in too much risk around France."
+      "published": "Wed, 11 Nov 2026 23:04:06 GMT",
+      "summary": "Latest Oil Market News and Analysis for Nov. 12\nOil steadied as hostilities between Iran and the US remained muted with no indication of progress in peace talks."
+    },
+    {
+      "title": "Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/11/11/crypto-long-and-short-the-genius-act-s-guarantees-don-t-cover-defi-lending",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 11 Nov 2026 16:00:45 +0000",
+      "summary": "Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending\n"
     },
     {
       "title": "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month",
@@ -313,14 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Wed, 11 Nov 2026 12:19:30 +0000",
       "summary": "Bitcoin barely flinches at hot CPI as ETF selling slows\n"
-    },
-    {
-      "title": "Bitcoin sits out stock rebound as ETF outflows extend to fourth day",
-      "link": "https://www.coindesk.com/markets/2026/11/11/bitcoin-sits-out-stock-rebound-as-etf-outflows-extend-to-fourth-day",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 11 Nov 2026 11:37:04 +0000",
-      "summary": "Bitcoin sits out stock rebound as ETF outflows extend to fourth day\n"
     }
   ]
 }
