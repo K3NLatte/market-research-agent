@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T05:07:01.079505+00:00",
+  "generated_at": "2026-11-12T14:22:03.076954+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,84 +43,100 @@
       "summary": "Widespread PHP Flaw May Cause Many Site Outages Today\nExpect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected server"
     },
     {
-      "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
-      "link": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
-      "raw_summary": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access.\n\nIn an advisory posted on its site, the company said there is no evidence that the incident involves a compromise of its infrastructure or a vulnerability in the ScreenConnect software.\n\n\"Our initial assessment suggests the activity may involve",
+      "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+      "link": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+      "raw_summary": "Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week.\n\nThe company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws may let an attacker with code on the same processor core infer data from other processes or the kernel.\n\nThe affected",
       "source": "The Hacker News",
-      "published": "Thu, 12 Nov 2026 10:09:48 +0530",
-      "summary": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients\nConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access.\n\nIn an advisory posted on its site, the company said "
+      "published": "Thu, 12 Nov 2026 17:39:14 +0530",
+      "summary": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs\nGoogle Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week.\n\nThe company has already applied mitigations against attacks bet"
     },
     {
-      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-      "link": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
-      "raw_summary": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-108186 (CVSS score: 9.6) - An improper input validation vulnerability that could allow an unauthenticated user to conduct an escalation of privilege via",
+      "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
+      "link": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
+      "raw_summary": "Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind this activity, and what can they access?\n\nA suspicious login might belong to an employee. An unusual API call could come from a machine account. Or an AI agent might be accessing sensitive systems using permissions nobody",
       "source": "The Hacker News",
-      "published": "Wed, 11 Nov 2026 21:42:46 +0530",
-      "summary": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation\nZoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems.\n\nThe vulnerabilities are"
+      "published": "Thu, 12 Nov 2026 17:32:51 +0530",
+      "summary": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them\nSecurity teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind this activity, and what can they access?\n\nA"
     },
     {
-      "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
-      "link": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
-      "raw_summary": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments.\n\n\"In several recently observed intrusions, Alibaba Cloud systems hosting AntiFox interfaces were associated with confirmed malicious actions against",
+      "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
+      "link": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+      "raw_summary": "N-able on Thursday said it's investigating a new public disclosure containing claims of additional vulnerabilities in on-premise versions of N-central running version 2026.4.1 HF2.\n\n\"Based on our initial review, the server issue described depends on a non-default configuration in which the Legacy API is turned on and exposed to the public internet,\" N-able said in a new advisory. \"Legacy API is",
       "source": "The Hacker News",
-      "published": "Wed, 11 Nov 2026 21:04:27 +0530",
-      "summary": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets\nCybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot lateral"
+      "published": "Thu, 12 Nov 2026 17:21:43 +0530",
+      "summary": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access\nN-able on Thursday said it's investigating a new public disclosure containing claims of additional vulnerabilities in on-premise versions of N-central running version 2026.4.1 HF2.\n\n\"Based on our initial r"
     },
     {
-      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
-      "link": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
-      "raw_summary": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026.\n\nCynet's CyOps and Research teams said they identified the suspicious activity in October 2026 against several E.U.-based customers within a narrow window of just over three minutes.\n\nThe activity has been found to share some",
+      "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
+      "link": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
+      "raw_summary": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on purpose.\n\nThe Threat Research team at Material Security spotted the campaign and has since taken down hundreds of attacker domains in an effort the team calls Operation CloudFire.",
       "source": "The Hacker News",
-      "published": "Wed, 11 Nov 2026 19:31:00 +0530",
-      "summary": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits\nThreat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026.\n\nCynet's CyOps and Research teams said the"
+      "published": "Thu, 12 Nov 2026 17:21:31 +0530",
+      "summary": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign\nSince mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on purp"
     },
     {
-      "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
-      "link": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
-      "raw_summary": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday.\n\nThey included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the Grok AI assistant. Most of the open apps were games, landing pages, and calculators, but about 1 in 10 contained internal business or",
+      "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+      "link": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+      "raw_summary": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution.\n\nThe security flaw, tracked as CVE-2026-126325, carries a CVSS v4 score of 9.2 out of a maximum of 10.0.\n\nIt has been described as a case of improper input validation and deserialization of untrusted data that could result in",
       "source": "The Hacker News",
-      "published": "Wed, 11 Nov 2026 17:49:40 +0530",
-      "summary": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords\nOf the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday.\n\nThey included 24 apps built by staff at the social network "
+      "published": "Thu, 12 Nov 2026 17:03:15 +0530",
+      "summary": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution\nPTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution.\n\nThe security flaw, tracked as CVE-2026-1"
     },
     {
-      "title": "Darling Development Update – Q4 2026",
-      "link": "https://blog.darlinghq.org/2026/11/08/development-update-q4-2026/",
-      "raw_summary": "<p>Article URL: <a href=\"https://blog.darlinghq.org/2026/11/08/development-update-q4-2026/\">https://blog.darlinghq.org/2026/11/08/development-update-q4-2026/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50463103\">https://news.ycombinator.com/item?id=50463103</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>",
+      "title": "Nvidia CEO Jensen Huang resigns after reports of extramarital relationships",
+      "link": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402\">https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50467191\">https://news.ycombinator.com/item?id=50467191</a></p>\n<p>Points: 11</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 12 Nov 2026 04:32:31 +0000",
-      "summary": "Darling Development Update – Q4 2026\n<p>Article URL: <a href=\"https://blog.darlinghq.org/2026/11/08/development-update-q4-2026/\">https://blog.darlinghq.org/2026/11/08/development-update-q4-2026/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50463103\">https://news.ycombinator"
+      "published": "Thu, 12 Nov 2026 14:00:54 +0000",
+      "summary": "Nvidia CEO Jensen Huang resigns after reports of extramarital relationships\n<p>Article URL: <a href=\"https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402\">https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-ex"
     },
     {
-      "title": "Lean Grimoire",
-      "link": "https://terrytao.wordpress.com/2026/11/11/lean-grimoire/",
-      "raw_summary": "<p>Article URL: <a href=\"https://terrytao.wordpress.com/2026/11/11/lean-grimoire/\">https://terrytao.wordpress.com/2026/11/11/lean-grimoire/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50462375\">https://news.ycombinator.com/item?id=50462375</a></p>\n<p>Points: 17</p>\n<p># Comments: 3</p>",
+      "title": "Nvidia CEO Jensen Huang resigns after reports of second affair deepened scandal",
+      "link": "https://www.bbc.co.uk/news/live/c6zjry11v8w1t",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.bbc.co.uk/news/live/c6zjry11v8w1t\">https://www.bbc.co.uk/news/live/c6zjry11v8w1t</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50467139\">https://news.ycombinator.com/item?id=50467139</a></p>\n<p>Points: 41</p>\n<p># Comments: 11</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 12 Nov 2026 02:36:48 +0000",
-      "summary": "Lean Grimoire\n<p>Article URL: <a href=\"https://terrytao.wordpress.com/2026/11/11/lean-grimoire/\">https://terrytao.wordpress.com/2026/11/11/lean-grimoire/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50462375\">https://news.ycombinator.com/item?id=50462375</a></p>\n<p>Points: "
+      "published": "Thu, 12 Nov 2026 13:56:38 +0000",
+      "summary": "Nvidia CEO Jensen Huang resigns after reports of second affair deepened scandal\n<p>Article URL: <a href=\"https://www.bbc.co.uk/news/live/c6zjry11v8w1t\">https://www.bbc.co.uk/news/live/c6zjry11v8w1t</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50467139\">https://news.ycombina"
     },
     {
-      "title": "Critical RCE Vulnerability in Apache HTTP Server",
-      "link": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability\">https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50462177\">https://news.ycombinator.com/item?id=50462177</a></p>\n<p>Points: 63</p>\n<p># Comments: 28</p>",
+      "title": "Jensen Huang resigns as Nvidia CEO immediately",
+      "link": "https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/\">https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50467132\">https://news.ycombinator.com/item?id=50467132</a></p>\n<p>Points: 77</p>\n<p># Comments: 28</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 12 Nov 2026 02:11:11 +0000",
-      "summary": "Critical RCE Vulnerability in Apache HTTP Server\n<p>Article URL: <a href=\"https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability\">https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id="
+      "published": "Thu, 12 Nov 2026 13:56:11 +0000",
+      "summary": "Jensen Huang resigns as Nvidia CEO immediately\n<p>Article URL: <a href=\"https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/\">https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/</a></p>\n<p>"
     },
     {
-      "title": "A general purpose Apple Silicon layer for x86-64 PCs",
-      "link": "https://github.com/tylertms/Stela",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/tylertms/Stela\">https://github.com/tylertms/Stela</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50460154\">https://news.ycombinator.com/item?id=50460154</a></p>\n<p>Points: 83</p>\n<p># Comments: 34</p>",
+      "title": "Jensen Huang resigning effective immediately",
+      "link": "https://www.stocktitan.net/news/NVDA/nvidia-announces-ceo-03al5m45ne1p.html",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.stocktitan.net/news/NVDA/nvidia-announces-ceo-03al5m45ne1p.html\">https://www.stocktitan.net/news/NVDA/nvidia-announces-ceo-03al5m45ne1p.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50467092\">https://news.ycombinator.com/item?id=50467092</a></p>\n<p>Points: 15</p>\n<p># Comments: 14</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 11 Nov 2026 23:02:38 +0000",
-      "summary": "A general purpose Apple Silicon layer for x86-64 PCs\n<p>Article URL: <a href=\"https://github.com/tylertms/Stela\">https://github.com/tylertms/Stela</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50460154\">https://news.ycombinator.com/item?id=50460154</a></p>\n<p>Points: 83</p>\n"
+      "published": "Thu, 12 Nov 2026 13:52:48 +0000",
+      "summary": "Jensen Huang resigning effective immediately\n<p>Article URL: <a href=\"https://www.stocktitan.net/news/NVDA/nvidia-announces-ceo-03al5m45ne1p.html\">https://www.stocktitan.net/news/NVDA/nvidia-announces-ceo-03al5m45ne1p.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=504670"
     },
     {
-      "title": "93% of paint splatters are valid Perl programs (2019)",
-      "link": "https://www.mcmillen.dev/sigbovik/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.mcmillen.dev/sigbovik/\">https://www.mcmillen.dev/sigbovik/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50459745\">https://news.ycombinator.com/item?id=50459745</a></p>\n<p>Points: 272</p>\n<p># Comments: 37</p>",
+      "title": "NVIDIA Announces CEO Transition",
+      "link": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "raw_summary": "<p>Article URL: <a href=\"https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition\">https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50467087\">https://news.ycombinator.com/item?id=50467087</a></p>\n<p>Points: 387</p>\n<p># Comments: 267</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 11 Nov 2026 22:34:23 +0000",
-      "summary": "93% of paint splatters are valid Perl programs (2019)\n<p>Article URL: <a href=\"https://www.mcmillen.dev/sigbovik/\">https://www.mcmillen.dev/sigbovik/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50459745\">https://news.ycombinator.com/item?id=50459745</a></p>\n<p>Points: 272<"
+      "published": "Thu, 12 Nov 2026 13:52:29 +0000",
+      "summary": "NVIDIA Announces CEO Transition\n<p>Article URL: <a href=\"https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition\">https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50467087\">https://news.ycombinator.co"
+    },
+    {
+      "title": "Nvidia’s Jensen Huang resigns, chipmaker names CFO Colette Kress as interim CEO",
+      "link": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
+      "raw_summary": "Nvidia gets a new chief executive, days after former CEO Jensen Huang admitted to a romantic affair with an alleged Chinese spy.",
+      "source": "TechCrunch",
+      "published": "Thu, 12 Nov 2026 14:10:34 +0000",
+      "summary": "Nvidia’s Jensen Huang resigns, chipmaker names CFO Colette Kress as interim CEO\nNvidia gets a new chief executive, days after former CEO Jensen Huang admitted to a romantic affair with an alleged Chinese spy."
+    },
+    {
+      "title": "Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition",
+      "link": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition/",
+      "raw_summary": "The startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine are looking to enter the US.",
+      "source": "TechCrunch",
+      "published": "Thu, 12 Nov 2026 13:26:25 +0000",
+      "summary": "Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition\nThe startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine are looking to enter the US."
     },
     {
       "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
@@ -147,28 +163,28 @@
       "summary": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang\nAs soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years."
     },
     {
-      "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
-      "link": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
-      "raw_summary": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
-      "source": "TechCrunch",
-      "published": "Wed, 11 Nov 2026 23:17:05 +0000",
-      "summary": "Jensen Huang accused of having another affair — with an Nvidia exec\nJensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate."
-    },
-    {
-      "title": "Why the data center you dread might never even be built",
-      "link": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
-      "raw_summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity.&#160;Before those challenges even come into play, though, there&#8217;s a more basic problem: A lot of the projects being announced may never get built in the first place.&#160;With billions of dollars in AI infrastructure [&#8230;]",
-      "source": "TechCrunch",
-      "published": "Wed, 11 Nov 2026 20:15:15 +0000",
-      "summary": "Why the data center you dread might never even be built\nThe data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity.&#160;Before those challenges even come into play, though, there&#8217;s a more basic proble"
-    },
-    {
-      "title": "CEO Jensen Huang's job is suddenly on the line at Nvidia",
+      "title": "Nvidia CEO Jensen Huang has resigned",
       "link": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/",
       "raw_summary": "The FBI is investigating as Nvidia’s board holds urgent talks over Huang’s future.",
       "source": "Ars Technica",
-      "published": "Wed, 11 Nov 2026 23:10:17 +0000",
-      "summary": "CEO Jensen Huang's job is suddenly on the line at Nvidia\nThe FBI is investigating as Nvidia’s board holds urgent talks over Huang’s future."
+      "published": "Thu, 12 Nov 2026 14:05:17 +0000",
+      "summary": "Nvidia CEO Jensen Huang has resigned\nThe FBI is investigating as Nvidia’s board holds urgent talks over Huang’s future."
+    },
+    {
+      "title": "Hundreds of streaming services and nothing to watch",
+      "link": "https://arstechnica.com/gadgets/2026/11/hundreds-of-streaming-services-and-nothing-to-watch/",
+      "raw_summary": "Most viewers wish there was a TV Guide for streaming.",
+      "source": "Ars Technica",
+      "published": "Thu, 12 Nov 2026 14:00:19 +0000",
+      "summary": "Hundreds of streaming services and nothing to watch\nMost viewers wish there was a TV Guide for streaming."
+    },
+    {
+      "title": "Review: Apple's M6 iMac is pricey, but it's still a good choice for a clean desk",
+      "link": "https://arstechnica.com/features/2026/11/review-apples-m6-imac-is-pricey-but-its-still-a-good-choice-for-a-clean-desk/",
+      "raw_summary": "Apple's M6 keeps the iMac current without shaking things up much.",
+      "source": "Ars Technica",
+      "published": "Thu, 12 Nov 2026 12:00:37 +0000",
+      "summary": "Review: Apple's M6 iMac is pricey, but it's still a good choice for a clean desk\nApple's M6 keeps the iMac current without shaking things up much."
     },
     {
       "title": "T-Mobile illegally imposed 50GB cap on low-income home Internet plan, NY says",
@@ -187,140 +203,124 @@
       "summary": "Anduril says its first satellite can see adversaries maneuver in orbital night\n\"What's unique is it's got a huge dynamic range. We can see things in full dark.\""
     },
     {
-      "title": "NASA's secret weapon in the lunar space race may be ... procurement reform?",
-      "link": "https://arstechnica.com/space/2026/11/nasa-takes-an-all-hands-on-deck-approach-in-its-return-to-the-moon/",
-      "raw_summary": "\"The pace that's occurring, and the nature of the procurements, is unprecedented.\"",
-      "source": "Ars Technica",
-      "published": "Wed, 11 Nov 2026 19:00:26 +0000",
-      "summary": "NASA's secret weapon in the lunar space race may be ... procurement reform?\n\"The pace that's occurring, and the nature of the procurements, is unprecedented.\""
-    },
-    {
-      "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
-      "link": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
-      "raw_summary": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
-      "source": "Ars Technica",
-      "published": "Wed, 11 Nov 2026 18:16:40 +0000",
-      "summary": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI\nLatest example of the AI boom’s circular financing comes as AI trade wobbles."
-    },
-    {
-      "title": "China warns of ‘severe’ punishment for offshore trust tax evaders",
-      "link": "https://www.ft.com/content/278528e2-dd2d-4020-853d-2a7a9d49a359?syn-25a6b1a6=1",
-      "raw_summary": "Revenue from personal income tax jumps 90 per cent as scrutiny tightens over the country’s wealthiest",
+      "title": "China warns US not to use Nvidia scandal as pretext for tech curbs",
+      "link": "https://www.ft.com/content/66e7337e-3696-4259-84f4-57533bc185bd?syn-25a6b1a6=1",
+      "raw_summary": "Beijing accuses US of fabricating ‘espionage narratives’ that ultimately forced resignation of co-founder Jensen Huang",
       "source": "World",
-      "published": "Thu, 12 Nov 2026 02:55:28 GMT",
-      "summary": "China warns of ‘severe’ punishment for offshore trust tax evaders\nRevenue from personal income tax jumps 90 per cent as scrutiny tightens over the country’s wealthiest"
+      "published": "Thu, 12 Nov 2026 14:17:47 GMT",
+      "summary": "China warns US not to use Nvidia scandal as pretext for tech curbs\nBeijing accuses US of fabricating ‘espionage narratives’ that ultimately forced resignation of co-founder Jensen Huang"
     },
     {
-      "title": "Investing in America",
-      "link": "https://www.ft.com/reports/investing-america?syn-25a6b1a6=1",
-      "raw_summary": "The fifth annual FT-Nikkei Investing in America report: How the US has received only a fraction of investment from Asian partners in deals to lower tariffs; AI jitters in the wake of the midterms and how overseas companies are pouring money into US manufacturing",
+      "title": "Trump threatens to double tariffs on Mexico over illegal immigration",
+      "link": "https://www.ft.com/content/b4bb6e99-97c8-4392-a227-b7b74853ba26?syn-25a6b1a6=1",
+      "raw_summary": "US president says levies will increase if trade partner does nothing to stop illegal crossings",
       "source": "World",
-      "published": "Thu, 12 Nov 2026 01:26:48 GMT",
-      "summary": "Investing in America\nThe fifth annual FT-Nikkei Investing in America report: How the US has received only a fraction of investment from Asian partners in deals to lower tariffs; AI jitters in the wake of the midterms and how overseas companies are pouring money into US manufacturing"
+      "published": "Thu, 12 Nov 2026 14:12:20 GMT",
+      "summary": "Trump threatens to double tariffs on Mexico over illegal immigration\nUS president says levies will increase if trade partner does nothing to stop illegal crossings"
     },
     {
-      "title": "Nvidia board to decide Jensen Huang’s fate after revelation of affair with subordinate",
-      "link": "https://www.ft.com/content/d3838274-a055-4d5d-a1ff-48f2979a08f0?syn-25a6b1a6=1",
-      "raw_summary": "Head of US chip giant comes under mounting pressure days after claims he had affair with alleged Chinese spy",
+      "title": "Top Democrat to launch sweeping probe of Trump and his allies",
+      "link": "https://www.ft.com/content/ea6c8ce6-3144-4554-ab41-c752d1dad49e?syn-25a6b1a6=1",
+      "raw_summary": "Also in today’s newsletter, Jensen Huang resigns as Nvidia chief executive",
       "source": "World",
-      "published": "Thu, 12 Nov 2026 01:13:24 GMT",
-      "summary": "Nvidia board to decide Jensen Huang’s fate after revelation of affair with subordinate\nHead of US chip giant comes under mounting pressure days after claims he had affair with alleged Chinese spy"
+      "published": "Thu, 12 Nov 2026 14:05:07 GMT",
+      "summary": "Top Democrat to launch sweeping probe of Trump and his allies\nAlso in today’s newsletter, Jensen Huang resigns as Nvidia chief executive"
     },
     {
-      "title": "Money pours into US manufacturing from overseas companies",
-      "link": "https://www.ft.com/content/0b32f2c4-3e47-46ec-90ee-94194d2c3e3f?syn-25a6b1a6=1",
-      "raw_summary": "Inflation, skills shortages and unpredictable policies on tariffs and war have made life difficult for businesses even in sectors enjoying surging demand",
+      "title": "Ukraine says Starlink restrictions are back as US envoys land in Moscow",
+      "link": "https://www.ft.com/content/6cd890f1-2e4d-468a-807f-529f45e1678e?syn-25a6b1a6=1",
+      "raw_summary": "Army struggles to intercept Russian jet-powered drones, just as Steve Witkoff and Jared Kushner meet Vladimir Putin",
       "source": "World",
-      "published": "Thu, 12 Nov 2026 01:00:02 GMT",
-      "summary": "Money pours into US manufacturing from overseas companies\nInflation, skills shortages and unpredictable policies on tariffs and war have made life difficult for businesses even in sectors enjoying surging demand"
+      "published": "Thu, 12 Nov 2026 12:46:59 GMT",
+      "summary": "Ukraine says Starlink restrictions are back as US envoys land in Moscow\nArmy struggles to intercept Russian jet-powered drones, just as Steve Witkoff and Jared Kushner meet Vladimir Putin"
     },
     {
-      "title": "Surging US economy defies worries over turbulent Trump",
-      "link": "https://www.ft.com/content/51fb0811-982a-4c7b-8d87-f85cd9008f3b?syn-25a6b1a6=1",
-      "raw_summary": "World’s largest economy fires on all cylinders — but technology sell-off underlines precarious nature of AI-driven boom",
+      "title": "Britain’s Brexit towns are being left behind again",
+      "link": "https://www.ft.com/content/ac85c171-d2d6-4fa1-ab51-b36e3f271748?syn-25a6b1a6=1",
+      "raw_summary": "Burnham’s strategy will lead to growth in major cities and their regions — but not in every postcode",
       "source": "World",
-      "published": "Thu, 12 Nov 2026 01:00:02 GMT",
-      "summary": "Surging US economy defies worries over turbulent Trump\nWorld’s largest economy fires on all cylinders — but technology sell-off underlines precarious nature of AI-driven boom"
+      "published": "Thu, 12 Nov 2026 12:40:46 GMT",
+      "summary": "Britain’s Brexit towns are being left behind again\nBurnham’s strategy will lead to growth in major cities and their regions — but not in every postcode"
     },
     {
-      "title": "Stock Rally Falters on Nvidia Concerns, Oil Drops: Markets Wrap",
+      "title": "Oil Rises After Trump Says the US Doesn’t Need a Deal With Iran",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-12/oil-jumps-after-trump-says-us-doesn-t-need-deal-with-iran",
+      "raw_summary": "Oil rose after President Donald Trump said that the US doesn’t need a deal with Iran, dimming prospects for a breakthrough to end the war that has roiled Middle East supplies.",
+      "source": "Bloomberg Markets",
+      "published": "Thu, 12 Nov 2026 13:14:35 GMT",
+      "summary": "Oil Rises After Trump Says the US Doesn’t Need a Deal With Iran\nOil rose after President Donald Trump said that the US doesn’t need a deal with Iran, dimming prospects for a breakthrough to end the war that has roiled Middle East supplies."
+    },
+    {
+      "title": "Paraguay on Watch for Downgrade at Fitch After Bank Collapse",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-11/paraguay-on-watch-for-downgrade-at-fitch-after-bank-collapse",
+      "raw_summary": "Paraguay’s new government said it’s working to shore up its financial system after Fitch Ratings placed its credit rating on watch for a potential downgrade, citing risks from a banking crisis that toppled President Santiago Peña and rattled investors.",
+      "source": "Bloomberg Markets",
+      "published": "Wed, 11 Nov 2026 21:43:21 GMT",
+      "summary": "Paraguay on Watch for Downgrade at Fitch After Bank Collapse\nParaguay’s new government said it’s working to shore up its financial system after Fitch Ratings placed its credit rating on watch for a potential downgrade, citing risks from a banking crisis that toppled President Santiago Peña and rattl"
+    },
+    {
+      "title": "Stocks Fall on Nvidia Crisis as Oil Lifts Yields: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-11-11/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "A rally in global stocks stalled as investors weighed the broader market impact of a leadership crisis at Nvidia Corp., the chipmaker at the heart of the artificial-intelligence boom.",
+      "raw_summary": "A rebound in technology stocks faded as traders confronted a leadership crisis at Nvidia Corp., with rising oil prices adding to the pressure on equity markets and sending bonds lower.",
       "source": "Bloomberg Markets",
       "published": "Wed, 11 Nov 2026 22:08:05 GMT",
-      "summary": "Stock Rally Falters on Nvidia Concerns, Oil Drops: Markets Wrap\nA rally in global stocks stalled as investors weighed the broader market impact of a leadership crisis at Nvidia Corp., the chipmaker at the heart of the artificial-intelligence boom."
+      "summary": "Stocks Fall on Nvidia Crisis as Oil Lifts Yields: Markets Wrap\nA rebound in technology stocks faded as traders confronted a leadership crisis at Nvidia Corp., with rising oil prices adding to the pressure on equity markets and sending bonds lower."
     },
     {
-      "title": "IDR/USD: Indonesian Rupiah Drops to Record Amid MSCI Concerns, Oil Risks",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-12/idr-usd-indonesian-rupiah-drops-to-record-amid-msci-concerns-oil-risks",
-      "raw_summary": "The Indonesian rupiah fell to an all-time low, adding pressure on authorities to contain a recent selloff that also hit the nation’s stocks and bonds.",
+      "title": "US Utilities Have a Plan to Win Over the AI Haters",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-11-12/us-utilities-have-a-plan-to-win-over-the-ai-haters",
+      "raw_summary": "Power companies say they’re working to ensure data centers pay up to connect to the grid, but widespread skepticism persists.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 12 Nov 2026 02:06:49 GMT",
-      "summary": "IDR/USD: Indonesian Rupiah Drops to Record Amid MSCI Concerns, Oil Risks\nThe Indonesian rupiah fell to an all-time low, adding pressure on authorities to contain a recent selloff that also hit the nation’s stocks and bonds."
+      "published": "Thu, 12 Nov 2026 13:02:32 GMT",
+      "summary": "US Utilities Have a Plan to Win Over the AI Haters\nPower companies say they’re working to ensure data centers pay up to connect to the grid, but widespread skepticism persists."
     },
     {
-      "title": "Japan 5-Year Bond Sale Sees Firm Demand as Yields Entice Buyers",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-12/japan-5-year-bond-sale-sees-firmer-demand-than-12-month-average-mwd011h1",
-      "raw_summary": "Japan’s five-year government bond auction drew solid demand as calmer markets and relatively attractive yields revived investor appetite.",
-      "source": "Bloomberg Markets",
-      "published": "Thu, 12 Nov 2026 03:39:12 GMT",
-      "summary": "Japan 5-Year Bond Sale Sees Firm Demand as Yields Entice Buyers\nJapan’s five-year government bond auction drew solid demand as calmer markets and relatively attractive yields revived investor appetite."
-    },
-    {
-      "title": "Nvidia Shares Slide as Investors Consider Future Without Huang",
+      "title": "Nvidia Sinks as Analyst Downgrades Start to Come In: Street Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-11-11/nvidia-tumbles-as-investors-consider-future-without-ceo-huang",
-      "raw_summary": "Nvidia Corp. shares sank in extended trading Wednesday as investors grappled with the possibility of the company without Chief Executive Officer Jensen Huang at the helm.",
+      "raw_summary": "Nvidia Corp. shares fall as much as 8.4% in premarket trading following reports the AI chipmaker’s board is working with an outside firm to identify potential replacements for Chief Executive Officer Jensen Huang. The move follows reports of extramarital affairs, including with an alleged Chinese spy. If the premarket losses hold, the stock is set to drop below $4 trillion in market capitalization when cash trading resumes.",
       "source": "Bloomberg Markets",
       "published": "Wed, 11 Nov 2026 22:48:40 GMT",
-      "summary": "Nvidia Shares Slide as Investors Consider Future Without Huang\nNvidia Corp. shares sank in extended trading Wednesday as investors grappled with the possibility of the company without Chief Executive Officer Jensen Huang at the helm."
+      "summary": "Nvidia Sinks as Analyst Downgrades Start to Come In: Street Wrap\nNvidia Corp. shares fall as much as 8.4% in premarket trading following reports the AI chipmaker’s board is working with an outside firm to identify potential replacements for Chief Executive Officer Jensen Huang. The move follows repo"
     },
     {
-      "title": "AMD, Broadcom, Alphabet Poised to Gain From Nvidia Scandal",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-12/nvidia-turmoil-lifts-amd-broadcom-on-bets-for-business-gains",
-      "raw_summary": "Nvidia Corp.’s leadership turmoil is boosting potential beneficiaries, with Advanced Micro Devices Inc., Broadcom Inc. and Alphabet Inc. gaining after hours on bets they may win business from the chip giant.",
-      "source": "Bloomberg Markets",
-      "published": "Thu, 12 Nov 2026 02:56:15 GMT",
-      "summary": "AMD, Broadcom, Alphabet Poised to Gain From Nvidia Scandal\nNvidia Corp.’s leadership turmoil is boosting potential beneficiaries, with Advanced Micro Devices Inc., Broadcom Inc. and Alphabet Inc. gaining after hours on bets they may win business from the chip giant."
-    },
-    {
-      "title": "Bitcoin listless, Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe",
-      "link": "https://www.coindesk.com/markets/2026/11/12/bitcoin-listless-nvidia-perps-crash-7-as-ceo-jensen-huang-reportedly-faces-the-axe",
+      "title": "Nvidia shares plunge 10% to June 2025 levels as Jensen Huang resigns",
+      "link": "https://www.coindesk.com/markets/2026/11/12/nvidia-shares-plunge-10-as-jensen-huang-resigns",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 12 Nov 2026 04:03:47 +0000",
-      "summary": "Bitcoin listless, Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe\n"
+      "published": "Thu, 12 Nov 2026 13:57:53 +0000",
+      "summary": "Nvidia shares plunge 10% to June 2025 levels as Jensen Huang resigns\n"
     },
     {
-      "title": "Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/11/11/crypto-long-and-short-the-genius-act-s-guarantees-don-t-cover-defi-lending",
+      "title": "Bitcoin weakness erases September's bullish signal",
+      "link": "https://www.coindesk.com/daybook-us/2026/11/12/bitcoin-weakness-erases-september-s-bullish-signal",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 11 Nov 2026 16:00:45 +0000",
-      "summary": "Crypto Long & Short: The GENIUS Act’s guarantees don’t cover DeFi lending\n"
+      "published": "Thu, 12 Nov 2026 12:15:00 +0000",
+      "summary": "Bitcoin weakness erases September's bullish signal\n"
     },
     {
-      "title": "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month",
-      "link": "https://www.coindesk.com/business/2026/11/10/okxice-to-debut-tokenized-stock-trading-with-strategy-coinbase-circle-this-month",
+      "title": "UK bank Griffin raises $20 million to expand into stablecoin payments",
+      "link": "https://www.coindesk.com/business/2026/11/12/uk-bank-griffin-raises-usd20-million-to-expand-into-stablecoin-payments",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 11 Nov 2026 13:00:00 +0000",
-      "summary": "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month\n"
+      "published": "Thu, 12 Nov 2026 12:04:42 +0000",
+      "summary": "UK bank Griffin raises $20 million to expand into stablecoin payments\n"
     },
     {
-      "title": "Meet Spiko, the largest tokenized fund in the world you’ve probably never heard about",
-      "link": "https://www.coindesk.com/business/2026/11/11/meet-spiko-the-largest-tokenized-fund-in-the-world-you-ve-probably-never-heard-about",
+      "title": "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027",
+      "link": "https://www.coindesk.com/tech/2026/11/12/ethereum-researchers-drop-faster-blocks-to-race-toward-quantum-defenses-in-2027",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 11 Nov 2026 12:57:36 +0000",
-      "summary": "Meet Spiko, the largest tokenized fund in the world you’ve probably never heard about\n"
+      "published": "Thu, 12 Nov 2026 11:43:41 +0000",
+      "summary": "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027\n"
     },
     {
-      "title": "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound",
-      "link": "https://www.coindesk.com/tech/2026/11/11/live-news-coreweave-jumps-14-as-earnings-fuel-rebound-across-battered-ai-stocks",
+      "title": "Bitcoin dips with Nvidia as ETF outflows reach day five",
+      "link": "https://www.coindesk.com/markets/2026/11/12/bitcoin-dips-with-nvidia-as-etf-outflows-reach-day-five",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 11 Nov 2026 12:21:24 +0000",
-      "summary": "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound\n"
+      "published": "Thu, 12 Nov 2026 11:30:00 +0000",
+      "summary": "Bitcoin dips with Nvidia as ETF outflows reach day five\n"
     }
   ]
 }
