@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T13:42:04.360912+00:00",
+  "generated_at": "2026-11-13T23:03:47.872629+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "Widespread PHP Flaw May Cause Many Site Outages Today\nExpect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected server"
     },
     {
+      "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+      "link": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+      "raw_summary": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server.\n\nThe flaw, tracked as CVE-2026-6460, has a CVSS score of 8.8. Any code run this way has the rights of the operating",
+      "source": "The Hacker News",
+      "published": "Fri, 13 Nov 2026 22:23:08 +0530",
+      "summary": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE\nA type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also require"
+    },
+    {
+      "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+      "link": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+      "raw_summary": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out.\n\nOne of them, Mior, can also modify a VM's memory and fake the signed report confirming which software it runs. Both need control of the server's hypervisor, and Mior also needs control of the server's BIOS. Researchers",
+      "source": "The Hacker News",
+      "published": "Fri, 13 Nov 2026 20:57:05 +0530",
+      "summary": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs\nTwo attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out.\n\nOne of them, Mior, can also modify a VM"
+    },
+    {
+      "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+      "link": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+      "raw_summary": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social engineering scheme codenamed FaceStealer in the last 18 months.\n\nAs part of a coordinated set of actions announced by the U.S. government, the cloud-based",
+      "source": "The Hacker News",
+      "published": "Fri, 13 Nov 2026 19:58:58 +0530",
+      "summary": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls\nThe U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurr"
+    },
+    {
+      "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+      "link": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
+      "raw_summary": "Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday.\n\nThe implant reads the phrase from the wallet's screen and sends it over the mobile network to a server controlled by the attackers. The company examined one of the wallets in its lab, identified the other",
+      "source": "The Hacker News",
+      "published": "Fri, 13 Nov 2026 19:24:20 +0530",
+      "summary": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases\nThree Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday.\n\nThe implant read"
+    },
+    {
       "title": "When an AI Agent Goes Wrong, Can You Stop It?",
       "link": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
       "raw_summary": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected tools allow the action.\n\nThat kind of scenario raises a response question: what does “stop the agent” actually mean? A",
@@ -51,236 +83,236 @@
       "summary": "When an AI Agent Goes Wrong, Can You Stop It?\nSuppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the rec"
     },
     {
-      "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
-      "link": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
-      "raw_summary": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan.\n\nEnea, a telecom and cybersecurity software company based in Stockholm, found the group's attack sources in at least six Asian countries and named it SilentAir this week. It assessed with high confidence that SilentAir is a state-level actor,",
-      "source": "The Hacker News",
-      "published": "Fri, 13 Nov 2026 16:40:40 +0530",
-      "summary": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users\nA newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan.\n\nEnea, a telecom and cybersecurity software compan"
-    },
-    {
-      "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
-      "link": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
-      "raw_summary": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks.\n\nPolice also seized about 6.4 million stolen logins belonging to more than 40,000 victims, according to Germany's Federal Criminal Police Office (BKA).\n\nGootloader is a loader:",
-      "source": "The Hacker News",
-      "published": "Fri, 13 Nov 2026 16:25:03 +0530",
-      "summary": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins\nAn international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch rans"
-    },
-    {
-      "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
-      "raw_summary": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege escalation flaw in Gaia OS&nbsp; to deploy a backdoor called TSGA.\n\nThe activity, detailed by Check Point, began on October 30, 2026, and targeted Israeli organizations, with a broader follow-up",
-      "source": "The Hacker News",
-      "published": "Fri, 13 Nov 2026 13:35:49 +0530",
-      "summary": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files\nAn unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege "
-    },
-    {
-      "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
-      "raw_summary": "N-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell.\n\n\"We are restricting certain N-central features and integrations,\" the company said in a Thursday update. \"These measures may affect some functionality, but we believe taking additional precautions while remediation is completed is the",
-      "source": "The Hacker News",
-      "published": "Fri, 13 Nov 2026 11:13:28 +0530",
-      "summary": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2\nN-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell.\n\n\"We are restricting certain N-central features and integr"
-    },
-    {
-      "title": "Jensen Huang Admitted He Was Facing an \"Avalanche\" of Excess Wafers and Memory",
-      "link": "https://respawnfirst.com/before-resigning-jensen-huang-admitted-he-was-facing-an-avalanche-of-excess-wafers-and-memory-new-report-sheds-more-light-on-the-gpu-ram-crisis/",
-      "raw_summary": "<p>Article URL: <a href=\"https://respawnfirst.com/before-resigning-jensen-huang-admitted-he-was-facing-an-avalanche-of-excess-wafers-and-memory-new-report-sheds-more-light-on-the-gpu-ram-crisis/\">https://respawnfirst.com/before-resigning-jensen-huang-admitted-he-was-facing-an-avalanche-of-excess-wafers-and-memory-new-report-sheds-more-light-on-the-gpu-ram-crisis/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50482992\">https://news.ycombinator.com/item?id=50482992</a></p>\n<p>Points: 13</p>\n<p># Comments: 6</p>",
+      "title": "Claude Meetings",
+      "link": "https://claude.com/resources/articles/claude-meetings",
+      "raw_summary": "<p>Article URL: <a href=\"https://claude.com/resources/articles/claude-meetings\">https://claude.com/resources/articles/claude-meetings</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50491097\">https://news.ycombinator.com/item?id=50491097</a></p>\n<p>Points: 15</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 13 Nov 2026 13:08:48 +0000",
-      "summary": "Jensen Huang Admitted He Was Facing an \"Avalanche\" of Excess Wafers and Memory\n<p>Article URL: <a href=\"https://respawnfirst.com/before-resigning-jensen-huang-admitted-he-was-facing-an-avalanche-of-excess-wafers-and-memory-new-report-sheds-more-light-on-the-gpu-ram-crisis/\">https://respawnfirst.com/"
+      "published": "Fri, 13 Nov 2026 22:39:15 +0000",
+      "summary": "Claude Meetings\n<p>Article URL: <a href=\"https://claude.com/resources/articles/claude-meetings\">https://claude.com/resources/articles/claude-meetings</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50491097\">https://news.ycombinator.com/item?id=50491097</a></p>\n<p>Points: 15</"
     },
     {
-      "title": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
-      "link": "https://www.science.org/doi/10.1126/science.132.3436.1291",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.science.org/doi/10.1126/science.132.3436.1291\">https://www.science.org/doi/10.1126/science.132.3436.1291</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50482379\">https://news.ycombinator.com/item?id=50482379</a></p>\n<p>Points: 116</p>\n<p># Comments: 56</p>",
+      "title": "Home Assistant: the password is not the key – token secrets in cleartext",
+      "link": "https://seclists.org/fulldisclosure/2026/Nov/34",
+      "raw_summary": "<p>Article URL: <a href=\"https://seclists.org/fulldisclosure/2026/Nov/34\">https://seclists.org/fulldisclosure/2026/Nov/34</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50490967\">https://news.ycombinator.com/item?id=50490967</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 13 Nov 2026 12:10:24 +0000",
-      "summary": "Doomsday: Friday, 13 November, A.D. 2026 (1960)\n<p>Article URL: <a href=\"https://www.science.org/doi/10.1126/science.132.3436.1291\">https://www.science.org/doi/10.1126/science.132.3436.1291</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50482379\">https://news.ycombinator.com/"
+      "published": "Fri, 13 Nov 2026 22:30:10 +0000",
+      "summary": "Home Assistant: the password is not the key – token secrets in cleartext\n<p>Article URL: <a href=\"https://seclists.org/fulldisclosure/2026/Nov/34\">https://seclists.org/fulldisclosure/2026/Nov/34</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50490967\">https://news.ycombinator"
     },
     {
-      "title": "Claude Is Down",
-      "link": "https://status.claude.com/history",
-      "raw_summary": "<p>Article URL: <a href=\"https://status.claude.com/history\">https://status.claude.com/history</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50481220\">https://news.ycombinator.com/item?id=50481220</a></p>\n<p>Points: 150</p>\n<p># Comments: 126</p>",
+      "title": "National Weather Service reports nationwide radar website outage amid FAA stop",
+      "link": "https://www.news9.com/oklahoma-city-news/national-weather-service-reports-nationwide-radar-website-outage",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.news9.com/oklahoma-city-news/national-weather-service-reports-nationwide-radar-website-outage\">https://www.news9.com/oklahoma-city-news/national-weather-service-reports-nationwide-radar-website-outage</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50490778\">https://news.ycombinator.com/item?id=50490778</a></p>\n<p>Points: 32</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 13 Nov 2026 10:20:09 +0000",
-      "summary": "Claude Is Down\n<p>Article URL: <a href=\"https://status.claude.com/history\">https://status.claude.com/history</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50481220\">https://news.ycombinator.com/item?id=50481220</a></p>\n<p>Points: 150</p>\n<p># Comments: 126</p>"
+      "published": "Fri, 13 Nov 2026 22:16:11 +0000",
+      "summary": "National Weather Service reports nationwide radar website outage amid FAA stop\n<p>Article URL: <a href=\"https://www.news9.com/oklahoma-city-news/national-weather-service-reports-nationwide-radar-website-outage\">https://www.news9.com/oklahoma-city-news/national-weather-service-reports-nationwide-rada"
     },
     {
-      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
-      "link": "https://status.claude.com/incidents/nn11wk485zfn",
-      "raw_summary": "<p>Article URL: <a href=\"https://status.claude.com/incidents/nn11wk485zfn\">https://status.claude.com/incidents/nn11wk485zfn</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50481187\">https://news.ycombinator.com/item?id=50481187</a></p>\n<p>Points: 299</p>\n<p># Comments: 246</p>",
+      "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+      "link": "https://orcasairband.com/",
+      "raw_summary": "<p>Article URL: <a href=\"https://orcasairband.com/\">https://orcasairband.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50490593\">https://news.ycombinator.com/item?id=50490593</a></p>\n<p>Points: 46</p>\n<p># Comments: 18</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 13 Nov 2026 10:18:13 +0000",
-      "summary": "Elevated errors on claude.ai, Claude Code, and platform.claude.com\n<p>Article URL: <a href=\"https://status.claude.com/incidents/nn11wk485zfn\">https://status.claude.com/incidents/nn11wk485zfn</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50481187\">https://news.ycombinator.com"
+      "published": "Fri, 13 Nov 2026 22:04:24 +0000",
+      "summary": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped\n<p>Article URL: <a href=\"https://orcasairband.com/\">https://orcasairband.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50490593\">https://news.ycombinator.com/item?id=50490593</a></p>\n<p>Points: "
     },
     {
-      "title": "Is there a 'right amount' of AI?",
-      "link": "https://coyotetracks.org/blog/right-amount-of-ai/",
-      "raw_summary": "<p>Article URL: <a href=\"https://coyotetracks.org/blog/right-amount-of-ai/\">https://coyotetracks.org/blog/right-amount-of-ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50480659\">https://news.ycombinator.com/item?id=50480659</a></p>\n<p>Points: 21</p>\n<p># Comments: 26</p>",
+      "title": "FAA issues nationwide ground stop due to \"extraordinary circumstances\"",
+      "link": "https://www.axios.com/2026/11/13/faa-nationwide-ground-stop",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.axios.com/2026/11/13/faa-nationwide-ground-stop\">https://www.axios.com/2026/11/13/faa-nationwide-ground-stop</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50489678\">https://news.ycombinator.com/item?id=50489678</a></p>\n<p>Points: 89</p>\n<p># Comments: 25</p>",
       "source": "Hacker News: Front Page",
-      "published": "Fri, 13 Nov 2026 09:27:05 +0000",
-      "summary": "Is there a 'right amount' of AI?\n<p>Article URL: <a href=\"https://coyotetracks.org/blog/right-amount-of-ai/\">https://coyotetracks.org/blog/right-amount-of-ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50480659\">https://news.ycombinator.com/item?id=50480659</a></p>\n<p>Poi"
+      "published": "Fri, 13 Nov 2026 21:08:49 +0000",
+      "summary": "FAA issues nationwide ground stop due to \"extraordinary circumstances\"\n<p>Article URL: <a href=\"https://www.axios.com/2026/11/13/faa-nationwide-ground-stop\">https://www.axios.com/2026/11/13/faa-nationwide-ground-stop</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50489678\">ht"
     },
     {
-      "title": "Microsoft’s latest email outage turned into a full blown global cloud crisis",
-      "link": "https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/",
-      "raw_summary": "Microsoft's day-long outage began with Outlook and Teams, and ended up taking much of the company's cloud services offline. Microsoft says it's gradually restoring service.",
+      "title": "Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price",
+      "link": "https://techcrunch.com/2026/11/13/amazons-new-kindle-colorsoft-is-a-premium-e-reader-with-a-premium-price/",
+      "raw_summary": "The latest model is lighter and thinner than its predecessor and features an edge-to-edge display. But if you already own the first-generation Colorsoft, there’s little reason to upgrade.",
       "source": "TechCrunch",
-      "published": "Fri, 13 Nov 2026 13:15:20 +0000",
-      "summary": "Microsoft’s latest email outage turned into a full blown global cloud crisis\nMicrosoft's day-long outage began with Outlook and Teams, and ended up taking much of the company's cloud services offline. Microsoft says it's gradually restoring service."
+      "published": "Fri, 13 Nov 2026 23:00:00 +0000",
+      "summary": "Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price\nThe latest model is lighter and thinner than its predecessor and features an edge-to-edge display. But if you already own the first-generation Colorsoft, there’s little reason to upgrade."
     },
     {
-      "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
-      "link": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
-      "raw_summary": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure.",
+      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "link": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "raw_summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
       "source": "TechCrunch",
-      "published": "Fri, 13 Nov 2026 12:52:19 +0000",
-      "summary": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil\nGiven Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure."
+      "published": "Fri, 13 Nov 2026 22:43:00 +0000",
+      "summary": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say\nNvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations."
     },
     {
-      "title": "Jensen Huang didn’t show confidence in his successor, report says",
-      "link": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
-      "raw_summary": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer.",
+      "title": "US government grounds all flights across the United States ‘due to extraordinary circumstances’",
+      "link": "https://techcrunch.com/2026/11/13/u-s-government-grounds-all-flights-across-the-united-states-due-to-extraordinary-cirumstances/",
+      "raw_summary": "A spokesperson for the FAA told TechCrunch that it issued the ground stop \"following communication issues impacting multiple Air Route Traffic Control Centers,\" which manage the airspace across the United States.",
       "source": "TechCrunch",
-      "published": "Fri, 13 Nov 2026 12:28:23 +0000",
-      "summary": "Jensen Huang didn’t show confidence in his successor, report says\nHuang described Kress as a \"deer in the headlights\" during a meeting in summer."
+      "published": "Fri, 13 Nov 2026 21:44:38 +0000",
+      "summary": "US government grounds all flights across the United States ‘due to extraordinary circumstances’\nA spokesperson for the FAA told TechCrunch that it issued the ground stop \"following communication issues impacting multiple Air Route Traffic Control Centers,\" which manage the airspace across the United"
     },
     {
-      "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
-      "link": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
-      "raw_summary": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.",
+      "title": "This young startup wants to power floating data centers with the ocean’s heat, and investors are already on board",
+      "link": "https://techcrunch.com/2026/11/13/this-young-startup-wants-to-power-floating-data-centers-with-the-oceans-heat-and-investors-are-already-on-board/",
+      "raw_summary": "Drogue is harvesting heat from the ocean to power data centers on floating vessels. The first prototype should be bobbing around the ocean, crunching bits, in less than two years.",
       "source": "TechCrunch",
-      "published": "Thu, 12 Nov 2026 22:42:51 +0000",
-      "summary": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump\nThis Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke."
+      "published": "Fri, 13 Nov 2026 20:07:24 +0000",
+      "summary": "This young startup wants to power floating data centers with the ocean’s heat, and investors are already on board\nDrogue is harvesting heat from the ocean to power data centers on floating vessels. The first prototype should be bobbing around the ocean, crunching bits, in less than two years."
     },
     {
-      "title": "Muse can now place calls to US businesses — if you pay",
-      "link": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
-      "raw_summary": "Muse's AI can now place outbound calls to U.S. businesses — but it's not free.",
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "link": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "raw_summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
       "source": "TechCrunch",
-      "published": "Thu, 12 Nov 2026 22:22:28 +0000",
-      "summary": "Muse can now place calls to US businesses — if you pay\nMuse's AI can now place outbound calls to U.S. businesses — but it's not free."
+      "published": "Fri, 13 Nov 2026 19:37:57 +0000",
+      "summary": "AI agent startup LangChain hits $3B valuation\nLangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith."
     },
     {
-      "title": "Rocket Report: Starship set for historic test flight; a century of Electron",
-      "link": "https://arstechnica.com/space/2026/11/rocket-report-starship-set-for-historic-test-flight-a-century-of-electron/",
-      "raw_summary": "\"You can simplify it as a big tank feeding engines.\"",
+      "title": "Millions of Americans are not taking their GLP-1 drugs as prescribed",
+      "link": "https://arstechnica.com/health/2026/11/millions-in-us-use-unapproved-glp-1s-and-use-them-in-unapproved-ways/",
+      "raw_summary": "Cost and access barriers are pushing people to modified use and unapproved versions.",
       "source": "Ars Technica",
-      "published": "Fri, 13 Nov 2026 12:00:40 +0000",
-      "summary": "Rocket Report: Starship set for historic test flight; a century of Electron\n\"You can simplify it as a big tank feeding engines.\""
-    },
-    {
-      "title": "Specialized’s Tarmac SL9 S-Level is built to wreck your Zone 2 ride",
-      "link": "https://arstechnica.com/gadgets/2026/11/specializeds-tarmac-sl9-s-level-is-built-to-wreck-your-zone-2-ride/",
-      "raw_summary": "Specialized’s second-fastest bike may be the smart buy.",
-      "source": "Ars Technica",
-      "published": "Fri, 13 Nov 2026 11:50:38 +0000",
-      "summary": "Specialized’s Tarmac SL9 S-Level is built to wreck your Zone 2 ride\nSpecialized’s second-fastest bike may be the smart buy."
-    },
-    {
-      "title": "In reversal, American Cancer Society urges routine prostate cancer screening",
-      "link": "https://arstechnica.com/health/2026/11/in-reversal-american-cancer-society-urges-prostate-cancer-tests-for-all-men/",
-      "raw_summary": "Men aged 50–69 and at average risk should get PSA screening every two years.",
-      "source": "Ars Technica",
-      "published": "Thu, 12 Nov 2026 22:59:51 +0000",
-      "summary": "In reversal, American Cancer Society urges routine prostate cancer screening\nMen aged 50–69 and at average risk should get PSA screening every two years."
+      "published": "Fri, 13 Nov 2026 21:59:01 +0000",
+      "summary": "Millions of Americans are not taking their GLP-1 drugs as prescribed\nCost and access barriers are pushing people to modified use and unapproved versions."
     },
     {
       "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
-      "link": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+      "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
       "raw_summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
       "source": "Ars Technica",
-      "published": "Thu, 12 Nov 2026 22:28:47 +0000",
+      "published": "Fri, 13 Nov 2026 21:20:47 +0000",
       "summary": "FAA expands AI advice to manage air traffic congestion across entire US airspace\nAirlines praised the AI tool, but the air traffic controllers’ union wasn’t involved."
     },
     {
-      "title": "Ars Live: What drone attacks on data centers mean for modern life in the cloud",
-      "link": "https://arstechnica.com/gadgets/2026/11/ars-live-can-the-cloud-survive-drone-strikes-on-data-centers/",
-      "raw_summary": "A livestream Ars discussion is happening on November 17 at 1 pm Eastern Time.",
+      "title": "In elephants, the resilience of communities has its limits",
+      "link": "https://arstechnica.com/science/2026/11/in-elephants-the-resilience-of-communities-has-its-limits/",
+      "raw_summary": "In Sri Lanka, ecological change is shrinking a park's elephant population.",
       "source": "Ars Technica",
-      "published": "Thu, 12 Nov 2026 19:59:59 +0000",
-      "summary": "Ars Live: What drone attacks on data centers mean for modern life in the cloud\nA livestream Ars discussion is happening on November 17 at 1 pm Eastern Time."
+      "published": "Fri, 13 Nov 2026 20:03:13 +0000",
+      "summary": "In elephants, the resilience of communities has its limits\nIn Sri Lanka, ecological change is shrinking a park's elephant population."
     },
     {
-      "title": "Will Jensen Huang sell his $135bn of stock?",
-      "link": "https://www.ft.com/content/7a1ee00c-ddbd-4ae2-8323-e4dc603d7a41?syn-25a6b1a6=1",
-      "raw_summary": "Any attempt by Nvidia co-founder to offload his shares  would unnerve investors but is fraught with legal and price risks",
+      "title": "Kalshi ditches Trump Jr. as advisor; CEO admitted \"optics\" weren't good",
+      "link": "https://arstechnica.com/tech-policy/2026/11/trump-jr-out-as-kalshi-advisor-after-his-firms-big-investment-in-polymarket/",
+      "raw_summary": "Trump son advised Kalshi and got equity while Trump admin helped Kalshi in lawsuits.",
+      "source": "Ars Technica",
+      "published": "Fri, 13 Nov 2026 19:49:16 +0000",
+      "summary": "Kalshi ditches Trump Jr. as advisor; CEO admitted \"optics\" weren't good\nTrump son advised Kalshi and got equity while Trump admin helped Kalshi in lawsuits."
+    },
+    {
+      "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+      "link": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+      "raw_summary": "Researcher traces a path from AI reward hacking to potential human extinction.",
+      "source": "Ars Technica",
+      "published": "Fri, 13 Nov 2026 17:25:45 +0000",
+      "summary": "OpenAI board member worries an AI \"takeover\" of society could be months away\nResearcher traces a path from AI reward hacking to potential human extinction."
+    },
+    {
+      "title": "US aviation regulator grounds all departing flights",
+      "link": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b?syn-25a6b1a6=1",
+      "raw_summary": "Airports across the country ordered by Federal Aviation Administration to halt all take-offs",
       "source": "World",
-      "published": "Fri, 13 Nov 2026 13:22:54 GMT",
-      "summary": "Will Jensen Huang sell his $135bn of stock?\nAny attempt by Nvidia co-founder to offload his shares  would unnerve investors but is fraught with legal and price risks"
+      "published": "Fri, 13 Nov 2026 23:00:26 GMT",
+      "summary": "US aviation regulator grounds all departing flights\nAirports across the country ordered by Federal Aviation Administration to halt all take-offs"
     },
     {
-      "title": "The Belgian-born economist swept up in India’s Cockroach protests",
-      "link": "https://www.ft.com/content/002074da-f937-420c-a2c3-82b1608d7947?syn-25a6b1a6=1",
-      "raw_summary": "Jean Drèze on the ‘shocking’ inequalities behind the country’s narrative of success",
+      "title": "Reform UK pays for Nigel Farage’s security despite £5mn gift",
+      "link": "https://www.ft.com/content/a088c380-216e-4fc3-8b76-483504fd18c2?syn-25a6b1a6=1",
+      "raw_summary": "Party leader had claimed that undeclared donation from crypto billionaire was needed to ensure his protection",
       "source": "World",
-      "published": "Fri, 13 Nov 2026 13:00:39 GMT",
-      "summary": "The Belgian-born economist swept up in India’s Cockroach protests\nJean Drèze on the ‘shocking’ inequalities behind the country’s narrative of success"
+      "published": "Fri, 13 Nov 2026 22:52:09 GMT",
+      "summary": "Reform UK pays for Nigel Farage’s security despite £5mn gift\nParty leader had claimed that undeclared donation from crypto billionaire was needed to ensure his protection"
     },
     {
-      "title": "Number of ‘maxed out’ Junior Isas tops 100,000 in a year",
-      "link": "https://www.ft.com/content/051da62e-4a30-4996-bebd-1a70dddfa707",
-      "raw_summary": "Maximised accounts up 40% in a year as families step up tax-efficient gifting",
+      "title": "US military responds to ‘suspicious drone activity’ at UK air base",
+      "link": "https://www.ft.com/content/cf902a58-b694-4357-b1b0-07cf8e36c94e?syn-25a6b1a6=1",
+      "raw_summary": "RAF Lakenheath incident is fourth recent security alert related to a UK air base being used by the American military",
       "source": "World",
-      "published": "Fri, 13 Nov 2026 12:59:17 GMT",
-      "summary": "Number of ‘maxed out’ Junior Isas tops 100,000 in a year\nMaximised accounts up 40% in a year as families step up tax-efficient gifting"
+      "published": "Fri, 13 Nov 2026 22:30:00 GMT",
+      "summary": "US military responds to ‘suspicious drone activity’ at UK air base\nRAF Lakenheath incident is fourth recent security alert related to a UK air base being used by the American military"
     },
     {
-      "title": "US Treasuries set for worst week since Trump’s ‘liberation day’",
+      "title": "US Treasuries record worst week since Trump’s ‘liberation day’",
       "link": "https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def?syn-25a6b1a6=1",
       "raw_summary": "Higher than expected inflation and hawkish remarks by Fed officials have stung investors who bet a global bond rout was over",
       "source": "World",
-      "published": "Fri, 13 Nov 2026 12:56:23 GMT",
-      "summary": "US Treasuries set for worst week since Trump’s ‘liberation day’\nHigher than expected inflation and hawkish remarks by Fed officials have stung investors who bet a global bond rout was over"
+      "published": "Fri, 13 Nov 2026 22:12:03 GMT",
+      "summary": "US Treasuries record worst week since Trump’s ‘liberation day’\nHigher than expected inflation and hawkish remarks by Fed officials have stung investors who bet a global bond rout was over"
     },
     {
-      "title": "Ministry of Defence delays decision on £2bn UK military satellite contest",
-      "link": "https://www.ft.com/content/dfc3d313-1e32-4e56-ab1d-fcb7ea51a386?syn-25a6b1a6=1",
-      "raw_summary": "Ministers weigh between awarding contract to US defence giant Lockheed or sticking with Europe’s Airbus as pressure mounts",
+      "title": "Amazon revives deal with troubled data centre venture backed by Rick Perry",
+      "link": "https://www.ft.com/content/692fbfe8-da52-42c0-b436-9c4aff21fbdb?syn-25a6b1a6=1",
+      "raw_summary": "Tech giant agrees to be Fermi’s anchor tenant after failed talks and boardroom turmoil sent data centre group’s shares south",
       "source": "World",
-      "published": "Fri, 13 Nov 2026 12:50:07 GMT",
-      "summary": "Ministry of Defence delays decision on £2bn UK military satellite contest\nMinisters weigh between awarding contract to US defence giant Lockheed or sticking with Europe’s Airbus as pressure mounts"
+      "published": "Fri, 13 Nov 2026 20:40:40 GMT",
+      "summary": "Amazon revives deal with troubled data centre venture backed by Rick Perry\nTech giant agrees to be Fermi’s anchor tenant after failed talks and boardroom turmoil sent data centre group’s shares south"
     },
     {
-      "title": "Latest Oil Market News and Analysis for Nov. 13",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-12/latest-oil-market-news-and-analysis-for-nov-13",
-      "raw_summary": "Oil held gains after President Donald Trump said the US could forgo a deal with Iran, dimming prospects for a quick breakthrough to end the war that has roiled global energy markets.",
+      "title": "Exemplar Luxury Group CEO on the Company’s Second Life",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-13/exemplar-luxury-group-ceo-on-the-company-s-second-life-video",
+      "raw_summary": "Geoffroy van Raemdonck said Exemplar Luxury Group is financially stronger after Saks emerged from bankruptcy. He emphasized reaching that goal through customer loyalty, full-price sales and profitable growth that supports reinvestment and strengthens relationships with brands. Geoffroy van Raemdonck speaks with Romaine Bostick on “The Close.” (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Thu, 12 Nov 2026 23:02:09 GMT",
-      "summary": "Latest Oil Market News and Analysis for Nov. 13\nOil held gains after President Donald Trump said the US could forgo a deal with Iran, dimming prospects for a quick breakthrough to end the war that has roiled global energy markets."
+      "published": "Fri, 13 Nov 2026 22:59:58 GMT",
+      "summary": "Exemplar Luxury Group CEO on the Company’s Second Life\nGeoffroy van Raemdonck said Exemplar Luxury Group is financially stronger after Saks emerged from bankruptcy. He emphasized reaching that goal through customer loyalty, full-price sales and profitable growth that supports reinvestment and streng"
     },
     {
-      "title": "Billionaire KoGuan Vows to Halt Nvidia Buys After Huang Exit",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-13/billionaire-koguan-vows-not-to-buy-nvidia-stock-as-huang-quits",
-      "raw_summary": "Billionaire investor and Nvidia Corp. shareholder Leo KoGuan expressed support for Jensen Huang on Friday and said he won’t increase his stake in the tech company with someone else at the helm.",
+      "title": "Big Take: The Climate Is Changing in Ways Models Couldn’t Predict",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-13/the-climate-is-changing-in-ways-models-couldn-t-predict-video",
+      "raw_summary": "COP31 aims to set new goals to bring down emissions as climate change outpaces scientists’ predictions and disasters drive billions of dollars of losses. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Fri, 13 Nov 2026 06:30:43 GMT",
-      "summary": "Billionaire KoGuan Vows to Halt Nvidia Buys After Huang Exit\nBillionaire investor and Nvidia Corp. shareholder Leo KoGuan expressed support for Jensen Huang on Friday and said he won’t increase his stake in the tech company with someone else at the helm."
+      "published": "Fri, 13 Nov 2026 22:52:42 GMT",
+      "summary": "Big Take: The Climate Is Changing in Ways Models Couldn’t Predict\nCOP31 aims to set new goals to bring down emissions as climate change outpaces scientists’ predictions and disasters drive billions of dollars of losses. (Source: Bloomberg)"
     },
     {
-      "title": "US Futures Gain With Microsoft Outage, Producer Prices in Focus",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-13/us-futures-gain-with-microsoft-outage-producer-prices-in-focus",
-      "raw_summary": "US equity futures were little changed early Friday as investors weigh a global software outage at Microsoft Corp., more news on the direction of the AI trade, and the next barometer for US inflation.",
+      "title": "Jeff Currie Says He’s Bearish on Copper Due to China",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-13/jeff-currie-says-he-s-bearish-on-copper-due-to-china-video",
+      "raw_summary": "Jeff Currie, CEO and founder at Real Macro and senior adviser at Carlyle, says gold’s retreat reflects a shortage of dollar liquidity. He also discusses the global oil industry in an interview with Vonnie Quinn and Bailey Lipschultz on “The Close.”\n\n (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Fri, 13 Nov 2026 13:19:12 GMT",
-      "summary": "US Futures Gain With Microsoft Outage, Producer Prices in Focus\nUS equity futures were little changed early Friday as investors weigh a global software outage at Microsoft Corp., more news on the direction of the AI trade, and the next barometer for US inflation."
+      "published": "Fri, 13 Nov 2026 22:51:59 GMT",
+      "summary": "Jeff Currie Says He’s Bearish on Copper Due to China\nJeff Currie, CEO and founder at Real Macro and senior adviser at Carlyle, says gold’s retreat reflects a shortage of dollar liquidity. He also discusses the global oil industry in an interview with Vonnie Quinn and Bailey Lipschultz on “The Close."
     },
     {
-      "title": "Value Stocks Eye Record Year as AI Volatility Spurs Safety Rush",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-13/value-stocks-eye-record-year-as-ai-volatility-spurs-safety-rush",
-      "raw_summary": "Investors growing tired of the whiplash from the AI trade are seeking solace in value stocks.",
+      "title": "Rent the Runway CEO Paige Thomas on Her Company Vision",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-13/rent-the-runway-ceo-paige-thomas-on-her-company-vision-video",
+      "raw_summary": "Rent the Runway CEO Paige Thomas sits down with Romaine Bostick to discuss her vision for the company since taking over the helm two months ago, how she plans to strategize the company’s business and more. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Fri, 13 Nov 2026 13:15:26 GMT",
-      "summary": "Value Stocks Eye Record Year as AI Volatility Spurs Safety Rush\nInvestors growing tired of the whiplash from the AI trade are seeking solace in value stocks."
+      "published": "Fri, 13 Nov 2026 22:41:52 GMT",
+      "summary": "Rent the Runway CEO Paige Thomas on Her Company Vision\nRent the Runway CEO Paige Thomas sits down with Romaine Bostick to discuss her vision for the company since taking over the helm two months ago, how she plans to strategize the company’s business and more. (Source: Bloomberg)"
     },
     {
-      "title": "Guinea Artisanal Gold Mining Crackdown Leaves 10 Dead in Clashes",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-13/guinea-artisanal-gold-mining-crackdown-leaves-10-dead-in-clashes",
-      "raw_summary": "Violent clashes between security forces and protesters demanding the reopening of artisanal gold mines in northeastern Guinea killed 10 people, including five foreign nationals, the government said.",
+      "title": "Tanker Hits Cruise Ship in New Orleans, Triggering Rescue",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-13/tanker-hits-cruise-ship-in-new-orleans-prompting-rescue-video",
+      "raw_summary": "A tanker collided with a docked river cruise ship on the Mississippi River in New Orleans, leaving the smaller vessel partly submerged and setting off a rescue operation. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Fri, 13 Nov 2026 13:10:30 GMT",
-      "summary": "Guinea Artisanal Gold Mining Crackdown Leaves 10 Dead in Clashes\nViolent clashes between security forces and protesters demanding the reopening of artisanal gold mines in northeastern Guinea killed 10 people, including five foreign nationals, the government said."
+      "published": "Fri, 13 Nov 2026 22:33:48 GMT",
+      "summary": "Tanker Hits Cruise Ship in New Orleans, Triggering Rescue\nA tanker collided with a docked river cruise ship on the Mississippi River in New Orleans, leaving the smaller vessel partly submerged and setting off a rescue operation. (Source: Bloomberg)"
+    },
+    {
+      "title": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters",
+      "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-slides-to-usd68k-as-nvidia-turmoil-anthropic-ipo-fuel-broader-market-sell-off",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Fri, 13 Nov 2026 18:39:58 +0000",
+      "summary": "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters\n"
+    },
+    {
+      "title": "U.S. Senate Banking Committee races toward hearing on new SEC nominations",
+      "link": "https://www.coindesk.com/policy/2026/11/13/u-s-senate-banking-committee-races-toward-hearing-on-new-sec-nominations",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Fri, 13 Nov 2026 17:05:43 +0000",
+      "summary": "U.S. Senate Banking Committee races toward hearing on new SEC nominations\n"
+    },
+    {
+      "title": "Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms",
+      "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-heads-for-sixth-weekly-loss-as-anthropic-s-blockbuster-ipo-looms",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Fri, 13 Nov 2026 16:01:27 +0000",
+      "summary": "Bitcoin heads for sixth weekly loss as Anthropic’s blockbuster IPO looms\n"
+    },
+    {
+      "title": "Kraken parent Payward says expansion outside crypto trading helps cushion revenue decline",
+      "link": "https://www.coindesk.com/business/2026/11/13/kraken-parent-payward-says-expansion-outside-crypto-trading-helps-cushion-revenue-decline",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Fri, 13 Nov 2026 14:02:00 +0000",
+      "summary": "Kraken parent Payward says expansion outside crypto trading helps cushion revenue decline\n"
     },
     {
       "title": "Bitcoin's momentum gauge is turning red, could send prices back below $60,000",
@@ -289,38 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Fri, 13 Nov 2026 12:14:22 +0000",
       "summary": "Bitcoin's momentum gauge is turning red, could send prices back below $60,000\n"
-    },
-    {
-      "title": "Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion",
-      "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-hits-12-week-low-as-dollar-rallies-on-interest-rate-outlook-liquidations-top-usd1-6-billion",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 13 Nov 2026 11:52:25 +0000",
-      "summary": "Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion\n"
-    },
-    {
-      "title": "Live news: Bitcoin plunges back towards bear market lows, wiping out late summer rally",
-      "link": "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 13 Nov 2026 09:16:58 +0000",
-      "summary": "Live news: Bitcoin plunges back towards bear market lows, wiping out late summer rally\n"
-    },
-    {
-      "title": "Ethereum treasury firm BTCS sold ether at a loss to keep $64 million Aave loan healthy",
-      "link": "https://www.coindesk.com/markets/2026/11/13/ethereum-treasury-firm-btcs-sold-ether-at-a-loss-to-keep-usd64-million-aave-loan-healthy",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 13 Nov 2026 07:05:29 +0000",
-      "summary": "Ethereum treasury firm BTCS sold ether at a loss to keep $64 million Aave loan healthy\n"
-    },
-    {
-      "title": "Bitcoin firm Nakamoto owes Kraken $165 million, more than its entire market value",
-      "link": "https://www.coindesk.com/markets/2026/11/13/bitcoin-firm-nakamoto-owes-kraken-usd165-million-more-than-its-entire-market-value",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Fri, 13 Nov 2026 06:03:41 +0000",
-      "summary": "Bitcoin firm Nakamoto owes Kraken $165 million, more than its entire market value\n"
     }
   ]
 }
