@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T04:01:50.880565+00:00",
+  "generated_at": "2026-11-16T14:23:38.824035+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,124 +43,148 @@
       "summary": "Widespread PHP Flaw May Cause Many Site Outages Today\nExpect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected server"
     },
     {
-      "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
-      "link": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
-      "raw_summary": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post.\n\nThe Garante, Italy's data protection authority, found that the feature was enabled by default and that the app accessed Italian users' photos, videos, and related metadata without their explicit consent.\n\nThe company has 60 days to",
+      "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+      "link": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
+      "raw_summary": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week.\n\nNo patch is available, and the researchers say the newest firmware, version 5.4.0, does not fix the flaws.\n\nGovernment cybersecurity agencies in Belgium, Ireland and Germany told operators this week to",
       "source": "The Hacker News",
-      "published": "Sun, 15 Nov 2026 16:57:31 +0530",
-      "summary": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent\nMeta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post.\n\nThe Garante, Italy's data protection authori"
+      "published": "Mon, 16 Nov 2026 18:04:21 +0530",
+      "summary": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login\nSix flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week.\n\nNo patch is"
     },
     {
-      "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
-      "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
-      "raw_summary": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI.\n\n\"An attacker obtained an access key we had issued to Fireworks,\" Cursor said in a Friday update. \"The key was exposed by Fireworks, and the attacker used it to copy data from a read-only",
+      "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+      "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+      "raw_summary": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines.\n\n\"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe,\" Kaspersky said in an analysis published today.\n\n\"The '7z.dll' file was a patched version of the",
       "source": "The Hacker News",
-      "published": "Sun, 15 Nov 2026 13:52:04 +0530",
-      "summary": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident\nThe compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI.\n\n\"An attac"
+      "published": "Mon, 16 Nov 2026 18:03:18 +0530",
+      "summary": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware\nCybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines.\n\n\"On launch, the NSIS-based installer executable dropped a file nam"
     },
     {
-      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
-      "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
-      "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of improper neutralization of delimiters",
+      "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+      "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+      "raw_summary": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads.\n\nCentral to the intrusion is a toolkit called SANSAR, a Rust-based orchestrator that receives commands over the TOR anonymity network to manage CPU and GPU miners. The activity was observed in",
       "source": "The Hacker News",
-      "published": "Sat, 14 Nov 2026 18:08:35 +0530",
-      "summary": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities ("
+      "published": "Mon, 16 Nov 2026 15:02:57 +0530",
+      "summary": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity\nA financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads.\n\nCentral to "
     },
     {
-      "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
-      "link": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
-      "raw_summary": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server.\n\nThe flaw, tracked as CVE-2026-6460, has a CVSS score of 8.8. Any code run this way has the rights of the operating",
+      "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+      "link": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+      "raw_summary": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records.\n\nThe records, which Amazon's threat intelligence team captured with decoy servers, describe stolen keys being used to run the AI models that powered the search for more keys.\n\nThe team said this",
       "source": "The Hacker News",
-      "published": "Fri, 13 Nov 2026 22:23:08 +0530",
-      "summary": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE\nA type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also require"
+      "published": "Mon, 16 Nov 2026 13:04:21 +0530",
+      "summary": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys\nAttackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records.\n\nThe records,"
     },
     {
-      "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
-      "link": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
-      "raw_summary": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out.\n\nOne of them, Mior, can also modify a VM's memory and fake the signed report confirming which software it runs. Both need control of the server's hypervisor, and Mior also needs control of the server's BIOS. Researchers",
+      "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
+      "link": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
+      "raw_summary": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server.\n\nThe activity, documented by Kaspersky's ICS CERT team after it was contacted by the affected developer in June 2025, has been attributed to a threat actor named BO Team (aka Black Owl, Hoody Hyena,",
       "source": "The Hacker News",
-      "published": "Fri, 13 Nov 2026 20:57:05 +0530",
-      "summary": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs\nTwo attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out.\n\nOne of them, Mior, can also modify a VM"
+      "published": "Mon, 16 Nov 2026 12:23:34 +0530",
+      "summary": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server\nAn investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server.\n\nThe activ"
     },
     {
-      "title": "Qwen4-Max",
-      "link": "https://qwen.ai/blog?id=qwen4-max",
-      "raw_summary": "<p>Article URL: <a href=\"https://qwen.ai/blog?id=qwen4-max\">https://qwen.ai/blog?id=qwen4-max</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50513215\">https://news.ycombinator.com/item?id=50513215</a></p>\n<p>Points: 145</p>\n<p># Comments: 28</p>",
+      "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
+      "link": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
+      "raw_summary": "<p>Article URL: <a href=\"https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/\">https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50516473\">https://news.ycombinator.com/item?id=50516473</a></p>\n<p>Points: 94</p>\n<p># Comments: 36</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 16 Nov 2026 02:14:44 +0000",
-      "summary": "Qwen4-Max\n<p>Article URL: <a href=\"https://qwen.ai/blog?id=qwen4-max\">https://qwen.ai/blog?id=qwen4-max</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50513215\">https://news.ycombinator.com/item?id=50513215</a></p>\n<p>Points: 145</p>\n<p># Comments: 28</p>"
+      "published": "Mon, 16 Nov 2026 11:39:31 +0000",
+      "summary": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)\n<p>Article URL: <a href=\"https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/\">https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-lif"
     },
     {
-      "title": "Universal XSS in uBlock Origin from website-driven element picker",
-      "link": "https://iter.ca/post/ubo-uxss/",
-      "raw_summary": "<p>Article URL: <a href=\"https://iter.ca/post/ubo-uxss/\">https://iter.ca/post/ubo-uxss/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50513160\">https://news.ycombinator.com/item?id=50513160</a></p>\n<p>Points: 103</p>\n<p># Comments: 16</p>",
+      "title": "Coffeehouses and the Rise of Science [pdf]",
+      "link": "https://www.monirbounadi.com/Bounadi_JMP.pdf",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.monirbounadi.com/Bounadi_JMP.pdf\">https://www.monirbounadi.com/Bounadi_JMP.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50516245\">https://news.ycombinator.com/item?id=50516245</a></p>\n<p>Points: 105</p>\n<p># Comments: 64</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 16 Nov 2026 02:04:48 +0000",
-      "summary": "Universal XSS in uBlock Origin from website-driven element picker\n<p>Article URL: <a href=\"https://iter.ca/post/ubo-uxss/\">https://iter.ca/post/ubo-uxss/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50513160\">https://news.ycombinator.com/item?id=50513160</a></p>\n<p>Points: "
+      "published": "Mon, 16 Nov 2026 11:03:16 +0000",
+      "summary": "Coffeehouses and the Rise of Science [pdf]\n<p>Article URL: <a href=\"https://www.monirbounadi.com/Bounadi_JMP.pdf\">https://www.monirbounadi.com/Bounadi_JMP.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50516245\">https://news.ycombinator.com/item?id=50516245</a></p>\n<p>Poi"
     },
     {
-      "title": "Coles hit by a cybersecurity incident",
-      "link": "https://www.colesgroup.com.au/updates/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.colesgroup.com.au/updates/\">https://www.colesgroup.com.au/updates/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50512824\">https://news.ycombinator.com/item?id=50512824</a></p>\n<p>Points: 60</p>\n<p># Comments: 41</p>",
+      "title": "It's always DNS, so why are we running our own?",
+      "link": "https://s2.dev/blog/dns-server",
+      "raw_summary": "<p>Article URL: <a href=\"https://s2.dev/blog/dns-server\">https://s2.dev/blog/dns-server</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50515616\">https://news.ycombinator.com/item?id=50515616</a></p>\n<p>Points: 34</p>\n<p># Comments: 21</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 16 Nov 2026 01:14:35 +0000",
-      "summary": "Coles hit by a cybersecurity incident\n<p>Article URL: <a href=\"https://www.colesgroup.com.au/updates/\">https://www.colesgroup.com.au/updates/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50512824\">https://news.ycombinator.com/item?id=50512824</a></p>\n<p>Points: 60</p>\n<p># "
+      "published": "Mon, 16 Nov 2026 09:19:38 +0000",
+      "summary": "It's always DNS, so why are we running our own?\n<p>Article URL: <a href=\"https://s2.dev/blog/dns-server\">https://s2.dev/blog/dns-server</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50515616\">https://news.ycombinator.com/item?id=50515616</a></p>\n<p>Points: 34</p>\n<p># Commen"
     },
     {
-      "title": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
-      "link": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
-      "raw_summary": "<p>Article URL: <a href=\"https://forum.torproject.org/t/security-release-0-4-9-17/22454\">https://forum.torproject.org/t/security-release-0-4-9-17/22454</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50512441\">https://news.ycombinator.com/item?id=50512441</a></p>\n<p>Points: 61</p>\n<p># Comments: 8</p>",
+      "title": "Winudf – DVD / BluRay driver for DOS, Windows 1.x – 3x / 95 / 98 / ME",
+      "link": "https://github.com/ages2001/WINUDF",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/ages2001/WINUDF\">https://github.com/ages2001/WINUDF</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50515182\">https://news.ycombinator.com/item?id=50515182</a></p>\n<p>Points: 41</p>\n<p># Comments: 3</p>",
       "source": "Hacker News: Front Page",
-      "published": "Mon, 16 Nov 2026 00:21:54 +0000",
-      "summary": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack\n<p>Article URL: <a href=\"https://forum.torproject.org/t/security-release-0-4-9-17/22454\">https://forum.torproject.org/t/security-release-0-4-9-17/22454</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id="
+      "published": "Mon, 16 Nov 2026 08:00:13 +0000",
+      "summary": "Winudf – DVD / BluRay driver for DOS, Windows 1.x – 3x / 95 / 98 / ME\n<p>Article URL: <a href=\"https://github.com/ages2001/WINUDF\">https://github.com/ages2001/WINUDF</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50515182\">https://news.ycombinator.com/item?id=50515182</a></p>"
     },
     {
-      "title": "What's Next for Nvidia?",
-      "link": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
-      "raw_summary": "<p>Article URL: <a href=\"https://steveblank.com/2026/11/15/whats-next-for-nvidia/\">https://steveblank.com/2026/11/15/whats-next-for-nvidia/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50512235\">https://news.ycombinator.com/item?id=50512235</a></p>\n<p>Points: 108</p>\n<p># Comments: 123</p>",
+      "title": "How Should Armies Fight?",
+      "link": "https://worksinprogress.co/issue/the-future-of-war/",
+      "raw_summary": "<p>Article URL: <a href=\"https://worksinprogress.co/issue/the-future-of-war/\">https://worksinprogress.co/issue/the-future-of-war/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50515169\">https://news.ycombinator.com/item?id=50515169</a></p>\n<p>Points: 27</p>\n<p># Comments: 28</p>",
       "source": "Hacker News: Front Page",
-      "published": "Sun, 15 Nov 2026 23:55:55 +0000",
-      "summary": "What's Next for Nvidia?\n<p>Article URL: <a href=\"https://steveblank.com/2026/11/15/whats-next-for-nvidia/\">https://steveblank.com/2026/11/15/whats-next-for-nvidia/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50512235\">https://news.ycombinator.com/item?id=50512235</a></p>\n<"
+      "published": "Mon, 16 Nov 2026 07:57:40 +0000",
+      "summary": "How Should Armies Fight?\n<p>Article URL: <a href=\"https://worksinprogress.co/issue/the-future-of-war/\">https://worksinprogress.co/issue/the-future-of-war/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50515169\">https://news.ycombinator.com/item?id=50515169</a></p>\n<p>Points:"
     },
     {
-      "title": "Apple launches new app to study how people use AI for health",
-      "link": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
-      "raw_summary": "Apple's new app for a study will answer everyday medical questions",
+      "title": "Mazama Energy has a solution for geothermal’s biggest drilling problem",
+      "link": "https://techcrunch.com/2026/11/16/mazama-energy-has-a-solution-for-geothermals-biggest-drilling-problem/",
+      "raw_summary": "Khosla-backed Mazama Energy has developed a new way to supercool its geothermal drill bits, letting it drill faster and deeper in a quest to bring down the cost of electricity.",
       "source": "TechCrunch",
-      "published": "Mon, 16 Nov 2026 01:30:00 +0000",
-      "summary": "Apple launches new app to study how people use AI for health\nApple's new app for a study will answer everyday medical questions"
+      "published": "Mon, 16 Nov 2026 14:00:00 +0000",
+      "summary": "Mazama Energy has a solution for geothermal’s biggest drilling problem\nKhosla-backed Mazama Energy has developed a new way to supercool its geothermal drill bits, letting it drill faster and deeper in a quest to bring down the cost of electricity."
     },
     {
-      "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
-      "link": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
-      "raw_summary": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
+      "title": "After dodging death, battery startup Our Next Energy is now going public",
+      "link": "https://techcrunch.com/2026/11/16/after-dodging-death-battery-startup-our-next-energy-is-now-going-public/",
+      "raw_summary": "Our Next Energy is the latest battery startup to go public via SPAC. Does it now have what it needs to survive in a the cutthroat battery industry?",
       "source": "TechCrunch",
-      "published": "Sun, 15 Nov 2026 23:30:00 +0000",
-      "summary": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market\nBharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics."
+      "published": "Mon, 16 Nov 2026 13:00:00 +0000",
+      "summary": "After dodging death, battery startup Our Next Energy is now going public\nOur Next Energy is the latest battery startup to go public via SPAC. Does it now have what it needs to survive in a the cutthroat battery industry?"
     },
     {
-      "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
-      "link": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
-      "raw_summary": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
+      "title": "Bedrock Energy raises $24M to build more AI-enabled geothermal drill rigs for enterprise buildings",
+      "link": "https://techcrunch.com/2026/11/16/bedrock-energy-raises-24m-to-build-more-ai-enabled-geothermal-drill-rigs-for-enterprise-buildings/",
+      "raw_summary": "Geothermal heat pumps could free up significant space on the grid. Bedrock Energy raised $24 million to bring its AI-guided drill rigs to more markets.",
       "source": "TechCrunch",
-      "published": "Sun, 15 Nov 2026 21:56:35 +0000",
-      "summary": "Is bad news for Jensen Huang also bad news for the AI industry?\n\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\""
+      "published": "Mon, 16 Nov 2026 13:00:00 +0000",
+      "summary": "Bedrock Energy raises $24M to build more AI-enabled geothermal drill rigs for enterprise buildings\nGeothermal heat pumps could free up significant space on the grid. Bedrock Energy raised $24 million to bring its AI-guided drill rigs to more markets."
     },
     {
-      "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
-      "link": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
-      "raw_summary": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once.",
+      "title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
+      "link": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
+      "raw_summary": "Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.",
       "source": "TechCrunch",
-      "published": "Sun, 15 Nov 2026 20:20:57 +0000",
-      "summary": "SNL gathers all the tech tycoons for a lesson in dating and spycraft\nWhile awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once."
+      "published": "Mon, 16 Nov 2026 12:30:00 +0000",
+      "summary": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM\nDreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs."
     },
     {
-      "title": "Flaming Hydra’s new Kickstarter campaign rethinks e-book ownership and digital lending",
-      "link": "https://techcrunch.com/2026/11/15/flaming-hydras-new-kickstarter-campaign-rethinks-e-book-ownership-and-digital-lending/",
-      "raw_summary": "A new Kickstarter campaign aims to usher in the “return of the human internet.”",
+      "title": "Zoox robotaxis are now on the Uber app in Las Vegas",
+      "link": "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas/",
+      "raw_summary": "This is the first time Amazon-owned Zoox has partnered with a ride-hailing platform.",
       "source": "TechCrunch",
-      "published": "Sun, 15 Nov 2026 18:29:14 +0000",
-      "summary": "Flaming Hydra’s new Kickstarter campaign rethinks e-book ownership and digital lending\nA new Kickstarter campaign aims to usher in the “return of the human internet.”"
+      "published": "Mon, 16 Nov 2026 12:00:00 +0000",
+      "summary": "Zoox robotaxis are now on the Uber app in Las Vegas\nThis is the first time Amazon-owned Zoox has partnered with a ride-hailing platform."
+    },
+    {
+      "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
+      "link": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia/",
+      "raw_summary": "Huang is weighing a return just days after resigning amid a deepening scandal.",
+      "source": "Ars Technica",
+      "published": "Mon, 16 Nov 2026 14:06:16 +0000",
+      "summary": "Jensen Huang allies build a \"war room\" to get him back at Nvidia\nHuang is weighing a return just days after resigning amid a deepening scandal."
+    },
+    {
+      "title": "Mercedes' clever new driving assist handles complex traffic like a champ",
+      "link": "https://arstechnica.com/cars/2026/11/mercedes-clever-new-driving-assist-handles-complex-traffic-like-a-champ/",
+      "raw_summary": "The point-to-point driver assist is coming to the US and Germany in 2027.",
+      "source": "Ars Technica",
+      "published": "Mon, 16 Nov 2026 14:00:05 +0000",
+      "summary": "Mercedes' clever new driving assist handles complex traffic like a champ\nThe point-to-point driver assist is coming to the US and Germany in 2027."
+    },
+    {
+      "title": "Delivery drones are coming. For some with PTSD, that's a terrifying prospect.",
+      "link": "https://arstechnica.com/gadgets/2026/11/the-drone-delivery-boom-could-be-a-nightmare-for-people-traumatized-by-war/",
+      "raw_summary": "For those who have lived under armed drones, the sound overhead can be distressing.",
+      "source": "Ars Technica",
+      "published": "Mon, 16 Nov 2026 12:00:57 +0000",
+      "summary": "Delivery drones are coming. For some with PTSD, that's a terrifying prospect.\nFor those who have lived under armed drones, the sound overhead can be distressing."
     },
     {
       "title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
@@ -179,148 +203,124 @@
       "summary": "How the world’s fires changed while humanity hit pause\nCOVID-19 lockdowns cut global fire activity by 12.3 percent."
     },
     {
-      "title": "SpaceX returned its Starship rocket on Saturday—but there's a catch",
-      "link": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
-      "raw_summary": "It felt like stepping into the future.",
-      "source": "Ars Technica",
-      "published": "Sun, 15 Nov 2026 00:40:59 +0000",
-      "summary": "SpaceX returned its Starship rocket on Saturday—but there's a catch\nIt felt like stepping into the future."
-    },
-    {
-      "title": "James Webb telescope finds ice older than the star it orbits",
-      "link": "https://arstechnica.com/science/2026/11/james-webb-telescope-finds-ice-older-than-the-star-it-orbits/",
-      "raw_summary": "Radiation and collisions reshape the planetary building materials.",
-      "source": "Ars Technica",
-      "published": "Sat, 14 Nov 2026 12:15:48 +0000",
-      "summary": "James Webb telescope finds ice older than the star it orbits\nRadiation and collisions reshape the planetary building materials."
-    },
-    {
-      "title": "Winemakers are learning that conservation can be good for business",
-      "link": "https://arstechnica.com/science/2026/11/winemakers-are-learning-that-conservation-can-be-good-for-business/",
-      "raw_summary": "Healthy soils, native plants, and fewer chemicals are helping vineyards adapt.",
-      "source": "Ars Technica",
-      "published": "Sat, 14 Nov 2026 12:05:51 +0000",
-      "summary": "Winemakers are learning that conservation can be good for business\nHealthy soils, native plants, and fewer chemicals are helping vineyards adapt."
-    },
-    {
-      "title": "Hong Kong developer New World’s shares tumble 47% on $3.2bn rights issue plan",
-      "link": "https://www.ft.com/content/9daa3a26-c49c-4c94-91af-0d4c2116d2e4?syn-25a6b1a6=1",
-      "raw_summary": "Ailing property group to offer new stock at 80% discount as it moves to slash debts",
+      "title": "US tech stocks set to open lower amid Nvidia fallout",
+      "link": "https://www.ft.com/content/12d927a9-98b1-40b9-8f75-01fb56a693d1?syn-25a6b1a6=1",
+      "raw_summary": "Chipmaker falls 3.5% in pre-market trading and CoreWeave drops 7.6% as AI jitters continue",
       "source": "World",
-      "published": "Mon, 16 Nov 2026 04:01:04 GMT",
-      "summary": "Hong Kong developer New World’s shares tumble 47% on $3.2bn rights issue plan\nAiling property group to offer new stock at 80% discount as it moves to slash debts"
+      "published": "Mon, 16 Nov 2026 14:15:12 GMT",
+      "summary": "US tech stocks set to open lower amid Nvidia fallout\nChipmaker falls 3.5% in pre-market trading and CoreWeave drops 7.6% as AI jitters continue"
     },
     {
-      "title": "Whoops, I may be sleeping with a Chinese spy",
-      "link": "https://www.ft.com/content/c21130ff-f8bf-45dc-bea7-1a38b53ab4b2",
-      "raw_summary": "A behind-the-scenes look at the work of Rutherford Hall, critical communications strategist",
+      "title": "The era of political whiplash",
+      "link": "https://www.ft.com/content/c99762d5-9d60-4234-bb40-29222f58bb22?syn-25a6b1a6=1",
+      "raw_summary": "Will the midterms blue wave last or become a trend that flips quickly?",
       "source": "World",
-      "published": "Mon, 16 Nov 2026 04:00:01 GMT",
-      "summary": "Whoops, I may be sleeping with a Chinese spy\nA behind-the-scenes look at the work of Rutherford Hall, critical communications strategist"
+      "published": "Mon, 16 Nov 2026 14:00:07 GMT",
+      "summary": "The era of political whiplash\nWill the midterms blue wave last or become a trend that flips quickly?"
     },
     {
-      "title": "China’s economic activity slows more than expected in October",
-      "link": "https://www.ft.com/content/7a6f84cf-ebea-4225-a31a-571fb877286a?syn-25a6b1a6=1",
-      "raw_summary": "Figures present challenge to policymakers who have pushed to speed up budget spending to overcome weaker growth",
-      "source": "World",
-      "published": "Mon, 16 Nov 2026 02:41:45 GMT",
-      "summary": "China’s economic activity slows more than expected in October\nFigures present challenge to policymakers who have pushed to speed up budget spending to overcome weaker growth"
-    },
-    {
-      "title": "Yalta 2.0? Trump, Xi and Putin lead Asia’s week of high-stakes diplomacy",
-      "link": "https://www.ft.com/content/5621d364-c767-4b40-a090-054042d1c49b?syn-25a6b1a6=1",
-      "raw_summary": "Summits in China and the Philippines provide a backdrop for a string of meetings involving powerful global rivals",
-      "source": "World",
-      "published": "Mon, 16 Nov 2026 01:41:33 GMT",
-      "summary": "Yalta 2.0? Trump, Xi and Putin lead Asia’s week of high-stakes diplomacy\nSummits in China and the Philippines provide a backdrop for a string of meetings involving powerful global rivals"
-    },
-    {
-      "title": "Johnson & Johnson looking to buy eye disease biotech for up to $3.4bn",
+      "title": "Johnson & Johnson buys eye disease biotech for up to $3.3bn",
       "link": "https://www.ft.com/content/450100ba-074c-46a6-b962-89dbef146135?syn-25a6b1a6=1",
-      "raw_summary": "Drugmaker’s potential acquisition of Ollin Biosciences is latest in glut of deals in biotechnology sector",
+      "raw_summary": "Drugmaker’s acquisition of Ollin Biosciences is latest in glut of deals in biotechnology sector",
       "source": "World",
-      "published": "Sun, 15 Nov 2026 23:54:31 GMT",
-      "summary": "Johnson & Johnson looking to buy eye disease biotech for up to $3.4bn\nDrugmaker’s potential acquisition of Ollin Biosciences is latest in glut of deals in biotechnology sector"
+      "published": "Mon, 16 Nov 2026 13:55:36 GMT",
+      "summary": "Johnson & Johnson buys eye disease biotech for up to $3.3bn\nDrugmaker’s acquisition of Ollin Biosciences is latest in glut of deals in biotechnology sector"
     },
     {
-      "title": "Latest Oil Market News and Analysis for Nov. 16",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-15/latest-oil-market-news-and-analysis-for-nov-16",
-      "raw_summary": "Oil fell as signs of a well-supplied physical market and a wider shift away from risk assets outweighed fresh attacks in the Middle East.",
+      "title": "Diamondback strikes $5bn deal to expand drilling in oil-rich Permian Basin",
+      "link": "https://www.ft.com/content/a56fc76f-af32-45b2-8ae1-d5e211cb9643?syn-25a6b1a6=1",
+      "raw_summary": "Acquisition is latest in the heartland of the US shale boom amid volatile energy prices caused by Iran war",
+      "source": "World",
+      "published": "Mon, 16 Nov 2026 13:12:30 GMT",
+      "summary": "Diamondback strikes $5bn deal to expand drilling in oil-rich Permian Basin\nAcquisition is latest in the heartland of the US shale boom amid volatile energy prices caused by Iran war"
+    },
+    {
+      "title": "Bahrain condemns dozens of Shia clerics over purported Iran links",
+      "link": "https://www.ft.com/content/675941c1-d4e9-4407-8d1f-1ea8d358522a?syn-25a6b1a6=1",
+      "raw_summary": "Sunni-ruled kingdom sentences 64 people to life in prison in mass trial",
+      "source": "World",
+      "published": "Mon, 16 Nov 2026 12:43:46 GMT",
+      "summary": "Bahrain condemns dozens of Shia clerics over purported Iran links\nSunni-ruled kingdom sentences 64 people to life in prison in mass trial"
+    },
+    {
+      "title": "Colombia’s Bond Borrowing Spree Defies Emerging-Market Slump",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-16/colombia-s-bond-borrowing-spree-defies-emerging-market-slump",
+      "raw_summary": "At a time when developing countries are retreating from global bond markets, Colombia is borrowing more to plug a growing budget gap.",
       "source": "Bloomberg Markets",
-      "published": "Sun, 15 Nov 2026 23:03:50 GMT",
-      "summary": "Latest Oil Market News and Analysis for Nov. 16\nOil fell as signs of a well-supplied physical market and a wider shift away from risk assets outweighed fresh attacks in the Middle East."
+      "published": "Mon, 16 Nov 2026 14:15:55 GMT",
+      "summary": "Colombia’s Bond Borrowing Spree Defies Emerging-Market Slump\nAt a time when developing countries are retreating from global bond markets, Colombia is borrowing more to plug a growing budget gap."
     },
     {
-      "title": "Nvidia Shares Steady After Report on Jensen Huang Comeback Talks",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-16/nvidia-shares-primed-for-bounce-as-investors-eye-comeback-report",
-      "raw_summary": "Nvidia Corp.’s stock may see some relief after the Financial Times reported Jensen Huang is discussing a possible comeback to the chipmaker.",
+      "title": "Canadian Dollar Lowest Since 2025 on 3.1% Inflation Print",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-16/canada-inflation-holds-steady-at-3-1-in-october",
+      "raw_summary": "Canada’s inflation rate held at 3.1% in October as higher energy prices put upward pressure on the consumer price index, while cell phone plans eased and rent price growth slowed.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 16 Nov 2026 00:40:46 GMT",
-      "summary": "Nvidia Shares Steady After Report on Jensen Huang Comeback Talks\nNvidia Corp.’s stock may see some relief after the Financial Times reported Jensen Huang is discussing a possible comeback to the chipmaker."
+      "published": "Mon, 16 Nov 2026 13:30:01 GMT",
+      "summary": "Canadian Dollar Lowest Since 2025 on 3.1% Inflation Print\nCanada’s inflation rate held at 3.1% in October as higher energy prices put upward pressure on the consumer price index, while cell phone plans eased and rent price growth slowed."
     },
     {
-      "title": "Investors Return to JGBs as Rate Outlook Shifts, SMBC Nikko Says",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-16/investors-return-to-jgbs-as-rate-outlook-shifts-smbc-nikko-says",
-      "raw_summary": "Investors both at home and abroad are adding to positions in Japanese government debt as the surge in bond yields shows signs of peaking and concerns over artificial intelligence grow, according to SMBC Nikko Securities Inc.",
+      "title": "BlackRock Shifts AI Bets, Adds Equity Risk in New Model Shakeup",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-16/blackrock-shifts-ai-bets-adds-equity-risk-in-new-model-shakeup",
+      "raw_summary": "BlackRock Inc. is reshuffling its artificial intelligence exposure and tactically adding equity risk following a market selloff, in the latest overhaul of its $300 billion suite of model portfolios.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 16 Nov 2026 03:27:58 GMT",
-      "summary": "Investors Return to JGBs as Rate Outlook Shifts, SMBC Nikko Says\nInvestors both at home and abroad are adding to positions in Japanese government debt as the surge in bond yields shows signs of peaking and concerns over artificial intelligence grow, according to SMBC Nikko Securities Inc."
+      "published": "Mon, 16 Nov 2026 13:55:59 GMT",
+      "summary": "BlackRock Shifts AI Bets, Adds Equity Risk in New Model Shakeup\nBlackRock Inc. is reshuffling its artificial intelligence exposure and tactically adding equity risk following a market selloff, in the latest overhaul of its $300 billion suite of model portfolios."
     },
     {
-      "title": "PBOC Withdraws Medium-Term Funds in Warning Sign to Easing Bets",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-16/pboc-withdraws-medium-term-funds-in-warning-sign-to-easing-bets",
-      "raw_summary": "China’s central bank is draining funds from the financial system via a medium-term liquidity tool for the first time in five months, signaling caution to traders betting on monetary easing.",
+      "title": "Diamondback Agrees to Buy Double Eagle Assets for $5 Billion",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-16/diamondback-agrees-to-buy-parts-of-shale-producer-double-eagle",
+      "raw_summary": "Diamondback Energy Inc. agreed to buy assets in the Permian Basin from closely held oil driller Double Eagle for about $5 billion in cash and stock, growing its position as one of the largest operators in the world’s most productive shale patch.",
       "source": "Bloomberg Markets",
-      "published": "Mon, 16 Nov 2026 03:21:26 GMT",
-      "summary": "PBOC Withdraws Medium-Term Funds in Warning Sign to Easing Bets\nChina’s central bank is draining funds from the financial system via a medium-term liquidity tool for the first time in five months, signaling caution to traders betting on monetary easing."
+      "published": "Mon, 16 Nov 2026 11:57:49 GMT",
+      "summary": "Diamondback Agrees to Buy Double Eagle Assets for $5 Billion\nDiamondback Energy Inc. agreed to buy assets in the Permian Basin from closely held oil driller Double Eagle for about $5 billion in cash and stock, growing its position as one of the largest operators in the world’s most productive shale "
     },
     {
-      "title": "Asian Stocks Slide on Tech Selloff, Oil Declines: Markets Wrap",
+      "title": "Stocks Slide as AI Trade Enters High-Stakes Week: Markets Wrap",
       "link": "https://www.bloomberg.com/news/articles/2026-11-15/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "Asian equities retreated as technology shares slumped at the start of a packed week that could help set the near-term direction for the artificial intelligence trade. Oil slipped.",
+      "raw_summary": "A selloff in technology stocks carried into a new week as traders rushed to cut risk ahead of Nvidia Corp.’s high-stakes earnings and Anthropic PBC’s expected market debut in the coming days.",
       "source": "Bloomberg Markets",
       "published": "Sun, 15 Nov 2026 22:11:32 GMT",
-      "summary": "Asian Stocks Slide on Tech Selloff, Oil Declines: Markets Wrap\nAsian equities retreated as technology shares slumped at the start of a packed week that could help set the near-term direction for the artificial intelligence trade. Oil slipped."
+      "summary": "Stocks Slide as AI Trade Enters High-Stakes Week: Markets Wrap\nA selloff in technology stocks carried into a new week as traders rushed to cut risk ahead of Nvidia Corp.’s high-stakes earnings and Anthropic PBC’s expected market debut in the coming days."
     },
     {
-      "title": "Did prediction markets call the U.S. midterm election?: State of Crypto",
-      "link": "https://www.coindesk.com/policy/2026/11/15/did-prediction-markets-call-the-u-s-midterm-election-state-of-crypto",
+      "title": "Solana drops ‘beta’ label after more than six years",
+      "link": "https://www.coindesk.com/tech/2026/11/16/solana-drops-beta-label-after-more-than-six-years",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 15 Nov 2026 19:30:00 +0000",
-      "summary": "Did prediction markets call the U.S. midterm election?: State of Crypto\n"
+      "published": "Mon, 16 Nov 2026 13:03:16 +0000",
+      "summary": "Solana drops ‘beta’ label after more than six years\n"
     },
     {
-      "title": "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session",
-      "link": "https://www.coindesk.com/news-analysis/2026/11/13/crypto-insiders-aren-t-counting-on-silver-linings-in-congress-lame-duck-session",
+      "title": "Old crypto feud reignites: Why OKX's Star Xu blames Binance for two years of October crashes",
+      "link": "https://www.coindesk.com/markets/2026/11/16/bitcoin-s-slide-reopens-an-old-feud-between-crypto-s-most-powerful-founders",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 15 Nov 2026 14:00:00 +0000",
-      "summary": "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session\n"
+      "published": "Mon, 16 Nov 2026 12:55:46 +0000",
+      "summary": "Old crypto feud reignites: Why OKX's Star Xu blames Binance for two years of October crashes\n"
     },
     {
-      "title": "XRP crashes to its lowest since November 2024 as money leaves crypto",
-      "link": "https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto",
+      "title": "Bitcoin was supposed to gain as AI faltered, but it crashed. Here's why.",
+      "link": "https://www.coindesk.com/daybook-us/2026/11/16/bitcoin-was-supposed-to-gain-as-ai-faltered-but-it-crashed-here-s-why",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sun, 15 Nov 2026 02:50:57 +0000",
-      "summary": "XRP crashes to its lowest since November 2024 as money leaves crypto\n"
+      "published": "Mon, 16 Nov 2026 12:09:00 +0000",
+      "summary": "Bitcoin was supposed to gain as AI faltered, but it crashed. Here's why.\n"
     },
     {
-      "title": "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave",
-      "link": "https://www.coindesk.com/markets/2026/11/14/bitcoin-drifts-back-to-usd65-000-deep-value-zone-says-analyst",
+      "title": "Singapore, Germany test cross-border payments to reduce settlement risk",
+      "link": "https://www.coindesk.com/business/2026/11/16/singapore-germany-test-cross-border-payments-to-reduce-settlement-risk",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sat, 14 Nov 2026 16:33:29 +0000",
-      "summary": "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave\n"
+      "published": "Mon, 16 Nov 2026 11:47:12 +0000",
+      "summary": "Singapore, Germany test cross-border payments to reduce settlement risk\n"
     },
     {
-      "title": "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business",
-      "link": "https://www.coindesk.com/business/2026/11/14/ethereum-scaling-project-megaeth-slashes-staff-by-20-as-it-pursues-ai-business",
+      "title": "Bitcoin slips after rebounding from July 14 low that triggered $2 billion of liquidations",
+      "link": "https://www.coindesk.com/markets/2026/11/16/bitcoin-slips-to-usd64-000-after-usd2-billion-weekend-flush",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Sat, 14 Nov 2026 16:33:23 +0000",
-      "summary": "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business\n"
+      "published": "Mon, 16 Nov 2026 11:03:14 +0000",
+      "summary": "Bitcoin slips after rebounding from July 14 low that triggered $2 billion of liquidations\n"
     }
   ]
 }
