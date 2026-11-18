@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T14:52:17.722527+00:00",
+  "generated_at": "2026-11-18T23:44:08.568717+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,6 +43,38 @@
       "summary": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies\nGoogle said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers"
     },
     {
+      "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+      "link": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+      "raw_summary": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in.\n\nThe decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-source code since version 1.9.5, released on September 22, 2015. Fixed versions 1.31.9 and 1.30.7 came out today.\n\nF5, the company behind NGINX, says attackers can run code where",
+      "source": "The Hacker News",
+      "published": "Thu, 19 Nov 2026 00:01:17 +0530",
+      "summary": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers\nA flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in.\n\nThe decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's o"
+    },
+    {
+      "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
+      "link": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
+      "raw_summary": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts.\n\nEach flaw needs a specific setup on a virtual server: an iRule that uses a particular command, or an APM policy that includes two particular kinds of agent.\n\nF5, which makes BIG-IP, disclosed the flaws today and says they",
+      "source": "The Hacker News",
+      "published": "Wed, 18 Nov 2026 23:45:39 +0530",
+      "summary": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE\nSix critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts.\n\nEach flaw needs a specific setup on a vir"
+    },
+    {
+      "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+      "link": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+      "raw_summary": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF)\n\nThe vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthenticated deserialization in the XML-RPC endpoint that could lead to remote code execution.\n\n\"Deserialization of Untrusted",
+      "source": "The Hacker News",
+      "published": "Wed, 18 Nov 2026 22:40:45 +0530",
+      "summary": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required\nA critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF)\n\nThe vulnerability, tracked"
+    },
+    {
+      "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
+      "link": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
+      "raw_summary": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines.\n\n\"When attackers are exposed, the cheap response is to rotate,\" Bitdefender said in a technical report shared with The Hacker News. \"A file hash changes with every recompile, a domain costs a few",
+      "source": "The Hacker News",
+      "published": "Wed, 18 Nov 2026 19:41:28 +0530",
+      "summary": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks\nThe suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines.\n\n\"When attack"
+    },
+    {
       "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
       "link": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
       "raw_summary": "On AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, researchers at Technische Universität Berlin say.\n\nThat leaves short PINs open to guessing. In lab tests, the researchers found a four-digit Hello PIN on an AMD laptop and a 6-digit BitLocker PIN on an Intel laptop this way.\n\nBoth PINs were set by the",
@@ -51,276 +83,244 @@
       "summary": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years\nOn AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, researchers at Technische Universität Berlin say.\n\nThat leaves short"
     },
     {
-      "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
-      "link": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
-      "raw_summary": "TL;DR\n\n\n  Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclosure day.\n  AI pentesting vendors aren't interchangeable. Most look convincing in a demo. The gaps show up in your logged-in flows, your coverage, and your production safety.\n  Make",
-      "source": "The Hacker News",
-      "published": "Wed, 18 Nov 2026 17:45:00 +0530",
-      "summary": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor\nTL;DR\n\n\n  Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclo"
-    },
-    {
-      "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
-      "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
-      "raw_summary": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week.\n\nThe flaw is present in Java 17.0.6 and later, and the vulnerable code runs only on x86-64 Intel and AMD chips that support the AVX-512 VBMI feature.\n\nTracked as",
-      "source": "The Hacker News",
-      "published": "Wed, 18 Nov 2026 17:25:49 +0530",
-      "summary": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More\nA Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed"
-    },
-    {
-      "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
-      "link": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
-      "raw_summary": "AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's speeding up how attackers find and exploit them too, with time-to-exploit now down to a single day. Security testing has to keep up with both.\n\nAI pentesting has emerged as a way to run in-depth tests whenever teams need them, instead of waiting for the",
-      "source": "The Hacker News",
-      "published": "Wed, 18 Nov 2026 16:33:57 +0530",
-      "summary": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are\nAI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's speeding up how attackers find and exploit them too, with time-to-exp"
-    },
-    {
-      "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
-      "link": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
-      "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-115731 (CVSS score: 9.4), is a case of",
-      "source": "The Hacker News",
-      "published": "Wed, 18 Nov 2026 13:54:31 +0530",
-      "summary": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, "
-    },
-    {
-      "title": "Can Peer Review Survive AI-Generated Text? [pdf]",
-      "link": "https://www.sas.upenn.edu/~jesusfv/Peer_Review.pdf",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.sas.upenn.edu/~jesusfv/Peer_Review.pdf\">https://www.sas.upenn.edu/~jesusfv/Peer_Review.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50546312\">https://news.ycombinator.com/item?id=50546312</a></p>\n<p>Points: 25</p>\n<p># Comments: 16</p>",
+      "title": "Why educational system is broken",
+      "link": "https://keycybermonk.com/edu",
+      "raw_summary": "<p>Article URL: <a href=\"https://keycybermonk.com/edu\">https://keycybermonk.com/edu</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50553402\">https://news.ycombinator.com/item?id=50553402</a></p>\n<p>Points: 10</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 18 Nov 2026 13:51:03 +0000",
-      "summary": "Can Peer Review Survive AI-Generated Text? [pdf]\n<p>Article URL: <a href=\"https://www.sas.upenn.edu/~jesusfv/Peer_Review.pdf\">https://www.sas.upenn.edu/~jesusfv/Peer_Review.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50546312\">https://news.ycombinator.com/item?id=50546"
+      "published": "Wed, 18 Nov 2026 22:42:53 +0000",
+      "summary": "Why educational system is broken\n<p>Article URL: <a href=\"https://keycybermonk.com/edu\">https://keycybermonk.com/edu</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50553402\">https://news.ycombinator.com/item?id=50553402</a></p>\n<p>Points: 10</p>\n<p># Comments: 4</p>"
     },
     {
-      "title": "Quad9 Is Leaving France: Why DNS Resolvers Are the Wrong Place to Fight Piracy",
-      "link": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
-      "raw_summary": "<p>Article URL: <a href=\"https://techstackups.com/articles/quad9-leaves-france-dns-blocking/\">https://techstackups.com/articles/quad9-leaves-france-dns-blocking/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50545958\">https://news.ycombinator.com/item?id=50545958</a></p>\n<p>Points: 129</p>\n<p># Comments: 20</p>",
+      "title": "GTA6-like as a 942Kb UEFI bootable image",
+      "link": "https://github.com/eklavya-raj/gta6-uefi",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/eklavya-raj/gta6-uefi\">https://github.com/eklavya-raj/gta6-uefi</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50553192\">https://news.ycombinator.com/item?id=50553192</a></p>\n<p>Points: 11</p>\n<p># Comments: 7</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 18 Nov 2026 13:18:02 +0000",
-      "summary": "Quad9 Is Leaving France: Why DNS Resolvers Are the Wrong Place to Fight Piracy\n<p>Article URL: <a href=\"https://techstackups.com/articles/quad9-leaves-france-dns-blocking/\">https://techstackups.com/articles/quad9-leaves-france-dns-blocking/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator."
+      "published": "Wed, 18 Nov 2026 22:26:48 +0000",
+      "summary": "GTA6-like as a 942Kb UEFI bootable image\n<p>Article URL: <a href=\"https://github.com/eklavya-raj/gta6-uefi\">https://github.com/eklavya-raj/gta6-uefi</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50553192\">https://news.ycombinator.com/item?id=50553192</a></p>\n<p>Points: 11</p"
     },
     {
-      "title": "Evidence (YC S21) Is Hiring",
-      "link": "https://www.ycombinator.com/companies/evidence/jobs/1xb9PpP-founding-gtm-lead",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/evidence/jobs/1xb9PpP-founding-gtm-lead\">https://www.ycombinator.com/companies/evidence/jobs/1xb9PpP-founding-gtm-lead</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50545238\">https://news.ycombinator.com/item?id=50545238</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
+      "title": "Gemini 4 Neon",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/\">https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50552424\">https://news.ycombinator.com/item?id=50552424</a></p>\n<p>Points: 311</p>\n<p># Comments: 302</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 18 Nov 2026 12:00:16 +0000",
-      "summary": "Evidence (YC S21) Is Hiring\n<p>Article URL: <a href=\"https://www.ycombinator.com/companies/evidence/jobs/1xb9PpP-founding-gtm-lead\">https://www.ycombinator.com/companies/evidence/jobs/1xb9PpP-founding-gtm-lead</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50545238\">https://n"
+      "published": "Wed, 18 Nov 2026 21:34:07 +0000",
+      "summary": "Gemini 4 Neon\n<p>Article URL: <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/\">https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com"
     },
     {
-      "title": "Show HN: Type Fighter 2",
-      "link": "https://typefighter2.com/",
-      "raw_summary": "<p>Type Fighter II is an arcade inspired game for people learning to touch type.<p>Free, no account, and progress stays local. You can try on mobile, best with a physical keyboard.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50544821\">https://news.ycombinator.com/item?id=50544821</a></p>\n<p>Points: 32</p>\n<p># Comments: 12</p>",
+      "title": "Horizon Labs Report",
+      "link": "https://horizon-labs.ai/",
+      "raw_summary": "<p>Article URL: <a href=\"https://horizon-labs.ai/\">https://horizon-labs.ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50551509\">https://news.ycombinator.com/item?id=50551509</a></p>\n<p>Points: 17</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 18 Nov 2026 11:11:53 +0000",
-      "summary": "Show HN: Type Fighter 2\n<p>Type Fighter II is an arcade inspired game for people learning to touch type.<p>Free, no account, and progress stays local. You can try on mobile, best with a physical keyboard.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50544821\">https://new"
+      "published": "Wed, 18 Nov 2026 20:12:34 +0000",
+      "summary": "Horizon Labs Report\n<p>Article URL: <a href=\"https://horizon-labs.ai/\">https://horizon-labs.ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50551509\">https://news.ycombinator.com/item?id=50551509</a></p>\n<p>Points: 17</p>\n<p># Comments: 4</p>"
     },
     {
-      "title": "Codeberg.org Not Reachable",
-      "link": "https://social.anoxinon.de/@codebergstatus/117636437840688845",
-      "raw_summary": "<p>Article URL: <a href=\"https://social.anoxinon.de/@codebergstatus/117636437840688845\">https://social.anoxinon.de/@codebergstatus/117636437840688845</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50544261\">https://news.ycombinator.com/item?id=50544261</a></p>\n<p>Points: 265</p>\n<p># Comments: 257</p>",
+      "title": "Search Browser – Minimalist WebKit browser with Chrome extension support",
+      "link": "https://searchbrowser.app/",
+      "raw_summary": "<p>Article URL: <a href=\"https://searchbrowser.app/\">https://searchbrowser.app/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50551398\">https://news.ycombinator.com/item?id=50551398</a></p>\n<p>Points: 48</p>\n<p># Comments: 30</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 18 Nov 2026 10:02:17 +0000",
-      "summary": "Codeberg.org Not Reachable\n<p>Article URL: <a href=\"https://social.anoxinon.de/@codebergstatus/117636437840688845\">https://social.anoxinon.de/@codebergstatus/117636437840688845</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50544261\">https://news.ycombinator.com/item?id=50544"
+      "published": "Wed, 18 Nov 2026 20:04:31 +0000",
+      "summary": "Search Browser – Minimalist WebKit browser with Chrome extension support\n<p>Article URL: <a href=\"https://searchbrowser.app/\">https://searchbrowser.app/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50551398\">https://news.ycombinator.com/item?id=50551398</a></p>\n<p>Points: 4"
     },
     {
-      "title": "Nvidia clarifies when it will — and won’t —keep financing neoclouds",
-      "link": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
-      "raw_summary": "If Nvidia is backstopping a data center loan, it won't be on the hook unless the neocould has independent financing and gets the facility built, with Nvidia gear installed, interim CEO Colette Kress explained.",
+      "title": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
+      "link": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
+      "raw_summary": "“I don’t think [Huang is] disloyal to the United States,\" Musk said.",
       "source": "TechCrunch",
-      "published": "Wed, 18 Nov 2026 13:00:00 +0000",
-      "summary": "Nvidia clarifies when it will — and won’t —keep financing neoclouds\nIf Nvidia is backstopping a data center loan, it won't be on the hook unless the neocould has independent financing and gets the facility built, with Nvidia gear installed, interim CEO Colette Kress explained."
+      "published": "Wed, 18 Nov 2026 23:25:17 +0000",
+      "summary": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’\n“I don’t think [Huang is] disloyal to the United States,\" Musk said."
     },
     {
-      "title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
-      "link": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
-      "raw_summary": "With a team of just seven, Unsiloed AI plans to compete with tech giants and specialized startups in the crowded AI document-processing market.",
+      "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
+      "link": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
+      "raw_summary": "Microsoft CEO Satya Nadella expressed confidence in Jensen Huang's successor Colette Kress, who is serving as Nvidia's interim CEO.",
       "source": "TechCrunch",
-      "published": "Wed, 18 Nov 2026 12:00:00 +0000",
-      "summary": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents\nWith a team of just seven, Unsiloed AI plans to compete with tech giants and specialized startups in the crowded AI document-processing market."
+      "published": "Wed, 18 Nov 2026 23:17:28 +0000",
+      "summary": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit\nMicrosoft CEO Satya Nadella expressed confidence in Jensen Huang's successor Colette Kress, who is serving as Nvidia's interim CEO."
     },
     {
-      "title": "India’s Humyn Labs raises $47M to feed U.S. robotics companies the data they need",
-      "link": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
-      "raw_summary": "Founded in February, Humyn Labs competes with startups including Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
+      "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+      "link": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+      "raw_summary": "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers.",
       "source": "TechCrunch",
-      "published": "Wed, 18 Nov 2026 11:30:00 +0000",
-      "summary": "India’s Humyn Labs raises $47M to feed U.S. robotics companies the data they need\nFounded in February, Humyn Labs competes with startups including Mecka AI and XDOF, with about 90% of its revenue coming from the U.S."
+      "published": "Wed, 18 Nov 2026 22:58:11 +0000",
+      "summary": "Satya Nadella predicts AI agents will reshuffle the economics of the web\nMicrosoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers."
     },
     {
-      "title": "China dominates battery graphite, but this startup could break the monopoly",
-      "link": "https://techcrunch.com/2026/11/18/china-dominates-battery-graphite-but-this-startup-could-break-the-monopoly/",
-      "raw_summary": "Chinese companies maintain near total dominance of the graphite industry, but Molten Industries says its new factory in Oakland could spell the end of the monopoly.",
+      "title": "Anthropic reportedly prices IPO at $83 a share, above projected range",
+      "link": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+      "raw_summary": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis.",
       "source": "TechCrunch",
-      "published": "Wed, 18 Nov 2026 11:00:00 +0000",
-      "summary": "China dominates battery graphite, but this startup could break the monopoly\nChinese companies maintain near total dominance of the graphite industry, but Molten Industries says its new factory in Oakland could spell the end of the monopoly."
+      "published": "Wed, 18 Nov 2026 22:11:15 +0000",
+      "summary": "Anthropic reportedly prices IPO at $83 a share, above projected range\nThe long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis."
     },
     {
-      "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future  deals in doubt",
-      "link": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
-      "raw_summary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
+      "title": "Palmer Luckey doesn’t deny that he’s a prepper",
+      "link": "https://techcrunch.com/2026/11/18/palmer-luckey-doesnt-deny-that-hes-a-prepper/",
+      "raw_summary": "The Anduril founder said Wednesday that Americans should always have three days of food, water, and medicine — just in case.",
       "source": "TechCrunch",
-      "published": "Wed, 18 Nov 2026 01:44:21 +0000",
-      "summary": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future  deals in doubt\nThe value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies."
+      "published": "Wed, 18 Nov 2026 22:04:03 +0000",
+      "summary": "Palmer Luckey doesn’t deny that he’s a prepper\nThe Anduril founder said Wednesday that Americans should always have three days of food, water, and medicine — just in case."
     },
     {
-      "title": "Tesla’s $30,000 Cybercab comes with a $299 monthly catch",
-      "link": "https://arstechnica.com/cars/2026/11/tesla-will-sell-you-a-cybercab-for-30000-then-charge-299-a-month-to-use-it/",
-      "raw_summary": "Tesla can restrict where Cybercabs drive and even block owners from reselling them.",
+      "title": "Ted Cruz-led committee approves Trump FCC nominee 15-0 as Democrats boycott vote",
+      "link": "https://arstechnica.com/tech-policy/2026/11/ted-cruz-led-committee-approves-trump-fcc-nominee-15-0-as-democrats-boycott-vote/",
+      "raw_summary": "Democrats try to prevent quorum, say Thumann lied about not working on media issues.",
       "source": "Ars Technica",
-      "published": "Wed, 18 Nov 2026 14:01:45 +0000",
-      "summary": "Tesla’s $30,000 Cybercab comes with a $299 monthly catch\nTesla can restrict where Cybercabs drive and even block owners from reselling them."
+      "published": "Wed, 18 Nov 2026 23:25:04 +0000",
+      "summary": "Ted Cruz-led committee approves Trump FCC nominee 15-0 as Democrats boycott vote\nDemocrats try to prevent quorum, say Thumann lied about not working on media issues."
     },
     {
-      "title": "Voyager 1 at one light-day: Historian revisits Golden Record's forgotten details",
-      "link": "https://arstechnica.com/space/2026/11/voyager-1-at-one-light-day-historian-revisits-golden-records-forgotten-details/",
-      "raw_summary": "\"They are pretty confident that it's going to last a long, long, long time...\"",
+      "title": "Ukraine blew up Putin’s bridge using relay drones to bypass Starlink limits",
+      "link": "https://arstechnica.com/gadgets/2026/11/ukraine-blew-up-putins-bridge-using-relay-drones-to-bypass-starlink-limits/",
+      "raw_summary": "Ukraine's strike used homegrown tech while adapting battlefield lessons from its adversary.",
       "source": "Ars Technica",
-      "published": "Wed, 18 Nov 2026 12:15:44 +0000",
-      "summary": "Voyager 1 at one light-day: Historian revisits Golden Record's forgotten details\n\"They are pretty confident that it's going to last a long, long, long time...\""
+      "published": "Wed, 18 Nov 2026 23:10:39 +0000",
+      "summary": "Ukraine blew up Putin’s bridge using relay drones to bypass Starlink limits\nUkraine's strike used homegrown tech while adapting battlefield lessons from its adversary."
     },
     {
-      "title": "Grand Theft Auto VI: The Ars Technica review",
-      "link": "https://arstechnica.com/gaming/2026/11/grand-theft-auto-vi-the-ars-technica-review/",
-      "raw_summary": "Jason and Lucia's crime-heavy love story fuels a wonder of digital urban simulation.",
+      "title": "Trump abandons his FDA nominee, and Senate scraps vote on his NSF pick",
+      "link": "https://arstechnica.com/health/2026/11/trump-abandons-his-fda-nominee-and-senate-scraps-vote-on-his-nsf-pick/",
+      "raw_summary": "\"This time requires leadership and fortitude,\" Senator Bill Cassidy said.",
       "source": "Ars Technica",
-      "published": "Wed, 18 Nov 2026 11:00:27 +0000",
-      "summary": "Grand Theft Auto VI: The Ars Technica review\nJason and Lucia's crime-heavy love story fuels a wonder of digital urban simulation."
+      "published": "Wed, 18 Nov 2026 22:08:57 +0000",
+      "summary": "Trump abandons his FDA nominee, and Senate scraps vote on his NSF pick\n\"This time requires leadership and fortitude,\" Senator Bill Cassidy said."
     },
     {
-      "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
-      "link": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
-      "raw_summary": "Word, Excel, and PowerPoint now live inside Copilot; always-on agents are next.",
+      "title": "Netflix CEO admits app may bury stuff you want to watch under stuff you don’t",
+      "link": "https://arstechnica.com/gadgets/2026/11/netflix-ceo-admits-app-may-bury-stuff-you-want-to-watch-under-stuff-you-dont/",
+      "raw_summary": "CEO Ted Sarandos discusses gaps in making hit shows that streamers can find.",
       "source": "Ars Technica",
-      "published": "Wed, 18 Nov 2026 00:27:29 +0000",
-      "summary": "Copilot is \"the new OS for work,\" and now Office runs inside of it\nWord, Excel, and PowerPoint now live inside Copilot; always-on agents are next."
+      "published": "Wed, 18 Nov 2026 21:29:24 +0000",
+      "summary": "Netflix CEO admits app may bury stuff you want to watch under stuff you don’t\nCEO Ted Sarandos discusses gaps in making hit shows that streamers can find."
     },
     {
-      "title": "San Diego dumps both Flock cameras and smart streetlights",
-      "link": "https://arstechnica.com/tech-policy/2026/11/san-diego-dumps-both-flock-cameras-and-smart-streetlights/",
-      "raw_summary": "500+ cameras will go dark just 3 years after mayor urged approval.",
+      "title": "Windows Server 2028 trades compatibility for out-of-the-box security",
+      "link": "https://arstechnica.com/gadgets/2026/11/windows-server-2028-public-preview-bets-on-a-security-first-approach/",
+      "raw_summary": "Hardened defaults align with DoD standards, but there may be growing pains.",
       "source": "Ars Technica",
-      "published": "Tue, 17 Nov 2026 23:09:09 +0000",
-      "summary": "San Diego dumps both Flock cameras and smart streetlights\n500+ cameras will go dark just 3 years after mayor urged approval."
+      "published": "Wed, 18 Nov 2026 20:41:12 +0000",
+      "summary": "Windows Server 2028 trades compatibility for out-of-the-box security\nHardened defaults align with DoD standards, but there may be growing pains."
     },
     {
-      "title": "Ukraine’s ‘flying modems’ helped take down Putin’s bridge",
-      "link": "https://www.ft.com/content/65c5684a-f532-4601-9878-8fa2efe8d8f8?syn-25a6b1a6=1",
-      "raw_summary": "Kyiv starts using its own communication system for drone strikes after repeated disruptions in the use of Starlink",
+      "title": "US and Venezuela to expand military co-operation to target drug trafficking",
+      "link": "https://www.ft.com/content/5144ce59-b928-46ba-b6b6-d7e77eb79d5b?syn-25a6b1a6=1",
+      "raw_summary": "Defence secretary Pete Hegseth says two nations will ‘hunt’, ‘find’ and ‘kill’ ‘narcoterrorists’ during trip to Caracas",
       "source": "World",
-      "published": "Wed, 18 Nov 2026 14:12:43 GMT",
-      "summary": "Ukraine’s ‘flying modems’ helped take down Putin’s bridge\nKyiv starts using its own communication system for drone strikes after repeated disruptions in the use of Starlink"
+      "published": "Wed, 18 Nov 2026 23:22:04 GMT",
+      "summary": "US and Venezuela to expand military co-operation to target drug trafficking\nDefence secretary Pete Hegseth says two nations will ‘hunt’, ‘find’ and ‘kill’ ‘narcoterrorists’ during trip to Caracas"
     },
     {
-      "title": "Behind the Deutsche Bank investigation. You asked, we answered",
-      "link": "https://www.ft.com/deutsche-q&a?syn-25a6b1a6=1",
-      "raw_summary": "Dan McCrum, FT investigative reporter and Olaf Storbeck, Frankfurt bureau chief replied to questions on how the story was uncovered",
+      "title": "Meta halts plan to give Zuckerberg new class of shares",
+      "link": "https://www.ft.com/content/3c97ea69-1a32-4280-b067-f37f2874f987?syn-25a6b1a6=1",
+      "raw_summary": "Tech group pauses plan that would have let founder sell down stake without ceding control",
       "source": "World",
-      "published": "Wed, 18 Nov 2026 13:24:59 GMT",
-      "summary": "Behind the Deutsche Bank investigation. You asked, we answered\nDan McCrum, FT investigative reporter and Olaf Storbeck, Frankfurt bureau chief replied to questions on how the story was uncovered"
+      "published": "Wed, 18 Nov 2026 22:58:24 GMT",
+      "summary": "Meta halts plan to give Zuckerberg new class of shares\nTech group pauses plan that would have let founder sell down stake without ceding control"
     },
     {
-      "title": "Xi greets Trump with hug ahead of historic summit with Putin",
-      "link": "https://www.ft.com/content/ae7d1b27-b892-48d6-ad47-41128a4b53a1?syn-25a6b1a6=1",
-      "raw_summary": "US and Chinese leaders to meet Russia’s Vladimir Putin to cap week of high-profile diplomacy",
+      "title": "Anthropic prices blockbuster IPO at $83 a share",
+      "link": "https://www.ft.com/content/62c0510b-ca65-441e-9baf-675b93903b9e?syn-25a6b1a6=1",
+      "raw_summary": "AI group draws strong demand from investors despite jitters in tech stocks",
       "source": "World",
-      "published": "Wed, 18 Nov 2026 13:09:53 GMT",
-      "summary": "Xi greets Trump with hug ahead of historic summit with Putin\nUS and Chinese leaders to meet Russia’s Vladimir Putin to cap week of high-profile diplomacy"
+      "published": "Wed, 18 Nov 2026 22:04:50 GMT",
+      "summary": "Anthropic prices blockbuster IPO at $83 a share\nAI group draws strong demand from investors despite jitters in tech stocks"
     },
     {
-      "title": "The only way out of populism is through it",
-      "link": "https://www.ft.com/content/e71273dd-2748-4396-bb62-e75307105596?syn-25a6b1a6=1",
-      "raw_summary": "The lesson of Britain and America is that bad ideas have to be tested to destruction",
+      "title": "US tech outages blamed on rush to fix bugs found by AI",
+      "link": "https://www.ft.com/content/96c565f1-f229-40b6-91e8-7a849ec4b208?syn-25a6b1a6=1",
+      "raw_summary": "Experts say race to patch software flaws probably created instability in computer systems at Microsoft, JPMorgan and others",
       "source": "World",
-      "published": "Wed, 18 Nov 2026 13:04:25 GMT",
-      "summary": "The only way out of populism is through it\nThe lesson of Britain and America is that bad ideas have to be tested to destruction"
+      "published": "Wed, 18 Nov 2026 21:49:52 GMT",
+      "summary": "US tech outages blamed on rush to fix bugs found by AI\nExperts say race to patch software flaws probably created instability in computer systems at Microsoft, JPMorgan and others"
     },
     {
-      "title": "ANC nears deal to block rival Zille as Johannesburg mayor",
-      "link": "https://www.ft.com/content/d6faebd0-2690-4e2b-af7b-35fc7643808d?syn-25a6b1a6=1",
-      "raw_summary": "Pact with smaller factions would keep liberation party in power in South Africa’s commercial heart",
+      "title": "Russian accused of spying on Palantir over assistance to Ukraine",
+      "link": "https://www.ft.com/content/4972f4c7-fe8d-4fdd-b0fd-0db2360cda2a?syn-25a6b1a6=1",
+      "raw_summary": "Prosecutors say suspect entered US from Mexico and stalked employees at Silicon Valley tech group",
       "source": "World",
-      "published": "Wed, 18 Nov 2026 13:04:24 GMT",
-      "summary": "ANC nears deal to block rival Zille as Johannesburg mayor\nPact with smaller factions would keep liberation party in power in South Africa’s commercial heart"
+      "published": "Wed, 18 Nov 2026 21:44:59 GMT",
+      "summary": "Russian accused of spying on Palantir over assistance to Ukraine\nProsecutors say suspect entered US from Mexico and stalked employees at Silicon Valley tech group"
     },
     {
-      "title": "Stocks Rise on Nvidia’s View Before Anthropic IPO: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-17/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "Technology stocks powered Wall Street gains as a strong outlook from Nvidia Corp. helped soothe concerns over the durability of the artificial-intelligence trade.",
+      "title": "Nasdaq Futures Rise After Anthropic IPO Pricing: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-18/stock-market-today-dow-s-p-live-updates",
+      "raw_summary": "US equity-index futures advanced after Anthropic PBC priced its initial public offering above the marketed range, putting investor appetite for the technology sector to a fresh test following recent losses. Copper declined.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 17 Nov 2026 22:07:08 GMT",
-      "summary": "Stocks Rise on Nvidia’s View Before Anthropic IPO: Markets Wrap\nTechnology stocks powered Wall Street gains as a strong outlook from Nvidia Corp. helped soothe concerns over the durability of the artificial-intelligence trade."
+      "published": "Wed, 18 Nov 2026 22:07:41 GMT",
+      "summary": "Nasdaq Futures Rise After Anthropic IPO Pricing: Markets Wrap\nUS equity-index futures advanced after Anthropic PBC priced its initial public offering above the marketed range, putting investor appetite for the technology sector to a fresh test following recent losses. Copper declined."
     },
     {
-      "title": "South African Rand Hits Eight-Month Low on Gold, Fed Hike Bets",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-18/rand-leads-emerging-market-losses-as-gold-drops-below-3-800",
-      "raw_summary": "The rand slumped to its weakest level against the dollar since March as a retreat in gold, a key South African export, added to worries that a Federal Reserve interest-rate hike will erode the South African currency’s yield advantage.",
+      "title": "Jane Fraser on IPO Pipeline, AI, & Interest Rate Outlook",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-18/jane-fraser-on-ipo-pipeline-ai-interest-rate-outlook-video",
+      "raw_summary": "Jane Fraser, Citi's Chair and CEO, says NVIDIA’s better-than-expected earnings and increased guidance were not the only issues investors were weighing; they were also focused on whether AI-related financing would continue and who would lead the company next. She speaks with Lisa Abramowicz at Bloomberg Newsmakers. (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Wed, 18 Nov 2026 11:08:11 GMT",
-      "summary": "South African Rand Hits Eight-Month Low on Gold, Fed Hike Bets\nThe rand slumped to its weakest level against the dollar since March as a retreat in gold, a key South African export, added to worries that a Federal Reserve interest-rate hike will erode the South African currency’s yield advantage."
+      "published": "Wed, 18 Nov 2026 23:31:48 GMT",
+      "summary": "Jane Fraser on IPO Pipeline, AI, & Interest Rate Outlook\nJane Fraser, Citi's Chair and CEO, says NVIDIA’s better-than-expected earnings and increased guidance were not the only issues investors were weighing; they were also focused on whether AI-related financing would continue and who would lead th"
     },
     {
-      "title": "Once the Regional Laggard in Sustainable Debt, Mexico Now Leads",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-18/once-the-regional-laggard-in-sustainable-debt-mexico-now-leads",
-      "raw_summary": "Mexico’s government has issued a record amount of sustainable debt this year, bucking a decline in such sales seen across emerging-markets as local pension funds step up investments.",
+      "title": "Gold Steadies Near 14-Month Low as Fed Signals More Rate Hikes",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-18/gold-steadies-near-14-month-low-as-fed-signals-more-rate-hikes",
+      "raw_summary": "Gold steadied near a 14-month low after hawkish comments from Federal Reserve officials reinforced expectations for interest-rate hikes stretching into next year.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 18 Nov 2026 14:19:16 GMT",
-      "summary": "Once the Regional Laggard in Sustainable Debt, Mexico Now Leads\nMexico’s government has issued a record amount of sustainable debt this year, bucking a decline in such sales seen across emerging-markets as local pension funds step up investments."
+      "published": "Wed, 18 Nov 2026 23:24:06 GMT",
+      "summary": "Gold Steadies Near 14-Month Low as Fed Signals More Rate Hikes\nGold steadied near a 14-month low after hawkish comments from Federal Reserve officials reinforced expectations for interest-rate hikes stretching into next year."
     },
     {
-      "title": "CoreWeave Says Nvidia Is ‘Not One Person,’ Remains a Key Partner",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-18/coreweave-says-nvidia-is-not-one-person-remains-a-key-partner",
-      "raw_summary": "CoreWeave Inc. has moved to dispel concerns that Jensen Huang’s exit from Nvidia Corp. could affect the chipmaker’s support for neoclouds, with strategy leader Ben Richardson saying it plans to keep working with the company.",
+      "title": "Probe of Mark Walter’s Insurers Spotlights Gaps in Regulatory Patchwork",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-18/probe-of-mark-walter-s-insurers-spotlights-gaps-in-regulatory-patchwork",
+      "raw_summary": "Trinidad Navarro knows how to hunt down wrongdoing.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 18 Nov 2026 14:17:31 GMT",
-      "summary": "CoreWeave Says Nvidia Is ‘Not One Person,’ Remains a Key Partner\nCoreWeave Inc. has moved to dispel concerns that Jensen Huang’s exit from Nvidia Corp. could affect the chipmaker’s support for neoclouds, with strategy leader Ben Richardson saying it plans to keep working with the company."
+      "published": "Wed, 18 Nov 2026 18:04:19 GMT",
+      "summary": "Probe of Mark Walter’s Insurers Spotlights Gaps in Regulatory Patchwork\nTrinidad Navarro knows how to hunt down wrongdoing."
     },
     {
-      "title": "As Lithium Glut Looms, Major Producer SQM Is Stepping Up Output",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-18/sqm-sees-positive-lithium-demand-outlook-even-as-prices-slide",
-      "raw_summary": "Major lithium supplier SQM is forging ahead with plans to increase production next year even as a renewed slump threatens to slash battery metal prices.",
+      "title": "Latest Oil Market News and Analysis for Nov. 19",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-18/latest-oil-market-news-and-analysis-for-nov-19",
+      "raw_summary": "Oil steadied after slumping on Wednesday, as weaker risk appetite, rising US inventories and ample supplies outweighed Middle East tensions.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 18 Nov 2026 01:18:05 GMT",
-      "summary": "As Lithium Glut Looms, Major Producer SQM Is Stepping Up Output\nMajor lithium supplier SQM is forging ahead with plans to increase production next year even as a renewed slump threatens to slash battery metal prices."
+      "published": "Wed, 18 Nov 2026 23:03:35 GMT",
+      "summary": "Latest Oil Market News and Analysis for Nov. 19\nOil steadied after slumping on Wednesday, as weaker risk appetite, rising US inventories and ample supplies outweighed Middle East tensions."
     },
     {
-      "title": "Bitcoin miner MARA raises $185 million in debt after selling $1 billion BTC to repay loans",
-      "link": "https://www.coindesk.com/markets/2026/11/18/bitcoin-miner-mara-raises-usd185-million-in-debt-after-selling-usd1-billion-btc-to-repay-loans",
+      "title": "Payward, the owner of crypto exchange Kraken, is buying its CEO’s venture capital business, Tribe",
+      "link": "https://www.coindesk.com/business/2026/11/18/payward-the-owner-of-crypto-exchange-kraken-is-buying-its-ceo-s-venture-capital-business-tribe",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 18 Nov 2026 12:53:34 +0000",
-      "summary": "Bitcoin miner MARA raises $185 million in debt after selling $1 billion BTC to repay loans\n"
+      "published": "Wed, 18 Nov 2026 22:30:00 +0000",
+      "summary": "Payward, the owner of crypto exchange Kraken, is buying its CEO’s venture capital business, Tribe\n"
     },
     {
-      "title": "Bullish beats revenue estimates as institutional services offset sluggish spot crypto volumes",
-      "link": "https://www.coindesk.com/markets/2026/11/18/bullish-beats-revenue-estimates-as-institutional-services-offset-sluggish-spot-crypto-volumes",
+      "title": "A $1.5 billion crypto startup is taking on Hyperliquid with a Wall Street playbook",
+      "link": "https://www.coindesk.com/business/2026/11/18/a-usd1-5-billion-crypto-startup-is-taking-on-hyperliquid-with-a-wall-street-playbook",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 18 Nov 2026 12:41:09 +0000",
-      "summary": "Bullish beats revenue estimates as institutional services offset sluggish spot crypto volumes\n"
+      "published": "Wed, 18 Nov 2026 17:22:03 +0000",
+      "summary": "A $1.5 billion crypto startup is taking on Hyperliquid with a Wall Street playbook\n"
     },
     {
-      "title": "Circle turns to DBS as banks build rival digital payment systems across Asia",
-      "link": "https://www.coindesk.com/business/2026/11/18/circle-turns-to-dbs-as-banks-build-rival-digital-payment-systems-across-asia",
+      "title": "Crypto Long & Short: Crypto exchanges shouldn’t double as the vault",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/11/18/crypto-long-and-short-crypto-exchanges-shouldn-t-double-as-the-vault",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 18 Nov 2026 12:25:14 +0000",
-      "summary": "Circle turns to DBS as banks build rival digital payment systems across Asia\n"
+      "published": "Wed, 18 Nov 2026 16:02:54 +0000",
+      "summary": "Crypto Long & Short: Crypto exchanges shouldn’t double as the vault\n"
     },
     {
-      "title": "Blaming Anthropic’s IPO for bitcoin’s slide is 'easy to believe,' but flawed, analysts say",
-      "link": "https://www.coindesk.com/daybook-us/2026/11/18/blaming-anthropic-s-ipo-for-bitcoin-s-slide-is-easy-to-believe-but-flawed-analysts-say",
+      "title": "German judge proposes dropping Movie2k case if operator hands over $2.56 billion in bitcoin",
+      "link": "https://www.coindesk.com/business/2026/11/18/german-judge-proposes-dropping-movie2k-case-if-operator-hands-over-usd2-56-billion-in-bitcoin",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 18 Nov 2026 12:15:00 +0000",
-      "summary": "Blaming Anthropic’s IPO for bitcoin’s slide is 'easy to believe,' but flawed, analysts say\n"
+      "published": "Wed, 18 Nov 2026 15:38:38 +0000",
+      "summary": "German judge proposes dropping Movie2k case if operator hands over $2.56 billion in bitcoin\n"
     },
     {
-      "title": "Bitcoin drops as Nvidia earnings report drives stock index futures higher",
-      "link": "https://www.coindesk.com/markets/2026/11/18/bitcoin-drops-as-nvidia-earnings-report-drives-stock-index-futures-higher",
+      "title": "Hong Kong wants banks to use AI to catch crypto crime before money disappears",
+      "link": "https://www.coindesk.com/business/2026/11/18/hong-kong-wants-banks-to-use-ai-to-catch-crypto-crime-before-money-disappears",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 18 Nov 2026 11:42:52 +0000",
-      "summary": "Bitcoin drops as Nvidia earnings report drives stock index futures higher\n"
+      "published": "Wed, 18 Nov 2026 15:23:18 +0000",
+      "summary": "Hong Kong wants banks to use AI to catch crypto crime before money disappears\n"
     }
   ]
 }
