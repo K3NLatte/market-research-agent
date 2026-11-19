@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T05:16:59.018856+00:00",
+  "generated_at": "2026-11-19T14:58:14.796164+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,84 +43,108 @@
       "summary": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies\nGoogle said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers"
     },
     {
-      "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
-      "link": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
-      "raw_summary": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws.\n\nThe release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC.\n\n\"These releases are part of PHP's regular four-week release cycle and will address security vulnerabilities affecting all supported PHP versions,\" the maintainers said.",
+      "title": "Everything Is a Web Application, Including Your Firewall",
+      "link": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+      "raw_summary": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both flaws let anyone execute code on the web server without authentication. The disclosure itself went a little wrong.",
       "source": "The Hacker News",
-      "published": "Thu, 19 Nov 2026 10:03:46 +0530",
-      "summary": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19\nThe maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws.\n\nThe release is scheduled for November 19, 2026, betw"
+      "published": "Thu, 19 Nov 2026 17:22:23 +0530",
+      "summary": "Everything Is a Web Application, Including Your Firewall\nOne of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfa"
     },
     {
-      "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
-      "link": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
-      "raw_summary": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in.\n\nThe decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-source code since version 1.9.5, released on September 22, 2015. Fixed versions 1.31.9 and 1.30.7 came out today.\n\nF5, the company behind NGINX, says attackers can run code where",
+      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
+      "link": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+      "raw_summary": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs.\n\n\"We have taken steps to mitigate the threat and are continuing to harden our services to reduce the risk of recurrence,\" N-able said.\n\n\"The investigation is ongoing, but at this time we",
       "source": "The Hacker News",
-      "published": "Thu, 19 Nov 2026 00:01:17 +0530",
-      "summary": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers\nA flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in.\n\nThe decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's o"
+      "published": "Thu, 19 Nov 2026 15:01:26 +0530",
+      "summary": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions\nN-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs.\n"
     },
     {
-      "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
-      "link": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
-      "raw_summary": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts.\n\nEach flaw needs a specific setup on a virtual server: an iRule that uses a particular command, or an APM policy that includes two particular kinds of agent.\n\nF5, which makes BIG-IP, disclosed the flaws today and says they",
+      "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+      "link": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
+      "raw_summary": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the machine.\n\n\"We are aware of PoCs that prove some of them can be used to trigger remote code execution,\" the maintainers said.\n\nThe project released fixed versions",
       "source": "The Hacker News",
-      "published": "Wed, 18 Nov 2026 23:45:39 +0530",
-      "summary": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE\nSix critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts.\n\nEach flaw needs a specific setup on a vir"
+      "published": "Thu, 19 Nov 2026 14:12:11 +0530",
+      "summary": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE\nRuby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input c"
     },
     {
-      "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
-      "link": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
-      "raw_summary": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF)\n\nThe vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthenticated deserialization in the XML-RPC endpoint that could lead to remote code execution.\n\n\"Deserialization of Untrusted",
+      "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
+      "link": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
+      "raw_summary": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code behind ordinary SQL.\n\nThe exploits, published yesterday, are the researcher's proofs of concept against PostgreSQL, MySQL and ClickHouse, plus a separate Oracle chain that needs no",
       "source": "The Hacker News",
-      "published": "Wed, 18 Nov 2026 22:40:45 +0530",
-      "summary": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required\nA critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF)\n\nThe vulnerability, tracked"
+      "published": "Thu, 19 Nov 2026 13:44:00 +0530",
+      "summary": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle\nLow-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code "
     },
     {
-      "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
-      "link": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
-      "raw_summary": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines.\n\n\"When attackers are exposed, the cheap response is to rotate,\" Bitdefender said in a technical report shared with The Hacker News. \"A file hash changes with every recompile, a domain costs a few",
+      "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+      "link": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+      "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Electronic Data Capture (REDCap) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -",
       "source": "The Hacker News",
-      "published": "Wed, 18 Nov 2026 19:41:28 +0530",
-      "summary": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks\nThe suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines.\n\n\"When attack"
+      "published": "Thu, 19 Nov 2026 13:30:00 +0530",
+      "summary": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Re"
     },
     {
-      "title": "FailTrace – Reproduce a failed GitHub Actions run locally from its URL",
-      "link": "https://github.com/Ri4dH/failtrace",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/Ri4dH/failtrace\">https://github.com/Ri4dH/failtrace</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50554941\">https://news.ycombinator.com/item?id=50554941</a></p>\n<p>Points: 17</p>\n<p># Comments: 2</p>",
+      "title": "PHP 8.5.13",
+      "link": "https://www.php.net/ChangeLog-8.php",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.php.net/ChangeLog-8.php\">https://www.php.net/ChangeLog-8.php</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50560334\">https://news.ycombinator.com/item?id=50560334</a></p>\n<p>Points: 25</p>\n<p># Comments: 12</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 19 Nov 2026 01:30:43 +0000",
-      "summary": "FailTrace – Reproduce a failed GitHub Actions run locally from its URL\n<p>Article URL: <a href=\"https://github.com/Ri4dH/failtrace\">https://github.com/Ri4dH/failtrace</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50554941\">https://news.ycombinator.com/item?id=50554941</a></p"
+      "published": "Thu, 19 Nov 2026 14:09:50 +0000",
+      "summary": "PHP 8.5.13\n<p>Article URL: <a href=\"https://www.php.net/ChangeLog-8.php\">https://www.php.net/ChangeLog-8.php</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50560334\">https://news.ycombinator.com/item?id=50560334</a></p>\n<p>Points: 25</p>\n<p># Comments: 12</p>"
     },
     {
-      "title": "Unreal Tournament 2004 in the Browser",
-      "link": "https://ut2004.dev/",
-      "raw_summary": "<p>Article URL: <a href=\"https://ut2004.dev/\">https://ut2004.dev/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50554935\">https://news.ycombinator.com/item?id=50554935</a></p>\n<p>Points: 80</p>\n<p># Comments: 33</p>",
+      "title": "Show HN: Foolscap – a writing app that reads your book and never writes for you",
+      "link": "https://foolscap.works/",
+      "raw_summary": "<p>Article URL: <a href=\"https://foolscap.works/\">https://foolscap.works/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50559749\">https://news.ycombinator.com/item?id=50559749</a></p>\n<p>Points: 36</p>\n<p># Comments: 14</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 19 Nov 2026 01:29:29 +0000",
-      "summary": "Unreal Tournament 2004 in the Browser\n<p>Article URL: <a href=\"https://ut2004.dev/\">https://ut2004.dev/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50554935\">https://news.ycombinator.com/item?id=50554935</a></p>\n<p>Points: 80</p>\n<p># Comments: 33</p>"
+      "published": "Thu, 19 Nov 2026 13:21:20 +0000",
+      "summary": "Show HN: Foolscap – a writing app that reads your book and never writes for you\n<p>Article URL: <a href=\"https://foolscap.works/\">https://foolscap.works/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50559749\">https://news.ycombinator.com/item?id=50559749</a></p>\n<p>Points: "
     },
     {
-      "title": "Previous-Token Prediction Based LLM Inversion for Prompt Reconstruction",
-      "link": "https://arxiv.org/abs/2607.29378",
-      "raw_summary": "<p>Article URL: <a href=\"https://arxiv.org/abs/2607.29378\">https://arxiv.org/abs/2607.29378</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50554908\">https://news.ycombinator.com/item?id=50554908</a></p>\n<p>Points: 27</p>\n<p># Comments: 6</p>",
+      "title": "Making 8-page foldable zines from a single A4 sheet in the browser",
+      "link": "https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/",
+      "raw_summary": "<p>Article URL: <a href=\"https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/\">https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50559719\">https://news.ycombinator.com/item?id=50559719</a></p>\n<p>Points: 49</p>\n<p># Comments: 12</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 19 Nov 2026 01:27:02 +0000",
-      "summary": "Previous-Token Prediction Based LLM Inversion for Prompt Reconstruction\n<p>Article URL: <a href=\"https://arxiv.org/abs/2607.29378\">https://arxiv.org/abs/2607.29378</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50554908\">https://news.ycombinator.com/item?id=50554908</a></p>\n<"
+      "published": "Thu, 19 Nov 2026 13:18:11 +0000",
+      "summary": "Making 8-page foldable zines from a single A4 sheet in the browser\n<p>Article URL: <a href=\"https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/\">https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50559719\">https:"
     },
     {
-      "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
-      "link": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
-      "raw_summary": "<p>Article URL: <a href=\"https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/\">https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50554374\">https://news.ycombinator.com/item?id=50554374</a></p>\n<p>Points: 167</p>\n<p># Comments: 59</p>",
+      "title": "Unblockable communication with gravity – Science Advances",
+      "link": "https://www.science.org/doi/10.1126/sciadv.aee0802",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.science.org/doi/10.1126/sciadv.aee0802\">https://www.science.org/doi/10.1126/sciadv.aee0802</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50559179\">https://news.ycombinator.com/item?id=50559179</a></p>\n<p>Points: 26</p>\n<p># Comments: 10</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 19 Nov 2026 00:29:45 +0000",
-      "summary": "Gemini 4 Neon looks like an Opus 5.5 competitor\n<p>Article URL: <a href=\"https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/\">https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50554374\">https://news.ycombinato"
+      "published": "Thu, 19 Nov 2026 12:22:00 +0000",
+      "summary": "Unblockable communication with gravity – Science Advances\n<p>Article URL: <a href=\"https://www.science.org/doi/10.1126/sciadv.aee0802\">https://www.science.org/doi/10.1126/sciadv.aee0802</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50559179\">https://news.ycombinator.com/item"
     },
     {
-      "title": "We need smart people who give a shit",
-      "link": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/",
-      "raw_summary": "<p>Article URL: <a href=\"https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/\">https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50554045\">https://news.ycombinator.com/item?id=50554045</a></p>\n<p>Points: 354</p>\n<p># Comments: 184</p>",
+      "title": "Someone reported java4shell bug in September 2026",
+      "link": "https://github.com/openjdk/jdk/pull/32781",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/openjdk/jdk/pull/32781\">https://github.com/openjdk/jdk/pull/32781</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50558906\">https://news.ycombinator.com/item?id=50558906</a></p>\n<p>Points: 42</p>\n<p># Comments: 4</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 18 Nov 2026 23:53:49 +0000",
-      "summary": "We need smart people who give a shit\n<p>Article URL: <a href=\"https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/\">https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50554045\">"
+      "published": "Thu, 19 Nov 2026 11:47:03 +0000",
+      "summary": "Someone reported java4shell bug in September 2026\n<p>Article URL: <a href=\"https://github.com/openjdk/jdk/pull/32781\">https://github.com/openjdk/jdk/pull/32781</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50558906\">https://news.ycombinator.com/item?id=50558906</a></p>\n<p>Po"
+    },
+    {
+      "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+      "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+      "raw_summary": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
+      "source": "TechCrunch",
+      "published": "Thu, 19 Nov 2026 14:54:39 +0000",
+      "summary": "Anthropic’s IPO puts AI’s circular financing boom to the test\nAnthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead."
+    },
+    {
+      "title": "Nimble enters the item-tracking market with eco-friendly luggage tags and keychains",
+      "link": "https://techcrunch.com/2026/11/19/nimble-enters-the-item-tracking-market-with-eco-friendly-luggage-tags-and-keychains/",
+      "raw_summary": "As Google takes on Apple in the item-tracking market, Nimble is hoping its trackable wallets, keychains, luggage tags, and passport covers stand out.",
+      "source": "TechCrunch",
+      "published": "Thu, 19 Nov 2026 14:00:00 +0000",
+      "summary": "Nimble enters the item-tracking market with eco-friendly luggage tags and keychains\nAs Google takes on Apple in the item-tracking market, Nimble is hoping its trackable wallets, keychains, luggage tags, and passport covers stand out."
+    },
+    {
+      "title": "Superhuman pushes its Go assistant everywhere",
+      "link": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
+      "raw_summary": "Superhuman is making Go its central agent and making it available in Docs and Mail",
+      "source": "TechCrunch",
+      "published": "Thu, 19 Nov 2026 14:00:00 +0000",
+      "summary": "Superhuman pushes its Go assistant everywhere\nSuperhuman is making Go its central agent and making it available in Docs and Mail"
     },
     {
       "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
@@ -139,28 +163,28 @@
       "summary": "Elon Musk says: ‘I’m not MAGA’\nDuring his appearance Wednesday at The New York Times' DealBook Summit, Elon Musk said that he wasn't sure what the term \"MAGA\" meant and also commented that he felt \"pretty foolish\" for having spent so much money during the U.S. midterms."
     },
     {
-      "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
-      "link": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
-      "raw_summary": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world.",
-      "source": "TechCrunch",
-      "published": "Wed, 18 Nov 2026 23:45:00 +0000",
-      "summary": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’\nThe Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world."
+      "title": "Mouse fight club might explain why we like to watch violent things",
+      "link": "https://arstechnica.com/science/2026/11/watching-mouse-fight-club-teaches-the-critters-how-to-fight/",
+      "raw_summary": "Watching fights wasn't as good as practical experience, but it got the mice halfway there.",
+      "source": "Ars Technica",
+      "published": "Thu, 19 Nov 2026 14:04:38 +0000",
+      "summary": "Mouse fight club might explain why we like to watch violent things\nWatching fights wasn't as good as practical experience, but it got the mice halfway there."
     },
     {
-      "title": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
-      "link": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
-      "raw_summary": "“I don’t think [Huang is] disloyal to the United States,\" Musk said.",
-      "source": "TechCrunch",
-      "published": "Wed, 18 Nov 2026 23:25:17 +0000",
-      "summary": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’\n“I don’t think [Huang is] disloyal to the United States,\" Musk said."
+      "title": "NASA's new Moon plans have a problem: Orion wasn't designed to fly this way",
+      "link": "https://arstechnica.com/space/2026/11/to-make-moon-landings-easier-nasa-is-making-life-harder-for-orion/",
+      "raw_summary": "\"We also have a responsibility to not go too fast and cut too many corners.\"",
+      "source": "Ars Technica",
+      "published": "Thu, 19 Nov 2026 13:40:02 +0000",
+      "summary": "NASA's new Moon plans have a problem: Orion wasn't designed to fly this way\n\"We also have a responsibility to not go too fast and cut too many corners.\""
     },
     {
-      "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
-      "link": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
-      "raw_summary": "Microsoft CEO Satya Nadella expressed confidence in Jensen Huang's successor Colette Kress, who is serving as Nvidia's interim CEO.",
-      "source": "TechCrunch",
-      "published": "Wed, 18 Nov 2026 23:17:28 +0000",
-      "summary": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit\nMicrosoft CEO Satya Nadella expressed confidence in Jensen Huang's successor Colette Kress, who is serving as Nvidia's interim CEO."
+      "title": "How to tell a cyberattack from a plain old outage",
+      "link": "https://arstechnica.com/security/2026/11/how-to-tell-a-cyberattack-from-a-plain-old-outage/",
+      "raw_summary": "When everything goes down, don’t assume it’s a cyberattack.",
+      "source": "Ars Technica",
+      "published": "Thu, 19 Nov 2026 11:13:01 +0000",
+      "summary": "How to tell a cyberattack from a plain old outage\nWhen everything goes down, don’t assume it’s a cyberattack."
     },
     {
       "title": "Ted Cruz-led committee approves Trump FCC nominee 15-0 as Democrats boycott vote",
@@ -179,148 +203,124 @@
       "summary": "Ukraine blew up Putin’s bridge using relay drones to bypass Starlink limits\nUkraine's strike used homegrown tech while adapting battlefield lessons from its adversary."
     },
     {
-      "title": "Trump abandons his FDA nominee, and Senate scraps vote on his NSF pick",
-      "link": "https://arstechnica.com/health/2026/11/trump-abandons-his-fda-nominee-and-senate-scraps-vote-on-his-nsf-pick/",
-      "raw_summary": "\"This time requires leadership and fortitude,\" Senator Bill Cassidy said.",
-      "source": "Ars Technica",
-      "published": "Wed, 18 Nov 2026 22:08:57 +0000",
-      "summary": "Trump abandons his FDA nominee, and Senate scraps vote on his NSF pick\n\"This time requires leadership and fortitude,\" Senator Bill Cassidy said."
-    },
-    {
-      "title": "Netflix CEO admits app may bury stuff you want to watch under stuff you don’t",
-      "link": "https://arstechnica.com/gadgets/2026/11/netflix-ceo-admits-app-may-bury-stuff-you-want-to-watch-under-stuff-you-dont/",
-      "raw_summary": "CEO Ted Sarandos discusses gaps in making hit shows that streamers can find.",
-      "source": "Ars Technica",
-      "published": "Wed, 18 Nov 2026 21:29:24 +0000",
-      "summary": "Netflix CEO admits app may bury stuff you want to watch under stuff you don’t\nCEO Ted Sarandos discusses gaps in making hit shows that streamers can find."
-    },
-    {
-      "title": "Windows Server 2028 trades compatibility for out-of-the-box security",
-      "link": "https://arstechnica.com/gadgets/2026/11/windows-server-2028-public-preview-bets-on-a-security-first-approach/",
-      "raw_summary": "Hardened defaults align with DoD standards, but there may be growing pains.",
-      "source": "Ars Technica",
-      "published": "Wed, 18 Nov 2026 20:41:12 +0000",
-      "summary": "Windows Server 2028 trades compatibility for out-of-the-box security\nHardened defaults align with DoD standards, but there may be growing pains."
-    },
-    {
-      "title": "Meta pauses plans to create non-voting share class after investor lawsuit",
-      "link": "https://www.ft.com/content/3c97ea69-1a32-4280-b067-f37f2874f987?syn-25a6b1a6=1",
-      "raw_summary": "Mark Zuckerberg would have been able to sell down stake without reducing his control under deal",
+      "title": "Gulf flare-up stokes fears of return to Iran war",
+      "link": "https://www.ft.com/content/090da02e-2ed1-491a-a2cf-3c8a6b10522e?syn-25a6b1a6=1",
+      "raw_summary": "A week of tit-for-tat escalation by Iran and the US has brought the countries closer to another full-scale confrontation, analysts say",
       "source": "World",
-      "published": "Thu, 19 Nov 2026 03:21:54 GMT",
-      "summary": "Meta pauses plans to create non-voting share class after investor lawsuit\nMark Zuckerberg would have been able to sell down stake without reducing his control under deal"
+      "published": "Thu, 19 Nov 2026 14:53:28 GMT",
+      "summary": "Gulf flare-up stokes fears of return to Iran war\nA week of tit-for-tat escalation by Iran and the US has brought the countries closer to another full-scale confrontation, analysts say"
     },
     {
-      "title": "Hong Kong trading house Jardines weighs first private equity fund",
-      "link": "https://www.ft.com/content/82e63f96-3a5e-47d1-9fca-9f3401903abe?syn-25a6b1a6=1",
-      "raw_summary": "194-year-old conglomerate is transitioning from owner-operator of Asian businesses to investment group",
+      "title": "Nscale warns of its exposure to suppliers facing US blacklist",
+      "link": "https://www.ft.com/content/97912585-2412-496c-a224-78e69328bcdb?syn-25a6b1a6=1",
+      "raw_summary": "Nvidia-backed start-up’s $35bn IPO plans hit by ties to groups at risk of being placed on Washington’s ‘entity list’",
       "source": "World",
-      "published": "Thu, 19 Nov 2026 03:02:33 GMT",
-      "summary": "Hong Kong trading house Jardines weighs first private equity fund\n194-year-old conglomerate is transitioning from owner-operator of Asian businesses to investment group"
+      "published": "Thu, 19 Nov 2026 14:39:18 GMT",
+      "summary": "Nscale warns of its exposure to suppliers facing US blacklist\nNvidia-backed start-up’s $35bn IPO plans hit by ties to groups at risk of being placed on Washington’s ‘entity list’"
     },
     {
-      "title": "Musk says he feels ‘foolish’ for donating nearly $500mn to Republicans",
-      "link": "https://www.ft.com/content/1af0d736-d5e5-4601-989d-638c9cea74b2?syn-25a6b1a6=1",
-      "raw_summary": "SpaceX CEO backs away from Maga after monetary support for Donald Trump’s party in midterm elections fails to sway voters",
+      "title": "Germany reveals AI-driven surge in cyber attacks",
+      "link": "https://www.ft.com/content/cf875eb6-34a2-413e-b89d-bc609367a19e?syn-25a6b1a6=1",
+      "raw_summary": "Threat level ‘critical’ as new tools make it far easier for hackers to exploit security flaws",
       "source": "World",
-      "published": "Thu, 19 Nov 2026 02:19:32 GMT",
-      "summary": "Musk says he feels ‘foolish’ for donating nearly $500mn to Republicans\nSpaceX CEO backs away from Maga after monetary support for Donald Trump’s party in midterm elections fails to sway voters"
+      "published": "Thu, 19 Nov 2026 14:28:48 GMT",
+      "summary": "Germany reveals AI-driven surge in cyber attacks\nThreat level ‘critical’ as new tools make it far easier for hackers to exploit security flaws"
     },
     {
-      "title": "Trump meets ‘my friend’ Putin ahead of trilateral with Xi",
-      "link": "https://www.ft.com/content/fcf6d27b-a04c-4cef-8b03-ce2423566f1f",
-      "raw_summary": "Historic event in southern Chinese city of Shenzhen is culmination of a week of high-stakes diplomacy",
+      "title": "Trump, Putin and Xi in historic trilateral meeting",
+      "link": "https://www.ft.com/content/3ab490ea-825a-4ef4-9239-a2905d7f7f3c?syn-25a6b1a6=1",
+      "raw_summary": "Also in today’s newsletter, US tech outages blamed on rush to fix bugs found by AI",
       "source": "World",
-      "published": "Thu, 19 Nov 2026 01:31:05 GMT",
-      "summary": "Trump meets ‘my friend’ Putin ahead of trilateral with Xi\nHistoric event in southern Chinese city of Shenzhen is culmination of a week of high-stakes diplomacy"
+      "published": "Thu, 19 Nov 2026 14:00:03 GMT",
+      "summary": "Trump, Putin and Xi in historic trilateral meeting\nAlso in today’s newsletter, US tech outages blamed on rush to fix bugs found by AI"
     },
     {
-      "title": "A decade after demonetisation in India, rules still change overnight",
-      "link": "https://www.ft.com/content/5ed2e6f5-80b9-4f51-a442-c88eb4ad615f?syn-25a6b1a6=1",
-      "raw_summary": "Now, haphazard pollution control measures",
+      "title": "UK revamps renewable energy auctions in move to bring down costs",
+      "link": "https://www.ft.com/content/c39c29f8-3141-423e-b6b9-674e40be1e66?syn-25a6b1a6=1",
+      "raw_summary": "Developers to be pushed into offering lowest possible prices by bidding for subsidies without knowing the levels of funding available",
       "source": "World",
-      "published": "Thu, 19 Nov 2026 01:30:06 GMT",
-      "summary": "A decade after demonetisation in India, rules still change overnight\nNow, haphazard pollution control measures"
+      "published": "Thu, 19 Nov 2026 13:58:55 GMT",
+      "summary": "UK revamps renewable energy auctions in move to bring down costs\nDevelopers to be pushed into offering lowest possible prices by bidding for subsidies without knowing the levels of funding available"
     },
     {
-      "title": "US Stock Futures Rise on Anthropic, Aussie Drops: Markets Wrap",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-18/stock-market-today-dow-s-p-live-updates",
-      "raw_summary": "US equity-index futures rose while Asian shares fell as traders assessed whether Anthropic PBC’s record initial public offering can revive confidence in the artificial intelligence trade following a recent selloff in technology stocks. The Australian dollar weakened.",
+      "title": "Anthropic Poised to Surge After $107.3 Billion IPO Tops SpaceX",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-19/anthropic-poised-to-surge-after-107-3-billion-ipo-tops-spacex",
+      "raw_summary": "Anthropic PBC shares are set to soar when they start trading on Thursday, after the artificial intelligence lab’s $107.3 billion IPO and private placement broke SpaceX’s record for the biggest-ever offering.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 18 Nov 2026 22:07:41 GMT",
-      "summary": "US Stock Futures Rise on Anthropic, Aussie Drops: Markets Wrap\nUS equity-index futures rose while Asian shares fell as traders assessed whether Anthropic PBC’s record initial public offering can revive confidence in the artificial intelligence trade following a recent selloff in technology stocks. T"
+      "published": "Thu, 19 Nov 2026 14:52:54 GMT",
+      "summary": "Anthropic Poised to Surge After $107.3 Billion IPO Tops SpaceX\nAnthropic PBC shares are set to soar when they start trading on Thursday, after the artificial intelligence lab’s $107.3 billion IPO and private placement broke SpaceX’s record for the biggest-ever offering."
     },
     {
-      "title": "Latest Oil Market News and Analysis for Nov. 19",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-18/latest-oil-market-news-and-analysis-for-nov-19",
-      "raw_summary": "Oil steadied as traders assessed the outlook for the US-Iran conflict, including the possibility of fresh attacks against Tehran.",
+      "title": "Tech Stocks Gain as Anthropic IPO Boosts Sentiment on AI Trade",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-19/us-stock-futures-jump-on-blockbuster-reception-to-anthropic-ipo",
+      "raw_summary": "US technology stocks surged on Thursday as Anthropic PBC’s record initial public offering revived confidence in the artificial intelligence trade.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 18 Nov 2026 23:03:35 GMT",
-      "summary": "Latest Oil Market News and Analysis for Nov. 19\nOil steadied as traders assessed the outlook for the US-Iran conflict, including the possibility of fresh attacks against Tehran."
+      "published": "Thu, 19 Nov 2026 07:09:16 GMT",
+      "summary": "Tech Stocks Gain as Anthropic IPO Boosts Sentiment on AI Trade\nUS technology stocks surged on Thursday as Anthropic PBC’s record initial public offering revived confidence in the artificial intelligence trade."
     },
     {
-      "title": "Australian Dollar Erases 2026 Gain as Rate-Cut Bets Increase",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-19/australian-dollar-set-to-shed-2026-gain-on-rba-rate-cut-bets",
-      "raw_summary": "Australia’s dollar wiped out its 2026 gain against the greenback after weak employment data reinforced bets that the central bank has ended its interest-rate hike cycle and will pivot to cuts next year.",
+      "title": "Brookfield-Backed Lotto Firm’s Earnings Hit, Buys Back Bonds",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-18/brookfield-backed-lotto-firm-logs-earnings-hit-buys-back-bonds",
+      "raw_summary": "Earnings at Brookfield-backed lottery business Scientific Games Holdings LP fell in the last quarter, hurt by one-time costs related to delayed contract completions, according to people with knowledge of the matter.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 19 Nov 2026 01:53:37 GMT",
-      "summary": "Australian Dollar Erases 2026 Gain as Rate-Cut Bets Increase\nAustralia’s dollar wiped out its 2026 gain against the greenback after weak employment data reinforced bets that the central bank has ended its interest-rate hike cycle and will pivot to cuts next year."
+      "published": "Wed, 18 Nov 2026 22:22:20 GMT",
+      "summary": "Brookfield-Backed Lotto Firm’s Earnings Hit, Buys Back Bonds\nEarnings at Brookfield-backed lottery business Scientific Games Holdings LP fell in the last quarter, hurt by one-time costs related to delayed contract completions, according to people with knowledge of the matter."
     },
     {
-      "title": "Smaller Tankers Join Hormuz Shuttle Oil Trade",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-18/smaller-tankers--hormuz-shuttle-trade-oil-flows-wti-brent-crude",
-      "raw_summary": "Oil is increasingly moving through the Strait of Hormuz on smaller vessels, helping sustain exports as attacks on supertankers squeeze availability of the ships that typically dominate the trade.",
+      "title": "Anthropic IPO Said to Give Nothing to Most Institutional Buyers",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-19/anthropic-ipo-said-to-give-nothing-to-most-institutional-buyers",
+      "raw_summary": "Anthropic PBC’s initial public offering left more than half of the institutional investors bidding for stock without any shares, according to people familiar with the matter.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 18 Nov 2026 05:18:18 GMT",
-      "summary": "Smaller Tankers Join Hormuz Shuttle Oil Trade\nOil is increasingly moving through the Strait of Hormuz on smaller vessels, helping sustain exports as attacks on supertankers squeeze availability of the ships that typically dominate the trade."
+      "published": "Thu, 19 Nov 2026 14:35:54 GMT",
+      "summary": "Anthropic IPO Said to Give Nothing to Most Institutional Buyers\nAnthropic PBC’s initial public offering left more than half of the institutional investors bidding for stock without any shares, according to people familiar with the matter."
     },
     {
-      "title": "Anthropic Shares Indicated More Than 20% Higher on Gray Markets",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-19/anthropic-shares-indicated-more-than-20-higher-on-gray-markets",
-      "raw_summary": "Anthropic PBC shares are indicated to open between 22% and 26% higher in gray market trading after the artificial intelligence lab’s upsized $107.3 billion initial public offering and private placement broke SpaceX’s record.",
+      "title": "US Initial Jobless Claims Unexpectedly Rise by 1,000",
+      "link": "https://www.bloomberg.com/news/videos/2026-11-19/us-initial-jobless-claims-unexpectedly-rise-by-1-000-video",
+      "raw_summary": "Initial jobless claims in the US rose by 1,000 to 203,000 in the week ending November 14 compared with the median estimate of 198,000. Bloomberg's Enda Curran reports.  (Source: Bloomberg)",
       "source": "Bloomberg Markets",
-      "published": "Thu, 19 Nov 2026 05:00:00 GMT",
-      "summary": "Anthropic Shares Indicated More Than 20% Higher on Gray Markets\nAnthropic PBC shares are indicated to open between 22% and 26% higher in gray market trading after the artificial intelligence lab’s upsized $107.3 billion initial public offering and private placement broke SpaceX’s record."
+      "published": "Thu, 19 Nov 2026 14:35:52 GMT",
+      "summary": "US Initial Jobless Claims Unexpectedly Rise by 1,000\nInitial jobless claims in the US rose by 1,000 to 203,000 in the week ending November 14 compared with the median estimate of 198,000. Bloomberg's Enda Curran reports.  (Source: Bloomberg)"
     },
     {
-      "title": "Bitcoin miner that sold its last BTC warns it may run short of cash for $1.2 billion AI deal",
-      "link": "https://www.coindesk.com/markets/2026/11/19/bitcoin-miner-that-sold-its-last-btc-warns-it-may-run-short-of-cash-for-usd1-2-billion-ai-deal",
+      "title": "Crypto traders vs. Wall Street: OKX’s Anthropic markets put IPO pricing to the test",
+      "link": "https://www.coindesk.com/markets/2026/11/19/crypto-traders-vs-wall-street-okx-s-anthropic-markets-put-ipo-pricing-to-the-test",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 19 Nov 2026 04:46:10 +0000",
-      "summary": "Bitcoin miner that sold its last BTC warns it may run short of cash for $1.2 billion AI deal\n"
+      "published": "Thu, 19 Nov 2026 13:11:31 +0000",
+      "summary": "Crypto traders vs. Wall Street: OKX’s Anthropic markets put IPO pricing to the test\n"
     },
     {
-      "title": "CZ says tokenized Anthropic is coming to BNB Chain on IPO day",
-      "link": "https://www.coindesk.com/markets/2026/11/19/cz-says-tokenized-anthropic-is-coming-to-bnb-chain-on-ipo-day",
+      "title": "Trump Media wants to clear $884 million of debt without selling its bitcoin",
+      "link": "https://www.coindesk.com/markets/2026/11/19/trump-media-wants-to-clear-usd884-million-of-debt-without-selling-its-bitcoin",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 19 Nov 2026 03:40:48 +0000",
-      "summary": "CZ says tokenized Anthropic is coming to BNB Chain on IPO day\n"
+      "published": "Thu, 19 Nov 2026 12:40:12 +0000",
+      "summary": "Trump Media wants to clear $884 million of debt without selling its bitcoin\n"
     },
     {
-      "title": "Another U.S. appellate court goes against Kalshi, building the industry's legal headwinds",
-      "link": "https://www.coindesk.com/policy/2026/11/18/another-u-s-appellate-court-goes-against-kalshi-building-the-industry-s-legal-headwinds",
+      "title": "Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut",
+      "link": "https://www.coindesk.com/daybook-us/2026/11/19/bitcoin-etf-outflows-show-waning-crypto-appetite-ahead-of-anthropic-s-nasdaq-debut",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 19 Nov 2026 00:33:46 +0000",
-      "summary": "Another U.S. appellate court goes against Kalshi, building the industry's legal headwinds\n"
+      "published": "Thu, 19 Nov 2026 12:20:39 +0000",
+      "summary": "Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut\n"
     },
     {
-      "title": "Payward, the owner of crypto exchange Kraken, is buying its CEO’s venture capital business, Tribe",
-      "link": "https://www.coindesk.com/business/2026/11/18/payward-the-owner-of-crypto-exchange-kraken-is-buying-its-ceo-s-venture-capital-business-tribe",
+      "title": "Bitcoin holds above $63,750 but Fed rate-hike threats loom large",
+      "link": "https://www.coindesk.com/markets/2026/11/19/bitcoin-holds-above-usd63-750-but-fed-rate-hike-threats-loom-large",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 18 Nov 2026 22:30:00 +0000",
-      "summary": "Payward, the owner of crypto exchange Kraken, is buying its CEO’s venture capital business, Tribe\n"
+      "published": "Thu, 19 Nov 2026 12:08:06 +0000",
+      "summary": "Bitcoin holds above $63,750 but Fed rate-hike threats loom large\n"
     },
     {
-      "title": "A $1.5 billion crypto startup is taking on Hyperliquid with a Wall Street playbook",
-      "link": "https://www.coindesk.com/business/2026/11/18/a-usd1-5-billion-crypto-startup-is-taking-on-hyperliquid-with-a-wall-street-playbook",
+      "title": "North Korean hackers used Sky's stablecoin system, putting billions at freeze risk",
+      "link": "https://www.coindesk.com/business/2026/11/19/north-korean-hackers-used-sky-s-stablecoin-system-putting-billions-at-freeze-risk",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 18 Nov 2026 17:22:03 +0000",
-      "summary": "A $1.5 billion crypto startup is taking on Hyperliquid with a Wall Street playbook\n"
+      "published": "Thu, 19 Nov 2026 11:30:00 +0000",
+      "summary": "North Korean hackers used Sky's stablecoin system, putting billions at freeze risk\n"
     }
   ]
 }
