@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T14:58:14.796164+00:00",
+  "generated_at": "2026-11-20T00:03:44.986335+00:00",
   "count": 40,
   "articles": [
     {
@@ -43,284 +43,284 @@
       "summary": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies\nGoogle said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers"
     },
     {
-      "title": "Everything Is a Web Application, Including Your Firewall",
-      "link": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
-      "raw_summary": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both flaws let anyone execute code on the web server without authentication. The disclosure itself went a little wrong.",
+      "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+      "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+      "raw_summary": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread malware, and get people to hand over access.\n\nThere's another shift worth watching. AI is making some attacks easier",
       "source": "The Hacker News",
-      "published": "Thu, 19 Nov 2026 17:22:23 +0530",
-      "summary": "Everything Is a Web Application, Including Your Firewall\nOne of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfa"
+      "published": "Fri, 20 Nov 2026 00:17:58 +0530",
+      "summary": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories\nThe easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. "
     },
     {
-      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-      "link": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
-      "raw_summary": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs.\n\n\"We have taken steps to mitigate the threat and are continuing to harden our services to reduce the risk of recurrence,\" N-able said.\n\n\"The investigation is ongoing, but at this time we",
+      "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+      "link": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+      "raw_summary": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the server.\n\nToday's PHP releases fix the flaw, called phpAfterShell.\n\nThe flaw is tracked as CVE-2026-126714 and rated",
       "source": "The Hacker News",
-      "published": "Thu, 19 Nov 2026 15:01:26 +0530",
-      "summary": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions\nN-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs.\n"
+      "published": "Thu, 19 Nov 2026 22:29:56 +0530",
+      "summary": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution\nPHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain i"
     },
     {
-      "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
-      "link": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
-      "raw_summary": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the machine.\n\n\"We are aware of PoCs that prove some of them can be used to trigger remote code execution,\" the maintainers said.\n\nThe project released fixed versions",
+      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+      "link": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+      "raw_summary": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560.\n\nThe release of the patch follows an advance notice in which the project maintainers alerted users to multiple critical vulnerabilities affecting all supported PHP versions under specific",
       "source": "The Hacker News",
-      "published": "Thu, 19 Nov 2026 14:12:11 +0530",
-      "summary": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE\nRuby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input c"
+      "published": "Thu, 19 Nov 2026 20:48:07 +0530",
+      "summary": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution\nThe PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560.\n\nThe release of "
     },
     {
-      "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
-      "link": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
-      "raw_summary": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code behind ordinary SQL.\n\nThe exploits, published yesterday, are the researcher's proofs of concept against PostgreSQL, MySQL and ClickHouse, plus a separate Oracle chain that needs no",
+      "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+      "link": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+      "raw_summary": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today.\n\nFixed versions are out for all supported branches, and the company lists no workaround. vCenter is the central console for managing an organization's ESX hosts and virtual machines.\n\nThe",
       "source": "The Hacker News",
-      "published": "Thu, 19 Nov 2026 13:44:00 +0530",
-      "summary": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle\nLow-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code "
+      "published": "Thu, 19 Nov 2026 20:41:06 +0530",
+      "summary": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication\nA critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today.\n\nFixed versi"
     },
     {
-      "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-      "link": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
-      "raw_summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Electronic Data Capture (REDCap) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -",
+      "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+      "link": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+      "raw_summary": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site.\n\nThat can lead to a site takeover or remote code execution, and the project rates the vulnerable configurations as uncommon. Fixed releases for all supported branches shipped yesterday.\n\nThe Drupal Security Team disclosed",
       "source": "The Hacker News",
-      "published": "Thu, 19 Nov 2026 13:30:00 +0530",
-      "summary": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks\nThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Re"
+      "published": "Thu, 19 Nov 2026 20:03:06 +0530",
+      "summary": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites\nUnder specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site.\n\nThat can lead to a site "
     },
     {
-      "title": "PHP 8.5.13",
-      "link": "https://www.php.net/ChangeLog-8.php",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.php.net/ChangeLog-8.php\">https://www.php.net/ChangeLog-8.php</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50560334\">https://news.ycombinator.com/item?id=50560334</a></p>\n<p>Points: 25</p>\n<p># Comments: 12</p>",
+      "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
+      "link": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87\">https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50568082\">https://news.ycombinator.com/item?id=50568082</a></p>\n<p>Points: 20</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 19 Nov 2026 14:09:50 +0000",
-      "summary": "PHP 8.5.13\n<p>Article URL: <a href=\"https://www.php.net/ChangeLog-8.php\">https://www.php.net/ChangeLog-8.php</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50560334\">https://news.ycombinator.com/item?id=50560334</a></p>\n<p>Points: 25</p>\n<p># Comments: 12</p>"
+      "published": "Thu, 19 Nov 2026 23:32:11 +0000",
+      "summary": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers\n<p>Article URL: <a href=\"https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87\">https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87<"
     },
     {
-      "title": "Show HN: Foolscap – a writing app that reads your book and never writes for you",
-      "link": "https://foolscap.works/",
-      "raw_summary": "<p>Article URL: <a href=\"https://foolscap.works/\">https://foolscap.works/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50559749\">https://news.ycombinator.com/item?id=50559749</a></p>\n<p>Points: 36</p>\n<p># Comments: 14</p>",
+      "title": "Court: 4th Amendment Disallows Use Of AI-Generated 'Probable Cause'",
+      "link": "https://www.techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause/",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause/\">https://www.techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50567735\">https://news.ycombinator.com/item?id=50567735</a></p>\n<p>Points: 26</p>\n<p># Comments: 9</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 19 Nov 2026 13:21:20 +0000",
-      "summary": "Show HN: Foolscap – a writing app that reads your book and never writes for you\n<p>Article URL: <a href=\"https://foolscap.works/\">https://foolscap.works/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50559749\">https://news.ycombinator.com/item?id=50559749</a></p>\n<p>Points: "
+      "published": "Thu, 19 Nov 2026 22:56:59 +0000",
+      "summary": "Court: 4th Amendment Disallows Use Of AI-Generated 'Probable Cause'\n<p>Article URL: <a href=\"https://www.techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause/\">https://www.techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover"
     },
     {
-      "title": "Making 8-page foldable zines from a single A4 sheet in the browser",
-      "link": "https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/",
-      "raw_summary": "<p>Article URL: <a href=\"https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/\">https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50559719\">https://news.ycombinator.com/item?id=50559719</a></p>\n<p>Points: 49</p>\n<p># Comments: 12</p>",
+      "title": "RegExr: Temporarily Offline",
+      "link": "https://regexr.com/",
+      "raw_summary": "<p>Article URL: <a href=\"https://regexr.com/\">https://regexr.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50567374\">https://news.ycombinator.com/item?id=50567374</a></p>\n<p>Points: 24</p>\n<p># Comments: 16</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 19 Nov 2026 13:18:11 +0000",
-      "summary": "Making 8-page foldable zines from a single A4 sheet in the browser\n<p>Article URL: <a href=\"https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/\">https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50559719\">https:"
+      "published": "Thu, 19 Nov 2026 22:27:07 +0000",
+      "summary": "RegExr: Temporarily Offline\n<p>Article URL: <a href=\"https://regexr.com/\">https://regexr.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50567374\">https://news.ycombinator.com/item?id=50567374</a></p>\n<p>Points: 24</p>\n<p># Comments: 16</p>"
     },
     {
-      "title": "Unblockable communication with gravity – Science Advances",
-      "link": "https://www.science.org/doi/10.1126/sciadv.aee0802",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.science.org/doi/10.1126/sciadv.aee0802\">https://www.science.org/doi/10.1126/sciadv.aee0802</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50559179\">https://news.ycombinator.com/item?id=50559179</a></p>\n<p>Points: 26</p>\n<p># Comments: 10</p>",
+      "title": "Synology Security Advisory",
+      "link": "https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21",
+      "raw_summary": "<p>Article URL: <a href=\"https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21\">https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50567209\">https://news.ycombinator.com/item?id=50567209</a></p>\n<p>Points: 69</p>\n<p># Comments: 33</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 19 Nov 2026 12:22:00 +0000",
-      "summary": "Unblockable communication with gravity – Science Advances\n<p>Article URL: <a href=\"https://www.science.org/doi/10.1126/sciadv.aee0802\">https://www.science.org/doi/10.1126/sciadv.aee0802</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50559179\">https://news.ycombinator.com/item"
+      "published": "Thu, 19 Nov 2026 22:13:40 +0000",
+      "summary": "Synology Security Advisory\n<p>Article URL: <a href=\"https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21\">https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50567209\">https://news.ycombinator.com/ite"
     },
     {
-      "title": "Someone reported java4shell bug in September 2026",
-      "link": "https://github.com/openjdk/jdk/pull/32781",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/openjdk/jdk/pull/32781\">https://github.com/openjdk/jdk/pull/32781</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50558906\">https://news.ycombinator.com/item?id=50558906</a></p>\n<p>Points: 42</p>\n<p># Comments: 4</p>",
+      "title": "Rebuilding my local voice assistant pipeline",
+      "link": "https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline",
+      "raw_summary": "<p>Article URL: <a href=\"https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline\">https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50566261\">https://news.ycombinator.com/item?id=50566261</a></p>\n<p>Points: 40</p>\n<p># Comments: 2</p>",
       "source": "Hacker News: Front Page",
-      "published": "Thu, 19 Nov 2026 11:47:03 +0000",
-      "summary": "Someone reported java4shell bug in September 2026\n<p>Article URL: <a href=\"https://github.com/openjdk/jdk/pull/32781\">https://github.com/openjdk/jdk/pull/32781</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50558906\">https://news.ycombinator.com/item?id=50558906</a></p>\n<p>Po"
+      "published": "Thu, 19 Nov 2026 20:57:14 +0000",
+      "summary": "Rebuilding my local voice assistant pipeline\n<p>Article URL: <a href=\"https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline\">https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50566261\">"
     },
     {
-      "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
-      "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
-      "raw_summary": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
+      "title": "Elon Musk says SpaceX has a plan to eliminate cell phone dead zones",
+      "link": "https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones/",
+      "raw_summary": "SpaceX CEO Elon Musk said the company has completed the design of a miniature rooftop cell tower that could provide better coverage to mobile phones and eliminate dead zones.",
       "source": "TechCrunch",
-      "published": "Thu, 19 Nov 2026 14:54:39 +0000",
-      "summary": "Anthropic’s IPO puts AI’s circular financing boom to the test\nAnthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead."
+      "published": "Thu, 19 Nov 2026 23:37:56 +0000",
+      "summary": "Elon Musk says SpaceX has a plan to eliminate cell phone dead zones\nSpaceX CEO Elon Musk said the company has completed the design of a miniature rooftop cell tower that could provide better coverage to mobile phones and eliminate dead zones."
     },
     {
-      "title": "Nimble enters the item-tracking market with eco-friendly luggage tags and keychains",
-      "link": "https://techcrunch.com/2026/11/19/nimble-enters-the-item-tracking-market-with-eco-friendly-luggage-tags-and-keychains/",
-      "raw_summary": "As Google takes on Apple in the item-tracking market, Nimble is hoping its trackable wallets, keychains, luggage tags, and passport covers stand out.",
+      "title": "Want to see your live AI usage on your Mac’s icons? This clever new app lets you",
+      "link": "https://techcrunch.com/2026/11/19/want-to-see-your-live-ai-usage-on-your-macs-icons-this-clever-new-app-lets-you/",
+      "raw_summary": "IconSwapper brings your Mac's app icons to life with real-time data, animations, and playful customizations that make your desktop more fun.",
       "source": "TechCrunch",
-      "published": "Thu, 19 Nov 2026 14:00:00 +0000",
-      "summary": "Nimble enters the item-tracking market with eco-friendly luggage tags and keychains\nAs Google takes on Apple in the item-tracking market, Nimble is hoping its trackable wallets, keychains, luggage tags, and passport covers stand out."
+      "published": "Thu, 19 Nov 2026 22:33:26 +0000",
+      "summary": "Want to see your live AI usage on your Mac’s icons? This clever new app lets you\nIconSwapper brings your Mac's app icons to life with real-time data, animations, and playful customizations that make your desktop more fun."
     },
     {
-      "title": "Superhuman pushes its Go assistant everywhere",
-      "link": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
-      "raw_summary": "Superhuman is making Go its central agent and making it available in Docs and Mail",
+      "title": "Meta’s new Muse Charm device may cost $300",
+      "link": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+      "raw_summary": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
       "source": "TechCrunch",
-      "published": "Thu, 19 Nov 2026 14:00:00 +0000",
-      "summary": "Superhuman pushes its Go assistant everywhere\nSuperhuman is making Go its central agent and making it available in Docs and Mail"
+      "published": "Thu, 19 Nov 2026 21:58:06 +0000",
+      "summary": "Meta’s new Muse Charm device may cost $300\nMeta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable."
     },
     {
-      "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
-      "link": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
-      "raw_summary": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you might expect.",
+      "title": "These tech outages are giving Y2K, AI agent style",
+      "link": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+      "raw_summary": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.",
       "source": "TechCrunch",
-      "published": "Thu, 19 Nov 2026 00:42:56 +0000",
-      "summary": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit\nMicrosoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is "
+      "published": "Thu, 19 Nov 2026 21:42:31 +0000",
+      "summary": "These tech outages are giving Y2K, AI agent style\nAre the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say."
     },
     {
-      "title": "Elon Musk says: ‘I’m not MAGA’",
-      "link": "https://techcrunch.com/2026/11/18/elon-musk-says-im-not-maga/",
-      "raw_summary": "During his appearance Wednesday at The New York Times' DealBook Summit, Elon Musk said that he wasn't sure what the term \"MAGA\" meant and also commented that he felt \"pretty foolish\" for having spent so much money during the U.S. midterms.",
+      "title": "Uber tests rides for kids as young as 10, with extra pay for drivers",
+      "link": "https://techcrunch.com/2026/11/19/uber-tests-rides-for-kids-as-young-as-10-with-extra-pay-for-drivers/",
+      "raw_summary": "Uber is testing the new program in three U.S. cities.",
       "source": "TechCrunch",
-      "published": "Thu, 19 Nov 2026 00:40:49 +0000",
-      "summary": "Elon Musk says: ‘I’m not MAGA’\nDuring his appearance Wednesday at The New York Times' DealBook Summit, Elon Musk said that he wasn't sure what the term \"MAGA\" meant and also commented that he felt \"pretty foolish\" for having spent so much money during the U.S. midterms."
+      "published": "Thu, 19 Nov 2026 21:33:24 +0000",
+      "summary": "Uber tests rides for kids as young as 10, with extra pay for drivers\nUber is testing the new program in three U.S. cities."
     },
     {
-      "title": "Mouse fight club might explain why we like to watch violent things",
-      "link": "https://arstechnica.com/science/2026/11/watching-mouse-fight-club-teaches-the-critters-how-to-fight/",
-      "raw_summary": "Watching fights wasn't as good as practical experience, but it got the mice halfway there.",
+      "title": "Amazon fights the Delivery Protection Act with homepage banner, in-app pop-up",
+      "link": "https://arstechnica.com/tech-policy/2026/11/amazon-takes-its-fight-against-nyc-delivery-bill-to-shoppers-with-in-app-pop-up/",
+      "raw_summary": "Amazon now uses its shopping platform for political purposes.",
       "source": "Ars Technica",
-      "published": "Thu, 19 Nov 2026 14:04:38 +0000",
-      "summary": "Mouse fight club might explain why we like to watch violent things\nWatching fights wasn't as good as practical experience, but it got the mice halfway there."
+      "published": "Thu, 19 Nov 2026 22:16:37 +0000",
+      "summary": "Amazon fights the Delivery Protection Act with homepage banner, in-app pop-up\nAmazon now uses its shopping platform for political purposes."
     },
     {
-      "title": "NASA's new Moon plans have a problem: Orion wasn't designed to fly this way",
-      "link": "https://arstechnica.com/space/2026/11/to-make-moon-landings-easier-nasa-is-making-life-harder-for-orion/",
-      "raw_summary": "\"We also have a responsibility to not go too fast and cut too many corners.\"",
+      "title": "MAHA PAC spent more on steak, luxury club than candidates, report shows",
+      "link": "https://arstechnica.com/health/2026/11/maha-pac-spent-more-on-steak-luxury-club-than-candidates-report-shows/",
+      "raw_summary": "Expert called MAHA's spending \"pretty unusual\" for a PAC.",
       "source": "Ars Technica",
-      "published": "Thu, 19 Nov 2026 13:40:02 +0000",
-      "summary": "NASA's new Moon plans have a problem: Orion wasn't designed to fly this way\n\"We also have a responsibility to not go too fast and cut too many corners.\""
+      "published": "Thu, 19 Nov 2026 21:19:12 +0000",
+      "summary": "MAHA PAC spent more on steak, luxury club than candidates, report shows\nExpert called MAHA's spending \"pretty unusual\" for a PAC."
     },
     {
-      "title": "How to tell a cyberattack from a plain old outage",
-      "link": "https://arstechnica.com/security/2026/11/how-to-tell-a-cyberattack-from-a-plain-old-outage/",
-      "raw_summary": "When everything goes down, don’t assume it’s a cyberattack.",
+      "title": "Man hired by Russia spied on Silicon Valley tech and defense company, feds say",
+      "link": "https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia/",
+      "raw_summary": "25-year-old accused of stalking employees at coffee shop and in an \"aggressive\" car pursuit.",
       "source": "Ars Technica",
-      "published": "Thu, 19 Nov 2026 11:13:01 +0000",
-      "summary": "How to tell a cyberattack from a plain old outage\nWhen everything goes down, don’t assume it’s a cyberattack."
+      "published": "Thu, 19 Nov 2026 20:29:46 +0000",
+      "summary": "Man hired by Russia spied on Silicon Valley tech and defense company, feds say\n25-year-old accused of stalking employees at coffee shop and in an \"aggressive\" car pursuit."
     },
     {
-      "title": "Ted Cruz-led committee approves Trump FCC nominee 15-0 as Democrats boycott vote",
-      "link": "https://arstechnica.com/tech-policy/2026/11/ted-cruz-led-committee-approves-trump-fcc-nominee-15-0-as-democrats-boycott-vote/",
-      "raw_summary": "Democrats try to prevent quorum, say Thumann lied about not working on media issues.",
+      "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+      "link": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+      "raw_summary": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives.",
       "source": "Ars Technica",
-      "published": "Wed, 18 Nov 2026 23:25:04 +0000",
-      "summary": "Ted Cruz-led committee approves Trump FCC nominee 15-0 as Democrats boycott vote\nDemocrats try to prevent quorum, say Thumann lied about not working on media issues."
+      "published": "Thu, 19 Nov 2026 20:19:28 +0000",
+      "summary": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert\nLawsuit: Over 99% of school system’s AI gun alerts were false positives."
     },
     {
-      "title": "Ukraine blew up Putin’s bridge using relay drones to bypass Starlink limits",
-      "link": "https://arstechnica.com/gadgets/2026/11/ukraine-blew-up-putins-bridge-using-relay-drones-to-bypass-starlink-limits/",
-      "raw_summary": "Ukraine's strike used homegrown tech while adapting battlefield lessons from its adversary.",
+      "title": "Google turns to Blue Origin for a rocket, but its long-term problem remains",
+      "link": "https://arstechnica.com/space/2026/11/google-turns-to-blue-origin-for-a-rocket-but-its-long-term-problem-remains/",
+      "raw_summary": "\"Project Suncatcher is a long-term moonshot.\"",
       "source": "Ars Technica",
-      "published": "Wed, 18 Nov 2026 23:10:39 +0000",
-      "summary": "Ukraine blew up Putin’s bridge using relay drones to bypass Starlink limits\nUkraine's strike used homegrown tech while adapting battlefield lessons from its adversary."
+      "published": "Thu, 19 Nov 2026 19:52:54 +0000",
+      "summary": "Google turns to Blue Origin for a rocket, but its long-term problem remains\n\"Project Suncatcher is a long-term moonshot.\""
     },
     {
-      "title": "Gulf flare-up stokes fears of return to Iran war",
-      "link": "https://www.ft.com/content/090da02e-2ed1-491a-a2cf-3c8a6b10522e?syn-25a6b1a6=1",
-      "raw_summary": "A week of tit-for-tat escalation by Iran and the US has brought the countries closer to another full-scale confrontation, analysts say",
+      "title": "UK and EU poised to finalise deal to ‘reset’ relations",
+      "link": "https://www.ft.com/content/912a7730-2428-4d4c-8dde-9c41a99ab562?syn-25a6b1a6=1",
+      "raw_summary": "Andy Burnham due to seal accord that will improve British trade with the bloc after dispute resolved with France",
       "source": "World",
-      "published": "Thu, 19 Nov 2026 14:53:28 GMT",
-      "summary": "Gulf flare-up stokes fears of return to Iran war\nA week of tit-for-tat escalation by Iran and the US has brought the countries closer to another full-scale confrontation, analysts say"
+      "published": "Thu, 19 Nov 2026 22:44:56 GMT",
+      "summary": "UK and EU poised to finalise deal to ‘reset’ relations\nAndy Burnham due to seal accord that will improve British trade with the bloc after dispute resolved with France"
     },
     {
-      "title": "Nscale warns of its exposure to suppliers facing US blacklist",
-      "link": "https://www.ft.com/content/97912585-2412-496c-a224-78e69328bcdb?syn-25a6b1a6=1",
-      "raw_summary": "Nvidia-backed start-up’s $35bn IPO plans hit by ties to groups at risk of being placed on Washington’s ‘entity list’",
+      "title": "Australian PM to meet Xi Jinping as iron ore tensions loom",
+      "link": "https://www.ft.com/content/ddbf0f75-047a-421a-87c0-3e60bf42ed22?syn-25a6b1a6=1",
+      "raw_summary": "Prime Minister Anthony Albanese to hold bilateral talks with China’s president on Friday",
       "source": "World",
-      "published": "Thu, 19 Nov 2026 14:39:18 GMT",
-      "summary": "Nscale warns of its exposure to suppliers facing US blacklist\nNvidia-backed start-up’s $35bn IPO plans hit by ties to groups at risk of being placed on Washington’s ‘entity list’"
+      "published": "Thu, 19 Nov 2026 21:00:10 GMT",
+      "summary": "Australian PM to meet Xi Jinping as iron ore tensions loom\nPrime Minister Anthony Albanese to hold bilateral talks with China’s president on Friday"
     },
     {
-      "title": "Germany reveals AI-driven surge in cyber attacks",
-      "link": "https://www.ft.com/content/cf875eb6-34a2-413e-b89d-bc609367a19e?syn-25a6b1a6=1",
-      "raw_summary": "Threat level ‘critical’ as new tools make it far easier for hackers to exploit security flaws",
+      "title": "Law firms that caved to Trump brace for scrutiny from new Congress",
+      "link": "https://www.ft.com/content/4e712188-9dfc-4e2a-b997-3dacde95bf08?syn-25a6b1a6=1",
+      "raw_summary": "Firms are hiring outside lawyers as Democrats probe deals they struck with the president",
       "source": "World",
-      "published": "Thu, 19 Nov 2026 14:28:48 GMT",
-      "summary": "Germany reveals AI-driven surge in cyber attacks\nThreat level ‘critical’ as new tools make it far easier for hackers to exploit security flaws"
+      "published": "Thu, 19 Nov 2026 20:35:00 GMT",
+      "summary": "Law firms that caved to Trump brace for scrutiny from new Congress\nFirms are hiring outside lawyers as Democrats probe deals they struck with the president"
     },
     {
-      "title": "Trump, Putin and Xi in historic trilateral meeting",
-      "link": "https://www.ft.com/content/3ab490ea-825a-4ef4-9239-a2905d7f7f3c?syn-25a6b1a6=1",
-      "raw_summary": "Also in today’s newsletter, US tech outages blamed on rush to fix bugs found by AI",
+      "title": "Brazil’s central bank steps in to stem real’s slide since Lula’s re-election",
+      "link": "https://www.ft.com/content/94379926-211c-4ca6-a53a-f7e4df1a2675?syn-25a6b1a6=1",
+      "raw_summary": "Currency has slipped from R$5 to R$5.90 to the dollar following leftwinger’s victory last month",
       "source": "World",
-      "published": "Thu, 19 Nov 2026 14:00:03 GMT",
-      "summary": "Trump, Putin and Xi in historic trilateral meeting\nAlso in today’s newsletter, US tech outages blamed on rush to fix bugs found by AI"
+      "published": "Thu, 19 Nov 2026 19:25:18 GMT",
+      "summary": "Brazil’s central bank steps in to stem real’s slide since Lula’s re-election\nCurrency has slipped from R$5 to R$5.90 to the dollar following leftwinger’s victory last month"
     },
     {
-      "title": "UK revamps renewable energy auctions in move to bring down costs",
-      "link": "https://www.ft.com/content/c39c29f8-3141-423e-b6b9-674e40be1e66?syn-25a6b1a6=1",
-      "raw_summary": "Developers to be pushed into offering lowest possible prices by bidding for subsidies without knowing the levels of funding available",
+      "title": "The Xi, Trump, Putin meeting and the dawn of a post-western world",
+      "link": "https://www.ft.com/content/01dde30c-977c-4f21-8838-4c3955dfacb7?syn-25a6b1a6=1",
+      "raw_summary": "The symbolism was the substance in Shenzhen",
       "source": "World",
-      "published": "Thu, 19 Nov 2026 13:58:55 GMT",
-      "summary": "UK revamps renewable energy auctions in move to bring down costs\nDevelopers to be pushed into offering lowest possible prices by bidding for subsidies without knowing the levels of funding available"
+      "published": "Thu, 19 Nov 2026 19:19:44 GMT",
+      "summary": "The Xi, Trump, Putin meeting and the dawn of a post-western world\nThe symbolism was the substance in Shenzhen"
     },
     {
-      "title": "Anthropic Poised to Surge After $107.3 Billion IPO Tops SpaceX",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-19/anthropic-poised-to-surge-after-107-3-billion-ipo-tops-spacex",
-      "raw_summary": "Anthropic PBC shares are set to soar when they start trading on Thursday, after the artificial intelligence lab’s $107.3 billion IPO and private placement broke SpaceX’s record for the biggest-ever offering.",
+      "title": "Latest Oil Market News and Analysis for Nov. 20",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-19/latest-oil-market-news-and-analysis-for-nov-20",
+      "raw_summary": "Oil edged higher after a volatile session on Thursday, with futures on track for a third weekly decline as traders weigh the risk of renewed US strikes on Iran against ample supply.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 19 Nov 2026 14:52:54 GMT",
-      "summary": "Anthropic Poised to Surge After $107.3 Billion IPO Tops SpaceX\nAnthropic PBC shares are set to soar when they start trading on Thursday, after the artificial intelligence lab’s $107.3 billion IPO and private placement broke SpaceX’s record for the biggest-ever offering."
+      "published": "Thu, 19 Nov 2026 23:05:51 GMT",
+      "summary": "Latest Oil Market News and Analysis for Nov. 20\nOil edged higher after a volatile session on Thursday, with futures on track for a third weekly decline as traders weigh the risk of renewed US strikes on Iran against ample supply."
     },
     {
-      "title": "Tech Stocks Gain as Anthropic IPO Boosts Sentiment on AI Trade",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-19/us-stock-futures-jump-on-blockbuster-reception-to-anthropic-ipo",
-      "raw_summary": "US technology stocks surged on Thursday as Anthropic PBC’s record initial public offering revived confidence in the artificial intelligence trade.",
+      "title": "Fed Tells Regional Staff to Expect Lower Pay Hikes in 2027",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-19/fed-tells-regional-staff-to-expect-lower-pay-increases-in-2027",
+      "raw_summary": "The Federal Reserve has warned employees at its regional outposts to expect lower pay increases next year, according to a memo viewed by Bloomberg News.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 19 Nov 2026 07:09:16 GMT",
-      "summary": "Tech Stocks Gain as Anthropic IPO Boosts Sentiment on AI Trade\nUS technology stocks surged on Thursday as Anthropic PBC’s record initial public offering revived confidence in the artificial intelligence trade."
+      "published": "Thu, 19 Nov 2026 19:14:11 GMT",
+      "summary": "Fed Tells Regional Staff to Expect Lower Pay Hikes in 2027\nThe Federal Reserve has warned employees at its regional outposts to expect lower pay increases next year, according to a memo viewed by Bloomberg News."
     },
     {
-      "title": "Brookfield-Backed Lotto Firm’s Earnings Hit, Buys Back Bonds",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-18/brookfield-backed-lotto-firm-logs-earnings-hit-buys-back-bonds",
-      "raw_summary": "Earnings at Brookfield-backed lottery business Scientific Games Holdings LP fell in the last quarter, hurt by one-time costs related to delayed contract completions, according to people with knowledge of the matter.",
+      "title": "Anthropic IPO Raises Only $110 Million From Australian Investors",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-19/anthropic-ipo-raises-only-110-million-from-australian-investors",
+      "raw_summary": "Australian investors were allocated less than 1% of total shares from Anthropic PBC’s record-breaking initial public offering.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 18 Nov 2026 22:22:20 GMT",
-      "summary": "Brookfield-Backed Lotto Firm’s Earnings Hit, Buys Back Bonds\nEarnings at Brookfield-backed lottery business Scientific Games Holdings LP fell in the last quarter, hurt by one-time costs related to delayed contract completions, according to people with knowledge of the matter."
+      "published": "Thu, 19 Nov 2026 23:35:17 GMT",
+      "summary": "Anthropic IPO Raises Only $110 Million From Australian Investors\nAustralian investors were allocated less than 1% of total shares from Anthropic PBC’s record-breaking initial public offering."
     },
     {
-      "title": "Anthropic IPO Said to Give Nothing to Most Institutional Buyers",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-19/anthropic-ipo-said-to-give-nothing-to-most-institutional-buyers",
-      "raw_summary": "Anthropic PBC’s initial public offering left more than half of the institutional investors bidding for stock without any shares, according to people familiar with the matter.",
+      "title": "Anthropic Becomes World’s 7th Most Valuable Company After IPO",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-19/anthropic-becomes-world-s-7th-most-valuable-company-after-ipo",
+      "raw_summary": "Anthropic PBC’s blockbuster IPO lifted the company into the ranks of the most valuable in the world, with shares closing 17% from the offer price to give it a $1.8 trillion fully diluted market value.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 19 Nov 2026 14:35:54 GMT",
-      "summary": "Anthropic IPO Said to Give Nothing to Most Institutional Buyers\nAnthropic PBC’s initial public offering left more than half of the institutional investors bidding for stock without any shares, according to people familiar with the matter."
+      "published": "Thu, 19 Nov 2026 23:16:20 GMT",
+      "summary": "Anthropic Becomes World’s 7th Most Valuable Company After IPO\nAnthropic PBC’s blockbuster IPO lifted the company into the ranks of the most valuable in the world, with shares closing 17% from the offer price to give it a $1.8 trillion fully diluted market value."
     },
     {
-      "title": "US Initial Jobless Claims Unexpectedly Rise by 1,000",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-19/us-initial-jobless-claims-unexpectedly-rise-by-1-000-video",
-      "raw_summary": "Initial jobless claims in the US rose by 1,000 to 203,000 in the week ending November 14 compared with the median estimate of 198,000. Bloomberg's Enda Curran reports.  (Source: Bloomberg)",
+      "title": "Stock Losses to Extend in Asia, Nasdaq Futures Dip: Markets Wrap",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-19/stock-market-today-dow-s-p-live-updates",
+      "raw_summary": "A global stock selloff was set to deepen in Asia as Anthropic PBC’s solid market debut failed to reverse pessimism around the artificial-intelligence trade and stem a broader retreat from technology shares.",
       "source": "Bloomberg Markets",
-      "published": "Thu, 19 Nov 2026 14:35:52 GMT",
-      "summary": "US Initial Jobless Claims Unexpectedly Rise by 1,000\nInitial jobless claims in the US rose by 1,000 to 203,000 in the week ending November 14 compared with the median estimate of 198,000. Bloomberg's Enda Curran reports.  (Source: Bloomberg)"
+      "published": "Thu, 19 Nov 2026 22:03:40 GMT",
+      "summary": "Stock Losses to Extend in Asia, Nasdaq Futures Dip: Markets Wrap\nA global stock selloff was set to deepen in Asia as Anthropic PBC’s solid market debut failed to reverse pessimism around the artificial-intelligence trade and stem a broader retreat from technology shares."
     },
     {
-      "title": "Crypto traders vs. Wall Street: OKX’s Anthropic markets put IPO pricing to the test",
-      "link": "https://www.coindesk.com/markets/2026/11/19/crypto-traders-vs-wall-street-okx-s-anthropic-markets-put-ipo-pricing-to-the-test",
+      "title": "Sky's USDS stablecoin shrinks 35% as $1.5 billion exits reserves after illicit-finance report",
+      "link": "https://www.coindesk.com/business/2026/11/19/sky-s-usds-stablecoin-shrinks-35-as-usd1-5-billion-exits-reserves-after-illicit-finance-report",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 19 Nov 2026 13:11:31 +0000",
-      "summary": "Crypto traders vs. Wall Street: OKX’s Anthropic markets put IPO pricing to the test\n"
+      "published": "Thu, 19 Nov 2026 19:53:42 +0000",
+      "summary": "Sky's USDS stablecoin shrinks 35% as $1.5 billion exits reserves after illicit-finance report\n"
     },
     {
-      "title": "Trump Media wants to clear $884 million of debt without selling its bitcoin",
-      "link": "https://www.coindesk.com/markets/2026/11/19/trump-media-wants-to-clear-usd884-million-of-debt-without-selling-its-bitcoin",
+      "title": "Trump's Democratic SEC pick suggests tokenization policy deserves full rule process",
+      "link": "https://www.coindesk.com/policy/2026/11/19/trump-s-democratic-sec-pick-suggests-tokenization-policy-deserves-full-rule-process",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 19 Nov 2026 12:40:12 +0000",
-      "summary": "Trump Media wants to clear $884 million of debt without selling its bitcoin\n"
+      "published": "Thu, 19 Nov 2026 18:15:56 +0000",
+      "summary": "Trump's Democratic SEC pick suggests tokenization policy deserves full rule process\n"
     },
     {
-      "title": "Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut",
-      "link": "https://www.coindesk.com/daybook-us/2026/11/19/bitcoin-etf-outflows-show-waning-crypto-appetite-ahead-of-anthropic-s-nasdaq-debut",
+      "title": "Anthropic gains after IPO, but pulls off highest levels",
+      "link": "https://www.coindesk.com/markets/2026/11/19/anthropic-opens-for-trade-at-usd11-50-up-34-from-ipo-price",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 19 Nov 2026 12:20:39 +0000",
-      "summary": "Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut\n"
+      "published": "Thu, 19 Nov 2026 17:01:47 +0000",
+      "summary": "Anthropic gains after IPO, but pulls off highest levels\n"
     },
     {
-      "title": "Bitcoin holds above $63,750 but Fed rate-hike threats loom large",
-      "link": "https://www.coindesk.com/markets/2026/11/19/bitcoin-holds-above-usd63-750-but-fed-rate-hike-threats-loom-large",
+      "title": "Crypto for Advisors: Falling prices drove October’s 10% drop in institutional crypto exposure",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/11/19/crypto-for-advisors-falling-prices-drove-october-s-10-drop-in-institutional-crypto-exposure",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 19 Nov 2026 12:08:06 +0000",
-      "summary": "Bitcoin holds above $63,750 but Fed rate-hike threats loom large\n"
+      "published": "Thu, 19 Nov 2026 16:09:28 +0000",
+      "summary": "Crypto for Advisors: Falling prices drove October’s 10% drop in institutional crypto exposure\n"
     },
     {
-      "title": "North Korean hackers used Sky's stablecoin system, putting billions at freeze risk",
-      "link": "https://www.coindesk.com/business/2026/11/19/north-korean-hackers-used-sky-s-stablecoin-system-putting-billions-at-freeze-risk",
+      "title": "Binance wins $6.5 billion feezing order against hackers behind crypto's largest theft",
+      "link": "https://www.coindesk.com/business/2026/11/19/binance-wins-usd6-5-billion-feezing-order-against-hackers-behind-crypto-s-largest-theft",
       "raw_summary": "",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Thu, 19 Nov 2026 11:30:00 +0000",
-      "summary": "North Korean hackers used Sky's stablecoin system, putting billions at freeze risk\n"
+      "published": "Thu, 19 Nov 2026 15:20:38 +0000",
+      "summary": "Binance wins $6.5 billion feezing order against hackers behind crypto's largest theft\n"
     }
   ]
 }
