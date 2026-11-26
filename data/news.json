@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T16:33:23.312951+00:00",
+  "generated_at": "2026-11-26T01:22:17.711877+00:00",
   "count": 40,
   "articles": [
     {
@@ -83,204 +83,220 @@
       "summary": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail\nA former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tuesd"
     },
     {
-      "title": "Investigating degraded experiences across GitHub products",
-      "link": "https://www.githubstatus.com/incidents/qn8mfv6q5hlx",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.githubstatus.com/incidents/qn8mfv6q5hlx\">https://www.githubstatus.com/incidents/qn8mfv6q5hlx</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50643720\">https://news.ycombinator.com/item?id=50643720</a></p>\n<p>Points: 32</p>\n<p># Comments: 10</p>",
+      "title": "Tell HN: Lots of Ask HNs again",
+      "link": "https://news.ycombinator.com/item?id=50649864",
+      "raw_summary": "<p>There have been questions about why the /ask page (<a href=\"https://news.ycombinator.com/ask\">https://news.ycombinator.com/ask</a>) was running dry of Ask HN posts - e.g.:<p><i>Ask HN: Why is Ask HN only showing me 14 posts?</i> - <a href=\"https://news.ycombinator.com/item?id=49984484\">https://news.ycombinator.com/item?id=49984484</a> - Oct 2026 (47 comments)<p><i>Ask HN: Why is pagination gone on \"Ask HN\", and showing only 19 items?</i> - <a href=\"https://news.ycombinator.com/item?id=50280719\">https://news.ycombinator.com/item?id=50280719</a> - Oct 2026 (3 comments)<p>I believe I found the problem. The pool of stories for <a href=\"https://news.ycombinator.com/ask\">https://news.ycombinator.com/ask</a> has traditionally been drawn from the ranked stories list from which we generate the frontpage. That list is restricted to the top 1500 ranked submissions, and it seems the % of submissions which are text posts (i.e. no linked URL) had declined enough to starve the Ask HN feed. The solution is to compute a separate list of ranked Ask HNs.<p>p.s. \"Ask HN\" is the conventional name but it just means text posts. They can also start with \"Tell HN\" or indeed neither. The key is that they're text posts which were submitted without a URL.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50649864\">https://news.ycombinator.com/item?id=50649864</a></p>\n<p>Points: 26</p>\n<p># Comments: 13</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 25 Nov 2026 15:59:23 +0000",
-      "summary": "Investigating degraded experiences across GitHub products\n<p>Article URL: <a href=\"https://www.githubstatus.com/incidents/qn8mfv6q5hlx\">https://www.githubstatus.com/incidents/qn8mfv6q5hlx</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50643720\">https://news.ycombinator.com/it"
+      "published": "Thu, 26 Nov 2026 00:43:34 +0000",
+      "summary": "Tell HN: Lots of Ask HNs again\n<p>There have been questions about why the /ask page (<a href=\"https://news.ycombinator.com/ask\">https://news.ycombinator.com/ask</a>) was running dry of Ask HN posts - e.g.:<p><i>Ask HN: Why is Ask HN only showing me 14 posts?</i> - <a href=\"https://news.ycombinator.c"
     },
     {
-      "title": "A few questions for the guy who went snorkeling in a Home Depot retention pond",
-      "link": "https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts\">https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50643129\">https://news.ycombinator.com/item?id=50643129</a></p>\n<p>Points: 128</p>\n<p># Comments: 30</p>",
+      "title": "Jev is probably Qwen3.5-35B-A3B",
+      "link": "https://modaic.dev/blog/latency-doesnt-lie",
+      "raw_summary": "<p>Article URL: <a href=\"https://modaic.dev/blog/latency-doesnt-lie\">https://modaic.dev/blog/latency-doesnt-lie</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50648823\">https://news.ycombinator.com/item?id=50648823</a></p>\n<p>Points: 203</p>\n<p># Comments: 55</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 25 Nov 2026 15:14:32 +0000",
-      "summary": "A few questions for the guy who went snorkeling in a Home Depot retention pond\n<p>Article URL: <a href=\"https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts\">https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts</a></p>\n<p>Co"
+      "published": "Wed, 25 Nov 2026 22:57:04 +0000",
+      "summary": "Jev is probably Qwen3.5-35B-A3B\n<p>Article URL: <a href=\"https://modaic.dev/blog/latency-doesnt-lie\">https://modaic.dev/blog/latency-doesnt-lie</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50648823\">https://news.ycombinator.com/item?id=50648823</a></p>\n<p>Points: 203</p>\n<p"
     },
     {
-      "title": "Rumors swirling that labs might have cracked Factoring in P",
-      "link": "https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/\">https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50643065\">https://news.ycombinator.com/item?id=50643065</a></p>\n<p>Points: 85</p>\n<p># Comments: 38</p>",
+      "title": "Bare Metal Qwen",
+      "link": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os\">https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50648365\">https://news.ycombinator.com/item?id=50648365</a></p>\n<p>Points: 52</p>\n<p># Comments: 5</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 25 Nov 2026 15:08:44 +0000",
-      "summary": "Rumors swirling that labs might have cracked Factoring in P\n<p>Article URL: <a href=\"https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/\">https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/</a></p>\n<p>C"
+      "published": "Wed, 25 Nov 2026 22:15:34 +0000",
+      "summary": "Bare Metal Qwen\n<p>Article URL: <a href=\"https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os\">https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50648365\">https://news.ycombinator.com/item?id=50648365</a>"
     },
     {
-      "title": "U.S. jury convicts Huawei of fraud, Iran sanctions violations",
-      "link": "https://www.upi.com/Top_News/US/2026/11/25/jury-convicts-Huawei/3151795587204/",
-      "raw_summary": "<p>Article URL: <a href=\"https://www.upi.com/Top_News/US/2026/11/25/jury-convicts-Huawei/3151795587204/\">https://www.upi.com/Top_News/US/2026/11/25/jury-convicts-Huawei/3151795587204/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50642496\">https://news.ycombinator.com/item?id=50642496</a></p>\n<p>Points: 109</p>\n<p># Comments: 96</p>",
+      "title": "Deploying a payphone on a tiny Pacific Island",
+      "link": "https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/",
+      "raw_summary": "<p>Article URL: <a href=\"https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/\">https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50648323\">https://news.ycombinator.com/item?id=50648323</a></p>\n<p>Points: 28</p>\n<p># Comments: 0</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 25 Nov 2026 14:12:29 +0000",
-      "summary": "U.S. jury convicts Huawei of fraud, Iran sanctions violations\n<p>Article URL: <a href=\"https://www.upi.com/Top_News/US/2026/11/25/jury-convicts-Huawei/3151795587204/\">https://www.upi.com/Top_News/US/2026/11/25/jury-convicts-Huawei/3151795587204/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombin"
+      "published": "Wed, 25 Nov 2026 22:12:25 +0000",
+      "summary": "Deploying a payphone on a tiny Pacific Island\n<p>Article URL: <a href=\"https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/\">https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/</a></p>\n<p>Comments URL: <a "
     },
     {
-      "title": "Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More",
-      "link": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
-      "raw_summary": "<p>Article URL: <a href=\"https://github.com/google-research/google-research/tree/master/cogentic_research_papers\">https://github.com/google-research/google-research/tree/master/cogentic_research_papers</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50642086\">https://news.ycombinator.com/item?id=50642086</a></p>\n<p>Points: 220</p>\n<p># Comments: 181</p>",
+      "title": "Much shorter version of GRH Lean verification from Anthropic",
+      "link": "https://github.com/lsernau/grh-lean",
+      "raw_summary": "<p>Article URL: <a href=\"https://github.com/lsernau/grh-lean\">https://github.com/lsernau/grh-lean</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50648050\">https://news.ycombinator.com/item?id=50648050</a></p>\n<p>Points: 247</p>\n<p># Comments: 113</p>",
       "source": "Hacker News: Front Page",
-      "published": "Wed, 25 Nov 2026 13:33:07 +0000",
-      "summary": "Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More\n<p>Article URL: <a href=\"https://github.com/google-research/google-research/tree/master/cogentic_research_papers\">https://github.com/google-research/google-research/tree/master/cogentic_research_papers</a></p>\n<p>Commen"
+      "published": "Wed, 25 Nov 2026 21:48:10 +0000",
+      "summary": "Much shorter version of GRH Lean verification from Anthropic\n<p>Article URL: <a href=\"https://github.com/lsernau/grh-lean\">https://github.com/lsernau/grh-lean</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50648050\">https://news.ycombinator.com/item?id=50648050</a></p>\n<p>Poi"
     },
     {
-      "title": "Allstate suffers multi-day tech outage ahead of Thanksgiving",
-      "link": "https://techcrunch.com/2026/11/25/allstate-suffers-multi-day-tech-outage-ahead-of-thanksgiving/",
-      "raw_summary": "The disruption comes at a particularly bad time for the insurance giant, as millions of Americans prepare to travel for the Thanksgiving holiday weekend.",
+      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "raw_summary": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
       "source": "TechCrunch",
-      "published": "Wed, 25 Nov 2026 15:08:37 +0000",
-      "summary": "Allstate suffers multi-day tech outage ahead of Thanksgiving\nThe disruption comes at a particularly bad time for the insurance giant, as millions of Americans prepare to travel for the Thanksgiving holiday weekend."
+      "published": "Wed, 25 Nov 2026 22:44:32 +0000",
+      "summary": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks\nThe credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating."
     },
     {
-      "title": "Todoist confirms 6% of customers’ details were stolen in data breach",
-      "link": "https://techcrunch.com/2026/11/25/todoist-confirms-6-of-customers-details-were-stolen-in-data-breach/",
-      "raw_summary": "Todoist said a hacker gained access to its production systems and stole customer data, including email IDs, password hashes, and account creation dates.",
+      "title": "FCC approves SpaceX plan to put AI data centers in space",
+      "link": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
+      "raw_summary": "The FCC dismissed some of the key concerns raised by opponents, including potential threats to scientific research, because the agency determined they fell outside its regulatory authority.",
       "source": "TechCrunch",
-      "published": "Wed, 25 Nov 2026 14:20:28 +0000",
-      "summary": "Todoist confirms 6% of customers’ details were stolen in data breach\nTodoist said a hacker gained access to its production systems and stole customer data, including email IDs, password hashes, and account creation dates."
+      "published": "Wed, 25 Nov 2026 20:56:44 +0000",
+      "summary": "FCC approves SpaceX plan to put AI data centers in space\nThe FCC dismissed some of the key concerns raised by opponents, including potential threats to scientific research, because the agency determined they fell outside its regulatory authority."
     },
     {
-      "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
-      "link": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
-      "raw_summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "raw_summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
       "source": "TechCrunch",
-      "published": "Wed, 25 Nov 2026 14:10:18 +0000",
-      "summary": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse\nAmazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse."
+      "published": "Wed, 25 Nov 2026 20:03:27 +0000",
+      "summary": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work\nOpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences."
     },
     {
-      "title": "Flipkart CEO Kalyan Krishnamurthy to step down next week amid IPO uncertainty",
-      "link": "https://techcrunch.com/2026/11/25/flipkart-ceo-kalyan-krishnamurthy-to-step-down-next-week-amid-ipo-uncertainty/",
-      "raw_summary": "Flipkart's product and technology chief Balaji Thiagarajan will lead the company alongside its board until a successor is found.",
+      "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+      "link": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+      "raw_summary": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.",
       "source": "TechCrunch",
-      "published": "Wed, 25 Nov 2026 13:08:19 +0000",
-      "summary": "Flipkart CEO Kalyan Krishnamurthy to step down next week amid IPO uncertainty\nFlipkart's product and technology chief Balaji Thiagarajan will lead the company alongside its board until a successor is found."
+      "published": "Wed, 25 Nov 2026 19:54:57 +0000",
+      "summary": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it\nMost codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences."
     },
     {
-      "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
-      "link": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
-      "raw_summary": "Huang still faces questions from Congress and his own board about his romantic relationship with an alleged chip smuggler.",
+      "title": "The canceled Tesla Cybertruck is the fastest-selling used truck in America",
+      "link": "https://techcrunch.com/2026/11/25/the-canceled-tesla-cybertruck-is-the-fastest-selling-used-truck-in-america/",
+      "raw_summary": "The Tesla Cybertruck was the fastest-selling used truck last month, averaging just 39.1 days on the market compared to 65.5 days for trucks overall.",
       "source": "TechCrunch",
-      "published": "Wed, 25 Nov 2026 13:00:00 +0000",
-      "summary": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed\nHuang still faces questions from Congress and his own board about his romantic relationship with an alleged chip smuggler."
+      "published": "Wed, 25 Nov 2026 19:54:32 +0000",
+      "summary": "The canceled Tesla Cybertruck is the fastest-selling used truck in America\nThe Tesla Cybertruck was the fastest-selling used truck last month, averaging just 39.1 days on the market compared to 65.5 days for trucks overall."
     },
     {
-      "title": "Lead azide detonation sends clouds over Iowa as questions of health risks swirl",
-      "link": "https://arstechnica.com/health/2026/11/army-detonates-tons-of-lead-azide-as-local-residents-brace-for-toxic-plume/",
-      "raw_summary": "Prior modeling estimated the plume would cover hundreds of square miles.",
+      "title": "European spacecraft finds chaotic scene after asteroid deflection experiment",
+      "link": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
+      "raw_summary": "\"DART made a really, really large mess. However, we didn’t really know what kind of mess.\"",
       "source": "Ars Technica",
-      "published": "Wed, 25 Nov 2026 15:35:17 +0000",
-      "summary": "Lead azide detonation sends clouds over Iowa as questions of health risks swirl\nPrior modeling estimated the plume would cover hundreds of square miles."
+      "published": "Wed, 25 Nov 2026 22:36:45 +0000",
+      "summary": "European spacecraft finds chaotic scene after asteroid deflection experiment\n\"DART made a really, really large mess. However, we didn’t really know what kind of mess.\""
     },
     {
-      "title": "A familiar Iranian hacking group has found a new way to cause chaos",
-      "link": "https://arstechnica.com/security/2026/11/a-familiar-iranian-hacking-group-has-found-a-new-way-to-cause-chaos/",
-      "raw_summary": "France blames an Iranian cyber unit for sabotaging hundreds of supermarket freezers.",
+      "title": "Google search alternative Kagi launches Gmail rival",
+      "link": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/",
+      "raw_summary": "The pitch is an unusual combination of privacy promises and AI features.",
       "source": "Ars Technica",
-      "published": "Wed, 25 Nov 2026 14:29:43 +0000",
-      "summary": "A familiar Iranian hacking group has found a new way to cause chaos\nFrance blames an Iranian cyber unit for sabotaging hundreds of supermarket freezers."
+      "published": "Wed, 25 Nov 2026 20:57:09 +0000",
+      "summary": "Google search alternative Kagi launches Gmail rival\nThe pitch is an unusual combination of privacy promises and AI features."
     },
     {
-      "title": "AI may soon change what it means to be a theoretical physicist",
-      "link": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
-      "raw_summary": "Frontier AI is already solving problems that once took top physicists a full day.",
+      "title": "Backblaze explains why it's sharing customer information with advertisers",
+      "link": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/",
+      "raw_summary": "Backblaze tells Ars it won't share users' backup, storage files with advertisers.",
       "source": "Ars Technica",
-      "published": "Wed, 25 Nov 2026 12:00:28 +0000",
-      "summary": "AI may soon change what it means to be a theoretical physicist\nFrontier AI is already solving problems that once took top physicists a full day."
+      "published": "Wed, 25 Nov 2026 18:38:29 +0000",
+      "summary": "Backblaze explains why it's sharing customer information with advertisers\nBackblaze tells Ars it won't share users' backup, storage files with advertisers."
     },
     {
-      "title": "Half of NASA's aging Mars fleet knocked offline by technical issues",
-      "link": "https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues/",
-      "raw_summary": "Perseverance is having trouble transmitting to Earth. Odyssey is rapidly burning through its waning fuel supply.",
+      "title": "The FCC has authorized SpaceX to deploy 1 million satellites",
+      "link": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
+      "raw_summary": "This constellation would increase the number of satellites in orbit by roughly 50-fold.",
       "source": "Ars Technica",
-      "published": "Tue, 24 Nov 2026 22:50:11 +0000",
-      "summary": "Half of NASA's aging Mars fleet knocked offline by technical issues\nPerseverance is having trouble transmitting to Earth. Odyssey is rapidly burning through its waning fuel supply."
+      "published": "Wed, 25 Nov 2026 18:22:38 +0000",
+      "summary": "The FCC has authorized SpaceX to deploy 1 million satellites\nThis constellation would increase the number of satellites in orbit by roughly 50-fold."
     },
     {
-      "title": "Microsoft's historic cloud outage exposed an engineering “fog of war”",
-      "link": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/",
-      "raw_summary": "Internal memos reveal a “Code Red” overhaul and ambitious one-hour recovery goals.",
+      "title": "Ladybird browser's first downloadable alpha is surprisingly capable",
+      "link": "https://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium/",
+      "raw_summary": "An independent browser engine arrives on Linux and macOS, and we've tried it.",
       "source": "Ars Technica",
-      "published": "Tue, 24 Nov 2026 22:36:28 +0000",
-      "summary": "Microsoft's historic cloud outage exposed an engineering “fog of war”\nInternal memos reveal a “Code Red” overhaul and ambitious one-hour recovery goals."
+      "published": "Wed, 25 Nov 2026 17:33:30 +0000",
+      "summary": "Ladybird browser's first downloadable alpha is surprisingly capable\nAn independent browser engine arrives on Linux and macOS, and we've tried it."
     },
     {
-      "title": "US stocks sell-off deepens as AI trade cracks",
+      "title": "Israeli judges advise prosecutors to drop some charges against Netanyahu",
+      "link": "https://www.ft.com/content/db700af5-22b2-4903-ae2e-124513681071?syn-25a6b1a6=1",
+      "raw_summary": "Country’s attorney-general told there is little chance of a bribery conviction in a boost for the premier",
+      "source": "World",
+      "published": "Wed, 25 Nov 2026 23:18:48 GMT",
+      "summary": "Israeli judges advise prosecutors to drop some charges against Netanyahu\nCountry’s attorney-general told there is little chance of a bribery conviction in a boost for the premier"
+    },
+    {
+      "title": "US Treasury financial crime watchdog hit by suspected cyber attack",
+      "link": "https://www.ft.com/content/43aa7321-2a95-463c-8cb9-77fcc7e39291?syn-25a6b1a6=1",
+      "raw_summary": "FinCen takes systems offline after detecting unauthorised access amid growing fears over vulnerability of technology systems",
+      "source": "World",
+      "published": "Wed, 25 Nov 2026 22:24:37 GMT",
+      "summary": "US Treasury financial crime watchdog hit by suspected cyber attack\nFinCen takes systems offline after detecting unauthorised access amid growing fears over vulnerability of technology systems"
+    },
+    {
+      "title": "Beige Book confirms hot US economy and signs of wage pressure building",
+      "link": "https://www.ft.com/content/fb4f6707-274e-4f93-bcfb-7cce28d4a4ea",
+      "raw_summary": "The report will help cement the coming December Federal Reserve interest rate rise",
+      "source": "World",
+      "published": "Wed, 25 Nov 2026 22:17:53 GMT",
+      "summary": "Beige Book confirms hot US economy and signs of wage pressure building\nThe report will help cement the coming December Federal Reserve interest rate rise"
+    },
+    {
+      "title": "US stocks close lower in volatile session as AI trade remains under pressure",
       "link": "https://www.ft.com/content/705eb84c-801d-4a96-b908-e366511e886a?syn-25a6b1a6=1",
-      "raw_summary": "Tech-heavy Nasdaq 100 falls more than 4% as weeks-long slide continues",
+      "raw_summary": "Chip group Nvidia among losers but AI start-up Anthropic a bright spot as shares finish higher",
       "source": "World",
-      "published": "Wed, 25 Nov 2026 16:23:34 GMT",
-      "summary": "US stocks sell-off deepens as AI trade cracks\nTech-heavy Nasdaq 100 falls more than 4% as weeks-long slide continues"
+      "published": "Wed, 25 Nov 2026 21:26:33 GMT",
+      "summary": "US stocks close lower in volatile session as AI trade remains under pressure\nChip group Nvidia among losers but AI start-up Anthropic a bright spot as shares finish higher"
     },
     {
-      "title": "Upgrade to US GDP figures keeps December rate rise in play for Fed",
-      "link": "https://www.ft.com/content/a1aaf5be-176c-4c4c-99d6-00875f6933f3?syn-25a6b1a6=1",
-      "raw_summary": "Bureau of Economic Analysis said economy grew at annualised rate of 4.3% in third quarter, up from initial estimate of 3.4%",
+      "title": "The fund manager’s dilemma over AI",
+      "link": "https://www.ft.com/content/c62ca4c2-dfc4-4943-86a4-fee8fd5a1f4a?syn-25a6b1a6=1",
+      "raw_summary": "Assessing concentration risks may be more complicated than it seems",
       "source": "World",
-      "published": "Wed, 25 Nov 2026 16:07:13 GMT",
-      "summary": "Upgrade to US GDP figures keeps December rate rise in play for Fed\nBureau of Economic Analysis said economy grew at annualised rate of 4.3% in third quarter, up from initial estimate of 3.4%"
+      "published": "Wed, 25 Nov 2026 18:05:53 GMT",
+      "summary": "The fund manager’s dilemma over AI\nAssessing concentration risks may be more complicated than it seems"
     },
     {
-      "title": "North Korea closes Swiss diplomatic office in row over children’s camp",
-      "link": "https://www.ft.com/content/5b320dc9-ff58-4036-9f84-b4cb66cf9556?syn-25a6b1a6=1",
-      "raw_summary": "Sanctions on Songdowon International Children’s Camp were a ‘blatant hostile act’, says Pyongyang",
-      "source": "World",
-      "published": "Wed, 25 Nov 2026 16:02:06 GMT",
-      "summary": "North Korea closes Swiss diplomatic office in row over children’s camp\nSanctions on Songdowon International Children’s Camp were a ‘blatant hostile act’, says Pyongyang"
-    },
-    {
-      "title": "Nvidia fallout exposes China’s fragility on frontier AI",
-      "link": "https://www.ft.com/content/e6557cf5-1c02-4ff7-abdd-f0682298b8c1",
-      "raw_summary": "The lack of US-style capital markets and domestic commercial demand makes it difficult for Beijing to fuel innovation",
-      "source": "World",
-      "published": "Wed, 25 Nov 2026 16:00:04 GMT",
-      "summary": "Nvidia fallout exposes China’s fragility on frontier AI\nThe lack of US-style capital markets and domestic commercial demand makes it difficult for Beijing to fuel innovation"
-    },
-    {
-      "title": "Inside A7 — the Kremlin’s money laundering empire",
-      "link": "https://www.ft.com/content/d0f678b5-3daf-4b41-a3e9-b649011e5bca?syn-25a6b1a6=1",
-      "raw_summary": "An FT investigation into how Moscow’s payments machine moves billions of dollars through crypto and western banks",
-      "source": "World",
-      "published": "Wed, 25 Nov 2026 15:57:29 GMT",
-      "summary": "Inside A7 — the Kremlin’s money laundering empire\nAn FT investigation into how Moscow’s payments machine moves billions of dollars through crypto and western banks"
-    },
-    {
-      "title": "Nasdaq 100 Slumps in ‘Sell First’ Mode as AI Angst Fuels Losses",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-25/us-stock-index-futures-slide-as-ai-worries-fuel-tech-losses",
-      "raw_summary": "The Nasdaq 100 Index tumbled for a second day, sending it briefly careening into bear-market territory, as mounting fears about over-investment in AI pummeled shares of the biggest technology companies.",
+      "title": "Latest Oil Market News and Analysis for Nov. 26",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-25/latest-oil-market-news-and-analysis-for-nov-26",
+      "raw_summary": "Oil held a two-day gain as continued hostilities in the Middle East threatened to disrupt the recovery in the region’s crude exports.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 25 Nov 2026 07:51:43 GMT",
-      "summary": "Nasdaq 100 Slumps in ‘Sell First’ Mode as AI Angst Fuels Losses\nThe Nasdaq 100 Index tumbled for a second day, sending it briefly careening into bear-market territory, as mounting fears about over-investment in AI pummeled shares of the biggest technology companies."
+      "published": "Wed, 25 Nov 2026 23:03:15 GMT",
+      "summary": "Latest Oil Market News and Analysis for Nov. 26\nOil held a two-day gain as continued hostilities in the Middle East threatened to disrupt the recovery in the region’s crude exports."
     },
     {
-      "title": "Gold Slumps Below $3,500 on Rate Hike Outlook, AI Stocks Selloff",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-24/gold-holds-decline-as-us-tariff-plans-reinforce-rate-hike-bets",
-      "raw_summary": "Gold slid below $3,500 an ounce as a selloff in stocks continued and a key inflation print reinforced bets on further Federal Reserve rate hikes.",
+      "title": "Lula Sounds Out Bradesco’s Luiz Trabuco to Join His Government",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-26/lula-sounds-out-bradesco-s-luiz-trabuco-to-join-his-government",
+      "raw_summary": "President Luiz Inácio Lula da Silva has sounded out Bradesco Chairman Luiz Carlos Trabuco Cappi about joining his fourth-term government, according to people familiar with the matter, a move that could help ease investor concerns over Brazil’s deteriorating fiscal outlook.",
       "source": "Bloomberg Markets",
-      "published": "Tue, 24 Nov 2026 23:51:22 GMT",
-      "summary": "Gold Slumps Below $3,500 on Rate Hike Outlook, AI Stocks Selloff\nGold slid below $3,500 an ounce as a selloff in stocks continued and a key inflation print reinforced bets on further Federal Reserve rate hikes."
+      "published": "Thu, 26 Nov 2026 01:07:45 GMT",
+      "summary": "Lula Sounds Out Bradesco’s Luiz Trabuco to Join His Government\nPresident Luiz Inácio Lula da Silva has sounded out Bradesco Chairman Luiz Carlos Trabuco Cappi about joining his fourth-term government, according to people familiar with the matter, a move that could help ease investor concerns over Br"
     },
     {
-      "title": "Core PCE Momentum Remained Elevated in October",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-25/core-pce-momentum-remained-elevated-in-october-video",
-      "raw_summary": "US consumer spending stalled in October after surging earlier in the year, suggesting households took a breather heading into the holiday season. \nInflation-adjusted personal spending was little changed from a month earlier, according to Bureau of Economic Analysis data released Wednesday.\nMike Reid, Senior US Economist at RBC, reacts to the inflation data. (Source: Bloomberg)",
+      "title": "Australia Capex Surges by Most Since Mining Boom on Data Centers",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-26/australia-capex-surges-by-most-since-mining-boom-on-data-centers",
+      "raw_summary": "Australian business investment surged by the most since the peak of the mining boom in the three months through September, driven by data center-related spending in a bright spot for an otherwise cooling economy.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 25 Nov 2026 16:19:34 GMT",
-      "summary": "Core PCE Momentum Remained Elevated in October\nUS consumer spending stalled in October after surging earlier in the year, suggesting households took a breather heading into the holiday season. \nInflation-adjusted personal spending was little changed from a month earlier, according to Bureau of Econo"
+      "published": "Thu, 26 Nov 2026 01:01:57 GMT",
+      "summary": "Australia Capex Surges by Most Since Mining Boom on Data Centers\nAustralian business investment surged by the most since the peak of the mining boom in the three months through September, driven by data center-related spending in a bright spot for an otherwise cooling economy."
     },
     {
-      "title": "Banks Pitch CVC €11 Billion Debt for Possible Verisure Deal",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-25/banks-pitch-cvc-11-billion-debt-for-possible-verisure-takeover",
-      "raw_summary": "Banks are offering CVC Capital Partners Plc up to €11 billion ($12 billion) in debt financing for a takeover of Verisure Plc, as the buyout firm weighs a bid to return the home security group to private ownership after a difficult year on the public markets.",
+      "title": "Air India Chief Seeks to Cut $650 Million in Costs This Year",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-25/air-india-chief-seeks-to-cut-650-million-in-costs-this-year",
+      "raw_summary": "Air India Ltd. is looking to cut costs by 60 billion rupees ($650 million) this financial year as its new chief executive officer outlined initiatives to revive the loss-making airline, people familiar with the matter said.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 25 Nov 2026 15:07:25 GMT",
-      "summary": "Banks Pitch CVC €11 Billion Debt for Possible Verisure Deal\nBanks are offering CVC Capital Partners Plc up to €11 billion ($12 billion) in debt financing for a takeover of Verisure Plc, as the buyout firm weighs a bid to return the home security group to private ownership after a difficult year on t"
+      "published": "Wed, 25 Nov 2026 15:20:13 GMT",
+      "summary": "Air India Chief Seeks to Cut $650 Million in Costs This Year\nAir India Ltd. is looking to cut costs by 60 billion rupees ($650 million) this financial year as its new chief executive officer outlined initiatives to revive the loss-making airline, people familiar with the matter said."
     },
     {
-      "title": "The RealReal CEO Sees Resale’s Structural Shift",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-25/the-realreal-ceo-sees-resale-s-structural-shift-video",
-      "raw_summary": "Data shows that consumer spending stalled in October. The RealReal CEO Rati Sahi Levesque  joined Bloomberg Open Interest to talk about what she is seeing and how shoppers are turning to resale for value. (Source: Bloomberg)",
+      "title": "Modi’s Criticism of India Inc. Puts Weak Investment in Focus",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-26/modi-s-criticism-of-india-inc-puts-weak-investment-in-focus",
+      "raw_summary": "Prime Minister Narendra Modi’s sharp criticism of Indian businesses last week exposed an underlying weakness in the economy’s booming growth story.",
       "source": "Bloomberg Markets",
-      "published": "Wed, 25 Nov 2026 16:15:46 GMT",
-      "summary": "The RealReal CEO Sees Resale’s Structural Shift\nData shows that consumer spending stalled in October. The RealReal CEO Rati Sahi Levesque  joined Bloomberg Open Interest to talk about what she is seeing and how shoppers are turning to resale for value. (Source: Bloomberg)"
+      "published": "Thu, 26 Nov 2026 01:00:00 GMT",
+      "summary": "Modi’s Criticism of India Inc. Puts Weak Investment in Focus\nPrime Minister Narendra Modi’s sharp criticism of Indian businesses last week exposed an underlying weakness in the economy’s booming growth story."
+    },
+    {
+      "title": "French Senate blocks new crypto tax and wallet list critics called a kidnapping risk",
+      "link": "https://www.coindesk.com/business/2026/11/25/french-senate-blocks-new-crypto-tax-and-wallet-list-critics-called-a-kidnapping-risk",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 25 Nov 2026 18:24:47 +0000",
+      "summary": "French Senate blocks new crypto tax and wallet list critics called a kidnapping risk\n"
+    },
+    {
+      "title": "'This time actually seems different': Crypto veterans brace for more pain as bitcoin tumbles",
+      "link": "https://www.coindesk.com/markets/2026/11/25/this-time-actually-seems-different-crypto-veterans-brace-for-more-pain-as-bitcoin-tumbles",
+      "raw_summary": "",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "published": "Wed, 25 Nov 2026 17:38:33 +0000",
+      "summary": "'This time actually seems different': Crypto veterans brace for more pain as bitcoin tumbles\n"
     },
     {
       "title": "EU bank watchdog seeks European Commission rules for crypto firms offering DeFi lending",
@@ -305,22 +321,6 @@
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "published": "Wed, 25 Nov 2026 15:59:44 +0000",
       "summary": "Crypto Long & Short: Bitcoin investors can’t keep ignoring Japan\n"
-    },
-    {
-      "title": "South Korean crypto exchange Bithumb warns of phishing after deeper October breach probe",
-      "link": "https://www.coindesk.com/tech/2026/11/25/south-korean-crypto-exchange-bithumb-warns-of-phishing-after-deeper-october-breach-probe",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 25 Nov 2026 14:47:17 +0000",
-      "summary": "South Korean crypto exchange Bithumb warns of phishing after deeper October breach probe\n"
-    },
-    {
-      "title": "Fed’s preferred inflation gauge lands with a December rate increase already priced in",
-      "link": "https://www.coindesk.com/daybook-us/2026/11/25/fed-s-preferred-inflation-gauge-lands-with-a-december-rate-increase-already-priced-in",
-      "raw_summary": "",
-      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-      "published": "Wed, 25 Nov 2026 12:18:46 +0000",
-      "summary": "Fed’s preferred inflation gauge lands with a December rate increase already priced in\n"
     }
   ]
 }
